@@ -1,0 +1,30 @@
+# Ambientes virtuais
+venv/
+.env
+.env.*
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Dados locais e documentos sensíveis
+02_publicacoes_cientificas_ran/*
+03_documentos_autorizados/*
+04_documentos_pendentes_avaliacao/*
+05_documentos_sensiveis_nao_indexar/*
+07_processados/*
+
+# Planilhas preenchidas com dados reais
+06_inventario/*.xlsx
+06_inventario/*.csv
+
+# Arquivos comuns de sistema
+.DS_Store
+Thumbs.db
+
+# Permitir manter estrutura de pastas
+!02_publicacoes_cientificas_ran/.gitkeep
+!03_documentos_autorizados/.gitkeep
+!04_documentos_pendentes_avaliacao/.gitkeep
+!05_documentos_sensiveis_nao_indexar/.gitkeep
+!07_processados/.gitkeep

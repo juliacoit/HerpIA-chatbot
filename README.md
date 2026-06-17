@@ -36,6 +36,10 @@ Em desenvolvimento — fase inicial. Estrutura de pastas e fontes de dados defin
 
 Este repositório não deve conter PDFs internos, documentos sensíveis, arquivos do SEI, dados pessoais ou informações ambientais restritas.
 
+## Infraestrutura
+
+O protótipo roda localmente na máquina da desenvolvedora via Docker Compose. A migração para servidor local dedicado na infraestrutura do RAN/ICMBio é planejada para após a validação do protótipo. Ver [`docs/infraestrutura-local.md`](./docs/infraestrutura-local.md).
+
 ## Para desenvolvedores e sessões de IA
 
-Consulte [`CLAUDE.md`](./CLAUDE.md) para o contexto completo do projeto, arquitetura planejada, regras sobre dados sensíveis e próximas etapas.
+Consulte [`CLAUDE.md`](./CLAUDE.md) para o contexto completo do projeto, arquitetura planejada, regras sobre dados sensíveis e próximas etapas. Decisões técnicas registradas em [`docs/decisoes/`](./docs/decisoes/).

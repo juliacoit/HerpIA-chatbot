@@ -25,3 +25,6 @@ Thumbs.db
 # Documentos binários coletados de fontes web (PDFs, planilhas etc.)
 # Os metadados (JSON) com os links permanecem versionados.
 01_fontes_web/**/documentos/
+
+# Relatório gerado pelo script de download
+01_fontes_web/pans/relatorio_download.json

@@ -114,9 +114,16 @@ chatbot-ran-icmbio/
 9. Implementar a geração de respostas com citação de fontes.
 10. Validar o protótipo com técnicos e gestores do RAN/ICMBio.
 
+## Infraestrutura
+
+O protótipo está sendo desenvolvido e executado na **máquina local da desenvolvedora** (via Docker Compose). A migração para um servidor local dedicado na infraestrutura do RAN/ICMBio é a evolução desejável — melhora organização, segurança e escalabilidade — mas **não é prioridade imediata**. Deve ocorrer após o fluxo básico de RAG estar funcionando e validado localmente.
+
+Ver detalhes em [`docs/infraestrutura-local.md`](docs/infraestrutura-local.md) e ADR [0003](docs/decisoes/0003-infraestrutura-prototipo-local-antes-de-servidor-dedicado.md).
+
 ## Observações para sessões futuras do Claude Code
 
 - Este projeto está em fase inicial — a maior parte das pastas existe como estrutura preparada, ainda sem conteúdo processado.
+- O foco atual é implementar o protótipo RAG localmente. Não sugerir nem iniciar migração para servidor dedicado antes da validação do protótipo.
 - Nunca mover, apagar ou sobrescrever documentos, PDFs ou planilhas sem autorização explícita do usuário.
 - Nunca expor, copiar ou resumir o conteúdo de documentos sensíveis ou pendentes de avaliação.
 - O projeto tem prazo de até um ano para desenvolvimento; a atualização da base de conhecimento será semestral.

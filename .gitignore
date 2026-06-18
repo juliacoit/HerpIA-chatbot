@@ -6,6 +6,7 @@ env/
 # Variáveis de ambiente e chaves
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 
@@ -28,3 +29,15 @@ Thumbs.db
 
 # Relatório gerado pelo script de download
 01_fontes_web/pans/relatorio_download.json
+
+# Docker overrides locais (não versionar)
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Dados locais fora do Docker
+data/
+volumes/
+
+# Logs
+*.log
+logs/

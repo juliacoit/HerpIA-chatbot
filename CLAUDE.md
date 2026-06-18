@@ -120,6 +120,34 @@ O protótipo está sendo desenvolvido e executado na **máquina local da desenvo
 
 Ver detalhes em [`docs/infraestrutura-local.md`](docs/infraestrutura-local.md) e ADR [0003](docs/decisoes/0003-infraestrutura-prototipo-local-antes-de-servidor-dedicado.md).
 
+## Infraestrutura com dois computadores
+
+O projeto está configurado para rodar com dois computadores em rede local:
+
+### PC de desenvolvimento
+- Onde o código é escrito (VS Code, Claude Code).
+- Roda scripts Python, pipelines e testes.
+- Usa Git/GitHub para versionamento.
+- Acessa PostgreSQL e Qdrant do servidor via **túnel SSH**.
+
+### PC servidor local
+- Roda PostgreSQL e Qdrant via Docker Compose.
+- Armazena os dados reais: PDFs processados, chunks, embeddings, metadados.
+- Futuramente poderá rodar FastAPI e a interface Streamlit.
+- Portas expostas **apenas em `127.0.0.1`** — nunca diretamente na rede.
+
+### Túnel SSH (comando padrão)
+```bash
+ssh -N -L 5432:localhost:5432 -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
+```
+
+### Regras de segurança (reforço para sessões de IA)
+- **Nunca versionar `.env`** — contém senhas e chaves reais.
+- **Nunca colocar chaves de API ou senhas diretamente no código.**
+- Use sempre `.env.example` com valores fictícios para documentar variáveis.
+- As portas `5432`, `6333` e `6334` devem permanecer restritas ao `127.0.0.1` no `docker-compose.yml`.
+- Dados sensíveis (`04_*`, `05_*`) nunca devem ser processados automaticamente.
+
 ## Observações para sessões futuras do Claude Code
 
 - Este projeto está em fase inicial — a maior parte das pastas existe como estrutura preparada, ainda sem conteúdo processado.

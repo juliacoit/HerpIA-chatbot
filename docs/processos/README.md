@@ -12,6 +12,7 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 
 | Processo | Etapa do pipeline | Status |
 |----------|--------------------|--------|
+| [Conexão PC de desenvolvimento ↔ PC servidor (SMB)](conexao_pc_dev_servidor.md) | Infraestrutura | 🔶 Em desenvolvimento |
 | [Coleta das fontes web](coleta_fontes_web.md) | Fontes de dados → Extração | A definir |
 | [**Coleta de PANs (Planos de Ação Nacional)**](coleta_pans_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [Extração de PDFs](extracao_pdfs.md) | Extração e limpeza | A definir |

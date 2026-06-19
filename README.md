@@ -36,9 +36,14 @@ Em desenvolvimento — fase inicial. Estrutura de pastas e fontes de dados defin
 
 Este repositório não deve conter PDFs internos, documentos sensíveis, arquivos do SEI, dados pessoais ou informações ambientais restritas.
 
-## Infraestrutura
+## Infraestrutura local
 
-O protótipo roda localmente na máquina da desenvolvedora via Docker Compose. A migração para servidor local dedicado na infraestrutura do RAN/ICMBio é planejada para após a validação do protótipo. Ver [`docs/infraestrutura-local.md`](./docs/infraestrutura-local.md).
+O projeto pode ser executado com dois computadores em rede local:
+
+- **PC de desenvolvimento** — onde o código é escrito (VS Code / Claude Code), scripts são executados e versionamento Git é feito.
+- **PC servidor local** — onde rodam PostgreSQL e Qdrant via Docker, e onde ficam os dados reais (PDFs, chunks, embeddings, metadados).
+
+O acesso do PC de desenvolvimento ao servidor é feito via **túnel SSH**, sem expor os serviços diretamente na rede. Veja o guia completo em [`docs/infraestrutura-local.md`](./docs/infraestrutura-local.md).
 
 ## Para desenvolvedores e sessões de IA
 

@@ -9,6 +9,8 @@ Uso:
     python download_documentos_pans.py --pan pan-herpetofauna-do-nordeste
     python download_documentos_pans.py --dry-run
     python download_documentos_pans.py --apenas-herpetofauna
+    python download_documentos_pans.py --servidor 10.62.62.191
+    python download_documentos_pans.py --servidor 10.62.62.191 --apenas-herpetofauna
 """
 
 import argparse
@@ -19,7 +21,20 @@ from pathlib import Path
 
 import requests
 
-PANS_DIR = Path(__file__).resolve().parents[2] / "01_fontes_web" / "pans"
+def _get_pans_dir(servidor=None):
+    """Retorna o caminho para a pasta de PANs.
+
+    Se servidor for fornecido, retorna um caminho UNC remoto.
+    Caso contrário, retorna o caminho local do projeto.
+    """
+    if servidor:
+        # Caminho UNC para o compartilhamento SMB remoto
+        return Path(f"\\\\{servidor}\\pans_dados\\01_fontes_web\\pans")
+    else:
+        # Caminho local padrão
+        return Path(__file__).resolve().parents[2] / "01_fontes_web" / "pans"
+
+PANS_DIR = None  # Será definido em main() após parsing dos argumentos
 HEADERS = {"User-Agent": "Mozilla/5.0 (coleta RAN/ICMBio chatbot; uso interno)"}
 PAUSA_ENTRE_REQUISICOES = 1.0  # segundos
 MAX_TENTATIVAS = 3
@@ -95,11 +110,35 @@ def baixar_arquivo(url, destino, sessao):
 
 
 def main():
+    global PANS_DIR
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--dry-run", action="store_true", help="Lista arquivos sem baixar")
     parser.add_argument("--pan", metavar="SLUG", help="Baixa apenas o PAN especificado")
     parser.add_argument("--apenas-herpetofauna", action="store_true", help="Baixa apenas os PANs de herpetofauna")
+    parser.add_argument(
+        "--servidor",
+        metavar="IP",
+        help="IP ou hostname do servidor para download remoto (ex: 10.62.62.191 ou RAN_AvalFauna_FHF9703)"
+    )
     args = parser.parse_args()
+
+    # Definir PANS_DIR baseado no parâmetro --servidor
+    PANS_DIR = _get_pans_dir(args.servidor)
+
+    # Validar acesso ao caminho
+    if not PANS_DIR.exists():
+        log.error(f"Caminho não acessível: {PANS_DIR}")
+        if args.servidor:
+            log.error("Verifique se:")
+            log.error(f"  1. O servidor {args.servidor} está online e acessível")
+            log.error(f"  2. O compartilhamento 'pans_dados' foi criado (execute setup_compartilhamento_pans.ps1)")
+            log.error(f"  3. Há conexão de rede entre os computadores")
+        return
+
+    # Informar modo de execução
+    modo = "REMOTO" if args.servidor else "LOCAL"
+    log.info(f"Modo de download: {modo}")
+    log.info(f"Destino: {PANS_DIR}")
 
     todos_metadados = carregar_metadados(args.pan, args.apenas_herpetofauna)
     if not todos_metadados:

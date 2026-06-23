@@ -90,3 +90,14 @@ Na primeira tentativa de configurar essa conexão, foram encontrados três obst�
 - Repetir o teste de conectividade (`ping` + `nc -zv ... 445`) assim que a configuração de rede for ajustada, antes de tentar o `mount` SMB.
 
 **Status no fim da sessão (2026-06-23):** técnico de redes indicou que VPN não é necessária e que o bloqueio é uma questão de configuração; recomendou instalar Linux no PC servidor (motivo a confirmar); aguardando detalhamento da configuração necessária.
+
+## Atualização (2026-06-23, mesma sessão) — reteste após reinício local
+
+Repetido o teste de conectividade após reiniciar apenas o PC de desenvolvimento (WSL), sem nenhuma mudança de configuração por parte do TI:
+
+```bash
+ping -c 3 10.62.62.191      # 100% de perda de pacotes
+nc -zv 10.62.62.191 445     # timeout
+```
+
+Resultado: mesmo bloqueio de antes — sem rota até o servidor. Confirma que o problema é de configuração de rede do lado da infraestrutura (ainda não ajustada), e não algo resolvível por reinício local. Continua aguardando o técnico de redes detalhar e aplicar o ajuste necessário.

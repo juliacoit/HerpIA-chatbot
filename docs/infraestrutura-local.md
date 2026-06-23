@@ -143,3 +143,26 @@ python scripts/check_services.py
 - As portas `5432`, `6333` e `6334` ficam restritas ao `127.0.0.1` — isso é intencional.
 - Não exponha as portas diretamente na rede sem revisar as implicações de segurança.
 - Dados em `04_documentos_pendentes_avaliacao/` e `05_documentos_sensiveis_nao_indexar/` nunca devem ser processados automaticamente.
+
+## Troubleshooting
+
+### Healthcheck do Qdrant falhando com `curl: not found`
+
+Ao subir os serviços (`docker compose up -d`) na máquina de desenvolvimento em 2026-06-23, o container `ran_qdrant` ficou marcado como `unhealthy` mesmo respondendo normalmente em `http://127.0.0.1:6333`. A causa: o healthcheck original usava `curl`, mas a imagem `qdrant/qdrant:latest` não inclui `curl` (nem `wget`).
+
+```
+docker inspect ran_qdrant --format '{{json .State.Health}}'
+# Output: "/bin/sh: 1: curl: not found"
+```
+
+Corrigido trocando o healthcheck no `docker-compose.yml` por um teste de conexão TCP via `bash` (disponível na imagem):
+
+```yaml
+healthcheck:
+  test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/6333' || exit 1"]
+  interval: 15s
+  timeout: 5s
+  retries: 5
+```
+
+Após a correção, `docker compose ps` passou a mostrar `ran_qdrant` como `healthy`.

@@ -15,6 +15,7 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [Conexão PC de desenvolvimento ↔ PC servidor (SMB)](conexao_pc_dev_servidor.md) | Infraestrutura | 🔶 Em desenvolvimento |
 | [Coleta das fontes web](coleta_fontes_web.md) | Fontes de dados → Extração | A definir |
 | [**Coleta de PANs (Planos de Ação Nacional)**](coleta_pans_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
+| [**Coleta do Programa Monitora**](coleta_monitora_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [Extração de PDFs](extracao_pdfs.md) | Extração e limpeza | A definir |
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |
 | [Chunking e geração de embeddings](chunking_embeddings.md) | Chunking → Embeddings → Banco vetorial | A definir |

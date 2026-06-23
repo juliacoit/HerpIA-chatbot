@@ -6,6 +6,8 @@ O protótipo está sendo desenvolvido e executado na máquina local da desenvolv
 
 Isso é adequado para a fase atual — construir e validar o fluxo básico de RAG — mas não é a configuração de longo prazo.
 
+**Status (2026-06-23):** `postgres` (`ran_postgres`) e `qdrant` (`ran_qdrant`) subidos via `docker compose up -d` na máquina de desenvolvimento, com `.env` configurado. Ambos os containers reportam `healthy` (`docker compose ps`) e foram validados a partir do Python com `python scripts/check_services.py` — Qdrant acessível em `http://localhost:6333` e PostgreSQL aceitando conexões em `localhost:5432`. Ver detalhes do ajuste do healthcheck do Qdrant na seção [Troubleshooting](#troubleshooting) abaixo.
+
 ## Evolução planejada: servidor local dedicado
 
 Após o fluxo básico de RAG estar funcionando, o sistema deverá ser migrado para um **servidor local dedicado**, hospedado na infraestrutura do RAN/ICMBio. Essa migração é a evolução desejável porque:

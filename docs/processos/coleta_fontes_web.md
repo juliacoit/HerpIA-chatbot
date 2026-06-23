@@ -27,6 +27,7 @@ Varia por fonte — ver análise por site abaixo. Provavelmente duas abordagens 
 Cada fonte web tem uma estrutura muito diferente, então não dá para usar um único scraper genérico — é preciso um coletor por site.
 
 ### Programa Monitora
+- ✅ **Implementado** em `scripts/coleta/coleta_monitora.py` — ver detalhamento completo em [`coleta_monitora_detalhado.md`](coleta_monitora_detalhado.md).
 - Página HTML tradicional (gov.br), sem necessidade de renderização JS.
 - Conteúdo organizado por **tipo de recurso** (Materiais de Apoio, Artigos Monitora, Estrutura do Programa, Relatórios, Dados, Legislação) e por **subprograma** (Terrestre, Aquático Continental, Marinho/Costeiro) — não por espécie.
 - Há painéis interativos em **Power BI** embutidos (painel de dados gerenciais e painel do relatório florestal) — esses painéis não são HTML simples; dados neles exigem ou exportação manual, ou descobrir se o Power BI expõe uma API/dataset público.

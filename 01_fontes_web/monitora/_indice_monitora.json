@@ -1,0 +1,80 @@
+{
+  "categorias": [
+    {
+      "nome": "Materiais de Apoio",
+      "slug": "materiais-de-apoio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/Materiais-de-Apoio",
+      "data_coleta": "2026-06-23",
+      "padrao": "secoes",
+      "total_documentos": 94
+    },
+    {
+      "nome": "Artigos",
+      "slug": "artigos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/artigos-Monitora",
+      "data_coleta": "2026-06-23",
+      "padrao": "secoes",
+      "total_documentos": 27
+    },
+    {
+      "nome": "Estrutura do Programa Monitora",
+      "slug": "estrutura-do-programa",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/estrutura-do-programa-monitora",
+      "data_coleta": "2026-06-23",
+      "padrao": "flat",
+      "total_documentos": 1
+    },
+    {
+      "nome": "Relatórios",
+      "slug": "relatorios",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/relatorios",
+      "data_coleta": "2026-06-23",
+      "padrao": "flat",
+      "total_documentos": 10
+    },
+    {
+      "nome": "Dados",
+      "slug": "dados",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/dados",
+      "data_coleta": "2026-06-23",
+      "padrao": "listagem",
+      "total_documentos": 2
+    },
+    {
+      "nome": "Livros, Monografias, Dissertações e Teses",
+      "slug": "livros",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/livros/livros",
+      "data_coleta": "2026-06-23",
+      "padrao": "secoes",
+      "total_documentos": 13
+    },
+    {
+      "nome": "Legislação",
+      "slug": "legislacao",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/legislacao/legislacao",
+      "data_coleta": "2026-06-23",
+      "padrao": "flat",
+      "total_documentos": 6
+    },
+    {
+      "nome": "Encontro dos Saberes",
+      "slug": "encontro-dos-saberes",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/conteudo/encontro-dos-saberes",
+      "data_coleta": "2026-06-23",
+      "padrao": "secoes",
+      "total_documentos": 10
+    }
+  ],
+  "paineis_powerbi_nao_coletados": [
+    {
+      "nome": "Painel de dados gerenciais do Programa Monitora",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiOWNlNDA5MmEtODQ0Ny00ZjdlLTllZDItZDMyZTM3YzlhMjU3IiwidCI6ImMxNGUyYjU2LWM1YmMtNDNiZC1hZDljLTQwOGNmNmNjMzU2MCJ9",
+      "motivo": "SPA do Power BI, sem HTML estático; dados exigiriam exportação manual ou descoberta de API."
+    },
+    {
+      "nome": "Painel Interativo Relatório Florestal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/monitoramento/painel-interativo-relatorio-florestal-1",
+      "motivo": "Página gov.br que embute painel Power BI; mesmo motivo do painel gerencial."
+    }
+  ]
+}

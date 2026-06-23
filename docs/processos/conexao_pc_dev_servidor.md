@@ -1,7 +1,7 @@
 # Conexão PC de desenvolvimento ↔ PC servidor (SMB)
 
-- **Status:** Em desenvolvimento (bloqueado — aguardando confirmação do TI sobre Identity Agent)
-- **Última atualização:** 2026-06-19
+- **Status:** Em desenvolvimento (bloqueado — sem rota de rede até o servidor; aguardando TI ajustar configuração de rede, sem necessidade de VPN)
+- **Última atualização:** 2026-06-23
 - **Responsável(eis):** Julia (desenvolvedora)
 
 ## Objetivo
@@ -59,4 +59,34 @@ Na primeira tentativa de configurar essa conexão, foram encontrados três obst�
    - Se o agente é parte oficial da infraestrutura de rede do ICMBio.
    - Se é obrigatório instalá-lo para acesso contínuo, ou se a autenticação no portal já é suficiente para a sessão atual.
 
-**Status no fim da sessão:** aguardando resposta do TI antes de prosseguir com a instalação do Identity Agent e a montagem efetiva do compartilhamento.
+**Status no fim da sessão (2026-06-19):** aguardando resposta do TI antes de prosseguir com a instalação do Identity Agent e a montagem efetiva do compartilhamento.
+
+## Atualização (2026-06-22) — autenticação no Identity Agent e indicação de VPN
+
+1. **Autenticação concluída**: foi possível conectar à rede usando usuário e senha institucionais no portal/Identity Agent (sem precisar instalar nada adicional no PC de desenvolvimento).
+2. **Teste de conectividade até o servidor (com Identity Agent ativo, sem VPN)**:
+   ```bash
+   ping -c 3 10.62.62.191      # 100% de perda de pacotes
+   nc -zv 10.62.62.191 445     # sem resposta (timeout silencioso)
+   ```
+   Resultado: **sem rota até o servidor**, mesmo autenticado na rede via Identity Agent.
+3. **Interpretação**: a falha indica segmentação de rede (VLANs) — o Identity Agent libera acesso a um segmento de rede, mas esse segmento aparentemente não tem rota até a VLAN onde o servidor (`10.62.62.191`) está. Não é um problema de porta bloqueada por host, e sim de roteamento/firewall entre segmentos, controlado pela infraestrutura do TI.
+4. **Gerente de TI indicou configurar uma VPN** para viabilizar o acesso. Avaliada também a alternativa de instalar o Identity Agent no PC servidor — descartada por dois motivos:
+   - Tecnicamente, o agente autentica o *dispositivo cliente* na rede; ele não cria rotas entre VLANs, então não resolveria o problema de roteamento identificado no teste acima.
+   - O PC servidor armazena os dados reais do projeto (PDFs, banco vetorial, PostgreSQL — potencialmente sensíveis); instalar ali um software adicional de NAC com acesso à rede/identidade aumenta a superfície de risco e não deveria ser feito sem confirmação explícita do TI, na mesma linha de cautela já registrada para o PC de desenvolvimento.
+5. **Próximo passo**: solicitar ao TI (a) o cliente VPN a ser usado, (b) o perfil/certificado de configuração, e (c) confirmação de que a VPN oferece rota até `10.62.62.191` especificamente (não apenas acesso geral à rede institucional). Repetir o teste de conectividade (`ping` + `nc -zv ... 445`) após conectar a VPN, antes de tentar o `mount` SMB.
+
+**Status no fim da sessão (2026-06-22):** autenticação na rede via Identity Agent funcionando; sem rota até o servidor confirmada por teste; aguardando TI fornecer configuração de VPN.
+
+## Atualização (2026-06-23) — conversa com técnico de redes: VPN não é necessária
+
+1. **Conversa com o técnico de redes do ICMBio**: ao relatar o resultado dos testes de conectividade (sem rota até `10.62.62.191`, ver atualização de 2026-06-22), o técnico informou que, em princípio, **não há necessidade de VPN** — a rede cabeada (onde está o servidor) se comunica normalmente com a rede wifi (usada pelo PC de desenvolvimento). Segundo ele, o problema é **apenas uma questão de configuração** de rede a ser ajustada do lado da infraestrutura, não uma limitação estrutural de segmentação que exigisse VPN.
+2. **Recomendação adicional do técnico**: instalar **Linux no PC servidor** (em vez de manter o sistema atual). Motivo específico não detalhado nesta conversa — registrar para confirmar com o técnico antes de agir, já que essa mudança no PC servidor teria impacto maior (reinstalação de SO, dados/configuração já existentes no servidor).
+3. **Implicação para o plano anterior**: a indicação de VPN do gerente de TI (2026-06-22) parece ter sido substituída pela orientação do técnico de redes (ajuste de configuração, sem VPN). Ainda não há detalhes de qual configuração específica precisa ser ajustada nem por quem (TI ou desenvolvedora) — a confirmar.
+
+**Próximos passos:**
+- Confirmar com o técnico de redes **qual configuração** precisa ser ajustada (ex.: rota estática, regra de firewall entre VLANs/segmentos, configuração de switch) e quem é responsável por aplicá-la.
+- Perguntar o motivo específico da recomendação de instalar Linux no PC servidor antes de decidir se/quando migrar o SO — **não realizar essa migração sem autorização explícita e confirmação dos detalhes**, dado que o servidor já tem dados e configuração em uso.
+- Repetir o teste de conectividade (`ping` + `nc -zv ... 445`) assim que a configuração de rede for ajustada, antes de tentar o `mount` SMB.
+
+**Status no fim da sessão (2026-06-23):** técnico de redes indicou que VPN não é necessária e que o bloqueio é uma questão de configuração; recomendou instalar Linux no PC servidor (motivo a confirmar); aguardando detalhamento da configuração necessária.

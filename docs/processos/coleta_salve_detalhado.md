@@ -1,14 +1,14 @@
 # Mapeamento técnico do SALVE (preparação da coleta)
 
-- **Status:** Em desenvolvimento (mapeamento concluído, script de coleta ainda não implementado)
+- **Status:** Em desenvolvimento (mapeamento concluído; script implementado, ainda sem execução completa validada)
 - **Última atualização:** 2026-06-24
-- **Responsável(eis):** Investigação manual via `curl` (sem script ainda)
+- **Responsável(eis):** Script `scripts/coleta/coleta_salve.py`
 
 ## Objetivo
 
 Mapear a estrutura técnica real do SALVE (Sistema de Avaliação do Risco de Extinção da Biodiversidade) para viabilizar um script de coleta de **metadados** das fichas de espécies — com foco em herpetofauna (Répteis e Anfíbios) para o RAN —, seguindo o mesmo padrão de saída (JSON por categoria/grupo) usado em `coleta_monitora.py` e `coleta_pans.py`.
 
-Este documento registra o que foi descoberto até agora. O script de coleta (`scripts/coleta/coleta_salve.py`) ainda **não foi escrito** — este é o trabalho de mapeamento que o precede.
+Este documento registra o que foi descoberto no mapeamento e como o script de coleta (`scripts/coleta/coleta_salve.py`) foi implementado a partir dele. O script já existe e foi testado pontualmente (chamadas isoladas à API durante o mapeamento), mas **ainda não rodou de ponta a ponta** para a base completa de Répteis/Anfíbios — ver ressalva de volume nos Próximos passos.
 
 ## Contexto: por que o SALVE precisou de uma investigação diferente
 
@@ -121,19 +121,19 @@ Não investigado — exige login institucional (SICA-e). Fora do escopo de colet
 - Paginação do `/search?grupoIds=1266,1257&paginationPageSize=<N>` até esgotar `paginationTotalPages`.
 - Para cada `id_ficha` retornado, uma chamada a `/fichaHtml` por seção (11 seções listadas acima).
 
-## Saídas (proposta, a confirmar ao implementar)
+## Saídas
 
 Seguindo o padrão de `01_fontes_web/monitora/` e `01_fontes_web/pans/`:
 
 ```
 01_fontes_web/salve/
-├── _indice_salve.json                 # resumo: total de fichas por grupo/categoria, data de coleta
+├── _indice_salve.json                 # resumo: grupos coletados, total de fichas, lista resumida
 └── fichas/
     └── <slug-nome-cientifico>/
         └── metadados.json            # categoria, taxonomia, e o texto de cada seção
 ```
 
-Cada `metadados.json` deveria registrar, no mínimo: `id_ficha` (token), nome científico, categoria de risco (sigla + descrição), grupo, data da última avaliação/publicação, URL de origem (a própria API), data de coleta, e o conteúdo de cada seção (texto bruto em HTML, a ser limpo na etapa de extração).
+Cada `metadados.json` registra: `id_ficha` (token opaco), nome científico (bruto e o nome atual aceito), nome comum, grupo, categoria de risco (sigla + descrição completa), bioma, período de avaliação, situação da ficha, flag de exclusão/sinonímia (`excluida` + justificativa), DOI, URL de origem (a própria API), data de coleta, e o conteúdo de cada uma das 11 seções (texto bruto em HTML, a ser limpo na etapa de extração).
 
 **Ainda não decidido:** se as 11 seções de cada ficha entram como 11 chunks separados (aproveitando a divisão natural da API) ou se são concatenadas num único texto por ficha antes do chunking padrão do pipeline. Ponto a discutir na etapa de geração de embeddings/chunks (`07_processados/`), não nesta etapa de mapeamento.
 
@@ -142,10 +142,22 @@ Cada `metadados.json` deveria registrar, no mínimo: `id_ficha` (token), nome ci
 - **Python 3.10+**, **requests** — chamadas diretas à API JSON (não é necessário BeautifulSoup nem renderização JS: a API devolve JSON estruturado).
 - Não é necessário Playwright/Selenium — a suposição inicial de que o SALVE exigiria renderização JS (`coleta_fontes_web.md`) **não se confirmou** depois de localizar a API REST por trás do front-end.
 
+## Passo a passo para executar
+
+```bash
+cd chatbot-ran-icmbio
+source venv/Scripts/activate  # Windows (PowerShell: venv\Scripts\Activate.ps1)
+# ou
+source venv/bin/activate      # Linux/macOS
+
+python scripts/coleta/coleta_salve.py --limite 3 --atraso 0.5   # teste rápido
+python scripts/coleta/coleta_salve.py --atraso 1.0              # coleta completa (ver ressalva de volume abaixo)
+```
+
 ## Próximos passos
 
-1. Implementar `scripts/coleta/coleta_salve.py`: paginar `/search?grupoIds=1266,1257`, depois buscar as 11 seções de `/fichaHtml` para cada `id_ficha`, salvando em `01_fontes_web/salve/fichas/<slug>/metadados.json`.
-2. Decidir um `--atraso` padrão entre requisições (mesmo padrão usado em `coleta_monitora.py`/`coleta_pans.py`) — com 2086 fichas × 11 seções, são ~22.946 requisições só de conteúdo, então isso precisa de um intervalo educado e, possivelmente, execução em lotes/retomável.
+1. **Validar uma execução completa**: `scripts/coleta/coleta_salve.py` já implementa a paginação de `/search?grupoIds=1266,1257` e a busca das 11 seções de `/fichaHtml` por `id_ficha`, salvando em `01_fontes_web/salve/fichas/<slug>/metadados.json` + `_indice_salve.json` — mas ainda não rodou de ponta a ponta para confirmar tempo total e taxa de erros/retries em volume real.
+2. **Ressalva de volume**: 2086 fichas × 11 seções = ~22.946 requisições de conteúdo, além da paginação da busca. Com `--atraso 1.0` (padrão), a coleta completa leva horas. Avaliar se vale reduzir o atraso, rodar em lotes (ex.: separar Répteis de Anfíbios) ou tornar a coleta retomável (pular fichas já salvas em disco) antes da execução de produção.
 3. Avaliar se vale usar `/fichaPdf/<idFicha>` como alternativa/complemento ao `/fichaHtml` por seção (PDF oficial pode ser mais citável como "fonte", mas exige extração de PDF depois).
 4. Testar `/selectOptions` -> `categories` para mapear todas as siglas de categoria de risco (LC, NT, VU, EN, CR, etc.) e documentar o significado de cada uma.
 5. Confirmar se `id_ficha` é estável entre execuções (reavaliações podem gerar `id_ficha_versao_antiga` — ver campo já presente na resposta do `/search`) para não duplicar fichas históricas indevidamente.

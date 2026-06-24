@@ -1,6 +1,6 @@
 # Coleta das fontes web
 
-- **Status:** Em desenvolvimento (Monitora e PANs implementados; SALVE mapeado, script pendente; SEI fora de escopo de automação)
+- **Status:** Em desenvolvimento (Monitora e PANs implementados; SALVE mapeado e script implementado, execução completa pendente; SEI fora de escopo de automação)
 - **Última atualização:** 2026-06-24
 - **Responsável(eis):**
 
@@ -43,7 +43,7 @@ Cada fonte web tem uma estrutura muito diferente, então não dá para usar um �
 - **Relevância para o RAN:** é provavelmente a fonte web mais rica e estruturada para a herpetofauna — vários PANs tratam diretamente de répteis e anfíbios (ex.: tartarugas marinhas), com documentos oficiais citáveis sobre status de conservação e ações planejadas por espécie.
 
 ### SALVE
-- ✅ **Mapeamento técnico concluído** em 2026-06-24 — ver detalhamento completo em [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md). Script de coleta ainda não implementado.
+- ✅ **Mapeamento técnico concluído e script implementado** em 2026-06-24 (`scripts/coleta/coleta_salve.py`) — ver detalhamento completo em [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md). Ainda sem execução completa validada (ver ressalva de volume no documento detalhado).
 - O front-end de todos os módulos é uma SPA/app Vue.js, mas **isso não impediu a coleta**: inspecionando os arquivos JS servidos (sem precisar de navegador/Playwright) foi possível localizar a API REST real por trás do portal público — `https://salve.icmbio.gov.br/salve-api/public/` —, que inclusive **se autodocumenta** (`GET /salve-api/public/` lista todos os endpoints e parâmetros).
 - **O SALVE tem três módulos/URLs distintos**, cada um com finalidade diferente:
   - `salve.icmbio.gov.br/` — portal principal/público. **Fonte principal da coleta**: `/salve-api/public/search?grupoIds=1266,1257` (Répteis, Anfíbios) lista as fichas (2086 no total para a herpetofauna), e `/salve-api/public/fichaHtml?idFicha=<id>&section=<secao>` traz o conteúdo de cada ficha já dividido em 11 seções (header, taxonomia, distribuição, conservação, ameaças, referências bibliográficas, etc.).
@@ -58,7 +58,7 @@ Cada fonte web tem uma estrutura muito diferente, então não dá para usar um �
 ## Passo a passo
 
 - Monitora e PANs: ver passo a passo em [`coleta_monitora_detalhado.md`](coleta_monitora_detalhado.md) e [`coleta_pans_detalhado.md`](coleta_pans_detalhado.md).
-- SALVE: mapeamento técnico concluído (ver [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md)); script de coleta ainda a implementar.
+- SALVE: mapeamento técnico concluído e script implementado (ver [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md)); execução completa ainda a validar.
 - SEI: sem coleta automatizada prevista.
 
 ## Frequência de execução

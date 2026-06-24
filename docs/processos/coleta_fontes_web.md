@@ -1,7 +1,7 @@
 # Coleta das fontes web
 
-- **Status:** A definir
-- **Última atualização:** 2026-06-16
+- **Status:** Em desenvolvimento (Monitora e PANs implementados; SALVE mapeado, script pendente; SEI fora de escopo de automação)
+- **Última atualização:** 2026-06-24
 - **Responsável(eis):**
 
 ## Objetivo
@@ -43,17 +43,13 @@ Cada fonte web tem uma estrutura muito diferente, então não dá para usar um �
 - **Relevância para o RAN:** é provavelmente a fonte web mais rica e estruturada para a herpetofauna — vários PANs tratam diretamente de répteis e anfíbios (ex.: tartarugas marinhas), com documentos oficiais citáveis sobre status de conservação e ações planejadas por espécie.
 
 ### SALVE
-- É uma **SPA (Single Page Application)** em JavaScript em todos os módulos identificados — nenhum HTML inicial traz conteúdo renderizado. Um scraper tradicional (requests/BeautifulSoup) não funciona em nenhum deles.
-- **O SALVE tem pelo menos três módulos/URLs distintos**, cada um com finalidade diferente:
-  - `salve.icmbio.gov.br/#/` — portal principal/público.
-  - `salve.icmbio.gov.br/salve/` — módulo de **gestão interna** do processo de avaliação de risco; exige login institucional via SICA-e. Aqui ficam manuais do usuário, instruções normativas de avaliação de risco e diretrizes de revisão de fichas.
-  - `salve.icmbio.gov.br/salve-consulta/` — módulo de **consulta pública/participativa**; visualização é pública (sem login), mas contribuir com avaliações exige login. Tem filtros por nível taxonômico, nome científico/comum, e seções como "Espécie(s) em consulta ampla".
-- **Pista valiosa encontrada via busca:** identificamos uma URL real de API por trás do sistema — `salve.icmbio.gov.br/salve/api/pdf/doi/...` — confirmando que existe uma **API REST** (`/salve/api/...`) servindo os dados em JSON/PDF, em vez de o conteúdo ser só renderizado em tela.
-- Próximo passo recomendado para destravar essa fonte:
-  1. Abrir o site num navegador com as ferramentas de desenvolvedor (aba **Network**), navegar pela busca de espécies em `salve-consulta/` e capturar as chamadas a `/salve/api/...` que retornam dados estruturados.
-  2. Avaliar se esses endpoints são públicos e estáveis o suficiente para uso direto (mais eficiente que renderizar a página), ou se será necessário **Playwright/Selenium** simulando cliques nos filtros.
-- Essa investigação (mapear os endpoints reais) ainda não foi feita e é o bloqueador técnico atual para decidir a abordagem de coleta do SALVE.
-- **Relevância para o RAN:** é a fonte ideal para responder "qual a categoria de risco de extinção da espécie X?" e "quais fichas/documentos técnicos existem para essa espécie?" — dados estruturados por espécie (categoria atual, histórico de avaliações, registros de ocorrência), com quase 15 mil espécies da fauna brasileira avaliadas.
+- ✅ **Mapeamento técnico concluído** em 2026-06-24 — ver detalhamento completo em [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md). Script de coleta ainda não implementado.
+- O front-end de todos os módulos é uma SPA/app Vue.js, mas **isso não impediu a coleta**: inspecionando os arquivos JS servidos (sem precisar de navegador/Playwright) foi possível localizar a API REST real por trás do portal público — `https://salve.icmbio.gov.br/salve-api/public/` —, que inclusive **se autodocumenta** (`GET /salve-api/public/` lista todos os endpoints e parâmetros).
+- **O SALVE tem três módulos/URLs distintos**, cada um com finalidade diferente:
+  - `salve.icmbio.gov.br/` — portal principal/público. **Fonte principal da coleta**: `/salve-api/public/search?grupoIds=1266,1257` (Répteis, Anfíbios) lista as fichas (2086 no total para a herpetofauna), e `/salve-api/public/fichaHtml?idFicha=<id>&section=<secao>` traz o conteúdo de cada ficha já dividido em 11 seções (header, taxonomia, distribuição, conservação, ameaças, referências bibliográficas, etc.).
+  - `salve.icmbio.gov.br/salve-consulta/` — módulo de **consulta pública/participativa**; visualização pública (sem login), mas contribuir exige login. API própria (Grails, `POST ficha/consultaAmpla`) lista as espécies em consulta aberta no momento — secundário, não traz a categoria de risco consolidada.
+  - `salve.icmbio.gov.br/salve/` — módulo de **gestão interna**; exige login institucional via SICA-e. Não investigado, fora de escopo (mesma lógica do SEI/ICMBio).
+- **Relevância para o RAN:** é a fonte ideal para responder "qual a categoria de risco de extinção da espécie X?" e "quais fichas/documentos técnicos existem para essa espécie?" — dados estruturados por espécie (categoria atual, distribuição, conservação, ameaças, referências), sem necessidade de autenticação para a herpetofauna.
 
 ### SEI/ICMBio
 - Sistema eletrônico de gestão de **processos administrativos** institucionais (versão 2.0.18 identificada publicamente na tela de login), com autenticação em dois fatores — não é uma base de conhecimento científico, e sim o sistema de tramitação documental do órgão.
@@ -61,7 +57,9 @@ Cada fonte web tem uma estrutura muito diferente, então não dá para usar um �
 
 ## Passo a passo
 
-A definir, após a investigação técnica do SALVE (item pendente acima) e da estrutura de subpáginas dos PANs.
+- Monitora e PANs: ver passo a passo em [`coleta_monitora_detalhado.md`](coleta_monitora_detalhado.md) e [`coleta_pans_detalhado.md`](coleta_pans_detalhado.md).
+- SALVE: mapeamento técnico concluído (ver [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md)); script de coleta ainda a implementar.
+- SEI: sem coleta automatizada prevista.
 
 ## Frequência de execução
 

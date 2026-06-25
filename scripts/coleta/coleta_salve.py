@@ -149,7 +149,7 @@ def montar_registro(item: dict, secoes: dict, hoje: str) -> dict:
     }
 
 
-def coletar(atraso: float, limite: int | None) -> list[dict]:
+def coletar(atraso: float, limite: int | None, retomar: bool = False) -> list[dict]:
     pasta_fichas = OUTPUT_DIR / "fichas"
     pasta_fichas.mkdir(parents=True, exist_ok=True)
     hoje = date.today().isoformat()
@@ -160,6 +160,7 @@ def coletar(atraso: float, limite: int | None) -> list[dict]:
 
     slugs_usados: dict[str, int] = {}
     indice = []
+    puladas = 0
     for i, item in enumerate(fichas, start=1):
         nome_cientifico = limpar_html(item.get("nm_cientifico"))
         slug_base = slugificar(item.get("nm_cientifico_atual") or item.get("nm_cientifico") or item["id_ficha"])
@@ -167,16 +168,22 @@ def coletar(atraso: float, limite: int | None) -> list[dict]:
         slugs_usados[slug_base] = ocorrencias + 1
         slug = slug_base if ocorrencias == 0 else f"{slug_base}-{ocorrencias}"
 
-        print(f"[{i}/{len(fichas)}] {nome_cientifico} ({item.get('cd_categoria_final')}) -> {slug}")
-
-        secoes = coletar_secoes_ficha(item["id_ficha"], atraso)
-        registro = montar_registro(item, secoes, hoje)
-
         pasta_ficha = pasta_fichas / slug
-        pasta_ficha.mkdir(parents=True, exist_ok=True)
-        (pasta_ficha / "metadados.json").write_text(
-            json.dumps(registro, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+        arquivo_existente = pasta_ficha / "metadados.json"
+
+        if retomar and arquivo_existente.exists():
+            print(f"[{i}/{len(fichas)}] {slug} — já coletada, pulando")
+            puladas += 1
+        else:
+            print(f"[{i}/{len(fichas)}] {nome_cientifico} ({item.get('cd_categoria_final')}) -> {slug}")
+            secoes = coletar_secoes_ficha(item["id_ficha"], atraso)
+            registro = montar_registro(item, secoes, hoje)
+            pasta_ficha.mkdir(parents=True, exist_ok=True)
+            arquivo_existente.write_text(
+                json.dumps(registro, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            if i < len(fichas):
+                time.sleep(atraso)
 
         indice.append({
             "slug": slug,
@@ -186,8 +193,8 @@ def coletar(atraso: float, limite: int | None) -> list[dict]:
             "id_ficha": item.get("id_ficha"),
         })
 
-        if i < len(fichas):
-            time.sleep(atraso)
+    if retomar and puladas:
+        print(f"\n{puladas} fichas já existiam e foram puladas.")
 
     (OUTPUT_DIR / "_indice_salve.json").write_text(
         json.dumps({
@@ -205,9 +212,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--atraso", type=float, default=1.0, help="Segundos de espera entre requisições à API.")
     parser.add_argument("--limite", type=int, default=None, help="Coletar apenas as N primeiras fichas (para teste).")
+    parser.add_argument("--retomar", action="store_true", help="Pular fichas que já têm metadados.json — retoma coleta interrompida.")
     args = parser.parse_args()
 
-    indice = coletar(args.atraso, args.limite)
+    indice = coletar(args.atraso, args.limite, args.retomar)
     print(f"\nConcluído: {len(indice)} fichas de Répteis/Anfíbios coletadas em {OUTPUT_DIR}")
 
 

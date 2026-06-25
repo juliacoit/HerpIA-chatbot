@@ -8,9 +8,11 @@ Para o contexto geral do projeto (visão geral, arquitetura, regras sobre dados 
 
 ```
 docs/
-├── decisoes/    # Registro de decisões técnicas (ADRs) — o que foi decidido e por quê
-├── processos/   # Documentação de cada processo/pipeline operacional do projeto
-└── README.md    # Este arquivo
+├── decisoes/         # Registro de decisões técnicas (ADRs) — o que foi decidido e por quê
+├── processos/        # Documentação de cada processo/pipeline operacional do projeto
+├── fontes-de-dados.md  # Referência: estrutura, conteúdo e utilidade de cada fonte de dados
+├── roadmap.md          # Fases, tarefas e dependências do projeto até o protótipo validado
+└── README.md         # Este arquivo
 ```
 
 O histórico cronológico de progresso do projeto fica em [`/CHANGELOG.md`](../CHANGELOG.md), na raiz do repositório.
@@ -19,4 +21,5 @@ O histórico cronológico de progresso do projeto fica em [`/CHANGELOG.md`](../C
 
 - **Tomou uma decisão técnica relevante** (escolha de ferramenta, formato, política)? Crie um ADR em `decisoes/` a partir do `decisoes/template.md`.
 - **Definiu ou alterou um processo operacional** (como rodar a coleta web, como classificar sensibilidade, etc.)? Crie ou atualize um arquivo em `processos/` a partir do `processos/template.md`.
+- **Precisa documentar uma fonte de dados** (estrutura, conteúdo, utilidade)? Atualize `fontes-de-dados.md`.
 - **Concluiu uma etapa do roadmap ou mudou algo relevante no projeto**? Registre no `CHANGELOG.md`.

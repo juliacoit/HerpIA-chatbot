@@ -1,0 +1,247 @@
+# Roadmap do projeto — Chatbot RAG RAN/ICMBio
+
+Documento de referência para todas as fases, tarefas e processos do projeto,
+do estado atual até o protótipo funcional validado com usuários.
+
+**Atualizado em:** 2026-06-25
+
+---
+
+## Status geral
+
+```
+[Fase 1] Coleta de dados          ██████░░░░  60% — SALVE incompleto; publicações e SEI pendentes
+[Fase 2] Extração de texto        █░░░░░░░░░  10% — script SALVE criado, não executado
+[Fase 3] Classificação            ░░░░░░░░░░   0% — nenhum documento avaliado
+[Fase 4] Chunking                 ░░░░░░░░░░   0%
+[Fase 5] Embeddings + Qdrant      ░░░░░░░░░░   0%
+[Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
+[Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
+[Fase 8] Validação com usuários   ░░░░░░░░░░   0%
+```
+
+---
+
+## Fase 1 — Coleta de dados
+
+### 1.1 Programa Monitora
+- [x] Script de coleta de metadados (`scripts/coleta/coleta_monitora.py`)
+- [x] Script de download de documentos (`scripts/coleta/download_documentos_monitora.py`)
+- [ ] **Executar download completo** de todos os documentos listados nos metadados
+  - Saída esperada: `01_fontes_web/monitora/documentos/`
+  - Verificar relatório de download (`relatorio_download.json`) após execução
+
+### 1.2 PANs (Planos de Ação Nacional)
+- [x] Script de coleta de metadados (`scripts/coleta/coleta_pans.py`)
+- [x] Script de download de documentos (`scripts/coleta/download_documentos_pans.py`)
+- [ ] **Executar download completo** de todos os documentos listados nos metadados
+  - Saída esperada: `01_fontes_web/pans/documentos/`
+
+### 1.3 SALVE
+- [x] Script de coleta implementado (`scripts/coleta/coleta_salve.py`)
+- [x] Coleta de teste validada (3 fichas — 2026-06-24)
+- [ ] **Executar coleta completa** (~2086 fichas de répteis e anfíbios)
+  ```bash
+  source venv/bin/activate
+  python scripts/coleta/coleta_salve.py --atraso 1.0
+  ```
+  - Estimativa: 4–6 horas (~23 mil requisições com atraso de 1s)
+  - Saída: `01_fontes_web/salve/fichas/<slug>/metadados.json` + `_indice_salve.json`
+  - Rodar com `--atraso 0.5` se a API tolerar; manter 1.0 se houver erros 429
+
+### 1.4 Publicações científicas do RAN
+- [ ] **Definir critérios de inclusão** (quais publicações entram no acervo inicial?)
+  - Proposta: publicações dos pesquisadores listados no site do RAN/ICMBio, com foco em herpetofauna brasileira
+- [ ] **Organizar PDFs** nas subpastas de `02_publicacoes_cientificas_ran/` (anfibios, repteis, conservacao, monitoramento, outros)
+- [ ] Catalogar no inventário (`06_inventario/inventario_fontes.xlsx`)
+- [ ] Avaliar sensibilidade de cada publicação antes de mover para `03_documentos_autorizados/`
+
+### 1.5 SEI/ICMBio
+- [ ] **Decisão pendente:** quais documentos do SEI são relevantes e têm autorização de uso?
+- [ ] Somente documentos exportados e formalmente autorizados podem ser incluídos
+- [ ] Não há script de coleta — o acesso é manual (exportação pelo sistema SEI)
+- [ ] Mover documentos autorizados para `04_documentos_pendentes_avaliacao/` e depois avaliar
+
+---
+
+## Fase 2 — Extração de texto
+
+> **Dependência:** documentos coletados (Fase 1)
+
+### 2.1 SALVE — fichas de espécies (JSON → texto limpo)
+- [x] Script de extração criado (`scripts/processamento/extrair_texto_salve.py`)
+- [ ] **Executar extração no conjunto de teste (3 fichas) e validar saída**
+  ```bash
+  source venv/bin/activate
+  python scripts/processamento/extrair_texto_salve.py
+  ```
+  - Verificar: texto limpo, parágrafos preservados, campos estruturados legíveis
+  - Saída: `07_processados/textos_extraidos/salve/<slug>.json`
+- [ ] Executar extração completa após coleta completa do SALVE (Fase 1.3)
+
+### 2.2 PDFs do Monitora e dos PANs (PDF → texto)
+- [ ] **Implementar script de extração de PDFs** (`scripts/processamento/extrair_pdfs.py`)
+  - Usar PyMuPDF (`fitz`) como extrator principal
+  - Detectar PDFs escaneados (ausência de camada de texto): aplicar Tesseract OCR como fallback
+  - Salvar texto extraído em `07_processados/textos_extraidos/<fonte>/<nome_doc>.txt` ou `.json`
+  - Registrar metadados de extração: número de páginas, método usado (texto/OCR), status
+  - Ver esboço existente em `docs/processos/extracao_pdfs.md`
+- [ ] Instalar dependências necessárias:
+  ```bash
+  source venv/bin/activate
+  pip install pymupdf pytesseract pillow
+  # Tesseract deve estar instalado no sistema: sudo apt install tesseract-ocr tesseract-ocr-por
+  ```
+- [ ] Executar extração nos PDFs do Monitora e validar amostra
+- [ ] Executar extração nos PDFs dos PANs e validar amostra
+
+### 2.3 Publicações científicas (PDF → texto)
+- [ ] Reutilizar o mesmo script de extração de PDFs (Fase 2.2)
+- [ ] Executar sobre `03_documentos_autorizados/` (somente documentos já aprovados)
+
+---
+
+## Fase 3 — Classificação de sensibilidade
+
+> **Dependência:** documentos coletados (Fase 1); pode correr em paralelo com Fase 2
+
+> Esta fase envolve decisão humana — não pode ser automatizada integralmente.
+
+- [ ] **Revisão manual dos documentos do Monitora:** verificar se há localização precisa de espécies ameaçadas ou dados pessoais
+- [ ] **Revisão manual dos PDFs dos PANs:** mesmos critérios
+- [ ] **Fichas SALVE:** avaliar se as coordenadas de distribuição nas fichas são sensíveis
+  - As fichas são públicas no site do ICMBio, portanto a tendência é classificá-las como autorizadas
+- [ ] **Publicações científicas:** verificar copyright e termos de uso de cada publicação
+- [ ] Mover documentos aprovados: `04_documentos_pendentes_avaliacao/` → `03_documentos_autorizados/`
+- [ ] Mover documentos sensíveis: `04_documentos_pendentes_avaliacao/` → `05_documentos_sensiveis_nao_indexar/`
+- [ ] Atualizar inventário com a classificação de cada documento
+
+---
+
+## Fase 4 — Chunking
+
+> **Dependência:** textos extraídos (Fase 2) + documentos autorizados (Fase 3)
+
+### 4.1 SALVE
+- [ ] **Implementar script de chunking** (`scripts/processamento/chunkar_salve.py`)
+  - Estratégia: um chunk por seção da ficha; seções longas divididas por parágrafo
+  - Tamanho alvo: ~2000 caracteres (~500 tokens)
+  - Cada chunk inclui cabeçalho com metadados da espécie (nome, categoria, bioma, DOI)
+  - Saída: `07_processados/chunks/salve/chunks.jsonl`
+
+### 4.2 PDFs do Monitora e dos PANs
+- [ ] **Implementar script de chunking de PDFs** (`scripts/processamento/chunkar_pdfs.py`)
+  - Estratégia: janela deslizante com overlap (ex: 500 tokens, overlap 50 tokens)
+  - Preferir splits em final de frase ou parágrafo
+  - Cada chunk inclui: fonte, nome do documento, página, URL/caminho local, data de coleta
+  - Saída: `07_processados/chunks/<fonte>/chunks.jsonl`
+
+### 4.3 Publicações científicas
+- [ ] Reutilizar ou adaptar o chunker de PDFs para publicações científicas
+  - Considerar incluir metadados bibliográficos (autores, ano, título, DOI) em cada chunk
+
+---
+
+## Fase 5 — Embeddings e banco vetorial (Qdrant)
+
+> **Dependência:** chunks gerados (Fase 4) + infraestrutura com Qdrant ativo
+
+### 5.1 Escolha do modelo de embeddings
+- [ ] **Decisão pendente:** qual modelo usar?
+  - Opção A: `text-embedding-3-small` (OpenAI API) — simples, boa qualidade, custo por token
+  - Opção B: modelo open-source em português (ex: `neuralmind/bert-base-portuguese-cased`) — sem custo de API, requer GPU ou CPU mais potente
+  - Recomendação inicial: OpenAI `text-embedding-3-small` para o protótipo (troca fácil depois)
+
+### 5.2 Configuração do Qdrant
+- [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH
+- [ ] Criar coleção no Qdrant com os parâmetros adequados (dimensão do vetor, métrica de similaridade)
+  ```bash
+  ssh -N -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
+  ```
+- [ ] Validar conectividade (`scripts/check_services.py`)
+
+### 5.3 Geração e indexação de embeddings
+- [ ] **Implementar script de indexação** (`scripts/indexacao/indexar_chunks.py`)
+  - Lê `chunks.jsonl` de cada fonte
+  - Gera embeddings (modelo escolhido na 5.1)
+  - Insere pontos no Qdrant com payload de metadados
+  - Registra IDs e status no PostgreSQL (tabela de índice)
+- [ ] Indexar SALVE (testar com 3 fichas primeiro)
+- [ ] Indexar Monitora, PANs e publicações
+
+---
+
+## Fase 6 — Backend RAG (FastAPI)
+
+> **Dependência:** Qdrant com dados indexados (Fase 5)
+
+- [ ] **Inicializar projeto FastAPI** (`backend/`)
+- [ ] **Implementar endpoint de busca semântica**
+  - Recebe pergunta do usuário
+  - Gera embedding da pergunta
+  - Busca top-K chunks no Qdrant
+  - Retorna chunks com metadados de fonte
+- [ ] **Implementar filtro de acesso**
+  - Verificar que apenas chunks de documentos autorizados são retornados
+- [ ] **Implementar endpoint de geração de resposta**
+  - Monta prompt com os chunks recuperados
+  - Chama API do LLM (ex: `claude-sonnet-4-6` ou `gpt-4o`)
+  - Retorna resposta com citações de fonte formatadas
+- [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
+- [ ] **Configurar logging e feedback**
+  - Registrar perguntas, chunks recuperados e respostas no PostgreSQL
+  - Permitir feedback do usuário (thumbs up/down) por resposta
+
+---
+
+## Fase 7 — Interface (Streamlit)
+
+> **Dependência:** backend FastAPI funcional (Fase 6)
+
+- [ ] **Criar protótipo de chat em Streamlit** (`interface/app.py`)
+  - Campo de pergunta
+  - Exibição da resposta com citações de fonte
+  - Botão de feedback por resposta
+- [ ] **Exibir fontes de forma clara**
+  - Nome do documento, seção, página (quando aplicável), link/DOI
+- [ ] Testar fluxo completo localmente: pergunta → busca → resposta → citação
+
+---
+
+## Fase 8 — Validação com usuários
+
+> **Dependência:** protótipo funcional (Fase 7)
+
+- [ ] **Definir perguntas de teste** com técnicos e gestores do RAN
+- [ ] **Sessão de teste com usuários reais** — observar comportamento, anotar gaps
+- [ ] **Avaliar qualidade das respostas:**
+  - As citações de fonte estão corretas?
+  - O chatbot indica corretamente quando não tem evidência suficiente?
+  - Há alucinações?
+- [ ] **Iterar** com base no feedback: ajustar chunking, embeddings, prompt, filtros
+- [ ] **Documentar limitações conhecidas** para os usuários
+
+---
+
+## Decisões pendentes
+
+| Decisão | Impacto | Quando decidir |
+|---|---|---|
+| Modelo de embeddings (OpenAI vs. open-source) | Custo, qualidade, dependência de API | Antes da Fase 5 |
+| Modelo de LLM para geração (Claude vs. GPT vs. outro) | Custo, qualidade, privacidade dos dados | Antes da Fase 6 |
+| Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
+| Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
+| Sensibilidade das coordenadas nas fichas SALVE | Quais fichas podem ser indexadas | Fase 3 |
+| Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
+
+---
+
+## Ordem recomendada para as próximas sessões
+
+1. **Agora:** executar e validar `extrair_texto_salve.py` com as 3 fichas de teste
+2. **Em seguida:** executar coleta completa do SALVE (`coleta_salve.py` sem `--limite`)
+3. **Depois:** extração dos PDFs do Monitora e dos PANs
+4. **Depois:** classificação de sensibilidade dos documentos coletados
+5. **Depois:** chunking (SALVE primeiro, depois PDFs)
+6. **Depois:** embeddings e indexação no Qdrant
+7. **Depois:** FastAPI + Streamlit + validação

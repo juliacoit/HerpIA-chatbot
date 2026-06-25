@@ -27,6 +27,15 @@ Thumbs.db
 # Os metadados (JSON) com os links permanecem versionados.
 01_fontes_web/**/documentos/
 
+# Textos extraídos de PDFs (derivados de arquivos gitignored — regeneráveis pelo script)
+# Exceção: salve/ é versionado porque as fichas-fonte JSON também estão no git.
+07_processados/textos_extraidos/monitora/
+07_processados/textos_extraidos/pans/
+
+# Chunks e embeddings (gerados pelo pipeline — não versionar)
+07_processados/chunks/
+07_processados/metadados/
+
 # Relatório gerado pelo script de download
 01_fontes_web/pans/relatorio_download.json
 01_fontes_web/monitora/relatorio_download.json

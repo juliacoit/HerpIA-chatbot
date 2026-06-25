@@ -16,6 +16,8 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [Coleta das fontes web](coleta_fontes_web.md) | Fontes de dados → Extração | A definir |
 | [**Coleta de PANs (Planos de Ação Nacional)**](coleta_pans_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [**Coleta do Programa Monitora**](coleta_monitora_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
-| [Extração de PDFs](extracao_pdfs.md) | Extração e limpeza | A definir |
+| [**Coleta do SALVE**](coleta_salve_detalhado.md) | Fontes de dados → Extração | 🔶 Em execução (coleta completa rodando) |
+| [**Extração de texto de PDFs (Monitora e PANs)**](extracao_pdfs.md) | Extração e limpeza | ✅ Em produção |
+| [**Extração de texto das fichas SALVE**](extracao_texto_salve.md) | Extração e limpeza | ✅ Em produção |
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |
 | [Chunking e geração de embeddings](chunking_embeddings.md) | Chunking → Embeddings → Banco vetorial | A definir |

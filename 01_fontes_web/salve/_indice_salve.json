@@ -1,0 +1,31 @@
+{
+  "data_coleta": "2026-06-24",
+  "grupos_coletados": {
+    "Répteis": 1266,
+    "Anfíbios": 1257
+  },
+  "total_fichas": 3,
+  "fichas": [
+    {
+      "slug": "acanthochelys-macrocephala-rhodin-mittermeier-mcmorris-1984",
+      "nome_cientifico": "Acanthochelys macrocephala (Rhodin, Mittermeier & McMorris, 1984)",
+      "grupo": "Répteis",
+      "categoria_risco": "VU",
+      "id_ficha": "6a596e7446486b4466646f4b344574666b6c61626f673d3d"
+    },
+    {
+      "slug": "acanthochelys-radiolata-mikan-1820",
+      "nome_cientifico": "Acanthochelys radiolata (Mikan, 1820)",
+      "grupo": "Répteis",
+      "categoria_risco": "LC",
+      "id_ficha": "7a546a336344335236636e302f6b375a5655675862773d3d"
+    },
+    {
+      "slug": "acanthochelys-spixii-dumeril-bibron-1835",
+      "nome_cientifico": "Acanthochelys spixii (Duméril & Bibron, 1835)",
+      "grupo": "Répteis",
+      "categoria_risco": "LC",
+      "id_ficha": "396c6a7a546e4f384c376d734557685439516f7548513d3d"
+    }
+  ]
+}

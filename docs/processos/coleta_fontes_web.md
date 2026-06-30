@@ -1,7 +1,7 @@
 # Coleta das fontes web
 
-- **Status:** Em desenvolvimento (Monitora e PANs implementados; SALVE mapeado e script implementado, execução completa pendente; SEI fora de escopo de automação)
-- **Última atualização:** 2026-06-24
+- **Status:** Em desenvolvimento (Monitora e PANs implementados; SALVE com script, execução pendente; SEI com catalogação automatizada implementada)
+- **Última atualização:** 2026-06-30
 - **Responsável(eis):**
 
 ## Objetivo
@@ -52,14 +52,17 @@ Cada fonte web tem uma estrutura muito diferente, então não dá para usar um �
 - **Relevância para o RAN:** é a fonte ideal para responder "qual a categoria de risco de extinção da espécie X?" e "quais fichas/documentos técnicos existem para essa espécie?" — dados estruturados por espécie (categoria atual, distribuição, conservação, ameaças, referências), sem necessidade de autenticação para a herpetofauna.
 
 ### SEI/ICMBio
-- Sistema eletrônico de gestão de **processos administrativos** institucionais (versão 2.0.18 identificada publicamente na tela de login), com autenticação em dois fatores — não é uma base de conhecimento científico, e sim o sistema de tramitação documental do órgão.
-- Acesso restrito a usuários autorizados — sem scraping previsto (ver seção de dados sensíveis abaixo). Diferente das outras três fontes, o SEI não deve ser raspado mesmo que fosse tecnicamente possível, pois guarda processos que podem conter decisões internas, dados pessoais ou informações administrativas restritas.
+- ✅ **Catalogação automatizada implementada** — ver detalhamento em [`coleta_sei_detalhado.md`](coleta_sei_detalhado.md).
+- Sistema eletrônico de gestão de **processos administrativos** institucionais. O acesso requer login institucional (SIP); a automação do login via Python foi implementada e validada em 2026-06-30.
+- **O que foi automatizado:** navegação nos blocos internos, listagem de processos e extração de metadados de documentos (título, tipo, ID interno) — sem leitura de conteúdo.
+- **O que permanece manual:** exportação e avaliação dos documentos. Nenhum conteúdo de documento é acessado, transmitido ou armazenado pelos scripts.
+- **43 blocos internos catalogados**, 16 classificados como prioritários (~464 processos). Catálogo salvo em `01_fontes_web/sei/blocos_internos.json` e `01_fontes_web/sei/documentos_por_processo.json`.
 
 ## Passo a passo
 
 - Monitora e PANs: ver passo a passo em [`coleta_monitora_detalhado.md`](coleta_monitora_detalhado.md) e [`coleta_pans_detalhado.md`](coleta_pans_detalhado.md).
 - SALVE: mapeamento técnico concluído e script implementado (ver [`coleta_salve_detalhado.md`](coleta_salve_detalhado.md)); execução completa ainda a validar.
-- SEI: sem coleta automatizada prevista.
+- SEI: catalogação automatizada implementada (ver [`coleta_sei_detalhado.md`](coleta_sei_detalhado.md)); exportação e avaliação de documentos são manuais.
 
 ## Frequência de execução
 
@@ -67,4 +70,4 @@ Atualização semestral da base de conhecimento, conforme decisão geral do proj
 
 ## Observações sobre dados sensíveis
 
-O acesso ao SEI/ICMBio é restrito a usuários autorizados. Documentos do SEI só entram no projeto após exportação manual, avaliação e classificação — nunca por coleta automatizada direta do sistema.
+O acesso ao SEI/ICMBio é restrito a usuários autorizados. Os scripts de catalogação (`listar_blocos_sei.py`, `listar_documentos_sei.py`) fazem login e navegam o sistema, mas **não leem nem transmitem o conteúdo de nenhum documento** — apenas metadados de navegação (títulos, tipos, IDs internos). Documentos do SEI só entram no projeto após exportação manual, avaliação individual e autorização explícita da equipe do RAN.

@@ -3,14 +3,14 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-06-25
+**Atualizado em:** 2026-06-30
 
 ---
 
 ## Status geral
 
 ```
-[Fase 1] Coleta de dados          ██████░░░░  60% — SALVE incompleto; publicações e SEI pendentes
+[Fase 1] Coleta de dados          ███████░░░  70% — SALVE incompleto; publicações pendentes; SEI catalogado
 [Fase 2] Extração de texto        █░░░░░░░░░  10% — script SALVE criado, não executado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — nenhum documento avaliado
 [Fase 4] Chunking                 ░░░░░░░░░░   0%
@@ -57,10 +57,26 @@ do estado atual até o protótipo funcional validado com usuários.
 - [ ] Avaliar sensibilidade de cada publicação antes de mover para `03_documentos_autorizados/`
 
 ### 1.5 SEI/ICMBio
-- [ ] **Decisão pendente:** quais documentos do SEI são relevantes e têm autorização de uso?
-- [ ] Somente documentos exportados e formalmente autorizados podem ser incluídos
-- [ ] Não há script de coleta — o acesso é manual (exportação pelo sistema SEI)
-- [ ] Mover documentos autorizados para `04_documentos_pendentes_avaliacao/` e depois avaliar
+- [x] **Login automatizado** via Python (requests + BeautifulSoup) com autenticação SIP (`listar_blocos_sei.py`)
+- [x] **43 blocos internos catalogados** com todos os processos (`01_fontes_web/sei/blocos_internos.json`)
+- [x] **Classificação de relevância** dos 464 processos nos blocos prioritários: ~194 técnicos, ~75 admin, ~195 a avaliar
+- [x] **Script de catalogação de documentos** por processo (`scripts/coleta/listar_documentos_sei.py`) — extrai títulos de documentos dentro de cada processo sem ler seu conteúdo
+- [x] **16 blocos prioritários definidos** (PANs, Monitora, avaliação de risco, quelônios, crocodilianos, guias, etc.)
+- [ ] **Executar catalogação completa** dos 16 blocos prioritários (~290 processos, ~20–30 min)
+  ```bash
+  source venv/bin/activate && set -a && source .env && set +a
+  python scripts/coleta/listar_documentos_sei.py
+  # Retomar se interrompida:
+  python scripts/coleta/listar_documentos_sei.py --retomar
+  ```
+  - Saída: `01_fontes_web/sei/documentos_por_processo.json`
+- [ ] **Analisar catálogo** para identificar processos com documentos técnicos indexáveis
+- [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
+- [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
+- [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
+
+> Ver detalhamento completo em [`docs/processos/coleta_sei_detalhado.md`](processos/coleta_sei_detalhado.md)
+> e critérios de seleção em [`docs/decisoes/0004-criterios-selecao-documentos-sei.md`](decisoes/0004-criterios-selecao-documentos-sei.md)
 
 ---
 
@@ -238,10 +254,12 @@ do estado atual até o protótipo funcional validado com usuários.
 
 ## Ordem recomendada para as próximas sessões
 
-1. **Agora:** executar e validar `extrair_texto_salve.py` com as 3 fichas de teste
-2. **Em seguida:** executar coleta completa do SALVE (`coleta_salve.py` sem `--limite`)
-3. **Depois:** extração dos PDFs do Monitora e dos PANs
-4. **Depois:** classificação de sensibilidade dos documentos coletados
-5. **Depois:** chunking (SALVE primeiro, depois PDFs)
-6. **Depois:** embeddings e indexação no Qdrant
-7. **Depois:** FastAPI + Streamlit + validação
+1. **Agora:** analisar catálogo do SEI (`documentos_por_processo.json`) para identificar processos com documentos técnicos relevantes
+2. **Em seguida:** decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação
+3. **Em seguida:** executar coleta completa do SALVE (`coleta_salve.py` sem `--limite`)
+4. **Depois:** executar e validar `extrair_texto_salve.py`
+5. **Depois:** extração dos PDFs do Monitora e dos PANs
+6. **Depois:** classificação de sensibilidade dos documentos coletados
+7. **Depois:** chunking (SALVE primeiro, depois PDFs)
+8. **Depois:** embeddings e indexação no Qdrant
+9. **Depois:** FastAPI + Streamlit + validação

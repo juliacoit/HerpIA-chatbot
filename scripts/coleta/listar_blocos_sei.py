@@ -46,7 +46,8 @@ def criar_sessao() -> requests.Session:
     return s
 
 
-def fazer_login(sessao: requests.Session, login: str, senha: str) -> None:
+def fazer_login(sessao: requests.Session, login: str, senha: str) -> BeautifulSoup:
+    """Faz login no SEI e retorna o soup da página principal pós-login."""
     resp = sessao.get(LOGIN_URL, timeout=30)
     resp.raise_for_status()
 
@@ -55,17 +56,15 @@ def fazer_login(sessao: requests.Session, login: str, senha: str) -> None:
     if not form:
         raise RuntimeError("Formulário de login não encontrado na página do SIP.")
 
-    # Coleta campos ocultos do formulário (tokens, parâmetros fixos)
-    dados = {}
-    for inp in form.find_all("input"):
-        nome = inp.get("name")
-        valor = inp.get("value", "")
-        if nome:
-            dados[nome] = valor
+    dados = {inp.get("name"): inp.get("value", "") for inp in form.find_all("input") if inp.get("name")}
 
-    # Substitui/adiciona credenciais (nomes padrão do SIP do SEI)
-    dados["infra_login"] = login
-    dados["infra_senha"] = senha
+    # Nomes reais dos campos do formulário SIP do SEI/ICMBio
+    dados["txtUsuario"] = login
+    dados["pwdSenha"] = senha
+    # hdnAcao=2 reproduz o onsubmit="acaoLogin(2)" do botão ACESSAR
+    dados["hdnAcao"] = "2"
+    # selOrgao: ICMBio = "0" (valor pré-selecionado na página)
+    dados.setdefault("selOrgao", "0")
 
     action = form.get("action") or LOGIN_URL
     if not action.startswith("http"):
@@ -74,7 +73,6 @@ def fazer_login(sessao: requests.Session, login: str, senha: str) -> None:
     resp = sessao.post(action, data=dados, timeout=30)
     resp.raise_for_status()
 
-    # Verifica se o login foi bem-sucedido (página do SEI carregada)
     if "controlador.php" not in resp.url and "sei/" not in resp.url:
         soup_erro = BeautifulSoup(resp.text, "lxml")
         msg_erro = soup_erro.find(class_="infraMensagemErro") or soup_erro.find(id="divInfraMensagem")
@@ -82,11 +80,25 @@ def fazer_login(sessao: requests.Session, login: str, senha: str) -> None:
         raise RuntimeError(f"Login falhou. {detalhe}\nURL atual: {resp.url}")
 
     print("Login realizado com sucesso.")
+    return BeautifulSoup(resp.text, "lxml")
 
 
-def listar_blocos(sessao: requests.Session) -> list[dict]:
-    """Busca a lista de blocos internos da unidade atual."""
-    url = BASE_SEI + "controlador.php?acao=bloco_interno_listar"
+def listar_blocos(sessao: requests.Session, soup_principal: BeautifulSoup) -> list[dict]:
+    """Busca a lista de blocos internos da unidade atual.
+
+    Extrai a URL com infra_hash da página principal para evitar erro "Link sem assinatura".
+    """
+    # Encontra o link de blocos internos na página principal (já tem infra_hash)
+    link_blocos = None
+    for a in soup_principal.find_all("a", href=True):
+        if "bloco_interno_listar" in a["href"]:
+            link_blocos = a["href"]
+            break
+
+    if not link_blocos:
+        raise RuntimeError("Link de blocos internos não encontrado na página principal. Verifique permissões do usuário.")
+
+    url = link_blocos if link_blocos.startswith("http") else urljoin(BASE_SEI, link_blocos)
     resp = sessao.get(url, timeout=30)
     resp.raise_for_status()
 
@@ -103,56 +115,69 @@ def listar_blocos(sessao: requests.Session) -> list[dict]:
         (OUTPUT_DIR / "debug_blocos.html").write_text(resp.text, encoding="utf-8")
         return []
 
+    # Colunas: [checkbox | Número | Sinalizações | Atribuição | Estado | Geradora | Grupo | Descrição | Ações]
     blocos = []
     linhas = tabela.find_all("tr")[1:]  # pula cabeçalho
     for linha in linhas:
         colunas = linha.find_all("td")
-        if not colunas:
+        if len(colunas) < 8:
             continue
 
-        # Estrutura típica: [checkbox | descrição | qtd_processos | ações]
-        descricao = colunas[1].get_text(strip=True) if len(colunas) > 1 else colunas[0].get_text(strip=True)
+        numero = colunas[1].get_text(strip=True)
+        atribuicao = colunas[3].get_text(strip=True)
+        estado = colunas[4].get_text(strip=True)
+        geradora = colunas[5].get_text(strip=True)
+        grupo = colunas[6].get_text(strip=True)
+        descricao = colunas[7].get_text(strip=True)
 
-        # Tenta extrair o ID do bloco a partir dos links/botões da linha
-        id_bloco = None
-        for tag in linha.find_all(["a", "button", "input"]):
-            href = tag.get("href", "") or tag.get("onclick", "") or ""
-            for parte in href.split("&"):
-                if "id_bloco" in parte or "idBloco" in parte:
-                    id_bloco = parte.split("=")[-1].strip("'\" ")
-                    break
-            if id_bloco:
+        # Extrai a URL completa (com infra_hash) do link de processos na coluna Número
+        url_processos = None
+        for a in colunas[1].find_all("a", href=True):
+            if "rel_bloco_protocolo_listar" in a["href"]:
+                href = a["href"]
+                url_processos = href if href.startswith("http") else urljoin(BASE_SEI, href)
                 break
 
         blocos.append({
-            "id_bloco": id_bloco,
+            "numero": numero,
             "descricao": descricao,
+            "atribuicao": atribuicao,
+            "estado": estado,
+            "geradora": geradora,
+            "grupo": grupo,
+            "url_processos": url_processos,
             "processos": [],
         })
 
     return blocos
 
 
-def listar_processos_bloco(sessao: requests.Session, id_bloco: str) -> list[dict]:
-    """Busca os processos dentro de um bloco interno específico."""
-    url = BASE_SEI + f"controlador.php?acao=bloco_interno_listar_processos&id_bloco={id_bloco}"
-    resp = sessao.get(url, timeout=30)
+def listar_processos_bloco(sessao: requests.Session, url_processos: str) -> list[dict]:
+    """Busca os processos dentro de um bloco usando a URL com infra_hash."""
+    resp = sessao.get(url_processos, timeout=30)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "lxml")
-    tabela = soup.find("table", id="tblProcessos") or soup.find("table", class_="infraTable")
+    tabelas = soup.find_all("table")
+    tabela = next((t for t in tabelas if t.find("tr") and len(t.find_all("tr")) > 1), None)
     if not tabela:
         return []
+
+    # Descobre colunas pelo cabeçalho
+    header = tabela.find("tr")
+    colunas_header = [th.get_text(strip=True) for th in header.find_all(["th", "td"])]
 
     processos = []
     for linha in tabela.find_all("tr")[1:]:
         colunas = linha.find_all("td")
         if not colunas:
             continue
-        numero = colunas[0].get_text(strip=True) if colunas else ""
-        tipo = colunas[1].get_text(strip=True) if len(colunas) > 1 else ""
-        atribuicao = colunas[2].get_text(strip=True) if len(colunas) > 2 else ""
-        processos.append({"numero": numero, "tipo": tipo, "atribuicao": atribuicao})
+        entrada = {}
+        for i, nome in enumerate(colunas_header):
+            if nome and i < len(colunas):
+                entrada[nome] = colunas[i].get_text(strip=True)
+        if entrada:
+            processos.append(entrada)
 
     return processos
 
@@ -172,21 +197,21 @@ def main():
     sessao = criar_sessao()
 
     print("Fazendo login no SEI/ICMBio...")
-    fazer_login(sessao, login, senha)
+    soup_principal = fazer_login(sessao, login, senha)
 
     print("Buscando lista de blocos internos...")
-    blocos = listar_blocos(sessao)
+    blocos = listar_blocos(sessao, soup_principal)
     print(f"{len(blocos)} bloco(s) encontrado(s).")
 
     if not args.sem_processos:
         for bloco in blocos:
-            if bloco["id_bloco"]:
-                print(f"  → Buscando processos do bloco: {bloco['descricao']}")
-                bloco["processos"] = listar_processos_bloco(sessao, bloco["id_bloco"])
+            if bloco["url_processos"]:
+                print(f"  → Buscando processos do bloco: {bloco['descricao'] or bloco['numero']}")
+                bloco["processos"] = listar_processos_bloco(sessao, bloco["url_processos"])
                 print(f"     {len(bloco['processos'])} processo(s)")
                 time.sleep(ATRASO)
             else:
-                print(f"  → Bloco sem ID identificado: {bloco['descricao']} (pulando processos)")
+                print(f"  → Bloco sem URL de processos: {bloco['descricao'] or bloco['numero']} (pulando)")
 
     resultado = {
         "data_coleta": date.today().isoformat(),

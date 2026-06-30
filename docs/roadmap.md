@@ -70,7 +70,7 @@ do estado atual até o protótipo funcional validado com usuários.
   python scripts/coleta/listar_documentos_sei.py --retomar
   ```
   - Saída: `01_fontes_web/sei/documentos_por_processo.json`
-- [ ] **Analisar catálogo** para identificar processos com documentos técnicos indexáveis
+- [x] **Analisar catálogo** — triagem automática gerou lista de 197 processos candidatos (`processos_para_exportacao.json`; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
 - [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`

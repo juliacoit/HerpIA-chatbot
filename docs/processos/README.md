@@ -17,6 +17,8 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [**Coleta de PANs (Planos de Ação Nacional)**](coleta_pans_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [**Coleta do Programa Monitora**](coleta_monitora_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [**Coleta do SALVE**](coleta_salve_detalhado.md) | Fontes de dados → Extração | 🔶 Em execução (coleta completa rodando) |
+| [**Coleta do SEI/ICMBio**](coleta_sei_detalhado.md) | Fontes de dados → Extração | ✅ Catalogação em produção (exportação manual) |
+| [**Seleção de processos do SEI para exportação**](selecao_processos_sei.md) | Fontes de dados → Extração | ✅ Triagem automática concluída (autorização pendente) |
 | [**Extração de texto de PDFs (Monitora e PANs)**](extracao_pdfs.md) | Extração e limpeza | ✅ Em produção |
 | [**Extração de texto das fichas SALVE**](extracao_texto_salve.md) | Extração e limpeza | ✅ Em produção |
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |

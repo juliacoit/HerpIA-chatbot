@@ -11,7 +11,7 @@ do estado atual até o protótipo funcional validado com usuários.
 
 ```
 [Fase 1] Coleta de dados          ███████░░░  70% — SALVE incompleto; publicações pendentes; SEI catalogado
-[Fase 2] Extração de texto        █░░░░░░░░░  10% — script SALVE criado, não executado
+[Fase 2] Extração de texto        ███████░░░  70% — PDFs Monitora/PANs extraídos (816/816); SALVE testado (24 fichas), aguardando coleta completa
 [Fase 3] Classificação            ░░░░░░░░░░   0% — nenhum documento avaliado
 [Fase 4] Chunking                 ████████░░  80% — 39.242 chunks (monitora, PANs, SALVE); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ░░░░░░░░░░   0%
@@ -87,30 +87,26 @@ do estado atual até o protótipo funcional validado com usuários.
 
 ### 2.1 SALVE — fichas de espécies (JSON → texto limpo)
 - [x] Script de extração criado (`scripts/processamento/extrair_texto_salve.py`)
-- [ ] **Executar extração no conjunto de teste (3 fichas) e validar saída**
+- [x] **Executar extração no conjunto de teste (24 fichas) e validar saída**
   ```bash
   source venv/bin/activate
   python scripts/processamento/extrair_texto_salve.py
   ```
-  - Verificar: texto limpo, parágrafos preservados, campos estruturados legíveis
+  - Verificado: texto limpo, parágrafos preservados, campos estruturados legíveis (0 erros)
   - Saída: `07_processados/textos_extraidos/salve/<slug>.json`
+  - Ver detalhamento em [`docs/processos/extracao_texto_salve.md`](processos/extracao_texto_salve.md)
 - [ ] Executar extração completa após coleta completa do SALVE (Fase 1.3)
 
 ### 2.2 PDFs do Monitora e dos PANs (PDF → texto)
-- [ ] **Implementar script de extração de PDFs** (`scripts/processamento/extrair_pdfs.py`)
-  - Usar PyMuPDF (`fitz`) como extrator principal
-  - Detectar PDFs escaneados (ausência de camada de texto): aplicar Tesseract OCR como fallback
-  - Salvar texto extraído em `07_processados/textos_extraidos/<fonte>/<nome_doc>.txt` ou `.json`
-  - Registrar metadados de extração: número de páginas, método usado (texto/OCR), status
-  - Ver esboço existente em `docs/processos/extracao_pdfs.md`
-- [ ] Instalar dependências necessárias:
-  ```bash
-  source venv/bin/activate
-  pip install pymupdf pytesseract pillow
-  # Tesseract deve estar instalado no sistema: sudo apt install tesseract-ocr tesseract-ocr-por
-  ```
-- [ ] Executar extração nos PDFs do Monitora e validar amostra
-- [ ] Executar extração nos PDFs dos PANs e validar amostra
+- [x] **Script de extração de PDFs implementado** (`scripts/processamento/extrair_texto_pdfs.py`)
+  - Usa PyMuPDF (`fitz`) como extrator principal
+  - Detecta PDFs escaneados (ausência de camada de texto): aplica Tesseract OCR como fallback
+  - Salva texto extraído em `07_processados/textos_extraidos/<fonte>/<nome_doc>.json`
+  - Registra metadados de extração: número de páginas, método usado (texto/OCR), status
+  - Ver detalhamento completo em [`docs/processos/extracao_pdfs.md`](processos/extracao_pdfs.md)
+- [x] Dependências instaladas (`pymupdf`, `pytesseract`, `pillow`, Tesseract no sistema)
+- [x] Executar extração nos PDFs do Monitora e validar amostra — 109/109 processados, 0 erros (2026-06-25)
+- [x] Executar extração nos PDFs dos PANs e validar amostra — 707/707 processados (47 via OCR), 0 erros (2026-06-25)
 
 ### 2.3 Publicações científicas (PDF → texto)
 - [ ] Reutilizar o mesmo script de extração de PDFs (Fase 2.2)

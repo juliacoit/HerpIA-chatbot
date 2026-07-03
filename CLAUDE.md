@@ -150,7 +150,7 @@ ssh -N -L 5432:localhost:5432 -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
 
 ## Observações para sessões futuras do Claude Code
 
-- Este projeto está em fase inicial — a maior parte das pastas existe como estrutura preparada, ainda sem conteúdo processado.
+- Este projeto está em fase de coleta e extração de dados — coleta e extração de PDFs do Monitora e dos PANs já estão em produção, coleta do SALVE em andamento e catalogação do SEI concluída (exportação/avaliação ainda pendentes). Classificação de sensibilidade, chunking, embeddings, backend e interface ainda não foram implementados. Ver [`docs/roadmap.md`](docs/roadmap.md) para o status atualizado por fase.
 - O foco atual é implementar o protótipo RAG localmente. Não sugerir nem iniciar migração para servidor dedicado antes da validação do protótipo.
 - Nunca mover, apagar ou sobrescrever documentos, PDFs ou planilhas sem autorização explícita do usuário.
 - Nunca expor, copiar ou resumir o conteúdo de documentos sensíveis ou pendentes de avaliação.

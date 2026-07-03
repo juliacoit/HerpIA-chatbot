@@ -1,8 +1,9 @@
 # Seleção de processos do SEI para exportação
 
 - **Status:** Lista gerada (197 processos); autorização de exportação pendente com a equipe do RAN
-- **Última atualização:** 2026-06-30
+- **Última atualização:** 2026-07-03
 - **Arquivo resultante:** `01_fontes_web/sei/processos_para_exportacao.json`
+- **Processos descartados (com motivo):** `01_fontes_web/sei/processos_descartados.json` (e `.csv`)
 
 ## O problema
 
@@ -97,6 +98,8 @@ A lista de exclusão é usada para evitar falsos positivos. Um documento com tí
 
 Resultado do Critério 2: **197 processos passam** (47 descartados dos 244 que vieram do Critério 1).
 
+Os 220 processos descartados no total (173 do Critério 1 + 47 do Critério 2), com o motivo de cada descarte, estão listados em `01_fontes_web/sei/processos_descartados.json` (e versão `.csv`). Nenhum processo é removido do catálogo — os descartados continuam em `01_fontes_web/sei/documentos_por_processo.json`, apenas fora da lista de exportação.
+
 ---
 
 ## Resultado final
@@ -188,3 +191,4 @@ for d in proc['docs_tecnicos_identificados']:
 - Critérios de seleção por blocos internos: [`docs/decisoes/0004-criterios-selecao-documentos-sei.md`](../decisoes/0004-criterios-selecao-documentos-sei.md)
 - Detalhamento técnico dos scripts de coleta: [`docs/processos/coleta_sei_detalhado.md`](coleta_sei_detalhado.md)
 - Regras de sensibilidade e autorização: [`docs/decisoes/0002-classificacao-sensibilidade-documentos.md`](../decisoes/0002-classificacao-sensibilidade-documentos.md)
+- Processos descartados na triagem, com motivo do descarte: [`01_fontes_web/sei/processos_descartados.json`](../../01_fontes_web/sei/processos_descartados.json) (e `.csv`)

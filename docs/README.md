@@ -15,11 +15,11 @@ docs/
 └── README.md         # Este arquivo
 ```
 
-O histórico cronológico de progresso do projeto fica em [`/CHANGELOG.md`](../CHANGELOG.md), na raiz do repositório.
+O histórico de progresso do projeto fica em [`roadmap.md`](./roadmap.md), mantido com status e data de atualização por fase.
 
 ## Quando criar um novo documento
 
 - **Tomou uma decisão técnica relevante** (escolha de ferramenta, formato, política)? Crie um ADR em `decisoes/` a partir do `decisoes/template.md`.
 - **Definiu ou alterou um processo operacional** (como rodar a coleta web, como classificar sensibilidade, etc.)? Crie ou atualize um arquivo em `processos/` a partir do `processos/template.md`.
 - **Precisa documentar uma fonte de dados** (estrutura, conteúdo, utilidade)? Atualize `fontes-de-dados.md`.
-- **Concluiu uma etapa do roadmap ou mudou algo relevante no projeto**? Registre no `CHANGELOG.md`.
+- **Concluiu uma etapa do roadmap ou mudou algo relevante no projeto**? Atualize `roadmap.md`.

@@ -2,7 +2,7 @@
 
 - **Status:** Decisão parcial tomada — triagem por blocos internos implementada; autorização de exportação pendente
 - **Data:** 2026-06-26 (atualizado 2026-06-30)
-- **Responsável(eis):** Julia Coite, Flávia (RAN/ICMBio)
+- **Responsável(eis):** Julia Coite
 
 ## Contexto
 

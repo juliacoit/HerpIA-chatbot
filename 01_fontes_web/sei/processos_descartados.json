@@ -1,0 +1,1989 @@
+{
+  "data_analise": "2026-06-30",
+  "descricao": "Processos do catálogo SEI (417 no total) que NÃO passaram na triagem automática para a lista de exportação. Ver docs/processos/selecao_processos_sei.md para os critérios completos.",
+  "total": 220,
+  "total_criterio_1": 173,
+  "total_criterio_2": 47,
+  "processos": [
+    {
+      "numero": "02120.000008/2022-59",
+      "bloco": "Processos do Alvo Complementar Quelônios Amazônicos - Programa Monitora - Ana Paula e Lilian",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Resex Médio Juruá - Termo de Adesão 14/25",
+      "total_documentos": 51,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000009/2023-15",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "FAUNA",
+      "anotacao": "Avaliação do Risco de Extinção de Quelônios Continentais - 2023.",
+      "total_documentos": 16,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.009272/2023-71",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "Evento sobre Dados da Avaliação / Lançamento SALVE - GEF Pró-Especies",
+      "total_documentos": 120,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012013/2023-28",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Espécie ameaçada de extinção no âmbito do Licenciamento Ambiental Federal - \"Chiasmocleis lacrimae\".",
+      "total_documentos": 18,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.018346/2023-61",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Manifestação quanto ao Requerimento nº 2992/2023 - Uso de tartarugas muçuãs como alimento.",
+      "total_documentos": 18,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.000833/2024-58",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "PROTOCOLO",
+      "anotacao": "OFICIO Nº 108/2024 PR/RS -  informações quanto a descoberta de espécie endêmica ameaçada de extinção \"Ophiodes enso\".",
+      "total_documentos": 20,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007295/2025-11",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "TRANSPORTE DE MATERIAL",
+      "anotacao": "Envio do Sumário Executivo - Avaliação do Risco de Extinção da Fauna Brasileira (2015 a 2023)",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TRANSPORTE DE MATERIAL' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.016826/2025-59",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "EVENTO",
+      "anotacao": "Oficina 2025 Aprimoramento IN 05/2021 - Oficina para discussão sobre os Programas de Manejo Populacional de Espécies Ameaçadas de Extinção (PMP) e suas diretrizes.",
+      "total_documentos": 100,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000038/2025-31",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "TERMO DE ACORDO",
+      "anotacao": "Formalização da parceria entre ICMBio/RAN, Instituto Boitatá e IUCN SSC Centro de Sobrevivência de Espécies Brasil",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TERMO DE ACORDO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000001/2026-93",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "OFICINA",
+      "anotacao": "Reunião inicial de planejamento para a avaliação do risco de extinção dos Squamata (Oficina Inicial de Planejamento para a avaliação do risco de extinção dos Squamata brasileiros, nos dias 10 e 11 de fevereiro de 2026).",
+      "total_documentos": 34,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000014/2026-62",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "PROJETO DE PESQUISA",
+      "anotacao": "Apresentação do Projeto EXTINTOS e alinhamento sobre solicitações de coleta  Instituto Boitatá",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000026/2026-97",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Programa de Conservação da Fauna Terrestre (UHE Furnas e UHE Mascarenhas).",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02031.000032/2026-11",
+      "bloco": "Avaliação do risco de extinção da Herpetofauna",
+      "tipo": "EVENTO",
+      "anotacao": "Solicitação de apoio de servidor / bolsista para a execução de oficina de avaliação do risco de extinção das espécies",
+      "total_documentos": 97,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.015682/2023-51",
+      "bloco": "Espécies Invasoras/Espécies Migratórias",
+      "tipo": "CONSULTA",
+      "anotacao": "Revisão de material de soltura de espécies exóticas em Unidades de Conservação.",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012581/2024-18",
+      "bloco": "Espécies Invasoras/Espécies Migratórias",
+      "tipo": "CONSULTA",
+      "anotacao": "Minuta de Portaria que reconhece a lista de espécies exóticas invasoras da flora e fauna em Unidades de Conservação Federais.",
+      "total_documentos": 152,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000041/2024-73",
+      "bloco": "Espécies Invasoras/Espécies Migratórias",
+      "tipo": "FAUNA",
+      "anotacao": "Lista Pet - Consulta ás Unidades da Federação sobre a Lista PET.",
+      "total_documentos": 94,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.000463/2025-30",
+      "bloco": "Espécies Invasoras/Espécies Migratórias",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Espécies Migratórias. CMS. Cultura Animal e Complexidade Social. Solicitação de subsídios.",
+      "total_documentos": 21,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.002398/2023-15",
+      "bloco": "Espécies Invasoras/Espécies Migratórias",
+      "tipo": "TRANSPORTE DE MATERIAL",
+      "anotacao": "Envio de material de comunicação sobre espécies exóticas invasoras",
+      "total_documentos": 354,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TRANSPORTE DE MATERIAL' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012020/2017-81",
+      "bloco": "PAN Baixo Iguaçu",
+      "tipo": "PLANEJAMENTO ESTRATÉGICO",
+      "anotacao": "Orientações - Planejamento oficinas PAN 2023",
+      "total_documentos": 224,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PLANEJAMENTO ESTRATÉGICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.010077/2016-55",
+      "bloco": "PAN Paraíba do Sul",
+      "tipo": "SERVIÇO GERAL",
+      "anotacao": "PAN Paraíba do Sul e Sudeste - Implementação de ação: \"cágado-de-hogei\" (Mesoclemmys hogei) - confecção de redes de captura de cágados",
+      "total_documentos": 54,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SERVIÇO GERAL' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02031.000029/2026-05",
+      "bloco": "PAN Paraíba do Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Segunda Monitoria PAN Paraíba do Sul.",
+      "total_documentos": 40,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000049/2020-14",
+      "bloco": "Crocodilianos",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Monitoramento de crocodilianos no Estado de Alagoas.",
+      "total_documentos": 127,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02119.001420/2021-44",
+      "bloco": "Crocodilianos",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Monitoramento de crocodilianos no Estado de Alagoas (GEF Paisagens).",
+      "total_documentos": 41,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000018/2021-36",
+      "bloco": "Crocodilianos",
+      "tipo": "ACORDO DE COOPERAÇÃO TÉCNICA",
+      "anotacao": "Acordo de Cooperação com o Instituto de Meio Ambiente do Estado de Alagoas - IMA.",
+      "total_documentos": 58,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'ACORDO DE COOPERAÇÃO TÉCNICA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.006870/2019-11",
+      "bloco": "Crocodilianos",
+      "tipo": "PROGRAMA",
+      "anotacao": "Monitoramento de crocodilianos - Programa Monitora.",
+      "total_documentos": 28,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROGRAMA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007197/2023-12",
+      "bloco": "Crocodilianos",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Solicitação de posicionamento técnico em relação à prorrogação da moratória da piracatinga \"Calophysus macropterus\".",
+      "total_documentos": 19,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000048/2024-95",
+      "bloco": "Crocodilianos",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição Resex Lago do Cuniã/RO.",
+      "total_documentos": 141,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02001.001557/2007-68",
+      "bloco": "Crocodilianos",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "COOCRIJAPAN - COPERATIVA DE CRIADORES DE JACARÉ DO PANTANAL",
+      "total_documentos": 2,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000059/2024-75",
+      "bloco": "Crocodilianos",
+      "tipo": "PORTARIA",
+      "anotacao": "Atende solicitação do Ibama/Comex sobre tratamento de peles de jacaré para exportação (IN Ibama/RAN No 158/2007).",
+      "total_documentos": 5,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02120.014855/2025-43",
+      "bloco": "Crocodilianos",
+      "tipo": "AJUDA DE CUSTO",
+      "anotacao": "Solicitação de apoio para o deslocamento de técnicos com objetivo de realizar atividade de avaliação da viabilidade de manejo de jacaré na Resex do Médio Juruá (Gabriela e Coutinho).",
+      "total_documentos": 38,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AJUDA DE CUSTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.010021/2016-09",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "SISTEMAS SOFTWARE",
+      "anotacao": "SisQuelônios - Sistema de Gestão e Informação dos Quelônios Amazônicos",
+      "total_documentos": 61,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SISTEMAS SOFTWARE' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000035/2020-92",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "MANIFESTAÇÃO",
+      "anotacao": "Informação Técnica da Norte Energia S.A.- NE-PRSSAI-NT-0346-0 (UHE de Belo Monte)´- Instituto Butantan e Sociedade Brasileira de Herpetologia  SBH",
+      "total_documentos": 24,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'MANIFESTAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.006372/2020-01",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "PLANO",
+      "anotacao": "PAN Quelônios  (convite para participar de oficina de monitoria)",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.024758/2021-78",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "PLANO",
+      "anotacao": "Integração de PANs no bioma Amazônia.",
+      "total_documentos": 18,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.000057/2022-24",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Ações de fiscalização no estado do Amazonas - PANs",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02177.000069/2021-80",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "ORDEM DE SERVIÇO",
+      "anotacao": "Ordem de Serviço - ações conjuntas entre o RAN e o CNPT, através da base avançada em Goiânia, no Programa de Conservação e Manejo dos Quelônios Continentais e Crocodilianos Brasileiros.",
+      "total_documentos": 12,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'ORDEM DE SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005159/2024-06",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Solicitação de apoio ao Segundo Ciclo do Plano de Ação Nacional para Conservação dos Quelônios Amazônicos, o \"PAN - QUELÔNIOS\".",
+      "total_documentos": 13,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02303.020900/2024-70",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "SOLICITAÇÃO DE ACESSO À INFORMAÇÃO",
+      "anotacao": "SIC - pedido de acesso à informação nº 02303.020900/2024-70-\"Dados Detalhados Sobre Projetos e Despesas Governamentais\",  especificamente relativo a:  (i) Lista de projetos, iniciativas ou programas desenvolvidos ou financiados diretamente ou indiretamente pelo governo,&#8203; relacionados à conservação de papagaios e tartarugas, com a identificação do órgão executor e das parcerias envolvidas (ONGs, universidades, empresas privadas, etc.).\"",
+      "total_documentos": 30,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO DE ACESSO À INFORMAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02121.000370/2021-39",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "TERMO DE COMPROMISSO",
+      "anotacao": "Termo de Compromisso - Projeto Quelônios do Rio Trombetas.",
+      "total_documentos": 131,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TERMO DE COMPROMISSO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02122.001543/2025-50",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "EVENTO",
+      "anotacao": "Festival do Peixe Boi - Ilha do Gato, Resex da Baía do Tubarão (participação da equipe de Quelônios)",
+      "total_documentos": 61,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000031/2025-19",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "COMISSÃO DE ÉTICA",
+      "anotacao": "Comissão de Ética no Uso de Animais - Projeto CEUA",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'COMISSÃO DE ÉTICA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.023713/2025-18",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "REQUERIMENTO DE INFORMAÇÃO",
+      "anotacao": "Requerimento de Informação Nº 6644/2025 - Quelônios Amazônicos.",
+      "total_documentos": 37,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'REQUERIMENTO DE INFORMAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02121.001602/2026-81",
+      "bloco": "Quelônios amazônicos",
+      "tipo": "CONVITE",
+      "anotacao": "Oficina de Plano de Manejo Integrado da Reserva Biológica do Rio Trombetas e da Floresta Nacional de Saracá-Taquera.",
+      "total_documentos": 117,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONVITE' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000073/2017-40",
+      "bloco": "PAN Espinhaço",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "PAN Espinhaço - 5ª Oficina de Monitoria e Avaliação Final (2017)",
+      "total_documentos": 36,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000081/2017-96",
+      "bloco": "PAN Espinhaço",
+      "tipo": "RECONHECIMENTO DE DÍVIDA",
+      "anotacao": "PAN Espinhaço - 5ª Oficina de Monitoria e Avaliação Final (ressarcimento de custos)",
+      "total_documentos": 13,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'RECONHECIMENTO DE DÍVIDA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000015/2021-01",
+      "bloco": "PAN Espinhaço",
+      "tipo": "PLANO",
+      "anotacao": "PAN Herpetofauna do Espinhaço Mineiro.",
+      "total_documentos": 2,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.001438/2023-10",
+      "bloco": "PAN Espinhaço",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Vale do Rio Doce - monitoramento da Fauna do ano de 2022 relacionada ao processo 4162/2020 - LP+LI+LO - Pilha de Estéril Canga Sudeste Itabira.",
+      "total_documentos": 38,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000135/2018-02",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "CERPAN - Implementação de Ação 2.1",
+      "total_documentos": 4,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000101/2017-29",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "CERPAN - colaborador eventual - Oficina Preparatória para a Elaboração (2017)",
+      "total_documentos": 47,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000073/2019-10",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "CERPAN - ação 4.1: Mapear as atividades antrópicas que promovam a degradação dos habitats e realizar análises da qualidade ambiental, prioritariamente em Unidades de Conservação do CERPAN - PARNA Chapada dos Veadeiros e ESEC Serra Geral do Tocantins",
+      "total_documentos": 83,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000012/2019-44",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "AÇÃO",
+      "anotacao": "CERPAN - Ofícios - Divulgação do Plano do Ação Nacional",
+      "total_documentos": 85,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000008/2020-10",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "CERPAN - Oficios - Implementação da Ação 1.14",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000037/2023-24",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "COMPRA",
+      "anotacao": "Compra de equipamentos para implementar as ações 1.1 e 5.3 do CERPAN.",
+      "total_documentos": 19,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'COMPRA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000063/2023-52",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "AÇÃO",
+      "anotacao": "Implementação da Ação 2.2, \"Identificar remotamente áreas de campo de Cerrado na porção Sul do Bioma (Ecorregião Paranapanema-Grande), onde ocorrem três espécies-alvo (Phalotris multipunctatus, Philodryas livida, Proceratophrys moratoi)\", cujo produto é o mapa com áreas Campo Cerrado detectadas e caracterização do entorno, sob articulação do colaborador do PAN, o Dr. Marcio Martins (USP).",
+      "total_documentos": 5,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000071/2023-07",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 1.15: \"Realizar a integração entre os diferentes instrumentos de conservação para as espécies-alvo do PAN e seus ambientes\" do Plano de Ação Nacional (PAN) para conservação de 41 espécies ameaçadas dos biomas do Cerrado e Pantanal.",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000072/2023-43",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 1.16: \"Acompanhar a adesão de priorização da análise do CAR de propriedadas localizadas nas AEs do CERPAN (Ação 1.14)\" do Plano de Ação Nacional (PAN) para conservação de 41 espécies ameaçadas dos biomas do Cerrado e Pantanal.",
+      "total_documentos": 12,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000073/2023-98",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 2.3: \"Identificar áreas prioritárias que favoreçam a conectividade entre fragmentos na área de ocorrência do primata Sapajus cay.\" do Plano de Ação Nacional (PAN) para conservação de 41 espécies ameaçadas dos biomas do Cerrado e Pantanal.",
+      "total_documentos": 8,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000074/2023-32",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Implementação da Ação 2.5, \"Identificar áreas vulneráveis à perda e fragmentação de habitat no interior e no entorno das unidades de conservação em áreas estratégicas do CERPAN\", cujo produto é o relatório que contenha a análise da paisagem avaliando a ocorrência de perda de habitats, a conectividade e indicando áreas importantes para tomada de ações visando a conservação das espécies-alvo do PAN e seus habitat, sob articulação da colaboradora do PAN, Lara Côrtes (ICMBio/RAN).",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000075/2023-87",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 4.1: \"Mapear as atividades antrópicas que promovam a degradação dos habitats e realizar análises da qualidade ambiental, prioritariamente em Unidades de Conservação do CERPAN\" do Plano de Ação Nacional (PAN) para conservação de 41 espécies ameaçadas dos biomas do Cerrado e Pantanal.",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000080/2023-90",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 5.7 do  Plano de Ação Nacional para a Conservação da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal - CERPAN, que consiste em \"incentivar instituições de pesquisa e programas de pós graduação a desenvolverem projetos de pesquisa focados na conservação das espécies-alvo do CERPAN e/ou caracterização das ameaças\".",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000081/2023-34",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 5.10: \"Buscar novas populações de Boana buriti, Pithecopus centralis, Bokermannohyla napolii e caracterizar o ambiente onde ocorrem\" do Plano de Ação Nacional para a Conservação das Espécies Ameaçadas da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal - CERPAN.",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000086/2023-67",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 2.6 do Plano de Ação Nacional para a Conservação das Espécies Ameaçadas da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal  (CERPAN). O objetivo dessa ação é \"analisar os impactos acumulativos e sinérgicos dos empreendimentos hidroelétricos existentes, planejados e potenciais da bacia do rio Tocantins-Araguaia, rio Paraguai e Alto Paraná\".",
+      "total_documentos": 4,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000087/2023-10",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 5.12 do CERPAN, que visa \"estabelecer população ex situ para conservação integrada de Boana buriti\".",
+      "total_documentos": 10,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000096/2023-01",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Processo para implementação da ação 5.11, \"Identificar pontos críticos para caça e apanha do primata Sapajus cay\", do Plano de Ação Nacional para a Conservação das Espécies Ameaçadas da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal - CERPAN",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000005/2024-18",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Abertura de processo de Plano de Ação - Segundo ciclo do CERPAN",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000055/2024-97",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO DE TRABALHO",
+      "anotacao": "Abertura de Processo da Oficina do PAN CERPAM - pagamento dos bolsistas via GEF Terrestre.",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PLANO DE TRABALHO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008203/2024-21",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Ampliação de Unidades de Conservação no Pantanal.",
+      "total_documentos": 62,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.017870/2023-14",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANEJAMENTO ESTRATÉGICO",
+      "anotacao": "Resultados da Chamada 2024 para implementação de ações previstas nos Planos de Ação Nacional para a Conservação de Espécies Ameaçadas de Extinção (PANs)",
+      "total_documentos": 51,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PLANEJAMENTO ESTRATÉGICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000002/2025-57",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PAGAMENTO",
+      "anotacao": "Restos a pagar exercicio 2024 - Renata Rubia Ota",
+      "total_documentos": 26,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PAGAMENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000061/2025-25",
+      "bloco": "PAN Cerrado Pantanal - CERPAN",
+      "tipo": "PLANO",
+      "anotacao": "Plano - Sumário executivo CERPAM - CICLO 3 (2025-2030).",
+      "total_documentos": 8,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000058/2020-05",
+      "bloco": "PAN Sudeste",
+      "tipo": "PLANO",
+      "anotacao": "Monitoria Final PAN Herpetofauna do Sudeste (set/2020)",
+      "total_documentos": 32,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000089/2020-58",
+      "bloco": "PAN Sudeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Projeto jiboia do Ribeira/SP",
+      "total_documentos": 4,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000013/2020-22",
+      "bloco": "PAN Sudeste",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Denúncia sobre o lagarto ameaçado Liolaemus lutza",
+      "total_documentos": 26,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008246/2022-45",
+      "bloco": "PAN Sudeste",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Relatórios Semestrais para análise - Subprograma de Monitoramento de Liolaemus lutzae e Leposternon scutigerum e ocorrência de peixes da família Rivulidae.",
+      "total_documentos": 15,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000051/2023-28",
+      "bloco": "PAN Sudeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição nos Parques Nacionais da Serra Geral e Aparados da Serra visando identificar a presença e as áreas de ocupação de Melanophryniscus cambaraensis (atividade vinculada à Ação 2.16) e implantar programa de educação ambiental do PAN.",
+      "total_documentos": 46,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000058/2024-21",
+      "bloco": "PAN Sudeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição de implementação de ações do PAN da Herpetofauna do Sudeste  que busca visitar os locais de ocorrência de algumas espécies ameaçadas que fazem parte do PAN SE e tem potencial de conservação ex-situ.",
+      "total_documentos": 128,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008154/2025-16",
+      "bloco": "PAN Sudeste",
+      "tipo": "EVENTO",
+      "anotacao": "Oficina de elaboração de planos de ação para propostas de novas UCs na Mata Atlântica e Pampa",
+      "total_documentos": 212,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000024/2026-06",
+      "bloco": "PAN Sudeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Oficina Regional de Combate ao Tráfico de Animais Silvestres do Vale do Paraíba do Sul (SP) e da Serra da Mantiqueira (SP/MG).",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000037/2026-77",
+      "bloco": "PAN Sudeste",
+      "tipo": "PLANO",
+      "anotacao": "Oficina de Segunda Monitoria do PAN Herpetofauna do Sudeste.",
+      "total_documentos": 93,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02031.000042/2026-56",
+      "bloco": "PAN Sudeste",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Solicitação de apoio técnico ao RAN e ao CEMAVE  levantamentos de avifauna e herpetofauna no Cerrado de Emas / CEPTA",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000048/2026-57",
+      "bloco": "PAN Sudeste",
+      "tipo": "OFICINA",
+      "anotacao": "Oficina - Necessidade de Conservação de Squamata - PAN Herpetofauna do Sudeste.",
+      "total_documentos": 116,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000042/2018-70",
+      "bloco": "PAN Nordeste",
+      "tipo": "PLANO",
+      "anotacao": "PAN Nordeste - oficina de planejamento (2018), convite para compor o Grupo Assessoramento Técnico (GAT) e outros",
+      "total_documentos": 129,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000059/2021-22",
+      "bloco": "PAN Nordeste",
+      "tipo": "PLANO",
+      "anotacao": "Oficina da 2ª Monitoria do 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste.",
+      "total_documentos": 15,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000054/2022-81",
+      "bloco": "PAN Nordeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Implementação de ações do PAN Herpetofauna do Nordente.",
+      "total_documentos": 171,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000070/2022-73",
+      "bloco": "PAN Nordeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Viagem a Serviço - Expedição Ação 2.5 e 2.6- PAN Herpetofauna Nordeste",
+      "total_documentos": 13,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000013/2023-75",
+      "bloco": "PAN Nordeste",
+      "tipo": "PLANO",
+      "anotacao": "4ª Oficina de Monitoria do PAN da Herpetofauna do Nordeste.",
+      "total_documentos": 106,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.005155/2023-39",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Ofício 107/2023/GR/UFS em resposta ao Ofício SEI nº 15/2023/RAN/DIBIO/ICMBio - Reitor UFS.",
+      "total_documentos": 2,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000023/2023-19",
+      "bloco": "PAN Nordeste",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedições de campo para implementação de ações do PAN Herpetofauna do Nordeste em áreas de caatinga (GEF Terrestre).",
+      "total_documentos": 138,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000089/2023-09",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO SELETIVO",
+      "anotacao": "Processo Seletivo - Seleção de Bolsistas GEF Terrrestre para o Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN/Goiânia/GO.",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO SELETIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000062/2024-99",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "ReuniÃµes NUPAN",
+      "total_documentos": 11,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.004278/2025-14",
+      "bloco": "PAN Nordeste",
+      "tipo": "EVENTO",
+      "anotacao": "Reunião preparatória do PAN Herpetofauna do Nordeste",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000028/2025-03",
+      "bloco": "PAN Nordeste",
+      "tipo": "AÇÃO",
+      "anotacao": "Ação de Implementação do PAN Herpetofauna do Nordeste_Chamada 2025",
+      "total_documentos": 0,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000071/2025-61",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Contratação de Serviço para evento do PAN Herpetofauna do Nordeste - Identidade Visual da Exposição Caatinga.",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000003/2026-82",
+      "bloco": "PAN Nordeste",
+      "tipo": "COMUNICAÇÃO",
+      "anotacao": "Comunicação sobre a publicação do 3º ciclo do PAN Herpetofauna do Nordeste.",
+      "total_documentos": 16,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'COMUNICAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000010/2026-84",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Documentos, ofícios, declarações_3 ciclo_PANNE",
+      "total_documentos": 2,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02001.006948/2005-15",
+      "bloco": "PAN Nordeste",
+      "tipo": "CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Consulta aos Centros Especializados - Proposta MONA Serras de Itamaraju.",
+      "total_documentos": 62,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000025/2026-42",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Carta-convite do Programa de Educação Ambiental e Escolas Resilientes",
+      "total_documentos": 5,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000045/2026-13",
+      "bloco": "PAN Nordeste",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Oficina de Elaboração de Indicadores e Metas_3º ciclo PAN Herpetofauna do Nordeste - Contratação de serviço de fornecimento de coffee-break.",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000035/2017-97",
+      "bloco": "PAN Sul",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "PAN Sul - Ofícios - medidas de conservação de espécies",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000078/2017-72",
+      "bloco": "PAN Sul",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "PAN Sul - Implementação de Ações (Melanophryniscus admirabilis) - 2017",
+      "total_documentos": 140,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000033/2017-06",
+      "bloco": "PAN Sul",
+      "tipo": "INFORMAÇÃO",
+      "anotacao": "PAN Sul - espécies ameaçadas em área de criação de UC e busca de financiamento das ações do PAN",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000036/2018-12",
+      "bloco": "PAN Sul",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "PAN Sul - 1ª Oficina de Monitoria do 2° Ciclo",
+      "total_documentos": 19,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000111/2018-45",
+      "bloco": "PAN Sul",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "PAN Sul - expedição no Rio Grande do Sul para buscar populações de Ceratophrys ornata",
+      "total_documentos": 26,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000034/2017-42",
+      "bloco": "PAN Sul",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "PAN Sul - inclusão de medidas de conservação de espécies",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.000035/2020-01",
+      "bloco": "PAN Sul",
+      "tipo": "PUBLICAÇÃO",
+      "anotacao": "PAN Sul - sumário",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.010090/2016-12",
+      "bloco": "PAN Sul",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "PAN Sul - Apoio logístico a 4ª Monitoria e a Oficina de Planejamento do 2º Ciclo",
+      "total_documentos": 2,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000092/2020-71",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Participação servidores do RAN audiência pública em Arambaré - RS",
+      "total_documentos": 15,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.026752/2021-35",
+      "bloco": "PAN Sul",
+      "tipo": "PLANEJAMENTO ESTRATÉGICO",
+      "anotacao": "Implementação de PAN (Chamada 2022) - solicitação de recursos do OGU",
+      "total_documentos": 70,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PLANEJAMENTO ESTRATÉGICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000073/2022-15",
+      "bloco": "PAN Sul",
+      "tipo": "CONTRATAÇÃO DE SERVICO",
+      "anotacao": "Diagramação e Impressão de Livro - GEF Terrestre.",
+      "total_documentos": 28,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONTRATAÇÃO DE SERVICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000057/2023-03",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Viagem a serviço - Expedição Monitoramento do Cágado Rajado no Parque Nacional do Iguaçu.",
+      "total_documentos": 108,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000006/2024-54",
+      "bloco": "PAN Sul",
+      "tipo": "PUBLICAÇÃO",
+      "anotacao": "Publicação/Diagramação e Impressão de Livro - GEF Terrestre- Anfíbios e Répteis ameaçados do Sul do Brasil.",
+      "total_documentos": 49,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02129.000914/2024-35",
+      "bloco": "PAN Sul",
+      "tipo": "LICENCIAMENTO AMBIENTAL",
+      "anotacao": "Nota Técnica nº 008/2020. Licenciamento de loteamento situado no interior da área proposta para criação da ARIE (Área-1).",
+      "total_documentos": 22,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'LICENCIAMENTO AMBIENTAL' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02127.003814/2024-81",
+      "bloco": "PAN Sul",
+      "tipo": "EVENTO",
+      "anotacao": "Workshop - Resgate, Contenção e Manejo da Fauna Silvestre.",
+      "total_documentos": 342,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000046/2024-04",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição de Campo - \"Ceratophrys ornata\".",
+      "total_documentos": 42,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000060/2024-08",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Implementação de ação 2.8 do PAN Herpetofauna do Sul, reuniões com as secretarias municipais de educação dos municípios de Foz do Iguaçu, Céu Azul e Capanema, no Paraná, além da entrega de exemplares do livro de educação ambiental do PAN em escolas desses municípios..",
+      "total_documentos": 13,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.003267/2025-17",
+      "bloco": "PAN Sul",
+      "tipo": "PROJETO",
+      "anotacao": "Registro de parceiros no Projeto Avaliação dos efeitos do desastre natural decorrente das mudanças climáticas na biodiversidade do Estado do Rio Grande do Sul",
+      "total_documentos": 111,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000062/2021-46",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição visa identificar as ameaças as espécies do gênero Brachycephalus contempladas pelo PAN Herpetofauna do Sul e propor iniciativas de conservação.",
+      "total_documentos": 107,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000074/2025-02",
+      "bloco": "PAN Sul",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição para continuidade no processo de implementação da ação 2.8 do PAN Herpetofauna do Sul no Parque Nacional do Iguaçu.",
+      "total_documentos": 24,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000128/2018-01",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "Oficina de monitoramento da Herpetofauna - 2018",
+      "total_documentos": 60,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000126/2018-11",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONTRATAÇÃO DE SERVICO",
+      "anotacao": "Contratação de moderação para seleção de indicadores complementares de monitoramento para herpetofauna - 2018",
+      "total_documentos": 28,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONTRATAÇÃO DE SERVICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000076/2019-45",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Expedição Parna e Apa Cavernas do Peruaçu (inventários de quelônios e complementarmente de crocodilianos)",
+      "total_documentos": 21,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.010012/2016-18",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Programa Monitora - Expedição ESEC Raso da Catarina e PARNA Serra da Capivara - 2018",
+      "total_documentos": 375,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000043/2019-03",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Programa Monitora - ESEC Raso da Catarina e PARNA Serra da Capivara - Expedição 2019",
+      "total_documentos": 80,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000067/2019-54",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROJETO",
+      "anotacao": "Programa Monitora - Expedição Científica ao PARNA Chapada dos Veadeiros (2019)",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.001028/2019-84",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição ESEC de Pirapitinga - Rompimento da barragem (da Vale) no Córrego do Feijão - Brumadinho, Minas Gerais",
+      "total_documentos": 264,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000084/2020-25",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição no Parque Nacional da Chapada Diamantina",
+      "total_documentos": 33,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02062.000003/2014-58",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROCEDIMENTO ADMINISTRATIVO",
+      "anotacao": "Publicação da Instrução Normativa de Programas de Manejo Populacional de Espécies Ameaçadas da Fauna Brasileira",
+      "total_documentos": 99,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCEDIMENTO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.002122/2021-75",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Novo Termo de Consentimento e Autorização - Programa Monitora",
+      "total_documentos": 46,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000020/2019-91",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Programa Monitora (expedições) - Parna da Serra da Capivara, Chapada dos Veadeiros e ESEC do Raso da Catarina.",
+      "total_documentos": 115,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000139/2018-82",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Programa Monitora - Expedição no PARNA da Chapada dos Veadeiros - 2018.",
+      "total_documentos": 26,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.002120/2021-86",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Programa Monitora - Termo de Carência para Uso e Publicidade de Dados.",
+      "total_documentos": 45,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000063/2021-91",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROJETO DE PESQUISA",
+      "anotacao": "Projeto de monitoramento e proteção do cágado de hogei na bacia do rio Carangola, Minas Gerais, juntamente com a Fundação Biodiversitas.",
+      "total_documentos": 3,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000060/2021-57",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "UNIFORME",
+      "anotacao": "Programa Monitora - uniformes",
+      "total_documentos": 1,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'UNIFORME' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02083.000013/2022-55",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Encontro dos Saberes, REBIO Trombetas.",
+      "total_documentos": 25,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02083.000012/2022-19",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Capacitação do Protocolo de Monitoramento de Quelônios do Programa Monitora.",
+      "total_documentos": 67,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005353/2022-11",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "TERMO",
+      "anotacao": "Termos de Programa Monitora - Instrução Normativa nº 2/2022.",
+      "total_documentos": 57,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TERMO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005873/2022-24",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta Diretorias APA Nascentes do Rio Vermelho.",
+      "total_documentos": 108,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005816/2022-45",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta a macroprocessos para PM Resex Acaú-Goiana.",
+      "total_documentos": 111,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008394/2022-60",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para o Plano de Manejo do Parque Nacional do Descobrimento.",
+      "total_documentos": 117,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008393/2022-15",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para Subsidiar a Elaboração do Plano de Manejo da Estação Ecológica de Tamoios - RJ.",
+      "total_documentos": 107,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008623/2022-46",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Autorização para coleta de dados do Prorama Monitora - IN ICMBio nº 02/2022.",
+      "total_documentos": 65,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.008978/2022-35",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a revisão do plano de manejo da APA Serra da Ibiapaba.",
+      "total_documentos": 105,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.009762/2022-97",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo do REVIS Rio dos Frades.",
+      "total_documentos": 98,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.010802/2022-43",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a revisão do plano de manejo do Parque Nacional da Serra da Bodoquena.",
+      "total_documentos": 115,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.011251/2022-35",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo do Parque Nacional dos Campos Ferruginosos",
+      "total_documentos": 104,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012551/2022-31",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Revisão do PM dos Parques Nacionais de Aparados da Serra e da Serra Geral.",
+      "total_documentos": 106,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.013745/2022-54",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de Manejo da Floresta Nacional do Jamari.",
+      "total_documentos": 108,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.014061/2022-70",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Planejamento 2023 - Programa Monitora.",
+      "total_documentos": 123,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.000078/2023-21",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PUBLICAÇÃO",
+      "anotacao": "Publicações do Programa Monitora.",
+      "total_documentos": 59,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.001531/2023-16",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da APA da Ararinha Azul e do RVS da Ararinha Azul.",
+      "total_documentos": 109,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001693/2023-54",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo da RESEX Marinha Mocapajauba.",
+      "total_documentos": 181,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001689/2023-96",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo da RESEX São João da Ponta.",
+      "total_documentos": 174,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001701/2023-62",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo da APA Carste da Lagoa Santa.",
+      "total_documentos": 102,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001423/2023-43",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo da RESEX Marinha Cuinarana.",
+      "total_documentos": 99,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001694/2023-07",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Plano de manejo do Parque Nacional da Serra das Lontras.",
+      "total_documentos": 115,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.006935/2023-04",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da Floresta Nacional do Aripuanã.",
+      "total_documentos": 119,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007793/2023-94",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "AVALIAÇÃO DE DESEMPENHO",
+      "anotacao": "Definição de meta GDAEM para o indicador \"Número de espécies da fauna silvestre com estado de conservação avaliado\" para o ciclo avaliativo 2023-2024.",
+      "total_documentos": 16,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AVALIAÇÃO DE DESEMPENHO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008267/2022-61",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CADASTRO",
+      "anotacao": "Solicitação do perfil Validador do Sistema de Gestão de Dados do Programa Monitora (SISMonitora).",
+      "total_documentos": 52,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CADASTRO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02122.001296/2021-68",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Monitoramento da Biodiversidade - Monitoramento de quelônios.",
+      "total_documentos": 154,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000065/2023-41",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Viagem a Serviço - Expedição de campo resgate de fauna no Pantanal.",
+      "total_documentos": 14,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001116/2024-43",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da Reserva Biológica do Manicoré.",
+      "total_documentos": 116,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.002568/2024-42",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROCESSO ADMINISTRATIVO",
+      "anotacao": "Monitoramento do cumprimento da transparência ativa pelo ICMBio.",
+      "total_documentos": 42,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO ADMINISTRATIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.023637/2021-17",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Subsídios para elaboração do Plano de Manejo da ESEC Alto Maués.",
+      "total_documentos": 149,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.004429/2024-53",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da Reserva Extrativista Tracuateua.",
+      "total_documentos": 122,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000090/2023-25",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROCESSO SELETIVO",
+      "anotacao": "Processo de seleção de bolsistas para para o processo de Avaliação referente ao EDITAL Nº 009/2023 FEST  Projeto Estratégias de Conservação, Restauração e Manejo para a Biodiversidade da Caatinga, Pampa e Pantanal - GEF Terrestre - A-CGPEQ-RAN. Programa Monitora.",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO SELETIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000091/2023-70",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROCESSO SELETIVO",
+      "anotacao": "Processo de seleção de bolsistas para para o processo de Avaliação referente ao EDITAL Nº 009/2023 FEST  Projeto Estratégias de Conservação, Restauração e Manejo para a Biodiversidade da Caatinga, Pampa e Pantanal - GEF Terrestre  - GEF Terrestre - B-CGPEQ-RAN. Programa Monitora.",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO SELETIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.010089/2024-08",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "INFORMAÇÃO",
+      "anotacao": "Proposta de Resolução Conama - Lista PET.",
+      "total_documentos": 35,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02122.001095/2024-11",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Aprovação de PCDP Programa Monitoramento Aquático Continental: Protocolo Complementar de Quelônios.",
+      "total_documentos": 81,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.015660/2024-72",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da Reserva Extrativista Alto Juruá.",
+      "total_documentos": 92,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.014706/2024-36",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do Plano de Manejo do Parque Nacional e Histórico do Monte Pascoal (BA).",
+      "total_documentos": 88,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.020696/2024-78",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Planejamento Anual 2025 - Programa Monitora",
+      "total_documentos": 126,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.000334/2025-41",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Disponibilização de camisetas do Programa Monitora",
+      "total_documentos": 42,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.022068/2024-27",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GRUPO DE TRABALHO",
+      "anotacao": "Institucionalização de uma zona de compatibilização nas Unidades de Conservação de Proteção Integral.",
+      "total_documentos": 78,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.003373/2025-09",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "EVENTO",
+      "anotacao": "Oficina de Elaboração da Estratégia de Inovação do Programa Monitora.",
+      "total_documentos": 107,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02127.013591/2024-60",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Planejamento anual 2025 - atividades na FLONA de São Francisco de Paula - monitoramento de anfíbios",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02070.005781/2025-97",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "REUNIÃO",
+      "anotacao": "Oficina do Projeto \"Avaliação dos efeitos do desastre natural decorrente das mudanças climáticas na biodiversidade do Estado do Rio Grande do Sul\"",
+      "total_documentos": 344,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'REUNIÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005970/2025-60",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para Subsidiar a Elaboração do Plano de Manejo da Reserva Biológica de Una",
+      "total_documentos": 111,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.005983/2025-39",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do Plano de Manejo do Refúgio de Vida Silvestre de Una - Revis de Una",
+      "total_documentos": 108,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000001/2024-21",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição de Campo Serra da Capivara, Raso da Catarina, APA Ibirapuitã e PARNA Sete Cidades.",
+      "total_documentos": 302,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000030/2025-74",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "VIAGEM A SERVIÇO",
+      "anotacao": "Expedição com fins de coletar amostras biológicas da espécie  Podocnemis expansa no âmbito do Projeto Genômica da Biodiversidade Brasileira - GBB.",
+      "total_documentos": 5,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'VIAGEM A SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.020245/2024-31",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "DECLARAÇÃO",
+      "anotacao": "Avaliação dos efeitos do desastre natural decorrente das mudanças climáticas na biodiversidade do Estado do Rio Grande do Sul - Convênio 6",
+      "total_documentos": 159,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DECLARAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.020204/2024-44",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "AQUISIÇÃO",
+      "anotacao": "Aquisição de Bens - Convênio 6 (20039035): Avaliação dos efeitos do desastre natural decorrente das mudanças climáticas na biodiversidade do Estado do Rio Grande do Sul",
+      "total_documentos": 73,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AQUISIÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.013801/2025-01",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "MONITORAMENTO",
+      "anotacao": "Monitoramento - Novo formato do Relatório de Atividades UCs (COMOB)",
+      "total_documentos": 108,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02120.014905/2025-92",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "TRANSPORTE DE ANIMAIS",
+      "anotacao": "Solicita anuência para soltura de quelônios - Soltura de 47 filhotes de tartaruga da amazônia, usadas em experimento.",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'TRANSPORTE DE ANIMAIS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02128.005187/2024-11",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Base Avançada Curimataí - Criação da Base Avançada Curimataí do Parque Nacional das Sempre Vivas.",
+      "total_documentos": 117,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02083.000051/2025-51",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONTRATAÇÃO DE SERVICO",
+      "anotacao": "Solicitação de contratação de serviço gráfico de diagramação e impressão",
+      "total_documentos": 9,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONTRATAÇÃO DE SERVICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000094/2025-75",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "EVENTO",
+      "anotacao": "Oficina de Avaliação do Protocolo de Monitoramento de Lagartos - Componente Campestre e Savânico.",
+      "total_documentos": 43,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'EVENTO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.002011/2026-73",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a revisão do plano de manejo da Reserva Biológica do Gurupi.",
+      "total_documentos": 116,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.001141/2020-01",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Providências relativas à alteração de composição do NGI ICMBio Salgado Paraense.",
+      "total_documentos": 117,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02121.001045/2024-36",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Proposta de Criação de NGI ICMBio Salinas",
+      "total_documentos": 59,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02121.001137/2025-05",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Providências relativas à criação do NGI ICMBio Sauim-de-Coleira.",
+      "total_documentos": 67,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.004782/2026-03",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a elaboração do plano de manejo da Reserva Extrativista de Canavieiras.",
+      "total_documentos": 130,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007875/2026-81",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PROTOCOLO",
+      "anotacao": "PROGRAMA CAMINHOS DA BIODIVERSIDADE. Busca Ativa e passiva de iniciativas existentes.",
+      "total_documentos": 44,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007468/2026-74",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para Subsidiar a Revisão do Plano de Manejo do PARNA dos Campos Gerais.",
+      "total_documentos": 117,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02030.000090/2023-10",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Consulta para Subsidiar o Processo de Criação de Unidades de Conservação nos Montes submarinos da Cadeia de Fernando de Noronha e Norte do Brasil.",
+      "total_documentos": 195,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.010300/2024-84",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Consulta para Subsidiar Processo de Criação de Unidade de Conservação na Cadeia Submarina Vitória-Trindade (Proposta \"Colinas Coralinas\").",
+      "total_documentos": 62,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007450/2026-72",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para subsidiar a revisão do plano de manejo do Parque Nacional da Lagoa do Peixe.",
+      "total_documentos": 122,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008396/2026-82",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "PESQUISA",
+      "anotacao": "Diagnóstico sobre soltura de animais silvestres (incluindo aquáticos e marinhos) em Unidades de Conservação",
+      "total_documentos": 142,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02129.000647/2023-15",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Gestão de dados da APA da Bacia do Rio São Bartolomeu/DF.",
+      "total_documentos": 52,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007966/2026-17",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Providências relativas à criação do Núcleo de Gestão Integrada - ICMBio Albardão.",
+      "total_documentos": 42,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.008913/2026-13",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "CONSULTA",
+      "anotacao": "Consulta para Subsidiar a Elaboração do Plano de Manejo da Reserva Extrativista Arapiranga-Tromaí.",
+      "total_documentos": 115,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONSULTA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02127.000781/2026-89",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Providências relativas à criação do Núcleo de Gestão Integrada - NGI ICMBio Faxinais.",
+      "total_documentos": 41,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.011443/2017-84",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "GESTÃO DE UNIDADE DE CONSERVAÇÃO",
+      "anotacao": "Alteração de nome de NGI - Núcleo de Gestão Integrada ICMBio Araucárias.",
+      "total_documentos": 81,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO DE UNIDADE DE CONSERVAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.013631/2026-38",
+      "bloco": "Monitoramento da fauna / Programa Monitora/Plano de Manejo.",
+      "tipo": "COMUNICAÇÃO",
+      "anotacao": "Atualização do Sistema de Gestão de Dados do Programa Monitora-SISMonitora",
+      "total_documentos": 21,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'COMUNICAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000087/2020-69",
+      "bloco": "Guias/Publicações",
+      "tipo": "AUTORIZAÇÃO",
+      "anotacao": "Procedimento para solicitação de autorização para publicações informativas e científicas",
+      "total_documentos": 17,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'AUTORIZAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012542/2023-21",
+      "bloco": "Guias/Publicações",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Procedimentos para solicitação de ISBN e Ficha Catalográfica - Contrato/ISBN nº 24/2025 (021761017).",
+      "total_documentos": 214,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.018842/2025-86",
+      "bloco": "Guias/Publicações",
+      "tipo": "SOLICITAÇÃO",
+      "anotacao": "Materiais em língua estrangeira produzidos pelos CNPCs.",
+      "total_documentos": 40,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'SOLICITAÇÃO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000064/2025-69",
+      "bloco": "Guias/Publicações",
+      "tipo": "MATERIAL GRÁFICO",
+      "anotacao": "Solicita impressão de Guia de Lagartos do PARNA Serra da Capivara",
+      "total_documentos": 18,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'MATERIAL GRÁFICO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.006296/2020-26",
+      "bloco": "Guias/Publicações",
+      "tipo": "DELEGAÇÃO DE COMPETÊNCIA",
+      "anotacao": "Portaria ICMBio Nº 3354, de 25 de agosto de 2025 - critérios para autorização prévia de publicações de obras científicas.",
+      "total_documentos": 376,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DELEGAÇÃO DE COMPETÊNCIA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.000627/2026-18",
+      "bloco": "Guias/Publicações",
+      "tipo": "PROTOCOLO",
+      "anotacao": "Proposta de temas para o Guia de Inteligência Artificial e Meio Ambiente.",
+      "total_documentos": 103,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROTOCOLO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.007856/2026-55",
+      "bloco": "Guias/Publicações",
+      "tipo": "PUBLICAÇÃO",
+      "anotacao": "Avanços do Iphan na reconstrução das políticas culturais do país.",
+      "total_documentos": 40,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000010/2016-11",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "FAUNA",
+      "anotacao": "Oficina de Avaliação dos Crocodilianos (2º ciclo) - 2016",
+      "total_documentos": 7,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000018/2017-50",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "CONVITE",
+      "anotacao": "Convite ao Rogério  Bastos (Coordenação) - 2º. Ciclo de avaliação dos Anfíbios",
+      "total_documentos": 1,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'CONVITE' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000019/2017-02",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "FAUNA",
+      "anotacao": "Convite ao Márcio Martins (Co-coordenador) - 2º. Ciclo de avaliação dos Anfíbios",
+      "total_documentos": 6,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02071.000125/2017-88",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "DIÁRIAS E PASSAGENS",
+      "anotacao": "2ª Oficina de Avaliação do Estado de Conservação dos Répteis e Anfíbios - Acadebio-Iperó SP, 2017",
+      "total_documentos": 89,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'DIÁRIAS E PASSAGENS' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02176.000099/2017-10",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "ESPÉCIES AMEAÇADAS",
+      "anotacao": "Pactuação de metas (GDAEM) - avaliação de espécies",
+      "total_documentos": 39,
+      "motivo_descarte": "criterio_2_sem_doc_tecnico",
+      "detalhe": "Tipo de processo aceito, mas nenhum título de documento no processo contém termo técnico (ou todos os termos técnicos encontrados coincidem com termos de tramitação administrativa)."
+    },
+    {
+      "numero": "02176.000115/2017-74",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "GESTÃO PÚBLICA",
+      "anotacao": "Pactuação de metas 2017-2018 (GDAEM) - avaliação de espécies",
+      "total_documentos": 16,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'GESTÃO PÚBLICA' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.012689/2022-31",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "ORDEM DE SERVIÇO",
+      "anotacao": "Equipe ampliada COFAU - Ordem de Serviço",
+      "total_documentos": 22,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'ORDEM DE SERVIÇO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02071.000008/2023-62",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "PROCESSO SELETIVO",
+      "anotacao": "Seleção de Bolsista GEF Espécies para atuar no RAN, no processo de Avaliação.",
+      "total_documentos": 12,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'PROCESSO SELETIVO' não está na lista de tipos técnicos aceitos."
+    },
+    {
+      "numero": "02070.010145/2026-68",
+      "bloco": "Processo de Avaliação do Estado de Conservação da Fauna",
+      "tipo": "REUNIÃO",
+      "anotacao": "Oficina sobre destinação da fauna silvestre (ICMBio e IBAMA)",
+      "total_documentos": 25,
+      "motivo_descarte": "criterio_1_tipo_nao_tecnico",
+      "detalhe": "Tipo de processo 'REUNIÃO' não está na lista de tipos técnicos aceitos."
+    }
+  ]
+}

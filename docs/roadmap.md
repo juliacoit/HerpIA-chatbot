@@ -3,7 +3,7 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-06-30
+**Atualizado em:** 2026-07-03
 
 ---
 
@@ -13,7 +13,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 1] Coleta de dados          ███████░░░  70% — SALVE incompleto; publicações pendentes; SEI catalogado
 [Fase 2] Extração de texto        █░░░░░░░░░  10% — script SALVE criado, não executado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — nenhum documento avaliado
-[Fase 4] Chunking                 ░░░░░░░░░░   0%
+[Fase 4] Chunking                 ████████░░  80% — 39.242 chunks (monitora, PANs, SALVE); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ░░░░░░░░░░   0%
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
@@ -71,6 +71,7 @@ do estado atual até o protótipo funcional validado com usuários.
   ```
   - Saída: `01_fontes_web/sei/documentos_por_processo.json`
 - [x] **Analisar catálogo** — triagem automática gerou lista de 197 processos candidatos (`processos_para_exportacao.json`; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
+- [x] **Documentar os 220 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
 - [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
@@ -138,22 +139,29 @@ do estado atual até o protótipo funcional validado com usuários.
 
 > **Dependência:** textos extraídos (Fase 2) + documentos autorizados (Fase 3)
 
+- [x] **Script único de chunking implementado** (`scripts/processamento/gerar_chunks.py`)
+  - Lê exclusivamente de `03_documentos_autorizados/{monitora,pans,salve}/` (nunca de `04_*`/`05_*`, conforme ADR 0002)
+  - Tamanho alvo ~2000 caracteres (~500 tokens), sobreposição ~200 caracteres (~50 tokens), por aproximação de caracteres
+  - Splits preferencialmente em parágrafo/sentença; parágrafos minúsculos (ex.: número de artigo isolado por quebra de página) são fundidos ao próximo até atingir um tamanho mínimo, para não gerar chunks sem contexto
+  - Saída: `07_processados/chunks/<fonte>/chunks.jsonl` — um JSON por linha
+
 ### 4.1 SALVE
-- [ ] **Implementar script de chunking** (`scripts/processamento/chunkar_salve.py`)
-  - Estratégia: um chunk por seção da ficha; seções longas divididas por parágrafo
-  - Tamanho alvo: ~2000 caracteres (~500 tokens)
-  - Cada chunk inclui cabeçalho com metadados da espécie (nome, categoria, bioma, DOI)
-  - Saída: `07_processados/chunks/salve/chunks.jsonl`
+- [x] Um chunk por seção da ficha (10 seções); seções longas divididas em sub-chunks com overlap
+- [x] Cabeçalho em cada chunk com metadados da espécie (nome, categoria de risco, bioma, DOI)
+- [x] Executado: 24 fichas → 231 chunks (`07_processados/chunks/salve/chunks.jsonl`)
 
 ### 4.2 PDFs do Monitora e dos PANs
-- [ ] **Implementar script de chunking de PDFs** (`scripts/processamento/chunkar_pdfs.py`)
-  - Estratégia: janela deslizante com overlap (ex: 500 tokens, overlap 50 tokens)
-  - Preferir splits em final de frase ou parágrafo
-  - Cada chunk inclui: fonte, nome do documento, página, URL/caminho local, data de coleta
-  - Saída: `07_processados/chunks/<fonte>/chunks.jsonl`
+- [x] Janela deslizante com overlap sobre o texto por página; cada chunk registra `pagina_inicio`/`pagina_fim`, fonte, nome do documento, URL/caminho local e data de extração
+- [x] Executado: 109 documentos do Monitora → 7.220 chunks; 706 documentos dos PANs → 31.791 chunks
+  - 1 documento do catálogo de PANs (`pan-quelonios-portaria-gat.json`) tem texto extraído mas **não** está em `03_documentos_autorizados/` — corretamente excluído do chunking
 
-### 4.3 Publicações científicas
-- [ ] Reutilizar ou adaptar o chunker de PDFs para publicações científicas
+### 4.3 SEI
+- [ ] **Pendente** — depende da equipe do RAN autorizar a exportação dos processos candidatos (Fase 1.5) e da avaliação de sensibilidade de cada documento exportado
+- [ ] Depois que os documentos aprovados forem movidos para `03_documentos_autorizados/sei/`: implementar/adaptar extração de texto (Fase 2) e então rodar `gerar_chunks.py --fonte sei` (requer adicionar suporte à fonte "sei" no script)
+- **A Fase 4 só pode ser considerada concluída depois que o SEI passar por essa etapa.**
+
+### 4.4 Publicações científicas
+- [ ] Reutilizar ou adaptar `gerar_chunks.py` para publicações científicas quando entrarem em `03_documentos_autorizados/` (Fase 1.4)
   - Considerar incluir metadados bibliográficos (autores, ano, título, DOI) em cada chunk
 
 ---

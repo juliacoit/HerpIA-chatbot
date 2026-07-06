@@ -158,10 +158,11 @@ do estado atual até o protótipo funcional validado com usuários.
 > **Dependência:** chunks gerados (Fase 4) + infraestrutura com Qdrant ativo
 
 ### 5.1 Escolha do modelo de embeddings
-- [ ] **Decisão pendente:** qual modelo usar?
+- [ ] **Decisão pendente com a equipe do RAN** — documento de apoio à decisão pronto: [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md)
   - Opção A: `text-embedding-3-small` (OpenAI API) — simples, boa qualidade, custo por token
-  - Opção B: modelo open-source em português (ex: `neuralmind/bert-base-portuguese-cased`) — sem custo de API, requer GPU ou CPU mais potente
-  - Recomendação inicial: OpenAI `text-embedding-3-small` para o protótipo (troca fácil depois)
+  - Opção B: `text-embedding-3-large` (OpenAI API) — mais qualidade, mais caro; provavelmente acima do necessário
+  - Opção C: modelo open-source multilíngue local (ex.: `BAAI/bge-m3`, `intfloat/multilingual-e5-large`) — sem custo de API nem envio de dados a terceiros, requer processamento local
+  - Vira ADR (`docs/decisoes/0005-...`) assim que a equipe decidir
 
 ### 5.2 Configuração do Qdrant
 - [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH
@@ -238,7 +239,7 @@ do estado atual até o protótipo funcional validado com usuários.
 
 | Decisão | Impacto | Quando decidir |
 |---|---|---|
-| Modelo de embeddings (OpenAI vs. open-source) | Custo, qualidade, dependência de API | Antes da Fase 5 |
+| Modelo de embeddings (OpenAI vs. open-source) — ver [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md) | Custo, qualidade, dependência de API | Antes da Fase 5 |
 | Modelo de LLM para geração (Claude vs. GPT vs. outro) | Custo, qualidade, privacidade dos dados | Antes da Fase 6 |
 | Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |

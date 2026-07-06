@@ -1,0 +1,410 @@
+{
+  "id_ficha": "6c42514d4d745247746d4c5578633373646c72374a513d3d",
+  "nome_cientifico": "Macrogenioglottus alipioi Carvalho, 1946",
+  "nome_cientifico_atual": "Macrogenioglottus alipioi Carvalho, 1946",
+  "nome_comum": "Sapo-andarilho",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17801.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6c42514d4d745247746d4c5578633373646c72374a513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Macrogenioglottus alipioi</i>&nbsp;<span>Carvalho, 1946</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Macrogenioglottus alipioi </em>é endêmica do Brasil e apresenta ampla distribuição, predominantemente no bioma Mata Atlântica, entre os estados de Pernambuco e São Paulo. Habita florestas primárias e secundárias e pode ser encontrada em ambientes alterados como alguns sistemas agroflorestais. Não há ameaças evidentes que possam colocá-la em risco de extinção. Por esses motivos, <em>Macrogenioglottus alipioi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Macrogenioglottus alipioi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17801.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17801.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14968,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Odontophrynidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Macrogenioglottus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Macrogenioglottus alipioi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Sapo-andarilho",
+      "taxonomicNotes": "<p> Estudos moleculares, ainda em andamento, sugerem que pelo menos duas espécies existem no complexo <em>Macrogenioglottus alipioi</em> (C. Haddad, com. pess., 2012). No entanto, a espécie foi tratada como uma única unidade taxonômica nesta avaliação.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p> <em>Macrogenioglottus alipioi</em> é endêmica do Brasil e apresenta ampla distribuição, predominantemente no bioma Mata Atlântica, desde o estado de Pernambuco até o sul do estado de São Paulo, ocorrendo até 600 metros de altitude (Tiburcio <em>et al</em>., 2008; Carvalho-e-Silva <em>et al</em>., 2010; Sobrinho <em>et al</em>., 2016). </p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Minas Gerais, Pernambuco, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Paranapanema, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6535574c57557a6930536c3776487134446f6b6b4b3655796f73794f7a586a4342566a33654566596f78546e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "ec492d71685b178b98a41304f3dbd912.png",
+        "fileName": "Mapa de Macrogenioglottus alipioi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> <em>Macrogenioglottus alipioi </em>é encontrada no chão próxima a corpos d'água em florestas primárias, secundárias e também em sistemas agroflorestais, tais como plantações de cacau. Possui reprodução explosiva em corpos d'água temporários (Dixo &amp; Verdade, 2006; Carvalho-e-Silva <em>et al</em>., 2010). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não existem ameaças evidentes que possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2010",
+              "title": "Carvalho-e-Silva, S.P., Verdade, V. &amp; Skuk, G. (2010) <i>Macrogenioglottus alipioi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57178A11580779.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57178A11580779.en</a>."
+            }
+          ],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Espírito Santo, 2005",
+              "title": "Estado do Espírito Santo 13/06/2005 <i>Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Simon, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Canedo, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Faria <i>et al.</i>, 2007",
+              "title": "Ferns, frogs, lizards, birds and bats in forest fragments and shade cacao plantations in two contrasting landscapes in the Atlantic forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bruscagin <i>et al.</i>, 2014",
+              "title": "Diversity of leaf-litter anurans in a fragmented landscape of the Atlantic Plateau of São Paulo State, southeastern Brazil"
+            },
+            {
+              "label": "Dixo & Metzger, 2010",
+              "title": "The matrix-tolerance hypothesis: an empirical test with frogs in the Atlantic Forest"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani <i>et al.</i>, 2010",
+              "title": "Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil"
+            },
+            {
+              "label": "Hartmann <i>et al.</i>, 2010",
+              "title": "Reproductive modes and fecundity of an assemblage of anuran amphibians in the Atlantic rainforest, Brazil"
+            },
+            {
+              "label": "Giaretta, 1999",
+              "title": "Diversidade e densidade de anuros de serapilheira num gradiente altitudinal na Mata Atlântica costeira"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL TURÍSTICO DO ALTO DO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bourgeois, 2010",
+              "title": "Amphibia, Anura, Cycloramphidae, <i>Macrogenioglottus alipioi</i> Carvalho, 1946: Distribution extension, state of Alagoas, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Faria <i>et al.</i>, 2007",
+              "title": "Ferns, frogs, lizards, birds and bats in forest fragments and shade cacao plantations in two contrasting landscapes in the Atlantic forest, Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários estudos taxonômicos.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P.; Verdade, V. &amp; Skuk, G. 2010. <i>Macrogenioglottus alipioi</i>. <b>The IUCN Red List of Threatened Species 2010: e.T57178A11580779</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57178A11580779.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57178A11580779.en</a>.",
+          "Dixo, M. &amp; Verdade, V.K. 2006. Leaf litter herpetofauna of the Reserva Florestal de Morro Grande, Cotia (SP). <b>Biota Neotropica</b>, 6 (2): p.1-20.",
+          "Estado do Espírito Santo 13/06/2005. Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências. p.37. Acessado em: 16/06/2005.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Sobrinho, P.M.M.; dos Santos, E.G.; de Melo, V.L.; dos Santos, E.M. &amp; de Moura, G.J.B. 2016. First record of <i>Macrogenioglottus alipioi</i> Carvalho, 1964 (Amphibia: Anura) for the state of Pernambuco, Brazil. <b>Herpetology Notes</b>, 9: p.103-104.",
+          "Tiburcio, I.C.S.; Lisboa, B.S. &amp; Haddad, C.F.B. 2008. Amphibia, Anura, Cycloramphidae, <I>Macrogenioglottus alipioi</i>: Distribution extension, state of Sao Paulo and Alagoas, Brazil. <b>Check List</b>, 4 (4): p.455-457."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

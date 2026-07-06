@@ -1,0 +1,289 @@
+{
+  "id_ficha": "65374c627a54416e6d7469776943556371674f7774773d3d",
+  "nome_cientifico": "Lysapsus laevis (Parker, 1935)",
+  "nome_cientifico_atual": "Lysapsus laevis (Parker, 1935)",
+  "nome_comum": "Rã-paradoxal",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21352.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=65374c627a54416e6d7469776943556371674f7774773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Lysapsus laevis</i>&nbsp;<span>(Parker, 1935)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Lysapsus laevis </em>ocorre na América do Sul, nas savanas amazônicas das Guianas e norte do Brasil, no estado de Roraima. A espécie pode ser encontrada em lagoas, poças e ambientes aquáticos lênticos de ambientes abertos. É comum e ocorre em uma região relativamente bem preservada, sem ameaças que a coloquem em risco de extinção em curto prazo. Por estas razões, <em>Lysapsus laevis </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Lysapsus laevis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21352.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21352.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16420,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Lysapsus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Lysapsus laevis</i>"
+        }
+      ],
+      "oldNames": "Lysapsus limellus laevis, Pseudis laevis",
+      "commonNames": "Rã-paradoxal",
+      "taxonomicNotes": "<p>O grupo das rãs paradoxais foi revisado por Garda <em>et al</em>., (2010).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Lysapsus laevis</em> possui distribuição restrita às savanas de Rupununi nas Guianas e no norte do Brasil (Caramaschi &amp; Niemeyer, 2004; Busin<em> et al</em>., 2006; Garda<em> et al</em>., 2007, 2010).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é encontrada nas savanas amazônicas no estado de Roraima (Caramaschi &amp; Niemeyer, 2004; Busin<em> et al</em>., 2006; Garda<em> et al</em>., 2007, 2010).</p>",
+      "states": "Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/316b5841373055786d74307379624c34344e6c707569666548426c5338646d384f736d37776c45424b41546e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "e009b8ae44821b9c4a0401d87a970494.png",
+        "fileName": "Mapa de Lysapsus laevis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Lysapsus</em> <em>laevis </em>é diurna e noturna, apresenta hábitos aquáticos, ocupando lagoas e poças de águas paradas ou de baixa movimentação em áreas abertas do bioma Amazônia. Os indivíduos vocalizam e reproduzem na água (Gallardo, 1961).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em sua área de distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Reichle, 2004",
+              "title": "Reichle, S. (2004) <i>Lysapsus laevis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55763A11361974.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55763A11361974.en</a>. [Acessado em: 06/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Caramaschi & Niemeyer, 2004",
+              "title": "Descrição do girino de <I>Lysapsus laevis</i> (Paker), com notas sobre o ambiente, hábitos e desenvolvimento (Anura, Hylidae, Pseudinae)."
+            },
+            {
+              "label": "Garda <i>et al.</i>, 2010",
+              "title": "Taxonomic characterization of Paradoxical frogs (Anura, Hylidae, Pseudae): geographic distribution, external morphology, and morphometry"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Ainda são necessários estudos sobre distribuição geográfica, ecologia e história natural.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Busin, C.S.; Lima, A.P.; Prado, C.P.A.; Strussmann, C.; Siqueira junior, S., &amp; Recco-Pimentel, S.M. 2006. Chromosomal differentiation of populations of <I>Lysapsus limellus limellus, L. l. bolivianus</i>, and of <I>Lysapsus caraya</I> (Hylinae, Hylidae). <b>Micron</b>, 37 (4): p.355-362.",
+          "Caramaschi, U. &amp; Niemeyer, H. D., 2004. Descrição do girino de <I>Lysapsus laevis</i> (Paker), com notas sobre o ambiente, hábitos e desenvolvimento (Anura, Hylidae, Pseudinae).. Revista Brasileira de Zoologia, 21 (1960): p.449-452.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Gallardo, J.M. 1961. On the species of Pseudidae (Amphibia: Anura). <b>Bulletin of the Museum of Comparative Zoology</b>, 125 (4): p.110-134.",
+          "Garda, A.A.; Costa, G.C.; Rodrigues, F.G. &amp; Mesquita, D.O. 2007. Ecology of <I>Lysapsus limellium</i> in the Brazilian Amazon river basin. <b>Herpetological Journal</b>, 17: p.141-148.",
+          "Garda, A.A.; Santana, D.J. &amp; São-Pedro, V.A. 2010. Taxonomic characterization of Paradoxical frogs (Anura, Hylidae, Pseudae): geographic distribution, external morphology, and morphometry. <b>Zootaxa</b>, 28: p.1-28.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Reichle, S. 2004. <i>Lysapsus laevis</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55763A11361974</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55763A11361974.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55763A11361974.en</a>. Acessado em: 06/08/2012."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

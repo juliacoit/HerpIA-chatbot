@@ -1,0 +1,313 @@
+{
+  "id_ficha": "78574e614f497a6b36356150397150667847692f53513d3d",
+  "nome_cientifico": "Chthonerpeton perissodus Nussbaum & Wilkinson, 1987",
+  "nome_cientifico_atual": "Chthonerpeton perissodus Nussbaum & Wilkinson, 1987",
+  "nome_comum": "Cecília, Cecília-d'água-mineira, Cobra-cega",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19321.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=78574e614f497a6b36356150397150667847692f53513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Chthonerpeton perissodus</i>&nbsp;<span>Nussbaum & Wilkinson, 1987</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Chthonerpeton perissodus</em> é endêmica do Brasil, conhecida somente da localidade-tipo, situada no rio Pandeiros, margem esquerda do rio São Francisco, no norte do estado de Minas Gerais. Essa porção da bacia do rio São Francisco sofre com assoreamento devido ao desmatamento em suas cabeceiras. No entanto, a região não é bem amostrada para o grupo e a espécie é muito pouco conhecido, havendo apenas três indivíduos depositados em coleções científicas. Considerando que não há informações suficientes sobre distribuição, população e impacto das ameaças que possibilitem uma avaliação adequada do seu risco de extinção, <em>Chthonerpeton perissodus</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Chthonerpeton perissodus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19321.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19321.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15454,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Typhlonectidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Chthonerpeton</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Chthonerpeton perissodus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Cecília, Cecília-d'água-mineira, Cobra-cega",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Chthonerpeton perissodus </em>é endêmica do Brasil, conhecida somente da localidade-tipo, descrita como rio Pandeiro, um dos tributários do rio São Francisco no norte do estado Minas Gerais (Nussbaum &amp; Wilkinson, 1987). A região é pouco amostrada para o grupo e a distribuição da espécie não é bem conhecida.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia São Francisco Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7a2b756762744e6948385770354e5676557a4e524d59584c49432f4254656b55416470494a385a7771336a6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Chthonerpeton perissodus",
+        "diskFileName": "ccb56a856a09e77c218bcb1ff9006f17.png",
+        "fileName": "Mapa de Chthonerpeton perissodus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há informações sobre a história natural da espécie. Presume-se que seja aquática e vivípara (Wilkinson <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, que é conhecida apenas de três indivíduos depositados em coleções científicas (Nussbaum &amp; Wilkinson, 1987; Wilkinson <em>et al</em>., 2004).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Apesar do pouco conhecimento que se tem sobre a espécie, o Rio Pandeiros (localidade-tipo) sofre com assoreamento devido ao desmatamento em suas cabeceiras, o que representa uma ameaça potencial.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.5 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.A.Q., Maciel, A.O., Cruz, C.A.G., Loebmann, D., Silvano, D.L., Gonsales, E.M.L., Nomura, F., Leite, F.S.F., Pinto, H.B.A., Amaral, I.B., Nascimento, L.B., Sturaro, M.J., Hoogmoed, M.S., Kienle, M.S., Souza, M.B., Maciel, N.M., Colombo, P., Feio, R.N., Lingnau, R. &amp; Bastos, R.P. (2016) Avaliação do Risco de Extinção de <i>Chthonerpeton perissodus</i> Nussbaum & Wilkkinson, 1987. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7640-anfibios-chthonerpeton-perissodus.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7640-anfibios-chthonerpeton-perissodus.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Wilkinson <i>et al.</i>, 2004",
+              "title": "Wilkinson, M., Silvano, D. &amp; Nascimento, L.B. (2004) <i>Chthonerpeton perissodus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59540A11960725\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59540A11960725</a>. [Acessado em: 11/jul/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BACIA DO RIO PANDEIROS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nussbaum & Wilkinson, 1987",
+              "title": "Two new species of <i>Chthonerpeton</i> (Amphibia: Gymnophiona: Typhlonectidae) from Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários inventários direcionados na região da localidade-tipo para localizar populações e avaliar as ameaças.</p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.A.Q.; Maciel, A.O.; Cruz, C.A.G.; Loebmann, D.; Silvano, D.L.; Gonsales, E.M.L.; Nomura, F.; Leite, F.S.F.; Pinto, H.B.A.; Amaral, I.B.; Nascimento, L.B.; Sturaro, M.J.; Hoogmoed, M.S.; Kienle, M.S.; Souza, M.B.; Maciel, N.M.; Colombo, P.; Feio, R.N.; Lingnau, R. &amp; Bastos, R.P. 2016. Avaliação do Risco de Extinção de <i>Chthonerpeton perissodus</i> Nussbaum & Wilkkinson, 1987. <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7640-anfibios-chthonerpeton-perissodus.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7640-anfibios-chthonerpeton-perissodus.html</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Nussbaum, R.A. &amp; Wilkinson, M. 1987. Two new species of <i>Chthonerpeton</i> (Amphibia: Gymnophiona: Typhlonectidae) from Brazil. <b>Occasional Papers of the Museum of Zoology of the University of Michigan</b>, (716) p.1-16.",
+          "Wilkinson, M.; Silvano, D. &amp; Nascimento, L.B., 2004. <i>Chthonerpeton perissodus</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59540A11960725\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59540A11960725</a>. Acessado em: 11/07/2011."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

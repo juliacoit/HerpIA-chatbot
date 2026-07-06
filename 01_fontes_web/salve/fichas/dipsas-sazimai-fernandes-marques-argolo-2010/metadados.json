@@ -1,0 +1,418 @@
+{
+  "id_ficha": "6554536c334673554253754b586b32554e72697848413d3d",
+  "nome_cientifico": "Dipsas sazimai Fernandes, Marques & Argôlo, 2010",
+  "nome_cientifico_atual": "Dipsas sazimai Fernandes, Marques & Argôlo, 2010",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28462.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6554536c334673554253754b586b32554e72697848413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dipsas sazimai</i>&nbsp;<span>Fernandes, Marques & Argôlo, 2010</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Dipsas sazimai </em>é endêmica do Brasil, com registros de ocorrência entre o estado de Pernambuco e o norte de São Paulo. A espécie parece ocorrer em baixa densidade e é encontrada em ambientes florestais, podendo ser localmente afetada por atividades antrópicas, principalmente o avanço da agropecuária e expansão urbana. No entanto, considerando sua ampla distribuição, as ameaças não devem colocá-la em risco de extinção em curto prazo. Além disso, ocorre em unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Dipsas sazimai </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Dipsas sazimai</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28462.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28462.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 2,
+      "versionId": 19454,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dipsas</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dipsas sazimai</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Dipsas sazimai </em>é endêmica do Brasil, com registros de ocorrência entre os estados de Pernambuco e o norte de São Paulo (Fernandes <em>et al.,</em> 2010; Guedes <em>et al</em>., 2014; Roberto <em>et al</em>., 2017; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 449.140 km2, calculada via mínimo polígono convexo a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Pernambuco, Rio de Janeiro, São Paulo",
+      "biomes": "Caatinga, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral RJ, Sub-bacia Litoral SP",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7069613849732f6c6c384c785642326e46777045676a574a54316f30624f6972374d6644533478572b544c6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "1b43ff8d9457eb38726e599d29bb3813.png",
+        "fileName": "Mapa de Dipsas sazimai.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie ocorre predominantemente na Mata Atlântica, mas foi registrada na Caatinga Caatinga. É encontrada em ambientes florestais desde locais de baixa altitude (0-270 metros) próximos à costa, até mais de 700 metros de altitude em latitudes mais baixas (Fernandes <em>et al.,</em> 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie. Comparando-se com espécies congêneres, parece ocorrer em baixas densidades (O. Marques, com. pess., 2019).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie parece ocorrer em baixa densidade e possui especificidade por ambientes florestais, podendo ser localmente afetada por atividades antrópicas, principalmente o avanço da agropecuária e expansão urbana. No entanto, considerando sua ampla distribuição, as ameaças não devem colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Dipsas sazimai </em>é contemplada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste (ICMBio, 2019) e beneficiada pelo Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Strüssmann , C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Kawashita-Ribeiro, R.A., Sawaya, R.J. &amp; Costa, T.B.G. (2019) <I> Dipsas sazimai</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T50951415A123738093.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T50951415A123738093.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMA-BA, 2017",
+              "title": "SEMA-BA 2017 <i>Secretaria do Meio Ambiente - Governo do Estado da Bahia. Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Diário Oficial do Estado – BA.</i>"
+            },
+            {
+              "label": "Estado da Bahia, 2017",
+              "title": "Estado da Bahia 2017 <i>Portaria nº 37, de 15 de agosto de 2017, Torna pública a Lista de Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Necessária",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio São João/Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DAS SETE PASSAGENS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Fernandes <i>et al.</i>, 2010",
+              "title": "A new species of <i>Dipsas</i> Laurenti from the Atlantic Forest of Brazil (Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro Grande",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Estado da Bahia 15/08/2017. Portaria nº. 37: Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Disponível em: <a target=\"_blank\" href=\"http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html\">http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html</a>. Acessado em: 08/05/2019.",
+          "Estado do Pernambuco, 15/05/2017. Resolução SEMAS Nº 1 DE 15/05/2017: Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Répteis. Diário Oficial do Estado de Pernambuco..",
+          "Fernandes, D.S.; Marques, O.A.V. &amp; Argôlo, A.J.S. 2010. A new species of <i>Dipsas</i> Laurenti from the Atlantic Forest of Brazil (Serpentes: Dipsadidae). <b>Zootaxa</b>, 2691: p.57–66.",
+          "Guedes, T.B.; Nogueira, C. &amp; Marques, O.A.V. 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <b>Zootaxa</b>, 3863: p.1-93.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Roberto, I.J.; Oliveira, C.R.; Araújo-Filho, J.A.; Oliveira, H.F. &amp; Ávila, R.W. 2017. The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. <b>Papéis Avulsos de Zoologia</b>, 57 (27): p.347-373.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Strüssmann , C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Kawashita-Ribeiro, R.A.; Sawaya, R.J. &amp; Costa, T.B.G. 2019. <I> Dipsas sazimai</i>. <b>The IUCN Red List of Threatened Species 2019: e.T50951415A123738093</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T50951415A123738093.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T50951415A123738093.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "id_ficha": "46492f4e52627646744e6e35616c55317635504536773d3d",
+  "nome_cientifico": "Atractus pantostictus Fernandes & Puorto, 1994",
+  "nome_cientifico_atual": "Atractus pantostictus Fernandes & Puorto, 1994",
+  "nome_comum": "Cobra-da-terra, Fura-terra",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27997.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=46492f4e52627646744e6e35616c55317635504536773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus pantostictus</i>&nbsp;<span>Fernandes & Puorto, 1994</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "05/02/2026",
+      "justificative": "<p><em>Atractus pantostictus</em> é endêmica do Brasil, sendo encontrada nos biomas Cerrado e Mata Atlântica, com registros nos estados do Tocantins, Goiás, Mato Grosso, Minas Gerais, São Paulo e no Distrito Federal. A espécie é de encontro relativamente frequente e apresenta certa plasticidade ambiental, sendo observada em ambientes justafluviais e áreas urbanas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Atractus pantostictus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Atractus pantostictus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27997.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27997.2",
+      "photo": {
+        "authorName": "Mauro Teixeira Júnior",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "e1dcee8fae5559a2ec6a5f7d521bbf43.JPG",
+        "fileName": "Atractus pantostictus_Mauro Teixeira Júnior.JPG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/744c4b6162797a6a4b45597341737756614454664d7164674538645577703349575545554267546c52414c3843344b4546724e72434b664677444e4d58596445/full"
+      },
+      "version": 2,
+      "versionId": 19212,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus pantostictus</i>"
+        }
+      ],
+      "oldNames": "Atractus guentheri",
+      "commonNames": "Cobra-da-terra, Fura-terra",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Atractus pantostictus</em> é endêmica do Brasil, com registros nos estados de Tocantins, Goiás, Mato Grosso, Minas Gerais, São Paulo e no Distrito Federal (Passos <em>et al</em>., 2010; Silva, 2017; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Distrito Federal, Goiás, Mato Grosso, Minas Gerais, São Paulo, Tocantins",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4f6f5a39434741696a626f6f474c6b53414351702f49514e5343677a2b55345271775372494c434f6f624a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Atractus pantostictus",
+        "diskFileName": "f15e6df960c5243558eb05a41e7bf8da.png",
+        "fileName": "Mapa de Atractus pantostictus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Atractus pantostictus</em> ocorre em matas de galeria do Cerrado (Fernandes &amp; Puorto, 1993; França &amp; Araújo, 2006; Passos, 2008) e na Mata Atlântica (Martins<em> et al</em>., 2008; Marques <em>et al.,</em> 2009). A espécie é criptozoica (França &amp; Araújo, 2006) e fossorial (Rocha-Barbosa &amp; Moraes-e-Silva, 2009). Apresenta atividade tanto noturna (França &amp; Araújo, 2006) como diurna (Martins <em>et al</em>., 2008). É mais ativa na superfície durante a estação chuvosa, principalmente entre outubro e fevereiro, mais frequentemente em outubro (Sawaya <em>et al</em>., 2008). Apresenta fecundidade entre três e quatro ovos (Fernandes &amp; Puorto, 1993; Cassimiro <em>et al.,</em> 2002). Alimenta-se de minhocas (França &amp; Araújo, 2006; Sawaya <em>et al.,</em> 2008; Marques <em>et al.,</em> 2009) e há registro de escamas de lagarto no trato digestório (R. J. Sawaya &amp; O. A. V. Marques, com. pess., 2008). França &amp; Araújo (2006) sugerem que seja especialista de habitat e dieta, no entanto, foi encontrada em áreas urbanas por São Pedro &amp; Pires (2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Espécie de encontro relativamente frequente. Entretanto, França &amp; Araújo (2006) sugerem que seja rara no Distrito Federal.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2020,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2020",
+              "title": "Silveira, A. L., Prudente, A. L. C., Argôlo , A. J. S., Abrahão, C. R., Nogueira, C. C., Strüssmann, C., Loebmann, D., Barbo, F. E., Franco, F. L., Costa, G. C., Moura, G. J. B., Zaher, H. el D., Borges-Martins, M., Martins, M. R. C., Oliveira , M. E., Hoogmoed, M. S., Marques, O. A. V., Passos, P. G. H., Bérnils, R. S., Kawashita-Ribeiro, R. A., Sawaya, R. J. &amp; Guedes, T. B. C. (2020) <i>Atractus pantostictus</i>. The IUCN Red List of Threatened Species 2020: e.T96102416A123739530. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/96102416/123739530\">https://www.iucnredlist.org/species/96102416/123739530</a>."
+            }
+          ],
+          "orderBy": "Y2020"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia Hidrográfica do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Assis, 1999",
+              "title": "Introdução às serpentes da “Serra do Cipó” (municípios de Santana do Riacho e Jaboticatubas)"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder <i>et al.</i>, 2011",
+              "title": "Répteis da Estação Ecológica Serra Geral do Tocantins, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CAJAMAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE SANTA BáRBARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO JARAGUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE LIBÉLULAS DA SERRA DE SÃO JOSÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "De-Sousa, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA HIDROGRÁFICA DO RIO MACHADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2005",
+              "title": "A new species of <i>Atractus</i> (Serpentes: Colubridae) from Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA DO LAJEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA SÃO JOSÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "De-Sousa, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chakra Grisu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Fernandes & Puorto, 1993",
+              "title": "A new species of <i>Atractus</i> from Brazil and the status of <i>A. guentheri</i> (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda San Michele",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "Jaraguá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cassimiro, J., Bertoluci, J. &amp; Martins, W.P. (2002) <i>Atractus pantostictus</i> (Fura-terra). <i>Clutch Size. Herpetological Review</i>. 32 (2), 137.",
+          "Fernandes, R. &amp; Puorto, G. (1993) A new species of <i>Atractus</i> from Brazil and the status of <i>A. guentheri</i> (Serpentes: Colubridae). <i>Memórias do Instituto Butantan</i>. 55 (1), 7-14.",
+          "França, F.G.R. &amp; Araújo, A.F.B. (2006) The conservation status of snakes in central Brazil. <i>South American Journal of Herpetology</i>. 1 (1), 25-36.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Marques, O.A.V., Pereira, D.N., Barbo, F.E., Germano, J.V. &amp; Sawaya, R.J. (2009) Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <i>Biota Neotropica</i>. 9 (2), 139-150.",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2008) How to be arborial and diurnal and still stay alive: microhabitat use, time of activity, and defense in neotropical forest snakes. <i>South American Journal of Herpetology</i>. 3 (1), 58-67.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Passos, P. (2008) <i>Revisão Taxonômica do Gênero <i>Atractus</i> Wagler, 1828 (Serpentes: Colubridae: Dipsadinae)</i>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro. 671pp.",
+          "Passos, P., Fernandes, R., Bernils, R.S. &amp; Moura-Leite, J.C. (2010) Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae). <i>Zootaxa</i>. 2364, 1-63.",
+          "Rocha-Barbosa, O. &amp; Moraes-e-Silva, R.B. (2009) Analysis of the microstructure of Xenodontinae snake scales associated with different habitat occupation strategies. <i>Brazilian Journal of Biology</i>. 69 (3), 919-923.",
+          "Sawaya, R.J., Marques, O.A.V. &amp; Martins, M. (2008) Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil. <i>Biota Neotropica</i>. 8 (2), 127-149.",
+          "Silva, R.C.C. (2017) <i>O ambiente e a diversidade das serpentes no estado do Tocantins - Brasil</i>. Dissertação de Mestrado. Universidade Federal do Tocantins. Palmas. 156pp.",
+          "Silveira, A. L., Prudente, A. L. C., Argôlo , A. J. S., Abrahão, C. R., Nogueira, C. C., Strüssmann, C., Loebmann, D., Barbo, F. E., Franco, F. L., Costa, G. C., Moura, G. J. B., Zaher, H. el D., Borges-Martins, M., Martins, M. R. C., Oliveira , M. E., Hoogmoed, M. S., Marques, O. A. V., Passos, P. G. H., Bérnils, R. S., Kawashita-Ribeiro, R. A., Sawaya, R. J. &amp; Guedes, T. B. C. (2020) <i>Atractus pantostictus</i>. The IUCN Red List of Threatened Species 2020: e.T96102416A123739530. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/96102416/123739530\">https://www.iucnredlist.org/species/96102416/123739530</a>.",
+          "São Pedro, V.A. &amp; Pires, M.R.S. (2009) As serpentes da região de Ouro Branco, extremo sul da Cadeia do Espinhaço, Minas Gerais. <i>Ceres</i>. 56 (2), 166-171."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "id_ficha": "67572b726776505a6a774f716d476e7a6f75545950773d3d",
+  "nome_cientifico": "Psychosaura macrorhyncha (Hoge, 1947)",
+  "nome_cientifico_atual": "Psychosaura macrorhyncha (Hoge, 1947)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35747.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=67572b726776505a6a774f716d476e7a6f75545950773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Psychosaura macrorhyncha</i>&nbsp;<span>(Hoge, 1947)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "30/03/2026",
+      "justificative": "<p><em>Psychosaura macrorhyncha</em> é endêmica do Brasil, ocorrendo predominantemente na Mata Atlântica costeira, com registros entre o Rio Grande do Norte e São Paulo. A espécie ocorre em ambientes florestais de terras baixas e possui forte associação com bromélias e ambientes de restinga, que se encontram sob forte pressão, principalmente em decorrência da urbanização. No entanto, sua distribuição é ampla e não há evidências de declínio populacional severo, de modo que as ameaças não a colocam em risco de extinção em curto prazo. Portanto, <em>P. macrorhyncha</em> foi avaliada como Menos Preocupante (LC). </p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Psychosaura macrorhyncha</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35747.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35747.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24407,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Mabuyidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Psychosaura</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Psychosaura macrorhyncha</i>"
+        }
+      ],
+      "oldNames": "Mabuya macrorhyncha",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Psychosaura macrorhyncha</em> é endêmica do Brasil, ocorrendo predominantemente na Mata Atlântica, com registros entre o Rio Grande do Norte e São Paulo, incluindo a zona da mata de Minas Gerais (Vrcibradic &amp; Rocha, 1996; Rocha &amp; Bergallo, 1997; Hatano <em>et al</em>., 2001; Garda <em>et al</em>., 2013; Guedes <em>et al</em>., 2017; Freitas <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Minas Gerais, Paraíba, Pernambuco, Rio de Janeiro, Rio Grande do Norte, Sergipe",
+      "biomes": "Caatinga, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/655151415558674a733865316f374e6d5a4c70374e7a364169456c7a536541512b684777392f6933565552777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Psychosaura macrorhyncha.",
+        "diskFileName": "c7f5623f53fad06899e638cc73621902.png",
+        "fileName": "Mapa de Psychosaura macrorhyncha.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Psychosaura macrorhyncha</em> é diurna, semi-arborícola, possui pequeno porte e é fortemente associada a bromélias. Fêmeas tendem a ser maiores do que machos (Vrcibradic <em>et al.</em>, 2007). É comum em ambientes de restinga (Vrcibradic &amp; Rocha, 2011), geralmente encontrada acima do solo, sob vegetação herbácea/arbustiva, mas também pode ser encontrada em ambientes florestais não costeiros abaixo de 1.000 metros de altitude (Guedes <em>et al.</em>, 2017). Na ilha de Queimada Grande, parece estar menos associada a bromélias do que em outras áreas (Vrcibradic &amp; Rocha, 2005). É vivípara, com período de gestação longo, de 9 a 12 meses. Seu período reprodutivo e o tamanho da ninhada variam de acordo com a área em que a espécie ocorre (Vrcibradic &amp; Rocha, 2011), mas geralmente varia de 2 a 3 filhotes por ninhada. Sua dieta é composta por artrópodes e pequenos frutos (Vrcibradic &amp; Rocha, 2005)</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Winck <em>et al.</em> (2017) estimaram a abundância da espécie em várias localidades de restinga no estado do Rio de Janeiro, variando de 2 a 33 indivíduos, com probabilidade de detecção de 0,73 (p = 0,05) ao longo de três anos de amostragem. A espécie foi mais abundante em áreas com maior densidade de bromélias, especialmente de solo (G. Winck com. pess., 2020).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Os ambientes de restinga estão sob forte pressão de degradação em função da especulação imobiliária, turismo, urbanização, extração ilegal de areia e de bromélias, construção de portos, grilagem, dentre outros fatores. As fontes de impacto em restingas reduzem a riqueza e diversidade de espécies de bromélias, o que pode agravar a pressão sobre essa espécie bromelícola (Rocha <em>et al</em>., 2004). Muitas espécies de bromélias da Mata Atlântica encontram-se ameaçadas de extinção (Matinelli &amp; Moares, 2013), e sua coleta pode representar uma ameaça a <em>Psychosaura macrorhyncha</em>. No entanto, a distribuição da espécie é ampla e não há evidências de que essas ameaças possam colocar a espécie em risco de extinção em curto prazo. </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.3 - Portos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.3 - Efeitos indiretos - subsistência/pequena escala",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.1 - Extração de areia",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Insular",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ARIE Ilhas da Queimada Pequena e Queimada Grande",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vrcibradic & Rocha, 2005",
+              "title": "Observations on the natural history of the lizard <i>Mabuya macrorhyncha</i> Hoge (Scincidae) in Queimada Grande Island, São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN, 2019",
+              "title": "Base de dados de pesquisa para testes de protocolo do Programa Monitora"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL CENTRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vrcibradic & Rocha, 2005",
+              "title": "Observations on the natural history of the lizard <i>Mabuya macrorhyncha</i> Hoge (Scincidae) in Queimada Grande Island, São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DAS SETE PASSAGENS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CARAÍVA/ TRANCOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA MARITUBA DO PEIXE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PAU BRASIL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOAS E DUNAS DO ABAETÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PONTA DA BALEIA / ABROLHOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA BRANCA / RASO DA CATARINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE MASSAMBABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Rocha & Vrcibradic, 2003",
+              "title": "Nematode assemblages of some insular and continental lizard hosts of the genus <i>Mabuya</i> Fitzinger (Reptilia, Scincidae) along the eastern Brazilian coast"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Rocha & Vrcibradic, 2003",
+              "title": "Nematode assemblages of some insular and continental lizard hosts of the genus <i>Mabuya</i> Fitzinger (Reptilia, Scincidae) along the eastern Brazilian coast"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Vrcibradic & Rocha, 2002",
+              "title": "Use of cacti as heat sources by thermoregulating <i>Mabuya agilis</i> (Raddi) and <i>Mabuya macrorhyncha</i> Hoge (Lacertilia, Scincidae) in two restinga habitats in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pacatuba",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa do Peixe",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Freitas, M.A., Silva, T.F.S., Fonseca, P.M., Hamdam, B., Filadelfo, T. &amp; Abegg, A.D. (2019) Herpetofauna of Serra do Timbó, an Atlantic Forest remnant in Bahia State, northeastern Brazil. <i>Herpetology Notes</i>. 12, 245-260.",
+          "Garda, A.A., Costa, T.B., Silva, C.R.S., Mesquita, D.O., Faria, R.G., Conceição, B.M., Silva, I.R.S., Ferreira, A.S., Rocha, S.M., Palmeira, C.N.S., Rodrigues, R., Ferrari, S.F. &amp; Torquato, S. (2013) Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil). <i>Check List</i>. 9 (2), 405–414.",
+          "Guedes, J.J.M., Assis, C.L., Feio, R.N. &amp; Costa, H.C. (2017) Lizards and amphisbaenians of Cataguases, Minas Gerais, southeastern Brazil. <i>Oecologia Australis</i>. 21 (4), 431-443.",
+          "Hatano, F.H., Vrcibradic, D., Galdino, C.A.B., Cunha-Barros, M., Rocha, C.F.D. &amp; Van Sluys, M. (2001) Thermal ecology and activity patterns of the lizard community of the restinga of Jurubatiba, Macaé, RJ. <i>Revista Brasileira de Biologia</i>. 61 (2), 287-294.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martinelli, G. &amp; Moraes, M.A. (2013) <i>Livro Vermelho da Flora do Brasil</i> Edição 1a Ed Rio de Janeiro, Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, 1100pp.",
+          "Rocha, C.F.D. &amp; Bergallo, H.G. (1997) Intercommunity variation in the distribution of abundance of dominant lizard species in restinga habitats. <i>Ciência e Cultura (São Paulo)</i>. 49 (4), 269-274.",
+          "Rocha, C.F.D., Nunes-Freitas, A.F., Cogliatti-Carvalho, L. &amp; Rocha-Pessôa, T.C. (2004) Habitat disturbance in the Brazilian coastal sand dune vegetation and related richness and diversity of bromeliad species. <i>Vidalia</i>. 2 (2), 49-55.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Vrcibradic, D. &amp; Rocha, C.F.D. (1996) Ecological differences in tropical sympatric skinks (<i>Mabuya macrorhyncha</i> and <i>Mabuya agilis</i>) in Southeastern Brazil. <i>Journal of Herpetology</i>. 30 (1), 60-67.",
+          "Vrcibradic, D. &amp; Rocha, C.F.D. (2005) Observations on the natural history of the lizard <i>Mabuya macrorhyncha</i> Hoge (Scincidae) in Queimada Grande Island, São Paulo, Brazil. <i>Revista Brasileira de Zoologia</i>. 22 (4), 1185-1190.",
+          "Vrcibradic, D. &amp; Rocha, C.F.D. (2011) An overview of female reproductive traits in South American <i>Mabuya</i> (Squamata, Scincidae), with emphasis on brood size and its correlates. <i>Journal of Natural History</i>. 45 (13-14), 813-825.",
+          "Vrcibradic, D., Rocha, C.F.D. &amp; Rocha-Barbosa, O. (2007) The relationship between body mass and snout–vent length in three species of <i>Mabuya</i> from eastern Brazil. <i>Herpetological Journal</i>. 17, 43-47.",
+          "Winck, G.R., Almeida-Santos, M., Dorigo, T.A., Telles, F.B. &amp; Rocha, C.F.D. (2017) When invasion may not be harmful: niche relations in a lizard assemblage. <i>Biotropica</i>. 49 (1), 117-129."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

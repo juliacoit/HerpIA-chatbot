@@ -1,0 +1,641 @@
+{
+  "id_ficha": "6a6a355577782b435a514431644b6d79616e457661673d3d",
+  "nome_cientifico": "Paleosuchus trigonatus (Schneider, 1801)",
+  "nome_cientifico_atual": "Paleosuchus trigonatus (Schneider, 1801)",
+  "nome_comum": "Cachirre, Jacaré-coroa, jacaré-de-cara-lisa, Keilkopf- Glattstirnkaimans, Schneider’s smooth-fronted caiman",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "08/2016",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19939",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6a6a355577782b435a514431644b6d79616e457661673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Paleosuchus trigonatus</i>&nbsp;<span>(Schneider, 1801)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "08/2016",
+      "publicationDate": "07/10/2021",
+      "justificative": "<p><em>Paleosuchus trigonatus</em> é encontrado em grande parte da Amazônia brasileira e em outros nove países da América do Sul. Sua extensão de ocorrência estimada para o território brasileiro é de 4.058.730 km². A espécie enfrenta pressões antrópicas como fragmentação de <em>habitat</em>, causada pelo desmatamento de áreas de preservação permanente e perda de conectividade de rios e pequenos riachos, além da caça. Apesar dessas ameaças, acredita-se que até o momento não tenha sofrido redução populacional significativa, no entanto, a tendência populacional é desconhecida. Ainda assim, a conservação da espécie é dependente da manutenção da conectividade dos seus <em>habitat</em> amazônicos. Há conectividade com populações dos países vizinhos, porém não se sabe o quanto influenciam o estoque populacional no Brasil. Além disso, ocorre em várias unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Paleosuchus trigonatus</em> foi avaliado como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "William Ernest Magnusson; Yeda Soares de Lucena Bataus; Juliana Rodrigues; Vívian Mara Uhlig; Tiago Almeida de Andrade; Luís Antonio Bassetti; Marcos Eduardo Coutinho; Izeni Pires Farias; Rafael Martins Valadão; Zilca Campos",
+      "citation": "<p>Magnusson, W.E.; Bataus, Y.S.L.; Rodrigues, J.; Uhlig, V.M.; Andrade, T.A.; Bassetti, L.A.; Coutinho, M.E.; Farias, I.P.; Valadão, R.M.; Campos, Z. 2021. <i>Paleosuchus trigonatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19939 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19939",
+      "photo": {
+        "authorName": "Zilca Campos",
+        "authorEmail": "zilca.campos@embrapa.br",
+        "date": "",
+        "diskFileName": "f8886f0fa8683f26b58cee6891e0b82c.jpg",
+        "fileName": "Paleosuchus trigonatus_Zilca Campos.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4f2b55753376762f4e46366d46703761706959794153377a4670717a2b386e4c596234564d4b6837647342704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 2,
+      "versionId": 15628,
+      "deleted": false,
+      "lastAvaliationDate": "04/08/2016",
+      "publicationYear": "2021",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Crocodylia"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Alligatoridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Paleosuchus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Paleosuchus trigonatus</i>"
+        }
+      ],
+      "oldNames": "Alligator palpebrosus, Caiman (Paleosuchus) trigonatus, Caiman trigonatus, Champsa trigonata, Crocodilus (Alligator) trigonatus, Crocodilus niloticus, Crocodilus. palpebrosus, Crocodilus trigonatus, Jacaretinga trigonatus, Paleosuchus niloticus",
+      "commonNames": "Cachirre, Jacaré-coroa, jacaré-de-cara-lisa, Keilkopf- Glattstirnkaimans, Schneider’s smooth-fronted caiman",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p>As duas espécies do gênero <em>Paleosuchus</em>, <em>P. palpebrosus</em> e <em>P. trigonatus,</em> são morfologicamente similares e simpátricas (ocorrem na bacia Amazônica), sendo frequentes os erros de identificação (Magnusson &amp; Campos, 2010).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Paleosuchus trigonatus</em>, jacaré-coroa, ocorre na América do Sul ao longo das bacias Amazônica e Orinoco, abrangendo Bolívia, Brasil, Colômbia, Equador, Guiana, Guiana Francesa, Peru, Suriname e Venezuela (Medem, 1958; Duellman, 1978; Medem, 1981; Medem, 1983; Hoogmoed &amp; Avila-Pires, 1991; Magnusson, 1992; Ward, 1996; Doan &amp; Arriaga, 2002; Dinets, 2013; Champagne <em>et al., </em>2015).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é restrita ao bioma Amazônia (Magnusson, 1992), estando distribuída nas regiões hidrográficas Amazônica e Tocantins/Araguaia (ANA, 2016). Há registros de ocorrência nos estados do Acre, Amazonas, Amapá, Pará, Rondônia, Roraima e Mato Grosso (Magnusson, 1980; Magnusson, 1983; Magnusson <em>et al.,</em>1985, 1987; Nascimento <em>et al., </em>1991; Da Silveira<em> et al.,</em>1997; Souza-Mazurek <em>et al., </em>2000; Rebêlo &amp; Lugli, 2001; Da Silveira, 2003; Peña &amp; Castro, 2004; Ruffeil, 2004; Bernarde &amp; Machado, 2005; Nascimento &amp; Bernarde, 2005; Prudente <em>et al., </em>2005; Assis &amp; Santos, 2007; Lopes &amp; Chalkidis, 2007; Ribeiro <em>et al., </em>2007; Vasconcelos &amp; Campos, 2007, Hrbek <em>et al., </em>2008; Pezzuti <em>et al., </em>2008; Souza &amp; Nascimento, 2009; Avila-Pires<em> et al., </em>2010; Muniz <em>et al., </em>2010; Ávila &amp; Kawashita-Ribeiro, 2011; V.B. Assis, com. pess., 2011; Z. Campo, com. pess., 2011;  Bernardo <em>et al., </em>2012; Campos <em>et al., </em>2012; Santos <em>et al., </em>2012; Marioni <em>et al., </em>2013; Melo-Sampaio <em>et al., </em>2013; Morales Betancourt <em>et al., </em>2013; Ortiz <em>et al., </em>2013; Muniz <em>et al., </em>2015; V. Y. Guimarães, com. pess., 2016; S.H.S.T. Mendonça, com. pess., 2017). Os registros para as localidades “Ciudad de Bahia” (=Salvador) e Aruanã (Goiás) citados por Medem (1983), não são considerados válidos, pois possivelmente incorrem a erro (Hoogmoed &amp; Gruber, 1983; Magnusson &amp; Yamakoshi, 1986).</p> \n<p>As espécies <em>Paleosuchus palpebrosus</em> e <em>P. trigonatus</em> são simpátricas (ocorrem na mesma área), no entanto, raramente são sintópicas (espécies que utilizam recursos similares). Há segregação espacial e de uso de <em>habitat</em>, com <em>P. trigonatus</em> ocupando preferencialmente pequenos riachos dentro de florestas não inundadas e <em>P. palpebrosus</em> ocupando majoritariamente florestas inundadas em torno de rios e lagos maiores (Magnusson, 1985). Nas áreas onde são encontradas juntas, geralmente uma espécie é abundante e a outra rara (Medem, 1967).A extensão de ocorrência de <em>P. trigonatus</em> no Brasil é de 3.894.083 km², estimada pela soma da área das bacias hidrográficas de nível 4 (Lehner &amp; Grill, 2013), que interseccionam os registros de ocorrência da espécie somadas às bacias deste nível que não possuem registros, mas estão conectadas em todas as faces com as bacias que os interseccionam, e com adaptações utilizando as bacias hidrográficas nível 6 no médio e baixo rio Xingu.</p>",
+      "states": "Acre, Amapá, Amazonas, Mato Grosso, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/2f73776d43656770326c574b6c4d455257477346333871425643637166517266714c78756738495872594c6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_ Paleosuchus trigonatus",
+        "diskFileName": "45d6ae56122f93e4993f26988ae8e6d7.png",
+        "fileName": "Mapa de Paleosuchus trigonatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>No Brasil, a maioria dos estudos ecológicos de <em>P. trigonatus</em> foi feita por Magnusson e colaboradores a partir de 1985. <em>Paleosuchus trigonatus</em> ocupa rios e riachos de floresta amazônica. Jovens e adultos machos podem ser encontrados em <em>habitat</em> adjacentes (Magnusson, 1992), em floresta de igapó na Amazônia Central (Souza-Mazurek, 2001), em águas abertas e perto de cachoeiras de grandes rios, como os rios Madeira, Mamoré, Guaporé e Abunã (Vasconcelos &amp; Campos, 2007). Martins <em>et al.,</em> (2011) relataram a ocorrência da espécie em área urbana, na cidade de Manaus (AM).</p> \n<p>A dieta da espécie é composta em grande parte por vertebrados terrestres, com adultos consumindo principalmente cobras e mamíferos, e, em menor quantidade, peixes (Magnusson <em>et al.,</em>1987). Assis &amp; Santos (2007) descreveram<em> P. trigonatus</em> predando <em>Bufo marinus </em>(sapo-cururu) no norte do Brasil. Dentro da floresta a dieta da espécie é bem variada (Morato <em>et al.,</em> 2011; Melo-Sampaio <em>et al.,</em> 2013).</p> \n<p>O crescimento do jacaré-coroa foi estudado na Reserva Florestal Adolpho Ducke, Manaus-AM, indicando que machos de 75 cm de comprimento rostro-cloaca (CRC) têm idade entre 15 e 20 anos (Magnusson <em>et al.,</em> 1997). O tamanho máximo da espécie é de 2,2 m (Medem, 1981), mas os machos raramente excedem 1,7 m e a maioria das fêmeas tem menos que 1,4 m de comprimento total (Magnusson, 1992). Parasitas e injúrias foram relatadas em indivíduos de <em>P. trigonatus</em> em ambiente natural (Magnusson, 1985; Magnusson &amp; Yamakoshi, 1986).</p> \n<p>Magnusson &amp; Lima (1991) revelaram que a idade mínima reprodutiva para as fêmeas é de aproximadamente 11 anos e 20 anos para os machos, que as fêmeas nidificam em intervalos de três anos e que jovens têm alta taxa de dispersão, diferentemente dos adultos, que são mais sedentários. De acordo com Rueda- Almonacid<em> et al., </em>(2007), machos alcançam a maturidade sexual com comprimento aproximado de 1,4 m e fêmeas com 1,3 m. O período de postura dos ovos ocorre no final da estação seca, entre agosto e setembro, e os jovens eclodem entre novembro e janeiro. O período de incubação parece ser um dos mais longos entre os crocodilianos, podendo exceder os 100 dias, e o número de ovos por ninho variou de 10 a 20 (Magnusson <em>et al.,</em>1985; Magnusson, 1989). Os ninhos de <em>P. trigonatus</em> são montes de serrapilheira compactados, com aproximadamente 60cm de altura e 150 cm de diâmetro, semelhantes aos ninhos de <em>P. palpebrosus</em> descrito por Medem (1981).A temperatura de incubação dos ovos determina o sexo dos indivíduos, com temperaturas mais baixas (28,0 a 30,0 ℃) produzindo 100% de fêmeas e temperaturas mais altas (≥ 32,0 ℃) produzindo 100% de machos (Magnusson<em> et al.,</em>1990). Campos <em>et al., </em>(2016) registraram cuidado parental contra predadores, como o tatu canastra (<em>Priodontes maximus</em>) e o tatu-galinha (<em>Dasypus novemcinctuo) </em>, na Amazônia.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": "<p>Na Reserva Florestal Adolpho Ducke (AM), a maioria dos ninhos está associada a cupinzeiros (<em>Neocapritermes braziliensis</em>), que podem ser uma importante fonte de calor e atuar na estabilidade da temperatura; os ninhos recebem pouca insolação dentro da floresta e a maior parte da variação da temperatura é causada pela chuva (Magnusson <em>et al.,</em>1985).</p>"
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": "<p style=\"text-align: justify;\"><span style=\"font-family: open_sansregular; font-size: 14pt; background-color: #ffffff; color: #000000;\">Bittencourt (2016) usou marcadores mitocondriais citocromo b e SNPs em amostras de <em>P. trigonatus</em> indicando duas linhagens evolutivas distintas e suas diversificações. A diversidade genética nas duas espécies de Paleosuchus <em>(P. trigonatus</em> e <em>P. palpebrosus</em>) foi menor que a encontrada em <em>Caiman crocodilus</em> e <em>Melanosuchus niger</em>, ambas com ampla distribuição na Amazônia. De acordo com esses pesquisadores há forte estruturação genética entre as localidades do alto rio Madeira, Manaus e Roraima.</span></p>",
+      "populationObservations": "<p>O jacaré-coroa ocorre em baixas densidades ao longo dos rios amazônicos (Muniz <em>et al.,</em>2015). Existem poucos estudos que reportem as estimativas populacionais do jacaré-coroa, <em>P. trigonatus, </em>em grandes áreas no Brasil, principalmente pela dificuldade em aplicar metodologias tradicionais de levantamentos de crocodilianos e pelo difícil acesso aos seus <em>habitat</em> (White &amp; Rivas, 2003).No Brasil, Villamarín-Jurado <em>et al., </em>(2010) registraram densidades de 2 a 9,5 ind./km, em um fragmento urbano na cidade de Manaus (AM). No Parque Nacional do Jaú, região central da Amazônia, Rebêlo &amp; Lugli (2001) registraram densidades de 0,2 a 0,9 ind./km. Na Colômbia, Rodríguez (2000) registrou densidades entre 0,04 e 3,6 ind./km. No Equador, foram reportadas populações com densidades entre 0,1 a 2,5 ind./km (Hines &amp; Wilkinson, 1996; Ortiz, 2012). Populações estudadas no Peru, por Swan (2006) e Tejado (2012), apresentaram densidades de 0,2 a 0,4 ind./km e 0,05 ind./km, respectivamente. Na bacia do Orinoco, na Venezuela, Gorzula &amp; Paolillo (1986) encontraram densidades de 0,2 a 7,5 ind./km.Os levantamentos realizados nesse período de avaliação não mostram mudanças significativas na população. Não há barreiras entre o Brasil e os países vizinhos, portanto, há conectividade entre as populações. Porém, não há indícios de que a população no país seja afetada devido às modificações ocorridas nas populações vizinhas (Grupo de avaliadores, 2016).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A destruição do <em>habitat</em>, caça e poluição são as principais ameaças à espécie (Magnusson &amp; Campos, 2010; Muniz <em>et al., </em>2015). Considerando que <em>P. trigonatus</em> ocorre em floresta contínua, as maiores ameaças para a espécie são as ações que provocam perda e fragmentação do <em>habitat</em>. As estradas que cortam a floresta amazônica, e a consequente ocupação humana, aumentam o desmatamento e reduzem o <em>habitat</em> adequado para a espécie (Campos <em>et al., </em>2012).De acordo com Pezzuti <em>et al., </em>(2008), a construção da Usina Hidrelétrica de Belo Monte, no estado do Pará, representa um potencial impacto às populações de crocodilianos do rio Xingu (<em>Caiman crocodilus, Melanosuchus niger, Paleosuchus palpebrosus, P. trigonatus</em>). De acordo com Campos (2015), os efeitos da instalação de usinas hidrelétricas nas subpopulações de jacaré-coroa são desconhecidos, mas os reservatórios aproximam os jacarés das pessoas; na área do reservatório da UHE de Santo Antônio foi registrado caça de indivíduos de <em>Caiman yacare</em>, <em>Melanosuchus niger</em>, <em>Paleosuchus palpebrosus</em> e <em>Paleosuchus trigonatus</em> mas a pressão de caça foi maior em indivíduos de <em>M. niger. </em>A poluição ambiental associada à mineração no Brasil parece ter um crescente impacto negativo sobre os ecossistemas ribeirinhos, afetando esta e outras espécies de crocodilianos (Magnusson &amp; Campos, 2010).<em>Paleosuchus trigonatus</em> é caçado em vários locais da sua distribuição, mas suas subpopulações parecem permanecer estáveis mesmo sem estudos de avaliação desse impacto. Na terra Indígena de Waimiri Atroari (AM), localizado na Amazônia Central, foi relatado que 14 indivíduos da espécie foram caçados para alimentação em curto prazo (Souza-Mazurek, 2001).Na Terra Indígena Uaçá (AP), no extremo nordeste da Amazônia brasileira, fronteira com a Guiana Francesa, Ruffeil (2004) encontrou 45 jacarés caçados para alimentação, dos quais quatro eram<em> P. trigonatus.</em> Indivíduos de jacaré-coroa também são mortos por pescadores quando capturados em malhadeiras, espinheis e anzol de galho em rios amazônicos (Campos, 2015; Muniz <em>et al., </em>2015). Apesar de todas essas ameaças, não há evidências de perdas significativas de sua população (Grupo de avaliadores, 2016).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "9 - Poluição",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.1 - Estradas e ferrovias",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Devido ao baixo potencial comercial de <em>P. trigonatus</em> as populações têm sido exploradas majoritariamente para alimentação humana. O pequeno tamanho corporal e extensa ossificação ventral (osteodermos) tornam o valor comercial da pele <em>P. trigonatus</em> muito baixo, tornando a espécie alvo de caça por ribeirinhos, população rural e indígena, que consomem sua carne e seus ovos (Lugo <em>et al., </em>2013; Muniz <em>et al., </em>2015).Na Convenção sobre o Comércio Internacional das Espécies da Fauna e Flora Silvestres Ameaçadas de Extinção (Cites), a espécie encontra-se alocada no Apêndice II, portanto, é permitindo que a espécie seja comercializada no mercado internacional (Cites, 2016).Segundo Octavio Valente (com. pess., 2016), não há nenhum criadouro comercial de <em>P. trigonatus</em> legalizado cadastrado junto ao IBAMA (SISFAUNA).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana|1.1 - Caça de subsistência",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Muniz <i>et al.</i>, 2015",
+              "title": "Muniz, F.; Bittencourt, P.S.; Farias, I.P.; Hrbek, T. &amp; Campos, Z., 2015. New records on occurrence of <i>Paleosuchus</i> in the Branco River Basin, Roraima State, Brazil. Crocodile Specialist Group Newsletter, 34 (4): p.8-11."
+            }
+          ]
+        },
+        {
+          "type": "16 - Outro",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Na extensão de ocorrência de <em>P. trigonatus </em>existem várias unidades de conservação (UC), no âmbito federal, estadual e particular, que podem garantir a conservação da espécie, já que em áreas fora de UC próximas de vilas, cidades e estradas, a pressão de caça e a fragmentação de <em>habitat</em> têm aumentado ano após ano (Grupo de avaliadores, 2016).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Campos <i>et al.</i>, 2013",
+              "title": "Campos, Z., Marioni, B., Farias, I., Verdade, L.M., Bassetti, L., Coutinho, M.E., Mendonça, S.H.S.T., Vieira, T.Q. &amp; Magnusson, W.E. (2013) Avaliação do risco de extinção do jacaré-paguá <i>Paleosuchus palpebrosus</i> (Cuvier, 1807) no Brasil. <i>Biodiversidade Brasileira</i>. 3 (1), 40-47."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 1996,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "CSG (Crocodile Specialist Group), 1996",
+              "title": "CSG (Crocodile Specialist Group) (1996) <i>Caiman latirostris</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T46585A11062418.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T46585A11062418.en</a>. [Acessado em: 13/nov/2013]."
+            },
+            {
+              "label": "Magnusson & Campos, 2010",
+              "title": "Magnusson, W.E. &amp; Campos, Z. (2010) <i>Schneider’s smooth Caiman, <i>Paleosuchus trigonatus</i>. ,i>In</i>: Manolis, S.C. & Stevenson, C. (eds.). Crocodiles.</i> Edição Third Edition Status survey and conservation action plan. Crocodile Specialist Group: Darwin, p.43-45pp."
+            }
+          ],
+          "orderBy": "Y1996"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 2016,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Conscientização/comunicação",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Existente",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vinicius Barbosa de Assis, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Peña & Castro, 2004",
+              "title": "Comunidade de quelônios e jacarés do oeste do Pará, entre as bacias do Rio Trombetas e Nhamundá"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Magnusson <i>et al.</i>, 1987",
+              "title": "Diets of Amazonian crocodilians"
+            },
+            {
+              "label": "Magnusson, 1983",
+              "title": "Size estimates of crocodilians"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Magnusson <i>et al.</i>, 1987",
+              "title": "Diets of Amazonian crocodilians"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morales <i>et al.</i>, 2013",
+              "title": "VIII. Biologia y conservacion de los Crocodylia de Colombia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Viruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Muniz <i>et al.</i>, 2015",
+              "title": "New records on occurrence of <i>Paleosuchus</i> in the Branco River Basin, Roraima State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Baixo Rio Branco Jauaperi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rebêlo & Lugli, 2001",
+              "title": "Distribution and abundance of four caiman species (Crocodilia: Alligatoridae) in Jaú National Park, Amazonas, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Ituxi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vasconcelos e Campos, com pessoal, com. pess., 2008",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Lago do Cuniã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sonia H S T Mendonça, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Unini",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2012",
+              "title": "Observations on the therapeutic practices of riverine communities of the Unini River, AM, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Magnusson, 1983",
+              "title": "Size estimates of crocodilians"
+            },
+            {
+              "label": "Magnusson, 1980",
+              "title": "Biological aspects of the conservation of Amazonian crocodilians in Brazil"
+            },
+            {
+              "label": "Magnusson <i>et al.</i>, 1987",
+              "title": "Diets of Amazonian crocodilians"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1991",
+              "title": "Répteis de Marajó e Mexiana, Pará, Brasil. I. Revisão bibliográfica e novos registros"
+            }
+          ]
+        },
+        {
+          "name": "Uaça",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Ruffeil, 2004",
+              "title": "Abundância, reprodução, caça de subsistência e conservação de jacarés na Terra Indígena Uaçá, Amapá, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Waimiri-Atroari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Souza-Mazurek, 2001",
+              "title": "Habitat. <i>Paleosuchus trigonatus</i>"
+            },
+            {
+              "label": "Souza-Mazurek <i>et al.</i>, 2000",
+              "title": "Subsistence hunting among the Waimiri Atroari indians in Central Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Zoró",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Bernarde & Machado, 2005",
+              "title": "Levantamento da herpetofauna de Rondolândia, Mato Grosso - Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Magnusson &amp; Campos (2010) sugeriram o monitoramento da abundância, avaliação dos <em>habitat</em> e investigações sobre a ecologia e biologia, uma vez que muitos aspectos da história de vida da espécie permanecem desconhecidos. Apesar dos autores sugerirem que a espécie aparentemente resiste à pressão de destruição do <em>habitat</em>, desmatamento e barragens, bem como a pressão de caça na Amazônia e drenagens Mamoré-Madeira- Abunã, recomendam pesquisas ecológicas e genéticas que avaliem o efeito desses impactos sobre as subpopulações de <em>P. trigonatus</em> em toda região amazônica. A capacidade de resiliência da população de jacaré-coroa frente à modificação e perda de <em>habitat</em> florestados é um dos assuntos chave para promover ações de conservação da espécie.</p>",
+      "table": [
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "ANA (Agência Nacional de Águas e Saneamento Básico), 2016. Divisões hidrográficas do Brasil. Disponível em: <a target=\"_blank\" href=\"https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas\">https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas</a>. Acessado em: 07/07/2016.",
+          "Assis, V.B. &amp; Santos, T., 2007. <i>Paleosuchus trigonatus</i>. Predation. Herpetological Review, 38 (4): p.445.",
+          "Avila-Pires, T.C.S.; Hoogmoed, M.S. &amp; Rocha, W.A. 2010. Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna. <b>Boletim do Museu Paraense Emílio Goeldi. Ciências Naturais</b>, 5 (1): p.13-112.",
+          "Bernarde, P.S. &amp; Machado, R.A., 2005. Levantamento da herpetofauna de Rondolândia, Mato Grosso - Brasil. <i>In</i>:Sociedade Brasileira de Herpetologia (SBH).<i>In</i>: Anais do II Congresso Brasileiro de Herpetologia, Belo Horizonte/MG. (Resumo)",
+          "Bernardo, P.H.; Guerra-Fuentes, R.A.; Matiazzi, W. &amp; Zaher, H. 2012. Checklist of amphibians and reptiles of Reserva Biológica do Tapirapé, Pará, Brazil. <b>Check List</b>, 8 (5): p.839–846.",
+          "Bittencourt, P.S.T., 2016. Padrões genético-populacionais do jacaré-coroa (<i>Paleosuchus trigonatus</i> SCHNEIDER, 1801) na bacia do rio Xingu: implicações para a conservação da espécie. Dissertação de Mestrado. INPA.",
+          "CITES, 2016. (Convenção Sobre o Comércio Internacional de Espécies Ameaçadas da Fauna e Flora Silvestres). Disponível em: <a target=\"_blank\" href=\"https://www.cites.org.\">https://www.cites.org.</a>. Acessado em: 16/06/2016.",
+          "CSG (Crocodile Specialist Group), 1996. <i>Caiman latirostris</i>. The IUCN Red List of Threatened Species 2012, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T46585A11062418.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T46585A11062418.en</a>. Acessado em: 13/11/2013.",
+          "Campos, Z., 2015. Size of caimans killed by humans at a hydroletric dam in the Madeira River, Brazilian Amazon. Herpetozoa, 28 (1/2): p.101-104.",
+          "Campos, Z.; Marioni, B.; Farias, I.; Verdade, L.M.; Bassetti, L.; Coutinho, M.E.; Mendonça, S.H.S.T.; Vieira, T.Q. &amp; Magnusson, W.E., 2013. Avaliação do risco de extinção do jacaré-paguá <i>Paleosuchus palpebrosus</i> (Cuvier, 1807) no Brasil. Biodiversidade Brasileira, 3 (1): p.40-47.",
+          "Campos, Z.; Muniz, F. &amp; Magnusson, W., 2012. Dead <i>Paleosuchus</i> on roads in Brazil. Crocodile Specialist Group Newsletter, 31 (4): p.12-14.",
+          "Campos, Z.; Muniz, F.L.; Desbiez, A.L.J. &amp; Magnusson, WE., 2016. Predation on eggs of Schneider’s dwarf caiman, <i>Paleosuchus trigonatus</i> (Schneider, 1807), by armadillos and other predators. Journal of Natural History,",
+          "Da Silveira, R., 2003. Avaliação preliminar da distribuição, abundância e da caça de jacarés no Baixo Rio Purus. p.61-64. <i>In</i>:Deus <i>et al.</i>. Piagaçu-Purus: bases científicas para a criação de uma Reserva de Desenvolvimento Sustentável, IDSM Manaus/AM.",
+          "Da Silveira, R.; Campos, Z. &amp; Magnusson, W.E., 1997. Monitoring the distribution, abundance and breeding areas of <i>Caiman crocodilus crocodilus</i> and <i>Melanosuchus niger</i> in the Anavilhanas Archipelago, central Amazonia, Brazil. Journal of Herpetology, 31: p.514-520.",
+          "Hines, T. C. &amp; Wilkinson, P., 1996. Crocodilian status in Ecuador on the río Curaray, p.p. 72-81. <i>In</i>: Crocodiles. Proceedings of the 13th Working Meeting of the IUCN / SSC Crocodile Specialist Group. IUCN Gland, Switzerland.",
+          "Hoogmoed, M.S. &amp; Gruber, U. 1983. Spix and Wagler type specimens of reptiles and amphibians in the Natural History Musea in Munich (Germany) and Leiden (The Netherlands). <b>Spixiana</b>, 9: p.319-415.",
+          "Hrbek, T.; Vasconcelos, W.R.; Rebêlo, G. &amp; Farias, I.P., 2008. Phylogenetic relationships of South American alligatorids and the caiman of Madeira River. Journal of Experimental Zoology, 309 (A): p.588-599.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lehner, B. &amp; Grill, G., 2013. Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27 (15): p.2171–2186.",
+          "Lopes, F. C. Chalkidis, H. M., 2007. Répteis da Serra do Piquiatuba, área militar do 8º BEC, Santarém, Pará, Brasil. <i>In</i>:Sociedade Brasileira de Herpetologia (SBH).<i>In</i>: Anais do III Congresso Brasileiro de Herpetologia, Belém /PA. (Resumo)",
+          "Magnusson, W. &amp; Lima, A.P. Sampaio, R.M., 1985. Sources of head for nests of <i>Paleosuchus trigonatus</i> and a review of crocodilian nest temperatures. Journal of Herpetology, 19: p.199-207.",
+          "Magnusson, W. &amp; Yamakoshi, M., 1986. Anomalous records of the occurrence of <i>Paleosuchus trigonatus</i>. Herpetological Review, 17: p.84-85.",
+          "Magnusson, W. E., 1985. Habitat selection, parasites and injuries in Amazonian crocodilians. Amazoniana, 2: p.193-204.",
+          "Magnusson, W.E. &amp; Campos, Z., 2010. Schneider’s smooth Caiman, <i>Paleosuchus trigonatus</i>. ,i>In</i>: Manolis, S.C. & Stevenson, C. (eds.). Crocodiles., p.p.43-45. Status survey and conservation action plan. Crocodile Specialist Group: Darwin",
+          "Magnusson, W.E. &amp; Lima,A.P., 1991. The ecology of a cryptic predator <i>Paleosuchus trigonatus</i> in a tropical rainforest. Journal of Herpetology, 25: p.41-48.",
+          "Magnusson, W.E., 1980. Biological aspects of the conservation of Amazonian crocodilians in Brazil. IUCN Publications. New Series, p.108-116.",
+          "Magnusson, W.E., 1983. Size estimates of crocodilians. Journal of Herpetology, 17 (1): p.86-88.",
+          "Magnusson, W.E., 1989. <i>Paleosuchus</i>. <i>In</i>: Hall, P. & Bryant, R. (eds.). Crocodiles: their ecology, management, and conservation, p. 101-109, p.308p.. IUCN Gland, Switzerland.",
+          "Magnusson, W.E., 1992. <i>Paleosuchus trigonatus</i>. Catalogue of american amphibians and reptiles,",
+          "Magnusson, W.E.; Lima, A.P. &amp; Sampaio, R.M., 1985. Sources of heat for nests of <i>Paleosuchus trigonatus</i> and a review of crocodilian nest temperatures. Journal of Herpetology, 19 (2): p.199-207.",
+          "Magnusson, W.E.; Lima, A.P.; Costa, V.L.; Lima, A.C. &amp; Araújo, M.C., 1997. Growth during middle age in a Schneider´s dwarf caiman, <i>Paleosuchus trigonatus</i>. Herpetological Review, 28 (4): p.183.",
+          "Magnusson, W.E.; Lima, A.P.; Hero, J.M.; Sanaiotti, T.M. &amp; Yamakoshi, M., 1990. <i>Paleosuchus trigonatus</i> nests: sources of heat and embryo sex ratios. Journal of Herpetology, 24 (4): p.397-400.",
+          "Magnusson, W.E.; Silva, E.V. &amp; Lima, A.P., 1987. Diets of Amazonian crocodilians. Journal of Herpetology, 21 (2): p.85-95.",
+          "Marioni, B.; Araújo, D.D.; Villamarin, F. &amp; Da Silveira, R., 2013. Amazonian encounters with four crocodilian species in one single night. Newsletter Crocodile Specialist Group, 32 (4): p.10-13.",
+          "Medem, F., 1967. El genero Paleosuchus en Amazonia. Atas do Simpósio sobre Biota Amazônica, 3: p.141-162.",
+          "Medem, F., 1981. Los Crocodylia de Sur America, p.354. Colciencias, Universidad Nacional de Colombia Bogotá, Colombia.",
+          "Medem, F., 1983. Los Crocodylia de Sur America, p.270. Carrera",
+          "Melo-Sampaio, P.R.; Silva, M.N.; Matos, S.A.; Matos, L.R.A. &amp; Acosta, M., 2013. First report of predation by a caiman (<i>Paleosuchus trigonatus</i>, Crocodylia: Alligatoridae) on a caecilian (Caecilia marcusi, Gymnophiona: Caecilidae). Salamandra, 49 (4): p.227-228.",
+          "Morales Betancourt, M.A.; Lasso, C.A. &amp; De La Ossa, J.V. Fajardo-Patiño, A., 2013. VIII. Biologia y conservacion de los Crocodylia de Colombia, p.336. Recursos Hidrobiologicos y Pesqueros Continentales de Colombia. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), Bogotá, D.C.,Colombia.",
+          "Morato, S.A.A. &amp; Batista, V.B.G.V. Paz, A., 2011. <i>Paleosuchus trigonatus</i> (smooth fronted caiman): Diet and movement. Herpetological Bulletin, 115: p.34-35.",
+          "Muniz, F.; Bittencourt, P.S.; Farias, I.P.; Hrbek, T. &amp; Campos, Z., 2015. New records on occurrence of <i>Paleosuchus</i> in the Branco River Basin, Roraima State, Brazil. Crocodile Specialist Group Newsletter, 34 (4): p.8-11.",
+          "Nascimento, F.P.; Avila-Pires, T.C.S.; Santos, I.N.F.F. &amp; Lima, A.C.M., 1991. Répteis de Marajó e Mexiana, Pará, Brasil. I. Revisão bibliográfica e novos registros. Boletim do Museu Paraense Emílio Goeldi, sér. Zool., 7 (1): p.24-41.",
+          "Ortiz, D., 2012. Estudio poblacional de caimanes (Crocodylia: Alligatoridae) en La Amazonía Ecuatoriana",
+          "Pezzuti, J.C.B.; Silva, D.F.; Barbosa, R.S.L.; Barboza, M.S.L.; Knogelmann, C.; Figueiredo, M.W.; Lima, A.P.R.; Alcântara, A.; Martins, A. &amp; Costa, C.N., 2008. Estudo de impacto ambiental do aproveitamento hidrelétrico (AHE) Belo Monte, Rio Xingu. Componente: Quelônios e Crocodilianos. Belém/PA. p.187. Disponível em:<a target=\"_blank\" href=\"http://philip.inpa.gov.br/publ_livres/Dossie/BM/DocsOf/EIA-09/Vol%2020/TEXTO/QUELONIOS%20E%20CROCODILIANOS/Relat%C3%B3rio%20final%20quel%C3%B4nios%20crocodilianos%20Belo%20Monte%2029ago8.pdf\">http://philip.inpa.gov.br/publ_livres/Dossie/BM/DocsOf/EIA-09/Vol%2020/TEXTO/QUELONIOS%20E%20CROCODILIANOS/Relat%C3%B3rio%20final%20quel%C3%B4nios%20crocodilianos%20Belo%20Monte%2029ago8.pdf</a>.Acessado em: 13/11/2019.",
+          "Peña, A.P. &amp; Castro, M.R., 2004. Comunidade de quelônios e jacarés do oeste do Pará, entre as bacias do Rio Trombetas e Nhamundá.<i>In</i>: Anais do I Congresso Brasileiro de Herpetologia, Curitiba. (Resumo)",
+          "Prudente, A.L.C.; Travassos, A.E.M. &amp; Santos Costa, M.C., 2005. Inventário de répteis na Base Petrolífera de Urucu, município de Coari, Amazonas: comparação entre clareiras naturais e artificiais, sob o impacto da exploração petrolífera. <i>In</i>:Sociedade Brasileira de Herpetologia (SBH).<i>In</i>: Anais do II Congresso Brasileiro de Herpetologia, Belo Horizonte - MG. (Resumo)",
+          "Rebêlo, G.H. &amp; Lugli, L., 2001. Distribution and abundance of four caiman species (Crocodilia: Alligatoridae) in Jaú National Park, Amazonas, Brazil. Revista de Biologia Tropical, 49 (3-4): p.1095-1109.",
+          "Ribeiro, R.A.K.; Strüssmann, C.; Ávila, R.W.; Costa, H.C. &amp; Feio, R.N., 2007. A herpetofauna da região de Aripuanã, Mato Grosso.<i>In</i>: Anais do III Congresso Brasileiro de Herpetologia, Belém/PA. (Resumo)",
+          "Rodríguez, M.A., 2000. Estado y distribución de los Crocodylia en Colombia: compilación de resultados del censo nacional. 1994 a 1997. Bogotá. p.71 p..",
+          "Rueda-Almonacid, J. V.; Carr, J. L.; Mittermeier, R. A.; Rodríguez-Mahecha, J. V.; Mast, R. B.; Vogt, R. C.; Rhodin, A. G. J.; Ossa-Velásquez, J.; Rueda, J. N. &amp; Mittermeier, C. G., 2007. Las tortugas y los cocodrilianos de los países andinos del trópico. Serie de guías tropicales de campo, p.538. Conservación Internacional. Bogotá, Colombia.",
+          "Ruffeil, L.A.A., 2004. Abundância, reprodução, caça de subsistência e conservação de jacarés na Terra Indígena Uaçá, Amapá, Brasil. Dissertação de Mestrado. Museu Paraense Emílio Goeldi e Universidade Federal do Pará. Belém/PA. p.57.",
+          "Santos, J.F.L.; Pagani, E.; Ramos, J. &amp; Rodrigues, E., 2012. Observations on the therapeutic practices of riverine communities of the Unini River, AM, Brazil. Journal of Ethnopharmacology, 142 (2): p.503-515.",
+          "Souza, B.C. &amp; Nascimento, S.P., 2009. Registro da ocorrência de jacarés (Alligatoridae) na Estação Ecológica de Maracá (RR), extremo norte da Amazônia brasileira. 1º Seminário de Pesquisa e Iniciação Cientifica do ICMBio, Brasilia, DF. Anais., p.26-27.",
+          "Souza-Mazurek, R.R., 2001. Habitat. <i>Paleosuchus trigonatus</i>. Herpetological Review, 32 (4): p.252.",
+          "Souza-Mazurek, R.R.; Temehe, P.; Xinymy, F.; Waraie, H.; Sanapyty, G. &amp; Ewepe, M., 2000. Subsistence hunting among the Waimiri Atroari indians in Central Amazonia, Brazil. Biodiversity and Conservation, 9 (5): p.579-596.",
+          "Swan, N., 2006. Population status and ecology of three caiman species <i>Caiman crocodilus</i>, <i>Paleosuchus trigonatus</i> and <i>Melanosuchus niger</i> in the Lago Preto Conservation Concession, north-eastern Peru: The recovery of <i>Melanosuchus niger</i>?. Dissertação de Mestrado. Tesis de Maestría. The Durrell Institute of Conservation and Ecology. UK. p.45 p..",
+          "Tejado, C., 2012. Abundancia de <i>Melanosuchus niger</i> Spix, 1825, <i>Paleosuchus trigonatus</i> Scheneider, 1801 y </i>Caiman crocodilus<i> L., 1758 en el cauce medio del río Mazán (Amazonas, Perú). Munibe (Ciencias Naturales), 60: p.1-16.",
+          "Uétz, P., 2015. <i>Paleosuchus trigonatus</i>. The Reptile Database, Disponível em: <a target=\"_blank\" href=\"https://reptile-database.reptarium.cz/species?genus=Paleosuchus&species=trigonatus\">https://reptile-database.reptarium.cz/species?genus=Paleosuchus&species=trigonatus</a>. Acessado em: 02/03/2016.",
+          "Vasconcelos, W. &amp; Campos, Z., 2007. Geographic variation between Pantanal caiman (Caiman crocodilus yacare) and Amazonian caiman (Caiman crocodilus crocodilus): FirstPhase. Crocodile Specialist Group Newsletter, 26 (4): p.6-7.",
+          "Villamarín-Jurado, F.; Freire G.M.; Silva, G.T.; Lacerda J.; Marioni B.; Nobre, A.D.; Ribeiro M.L.; Silva, E.C.; Melo, W. &amp; Silveira, R., 2010. Monitoring the <i>Paleosuchus trigonatus</i> population of a large Brazilian Amazon urban forest fragment. p. 82. <i>In</i>: Crocodiles, p.82. IUCN. Proceedings of the 20th Working Meeting of the IUCN / SSC Crocodile Specialist Group Gland, Switzerland.",
+          "White, J.M. &amp; Rivas, J.A., 2003. <i>Paleosuchus trigonatus</i> (Dwarf Caiman). Neonate Time Budget . Herpetological Review, 34 (2): p.141.",
+          "Ávila, R.W. &amp; Kawashita-Ribeiro, R.A. 2011. Herpetofauna of São João da Barra Hydroelectric Plant, state of Mato Grosso, Brazil. <b>Check List</b>, 7 (6): p.750-755."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

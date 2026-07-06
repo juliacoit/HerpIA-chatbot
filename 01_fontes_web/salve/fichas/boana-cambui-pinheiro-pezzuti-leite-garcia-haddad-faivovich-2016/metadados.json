@@ -1,0 +1,335 @@
+{
+  "id_ficha": "4a597a6962765470695243397977364f7238546270673d3d",
+  "nome_cientifico": "Boana cambui (Pinheiro, Pezzuti, Leite, Garcia, Haddad & Faivovich, 2016)",
+  "nome_cientifico_atual": "Boana cambui (Pinheiro, Pezzuti, Leite, Garcia, Haddad & Faivovich, 2016)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2025",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21904.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4a597a6962765470695243397977364f7238546270673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Boana cambui</i>&nbsp;<span>(Pinheiro, Pezzuti, Leite, Garcia, Haddad & Faivovich, 2016)</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "11/2025",
+      "publicationDate": "02/04/2026",
+      "justificative": "<p><em>Boana cambui</em> é endêmica do Brasil, do bioma Mata Atlântica, conhecida apenas da localidade-tipo, na região da Serra Negra, município de Rio Preto, no estado de Minas Gerais. Sua extensão de ocorrência é estimada em cerca de apenas 5 km², não havendo registro confirmado da espécie em localidades próximas e bem amostradas. A espécie é conhecida somente de um fragmento florestal, em propriedade particular, isolado em uma paisagem altamente fragmentada, em meio a uma matriz de pastagens e agricultura. O local também está sujeito à extração de madeira, ao uso da água do riacho e a incêndios, atividades provocam declínio continuado da qualidade do habitat da espécie e podem impactá-la rapidamente, dada sua distribuição restrita. Além disso, qualquer mudança no uso do solo nesta área particular afetaria a espécie como um todo, configurando apenas uma localização. Considerando esse cenário, <em>Boana cambui</em> foi avaliada como Criticamente em Perigo (CR) pelo critério B1ab(iii).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Instituto Boitatá",
+      "citation": "<p>Boitatá, I. 2026. <i>Boana cambui</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21904.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21904.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 30621,
+      "deleted": false,
+      "lastAvaliationDate": "21/11/2025",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Boana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Boana cambui</i>"
+        }
+      ],
+      "oldNames": "Hypsiboas cambui",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Boana cambui</em> é endêmica do Brasil, conhecida apenas da localidade-tipo, uma área conhecida localmente como Cambuí, no vilarejo do Funil, município de Rio Preto, na região da Serra Negra, que é parte da Serra da Mantiqueira do estado de Minas Gerais, a 905 metros de altitude (Pinheiro <em>et al.,</em> 2016). Não há registros da espécie em outras áreas elevadas e relativamente bem amostradas próximas à Serra Negra, como os Parques Estaduais de Ibitipoca e da Serra do Papagaio, o Parque Nacional de Itatiaia e o município de Juiz de Fora (Neves <em>et al</em>., 2017). Isto sugere que sua distribuição pode estar restrita à área florestada do vale onde a espécie foi registrada.</p> \n<p> </p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/32672b554179714f736259715a7a687144566c646c48443762453778792b2b2b4a764c576c7458652f6c4a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "EOO Boana cambui.",
+        "diskFileName": "dd086f36c1a85b87456a6ec4ac993031.png",
+        "fileName": "EOO Boana cambui.png"
+      },
+      "simplified": false,
+      "vlEoo": "4.00",
+      "vlAoo": "",
+      "eooCalculationMemory": "<p>Sua extensão de ocorrência é inferida em cerca de 6 km<sup>2</sup>, considerando o polígono que abrange o fragmento onde a especie foi registrada e fragmentos no entorno imediato.</p>",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Boana cambui</em> foi registrada em uma lagoa brejosa completamente coberta por vegetação ao lado de um riacho (riacho do Funil), em um fragmento de floresta primária (Pinheiro <em>et al.,</em> 2016). Machos foram encontrados empoleirados entre 0,4 e 2,0 metros acima da superfície da água e a única fêmea observada estava empoleirada a 1,6 metros acima do solo, a aproximadamente 5 metros da lagoa; possivelmente se abrigam na copa das árvores quando não estão ativos. Os girinos foram observados em poças cobertas por vegetação ao lado do riacho (Pinheiro <em>et al.,</em> 2016).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, que foi descrita a partir de 16 machos e uma fêmea coletados entre 2007 e 2015 na localidade-tipo (Pinheiro <em>et al</em>., 2016). A espécie tem sido registrada na localidade-tipo ao longo dos últimos dez anos (F. Leite, com. pess., 2025).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora o remanescente florestal onde a espécie foi registrada esteja bem conservado, ele é extremamente pequeno e se encontra isolado em uma paisagem altamente fragmentada, cercado por uma matriz de pastagens e agricultura de pequena escala. Além disso, por ser uma propriedade particular, a área está sujeita à extração de madeira, ao uso da água do riacho e a incêndios. Todas essas atividades provocam declínio continuado da qualidade do habitat da espécie (F. Leite, com. pess., 2025). Qualquer mudança no uso do solo nesta área particular afetaria a espécie como um todo, configurando apenas uma localização.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.2 - Agricultura em pequenas propriedades",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.2 - Pecuária em pequenas propriedades",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.2 - Coleta de plantas terrestres|5.2.2 - Efeitos indiretos (a espécie não é o alvo)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.3 - Captação de água de superfície - uso na agricultura",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [
+        {
+          "id": "637650516167715930725a4d6b464679664353472f43322b36545078616f467a4e6e4a42373671532b4d784b484b474d34314b6e794470767a497239784d4c52",
+          "url": "https://salve.icmbio.gov.br/salve-api/public/anexo/637650516167715930725a4d6b464679664353472f43322b36545078616f467a4e6e4a42373671532b4d784b484b474d34314b6e794470767a497239784d4c52",
+          "diskFileName": "86f6e5acb4d350e6f5512a991707c8ad.png",
+          "legend": "Mapa perda de habitat pixel 2km."
+        }
+      ],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie. É importante trabalhar junto aos proprietários das terras ao longo do riacho do Funil para conservação das florestas da região.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2025,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [],
+          "orderBy": "Z2025"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2017,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2017"
+        },
+        {
+          "type": "Global",
+          "year": 2023,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group & Instituto Boitatá de Etnobiologia e Conservação da Fauna, 2023",
+              "title": "IUCN SSC Amphibian Specialist Group &amp; Instituto Boitatá de Etnobiologia e Conservação da Fauna (2023) <i>Boana cambui</i>. The IUCN Red List of Threatened Species 2023: e.T113888113A113888116. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/113888113/113888116\">https://www.iucnredlist.org/species/113888113/113888116</a>."
+            }
+          ],
+          "orderBy": "Y2023"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Ainda são necessários estudos sobre distribuição e história natural para um melhor conhecimento sobre a espécie. Recomenda-se o monitoramento da única população conhecida.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D.R. (2017) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 27/nov/2017].",
+          "IUCN SSC Amphibian Specialist Group &amp; Instituto Boitatá de Etnobiologia e Conservação da Fauna (2023) <i>Boana cambui</i>. The IUCN Red List of Threatened Species 2023: e.T113888113A113888116. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/113888113/113888116\">https://www.iucnredlist.org/species/113888113/113888116</a>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Neves, M.O.N., Pereira, E.A., Lima, L.M.C., Folly, H., Oliveira, E.F., Santana, D.J. &amp; Feio, R.N. (2017) Anurans of serra negra da mantiqueira, zona da mata of Minas Gerais, Brazil: A priority area for biodiversity conservation. <i>Herpetology Notes</i>. 10, 297-311.",
+          "Pinheiro, P.D.P., Pezzuti, T.L., Leite, F.S.F., Garcia, P.C.A., Haddad, C.F.B. &amp; Faivovich, J. (2016) A new species of the <i>Hypsiboas pulchellus</i> Group from the Serra da Mantiqueira, Southeastern Brazil (Amphibia: Anura: Hylidae). <i>Herpetologica</i>. 72 (3), 256-270."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

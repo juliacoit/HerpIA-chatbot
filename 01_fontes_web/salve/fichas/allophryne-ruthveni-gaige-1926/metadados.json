@@ -1,0 +1,384 @@
+{
+  "id_ficha": "587a7230592f4d6e3445634b6541704a3975514b58513d3d",
+  "nome_cientifico": "Allophryne ruthveni Gaige, 1926",
+  "nome_cientifico_atual": "Allophryne ruthveni Gaige, 1926",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20707",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=587a7230592f4d6e3445634b6541704a3975514b58513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Allophryne ruthveni</i>&nbsp;<span>Gaige, 1926</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Allophryne ruthveni </em>ocorre na Amazônia e pode ser encontrada no Brasil, Venezuela, Suriname, Guiana e Guiana Francesa. No Brasil, possui ampla distribuição, com registros desde Rondônia até Roraima e Amapá. A espécie é localmente comum e não há ameaças que a coloquem em risco de extinção em curto prazo. Por essas razões, <em>Allophryne ruthveni </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Allophryne ruthveni</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20707 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20707",
+      "photo": {},
+      "version": 2,
+      "versionId": 15940,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Allophrynidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Allophryne</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Allophryne ruthveni</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Allophryne ruthveni </em>ocorre na Amazônia, com registros na Venezuela, Suriname, Guiana, Guiana Francesa e Brasil (Caldwell &amp; Hoogmoed, 1998; Gottberger &amp; Gruber, 2004; Guayasamin <em>et al., </em>2009).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, encontrada desde Rondônia até Roraima e Amapá (Caldwell &amp; Hoogmoed, 1998; Austin<em> et al., </em>2002; Bernarde <em>et al., </em>2006).</p>",
+      "states": "Amapá, Amazonas, Mato Grosso, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/512b7336454a45317068397a53755474657266476a4b3771694b3562326b705550734c6a2b37502f52524a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Allophryne ruthveni",
+        "diskFileName": "1941a222be9e82a67d53ea08e4458514.png",
+        "fileName": "Mapa de Allophryne ruthveni.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Allophryne ruthveni </em>está associada a poças, riachos e rios de ambientes florestais do bioma Amazônia. Apresenta hábitos arborícolas, reprodução explosiva e seus ovos são depositados em poças temporárias (Duellman, 1997).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Essa espécie é localmente comum, porém só é encontrada facilmente durante o período reprodutivo.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora em alguns locais na área de sua distribuição haja perda de vegetação nativa, não existem ameaças significativas conhecidas para a espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação sobre qualquer tipo de uso da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "La Marca <i>et al.</i>, 2004",
+              "title": "La Marca, E., Azevedo-Ramos, C. &amp; Amorós, C. L. B. (2004) <i>Allophryne ruthveni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583</a>. [Acessado em: 10/fev/2011]."
+            },
+            {
+              "label": "La Marca <i>et al.</i>, 2004",
+              "title": "La Marca, E., Azevedo-Ramos, C. &amp; Amorós, C. L. B. (2004) <i>Allophryne ruthveni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583</a>. [Acessado em: 10/fev/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Altamira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Galatti, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Amapá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bitar, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Pires, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Pires, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caldwell & Hoogmoed, 1998",
+              "title": "Allophrynidae, <i>Allophryne</I>, <I>A. ruthveni</I>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Azarak, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Werneck, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Pardo",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Junior, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Uatumã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Condrati, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Jaru",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2006",
+              "title": "Amphibia, Anura, Centrolenidae, <i>Allophryne ruthveni</i> Gaige, 1926: distribution extension for Rondonia, Southeastern Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Kayapó",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Austin <i>et al.</i>, 2002",
+              "title": "A molecular perspective on the evolutionary affinities of an enigmatic neotropical frog, <i>Allophryne ruthveni</i>"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua distribuição e história natural são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Austin, J.D.; Lougheed, S.C.; Tanner, K.; Chek, A.A.; Bogart, J.P. &amp; Boag, P.T. 2002. A molecular perspective on the evolutionary affinities of an enigmatic neotropical frog, <i>Allophryne ruthveni</i>. <b>Zoological Journal of the Linnean Society</b>, 134 (3): p.335-346.",
+          "Bernarde, P.S.; Machado, R.A.; Macedo-Bernarde, L.C.; Moncao, G.R.; Santos, W.V. &amp; Silva, M.O. 2006. Amphibia, Anura, Centrolenidae, <i>Allophryne ruthveni</i> Gaige, 1926: distribution extension for Rondonia, Southeastern Amazonia, Brazil. <b>Check List</b>, 2 (3): p.05-06.",
+          "Caldwell, J.P. &amp; Hoogmoed, M.S., 1998. Allophrynidae, <i>Allophryne</I>, <I>A. ruthveni</I>. Catalogue of American Amphibians and Reptiles, 666: p.1-3.",
+          "Duellman, W.E. 1997. Amphibinas of La Escalera Region, Southeastern Venezuela: Taxonomy, Ecology, and Biogeography. <b>Scientific Papers Natural History Museum the University of Kansas</b>, 2: p.1-52.",
+          "Gottsberger, B. &amp; Gruber, E. 2004. Temporal partitioning of reproductive activity in a neotropical anuran community. <b>Journal of Tropical Ecology</b>, 20 (03): p.271-280.",
+          "Guayasamin, J.M.; Castroviejo-Fisher, S.; Trueb, L.; Ayarzagüena, J.; Rada, M. &amp; Vilà, C. 2009. Phylogenetic systematics of Glassfrogs (Amphibia: Centrolenidae) and their sister taxon <I>Allophryne ruthveni.</i>. <b>Zootaxa</b>, 2100: p.1-97.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "La Marca, E.; Azevedo-Ramos, C. &amp; Amorós, C. L. B.., 2004. <i>Allophryne ruthveni</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59659A11965583</a>. Acessado em: 10/02/2011."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

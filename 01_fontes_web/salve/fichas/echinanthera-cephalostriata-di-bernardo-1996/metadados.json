@@ -1,0 +1,799 @@
+{
+  "id_ficha": "6d4a6d2f4b49426c6a47435235686949384d6b6532413d3d",
+  "nome_cientifico": "Echinanthera cephalostriata Di-Bernardo, 1996",
+  "nome_cientifico_atual": "Echinanthera cephalostriata Di-Bernardo, 1996",
+  "nome_comum": "Cobrinha-cipó, Corredeira-do-Mato, Papa-rã",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28435",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6d4a6d2f4b49426c6a47435235686949384d6b6532413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Echinanthera cephalostriata</i>&nbsp;<span>Di-Bernardo, 1996</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Echinanthera cephalostriata </em>é endêmica do Brasil e amplamente distribuída na Mata Atlântica entre os estados da Bahia e Santa Catarina. Embora seja considerada rara e especialista quanto ao uso do hábitat, encontrada apenas em ambientes florestais acima de 200 metros de altitude, não há ameaças evidentes que possam colocá-la em risco de extinção. A espécie também possui registros em diversas unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Echinanthera cephalostriata </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Echinanthera cephalostriata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28435 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28435",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 2,
+      "versionId": 19429,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Echinanthera</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Echinanthera cephalostriata</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Cobrinha-cipó, Corredeira-do-Mato, Papa-rã",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Echinanthera cephalostriata </em>é endêmica do Brasil e apresenta ampla distribuição na Mata Atlântica, entre o sul da Bahia e Santa Catarina (Di-Bernardo, 1996; Argôlo &amp; Jesus, 2008; Nogueira <em>et al</em>., 2019). </p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Tietê, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/2b2f65377155764d6f78636366486e716b4344394b4a456e79766c77454378444a44725663334a5a6e49506f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "32fe014e4a42ba16c68a859917c9b183.png",
+        "fileName": "Mapa de Echinanthera cephalostriata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Echinanthera cephalostriata</em> parece ocorrer em altitudes superiores a 200 metros (Hartmann <em>et al</em>., 2009). Na Serra da Mendanha, no estado do Rio de Janero, foi encontrada em florestas secundárias e não perturbadas. Apresenta atividade tanto diurna como noturna, é terrestre e provavelmente criptozóica (Martins<em> et al.,</em> 2008; Barbo <em>et al.,</em> 2011; Hartmann <em>et al.,</em> 2011). É ovípara (Forlani <em>et al.,</em> 2010; Barbo<em> et. al.,</em> 2011) e alimenta-se de anuros (Marques &amp; Sazima, 2004; Forlani <em>et al.,</em> 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p><em>Echinanthera cephalostriata</em> ocorre em ambientes de floresta ombrófila densa, em altitudes acima de 200 metros (Hartmann et al. 2009).</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Considerada uma espécie rara no município de São Paulo (Barbo<em> et al.,</em> 2011), de abundância intermediaria no Núcleo Picinguaba do Parque Estadual da Serra do Mar (Hartmann <em>et al.,</em> 2009) e abundante no Parque Estadual Carlos Botelho, no estado de São Paulo (Forlani <em>et al</em>., 2010). Na região do Quadrilátero Ferrífero, em Minas Gerais, a espécie é muito rara, sendo registrada apenas em Mariana, e a população local provavelmente encontra-se isolada (Silveira <em>et al.,</em> 2010).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Echinanthera cephalostriata</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015) e está contemplada no segundo ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste (ICMBio, 2019).</p> \n<p> </p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Strüssmann , C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Kawashita-Ribeiro, R.A., Sawaya, R.J. &amp; Costa, T.B.G. (2019) <I>Echinanthera cephalostriata</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15177551A123740161.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15177551A123740161.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMA-BA, 2017",
+              "title": "SEMA-BA 2017 <i>Secretaria do Meio Ambiente - Governo do Estado da Bahia. Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Diário Oficial do Estado – BA.</i>"
+            },
+            {
+              "label": "Estado da Bahia, 2017",
+              "title": "Estado da Bahia 2017 <i>Portaria nº 37, de 15 de agosto de 2017, Torna pública a Lista de Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Argôlo & Jesus, 2008",
+              "title": "Geographic Distribution. <I>Echinanthera cephalostriata</i>"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2018",
+              "title": "The herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Hartmann, 2005",
+              "title": "História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sazima, 2001",
+              "title": "Répteis"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL NASCENTES DO PARANAPANEMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO PAPAGAIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2018",
+              "title": "The herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IRAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PASSAUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Caetezal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Santa Izabel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Natural da Serra do Teimoso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo & Jesus, 2008",
+              "title": "Geographic Distribution. <I>Echinanthera cephalostriata</i>"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Capuavinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Ribeirão Silveira",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tenondé Porã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Di-Bernardo, 1996",
+              "title": "A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Argôlo, A.J.S. &amp; Jesus, J.A. 2008. Geographic Distribution. <I>Echinanthera cephalostriata</i>. <b>Herpetological Review</b>, 39 (1): p.111.",
+          "Barbo, F.E.; Marques, O.A.V. &amp; Sawaya, R.J. 2011. Diversity, natural history, and distribution of snakes in the municipality of São Paulo. <b>South American Journal of Herpetology</b>, 6 (3): p.135-160.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Di-Bernardo, M. 1996. A new species of the Neotropical snake genus <i>Echinanthera</i> Cope, 1894 from Southeastern Brazil (Serpentes, Colubridae). <b>The Snake</b>, 27 (2): p.120-126.",
+          "Estado da Bahia 15/08/2017. Portaria nº. 37: Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Disponível em: <a target=\"_blank\" href=\"http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html\">http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html</a>. Acessado em: 08/05/2019.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Gonzalez, R.C.; Abegg, A.D.; Mendes, D.M.M.; Silva, M.B.; Machado-Filho, P.R.; Mario-da-Rosa, C.; Passos, D.C.; Ribeiro, M.V.; Benício, R.A. &amp; Oliveira, J.C.F. 2020. Lista dos nomes populares dos répteis no Brasil - primeira versão. <b>Herpetologia Brasileira</b>, 9 (2): p.121-214.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2009. Ecology of a snake assemblage in the Atlantic Forest of southeastern Brazil. <b>Papéis Avulsos de Zoologia</b>, 49 (27): p.343-361.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2011. Snake road mortality in a protected area in the Atlantic Forest of Southeastern Brazil. <b>South American Journal of Herpetology</b>, 6 (1): p.35-42.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Marques, O.A.V. &amp; Sazima, I. 2004. História natural dos répteis da Estação Ecológica Juréia-Itatins. p.257-277. <i>In</i>: Marques & Duleba. <b>Estação Ecológica Juréia-Itatins: Ambiente Físico, Flora e Fauna</b>. Holos Ribeirão Preto.",
+          "Martins, M.; Marques, O.A.V. &amp; Sazima, I. 2008. How to be arborial and diurnal and still stay alive: microhabitat use, time of activity, and defense in neotropical forest snakes. <b>South American Journal of Herpetology</b>, 3 (1): p.58-67.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Silveira, A.L.; Pires, M.R.S. &amp; Cotta, G.A. 2010. Serpentes de uma área de transição entre o Cerrado e a Mata Atlântica no Sudeste do Brasil. <b>Arquivos do Museu Nacional</b>, 68 (1-2): p.79-110.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Strüssmann , C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Kawashita-Ribeiro, R.A.; Sawaya, R.J. &amp; Costa, T.B.G. 2019. <I>Echinanthera cephalostriata</i>. <b>The IUCN Red List of Threatened Species 2019: e.T15177551A123740161</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15177551A123740161.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15177551A123740161.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

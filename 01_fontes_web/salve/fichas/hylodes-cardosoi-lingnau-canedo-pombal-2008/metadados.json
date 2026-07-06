@@ -1,0 +1,282 @@
+{
+  "id_ficha": "3232384e6c4d575a3535566863614f586b6b6f2b67413d3d",
+  "nome_cientifico": "Hylodes cardosoi Lingnau, Canedo & Pombal, 2008",
+  "nome_cientifico_atual": "Hylodes cardosoi Lingnau, Canedo & Pombal, 2008",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21836.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=3232384e6c4d575a3535566863614f586b6b6f2b67413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hylodes cardosoi</i>&nbsp;<span>Lingnau, Canedo & Pombal, 2008</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "05/10/2023",
+      "justificative": "<p><em>Hylodes cardosoi</em> é endêmica do Brasil, do bioma Mata Atlântica, conhecida para o sul do estado de São Paulo e leste do Paraná. A sua extensão de ocorrência é de 1.331 km2. A espécie é abundante em sua área de ocorrência e não há ameaças evidentes que possam a colocá-la em risco de extinção. Por estas razões, <em>Hylodes cardosoi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2023. <i>Hylodes cardosoi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21836.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21836.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16688,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylodidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hylodes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hylodes cardosoi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Hylodes cardosoi </em>é endêmica do Brasil, onde possui registros de ocorrência na Mata Atlântica do extremo sul de São Paulo, nos municípios de Capão Bonito e Iporanga (R. Lingnau, com. pess., 2011), e leste do Paraná, no município de Morretes (localidade-tipo) (Lingnau <em>et al</em>., 2008). Sua extensão de ocorrência é de 1.331 km2, calculada via mínimo polígono convexo a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Paraná, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/52776a525452615652614676344b73722f483554434b2b545041513648736d6a32786c3634494d486746546f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Hylodes cardosoi",
+        "diskFileName": "88a8f7c733b97b8671eb1aebbe13422f.png",
+        "fileName": "Mapa de Hylodes cardosoi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie habita pequenos riachos de águas rápidas em meio a florestas ombrófilas da Mata Atlântica. Os indivíduos são velozes e assumem um comportamento de fuga, saltando para a água quando incomodados. Após alguns minutos, voltam ao mesmo local. Essa fidelidade de sítio foi observada em machos e fêmeas (Lingnau <em>et al</em>., 2008). Machos exibem sinais visuais (“<em>foot</em>-<em>flagging</em>”) durante eventos reprodutivos, com ou sem emissão simultânea de vocalização (Forti &amp; Castanho, 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Hylodes cardosoi </em>é comum e abundante nos riachos (R. Lingnau, com. pess., 2011), porém sua tendência populacional é desconhecida.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam afetar a espécie. Na sua extensão de ocorrência, 91,6% da cobertura original permanecem na forma de remanescentes de vegetação nativa (Projeto MapBiomas, 2017).</p> \n<p> </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2011,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group, 2011",
+              "title": "IUCN SSC Amphibian Specialist Group (2011) <i>Hylodes cardosoi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T158608A5240875.en\">http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T158608A5240875.en</a>."
+            }
+          ],
+          "orderBy": "Y2011"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA QUILOMBOS DO MéDIO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "R. Lingnau, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P.M., Kierulff, M.C.M. &amp; Sugieda, A.M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Forti, L.R. &amp; Castanho, L.M. (2012) Behavioural repertoire and a new geographical record of the torrent frog <i>Hylodes cardosoi</i> (Anura: Hylodidae). <i>Herpetological Bulletin</i>. 121, 17-22.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "IUCN SSC Amphibian Specialist Group (2011) <i>Hylodes cardosoi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T158608A5240875.en\">http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T158608A5240875.en</a>.",
+          "Lingnau, R., Canedo, C. &amp; Pombal Jr., J.P. (2008) A new species of <i>Hylodes</i> (Anura: Hylodidae) from the Brazilian Atlantic Forest. <i>Copeia</i>. 2008 (3), 595-602.",
+          "Projeto MapBiomas (2017) Mapeamento Anual da Cobertura e Uso do Solo no Brasil. Coleção 2. <a target=\"_blank\" href=\"http://mapbiomas.org/pages/about/about\">http://mapbiomas.org/pages/about/about</a>. [Acessado em: 18/set/2017]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

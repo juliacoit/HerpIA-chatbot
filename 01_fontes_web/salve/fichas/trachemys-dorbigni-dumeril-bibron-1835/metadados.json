@@ -1,0 +1,598 @@
+{
+  "id_ficha": "306d442b5a36783363674f512f41384d4b54376654413d3d",
+  "nome_cientifico": "Trachemys dorbigni (Duméril & Bibron, 1835)",
+  "nome_cientifico_atual": "Trachemys dorbigni (Duméril & Bibron, 1835)",
+  "nome_comum": "Tigre d´água",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20845.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=306d442b5a36783363674f512f41384d4b54376654413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Trachemys dorbigni</i>&nbsp;<span>(Duméril & Bibron, 1835)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "24/02/2026",
+      "justificative": "<p><em>Trachemys dorbigni</em> ocorre na América do Sul, onde é conhecida para o Brasil, Argentina e Uruguai. No Brasil ocorre, naturalmente, somente no sul do estado do Rio Grande do Sul, onde vive em ambientes aquáticos como lagunas, rios, banhados, lagos e açudes com abundância de vegetação. Também é encontrada em córregos e lagos urbanos poluídos. Essa espécie é comum nos locais onde ocorre. Em algumas localidades o ambiente está alterado em decorrência das atividades agrícolas, especialmente pelo cultivo de arroz, e há atropelamentos e comercialização ilegal de filhotes como animais de estimação. Ainda assim, não há evidências de que as ameaças possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Trachemys dorbigni</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Sabine Borges da Rocha; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luís Regolin; Camila Kurzmann Fagundes; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Rocha, S.B.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Fagundes, C.K.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2026. <i>Trachemys dorbigni</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20845.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20845.3",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4d746b51595a654b53744930467669323361335a45513d3d/full"
+      },
+      "version": 3,
+      "versionId": 30456,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Emydidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Trachemys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Trachemys dorbigni</i>"
+        }
+      ],
+      "oldNames": "Chrysemys dorbigni, Chrysemys dorbignyi, Clemmys Dorbignyi, Clemmys (Rhinoclemmys) orbignyi, Emys dorbigni, Emys Dorbignyi, Pseudemys dorbigni, Trachemys dorbigni brasiliensis, Trachemys dorbigni dorbigni, Trachemys scripta dorbigni",
+      "commonNames": "Tigre d´água",
+      "taxonomicNotes": "<p>Ernst <em>et al.</em> (2000) consideram que <em>Trachemys adiutrix</em> pode ser uma subespécie de <em>Trachemys dorbigni </em>e Fritz &amp; Havas (2006) sugerem que a população descrita por Vanzolini (1995) como sendo <em>T. adiutrix</em> pode ser uma subpopulação introduzida ou naturalmente isolada de <em>T. dorbigni</em>. Ernst <em>et al.</em> (2010) consideram <em>T. adiutrix</em> como uma espécie monotípica. Fritz <em>et al.</em> (2012), baseados em análises moleculares, redefiniram <em>T. adiutrix</em> como uma subespécie de <em>T. dorbigni,</em> o que foi corroborado posteriormente por Fritz <em>et al.</em> (2023). Segundo Larissa Barreto (com. pess., 2016), estudos genéticos estão em andamento com amostras coletadas de 31 exemplares da Ilha de Curupu, no estado do Maranhão, e os resultados preliminares indicam que indivíduos dessa subpopulação de <em>T. adiutrix</em> são uma subespécie de <em>Trachemys dorbigni. </em>A avaliação (2024) considerou duas espécies válidas, seguindo Guedes <em>et al</em>. (2023). </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Trachemys dorbigni</em> ocorre na América do Sul, onde é conhecida para o Uruguai, extremo sul do Brasil e Argentina (Richard &amp; Waller, 2000; Métrailler, 2001; Martinez <em>et al., </em>2009; Alcade <em>et al., </em>2012; Van Dijk <em>et al.</em>, 2014; Silva <em>et al</em>., 2021).</p>",
+      "nationalDistribution": "<p>No Brasil, ocorre de forma natural apenas no estado do Rio Grande do Sul (Lema &amp; Ferreira, 1990; Fagundes <em>et al., </em> 2010; Bujes <em>et al., </em>2011; Silveira <em>et al., </em>2012; ), nas bacias meridionais da região hidrográfica Uruguai e Atlântico Sul (ANA, 2016). Por ser muito utilizada como animal de estimação, muitos registros em outros Estados representam indivíduos oriundos de escapes ou solturas indevidas, como por exemplo, nos estados de Santa Catarina, Paraná, São Paulo, Rio de Janeiro, Minas Gerais, Mato Grosso do Sul, Goias, Tocantis, Bahia, Sergipe e Pernambuco (Santos <em>et al., </em>2009; Tortato <em>et al., </em>2014; Ciccheto et al., 2018; Santos <em>et al</em>., 2020; Zenni <em>et al</em>., 2024). Não foi considerada sua distribuição como natural em Santa Catarina pois a espécie está na Lista Oficial de Espécies Exóticas Invasoras do estado (Resolução CONSEMA Nº 08, de 14 de setembro de 2012).</p>",
+      "states": "Rio Grande do Sul",
+      "biomes": "Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Litoral RS, Sub-bacia Negro RS",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/334d78535850584962587175464d54632f32616c64566a52454f67773656392f2b6b5230754757322b58597644426c347748384e476b4d725073304275487441",
+        "legend": "Trachemys dorbigni",
+        "diskFileName": "8b3669171022b29613e81406b778bd77.png",
+        "fileName": "Mapa de Trachemys dorbigni.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Trachemys dorbigni</em> ocorre naturalmente no Pampa e Mata Atlântica, onde é encontrada em ambientes aquáticos como lagunas, rios, banhados, lagos e açudes com abundância de vegetação (Bujes, 2008). Pode ocorrer em ambiente bastante antropizado, como córregos poluídos e lagos urbanos.</p> \n<p>A espécie desova entre setembro e fevereiro, com apenas um período reprodutivo por ano. Entre 12% e 16% das fêmeas podem depositar 2 ninhos por período reprodutivo (Fagundes <em>et al., </em>2007; Bager <em>et al., </em>2007), enquanto 14% podem produzir 3 ninhos (Bager <em>et al., </em>2007). Bager <em>et al. </em>(2007) e Fagundes <em>et al. </em>(2010b) observaram que de 31% a 35% das fêmeas da população desovam anualmente. A distância dos ninhos em relação ao corpo d’água varia entre 0,4 e 249,0 metros e os ninhos são depositados de forma agregada (Bujes, 2008; Bager <em>et al., </em>2007; Krause <em>et al.,</em> 1982; Gonçalves <em>et al.,</em> 2007; Fagundes <em>et al., </em>2010b; Bager &amp; Rosado, 2010). Na natureza, as fêmeas desovam de 2 a 19 ovos por ninho, com média variando de 8,2 a 12,1 (Krause <em>et al., </em>1982; Bager <em>et al., </em>2007; Bujes, 2008; Fagundes <em>et al., </em>2010b). Molina (1995) encontrou uma média de 9 ovos por ninho em cativeiro.</p> \n<p>Fagundes <em>et al. </em>(2010b) verificaram que a menor fêmea desovando apresentou 17,6 cm de comprimento retilíneo da carapaça. Bager (2003) verificou a maturidade sexual para machos com 13,2 cm de comprimento retilíneo da carapaça. O tamanho máximo observado entre fêmeas foi de 27,8 cm (Bager <em>et al.,</em> 2007) e, entre os machos, 22,5 cm (Vanzolini, 1997). Faltam estudos com relação aos mecanismos de determinação sexual da espécie (Ferreira Junior, 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>As subpopulações possuem alta densidade, estando agregadas em localidades específicas dentro da sua área de distribuição (Bujes, 2008). Alex Bager (com. pess., 2010) verificou as maiores densidades na Estação Ecológica do Taim (RS) e no município de Arroio Grande, na Lagoa Mirim (RS). No Parque estadual delta do Jacuí (RS), a densidade é de 7,61 tartarugas/ha e a biomassa é de 8,71 kg/ha; entretanto, tanto densidade quanto biomassa podem estar subestimados (Bujes <em>et al</em>., 2011). Não há estudos populacionais disponíveis para a espécie, de modo que sua tendência populacional é desconhecida.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As principais ameaças à espécie são a perda de habitat e o atropelamento em rodovias. A espécie sofre também intensa pressão devido à coleta de ovos e filhotes destinados ao mercado clandestino de animais de estimação (Lema &amp; Ferreira, 1990; Fagundes <em>et al., </em>2010a, 2010b) e consumo esporádico (C. Bujes, com. pess., 2010). Entre os anos de 1995 e 2003, 1.297 indivíduos de <em>T. dorbigni </em>foram recebidos pelos principais zoológicos e CETAS, provenientes de pessoas que compraram estes animais em pet shops e/ou feiras. No entanto, o impacto desta atividade sobre a espécie ainda é desconhecido (Molina &amp; Gomes, 1998). </p> \n<p>Fagundes <em>et al. </em>(2010a, 2010b) encontraram a espécie em áreas urbanas em ambientes poluídos por esgotos domésticos e industriais no município de Pelotas (RS). Os autores comentam que a espécie pode estar sendo prejudicada pela poluição, pois nesta área foi encontrada a menor média de número de ovos por ninho e a menor média do tamanho dos ovos, comparando-se a todos os estudos já realizados em ambiente natural.</p> \n<p>A espécie também é impactada pelo uso de agrotóxicos e pela agropecuária (C. S. Bujes, com. pess., 2010). A região sul do Rio Grande do Sul, onde a espécie é encontrada, possui elevada atividade agropecuária, principalmente plantação de arroz em larga escala, a qual é desenvolvida em toda a margem das lagoas, ocupando a principal área de desova da espécie (A. Bager, com pess., 2010). Outra ameaça é a pulverização nessas plantações com agrotóxicos, pois já foi demonstrado para outras espécies de quelônios que esses produtos podem ser incorporados no vitelo dos ovos.</p> \n<p>A hibridação e competição com espécies exóticas (<em>T. scripta</em>) também representam uma ameaça a espécie (Figueiredo, 2014).</p> \n<p>Apesar dessas ameaças, não há evidências de que elas possam afetar a espécie ao ponto de colocá-la em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.4 - Tempestades/enchentes",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.2 - Plantações agro-industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.3 - Pecuária agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.3 - Captura intencional - comércio internacional",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.1 - Espécies exóticas|8.1.1 - Espécie conhecida|8.1.1.2 - Predadores",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.1 - Espécies exóticas|8.1.1 - Espécie conhecida|8.1.1.3 - Hibridação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.2 - Comercial - Nacional/Local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p><em>Trachemys dorbigni</em> (tigre-d' água) é utilizada como alimento, principalmente os ovos, e também como animal de estimação, de forma legal e ilegal, havendo ainda apanha na natureza com essa finalidade (Lema &amp; Ferreira, 1990; Fagundes <em>et al</em>., 2010a, 2010b; Cruz <em>et al.,</em> 2022; Nehemy <em>et al.,</em> 2024). No Rio Grande do Sul, é proibida a criação e o comércio da espécie (Portaria SEMA Nº 46 de 08 abril de 2015), e é considerada exótica em diversas localidades no Brasil fora de sua distribuição natural (Zenni <em>et al</em>., 2024).</p> \n<p>Até 2016, existiam dois criadores comerciais de <em>Trachemys dorbigni</em> legalizados junto ao SISFAUNA/IBAMA, localizados nos estados do Paraná (Curitiba) e Ceará (Guaramiranga). Ainda, estão legalizados 21 criadouros de revenda de animais vivos dessa espécie, localizados nas regiões Sul (Paraná e Santa Catarina), Sudeste (Minas Gerais e Rio de Janeiro) e Centro-Oeste (Goiás e Mato Grosso do Sul) (O. Valente, com, pess., 2016). Esses criadouros estão registrados no âmbito da Portaria -Ibama nº. 118/97, mas a atual legislação, Instrução Normativa Ibama 07/2015 (Ibama, 2015), define que novos criadouros comerciais com finalidade de animal de estimação de espécies silvestres nativas somente serão autorizados a partir da publicação da lista a que se refere a Resolução Conama nº 394, de 6 de novembro de 2007.</p> \n<p>Foi a terceira espécie com maior número de vendas entre 2015 e 2018 de acordo com Sisfauna e o Sistema de Manejo de SP (Trajano &amp; Carneiro, 2019). Além disso, foi o quinto animal mais recebido em cenas de acordo com Siscetas entre 2019 e 2020.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "1 - Alimentação humana|1.3 - Criadouro comercial",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "O. Valente, com. pess., 2016",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Recomenda-se a elaboração de um instrumento legal que estabeleça uma faixa de proteção para ninhos, baseado na largura dos sítios de desova.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Trachemys dorbigni (Duméril & Bibron, 1835)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2016"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Não Aplicável (NA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rio Grande do Sul, 2014",
+              "title": "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Nível regional",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Ibirapuitã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lustosa, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Taim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silveira, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO BANHADO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brusa & Damborenea, 2000",
+              "title": "First Report of <i>Temnocephala brevicornis</i> Monticelli 1889 (Temnocephalidae: Platyhelminthes) in Argentina"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEÇÃO AMBIENTAL DA LAGOA VERDE",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Fonseca <i>et al.</i>, 2021",
+              "title": "Pet distribution modelling: Untangling the invasive potential of <i>Trachemys dorbigni</i> (Emydidae) in the Americas"
+            }
+          ]
+        },
+        {
+          "name": "Estrada do Mar",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Fonseca <i>et al.</i>, 2021",
+              "title": "Pet distribution modelling: Untangling the invasive potential of <i>Trachemys dorbigni</i> (Emydidae) in the Americas"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Recomenda-se a realização de estudos sobre a biologia básica da espécie, ecologia e dinâmica populacional, além de estudos de distribuição geográfica, filogeografia, conectividade entre as subpopulações, e efeito da poluição dos cursos d’água, criações clandestinas, coleta de ovos e filhotes e da criação comercial legal sobre as suas populações naturais.</p> \n<p> </p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Filogenia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Outro",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "ANA (Agência Nacional de Águas e Saneamento Básico) (2016) Divisões hidrográficas do Brasil. <a target=\"_blank\" href=\"https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas\">https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas</a>. [Acessado em: 07/jul/2016].",
+          "Araújo, D. M., Correa, D. B., Ferri, P. L. F., Gamba, M. S., Ferri, V. Y. K. &amp; Trigo, C. C. (2013) Monitoramento de quelônios na Lagoa do Marcelino Ramos, Osório, Rio Grande do Sul . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>VI Congresso Brasileiro de Herpeptologia</i> Salvador-BA.",
+          "Bager, A. &amp; Freitas, T. R. O. Krause, L. (2010) Morphological characterization of adults of Orbignys slider <i>Trachemys dorbignyi</i> (Dumeril e Bibron 1835) (Testudines Emydidae) in southern Brazil. <i>Tropical Zoology</i>. 23,.",
+          "Bager, A. &amp; Rosado, J.L.O. (2010) Estimation of core terrestrial habitats for freshwater turtles in southern Brazil based on nesting areas. <i>Journal of Herpetology</i>. 44 (4), 658-662.",
+          "Bager, A. &amp; Silveira, M. (2011) Selectivity of Different Samp ling Methods: Case Study for <i>Trachemys dorbigni</i> (Testudines, Emydidae) . In: Turtle Survival Alliance (TSA) (ed.) <i>9th Annual Symposium on the Conservation and Biology of Tortoises and Freshwater Turtles.</i> Orlando, Fl, USA.",
+          "Bager, A. (2003) <i>Aspectos da biologia e ecologia da tartaruga tigre d`água, <i>Trachemys dorbigni</i> (Testudines - Emydidae) no extremo sul do Estado do Rio Grande do Sul, Brasil</i>. Tese de Doutorado. Unpubl. PhD. Thesis. Doutorado em Ecologia - Universidade Federal do Rio Grande do Sul (UFRGS). Porto Alegre, Brazil.",
+          "Bager, A. (2004) Avaliação do sucesso de eclossão em ninhos de <i>Trachemys dorbigni</i> no extremo sul do Rio Grande do Sul . In: Sociedade Brasileira de Herpeptologia (ed.) <i>I Congresso Brasileiro de Herpeptologia</i> Curitiba, PR.",
+          "Bager, A. (2010) Natural history notes. <i>Trachemys dorbignyi</i>. <i>Herpetological Bulletim</i>. (113),.",
+          "Bager, A., Fagundes, C. K. &amp; Piedras, S. R. N (2007) <i>Trachemys dorbignyi</i>. Hatchlimg overwintering. <i>Herpetological Review</i>. 38 (3),.",
+          "Bager, A., Freitas, T.R.O. &amp; Krause, L. (2007) Nesting ecology of a population of <i>Trachemys dorbigni</i> (Emydidae) in southern Brazil. <i>Herpetologica</i>. 63 (1), 56-65.",
+          "Bager, A., Krause, L. &amp; Freitas, T.R.O. (2012) Fidelity to nesting sites and orientation of <i>Trachemys dorbigni</i> (Dumeril e Bibron, 1835) (Testudines: Emydidae) female in southern Brazil. <i>Tropical Zoology</i>. 25 (1), 31-38.",
+          "Bastazini, V.A.G. &amp; Bager, A. (2004) Caracterização das anomalias de escudos em <i>Trachemys dorbigni</i> (Testudines - Emydidae) no sul do Rio Grande do Sul . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba - PR.",
+          "Bernardon, F. F., Valente, A. L. &amp; Müller, G. (2014) Gastrointestinal helminths of <i>Trachemys dorbigni</i> Dumeril e Bibron, 1835 (Testudines, Emydidae) from artificial urban ponds in southern Brazil. <i>Pan American Journal of Aquatic Sciences</i>. 9 (1), 54-57.",
+          "Brusa, F. &amp; Damborenea, M. C. (2000) First Report of <i>Temnocephala brevicornis</i> Monticelli 1889 (Temnocephalidae: Platyhelminthes) in Argentina. <i>Memorias do Instituto Oswaldo Cruz</i>. 95 (1), 81-82.",
+          "Bujes, C. S. &amp; Verrastro, L. (2007) Supernumerary epidermal shields and carapace variation in Orbignys slider, turtles, <i>Trachemys dorbigni</i> (Testudines, Emydidae). <i>Revista Brasileira de Zoologia</i>. 24 (3), 666-672.",
+          "Bujes, C. S. (2009) <i>Trachemys dorbigni</i> (Brazilian Slider). Morphology. <i>Herpetological Review</i>. 40 (4), 437-438.",
+          "Bujes, C. S., Molina, F. B. &amp; Verrastro, L. (2011) Population characteristics of <i>Trachemys dorbigni</i> (Testudines, Emydidae) from delta do Jacui state park, Rio Grande do Sul, southern Brazil. <i>South American Journal of Herpetology</i>. 6 (1), 27-34.",
+          "Bujes, C. S., Verrastro, L. &amp; Morando, P. S. (2005) Quelônios do Parque Estadual Delta do Jacuí, RS - Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpeotologia</i> Belo Horizonte - MG.",
+          "Bujes, C.S. &amp; Verrastro, L. (2008) Quelônios do delta do Rio Jacuí, RS, Brasil: uso de <i>habitat</i> e conservação. <i>Natureza e Conservação</i>. 6 (2), 47-60.",
+          "Bujes, C.S. (2008) <i>Biologia e conservação de quelônios no delta do Rio Jacuí – RS: aspectos da história natural de espécies em ambientes alterados pelo homem</i>. Tese de Doutorado. Doutorado em Biologia Animal. Universidade Federal do Rio Grande do Sul. 255ppp.",
+          "Bujes, C.S. (2009) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Bujes, C.S. (2010) Os Testudines continentais do Rio Grande do Sul, Brasil: taxonomia, história natural e conservação. <i>Iheringia, Série Zoologia</i>. 100 (4), 413-424.",
+          "Ciccheto, J. R. M., Grou, C. E. V. &amp; Rocha, S. B. (2018) Novos registros de ocorrência de Trachemys dorbigni no Brasil In: Oldiges (ed.) <i>Estudo da Herpetofauna Brasileira.</i> Atena Editora, Ponta Grossa, pp. 42-50.",
+          "Cruz, C. E. F., Soares, C. E. S., Hirt, G. B., Wagner, P. G. C., Andretta, I, &amp; Neto, W. N. C. (2022) Wild animals housed at the IBAMA triage center in Southern Brazil, 2005–2021: a glimpse into the endless conflicts between man and other animals. <i>Ethnobiology and Conservation</i>. 11, 11:28.",
+          "Dutra, F. A., Silveira, F. L. &amp; Cheffe, M. M. (2004) Listagem dos répteis da bacia do Arroio Santa Bárbara, municipio de Pelotas, Rio Grande do Sul . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba-PR.",
+          "Ely, I., Bujes, C. S. &amp; Verrastro, L. (2005) Dieta da tartaruga tigre d`água <i>Trachemys dorbigni</i> (Testudines, Emydidae) da Ilha da Pintada, Porto Alegre, RS, Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "Emysystem (1999) World Turtle Database. <a target=\"_blank\" href=\"http://emys.geo.orst.edu/\">http://emys.geo.orst.edu/</a>. [Acessado em: 10/jun/2010].",
+          "Ernst, C.H. (1990) <i>Systematics, taxonomy, variation, and geographic distribution of the Slider Turtle. P. 57-67. <i>In</i>: Gibbons, J. W. Life History and Ecology of the Slider Turtle, Gibbons, J.W. (ed)</i> Washington, DC, Smithsonian Institution Press,",
+          "Ernst, C.H., Batistella, A.M. &amp; Vogt, R.C. (2010) <i>Trachemys adiutrix</i>. <i>Catalogue of American Amphibians and Reptiles</i>. 869, 1-4.",
+          "Fagundes, C. K., Bager, A. &amp; Cechin, S. T. Z. (2010) <i>Trachemys dorbigni</i> (Testudines: Emydidae) in an Anthropic Environment in Southern Brazil: (I) Sexual size dimorphism and population estimates. <i>The Herpetological Journal</i>. 20, 185–193.",
+          "Fagundes, C. K., Bager, A. &amp; Cechin, S. T. Z. (2010) <i>Trachemys dorbigni</i> (Testudines: Emydidae) in an Anthropic Environment in Southern Brazil: (II) Reproductive Ecology. <i>The Herpetological Journal</i>. 20, 195–199.",
+          "Fagundes, C.K., Bager, A., Aued, A.W. &amp; Cechin, S.Z. (2007) Ecologia reprodutiva de <i>Trachemys dorbigni</i> (Testudines: Emydidae) em um ambiente poluído no sul do Brasil. <i>Sociedade de Ecologia do Brasil - SEB Anais do VIII Congresso de Ecologia do Brasil, 23 a 28 de Setembro de 2007, Caxambu - MG</i>. 2.",
+          "Fagundes, N.J.R. (2013) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Ferreira Júnior, P.D. (2009) Aspectos Ecológicos da Determinação Sexual em Tartarugas. <i>Acta Amazônica</i>. 39 (1), 139-154.",
+          "Figueredo, P. I. C. C. (2014) <i>Verificação da ocorrência de hibridação entre tartaruga-tigre-d’água, Trachemys dorbigni (Duméril and Bibron, 1835) e tartaruga-americana, Trachemys scripta (Thunberg and Schoepff, 1792) (Testudines, Emydidae)</i>. Tese de Doutorado. Univerisdade Estadual do Rio Grande do Sul. Imbé.",
+          "Fonseca, É., Both, C., Cechin, S. Z. &amp; Winck, G. (2021) Pet distribution modelling: Untangling the invasive potential of <i>Trachemys dorbigni</i> (Emydidae) in the Americas. <i>PLOS ONE</i>. 16 (11), e0259626.",
+          "Freiberg, M. A. (1969) Una nueva subespecie de <i>Pseudemys dorbignyi</i> (Dumeril et Biron) (Reptilia, Chelonia, Emydidae). <i>Physis Tomo</i>. XXVIII (77), 299-314.",
+          "Fritz, U. &amp; Havas, P. (2007) Checklist of chelonians of the world. <i>Vertebrate Zoology (Dresden)</i>. 57 (2), 149-368.",
+          "Fritz, U., Stuckas, H., Vargas-Ramírez, M., Hundsdörfer, A.K., Maran, J. &amp; Päckert, J. (2012) Molecular phylogeny of Central and South American slider turtles: implications for biogeography and systematics (Testudines: Emydidae: Trachemys). <i>Journal of Zoological Systematics and Evolutionary Research</i>. 50 (2), 125-136.",
+          "GBIF (Global Biodiversity Information Facility) (2016) <i>Trachemys dorbigni</i> (Duméril & Bibron, 1835). <a target=\"_blank\" href=\"https://www.gbif.org/species/2442977\">https://www.gbif.org/species/2442977</a>. [Acessado em: 25/mai/2016].",
+          "Goncalves, F. A., Cechin, S. Z. &amp; Bager, A. (2007) Predação de ninhos de <i>Trachemys dorbigni</i> (Duméril & Bibron) (Testudines, Emydidae) no extremo sul do Brasil. <i>Revista Brasileira de Zoologia</i>. 24 (4), 1063-1070.",
+          "Gonçalves, F. A., Aued, A. W., Bager, A. &amp; Cehcin, S. T. Z. (2007) A influência da densidade na predação de ninhos <i>Trachemys dorbigni</i> (Dumeril & Bibron, 1835, Emydidae) no extremo sul do Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "Hahn, A. T., Rosa, C. A. Bager, A. &amp; Krause, L. (2013) Dietary variation and overlap in Dorbignys slider turtles <i>Trachemys dorbigni</i> (Dumeril and Bibron 1835) (Testudines: Emydidae). <i>Journal of Natural History</i>. 48, 11-12.",
+          "Hahn, A.T., Bager, A., Krause, L. &amp; Bergonci, P.E.A. (2005) Composição da dieta de <i>Trachemys dorbigni</i> (Dumeril & Bilbton, 1835) (Tertudines: Emydidae), no extreno sul do Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Renováveis) (2015) Instrução Normativa Ibama Nº 7, de 30 de Abril de 2015. Institui e normatiza as categorias de uso e manejo da fauna silvestre em cativeiro, e define, no âmbito do Ibama, os procedimentos autorizativos para as categorias estabelecidas. <a target=\"_blank\" href=\"http://www.ibama.gov.br/phocadownload/fauna_silvestre_2/legislacao_fauna/2015_ibama_in_07_2015_autorizacao_uso_fauna_empreendimentos.pdf\">http://www.ibama.gov.br/phocadownload/fauna_silvestre_2/legislacao_fauna/2015_ibama_in_07_2015_autorizacao_uso_fauna_empreendimentos.pdf</a>. [Acessado em: 27/jun/2016].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Krause, L., Gomes, N. &amp; Leyser, K.L. (1982) Observações sobre nidificação e desenvolvimento de <i>Chrysemys dorbigni</i> (Duméril & Bibron, 1835) (Testudines, Emydidae) na Estação Ecológica do Taim, Rio Grande do Sul. <i>Revista Brasileira de Zoologia</i>. 1, 79-90.",
+          "Lehner, B. &amp; Grill, G. (2013) Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. <i>Hydrological Processes</i>. 27 (15), 2171–2186.",
+          "Lema, T. &amp; Ferreira, M.T.S. (1990) Contribuição ao conhecimento dos Testudines do Rio Grande do Sul (Brasil) – Lista sistemática comentada (Reptilia). <i>Acta biologica leopoldensia</i>. 12 (1), 125-164.",
+          "Lustosa, A.P.G. (2014) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Macedo, M.R.P. (2013) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Maia, A. C. R., Rosa, C. A. &amp; Bager, A. (2010) <i>Trachemys dorbigni</i> (Brazilian Slider Turtle): Bycephaly. <i>Hepetological Bulletin</i>. 114, 33.",
+          "Maran, J. (2004) De nouvelles découvertes au Brésil. <i>La Tortue</i>. 68, 38-51.",
+          "Martins, M.B. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Mascarenhas, C. S. &amp; Coimbra, M. A. A. (2013) <i>Trachemys dorbigni</i> (brazilian sliderturtle): Prey. <i>Herpetological Bulletin</i>. 125, 28-29.",
+          "Mascarenhas, C. S. &amp; Müller, G. (2013) <i>Telorchis</i> spp (Digenea:Telorchiidae) in <i>Trachemys dorbigni</i> (Dumeril& Bibron, 1835) (Testudines: Emydidae) in Southern Brazil. <i>Neotropical Helminthology</i>. 7 (2), 201-210.",
+          "Mascarenhas, C. S. &amp; Müller, G. (2015) <i>Spiroxys contortus</i> (Gnathostomatidae) and <i>Falcaustra affinis</i> (Kathlaniidae) from <i>Trachemys dorbigni</i> (Emydidae) in Southern Brazil. <i>Comparative Parasitology</i>. 82 (1), 129-136.",
+          "Mascarenhas, C.S. (2010) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Mascarenhas, C.S. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Mascarenhas, C.S. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Molina, F.B. &amp; Gomes, N. (1998) Incubação artificial dos ovos e processo de eclosão em <i>Trachemys dorbigni</i> (Duméril & Bibron, 1835) (Reptilia, Testudines, Emydidae). <i>Revista Brasileira de Zoologia</i>. 15 (1), 135-143.",
+          "Molina, F.B. (1995) <i>Observações sobre a biologia e o comportamento reprodutivo de <i>Trachemys dorbigni</i> (Duméril & Bibron, 1835) em cativeiro (Reptilia, Testudines, Emydidae)</i>. Tese de Doutorado. Doutorado em Zoologia - Universidade de São Paulo, São Paulo. São Paulo/SP. 307ppp.",
+          "Monteiro, S.G. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Nehemy, I. K. R., Gomes, T. O., Paiva, F., Kubo, W. K., Almeida-Júnior, J. E., Neves, N. F. &amp; Pedro, V. A. S. (2022) Herpeto-commerce: A look at the illegal online trade of amphibians and reptiles in Brazil. <i>Cuadernos de herpetologia</i>. 36 (2), 185-196.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>.",
+          "Santos, E. M., Souza, D. T. M. T. O., Mascarenhas-Junior, P. B., Santos, R. L., Rameh-de-Albuquerque, L. C. &amp; Correia, J. M. S. (2020) Exotic testudines Trachemys elegans (Wied-neuwied, 1839) and Trachemys dorbigni (Duméril & Bibron, 1835) in an Atlantic Forest fragment, Northeastern Brazil. <i>Herpetoly Notes</i>. 13, 1013-1016.",
+          "Santos, T.G. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Santos, T.G., Kopp, K.A., Spies, M.R. &amp; Trevisan, R. Cechin, S.Z. (2005) Répteis do Campus da Universidade Federal de Santa Maria, RS, Brasil. <i>Biota Neotropica</i>. 5 (1), 171-178.",
+          "Santos, T.G., Vasconcelos, T.S., Molina, F.B. &amp; Zaher, H. (2009) First record of <i>Trachemys dorbigni</i> (Dumeril e Bibron, 1835) (Testudines, Emydidae) in a remnant of Mesophytic Semideciduous Forest of São Paulo State, southeastern Brazil. <i>Herpetological Bulletin</i>. 108, 27-30.",
+          "Seixas, S. A., Amato, J. F. R., Amato, S. B. &amp; Mascarenhas, C. (2014) Primer registro de <i>Temnocephala pereirai</i> (Platyhekmnthes, Temnocephalidae) sobre <i>Trachemys dorbigni</i> (Emydoae) em el sur de Brasil-estudio morfologico completo. <i>Neotrop. Helminthol.</i> 8 (1), 23-35.",
+          "Silveira, E. C. Mascarenhas, C. S., Coibra, M. A. A. &amp; Müller, G. (2015) Dieta de <i>Trachemys dorbigni</i> (Dumeril & Bibron, 1835) (Testudines, Emydidae) em ambientes antrópicos . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do &º. Congresso Brasileiro de Herpetologia</i> Gramado - RS.",
+          "Silveira, F. L., Dutra, F. A. &amp; Cheffe, M. M. (2004) Herpetofauna o Cerro das Almas, Capão do Leão, RS . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>I Congresso Brasileiro de Herpetologia</i> Curitiba - PR.",
+          "Silveira, M. L., Hartmann, M. T. &amp; Bager, A. (2012) Biometria, razão sexual e dimorfismo sexual de <i>Trachemys dorbigni</i> (Dumeril & Bibron, 1835) (Testudines, Emydidae) em um açude no município de São gabriel, Rio Grande do Sul, Brasil. <i>Biotemas</i>. 25 (3), 187-193.",
+          "Souza Filho, G.A. &amp; Verrastro, L. (2012) Reptiles of the Parque Estadual de Itapuã, state of Rio Grande do Sul, southern Brazil. <i>Check List</i>. 8 (5), 847-851.",
+          "Tavares, M. (2010) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2013) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2014) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2015) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2017) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2019) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tavares, M. (2020) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Tortato, M.A., Bressan, R.F. &amp; Kunz, T.S. (2014) Reproduction of two exotic species of <i>Trachemys</i> Agassiz, 1857 (Testudines, Emydidae) at Parque Estadual da Serra do Tabuleiro, state of Santa Catarina, southern Brazil. <i>Herpetology Notes</i>. 7, 11-15.",
+          "Trajano, M. de C. &amp; Carneiro, L. P. (2019) <i>Diagnóstico da Criação Comercial de Animais Silvestres no Brasil</i> Brasília, Ibama, 56pp.",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Vanzolini, P.E. (1997) A note on the reproduction of Trachemys dorbigni (Testudines, Emydidae). <i>Revista Brasileira de Biologia</i>. 57 (2), 165-175.",
+          "Vinas, L.V. (2013) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Trachemys dorbigni (Duméril & Bibron, 1835)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Zenni, R. D., Brito, M. F. G., Creed, J. C., Antar, G. M., Fabricante, J. R., Silva-Forsberg, M. C., Futada, S. M., Macêdo, R. L., Pelicice, F. M., Petry, A. C., Santos, G. S., Santos, S. A., Vieira, L. M. &amp; Zequi, J. A. C. (2024) Status e tendências sobre espécies exóticas invasoras no Brasil. <i>Relatório temático sobre espécies exóticas invasoras, biodiversidade e serviços ecossistêmicos</i>. 49-91."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

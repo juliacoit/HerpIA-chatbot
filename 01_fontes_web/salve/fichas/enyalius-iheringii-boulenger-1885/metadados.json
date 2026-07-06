@@ -1,0 +1,492 @@
+{
+  "id_ficha": "626b427a6f396f6c5967476a575139696744565533673d3d",
+  "nome_cientifico": "Enyalius iheringii Boulenger, 1885",
+  "nome_cientifico_atual": "Enyalius iheringii Boulenger, 1885",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Pampa",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35723.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=626b427a6f396f6c5967476a575139696744565533673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Enyalius iheringii</i>&nbsp;<span>Boulenger, 1885</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "27/02/2026",
+      "justificative": "<p><em>Enyalius iheringii</em> é endêmica do Brasil, com registros na Mata Atlântica entre o estado do Rio de Janeiro e o norte do Rio Grande do Sul. A espécie parece ser sensível à fragmentação e degradação do habitat e ocorre em uma região da Mata Atlântica que já sofreu grande redução histórica e fragmentação dos ambientes naturais. No entanto, sua distribuição é ampla e as ameaças não a colocam em risco de extinção em curto prazo. Portanto, <em>E. </em><em>iheringii</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Enyalius iheringii</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35723.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35723.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24383,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leiosauridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Enyalius</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Enyalius iheringii</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Enyalius iheringii</em> é endêmica do Brasil, com registros na Mata Atlântica entre o estado do Rio de Janeiro e o norte do Rio Grande do Sul (Bertolotto <em>et al</em>., 2002; Bertolotto, 2006; Rodrigues <em>et al</em>., 2006; Rautenberg &amp; Laps, 2010; Breitman <em>et al</em>., 2018). </p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral RS, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/3450394e4a62613470613564486874485a7249594f356e682f656a354665765a314a7337566e63515361626f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Enyalius iheringii",
+        "diskFileName": "8d0d0c5c53d96e03af5e45accf6a25a3.png",
+        "fileName": "Mapa de Enyalius iheringii.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>Espécie semi-arborícola, parece ser sensível à fragmentação e à degradação do habitat (Liou, 2008). Forrageia frequentemente sobre a vegetação e em troncos de árvores (Rautenberg &amp; Laps, 2010). Alimenta-se de coleópteros, larvas de lepidópteros e aranhas (Rautenberg &amp; Laps, 2010). Para defesa, utiliza camuflagem, mas também saltos e corridas e, quando manipulada, pode escancarar a boca e emitir silvos e mordidas (Rautenberg &amp; Laps, 2010). Migliori <em>et al.</em> (2014) observaram comportamento de cópula em um tronco de árvore a um metro do chão. Há registros de parasitismo por <em>Strongyluris oscari</em>, <em>Rhabdias</em> sp., <em>Oswaldocruzia burseyi</em>, <em>Cosmocerca</em> sp. e <em>Oswaldocruzia fredi</em> (Vrcibradic <em>et al.</em>, 2008; Ávila &amp; Silva, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região da Mata Atlântica que sofreu grande redução histórica e fragmentação dos ambientes naturais e, considerando que é sensível a alterações ambientais, pode ser afetada por atividades antrópicas. No entanto, sua distribuição é ampla e as ameaças não a colocam em risco de extinção no curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Insular",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA de Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertolotto <i>et al.</i>, 2002",
+              "title": "Comparative cytogenetics and supernumerary chromosomes in the Brazilian lizard genus <i>Enyalius</i> (Squamata, Polychrotidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DA PEDRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sena, 2007",
+              "title": "Levantamento da fauna e estudo cromossômico de algumas espécies de Reptilia, Squamata, do município de Cananéia, SP"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertolotto, 2006",
+              "title": "<i>Enyalius</i> (Leiosauridae, Squamata): o que os dados moleculares e cromossômicos revelam sobre esse gênero de lagartos endêmico do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ILHABELA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO PRELADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLóGICA ESTADUAL MATA PALUDOSA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2006",
+              "title": "A new species of lizard genus <i>Enyalius</i> (Squamata, Leiosauridae) from the highlands of Chapada Diamantina, state of Bahia, Brazil, with a key to species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Bio Estação Águas Cristalinas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rautenberg & Laps, 2010",
+              "title": "Natural history of the lizard <i>Enyalius iheringii</i> (Squamata, Leiosauridae) in southern Brazilian Atlantic forest"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rautenberg & Laps, 2010",
+              "title": "Natural history of the lizard <i>Enyalius iheringii</i> (Squamata, Leiosauridae) in southern Brazilian Atlantic forest"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2009",
+              "title": "Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio do Bananal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2006",
+              "title": "A new species of lizard genus <i>Enyalius</i> (Squamata, Leiosauridae) from the highlands of Chapada Diamantina, state of Bahia, Brazil, with a key to species"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Breitman <i>et al.</i>, 2018",
+              "title": "A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bertolotto, C.E.V. (2006) <i><i>Enyalius</i> (Leiosauridae, Squamata): o que os dados moleculares e cromossômicos revelam sobre esse gênero de lagartos endêmico do Brasil</i>. Dissertação de Mestrado. Instituto de Biociências, Universidade de São Paulo. São Paulo.",
+          "Bertolotto, C.E.V., Pellegrino, K.C.M., Rodrigues, M.T. &amp; Yonenaga-Yassuda, Y. (2002) Comparative cytogenetics and supernumerary chromosomes in the Brazilian lizard genus <i>Enyalius</i> (Squamata, Polychrotidae). <i>Hereditas</i>. 136 (1), 51-57.",
+          "Breitman, M.F., Domingos, F.M.C.B., Bagley, J.C., Wiederhecker, H.C., Ferrari, T.B., Cavalcante, V.H.G.L., Pereira, A.C., Abreu, T.L.S., Soares-de-Lima, K., Morais, C.J.S., Del Prette, A.C.H., Silva, I.P.M.C., Mello, R., Carvalho, G., Lima, T.M., Silva, A.A., Matias, C.A., Carvalho, G.C., Pantoja, J.A.L., Gomes, I.M., Paschoaletto, I.P., Rodrigues, G.F., Talarico, A.V.C., Barreto-Lima, A.F. &amp; Colli, G.R. (2018) A new species of <i>Enyalius</i> (Squamata, Leiosauridae) endemic to the brazilian Cerrado. <i>Herpetologica</i>. 74 (4), 355–369.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Liou, N.S. (2008) <i>História natural de duas espécies simpátricas de <i>Enyalius</i> (Squamata, Leiosauridae) na Mata Atlântica do sudeste brasileiro</i>. Dissertação de Mestrado. Instituto de Biociências, Universidade de São Paulo. São Paulo.",
+          "Migliore, S.N., Braz, H.B. &amp; Almeida-Santos, S.M. (2014) Reproductive aspects of two <i>Enyalius</i> lizards from the Atlantic forest in Southeastern Brazil. <i>Herpetology Notes</i>. 7, 273-276.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Rautenberg, R. &amp; Laps, R.R. (2010) Natural history of the lizard <i>Enyalius iheringii</i> (Squamata, Leiosauridae) in southern Brazilian Atlantic forest. <i>Iheringia Serie Zoologia</i>. 100 (4), 287-290.",
+          "Rodrigues, M.T., Freitas, M.A., Silva, T.F.S. &amp; Bertolotto, C.E.V. (2006) A new species of lizard genus <i>Enyalius</i> (Squamata, Leiosauridae) from the highlands of Chapada Diamantina, state of Bahia, Brazil, with a key to species. <i>Phyllomedusa</i>. 5 (1), 11-24.",
+          "Vrcibradic, D., Anjos, L.A., Vicente, J.J. &amp; Bursey, C.R. (2008) Helminth parasites of two sympatric lizards, <i>Enyalius iheringii</i> and <i>E. perditus</i> (Leiosauridae), from an Atlantic Rainforest area of southeastern Brazil. <i>Acta Parasitologica</i>. 53 (2),.",
+          "Ávila, R.W. &amp; Silva, R.J. (2010) Checklist of helminths from lizards and amphisbaenians (Reptilia, Squamata) of South America. <i>The Journal of Venemous Animals and Toxins Including Tropical Diseases</i>. 16 (4), 543-572."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "id_ficha": "585a4a7a4d6c6d4b543871337a3469465237397033513d3d",
+  "nome_cientifico": "Leptodactylus knudseni Heyer, 1972",
+  "nome_cientifico_atual": "Leptodactylus knudseni Heyer, 1972",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20305.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=585a4a7a4d6c6d4b543871337a3469465237397033513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus knudseni</i>&nbsp;<span>Heyer, 1972</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "07/10/2023",
+      "justificative": "<p><em>Leptodactylus knudseni </em>ocorre na bacia Amazônica do Brasil, Bolívia, Colômbia, Equador, Guianas, Peru, Suriname e Venezuela. No Brasil, possui ampla distribuição, com registros em todos os estados da região norte e no estado de Mato Grasso. Trata-se de espécie terrestre, de hábitos diurnos e noturnos, sendo comum em suas localidades. Não há evidências de ameaças que possam colocá-la em risco de extinção. Por estas razões, <em>Leptodactylus knudseni </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus knudseni</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20305.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20305.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15715,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus knudseni</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptodactylus knudseni </em>ocorre na Bacia Amazônica da Bolívia, Brasil, Colômbia, Equador, Guianas, Peru, Suriname e Venezuela (Heyer, 2005; Heyer <em>et al.,</em> 2010).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição nos estados Acre, Amazonas, Amapá, Pará, Mato Grosso, Rondônia e Roraima (Souza, 2003; Heyer, 2005; Lima <em>et al.,</em> 2006; Avila-Pires <em>et al.,</em> 2010; Ilha &amp; Dixo, 2010; Queiroz<em> et al</em>., 2011; M.B. Souza, com. pess., 2012).</p>",
+      "states": "Acre, Amapá, Amazonas, Mato Grosso, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/51304a305a37535137735a2f31506b46386e36436779534b626e6f4c6833764275796c2f756935556c70726e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Leptodactylus knudseni",
+        "diskFileName": "3a226daae65498d7085989e6b75bf9d5.png",
+        "fileName": "Mapa de Leptodactylus knudseni.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Leptodactylus knudseni </em>é terrestre e possui hábitos diurnos e noturnos, encontrada em florestas de terra firme no bioma Amazônia. Os ovos são encontrados em ninhos de espuma.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em sua área de ocorrência, porém não há informações sobre sua tendência populacional.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Heyer <i>et al.</i>, 2010",
+              "title": "Heyer, R., Coloma, L.A., Ron, S., Azevedo-Ramos, C., La Marca, E. &amp; Hardy, J. (2010) <i>Leptodactylus knudseni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57135A11589628.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57135A11589628.en</a>."
+            }
+          ],
+          "orderBy": "Y2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Maracá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Caxiuanã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Jamari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Werneck, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "M.B. Souza, com. pess., 2012",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Alto Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2003",
+              "title": "Diversidade de anfíbios nas unidades de conservação ambiental: Reserva Extrativista do Alto Juruá (REAJ) e Parque Nacional da Serra do Divisor (PNSD), Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Ituxi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Queiroz <i>et al.</i>, 2011",
+              "title": "Anfíbios de uma área de castanhal da Reserva Extrativista do Rio Cajari, Amapá"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "Kayabi",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Heyer, 2005",
+              "title": "Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Werneck, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S., Hoogmoed, M.S. &amp; Rocha, W.A. (2010) Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna. <i>Boletim do Museu Paraense Emílio Goeldi. Ciências Naturais</i>. 5 (1), 13-112.",
+          "Condrati, L.H. (2009) <i>Padrões de distribuição e abundância de anuros em áreas ripárias e não ripárias de floresta de terra firme da Reserva Biológica do Uatumã - Amazônia Central</i>. Dissertação de Mestrado. Instituto Nacional de Pesquisas da Amazônia. Manaus.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Heyer, R., Coloma, L.A., Ron, S., Azevedo-Ramos, C., La Marca, E. &amp; Hardy, J. (2010) <i>Leptodactylus knudseni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57135A11589628.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57135A11589628.en</a>.",
+          "Heyer, W.R. (2005) Variation and taxonomic clarification of the large species of the <i>Leptodactylus pentadactylus</i> species group (Amphibia: Leptodactylidae) from Middle America, Northern South America, and Amazonia. <i>Arquivos de Zoologia</i>. 37 (3), 269-348.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Ilha, P. &amp; Dixo, M. (2010) Anurans and lizards, Rio Preto da Eva, Amazonas, Brazil. <i>Check List</i>. 6 (1), 17-21.",
+          "Lima, A.P., Magnusson, W.E., Menin, M., Erdtmann, L.K., Rodrigues, D.J., Keller, C. &amp; Hödl, W. (2006) <i>Guia de sapos da Reserva Adolpho Ducke, Amazônia Central</i> Manaus, Áttema Design Editorial, 168pp.",
+          "Queiroz, S.D.S., Ramalho, A., Miranda, F., Lima, J.D. &amp; Lima, J.R.F. (2011) Anfíbios de uma área de castanhal da Reserva Extrativista do Rio Cajari, Amapá. <i>Biota amazônia</i>. 1 (1), 1-18.",
+          "Souza, M.B. (2003) <i>Diversidade de anfíbios nas unidades de conservação ambiental: Reserva Extrativista do Alto Juruá (REAJ) e Parque Nacional da Serra do Divisor (PNSD), Acre, Brasil</i>. Tese de Doutorado. Universidade Estadual Paulista. Rio Claro."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

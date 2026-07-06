@@ -1,0 +1,362 @@
+{
+  "id_ficha": "4b5a4d66635055376e7057797241506b30746b576a773d3d",
+  "nome_cientifico": "Scinax crospedospilus (Lutz, 1925)",
+  "nome_cientifico_atual": "Scinax crospedospilus (Lutz, 1925)",
+  "nome_comum": "Campo Belo Snouted Treefrog",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22221.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4b5a4d66635055376e7057797241506b30746b576a773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax crospedospilus</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "18/03/2025",
+      "justificative": "<p><em>Scinax crospedospilus </em> é endêmica do Brasil, do bioma Mata Atlântica, onde ocorre nos estados do Rio de Janeiro, São Paulo e Minas Gerais, encontrada em vegetação baixa associada a áreas úmidas. A espécie possui ampla distribuição e é comumente encontrada, inclusive em ambientes antropizados e lagoas artificiais. Não há evidência de ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Scinax crospedospilus </em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Scinax crospedospilus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22221.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22221.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16941,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax crospedospilus</i>"
+        }
+      ],
+      "oldNames": "Hyla craspedospila, Ololygon crospedospila, Scinax crospedospila",
+      "commonNames": "Campo Belo Snouted Treefrog",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax crospedospilus</em> é endêmica do Brasil e possui ampla distribuição nos estados do Rio de Janeiro, Minas Gerais e São Paulo (Domenico, 2008; Giasson, 2008; Pugliese <em>et al</em>., 2009; Verdade <em>et al</em>., 2009; Condez <em>et al.</em>, 2009; Forlani <em>et al</em>., 2010; A.A. Giaretta, com. pess. 2018). </p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Grande, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6c2f454e56795333434979634337453455775349527a784b643541357852413063425a786d2f4f535a4b417644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa distribuição_Scinax crospedospilus",
+        "diskFileName": "5cefa5797b4afcdd1cefc2924cd1a581.png",
+        "fileName": "Mapa de Scinax crospedospilus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax crospedospilus </em>é arborícola, encontrada em vegetação baixa associada a áreas úmidas, e sua reprodução ocorre em lagoas permanentes ou intermitentes, onde deposita seus ovos e os girinos se desenvolvem. Pode utilizar áreas antropizadas e lagoas artificiais (Pavan &amp; Telles, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é comum ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação direcionadas à espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Pavan & Telles, 2004",
+              "title": "Pavan, D. &amp; Telles, A.M. (2004) <i>Scinax crospedospilus</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/55947/11399966\">https://www.iucnredlist.org/species/55947/11399966</a>. [Acessado em: 30/jul/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpeciesLink, 2004",
+              "title": "<i>Scinax crospedospilus</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpeciesLink, 2008",
+              "title": "<i>Scinax crospedospilus</i>"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Consolmagno, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DA PEDRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Consolmagno, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Gomes, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO JURUPARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RESTINGA DE BERTIOGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Giasson, 2008",
+              "title": "Atividade sazonal e uso do ambiente por anfibios da Mata Atlantica no Alto da Serra do Mar"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Condez, T.H., Sawaya, R.J. &amp; Dixo, M. (2009) Herpetofauna dos remanescentes de Mata Atlântica da região de Tapirai e Piedade, SP, sudeste do Brasil. <i>Biota Neotropica</i>. 9 (1), 157-185.",
+          "Forlani, M.C., Bernardo, P.H., Haddad, C.F.B. &amp; Zaher, H. (2010) Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <i>Biota Neotropica</i>. 10 (3), 265-309.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Magrini, L., Carvalho-e-Silva, S.P., Béda, A.F. &amp; Giaretta, A.A. (2011) Calls of five species of the <i>Scinax ruber</i> (Anura: Hylidae) clade from Brazil with comments of their taxonomy. <i>Zootaxa</i>. 3066, 37-51.",
+          "Pavan, D. &amp; Telles, A.M. (2004) <i>Scinax crospedospilus</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/55947/11399966\">https://www.iucnredlist.org/species/55947/11399966</a>. [Acessado em: 30/jul/2012].",
+          "Pugliese, A., Baêta, D. &amp; Pombal Jr., J.P. (2009) A new species of <i>Scinax</i> (Anura: Hylidae) from rocky montane fields in Southeastern and Central Brazil. <i>Zootaxa</i>. 2269, 53 - 64.",
+          "Verdade, V.K., Rodrigues, M.T. &amp; Pavan, D. (2009) Anfibios Anuros da região da Estação Biológica do Alto da Serra de Paranapiacaba In: Lopes <i>et al.</i> (eds.) <i>Patrimonio da Reserva Biológica do Alto da Serra de Paranapiacaba A antiga Estação Biológica do Alto da Serra</i>. São Paulo, Secretaria do Meio Ambiente do Estado de Sao Paulo, pp. 579-604."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

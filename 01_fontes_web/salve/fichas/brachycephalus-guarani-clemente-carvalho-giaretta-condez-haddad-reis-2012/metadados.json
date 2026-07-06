@@ -1,0 +1,254 @@
+{
+  "id_ficha": "4363696f68547455626542523955653839424e4741673d3d",
+  "nome_cientifico": "Brachycephalus guarani Clemente-Carvalho, Giaretta, Condez, Haddad & Reis, 2012",
+  "nome_cientifico_atual": "Brachycephalus guarani Clemente-Carvalho, Giaretta, Condez, Haddad & Reis, 2012",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21908.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4363696f68547455626542523955653839424e4741673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Brachycephalus guarani</i>&nbsp;<span>Clemente-Carvalho, Giaretta, Condez, Haddad & Reis, 2012</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Brachycephalus guarani</em> é endêmica do Brasil, conhecida apenas do Morro do Prumirim, no Parque Estadual da Serra do Mar, município de Ubatuba, estado de São Paulo. Trata-se de espécie de fácil encontro e abundante, e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Brachycephalus guarani</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2022. <i>Brachycephalus guarani</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21908.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21908.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 16760,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Brachycephalidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Brachycephalus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Brachycephalus guarani</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Brachycephalus guarani</em> é endêmica do Brasil, conhecida somente da localidade-tipo, o Morro do Prumirim, no município de Ubatuba, no estado de São Paulo (Clemente-Carvalho <em>et al.</em>, 2012).</p>",
+      "nationalDistribution": "",
+      "states": "São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6262385736726268684a7379526f5a714241613965506c4b542f316665496a6c7a6f4474437162637348424b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Brachycephalus guarani",
+        "diskFileName": "bd9562e9b8db1b699c132d7ce62cabfd.png",
+        "fileName": "Mapa de Brachycephalus guarani.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Os espécimes de <em>Brachycephalus guarani</em> foram encontrados em ambiente florestal em meio a serrapilheira, a 500 metros acima do nível do mar (Giaretta, 1999). Em dias chuvosos, indivíduos ativos podem ser encontrados expostos na serrapilheira.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é abundante e frequente na localidade-tipo.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocá-la em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não foram encontradas informações para o taxon.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a esppécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Clemente-Carvalho <i>et al.</i>, 2012",
+              "title": "Molecular phylogenetic relationships and phenotypic diversity in miniaturized toadlets, genus <I>Brachycephalus</i> (Amphibia: Anura: Brachycephalidae)"
+            }
+          ]
+        },
+        {
+          "name": "Boa Vista Sertão do Promirim",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Clemente-Carvalho <i>et al.</i>, 2012",
+              "title": "Molecular phylogenetic relationships and phenotypic diversity in miniaturized toadlets, genus <I>Brachycephalus</i> (Amphibia: Anura: Brachycephalidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural e distribuição são necessários para melhor compreender a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Clemente-Carvalho, R.B.G.; Klaczko, J.; Perez, S. I.; Alves, A.C.; Haddad, C.F.B. &amp; Reis, S.F. 2012. Molecular phylogenetic relationships and phenotypic diversity in miniaturized toadlets, genus <I>Brachycephalus</i> (Amphibia: Anura: Brachycephalidae). <b>Molecular Phylogenetics and Evolution</b>, 61 (1): p.79-89.",
+          "Giaretta, A.A. 1999. <b>Diversidade e densidade de anuros de serapilheira num gradiente altitudinal na Mata Atlântica costeira</b>. Tese de Doutorado. Universidade Estadual de Campinas. Campinas."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

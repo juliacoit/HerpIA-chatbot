@@ -1,0 +1,354 @@
+{
+  "id_ficha": "4a3130425a77444c58374e5866636a31736e6f6673673d3d",
+  "nome_cientifico": "Leptodactylus bolivianus Boulenger, 1898",
+  "nome_cientifico_atual": "Leptodactylus bolivianus Boulenger, 1898",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19753.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4a3130425a77444c58374e5866636a31736e6f6673673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus bolivianus</i>&nbsp;<span>Boulenger, 1898</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/08/2023",
+      "justificative": "<p><em>Leptodactylus bolivianus </em>ocorre na porção oeste da bacia Amazônica. No Brasil, possui ampla distribuição, com registros de ocorrência nos estados do Amazonas, Pará, Acre e Rondônia. Trata-se de espécie comum e generalista, encontrada em florestas primárias, secundárias, ambientes abertos e antropizados. Não há evidências de ameaças que possam colocá-la em risco de extinção. Por estas razões, <em>Leptodactylus bolivianus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus bolivianus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19753.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19753.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15611,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus bolivianus</i>"
+        }
+      ],
+      "oldNames": "Leptodactylus (Pachypus) bolivianus, Leptodactylus romani",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Registros de ocorrência antigamente associados a <em>Leptodactylus bolivianus </em>no norte da América do Sul e no escudo guianense foram atribuídos a <em>L. insularum</em> e <em>L. guianensis</em>, respectivamente, e a distribuição da espécie ficou restrita para o oeste da bacia amazônica (Heyer &amp; de Sá, 2011).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptodactylus bolivianus </em>ocorre na porção oeste da bacia amazônica, com registros na Bolívia, Brasil, Colômbia, Peru e Venezuela (Heyer &amp; de Sá, 2011).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência nos estados do Acre, Amazonas, Rondônia e Pará (Souza <em>et al</em>., 2008; Heyer &amp; de Sá, 2011).</p>",
+      "states": "Acre, Amazonas, Pará, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/776a6d37692b522f365830586d55612f3743525049696951733947475341433736492f4b30494b6f627a766e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Leptodactylus bolivianus",
+        "diskFileName": "952680c9f98c0e2d66674cd14d28a2b4.png",
+        "fileName": "Mapa de Leptodactylus bolivianus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Leptodactylus bolivianus </em>é uma espécie generalista quanto ao uso do hábitat, encontrada em florestas primárias, secundárias, áreas abertas e antropizadas do bioma Amazônia.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em sua área de ocorrência, porém sua tendência populacional é desconhecida.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Solís <i>et al.</i>, 2008",
+              "title": "Solís, F., Ibáñez, R., Chaves, G., Savage, J., Jaramillo, C., Fuenmayor, Q., Reynolds, R., Caramaschi, U., Mijares, A., Acosta-Galvis, A., Hardy, J., La Marca, E., Manzanilla, J. &amp; Bolaños, F. (2008) <i>Leptodactylus bolivianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T57114A11582479.en\">http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T57114A11582479.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Alto Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2009",
+              "title": "Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO MADEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM ESQUERDA DO RIO NEGRO-SETOR ATURIÁ-APUAUZINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Laço de Amor",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Cué Cué/ Marabitanas",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "Deni",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "Kampa do Rio Amonea",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Heyer, W.R. &amp; de Sá, R.O. 2011. Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae). <b>Smithsonian Contributions to Zoology</b>, 635: p.1-58.",
+          "ICMBio/MMA, 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Solís, F.; Ibáñez, R.; Chaves, G.; Savage, J.; Jaramillo, C.; Fuenmayor, Q.; Reynolds, R.; Caramaschi, U.; Mijares, A.; Acosta-Galvis, A.; Hardy, J.; La Marca, E.; Manzanilla, J. &amp; Bolaños, F. 2008. <i>Leptodactylus bolivianus</i>. <b>The IUCN Red List of Threatened Species 2008: e.T57114A11582479</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T57114A11582479.en\">http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T57114A11582479.en</a>.",
+          "Souza, V.M.D.; Souza, M.B. &amp; Morato, E.F. 2008. Efeitos da sucessão florestal sobre a anurofauna (Amphibia: Anura) da Reserva Catuaba e seu entorno, Acre, Amazônia sul-ocidental. <b>Revista Brasileira de Zoologia</b>, 25 (1): p.49-57."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

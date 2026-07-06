@@ -1,0 +1,840 @@
+{
+  "id_ficha": "4441776136436279664948454b434b704a35336a70673d3d",
+  "nome_cientifico": "Dendropsophus decipiens (Lutz, 1925)",
+  "nome_cientifico_atual": "Dendropsophus decipiens (Lutz, 1925)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.18315.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4441776136436279664948454b434b704a35336a70673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus decipiens</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus decipiens </em>é endêmica do Brasil e possui ampla distribuição, predominantemente no bioma Mata Atlântica, com registros de ocorrência entre os estados de Pernambuco e São Paulo. A espécie é considerada comum e ocupa uma variedade e hábitats, incluindo ambientes abertos, pastagens, campos, florestas primárias e secundárias e restingas costeiras. Não há evidências de ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Dendropsophus decipiens </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Dendropsophus decipiens</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.18315.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.18315.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15106,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus decipiens</i>"
+        }
+      ],
+      "oldNames": "Hyla decipiens, Hyla decipiens decipiens",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Dendropsophus decipiens </em>é endêmica do Brasil e possui distribuição predominante no bioma Mata Atlântica, com registros de ocorrência desde o estado de Pernambuco até o estado de São Paulo (Feio <em>et al</em>., 1998; Izecksohn &amp; Carvalho-e-Silva, 2001; Silvano &amp; Pimenta, 2003; Amorim, 2009; Carvalho-e-Silva <em>et al</em>., 2015; Rossa-Feres <em>et al</em>., 2017). Sua localidade-tipo é descrita como \"près de Rio [de Janeiro]\", no estado do Rio de Janeiro (Lutz, 1925).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Minas Gerais, Pernambuco, Rio de Janeiro, São Paulo, Sergipe",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SE, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia São Francisco Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/525a416d674e63624749482f306f4a37684376516d78735a7931676d51302f4d496f347064576a556245486f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "01da91384d12ea9b9658d913724e936f.png",
+        "fileName": "Mapa de Dendropsophus decipiens.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Dendropsophus decipiens </em>é usualmente encontrada na vegetação próxima a corpos d'água em uma ampla variedade de hábitats, imcluindo ambientes abertos, pastagens, campos, florestas primárias e secundárias e restinga costeira. Os ovos são depositados em folhas sobre corpos d’água temporários ou permanentes, onde os girinos caem e finalizam seu desenvolvimento (Andrade <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> <em>Dendropsophus decipiens</em> é uma espécie comum (D. Loebmann, com. pess., 2012). </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não há ameaças significativas conhecidas para a espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2010",
+              "title": "Andrade, G. &amp; Carvalho-e-Silva, S.P. Cruz, C.A.G. (2010) <i>Dendropsophus decipiens</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55463A11301143.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55463A11301143.en</a>. [Acessado em: 18/ago/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zina <i>et al.</i>, 2012",
+              "title": "Anurans of the sandy coastal plains of the Lagamar Paulista, state of São Paulo, Brazil"
+            },
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Mario Xavier",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caram <i>et al.</i>, 2016",
+              "title": "Updated list of anurans from Floresta Nacional Mário Xavier, Seropédica, Rio de Janeiro, Brazil: changes from 1990 to 2012"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Descobrimento",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Canedo, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Rodrigues, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Ferreira, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO União",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Figueiredo-de-Andrade <i>et al.</i>, 2011",
+              "title": "Anfíbios e Répteis na Reserva Biológica União"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2015",
+              "title": "Anfíbios (Lissamphibia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Telles <i>et al.</i>, 2012",
+              "title": "Anurans from the “Restinga” of Parque Natural Municipal de Grumari, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA ESTADUAL WENCESLAU GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JURÉIA-ITATINS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2008",
+              "title": "Anuros da Reserva Rio das Pedras, Mangaratiba, RJ, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA FONTE GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Marques, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAÚNAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2017",
+              "title": "Local environmental factors influence the structure of frog communities on the sandy coastal plains of Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MORRO DO CHAPÉU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luz, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 1998",
+              "title": "Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Feio, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL BOSQUE DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Telles <i>et al.</i>, 2012",
+              "title": "Anurans from the “Restinga” of Parque Natural Municipal de Grumari, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE MATA DOS MURIQUIS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Amorim, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DO JUNCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2011",
+              "title": "Amphibians and reptiles of the Refúgio de Vida Silvestre Mata do Junco, municipality of Capela, state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTáVEL MUNICIPAL PAPAGAIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Amorin, 2009",
+              "title": "Diversidade e distribuição espacial e temporal da anurofauna (Amphibia, Anura) em fragmento de Mata Atlântica de Igarassu, Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2017",
+              "title": "Local environmental factors influence the structure of frog communities on the sandy coastal plains of Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE SAPIATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2012",
+              "title": "Herpetofauna of Núcleo Experimental de Iguaba Grande, Rio de Janeiro state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            },
+            {
+              "label": "Silva <i>et al.</i>, 2008",
+              "title": "Frogs of Marambaia: a naturally isolated Restinga and Atlantic Forest remnant of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2011",
+              "title": "Selecting a hiding place: anuran diversity and the use of bromeliads in a Threatened Coastal Sand Dune Habitat in Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ALTO DO MUCURI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rödder <i>et al.</i>, 2007",
+              "title": "Anuran hotspots: the municipality of Santa Teresa, Espírito Santo, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE MASSAMBABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEC/Tinguá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEFLUSMME",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Santos, 2009",
+              "title": "Diversidade e distribuição temporal de anfíbios anuros na RPPN Frei Caneca, Jaqueira Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Mata da Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rabello, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "VALE DO SOL",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Barreto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "Piaçaguera",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Luiz, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Amorin, F.O. 2009. <b>Diversidade e distribuição espacial e temporal da anurofauna (Amphibia, Anura) em fragmento de Mata Atlântica de Igarassu, Pernambuco</b>. Dissertação de Mestrado. Universidade Federal de Pernambuco. Recife. p.78.",
+          "Andrade, G. &amp; Carvalho-e-Silva, S.P. Cruz, C.A.G. 2010. <i>Dendropsophus decipiens</i>. <b>The IUCN Red List of Threatened Species 2010: e.T55463A11301143</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55463A11301143.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55463A11301143.en</a>. Acessado em: 18/08/2011.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P.; Carvalho-e-Silva, A.M.P.T. &amp; Luna-Dias, C. 2015. Anfíbios (Lissamphibia) da Reserva Biológica de Pedra Talhada. p.333-355. <i>In</i>: Studer <i>et al.</i>. <b>Biodiversidade da Reserva Biológica de Pedra Talhada: Alagoas, Pernambuco, Brasil</b>. Boissiera Geneve.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Feio, R.N.; Braga, U.M.L.; Wiederhecker, H.C. &amp; Santos, P.S. 1998. <b>Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)</b>. p.32. Universidade Federal de Viçosa, Instituto Estadual de Florestas Viçosa.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. 2001. <b>Anfíbios do município do Rio de Janeiro</b>. p.148. Editora UFRJ Rio de Janeiro.",
+          "Lutz, A. 1925. Batraciens du Brésil. <b>Comptes Rendus et Mémoires Hebdomadaires des Séances de la Société de Biologie et des ses Filiales. Paris</b>, 93 (2): p.137–139.",
+          "Rossa-Feres, D.C.; Garey, M.V.; Caramaschi, U.; Napoli, M.F.; Nomura, F.; Bispo, A.A.; Brasileiro, C.A.; Thomé, M.T.C.; Sawaya, R.J.; Conte, C.E.; Cruz, C.A.G; Nascimento, L.B.; Gasparini, J.L.; Almeida, A.P. &amp; Haddad, C.F.B. 2017. Anfíbios da Mata Atlântica: Lista de espécies, histórico dos estudos, biologia e conservação. p.237-315. <i>In</i>: Monteiro-Filho & Conte. <b>Revisões em Zoologia: Mata Atlântica</b>. UFPR Curitiba.",
+          "Silvano, D. &amp; Pimenta, B. 2003. Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia. p.1-20. <i>In</i>: Prado <i>et al.</i>. <b>Corredor de Biodiversidade na Mata Atlântica do Sul da Bahia</b>. IESB/CI/CABS/UFMG/UNICAMP Ilhéus."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

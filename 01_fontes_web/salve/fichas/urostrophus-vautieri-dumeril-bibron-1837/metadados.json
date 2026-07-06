@@ -1,0 +1,571 @@
+{
+  "id_ficha": "6649762f31327478664f38484b7571574d6161422b773d3d",
+  "nome_cientifico": "Urostrophus vautieri Duméril & Bibron, 1837",
+  "nome_cientifico_atual": "Urostrophus vautieri Duméril & Bibron, 1837",
+  "nome_comum": "papa-vento-de-barriga-lisa",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35810.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6649762f31327478664f38484b7571574d6161422b773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Urostrophus vautieri</i>&nbsp;<span>Duméril & Bibron, 1837</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "18/05/2026",
+      "justificative": "<p><em>Urostrophus vautieri</em> é endêmica do Brasil, com ocorrência em ambientes florestados das porções sul e central da Mata Atlântica, entre os estados do Espírito Santo e o norte do Rio Grande do Sul, incluindo Minas Gerais. Embora ocorra em uma região da Mata Atlântica que já sofreu intensa degradação e fragmentação do habitat natural, sua distribuição é ampla e as ameaças não devem colocá-la em risco de extinção em curto prazo. Portanto, <em>U. vautieri</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Urostrophus vautieri</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35810.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35810.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24469,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leiosauridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Urostrophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Urostrophus vautieri</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "papa-vento-de-barriga-lisa",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Urostrophus vautieri</em> é endêmica do Brasil, com ocorrência nas porções sul e central da Mata Atlântica, entre os estados do Espírito Santo e o norte do Rio Grande do Sul, incluindo Minas Gerais (Etheridge &amp; Williams, 1991; Bérnils <em>et al.</em>, 2001; Marques <em>et al</em>., 2009; Santos <em>et al</em>., 2009; Gasparini <em>et al</em>., 2010; Souza Filho, 2011).</p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Iguaçu, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4346456a7657593165353433667a767844776572654e7135547776414d49637669692f414c4978706a6a777644426c347748384e476b4d725073304275487441",
+        "legend": "Urostrophus vautieri",
+        "diskFileName": "19d84f06820909bf3b6b210e8f537374.png",
+        "fileName": "Mapa de Urostrophus vautieri.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie ocorre principalmente em ambientes florestados (Linares &amp; Eterovick, 2013), incluindo matas ripárias (Souza Filho, 2011), predominantemente na Mata Atlântica.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região da Mata Atlântica na qual a degradação e a fragmentação do habitat natural são elevadas, provocadas principalmente pela agricultura, pecuária e urbanização. No entanto, sua distribuição é ampla e as ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Colli <i>et al.</i>, 2019",
+              "title": "Colli, G.R., Fenker, J., Tedeschi, L., Bataus, Y.S.L., Uhlig, V.M., Silveira, A.L., da Rocha, C., Nogueira, C., .Werneck, F., Moura, G.J.B., Winck, G., Kiefer, M., Freitas, M.A., Ribeiro Junior, M.A., Hoogmoed, M.S., Tinôco, M.S.T., Valadão, R., Cardoso Vieira, R., Perez Maciel, R., Gomes Faria, R., Recoder, R., Ávila, R., Torquato da Silva, S.,, Barcelos Ribeiro, S, &amp; Avila-Pires, T.C.S. (2019) <i>Urostrophus vautieri</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2019-1.RLTS.T203158A2761227.pt\">https://dx.doi.org/10.2305/IUCN.UK.2019-1.RLTS.T203158A2761227.pt</a>."
+            }
+          ],
+          "orderBy": "Y2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rio Grande do Sul, 2014",
+              "title": "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2002,
+          "coverage": "Rio Grande do Sul",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2002",
+              "title": "Marques, A.A.B., Fontana, C.S., Vélez, E., Bencker. G.A., Schneider, M. &amp; Reis, R.E. (2002) <i>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</i> Edição 11 Porto Alegre, FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB), 52pp."
+            }
+          ],
+          "orderBy": "X2002"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2009",
+              "title": "Reptilia, Squamata, Leiosauridae, <i>Urostrophus vautieri</i>: distribution extensionand geographic distribution map"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2009",
+              "title": "Reptilia, Squamata, Leiosauridae, <i>Urostrophus vautieri</i>: distribution extensionand geographic distribution map"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAÍ BOTUCATU TEJUPA PERIMETRO BOTUCATU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertolotto <i>et al.</i>, 2002",
+              "title": "Comparative cytogenetics and supernumerary chromosomes in the Brazilian lizard genus <i>Enyalius</i> (Squamata, Polychrotidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1992",
+              "title": "<i>Anisolepis grilli</i> Boulenger, 1891 (Reptilia, Squamata): proposed conservation of the specific name"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1992",
+              "title": "<i>Anisolepis grilli</i> Boulenger, 1891 (Reptilia, Squamata): proposed conservation of the specific name"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA HIDROGRÁFICA DO RIO MACHADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fattoria Grigia",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Barra do Sana",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Serrinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1992",
+              "title": "<i>Anisolepis grilli</i> Boulenger, 1891 (Reptilia, Squamata): proposed conservation of the specific name"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva do Caraguatá III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2009",
+              "title": "Reptilia, Squamata, Leiosauridae, <i>Urostrophus vautieri</i>: distribution extensionand geographic distribution map"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Etheridge & Williams, 1991",
+              "title": "A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Bérnils, R., Batista, M.A. &amp; Bertelli, P.W. (2001) Cobras e Iagartos do Vale: Ievantamento das espécies de Squamata (Reptilia, Lepìdosauria) da Bacia do Rio Itajaí, Santa Catarina, Brasil. <i>Revista de Estudos Ambientais</i>. 3 (1), 69-79.",
+          "Colli, G.R., Fenker, J., Tedeschi, L., Bataus, Y.S.L., Uhlig, V.M., Silveira, A.L., da Rocha, C., Nogueira, C., .Werneck, F., Moura, G.J.B., Winck, G., Kiefer, M., Freitas, M.A., Ribeiro Junior, M.A., Hoogmoed, M.S., Tinôco, M.S.T., Valadão, R., Cardoso Vieira, R., Perez Maciel, R., Gomes Faria, R., Recoder, R., Ávila, R., Torquato da Silva, S.,, Barcelos Ribeiro, S, &amp; Avila-Pires, T.C.S. (2019) <i>Urostrophus vautieri</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2019-1.RLTS.T203158A2761227.pt\">https://dx.doi.org/10.2305/IUCN.UK.2019-1.RLTS.T203158A2761227.pt</a>.",
+          "Etheridge, R. &amp; Williams, E.E. (1991) A review of the South American lizard genera <i>Urostrophus</i> and <i>Anisolepis</i> (Squamata: Iguania: Polychridae). <i>Bulletin of the Museum of Comparative Zoology</i>. 5, 317-361.",
+          "Gasparini, J.L., Koski, D.A. &amp; Peloso, P.L. (2010) Reptilia, Squamata, Leiosauridae, <i>Urostrophus vautieri</i> Duméril and Bribon, 1837: Distribution extension, new state record, and geographic distribution map. <i>Check List</i>. 6 (3), 432-433.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Linares, A.M. &amp; Eterovick, P.C. (2013) Herpetofaunal surveys support successful reconciliation ecology in secondary and human-modified habitats at the inhotim institute, Southeastern Brazil. <i>Herpetologica</i>. 69, 237-256.",
+          "Marques, A.A.B., Fontana, C.S., Vélez, E., Bencker. G.A., Schneider, M. &amp; Reis, R.E. (2002) <i>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</i> Edição 11 Porto Alegre, FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB), 52pp.",
+          "Marques, O.A.V., Pereira, D.N., Barbo, F.E., Germano, J.V. &amp; Sawaya, R.J. (2009) Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <i>Biota Neotropica</i>. 9 (2), 139-150.",
+          "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>",
+          "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>.",
+          "Santos, R., Lucas, P., Sousa, B. &amp; Novelli, I. (2009) Reptilia, Squamata, Leiosauridae, <i>Urostrophus vautieri</i>: distribution extensionand geographic distribution map. <i>Check List</i>. 5, 533.",
+          "Souza Filho, G.A. (2011) <i>Urostrophus vautieri</i> Duméril and Bibron, 1837 (Reptilia: Squamata: Sauria: Leiosauridae): distribution extension, Paraná, Brazil. <i>Check List</i>. 7 (6), 876-877."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

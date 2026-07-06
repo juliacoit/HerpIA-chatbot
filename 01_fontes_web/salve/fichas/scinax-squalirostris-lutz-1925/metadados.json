@@ -1,0 +1,740 @@
+{
+  "id_ficha": "4d6e3430714461707933432f57505837507363504c513d3d",
+  "nome_cientifico": "Scinax squalirostris (Lutz, 1925)",
+  "nome_cientifico_atual": "Scinax squalirostris (Lutz, 1925)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17586.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d6e3430714461707933432f57505837507363504c513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax squalirostris</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Scinax squalirostris</em> ocorre na Argentina, Bolívia, Brasil, Paraguai e Uruguai. No Brasil, possui ampla distribuição, com registros nos biomas Mata Atlântica, Pampa e Cerrado, nas regiões Centro-Oeste, Sudeste e Sul. A espécie é comum e pode ser encontrada em florestas, áreas abertas e ambientes antropizados. Não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Scinax squalirostris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax squalirostris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17586.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17586.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14921,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax squalirostris</i>"
+        }
+      ],
+      "oldNames": "Hyla evelinae, Hyla evelynae, Hyla leucotaenia, Hyla lindneri, Hyla squalirostris, Hyla squalirostris evelynae, Ololygon squalirostris",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Scinax squalirostris </em>é provavelmente um complexo de espécies (Aquino <em>et al</em>., 2010). Considerando a variação acústica ao longo da sua distribuição, a subpopulação de Cristalina, no estado de Goiás, pode ser outra espécie (Faria <em>et al</em>., 2013). No entanto, foi tratada como uma única unidade taxonômica nesta avaliação.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Scinax squalirostris </em> ocorre na Argentina, Bolívia, Brasil, Paraguai e Uruguai (Aquino <em>et al</em>., 2010; Faria <em>et al</em>., 2013).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, com registros de ocorrência entre os estados de Goiás e Rio Grande do Sul, incluindo registros no Distrito Federal e nos estados de Mato Grosso do Sul (Lutz, 1973; Braun &amp; Braun, 1980; Pombal Jr. <em>et al</em>., 1995; Brandão <em>et al</em>., 1997; Kwet, 2001; Eterovick &amp; Sazima, 2004; Conte &amp; Machado, 2005; Uetenabaro <em>et al</em>., 2007; Lucas &amp; Fortes, 2008; Pugliese <em>et al</em>., 2009; Nunes <em>et al</em>., 2010; Lema &amp; Martins, 2011; Pombal Jr. <em>et al</em>., 2011; Faria <em>et al</em>., 2013; Brandão <em>et al</em>., 2016).</p>",
+      "states": "Distrito Federal, Goiás, Mato Grosso do Sul, Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/492b62384679307962454a416365362b486b426b4858506750774a62393448767437566b766376427272497644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "fb9955f5e2e01ea9665995001da2303d.png",
+        "fileName": "Mapa de Scinax squalirostris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax squalirostris </em>habita ambientes florestais e abert0s, e pode ser encontrada em áreas antropizadas. Sua reprodução ocorre em pequenas lagoas intermitentes ou permanentes, onde deposita seus ovos e os girinos se desenvolvem (Aquino <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum e abundante ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espeçie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Aquino <i>et al.</i>, 2010",
+              "title": "Aquino, L., Kwet, A., Silvano, D., Lavilla, E. &amp; Baldo, D. (2010) <i>Scinax squalirostris</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55996A11396483\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55996A11396483</a>. [Acessado em: 08/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Brandão <i>et al.</i>, 1997",
+              "title": "Geographic distribution. <i>Scinax squalirostris</i> (Striped Snouted Treefrog)"
+            }
+          ]
+        },
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pombal <i>et al.</i>, 2011",
+              "title": "A new miniature treefrog of the <I>Scinax ruber</i> clade from the Cerrado of Central Brazil (Anua: Hylidae)"
+            },
+            {
+              "label": "Eterovick, 2003",
+              "title": "Distribution of anuran species among montane streams in south-eastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Chapecó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lucas & Fortes, 2008",
+              "title": "Frog diversity in the Floresta Nacional de Chapecó, Atlantic Forest of southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA São Francisco de Paula",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garcia, 1998",
+              "title": "Anfibios anuros da Floresta Nacional de São Francisco de Paula, RS. Relatório Final"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Araucárias",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lucas & Marocco, 2011",
+              "title": "Anurofauna (Amphibia, Anura) em um remanescente de Floresta Ombrófila Mista no Estado de Santa Catarina, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Iguaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nazaretti, 2016",
+              "title": "Diversidade, distribuição espaço-temporal e caracterização de anuros do Parque Nacional do Iguaçu"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Lagoa do Peixe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Loebmann & Vieira, 2005",
+              "title": "Relação dos anfíbios do Parque Nacional da Lagoa do Peixe, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garey <i>et al.</i>, 2014",
+              "title": "Anurans from the Serra da Bocaina National Park and surrounding buffer area, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bodoquena",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Uetenabaro <i>et al.</i>, 2007",
+              "title": "Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Eterovick, 2003",
+              "title": "Distribution of anuran species among montane streams in south-eastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Sempre-Vivas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Deiques <i>et al.</i>, 2007",
+              "title": "Guia ilustrado dos anfibios e repteis do Parque Nacional de Aparados da Serra, Rio Grande do Sul, Santa Catarina, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "REVIS dos Campos de Palmas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            },
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Conte, 2010",
+              "title": "Diversidade de anfíbios da floresta com Araucária"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro <i>et al.</i>, 2005",
+              "title": "Amphibians of an open cerrado fragment in southeastern Brazil"
+            },
+            {
+              "label": "Rolim, 2009",
+              "title": "Bioecologia de <i>Odontophrynus moratoi</I> (Amphibia, Anura, Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brandão <i>et al.</i>, 1997",
+              "title": "Geographic distribution. <i>Scinax squalirostris</i> (Striped Snouted Treefrog)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro <i>et al.</i>, 2005",
+              "title": "Amphibians of an open cerrado fragment in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rolim, 2009",
+              "title": "Bioecologia de <i>Odontophrynus moratoi</I> (Amphibia, Anura, Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE SANTA BáRBARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo <i>et al.</i>, 2013",
+              "title": "Anuros da Estação Ecológica de Santa Bárbara, um remanescente de formações abertas de Cerrado no estado de São Paulo"
+            },
+            {
+              "label": "Rolim, 2009",
+              "title": "Bioecologia de <i>Odontophrynus moratoi</I> (Amphibia, Anura, Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DE ITATIAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "São-Pedro & Feio, 2011",
+              "title": "Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAPEVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2007",
+              "title": "A Influência do Habitat em Comunidades de Anuros em uma Área no Limite Sul de Distribuição da Mata Atlântica: Implicações no Manejo e Conservação"
+            },
+            {
+              "label": "Colombo <i>et al.</i>, 2008",
+              "title": "Composição e ameaças à conservação dos anfíbios anuros do Parque Estadual de Itapeva, município de Torres, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Efeito do fogo na composição, distribuição e dieta de uma taxocenose de anfíbios anuros de campos rupestres em Ouro preto, MG"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO TURVO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SEMA, 2005",
+              "title": "Plano de manejo do Parque Estadual do Turvo"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL PICO DO ITAMBÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE SERTãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zanella <i>et al.</i>, 2013",
+              "title": "Herpetofauna do Parque Natural Municipal de Sertão, Rio Grande do Sul, Brasil Material e Métodos"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            },
+            {
+              "label": "Yanzen & Costa, 2014",
+              "title": "Anurofauna"
+            },
+            {
+              "label": "Bernarde & Machado, 2001",
+              "title": "Riqueza de espécies, ambientes de reprodução e temporada de vocalização da anurofauna em Três Barras do Paraná, Brasil (Amphibia: Anura)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte & Rossa-Feres, 2006",
+              "title": "Diversidade e ocorrência temporal da anurofauna (Amphibia, Anura) em São José dos Pinhais, Paraná, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Hiert, 2014",
+              "title": "Mecanismos de estruturação de uma comunidade de anuros em área de ecótono na Floresta Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brandão <i>et al.</i>, 2016",
+              "title": "Guia dos Anfíbios do Distrito Federal, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUAS VERTENTES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Both <i>et al.</i>, 2009",
+              "title": "The role of spatial and temporal descriptors for neotropical tadpole communities in southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira do Cerradão",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 1988",
+              "title": "Anfíbios anuros no Parque Nacional da Serra da Canastra, estado de Minas Gerais"
+            }
+          ]
+        },
+        {
+          "name": "RPPN POUSADA CAMPOS DA BOCAINA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silva, 2007",
+              "title": "A Influência do Habitat em Comunidades de Anuros em uma Área no Limite Sul de Distribuição da Mata Atlântica: Implicações no Manejo e Conservação"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p> </p>",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Aquino, L.; Kwet, A.; Silvano, D.; Lavilla, E. &amp; Baldo, D. 2010. <i>Scinax squalirostris</i>. <b>The IUCN Red List of Threatened Species 2010: e.T55996A11396483</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55996A11396483\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55996A11396483</a>. Acessado em: 08/08/2012.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Brandão, R.A.; Duar, B.A. &amp; Sebben, A. 1997. Geographic distribution. <i>Scinax squalirostris</i> (Striped Snouted Treefrog). <b>Herpetological Review</b>, 28 (2): p.93.",
+          "Brandão, R.A.; Maciel, S. &amp; Álvares, G.F.R. 2016. Guia dos Anfíbios do Distrito Federal, Brasil. Disponível em: <a target=\"_blank\" href=\"https://www.lafuc.com.br/blank\">https://www.lafuc.com.br/blank</a>. Acessado em: 20/03/2018.",
+          "Braun, P.C. &amp; Braun, C.A.S. 1980. Lista prévia dos anfíbios do Estado do Rio Grande do Sul, Brasil. <b>Iheringia, Série Zoologia</b>, 56 (56): p.121-146.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Conte, C. &amp; Machado, R.A. 2005. Riqueza de espécies e distribuição espacial e temporal em comunidades de anuros (Amphibia, Anura) em uma localidade de Tijucas do Sul, Paraná, Brasil. <b>Revista Brasileira de Biologia</b>, 22: p.940-948.",
+          "Eterovick, P.C. &amp; Sazima, I. 2004. <b>Anfíbios da Serra do Cipó, Minas Gerais - Brasil</b>. p.152. PUC Minas Belo Horizonte.",
+          "Faria, D.C.C.; Signorelli, L.; Morais, A.R.; Bastos, R.P. &amp; Maciel, N.M. 2013. Geographic structure and acoustic variation in populations of <i>Scinax squalirostris</i> (A. Lutz, 1925) (Anura: Hylidae). <b>North-Western Journal of Zoology</b>, 9 (2): p.329-336.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kwet, A. 2001. Sudbrasilianische Laubfrosche der Gattung <i>Scinax</i> mit Bemerkungen zum Geschlecht des Gattungsnamens und zum taxonomischen Status von <I>Hyla granulata</i> Peters, 1871. <b>Salamandra</b>, 37 (4): p.211-228.",
+          "Lema, T. &amp; Martins, L.A. 2011. <b>Anfíbios do Rio Grande do Sul: Catalogo, diagnoses, distribuição, iconografia</b>. p.197. ediPUCRS Porto Alegre.",
+          "Lucas, E.M. &amp; Fortes, V.B. 2008. Frog diversity in the Floresta Nacional de Chapecó, Atlantic Forest of southern Brazil. <b>Biota Neotropica</b>, 8 (3): p.51-61.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Nunes, I.; Carvalho Jr., R.R. &amp; Pereira, E.G. 2010. A new species of <i>Scinax</i> Wagler (Anura: Hylidae) from Cerrado of Brazil. <b>Zootaxa</b>, 2514: p.24-34.",
+          "Pombal Jr., J.P.; Bastos, R.P. &amp; Haddad, C.F.B. 1995. Vocalizações de algumas espécies do gênero <i>Scinax</i> (Anura, Hylidae) do sudeste do Brasil e comentários taxonômicos. <b>Naturalia. São Paulo</b>, 20: p.213-225.",
+          "Pombal Jr., J.P.; Bilate, M.; Gambale, P.G.; Signorelli, L. &amp; Bastos, R.P. 2011. A new miniature treefrog of the <I>Scinax ruber</i> clade from the Cerrado of Central Brazil (Anua: Hylidae). <b>Herpetologica</b>, 67 (3): p.288-299.",
+          "Pugliese, A.; Baêta, D. &amp; Pombal Jr., J.P. 2009. A new species of <i>Scinax</i> (Anura: Hylidae) from rocky montane fields in Southeastern and Central Brazil. <b>Zootaxa</b>, 2269: p.53 - 64.",
+          "Uetenabaro, M.; Souza, F.L.; Landgref-Filho, P.; Beda, A.F. &amp; Brandão, R.A. 2007. Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil. <b>Biota Neotropica</b>, 7 (3): p.279-289."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

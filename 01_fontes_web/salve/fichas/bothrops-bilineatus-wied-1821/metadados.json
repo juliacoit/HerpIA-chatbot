@@ -1,0 +1,923 @@
+{
+  "id_ficha": "4b3738686b36313936483132346e775a684f463152673d3d",
+  "nome_cientifico": "Bothrops bilineatus (Wied, 1821)",
+  "nome_cientifico_atual": "Bothrops bilineatus (Wied, 1821)",
+  "nome_comum": "Bico-de-Papagaio, Cobra-Papagaio, Grüne Jararaca, Jararaca-Verde, Ouricana, Papagaia, Paramboia, Surucucu-de-Ouricana, Surucucu-de-Patioba, Uriçana",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28016.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4b3738686b36313936483132346e775a684f463152673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops bilineatus</i>&nbsp;<span>(Wied, 1821)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "21/05/2026",
+      "justificative": "<p><em>Bothrops bilineatus</em> é amplamente distribuída na América do Sul, ocorrendo no Brasil e em países limítrofes na Amazônia. No Brasil, ocorre em toda a região amazônica e, de forma disjunta, na Mata Atlântica entre os estados de Pernambuco e Rio de Janeiro, incluindo Minas Gerais. A espécie é considerada pouco frequente e é encontrada principalmente em ambientes florestais primários. No entanto, possui ampla distribuição e não há indícios de ameaças significativas que possam colocá-la em risco de extinção em curto prazo. Por essas razões <em>Bothrops bilineatus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Bothrops bilineatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28016.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28016.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6b6b50384e46545370567055506975674f63373850673d3d/full"
+      },
+      "version": 2,
+      "versionId": 19230,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops bilineatus</i>"
+        }
+      ],
+      "oldNames": "Bothriopsis bilineata, Bothriopsis bilineata bilineata, Bothriopsis bilineata smaragdina, Bothriopsis bilineatus, Bothriopsis taeniata, Bothrops bilineatus bilineatus, Bothrops bilineatus smaragdinus, Cophias bilineatus, Lachesis bilineatus, Trigonocephalus (Bothrops) arboreus",
+      "commonNames": "Bico-de-Papagaio, Cobra-Papagaio, Grüne Jararaca, Jararaca-Verde, Ouricana, Papagaia, Paramboia, Surucucu-de-Ouricana, Surucucu-de-Patioba, Uriçana",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Bothrops bilineatus</em> ocorre no Brasil, Colômbia, Equador, Guiana, Guiana Francesa, Suriname, Peru e Venezuela (Fugler <em>et al</em>., 1995; Avila-Pires, 2005; Ortega-Andrade, 2010; Catenazzi <em>et al</em>., 2013; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, ocorre em toda a região amazônica e, de forma disjunta, na Mata Atlântica entre os estados de Pernambuco e Rio de Janeiro, incluindo Minas Gerais (Franco <em>et al</em>., 1998; Feio &amp; Caramaschi, 2002; Argôlo, 2004; Silva <em>et al</em>., 2010; Roberto <em>et al</em>., 2017; Prudente <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Pernambuco, Rio de Janeiro, Rondônia, Roraima",
+      "biomes": "Amazônia, Mata Atlântica",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/48424337373743747643735747626145617941457831536a6b755765306b43512b33496a4b4355745846744b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Bothrops bilineatus",
+        "diskFileName": "6efec4cbd3d158f4bf5b7b184ff4cfd4.png",
+        "fileName": "Mapa de Bothrops bilineatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Bothrops bilineatus </em>é encontrada sobre troncos de árvores ao longo de córregos e nas bordas das clareiras de florestas (Campbell &amp; Lamar, 2004), ocorrendo ainda em florestas de bambu e em zonas de transições entre florestas de terra firme e florestas inundáveis (Doan &amp; Arriaga, 2002). Apresenta atividade noturna e hábitos arborícolas (Dixon &amp; Soini, 1986; Cunha &amp; Nascimento, 1993; Silva, 1993; Frota<em> et al.,</em> 2005; Bernarde &amp; Abe, 2006; Turci <em>et al</em>., 2009). A espécie é generalista (Martins <em>et al</em>., 2002), alimentando-se principalmente de roedores e anuros, mas serpentes e lagartos também podem compor sua dieta (Dixon &amp; Soini, 1986; Cunha &amp; Nascimento, 1993; Martins<em> et al</em>., 2002). Dixon &amp; Soini (1986) também mencionaram pequenos pássaros encontrados no conteúdo estomacal da espécie.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara na região Leste do Pará (Cunha &amp; Nascimento, 1993). Em um resgate de serpentes na Usina Hidrelétrica de Samuel (RO), foram obtidos apenas quatro indivíduos (Silva, 1993) e, em Espigão do Oeste (RO), apenas um (Bernarde &amp; Abe, 2006). Porém, no estudo de Turci <em>et al.</em> (2009), <em>B. bilineatus</em> foi a espécie mais frequente.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A principal ameaça à espécie está associada à perda de vegetação nativa e degradação do seu habitat, especialmente em formações florestais contínuas. No entanto, sua distribuição é bastante ampla e as ameaças não a colocam em risco em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.3 - Efeitos indiretos - subsistência/pequena escala",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.4 - Efeitos indiretos - larga escala",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Espírito Santo",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA, 2022",
+              "title": "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA 28/10/2022 <i><i>Decreto nº 5237-R, de 25 de novembro de 2022</i>. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA, 2017",
+              "title": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Almeida <i>et al.</i>, 2007",
+              "title": "Almeida, A. P., Gasparini, J. L., Abe, A. S., Argôlo, A. J. S., Baptistotte, C., Fernandes, R., Rocha, C. F D. &amp; Van Sluys, M. (2007) Os répteis ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Ipema, pp. 65-84."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2000,
+          "coverage": "Rio de Janeiro",
+          "category": "Possivelmente Extinta (PE)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2000",
+              "title": "Rocha, C.F.D., Van Sluys, M., Puorto, G., Fernandes, R., Barros-Filho, J.D., Rocha-e-Silva, R., Néo, F.A. &amp; Melgarejo, A. (2000) Répteis In: Bergallo <i>et al.</i> (eds.) <i>A fauna ameaçada de extinção do Estado do Rio de Janeiro</i>. Edição 1 ed. Rio de Janeiro, Faperj, pp. 79-87."
+            }
+          ],
+          "orderBy": "X2000"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC Alto Maués",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "De-Freitas, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Murici",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "De Araújo Neto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Chalkidis, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Campbell & Lamar, 2004",
+              "title": "The Venomous Reptiles of Latin America"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Cutia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Campbell & Lamar, 2004",
+              "title": "The Venomous Reptiles of Latin America"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grazziotin, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Alto Cariri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leite, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Cazumbá-Iracema",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grazziotin, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO AMAPÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL ALTO DO CARIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CHANDLESS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MATUPIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Frazão <i>et al.</i>, 2019",
+              "title": "Species richness and composition of snake assemblages in poorly accessible areas in the Brazilian Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA GUARIBA-ROOSEVELT",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA RIO CAUTÁRIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Campbell & Lamar, 2004",
+              "title": "The Venomous Reptiles of Latin America"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "De Araújo Neto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL IGARAPÉ SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2010",
+              "title": "Riqueza e dieta de serpentes do Estado do Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO JAPIIM PENTECOSTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grazziotin, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPN Salto Apepique",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Manacá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Paraíso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Sayonara",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2017",
+              "title": "The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Natural da Serra do Teimoso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Tibiriçá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2004",
+              "title": "Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar"
+            }
+          ]
+        },
+        {
+          "name": "Bragança-Marituba",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Chalkidis, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Franco <i>et al.</i>, 1998",
+              "title": "Répteis na Estação Vera Cruz (Porto Seguro, Bahia)"
+            }
+          ]
+        },
+        {
+          "name": "Cué Cué/ Marabitanas",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Escondido",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Igarapé Lage",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Campbell & Lamar, 2004",
+              "title": "The Venomous Reptiles of Latin America"
+            }
+          ]
+        },
+        {
+          "name": "Raposa Serra do Sol",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Olivença",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Vale do Javari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Turci & Bernarde, 2009",
+              "title": "Vertebrados atropelados na Rodovia Estadual 383 em Rondônia, Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A. P., Gasparini, J. L., Abe, A. S., Argôlo, A. J. S., Baptistotte, C., Fernandes, R., Rocha, C. F D. &amp; Van Sluys, M. (2007) Os répteis ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Ipema, pp. 65-84.",
+          "Argôlo, A.J.S. (2004) <i>As serpentes dos Cacauais do Sudeste da Bahia</i> Ilhéus, BA, Editus, 260pp.",
+          "Avila-Pires, T.C.S. (2005) Reptiles In: Hollowell & Reynold (eds.) <i>Checklist of the Terrestrial Vertebrates of the Guiana Shield</i>. Edição 1 Washington, Bulletin of the Biological Society of Washington, pp. 25-40.",
+          "Bernarde, P.S. &amp; Abe, A.S. (2006) A snake comunity at Espigão do Oeste, Rondônia, Southwestern Amazon, Brazil. <i>South American Journal of Herpetology</i>. 1 (2), 102-113.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Campbell, J.A. &amp; Lamar, W.W. (2004) <i>The venomous reptiles of the Western Hemisphere</i> Edição Vol. 2 Ithaca, New York, Cornell University Press, 898pp.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1993) Ofídios da Amazônia. As cobras da região leste do Pará. <i>Boletim do Museu Paraense Emílio Goeldi, Série Zoologia</i>. 9, 1–191.",
+          "Dixon, J.R. &amp; Soini, P. (1986) <i>The reptiles of the upper Amazon Basin, Iquitos region, Peru. I Lizards and amphisbaenians. II Crocodilians, turtles and snakes</i> Milwaukee, WI, Milwaukee Public Museum, 148-154pp.",
+          "Doan, T.M. &amp; Arriaga, W.A. (2002) Microgeographic variation in species composition of the herpetofaunal communities of Tambopata Region, Peru. <i>Biotropica</i>. 34 (1), 101-117.",
+          "Feio, N.R. &amp; Caramaschi, U. (2002) Contribuição ao conhecimento da herpetofauna do nordeste do estado de Minas Gerais, Brasil. <i>Phyllomedusa</i>. 1, 105-111.",
+          "Franco, F.L., Sugliano, G.O.S., Porto, M. &amp; Marques, O.A.V. (1998) <i>Répteis na Estação Vera Cruz (Porto Seguro, Bahia)</i> Veracel Celulose, 41pp.",
+          "Frota, J.G., Santos-Jr, A.P., Chalkidis, H.M. &amp; Guedes, A.G. (2005) As serpentes da região do baixo Rio Amazonas, oeste do Estado do Pará, Brasil (Squamata). <i>Biociências</i>. 13, 211–220.",
+          "Fugler, C. M., De La Riva, I. &amp; Cabot, J. (1995) Herpetologica boliviana: una lista comentada de las serpientes de Bolivia con datos sobre su distribucion. <i>Ecologia en Bolivia</i>. 24, 40-87.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA 28/10/2022 <i><i>Decreto nº 5237-R, de 25 de novembro de 2022</i>. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2002) Ecological and phylogenetic correlates of feeding habits in Neotropical pitvipers of the genus <i>Bothrops</i> In: Schuett <i>et al.</i> (eds.) <i>Biology of the Vipers</i>. Eagle Mountain, Utah, U.S.A, Eagle Mountain Publishing,",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Ortega-Andrade, H.M. (2010) <i>Diversidad de la herpetofauna en la centro Amazonía de Ecuador</i>. Dissertação de Mestrado. Instituto de Ecología. A.C, México.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Roberto, I.J., Oliveira, C.R., Araújo-Filho, J.A., Oliveira, H.F. &amp; Ávila, R.W. (2017) The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. <i>Papéis Avulsos de Zoologia</i>. 57 (27), 347-373.",
+          "Rocha, C.F.D., Van Sluys, M., Puorto, G., Fernandes, R., Barros-Filho, J.D., Rocha-e-Silva, R., Néo, F.A. &amp; Melgarejo, A. (2000) Répteis In: Bergallo <i>et al.</i> (eds.) <i>A fauna ameaçada de extinção do Estado do Rio de Janeiro</i>. Edição 1 ed. Rio de Janeiro, Faperj, pp. 79-87.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>",
+          "Silva Jr., N.J. (1993) The snakes from Samuel hydroelectric power plant and vicinity, Rondônia, Brazil. <i>Herpetological Natural History</i>. 1, 37-86.",
+          "Silva, M.V., Souza, M.B. &amp; Bernarde, P.S. (2010) Riqueza e dieta de serpentes do Estado do Acre, Brasil. <i>Revista Brasileira de Zoociências</i>. 12 (2), 55-66.",
+          "Turci, L.C.B., Albuquerque, S., Bernarde, P.S. &amp; Miranda, D.B. (2009) Uso do hábitat, atividade e comportamento de <i>Bothriopsis bilineatus</i> e de <i>Bothrops atrox</i> (Serpentes: Viperidae) na floresta do Rio Moa, Acre, Brasil. <i>Biota Neotroica</i>. 9 (3), 197-206."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

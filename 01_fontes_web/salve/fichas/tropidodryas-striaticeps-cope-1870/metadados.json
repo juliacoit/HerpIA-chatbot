@@ -1,0 +1,753 @@
+{
+  "id_ficha": "4d36305a71376d612f55546f6e6935773141305a58513d3d",
+  "nome_cientifico": "Tropidodryas striaticeps (Cope, 1870)",
+  "nome_cientifico_atual": "Tropidodryas striaticeps (Cope, 1870)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27963.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d36305a71376d612f55546f6e6935773141305a58513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Tropidodryas striaticeps</i>&nbsp;<span>(Cope, 1870)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Tropidodryas striaticeps </em>é endêmica do Brasil, com registros de ocorrência entre os estados da Bahia e Rio Grande do Sul. A espécie é mais comum em regiões de altitude e pode ser encontrada em ambientes antropizados. Embora possa ser localmente afetada pela perda de hábitat, não há evidencias de que essa ameaça possa colocá-la em risco de extinção em curto prazo, uma vez que possui uma ampla distribuição. Por essas razões, <em>Tropidodryas striaticeps </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Tropidodryas striaticeps</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27963.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27963.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19179,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Tropidodryas</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Tropidodryas striaticeps</i>"
+        }
+      ],
+      "oldNames": "Philodryas pseudoserra, Teleolepis striaticeps, Tropidodryas pseudoserra",
+      "commonNames": "",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Tropidodryas striaticeps </em>é endêmica do Brasil, com registros de ocorrência entre os estados da Bahia e Rio Grande do Sul (Thomas &amp; Dixon, 1977; Cicchi <em>et al</em>., 2007; Stender-Oliveira, 2008; São Pedro &amp; Pires, 2009; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5245587266396c58736a2b4d55364536306f2b6d654b492b39535164646d5338314e4b7553676249376e637644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "d0e48aaf0c927e40c45c73f651d3c77a.png",
+        "fileName": "Mapa de Tropidodryas striaticeps.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Tropidodryas striaticeps </em>é típica de áreas de altitude na Mata Atlântica (Marques, 2004; Stender-Oliveira, 2008; São Pedro &amp; Pires, 2009), ocorrendo tanto em ambientes florestais preservados como em ambientes antropizados (Thomas &amp; Dixon, 1977; Sazima &amp; Puorto, 1993; Barbo, 2008; Stender-Oliveira, 2008). A espécie demonstra maior sensibilidade em relação à qualidade do ambiente no município de São Paulo (Barbo, 2008). É semi-arborícola, diurna e ovípara, com ninhadas entre um e 18 ovos (Forlani, 2010; Stender-Oliveira, 2008). A dieta é generalista, caracterizada por mudança ontogenética: jovens alimentam-se de lagartos e anuros, e adultos predam roedores e aves (Thomas &amp; Dixon, 1977; Sazima &amp; Puorto, 1993; Hartmann <em>et al</em>., 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara no Parque estadual da Serra do Mar (Hartmann <em>et al</em>., 2009), no município de São Paulo (Barbo, 2008) e nas ilhas costeiras de São Paulo (Cicchi <em>et al</em>., 2007).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa é uma ameaça local para a espécie, mas não deve colocá-la em risco de extinção em curto prazo, considerando sua ampla distribuição.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z &amp; Costa, T.B.G. (2019) <i>Tropidodryas striaticeps</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15183292A123739158.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15183292A123739158.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2002,
+          "coverage": "Rio Grande do Sul",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2002",
+              "title": "Marques, A.A.B., Fontana, C.S., Vélez, E., Bencker. G.A., Schneider, M. &amp; Reis, R.E. (2002) <i>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</i> Edição 11 Porto Alegre, FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB), 52pp."
+            }
+          ],
+          "orderBy": "X2002"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Amaral, 1938",
+              "title": "Contribuição ao conhecimento dos ofídios do Brasil 9. Nova especie de colubrídeo opisthoglypho confundível com <I>Philodryas serra</i> (Schlegel, 1837)"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Assis, 1999",
+              "title": "Introdução às serpentes da “Serra do Cipó” (municípios de Santana do Riacho e Jaboticatubas)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Itajaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA SAPUCAí MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Amaral, 1938",
+              "title": "Contribuição ao conhecimento dos ofídios do Brasil 9. Nova especie de colubrídeo opisthoglypho confundível com <I>Philodryas serra</i> (Schlegel, 1837)"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA SILVEIRAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEçãO AMBIENTAL DO RIO GUANDU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            },
+            {
+              "label": "Thomas & Dixon, 1977",
+              "title": "A new systematic arrangement for <i>Philodryas serra</i> (Schlegel) and <i>Philodryas pseudoserra</i> Amaral (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO TRIPUÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Hartmann, 2005",
+              "title": "História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sazima, 2001",
+              "title": "Répteis"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ROLA MOÇA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CACHOEIRA DAS ANDORINHAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO BANHADO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEFLUSMME",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Caetezal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda São Geraldo",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jornalista Antenor Novaes",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Particular Professor Delmar Harry dos Reis",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva do Caraguatá II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio dos Pilões",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santuário Caraça",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Amaral, 1938",
+              "title": "Contribuição ao conhecimento dos ofídios do Brasil 9. Nova especie de colubrídeo opisthoglypho confundível com <I>Philodryas serra</i> (Schlegel, 1837)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Stender-Oliveira, 2008",
+              "title": "Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Barbo, F.E. 2008. Os répteis no município de São Paulo: aspectos históricos, diversidade e conservação. p.234-267. <i>In</i>: Malagoli <i>et al.</i>. <b>Além do Concreto: contribuições para a proteção da biodiversidade paulistana</b>. Editora Instituto Socioambiental São Paulo.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cicchi, P.J.P.; De Sena, M.A.; Peccinini-Seale, D.M. &amp; Duarte, M.R. 2007. Snakes from coastal islands of state of São Paulo, Southeastern Brazil. <b>Biota Neotropica</b>, 7 (2): p.228--240.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2009. Ecologia e história natural de uma taxocenose de serpentes no Núcleo Santa Virgínia do Parque Estadual da Serra do Mar, no sudeste do Brasil. <b>Biota Neotropica</b>, 9 (3): p.173-184.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Marques, A.A.B.; Fontana, C.S.; Vélez, E.; Bencker. G.A.; Schneider, M. &amp; Reis, R.E. 2002. <b>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</b>. p.52. FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB) Porto Alegre.",
+          "Marques, O.A.V. 2004. Répteis da Mata Atlântica. <i>In</i>: Steinmetz & De-Martine. <b>Animais da Mata Atlântica: Patrimônio Natural do Brasil</b>. Editora Empresa das Artes São Paulo.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Sazima, I. &amp; Puorto, G. 1993. Feeding technique of juvenile <i>Tropidodryas striaticeps</i>: probable caudal luring in a colubrid snake. <b>Copeia</b>, 1: p.222-226.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z &amp; Costa, T.B.G. 2019. <i>Tropidodryas striaticeps</I>. <b>The IUCN Red List of Threatened Species 2019: e.T15183292A123739158</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15183292A123739158.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15183292A123739158.en</a>.",
+          "Stender-Oliveira, F. 2008. <b>Ecologia alimentar e reprodutiva de duas espécies de <i>Tropidodryas</i> (Serpentes, Colubridae) da Mata Atlântica</b>. Dissertação de Mestrado. Universidade de São Paulo. São Paulo.",
+          "São Pedro, V.A. &amp; Pires, M.R.S. 2009. As serpentes da região de Ouro Branco, extremo sul da Cadeia do Espinhaço, Minas Gerais. <b>Ceres</b>, 56 (2): p.166-171.",
+          "Thomas, R.A. &amp; Dixon, J.R. 1977. A new systematic arrangement for <i>Philodryas serra</i> (Schlegel) and <i>Philodryas pseudoserra</i> Amaral (Serpentes: Colubridae). <b>Peace-Sellards Series Texas Memorial Museum</b>, 27: p.1-20."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

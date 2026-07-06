@@ -1,0 +1,693 @@
+{
+  "id_ficha": "2b57333547666f43746661553333656e63396e7563673d3d",
+  "nome_cientifico": "Phrynops williamsi Rhodin & Mittermeier, 1983",
+  "nome_cientifico_atual": "Phrynops williamsi Rhodin & Mittermeier, 1983",
+  "nome_comum": "Cágado-de-ferradura, Cágado-rajado",
+  "grupo": "Répteis",
+  "categoria_risco": "VU",
+  "categoria_risco_completa": "Vulnerável (VU)",
+  "bioma": "Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20835.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=2b57333547666f43746661553333656e63396e7563673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Phrynops williamsi</i>&nbsp;<span>Rhodin & Mittermeier, 1983</span>",
+      "category": "Vulnerável (VU)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "13/08/2025",
+      "justificative": "<p><em>Phrynops williamsi</em> ocorre na América do Sul, no Brasil, Uruguai, Argentina e Paraguai. No Brasil, possui registros nos estados do Paraná, Santa Catarina e Rio Grande do Sul. Essa espécie tem distribuição associada aos biomas Mata Atlântica e Pampa, em rios de leito rochoso e de correnteza acentuada, predominantemente com água de boa qualidade, onde é conspícua. A área de distribuição da espécie, calculada via modelo de nicho ecológico para ambiente terrestre, é de 372.348 km2 e é fortemente ameaçada pela perda e diminuição da qualidade do habitat. Em 2023, mais da metade da área (54%) já havia sido convertida em ambiente antrópico, sendo 12,35% nos últimos 38 anos. Essa situação torna a paisagem fragmentada, com a maior parte de sua área de distribuição dividida em manchas que não são suficientes para a persistência da espécie. A espécie é habitat-específica, ocorrendo exclusivamente em ambientes de corredeiras com alto fluxo de água, leito rochoso e margens com vegetação ripária preservada. Esses ambientes, dentro de sua área de distribuição, são os mais visados por empreendimentos hidrelétricos. A modelagem de nicho ecológico identificou uma área adequada para a espécie totalizando 17.663,81 km² de ambientes aquáticos, dos quais 31% foram perdidos nos últimos 60 anos (três gerações). Essas áreas, por apresentarem alta adequabilidade, concentram as maiores densidades populacionais da espécie. Logo, suspeita-se que a redução da população tenha sido superior a 30% em três gerações. Além disso, existem 261 empreendimentos hidrelétricos previstas para a área adequada da espécie que, se forem instalados, causarão perda de mais 23% de seu habitat. Assim, considerando apenas a porcentagem já perdida, a espécie foi avaliada como Vulnerável (VU) A2c.</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "André Luís Regolin; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Flávio de Barros Molina; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Regolin, A.L.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Molina, F.B.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2025. <i>Phrynops williamsi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20835.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20835.3",
+      "photo": {
+        "authorName": "Rafael Martins Valadão",
+        "authorEmail": "rafael.valadao@icmbio.gov.br",
+        "date": "",
+        "diskFileName": "3e6833024639ecc33c803304823383a9.jpg",
+        "fileName": "IMG_7101.JPEG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/623971643061535470792f6e546b6b764d2b375a697665412b4873724b78476b4a70376f6c76544e726364704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 3,
+      "versionId": 30448,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Chelidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Phrynops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Phrynops williamsi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Cágado-de-ferradura, Cágado-rajado",
+      "taxonomicNotes": "<p>Embora seu status taxonômico tenha sido questionado anteriormente, trata-se de espécie válida (Carvalho <em>et al</em>., 2022). Garbin &amp; Cunha (2023) apresentam chave dicotômica diferenciando <em>P. williamsi</em> das demais espécies de <em>Phrynops</em>.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Phrynops</em> <em>williamsi</em> ocorre na América do Sul, onde ocupa áreas de baixa altitude no sul do Brasil, norte do Uruguai, Argentina e Paraguai (Rhodin &amp; Mittermeier, 1983; Waller &amp; Chebez, 1987; Buskirk, 1989; Cabrera, 1998; Richard &amp; Borbolla, 1999; Baquet <em>et al</em>., 2004; Borteiro <em>et al</em>., 2014; Van Dijk <em>et al.,</em> 2014; De La Fuente, 2014; Cacciali <em>et al</em>., 2016; Carvalho <em>et al</em>., 2022). </p>",
+      "nationalDistribution": "<p>No Brasil, ocorre nas regiões hidrográficas Paraná, Uruguai e Atlântico Sul, com registros nos estados do Paraná, Santa Catarina e Rio Grande do Sul (Rhodin &amp; Mittermeier, 1983; Moura Leite, 1996; Ribas &amp; Monteiro-Filho, 2002; Bérnils <em>et al</em>., 2004; Cielusinsky <em>et al</em>., 2008; Spier <em>et al</em>., 2014; Souza Filho <em>et al.,</em> 2015; Knuz <em>et al.</em>, 2018). </p>",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina",
+      "biomes": "Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/484e6551346463496f516c726d767464663334655039445542323534786d6c737245372b55452f535367446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Phrynops williamsi",
+        "diskFileName": "6b27c1aff9f605be1a65250bb3d9ac4b.png",
+        "fileName": "Mapa de Phrynops williamsi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p></p>   <em>Phrynops</em> <em>williamsi</em> é predominantemente diurna, ocupa córregos e rios de florestas com leito rochoso. Vive em rios de correnteza rápida (Rhodin &amp; Mittermeier, 1983) nos biomas Pampa e Mata Atlântica, onde pode ser encontrada em rios de grande porte com margens lodosas ou rochosas (Teixeira &amp; Ribas, 1999), No Rio Grande do Sul, não ocorre em simpatria com outros quelônios na maior parte de sua distribuição, exceto no Parque Nacional do Iguaçu, onde também é encontrada <em>P. geoffroanus</em> (Regolin <em>et al</em>., 2023).   \n<p>Fêmeas atingem tamanho máximo do comprimento da carapaça de 330 mm, e machos, 294 mm (Freiberg, 1970). As fêmeas estão aptas à reprodução ao atingirem 250 mm de comprimento (Rhodin &amp; Mittermeier, 1983) e realizam desovas de forma isolada. Observações de história natural sugerem que as fêmeas podem desovar duas vezes em cada período reprodutivo. Na Argentina, ninhos são construídos em novembro, enquanto no Brasil, de outubro a maio, sempre próximos a bancos de areia (Gallardo, 1980; Rhodin &amp; Mittermeier, 1983; Teixeira &amp; Ribas, 1999; Cabrera, 1998). Buskirk (1989) sugere que, no Uruguai, a eclosão ocorra no mês de outubro. As fêmeas desovam, em média, 7 ovos por ninho e o tamanho dos ovos são, em média, de 33,3 x 27,0 mm (Rhodin &amp; Mittermeier, 1983; Cabrera, 1998). A determinação sexual é desconhecida (Ferreira Júnior, 2009). </p> \n<p>No Parque Estadual do Tainhas, foram encontradas fêmeas com ovos em agosto de 2015 e janeiro de 2016. Com ajuda de radiotransmissor, três ninhos foram encontrados predados por mão-pelada (<em>Procyon cancrivorus</em>). Os ninhos foram encontrados perto de um remanso no arroio Cipó, local onde possivelmente os filhotes se alimentam e crescem antes de entrar no canal principal do rio. As amostras fecais coletadas dos adultos sugerem que a dieta desta espécie seja provavelmente composta por matéria orgânica e insetos aquáticos (R. F. Bressan, com. pess., 2016).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "20 Ano(s)",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie possui habitat restrito, mas é relativamente abundante em ambientes adequados, como rios com leitos rochosos e correnteza (Kunz <em>et</em> <em>al.,</em> 2018). Aparentemente, rios de menor porte comportam subpopulações menores. Foram avistados cerca de 60 indivíduos assoalhando em corredeiras do atual reservatório da Usina Hidrelétrica Garibaldi (Rio Canoas, SC) (I. Ghizoni-Jr., com. pess., 2016) e, no Parque Estadual do Tainhas (RS), foram capturados 51 indivíduos em cerca de 50 dias de campo (R. Bressan, com. pess., 2016). Na localidade-tipo, região do município Picada Café (RS), a espécie também foi observada na calha do rio Cadeia em número significativo de indivíduos (mais de 30) (V. Carvalho, com. pess., 2016).</p> \n<p>A espécie necessita de rios com correnteza para sobreviver e, considerando as alterações ambientais na sua região de ocorrência, principalmente os represamentos dos rios, suspeita-se um declínio populacional de pelo menos 30% nos últimos 60 anos, período de três tempos geracionais.</p> \n<p>Há conectividade entre as populações dos países vizinhos e é plausível que ocorra fluxo gênico, no entanto, não se sabe o quanto reflete na manutenção das subpopulações no Brasil.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda, a fragmentação e a degradação do habitat são as principais ameaças à espécie. Sua área de distribuição no Brasil, estimada via modelo de distribuição elaborado a partir da metodologia indicada por Pinto <em>et al</em>. (2024), é de aproximadamente 372.348 km², e toda a região é fortemente ameaçada pela diminuição da qualidade do habitat. Em 2023 mais da metade dessa área (54%) já havia sido convertida em ambiente antrópico, sendo 12,35% nos últimos 38 anos (MapBiomas Brasil, 2024). Essa situação torna a paisagem severamente fragmentada, com a maior parte de seu habitat em manchas isoladas que não são suficientes para a persistência da espécie (Pinto <em>et al</em>., 2024). Adicionalmente, a construção de barragens e outros sistemas que modificam o regime hidrológico natural dos cursos d´água podem ter efeitos adversos sobre a espécie, pois <em>P. williamsi</em> habita rios lóticos (Cielusinsky <em>et al</em>., 2008). Regolin <em>et al</em>. (2023) mostram, por meio de modelos de nicho ecológico, que usinas hidrelétricas impactam fortemente a distribuição espacial de <em>P. williamsi</em> por se sobreporem a áreas de alta ou muito alta adequabilidade, que representam respectivamente apenas 12% e 8% da área modelada (17.663,81 km2), colocando em risco a permanência da espécie nestes habitas. </p> \n<p>Essa situação é grave, uma vez que a espécie é dependente de ambiente lótico, não sendo encontrada nos reservatórios (Bérnils <em>et al</em>., 2004; Kunz <em>et al</em>., 2018). Existem 457 empreendimentos hidrelétricos dentro da área de distribuição da espécie, das quais 410 estão operando e 47 estão em construção, de maneira que 31% dos ambientes aquáticos adequados para ocorrência da espécie foram perdidos nos últimos 60 anos (três gerações) (Regolin <em>et al</em>., 2023) Essa situação tente a piorar consideravelmente nos próximos anos, considerando-se que existem ainda 261 empreendimentos planejados para a região. Embora usinas hidrelétricas de grande porte (UHEs) causem forte impacto atualmente, o estudo ainda revelou que o impacto causado por pequenas centrais hidrelétricas (PCHs) poderá se igualará ao das UHEs em termos de perda de habitat.</p> \n<p>Esses aspectos já haviam sido reportados por Bérnils <em>et al.</em> (2004), indicando o desaparecimento de algumas subpopulações do rio Iguaçu após a formação de reservatórios de empreendimentos hidrelétricos, associando isto à transformação do ambiente lótico em lêntico. Recentemente, o mesmo tem sido observado na bacia do rio Uruguai, no planalto catarinense, incluindo a observação de indivíduos com ferimentos nos cascos ou mortos imediatamente a jusante de barragens (queda da barragem), bem como atropelados (Kunz <em>et al.,</em> 2018). Além disso, margens dos rios são importantes para a espécie, pois são utilizadas para a nidificação; fêmeas de cágado-rajado podem andar algumas centenas de metros em terra em busca de local apropriado para a construção de seus ninhos. Com exceção da área do Parque Estadual do Delta do Jacuí (RS) e do Parque Nacional do Iguaçu (PR), o restante da área de distribuição da espécie está intensamente fragmentada, principalmente em decorrência da implantação de hidrelétricas, causando importantes alterações nos ambientes ocupados pela espécie (R. Bressan, com. pess., 2016). A caça ou apanha de indivíduos também é uma ameaça à espécie.</p> \n<p>Outra ameaça que pode provocar redução e desconexão dos ambientes da espécie é a crescente ocupação urbana (C. Bujes, com. pess., 2010).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "C.S. Bujes, com. pess., 2010",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "C.S. Bujes, com. pess., 2010",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Regolin <i>et al.</i>, 2023",
+              "title": "Regolin, A. L., Bressan, R., Kunz, T. S., Martello, F., Ghizoni‐Jr, I. R., Cherem, J. J., Capela, D. J. V., Oliveira‐Santos,L. G. R., Collevatti, R. G. &amp; Sobral‐Souza, T. (2023) Integrating ecological niche and hydrological connectivity models to assess the impacts of hydropower plants on an endemic and imperilled freshwater turtle. <i>Journal of Applied Ecology</i>. 60 (8), 1734-1748."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Bérnils <i>et al.</i>, 2004",
+              "title": "Bérnils, R.S., Moura-Leite, J.C. &amp; Morato, S.A.A. (2004) Répteis In: Mikich & Bérnils (eds.) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i>. Edição 2ª ed. Curitiba/PR, Instituto Ambiental do Paraná, pp. 497- 535."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água|9.1.1 - Esgoto",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Cielusinsky <i>et al.</i>, 2008",
+              "title": "Cielusinsky, L.B., Budin, M. &amp; Breyer, E.D.H. (2008) Padrões comparativos referentes à <i>Phrynops williamsi</i> e <i>Hydromedusa tectifera</i> nos municípios de União da Vitória (PR) e Porto União (SC). <i>Ensino e Pesquisa</i>. 1 (5), 112-121."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.1 - Extração de areia",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Cielusinsky <i>et al.</i>, 2008",
+              "title": "Cielusinsky, L.B., Budin, M. &amp; Breyer, E.D.H. (2008) Padrões comparativos referentes à <i>Phrynops williamsi</i> e <i>Hydromedusa tectifera</i> nos municípios de União da Vitória (PR) e Porto União (SC). <i>Ensino e Pesquisa</i>. 1 (5), 112-121."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Bérnils <i>et al.</i>, 2004",
+              "title": "Bérnils, R.S., Moura-Leite, J.C. &amp; Morato, S.A.A. (2004) Répteis In: Mikich & Bérnils (eds.) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i>. Edição 2ª ed. Curitiba/PR, Instituto Ambiental do Paraná, pp. 497- 535."
+            },
+            {
+              "label": "Regolin <i>et al.</i>, 2023",
+              "title": "Regolin, A. L., Bressan, R., Kunz, T. S., Martello, F., Ghizoni‐Jr, I. R., Cherem, J. J., Capela, D. J. V., Oliveira‐Santos,L. G. R., Collevatti, R. G. &amp; Sobral‐Souza, T. (2023) Integrating ecological niche and hydrological connectivity models to assess the impacts of hydropower plants on an endemic and imperilled freshwater turtle. <i>Journal of Applied Ecology</i>. 60 (8), 1734-1748."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos|9.4.1 - Urbanos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Cielusinsky <i>et al.</i>, 2008",
+              "title": "Cielusinsky, L.B., Budin, M. &amp; Breyer, E.D.H. (2008) Padrões comparativos referentes à <i>Phrynops williamsi</i> e <i>Hydromedusa tectifera</i> nos municípios de União da Vitória (PR) e Porto União (SC). <i>Ensino e Pesquisa</i>. 1 (5), 112-121."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.4 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "C.S. Bujes, com. pess., 2010",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.1 - Espécies exóticas|8.1.1 - Espécie conhecida|8.1.1.2 - Predadores",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [
+        {
+          "id": "4570776e784d46784e3371796a534355705757546b525a446a49557a645666493531773369633132655231704d4852545576352b7565586d3741306536525047",
+          "url": "https://salve.icmbio.gov.br/salve-api/public/anexo/4570776e784d46784e3371796a534355705757546b525a446a49557a645666493531773369633132655231704d4852545576352b7565586d3741306536525047",
+          "diskFileName": "19625b14be29ff6f40c3799835886f09.jpg",
+          "legend": "Figura 1. Distribuição geográfica e potencial de Phrynops williamsi com base em modelagem de nicho ecológico. (a) Distribuição potencial, onde os pontos representam os registros de espécies usados para modelar a distribuição no espaço geográfico. (b) Histograma de distribuição de valores de adequabilidade de habitat. As cores representam os níveis de adequabilidade de habitat, apresentadas com um gradiente de azul para vermelho (baixo para alto)."
+        },
+        {
+          "id": "72796b4c443948724542762f2f4e39356e4e324135352b503844457a7949492b776e307a39726a4a4a4764704d4852545576352b7565586d3741306536525047",
+          "url": "https://salve.icmbio.gov.br/salve-api/public/anexo/72796b4c443948724542762f2f4e39356e4e324135352b503844457a7949492b776e307a39726a4a4a4764704d4852545576352b7565586d3741306536525047",
+          "diskFileName": "2a931eab2394ff4d38ba4e735a8d2f63.jpg",
+          "legend": "Figura 2. Probabilidade de presença de usina hidrelétrica no sul do Brasil ao longo da distribuição geográfica de Phrynops williamsi em função da adequabilidade do habitat da espécie. O sombreamento cinza é o erro padrão."
+        },
+        {
+          "id": "636677572f316e6862543834796f49696d43775a476f7a466d787a774c503878726c51594b556544426b78704d4852545576352b7565586d3741306536525047",
+          "url": "https://salve.icmbio.gov.br/salve-api/public/anexo/636677572f316e6862543834796f49696d43775a476f7a466d787a774c503878726c51594b556544426b78704d4852545576352b7565586d3741306536525047",
+          "diskFileName": "0eceb515052fd01b8eef958665f80801.jpg",
+          "legend": "Figura 3. Classificação de prioridade de conservação das 233 usinas hidrelétricas planejadas na área de distribuição de Phrynops williamsi. A classificação é baseada em uma análise conjunta da adequabilidade do habitat e quebra de conectividade hidrológica. O tamanho do círculo da HPP representa o tipo de HPP, com um gradiente de CGH para UHE."
+        }
+      ],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>No Uruguai. há registro de coleta de ovos para abastecer o mercado de <em>pet </em>(Clavijo-Baquet &amp; Fallabrino, 2007).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Clavijo-Baquet & Fallabrino, 2007",
+              "title": "Clavijo-Baquet, S. &amp; Fallabrino, A. (2007) <i>Conservation and trade of freshwater turtle <i>Phrynops williamsi</i> in Uruguay. En C. Schaffer (Ed.) Fifth Annual Symposium on the Conservation and Biology of Tortoises and Freshwater Turtles</i> Turtle Survival Alliance, Atlanta, 14-15pp."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>A espécie foi beneficiada pelo Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul, no seu primeiro ciclo (ICMBio, 2012) e no seu ajuste em 2015 (RAN, 2015). Contudo, como é espécie foi considerada Dados Insuficientes (DD) (Vogt <em>et al.,</em> 2015; ICMBio, 2018), não foi contemplada no segundo ciclo desse PAN (ICMBio, 2019).</p> \n<p> Atualmente é espécie beneficiada pelo Plano de Ação Nacional para a Conservação das Espécies Ameaçadas de Extinção da Fauna Aquática e Semiaquática da Bacia do Baixo Iguaçu - PAN Baixo Iguaçu (ICMBio, 2017).</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2024,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A2c",
+          "refBibs": [
+            {
+              "label": "Regolin <i>et al.</i>",
+              "title": "Regolin, A.L., Abrahão, C.R., Carvalho, D., Ferrão, M., Silveira, A.L., Santos, A.T., Medeiros, A.M., Ferrara, C.R., Grou, C.E.V., Cunha, F.A.G., Maffei, F., Molina, F.B., Moura, G.J.B., Friol, N.R., Andrade, P.C.M., Valadão, R.M., Silva, R.V.L.E., Rocha, S.B., Famelli, S., Portelinha, T.C.G., Marques, T.S. &amp; Brito, E.S. <i>Phrynops williamsi Rhodin & Mittermeier, 1983</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2024"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Phrynops williamsi Rhodin & Mittermeier, 1983</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2015,
+          "coverage": "Uruguai",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carreira & Maneyro, 2015",
+              "title": "Carreira, S. Maneyro, R. (2015) <i>Lista Roja de los Anfibios y Reptiles del Uruguay: Una Evaluación del Estado de Conservación de la Herpetofauna de Uruguay sobre la Base de los Criterios de la Unión Internacional para la Conservación de la Naturaleza</i> Montevideo, DINAMA,"
+            }
+          ],
+          "orderBy": "Z2015"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2012,
+          "coverage": "Argentina",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Prado <i>et al.</i>, 2012",
+              "title": "Prado, W.S., Waller T., Albareda, D.A., Cabrera, M.R., Etchepare, E., Giraudo, A.R., González Carman V., Prosdocimi, L. &amp; Richard, E. (2012) Categorización del estado de conservación de las tortugas de la República Argentina. <i>Cuadernos de herpetologia</i>. 26, 375–387."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2018,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Paraná, 2024",
+              "title": "Governo do Estado do Paraná 05/06/2024 <i>Decreto nº 6.040. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências</i>."
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2011,
+          "coverage": "Santa Catarina",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A4ac",
+          "refBibs": [
+            {
+              "label": "CONSEMA, 2011",
+              "title": "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+            }
+          ],
+          "orderBy": "X2011"
+        },
+        {
+          "type": "Estadual",
+          "year": 2004,
+          "coverage": "Paraná",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A4ac",
+          "refBibs": [
+            {
+              "label": "Mikich & Bérnils, 2004",
+              "title": "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp."
+            }
+          ],
+          "orderBy": "X2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em execução/existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Fauna Aquática e Semiaquática do Baixo Iguaçu",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2017",
+              "title": "ICMBio 2017 <i>Portaria no. 767 de 24 de novembro de 2017. Aprova o Plano de Ação Nacional para a Conservação das Espécies Ameaçadas de Extinção da Fauna Aquática e Semiaquática da Bacia do Baixo Iguaçu - PAN Baixo Iguaçu</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2012",
+              "title": "ICMBio 2012 <i>Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Ibirapuitã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lustosa, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Iguaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grou, 2023",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA São Joaquim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lustosa, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO TAINHAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bressan, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Recomenda-se a realização de estudos sobre a biologia básica da espécie, ecologia, dinâmica populacional, distribuição geográfica, filogeografia, efeito das ameaças sobre as subpopulações e conectividade entre elas.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Kunz <i>et al.</i>, 2018",
+              "title": "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152."
+            }
+          ]
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Kunz <i>et al.</i>, 2018",
+              "title": "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152."
+            }
+          ]
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Kunz <i>et al.</i>, 2018",
+              "title": "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152."
+            }
+          ]
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Kunz <i>et al.</i>, 2018",
+              "title": "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152."
+            }
+          ]
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Kunz <i>et al.</i>, 2018",
+              "title": "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Baquet, S.C., Magnone, L. &amp; Achaval, F. (2004) Relevamiento de las poblaciones naturales de <i>Phrynops williamsi</i> en Uruguay . In: Sociedade Brasileira de Herpetologia (ed.) <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba - PR.",
+          "Borteiro, C., Kolenc, F. &amp; Prigioni, C. (2014) A new noteworthy record of <i>Phrynops williamsi</i> Rhodin & Mittermeier (Testudines , Chelidae ) in Uruguay. <i>Cuaderno de Herpetoglogia</i>. 28 (2),.",
+          "Bujes, C.S. (2010) Os Testudines continentais do Rio Grande do Sul, Brasil: taxonomia, história natural e conservação. <i>Iheringia, Série Zoologia</i>. 100 (4), 413-424.",
+          "Buskirk, J.R. (1989) Field observations on <i>Phrynops williamsi</i> and other Uruguayan chelonians. <i>Vivarium</i>. 1 (4), 8-11.",
+          "Bérnils, R.S., Moura-Leite, J.C. &amp; Morato, S.A.A. (2004) Répteis In: Mikich & Bérnils (eds.) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i>. Edição 2ª ed. Curitiba/PR, Instituto Ambiental do Paraná, pp. 497- 535.",
+          "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>.",
+          "Cabrera, M.R. (1998) Las Tortugas Continentales de Sudamérica Austral. <i>BR Cópias</i>. 108+vi p.",
+          "Cacciali, P., Scott, N.J., Ortiz, A.L.A., Fitzgerald, L.A. &amp; Smith, P. (2016) The reptiles of Paraguay: Literature, distribution, and an annotated taxonomic checklist. <i>Special Publication of the Museum of Southwestern Biology</i>. 11, 1-373.",
+          "Carreira, S. Maneyro, R. (2015) <i>Lista Roja de los Anfibios y Reptiles del Uruguay: Una Evaluación del Estado de Conservación de la Herpetofauna de Uruguay sobre la Base de los Criterios de la Unión Internacional para la Conservación de la Naturaleza</i> Montevideo, DINAMA,",
+          "Carvalho, V. T., Vogt, R. C., Rojas, R. R., Nunes, M. S., Fraga, R., Ávila, R. W., Rhodin, A. G. J., Mittermeier, R. A., Hrbek, T. &amp; Farias, I. P. (2022) Four in one: Cryptic diversity in Geoffroy’s Side-Necked Turtle <i>Phrynops geoffroanus</i> (Schweigger 1812) (Testudines: Pleurodira: Chelidae) in Brazil. <i>Diversity</i>. 14 (5), 360.",
+          "Cielusinsky, L.B., Budin, M. &amp; Breyer, E.D.H. (2008) Padrões comparativos referentes à <i>Phrynops williamsi</i> e <i>Hydromedusa tectifera</i> nos municípios de União da Vitória (PR) e Porto União (SC). <i>Ensino e Pesquisa</i>. 1 (5), 112-121.",
+          "Clavijo-Baquet, S. &amp; Fallabrino, A. (2007) <i>Conservation and trade of freshwater turtle <i>Phrynops williamsi</i> in Uruguay. En C. Schaffer (Ed.) Fifth Annual Symposium on the Conservation and Biology of Tortoises and Freshwater Turtles</i> Turtle Survival Alliance, Atlanta, 14-15pp.",
+          "De La Fuente, M.S, Sterli, J. &amp; Maniel, J. (2014) Origin, Evolution and Biogeographic History of South American Turtles. <i>Springer, Heidelberg</i>.",
+          "Drummond, G. M., Coutinho, M. E. &amp; Vogt, R. C. (2022) <i>Mesoclemmys hogei: The IUCN Red List of Threatened Species</i>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/17081/217759966\">https://www.iucnredlist.org/species/17081/217759966</a>. Acessado em: 13/06/2024.",
+          "Ferreira Júnior, P.D. (2009) Aspectos Ecológicos da Determinação Sexual em Tartarugas. <i>Acta Amazônica</i>. 39 (1), 139-154.",
+          "Freiberg, M.A. (1970) Validez especifica de <i>Phrynops hilarii</i> (D. & B.) (Testudines, Chelidae). <i>Revista del Museo Argentino de Ciencias Naturales</i>. 10, 189-197.",
+          "Gallardo, J.M. (1980) <i>Estudio ecologico sobre los anfibios y reptiles del noreste de la provincia de Buenos Aires (Argentina)</i> Huelva, . In: Reunión Iberoamericana de Zoología de los vertebrados, La Rabida, España, 331-349pp.",
+          "Garbin, R. C. &amp; Cunha, F. A. G. (2023) Chave taxonômica de identificação de quelônios continentais brasileiros In: Silva-Soares <i>et al.</i> (eds.) <i>Herpetologia para todos</i>. Instituto Biodiversidade Neotropical, p. 218.",
+          "Governo do Estado do Paraná 05/06/2024 <i>Decreto nº 6.040. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências</i>.",
+          "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>.",
+          "ICMBio 2012 <i>Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul</i>.",
+          "ICMBio 2017 <i>Portaria no. 767 de 24 de novembro de 2017. Aprova o Plano de Ação Nacional para a Conservação das Espécies Ameaçadas de Extinção da Fauna Aquática e Semiaquática da Bacia do Baixo Iguaçu - PAN Baixo Iguaçu</i>.",
+          "ICMBio 2019 <i>Portaria nº 350, de 23 de Julho 2019, Aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Kunz, T. S., Ghizoni-Jr., I.R., Cherem, J.J., Bressan, R.F., Leonardi, S. &amp; Zanotelli, J. (2018) New records, threats and conservation of <i>Phrynops williamsi</i> (Testudines: Chelidae) in Southern Brazil. <i>Herpetology Notes</i>. 11, 147-152.",
+          "MapBiomas (2024) Projeto MapBiomas - Coleção 9 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil. <a target=\"_blank\" href=\"https://brasil.mapbiomas.org/\">https://brasil.mapbiomas.org/</a>. [Acessado em: 25/ago/2024].",
+          "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp.",
+          "Moura-Leite, J.C., Morato, S.A.A. &amp; Bérnils, R.S. (1996) New records of reptiles from the state of Paraná, Brazil. <i>Herpetological Review</i>. 27 (4), 216-217.",
+          "Pinto, H. B. A., Valadão, R. M., Andrade, A. F. A., Batista, F. R. Q. &amp; De Marco Júnior, P. (2024) Assessing Brazilian turtles’ vulnerability by using species distribution models and dispersal constraints. <i>Biodiversity and Conservation</i>. 33 (2), 825-841.",
+          "Prado, W.S., Waller T., Albareda, D.A., Cabrera, M.R., Etchepare, E., Giraudo, A.R., González Carman V., Prosdocimi, L. &amp; Richard, E. (2012) Categorización del estado de conservación de las tortugas de la República Argentina. <i>Cuadernos de herpetologia</i>. 26, 375–387.",
+          "RAN, Centro Nacional de Pesquisa e Conservação dos Répteis e Anfíbios (2015) <i>Relatório da 3a. Monitoria e Avaliação de Meio Termo do PAN Herpetofauna do Sul. Processo SEI: 02071.000084/2017-20</i>. Goiânia - GO. 56pp.",
+          "Regolin, A. L., Bressan, R., Kunz, T. S., Martello, F., Ghizoni‐Jr, I. R., Cherem, J. J., Capela, D. J. V., Oliveira‐Santos,L. G. R., Collevatti, R. G. &amp; Sobral‐Souza, T. (2023) Integrating ecological niche and hydrological connectivity models to assess the impacts of hydropower plants on an endemic and imperilled freshwater turtle. <i>Journal of Applied Ecology</i>. 60 (8), 1734-1748.",
+          "Rhodin, A.G.J. &amp; Mittermeier, R.A. (1983) Description of <i>Phrynops williamsi</i>, a new species of chelid turtle of the South American <i>P. geoffroanus</i> complex In: Rhodin & Miyata (eds.) <i>Advances in herpetology and evolutionary biology : essays in honor of Ernest E. Williams</i>. Cambridge, MA - USA, Museum of Comparative Zoology, pp. 58-73.",
+          "Ribas, E.R. &amp; Monteiro-Filho, E.L.A. (2002) Distribuição e habitat das tartarugas de água doce (Testudines: Chelidae) do estado do Paraná, Brasil. <i>Biociências</i>. 10 (2), 15-32.",
+          "Richard, E. &amp; Borbolla, S. (1999) <i>Phrynops williamsi</i> (Williams slide necked turtle). Predation. <i>Herpetological Review</i>. 30 (4), 226.",
+          "Spier, E.F., Favretto, M.A., Piovezan, J.C., Onghero Junior, O. &amp; Ammar, D. (2014) Registro de <i>Phrynops williamsi</i> (Rhodin e Mittermeier, 1983) no rio do Peixe, centro-oeste de Santa Catarina, Brasil. <i>Revista Brasileira de Biociências</i>. 12 (1), 56-57.",
+          "Teixeira, F.M. &amp; Ribas, E.R. (1999) A tartaruga <i>Phrynops williamsi</i> (Rhodin & Mittermeier, 1983) na região sudoeste do Paraná - sub-bacia Rio Iguaçu. <i>Museu Nacional de Historia Natural, Montevidéu. Publicación Extra</i>. (50.), 112 p.",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Phrynops williamsi Rhodin & Mittermeier, 1983</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Waller, T. &amp; Chébez, J.C. (1987) Notas sobre las tortugas de la provincia de Misiones, Argentina e inclusión de <i>Phrynops williamsi</i> Rhodin & Mittermeier, 1983 (Testudines: Chelidae) en la herpetofauna argentina. <i>Historia Natural</i>. 7 (5), 53-59."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

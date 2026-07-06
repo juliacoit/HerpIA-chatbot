@@ -1,0 +1,440 @@
+{
+  "id_ficha": "43544c634c386545612b5131567630564d6c364456413d3d",
+  "nome_cientifico": "Rhinella mirandaribeiroi (Gallardo, 1965)",
+  "nome_cientifico_atual": "Rhinella mirandaribeiroi (Gallardo, 1965)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21500.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=43544c634c386545612b5131567630564d6c364456413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella mirandaribeiroi</i>&nbsp;<span>(Gallardo, 1965)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Rhinella mirandaribeiroi </em>ocorre no Brasil e na Bolívia. No Brasil, possui ampla distribuição no bioma Cerrado, ocorrendo também em enclaves de Cerrado na Amazônia. Embora exista perda de vegetação nativa na área de sua distribuição, não há ameaças evidentes que possam colocá-la em risco de extinção. Ocorre em várias unidades de conservação, inclusive federal de proteção integral. Por essas razões, <em>Rhinella mirandaribeiroi </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Rhinella mirandaribeiroi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21500.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21500.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16545,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella mirandaribeiroi</i>"
+        }
+      ],
+      "oldNames": "Bufo granulosus lutzi, Bufo granulosus mirandaribeiroi",
+      "commonNames": "",
+      "taxonomicNotes": "<p>A presença de <em>Rhinella</em><em> miradaribeiroi </em>ao norte do Rio Amazonas é duvidosa (M. Hoogmoed, com. pess., 2011).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Rhinella mirandaribeiroi</em> ocorre na Bolívia e no Brasil (Narvaes &amp; Rodrigues, 2009). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, no bioma Cerrado, com registros também em enclaves de Cerrado na Amazônia (Narvaes &amp; Rodrigues, 2009; Valdujo<em> et al</em>., 2009, 2011; Bitar <em>et al</em>., 2012; Pina <em>et al</em>., 2015).</p>",
+      "states": "Amazonas, Bahia, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Piauí, Rondônia, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Grande, Sub-bacia Gurupi, Sub-bacia Itapecuru, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Paranaíba, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6a376a4f57314a7431514e66396356306f5a42656d464579574d597676682f4671504c48634c71724232597644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "d696bfe374b8511ccb556bfa52121dbb.png",
+        "fileName": "Mapa de Rhinella mirandaribeiroi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Rhinella mirandaribeiroi</em> ocupa áreas de Cerrado, assim como enclaves de Cerrado na Amazônia (Narvaes &amp; Rodrigues, 2009). Machos foram encontrados à noite em solo úmido, em áreas de transição entre mata ciliar nativa degradada (Floresta Estacional Semidecidual) e áreas de reflorestamento com mudas nativas (Pina <em>et al</em>., 2015).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Nascentes do Rio Vermelho",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Valdujo <i>et al.</i>, 2011",
+              "title": "Anfíbios da Estação Ecológica Serra Geral do Tocantins, região do Jalapão, estados do Tocantins e Bahia"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DAS CABECEIRAS DO RIO CUIABÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DAS REENTRâNCIAS MARANHENSES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Inawebohona",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Kayapó",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Nove de Janeiro",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Évare I",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bitar, Y.O.C.; Pinheiro, L.P.C.; Abe, P.S. &amp; Santos-Costa, M.C. 2012. Species composition and reproductive modes of anurans from a transitional Amazonian forest, Brazil. <b>Zoologia</b>, 29 (1): p.19-26.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Narvaes, P. &amp; Rodrigues, M.T. 2009. Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species. <b>Arquivos de Zoologia</b>, 40 (1): p.1-73.",
+          "Pina, L.F.; Morais, A.R. &amp; Prado, C.P.A. 2015. <i>Rhinella mirandaribeiroi</i> (Gallardo, 1965) (Amphibia: Anura: Bufonidae): Distribution extension and new state record. <b>Check List</b>, 11 (3): p.1654.",
+          "Valdujo, P.H.; Camacho, A.; Recoder, R.S.; Teixeira Jr., M.; Ghellere, J.M.B.; Mott, T.; Nunes, P.M.S.; Nogueira, C. &amp; Rodrigues, M.T. 2011. Anfíbios da Estação Ecológica Serra Geral do Tocantins, região do Jalapão, estados do Tocantins e Bahia. <b>Biota Neotropica</b>, 11 (1): p.251-261.",
+          "Valdujo, P.H.; Recoder, R.S.; Vasconcellos, M.M. &amp; Portella, A.S. 2009. Amphibia, Anura, São Desidério, western Bahia uplands, northeastern Brazil. <b>Check List</b>, 5 (4): p.903–911."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

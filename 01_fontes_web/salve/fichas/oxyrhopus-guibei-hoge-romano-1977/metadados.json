@@ -1,0 +1,1433 @@
+{
+  "id_ficha": "63506b355a502f365457653637436e7a3478626276513d3d",
+  "nome_cientifico": "Oxyrhopus guibei Hoge & Romano, 1977",
+  "nome_cientifico_atual": "Oxyrhopus guibei Hoge & Romano, 1977",
+  "nome_comum": "Cobra-Corá, Cobra-Coral, Coral-Falsa",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27865.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=63506b355a502f365457653637436e7a3478626276513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Oxyrhopus guibei</i>&nbsp;<span>Hoge & Romano, 1977</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/06/2026",
+      "justificative": "<p><em>Oxyrhopus guibei</em> ocorre no Paraguai, Bolívia, Argentina e possui uma ampla distribuição no Brasil, onde ocorre em campos e florestas de galeria do Cerrado, Mata Atlântica, Caatinga, Pantanal e sul da Amazônia. A espécie é comum e pode ser encontrada em ambientes alterados. Não foram identificadas ameaças que a coloquem em risco de extinção. Por essas razões, <em>Oxyrhopus guibei</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Oxyrhopus guibei</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27865.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27865.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7444556b4e426c68434569742f726f673057744270513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19083,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Oxyrhopus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Oxyrhopus guibei</i>"
+        }
+      ],
+      "oldNames": "Oxyrhopus trigeminus guibei",
+      "commonNames": "Cobra-Corá, Cobra-Coral, Coral-Falsa",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Oxyrhopus guibei</em> ocorre no Paraguai, Bolívia, Argentina e Brasil (Nogueira <em>et al</em>., 2019). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, ocorrendo em campos e florestas de galeria do Cerrado, Mata Atlântica, Caatinga, Pantanal e sul da Amazônia (Guedes<em> et al</em>., 2014; Freitas <em>et al</em>., 2016; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Alagoas, Bahia, Distrito Federal, Espírito Santo, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraíba, Paraná, Rio de Janeiro, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Madeira, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5a50486e746c5852314134682f793059716a7a7749714f39366c556a366758497648567235596844416c546e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Oxyrhopus guibei",
+        "diskFileName": "179654c73c161746161f2addabb611c8.png",
+        "fileName": "Mapa de Oxyrhopus guibei.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Oxyrhopus guibei</em> pode ocorrer em ambientes alterados (Braz &amp; Manço, 2011). Possui atividade principalmente noturna, mas pode ser encontrada durante o dia, expostas ao sol (Gaiarsa <em>et al</em>., 2013; Torello-Viera &amp; Marques, 2017). Possui fecundidade de 3 a 20 ovos e a reprodução é contínua, mas há sazonalidade reprodutiva, com recrutamento principalmente no final da estação chuvosa e início da seca (Marques &amp; Pizzatto, 2002). Alimenta-se principalmente de pequenos lagartos e roedores, apresentando variação ontogenética na dieta (Andrade &amp; Silvano, 1996; França &amp; Araújo 2006; Shibatta <em>et al</em>. 2009, Gaiarsa <em>et al</em>., 2013).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em diversas localidades do país (Peters, 1970; Sawaya <em>et al</em>., 2008; Marques <em>et al</em>., 2009; Araujo <em>et al</em>., 2010).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção em curto prazo. Estudo indica que ela apresenta alta mortalidade em estradas no Distrito Federal (França &amp; Araújo, 2006).</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A espécie vem sendo utilizada em pesquisas na área de neuropsicobiologia, em modelo experimental de medo incondicionado baseado no confronto entre camundongos e serpentes corais falsas como estímulo aversivo, com aplicação no estudo de ataques de pânico (Lobão-Soares <em>et al</em>., 2018; Paschoalin-Maurin <em>et al</em>., 2018).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "15 - Pesquisa",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "5 - Medicina humana ou veterinária",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2017,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Scrocchi <i>et al.</i>, 2017",
+              "title": "Scrocchi, G., Arzamendia, V., Fitzgerald, L., Giraudo, A. &amp; Williams, J. (2017) <i>Oxyrhopus guibei</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T15179489A15179492.en\">http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T15179489A15179492.en</a>."
+            }
+          ],
+          "orderBy": "Y2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº 11673.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia Hidrográfica do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA da Bacia do Rio São Bartolomeu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA das Ilhas e Várzeas do Rio Paraná",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Rio Preto",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Emas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Valdujo <i>et al.</i>, 2009",
+              "title": "Squamate Reptiles from Parque Nacional das Emas and surroundings, Cerrado of Central Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Iguaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zaher & Caramaschi, 1992",
+              "title": "Sur le statut taxinomique d’<i>Oxyrhopus trigeminus</I> et <I>O. guibei</I> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CAJAMAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAÍ BOTUCATU TEJUPA PERIMETRO BOTUCATU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA DE CAFURINGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PARQUE E FAZENDA DO CARMO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozzoni, 2005",
+              "title": "Morfologia de serpentes aquáticas neotropicais: um estudo comparativo"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA RIO BATALHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA VáRZEA DO RIO TIETê",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ÁGUAS EMENDADAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO JARDIM BOTÂNICO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO TRIPUÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JATAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL ALTAMIRO DE MOURA PACHECO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DAS NASCENTES DO RIO TAQUARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Valdujo <i>et al.</i>, 2009",
+              "title": "Squamate Reptiles from Parque Nacional das Emas and surroundings, Cerrado of Central Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ROLA MOÇA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA HIDROGRÁFICA DO RIO MACHADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTRADA PARQUE DE PIRAPUTANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEçãO AMBIENTAL DE CAMPINAS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DA VARGEM ALEGRE",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Zaher & Caramaschi, 1992",
+              "title": "Sur le statut taxinomique d’<i>Oxyrhopus trigeminus</I> et <I>O. guibei</I> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN APA da Lagoa",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Araçari",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Bela Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Buraco das Araras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chakra Grisu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chácara Mangueiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ecoparque de Una",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Jatobá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Manacá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Zaher & Caramaschi, 1992",
+              "title": "Sur le statut taxinomique d’<i>Oxyrhopus trigeminus</I> et <I>O. guibei</I> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Cachoeira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Cachoeirinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Caetano",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Estância Dorochê",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Mata Funda",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Palmira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Paraíso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pindorama - BA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda San Michele",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Serrinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Serrote",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazendinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Floresta Negra, Parque Natural para Estudos, Pesquisa e Educação Ambiental",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Itajurú ou Sobrado",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Juerana",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica da Mata Fria",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Natural da Serra do Teimoso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio dos Pilões",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sitio Palmital",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Capuavinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Estrela Dalva",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Pithon",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Raio Solar",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Ryan",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Unidade de Conservação de Galheiros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna V",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Sítio do Cantoneiro",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Barra Velha",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Olivença",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Andrade, R. D. O. &amp; Silvano, R. A. M. (1996) Comportamento alimentar e dieta da falsa-coral <I>Oxyrhopus guibei</i> Hoge & Romano (Serpentes, Colubridae). <i>Revista Brasileira de Zoologia</i>. 13 (1), 143-150.",
+          "Araujo, C.O., Corrêa Filho, D.T. &amp; Sawaya, R.J. (2010) Snake assemblage of Estação Ecológica de Santa Bárbara, SP: a Cerrado remnant in Southeastern Brazil. <i>Biota Neotropica</i>. 10 (2), 235-245.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Braz, H. &amp; Manço, D.G. (2011) Natural nests of the false-coral snake <i>Oxyrhopus guibei</i> in southeastern Brazil. <i>Herpetology Notes</i>. 4, 187-189.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Costa, H.C. &amp; Bérnils, R.S. (2018) Répteis do Brasil e suas Unidades Federativas: Lista de espécies. <i>Herpetologia Brasileira</i>. 8 (1), 11-57.",
+          "França, F.G.R. &amp; Araújo, A.F.B. (2006) The conservation status of snakes in central Brazil. <i>South American Journal of Herpetology</i>. 1 (1), 25-36.",
+          "Freitas, M.A., Colli, G.R., Entiauspe-Neto, O.M., Trinchão, L., Araújo, D., Lima, T.O., França, D.P.F., Gaiga, R. &amp; Dias, P. (2016) Snakes of Cerrado localities in western Bahia, Brazil. <i>Check List</i>. 12, 1896.",
+          "Gaiarsa, M.P., Alencar, L.R.V. &amp; Martins, M. (2013) Natural History of Pseudoboine Snakes. <i>Papéis Avulsos de Zoologia</i>. 53, 261-283.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Guedes, T.B., Nogueira, C. &amp; Marques, O.A.V. (2014) Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <i>Zootaxa</i>. 3863, 1-93.",
+          "Hoge, A.R. &amp; Romano, S.A.R.W.L. (1977) Description of a new subsp. of <I>Oxyrhopus</i> Wagler [Serpentes: Colubridae]. <i>Mem. Inst. Butantan</i>. 40/41, 55-62.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lobão-Soares, B., Walz, R., Prediger, R.D., Freitas, R.L., Calvo, F., Bianchin, M.M., Leite, J.P., Landemberger, M.C. &amp; Coimbra, N.C. (2008) Cellular prion protein modulates defensive attention and innate fear-induced behaviour evoked in transgenic mice submitted to an agonistic encounter with the tropical coral snake <I>Oxyrhopus guibei</i>. <i>Behav. Brain Res.</i> 194 (2), 129-137.",
+          "Marques, O. &amp; Pizzatto, L. (2002) Reproductive biology of the false coral snake <i>Oxyrhopus guibei</i> (Colubridae) from southeastern Brazil. <i>Amphibia-Reptilia</i>. 23 (4), 495-504.",
+          "Marques, O.A.V., Pereira, D.N., Barbo, F.E., Germano, J.V. &amp; Sawaya, R.J. (2009) Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <i>Biota Neotropica</i>. 9 (2), 139-150.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº 11673.</i>",
+          "Paschoalin-Maurin,T., Anjos-Garcia, T., Falconi-Sobrinho, L.L., Freitas, R.L., Coimbra, J.P.C., Laure, C.J. &amp; Coimbra, N.C.T. (2018) The Rodent-versus-wild Snake Paradigm as a Model for Studying Anxiety- and Panic-like Behaviors: Face, Construct and Predictive Validities. <i>Neuroscience</i>. 369, 336-349.",
+          "Peters, J.A. &amp; Orejas-Miranda, B. (1970) <i>Catalogue of the Neotropical Squamata. Part I. Snakes</i> Washington, D.C. and London, Smithsonian Institution Press,",
+          "Sawaya, R.J., Marques, O.A.V. &amp; Martins, M. (2008) Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil. <i>Biota Neotropica</i>. 8 (2), 127-149.",
+          "Scrocchi, G., Arzamendia, V., Fitzgerald, L., Giraudo, A. &amp; Williams, J. (2017) <i>Oxyrhopus guibei</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T15179489A15179492.en\">http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T15179489A15179492.en</a>.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Shibatta, O.A., Galves, W., Carmo, W.P.D., Lima, I.P., Lopes, E.V. &amp; Machado, R.A. (2009) A fauna de vertebrados do campus da Universidade Estadual de Londrina, região norte do estado do Paraná, Brasil. <i>Semina: Ciências Biológicas e da Saúde</i>. 30 (1), 3-26.",
+          "Sousa, B. M. D., Nascimento, A. E. R. D., Gomides, S. C., Rios, C. H. V., Hudson, A. D. A. &amp; Novelli, I. A. (2010) Répteis em fragmentos de Cerrado e Mata Atlântica no Campo das Vertentes, Estado de Minas Gerais, Sudeste do Brasil. <i>Biota Neotropica</i>. 10 (2), 129-138.",
+          "Torello-Viera, N. F. &amp; Marques, O. A. (2017) Daily Activity of Neotropical Dipsadid Snakes. <i>South american journal of herpetology</i>. 12 (2), 128-136.",
+          "Wallach, V., Williams, K. L. &amp; Boundy, J. (2014) <i>Snakes of the world: a catalogue of living and extinct species</i> Edição 1 ed. Boca Raton, FL, CRC Press, 1257pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

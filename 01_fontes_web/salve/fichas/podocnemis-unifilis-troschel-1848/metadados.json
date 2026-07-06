@@ -1,0 +1,1784 @@
+{
+  "id_ficha": "70373361304b344b4c3446427978714a657a723555513d3d",
+  "nome_cientifico": "Podocnemis unifilis Troschel, 1848",
+  "nome_cientifico_atual": "Podocnemis unifilis Troschel, 1848",
+  "nome_comum": "Tracajá (fêmeas), Zé prego (macho)",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20840.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=70373361304b344b4c3446427978714a657a723555513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Podocnemis unifilis</i>&nbsp;<span>Troschel, 1848</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "17/03/2026",
+      "justificative": "<p><em>Podocnemis unifilis</em> ocorre na América do Sul, é conhecida para a Colômbia, Venezuela, Guiana, Guiana Francesa, Suriname, Brasil, Peru, Equador e Bolívia. No Brasil, ocorre nos biomas Amazônia e Cerrado, sua distribuição abrange as regiões hidrográficas Amazônica, Tocantins/Araguaia e Atlântico Nordeste Ocidental, com registros de ocorrência em todos Estados na região Norte, e ainda, nos estados do Maranhão, Goiás e Mato Grosso. Ocorre em várias unidades de conservação, sendo ainda contemplada por diversos programas de conservação governamentais e de base comunitária. A espécie sofre com diversas ameaças, sendo a pressão da caça, a maior delas. As populações do estado do Amazonas e oeste do Pará tem sido monitoradas nos últimos 45 anos e a maioria tem apresentado tendência de crescimento. Apesar das ameaças enfrentadas, a espécie é resiliente e nas demais áreas de distribuição não há evidências de declínio populacional suficientes que a coloque em categoria de risco de extinção. Por essas razões, <em>Podocnemis unifilis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Paulo Cesar Machado Andrade; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luís Regolin; Camila Kurzmann Fagundes; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Paulo Henrique Guimarães de Oliveira; Priscila Saikoski Miorando; Natália Rizzo Friol; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Andrade, P.C.M.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Fagundes, C.K.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Moura, G.J.B.; Oliveira, P.H.G.; Miorando, P.S.; Friol, N.R.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2026. <i>Podocnemis unifilis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20840.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20840.3",
+      "photo": {
+        "authorName": "Rafael Balestra",
+        "authorEmail": "rafael.balestra@icmbio.gov.br",
+        "date": "",
+        "diskFileName": "d7ba52a7e1f58eb79bd88e699aceca43.jpg",
+        "fileName": "Podocnemis unifilis_Rafael Balestra.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7562547042396e3961795558323448384450695170434736772b784c554a6a6e2f6f2b4749312f6c787542704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 3,
+      "versionId": 30453,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Podocnemididae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Podocnemis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Podocnemis unifilis</i>"
+        }
+      ],
+      "oldNames": "Chelonemys dumeriliana, Chelys (Hydraspis) lata, Emys cayennensis, Emys tekeray, Hydraspis cayennensis, Podocnemis cayennensis, Podocnemis dumeriliana, Podocnemis tracaya, Testudo terekay",
+      "commonNames": "Tracajá (fêmeas), Zé prego (macho)",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Podocnemis unifilis </em>tem ampla distribuição na América do Sul, ocorrendo nas bacias venezuelanas dos rios Orinoco e Amazonas, e ainda na Colômbia, Equador, Peru, Guiana Francesa, Guiana, Suriname, Brasil e Bolívia (Pritchard, &amp; Trebbau, 1984; Vogt, 2008; Ferronato &amp; Morales, 2012; Le Gratiet <em>et al.</em>, 2017; Rhodin <em>et al</em>., 2021; Rivas <em>et al</em>., 2023).</p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, a distribuição nativa da espécie abrange as regiões hidrográficas Amazônica, Tocantins/Araguaia e Atlântico Nordeste Ocidental, com registros de ocorrência em todos os estados da região Norte (Pritchard &amp; Trebbau, 1984; Brandão, 2002; Bernarde <em>et al.</em>, 2011; Rhodin <em>et al.</em>, 2021), e ainda, nos estados do Maranhão, Goiás e Mato Grosso (Silva-Jr. <em>et al.</em>, 2007; Moura <em>et al</em>., 2014; Rhodin <em>et al.</em>, 2021; Silva et al., 2022). Ocorre de maneira introduzida na região hidrográfica do Paraguai, mais especificamente no Pantanal Matogrossense. Cerca de 70% da distribuição da espécie está no território nacional. </p>",
+      "states": "Acre, Amapá, Amazonas, Goiás, Maranhão, Mato Grosso, Pará, Rondônia, Roraima, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/49503878387477646f6a52314558316c327561744633366e7a2b62525679617a37745632455762775949766e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Podocnemis unifilis",
+        "diskFileName": "6ee0a6df1cd5599bcb19e903762a7499.png",
+        "fileName": "Mapa de Podocnemis unifilis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Podocnemis unifilis </em>(tracajá) ocorre nos biomas Amazônia e Cerrado, possui plasticidade em relação ao <em>habitat, </em>podendo ocorrer em grandes rios, lagos, lagos de meandros, pântanos, brejos e em rios de águas brancas, claras e pretas. Os juvenis são registrados com maior frequência em pequenas lagoas e enseadas, já os machos, vivem em grandes corpos d’água (Vogt, 2008). Trata-se de uma espécie comum, facilmente encontrada em seu <em>habitat</em>. Durante a estação chuvosa, migram para áreas de vegetação inundadas, onde os indivíduos imaturos permanecem por mais tempo que <em>P. expansa</em>. Só habitam os grandes rios durante a estação seca, quando é o seu período de desova (Rueda-Almonacid <em>et al., </em>2007). Fachín-Terán &amp; Vogt (2004), em amostragem no rio Guaporé (RO), encontraram a espécie com maior frequência em baías (lagos da planície inundada) e em menor quantidade, em florestas alagadas e rios. O período reprodutivo ocorre uma vez por ano, entre junho e fevereiro (Fachín-Terán &amp; Von Mülhen, 2003; Vogt, 2008), sendo sincronizada com o regime de vazante dos rios, como ocorre com os demais podocnemidídeos (Alho &amp; Pádua, 1982; Batistella, 2003). Assim, o período de nidificação depende do nível do rio, pois a estação chuvosa varia geograficamente, e os níveis das águas de alguns rios são controlados pelo derretimento do gelo nos Andes.</p> \n<p>No Brasil, nos rios Purus e Juruá (AM) o período reprodutivo ocorre entre junho-agosto (Ernst &amp; Barbour, 1989; Andrade, 2008 e 2012); nos rios Nhamundá, Andirá, Marau, Uatumã, Madeira (AM) e no rio Trombetas (PA), rio das Mortes (MT), rio Tapajós (AM/PA) e na Reserva de Desenvolvimento Sustentável Mamirauá (AM) e na zona fisiográfica do Médio-Baixo rio Amazonas ocorre entre setembro-outubro (Haller, 2002; Fachín-Terán &amp; Von Mülhen, 2003; Andrade, 2012). Nos rios Guaporé (RO), Branco (RR), Negro (AM) em setembrojaneiro (Ernst &amp; Barbour, 1989; Nascimento, 2002; Vogt, 2008; Andrade, 2012). Na bacia do rio Araguari (AP), em setembro-novembro, com pico em outubro (Arraes &amp; Tavares-Dias, 2014); e nos rios Javaés (TO) e rio Araguaia (GO) ocorre entre os meses de julho e setembro (Ferreira Júnior &amp; Castro, 2003, 2010).</p> \n<p>Durante o período reprodutivo uma fêmea pode realizar duas ou mais desovas (Ernst &amp; Barbour, 1989; Soini, 1996). Todavia, segundo Richard Vogt (com. pess., 2018) essa espécie desova de uma a no máximo duas vezes por temporada. Geralmente nidificam individualmente, mas há registros de sincronia de 2 a 46 fêmeas desovando simultaneamente (Soini, 1996; Rueda-Almonacid <em>et al., </em>2007; Escalona <em>et al., </em>2009). A espécie desova preferencialmente à noite, em substrato arenoso, geralmente nas partes mais altas, mas ao contrário de <em>P. expansa</em>, utilizam uma grande variedade de substratos (areia, argila, barro, cascalho), utilizando solos de variada granulometria e inclinação (barrancos, locais planos), com ou sem vegetação (Soini, 1996; Ferreira Júnior, 2003; Ferreira Júnior <em>et al.,</em> 2005; Pantoja-Lima <em>et al., </em>2009; Andrade, 2008, 2012 e 2015).</p> \n<p>O período de incubação dos ovos varia em media de 60–70 dias (40 a 104 dias), sendo altamente influenciado pelo substrato e temperatura de incubação (Souza &amp; Vogt 1994; Fachin-Terán &amp; Von Mülhen, 2003; Ferreira Júnior &amp; Castro 2006; Vogt, 2008; Andrade, 2012, 2015; Arraes &amp; Tavares-Dias, 2014; Erickson <em>et al</em>., 2020). O número de ovos e o seu tamanho variam de acordo com a localidade estudada, sendo encontrados desde ninhos de 4 até 58 ovos (Vanzolini, 1977; Ernst &amp; Barbour, 1989; Soini, 1996; Haller, 2002; Haller &amp; Rodrigues, 2005; Lima, 2007; Lima <em>et al.,</em> 2007; Vogt, 2008; Arraes &amp; Tavares-Dias, 2014; Andrade, 2015; Erickson <em>et al</em>., 2020).</p> \n<p>O sexo do filhote é determinado pela temperatura de incubação dos ovos (Paéz &amp; Bock, 1998; Souza &amp; Vogt, 1994), e o nascimento de filhotes em época das chuvas facilita o seu acesso ao rio (Arraes &amp; Tavares-Dias, 2014). Temperaturas que variam entre 28 a 32 ºC produzem entre 78% e 80% de machos, enquanto temperaturas maiores que 32,1 °C produzem maior número de fêmeas (Souza &amp; Vogt, 1994; Páez &amp; Bock, 2004). A temperatura pivotal (temperatura que determina, em tese, uma razão sexual muito próxima entre os sexos) é de 32,1 °C (Souza &amp; Vogt, 1994). Andrade (2015) registrou que em anos mais quentes e secos (33,1±1,9°C), o tempo de incubação é menor e a taxa de eclosão é maior (56,9±3,6 dias; 71,7±24,5%), que em anos com mais chuvas durante o período de postura dos ovos (62,9±5,9 dias; 53,5±3,7%, respectivamente), porém, esses filhotes que nascem mais rápido são menores em tamanho e peso, e não houve diferença significativa na proporção de filhotes machos e fêmeas produzidos, mostrando uma adaptação às variações climáticas em cada ano.</p> \n<p>Andrade (2015), ao analisar 5.202 ninhos de <em>P. unifilis</em>, não encontrou diferenças significativas entre o tamanho e o peso dos ovos postos em ninhos de argila (4,2±0,3 cm; 23,7±2,6 g) e ninhos em praias de areia (4,1±0,3 cm; 24,5±2,8 g). Entretanto ao analisar 11.824 filhotes, que os que nascem em ninhos de areia são maiores e mais pesados (4,5±1,2 cm; 24,2±2,9 g) do que os que nascem em argila (4,3±0,8 cm; 22,5±14,2 g), o que também foi registrado por Erickson <em>et al</em>. (2020). Os efeitos do clima no tamanho, peso e habilidades motoras dos filhotes também foram observados por Andrade (2015), e em anos muito quentes e secos, os filhotes nascem mais rápido, mas são menores e mais leves, sendo menos ágeis nos testes de habilidade motora (virada e natação) do que os filhotes maiores que nascem em anos normais ou com mais chuva.</p> \n<p>Pritchard &amp; Trebbau (1984) relacionam a maturidade sexual ao tamanho do animal, apontando que nos machos ocorre antes das fêmeas. As fêmeas se tornam maduras quando atingem cerca de 27–31.8 cm de comprimento linear, e 3,2 a 5 kg de peso, com 5–9 anos de idade (Vanzolini, 1977; Foote, 1978; Soini, 1999; Fachin-Terán &amp; Vogt, 2004; Rueda-Almonacid <em>et al., </em>2007; Vogt, 2008; Andrade, 2012, 2015; Escalona <em>et al</em>., 2012; Miorando et al. 2015; Páez <em>et al</em>., 2015; Miorando, 2016). Os machos atingem a maturidade com cerca de 17.7-21 cm (Fachin-Terán &amp; Vogt, 2004; Medem, 1964; Rueda-Almonacid <em>et al., </em>2007; Páez <em>et al</em>., 2015; Miorando, 2016). O tamanho máximo encontrado para as fêmeas foi de 49–51,8 cm de comprimento linear e 11,6–13 kg de massa corporal (Soini, 1996; Escalona, 2003; Andrade, 2012).</p> \n<p>Em estudos de monitoramento populacional de longo prazo, na zona fisiográfica do Médio-Baixo rio Amazonas, Andrade (2015) marcou 6.997 filhotes desta espécie com microchips/transponders registrando o retorno de uma fêmea marcada, sete (7) anos depois para desovar na mesma praia onde foi solta, com 36 cm de CRC e 5,3 kg de peso. O tempo de geração foi estimado em 14 anos (intervalo de 9–19 anos) baseado na idade média a maturidade sexual (7 anos) em metodologia proposta por Iverson (2023; dados não publicados). Uma análise complementar de Norris <em>et al</em>. (2019), usando uma matriz classificada por estágio, estimou esse tempo geracional em 16,8 anos. Desta forma, seria plausível considerarmos um valor intermediário entre esses dois métodos, considerando o tempo geracional em 15 anos.</p> \n<p>Com base em estudos de monitoramento populacional (CMR) e radiotelemetria foi observado que <em>P.unifilis</em> é uma espécie que migra pouco, percorrendo curtas distâncias entre suas áreas de alimentação e de nidificação com indivíduos adultos se movendo cerca de 6–15 km e usando uma área de aproximadamente 0,8–5 km2 (Bock <em>et al</em>., 1998; Naveda-Rodríguez <em>et al</em>., 2018; Ponce De Leão <em>et al</em>., 2019). Andrade (2012) realizou estudos com radiotelemetria por satélite em 12 animais no Rio Juruá e no Médio Amazonas, e observou que eles permaneceram fiéis não apenas à praia de nidificação (ou filopatria, Bock <em>et al</em>., 1998), mas também ao lago de alimentação para onde se movem durante a cheia, com um deslocamento em média de 3,9±2,9 km de distância da praia de origem. No rio Juruá, <em>P. unifilis</em> utiliza uma área de vida visivelmente menor, com uma área de vida linear de 51,1 km (± 21,6 km), e utiliza uma área ainda menor – 31.167 ha (± 27.550 DP) (Hinderaker, 2021).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "Não",
+      "specialistMicroHabitat": {
+        "yn": "Não",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "15 Ano(s)",
+      "populationTrend": "Aumentando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><strong>Características Genéticas</strong></p> \n<p>Escalona <em>et al.</em> (2009) analisaram amostras de <em>P. unifilis</em> coletadas por Bock <em>et al</em>. (2001), na Colômbia, juntamente com dez amostras de outros locais no Brasil, Venezuela e Peru. Os resultados confirmaram que algumas subpopulações, mesmo geograficamente próximas, são geneticamente e demograficamente independentes, em contraste com o que ocorre com <em>P. expansa</em>, no qual o mesmo padrão genético foi evidente em praticamente toda distribuição da espécie (exceto em áreas isoladas por barreiras geográficas). Os resultados de <em>P. unifilis</em> indicam um padrão geográfico complexo da variação genética em diferentes escalas, que parece altamente influenciado por características da paisagem. Em nível continental, as estimativas genotípicas também revelaram a existência de elevada diferenciação inter-localidade em toda a gama geográfica estudada, com uma forte estrutura genética entre as bacias hidrográficas, que é geograficamente consistente com as conexões hidrológicas atuais. A diferenciação genética entre as subpopulações do Orinoco e da bacia hidrográfica amazônica indicam que as subpopulações nestas duas bacias são demograficamente independentes, com limitado fluxo gênico entre elas. Deste modo, as bacias devem ser consideradas unidades de gestão distintas, evitando a translocação de filhotes ou ovos para locais distantes ou entre bacias, pois poderiam comprometer a variabilidade genética presente nas distintas populações.</p> \n<p>Agostini <em>et al.</em> (2024) ao avaliar a distribuição espacial da diversidade genética ao longo de alguns dos principais rios da Amazônia (Juruá, Madeira, Amazonas, Trombetas, Tapajós, Xingu, Tocantins e Araguaia) caracterizaram a estrutura populacional de <em>P. unifilis</em>, usando a região de controle do DNA mitocondrial. Nesse estudo, testaram o isolamento por distância geográfica e por modelos de resistência, encontrando níveis heterogêneos de diversidade genética e nenhum padrão espacial. A hipótese de isolamento por resistência, onde o movimento dos indivíduos foi influenciado por variáveis da água, vegetação, clima e geomorfologia, parecem explicar a distância genética de <em>P. unifilis</em>. Corredeiras e cachoeiras impõem maior resistência, embora sejam barreiras com diferentes níveis de permeabilidade ao fluxo gênico de <em>P. unifilis</em>. Já Fantini <em>et al</em>. (2008) detectaram poliandria (multipaternidade) em filhotes provenientes de ninhos oriundos de praias do rio Amazonas, próximo a Barreirinhas-AM, foram identificados pelo menos dois pais para cada ninho.</p> \n<p><em>Podocnemis unifilis</em> (tracajá) é a espécie de quelônio mais comum da América do Sul (Vogt, 2008). Altas densidades populacionais são conhecidas em algumas localidades no Brasil, destacando-se os rios Trombetas (PA), Guaporé (RO), Purus, Juruá, Jaú (AM), dentre outros (Vogt, 2008). O Brasil é o único país que ainda possui subpopulações abundantes dessa espécie em alguns sítios de desova, sendo possível aumentar sua população caso haja controle da interferência humana (R. Vogt, com. pess., 2010).</p> \n<p>Após <em>P. expansa</em>, <em>P. unifilis </em>é a segunda espécie mais visada na caça e no comércio ilegal de quelônios amazônicos. Existem vários estudos indicando uma superexploração de <em>P. unifilis</em> em locais não protegidos e consequente declínio de suas subpopulações (Fachin-Terán <em>et al</em>., 2000; Balensiefer, 2003; Fachín-Terán, 2005).</p> \n<p>Entretanto, graças aos programas de proteção de agências ambientais, como o Programa Quelônios da Amazônia (PQA) /IBAMA criado pelo Governo Federal em 1979, e principalmente, a projetos de conservação de base comunitária de longo prazo (25 anos), como o Programa Pé-de-pincha, fez com que as populações de <em>P. unifilis</em> se recuperassem (Cantarelli <em>et al.,</em> 2014; Campos-Silva <em>et al.</em>, 2018; Andrade <em>et al.,</em> 2022).</p> \n<p>O Programa Pé-de-pincha e outros iniciativas estaduais, envolveram centenas de locais (265), e já protegeram mais de 170 mil ninhos e devolveram mais de 3.229.821 filhotes à natureza nos últimos 45 anos, além de proteger uma população estimada em mais de 10.109 fêmeas reprodutoras por ano (Andrade <em>et al.,</em> 2022) só no Amazonas e Oeste do Pará. Isso garantiu que mais de 80% das áreas protegidas de <em>P. unifilis</em> na Amazônia brasileira tenham tendência de crescimento ou, pelo menos, estabilidade. Já o PQA devolveu a natureza 4,5 milhões de filhotes à natureza e protegeu aproximadamente 230 mil ninhos nos estados do Mato Grosso, Pará, Roraima, Amapá, Rondônia, Acre e Amazonas.</p> \n<p>Há estudos robustos com mais de 45 anos de registros sobre o aumento populacional de fêmeas nidificantes em áreas da Amazônia brasileira (Campos-Silva <em>et al</em>., 2018; Andrade <em>et al.,</em> 2022), acompanhados de programas de monitoramento populacional com CMR e estimativas de parâmetros de estrutura e dinâmica populacional principalmente nos rios Juruá, Andirá e Médio Amazonas, indicando a recuperação ou estabilidade dessas populações. Há também estudos com modelagem baseada em matrizes (Rachmansah <em>et al.</em>, 2020) e os estudos com projeção de ameaças sobre potenciais áreas de reprodução de <em>P. unifilis</em> (Fagundes <em>et al.,</em> 2021), que mostram perspectivas muito mais animadoras para essa espécie na Amazônia brasileira. Norris <em>et al.</em> (2019) usaram um modelo de projeção populacional da matriz de Lefkovitch com base em estágios (ovos, filhotes, juvenis e adultos) para avaliar cenários de manejo de <em>P. unifilis</em> e estimaram que mesmo grandes áreas poderiam ser recuperadas se o <em>headstarting</em> de filhotes fosse praticado de forma mais ampla.</p> \n<p>Então, apesar de algumas modelagens, usando cenários mais pessimistas com superexploração e perda e degradação de habitat (desmatamento, agricultura, represas, poluição e mineração) estimarem uma previsão de redução da população desta espécie, os estudos baseados em indicadores reais das populações protegidas e monitoradas nos últimos 45 anos, mostraram exatamente o contrário, com muitas subpopulações sendo recuperadas pelos esforços de conservação empreendidos.</p> \n<p>Mesmo com as ameaças que pairam sobre esta espécie, a <em>P. uniflis</em> tem demonstrado grande resiliência, adaptando-se a muitas mudanças ambientais e ocupando uma grande diversidade de habitats, incluindo áreas antromorfizadas e áreas urbanas, espalhando-se por um território mais amplo do que qualquer outra espécie da família Podocnemididae, inclusive em áreas onde não ocorria antes. É a espécie mais comumente encontrada em qualquer região da Amazônia e a mais protegida pelas centenas de iniciativas de base comunitária na Amazônia.</p> \n<p>Os dados sobre <em>Podocnemis unifilis</em> começaram a ser registrados sistematicamente no Brasil a partir de 1974 pelo órgão ambiental federal (IBDF, mais tarde IBAMA) em localidades ao longo dos rios Purus, Juruá, Uatumã, Solimões, Negro, Madeira, Branco, Tapajós, Xingu, Trombetas, Pracuúbae, Araguaia-Tocantins, das Mortes e Guaporé. E desde 1999, por meio do programa Pé-de-pincha nos rios Nhamundá, Trombetas, Uaicurapá/Mamuru, Andirá, Marau, Médio Amazonas, Madeira, Juruá e Negro (Andrade <em>et al.,</em> 2022). No Brasil, especificamente no estado do Amazonas e oeste do Pará, entre 1974 e 2019, aproximadamente 170.076 ninhos de <em>P. unifilis</em> (3.779 ± 3.660 ninhos/ano; max=12.140 ninhos/ano) foram protegidos (Andrade <em>et al.,</em> 2022). A produção de filhotes de <em>Podocnemis unifilis</em> foi de 40% no Rio Juruá, seguido pelo Rio Purus com 14% e pelas áreas de proteção comunitária do programa Pé-de-pincha para o médio-baixo Rio Amazonas (14%), Lagoa Sapucuá/Trombetas (14%) e rio Andirá (9%).</p> \n<p>Andrade <em>et al.</em> (2022) estimaram curvas de crescimento logístico para 160 áreas no Amazonas e Oeste do Pará (o que representa quase 35% da área de distribuição dessa espécie) o número de ninhos/fêmeas reprodutivas e filhotes que foram estimados e ajustados para 138 dessas áreas de reprodução de <em>P. unifilis</em>. Esta espécie apresentou taxas de crescimento (r) para número de ninhos/fêmeas em postura (r = 0,33 ± 0,19; intervalo: 0,004–0,50) maiores do que as demais espécies de Podcnemidídeo analisadas, o que indica o crescimento (r &gt; 0) ou estabilidade (r ≈ 0) das populações nessas regiões da zona fisiográfica do Médio Amazonas (rios Amazonas, Nhamundá, Andirá, Uaicurapá/Mamuru, Uatumã, Marau e lagos de Piraruacá, Juruti e Sapucuá/Baixo Trombetas) e rios Madeira, Negro, Uatumã, Juruá e Purus, mas houve algumas poucas áreas em declínio nos rios Juruá e Purus. As áreas do médio-baixo Amazonas apresentaram taxas de crescimento de ninhos de <em>P. unifilis</em> maiores do que as áreas dos rios Juruá e Purus.</p> \n<p>Os menores valores de r encontrados para algumas praias dos rios Juruá e Purus podem significar simplesmente que os dados para esta espécie foram subestimados pelo menor número de registros feitos pelos monitores de praia que estariam priorizando os registros de ninhos de <em>P. expansa</em>. No entanto, ao analisar as séries históricas de produção dessas áreas, também foi verificado que, à medida que o número de fêmeas de <em>P. expansa</em> aumentava em uma praia, o número de ninhos de <em>P. unifilis</em> diminuía naquela área, indicando uma competição por espaço entre essas duas espécies (Andrade, 2015). Por serem menores que as <em>P. expansa</em>, as fêmeas de <em>P. unifilis</em> provavelmente são forçadas a procurar outros espaços na praia mais próximos da vegetação ou nas extremidades da praia, ou mesmo migrar para outras áreas, como barrancos ou outras praias. Como esses outros locais não são monitorados, os registros mostram apenas as praias principais e estes acabam indicando uma redução no número de fêmeas de <em>P. unifilis</em> nidificando naquela praia (Andrade <em>et al.,</em> 2022). As comunidades foram mais eficientes na proteção de ninhos (r = 0,102 ± 0,2315) e filhotes (r = 0,282 ± 0,166) de <em>P. unifilis</em>. Atuando em maior número e diversidade de áreas (80%), o sistema comunitário de proteção de quelônios é responsável pela maior parte da produção de filhotes de <em>P. unifilis</em> (64%) na Amazônia.</p> \n<p>Em 2023, 11.025 ninhos e 185.495 filhotes foram protegidos apenas pelo programa comunitário de conservação Pé-de-pincha, em 159 áreas do Amazonas e Oeste do Pará, o que nos dá uma ideia do número de fêmeas adultas protegidas nessas áreas (P. Andrade, com. pess., 2024). Nessas áreas, a grande maioria (87%) mostrou tendência de crescimento ou equilíbrio nos últimos 35 anos, com um aumento de 708% em relação ao número de ninhos protegidos/fêmeas adultas nos anos 1990, e de 99% em relação aos ninhos protegidos nos anos 2000. Assim, programas de proteção e monitoramento baseados na comunidade são um componente importante que deve ser incorporado pelos órgãos ambientais do governo para o manejo e conservação de quelônios na Amazônia.</p> \n<p>Para o estado do Tocantins, no rio Javaés, apesar de estudos demográficos terem demonstrado tendência de estabilidade de suas populações no passado (Portelinha, 2007; Ataídes, 2009), informações baseadas no monitoramento dos ninhos de <em>P. unifilis</em> indicaram tendências de redução da população de fêmeas reprodutivas (Malvasio <em>et al</em>., 2019). Atualmente a espécie não é mais monitorada pelo Programa Quelônios da Amazônia (PQA) no Tocantins, o que dificulta o conhecimento do status da população nesta localidade.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As principais ameaças para <em>P.</em> <em>unifilis</em> são a captura e o consumo excessivo (ovos e carne) para subsistência das populações ribeirinhas ou para o comércio ilegal, e a perda de <em>habitat</em> por desmatamentos das várzeas e matas ciliares (fontes de abrigo e alimentos durante a época das cheias), canalização e contaminação de cursos d’água, drenagem, aterramento e compactação de áreas alagadas, expansão das atividades agropastoris (em substituição a florestas nativas), e barramentos de corpos d’água com a construção de represas que dificultam a migração dos quelônios a jusante ou a montante das praias de nidificação.</p> \n<p>Embora a captura de indivíduos e a coleta de ovos seja proibida pela legislação brasileira, desde 1967 (Brasil, 1967), essas práticas e o uso ilegal da espécie persistem até os dias de hoje. Pantoja-Lima <em>et al.,</em> (2014) realizaram no entorno do rio Purus (AM) estudo visando quantificar o comércio ilegal de quelônios no município de Tapuá durante dois anos (2006 e 2007) em áreas urbana e isoladas. Para tanto, foram realizadas entrevistas, e 100% dos entrevistados relataram consumir pelo menos três espécies de Podocnemidídeos (<em>Podocnemis unifilis, P. sextuberculata</em> e <em>P. expansa</em>), e dependendo da localidade <em>P. unifilis</em> é a preferida. Houve registro pelo IBAMA em autos de apreensão de <em>Podocnemis unifilis</em> nos estados do Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará e Mato Grosso, resultando em 24.442 indivíduos e 66 kg de subprodutos apreendidos. O maior número de autos (n=212 para tracajá; N total para as demais espécie=240) foi registrado no estado do Amazonas, que resultaram em 24.292 indivíduos apreendidos provenientes de caça ou criadouros ilegais. Uma análise de dados de oito anos sobre o comércio ilegal na bacia amazônica (Portal de Dados do Brasil 2012-2019) revelou que <em>P. unifilis</em> (27%) e <em>P. expansa</em> (29%) são as tartarugas de rio mais confiscadas, mas uma proporção maior de ovos de <em>P. unifilis</em> (46%) são vendidos ilegalmente (Charity &amp; Ferreira, 2020). Estima-se, com base em dados de apreensão de órgãos ambientais (IBAMA, SEMA, Polícia Ambiental, ICMBio), que entre 1992 e 2011, só no Amazonas, 86.949 tartarugas foram apreendidas (das quais 3.933 eram <em>P. unifilis</em>) e, entre 2012 e 2019, 11.894 quelônios (27% eram <em>P. unifilis</em>) foram apreendidos (Nascimento, 2009; Charity &amp; Ferreira, 2020; Andrade <em>et al</em>., 2022). Na bacia do Rio Negro, o comércio ilegal de fêmeas reprodutivas ocorre dentro do Parque Nacional do Jaú e Barcelos (Pezzuti <em>et al</em>., 2010). No médio rio Solimões, praias que não são protegidas podem ter até 100% de predação de seus ovos, e muitos adultos, especialmente fêmeas reprodutoras, são capturados para serem vendidos em grandes centros urbanos da região (Fachín-Terán <em>et</em> <em>al., </em>2000, Camillo <em>et al.,</em> 2012; Lopes <em>et al.</em>, 2012; Camillo <em>et al.,</em> 2014).</p> \n<p>Na bacia do rio Negro a espécie é capturada devido ao seu alto valor comercial (Kemenes &amp; Pezzuti, 2007; Pezzuti <em>et</em> <em>al.,</em> 2010). Na região fisiográfica do Médio-Baixo rio Amazonas esta espécie é muito consumida, com a retirada e venda de centenas de ovos da natureza todos os anos (Andrade, 2012). No estado do Tocantins, Ataídes (2009) aponta que, por enquanto, <em>P.</em> <em>unifilis</em> é uma espécie pouco utilizada como fonte de alimento pela população humana local. A espécie também está sujeita a altos níveis de tráfico ilegal com países vizinhos, como Bolívia (ou seja, Rio Itenez-Guapore; Acebey et al. 2009), e ao longo da tríplice fronteira amazônica com a Colômbia e o Peru, onde é destacada como o quelônio mais capturado e comercializado (van Vliet et al. 2015).</p> \n<p>Segundo Fagundes et al. (2018), <em>P.uniflilis</em> teve 19,06% de sua área de distribuição potencial perdida devido ao desmatamento. Mas, apesar das taxas de desmatamento terem acelerado desde 2012 e das populações humanas terem aumentado na Amazônia, causando, portanto, mais extração em áreas protegidas, incluindo aumento da pressão de caça ilegal onde a exploração é proibida, ainda parece haver relativa estabilidade para <em>P.unifilis</em>. Há algumas exceções em áreas em construção de usinas hidrelétricas ou mineração, onde alguns impactos dessas mudanças podem ser sentidos, como é o caso da Reserva Biológica de Trombetas, que perdeu parte de seu habitat para barragens e está localizada próxima a minas de bauxita; há relatos de que as populações na reserva diminuíram significativamente em número (Eisemberg et al. 2017). No estado do Tocantins, por exemplo, o <em>habitat</em> da espécie vem sendo reduzido e desconectado devido à implantação de hidrovias e reservatórios de usinas hidrelétricas. A construção de represas também impede a movimentação de <em>P. unifilis</em> à jusante ou a montante das praias de nidificação e o desmatamento da área de várzea afeta a alimentação da espécie, pois elas se alimentam nesses locais durante a época das cheias (T. Portelinha e A. Malvasio, com. pess., 2010).</p> \n<p>A construção da UHE Belo Monte, e a consequente redução do fluxo hídrico no trecho conhecido como Volta Grande do Xingu, vem causando uma ameaça há população da espécie que ali ocorre. Desde 2017, quando a usina entrou em operação, uma grande extensão dos igapós não vem sendo inundados. Como <em>P. unifilis</em> depende dessa inundação para entrar nas florestas alagadas para se alimentar, suspeita-se que a espécie sofrerá grande impacto a curto e médio prazo. Os reais impactos dessa mudança ainda são desconhecidos. Um impacto não previsto, mas que já foi observado é que alguns indivíduos da espécie estão ficando aprisionados nos pedrais da barragem Pimental da UHE Belo Monte. Em 2017 foi registrada a morte de diversos indivíduos que estavam tentando transpor a barragem e ficaram aprisionados. Após esse fato, a concessionária que opera a usina foi obrigada a realizar um monitoramento diário. Anualmente, durante o período reprodutivo da espécie, registra-se uma média de 150 indivíduos presos nesses pedrais, sendo que a maioria são resgatados com vida.</p> \n<p>O turismo desordenado nas áreas reprodutivas também pode ocasionar distúrbios durante o processo de nidificação da espécie em Goiás, sudeste do Pará, Tocantins e Mato Grosso (Y. Bataus, R. Balestra, A. Malvasio, com. pess., 2010). No rio Javaés – TO, o turismo de praia (principalmente acampamentos) e a pesca esportiva na época de estiagem da região (junho-outubro) facilita o acesso à caça e ocupa as praias de desova de <em>P. unifilis</em>. Tais ações são, também, responsáveis pelo declínio populacional no rio Javaés nos últimos anos (Malvasio <em>et al.,</em> 2019; Portelinha com. pess., 2024).</p> \n<p>A poluição proveniente de diferentes atividades antrópicas, como a mineração e agropecuária, podem afetar substancialmente as populações naturais de <em>P. unifilis</em>. A presença de poluentes orgânicos persistentes (POP’s) foi detectada em diferentes tecidos da espécie para a bacia hidrográfica do rio Xingu (Pignati <em>et al.,</em> 2018). Ribeiro (2023) encontrou alterações celulares e nos fígados de <em>P. unifilis</em> capturados no rio Javaés – TO, e associou essas alterações à inclusão de agentes químicos na água, principalmente pela exposição aos agrotóxicos. Diferentes concentrações de metais pesados também foram detectadas na espécie para o rio Xingu (Souza-Araújo <em>et al.,</em> 2015; Pignati <em>et al.,</em> 2018b) e rio Negro (Schneider <em>et al.,</em> 2010).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.4 - Tráfego de embarcações",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.8 - Hidrovias",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.11 - Represas (tamanho desconhecido)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.4 - Captação de água de superfície - uso desconhecido",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.1 - Acúmulo de nutrientes",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.2 - Erosão do solo/sedimentação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.2 - Espécies domésticas|8.2.3 - Hibridação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.3 - Espécies nativas problemáticas|8.3.1 - Espécie conhecida|8.3.1.3 - Hibridação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.2 - Comercial - Nacional/Local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A carne, ovos e subprodutos do tracajá são consumidos pelas populações ribeirinhas, restaurantes e comércio, desde o início da ocupação da região Amazônica até os dias de hoje, de forma legal e ilegal, todavia com intensidades variadas ao longo de toda sua distribuição (Ataídes <em>et al</em>., 2010; Karajá <em>et al.,</em> 2011; Pantoja-Lima <em>et al.,</em> 2012; Cajaiba <em>et al.,</em> 2015).</p> \n<p>A Instrução Normativa nº. 07/2015 autoriza e regulamenta a criação comercial de <em>Podocnemis</em> <em>expansa,</em> <em>P.</em> <em>unifilis,</em> <em>P.</em> <em>sextuberculata</em> <em>e</em> <em>Kinosternon</em> <em>scorpioides</em> em sistema intensivo tipo ranching e farming nas regiões de sua ocorrência, visando diminuir a pressão de caça clandestina (Ibama, 2015). Os plantéis dos criadouros foram formados, inicialmente a partir de filhotes manejados pelo IBAMA na natureza. Atualmente, sem alterações em sua norma específica, tais regramentos estão dispostos no anexo III da Instrução Normativa nº 7, de 30 de abril de 2015 (Ibama, 2015), que institui e normatiza as categorias de uso e manejo da fauna silvestre em cativeiro, e define os procedimentos autorizativos para as categorias estabelecidas.</p> \n<p>No Brasil, existem mais de 41 fazendas comerciais de criação de <em>P. unifilis</em>, legalmente autorizadas pelos órgãos ambientais desde 1992, com um plantel estimado de mais de 18.224 animais (Andrade <em>et al</em>., 2021). Somente no estado do Amazonas (que é o maior criador), entre 1998 e 2020 foram nasceram mais de 12.397 filhotes desta espécie nos criatórios legalizados pelo IBAMA, sendo que estes filhotes foram criados, engordados e vendidos legalmente para consumo, totalizando mais de 4.479 animais produzidos em sistema <em>farming</em>, com o ciclo completo em cativeiro (Andrade <em>et al.,</em> 2021). Mas esses filhotes não podem ser vendidos como animais de estimação. No Amazonas, a criação comunitária de <em>P. unifilis</em> foi regulamentada em 2017, através da Resolução CEMAAM N.26/2017, e em nível nacional, foi regulamentada pela IN ICMBio N.3/2022 para as unidades de conservação de uso da Amazônia (Andrade <em>et al.,</em> 2021; ICMBio,2022).</p> \n<p>Na Convenção sobre o Comércio Internacional das Espécies da Fauna e Flora Silvestres Ameaçadas de Extinção (Cites), a espécie encontra-se alocada no Apêndice II, portanto, é permitindo que a espécie seja comercializada no mercado internacional (Cites, 2015) de acordo com a legislação do país de origem. Entre 2015-2019, 2,3 milhões de filhotes vivos de <em>P. unifilis</em> manejados foram exportados do Peru para Hong Kong por meio do mercado legal de comércio de animais de estimação.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana|1.2 - Caça para comércio|1.2.1 - Nacional/Local",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "1 - Alimentação humana|1.3 - Criadouro comercial",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Nos anos 1960, o Governo Brasileiro proibiu a captura e o comércio ilegal de animais silvestres (Lei Nº 5.197/67 – Lei de Proteção a Fauna). As ações governamentais especificamente para proteção dos quelônios amazônicos tiveram início em em 1979, o governo federal criou o Projeto Quelônios da Amazônia (PQA), que estabeleceu ações de proteção e manejo para as espécies de quelônios ocorrentes na Amazônia Brasileira, nos estados das regiões Norte e parte do Centro-Oeste. Sendo executado nas áreas de ocorrência natural, principalmente das espécies <em>Podocnemis expansa,</em> <em>P.</em> <em>unifilis </em>e<em> P.</em> <em>sextuberculata</em>, atuando nos rios das bacias Amazônica e Tocantins/Araguaia (Ibama, 1989; Cantarelli <em>et al</em>., 2014).</p> \n<p>Em 2011, o PQA, por meio da Portaria Ibama nº 259, foi renomeado para “Programa Quelônios da Amazônia”, com sua estrutura e concepção finalística habitual e ficou sob a responsabilidade da Coordenação de Fauna Silvestre (Cofau)/ Diretoria de Uso Sustentável da Biodiversidade e Florestas (DBFLO) do Ibama (Ibama, 2011), mais tarde esse programa foi reestruturado pela Portaria Ibama nº 15 (Ibama, 2013).</p> \n<p><em>Podocnemis unifilis</em> tem sido foco de ações nacionais de conservação há mais de 45 anos no Brasil (Andrade <em>et al</em>., 2022; Eisemberg <em>et al</em>., 2019). Grandes áreas de nidificação (&gt;1 km2) ao longo de grandes rios são os principais pontos de ação do programa nacional brasileiro (PQA - Programa Quelônios da Amazônia). Também existem iniciativas de conservação governamental estaduais e municipais, e principalmente, programas de conservação de base comunitária que protegem adultos, ovos e filhotes de <em>P.unifilis</em>, e representam mais de 80% das áreas protegidas para essa espécie na Amazônia. A maioria inclui a transferência de ninhos de áreas ameaçadas para locais mais próximos as comunidades, onde são incubados em trechos de praia cercados e mais protegidos. Tais programas/projetos protegem desde algumas centenas de fêmeas em processo de desova até milhares de ninhos.</p> \n<p>Desde 1999, também existe no Brasil um programa de conservação de base comunitária, o Programa Pé-de-pincha, da Universidade Federal do Amazonas em parceria com 125 comunidades e órgãos ambientais, cuja espécie bandeira é a <em>P. unifilis</em>, e que atua em mais de 16 canais de rios, em diferentes ambientes de nidificação, em uma área equivalente a 8% da Amazônia. Este programa atua não apenas na proteção de ninhos e filhotes (já devolveu mais de 3,5 milhões de filhotes à natureza em 25 anos), mas também na conscientização ambiental das comunidades e na proteção e monitoramento de animais adultos, consolidando-se como um dos maiores programas de proteção e voluntariado desta espécie no mundo (Andrade, 2012; Andrade <em>et al</em>., 2022). Por meio de suas ações, no estado do Amazonas, em 2017, foram criadas normas legais que estabelecem 265 áreas prioritárias para a conservação desta espécie, que totalizam mais de 13% de todas as áreas potenciais de reprodução deste animal na Amazônia brasileira (Fagundes <em>et al</em>., 2021). Mais de 80% dessas áreas estão fora de unidades de conservação e são áreas de conservação de base comunitária, o que representa um esforço maior de proteção, além daquelas criadas oficialmente pelo Governo em unidades de conservação.</p> \n<p>Outros exemplos de conservação de base comunitária, ocorrem na Reserva de Desenvolvimento Sustentável (RDS) Mamirauá (médio Solimões, AM), na Resex Médio Juruá/RDS Uacari e RDS Uatumã, onde as ações de conservação também são realizadas voluntariamente pelos comunitários, e envolvem ou a proteção das praias de nidificação (tabuleiros) e a marcação e registro de ninhos e filhotes, ou a transferência de ninhos dos barrancos dos lagos e igarapés para praias artificiais, construídas nas comunidades. A participação comunitária garante não só o apoio político local e menores custos de fiscalização na implementação de normas de conservação, como assegura a preservação da biodiversidade da várzea e a manutenção de um alimento importante em nível local (Fachín-Terán, 2005; Campos-Silva <em>et al</em>., 2018; Andrade <em>et al</em>., 2022).</p> \n<p>Segundo Portelinha e Luz (com. pess., 2024), na região do médio e baixo Araguaia, nos estados do Tocantins e Pará, além das ações executadas pelo Programa Quelônios da Amazônia (PQA/TO) entre 1985-2009 (Rio Javaés) e 2018-atualmente (Rio Araguaia), existem importantes iniciativas governamentais e não governamentais para a proteção das praias de desova de <em>P. unifilis</em> nos municípios de: Xambioá – TO e São Geraldo do Araguaia – PA (Projeto Quelônios do Araguaia)</p> \n<p>Dado o interesse do Ibama, ICMBio e comunidade científica foi criado o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos (PAN Quelônios Amazônicos), aprovado pela Portaria Conjunta Ibama/ICMBio nº.1/2015. O PAN Quelônios Amazônicos teve como objetivo geral aperfeiçoar as estratégias de conservação para os quelônios amazônicos e promover ações para sua recuperação e uso sustentável, especialmente para as espécies-alvo (<em>Podocnemis unifilis, P. expansa e P. sextuberculata</em> (Brasil, 2015).</p> \n<p>A coordenação do PAN é do Ibama com apoio do Centro Nacional de Pesquisa e Conservação dos Répteis e Anfíbios (RAN/ICMBio), instituições parceiras e membros do Grupo de Assessoramento Técnico (GAT). Como frutos gerados dessa parceria destacam-se: Sistema de Gestão e Informação dos Quelônios Amazônicos - SisQuelônios, desenvolvido pelo RAN/ICMBio e implementado em 2014, como ferramenta para sistematização dos dados do PAN e compartilhado com a coordenação do PQA; o Roteiro para inventários e monitoramento de quelônios continentais (Balestra <em>et al.</em>, 2016) e o Manual Técnico-Manejo Conservacionista e Monitoramento Populacional de Quelônios Amazônicos (Ibama, 2016), que buscou orientar e padronizar a obtenção de dados, propiciando a consolidação em bancos de dados robustos, cujas informações poderiam ser geridas pelo SisQuelônios (R. Balestra, com. pess., 2016).</p> \n<p>Além disso, esta espécie também pode ser encontrada em Unidades de Conservação Federais, e Estaduais desde Reservas Biológicas, Áreas Protegidas, Florestas Nacionais e Estaduais, Estações Ecológicas, Reservas Extrativistas, Reservas de Desenvolvimento Sustentável, Parques e Reservas Biológicas, sendo contempladas com estratégias de conservação nos planos de manejos dessas unidades. E em 2021-20222, a Fundação Nacional do Índio (FUNAI) realizou uma série de oficinas de capacitação em técnicas de proteção de quelônios, em Terras Indígenas que já realizavam ou que iniciaram ações de conservação de quelônios, principalmente, de <em>P.unifilis</em>. Essa iniciativa, culminou em um seminário de Manejo Comunitário de Quelônios Amazônicos em Terras Indígenas, que reuniu representantes de diversas etnias de estados da região norte e centro-oeste (P. Andrade, com. pess., 2024). Todas essas iniciativas se somam, aumentando muito mais as áreas oficialmente protegidas para <em>P.unifilis</em> no Brasil.</p> \n<p>Embora, no Brasil, <em>Podocnemis unifilis</em> tenha ampla distribuição nas bacias Amazônica e Tocantins/Araguaia, sendo inclusive abundante em algumas localidades, é fundamental a manutenção desses programas, em especial o Programa Quelônios da Amazônia (PQA), dada sua dimensão, longevidade e resultados, assim como, o fortalecimento do PAN Quelônios Amazônicos, pois a pressão que ainda existe sobre as subpopulações e precisa ser controladaRecomenda-se intensificação das ações de fiscalização nas fronteiras, restaurantes e feiras, no sentido de coibir o comércio ilegal da espécie e o desenvolvimento de ações de educação ambiental voltadas para as comunidades locais.</p> \n<p>No mês de julho de 2024 foi realizado o Workshop: Manejo Comunitário Sustentável de Ovos e Indivíduos do Gênero <em>Podocnemis</em>, organizado pela WCS e o Instituto Juruá e sediado no CEQUA/INPA Manaus – AM, com o objetivo de discutir os subsídios para uma regulamentação do uso sustentável do gênero <em>Podocnemis</em> e desenvolver bases técnico-científicas para o manejo comunitário de quelônios na natureza. Essa é uma das primeiras iniciativas com o intuito de discutir e implementar estratégias do uso de quelônios por comunidades tradicionais.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Podocnemis unifilis Troschel, 1848</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2015,
+          "coverage": "Colômbia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "A2cd",
+          "refBibs": [
+            {
+              "label": "Morales-Betancourt <i>et al.</i>, 2015",
+              "title": "Morales-Betancourt, M. A., Lasso, C.A., Páez, V.P. &amp; Bock, B.C. (2015) <i>Libro rojo de reptiles de Colombia</i> Bogotá, Colombia, Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), Universidad de Antioquia, 258 p.pp."
+            }
+          ],
+          "orderBy": "Z2015"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2009,
+          "coverage": "Bolívia",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Aguirre <i>et al.</i>, 2009",
+              "title": "Aguirre, L.F., Aguayo, R., Balderrama, J.A., Cortez, C., Tarifa, T. &amp; Rocha, O. (2009) <i>Libro rojo de la fauna silvestre de vertebrados de Bolivia</i> La Paz, Bolivia, (Eds.). Ministerio de Medio Ambiente y Agua,"
+            }
+          ],
+          "orderBy": "Z2009"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2008,
+          "coverage": "Venezuela",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A2abcd",
+          "refBibs": [
+            {
+              "label": "Rodríguez & Rojas-Suárez, 2008",
+              "title": "Rodríguez, J.P. &amp; Rojas-Suárez, F. (2008) <i>Libro Rojo de la Fauna Venezolana</i> Edição Tercera Edición Caracas, Venezuela, Provita y Shell Venezuela, S.A., 364 pppp."
+            }
+          ],
+          "orderBy": "Z2008"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2005,
+          "coverage": "Equador",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carrillo <i>et al.</i>, 2005",
+              "title": "Carrillo, E., Aldás, S., Altamirano, M., Ayala, F., Cisneros, D., Endara, A., Márquez, C., Morales, M., Nogales, F., Salvador, P., Torres, M. L., Valencia, J., Villamarin, F., Yánez, M. &amp; Zarate, P. (2005) Lista Roja de los Reptiles del Ecuador."
+            }
+          ],
+          "orderBy": "Z2005"
+        },
+        {
+          "type": "Global",
+          "year": 1996,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A1acd",
+          "refBibs": [
+            {
+              "label": "TFTSG (Tortoise & Freshwater Turtle Specialist Group), 1996",
+              "title": "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Podocnemis unifilis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17825A7506933.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17825A7506933.en</a>. [Acessado em: 18/jan/2016]."
+            }
+          ],
+          "orderBy": "Y1996"
+        },
+        {
+          "type": "Global",
+          "year": 1994,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1994"
+        },
+        {
+          "type": "Global",
+          "year": 1990,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1990"
+        },
+        {
+          "type": "Global",
+          "year": 1988,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1988"
+        },
+        {
+          "type": "Global",
+          "year": 1986,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1986"
+        },
+        {
+          "type": "Global",
+          "year": 1982,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1982"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 2015,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação dos Quelônios",
+          "refBibs": [
+            {
+              "label": "Brasil, 2015",
+              "title": "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>."
+            }
+          ]
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Legislação",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Manejo de espécies",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Meandros do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro & Ferreira Júnior, 2008",
+              "title": "Caracterização ecogeomorfológica das áreas de desova de quelônios de água doce (Gênero <i>Podocnemis</i>) no entorno da ilha do Bananal, rio Araguaia"
+            },
+            {
+              "label": "Malvasio <i>et al.</i>, 2002",
+              "title": "Variações ontogenéticas na morfometria e morfologia do canal alimentar pós-faríngeo de <i>Trachemys dorbignyi</i> (Dumeril & Bibron 1835), <i>Podocnemis expansa</i> (Schweigger 1812) e <i>P. unifilis</i> (Troschel 1848) e <i>P. sextuberculata</i> (Cornalia 1849) (Anapsida; Testudines)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "ESEC da Terra do Meio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Giarrizzo, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Altamira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Galatti, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Anauá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 1999",
+              "title": "Growth of different species and populations of chelonians in captivity in Amazonas , Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Monitoramento da Herpetofauna das Áreas Florestais Adjacentes à Mineração de Bauxita na FLONA de Saracá-Taquera, Amazônia Central, Estado do Pará, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Amapá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Michalski, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rafael <i>et al.</i>, 2022",
+              "title": "Répteis da Floresta Nacional do Tapajós e da Reserva Extrativista Tapajós-Arapiuns"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Mapinguari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Machado, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2013",
+              "title": "Variation in <i>Amapasaurus tetradactylus</i> (Reptilia: Squamata: Gymnophthalmidae), a rare Guiana lizard"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Nascentes do Lago Jari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Kemenes & Pezzuti, 2007",
+              "title": "Estimate of trade traffic of <i>Podocnemis</i> (Testudines, Pedocnemididae) from the Middle Purus River, Amazonas, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nascimento, 2002",
+              "title": "Observações sobre o comportamento de nidificação de três espécies de <i>Podocnemis</i> Wagler (Testudinata, Pelomedusidae) no Baixo Rio Branco, Roraima, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": []
+        },
+        {
+          "name": "PARNA do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ataídes, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Cabo Orange",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vasconcelos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Abufari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ducan & Marcon, 2009",
+              "title": "Enzymes of energy metabolism in hatchlings of amazonian freshwater turtles (Testudines, Podocnemididae)"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Guaporé",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Portela <i>et al.</i>, 2008",
+              "title": "Análises biométricas de <i>Podocnemis expansa</i> (tartaruga-da-amazonia) e <i>Podocnemis uniflis</i> (tracajá) nos tabuleiros do rio Guaporé"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Jaru",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Brito, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Lago Piratuba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Manicoré",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernhard <i>et al.</i>, 2012",
+              "title": "Aspects of the Reproductive Biology of <i>Podocnemis unifilis</i> and <i>Podocnemis sextuberculata</i> in Erepecu Lake, Rio Trombetas, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Alto Tarauacá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Lago do Cedro",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lustosa, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Iriri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Miorando <i>et al.</i>, 2015",
+              "title": "Population structure and allometry of <i>Podocnemis unifilis</i> (Testudines, Podocnemididae) in a protected area upstream Belo Monte dam in Xingu River, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Unini",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Acosta, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pignati, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Alto Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza <i>et al.</i>, 2007",
+              "title": "Conservação de quelônios aquáticos (<i>Podocnemis expansa, P. sextuberculata, P. unifilis</i>) na Reserva Extrativista do Alto Juruá e no Parque Nacional da Serra do Divisor"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garcez <i>et al.</i>, 2012",
+              "title": "Manejo comunitário de quelônios no Baixo Juruá"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Rio Branco-Jauaperi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Médio Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Médio Purus",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Jutaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morcatty, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE TAPAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO AMAPÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Perrone, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leão, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ARAGUAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Júnior, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ARAGUAIAA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias, 2022",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO CANTãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Malvasio <i>et al.</i>, 2012",
+              "title": "Morfometria e histologia das gonadas de machos e fêmeas recém eclodidos de <i>Podocnemis expansa</i> e <i>Podocnemis unifilis</i> (Testudines, Podocnemididae)"
+            },
+            {
+              "label": "Castro & Ferreira Júnior, 2008",
+              "title": "Caracterização ecogeomorfológica das áreas de desova de quelônios de água doce (Gênero <i>Podocnemis</i>) no entorno da ilha do Bananal, rio Araguaia"
+            },
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MATUPIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Farias, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ARACÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO DE VIDA SILVESTRE CORIXÃO DA MATA AZUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vanzolini, 2003",
+              "title": "On clutch size and hatching success of the South America turtles <i>Podocnemis expansa</i> (Schweigger, 1812) and <i>P. unifilis</i> Troschel, 1848 (Testudines, Podocnemididae)"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Camillo, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL CUJUBIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Balestra, 1990",
+              "title": "Sistema de Gestão e Informação dos Quelônios Amazônicos - SISQUELONIOS"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL DO JUMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL DO UATUMÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2020",
+              "title": "Diet of an assemblage of four species of turtles (<i>Podocnemis</i>) in the Rio Uatumã, Amazonas, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL IGAPÓ-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Camillo, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vogt, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL UACARÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CANUTAMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA JACI-PARANÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Keller <i>et al.</i>, 2016",
+              "title": "Checklist of chelonians from the upper Madeira River and the lower Madeira-Purus interfluvium (Brazilian Amazon), including a range expansion for <i>Podocnemis sextuberculata</i> Cornalia, 1849"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA PEDRAS NEGRAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brandão, 2002",
+              "title": "Avaliação ecológica rápida da herpetofauna nas Reservas Extrativistas de Pedras Negras e Curralinho, Costa Marques, RO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA REGIÃO METROLPOLITANA DE BELÉM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Schmidt & Inger, 1951",
+              "title": "Amphibians and reptiles of the Hopkins-Branner Expedition to Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO LAGO DE TUCURUI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Agostini <i>et al.</i>, 2014",
+              "title": "Study of females of <i>Podocnemis unifilis</i> (Tracaja) (Troschel, 1848) in areas between Xambioá-TO, Antonina-PA and Tucurui-PA, by molecular tools"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ribeiro, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PALMAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dornas, 2009",
+              "title": "Compilação dos registros de quelônios, crocodilianos e aves do estado do Tocantins: biodiversidade e lacunas de conhecimento"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SANTA ISABEL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lara <i>et al.</i>, 2012",
+              "title": "A trophic study of the sympatric Amazonian freshwater turtles <i>Podocnemis unifilis</i> and <i>Podocnemis expansa</i> (Testudines, Podocnemidae) using carbon and nitrogen stable isotope analyses"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM DIREITA DO RIO NEGRO- SETOR PADUARI-SOLIMÕES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM ESQUERDA DO RIO NEGRO-SETOR ATURIÁ-APUAUZINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL NHAMUNDÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL PARQUE FLORESTAL DE SINOP",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Conceição, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Apurinã do Igarapé São João",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "Betania",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Vanzolini, 2003",
+              "title": "On clutch size and hatching success of the South America turtles <i>Podocnemis expansa</i> (Schweigger, 1812) and <i>P. unifilis</i> Troschel, 1848 (Testudines, Podocnemididae)"
+            }
+          ]
+        },
+        {
+          "name": "Cunhã-Sapucaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Cué Cué/ Marabitanas",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Deni",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "Inawebohona",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Portelinha <i>et al.</i>, 2007",
+              "title": "Ocorrência de padrões anormais na escutelação de quelônios no rio Javaés, Tocantins"
+            }
+          ]
+        },
+        {
+          "name": "Itixi Mitari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "INPA (Instituto Nacional de Pesquisas da Amazônia), 2016",
+              "title": "Coleção Herpetológica"
+            }
+          ]
+        },
+        {
+          "name": "Jaminawa do Igarapé Preto",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "Jumina",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Kampa do Rio Amonea",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2016",
+              "title": "Banco de registros de ocorrência de quelônios continentais"
+            }
+          ]
+        },
+        {
+          "name": "Kulina do Medio Jurua",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Paquiçamba",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Giarrizzo, 2022",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Araguaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Ataídes <i>et al.</i>, 2010",
+              "title": "Percepções sobre o consumo de quelônios no entorno do Parque Nacional do Araguaia, Tocantins: conhecimentos para conservação"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Tumucumaque",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Moreira, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Pequizal do Naruvôtu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pignati, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Rio Biá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Santos, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Rio Téa",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "Tenharim Marmelos (Gleba B)",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Vanzolini, 2003",
+              "title": "On clutch size and hatching success of the South America turtles <i>Podocnemis expansa</i> (Schweigger, 1812) and <i>P. unifilis</i> Troschel, 1848 (Testudines, Podocnemididae)"
+            }
+          ]
+        },
+        {
+          "name": "Tikúna de Feijoal",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Gurgel, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Uati-Paraná",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Scarda, 2018",
+              "title": "Cultivando tartarugas: implicações da agricultura de praia na conservação de populações de quelônios (<i>Podocnemis</i> spp.) na várzea do médio Rio Solimões, Amazonas, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Uaça",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Utaria Wyhyna/Iròdu Iràna",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Malvasio, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Waimiri-Atroari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Conway-Gómez, 2007",
+              "title": "Effects of human settlements on abundance of <i>Podocnemis unifilis</i> and <i>P. expansa</i> Turtles in Northeastern Bolivia"
+            }
+          ]
+        },
+        {
+          "name": "Wawi",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Moreira <i>et al.</i>, 2011",
+              "title": "<i>Podocnemis expansa</i> (Giant South American River Turtle). Nesting range expansion"
+            }
+          ]
+        },
+        {
+          "name": "Zoe",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 1998",
+              "title": "Esophageal Papillae in Pelomedusid Turtles"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>A pesquisa sobre <em>Podocnemis unifilis</em> avançou significativamente nos últimos 30 anos, especialmente no Brasil, Colômbia e Venezuela, mas ainda existem lacunas importantes no conhecimento de aspectos biológicos e ecológicos da espécie. Entre as principais prioridades de pesquisa e conservação destacam-se:</p> \n<p><strong>Ecologia populacional</strong>: É crucial realizar estudos de longo prazo sobre a abundância, densidade e dinâmica das populações. Tais dados ajudam a compreender a resposta da espécie a práticas de manejo, como regulamentações de captura e proteção de habitats. Os protocolos para monitorar a abundância e as densidades populacionais devem ser consistentes e padronizados para ajudar a identificar tendências populacionais ao longo do tempo (ou seja, crescente, estável, decrescente) (Norris <em>et al</em>., 2011; Andrade <em>et al</em>., 2022). Esses protocolos devem ser seguidos em paralelo com métodos alternativos (métodos indiretos), como contagens de ninhos em praias bem estabelecidas e por meio do design rigoroso de avaliações de conhecimento ecológico local (ou seja, percepção) da abundância de tracajás para auxiliar nas estratégias de gerenciamento, conservação e proteção das espécies.</p> \n<p><strong>Efeitos de diferentes sistemas de conservação</strong>: Programas de \"head-starting\", que envolvem a manutenção de filhotes em cativeiro e posterior soltura, precisam avaliar melhor os impactos na biologia dos filhotes e monitorar seus retornos à natureza para evitar efeitos negativos na demografia das populações naturais.</p> \n<p><strong>Proteção comunitária</strong>: Programas comunitários desempenham um papel fundamental na conservação, mas necessitam de acompanhamento científico para avaliar sua eficácia na recuperação populacional. Alguns exemplos de programas bem-sucedidos na proteção de áreas de nidificação e habitat foram relatados no Brasil (ver Campos-Silva <em>et al</em>., 2018; Andrade <em>et al</em>., 2022)</p> \n<p><strong>Pesquisas sobre estrutura e dinâmica populacional, reprodução e ecologia de desova</strong>: Estudos sobre taxa de sobrevivência, tempo de geração, longevidade, estimativa do tamanho das fêmeas nidificantes, seleção de áreas de nidificação, maturidade sexual, uso do habitat, rotas de migração e áreas de alimentação com base no sexo, tamanho e idade, frequência interanual de nidificação, número de ninhadas por estação e variação da distribuição geográfica, padrões de movimento e distribuição (Forero-Medina <em>et al</em>., 2016; Andrade <em>et al</em>., 2022) são essenciais para definir áreas de proteção e garantir a viabilidade das populações.</p> \n<p><strong>Estudos sobre o papel ecológico</strong>: A espécie tem um papel importante na dispersão de sementes e no ciclo de nutrientes, mas faltam estimativas sobre sua densidade funcional no ecossistema.</p> \n<p><strong>Estudos genéticos e impactos humanos</strong>: A preservação da variabilidade genética e a avaliação do impacto humano nas populações são fundamentais para o manejo eficaz.</p> \n<p>- Outros: Realizar estudos sobre reprodução em cativeiro desta espécie (conservação <em>ex-situ</em>) com pesquisas na área de reprodução, nutrição, instalações, sistemas de produção e manejo e sanidade de <em>P. unifilis</em> em cativeiro.</p> \n<p>Para <em>P. unifilis</em> ainda é necessário intensificar pesquisas científicas e reforçar programas de manejo e educação ambiental, com foco em práticas sustentáveis e proteção de áreas críticas.</p> \n<p> </p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Outro",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Acebey S., Rey-Ortíz G., Castellón C., Méndez D. &amp; Ávila P. (2009) <i>Podocnemis unifilis</i> In: Ministerio de Medio Ambiente y Agua (ed.) <i>Libro Rojo de la fauna silvestre de vertebrados de Bolivia</i>. La Paz, Bolivia,",
+          "Agostini, M. A. P., Machado, A. F., Ritter, C. D., Félix‐Silva, D., Pezzuti, J. C. B., Andrade, P. C. M., Pantoja‐Lima, J., Silva, V. M. N., Santos, M. L. A., Vogt, R. C., Oliveira, J. W. P. &amp; Farias, I. P. (2024) Riverscape features determining the genetic structure of the Yellow‐Spotted Amazon River Turtle (<i>Podocnemis unifilis</i>) in Brazilian Amazonia. <i>Biotropica</i>. 56 (4), e13323.",
+          "Aguirre, L.F., Aguayo, R., Balderrama, J.A., Cortez, C., Tarifa, T. &amp; Rocha, O. (2009) <i>Libro rojo de la fauna silvestre de vertebrados de Bolivia</i> La Paz, Bolivia, (Eds.). Ministerio de Medio Ambiente y Agua,",
+          "Alho, C. J. R. &amp; Pádua, L.F.M. (1982) Reproductive parameters and nesting behavior of the Amazon turtle <i>Podocnemis expansa</i> (Testudinata: Pelomedusidae) in Brazil. <i>Canadian Journal of Zoology</i>. 60, 97-103.",
+          "Andrade, P. C. M. (2012) <i>Manejo comunitário de quelônios no médio Amazonas e Juruá - Projeto Pé-de-Picha</i> Manaus, Gráfica Moderna, 174pp.",
+          "Andrade, P. C. M. (2015) <i>Manejo comunitário de quelônios (Família Podocnemididae - <i>Podocnemis unifilis</i>, <i>P. sextuberculata</i>, <i>P. expansa</i>, <i>P. erythrocephala erythrocephala</i>) no médio rio Amazonas e Juruá</i>. Tese de Doutorado. Instituto Nacional de Pesquisas da Amazônia. Manuas. 336pp.",
+          "Andrade, P. C. M., Garcez, J. R., Lima, A. C., Duarte, J. A. M., Anízio, T. L. F., Rodrigues, W. S., Oliveira, A. B. de &amp; Alves, H. R. B. (2021) Panorama da Quelonicultura no Brasil – Uma estratégia para conservação das espécies e geração de renda. <i>Aquaculture Brasil</i>. 22, 34-40.",
+          "Andrade, P. C. M., Oliveira, P. H. G., Lima, A. C., Mota, D. J. A., Silva, A. S. H., Oliveira, A. B., Almeida, C. D., Silva, E. B., Garcez, J. R., Silva, P. J. R., Silva, L. C. N., Monteiro, M. S., Silva, R. W., Anízio, T. L. F., Pontes, A. L. B., Teixeira, R. L., Silva, J. M., Duncan, W. L. P. &amp; Vogt, R. C. (2022) Community-Based Conservation and Management of Chelonians in the Amazon. <i>Frontiers in Ecology and Evolution</i>. 10, 1-24.",
+          "Andrade, P.C.M. (2008) Criação e manejo de quelônios no Amazonas. <i>Manaus: Ibama, ProVárzea</i>. 528 p.",
+          "Arraes, D.R.S. &amp; Tavares-Dias, M. (2014) Nesting and neonates of the yellow-spotted river turtle (<i>Podocnemis unifilis</i>, Podocnemididae) in the Araguari River basin, eastern Amazon, Brazil. <i>Acta Amazonica</i>. 44 (3), 387-392.",
+          "Ataídes, A.G. (2009) <i>Parâmetros populacionais, aspectos reprodutivos e importância socioeconômica de <i>P. unifilis</i> (Troschel, 1848) (Testudines, Podocnemididae), no entorno do Parque Nacional do Araguaia, Tocantins</i>. Dissertação de Mestrado. Mestrado em Ciências do Ambiente - Universidade Federal do Tocantins. Palmas – TO. 154 p.pp.",
+          "Ataídes, A.G., Malvasio, A. &amp; Parente, T.G. (2010) Percepções sobre o consumo de quelônios no entorno do Parque Nacional do Araguaia, Tocantins: conhecimentos para conservação. <i>Gaia Scientia</i>. 4 (1), 07-20.",
+          "Balensiefer, D.C. (2003) <i>Dieta de <i>Phrynops unifilis</i> (Testudines, Pelomedusidae) no período de seca em uma várzea no Médio Rio Solimões, Amazonas</i>. Dissertação de Mestrado. Mestrado em Biologia Tropical e Recursos Naturais - Universidade Federal do Amazonas. 34p.pp.",
+          "Balestra, R.A.M., Valadão, R.M., Vogt, R.C., Bernhard, R., Ferrara, C.R., Brito, E.S, Botero-Arias, R., Malvásio, A., Lustosa, A.P.G., Souza, F.L., Drummond, G.M., Bassetti, L.A.B., Coutinho, M.E., Junior, P.D.F., Campos, Z., Mendonça, S.H.S.T., Rocha, J.M.N.R. &amp; Luz, V.L.F. (2016) Roteiro para Inventários e Monitoramentos de Quelônios Continentais. <i>Biodiversidade Brasileira</i>. 6 (1), 114-152.",
+          "Batistella, A.M. (2003) <i>Ecologia de nidificação de <i>Podocnemis erythrocephala</i> (Testudines, Podocnemididae) em Campinas do Médio Rio Negro- AM</i>. Dissertação de Mestrado. Mestrado em Biologia Tropical e Recursos Naturais - Universidade Federal do Amazonas. 112p.pp.",
+          "Bernarde, P.S., Machado, R.A. &amp; Turci, L.C.B. (2011) Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <i>Biota Neotrópica</i>. 11 (3), 117-144.",
+          "Bock, B. C., Paéz, V. P. &amp; Perez, N. F. (1998) Estudio preliminar con radiotelemeria sobre los desplazamientos de hembras de la tortuga <i>Podocnemis unifilis</i> en el Rio Caqueta, Amazonas, Colombia. <i>Actual. Biol.</i> 20 (68), 29-36.",
+          "Bock, B.C., Paéz, V.P. &amp; White, M.M. (2001) Genetic population structure of two threatened South American river turtle species, <i>Podocnemis expansa</i> and <i>Podocnemis unifilis</i>. <i>Chelonian Conservation and Biology</i>. 4 (1), 47–52.",
+          "Brandão, R.A. (2002) Avaliação ecológica rápida da herpetofauna nas Reservas Extrativistas de Pedras Negras e Curralinho, Costa Marques, RO. <i>Brasil Florestal</i>. 74, 61-73.",
+          "Brasil (1967) <i>Lei Nº 5.197, de 3 de Janeiro de 1967. Dispõe sobre a proteção à fauna e dá outras providências</i>.",
+          "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>.",
+          "Brito, E.S., Strüssmann, C., Pignati, M.T. &amp; Martins, L.S.F. (2010) <i>Relatorio do Indicador Quelonios Aquaticos Reserva Biologica do Jaru, Rondonia. Programa Areas Protegidas da Amazonia</i>.",
+          "CITES (2015) (Convenção Sobre o Comércio Internacional de Espécies Ameaçadas da Fauna e Flora Silvestres). <a target=\"_blank\" href=\"https://www.cites.org\">https://www.cites.org</a>. [Acessado em: 16/jan/2016].",
+          "Cajaiba, R.L., Silva, W.B. &amp; Piovesan, P.R.R. (2015) Animais silvestres utilizados como recurso alimentar em assentamentos rurais no município de Uruará, Pará, Brasil. <i>Desenvolvimento e Meio Ambiente</i>. 34, 157-168.",
+          "Camillo, C. S., Santos, O. M., Sousa, I. S. &amp; Queiroz, H. L. (2012) Community based freshwater turtle conservation in middle Solimões river, AM, Brazil. <i>Uakari</i>. 8 (1), 35-44.",
+          "Camillo, C. S., Silva, G. A. &amp; Botero Arias, R. (2014) Nest site selection by <i>Podocnemis unifilis</i> (Testudines, Podocnemididae) in the margins of a small water channel, in Mamirauá Sustainable Development Reserve, Amazonas, Brazil . In: Turtles Suvival Alliance (TSA) (ed.) <i>Anais: 12th Annual Symposium on the Conservation and Biology of Tortoises and Freshwater Turtles</i> Orlando, Fl, USA.",
+          "Campos-Silva, J. V., Hawes, J. E., Andrade, P. C. M. &amp; Peres, C. A. (2018) Unintended multispecies co-benefits of an Amazonian community-based conservation programme. <i>Nature Sustainability</i>. 1 (11), 650-656.",
+          "Cantarelli, V. H., Malvasio, A. &amp; Verdade, L. M. (2014) Brazil’s <i>Podocnemis expansa</i> Conservation Program: Retrospective and Future Directions. <i>Chelonian Conservation and Biology</i>. 13 (1), 124-128.",
+          "Carrillo, E., Aldás, S., Altamirano, M., Ayala, F., Cisneros, D., Endara, A., Márquez, C., Morales, M., Nogales, F., Salvador, P., Torres, M. L., Valencia, J., Villamarin, F., Yánez, M. &amp; Zarate, P. (2005) Lista Roja de los Reptiles del Ecuador.",
+          "Charity, S. &amp; Ferreira, J. M. (2020) <i>Tráfico de Fauna Silvestre no Brasil</i> Cambridge, Reino Unido, 111pp.",
+          "Eisemberg, C. C., Drummond, G. M. &amp; Vogt, R. C. (2017) Boosting female hatchling production in endangered, male‐biased turtle populations. <i>Wildlife Society Bulletin</i>. 41 (4), 810-815.",
+          "Eisemberg, C. C., Vogt, R. C., Balestra, R. A. M., Reynolds, S. J. &amp; Christian, K. A. (2019) Don’t put all your eggs in one basket – Lessons learned from the largest-scale and longest-term wildlife conservation program in the Amazon Basin. <i>Biological Conservation</i>. 238, 108182.",
+          "Erickson, J., Farias, I. P. &amp; Zuanon, J. (2020) The life history of the Yellow-spotted Amazon River Turtle (<i>Podocnemis unifilis</i>) as told from the nests. <i>Salamandra</i>. 56 (4), 296–308.",
+          "Ernst, C.H. &amp; Barbour, R.W. (1989) Turtles of the World. <i>Smithsonian Institute Press, Washington, D.C. e Londres</i>. 313 p.",
+          "Escalona, T. (2003) <i>Maternal effects on reproductive success in a river turtle (<i>Podocnemis unifilis</i>) in southern Venezuela</i>. Tese de Doutorado. Tesis Doctoral, University of Missouri at St. Louis, St. Louis, Missouri, USA. 84 p.pp.",
+          "Escalona, T., Engstrom, T.N., Hernandez, O.E., Bock, B.C., Vogt, R.C. &amp; Valenzuela, N. (2009) Population genetics of the endangered South American freshwater turtle, <i>Podocnemis unifilis</i>, inferred from microsatellite DNA data. <i>Conservation Genetics</i>. 10, 1683–1696.",
+          "Fachín-Terán, A. &amp; Vogt, R.C. (2004) Estrutura populacional, tamanho e razão sexual de <i>Podocnemis unifilis</i> (Testudines, Podocnemididae) no Rio Guaporé (RO), norte do Brasil. <i>Phyllomedusa</i>. 3 (1), 29-42.",
+          "Fachín-Terán, A. &amp; Von Mühlen, E.M. (2003) Reproducción de la Taricaya, <i>Podocnemis unifilis</i> Troschel 1884 (Testudines: Podocnemididae) en la várzea del médio Solimões, Amazonas, Brasil. <i>Ecología Aplicada</i>. 2 (1), 125-132.",
+          "Fachín-Terán, A. (2005) Participação comunitária na preservação de praias para reprodução de quelônios na reserva de desenvolvimento sustentável Mamirauá, Amazonas, Brasil. <i>Uakari</i>. 1 (1), 9-18.",
+          "Fachín-Terán, A., Vogt, R. C. &amp; Thorbjarnarson, J. B. (2000) Plano de manejo de quelônios com participação cominitária na Reserva de Desenvolvimento Sustentável Mamirauá, Amazonas, Brasil In: Cabrera <i>et al.</i> (eds.) <i>Manejo de fauna silvestre en Amazonia y Latinoamerica</i>. Asunción, Paraguay, pp. 89-100.",
+          "Fagundes, C. K., Fath, F., Côrtes, L. G., Uhlig, V., Andrade, P. C. M., Vogt, R. C., Pezzuti, J. C. B. &amp; De Marco, J. P. (2021) A large scale analysis of threats to the nesting sites of <i>Podocnemis</i> species and the effectiveness of the coverage of these areas by the Brazilian Action Plan for Amazon Turtle Conservation. <i>Journal for Nature Conservation</i>. 61, 125997.",
+          "Fagundes, C. K., Vogt, R. C., de Souza, R. A. &amp; De Marco-Jr, P. (2018) Vulnerability of turtles to deforestation in the Brazilian Amazon: Indicating priority areas for conservation. <i>Biological Conservation</i>. 226, 300-310.",
+          "Fantini, C., Viana, L. S., Monjeló, L. A. S. &amp; Farias, I. P. (2008) Polyandry in <i>Podocnemis unifilis</i> (Pleurodira:Podcnemididae), the vulnerable yellow-spotted Amazon River turtle. <i>Amphibia Reptilia</i>. 29, 479-486.",
+          "Ferreira Jr., P.D. (2003) <i>Influência dos processos geomorfológicos e sedimentológicos na escolha das áreas de nidificação de <i>Podocnemis expansa</i> (tartaruga-da-amazônia) e <i>Podocnemis unifilis</i> (tracajá) na Bacia do Rio Araguaia. Ouro Preto</i>. Tese de Doutorado. PhD, Evolution Crustal and Natural Resources, Universidade Federal de Ouro Preto. Ouro Preto.",
+          "Ferreira Júnior, P. D. &amp; Castro, P. T. A. (2006) Thermal environment characteristics of <i>Podocnemis expansa</i> and <i>Podocnemis unifilis</i> nesting Areas on the Javaés river, Tocantins, Brazil. <i>Chelonian Conservation and Biology</i>. 5 (1), 102-107.",
+          "Ferreira Júnior, P. D. &amp; Castro, P. T. A. (2010) Nesting ecology of <I>Podocnemis expansa</i> (Schweigger, 1812) and <i>Podocnemis unifilis</i> (Troschel, 1848) (testudines; Podocnemididae) in the Javaes River, Brazil. <i>Brazilian Journal of Biology</i>. 70 (1), 85-94.",
+          "Ferreira Júnior, P. D., Castro, A. Z. &amp; Castro, P. T. A. (2005) Ambiente hídrico e desenvolvimento embrionário da tartaruga-da-amazônia (<i>Podocnemis expansa</i>) e do tracajá (<i>Podocnemis unifilis</i>) . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "Ferreira Júnior, P.D. &amp; Castro, P.T.A. (2003) Geological control of <i>Podocnemis expansa</i> and <i>Podocnemis unifilis</i> nesting areas in Rio Javaés, Bananal Island, Brazil. <i>Acta Amazonica</i>. 33 (3), 445-468.",
+          "Ferronato, B. O. &amp; Morales, V. M. (2012) Biology and Conservation of the Freshwater Turtles and Tortoise of Peru. <i>IRCF Reptiles and Amphibians</i>. 19 (2), 103-116.",
+          "Foote, R.W. (1978) Nesting of <i>Podocnemis unifilis</i> (Testudines: Pelomedusidae) in the Colombian Amazon. <i>Herpetologica</i>. 34, 333-339.",
+          "Forero-Medina, G., Páez, V. P., Garcés-Restrepo, M. F., Carr, J. L., Giraldo, A. &amp; Vargas-Ramírez, M. (2016) Research and conservation priorities for tortoises and freshwater turtles of Colombia. <i>Tropical Conservation Science</i>. 9 (4), 1-14.",
+          "Haller, E. C. P. &amp; Rodrigues, M. T. (2005) <i>Podocnemis unifilis</i>. Nests and Nesting. <i>Herpetological Review</i>. 36 (1), 60.",
+          "Haller, E.C.P. (2002) <i>Aspectos da biología reprodutiva de Podocnemis sextuberculata Cornalia, 1849 e <i>Podocnemis unifilis</i> Troschel, 1848 (Testudinata: pelomedusidae) na região do Rio Trombetas, Pará</i>. Dissertação de Mestrado. Mestrado em Zoologia - Universidade de São Paulo. São Paulo/SP.",
+          "Hinderaker, S. E. (2021) <i>Spatio-Temporal Ecology of Amazonian Freshwater Turtles</i>. Dissertação de Mestrado. Norwegian University of Life Sciences. Ås in Viken. 33pp.",
+          "IBAMA (2013) <i>Defeso - Águas Continentais. Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.</i>",
+          "IBGE (Instituto Brasileiro de Geografia e Estatística) (1977) Geografia do Brasil: região norte.",
+          "ICMBio (2013) Aplicação de Critérios e Categorias da UICN na Avaliação da Fauna Brasileira.",
+          "Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) (2016) <i>Manejo Conservacionista e Monitoramento Populacional de Quelônios Amazônicos</i>. Brasília-DF. 136ppp.",
+          "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (1989) <i>Projeto Quelônios da Amazônia 10 anos</i> Brasília/DF, Ibama, 119 p.pp.",
+          "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (2011) Portaria-ibama nº. 259, de 21 de março de 2011.",
+          "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (2015) Instrução Normativa IBAMA nº. 07 de 30/04/15. <a target=\"_blank\" href=\"http://www.ibama.gov.br/phocadownload/fauna_silvestre_2/legislacao_fauna/2015_ibama_in_07_2015_autorizacao_uso_fauna_empreendimentos.pdf\">http://www.ibama.gov.br/phocadownload/fauna_silvestre_2/legislacao_fauna/2015_ibama_in_07_2015_autorizacao_uso_fauna_empreendimentos.pdf</a>. [Acessado em: 10/out/2016].",
+          "Ibama (Instituto do Meio Ambiente e dos Recursos Naturais Renováveis) 2013 <i>Portaria Normativa-Ibama, no. 15 de 19 de julho de 2013 que reestrutura o Programa Quelônios da Amazônia – PQA. Diário Oficial da União, Seção 1, pág. 140</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2022) Instrução Normativa Nº 3/2022/GABIN/ICMBio, de 01 de abril de 2022. <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-conjunta-n-3-de-19-de-maio-de-2022-401493979\">https://www.in.gov.br/web/dou/-/portaria-conjunta-n-3-de-19-de-maio-de-2022-401493979</a>. [Acessado em: 20/mai/2022].",
+          "Iverson, J (2023) <i>Tempo Geracional de Quelônios</i>.",
+          "Karajá, A., Atai, A. G., Lima, T. &amp; Malvasio, A. (2011) Avaliação sobre o consumo de quelônios aquáticos na região de confluência dos rios Araguaia e Tocantins . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do V Congresso Brasileiro de Herpetologia</i> Curitiba - PR.",
+          "Kemenes, A. &amp; Pezzuti, J. C. B. (2007) Estimate of trade traffic of <i>Podocnemis</i> (Testudines, Pedocnemididae) from the Middle Purus River, Amazonas, Brazil. <i>Chelonian Conservation and Biology</i>. 6 (2), 259-262.",
+          "Le Gratiet, G., Maran. J., Métrailler, S. &amp; Oudjani, D. (2017) <i>Les chéloniens continentaux de Guyane française: répartition, reproduction en captivité et étymologie des noms scientifiques</i> Edição 43 L’Órtie dioïque, 48pp.",
+          "Lima, J. P., Pezzuti, J. C. B., Félix-Silva, D. &amp; rebelo, G. H. (2007) Biologia reprodutiva de <i>Podocnemis expansa</i>, <i>Podocnemis sextuberculata</i> e <i>Podocnemis unifilis</i>, na Reserva Biologica do Abufari, Amazonas, Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "Lima, J.P. (2007) <i>Aspectos da biologia reprodutiva de <i>Podocnemis expansa</i>, <i>Podocnemis sextuberculata</i> e <i>Podocnemis unifilis</i> (Testudines, Podocnemididae) na Reserva Biológica do Abufari, Amazonas, Brasil</i>. Dissertação de Mestrado. Mestrado em Biologia Tropical e Recursos Naturais - Convênio INPA/UA. Instituto Nacional de Pesquisas da Amazônia. 74ppp.",
+          "Lopes, G. P., Valsecchi, J., Vieira, T. M. Amaral, P. V. &amp; Costa, E. W. M. (2012) Hunting and hunters in lowland communities en the region of the middle Solimões, Amazonas, Brazil. <i>Uakari</i>. 8 (1), 7-18.",
+          "Malvasio, A., Segundo, J. P. B. S., Júnior, G. S., Ataídes, A. G., Montelo, K. M., Ijoraru, A., Karaja, D. A., Lopes, T. K. M., Prado, T. R. L. &amp; Portelinha, T. C. G. (2019) Biologia populacional e reprodutiva de <i>Podocnemis expansa</i> e <i>Podocnemis unifilis</i> no Parque Nacional do Araguaia, Tocantins: um histórico entre os anos de 2004 e 2012 In: Pinheiro (ed.) <i>Biodiversidade na região da Ilha do Bananal/Cantão</i>. Tocantins, EDUFT, pp. 77-102.",
+          "Medem, F. (1964) Morphlogie, öcologie und verbreitung der schildkröte <i>Podocnemis unifilis</i> in Kolumbien (Testudinata, Pelomedusidae). <i>Senckenbergiana Biologica</i>. 45 (3/5), 353-368.",
+          "Miorando, P. S. (2016) <i>Ecologia comparada do Tracajá, <i>Podocnemis unifilis</i>, em várzea de água branca e clara na bacia Amazônica (Testudines, Podocnemididae)</i>. Tese de Doutorado. Universidade Federal do Pará. Belém. 130pp.",
+          "Miorando, P. S., Giarrizzo, T. &amp; Pezzuti, J. C. B. (2015) Population structure and allometry of <i>Podocnemis unifilis</i> (Testudines, Podocnemididae) in a protected area upstream Belo Monte dam in Xingu River, Brazil. <i>Anais da Academia Brasileira de Ciências</i>. 87 (4), 2067-2079.",
+          "Mogollones, S.C., Rodriguez, D.J., Hernandez, O. &amp; Barreto, G.R. (2010) A Demographic Study of the Arrau Turtle (<i>Podocnemis expansa</i>) in the Middle Orinoco River, Venezuela. <i>Chelonian Conservation Biology</i>. 9 (1), 79-89.",
+          "Morais, P. B., Oliveira, K. W., Malvasio, A., Ataíde, A. G. &amp; Pimenta, R. S. (2010) Enterobacteriaceae Associated with Eggs of <i>Podocnemis expansa</i> and <i>Podocnemis unifilis</i> (Testudines: Chelonia) in Nonpolluted Sites of National Park of Araguaia Plains, Brazil. <i>Journal of Zoo and Wildlife Medicine</i>. 41 (4), 656-661.",
+          "Morais, P. B., Pimenta, R. S., Tavares, I. B., Garcia, V. &amp; Rosa, C. A. (2010) Yeasts Occurring in Surface and Mouth Cavity of Two Chelonian Species, <i>Podocnemis expansa</i> Schweigger and <i>P. unifilis</i> Troschel (Reptilia: Chelonia: Pelomedusidae), in the Javaés River Border of Araguaia National Park in Brazil. <i>International Journal of Microbiology</i>. (3), 1-5.",
+          "Morales-Betancourt, M. A., Lasso, C.A., Páez, V.P. &amp; Bock, B.C. (2015) <i>Libro rojo de reptiles de Colombia</i> Bogotá, Colombia, Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), Universidad de Antioquia, 258 p.pp.",
+          "Moura, C. C. M. M., Moura, G. J. B., Lisboa, E. B. F. &amp; Luz, V. L. F. (2014) Distribuição geográfica e considerações ecológicas sobre a fauna de Testudines da Região Nordeste do Brasil. <i>Sitientibus série Ciências Biológicas</i>. 14, 1-20.",
+          "Nascimento, C.A.R. (2009) <i>Histórico oficial do comércio ilegal de fauna no Estado do Amazonas</i>. Dissertação de Mestrado. Mestrado em Ciências do Ambiente e Sustentabilidade na Amazônia / Universidade Federal do Amazonas (UFAM). 53p.pp.",
+          "Nascimento, S. P. (2002) Observações sobre o comportamento de nidificação de três espécies de <i>Podocnemis</i> Wagler (Testudinata, Pelomedusidae) no Baixo Rio Branco, Roraima, Brasil. <i>Revista Brasileira de Zoologia</i>. 19 (1), 201-204.",
+          "Naveda-Rodríguez, A., Cueva, R. &amp; Zapata-Ríos, G. (2018) Space Use of Yellow-Spotted River Turtles (<i>Podocnemis unifilis</i>) in Yasuni National Park, Ecuador. <i>Chelonian Conservation and Biology</i>. 17 (1), 37-43.",
+          "Norris, D., Peres, C. A., Michalski, F. &amp; Gibbs, J. P. (2019) Prospects for freshwater turtle population recovery are catalyzed by pan-Amazonian community-based management. <i>Biological Conservation</i>. 233, 51-60.",
+          "Norris, D., Pitman, N. C. A., Gonzalez, J. M., Torres, E., Pinto, F., Collado, H., Concha, W., Thupa, R., Quispe, E. &amp; Perez, J. Castillo, J. C. F. (2011) Abiotic modulators of <i>Podocnemis unifilis</i> (Testudines: Podocnemididae) abundance in the Peruvian Amazon. <i>Zoologia</i>. 28 (3), 343-350.",
+          "Pantoja-Lima, J., Braga, T. M. P., Silva, D. F., Pezzuti, J. C. B. &amp; Rebelo, G. H. (2012) Mapeamento participativo do uso dos recursos naturais e conhecimento tradicional sobre ecologia de quelônios na várzea do rio Purus, Brasil. <i>Papers do NAEA</i>. 294, 22.",
+          "Pantoja-Lima, J., Pezzuti, J.C.B., Teixeira, A.S., Felix Silva, D., Rebelo, G.H., Monjelo, L.A.S. &amp; Kemenes, A. (2009) Seleção de locais de desova e sobrevivência de ninhos de quelônios <i>Podocnemis</i> no baixo rio Purus, Amazonas, Brasil. <i>Revista Colombiana de Ciencia Animal</i>. 1 (1), 37-59.",
+          "Paéz, V.P. &amp; Bock, B. (1998) Temperature effect on incubation period in the yellow-spotted river turtle, <i>Podocnemis unifilis</i>, in the Colombian Amazon. <i>Chelonian Conservation and Biology</i>. 3 (1), 31-36.",
+          "Pezzuti, J.C.B., Pantoja-Lima, J., Silva, D.F. &amp; Begossi, A. (2010) Uses and taboos of turtles and tortoises along Rio Negro, Amazon Basin. <i>Journal of Ethnobiology</i>. 30 (1), 153-168.",
+          "Pignati, M. T., Pezzuti, J. C. B., Souza, L. C., Lima, M. O., Pignati, W. A. &amp; Mendes, R. A. (2018b) Assessment of mercury concentration in Turtles (<i>Podocnemis unifilis</i>) in the Xingu River Basin, Brazil. <i>International Journal of Environmental Research and Public Health</i>. 15 (6), 1185.",
+          "Pignati, M. T., Souza, L. C., Mendes, R. A., Lima, M. O., Pignati, W. A. &amp; Pezzuti, J. C. B. (2018a) Levels of organochlorine pesticides in Amazon turtle (<i>Podocnemis unifilis</i>) in the Xingu River, Brazil. <i>Journal of Environmental Science and Health, Part B</i>. 53 (12), 810-816.",
+          "Ponce De Leão, S., Famelli, S. &amp; Vogt, R. C. (2019) Home range of Yellow-spotted Amazon River Turtles (<i>Podocnemis unifilis</i>) (Testudines: Podocnemididae) in the Trombetas River Biological Reserve, Pará, Brazil. <i>Chelonian Conservation and Biology</i>. 18 (1), 10.",
+          "Portelinha, T. C. G. (2007) <i>Estudo das populações de <i>Podocnemis expansa</i> e <i>Podocnemis unifilis</i> no rio Javaés, Tocantins</i>. Monografia. Universidade Federal do Tocantins. Palmas, Tocantins. 75pp.",
+          "Pritchard, P.C.H. &amp; Trebbau, P. (1984) <i>The turtles of Venezuela</i> 403ppp.",
+          "Páez, V. &amp; Bock, B. (2004) Factores pre y poseclosión que afectan las tasas de crecimiento de juveniles de la tortuga tericaya (<i>Podocnemis unifilis</i>). <i>Actualidades Biológicas</i>. 26 (81), 137-151.",
+          "Páez, V. P., Lipman, A., Bock, B. C. &amp; Heppell, S. S. (2015) A plea to redirect and evaluate conservation programs for South America’s Podocnemidid River Turtles. <i>Chelonian Conservation and Biology</i>. 14 (2), 205-216.",
+          "Páez, V. P., Morales-Betancourt, M. A., Lasso, C. A., Castaño-Mora, O. V. &amp; Bock, B. C. (2012) <i>Biología y conservación de las tortugas continentales de Colombia</i> Bogotá, Colombia, Instituto de Investigación de Recursos Biológicos Alexander von Humboldt, 528pp.",
+          "Rachmansah, A., Norris, D. &amp; Gibbs, J. P. (2020) Population dynamics and biological feasibility of sustainable harvesting as a conservation strategy for tropical and temperate freshwater turtles. <i>PLOS ONE</i>. 15 (2), e0229689.",
+          "Rhodin, A. G. J. (2021) Turtles of the World: Annotated Checklist and Atlas of Taxonomy, Synonymy, Distribution, and Conservation Status (9th Ed.). <i>Chelonian Research Monographs</i>. 9, 1-472.",
+          "Rhodin, A. G. J., Iverson, J. B., Bour, R., Fritz, U., Georges, A., Shaffer, H. B. &amp; van Dijk, P. P. (2021) Turtles of the world - Annoted Checklist and Atlas of Taxonomy, Synonymy, Distribution, and Conservation Status (9th Ed.). <i>Chelonian Research Monographs</i>. 8 (9), 1-486.",
+          "Ribeiro Ana Beatriz N., Santana Danilo N., Souza Jonatas C., Oliveira Marcos S.B., Magalhães Marcela S., Malvasio Adriana &amp; Silva Kellen L.F. (2023) Parasitic macrofauna of Podocnemis unifilis from the Tocantins and Javaés Rivers, Eastern Amazon, Brazil. <i>Pesquisa Veterinária Brasileira</i>. 43, 2-9.",
+          "Rivas, L. R., Eversole, C. B. &amp; Powell, R. L. (2023) Urban herpetofauna of Trinidad, Beni Department, Bolivia. <i>Herpetology Notes</i>. 16, 399-410.",
+          "Rodríguez, J.P. &amp; Rojas-Suárez, F. (2008) <i>Libro Rojo de la Fauna Venezolana</i> Edição Tercera Edición Caracas, Venezuela, Provita y Shell Venezuela, S.A., 364 pppp.",
+          "Rueda-Almonacid, J. V., Carr, J. L., Mittermeier, R. A., Rodríguez-Mahecha, J. V., Mast, R. B., Vogt, R. C., Rhodin, A. G. J., Ossa-Velásquez, J., Rueda, J. N. &amp; Mittermeier, C. G. (2007) <i>Las tortugas y los cocodrilianos de los países andinos del trópico. Serie de guías tropicales de campo</i> Edição 6 Bogotá, Colombia, Conservación Internacional., 538pp.",
+          "Schneider, L., Belger, L., Burger, J., Vogt, R. C. &amp; Ferrara, C. R. (2010) Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin. <i>Archives of Environmental Contamination and Toxicology</i>. 58 (2), 444-450.",
+          "Silva, O. D., Silva, J. S. H., Silva-Alves, V. D., Costa, T. M., Fermiano, E. C., Muniz, C. C., Ignácio, A. R. A., Carniello, M. A., Vênere, P. C., Santos, M. &amp; Silva, D. J. (2022) The midday sun reveals what the waters hide: <i>Podocnemis unifilis</i> Troschel, 1848 (Testudines, Podocnemididae), another exotic species in the Pantanal of Mato Grosso state. <i>Biota Neotropica</i>. 22 (3), e20211280.",
+          "Silva-Jr, N. J., Silva, H. L. R., Costa, M. C., Buononato, M. A., Tonial, M. L. S., Ribeiro, R. S., Moreira, L. A. &amp; Pessoa, A. M. (2007) Avaliação preliminar da fauna silvestre terrestre do Vale do Rio Caiapó, Goiás: implicações para a conservação da biodiversidade regional. <i>Estudos</i>. 34 (11/12), 1057-1094.",
+          "Soini, P. (1996) Reproducción, abundancia y situación de quelonios acuáticos en la Reserva Nacional Pacaya-Samiria, Perú. <i>Folia Amazónica</i>. 8, 147-164.",
+          "Souza, R.R. &amp; Vogt, R.C. (1994) Incubation temperature influences sex and hatchling size in the Neotropical turtle <i>Podocnemis unifilis</i>. <i>Journal of Herpetology</i>. 28, 453-464.",
+          "Souza-Araujo, J., Giarrizzo, T. &amp; Lima, M. O. (2015) Mercury concentration in different tissues of <i>Podocnemis unifilis</i> (Troschel, 1848) (Podocnemididae: Testudines) from the lower Xingu River – Amazonian, Brazil. <i>Brazilian Journal of Biology</i>. 75, 106-111.",
+          "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Podocnemis unifilis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17825A7506933.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17825A7506933.en</a>. [Acessado em: 18/jan/2016].",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Van Vliet, N. Cruz, D., Quiceno-Mesa, M. P., Neves de Aquino, L. J., Moreno, J., Ribeiro, R. &amp; Fa, J. (2015) Ride, shoot, and call: wildlife use among contemporary urban hunters in Três Fronteiras, Brazilian Amazon. <i>Ecology and Society</i>. 20 (3), 8.",
+          "Vanzolini, P. E. (1977) A brief biometrical note on the reproductive biology of some South American <i>Podocnemis</i> (Testudines, Pelomedusidae). <i>Papéis Avulsos de Zoologia, São Paulo</i>. 31 (5), 79-102.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Podocnemis unifilis Troschel, 1848</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Vogt, R.C. (2008) <i>Tartarugas da Amazônia</i> Edição 1ª. Manaus - AM, Editora INPA., 104pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

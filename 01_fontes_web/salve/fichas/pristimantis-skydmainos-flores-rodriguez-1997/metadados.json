@@ -1,0 +1,284 @@
+{
+  "id_ficha": "5147372b6967426253736d584b4538773735796373413d3d",
+  "nome_cientifico": "Pristimantis skydmainos (Flores & Rodriguez, 1997)",
+  "nome_cientifico_atual": "Pristimantis skydmainos (Flores & Rodriguez, 1997)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21451.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5147372b6967426253736d584b4538773735796373413d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pristimantis skydmainos</i>&nbsp;<span>(Flores & Rodriguez, 1997)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "29/05/2024",
+      "justificative": "<p><em>Pristimantis skydmainos </em>ocorre no bioma amazônico, sendo conhecida para o Brasil, Peru, Equador e Bolívia. No Brasil, possui somente um registro de ocorrência no estado do Acre, no Parque Nacional da Serra do Divisor. Esse registro é em área bem preservada, não havendo ameaças evidentes que possam colocar a espécie em risco de extinção. É possível que sua distribuição seja mais ampla no país. Por essas razões, <em>Pristimantis skydmainos </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2024. <i>Pristimantis skydmainos</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21451.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21451.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16499,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Strabomantidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pristimantis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pristimantis skydmainos</i>"
+        }
+      ],
+      "oldNames": "Eleutherodactylus karcharias, Eleutherodactylus skydmainos, Pristimantis (Pristimantis) skydmainos",
+      "commonNames": "",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pristimantis skydmainos</em> foi descrita para “Madre de Diós”, no Peru, e conhecida também para a Bolívia, Equador e Brasil (Padial <em>et al.,</em> 2004; Cisneros-Heredia <em>et al</em>., 2009; Souza, 2009). </p>",
+      "nationalDistribution": "<p>No Brasil, há registro confirmado somente no estado do Acre (Souza, 2009). No entanto, é possível que tenha uma distribuição mais ampla no país.</p>",
+      "states": "Acre",
+      "biomes": "Amazônia",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4b726d52775a5062684d4970783561426a63354e6d656f3668475449344d39687851436c437238334c656c777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "690523de8c3c214d4ec076f4f343c392.png",
+        "fileName": "Mapa de Pristimantis skydmainos.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pristimantis skydmainos</em> ocorre no bioma Amazônia, em planícies de inundação e florestas de terra firme, na vegetação baixa. Não está presente em <em>habitat</em> degradados. Reproduz-se por desenvolvimento direto e fêmeas prenhas podem conter de 11-25 óvulos maduros (Rodríguez <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há evidência de ameaças que possam colocar a espécie em risco de extinção, pois ocorre em área bem preservada.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p> Não há.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodríguez <i>et al.</i>, 2010",
+              "title": "Rodríguez, L., Martinez, J.L., Icochea, J., Angulo, A. &amp; Gascon, C. (2010) <i>Pristimantis skydmainos</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56970A11561638.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56970A11561638.en</a>. [Acessado em: 08/fev/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2009",
+              "title": "Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cisneros-Heredia, D. F., Armijos-Ojeda, D. &amp; Valarezo, K. (2009) First country record of <i>Pristimantis metabates</i> (Duellman and Pramuk) and distribution extension of <i>Pristimantis skydmainos</i> (Flores and Rodr??guez) in eastern Ecuador (Amphibia, Anura, Strabomantidae). <i>Herpetology Notes</i>. 2 (1), 185–188.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Padial, J.M., Gonzales, L., Reichle, S., Aguayo, R. &amp; De La Riva, I. (2004) First records of five species of the genus <i>Eleutherodactylus</i> Dumeril and Bibron, 1841 (Anura, Leptodactylidae) for Bolivia. <i>Graellsia. Madrid</i>. 60 (2), 167–174.",
+          "Rodríguez, L., Martinez, J.L., Icochea, J., Angulo, A. &amp; Gascon, C. (2010) <i>Pristimantis skydmainos</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56970A11561638.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56970A11561638.en</a>. [Acessado em: 08/fev/2012].",
+          "Souza, M.B. (2009) <i>Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais</i> Edição 1 Campinas, SP, Instituto de Filosofia e Ciências Humanas - IFCH Unicamp, 77pp.",
+          "Villacampa-Ortega, J., Serrano-Rojas, S.J. &amp; Whitworth, A. (2017) Amphibians of the Manu Learning Centre and Other Areas of the Manu Region. <a target=\"_blank\" href=\"https://crees-manu.org/field-guide-for-amphibians-in-manu/\">https://crees-manu.org/field-guide-for-amphibians-in-manu/</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

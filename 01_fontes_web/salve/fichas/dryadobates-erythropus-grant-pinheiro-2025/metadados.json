@@ -1,0 +1,298 @@
+{
+  "id_ficha": "6b4163797569415a584f716a62454d2b7943447544413d3d",
+  "nome_cientifico": "Dryadobates erythropus Grant & Pinheiro, 2025",
+  "nome_cientifico_atual": "Dryadobates erythropus Grant & Pinheiro, 2025",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)(PE)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2025",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.39814.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6b4163797569415a584f716a62454d2b7943447544413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dryadobates erythropus</i>&nbsp;<span>Grant & Pinheiro, 2025</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "11/2025",
+      "publicationDate": "23/03/2026",
+      "justificative": "<p><em>Dryadobates erythropus </em>é endêmica do Brasil, conhecida apenas do holótipo, coletado em 1963 onde atualmente é o bairro Tarumã, município de Curitiba, estado do Paraná. Não há mais ambiente apropriado para a espécie na região. Embora muitas outras localidades tenham sido amostradas ao longo das últimas seis décadas no Paraná, não há registros adicionais. Caso ainda exista alguma população remanescente, ela provavelmente é extremamente pequena, com menos de 50 indivíduos maduros. Portanto, <em>Dryadobates erythropus </em>foi avaliada como Criticamente em Perigo (CR) pelo critério D, sendo considerada possivelmente extinta.</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Instituto Boitatá",
+      "citation": "<p>Boitatá, I. 2026. <i>Dryadobates erythropus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.39814.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.39814.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 30819,
+      "deleted": false,
+      "lastAvaliationDate": "21/11/2025",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Aromobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dryadobates</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dryadobates erythropus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Dryadobates erythropus </em>é endêmica do Brasil, conhecida exclusivamente para sua localidade-tipo, na área que atualmente corresponde ao bairro Tarumã, no município de Curitiba, estado do Paraná (Grant &amp; Pinheiro, 2025). O único registro confirmado é do início da década de 1960 e considerado histórico.</p>",
+      "nationalDistribution": "",
+      "states": "Paraná",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Iguaçu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/455433455179314372456d587542714f744a4f6d7a707344663661534f5253784f676a532f73673052516a6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Dryadobates erythropus",
+        "diskFileName": "ce213e01d561bbaf5a9ceb8681f86024.png",
+        "fileName": "Mapa de Dryadobates erythropus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>Não há dados sobre história natural da espécie. A localidade-tipo foi descrita na época da coleta como \"grande campo cheio de cupinzeiros e touceiras de capim roído por vacas\" (Grant &amp; Pinheiro, 2025), enquanto a região foi descrita como \"caracterizada por árvores, riachos e extensos campos e áreas úmidas\" (Grant &amp; Pinheiro, 2025). Com base na história natural conhecida de espécies irmãs (Grant <em>et al</em>., 2025), é provável que <em>Dryadobates erythropus </em>tenha habitado a serrapilheira de ambientes florestados próximos a pequenos riachos.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é conhecida apenas do holótipo, coletado em 1963, onde hoje é o bairro de Tarumã, no município de Curitiba. Não há mais ambiente apropriado para <em>Dryadobates </em>na região (Grant &amp; Pinheiro, 2025). Embora muitas outras localidades tenham sido amostradas ao longo das últimas seis décadas no Paraná (Santos-Pereira <em>et al</em>., 2018), não há registros adicionais de <em>Dryadobates erythropus</em> ou de qualquer outro aromobatídio no estado (Grant &amp; Pinheiro, 2025). Com base nestas informações, a espécie é considerada como extinta (Grant &amp; Pinheiro, 2025).</p> \n<p>Caso ainda exista alguma população remanescente, ela provavelmente é extremamente pequena, com menos de 50 indivíduos maduros.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A vegetação nativa da localidade-tipo foi completamente suprimida como consequência da expansão urbana e de áreas comerciais (Grant &amp; Pinheiro, 2025). A floresta de Araucária, que predominava na região da localidade-tipo, já estava reduzida a apenas 12% da sua extensão original e com aproximadamente 80% da vegetação restante em fragmentos florestais menores do que 50 hectares em meados dos anos 2000 (Ribeiro <em>et al.</em>, 2009).</p> \n<p>Além da fragmentação e conversão do habitat, o fungo <em>Batrachochytrium dendrobatidis </em>(Bd) pode ter sido um dos agentes responsáveis pela extinção da espécie (Grant &amp; Pinheiro, 2025). Carvalho <em>et al.</em> (2017) mostraram que aproximadamente 30% dos girinos coletados entre o Rio de Janeiro (ca. 22°S, 41°30′W) e o sudeste do Paraná (ca. 26°S, 50°W) testaram positivo para o fungo. Grant &amp; Pinheiro (2025) também sugerem que eventos climáticos extremos podem ter atuado no declínio da espécie de <em>Dryadobates erythropus. </em>Uma geada severa ocorreu no Paraná em 1975, quando foram registradas as temperaturas mais baixas do século XX para Curitiba, resultando em impactos massivos na agricultura. Evento similar ocorrido em 1979 na Estação Ecológica de Boracéia, foi considerado por Heyer <em>et al.</em> (1988) como a causa das mudanças drásticas observadas na comunidade local de anuros.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.2 - Áreas comerciais e industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.7 - Doenças fúngicas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.1 - Plantações em pequenas propriedades",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.2 - Plantações agro-industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2025,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)<br>(PEX)",
+          "oficialCategory": true,
+          "criteria": "D",
+          "refBibs": [],
+          "orderBy": "Z2025"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Mais amostragens na região são necessários para confirmar se a espécie persiste.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Carvalho, T., Becker, C.G. &amp; Toledo, L.F. (2017) Historical amphibian declines and extinctions in Brazil linked to chytridiomycosis. <i>Proceedings of the Royal Society B: Biological Sciences</i>. 284 (1848), 20162254.",
+          "Grant, T. &amp; Pinheiro, P. D. P. (2025) A recently extinct new species of <i>Dryadobates</i> (Anura: Aromobatidae) from South Brazil: species description and implications for the historical distribution and recent extinction history of the clade. <i>Zootaxa</i>. 5693 (4), 583-595.",
+          "Grant, T., Lyra, M. L., Hofreiter, M., Preick, M., Barlow, A., Verdade, V. K. &amp; Rodrigues, M. T. (2025) Museomics and the systematics of the Atlantic Forest nurse frogs (Dendrobatoidea: Aromobatidae: Allobatinae). <i>Bulletin of the American Museum of Natural History</i>. 2025 (472), 1-76.",
+          "Heyer, W.R, Rand, A.S., Cruz, C.A.G. &amp; Peixoto, O.L. (1988) Decimations, extinctions, and colonizations of frog populations in southeast Brazil and their evolutionary implications. <i>Biotropica</i>. 20, 230-235.",
+          "Ribeiro, M.C., Metzger, J.P., Martensen, A.C., Ponzoni, F.J. &amp; Hirota, M.M. (2009) The Brazilian Atlantic Forest: How much is left, and how is the remaining forest distributed? Implications for conservation. <i>Biological Conservation</i>. 142 (6), 1141-1153.",
+          "Santos-Pereira, M., Pombal Jr., J. P. &amp; Rocha, C. F. D. (2018) Anuran amphibians in state of Paraná, southern Brazil. <i>Biota Neotropica</i>. 18 (3), e20170322."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

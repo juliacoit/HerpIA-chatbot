@@ -1,0 +1,472 @@
+{
+  "id_ficha": "6945463655584f6577636855317a36766c6b44346c673d3d",
+  "nome_cientifico": "Lygophis dilepis (Cope, 1862)",
+  "nome_cientifico_atual": "Lygophis dilepis (Cope, 1862)",
+  "nome_comum": "Cobra-D’água, Cobra-de-Cadarço, Corre-Campo",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28050.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6945463655584f6577636855317a36766c6b44346c673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Lygophis dilepis</i>&nbsp;<span>(Cope, 1862)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "27/04/2026",
+      "justificative": "<p><em>Lygophis dilepis</em> ocorre no Brasil, Argentina, Paraguai e Bolívia. No Brasil, a espécie possui ampla distribuição geográfica, sendo encontrada nos biomas Caatinga, Cerrado, Pantanal e enclaves de mata úmida na Caatinga. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Lygophis dilepis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Lygophis dilepis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28050.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28050.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7444556b4e426c68434569742f726f673057744270513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19264,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Lygophis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Lygophis dilepis</i>"
+        }
+      ],
+      "oldNames": "Aporophis dilepis, Aporophis lineatus, Liophis dilepis, Liophis lineatus dilepis, Lygophis lineatus dilepis",
+      "commonNames": "Cobra-D’água, Cobra-de-Cadarço, Corre-Campo",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Lygophis dilepis</em> ocorre no Brasil, Argentina, Paraguai e Bolívia (Fugler <em>et al</em>., 1995; Guedes<em> et al</em>., 2014; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie ocorre na Caatinga, inclusive em enclaves de mata úmida, Cerrado e Pantanal (Guedes<em> et al</em>., 2014; Caldas <em>et al</em>., 2016; Roberto &amp; Loebmann, 2016; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Alagoas, Bahia, Ceará, Maranhão, Mato Grosso do Sul, Minas Gerais, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Paraguai 01, Sub-bacia Paraíba, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Médio, Sub-bacia Piranhas, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/514c42386a51663274716e72544258354f5a526c523646346b536c374c39737066655a31596466464d79486e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Lygophis dilepis",
+        "diskFileName": "4a4156c54671a4cdd29fc9793c4fa4e9.png",
+        "fileName": "Mapa de Lygophis dilepis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>É terrestre, aquática e diurna (Rodrigues, 1996; Yanosky <em>et al.,</em> 1996). Apresenta ciclo reprodutivo sazonal, com duas ou mais desovas por ano e fecundidade de três a dez ovos; atinge a maturidade sexual com pelo menos um ano de idade (Vitt, 1992). Alimenta-se de anuros (Michaud &amp; Dixon, 1989; Yanosky <em>et al.,</em> 1996).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Williams <i>et al.</i>, 2019",
+              "title": "Williams, J., Giraudo, A., Arzamendia, V., Fitzgerald, L. &amp; Scrocchi, G. (2019) <i>Lygophis dilepis</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/176833/61319015\">https://www.iucnredlist.org/species/176833/61319015</a>. [Acessado em: 31/mar/2026]."
+            }
+          ],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Embert, 2010",
+              "title": "Embert, D. (2010) <i>Lygophis dilepis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176833A7313451.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176833A7313451.en</a>. [Acessado em: 11/dez/2012]."
+            }
+          ],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cavernas do Peruaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caldas <i>et al.</i>, 2016",
+              "title": "Herpetofauna of protected areas in the Caatinga V: Seridó Ecological Station (Rio Grande do Norte, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BACIA DO RIO PANDEIROS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arajara Park",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Margarida",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tapeba",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Caldas, F.L.S., Costa, T.B., Laranjeiras, D.O., Mesquita, D.O. &amp; Garda, A.A. (2016) Herpetofauna of protected areas in the Caatinga V: Seridó Ecological Station (Rio Grande do Norte, Brazil). <i>Check List</i>. 12 (4), 1929.",
+          "Embert, D. (2010) <i>Lygophis dilepis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176833A7313451.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176833A7313451.en</a>. [Acessado em: 11/dez/2012].",
+          "Fugler, C. M., De La Riva, I. &amp; Cabot, J. (1995) Herpetologica boliviana: una lista comentada de las serpientes de Bolivia con datos sobre su distribucion. <i>Ecologia en Bolivia</i>. 24, 40-87.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Guedes, T.B., Nogueira, C. &amp; Marques, O.A.V. (2014) Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <i>Zootaxa</i>. 3863, 1-93.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Michaud, E.J. &amp; Dixon, J.R. (1989) Prey items of 20 species of the Neotropical colubrid snake genus <i>Liophis</i>. <i>Herpetological Review</i>. 20, 39-41.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Rodrigues, M.T. (1996) Lizards, snakes, and amphisbaenians from the quaternary sand dunes of the middle Rio São Francisco, Bahia, Brazil. <i>Journal of Herpetology</i>. 30 (4), 513-523.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Vitt, L.J. (1992) Diversity of reproductive strategies among Brazilian lizards and snakes: the significance of lineage and adaptation In: Hamlett (ed.) <i>Reproductive Biology of South American Vertebrates</i>. New York, Springer-Verlag, pp. 135-149.",
+          "Wallach, V., Williams, K. L. &amp; Boundy, J. (2014) <i>Snakes of the world: a catalogue of living and extinct species</i> Edição 1 ed. Boca Raton, FL, CRC Press, 1257pp.",
+          "Williams, J., Giraudo, A., Arzamendia, V., Fitzgerald, L. &amp; Scrocchi, G. (2019) <i>Lygophis dilepis</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/176833/61319015\">https://www.iucnredlist.org/species/176833/61319015</a>. [Acessado em: 31/mar/2026].",
+          "Yanosky, A.A., Dixon, J.R. &amp; Mercolli, C. (1996) Ecology of the snake communityat El Bagual Ecological Reserve, Northeastern Argentina. <i>Herpetological Natural</i>. 4 (2), 97-110."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

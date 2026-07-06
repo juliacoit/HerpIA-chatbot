@@ -1,0 +1,439 @@
+{
+  "id_ficha": "61344e716c64574c6d66597566533165514a47346b513d3d",
+  "nome_cientifico": "Leptodactylus jolyi Sazima & Bokermann, 1978",
+  "nome_cientifico_atual": "Leptodactylus jolyi Sazima & Bokermann, 1978",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20304.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=61344e716c64574c6d66597566533165514a47346b513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus jolyi</i>&nbsp;<span>Sazima & Bokermann, 1978</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "24/01/2023",
+      "justificative": "<p><em>Leptodactylus </em>jolyi é endêmica do Brasil, com registros de ocorrência em áreas de Mata Atlântica e Cerrado nos estados de São Paulo, Minas Gerais e Mato Grosso do Sul. A espécie pode ser encontrada em ambientes alterados e possui ampla distribuição, não havendo ameaças evidentes que possam colocá-la em risco de extinção. Por estas razões, <em>Leptodactylus jolyi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus jolyi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20304.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20304.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15714,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus jolyi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Giaretta &amp; Costa (2007) redescreveram <em>Leptodactylus jolyi</em> com base na morfologia de adultos e vocalizações, e sugerem que as subpopulações de grandes <em>Leptodactylus</em> (machos em torno de 50 mm) do Cerrado de Minas Gerais e São Paulo podem ser coespecíficas de <em>L. sertanejo</em>.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Leptodactylus jolyi</em> é endêmica do Brasil, com registros de ocorrência nos estados de São Paulo (Sazima &amp; Bokermann, 1978; Giaretta &amp; Costa, 2007; Araújo <em>et al</em>., 2009), Minas Gerais (Canelas &amp; Bertoluci, 2007; São-Pedro &amp; Feio, 2011; Neves <em>et al</em>., 2017) e Mato Grosso do Sul (Uetanabaro <em>et al</em>., 2007).</p> \n<p></p>",
+      "nationalDistribution": "",
+      "states": "Mato Grosso do Sul, Minas Gerais, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/655531794b51644169722f777342674e5958706564396852782b42453968666437734850767a62685678336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "6203b6a78ceb6e88c72222593fabc1b1.png",
+        "fileName": "Mapa de Leptodactylus jolyi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Leptodactylus jolyi </em>é terrestre e pode ser encontrada em ambientes alterados, tais como terrenos em áreas urbanas próximos de corpos d'água. A reprodução ocorre na estação chuvosa (setembro a fevereiro), quando cavam ninhos próximos a poças temporárias. Os machos vocalizam dentro de câmaras subterrâneas ou expostos (Giaretta &amp; Costa, 2007). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perturbação em algumas localidades na área de distribuição da espécie, causada principalmente pelo fogo e atividade turística (Giaretta, 2010), não há evidências de que essas ameaças possam colocá-la em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Giaretta, 2010",
+              "title": "Giaretta, A.A. (2010) <i>Leptodactylus jolyi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57134A11589035.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57134A11589035.en</a>. [Acessado em: 04/fev/2011]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Eterovick & Sazima, 2004",
+              "title": "Anfíbios da Serra do Cipó, Minas Gerais - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bodoquena",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Uetenabaro <i>et al.</i>, 2007",
+              "title": "Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Eterovick & Sazima, 2004",
+              "title": "Anfíbios da Serra do Cipó, Minas Gerais - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro <i>et al.</i>, 2005",
+              "title": "Amphibians of an open cerrado fragment in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro <i>et al.</i>, 2005",
+              "title": "Amphibians of an open cerrado fragment in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DE ITATIAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "São-Pedro & Feio, 2011",
+              "title": "Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Efeito do fogo na composição, distribuição e dieta de uma taxocenose de anfíbios anuros de campos rupestres em Ouro preto, MG"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA HIDROGRÁFICA DO RIO MACHADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira do Cerradão",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre a conservação e manutenção do seu hábitat são necessárias, bem como pesquisa taxonômica para confirmar a identidade de alguns espécimes atribuídos à espécie (Giaretta, 2010). </p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Araújo, O.G.S.; Toledo, L.F.; Garcia, P.C.A. &amp; Haddad, C.F.B. 2009. The Amphibians of São Paulo State, Brazil. <b>Biota Neotropica</b>, 9 (4): p.197-209.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Canelas, M.A.S. &amp; Bertoluci, J. 2007. Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal. <b>Iheringia, Série Zoologia</b>, 97: p.21-26.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Giaretta, A.A. &amp; Costa, H.C.M. 2007. A redescription of <I>Leptodactylus jolyi</i> Sazima and Bokermann (Anura, Leptodactylidae) and the recognition of a new closely related species. <b>Zootaxa</b>, 1608: p.1-10.",
+          "Giaretta, A.A. 2010. <i>Leptodactylus jolyi</i>. <b>The IUCN Red List of Threatened Species. Versão 2010.4.</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57134A11589035.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57134A11589035.en</a>. Acessado em: 04/02/2011.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Neves, M.O.N.; Pereira, E.A.; Lima, L.M.C.; Folly, H.; Oliveira, E.F.; Santana, D.J. &amp; Feio, R.N. 2017. Anurans of serra negra da mantiqueira, zona da mata of Minas Gerais, Brazil: A priority area for biodiversity conservation. <b>Herpetology Notes</b>, 10: p.297-311.",
+          "Sazima, I. &amp; Bokermann, W.C.A. 1978. Cinco novas especies de <i>Leptodactylus</i> do centro e sudeste Brasileiro (Amphibia, Anura, Leptodactylidae). <b>Revista Brasileira de Biologia</b>, 38: p.899–912.",
+          "São-Pedro, V.A. &amp; Feio, R.N. 2011. Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil. <b>Check List</b>, 7 (5): p.671-680.",
+          "Uetenabaro, M.; Souza, F.L.; Landgref-Filho, P.; Beda, A.F. &amp; Brandão, R.A. 2007. Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil. <b>Biota Neotropica</b>, 7 (3): p.279-289."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

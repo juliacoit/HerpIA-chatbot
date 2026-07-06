@@ -1,0 +1,335 @@
+{
+  "id_ficha": "45614b2b58775459336c2f4c714851693778645350673d3d",
+  "nome_cientifico": "Leptodactylus cunicularius Sazima & Bokermann, 1978",
+  "nome_cientifico_atual": "Leptodactylus cunicularius Sazima & Bokermann, 1978",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19757.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=45614b2b58775459336c2f4c714851693778645350673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus cunicularius</i>&nbsp;<span>Sazima & Bokermann, 1978</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Leptodactylus cunicularius </em>é endêmica do Brasil, com registros de ocorrência na Serra do Espinhaço, Serra da Mantiqueira e no extremo oeste do estado de Minas Gerais. Apesar de impactos locais provocados por atividades antrópicas, a espécie é comum e possui ampla distribuição. Não foram identificadas ameaças que a coloquem em risco de extinção. Por estas razões, <em>Leptodactylus cunicularius </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus cunicularius</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19757.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19757.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15614,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus cunicularius</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Leptodactylus cunicularius</em> é endêmica do Brasil, com registros de ocorrência na Serra do Espinhaço, Serra da Mantiqueira e no extremo oeste do estado de Minas Gerais (Eterovick &amp; Sazima, 2004; Giaretta <em>et al</em>., 2008; São-Pedro &amp; Feio, 2010, 2011; Barata <em>et al</em>., 2016). Sua extensão de ocorrência é de 149.715 km2, calculada via mínimo polígono convexo a partir dos pontos de registro. </p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Paranaíba, Sub-bacia São Francisco Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5436504634536f5538446e45706f4a6456666442424d636b4e59722b514f417548434b775648462b7333666e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "98840c53cb85e1598b1cfd1e6081ae15.png",
+        "fileName": "Mapa de Leptodactylus cunicularius.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Leptodactylus cunicularius</em> coloca os ovos em ninhos de espuma subterrâneos ou debaixo de pedras, e os girinos são transportados pela água para poças e riachos. </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Leptodactylus cunicularius </em>é uma espécie comum (F. Leite, com. pess., 2011). </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora o fogo e a perturbação do hábitat pelos turistas em algumas localidades representem ameaças (Nascimento <em>et al</em>. 2004), não existem evidências de que esses impactos possam colocar a espécie em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 2004",
+              "title": "Nascimento, L.B., Eterovick, P.C. &amp; Silvano, D. (2004) <i>Leptodactylus cunicularius</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57120A11585068.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57120A11585068.en</a>. [Acessado em: 09/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARQUE ESTADUAL BIRIBIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "São-Pedro & Feio, 2011",
+              "title": "Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira do Cerradão",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Barata, I.M.; Correia, C.M. &amp; Ferreira, G.B. 2016. Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil. <b>Herpetological Conservation and Biology</b>, 11 (2): p.293-303.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Eterovick, P.C. &amp; Sazima, I. 2004. <b>Anfíbios da Serra do Cipó, Minas Gerais - Brasil</b>. p.152. PUC Minas Belo Horizonte.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Giaretta, A.A.; Menin, M.; Facure, K.G.; Kokubum, M.N.C. &amp; Oliveira-Filho, J.C. 2008. Species richness, relative abundance, and habitat of reproduction of terrestrial frogs in the Triângulo Mineiro region, Cerrado biome, southeastern Brazil. <b>Iheringia, Série Zoologia</b>, 98 (2): p.181-188.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Nascimento, L.B.; Eterovick, P.C. &amp; Silvano, D., 2004. <i>Leptodactylus cunicularius</i>. The IUCN Red List of Threatened Species 2004: e.T57120A11585068, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57120A11585068.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57120A11585068.en</a>. Acessado em: 09/11/2011.",
+          "São-Pedro, V.A. &amp; Feio, R.N. 2010. Distribuição espacial e sazonal de anuros em três ambientes na Serra do Ouro Branco, extremo sul da Cadeia do Espinhaço, Minas Gerais, Brasil. <b>Biotemas</b>, 23 (1): p.143-154.",
+          "São-Pedro, V.A. &amp; Feio, R.N. 2011. Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil. <b>Check List</b>, 7 (5): p.671-680."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

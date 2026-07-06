@@ -1,0 +1,602 @@
+{
+  "id_ficha": "4c6c3964562b2b6b4f43797442636c3045562f5972673d3d",
+  "nome_cientifico": "Micrurus decoratus (Jan, 1858)",
+  "nome_cientifico_atual": "Micrurus decoratus (Jan, 1858)",
+  "nome_comum": "Cobra Coral Decorada",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28065.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4c6c3964562b2b6b4f43797442636c3045562f5972673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Micrurus decoratus</i>&nbsp;<span>(Jan, 1858)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Micrurus decoratu s</em>é endêmica do Brasil, com registros de ocorrência em áreas altas da Mata Atlântica, entre o sul do Espírito Santo e o nordeste de Santa Catarina. A espécie parece ser rara, mas possui ampla distribuição e já foi registrada em áreas moderadamente antropizadas. Assim, as ameaças não devem colocá-la em risco de extinção em curto prazo. Por esses motivos, <em>Micrurus decoratus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Micrurus decoratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28065.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28065.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7444556b4e426c68434569742f726f673057744270513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19279,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Elapidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Micrurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Micrurus decoratus</i>"
+        }
+      ],
+      "oldNames": "Elaps decoratus, Elaps ezequieli, Elaps fischeri",
+      "commonNames": "Cobra Coral Decorada",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Micrurus decoratus</em> é endêmica do Brasil, com registros de ocorrência na Mata Atlântica entre o sul do Espírito Santo e o nordeste de Santa Catarina, em altitudes entre 400 e 1.600 metros (Terribile <em>et al</em>., 2007; Gonzalez <em>et al</em>., 2014; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 170.026 km2, calculada via mínimo polígono convexo a partir dos registros. </p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Grande, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/432f78494748427845784138357068383054587245436f58494b77776e5a37316d6e7637584f663969696e6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "7c8628b34a8b2666d523e5be0c66f9c7.png",
+        "fileName": "Mapa de Micrurus decoratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Micrurus decoratus</em> é terrestre e criptozoica (Hartmann <em>et al.,</em> 2009), com atividade tanto diurna quanto noturna (Marques <em>et al.,</em> 2001), e pode ocorrer em áreas relativamente alteradas (R. Bérnils, com. pess., 2019). Aparentemente, procura suas presas, gimnofionas e anfisbenas, ativamente na serapilheira ou sob o solo (Campbell &amp; Lamar, 1989; Marques, 2002; Hartmann <em>et al</em>., 2009). A espécie é ovípara e atinge a maturidade sexual com cerca de 541 e 516 mm de comprimento total em machos e fêmeas, respectivamente (Marques, 2002). O ciclo reprodutivo pode ser similar ao de <em>M. corallinus</em>, com vitelogênese no início, oviposição no meio e recrutamento de juvenis no fim da estação chuvosa ou início da estação seca (Marques, 2002).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p><em>Micrurus decoratus </em>ocorre em ambientes de florestas ombrófilas densas de Mata Atlântica, em terras altas (Hartmann <em>et al</em>., 2009; Gonzalez <em>et al</em>., 2014), frequentemente com altitude acima de 1000 m.</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa é uma ameaça local para a espécie, mas considerando sua ampla distribuição, não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ação específica para a conservação da espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z &amp; Costa, T.B.G. (2019) <I>Micrurus decoratus</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15202852A123739864.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15202852A123739864.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio São João/Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roze, 1996",
+              "title": "Coral snakes of the Americas. Biology, identification and venoms"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA CAJAMAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SAPUCAí MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Terribile <i>et al.</i>, 2007",
+              "title": "Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DA CONCÓRDIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Hartmann, 2005",
+              "title": "História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO JURUPARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roze, 1996",
+              "title": "Coral snakes of the Americas. Biology, identification and venoms"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO ALTO IGUAçU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roze, 1996",
+              "title": "Coral snakes of the Americas. Biology, identification and venoms"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Caetezal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Gonzalez <i>et al.</i>, 2014",
+              "title": "Review of the geographic distribution of <i>Micrurus decoratus</i> (Jan, 1858)(Serpentes: Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Barra do Sana",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Roça Grande",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Suspiro",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Campbell, J.A. &amp; Lamar, W.W. 1989. <b>The venomous reptiles of Latin America</b>. p.425. Cornell University Press Ithaca, New York.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Gonzalez, R.C.; Silva-Soares, T.; Castro, T.M. &amp; Bérnils, R.S. 2014. Review of the geographic distribution of <i>Micrurus decoratus</i> (Jan, 1858)(Serpentes: Elapidae). <b>Phyllomedusa</b>, 13 (1): p.29-39.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2009. Ecologia e história natural de uma taxocenose de serpentes no Núcleo Santa Virgínia do Parque Estadual da Serra do Mar, no sudeste do Brasil. <b>Biota Neotropica</b>, 9 (3): p.173-184.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Marques, O.A.V. 2002. Natural history of the coral snake <i>Micrurus decoratus</i> (Elapidae) from the Atlantic Forest in Southeast Brazil, with comments on possible mimicry. <b>Amphibia-Reptilia</b>, 23 (2): p.228-232.",
+          "Marques, O.A.V.; Eterovic, A. &amp; Sazima, I. 2001. <b>Serpentes da Mata Atlântica: guia ilustrado para a Serra do Mar</b>. p.184. Holos Ribeirão Preto, SP.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z &amp; Costa, T.B.G. 2019. <I>Micrurus decoratus</I>. <b>The IUCN Red List of Threatened Species 2019: e.T15202852A123739864</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15202852A123739864.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15202852A123739864.en</a>.",
+          "Terribile, L.C.; Anacleto, T.C.S.; Silva Jr., N.J. &amp; Diniz-Filho, J.A.F. 2007. Potential geographic distribution of the coral snake <I>Micrurus decoratus</i> Jan, 1858 (Serpentes, Elapidae) in the Atlantic Rain Forest of Brazil. <b>Arquivos do Museu Nacional</b>, 65 (2): p.217-223."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

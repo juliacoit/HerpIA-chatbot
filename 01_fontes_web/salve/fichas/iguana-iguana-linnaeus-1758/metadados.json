@@ -1,0 +1,914 @@
+{
+  "id_ficha": "466f505a46303457674b6f46445530655757554e69413d3d",
+  "nome_cientifico": "Iguana iguana (Linnaeus, 1758)",
+  "nome_cientifico_atual": "Iguana iguana (Linnaeus, 1758)",
+  "nome_comum": "camaleão, cambaleão, iguana, iguana-comum, iguana-verde, iguano, papa-vento, senembi, senembu, sinimbu, sinumbu, tijibu",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35776.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=466f505a46303457674b6f46445530655757554e69413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Iguana iguana</i>&nbsp;<span>(Linnaeus, 1758)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "31/03/2026",
+      "justificative": "<p><em>Iguana iguana</em> é encontrada nas Américas Central e do Sul, ocorrendo também em ilhas do Caribe. No Brasil, possui ampla distribuição na Amazônia, Caatinga e norte do Cerrado. A espécie pode habitar em uma variedade de habitat, incluindo ambientes alterados, sendo abundante em boa parte de sua distribuição. Não há ameaças que a coloquem em risco de extinção. Portanto, <em>I. </em><em>iguana</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Iguana iguana</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35776.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35776.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24436,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Iguanidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Iguana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Iguana iguana</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "camaleão, cambaleão, iguana, iguana-comum, iguana-verde, iguano, papa-vento, senembi, senembu, sinimbu, sinumbu, tijibu",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Iguana iguana</em> possui ampla distribuição na América Central e do Sul, ocorrendo também em ilhas do Caribe (Bock &amp; McCracken, 1988; Rodda, 1990; Nogueira, 2006; Cole <em>et al</em>., 2013; Ribeiro-Júnior, 2015). A espécie foi introduzida na Flórida, nos Estados Unidos (Meshaka, 2011).</p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, apresenta ampla distribuição, ocorrendo principalmente na Amazônia, na Caatinga e no norte do Cerrado (Avila-Pires <em>et al.</em>, 2010; Nogueira, 2006; Loebmann &amp; Haddad, 2010; Ribeiro-Júnior, 2015; Roberto &amp; Loebmann, 2016).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Pará, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Rondônia, Roraima, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral SE, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraguai 01, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Paru, Sub-bacia Piranhas, Sub-bacia Purus, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/444b59666156544d463275576c7745654c77435a6163677844394a4a6b61726533326f7750496e4f394b586f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Iguana iguana.",
+        "diskFileName": "cde05a95ac904d9cc2ed087a15328743.png",
+        "fileName": "Mapa de Iguana iguana.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie apresenta elevada capacidade de adaptação a ambientes alterados. No Cerrado, aparenta ocorrer principalmente em matas de galeria ou em formações com cobertura florestal (Nogueira, 2006; dal Vechio <em>et al.</em>, 2013). Na Caatinga, é encontrada em áreas de solo arenoso, na serrapilheira, sobre troncos suspensos ou caídos, na vegetação herbácea, em bromélias e na vegetação arbustiva (M. Tinôco, com. pess., 2013). É diurna e arborícola, podendo eventualmente forragear no solo (Avila-Pires, 1995; Mesquita <em>et al.</em>, 2006). Diferentemente da maioria dos Lacertilia, é basicamente herbívora, alimentando-se ocasionalmente de invertebrados e ovos de aves (Avila-Pires, 1995; Campos, 2014). A habilidade de nadar quando ameaçada também já foi registrada (Martins, 1991). Entre seus predadores conhecidos estão a serpente <em>Siphlophis compressus</em> (Mollo-Neto <em>et al.</em>, 2013) e a coruja <em>Pulsatrix perspicillata</em> (Bessier <em>et al.</em>, 2010). A ninhada pode atingir até 71 ovos, e a oviposição ocorre no início da estação seca (Avila-Pires, 1995).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>É uma espécie abundante em quase toda a sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças que coloquem a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A espécie pode ser utilizada localmente para alimentação, comércio de pele e na medicina tradicional. A carne desse animal é tida como iguaria por algumas populações tradicionais. Seus ovos também são consumidos, apesar do \"pitiú\" (mau cheiro) (Cosendey, 2020)</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana|1.1 - Caça de subsistência",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "12 - Vestuário, acessório",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "5 - Medicina humana ou veterinária",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2022,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2022"
+        },
+        {
+          "type": "Global",
+          "year": 2020,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2020"
+        },
+        {
+          "type": "Global",
+          "year": 2018,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 1977,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2015",
+              "title": "Reptiles in an ecotonal area in northern State of Piauí , Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Iguana iguana"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2020",
+              "title": "Herpetofauna from the Estação Ecológica Rio Acre, Amazon Rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder <i>et al.</i>, 2011",
+              "title": "Répteis da Estação Ecológica Serra Geral do Tocantins, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Mulata",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Iguana iguana"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Negreiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2015",
+              "title": "Herpetofauna em remanescente de Caatinga no Sertão de Pernambuco, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2015",
+              "title": "Reptiles in an ecotonal area in northern State of Piauí , Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Capivara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN, 2019",
+              "title": "Base de dados de pesquisa para testes de protocolo do Programa Monitora"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Iguana iguana"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro <i>et al.</i>, 2019",
+              "title": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Miranda <i>et al.</i>, 2012",
+              "title": "Reptiles from Lençóis Maranhenses National Park, Maranhão, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Marinha Caeté-Taperaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva & Fernandes, 2016",
+              "title": "Anfíbios e Répteis"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ARAGUAIAA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Iguana iguana"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DO JUNCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2011",
+              "title": "Amphibians and reptiles of the Refúgio de Vida Silvestre Mata do Junco, municipality of Capela, state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Debien <i>et al.</i>, 2019",
+              "title": "Diversity of reptiles in flooded and unflooded forests of the Amanã Sustainable Development Reserve, central Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Waldez <i>et al.</i>, 2013",
+              "title": "Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira & Castro, 2017",
+              "title": "Range extension of <i>Iguana iguana</i> Linnaeus, 1758 (Squamata: Iguanidae): the first record of an established population in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins, 1991",
+              "title": "The Lizards of Balbina, Central Amazonia, Brazil- a Qualitative -Analysis of Resource Utilization"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barros, 2008",
+              "title": "Filogeografia em lagartos no Baixo Tocantins, Ilha do Marajó e sul do Amapá"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO LAGO DE TUCURUI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Iguana iguana"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Arias <i>et al.</i>, 2011",
+              "title": "Two new species of <i>Cnemidophorus</i> (Squamata: Teiidae) from the Caatinga, northwest Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA BRANCA / RASO DA CATARINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Mesquita <i>et al.</i>, 2006",
+              "title": "Ecology of a Cerrado lizard assemblage in the Jalapão region of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA LAGOA GRANDE",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Aldeia Ekinox",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Barros, 2008",
+              "title": "Filogeografia em lagartos no Baixo Tocantins, Ilha do Marajó e sul do Amapá"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1987",
+              "title": "Os répteis da área de Carajás, Pará, Brasil (Squamata). II"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Terra Nova",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Herpetologia do Estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Mercês Sabiaquaba e Nazário",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Boca da Mata",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Maurício Dantas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "Inawebohona",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T. C. S., Hoogmoed, M. S. &amp; Rocha, W. A. (2010) Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna. <i>Boletim do Museu Paraense Emílio Goeldi. Ciências Naturais</i>. 5 (1), 13-112.",
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Bessier, E., Perla, J.A., Diaz, E.B., Martinez, D. &amp; Knapp, C.R. (2010) <i>Iguana iguana</i> (Green Iguana). Predation. <i>Herpetological Review</i>. 41 (2), 224.",
+          "Bock, B. &amp; McCracken, G.F. (1988) Genetic-structure and variability in the green iguana (<i>Iguana iguana</i>). <i>Journal of Herpetology</i>. 22 (3), 316-322.",
+          "Campos, Z. (2014) Using micro-histology and an image-based identification tool to study the diet of <i>Iguana iguana</i>. <i>Herpetozoa</i>. 26 (3-4), 200-203.",
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Cosendey, B.N. (2020) Etnoherpetologia e conservação: saberes tradicionais na proteção dos lagartos do nordeste paraense In: Tese de doutorado (Ecologia) (ed.) <i>Fatores de risco para a conservação de Glaucomastix littoralis e a importância dos saberes populares na preservação de espécies de lagartos</i>. pp. 184-221.",
+          "Dal Vechio, F., Recorder, R., Rodrigues, M.T. &amp; Zaher, H. (2013) The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil. <i>Papéis Avulsos de Zoologia</i>. 53 (16), 225-243.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Loebmann, D. &amp; Haddad, C.F.B. (2010) Amphibians and reptiles from a highly diverse area of the Caatinga domain: composition and conservation implications. <i>Biota Neotropica</i>. 10 (3), 227-256.",
+          "Martins, M. (1991) The Lizards of Balbina, Central Amazonia, Brazil- a Qualitative -Analysis of Resource Utilization. <i>Studies on Neotropical Fauna and Environment</i>. 26 (3), 179-190.",
+          "Meshaka Jr, W.E., Smith, H.T., Cress, H.L., Sekscienski, S.R., Mapp, W.R., Cowan, E.M. &amp; Moore, J.A. (2009) Raccoon (<i>Proycon lotor</i>) removal and the rapid colonization of the green iguana (<i>Iguana iguana</i>) on a public land in South Florida: a conservation opportunity for the Caribbean. <i>Caribbean Journal of Science</i>. 45 (1), 15-19.",
+          "Mesquita, D.O., Colli, G.R., França, F.G.R. &amp; Vitt, L.J. (2006) Ecology of a Cerrado lizard assemblage in the Jalapão region of Brazil. <i>Copeia</i>. 2006 (3), 460-471.",
+          "Mollo-Neto, A., Sánchez-Martínez, P.M. &amp; Gaiga, R.A.J. (2013) Predation on the lizard <i>Iguana iguana</i> (Sauria: Iguanidae) by the snake <i>Siphlophis compressus</i> (Serpentes: Dipsadidae), at Rondônia state, Brazil. <i>Herpetology Notes</i>. 6, 37-38.",
+          "Nogueira, C.D.C. (2006) <i>Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado</i>. Tese de Doutorado. Universidade de São Paulo, Instituto de Biociências. São Paulo. 296pp.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Rodda, G.H. (1990) Highway madness revisited: roadkilled <i>Iguana iguana</i> in the llanos of Venezuela. <i>Journal of Herpetology</i>. 24 (2), 209-211.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "id_ficha": "4f324d6e426a694f483048554750386e70624b7657673d3d",
+  "nome_cientifico": "Anomaloglossus baeobatrachus (Boistel & Massary, 1999)",
+  "nome_cientifico_atual": "Anomaloglossus baeobatrachus (Boistel & Massary, 1999)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20711",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4f324d6e426a694f483048554750386e70624b7657673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Anomaloglossus baeobatrachus</i>&nbsp;<span>(Boistel & Massary, 1999)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Anomaloglossus baeobatrachus</em> ocorre na região amazônica do Escudo das Guianas. No Brasil, há registros no norte do estado do Pará. Trata-se de espécie facilmente encontrada no solo de ambientes florestais, que ocorre em uma região bem preservada, não havendo ameaças diretas que possam colocá-la em risco de extinção. Por essas razões, <em>Anomaloglossus baeobatrachus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Anomaloglossus baeobatrachus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20711 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20711",
+      "photo": {},
+      "version": 2,
+      "versionId": 15944,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Aromobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Anomaloglossus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Anomaloglossus baeobatrachus</i>"
+        }
+      ],
+      "oldNames": "Colostethus baeobatrachus",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Anomaloglossus baeobatrachus</em> é considerada um complexo de espécies, uma vez que não está definido o <em>status</em> taxonômicos das subpopulações conhecidas fora da Guiana Francesa (Reynolds <em>et al., </em>2004). Pode ser confundido com <em>Colostethus beebei</em> e <em>C. brunneus</em> (Kok <em>et al., </em>2006) e é virtualmente indistinto de <em>Anomaloglossus stepheni</em> (Kok, 2010). Embora haja semelhanças, Grant <em>et al</em>. (2006) a considerou válida (M. Hoogmoed, com. pess., 2011).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Anomaloglossus</em> <em>baeobatrachus </em>ocorre na América do Sul, na região da Guiana, Guiana Francesa, Suriname e norte do Brasil (Boistel &amp; Massary, 1999; Frost, 2018).</p>",
+      "nationalDistribution": "<p>No Brasil, os registros confirmados são para o estado do Pará, nos municípios de Oriximiná, Óbidos e Almeirim (M.S. Hoogmoed, com. pess., 2011). O registro para a cidade de Manaus, capital do estado do Amazonas, é incerto (Reynolds <em>et al., </em>2004; M.S. Hoogmoed, com. pess., 2011), e nesta avaliação não foi considerado.</p>",
+      "states": "Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Paru",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/3147424868496f5475454576456a684f69716e4f442f3873345a4a416d7331525331664b515750744368314b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Anomaloglossus baeobatrachus",
+        "diskFileName": "08d30ad3a81c5a28d9800e4795617bf1.png",
+        "fileName": "Mapa de Anomaloglossus baeobatrachus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Anomaloglossus</em> <em>baeobatrachus</em> habita a serapilheira de ambientes florestais do bioma Amazônia. A fêmea deposita seus ovos sobre o solo e após a eclosão as larvas são carregadas para a água, onde terminam seu desenvolvimento (Reynolds <em>et al., </em>2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Espécie de pequeno porte, comum e facilmente encontrada na serrapilheira de florestas (M. Hoogmoed, com. pess., 2011). A tendência populacional, aparentemente, é estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam afetar a espécie, pois ocorre em região bem preservada. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação sobre qualquer tipo de uso da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Reynolds <i>et al.</i>, 2004",
+              "title": "Reynolds, R., Hoogmoed, M., Macculloch, R. &amp; Gaucher, P. (2004) <i>Anomaloglossus baeobatrachus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55051A11246053\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55051A11246053</a>. [Acessado em: 26/mai/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.S. Hoogmoed, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.S. Hoogmoed, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.S. Hoogmoed, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA DE MAICURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.S. Hoogmoed, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Devido à complexidade quanto à classificação, são necessárias pesquisas taxonômicas para clarear as relações entre as espécies do complexo.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Boistel, R. &amp; De Massary, J.C., 1999. Les amphibiens vénéneux de la famille des dendrobatidés. Le Courier de la Nature, 176: p.34-39.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Grant, T.; Frost, D.R.; Caldwell, J.P.; Gagliardo, R.; Haddad, C.F.B.; Kok, P.J.R.; Means, D.B.; Noonan, B.P.; Schargel, W.E. &amp; Wheeler, W. 2006. Phylogenetic systematics of dart-poison frogs and their relatives (Amphibia, Athesphatanura, Dendrobatidae). <b>Bulletin of the American Museum of Natural History</b>, 299: p.1-79.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kok, P.J.R. MacCulloch, R.D.; Gaucher, P.; Poelman, E.H.; Bourne, G.R.; Lathrop, A. &amp; Lenglet, G.L., 2006. A new species of <i>Colostethus</i> (Anura, Dendrobatidae) from French Guiana with a redescription of <i>Colostethus beebei</i> (Noble, 1923) from its type locality. Phyllomedusa, 5 (1): p.43-66.",
+          "Kok, P.J.R., 2010. A redescription of <i>Anomaloglossus praderioi</i> (La Marca, 1998) (Anura: Aromobatidae: Anomaloglossinae), with description of its tadpole and call. Papéis Avulsos de Zoologia, 50: p.51-68.",
+          "Reynolds, R.; Hoogmoed, M.; Macculloch, R. &amp; Gaucher, P., 2004. <i>Anomaloglossus baeobatrachus</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55051A11246053\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55051A11246053</a>. Acessado em: 26/05/2011."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

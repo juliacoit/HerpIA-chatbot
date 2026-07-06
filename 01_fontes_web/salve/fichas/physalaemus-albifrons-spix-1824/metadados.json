@@ -1,0 +1,515 @@
+{
+  "id_ficha": "474b4d72596f693874376a6a33704a5a3042763351513d3d",
+  "nome_cientifico": "Physalaemus albifrons (Spix, 1824)",
+  "nome_cientifico_atual": "Physalaemus albifrons (Spix, 1824)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17829.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=474b4d72596f693874376a6a33704a5a3042763351513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus albifrons</i>&nbsp;<span>(Spix, 1824)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Physalaemus albifrons</em> é endêmica do Brasil e amplamente distribuída na região Nordeste e no estado de Minas Gerais. A espécie é comum, encontrada em áreas abertas, e tolera ambientes antropizados, incluindo áreas urbanas e plantações. Não há ameaças evidentes que possam colocá-la em risco de extinção. Portanto, <em>Physalaemus albifrons</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Physalaemus albifrons</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17829.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17829.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14996,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus albifrons</i>"
+        }
+      ],
+      "oldNames": "Bombinator albifrons, Bufo albifrons, Paludicola albifrons",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p> <em>Physalaemus albifrons</em> é endêmica do Brasil, com registros de ocorrência na região Nordeste e no estado de Minas Gerais (Borges-Nojosa &amp; Santos, 2005; Oliveira <em>et al</em>., 2010; Palmeira <em>et al</em>., 2011). Sua extensão de ocorrência é 1.229.865 km2, calculada via mínimo polígono convexo a partir dos pontos de registro. </p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Maranhão, Minas Gerais, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral SE, Sub-bacia Paraíba, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/626c4947754b796277363766544c615864593262637a7563792b6d76364a356a4952466577546c3236772f6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "290955e5d9e1e89583d4a11555fa23d6.png",
+        "fileName": "Mapa de Physalaemus albifrons.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Physalaemus albifrons</em> habita ambientes abertos, e pode ser encontrada em dunas, savanas do Cerrado e Caatinga e regiões costeiras de restinga. Geralmente é observada no chão próxima a lagoas temporárias ou na água (Andrade &amp; Junca, 2004). A espécie pode ser encontrada em ambientes alterados, incluindo áreas urbanas e plantações.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comumente encontrada ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não existem ameaças evidentes que possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Andrade & Junca, 2004",
+              "title": "Andrade, G. &amp; Junca, F. (2004) <i>Physalaemus albifrons</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57238A11607117.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57238A11607117.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ávila, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Palmeira <i>et al.</i>, 2011",
+              "title": "<I>Physalaemus albifrons</I> Spix, 1824 (Anura: Leiuperidae): Distribution and geographic extension"
+            },
+            {
+              "label": "Andrade, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Piaçabuçú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Luz, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Annunziata, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Roberto, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Contendas do Sincorá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ramos, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Ramos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Nísia Floresta",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Garda, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Confusões",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dal Vechio <i>et al.</i>, 2016",
+              "title": "The herpetofauna of Parque Nacional da Serra das Confusões, state of Piauí, Brazil, with a regional species list from an ecotonal area of Cerrado and Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Annunziata, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Guaribas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Gomes, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Santa Isabel",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DO JUNCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2011",
+              "title": "Amphibians and reptiles of the Refúgio de Vida Silvestre Mata do Junco, municipality of Capela, state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Garda, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BICA DO IPÚ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ávila, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Napoli, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE UPAON-AçU / MIRITIBA / ALTO PREGUIçAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Palmeira <i>et al.</i>, 2011",
+              "title": "<I>Physalaemus albifrons</I> Spix, 1824 (Anura: Leiuperidae): Distribution and geographic extension"
+            },
+            {
+              "label": "Matavelli, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pé de Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Luz, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Andrade, G. &amp; Junca, F. 2004. <i>Physalaemus albifrons</i>. <b>The IUCN Red List of Threatened Species 2004: e.T57238A11607117</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57238A11607117.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57238A11607117.en</a>. Acessado em: 15/05/2018.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Borges-Nojosa, D.M. &amp; Santos, E.M. 2005. Herpetofauna da área de Betânia e Floresta, Pernambuco. p.277-291. <i>In</i>: Araujo <i>et al.</i>. <b>Analise das Variações da Biodiversidade do Bioma Caatinga</b>. Ministério do Meio Ambiente Brasilia.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Oliveira, M.I.R.R.; Weber, L.N. &amp; Ruggeri, J. 2010. The tadpole of <i>Physalaemus albifrons</i> (Spix, 1824) (Anura, Leiuperidae). <b>South American Journal of Herpetology</b>, 5 (3): p.249-254.",
+          "Palmeira, C.N.S.; Gonçalves, U. &amp; Paz, V.N. 2011. <I>Physalaemus albifrons</I> Spix, 1824 (Anura: Leiuperidae): Distribution and geographic extension. <b>Check List</b>, 7 (6): p.839-845."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

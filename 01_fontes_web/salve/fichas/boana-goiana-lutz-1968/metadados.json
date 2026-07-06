@@ -1,0 +1,294 @@
+{
+  "id_ficha": "637874636d545a752f61476b4b4973483175795043673d3d",
+  "nome_cientifico": "Boana goiana (Lutz, 1968)",
+  "nome_cientifico_atual": "Boana goiana (Lutz, 1968)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19119.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=637874636d545a752f61476b4b4973483175795043673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Boana goiana</i>&nbsp;<span>(Lutz, 1968)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Boana goiana </em>endêmica do Brasil, do bioma Cerrado, com registros no platô central do estado de Goiás e sudoeste do estado de Minas Gerais. Habita matas de galerias de pequenos riachos, é comum e abundante. Embora exista perda de vegetação nativa em algumas localidades ao longo de sua distribuição, sua distribuição é ampla e não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Boana goiana </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Boana goiana</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19119.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19119.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15409,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Boana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Boana goiana</i>"
+        }
+      ],
+      "oldNames": "Boana phaeopleura, Hyla goiana, Hyla phaeopleura, Hyla polytaenia goiana, Hypsiboas goianus, Hypsiboas phaeopleura",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Boana phaeopleura </em>foi sinonimizada com <em>B. goiana </em>por Faivovich <em>et al</em>. (2021).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Boana goiana</em> é endêmica do Brasil, com ocorrência no platô central do estado de Goiás e no oeste do estado de Minas Gerais (Lutz, 1968; Caramaschi &amp; Cruz, 2004; Eterovick <em>et al.,</em> 2004). Sua extensão de ocorrência é de 61.237 km2, calculada a partir do mínimo polígono convexo formado pelos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Goiás, Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Paranaíba, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/77614854526d2b6341736163393449486e663849556f597a555a6c5546515a6459594456664b544851734e4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f9f6966db0b3d058b22cd27454fa308f.png",
+        "fileName": "Mapa de Boana goiana.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Boana goiana </em>habita e se reproduz nas matas de galeria de pequenos riachos e não ocorre em hábitats antropizados (Caramaschi <em>et al</em>., 2004; Eterovick <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é de fácil encontro e abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização desta espécie. </p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Eterovick <i>et al.</i>, 2004",
+              "title": "Eterovick, P.C., Bastos, R. &amp; Silvano, D. (2004) <i>Hypsiboas goianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55490A11307723.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55490A11307723.en</a>. [Acessado em: 09/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Silvânia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Veadeiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Filho, 2011",
+              "title": "Plano de Manejo da Reserva Natural Serra do Tombador, Cavalcante - Goias"
+            },
+            {
+              "label": "Caramaschi & Cruz, 2000",
+              "title": "Duas espécies novas de <i>Hyla</i> Laurenti, 1768 do Estado de Goiás, Brasil (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "S.P. Andrade, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Caramaschi, U. &amp; Cruz, C.A.G. 2000. Duas espécies novas de <i>Hyla</i> Laurenti, 1768 do Estado de Goiás, Brasil (Amphibia, Anura, Hylidae). <b>Boletim do Museu Nacional. Nova serie zoologia</b>, 422: p.1-12.",
+          "Caramaschi, U.; Colli, G. &amp; Silvano, D. 2004. <i>Hypsiboas phaeopleura</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55596A11326647\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55596A11326647</a>. Acessado em: 13/05/2011.",
+          "Eterovick, P.C.; Bastos, R. &amp; Silvano, D. 2004. <i>Hypsiboas goianus</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55490A11307723</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55490A11307723.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55490A11307723.en</a>. Acessado em: 09/11/2011.",
+          "Faivovich, J.; Pinheiro, P.D.P.; Lyra, M.L.; Pereyra, M.O.; Baldo, D.; Muñoz, A.; Reichle, S.; Brandão, R.A.; Giaretta, A.A.; Thomé, M.T.C.; Chaparro, J.C.; Baêta, D.; Widholzer, R.L.; Baldo, J.; Lehr, E.; Wheeler, W.C.; Garcia, P.C.A. &amp; Haddad, C.F.B. 2021. Phylogenetic relationships of the <i>Boana pulchella</i> group (Anura: Hylidae). <b>Molecular Phylogenetics and Evolution</b>, 155: p.106981.",
+          "Frost, D.R. 2021. Amphibian Species of the World: an Online Reference. Version 6.1. <b>American Museum of Natural History, New York, USA</b>. Disponível em: <a target=\"_blank\" href=\"https://amphibiansoftheworld.amnh.org/index.php\">https://amphibiansoftheworld.amnh.org/index.php</a>. Acessado em: 21/12/2021.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lutz, B. 1968. Geographic variation in Brazilian species of <i>Hyla</i>. <b>Pearce-Sellards Series. Texas Memorial Museum</b>, 12: p.1-13."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

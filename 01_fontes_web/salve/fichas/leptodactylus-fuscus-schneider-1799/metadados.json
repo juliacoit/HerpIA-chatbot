@@ -1,0 +1,804 @@
+{
+  "id_ficha": "794c526a306a764255487674354c584a694352386d513d3d",
+  "nome_cientifico": "Leptodactylus fuscus (Schneider, 1799)",
+  "nome_cientifico_atual": "Leptodactylus fuscus (Schneider, 1799)",
+  "nome_comum": "Rã-assobiadora",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20302.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=794c526a306a764255487674354c584a694352386d513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus fuscus</i>&nbsp;<span>(Schneider, 1799)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "24/01/2023",
+      "justificative": "<p><em>Leptodactylus fuscus </em>ocorre no Panamá, Trinidad e Tobago e na América do Sul, a leste dos Andes, passando pela Bolívia, Brasil e Argentina. No Brasil, possui ampla distribuição, ocorrendo em todas as regiões e estados. A espécie é comum, abundante e habita áreas abertas, podendo ser encontrada em ambientes antropizados. Não há evidências de ameaças que possam colocá-la em risco de extinção. Por estas razões, <em>Leptodactylus fuscus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus fuscus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20302.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20302.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15712,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus fuscus</i>"
+        }
+      ],
+      "oldNames": "Cystignathus fuscus, Cystignathus schomburgkii, Leptodactylus gualambensis, Leptodactylus raniformis, Rana fusca, Rana pachypus var. 2, Rana sibilatrix, Rana typhonia, Rana virginica",
+      "commonNames": "Rã-assobiadora",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptodactylus fuscus</em> é conhecida das planícies do Pacífico do Panamá, Trinidad e Tobago e da América do Sul, a leste dos Andes, passando pela Bolívia, Brasil e Argentina (Reynolds <em>et al</em>., 2004). </p>",
+      "nationalDistribution": "<p>No Brasil, possui ampla distribuição, ocorrendo em todas as regiões e os estados (Martins, 1998; Machado <em>et al</em>., 1999; Ávila &amp; Ferreira, 2004; Borges-Nojosa &amp; Cascon, 2005; Lima <em>et al</em>., 2006; Brasileiro <em>et al</em>., 2008; De-Carvalho <em>et al</em>., 2008; Giaretta <em>et al</em>., 2008; Loebmann &amp; Mai, 2008; Moreira <em>et al</em>., 2008; Turci &amp; Bernarde, 2008; Valdujo <em>et al</em>., 2009; Salles <em>et al</em>., 2010; Valdujo <em>et al</em>., 2011; Bitar <em>et al</em>., 2012).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Uruguai Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/742f45446d33304a573576435763645737696f355165586b784a76434b704c775356303241417455766a336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f75706f72c31f4cf80daea53aa7440b8.png",
+        "fileName": "Mapa de Leptodactylus fuscus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Leptodactylus fuscus </em>é uma espécie terrestre e noturna, encontrada em áreas abertas, savanas, pastagens, pântanos, florestas degradadas e hábitats urbanos. Os machos começam a vocalizar no início das primeiras chuvas, e a reprodução ocorre em pequenos buracos em ambientes úmidos temporários e nas margens de lagoas permanentes. Seus ovos são depositados em ninhos de espuma dentro dos buracos e, quando inundados, os girinos são transportados pela água até os corpos d'água adjacentes. A espécie se adapta bem a perturbações antrópicas (Reynolds <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum e abundante ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há evidências de ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Reynolds <i>et al.</i>, 2004",
+              "title": "Reynolds, R., Caramaschi, U., Mijares, A., Acosta-Galvis, A., Heyer, R., Lavilla, E. &amp; Hardy, J. (2004) <i>Leptodactylus fuscus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57129A11588348.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57129A11588348.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Loebmann & Mai, 2008",
+              "title": "Amphibia, Anura, Coastal Zone, state of Piauí, Northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Nascentes do Rio Vermelho",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Valdujo <i>et al.</i>, 2011",
+              "title": "Anfíbios da Estação Ecológica Serra Geral do Tocantins, região do Jalapão, estados do Tocantins e Bahia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Emas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Arantes, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Silvano, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Monte Pascoal",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Perobas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Affonso, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Kakazu <i>et al.</i>, 2010",
+              "title": "Color polymorphism in <I>Leptodactylus fuscus</i> (Anura, Leptodactylidae): a defensive strategy against predators?"
+            },
+            {
+              "label": "Oyamaguchi, 2006",
+              "title": "Distribuição espacial e temporal de espécies simpátricas de <i>Leptodactylus</i> do grupo <i>fuscus</i> em áreas naturais e antrópicas na região de Itirapina e Brotas, sudoeste do Brasil"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sebben, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oyamaguchi, 2006",
+              "title": "Distribuição espacial e temporal de espécies simpátricas de <i>Leptodactylus</i> do grupo <i>fuscus</i> em áreas naturais e antrópicas na região de Itirapina e Brotas, sudoeste do Brasil"
+            },
+            {
+              "label": "Kakazu <i>et al.</i>, 2010",
+              "title": "Color polymorphism in <I>Leptodactylus fuscus</i> (Anura, Leptodactylidae): a defensive strategy against predators?"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA RIO BATALHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertoluci, 1998",
+              "title": "Annual Patterns of Breeding Activity in Atlantic Rainforest Anurans"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Kakazu <i>et al.</i>, 2010",
+              "title": "Color polymorphism in <I>Leptodactylus fuscus</i> (Anura, Leptodactylidae): a defensive strategy against predators?"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DOS CAETETUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brassaloti <i>et al.</i>, 2010",
+              "title": "Anurofauna da floresta estacional semidecidual da Estação Ecológica dos Caetetus, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL EDMUNDO NAVARRO DE ANDRADE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Kakazu <i>et al.</i>, 2010",
+              "title": "Color polymorphism in <I>Leptodactylus fuscus</i> (Anura, Leptodactylidae): a defensive strategy against predators?"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO CANTãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MORRO DO DIABO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL NASCENTES DO PARANAPANEMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertoluci, 1998",
+              "title": "Annual Patterns of Breeding Activity in Atlantic Rainforest Anurans"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Amorim, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA RIO PACAÁS NOVOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Amorim, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CARAÍVA/ TRANCOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO CURIAÚ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Campos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ávila-Pires, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda América",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Estância Dorochê",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Margarida",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Palmeiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Santo Antonio do Pindaré,Gleba Barra da Jurema",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Itajurú ou Sobrado",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Paculândia",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Ávila & Ferreira, 2004",
+              "title": "Riqueza e densidade de vocalizações de anuros (Amphibia) em uma área urbana de Corumbá, Mato Grosso do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santa Maria de Tapuã",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Seringal Assunção",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bitar, Y.O.C.; Pinheiro, L.P.C.; Abe, P.S. &amp; Santos-Costa, M.C. 2012. Species composition and reproductive modes of anurans from a transitional Amazonian forest, Brazil. <b>Zoologia</b>, 29 (1): p.19-26.",
+          "Borges-Nojosa, D.M. &amp; Cascon, P. 2005. Herpetofauna da área Reserva da Serra das Almas, Ceará. p.243-258. <i>In</i>: Araújo <i>et al.</i>. <b>Analise das Variações da Biodiversidade do Bioma Caatinga</b>. Ministério do Meio Ambiente Brasilia.",
+          "Brasileiro, C.A.; Lucas, E.M.; Oyamaguchi, H.M.; Thomé, M.T.C. &amp; Dixo, M. 2008. Anurans, Northern Tocantins River Basin, states of Tocantins and Maranhão, Brazil. <b>Check List</b>, 4 (2): p.185-197.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "De-Carvalho, C.B.; Freitas, E.B.; Faria, R.G.; Batista, R.C.; Batista, C.C.; Coelho, W.A. &amp; Bocchiglieri, A. 2008. História natural de <i>Leptodactylus mystacinus</I> e <i>Leptodactylus fuscus</I> (Anura: Leptodactylidae) no Cerrado do Brasil Central. <b>Biota Neotropica</b>, 8 (3): p.105-115.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Giaretta, A.A.; Menin, M.; Facure, K.G.; Kokubum, M.N.C. &amp; Oliveira-Filho, J.C. 2008. Species richness, relative abundance, and habitat of reproduction of terrestrial frogs in the Triângulo Mineiro region, Cerrado biome, southeastern Brazil. <b>Iheringia, Série Zoologia</b>, 98 (2): p.181-188.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lima, A.P.; Magnusson, W.E.; Menin, M.; Erdtmann, L.K.; Rodrigues, D.J.; Keller, C. &amp; Hödl, W. 2006. <b>Guia de sapos da Reserva Adolpho Ducke, Amazônia Central</b>. p.168. Áttema Design Editorial Manaus.",
+          "Loebmann, D. &amp; Mai, A.C.G. 2008. Amphibia, Anura, Coastal Zone, state of Piauí, Northeastern Brazil. <b>Check List</b>, 4 (2): p.161–170.",
+          "Machado, R.A.; Bernarde, P.B.; Morato, S.A. &amp; Anjos, L. 1999. Análise comparada da riqueza de anuros entre duas áreas com diferentes estados de conservação no município de Londrina, Paraná, Brasil (Amphibia, Anura). <b>Revista Brasileira de Zoologia</b>, 16 (4): p.997-1004.",
+          "Martins, M. 1998. The frogs of the ilha de Maracá. p.285-306. <i>In</i>: Milliken & Ratter. <b>Maracá: The Biodiversity and Environment of an Amazonian Rainforest</b>. John Wiley & Sons New York.",
+          "Moreira, L.F.B.; Machado, I.F.; Lace, A.R.G.M. &amp; Maltchik, L. 2008. Anuran amphibians dynamics in an intermittent pond in southern Brazil. <b>Acta Limnologica Brasiliensia</b>, 20 (3): p.205-212.",
+          "Reynolds, R.; Caramaschi, U.; Mijares, A.; Acosta-Galvis, A.; Heyer, R.; Lavilla, E. &amp; Hardy, J., 2004. <i>Leptodactylus fuscus</i>. The IUCN Red List of Threatened Species 2004: e.T57129A11588348, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57129A11588348.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57129A11588348.en</a>.",
+          "Salles, R.O.; Weber, L.N. &amp; Silva-Soares, T. 2010. Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil. <b>Check List</b>, 5 (4): p.840-854.",
+          "Turci, L.C.B. &amp; Bernarde, P.S. 2008. Levantamento herpetofaunístico em uma localidade no município de Cacoal, Rondônia, Brasil. <b>Bioikos</b>, 22 (2): p.101-108.",
+          "Valdujo, P.H.; Camacho, A.; Recoder, R.S.; Teixeira Jr., M.; Ghellere, J.M.B.; Mott, T.; Nunes, P.M.S.; Nogueira, C. &amp; Rodrigues, M.T. 2011. Anfíbios da Estação Ecológica Serra Geral do Tocantins, região do Jalapão, estados do Tocantins e Bahia. <b>Biota Neotropica</b>, 11 (1): p.251-261.",
+          "Valdujo, P.H.; Recoder, R.S.; Vasconcellos, M.M. &amp; Portella, A.S. 2009. Amphibia, Anura, São Desidério, western Bahia uplands, northeastern Brazil. <b>Check List</b>, 5 (4): p.903–911.",
+          "Ávila, R.W. &amp; Ferreira, V.L. 2004. Riqueza e densidade de vocalizações de anuros (Amphibia) em uma área urbana de Corumbá, Mato Grosso do Sul, Brasil. <b>Revista Brasileira de Zoologia</b>, 21 (4): p.887–892."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

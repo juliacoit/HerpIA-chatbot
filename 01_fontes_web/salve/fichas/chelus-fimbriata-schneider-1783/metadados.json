@@ -1,0 +1,940 @@
+{
+  "id_ficha": "316c4f575a344352654f73306465332b6d425a486b413d3d",
+  "nome_cientifico": "Chelus fimbriata (Schneider, 1783)",
+  "nome_cientifico_atual": "Chelus fimbriata (Schneider, 1783)",
+  "nome_comum": "Bachala, Caripatúa, Fransenschildkröte, Hedionda, Hicotea-tahame, Icotea, Matamata, Mata-matá, Matamatá, turtle",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20812.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=316c4f575a344352654f73306465332b6d425a486b413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Chelus fimbriata</i>&nbsp;<span>(Schneider, 1783)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "19/02/2026",
+      "justificative": "<p><em>Chelus</em> <em>fimbriata</em> ocorre na América do Sul, é comum ao longo das bacias do Orinoco e Amazônica, sendo conhecida para o Brasil, Venezuela, Colômbia, Equador, Peru, Bolívia, Guiana Francesa, Guiana e Trinidad. No Brasil, ocorre nos biomas Amazônia e Cerrado, distribuindo-se pelas regiões hidrográficas Amazônica e Tocantins/Araguaia, com registros nos estados da região Norte, no Maranhão, Goiás e Mato Grosso. É uma espécie localmente comum, porém, de difícil detecção. Embora haja perda de vegetação natural e da qualidade do habitat em algumas localidades na área de sua distribuição, contaminação por metais pesados e tráfico nacional e internacional, não há evidências de que essas ameaças a coloque em risco de extinção. Por essas razões, <em>Chelus</em> <em>fimbriata</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Thiago Costa Gonçalves Portelinha; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luis Regolin; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Portelinha, T.C.G.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Marques, T.S.; Brito, E.S. 2026. <i>Chelus fimbriata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20812.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20812.3",
+      "photo": {
+        "authorName": "Fábio Andrew Gomes Cunha",
+        "authorEmail": "fabioagcunha@gmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "c06287b7e02c13ffcc16adfe8a4e5c70.jpg",
+        "fileName": "012-017_notas_295-2-1140.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/426a5a43644e734341544364455858356b4b5937756c5a512f70577874366b5272754f4a74392f656b6c35743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 3,
+      "versionId": 30433,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Chelidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Chelus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Chelus fimbriata</i>"
+        }
+      ],
+      "oldNames": "Chelus fimbriatus, Chelys fimbriata, Chelys matatata, Testudo bi-spinosa, Testudo fimbria, Testudo fimbriata, Testudo matamata, Testudo rapara, Testudo raparara, Testudo raxarara, Testuto terrestris",
+      "commonNames": "Bachala, Caripatúa, Fransenschildkröte, Hedionda, Hicotea-tahame, Icotea, Matamata, Mata-matá, Matamatá, turtle",
+      "taxonomicNotes": "<p>O gênero <em>Chelus</em> foi dividido em duas espécies com base em análises genômicas e morfológicas: <em>Chelus fimbriata</em> e <em>Chelus orinocensis</em> (Vargas-Ramírez <em>et al</em>. 2020). <em>Chelus fimbriata</em> é uma espécie amazônica, com uma carapaça de lados paralelos ou mesmo ligeiramente constrita, e um par de barras pretas grossas correndo ao longo da parte inferior do pescoço, substituídas por uma barra preta mediana sob o queixo (Pritchard &amp; Trebbau, 1984; Pritchard, 2008; Vargas-Ramírez <em>et al</em>., 2020). Além disso, <em>C. fimbriata</em> tem um plastrão fortemente pigmentado (Sánchez-Villagra <em>et al</em>., 1995) e a placa intergular às vezes falha em separar as placas gulares (Fretey, 1977; Pritchard, 2008).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Chelus</em> <em>fimbriata </em>ocorre na parte central e norte da América do Sul, nas bacias dos rios Orinoco e Amazonas e médio e alto rio Esequibo. É conhecida para a Bolívia, Brasil, Colômbia, Equador, Guiana, Guiana Francesa, Peru, Venezuela, Trinidad e Tobago (Iverson, 1992; Cisneros-Heredia, 2006; Le Gratiet <em>et al</em>. 2017; Vargas-Ramírez <em>et al</em>., 2020; Cunha <em>et al</em>., 2021; Metcalf <em>et al</em>., 2023). </p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie ocorre nas regiões hidrográficas Amazônica e Tocantins/Araguaia, com registro em todos estados da região Norte, no Maranhão e em Goiás (Santos <em>et al</em>., 2005; Noronha &amp; Silveira, 2009; Schneider <em>et al</em>., 2010; Silveira, 2011; Morato <em>et al</em>., 2018; Vargas-Ramírez <em>et al</em>., 2020; Cunha <em>et al</em>., 2021).</p> \n<p> </p>",
+      "states": "Acre, Amapá, Amazonas, Goiás, Maranhão, Mato Grosso, Pará, Rondônia, Roraima, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/366b61306f6d674b524a616e574a6d4655546963664136416442336e2f316a2f79583771517847547937726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Chelus fimbriata",
+        "diskFileName": "8203c5d5d81c2ba00cc0f557b59b700d.png",
+        "fileName": "Mapa de Chelus fimbriata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Chelus</em> <em>fimbriata</em> ocorre nos biomas Amazônia e Cerrado, onde habita águas superficiais ao longo da margem dos lagos ou na interface de florestas inundadas e igarapés de várzea, sendo encontrada em regiões entre terras altas e florestas inundadas, em lagoas marginais, enseadas tranquilas e córregos com pouca correnteza, pois é uma fraca nadadora (Pritchard, 2008). O matamatá é uma das espécies mais carismáticas e emblemáticas entre os quelônios Neotropicais, sendo considerado uma das espécies mais bizarras no mundo devido sua morfologia externa incomum e estilo de vida particular (Viana <em>et al</em>., 2022).</p> \n<p>A espécie é carnívora, especialista, aquática de hábitos bentônicos, apresentando atividade diurna e noturna (Lemell <em>et al.,</em> 2002; Rueda-Almonacid <em>et al.,</em> 2007; Pritchard, 2008). As características incomuns do corpo e as algas que normalmente cobrem os indivíduos mais velhos camuflam os espécimes, que esperam pelas presas no fundo da água. A espécie é um predador que senta e embosca, usando esta técnica de sucção de presas altamente especializada para capturar peixes (Vargas-Ramírez, 2020).</p> \n<p>O matamatá pode atingir comprimento da carapaça superior a 45 cm (Dixon &amp; Soini, 1977; TTWG. 2021). A longevidade na natureza é desconhecida, com registros de até 16 anos em cativeiro (Bowler, 1977). Quanto à reprodução, as fêmeas atingem a maturidade sexual entre 5 e 7 anos, com cerca de 30 cm (Rueda-Almonacid <em>et al.,</em> 2007; Vogt, 2008). O período reprodutivo varia ao longo da Bacia Amazônica, ocorrendo de outubro a dezembro no estado de Rondônia (Vogt, 2008) e na Venezula (Mendizábal &amp; Correa-Viana, 2015). As fêmeas sobem barrancos para desovar ao longo da borda da floresta, próximo a lagos ou igarapés, adentrando até 200 metros a floresta (Vogt, 1992). São depositados entre 12 e 28 ovos, com período de incubação incerto na natureza, porém em cativeiro foi registrado uma média de 200 dias (Iverson <em>et al</em>., 1993). Em ambiente natural provavelmente esse período é menor (Pritchard, 2008).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Chelus fimbriata</em> é localmente comum, mas seu estilo de vida críptico dificulta sua localização em campo (Pritchard, 2008). Não há dados quantitativos disponíveis para as subpopulações de <em>C. fimbriata</em>, e sua tendência populacional é desconhecida.</p> \n<p>No ano de 2010, 22 indivíduos de <em>Chelus fimbriata</em> foram capturados durante três campanhas de coleta de dados (estação seca, vazante e cheia) nos rios Araguaia e Tocantins, nos estados de Tocantins, Pará e Maranhão. Entre estes, 11 eram fêmeas (50%), nove machos (41%) e dois juvenis (9%). O tamanho das fêmeas variou de 13 a 36 cm, enquanto os machos variaram de 25,5 a 32,4 cm em comprimento de carapaça. As capturas ocorreram em diferentes tipos de habitat, incluindo rios, igapó (florestas alagadas), igarapé (pequenos riachos) e lagos adjacentes aos rios (E. Brito, com. pess. 2024).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora os impactos diretos das barragens sobre <em>C. fimbriata</em> sejam desconhecidos, entende-se que eles afetam diretamente o habitat e a área reprodutiva das tartarugas de água doce (Alho, 2011). Além da perda de conectividade entre os ambientes aquáticos em regimes hídricos com sazonalidade bem marcada, como no caso da Amazônia, as usinas hidrelétricas podem resultar na perda de áreas de reprodução, forçando as fêmeas a selecionarem locais de nidificação de baixa qualidade e aumentando o risco de predação, tanto para as fêmeas, quanto ninhos e ovos (Bárcenas-García<em> et al</em>., 2022).</p> \n<p>A perda e a degradação de habitat são ameaças importantes para os quelônios (Rhodin <em>et al</em>., 2018; Stanford <em>et al</em>., 2020), e o desmatamento pode afetar grandes padrões ecológicos do grupo, como migração, uso de habitat e demografia (Fagundes <em>et al</em>. 2018). Apesar de <em>C. fimbriata</em> ser um quelônio altamente aquático (Pritchard, 2008), o desmatamento e a fragmentação de habitat também podem reduzir os locais de nidificação e a conectividade da paisagem, dificultando o recrutamento e o fluxo gênico, contribuindo negativamente para a conservação da espécie. Na Amazônia, o desmatamento está principalmente relacionado à pecuária extensiva (Fearnside, 2022), mas também outras grandes infraestruturas (como estradas) podem facilitar o acesso e aumentar o processo de desmatamento (Santos <em>et al</em>., 2023).</p> \n<p>Outras ameaças à espécie estão relacionadas ao comércio ilegal para atender o mercado de animais de estimação e à perda de hábitat devido a conversão em pastagens e agricultura (Rueda-Almonacid <em>et al.,</em> 2007; R. Bernhard, com. pess., 2010). A contaminação por metais pesados também é uma ameaça, uma vez que foram registrados altos níveis de concentração de mercúrio nos peixes consumidos pela espécie, podendo ocorrer bioacumulação e biomagnificação em seu organismo (Cunha <em>et al</em>., 2024), </p> \n<p>Entre 2014 e 2023, mais de 70 mil indivíduos foram exportados do Peru para Europa e Asia. Acredita-se que parte destes indivíduos venham da Colômbia e do Brasil (C. Ferrara, com. pess., 2024). Atualmente, a espécie está na lista CITES devido à forte pressão de caça.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "12 - Outras ameaças",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial|9.2.3 - Contaminação por metais pesados",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.2 - Comercial - Nacional/Local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.3 - Comercial - Internacional",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Os filhotes de matamatá são comercializados em grande escala no mercado internacional de animais de estimação (Pritchard, 2008). A espécie é utilizada para fins medicinais (Pezzuti <em>et</em> <em>al., </em>2010), mas pouco utilizada para consumo humano. Entretanto, algumas tribos indígenas a consomem, como na região do rio Purus (Vogt, 2008; V. Carvalho, com. pess., 2016). </p> \n<p>No município de Manaus (AM), é crescente o número de apreensões de espécimes de <em>C. fimbriata</em> oriundos de interceptações na aduana local durante processo de fiscalização e controle aduaneiro padrão. Os animais geralmente são embalados em caixas próprias para envio de encomendas pelos Correios e remetidos para outros estados ou fora do país (C. Ferrara, com. pess., 2016).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "5 - Medicina humana ou veterinária",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "1 - Alimentação humana",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>A espécie é contemplada pelo Plano de Ação Nacional para Conservação dos Quelônios Amazônicos – PAN Quelônios Amazônicos. </p> \n<p><em>Chelus fimbriata</em> é reproduzida em cativeiro na América do Norte (Jardim Zoológico Woodland Park – EUA) (Pritchard, 2008). Esta produção pode reduzir a coleta do matamatá nas suas subpopulações naturais para servir como animal de estimação (Vogt, 2008).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Chelus fimbriata (Schneider, 1783)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2016"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2008,
+          "coverage": "Bolívia",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Cortez, 2009",
+              "title": "Cortez, C.F. (2009) <i>Reptiles.<i> In</i>: Ministerio de Medio Ambiente y Agua 2009.</i> La Paz/ Bolívia. 611-612pp."
+            }
+          ],
+          "orderBy": "Z2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação dos Quelônios",
+          "refBibs": [
+            {
+              "label": "Brasil, 2015",
+              "title": "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>."
+            }
+          ]
+        },
+        {
+          "name": "Outra",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Meandros do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2005",
+              "title": "Descrição anatômica do aparelho reprodutor feminino de <i>Chelus fimbriatus</i> (Schneider, 1783) (Testudines, Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Maracá Jipioca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Iverson, 1992",
+              "title": "A revised checklist with distribution maps of the turtles of the world"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Teran <i>et al.</i>, 1995",
+              "title": "Food habits of an assemblage of five species of turtles in the Rio Guapore, Rondonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Nascentes do Lago Jari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rebêlo <i>et al.</i>, 2005",
+              "title": "Pesca artesanal de quelônios no Parque Nacional do Jaú (AM)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Schneider <i>et al.</i>, 2010",
+              "title": "Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Viruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Uatumã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Auati-Paraná",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Verde para Sempre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2007",
+              "title": "Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Rio Branco-Jauaperi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Iverson, 1992",
+              "title": "A revised checklist with distribution maps of the turtles of the world"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Médio Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2007",
+              "title": "Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO AMAPÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maffei <i>et al.</i>, 2007",
+              "title": "Os bichos de casco dos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DOS MARTÍRIOS/ANDORINHAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO CANTãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dornas, 2009",
+              "title": "Compilação dos registros de quelônios, crocodilianos e aves do estado do Tocantins: biodiversidade e lacunas de conhecimento"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Schneider <i>et al.</i>, 2010",
+              "title": "Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Teran <i>et al.</i>, 1995",
+              "title": "Food habits of an assemblage of five species of turtles in the Rio Guapore, Rondonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL DO JUMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2007",
+              "title": "Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA JACI-PARANÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Keller <i>et al.</i>, 2016",
+              "title": "Checklist of chelonians from the upper Madeira River and the lower Madeira-Purus interfluvium (Brazilian Amazon), including a range expansion for <i>Podocnemis sextuberculata</i> Cornalia, 1849"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA PEDRAS NEGRAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brandão, 2002",
+              "title": "Avaliação ecológica rápida da herpetofauna nas Reservas Extrativistas de Pedras Negras e Curralinho, Costa Marques, RO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Iverson, 1992",
+              "title": "A revised checklist with distribution maps of the turtles of the world"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Iverson, 1992",
+              "title": "A revised checklist with distribution maps of the turtles of the world"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO LAGO DE TUCURUI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pires, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PALMAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dornas, 2009",
+              "title": "Compilação dos registros de quelônios, crocodilianos e aves do estado do Tocantins: biodiversidade e lacunas de conhecimento"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Schneider <i>et al.</i>, 2010",
+              "title": "Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "Deni",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "Estrela da Paz",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Gutsche <i>et al.</i>, 2007",
+              "title": "Wilhelm Ehrhardt and an evaluation of his amphibians and reptiles held in the Herpetological Collection of the Museum für Naturkunde, Berlin"
+            }
+          ]
+        },
+        {
+          "name": "Jumina",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Krikati",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silveira, 2011",
+              "title": "<i>Chelus fimbriatus</i> (Matamata Turtle)"
+            }
+          ]
+        },
+        {
+          "name": "Marajai",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Rhodin <i>et al.</i>, 2021",
+              "title": "Turtles of the world - Annoted Checklist and Atlas of Taxonomy, Synonymy, Distribution, and Conservation Status (9th Ed.)"
+            }
+          ]
+        },
+        {
+          "name": "Médio Rio Negro II",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Araguaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Ataídes <i>et al.</i>, 2010",
+              "title": "Percepções sobre o consumo de quelônios no entorno do Parque Nacional do Araguaia, Tocantins: conhecimentos para conservação"
+            }
+          ]
+        },
+        {
+          "name": "Rio Téa",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Schneider <i>et al.</i>, 2010",
+              "title": "Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "Uaça",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Utaria Wyhyna/Iròdu Iràna",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "Waimiri-Atroari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2021",
+              "title": "Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos nas áreas de história natural, ecologia, biogeografia, estudos populacionais ainda são necessários (Ferreira Junior, 2009; Vargas-Ramírez, 2020). </p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Biogeografia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Alho, C. J. R. (2011) Environmental effects of hydropower reservoirs on wild mammals and freshwater turtles in Amazonia: a review. <i>Oecologia Australis</i>. 15 (3), 593-604.",
+          "Andrade, P.C.M., Oliveira, A.B., Almeida Júnior, C.D., Souza, H.C.M., Oliveira, P.H.G. &amp; Rodrigues, W.S. (2007) Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas . In: Sociedade Brasileira de Herpeptologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém, PA.",
+          "Bowler, J.K. (1977) Longevity of reptiles and amphibians and reptiles miscellaneous publication. <i>Herpetological Circular</i>. 6, 1-32.",
+          "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>.",
+          "Bárcenas‐García Andrea, Michalski Fernanda, Gibbs James P. &amp; Norris Darren (2022) Amazonian run‐of‐river dam reservoir impacts underestimated: Evidence from a before–after control–impact study of freshwater turtle nesting areas. <i>Aquatic Conservation: Marine and Freshwater Ecosystems</i>. 32 (3), 508-522.",
+          "Cisneros-Heredia, D.F. (2006) Turtles of the Tiputini Biodiversity Station with remarks on the diversity and distribution of the Testudines from Ecuador. <i>Biota Neotropica</i>. 6 (1), 74-79.",
+          "Cortez, C.F. (2009) <i>Reptiles.<i> In</i>: Ministerio de Medio Ambiente y Agua 2009.</i> La Paz/ Bolívia. 611-612pp.",
+          "Cunha, F. A. G., Fagundes, C. K., Brito, E. S., Vogt, R. C., Maffei, F., Pezzuti, J., Félix-Silva, D., Rojas-Runjaic, F. J. M., Lasso, C. A., Morales-Betancourt, M. A., Carvalho, V. T., Amaral, J. V., Balestra, R. A. M., Acácio, M., Malvasio, A. &amp; Lustosa, A. P. G. (2021) Distribution of Chelus fimbriata and <i>Chelus orinocensis<i/> (Testudines: Chelidae). <i>Chelonian Conservation and Biology</i>. 20 (1), 109-115.",
+          "Cunha, F. A. G., Forsberg, B. R., Vogt, R. C., Domingos, F. X. V., Marshall, B. G., Brito, B. C., Sousa, O. P., Kasper, D., Santos, A. L. P. &amp; Andrade, M. (2024) Mercury biomagnification in the food chain of a piscivorous turtle species (Testudines: Chelidae: <i>Chelus fimbriata<i/>) in the Central Amazon, Brazil. <i>Ecotoxicology</i>. 1-15.",
+          "Cunha, F. A. G., Forsberg, B. R., Vogt, R. C., Domingos-Moreira, F. X. V., Marshall, B. G., Brito, B. C., Sousa, O. P., Kasper, D., Santos, A. L. &amp; Andrade, M. C. (2022) Mercury biomagnification in the food chain of a piscivorous turtle species (Testudines: Chelidae: <i>Chelus fimbriata</i>) in the Central Amazon, Brazil. <i>Acta Amazonica</i>. 52 (3), 1-33.",
+          "Emysystem (1999) World Turtle Database. <a target=\"_blank\" href=\"http://emys.geo.orst.edu/\">http://emys.geo.orst.edu/</a>. [Acessado em: 10/jun/2010].",
+          "Fachín-Terán, A., Vogt, R. C. &amp; Gomez, M. F. S. (1994) Alimentación de tres espécies de tortugas Chelidae en Costa Marques, Rondônia, Brasil. <i>Boletin de Lima</i>. 16 (91-96), 409-416.",
+          "Fachín-Terán, A., Vogt, R. C. &amp; Thorbjarnarson, J. B. (2004) Patterns of use an hunting of turtles in Mamirauá Sustainable Development Reserve, Amazonas, Brazil In: Silvius <i>et al.</i> (eds.) <i>People en nature</i>. Wildlife Conservation in South and Central America, pp. 362-377.",
+          "GBIF (Global Biodiversity Information Facility) (2016) <i>Chelus fimbriata</i> (Schneider, 1783). <a target=\"_blank\" href=\"https://www.gbif.org/species/2441927\">https://www.gbif.org/species/2441927</a>. [Acessado em: 25/mai/2016].",
+          "INPA (Instituto Nacional de Pesquisas da Amazônia) (2016) <i>Coleção Herpetológica</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Iverson, J.B., Balgooyan, C., Byrd, K. &amp; Lyddan, K. (1993) Latitudinal variation in clutch size and egg size in Turtles. <i>Canadian Journal of Zoology</i>. 71, 2448–2461.",
+          "Iverson, J.P. (1992) A revised checklist with distribution maps of the turtles of the world. <i>Privately Printed</i>. 358p.",
+          "Le Gratiet, G., Maran. J., Métrailler, S. &amp; Oudjani, D. (2017) <i>Les chéloniens continentaux de Guyane française: répartition, reproduction en captivité et étymologie des noms scientifiques</i> Edição 43 L’Órtie dioïque, 48pp.",
+          "Lemell, P., Lemell, C., Snelderwaard, P., Gumpenberger, M., Wocheslander, R. &amp; Weisgram, J. (2002) Feeding patterns of <i>Chelus fimbriatus</i> (Pleurodira: Chelidae). <i>Journal of Experimental Biology</i>. 205, 1495-1506.",
+          "Lopes, G. P., Valsecchi, J., Vieira, T. M. Amaral, P. V. &amp; Costa, E. W. M. (2012) Hunting and hunters in lowland communities en the region of the middle Solimões, Amazonas, Brazil. <i>Uakari</i>. 8 (1), 7-18.",
+          "Maffei, F., Siva, F. F. Ruffiel, L. A. A. S. &amp; Da Silveira, R. (2007) Os bichos de casco dos povos indígenas do Oiapoque . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém -PA.",
+          "Mendizabal, D.Z. &amp; Correa-Viana, M. (2015) Ecologia reproductiva de la matamata (<i>Chelus fimbriatus</i>) em el estado Cojedes, Venezuela. <i>Memoria</i>. 72, 75-90.",
+          "Metcalf, M. F., Guedouar, E., Davis, L., Rodriguez, A., Marsh, A., Pacaya, E. T., Graham, D. &amp; Gunnels, C. W. (2023) Herpetofauna of Madre Selva Biological Station, Loreto, Peru. <i>Herpetology Notes</i>. 16, 727-740.",
+          "Morato, S.A.A., Ferreira, G.N., Cavilha-Scupino, M.R., Mendes, L.R.L.P., Silva, M.L.S., Silva, P.N.S., Nogueira, G.A., Suckow, U.M.S., Bueno-Júnior, V.F., Ceolin, L.M. &amp; Gomes, R. (2018) Monitoramento da Herpetofauna das Áreas Florestais Adjacentes à Mineração de Bauxita na FLONA de Saracá-Taquera, Amazônia Central, Estado do Pará, Brasil In: Morato, Ferreira & Scupino (eds.) <i>Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera</i>. Porto Trombetas, PA, STCP Engenharia de Projetos Ltda. MRN – Mineração Rio do Norte S.A, pp. 33-75.",
+          "Nascimento, F.P., Avila-Pires, T.C.S., Santos, I.N.F.F. &amp; Lima, A.C.M. (1991) Répteis de Marajó e Mexiana, Pará, Brasil. I. Revisão bibliográfica e novos registros. <i>Boletim do Museu Paraense Emílio Goeldi, sér. Zool.</i> 7 (1), 24-41.",
+          "Noronha, G.K. &amp; Da Silveira, R. (2009) <i>Etnoconservação de quelônios pelos povos indígenas do Oiapoque</i> Macapá - AP, APIO, 33. IIpp.",
+          "Pezzuti, J.C.B., Pantoja-Lima, J., Silva, D.F. &amp; Begossi, A. (2010) Uses and taboos of turtles and tortoises along Rio Negro, Amazon Basin. <i>Journal of Ethnobiology</i>. 30 (1), 153-168.",
+          "Peña, A.P. &amp; Castro, M.R. (2004) Comunidade de quelônios e jacarés do oeste do Pará, entre as bacias do Rio Trombetas e Nhamundá . <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba.",
+          "Pritchard, P.C.H. &amp; Trebbau, P. (1984) <i>The turtles of Venezuela</i> 403ppp.",
+          "Pritchard, P.C.H. (2008) <i>Chelus fimbriata</i> (Schneider 1783) - Matamata Turtle. <i>Conservation Biology of Freshwater Turtles and Tortoises</i>. 5, 20.1-20.11.",
+          "Rueda-Almonacid, J. V., Carr, J. L., Mittermeier, R. A., Rodríguez-Mahecha, J. V., Mast, R. B., Vogt, R. C., Rhodin, A. G. J., Ossa-Velásquez, J., Rueda, J. N. &amp; Mittermeier, C. G. (2007) <i>Las tortugas y los cocodrilianos de los países andinos del trópico. Serie de guías tropicales de campo</i> Edição 6 Bogotá, Colombia, Conservación Internacional., 538pp.",
+          "Santos, A. L. Q., Sousa, A. G., Brito, F. M. M., Borges, K. M., Vieira, L. G., Andrade, M. B. &amp; Pereira, P. C. (2005) Descrição anatômica do aparelho reprodutor feminino de <i>Chelus fimbriatus</i> (Schneider, 1783) (Testudines, Chelidae) . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileirio de Herpetologia</i> Belo Horizonte - MG.",
+          "Santos, J. L., Yanai, A. M., Graça, P. M., Correia, F. W. &amp; Fearnside, P. M. (2023) Amazon deforestation: simulated impact of Brazil’s proposed BR-319 highway project. <i>Environmental Monitoring and Assessment</i>. 195 (10), 1217.",
+          "Santos, J.F.L., Pagani, E., Ramos, J. &amp; Rodrigues, E. (2012) Observations on the therapeutic practices of riverine communities of the Unini River, AM, Brazil. <i>Journal of Ethnopharmacology</i>. 142 (2), 503-515.",
+          "Schineider, L. Vogt, R. C. Santos Jr, L. B. Ferrara, C. R. (2009) <i>Chelus fimbriatus</i> (Matamata Turtle). BRAZIL:AMAZONAS. <i>Herpetological Review</i>. 40, 448.",
+          "Schneider, L., Belger, L., Burger, J., Vogt, R. C. &amp; Ferrara, C. R. (2010) Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin. <i>Archives of Environmental Contamination and Toxicology</i>. 58 (2), 444-450.",
+          "Schneider, L., Vogt, R.C., Santos Junior, L.B. &amp; Ferrara, C.R. (2010) Geographic distribution: <i>Chelus fimbriatus</i> (matamata). <i>Herpetological Review</i>. 40, 448.",
+          "Silva, H.A. Waldez, F. (2007) Herpetofauna associada a um tabocal ou floresta aberta com bambus (<i>Guadua</i> spp.) no Amazonas, Brasil . <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém/PA.",
+          "SpLink (2016) <i>Chelus fimbriata</i>. <a target=\"_blank\" href=\"http://specieslink.gov.br\">http://specieslink.gov.br</a>. [Acessado em: 07/jul/2016].",
+          "Stanford Craig B., Iverson John B., Rhodin Anders G.J., Paul van Dijk Peter, Mittermeier Russell A., Kuchling Gerald, Berry Kristin H., Bertolero Alberto, Bjorndal Karen A., Blanck Torsten E.G., Buhlmann Kurt A., Burke Russell L., Congdon Justin D., Diagne Tomas, Edwards Taylor, Eisemberg Carla C., Ennen Josh R., Forero-Medina Germán, Frankel Matt, Fritz Uwe, Gallego-García Natalia, Georges Arthur, Gibbons J. Whitfield, Gong Shiping, Goode Eric V., Shi Haitao T., Hoang Ha, Hofmeyr Margaretha D., Horne Brian D., Hudson Rick, Juvik James O., Kiester Ross A., Koval Patricia, Le Minh, Lindeman Peter V., Lovich Jeffrey E., Luiselli Luca, McCormack Timothy E.M., Meyer George A., Páez Vivian P., Platt Kalyar, Platt Steven G., Pritchard Peter C.H., Quinn Hugh R., Roosenburg Willem M., Seminoff Jeffrey A., Shaffer H. Bradley, Spencer Ricky, Van Dyke James U., Vogt Richard C. &amp; Walde Andrew D. (2020) Turtles and Tortoises Are in Trouble. <i>Current Biology</i>. 30 (12), R721-R735.",
+          "Uétz, P. (2015) <i>Chelus fimbriata</i>. <a target=\"_blank\" href=\"http://reptile-database.reptarium.cz/species?genus=Chelus&species=fimbriata&search_param=((taxon%3D%27Chelidae%27)\">http://reptile-database.reptarium.cz/species?genus=Chelus&species=fimbriata&search_param=((taxon%3D%27Chelidae%27)</a>. [Acessado em: 02/mai/2016].",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Vargas-Ramírez, M., Caballero, S., Morales-Betancourt, M. A., Lasso, C. A., Amaya, L., Martínez, J. G., Viana, M. N. S., Vogt, R. C., Farias, I. P., Hrbek, T., Campbell, P. D. &amp; Fritz, U. (2020) Genomic analyses reveal two species of the matamata (Testudines: Chelidae: <i>Chelus</i> spp.) and clarify their phylogeography. <i>Molecular Phylogenetics and Evolution</i>. 148, 1-17.",
+          "Viana, P. F., Feldberg, E., Takagui, F. H., Menezes, S., Vogt, R. C. &amp; Ezaz, T. (2022) Matamatas Chelus spp. (Testudines, Chelidae) have a remarkable evolutionary history of sex chromosomes with a long-term stable XY microchromosome system. <i>Scientific reports</i>. 12, 1-13.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Chelus fimbriata (Schneider, 1783)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Vogt, R.C. (1992) Ecologia reprodutiva de uma comunidade de quelônios da Amazônia . In: Resumos do XII Congresso Latino-Americano de Zoologia. (ed.) <i><i>In</i>: Resumos do XII Congresso Latino-Americano de Zoologia. 131p.</i>",
+          "Vogt, R.C. (2008) <i>Tartarugas da Amazônia</i> Edição 1ª. Manaus - AM, Editora INPA., 104pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

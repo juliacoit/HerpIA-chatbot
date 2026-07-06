@@ -1,0 +1,649 @@
+{
+  "id_ficha": "676f324356724376526e397a7041444475336b6d49413d3d",
+  "nome_cientifico": "Chironius foveatus Bailey, 1955",
+  "nome_cientifico_atual": "Chironius foveatus Bailey, 1955",
+  "nome_comum": "Cipó, Cobra-cipó, Cobra-cipó verde, South American Sipo",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28091.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=676f324356724376526e397a7041444475336b6d49413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Chironius foveatus</i>&nbsp;<span>Bailey, 1955</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Chironius foveatus </em>é endêmica do Brasil, observada principalmente em ambientes de floresta ombrófila densa de baixada até 800 metros de altitude da bioma Mata Atlântica, entre os estados da Bahia a Santa Catarina. Trata-se de uma espécie aparentemente abundante, de ampla distribuição e que possui registros em diversas unidades de conservação, inclusive de proteção integral, Não há ameaças evidentes que possam colocá-la risco de extinção em curto prazo. Por essas razões, <em>Chironius </em><em>foveatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Chironius foveatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28091.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28091.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 2,
+      "versionId": 19303,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Colubridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Chironius</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Chironius foveatus</i>"
+        }
+      ],
+      "oldNames": "Chironius multiventris foveatus",
+      "commonNames": "Cipó, Cobra-cipó, Cobra-cipó verde, South American Sipo",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Chironius foveatus </em>é endêmica do Brasil, com registros de ocorrência predominantes no bioma Mata Atlântica, entre os estado da Bahia e Santa Catarina (Bailey, 1955; Dixon <em>et al</em>., 1993; Franco <em>et al</em>., 1998; Argôlo, 2004; Marques &amp; Sazima, 2004; Hartmann, 2005; Rocha &amp; Van-Sluys, 2006; Cicchi <em>et al</em>., 2007; Pontes <em>et al</em>., 2008; Kunz &amp; Ghizoni-Jr., 2009; Freitas, 2014; Rocha <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Paraná, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/472b68356a486977697449315778692b333268537963646c6d533549614f68756959786c75584a726643726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f665db2a4d61c4a5532226cd1d6f2169.png",
+        "fileName": "Mapa de Chironius foveatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Chironius foveatus </em>ocorre principalmente em ambientes de floresta ombrófila densa de baixada, até 800 metros de altitude (Argôlo, 2009), em estreita faixa litorânea da Mata Atlântica (Bailey, 1955; Dixon <em>et al</em>., 1993). Parece não ocupar áreas ensolaradas associadas a restingas abertas (R. Bérnils, com. pess., 2009). A espécie é diurna e semi arborícola, e utiliza a vegetação para descansar durante a noite (Hartmann <em>et al</em>., 2009). Alimenta-se de anuros, especialmente hilídeos, e ocasionalmente de lagartos (Dixon <em>et al</em>., 1993; Marques, 1998; Rocha <em>et al</em>., 1999).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição. Foi considerada de abundância intermediária no Núcleo Picinguaba do Parque Estadual da Serra do Mar (Hartmann <em>et al</em>., 2009).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie pode ser localmente afetada por atividades antrópicas, como no Parque Estadual Fonte Grande, única localidade conhecida da espécie em Vitória, no estado do Espírito Santo, cujo remanescente de Mata Atlântica encontra-se completamente rodeado por ambientes alterados, residências e pequenas fazendas (Silva-Soares, 2011). As ameaças, no entanto, são localizada e não afeta toda a população da espécie.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.4 - Assentamentos e pequenas propriedades rurais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Strüssmann , C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Kawashita-Ribeiro, R.A., Sawaya, R.J. &amp; Costa, T.B.G. (2019) <I>Chironius foveatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T96105025A123737762.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T96105025A123737762.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Costa das Algas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Guaricana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Superagui",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Itajaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL CENTRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha & Van-Sluys, 2006",
+              "title": "New records of reptiles from Ilha Grande Island in Rio de Janeiro State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Hartmann, 2005",
+              "title": "História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Marques & Sazima, 2004",
+              "title": "História natural dos répteis da Estação Ecológica Juréia-Itatins"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha & Van-Sluys, 2006",
+              "title": "New records of reptiles from Ilha Grande Island in Rio de Janeiro State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Argôlo, 2004",
+              "title": "As serpentes dos Cacauais do Sudeste da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO ALTO IGUAçU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bailey, 1955",
+              "title": "The snakes of the genus <i>Chironius</i> in southeastern South America"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Palmital",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Rizzieri",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Franco <i>et al.</i>, 1998",
+              "title": "Répteis na Estação Vera Cruz (Porto Seguro, Bahia)"
+            }
+          ]
+        },
+        {
+          "name": "Ribeirão Silveira",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Argôlo, A.J.S. 2004. <b>As serpentes dos Cacauais do Sudeste da Bahia</b>. p.260. Editus Ilhéus, BA.",
+          "Argôlo, A.J.S. 2009. <b>Composição faunística e distribuição geográfica de serpentes na Mata Atlântica do sul do Bahia, Brasil</b>. Tese de Doutorado. Museu Nacional/ Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Bailey, J.R. 1955. The snakes of the genus <i>Chironius</i> in southeastern South America. <b>Occasional papers of the Museum of Zoology, University of Michigan</b>, 571: p.1-21.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cicchi, P.J.P.; De Sena, M.A.; Peccinini-Seale, D.M. &amp; Duarte, M.R. 2007. Snakes from coastal islands of state of São Paulo, Southeastern Brazil. <b>Biota Neotropica</b>, 7 (2): p.228--240.",
+          "Dixon, J.R.; Wiest-Jr., J.A. &amp; Cei, J.M. 1993. Revision of the Neotropical snake genus <i>Chironius</i> Fitzinger (Serpentes, Colubridae). <b>Monografie Museo Regionale di Scienze Naturali di Torino</b>, 13: p.1-279.",
+          "Franco, F.L.; Sugliano, G.O.S.; Porto, M. &amp; Marques, O.A.V. 1998. <b>Répteis na Estação Vera Cruz (Porto Seguro, Bahia)</b>. p.41. Veracel Celulose",
+          "Freitas, M.A. 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. <b>Check List</b>, 10 (5): p.1020-1030.",
+          "Hartmann, P.A. 2005. <b>História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica</b>. Tese de Doutorado. Universidade Estadual Paulista “Júlio de Mesquita Filho”. Rio Claro, SP. p.117.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2009. Ecology of a snake assemblage in the Atlantic Forest of southeastern Brazil. <b>Papéis Avulsos de Zoologia</b>, 49 (27): p.343-361.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kunz, T.S. &amp; Ghizoni-Jr., I.R. 2009. Serpentes encontradas mortas em rodovias do estado de Santa Catarina, Brasil. <b>Biotemas</b>, 22 (2): p.91-103.",
+          "Marques, O.A.V. &amp; Sazima, I. 2004. História natural dos répteis da Estação Ecológica Juréia-Itatins. p.257-277. <i>In</i>: Marques & Duleba. <b>Estação Ecológica Juréia-Itatins: Ambiente Físico, Flora e Fauna</b>. Holos Ribeirão Preto.",
+          "Marques, O.A.V. 1998. <b>Composição Faunística História Natural e Ecologia de Serpentes da Mata Atlântica na Região da Estação Ecológica Juréia Itatins São Paulo SP</b>. Tese de Doutorado. Universidade de São Paulo. São Paulo. p.142.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Pontes, J.A.L; Figueiredo, J.P.; Pontes, R.C. &amp; Rocha, C.F.D. 2008. Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition. <b>Brazilian Journal of Biology</b>, 68 (3): p.601-609.",
+          "Rocha, C.F.D. &amp; Van-Sluys, M. 2006. New records of reptiles from Ilha Grande Island in Rio de Janeiro State, Brazil. <b>Herpetological Review</b>, 37 (1): p.112-114.",
+          "Rocha, C.F.D.; Telles, F.B.S.; Vrcibradic, D. &amp; Nogueira-Costa, P. 2018. The herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms. <b>Papéis Avulsos de Zooloogia</b>, 58: p.e20185825.",
+          "Rocha, C.F.D.; Vrcibradic, D. &amp; Sluys, M.V. 1999. <i>Chironius multiventris foveatus</i>. <b>Herpetological Review</b>, 30: p.99.",
+          "Silva-Soares, T.; Ferreira, R.B.; Salles, R.O.L. &amp; Rocha, C.F.D. 2011. Continental, insular and coastal marine reptiles from the municipality of Vitória, state of Espírito Santo, southeastern Brazil. <b>Check List</b>, 7 (3): p.290-298.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Strüssmann , C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Kawashita-Ribeiro, R.A.; Sawaya, R.J. &amp; Costa, T.B.G. 2019. <I>Chironius foveatus</i>. <b>The IUCN Red List of Threatened Species 2019: e.T96105025A123737762</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T96105025A123737762.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T96105025A123737762.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

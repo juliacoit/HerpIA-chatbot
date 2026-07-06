@@ -1,0 +1,285 @@
+{
+  "id_ficha": "47517a66786a6b5841756a31646f49327973532b68413d3d",
+  "nome_cientifico": "Pristimantis malkini (Lynch, 1980)",
+  "nome_cientifico_atual": "Pristimantis malkini (Lynch, 1980)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21446.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=47517a66786a6b5841756a31646f49327973532b68413d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pristimantis malkini</i>&nbsp;<span>(Lynch, 1980)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "05/06/2024",
+      "justificative": "<p><em>Pristimantis malkini </em>ocorre na América do Sul, no bioma amazônico, sendo conhecida para o Brasil, Colômbia, Equador e Peru. No Brasil, possui somente um registro no estado do Acre, no Parque Nacional da Serra do Divisor. No entanto, especialistas acreditam que sua distribuição possa ser mais ampla no país. Ocorre em florestas primárias e secundárias. Não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Pristimantis malkini </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2024. <i>Pristimantis malkini</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21446.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21446.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16494,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Strabomantidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pristimantis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pristimantis malkini</i>"
+        }
+      ],
+      "oldNames": "Eleutherodactylus (Eleutherodactylus) malkini, Eleutherodactylus malkini, Pristimantis (Pristimantis) malkini",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pristimantis malkini</em> foi descrita para Loreto, no Peru, e é também conhecida para o Brasil, sudeste da Colômbia e leste do Equador (Lynch, 1980; Souza, 2009; Cisneros-Heredia, 2005). </p>",
+      "nationalDistribution": "<p>No Brasil, é conhecida apenas de um exemplar registrado para o Parque Nacional da Serra do Divisor, no estado do Acre (Souza, 2009). Provavelmente possui distribuição mais ampla no país.</p>",
+      "states": "Acre",
+      "biomes": "Amazônia",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4a68674b6a6e674a64314437714c38667a4962694976414f426c724a52487038487832464f754a69717278777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "ab962aa2d589f9399b6979cd1b29bd8f.png",
+        "fileName": "Mapa de Pristimantis malkini.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pristimantis malkini</em> ocorre no bioma Amazônia, em floresta primária, onde é mais comumente vista no chão, troncos, ou raízes de árvores ao longo de pequenos córregos à noite, principalmente durante o período de chuvas (Souza, 2009). Também ocorre em áreas de floresta inundada, nas bordas de florestas, perto de pequenos riachos de floresta secundária e em <em>habitat</em> modificados. Reproduz-se por desenvolvimento direto, com oviposição na serrapilheira (Rodríguez &amp; Duellman, 1994).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças evidentes que possam levar a risco de extinção, pois ocorre em área preservada.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p> Não há.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodríguez <i>et al.</i>, 2004",
+              "title": "Rodríguez, L., Martinez, J.L., Coloma, L.A., Ron, S.R., Castro, F., Rueda-Almonacid, J.V., Icochea M.J., Angulo. A., Gascon, C. &amp; Cisneros-Heredia, D.F. (2004) <i>Pristimantis malkini</i> (errata version published in 2016). <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56739A11528413.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56739A11528413.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2009",
+              "title": "Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários levantamentos no entorno da região de ocorrência, para que se conheça melhor a sua distribuição geográfica. Além de mais estudos sobre história natural e dinâmica populacional.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cisneros-Heredia, D. F. (2005) Geographic distribution: <i>Eleutherodactylus malkini</i>. <i>Herpetological Review</i>. 36, 74.",
+          "Frank, N. &amp; Ramus, E. (1995) <i>Complete guide to scientific and common names of amphibians and reptiles of the world</i> Pottsville, Pennsylvania, N.G. Publishing Inc,",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lynch, J.D. (1980) A Taxonomic and Distributional Synopsis of the Amazonian Frogs of the Genus <i>Eleutherodactylus</i>. <i>American Museum Novitates</i>. (2696), 1-24.",
+          "Rodríguez, L., Martinez, J.L., Coloma, L.A., Ron, S.R., Castro, F., Rueda-Almonacid, J.V., Icochea M.J., Angulo. A., Gascon, C. &amp; Cisneros-Heredia, D.F. (2004) <i>Pristimantis malkini</i> (errata version published in 2016). <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56739A11528413.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56739A11528413.en</a>.",
+          "Rodríguez, L.O. &amp; Duellman, W.E. (1994) <i>Guide to the frogs of the Iquitos region, Amazonian Peru</i> Lawrence, Kansas, Asocacion de Ecologia y Conservacion, Amazon Center for Environmental Education and Research and Natural History Museum, The University of Kansas,",
+          "Souza, M.B. (2009) <i>Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais</i> Edição 1 Campinas, SP, Instituto de Filosofia e Ciências Humanas - IFCH Unicamp, 77pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

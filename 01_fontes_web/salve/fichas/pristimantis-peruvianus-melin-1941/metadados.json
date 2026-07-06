@@ -1,0 +1,311 @@
+{
+  "id_ficha": "654875424e6e5537525177506e6e38652f72525a6c673d3d",
+  "nome_cientifico": "Pristimantis peruvianus (Melin, 1941)",
+  "nome_cientifico_atual": "Pristimantis peruvianus (Melin, 1941)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21450.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=654875424e6e5537525177506e6e38652f72525a6c673d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pristimantis peruvianus</i>&nbsp;<span>(Melin, 1941)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "05/06/2024",
+      "justificative": "<p><em>Pristimantis peruvianus </em>ocorre no bioma amazônico, sendo conhecida para o Brasil, Colômbia, Equador e Peru. No Brasil, possui somente dois registros de ocorrência, um no estado do Acre, na Reserva Extrativista Riozinho da Liberdade e outro no município de Boca do Acre, no estado do Amazonas. É possível que sua distribuição seja mais ampla no país. Trata-se de espécie comum nas localidades onde ocorre, habitando a vegetação rasteira em planícies alagadas de floresta primária e secundária. Não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Pristimantis peruvianus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2024. <i>Pristimantis peruvianus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21450.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21450.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16498,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Strabomantidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pristimantis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pristimantis peruvianus</i>"
+        }
+      ],
+      "oldNames": "Eleutherodactylus (Eleutherodactylus) peruvianus, Eleutherodactylus peruvianus, Hylodes peruvianus, Pristimantis (Pristimantis) peruvianus",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pristimantis peruvianus</em> foi descrita para San Martin, no Peru, ocorrendo também no Oeste do Brasil e Sul do Equador e da Colômbia (Duellman &amp; Lehr, 2009; França &amp; Venâncio, 2010).</p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, são conhecidos dois registros da espécie, um no estado do Acre e outro no Amazonas (França &amp; Venâncio, 2010; Bernarde <em>et al</em>., 2011). No entanto, sua distribuição pode ser mais ampla no país.</p>",
+      "states": "Acre, Amazonas",
+      "biomes": "Amazônia",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/334f455136796a706354504d5762446648616576507636555a41335a58512f4531463667715a2b51374a35777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "cfc36961bc870033359c9a77a8ad8f94.png",
+        "fileName": "Mapa de Pristimantis peruvianus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pristimantis peruvianus</em> é terrestre, habita a vegetação rasteira de planície alagada, no bioma Amazônia. Reproduz-se por desenvolvimento direto e sua deposição dos ovos ocorre no folhiço. Pode também ocorrer em <em>habitat</em> secundário (Lynch, 1980; Lynch &amp; Duellman, 1980).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Tendência populacional aparentemente estável, pois é comum nos locais onde ocorre (M. Hoogmoed, com. pess., 2012).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora haja perda de vegetação nativa, na área de sua distribuição, não há ameaças evidentes que possam levar a espécie a em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.4 - Assentamentos e pequenas propriedades rurais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p> Não há.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodríguez <i>et al.</i>, 2004",
+              "title": "Rodríguez, L., Martinez, J.L., Coloma, L.A. &amp; Ron, S. (2004) <i>Pristimantis peruvianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56848A11544554.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56848A11544554.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários levantamentos em áreas similares no entorno da região de ocorrência, para que se conheça melhor a sua distribuição geográfica. Além de mais estudos sobre história natural e dinâmica populacional.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bernarde, P.S., Machado, R.A. &amp; Turci, L.C.B. (2011) Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <i>Biota Neotrópica</i>. 11 (3), 117-144.",
+          "Duellman, W. E. &amp; Lehr, E. (2009) <i>Terrestrial-breeding frogs (Strabomantidae) in Peru</i> Münster, Germany, Nature und Tier Verlag, 382pp.",
+          "Frank, N. &amp; Ramus, E. (1995) <i>Complete guide to scientific and common names of amphibians and reptiles of the world</i> Pottsville, Pennsylvania, N.G. Publishing Inc,",
+          "França, F.G.R. &amp; Venâncio, N.M. (2010) Reptiles and amphibians of a poorly known region in southwest Amazonia. <i>Biotemas</i>. 23 (3), 71-84.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lynch, J.D. &amp; Duellman, W.E. (1980) The <i>Eleutherodactylus</i> Of The Amazonian Slopes Of The Ecuadorian Andes (Anura: Leptodactylidae). <i>Miscellaneous Publication</i>. 69, 1-86.",
+          "Lynch, J.D. (1980) A Taxonomic and Distributional Synopsis of the Amazonian Frogs of the Genus <i>Eleutherodactylus</i>. <i>American Museum Novitates</i>. (2696), 1-24.",
+          "Rodríguez, L., Martinez, J.L., Coloma, L.A. &amp; Ron, S. (2004) <i>Pristimantis peruvianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56848A11544554.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56848A11544554.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id_ficha": "5a4d684b6969764352413142644472697062474632513d3d",
+  "nome_cientifico": "Atelopus franciscus Lescure, 1974",
+  "nome_cientifico_atual": "Atelopus franciscus Lescure, 1974",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19182.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5a4d684b6969764352413142644472697062474632513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atelopus franciscus</i>&nbsp;<span>Lescure, 1974</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "09/01/2023",
+      "justificative": "<p><em>Atelopus franciscus </em>é endêmica da Amazônia, conhecida para a Guiana Francesa e Brasil. No Brasil, há apenas dois exemplares coletados na mesma localidade, no estado do Amapá. Há incerteza quanto à validade taxonômica da espécie e não há informações sobre distribuição e população que possibilitem uma avaliação adequada do seu risco de extinção. Por esses motivos, <em>Atelopus franciscus</em> foi avaliada com Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Atelopus franciscus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19182.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19182.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15426,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atelopus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atelopus franciscus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Boistel <em>et al</em>. (2005) e Noonan &amp; Gaucher (2005) sugerem que <em>Atelopus franciscus </em>seja sinonímia de <em>Atelopus flavencens</em>. No entanto, os argumentos não são conclusivos e, baseado em caracteres morfológicos, como tamanho e cor, M.S. Hoogmoed (com. pess., 2017) afirma que são espécies distintas. A espécie necessita revisão taxonômica.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Atelopus franciscus </em>ocorre no Escudo das Guianas, com registros na Guiana Francesa (Lescure <em>et al.</em> 1974; Boistel <em>et al</em>. 2005) e no Brasil (M.S. Hoogmoed, com. pess., 2017).</p>",
+      "nationalDistribution": "<p>No Brasil, há dois exemplares depositados no Museu Paraense Emílio Goeldi (MPEG 20401-2), coletados em 2005 em uma aldeia indígena no município de Oiapoque, no noroeste do estado do Amapá (M.S. Hoogmoed, com. pess., 2017). A região ainda é pouco amostrada e sabe-se muito pouco sobre a distribuição da espécie no país.</p>",
+      "states": "Amapá",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6c614e616e493030316e71472f464b4933526b55686b686d505670307571696d74593676794f314a50686c4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Atelopus franciscus",
+        "diskFileName": "9b416beafd1ad12cc25d99f2a92d3f7b.png",
+        "fileName": "Mapa de Atelopus franciscus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie ocorre no bioma Amazônia, sendo encontrada na serrapilheira de floresta de terra firme (M.S. Hoogmoed, com. pess., 2017). Na Guiana Francesa, a espécie não é encontrada em ambiente alterado; <em>A. franciscus </em>deposita ovos na água e os girinos ficam fixados nas rochas de riachos de água corrente limpa (Lescure <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Atelopus franciscus </em>é de difícil encontro (rara). Em uma expedição de dois dias, foram coletados apenas dois exemplares (J. Lima, com. pess., 2011). Não há informações populacionais adicionais. O hábitat da espécie no Brasil e na Guiana Francesa são conectados, mas não há indícios de que a população no Brasil receba aporte significativo de indivíduos do país vizinho.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há informações suficientes para avaliar as ameaças à <em>Atelopus franciscus </em>no Brasil. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A espécie é de interesse para o comércio internacional ilegal de animais de estimação (Lescure <em>et al</em>., 2004). Fotos da espécie já foram disponibilizada na internet para comércio, com indícios de que indivíduos foram coletados no Amapá (M.S. Hoogmoed, com. pess. 2017).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Atelopus franciscus</i> Lescure, 1974. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7824-anfibios-atelopus-franciscus.htm\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7824-anfibios-atelopus-franciscus.htm</a>."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A3ce",
+          "refBibs": [
+            {
+              "label": "Lescure <i>et al.</i>, 2004",
+              "title": "Lescure, J., Marty, C., Born, M., Boistel, B., Reynolds, R., Hoogmoed, M., Macculloch, R. &amp; Gaucher, P. Lötters, S. (2004) <i>Atelopus franciscus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54512A11155604\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54512A11155604</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "Uaça",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É necessário elucidar o <em>status</em> taxonômico da espécies, além de estudos sobre distribuição geográfica e história natural.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Boistel, R.; Lötters, S. &amp; Blanc, M. 2005. <i>Atelopus franciscus</i>. <i>In</i>:Rueda-Almonacid <i>et al.</i>. <b>Ranas Arlequines</b>. Conservación Internacional Bogotá, Colômbia.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U., 2016. Avaliação do Risco de Extinção de <i>Atelopus franciscus</i> Lescure, 1974.. Processo de avaliação do risco de extinção da fauna brasileira. ICMBio, Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7824-anfibios-atelopus-franciscus.htm\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7824-anfibios-atelopus-franciscus.htm</a>.",
+          "Lescure, J., 1974. Contribution a letude des amphibiens de Guyane Francaise. 1. Notes sur <I>Atelopus flavescens</i> Dumeril et Bibron et description d’une nouvelle espèce. Vie et Milieu. Serie C, Biologie Terrestre, 23: p.125-141.",
+          "Lescure, J.; Marty, C.; Born, M.; Boistel, B.; Reynolds, R.; Hoogmoed, M.; Macculloch, R. &amp; Gaucher, P. Lötters, S., 2004. <i>Atelopus franciscus</i>. The IUCN Red List of Threatened Species 2004: e.T54512A11155604, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54512A11155604\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54512A11155604</a>.",
+          "Noonan, B.P. &amp; Gaucher, P. 2005. Phylogeography and demography of Guianan harlequin toads (<i>Atelopus</i>): Diversification within a refuge. <b>Molecular Ecology</b>, 14 (10): p.3017-3031.."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

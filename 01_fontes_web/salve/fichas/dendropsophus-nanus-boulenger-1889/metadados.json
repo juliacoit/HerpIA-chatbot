@@ -1,0 +1,489 @@
+{
+  "id_ficha": "5734677347455641475a305057684c6f4567753632413d3d",
+  "nome_cientifico": "Dendropsophus nanus (Boulenger, 1889)",
+  "nome_cientifico_atual": "Dendropsophus nanus (Boulenger, 1889)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19252.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5734677347455641475a305057684c6f4567753632413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus nanus</i>&nbsp;<span>(Boulenger, 1889)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus nanus </em>é conhecida para a Argentina, Bolívia, Brasil, Paraguai, Uruguai, Suriname e Guiana Francesa. No Brasil, possui ampla distribuição, ocorrendo em todas regiões do país. Trata-se de espécie comum e generalista, que ocorre em grande variedade de ambientes, desde florestas até áreas abertas. Não foram identificadas ameaças que a coloquem em risco de extinção. Por essas razões, <em>Dendropsophus nanus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Dendropsophus nanus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19252.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19252.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15442,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus nanus</i>"
+        }
+      ],
+      "oldNames": "Hyla nana, Sphoenohyla nana",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Pode tratar-se de um complexo de espécies (Reichle <em>et al</em>., 2004).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Dendropsophus nanus </em>é conhecida para a Argentina, Bolívia, Brasil, Paraguai, Uruguai (Basso <em>et al</em>., 1985; Langone &amp; Basso, 1987; Langone, 1994; Aquino <em>et al</em>., 1996; De la Riva <em>et al</em>., 2000; Lavilla &amp; Cei, 2001; Maneyro &amp; Langone, 2001), Suriname e Guiana Francesa (M. Hoogmoed, com. pess., 2018).</p>",
+      "nationalDistribution": "<p>No Brasil, possui uma ampla distribuição, com registros de ocorrência da região Norte até a região Sul (Cochran, 1955; Bokermann, 1963; Lutz, 1973; Heyer, 1977; Uetanabaro <em>et al</em>., 2006; Souza <em>et al</em>., 2010; Bernarde <em>et al</em>., 2011).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Santa Catarina, São Paulo, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Grande, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral SE, Sub-bacia Litoral SP PR SC, Sub-bacia Mearim, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Submédio, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/566c72433178746a545056637677697043772f46686b75545052694639675678715833484772634c6668766f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "d2d487c34d21d90294a12e102ecd4521.png",
+        "fileName": "Mapa de Dendropsophus nanus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Dendropsophus nanus</em> é uma espécie generalista, que ocorre em grande variedade de ambientes, desde florestas até áreas abertas, encontrada principalmente na vegetação herbácea das bordas de poças de água. A reprodução acontece em corpos d’água temporários (Reichle <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em sua área de distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização da espécie. </p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Reichle <i>et al.</i>, 2004",
+              "title": "Reichle, S., Aquino, L., Colli, G., Silvano, D., Azevedo-Ramos, C. &amp; Bastos, R. (2004) <i>Dendropsophus nanus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55575A11320376.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55575A11320376.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "M.B. Souza, com. pess., 2012",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MORRO DO DIABO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO UTINGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Giaretta, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Giaretta, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda América",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Palmeiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Santo Antonio do Pindaré,Gleba Barra da Jurema",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fonte da Bica",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jubran",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica da Mata Fria",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Aquino, A.L.; Scott, N.J. &amp; Motte, M. 1996. Lista de anfibios y reptiles del Museo de Historia Natural del Paraguay (Marzo, 1980-Septiembre, 1995). p.331-400. <i>In</i>:Romero. <b>Colección de Flora y Fauna del Museo Nacional de Historia Natural del Paraguay</b>. Museo Nacional de Historia Natural del Paraguay Asunción.",
+          "Basso, N.G.; Perí, S.I. &amp; Di Tada, I.E. 1985. Revalidación de <i>Hyla sanborni</i> Schmidt, 1944 (Anura: Hylidae). <b>Cuadernos de Herpetología</b>, 1 (3): p.1-11.",
+          "Bernarde, P.S.; Machado, R.A. &amp; Turci, L.C.B. 2011. Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <b>Biota Neotrópica</b>, 11 (3): p.117-144.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bokermann, W.C.A. 1963. Girinos de Anfíbios Brasileiros - 4 (Amphibia, Salientia). <b>Revista Brasileira de biologia</b>, 27 (4): p.363-367.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cochran, D.M. 1955. Frogs of southeastern Brazil. <b>United States National Museum Bulletin</b>, p.1-423.",
+          "De la Riva, I.; Köhler, J.; Lötters, S. &amp; Reichle, S. 2000. Ten years of research on Bolivian amphibians: updated checklist, distribution, taxonomic problems, literature and iconography. <b>Revista Española de Herpetologia</b>, 14: p.19-164.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Heyer, W.R. 1977. Taxonomic notes on frogs from the Madeira and Purus rivers, Brasil. <b>Papéis Avulsos de Zoologia</b>, 31 (8): p.141-162.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Langone, J.A. &amp; Basso, N.G. 1987. Distribución geográfica y sinonimia de <i>Hyla nana</i> Boulenger, 1889 y de <i>Hyla sanborni</i> Schmidt, 1944 (Anura: Hylidae) y observaciones sobre formas afines. <b>Comunicaciones Zoologicas del Museo de Historia Natural de Montevideo</b>, 11: p.1-17.",
+          "Langone, J.M. 1994. Ranas y sapos del Uruguay (Reconocimiento y aspectos biológicos). <b>Museo Damásio Antonio Larrañaga. Serie de Divulgación</b>, 5: p.1-123.",
+          "Lavilla, E.O. &amp; Cei, J.M. 2001. Amphibians of Argentina. A second update, 1987-2000. <b>Monografie. Museo Regionale di Scienze Naturali</b>, 28: p.1–177.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Maneyro, R. &amp; Langone, J.A. 2001. Categorización de los anfibios del Uruguay. <b>Cuadernos de Herpetología</b>, 15 (2): p.107-118.",
+          "Reichle, S.; Aquino, L.; Colli, G.; Silvano, D.; Azevedo-Ramos, C. &amp; Bastos, R. 2004. <i>Dendropsophus nanus</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55575A11320376</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55575A11320376.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55575A11320376.en</a>.",
+          "Souza, F.L.; Uetanabaro, M.; Landgref-Filho, P.; Piatti, L. &amp; Prado, C.P.A. 2010. Herpetofauna, municipality of Porto Murtinho, Chaco region, state of Mato Grosso do Sul, Brazil. <b>Check List</b>, 6 (3): p.470-475.",
+          "Uetanabaro, M.; Guimarães, L.D.; Landgref-Filho, P.; Beda, A.F.; Prado, C.P.A.; Bastos, R.P. &amp; Ávila, R.W. 2006. Inventário da herpetofauna no Complexo Aporé-Sucuriú. p.105-112. <i>In</i>:Pagotto & Souza. <b>Biodiversidade do Complexo Aporé-Sucuriú: subsídios a conservação e ao manejo do Cerrado: área prioritária 316-Jauru</b>. UFMS Campo Grande/MS."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

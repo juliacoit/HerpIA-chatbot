@@ -1,0 +1,435 @@
+{
+  "id_ficha": "6a3658433852483255656f5855313238632f58542b513d3d",
+  "nome_cientifico": "Plica plica (Linnaeus, 1758)",
+  "nome_cientifico_atual": "Plica plica (Linnaeus, 1758)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35730.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6a3658433852483255656f5855313238632f58542b513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Plica plica</i>&nbsp;<span>(Linnaeus, 1758)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "30/03/2026",
+      "justificative": "<p><em>Plica plica</em> possui ampla distribuição na região amazônica da América do Sul. No Brasil, ocorre ao longo de quase toda a Amazônia, havendo registro também no Mato Grosso do Sul. É encontrada em florestas primárias e secundárias de várzea e terra firme, possui ampla distribuição e não há ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>P. plica</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Plica plica</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35730.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35730.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24390,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Tropiduridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Plica</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Plica plica</i>"
+        }
+      ],
+      "oldNames": "Tropidurus plica",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Plica plica</em> é um complexo de espécies (Oliveira <em>et al</em>., 2016), avaliado aqui como unidade taxonômica.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Plica plica</em> possui ampla distribuição na América do Sul, com ocorrência no Brasil e outros países da região amazônica (Avila-Pires, 1995; Dirksen &amp; De la Riva, 1999; Ortega-Andrade <em>et al</em>., 2010; Aguilar-Kirigin 2012; Ribeiro-Júnior, 2015). </p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, está presente ao longo de grande parte da Amazônia, com registro também no Mato Grosso do Sul (Vitt, 1991; Avila-Pires, 1995; Ribeiro-Júnior, 2015).</p>",
+      "states": "Acre, Amapá, Amazonas, Mato Grosso, Mato Grosso do Sul, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia, Pantanal",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paraguai 02, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/535838452b744f656636574b696f6a4e4f62377144454c7a4d51346474306e48412b4a6d635968677669666e4c6b6578357476663470504c6447375035785151",
+        "legend": "Plica plica.",
+        "diskFileName": "372bbaf9c94f780a7132673a5f9ad4fc.png",
+        "fileName": "Mapa de Plica plica.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Plica plica</em> é diurna e arborícola, encontrado em florestas primárias e secundárias de várzea e terra firma, em troncos de árvores grandes (Avila-Pires, 1995; Ribeiro-Júnior, 2015). Alimenta-se de insetos, principalmente formigas e os indivíduos são encontrados sozinhos ou aos pares (Avila-Pires, 1995). Quando perturbados, podem permanecer imóveis, fugir a curtas distâncias ou circular no tronco da árvore (Avila-Pires, 1995; Bernarde <em>et al</em>., 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Por ser arborícola, a espécie é altamente impactada pela conversão das florestas. No entanto, sua distribuição é bastante ampla e não há evidências de que as espécies do complexo estejam em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2020,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2020"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2020",
+              "title": "Herpetofauna from the Estação Ecológica Rio Acre, Amazon Rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Trairão",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Cutia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Plica plica"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernardo <i>et al.</i>, 2011",
+              "title": "A new geographic distribution record of the rare lizard <i>Colobodactylus dalcyanus</i> Vanzolini and Ramos, 1977 (Squamata, Gymnophthalmidae, Heterodactylini)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Hoogmoed & Avila-Pires, 1989",
+              "title": "Observations on the nocturnal activity of lizards in a marshy area in Serra do Navio, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Waldez <i>et al.</i>, 2013",
+              "title": "Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Negro",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Plica plica"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Aguilar-Kirigin, A.J. (2012) Primer registro de <i>Plica plica</i> (Linnaeus, 1758) para el departamento de La Paz, Bolivia. Comentarios sobre la extensión de la distribución geográfica para Plica umbra (Linnaeus 1758), (Squamata: Tropiduridae). <i>Cuadernos de Herpetología</i>. 26 (1), 61-62.",
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Bernarde, P.S., Machado, R.A. &amp; Turci, L.C.B. (2011) Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <i>Biota Neotrópica</i>. 11 (3), 117-144.",
+          "Dirksen, L. &amp; De la Riva, I (1999) The lizards and amphisbaenians of Bolivia (Reptilia, Squamata): checklist, localities, and bibliography. <i>Graellsia</i>. 55, 199-215.",
+          "Oliveira, D.P., Carvalho, V.T. &amp; Hrbek, T. (2016) Cryptic diversity in the lizard genus <i>Plica</i> (Squamata): phylogenetic diversity and Amazonian biogeography. <i>Zoologica Scripta</i>. 45 (6), 630-641.",
+          "Ortega-Andrade, H.M., Bermingham, J., Aulestia, C. &amp; Paucar, C. (2010) Herpetofauna of the Bilsa Biological Station, province of Esmeraldas, Ecuador. <i>Checklist</i>. 6 (1), 119-154.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Vitt, L.J. (1991) Ecology and life history of the scansorial arboreal lizard <i>Plica plica</i> (Iguanidae) in Amazonian Brazil. <i>Canadian Journal of Zoology</i>. 69 (2), 504-511."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

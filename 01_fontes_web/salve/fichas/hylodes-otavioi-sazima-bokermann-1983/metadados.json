@@ -1,0 +1,396 @@
+{
+  "id_ficha": "4d7633577877304f496d446958575467547a687170773d3d",
+  "nome_cientifico": "Hylodes otavioi Sazima & Bokermann, 1983",
+  "nome_cientifico_atual": "Hylodes otavioi Sazima & Bokermann, 1983",
+  "nome_comum": "Rã-de-corredeira",
+  "grupo": "Anfíbios",
+  "categoria_risco": "NT",
+  "categoria_risco_completa": "Quase Ameaçada (NT)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19548.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d7633577877304f496d446958575467547a687170773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hylodes otavioi</i>&nbsp;<span>Sazima & Bokermann, 1983</span>",
+      "category": "Quase Ameaçada (NT)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Hylodes otavioi </em>é endêmica do Brasil, com ocorrência em área de transição dos biomas Cerrado e Mata Atlântica na porção meridional da Serra do Espinhaço, no estado de Minas Gerais. A espécie habita córregos permanentes com vegetação primária e secundária de matas ciliares de encosta e sua extensão de ocorrência foi estimada em 1.319 km2. O fogo frequente causa declínio continuado da qualidade do hábitat, mesmo nas áreas protegidas. Contudo, ocorre em mais de dez localizações e não é possível afirmar que sua população esteja severamente fragmentada. Sendo assim, <em>Hylodes otavioi </em>quase se qualifica como Em Perigo (EN) pelos critérios B1b (iii) e, por isso, foi avaliada como Quase Ameaçada (NT).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Hylodes otavioi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19548.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19548.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15494,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylodidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hylodes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hylodes otavioi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Rã-de-corredeira",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Hylodes otavioi</em> é endêmica do Brasil, com distribuição restrita à Serra do Espinhaço no estado de Minas Gerais (Sazima &amp; Bokermann, 1983). A espécie ocorre a cerca de 1.200 metros de altitude (Nascimento &amp; Bertoluci, 2004) e sua extensão de ocorrência foi calculada em 1.319 km2, tomando por base o mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia São Francisco Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/556e52646c537844534e51626d4d7a72715349744767577a4b38712b78516f6e6c4d7845346f473944667a6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Hylodes otavioi",
+        "diskFileName": "fbc6e654799bc55fc1ced6aa825a0354.png",
+        "fileName": "Mapa de Hylodes otavioi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Hylodes otavioi</em> ocorre em área de transição entre os biomas Cerrado e Mata Atlântica. Habita córregos permanentes com vegetação primária e secundária de matas ciliares, é diurna e as larvas foram encontradas nos córregos florestados (Nascimento &amp; Bertoluci, 2004). Também foi registrada em riachos encachoeirados de água limpa (F. Leite, com. pess., 2017).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara e sua tendência populacional é desconhecida. A área em que ocorre é bem amostrada, porém, a espécie não é frequentemente encontrada (F. Leite, com. pess., 2017).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Sabe-se que o fogo frequente causa alterações no ambiente ocupado pela espécie, mesmo nas áreas protegidas (Nascimento &amp; Bertoluci, 2004; F. Leite, com. pess., 2017). Alguns registros para a espécie estão próximos a empreendimentos de mineração, indicando diminuição da qualidade do seu hábitat<em>. </em>Vale ressaltar que esses registros somente ocorreram devido aos processos de licenciamento ambiental desses empreendimentos (F. Leite, com. pess., 2017). Não se sabe se as alterações no ambiente estão causando interrupção do fluxo gênico entre as subpopulações.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.3 - Extração de minérios - subsolo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie. É importante o controle de incêndios ao longo de sua distribuição.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Nascimento & Bertoluci, 2004",
+              "title": "Nascimento, L.B. &amp; Bertoluci, J. (2004) <i>Hylodes otavioi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57098A11571264\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57098A11571264</a>. [Acessado em: 02/jun/2017]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Nível regional",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            },
+            {
+              "label": "Sazima & Bokermann, 1983",
+              "title": "Anfíbios da Serra do Cipó, Minas Gerais, Brasil. 5: <i>Hylodes otavioi</I> sp. n. (Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL MUNICIPAL SERRA DA FERRUGEM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO INTENDENTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUAS VERTENTES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários estudos de história natural e que abordem os processos de dinâmica populacional, distribuição espacial e impactos da alteração do habitat. Também é importante o monitoramento das subpopulações próximas aos empreendimentos de mineração.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U. 2016. Avaliação do Risco de Extinção de <i>Hylodes otavioi</i> Sazima & Bokermann, 1983 \"1982\". <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio.</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7649-anfibios-hylodes-otavioi.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7649-anfibios-hylodes-otavioi.html</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Nascimento, L.B. &amp; Bertoluci, J., 2004. <i>Hylodes otavioi</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57098A11571264\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57098A11571264</a>. Acessado em: 02/06/2017.",
+          "Sazima, I. &amp; Bokermann, W.C.A., 1983. Anfíbios da Serra do Cipó, Minas Gerais, Brasil. 5: <i>Hylodes otavioi</I> sp. n. (Anura, Leptodactylidae). Revista Brasileira de Biologia, 42: p.767-771."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

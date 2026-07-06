@@ -1,0 +1,796 @@
+{
+  "id_ficha": "66736b6d444545456c42346d322f516a324b4e6133513d3d",
+  "nome_cientifico": "Scinax alter (Lutz, 1973)",
+  "nome_cientifico_atual": "Scinax alter (Lutz, 1973)",
+  "nome_comum": "Perereca-do-litoral",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17578.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=66736b6d444545456c42346d322f516a324b4e6133513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax alter</i>&nbsp;<span>(Lutz, 1973)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Scinax alter</em> é endêmica do Brasil e é amplamente distribuída na Mata Atlântica entre os estados da Bahia e Rio de Janeiro, incluindo algumas áreas serranas no Espírito Santo e Minas Gerais. Trata-se de uma espécie comum ao longo de sua distribuição e que pode ser encontrada em áreas antropizadas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Portanto, <em>Scinax alter</em> foi avaliada como Menos Preocupante (LC).</p> \n<p> </p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax alter</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17578.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17578.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14913,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax alter</i>"
+        }
+      ],
+      "oldNames": "Hyla rubra altera, Hyla rubra orientalis, Ololygon altera, Scinax altera",
+      "commonNames": "Perereca-do-litoral",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax alter</em> é endêmica do Brasil, com registros de ocorrência em áreas de baixada litorânea desde o sul do estado da Bahia até o estado do Rio de Janeiro, havendo também subpopulações serranas nos estados do Espírito Santo e Minas Gerais, até cerca de 750 metros de altitude (Nunes, 2008; Nunes &amp; Pombal Jr., 2010; Santana <em>et al</em>., 2010; Nunes <em>et al</em>., 2012). Sua extensão de ocorrência é de 220.227 km2, calculada via mínimo polígono convexo formado a partir dos pontos de registro. </p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro",
+      "biomes": "Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Litoral RJ, Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/786c7563647873446666792f51544c6e4232685441564a2f482b69494b5a6d616d3635314f5942737378597644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f39fa6c651c406b49e80de1670720213.png",
+        "fileName": "Mapa de Scinax alter.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax alter </em>é uma espécie arborícola, encontrada em vegetação de áreas abertas e pastagens. Sua reprodução ocorre em lagoas temporárias e permanentes, onde deposita seus ovos e os girinos se desenvolvem.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição e sua tendência populacional é estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva & Kwet, 2010",
+              "title": "Carvalho-e-Silva, S.P. &amp; Kwet, A. (2010) <i>Scinax alter</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2\">http://dx.doi.org/10.2305/IUCN.UK.2010-2</a>. [Acessado em: 30/jul/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio São João/Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Almeida-Gomes <i>et al.</i>, 2008",
+              "title": "Herpetofauna of an Atlantic rainforest area (Morro São João) in Rio de Janeiro State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Mario Xavier",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caram <i>et al.</i>, 2016",
+              "title": "Updated list of anurans from Floresta Nacional Mário Xavier, Seropédica, Rio de Janeiro, Brazil: changes from 1990 to 2012"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Rio Preto",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Tonini, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Descobrimento",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Monte Pascoal",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Teixeira <i>et al.</i>, 2007",
+              "title": "Diversidade anfibios anuros no entorno da Reserva Biológica Augusto Ruschi, Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO União",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Figueiredo-de-Andrade <i>et al.</i>, 2011",
+              "title": "Anfíbios e Répteis na Reserva Biológica União"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Cassurubá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "REVIS Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL DO ITABIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2011",
+              "title": "Estrutura de Comunidades de Anfíbios e Lagartos da Baía de Sepetiba e do Parque Estadual do Cunhambebe (RJ)"
+            },
+            {
+              "label": "Ouvernay <i>et al.</i>, 2012",
+              "title": "Amphibia, Anura, Parque Estadual do Cunhambebe Itaguaí municipality, Rio de Janeiro state"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA FONTE GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Marques, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAÚNAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2017",
+              "title": "Local environmental factors influence the structure of frog communities on the sandy coastal plains of Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO FORNO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva-Soares & Scherrer, 2013",
+              "title": "Amphibians of Parque Estadual do Forno Grande, State of Espirito Santo, Southeastern Brazil: Species composition and conservation"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2012",
+              "title": "Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL BOSQUE DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE MATA DOS MURIQUIS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CARAÍVA/ TRANCOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2017",
+              "title": "Local environmental factors influence the structure of frog communities on the sandy coastal plains of Southeastern Brazil"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moraes, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2011",
+              "title": "Selecting a hiding place: anuran diversity and the use of bromeliads in a Threatened Coastal Sand Dune Habitat in Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ALTO DO MUCURI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rödder <i>et al.</i>, 2007",
+              "title": "Anuran hotspots: the municipality of Santa Teresa, Espírito Santo, southeastern Brazil"
+            },
+            {
+              "label": "Ramos & Gasparini, 2004",
+              "title": "Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL MESTRE ÁLVARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2010",
+              "title": "Amphibians of Vitória, an urban area in south-eastern Brazil: first approximation"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PONTA DA BALEIA / ABROLHOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE MASSAMBABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO MACIçO CENTRAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO CORREDOR ECOLÓGICO LAGOA ENCANTADA / SERRA DO CONDURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade, 2011",
+              "title": "Anfíbios Anuros da Restinga de Iquiparí, São João da Barra, Rio de Janeiro, Brasil"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats"
+            }
+          ]
+        },
+        {
+          "name": "OIUTREM",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Dantas, 2009",
+              "title": "Composição e distribuição espacial e sazonal de anfíbios em unidade de conservação da Mata Atlântica, Alfredo Chaves, Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "VALE DO SOL",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Barreto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Barra Velha",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "Tupiniquim",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nunes, 2008",
+              "title": "Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P. &amp; Kwet, A. 2010. <i>Scinax alter</i>. <b>The IUCN Red List of Threatened Species 2010</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2\">http://dx.doi.org/10.2305/IUCN.UK.2010-2</a>. Acessado em: 30/07/2012.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Nunes, I. &amp; Pombal Jr., J.P. 2010. A new <i>Scinax</i> Wagler (Amphibia, Anura, Hylidae) from the Atlantic Rain Forest remains of southern State of Bahia, North-eastern Brazil. <b>Amphibia-Reptilia</b>, 31 (2010): p.347-353.",
+          "Nunes, I. 2008. <b>Revisão taxonômica do complexo de espécies de <i>S. cuspidatus</i> (A. Lutz, 1925) e <i>Scinax alter</i> (B. Lutz, 1973) (Amphibia, Anura, Hylidae)</b>. Dissertação de Mestrado. Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Nunes, I.; Kwet, A. &amp; Pombal Jr., J.P. 2012. Taxonomic revision of the <i>Scinax alter</i> species complex (Anura: Hylidae). <b>Copeia</b>, 2012: p.554–569.",
+          "Santana, D.J.; São Pedro, V.A.; Hote, P.S.; Roberti, H.M.; Sant’Anna, A.C.; Figueiredo-de-Andrade, C.A. &amp; Feio, R.N. 2010. Anurans in the Region of the High Muriaé River, State of Minas Gerais, Brazil. <b>Herpetology Notes</b>, 3: p.1-10."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

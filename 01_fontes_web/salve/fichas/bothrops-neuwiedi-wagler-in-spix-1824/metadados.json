@@ -1,0 +1,592 @@
+{
+  "id_ficha": "5637597659652f7936596e654f5774635233574a6c513d3d",
+  "nome_cientifico": "Bothrops neuwiedi Wagler in Spix, 1824",
+  "nome_cientifico_atual": "Bothrops neuwiedi Wagler in Spix, 1824",
+  "nome_comum": "Jararaca Pintada",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28030.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5637597659652f7936596e654f5774635233574a6c513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops neuwiedi</i>&nbsp;<span>Wagler in Spix, 1824</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "28/05/2026",
+      "justificative": "<p><em>Bothrops neuwiedi</em> é endêmica do Brasil, com ocorrência nos biomas Cerrado e Mata Atlântica entre os estados da Bahia e Santa Catarina. A espécie habita predominantemente campos e outras áreas abertas, podendo ser encontrada também em formações estépicas ou savânicas e restingas, incluindo áreas perturbadas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Bothrops </em><em>neuwiedi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Bothrops neuwiedi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28030.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28030.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6b6b50384e46545370567055506975674f63373850673d3d/full"
+      },
+      "version": 2,
+      "versionId": 19244,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops neuwiedi</i>"
+        }
+      ],
+      "oldNames": "Bothropoides neuwiedi, Bothrops atrox meridionalis, Bothrops leucurus, Bothrops neuwiedi fluminensis, Bothrops neuwiedi goyazensis, Bothrops neuwiedii minasensis, Bothrops neuwiedi meridionalis, Bothrops neuwiedi neuwiedi, Bothrops neuwiedi paranaensis, Bothrops neuwiedi urutu, Bothrops urutu, Lachesis neuwiedi",
+      "commonNames": "Jararaca Pintada",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bothrops neuwiedi </em>é endêmica do Brasil, registrada no Cerrado e Mata Atlântica em altitudes de até 1.600 metros, com registro entre os estados da Bahia e Sana Catarina (Silva &amp; Rodrigues, 2008; Nogueira <em>et al.,</em> 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Goiás, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4f545159395255767155653767386477314b306e50784b6a4e4c4252655744585837467432707a4c4c66524b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Bothrops neuwiedi",
+        "diskFileName": "050f3013808f8ce9f1a8ce8fb269b320.png",
+        "fileName": "Mapa de Bothrops neuwiedi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie ocorre nos domínios do Cerrado e Mata Atlântica em áreas originalmente ocupadas por campos e outras formações abertas, estépicas ou savânicas e restingas, podendo ser encontrada em áreas perturbadas (Silva &amp; Rodrigues, 2008; Bérnils, 2009, São-Pedro &amp; Pires, 2009; França <em>et al.</em> 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Decreto nº 63.853, 2018",
+              "title": "Decreto nº 63.853, de 27/11/2018 29/11/2018 <i>Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2000",
+              "title": "Revisão sistemática do complexo <i>Bothrops neuwiedi</I> (Serpentes, Viperidae, Crotalinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2000",
+              "title": "Revisão sistemática do complexo <i>Bothrops neuwiedi</I> (Serpentes, Viperidae, Crotalinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO TRIPUÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL BIRIBIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO PAPAGAIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IRAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PASSAUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Fazenda Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Alto da Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Barra Mansa",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Primavera",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva do Caraguatá III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santuário Caraça",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Bérnils, R.S. (2009) <i>Composição e padrões de distribuição de Caenophidia (Squamata, Serpentes) das Serras Atlânticas e Planaltos do Sudeste da América do Sul</i>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Decreto nº 63.853, de 27/11/2018 29/11/2018 <i>Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>.",
+          "França F.G.R., França, R.C., Germano, C.E.S. &amp; Filho, J.M.O. (2012) <i>Bothropoides neuwiedi</i> (Wagler, 1824) (Squamata: Serpentes: Viperidae): Distribution extension for the Atlantic Forest, first vouchered record for Paraíba, and geographic distribution map. <i>Check List</i>. 8 (1), 170-171.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>",
+          "Silva, V.X. &amp; Rodrigues, M.T.U. (2008) Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species. <i>Phyllomedusa</i>. 7 (1), 45-90.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>.",
+          "São Pedro, V.A. &amp; Pires, M.R.S. (2009) As serpentes da região de Ouro Branco, extremo sul da Cadeia do Espinhaço, Minas Gerais. <i>Ceres</i>. 56 (2), 166-171.",
+          "Uetz, P., Freed, P. &amp; Hošek, J. (2014) <i>Bothrops neuwiedi</i>. <a target=\"_blank\" href=\"http://www.reptile-database.org\">http://www.reptile-database.org</a>. [Acessado em: 25/jul/2018]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

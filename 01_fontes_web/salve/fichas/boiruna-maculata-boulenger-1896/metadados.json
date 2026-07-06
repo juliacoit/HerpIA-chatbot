@@ -1,0 +1,825 @@
+{
+  "id_ficha": "59646543456861644e79796550776830524d336444673d3d",
+  "nome_cientifico": "Boiruna maculata (Boulenger, 1896)",
+  "nome_cientifico_atual": "Boiruna maculata (Boulenger, 1896)",
+  "nome_comum": "Cobra-preta, Mussurana",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28011.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=59646543456861644e79796550776830524d336444673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Boiruna maculata</i>&nbsp;<span>(Boulenger, 1896)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "03/03/2026",
+      "justificative": "<p><em>Boiruna maculata</em> ocorre no Brasil, Argentina, Bolívia, Paraguai e Uruguai. No Brasil, a espécie é amplamente distribuída nas regiões Sul, Sudeste, Centro-Oeste. Apresenta plasticidade ambiental, sendo observada em ambientes florestais e áreas alteradas. Não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>B. maculata</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Boiruna maculata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28011.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28011.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19225,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Boiruna</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Boiruna maculata</i>"
+        }
+      ],
+      "oldNames": "Brachyrhytum occipitoluteum, Brachyruton occipito-luteum, Clelia occipitolutea, Oxyropus [sic] maculatus, Pseudoboa occipitolutea",
+      "commonNames": "Cobra-preta, Mussurana",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Boiruna maculata</em> possui registros na Argentina, Bolívia, Brasil, Paraguai e Uruguai (Nogueira <em>et al.,</em> 2019). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é amplamente distribuída nas regiões Sul, Sudeste, Centro-Oeste e no Tocantins (Zaher, 1996; França &amp; Araújo, 2006; Condez <em>et al.,</em> 2009; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraná, Rio Grande do Sul, Rondônia, Santa Catarina, São Paulo, Tocantins",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Uruguai Alto, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4d75414a414c5776485a33616c3676565979306a32396b422f496a53457041487641757a2b61397873544a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Boiruna maculata",
+        "diskFileName": "cf167b02226a5b5f30495397719ee4c6.png",
+        "fileName": "Mapa de Boiruna maculata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Boiruna maculata</em> ocorre em ambientes florestados, inclusive em áreas perturbadas (R. Bérnils, com. pess., 2010), e já foi registrada no litoral gaúcho (Ghizoni <em>et al.,</em> 2009). É principalmente terrestre e noturna (França &amp; Araújo, 2006; Gallardo <em>et al</em>., 2006). O tamanho da ninhada varia de 4 a 15 ovos (Achaval &amp; Olmos, 1997; Scott Jr.<em> et al</em>., 2006; Gallardo &amp; Scrocchi, 2006; Vitt &amp; Vangilder, 1983; Pizzatto, 2005; L. Alencar, com. pess., 2012). Alimenta-se primariamente de outras serpentes, além de aves, mamíferos e lagartos (Schouten, 1931; Vitt &amp; Valgilder, 1983; Achaval &amp; Olmos, 1997; Carreira, 2002; França &amp; Araújo, 2006; Alencar, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara em algumas localidades, como no Distrito Federal (França &amp; Araújo, 2006) e no Cerrado de Minas Gerais (Silveira <em>et al</em>., 2010).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Arzamendia <i>et al.</i>, 2019",
+              "title": "Arzamendia, V., Fitzgerald, L., Giraudo, A., Williams, J. &amp; Scrocchi, G. (2019) <i>Boiruna maculata</i>. The IUCN Red List of Threatened Species 2019: e.T15158518A15158527. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/15158518/15158527\">https://www.iucnredlist.org/species/15158518/15158527</a>."
+            }
+          ],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 1998",
+              "title": "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Ibirapuitã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bolzan, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menezes, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA da Bacia do Rio São Bartolomeu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ARIE Capetinga-Taquara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Gandarela",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leite, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Sempre-Vivas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nascimento, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA RIO BATALHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SILVEIRAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO JARDIM BOTÂNICO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO PANTANAL DO RIO NEGRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO PAPAGAIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO BANHADO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PALMAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leite, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Alegrete",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Bela Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chakra Grisu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Bela Aurora",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Cachoeira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Estância Dorochê",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda San Michele",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Serrinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Floresta Negra, Parque Natural para Estudos, Pesquisa e Educação Ambiental",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Paculândia",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica da Mata Fria",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Particular Professor Delmar Harry dos Reis",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Estrela Dalva",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Ryan",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna V",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Zaher, 1996",
+              "title": "A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Achaval, F. &amp; Olmos, A. (1997) Anfibios y reptiles del Uruguay. <i>Facultad de Ciencias, Montevideo, UY</i>. 128.",
+          "Alencar, L.R.V. (2010) <i>Ecomorfologia em serpentes neotropicais: um estudo de caso com a tribo Pseudoboini</i>. Dissertação de Mestrado. Universidade de São Paulo. São Paulo.",
+          "Arzamendia, V., Fitzgerald, L., Giraudo, A., Williams, J. &amp; Scrocchi, G. (2019) <i>Boiruna maculata</i>. The IUCN Red List of Threatened Species 2019: e.T15158518A15158527. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/15158518/15158527\">https://www.iucnredlist.org/species/15158518/15158527</a>.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Carreira, V.S. (2002) Alimentación de los ofidios de Uruguay. <i>Asoc. Herp. Esp., Monograf. Herp</i>. 6, 127.",
+          "Condez, T.H., Sawaya, R.J. &amp; Dixo, M. (2009) Herpetofauna dos remanescentes de Mata Atlântica da região de Tapirai e Piedade, SP, sudeste do Brasil. <i>Biota Neotropica</i>. 9 (1), 157-185.",
+          "França, F.G.R. &amp; Araújo, A.F.B. (2006) The conservation status of snakes in central Brazil. <i>South American Journal of Herpetology</i>. 1 (1), 25-36.",
+          "Gallardo, G.A. &amp; Scrocchi, G.L. (2006) Parametros reproductivos de ocho especies de culebras ovíparas neotropicales (Serpentes: Colubridae). <i>Cuadernos de Herpetologia</i>. 20 (1), 33-36.",
+          "Ghizoni-Jr., I.R., Kunz, T.S., Cherem, J.J. &amp; Bérnils, R.S. (2009) Registros notáveis de répteis de áreas abertas naturais do planalto e litoral do Estado de Santa Catarina, sul do Brasil. <i>Biotemas</i>. 22 (3), 129-141.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Leynaud, G.L. &amp; Bucher, E.H. (2005) Restoration of degraded Chaco woodlands: Effects on reptile assemblages. <i>Forest Ecology and Management</i>. 213 (2005), 384–390.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Schouten, G.B. (1931) Contribuciones al conocimiento de la fauna herpetológica del Paraguay y de los países limítrofes. <i>Rev. Soco Ci. Paraguay</i>. 3 (1), 5-32.",
+          "Scott Jr., N.J., Giraudo, A.R., Scrocchi, G., Aquino, A.L., Cacciali, P. &amp; Motte, M. (2006) The genera <i>Boiruna</i> and <i>Clelia</i> (Serpentes: Pseudoboini) in Paraguay and Argentina. <i>Papéis Avulsos de Zoologia</i>. 6 (9), 77-105.",
+          "Silveira, A.L., Pires, M.R.S. &amp; Cotta, G.A. (2010) Serpentes de uma área de transição entre o Cerrado e a Mata Atlântica no Sudeste do Brasil. <i>Arquivos do Museu Nacional</i>. 68 (1-2), 79-110.",
+          "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>.",
+          "Vitt, L.J. &amp; Vangilder, L.D. (1983) Ecology of a snake community in Northeastern Brazil. <i>Amphibia- Reptilia</i>. 4, 273–296.",
+          "Zaher, H. (1996) A new genus and species of pseudoboine snake, with a revision of the genus <i>Clelia</i> (Serpentes, Xenodontinae). <i>Bollettino del Museo Regionale di Scienze Naturali (Torino)</i>. 14, 289-337."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

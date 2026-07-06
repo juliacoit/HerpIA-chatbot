@@ -1,0 +1,415 @@
+{
+  "id_ficha": "626a4778422b767a716d6f59754e4f673361582b42413d3d",
+  "nome_cientifico": "Scinax muriciensis Cruz, Nunes & Lima, 2011",
+  "nome_cientifico_atual": "Scinax muriciensis Cruz, Nunes & Lima, 2011",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16558",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=626a4778422b767a716d6f59754e4f673361582b42413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax muriciensis</i>&nbsp;<span>Cruz, Nunes & Lima, 2011</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Scinax muricensis</em> é endêmica do Brasil, do bioma Mata Atlântica, registrada apenas na localidade-tipo, a Estação Ecológica (ESEC) de Murici, no município de Murici, estado de Alagoas. Sua extensão de ocorrência é menor que 100 km2, tendo em vista que a espécie só ocorre em riachos dentro da ESEC. Embora esteja presente em uma unidade de conservação de proteção integral, o fragmento é afetado pela intensa atividade agropecuária do entorno. Além disso, há extração de madeira e invasões no interior da unidade de conservação, atividades que provocam declínio da qualidade do hábitat da espécie. Considerando apenas uma localização, <em>Scinax muricensis</em> foi avaliada como Criticamente em Perigo (CR) pelo critério B1ab(iii).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax muriciensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16558 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16558",
+      "photo": {
+        "authorName": "Marco Freitas",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "f27479f5eab80d74f3be1bb7f6db4d19.jpg",
+        "fileName": "Scinax muriciensis-Marco Freitas.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/69416f41454e6f62445552642b696d2b506f6d75774c7a64577335424c7364444c586c3039687a6269377135356668476b75573767486c6a58574a5350533732/full"
+      },
+      "version": 2,
+      "versionId": 14456,
+      "deleted": false,
+      "lastAvaliationDate": "06/11/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax muriciensis</i>"
+        }
+      ],
+      "oldNames": "Ololygon muriciensis",
+      "commonNames": "",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p>A espécie é morfologicamente similar a <em>O. strigilata</em>, caracterizada pelo tamanho médio (comprimento rostro-cloacal de machos adultos 27‒28,9 mm) (Cruz <em>et al</em>. 2011).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax muriciensis</em> é endêmica do Brasil, conhecida apenas da Estação Ecológica (ESEC) de Murici (localidade-tipo, Fazenda Bananeiras), no município de Murici, estado de Alagoas (Cruz <em>et al.,</em> 2011). A área da ESEC é de 61,16 km2 e a espécie não é encontrada fora da unidade de conservação (M.A. Freitas, com. pess., 2018). Assim, sua extensão de ocorrência foi considerada menor que 100 km2 .</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral AL PE PB",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4758354b4b4339657879775558346b74384931306e554964347a44567834575376635838704856536f62677644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa distribuição_Scinax muriciensis",
+        "diskFileName": "c1312c1bfc914c3cfb5105b64cdd08b0.png",
+        "fileName": "Mapa de Scinax muriciensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A Estação Ecológica de Murici, onde a espécie espécie ocorre, localiza-se em uma região caracterizada pelo terreno acidentado com elevações de 200 a 600 metros, na maior parte coberta por floresta tropical (Mata Atlântica). Essa área tem clima quente e úmido, com um verão seco e uma temporada de outono-inverno chuvosa. Os espécimes de <em>Scinax muricensis</em> foram capturados perto de um córrego na floresta, entre 1,0 e 1,5 metros acima do solo (Cruz <em>et al.,</em> 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Scinax muriciensis</em> foi descrita a partir de quatro espécimes machos adultos, coletados em sua localidade-tipo em 2005 (Cruz <em>et al.,</em> 2011). Adicionalmente, dados advindos de 17 meses de monitoramento na área de ocorrência da espécie, entre 2017 e 2018, indicaram a presença de outra subpopulação na Estação Ecológica de Murici, na área denominada Mata do Angelim, próximo a um riacho encachoeirado (M.A. Freitas, com. pess., 2018). A espécie foi registrada somente nesta localidade (M.A. Freitas, com. pess., 2018).</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p><em>Scinax muriciensis</em> ocorre no chamado \"Centro de Endemismo Pernambuco\", que inclui fragmentos de Mata Atlântica ao norte do rio São Francisco, com alto grau de endemismo de aves, bromélias, répteis e anfíbios (Cruz <em>et al.,</em> 2011). As principais ameaças à espécie estão relacionadas à fragmentação e redução de manchas de floresta devido à expansão agropecuária no entorno da Estação Ecológica de Murici, bem como a ocorrência de desmatamento ilegal e invasões para assentamentos no interior da unidade de conservação (dados MapBiomas, 2018; M.A. Freitas &amp; B. Lisboa, com. pess., 2018).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.4 - Assentamentos e pequenas propriedades rurais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.5 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Scinax muricensis</em> foi beneficiada pelo primeiro ciclo do Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina – PAN Herpetofauna da Mata Atlântica Nordestina (ICMBio, 2013, 2016). Contudo, como era Dados Insuficientes (DD) (Haddad <em>et al.,</em> 2016; ICMBio, 2018), não foi contemplada no segundo ciclo desse PAN, doravante denominado Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste (ICMBio, 2019). É essencial o controle dos impactos antrópicos no interior da ESEC de Murici. Resultados de estudo desenvolvido por Vilela <em>et al</em>. (2018) indicam que ações para diminuir as emissões de gases de efeito estufa reduziriam o impacto previsto em cenários futuros de mudanças climáticas sobre a espécie.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2023",
+              "title": "Bastos, R.P., Martins, M.R., Guidorizzi, C.E., Andrade, S.P., Bataus, Y.S.L., Júnior, R.V.G., Andrade, G.V., Ávila, R.W., Colombo, P., Dias, I.R., Kokubum, M.N.C., Lima, D.C., Lingnau, R., Lisboa, B.S., Loebmann, D., Lucas, E., Machado, I.F., Júnior, A.M., Martins, M.B., Moura, G.J.B., Napoli, M.F., Oliveira, S.N., Ribeiro, L.F., Tinôco, M.S. &amp; Zank, C. (2023) <i>Scinax muriciensis Cruz, Nunes & Lima, 2011</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            },
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Bataus, Y.S.L., Uhlig, V.M., Silvano, D.L., Nomura, F.N., Hoogmoed, M.S., Garcia, P.C.A., Feio, R.N. &amp; Lingnau, R. (2016) Avaliação do Risco de Extinção de <I>Scinax muriciensis</i> Cruz, Nunes & Lima, 2011. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7756-anfibios-scinax-muriciensis.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7756-anfibios-scinax-muriciensis.html</a>."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2015,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group, 2015",
+              "title": "IUCN SSC Amphibian Specialist Group (2015) <i>Scinax muriciensis</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086163A48086166\">https://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086163A48086166</a>. [Acessado em: 07/jun/2015]."
+            }
+          ],
+          "orderBy": "Y2015"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Necessária",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Normas e códigos de referência do setor privado",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Meios de subsistência, economia e outros incentivos",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Implementação de áreas protegidas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Murici",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cruz <i>et al.</i>, 2011",
+              "title": "A new <i>Scinax</i> Wagler belonging to the <i>S. catharinae</i> clade (Anura: Hylidae) from the State of Alagoas, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cruz <i>et al.</i>, 2011",
+              "title": "A new <i>Scinax</i> Wagler belonging to the <i>S. catharinae</i> clade (Anura: Hylidae) from the State of Alagoas, northeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É essencial o monitoramento da espécie na Estação Ecológica de Murici. Recomenda-se também estudos sobre história de vida, distribuição e impactos das alterações do hábitat sobre a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cruz, C.A.G.; Nunes, I. &amp; Lima, M.G. 2011. A new <i>Scinax</i> Wagler belonging to the <i>S. catharinae</i> clade (Anura: Hylidae) from the State of Alagoas, northeastern Brazil. <b>Zootaxa</b>, 26: p.18-26.",
+          "Duellman, W.E.; Marion, A.B. &amp; Hedges, S.B. 2016. Phylogenetics, classification, and biogeography of the treefrogs (Amphibia: Anura: Arboranae). <b>Zootaxa</b>, 4104: p.1-109.",
+          "Haddad, C.F.B.; Bataus, Y.S.L.; Uhlig, V.M.; Silvano, D.L.; Nomura, F.N.; Hoogmoed, M.S.; Garcia, P.C.A.; Feio, R.N. &amp; Lingnau, R. 2016. Avaliação do Risco de Extinção de <I>Scinax muriciensis</i> Cruz, Nunes & Lima, 2011. <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7756-anfibios-scinax-muriciensis.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7756-anfibios-scinax-muriciensis.html</a>.",
+          "ICMBio 02/07/2013. Portaria nº 200 de 1° de julho de 2013. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina. p.1-2.",
+          "ICMBio 05/05/2016. Portaria No. 38, de 03 de maio de 2016. Atualiza e aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina.",
+          "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "IUCN SSC Amphibian Specialist Group, 2015. <i>Scinax muriciensis</i>. The IUCN Red List of Threatened Species, Disponível em: <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086163A48086166\">https://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086163A48086166</a>. Acessado em: 07/06/2015.",
+          "Projeto MapBiomas 2018. Coleção 2.3 da Série Anual de Mapas de Cobertura e Uso de Solo do Brasil. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/\">http://mapbiomas.org/</a>. Acessado em: 01/09/2018.",
+          "Vilela, B.; Nascimento, F.A. &amp; Vital, M.V.C. 2018. Impacts of climate change on small-ranged amphibians of the northern Atlantic Forest. <b>Oecologia Australis</b>, 22 (2): p.130-143."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

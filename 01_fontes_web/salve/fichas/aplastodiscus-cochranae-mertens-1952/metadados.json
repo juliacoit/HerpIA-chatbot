@@ -1,0 +1,350 @@
+{
+  "id_ficha": "3444323755386c5371586c56317a65364e6f6a7759413d3d",
+  "nome_cientifico": "Aplastodiscus cochranae (Mertens, 1952)",
+  "nome_cientifico_atual": "Aplastodiscus cochranae (Mertens, 1952)",
+  "nome_comum": "Perereca",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17875",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=3444323755386c5371586c56317a65364e6f6a7759413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Aplastodiscus cochranae</i>&nbsp;<span>(Mertens, 1952)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Aplastodiscus cochranae</em> é endêmica do Brasil, do bioma Mata Atlântica, com registros somente para o leste do estado de Santa Catarina. Embora sua extensão de ocorrência seja relativamente pequena, de cerca de 12.600km2, a espécie é comum, pode persistir em ambientes alterados e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Aplastodiscus cochranae</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2022. <i>Aplastodiscus cochranae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17875 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17875",
+      "photo": {},
+      "version": 2,
+      "versionId": 15038,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Aplastodiscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Aplastodiscus cochranae</i>"
+        }
+      ],
+      "oldNames": "Hyla cochranae",
+      "commonNames": "Perereca",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Aplastodiscus cochrana </em>é endêmica do Brasil e restrita à porção leste do estado de Santa Catarina (Garcia <em>et al.</em>, 2001; Faivovich <em>et al.</em>, 2005; Ceron <em>et al.</em>, 2014; Wachlevski <em>et al.</em>, 2014). Sua localidade-tipo é o antigo distrito de Queçaba, atual município de Águas Mornas (Bokermann, 1966).</p>",
+      "nationalDistribution": "",
+      "states": "Santa Catarina",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP PR SC, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7a2f5336724577774843777362556162756a6762566d2b4e6653566c37553074374977713343642f6877464b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Aplastodiscus cochranae",
+        "diskFileName": "47c3152267438eb21a6390b1c00b815f.png",
+        "fileName": "Mapa de Aplastodiscus cochranae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> A espécie é encontrada principalmente na borda de florestas e utiliza ambientes abertos para reprodução, podendo persistir em ambientes alterados (P. Garcia, com. pess., 2010). Utiliza corpos d'água artificiais para reprodução, como açudes para gado, e riachos de fundo lodoso para oviposição. Ocorre entre 400 e 1.100 metros de altitude. </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> A espécie é considerada comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não há ameaças significativas à espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informações sobre seu uso.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Aplastodiscus cochranae</em> foi beneficiada no primeiro ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul (ICMBio, 2012; RAN, 2015). Contudo, como é espécie Menos Preocupante (LC) na avaliação nacional (ICMBio, 2018), não foi contemplada no segundo ciclo desse PAN (ICMBio, 2019).</p> \n<p> </p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia & Kwet, 2004",
+              "title": "Garcia, P. &amp; Kwet, A. (2004) <i>Aplastodiscus cochranae</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org\">https://www.iucnredlist.org</a>. [Acessado em: 20/jul/2010]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2011,
+          "coverage": "Santa Catarina",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "CONSEMA, 2011",
+              "title": "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+            }
+          ],
+          "orderBy": "X2011"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ARIE Serra da Abelha e Rio da Prata ",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dallacorte, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Itajaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dias, 2006",
+              "title": "Riqueza de espécies e ambientes de reprodução de uma comunidade de anuros (Amphibia, Anura) na região do Mono, no Parque Nacional da Serra do Itajaí, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Farias, 2014",
+              "title": "Colonização de poças artificiais por anfíbios anuros na Mata Atlântica, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Ibirama-La Klãnô",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Dallacorte, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural e que abordem processos de dinâmica populacional e distribuição espacial ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bokermann. W.C.A. 1966. <b>Lista Anotada das localidades tipo de anfibios brasileiros</b>. p.183. Servicio de Documentação, Universidade Rural São Paulo São Paulo.",
+          "Ceron, K.; Martins. H.B. &amp; Zocche, J.J. 2014. Anurans of a remnant forest in Urussanga, Santa Catarina, southern of Brazil. <b>Check List</b>, 12 (6): p.1-8.",
+          "Estado de Santa Catarina 06/12/2011. Resolução Consema No 002/2011: Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. p.02–08. Disponível em: <a target=\"_blank\" href=\"https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file\">https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file</a>. Acessado em: 22/07/2022.",
+          "Faivovich, J.; Haddad, C.F.B.; Garcia, P.C.A.; Frost, D.R.; Campbell, J.A. &amp; Wheeler, W.C. 2005. Systematic review of the frog family Hylidae, with special reference to Hylinae: Phylogenetic analysis and taxonomic revision. <b>Bulletin of the American Museum of Natural History</b>, 294: p.1-240.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Garcia, P. &amp; Kwet, A. 2004. <i>Aplastodiscus cochranae</i>. <b>In: IUCN 2010. IUCN Red List of Threatened Species. Version 2010</b>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org\">https://www.iucnredlist.org</a>. Acessado em: 20/07/2010.",
+          "Garcia, P.C.A.; Caramaschi, U. &amp; Kwet, A. 2001. O status taxonômico de <i>Hyla cochranae</i> Mertens e recaracterização de <i>Aplastodiscus</i> A. Lutz (Anura, Hylidae). <b>Revista Brasileira de Zoologia</b>, 18 (4): p.1197–1218.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012.",
+          "ICMBio 23/07/2019. Portaria nº 350, de 23 de Julho 2019, Aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.3. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf\">https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf</a>. Acessado em: 08/04/2022.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "RAN, (Centro Nacional de Pesquisa e Conservação dos Répteis e Anfíbios) 2015. Relatório da 3a. Monitoria e Avaliação de Meio Termo do PAN Herpetofauna do Sul. Processo SEI: 02071.000084/2017-20. Goiânia - GO. p.56.",
+          "Wachlevski, M.; Erdtmann, L.K. &amp; Garcia, P.C.A. 2014. Anfíbios anuros em uma área de Mata Atlântica da Serra do Tabuleiro, Santa Catarina. <b>Biotemas</b>, 27 (2): p.97-107."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

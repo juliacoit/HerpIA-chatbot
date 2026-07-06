@@ -1,0 +1,302 @@
+{
+  "id_ficha": "654935622b34343432724f76676f664a586f384d4e413d3d",
+  "nome_cientifico": "Hamptophryne alios (Wild, 1995)",
+  "nome_cientifico_atual": "Hamptophryne alios (Wild, 1995)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19520",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=654935622b34343432724f76676f664a586f384d4e413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hamptophryne alios</i>&nbsp;<span>(Wild, 1995)</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Hamptophryne alios</em> ocorre na América do Sul, no Peru, Bolívia e Brasil. No Brasil, há registro de dois indivíduos no estado de Rondônia, na margem direita do rio Madeira. Os registros estão em área afetada pelo represamento das usinas hidrelétricas de Santo Antônio e Jirau. No entanto, não há informações sobre distribuição e população que possibilitem uma avaliação adequada do risco de extinção da espécie. Por esses motivos, <em>Hamptophryne alios</em> foi avaliada com Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Hamptophryne alios</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19520 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19520",
+      "photo": {},
+      "version": 2,
+      "versionId": 15487,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Microhylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hamptophryne</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hamptophryne alios</i>"
+        }
+      ],
+      "oldNames": "Altigius alios",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Hamptophryne alios</em> foi descrita de Puerto Maldonado, Província de Tambopata, Departamento de Madre de Dios, no Peru (Wild, 1955). A espécie foi posteriormente registrada na Bolívia (departamento de Pando) (Gonzáles &amp; Reichle, 2004; Moravec <em>et al</em>., 2011) e no Brasil (Simões <em>et al.</em> 2011).</p>",
+      "nationalDistribution": "<p> No Brasil, há registro de dois espécimes, entre 2009 e 2010, em Cachoeira de Morrinhos, na margem direita do rio Madeira, 50 km acima da cidade de Porto Velho (Simões <em>et al.,</em> 2011).</p>",
+      "states": "Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/30346a484a7972574b53756e3869535150352f32437066334146564e4a3638467338656a306a543765786e6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Hamptophryne alios",
+        "diskFileName": "f248dc46549e2ddf5db0d5dff8a701d8.png",
+        "fileName": "Mapa de Hamptophryne alios.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Há pouca informação sobre a história natural da espécie. Um dos exemplares registrados no Brasil foi capturado em armadilha de interceptação e queda distante cerca de 2.000 metros da margem do rio Madeira, enquanto o outro foi encontrado a 50 metros do rio (Simões <em>et al</em>., 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações sobre abundância e tendências para a população da espécie no Brasil, onde apenas dois indivíduos foram registrados. Existem subpopulações na Bolívia e no Peru, embora não representadas por um grande número de indivíduos (Simões <em>et al</em>., 2011).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Os registros no Brasil foram feitos na margem direita do Alto rio Madeira, em área afetada pelos reservatórios das usinas hidrelétricas de Jirau e Santo Antônio (Simões <em>et al.,</em> 2011).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.10 - Represas (grandes)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.4 - Captação de água de superfície - uso desconhecido",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Bataus, Y.S.L., Uhlig, V.M., Silvano, D.L., Nomura, F.N., Hoogmoed, M.S., Garcia, P.C.A., Feio, R.N. &amp; Lingnau, R (2016) Avaliação do Risco de Extinção de <i>Hamptophryne alios</i> (Wild, 1995). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7843-anfibios-hamptophryne-alios.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7843-anfibios-hamptophryne-alios.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Icochea <i>et al.</i>, 2004",
+              "title": "Icochea, J., Angulo, A. &amp; Reichle, S. (2004) <i>Hamptophryne alios</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57673A11661166\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57673A11661166</a>. [Acessado em: 03/abr/2014]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural e distribuição são necessários para melhor compreeender o estado de conservação da espécie, assim como, verificar o efeito dos barramentos do rio Madeira sobre a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "Gonzáles, L.A. &amp; Reichle, S. 2004. Seis primeras citas y datos sobre la biología de siete especies de anuros (Amphibia: Anura) para Bolivia. <b>Revista Boliviana de Ecología y Conservación Ambiental</b>, 15: p.93-99.",
+          "Haddad, C.F.B.; Bataus, Y.S.L.; Uhlig, V.M.; Silvano, D.L.; Nomura, F.N.; Hoogmoed, M.S.; Garcia, P.C.A.; Feio, R.N. &amp; Lingnau, R, 2016. Avaliação do Risco de Extinção de <i>Hamptophryne alios</i> (Wild, 1995). Processo de avaliação do risco de extinção da fauna brasileira. ICMBio, Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7843-anfibios-hamptophryne-alios.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7843-anfibios-hamptophryne-alios.html</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Icochea, J.; Angulo, A. &amp; Reichle, S., 2004. <i>Hamptophryne alios</i>. The IUCN Red List of Threatened Species 2004:, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57673A11661166\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57673A11661166</a>. Acessado em: 03/04/2014.",
+          "Moravec, J.; Aparicio, J.; Guerrero-Reinhard, M. &amp; Calderon, G. 2011. Anuran species richness in the Departamento Pando, Bolivia. p.47–57. <i>In</i>:Schuchmann. <b>Tropical vertebrates in a changing world</b>. Museum Alexander König, Bonn",
+          "Simões, P.I.; Kaefer, I.K. &amp; Lima, A.P., 2011. The first record of the rare microhylid Altigius alios Wild, 1995 in Brazil. Herpetology Notes, 4: p.141-142.",
+          "Wild, E.R. 1995. New genus and species of Amazonian microhylid frog with a phylogenetic analysis of New World genera. <b>Copeia</b>, p.837–849.."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

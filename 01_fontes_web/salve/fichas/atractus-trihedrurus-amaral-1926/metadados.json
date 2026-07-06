@@ -1,0 +1,420 @@
+{
+  "id_ficha": "43447834434d77737543755a36696f77644b706239413d3d",
+  "nome_cientifico": "Atractus trihedrurus Amaral, 1926",
+  "nome_cientifico_atual": "Atractus trihedrurus Amaral, 1926",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28006.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=43447834434d77737543755a36696f77644b706239413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus trihedrurus</i>&nbsp;<span>Amaral, 1926</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Atractus trihedrurus</em> é endêmica do Brasil, com ocorrência em floresta ombrófila da Mata Atlântica entre São Paulo e o norte de Santa Catarina. A espécie é associada a regiões serranas, geralmente encontrada em altitudes entre 500 e 1.400 metros. Ocorre em uma região com cobertura vegetal natural extensa e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por esses motivos, <em>Atractus trihedrurus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Atractus trihedrurus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28006.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28006.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19220,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus trihedrurus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Registro atribuído à espécie no Rio Grande do Sul, no Parque Estadual do Turvo (Lema, 2005), foi posteriormente considerado como sendo de um indivíduo melânico de <em>Atractus</em><em> paraguayensis</em> (Passos <em>et al</em>., 2010).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Atractus trihedrurus </em>é endêmica do Brasil, com registros de ocorrência em floresta ombrófila da Mata Atlântica entre o estado de São Paulo e o norte de Santa Catarina. A espécie é associada a regiões serranas, geralmente em altitudes entre 50 e 1.400 metros (Morato, 2005; Forlani <em>et al.,</em> 2010; Passos <em>et al.,</em> 2010; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência, calculada via mínimo polígono convexo, é de 33.616 km2. </p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6e334e59693253326d4a66364e5142393269734b31532f4c46456f66557862787a45616963586357374f314b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "a56e8b2ae75addcf528aada7dbab9d4e.png",
+        "fileName": "Mapa de Atractus trihedrurus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Atractus trihedrurus</em> ocorre em florestas ombrófilas sub-montanas a alto-montanas da Mata Atlântica (Passos <em>et al</em>., 2010). Possui hábito terrestre e fossorial e alimenta-se de minhocas, forrageando sob a serapilheira e dentro de buracos, tanto durante o dia e como a noite (Marques <em>et al</em>., 2001; Morato, 2005). A espécie é ovípara (Marques <em>et al.,</em> 2001).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p><em>Atractus trihedrurus</em> ocorre em florestas ombrófilas sub-montanas a alto-montanas da Mata Atlântica (Passos <em>et al</em>., 2010).</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para esta espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região serrana com cobertura vegetal natural extensa e não há ameaças conhecidas que possam colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z. &amp; Costa, T.B.G. (2019) <I>Atractus trihedrurus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15158494A123739598.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15158494A123739598.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            },
+            {
+              "label": "Passos <i>et al.</i>, 2005",
+              "title": "A new species of <i>Atractus</i> (Serpentes: Colubridae) from Southern Brazil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            },
+            {
+              "label": "Sazima, 2001",
+              "title": "Répteis"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IRAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Passos <i>et al.</i>, 2005",
+              "title": "A new species of <i>Atractus</i> (Serpentes: Colubridae) from Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Passos <i>et al.</i>, 2005",
+              "title": "A new species of <i>Atractus</i> (Serpentes: Colubridae) from Southern Brazil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Passos <i>et al.</i>, 2010",
+              "title": "Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda HorII",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Passos <i>et al.</i>, 2005",
+              "title": "A new species of <i>Atractus</i> (Serpentes: Colubridae) from Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio do Bananal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lema, T. 2005. New occurrence of <i>Atractus trihedrurus</i> Amaral (Serpentes: Xenodontinae). <b>Comunicações do Museu de Ciências e Tecnologia da PUCRS, Série Zoologia</b>, 18: p.53.",
+          "Marques, O.A.V.; Eterovic, A. &amp; Sazima, I. 2001. <b>Serpentes da Mata Atlântica: guia ilustrado para a Serra do Mar</b>. p.184. Holos Ribeirão Preto, SP.",
+          "Morato, S.A.A. 2005. <b>Serpentes da região atlântica do Estado do Paraná, Brasil: diversidade, distribuição e ecologia</b>. Tese de Doutorado. Universidade Federal do Paraná. Curitiba.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Passos, P.; Fernandes, R.; Bernils, R.S. &amp; Moura-Leite, J.C. 2010. Taxonomic revision of the Brazilian Atlantic Forest <i>Atractus</i> (Reptilia: Serpentes: Dipsadidae). <b>Zootaxa</b>, 2364: p.1-63.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z. &amp; Costa, T.B.G. 2019. <I>Atractus trihedrurus</i>. <b>The IUCN Red List of Threatened Species 2019: e.T15158494A123739598</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15158494A123739598.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15158494A123739598.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

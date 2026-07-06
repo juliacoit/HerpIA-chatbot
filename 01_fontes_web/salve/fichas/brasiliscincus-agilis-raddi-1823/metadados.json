@@ -1,0 +1,518 @@
+{
+  "id_ficha": "6b4e4765433968735956545351794e323858787469773d3d",
+  "nome_cientifico": "Brasiliscincus agilis (Raddi, 1823)",
+  "nome_cientifico_atual": "Brasiliscincus agilis (Raddi, 1823)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35652.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6b4e4765433968735956545351794e323858787469773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Brasiliscincus agilis</i>&nbsp;<span>(Raddi, 1823)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "18/12/2025",
+      "justificative": "<p><em>Brasiliscincus agilis</em> é endêmica do Brasil, encontrada somente na Mata Atlântica litorânea entre a Bahia e o sul do estado do Rio de Janeiro. A espécie é típica de áreas de restinga, mas também pode ser encontrada, em menor frequência, em floresta ombrófila secundária. A redução e a degradação das restingas, provocadas principalmente pela expansão imobiliária, extração ilegal de areia e queimadas, representam as principais ameaças. No entanto, a espécie é comum, abundante em muitas localidades e sua distribuição é ampla, de modo que as ameaças não devem colocá-la em risco de extinção em curto prazo. Portanto, <em>B</em>. <em>agilis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2025. <i>Brasiliscincus agilis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35652.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35652.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24314,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Mabuyidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Brasiliscincus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Brasiliscincus agilis</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Brasiliscincus agilis</em> é endêmica do Brasil, encontrada somente na Mata Atlântica litorânea entre o município Mata de São João, no litoral norte da Bahia, e o sul do estado do Rio de Janeiro (Rocha <em>et al.</em>, 2002; Teixeira <em>et</em> <em>al.</em>, 2003; Dias &amp; Rocha, 2014; Martins <em>et al.</em>, 2019; Oliveira <em>et al</em>., 2020).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Rio de Janeiro",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral BA ES, Sub-bacia Litoral ES, Sub-bacia Litoral RJ",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/586e414458394c6a666766755563712f6e317046456f596a304232486c4942493136556758764a71395a564b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Brasiliscincus agilis",
+        "diskFileName": "f9d1974e72841368cabf4eb4e551323f.png",
+        "fileName": "Mapa de Brasiliscincus agilis.png"
+      },
+      "simplified": false,
+      "vlEoo": "178481.00",
+      "vlAoo": "41468.00",
+      "eooCalculationMemory": "<p><span style=\"background-color: #ffffff; color: #000000;\">Calculada pela área do mínimo polígono convexo formado a partir dos registros conhecidos.</span></p>",
+      "aooCalculationMemory": "<p><span style=\"background-color: #ffffff; color: #000000;\">Considerando a área de adequabilidade, em remanescentes de habitat (2019) dentro da EOO, sob grid de 2x2 km.</span></p>"
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p> <em>Brasiliscincus agilis </em>é uma espécie típica de áreas de restinga, mas também pode ser encontrada, em menor frequência, em floresta ombrófila secundária (C. Rocha, com. pess., 2014). É diurna e de hábito terrícola (Vrcibradic <em>et al.</em>, 2007). Vrcibradic &amp; Rocha (2002a) destacam a utilização de cactos e base de bromélias como micro-habitat, principalmente no final da tarde. Alimenta-se de uma variedade de artrópodes, como baratas, lagartas, ortópteros e aranhas (Vrcibradic &amp; Rocha, 2002b; Teixeira <em>et al., </em>2003; Rocha <em>et al., </em>2004). Sua ninhada varia de 2-9 filhotes (Teixeira <em>et al., </em>2003). Há registro de parasitismo por <em>Hexametra boddaertii</em>, <em>Strongyluris oscari</em>, <em>Parapharyngodon largitor</em>, <em>Parapharyngodon sceleratus</em>, <em>Physaloptera retusa</em>, <em>Physaloptera</em> sp., <em>Physalopteroides venancioi</em>, <em>Oochoristica ameivae</em> e <em>Paradistomum parvissimum</em> (Ávila &amp; Silva, 2010). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é abundante em restingas da Bahia, especialmente no sul do estado (Dias &amp; Rocha, 2014), e também apresenta alta representatividade em restingas do norte do estado do Rio de Janeiro (Martins <em>et al.</em>, 2019). Estimativas de diferentes localidades do Rio de Janeiro indicam abundâncias variando entre 14 e 47 indivíduos por subpopulação (Winck <em>et al.</em>, 2017).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em restingas, um ambiente da Mata Atlântica fortemente pressionado por degradação, incluindo expansão imobiliária, instalação de portos, extração ilegal de areia e queimadas. Ainda assim, a espécie é relativamente comum e amplamente distribuída, e essas ameaças não devem colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.3 - Áreas de turismo e recreação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.3 - Portos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.1 - Extração de areia",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não há informações sobre uso da espécie.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2010"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Reptiles, Squamata, Parque Natural Municipal da Taquará, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Marinho dos Abrolhos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rocha & Vrcibradic, 2003",
+              "title": "Nematode assemblages of some insular and continental lizard hosts of the genus <i>Mabuya</i> Fitzinger (Reptilia, Scincidae) along the eastern Brazilian coast"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Teixeira <i>et al.</i>, 2003",
+              "title": "Ecology of <i>Mabuya agilis</i> (Squamata, Scincidae) from a montane Atlantic rainforest area in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Comboios",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2019",
+              "title": "Lizard assemblages on sandy coastal plains in southeastern Brazil: An analysis of occurrence and composition, and the role of habitat structure"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2019",
+              "title": "Herpetofauna community from coastal restinga remnants in Northeast Rio de Janeiro state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAÚNAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2019",
+              "title": "Lizard assemblages on sandy coastal plains in southeastern Brazil: An analysis of occurrence and composition, and the role of habitat structure"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA ESTADUAL DA PRAIA DO SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vrcibradic <i>et al.</i>, 2006",
+              "title": "Molecular phylogeny of brazilian <i>Mabuya</i> (Reptilia, Squamata, Scincidae) of the <i>agilis/caissara/heathi</i> complex"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias & Rocha, 2014",
+              "title": "Habitat structural effect on Squamata fauna of the restinga ecosystem in northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2019",
+              "title": "Lizard assemblages on sandy coastal plains in southeastern Brazil: An analysis of occurrence and composition, and the role of habitat structure"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE SAPIATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2012",
+              "title": "Herpetofauna of Núcleo Experimental de Iguaba Grande, Rio de Janeiro state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PAU BRASIL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE MASSAMBABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Rocha & Vrcibradic, 2003",
+              "title": "Nematode assemblages of some insular and continental lizard hosts of the genus <i>Mabuya</i> Fitzinger (Reptilia, Scincidae) along the eastern Brazilian coast"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Rocha & Vrcibradic, 2003",
+              "title": "Nematode assemblages of some insular and continental lizard hosts of the genus <i>Mabuya</i> Fitzinger (Reptilia, Scincidae) along the eastern Brazilian coast"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "G. R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Dias, E.J.R. &amp; Rocha, C.F.D. (2014) Habitat structural effect on Squamata fauna of the restinga ecosystem in northeastern Brazil. <i>Anais da Academia Brasileira de Ciências</i>. 86 (1), 359-371.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, A., Pontes, R., Mattedi, C., Murta-Fonseca, R.A., Fratani, J., Ramos, L.O., Brandão, A.L.R., Maciel, D.B. &amp; Pinto, R.R. (2019) Herpetofauna community from coastal restinga remnants in Northeast Rio de Janeiro state, Brazil. <i>Journal of Coastal Conservation</i>. 23 (6), 1019-1037.",
+          "Oliveira, J.C.F., Santos, R., Lopes-Silva, M.L., Barros, L.P.V., Risse-Quaioto, B., Militão, C.M., Fatorelli, P., Belmoch, F.A.L. &amp; Rocha, C.F.D. (2020) Reptiles of the Monumento Natural Serra das Torres: using the Rapid Assessment method to fill a knowledge gap in the Atlantic Forest of southeastern Brazil. <i>Biota Neotropica. In press.</i> 20 (2), e20190726.",
+          "Rocha, C.F.D., Bergallo , H.G., Pombal Jr., J.P., Geise, L., Sluys, M.V., Fernandes, R. &amp; Caramaschi, U. (2004) Fauna de anfíbios, répteis e mamíferos do Estado do Rio de Janeiro, Sudeste do Brasil. <i>Publicações Avulsas Museu Nacional, Rio de Janeiro</i>. 104, 3-23.",
+          "Rocha, C.F.D., Vrcibradic, D., Teixeira, R.L. &amp; Cuzzuol, M.G. (2002) Interpopulational variation in litter size of the skink <i>Mabuya agilis</i> in southeastern Brazil. <i>Copeia</i>. 2002 (3), 857-864.",
+          "Teixeira, R.L., Rocha, C.F.D., Vrcibradic, D. &amp; Cuzzuol, M.G.T. (2003) Ecology of <i>Mabuya agilis</i> (Squamata, Scincidae) from a montane Atlantic rainforest area in southeastern Brazil. <i>Cuadernos de Herpetología</i>. 17 (1-2), 101-109.",
+          "Vrcibradic, D. &amp; Rocha, C.F.D. (2002a) Use of cacti as heat sources by thermoregulating <i>Mabuya agilis</i> (Raddi) and <i>Mabuya macrorhyncha</i> Hoge (Lacertilia, Scincidae) in two restinga habitats in southeastern Brazil. <i>Revista Brasileira de Zoologia</i>. 19 (1), 77-83.",
+          "Vrcibradic, D. &amp; Rocha, C.F.D. (2002b) Ecology of <i>Mabuya agilis</i> (Raddi) (Lacertilia, Scincidae) at the restinga of Grumari, Rio de Janeiro, southeastern Brazil. <i>Revista Brasileira de Zoologia</i>. 19, 19-29.",
+          "Vrcibradic, D., Rocha, C.F.D. &amp; Rocha-Barbosa, O. (2007) The relationship between body mass and snout–vent length in three species of Mabuya from eastern Brazil. <i>Herpetological Journal</i>. 17, 43-47.",
+          "Winck, G.R., Almeida-Santos, M., Dorigo, T.A., Telles, F.B. &amp; Rocha, C.F.D. (2017) When invasion may not be harmful: niche relations in a lizard assemblage. <i>Biotropica</i>. 49 (1), 117-129.",
+          "Ávila, R.W. &amp; Silva, R.J. (2010) Checklist of helminths from lizards and amphisbaenians (Reptilia, Squamata) of South America. <i>The Journal of Venemous Animals and Toxins Including Tropical Diseases</i>. 16 (4), 543-572."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

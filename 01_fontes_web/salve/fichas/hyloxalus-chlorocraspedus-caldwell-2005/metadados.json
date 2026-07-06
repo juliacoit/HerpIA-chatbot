@@ -1,0 +1,269 @@
+{
+  "id_ficha": "672b46766475354f703935746e6774374567615758673d3d",
+  "nome_cientifico": "Hyloxalus chlorocraspedus (Caldwell, 2005)",
+  "nome_cientifico_atual": "Hyloxalus chlorocraspedus (Caldwell, 2005)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19556.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=672b46766475354f703935746e6774374567615758673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hyloxalus chlorocraspedus</i>&nbsp;<span>(Caldwell, 2005)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "11/10/2023",
+      "justificative": "<p><em>Hyloxalus chlorocraspedus</em> ocorre na região amazônica da América do Sul, no Brasil e Peru. No Brasil, possui registro apenas na localidade-tipo, no rio Juruá, no estado do Acre, em área preservada. Não são conhecidas ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Hyloxalus chlorocraspedus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Hyloxalus chlorocraspedus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19556.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19556.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15502,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dendrobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hyloxalus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hyloxalus chlorocraspedus</i>"
+        }
+      ],
+      "oldNames": "Cryptophyllobates chlorocraspedus",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Hyloxalus chlorocraspedus</em> ocorre no Brasil e no Peru (Caldwell, 2005). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é conhecida apenas da localidade-tipo, cerca de 5 km a oeste de Porto Walter, no rio Juruá, estado do Acre (Caldwell, 2005).</p>",
+      "states": "Acre",
+      "biomes": "Amazônia",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/36752f5669325432754379584f655974787668456b2b5a2b694f45356255637246784b5661444f556336726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Hyloxalus chlorocraspedus",
+        "diskFileName": "bd0aa2dfe8efc3f0d43a433b71c52694.png",
+        "fileName": "Mapa de Hyloxalus chlorocraspedus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Hyloxalus chlorocraspedus</em> é encontrada em floresta tropical úmida primária, muitas vezes em clareiras, em troncos entre 5 e 70 cm acima do solo, e também em aglomerados de madeira no chão. Girinos foram encontrados em uma poça formada no tronco de uma grande árvore caída e sendo transportados nas costas de um macho adulto (Caldwell, 2005).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis. </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças evidentes que possam colocar a espécie em risco de extinção em curto prazo, uma vez que ocorre uma área onde existem extensas florestas bem preservadas.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Hyloxalus chlorocraspedus</i> (Caldwell, 2005). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7615-anfibios-hyloxalus-chlorocraspedus.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7615-anfibios-hyloxalus-chlorocraspedus.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2006,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Stuart, 2006",
+              "title": "Stuart, S. (2006) <i>Hyloxalus chlorocraspedus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61768A12555743\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61768A12555743</a>."
+            }
+          ],
+          "orderBy": "Y2006"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural e distribuição são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Caldwell, J.P. (2005) A new Amazonian species of <i>Cryptophyllobates</i> (Anura: Dendrobatidae). <i>Herpetologica</i>. 61, 449-461.",
+          "Frost, D.R. (2017) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 27/nov/2017].",
+          "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Hyloxalus chlorocraspedus</i> (Caldwell, 2005). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7615-anfibios-hyloxalus-chlorocraspedus.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7615-anfibios-hyloxalus-chlorocraspedus.html</a>.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Stuart, S. (2006) <i>Hyloxalus chlorocraspedus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61768A12555743\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61768A12555743</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id_ficha": "554a3949697470326a446731757a71472f5a4f4679413d3d",
+  "nome_cientifico": "Physalaemus atim Brasileiro & Haddad, 2015",
+  "nome_cientifico_atual": "Physalaemus atim Brasileiro & Haddad, 2015",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21228",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=554a3949697470326a446731757a71472f5a4f4679413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus atim</i>&nbsp;<span>Brasileiro & Haddad, 2015</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Physalaemus atim</em> é endêmica do Brasil, do bioma Cerrado, com registros de ocorrência apenas para os municípios de Campo Limpo de Goiás e Terezópolis de Goiás, no estado de Goiás. É provável que sua distribuição seja mais ampla, uma vez que existem na região ambientes favoráveis à espécie ainda pouco amostrados. Trata-se de uma espécie encontrada em poças d’água em bordas de fragmentos de floresta semidecidual inserida em uma matriz composta por pastagens. Embora tenha distribuição conhecida restrita e haja perda de vegetação nativa em alguns locais na região, não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Physalaemus atim</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Physalaemus atim</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21228 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21228",
+      "photo": {},
+      "version": 1,
+      "versionId": 16395,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus atim</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Physalaemus atim </em>é endêmica do Brasil, do bioma Cerrado, com registros de ocorrência apenas para os municípios de Campo Limpo de Goiás (Fazenda Conceição, localidade-tipo) e Terezópolis de Goiás, no estado de Goiás (Brasileiro &amp; Haddad, 2015). É provável que sua distribuição seja maior, uma vez que existem ambientes favoráveis à espécie na região ainda pouco amostrados.</p>",
+      "nationalDistribution": "",
+      "states": "Goiás",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Paranaíba",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4f4b4a644d79717478466865697842596837685541334557694e3339485042444b574f4d515774355033546e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "78ed221aa68ddf3cb90322ce44079005.png",
+        "fileName": "Mapa de Physalaemus atim.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Physalaemus atim </em>é encontrada em poças d’água, em borda de fragmentos de floresta semidecidual inserida em uma matriz composta por pastagens. Machos vocalizam flutuando na superfície da água rasa, após o pôr-do-sol até perto da meia-noite. Os ovos são depositados em ninhos de espuma que flutuam nas margens do lago (Brasileiro &amp; Haddad, 2015).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Informações sobre a abundância e a tendência populacional são desconhecidas.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças evidentes que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro & Haddad, 2015",
+              "title": "A new species of <I>Physalaemus</i> from Central Brazil (Anura: Leptodactylidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre a distribuição geográfica, história natural e tendência populacional são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Brasileiro, C. &amp; Haddad, C.F.B. 2015. A new species of <I>Physalaemus</i> from Central Brazil (Anura: Leptodactylidae). <b>Herpetologica</b>, 71 (4): p.280-288."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

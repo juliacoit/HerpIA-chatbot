@@ -1,0 +1,248 @@
+{
+  "id_ficha": "54576b6e74624e6449526435343849753937724670673d3d",
+  "nome_cientifico": "Pseudopaludicola giarettai Carvalho, 2012",
+  "nome_cientifico_atual": "Pseudopaludicola giarettai Carvalho, 2012",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21230.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=54576b6e74624e6449526435343849753937724670673d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pseudopaludicola giarettai</i>&nbsp;<span>Carvalho, 2012</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Pseudopaludicola giarettai </em>é endêmica do Brasil, do Cerrado, com registros de ocorrência no nordeste de Goiás e oeste de Minas Gerais. Embora exista perda de vegetação nativa nessa área, sua distribuição é relativamente ampla e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Pseudopaludicola giarettai </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Pseudopaludicola giarettai</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21230.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21230.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 16397,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pseudopaludicola</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pseudopaludicola giarettai</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Pseudopaludicola giarettai </em>é endêmica do Brasil, do Cerrado, com registros de ocorrência no nordeste de Goiás e oeste de Minas Gerais (Carvalho, 2012; Carvalho <em>et al</em>., 2015). Sua extensão de ocorrência é de 79.143km2, obtida via mínimo polígono convexo, a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Goiás, Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Paranaíba, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/744761723779456d484631656877303036434f4a77764b4e794b7850744b644d70716b474a47634c4a6674777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "ae3e737da0fa305293abb6d16320bc47.png",
+        "fileName": "Mapa de Pseudopaludicola giarettai.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Pseudopaludicola giarettai </em>habita margens de poças, incluindo artificiais, e riachos de água lenta. Machos vocalizam durante o dia, diminuindo ou cessando a atividade após o ocaso, na superfície da água, entre vegetação ou no chão, em locais com água limpa e fundo lamacento/arenoso, quase sempre associados a brejos com palmeiras de Buriti (<em>Mauritia flexuosa</em>) (Carvalho, 2012; Carvalho <em>et al.,</em> 2015). Carvalho <em>et al.</em> (2015) relatam encontrar vários indivíduos vocalizando em período de cerca dois meses sem precipitação.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Informações sobre a abundância e a tendência populacional são desconhecidas.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda de vegetação nativa em alguns locais na área de sua distribuição, não há evidências de ameaças que possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Grande Sertão Veredas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho <i>et al.</i>, 2015",
+              "title": "Intraspecific variation in acoustic traits and body size, and new distributional records for <I>Pseudopaludicola giarettai</I> Carvalho, 2012 (Anura, Leptodactylidae, Leiuperinae): implications for its congeneric diagnosis"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre distribuição geográfica, história natural e tendência populacional ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Carvalho, T.R. 2012. A new species of <i>Pseudopaludicola</i> Miranda-Ribeiro (Leiuperinae: Leptodactylidae: Anura) from the Cerrado of southeastern Brazil with a distinctive advertisement call pattern. <b>Zootaxa</b>, 3328: p.47-54.",
+          "Carvalho, T.R.; Martins, L.B.; Teixeira, B.F.V.; Godinho, L.B. &amp; Giaretta, A.A. 2015. Intraspecific variation in acoustic traits and body size, and new distributional records for <I>Pseudopaludicola giarettai</I> Carvalho, 2012 (Anura, Leptodactylidae, Leiuperinae): implications for its congeneric diagnosis. <b>Papéis Avulsos de Zoologia</b>, 55: p.245-254."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

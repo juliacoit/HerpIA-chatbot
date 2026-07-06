@@ -1,0 +1,307 @@
+{
+  "id_ficha": "4576336667354270314f38486d58694c6e4841584d513d3d",
+  "nome_cientifico": "Erythrolamprus mossoroensis (Hoge & Lima-Verde, 1973)",
+  "nome_cientifico_atual": "Erythrolamprus mossoroensis (Hoge & Lima-Verde, 1973)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28811",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4576336667354270314f38486d58694c6e4841584d513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Erythrolamprus mossoroensis</i>&nbsp;<span>(Hoge & Lima-Verde, 1973)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Erythrolamprus mossoroensis</em> é endêmica do Brasil e apresenta distribuição no bioma Caatinga a áreas adjacentes, com registros desde o Ceará até o norte de Minas Gerais. Possui ampla distribuição e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>E. mossoroensis</em> foi avaliada como Menos preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Erythrolamprus mossoroensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28811 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28811",
+      "photo": {
+        "authorName": "Marco Antônio de Freitas",
+        "authorEmail": "philodryas@hotmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "22e4c21a876566fe5ceaf26bf1da9244.jpg",
+        "fileName": "Erythrolamprus mossoroensis by Marco Freitas.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/5a4b7636376e576a506347565079756f65322b46516643594f7a5a486645784f50524253714d3859666a78743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 2,
+      "versionId": 19733,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Erythrolamprus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Erythrolamprus mossoroensis</i>"
+        }
+      ],
+      "oldNames": "Liophis miliaris mossoroensis, Liophis mossoroensis",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Erythrolamprus mossoroensis </em>é endêmica do Brasil, amplamente distribuída na Caatinga e áreas marginais do Cerrada e Mata Atlântica, desde o Ceará até o norte de Minas Gerais (Hoge &amp; Lima-Verde, 1973; Rodrigues, 2003; Guedes <em>et al</em>., 2014; Roberto &amp; Loebmann, 2016; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 749.050 km2, calculada via mínimo polígono convexo a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Minas Gerais, Pernambuco, Rio Grande do Norte",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PI, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/2f63645274344e725641554a345861596b5763766f31566e652f56717a7a37526c742b344d466c344761726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "7df7f09704c1d3f601f24c06cdeb8660.png",
+        "fileName": "Mapa de Erythrolamprus mossoroensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie é terrestre e sua dieta é baseada em anuros (Vitt, 1983).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p>Não há informações sobre uso de hábitat para a espécie.</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa é uma ameaça local, mas não deve colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ação específica para a conservação da espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2012",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H.D., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z &amp; Costa, T.B.G. (2012) <i>Erythrolamprus mossoroensis</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T15179262A123738793.en\">https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T15179262A123738793.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Estado do Pernambuco, 15/05/2017. Resolução SEMAS Nº 1 DE 15/05/2017: Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Répteis. Diário Oficial do Estado de Pernambuco..",
+          "Guedes, T.B.; Nogueira, C. &amp; Marques, O.A.V. 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <b>Zootaxa</b>, 3863: p.1-93.",
+          "Hoge, A.R. &amp; Lima-Verde, J.S. 1973. <i>Liophis mossoroensis</i> nov. sp. do Brasil (Serpentes: Colubridae). <b>Memórias do Instituto Butantan</b>, 36: p.215-220.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Roberto, I.J. &amp; Loebmann, D. 2016. Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <b>Salamandra</b>, 52 (2): p.134-152.",
+          "Rodrigues, M.T. 2003. Herpetofauna da Caatinga. p.181-236. <i>In</i>: Leal <i>et al.</i>. <b>Ecologia e conservação da Caatinga</b>. Editora Universitária, Universidade Federal de Pernambuco Recife, PE.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.D.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z &amp; Costa, T.B.G. 2012. <i>Erythrolamprus mossoroensis</i>. <b>The IUCN Red List of Threatened Species 2019: e.T15179262A123738793</b>. Disponível em: <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T15179262A123738793.en\">https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T15179262A123738793.en</a>.",
+          "Vitt, L.J. 1983. Ecology of an anuran-eating guild of terrestrial tropical snakes. <b>Herpetologica</b>, 39: p.52–66."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

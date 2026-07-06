@@ -1,0 +1,386 @@
+{
+  "id_ficha": "6f3952314b6f7650516663584b7331682b58627052773d3d",
+  "nome_cientifico": "Corallus batesii (Gray, 1860)",
+  "nome_cientifico_atual": "Corallus batesii (Gray, 1860)",
+  "nome_comum": "Ararambóia, Cobra-papagaio, Piriquitambóia",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28101.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6f3952314b6f7650516663584b7331682b58627052773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Corallus batesii</i>&nbsp;<span>(Gray, 1860)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/02/2026",
+      "justificative": "<p><em>Corallus batesii</em> ocorre no Brasil Bolívia, Colômbia, Equador e Peru. No Brasil, a espécie possui ampla distribuição no bioma amazônico. A espécie é arborícola, encontrada predominantemente em ambientes florestais. Não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões <em>C. batesii</em> foi avaliada como Menos preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Corallus batesii</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28101.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28101.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 2,
+      "versionId": 19313,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Boidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Corallus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Corallus batesii</i>"
+        }
+      ],
+      "oldNames": "Boa canina, Chrysenis batesi, Corallus caninus",
+      "commonNames": "Ararambóia, Cobra-papagaio, Piriquitambóia",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Corallus batesii </em>possui registros no Brasil, Bolívia, Colômbia, Equador e Peru (Fugler <em>et al</em>., 1995; Lehr, 2002; Nogueira <em>et al.</em>, 2019).</p>",
+      "nationalDistribution": "<p>A espécie é amplamente distribuída na bacia Amazônica (Cunha &amp; Nascimento, 1978; Bernarde &amp; Abe, 2006; Turci &amp; Bernarde, 2008; Avila-Pires <em>et al</em>., 2009; Henderson <em>et al</em>., 2009; Nogueira <em>et al</em>., 2010; Prudente <em>et al</em>., 2018).</p>",
+      "states": "Acre, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Paraguai 03, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/376d4f772b6a4d6159576c4770506653615a6552533858365a6a313964686a492b507a6a757a5035305a766f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Corallus batesii",
+        "diskFileName": "4417eb198fb634630698f539e3d4f3d0.png",
+        "fileName": "Mapa de Corallus batesii.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Corallus batesii</em> é florestal, encontrada em altitudes de até 1.000 metros (Henderson <em>et al</em>., 2009; Nogueira <em>et al</em>., 2010). É noturna e arborícola, habita a copa das árvores e é de difícil encontro por sua camuflagem (Bernarde &amp; Abe, 2006; Henderson <em>et al</em>., 2009; Martins &amp; Oliveira, 1998). Alimenta-se de mamíferos, aves e lagartos (Bernarde &amp; Abe, 2006; Pizzato <em>et al</em>., 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rivas <i>et al.</i>, 2016",
+              "title": "Rivas, G., Gutiérrez-Cárdenas, P., Caicedo, J., Hoogmoed, M., Gagliardi, G., Cisneros-Heredia, D.F., Nogueira, C. &amp; Gonzales, L. (2016) <I>Corallus batesi.</i> <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T203207A2762173.en\">http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T203207A2762173.en</a>."
+            }
+          ],
+          "orderBy": "Y2016"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 1977,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos-Costa <i>et al.</i>, 2015",
+              "title": "Natural history of snakes from Floresta Nacional de Caxiuanã, eastern Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jamari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CANUTAMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha & Nascimento, 1978",
+              "title": "Ofídios da Amazônia X - As cobras da região leste do Pará"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Santo Antonio do Pindaré,Gleba Barra da Jurema",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Kayapó",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S., Vitt, L.J., Sartorius, S.S. &amp; Zani, P.A. (2009) Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards. <i>Boletim do Museu Paraense Emilio Goeldi, Ciências Naturais</i>. 4, 99-118.",
+          "Bernarde, P.S. &amp; Abe, A.S. (2006) A snake comunity at Espigão do Oeste, Rondônia, Southwestern Amazon, Brazil. <i>South American Journal of Herpetology</i>. 1 (2), 102-113.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1978) Ofídios da Amazônia X - As cobras da região leste do Pará. <i>Publicações Avulsas do Museu Paraense Emílio Goeldi</i>. 31, 1-218.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1993) Ofídios da Amazônia. As cobras da região leste do Pará. <i>Boletim do Museu Paraense Emílio Goeldi, Série Zoologia</i>. 9, 1–191.",
+          "Fugler, C. M., De La Riva, I. &amp; Cabot, J. (1995) Herpetologica boliviana: una lista comentada de las serpientes de Bolivia con datos sobre su distribucion. <i>Ecologia en Bolivia</i>. 24, 40-87.",
+          "Henderson, R.N., Passos, P. &amp; Feitosa, D. (2009) Geographic Variation in the Emerald Treeboa, <i>Corallus caninus</i> (Squamata: Boidae). <i>Copeia</i>. 2009 (3), 572–582.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lehr, E. (2002) <i>Amphibien und Reptilien in Peru</i> Münster, Natur und Tier-Verlag, 208pp.",
+          "Martins, M. &amp; Oliveira, E.M. (1998) Natural history of snakes in forests of the Manaus region, central Amazonia, Brazil. <i>Herpetological Natural History</i>. 6, 78–150.",
+          "Nogueira, C., Colli, G.R., Costa, G.C. &amp; Machado, R.B. (2010) Diversidade de répteis Squamata e evolução do conhecimento faunístico no Cerrado In: Diniz & Marinho-Filho (eds.) <i>Cerrado: conhecimento científico quantitativo como subsídio para ações de conservação</i>. Brasília - DF, Editora UnB, pp. 333-375.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Pizzatto, P., Marques, O.A.V. &amp; Facure, K (2009) Food habits of Brazilian boid snakes: overview and new data, with special reference to <i>Corallus hortulanus</i>. <i>Amphibia-Reptilia</i>. 30, 533--544.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Rivas, G., Gutiérrez-Cárdenas, P., Caicedo, J., Hoogmoed, M., Gagliardi, G., Cisneros-Heredia, D.F., Nogueira, C. &amp; Gonzales, L. (2016) <I>Corallus batesi.</i> <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T203207A2762173.en\">http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T203207A2762173.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

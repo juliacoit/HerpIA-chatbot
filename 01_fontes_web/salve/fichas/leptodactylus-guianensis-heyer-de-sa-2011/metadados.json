@@ -1,0 +1,315 @@
+{
+  "id_ficha": "543650336376376b3038375245494e4a326d455574513d3d",
+  "nome_cientifico": "Leptodactylus guianensis Heyer & De Sá, 2011",
+  "nome_cientifico_atual": "Leptodactylus guianensis Heyer & De Sá, 2011",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20303",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=543650336376376b3038375245494e4a326d455574513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus guianensis</i>&nbsp;<span>Heyer & De Sá, 2011</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Leptodactylus guianensis </em>é conhecida para o Brasil, Suriname, Guiana e Venezuela. No Brasil, ocorre no extremo norte do bioma Amazônia, com registros de ocorrência no estado de Roraima. A espécie é aparentemente comum, possui distribuição ampla no país, ocorre em áreas protegidas e não há evidência de ameaças que possam colocá-la em risco de extinção. Por estas razões, <em>Leptodactylus guianensis </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Leptodactylus guianensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20303 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20303",
+      "photo": {},
+      "version": 2,
+      "versionId": 15713,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus guianensis</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptodactylus guianensis</em> ocorre na região do Escudo Guianense, com registros na Guina Francesa, Suriname, Guiana, Venezuela e em áreas adjacentes no Brasil (Heyer &amp; de Sá, 2011; MacCulloch &amp; Reynolds, 2013). O holótipo, um macho adulto, foi coletado na Reserva Florestal de Iwokrama, na Guiana, a 85 metros de altitude, em julho de 1997 (Heyer &amp; de Sá, 2011).</p>",
+      "nationalDistribution": "<p>No Brasil, há registros nos estados de Roraima (Heyer &amp; de Sá, 2011).</p>",
+      "states": "Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4b73476d476b5a4b2b4a7931686976455732314e6c564f756b45337972474b694e333674785857454c48376e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "ee6f9ec3c9eaa8827ff3d70af5e8a5ed.png",
+        "fileName": "Mapa de Leptodactylus guianensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>Há pouca infromação sobre a história natural da espécie, e tanto o comportamento reprodutivo como girinos são desconhecidos. MacCulloch &amp; Reynolds (2013) encontraram a espécie em uma região onde a topografia é plana ou suavemente ondulada, com frequentes afloramentos rochosos, coberta por uma floresta ripária alta sazonalmente inundável.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações sobre suas subpopulações. Entretanto, considerando o número de espécimes analisados durante o artigo de descrição, 86 (Heyer &amp; de Sá, 2011), parece não se tratar de uma espécie rara.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Maracá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Roraima",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Viruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Heyer & de Sá, 2011",
+              "title": "Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Heyer, W.R. &amp; de Sá, R.O. 2011. Variation, systematics, and relationships of the <i>Leptodactylus bolivianus</i> complex (Amphibia: Anura: Leptodactylidae). <b>Smithsonian Contributions to Zoology</b>, 635: p.1-58.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "MacCulloch, R.D. &amp; Reynolds, R.P., 2013. Baseline Inventory of Amphibians and Reptiles in the Vicinity of Kurupukari, Guyana. Check List, 9 (6): p.1378–1382."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

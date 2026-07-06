@@ -1,0 +1,292 @@
+{
+  "id_ficha": "452f7532383236464c657937547238594b7957736b413d3d",
+  "nome_cientifico": "Dendropsophus walfordi (Bokermann, 1962)",
+  "nome_cientifico_atual": "Dendropsophus walfordi (Bokermann, 1962)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20570",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=452f7532383236464c657937547238594b7957736b413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus walfordi</i>&nbsp;<span>(Bokermann, 1962)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus walfordi </em>é endêmica do Brasil, do bioma Amazônia, onde possui registros de ocorrência nos estados do Amazonas, Rondônia e Roraima. A espécie é comum, abundante, possui ampla distribuição e pode ser encontrada em ambientes antropizados. Não há ameaças evidentes que possam colocá-la em risco extinção. Por essas razões, <em>Dendropsophus walfordi </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Dendropsophus walfordi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20570 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20570",
+      "photo": {},
+      "version": 2,
+      "versionId": 15928,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus walfordi</i>"
+        }
+      ],
+      "oldNames": "Hyla walfordi",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Dendropsophus walfordi </em>é endêmica da Amazônia central Brasileira (Bokermann, 1962), com registros nos estados de Rondônia (localidade-tipo, Forte Príncipe da Beira, no município de Costa Marques), Amazonas e Roraima (neste em área urbana e rural do município de Caracaraí) (Vogt <em>et al.,</em> 2007; M. Menin, com. pess., 2013; F.P. Werneck, com. pess, 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Amazonas, Rondônia, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/585a67517556694c455355386748302b6d5037772b6a6b54456a486f5076365170384a4b524179545751336f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Dendropsophus walfordi",
+        "diskFileName": "56ae8e83c87d3f996ba1b3aa10122039.png",
+        "fileName": "Mapa de Dendropsophus walfordi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Dendropsophus walfordi </em>é encontrada em áreas úmidas temporárias naturais ou artificiais, bordas de floresta, ambientes abertos, pastagens, áreas urbanas e margens de rios. Seus ovos e girinos se desenvolvem na água (Rodrigues &amp; Azevedo-Ramos, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum, de fácil encontro e abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie possui ampla distribuição, em uma região com extensas áreas de florestas bem preservadas, e adapta-se a ambientes antropizados. Não há ameaças evidentes que possam colocá-la em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação sobre qualquer tipo de uso da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Yeda Bataus, com. pess., 2107",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Azevedo-Ramos, 2004",
+              "title": "Rodrigues, M. T. &amp; Azevedo-Ramos, C. (2004) <i>Dendropsophus walfordi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55690A11342064\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55690A11342064</a>. [Acessado em: 09/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL DO JUMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2007",
+              "title": "Herpetofauna. Capitulo 9"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Laço de Amor",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bokermann, W.C.A., 1962. Nova espécie de Hyla de Rondônia, Brasil (Amphibia, Salientia). Atas da Sociedade de Biologia do Rio de Janeiro, p.52-55..",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Rodrigues, M. T. &amp; Azevedo-Ramos, C. 2004. <i>Dendropsophus walfordi</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55690A11342064\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55690A11342064</a>. Acessado em: 09/11/2011.",
+          "Vogt, R.C.; Ferrara, C.R.; Bernhard, R.; Carvalho, V.T.; Balensiefer, D.C.; Bonora, L. &amp; Novelle, S.M.H. 2007. Herpetofauna. Capitulo 9. p.127-143. <i>In</i>: Py-Daniel <i>et al.</i>. <b>Biodiversidade do Médio Madeira: Bases científicas para propostas de conservação</b>. INPA Manaus - AM."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

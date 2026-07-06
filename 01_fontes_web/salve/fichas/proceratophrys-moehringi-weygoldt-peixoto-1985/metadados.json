@@ -1,0 +1,372 @@
+{
+  "id_ficha": "326b334857656874714a5a77526b792f67334e4172673d3d",
+  "nome_cientifico": "Proceratophrys moehringi Weygoldt & Peixoto, 1985",
+  "nome_cientifico_atual": "Proceratophrys moehringi Weygoldt & Peixoto, 1985",
+  "nome_comum": "Moehring's Smooth Horned Frog, Sapo-de-chifres",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21894.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=326b334857656874714a5a77526b792f67334e4172673d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Proceratophrys moehringi</i>&nbsp;<span>Weygoldt & Peixoto, 1985</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "29/05/2024",
+      "justificative": "<p><em>Proceratophrys moehringi</em> é endêmica do Brasil, do bioma Mata Atlântica, possui registros nos municípios de Santa Teresa, Domingos Martins e Castelo, na região serrana do estado do Espírito Santo, habitando florestas primárias e secundárias. A espécie é de difícil encontro, pois habita fendas de rochas próximas a riachos e possui hábitos discretos. Embora sua extensão de ocorrência calculada seja de 1.284 km², a espécie ocorre em unidades de conservação e próximo à áreas protegidas. As ameaças à espécie estão relacionadas à perda de hábitat, porém não há indicação de risco de extinção em um futuro próximo. Portanto, <em>Proceratophrys moehringi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Daniele Carvalho do Carmo Faria; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Faria, D.C.C.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2024. <i>Proceratophrys moehringi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21894.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21894.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16746,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Odontophrynidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Proceratophrys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Proceratophrys moehringi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Moehring's Smooth Horned Frog, Sapo-de-chifres",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Proceratophrys moehringi </em>é endêmica do Brasil, conhecida apenas para o estado do Espírito Santo, ocorrendo nos municípios de Castelo, Domingos Martins e Santa Teresa (Prado &amp; Pombal, 2008; Montesinos <em>et al</em>., 2012). A extensão de ocorrência foi calculada em 1.284 km2. </p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo",
+      "biomes": "Mata Atlântica",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/43737a3650507379553139327242674473734f454a31386674623437323049632f653451456d6371535674777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição de Proceratophrys moehringi",
+        "diskFileName": "c64efad6b81086c7d8e66b30976e72d7.png",
+        "fileName": "Mapa de Proceratophrys moehringi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Proceratophrys moehringi</em> é endêmica do bioma Mata Atlântica, das serras centrais do estado do Espírito Santo (Prado &amp; Pombal, 2008). A espécie vive em florestas primárias e secundárias, não habita áreas abertas, geralmente é encontrada ao longo de pequenos riachos de montanha na floresta, onde em se reproduz. Os machos vocalizam debaixo de grandes rochas ou fendas de rochas (Peixoto &amp; Silvano, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Parece ser uma espécie comum, a julgar pela abundância de girinos da espécie encontrados (Peixoto &amp; Silvano, 2004). A tendência populacional é desconhecida.</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As principais ameaças à espécie estão relacionadas à perda de hábitat devido ao desenvolvimento da agricultura, pecuária, silvicultura, expansão urbana e exploração madeireira (Peixoto &amp; Silvano, 2004). </p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.3 - Plantações em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.5 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não foram encontradas informações para o taxon.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Proceratophrys moehringi</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C. F. B., Machado, I. F., Giovanelli, J. G. R., Bataus, Y. S. L., Uhlig, V. M., Batista, F. R. Q., Cruz, C. A. G.,, Conte, C. E., Zank, C., Strüsmann, C., Canedo, C. C., Loebmann, D., Silvano, D. L., Nomura, F., Pinto, H. B. A., Amaral, I. B., Gasparini, J. L. R., Nascimento, L. B., Martins, M. R. C., Napoli, M. F., Gordo, M., Hoogmoed, M. S., Kienle, M. S., Maciel, N. M., Valdujo, P. H.,, Garcia, P. C. A., Sawaya, R. J., Lingnau, R. &amp; Bastos, R. P. Caramaschi, U. (2016) Avaliação do Risco de Extinção de Proceratophrys moehringi Weygoldt & Peixoto, 1985. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7687-anfibios-proceratophrys-moehringi.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7687-anfibios-proceratophrys-moehringi.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Peixoto & Silvano, 2004",
+              "title": "Peixoto, O.L. &amp; Silvano, D. (2004) <i>Proceratophrys moehringi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57305A11615692\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57305A11615692</a>. [Acessado em: 17/set/2017]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Gasparini <i>et al.</i>, 2007",
+              "title": "Gasparini, J.L., Almeida, A.P., Cruz, C.A.G. &amp; Feio, R.N. (2007) Os anfíbios ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Instituto de Pesquisas da Mata Atlântica, p. 140."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em execução/existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prado & Pombal, 2008",
+              "title": "Espécies de <i>Proceratophrys</i> Miranda-Riberio, 1920 com apêndices palpebrais (Anura; Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO FORNO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Montesinos <i>et al.</i>, 2012",
+              "title": "Frogs and toads of the Pedra Azul–Forno Grande Biodiversity Corridor, southeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre distribuição, história natural, dados populacionais e ainda impactos de possíveis ameaças ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Prado & Pombal, 2008",
+              "title": "Prado, G. M. &amp; Pombal, J. P. Jr. (2008) Espécies de <i>Proceratophrys</i> Miranda-Riberio, 1920 com apêndices palpebrais (Anura; Cycloramphidae). <i>Arquivos de Zoologia</i>. 39 (1), 1-85."
+            }
+          ]
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Gasparini, J.L., Almeida, A.P., Cruz, C.A.G. &amp; Feio, R.N. (2007) Os anfíbios ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Instituto de Pesquisas da Mata Atlântica, p. 140.",
+          "Haddad, C. F. B., Machado, I. F., Giovanelli, J. G. R., Bataus, Y. S. L., Uhlig, V. M., Batista, F. R. Q., Cruz, C. A. G.,, Conte, C. E., Zank, C., Strüsmann, C., Canedo, C. C., Loebmann, D., Silvano, D. L., Nomura, F., Pinto, H. B. A., Amaral, I. B., Gasparini, J. L. R., Nascimento, L. B., Martins, M. R. C., Napoli, M. F., Gordo, M., Hoogmoed, M. S., Kienle, M. S., Maciel, N. M., Valdujo, P. H.,, Garcia, P. C. A., Sawaya, R. J., Lingnau, R. &amp; Bastos, R. P. Caramaschi, U. (2016) Avaliação do Risco de Extinção de Proceratophrys moehringi Weygoldt & Peixoto, 1985. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7687-anfibios-proceratophrys-moehringi.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7687-anfibios-proceratophrys-moehringi.html</a>.",
+          "ICMBio 07/10/2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Peixoto, O.L. &amp; Silvano, D. (2004) <i>Proceratophrys moehringi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57305A11615692\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57305A11615692</a>. [Acessado em: 17/set/2017].",
+          "Prado, G. M. &amp; Pombal, J. P. Jr. (2008) Espécies de <i>Proceratophrys</i> Miranda-Riberio, 1920 com apêndices palpebrais (Anura; Cycloramphidae). <i>Arquivos de Zoologia</i>. 39 (1), 1-85."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

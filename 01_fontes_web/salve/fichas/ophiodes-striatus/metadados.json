@@ -1,0 +1,716 @@
+{
+  "id_ficha": "4e666159367656655a4b344d6139684f486a596972673d3d",
+  "nome_cientifico": "Ophiodes striatus",
+  "nome_cientifico_atual": "Ophiodes striatus",
+  "nome_comum": "",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "03/2021",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.34247.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4e666159367656655a4b344d6139684f486a596972673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Ophiodes striatus</i>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "03/2021",
+      "publicationDate": "20/03/2026",
+      "justificative": "<p><em>Ophiodes striatus</em> ocorre no Brasil, Paraguai e Uruguai. No Brasil, possui ampla distribuição, com registros em todas as regiões. A espécie é comum e pode ser encontrada em alguns ambientes alterados, não havendo ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>Ophiodes striatus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Paula Ribeiro Anunciação; Luciana Signorelli; Carlos Roberto Abrahão; Robson Waldemar Ávila; Renato Silveira Bérnils; Márcio Borges-Martins; Gabriel Henrique de Oliveira Caetano; Beatriz Nunes Cosendey; Henrique Caldeira Costa; Renato Gomes Faria; Vanda Lucia Ferreira; Ivo Rohling Ghizoni Jr; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Cristiano de Campos Nogueira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Síria Lisandra de Barcelos Ribeiro; Diego José Santana; Christine Strüssmann; Marcelo José Sturaro; Luisa Maria Viegas; Laura Verrastro Vinas; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Anunciação, P.R.; Signorelli, L.; Abrahão, C.R.; Ávila, R.W.; Bérnils, R.S.; Borges-Martins, M.; Caetano, G.H.O.; Cosendey, B.N.; Costa, H.C.; Faria, R.G.; Ferreira, V.L.; Jr, I.R.G.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Nogueira, C.C.; Oliveira, R.B.; Pantoja, D.L.; Ribeiro, S.L.B.; Santana, D.J.; Strüssmann, C.; Sturaro, M.J.; Viegas, L.M.; Vinas, L.V.; Winck, G.R. 2026. <i>Ophiodes striatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.34247.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.34247.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 23244,
+      "deleted": false,
+      "lastAvaliationDate": "05/03/2021",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Diploglossidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Ophiodes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Ophiodes striatus</i>"
+        }
+      ],
+      "oldNames": "Ophiodes fragilis, Ophiodes grilli, Ophiodes striatus, Pygopus cariococca, Pygopus Gronovii, Pygopus striatus, Seps fragilis",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Ophiodes striatus </em>é um complexo de espécies (Borges-Martins, 1998), cuja revisão pode resultar em novas entidades taxonômicas (Márcio Borges-Martins, com. pess., 2021).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Ophiodes striatus</em> ocorre no Paraguai, Uruguai e Brasil (Borges-Martins, 1998). Segundo Mati <em>et al.</em> (2013), ocorre também na Argentina.</p>",
+      "nationalDistribution": "<p>No Brasil, <em>Ophiodes striatus</em> possui ampla distribuição, ocorrendo em quase todos os biomas (Colli <em>et al</em>., 2002; Nogueira 2006; Uetanabaro <em>et al</em>., 2007; Quintela <em>et al</em>., 2011; Silva-Soares <em>et al</em>., 2011; Sousa <em>et al</em>., 2012; Linares &amp; Eterovick, 2013; Almeida-Gomes <em>et al.,</em> 2014; Ferreira <em>et al.</em>, 2017; Castro <em>et al</em>., 2019).</p>",
+      "states": "Alagoas, Amazonas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Rondônia, Santa Catarina, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Negro RS, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Purus, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7151457a736a47716a687a774d3758707138577541696c2f587351713379477a37514144556a414c6268586e4c6b6578357476663470504c6447375035785151",
+        "legend": "Ophiodes striatus.",
+        "diskFileName": "463f94ba880eff7ba704837bbaa00e69.png",
+        "fileName": "Mapa de Ophiodes striatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Ophiodes striatus</em> é serpentiforme, possui membros vestigiais, é vivípara e possui ninhada de 2 a 14 ovos (Montechiaro <em>et al.,</em> 2011; Barros <em>et al,</em>. 2007; Colli <em>et al</em>., 2002), é diurna e de hábito fossorial (Linares &amp; Eterovick, 2013; Novelli <em>et al</em>., 2012; Colli <em>et al</em>., 2002). A espécie é carnívora, com preferência por aranhas, grilos e gafanhotos (Montechiaro <em>et al</em>., 2011; Barros <em>et al</em>., 2007). Há relatos de parasitismo de <em>Strongyloides cruzi</em> (Mati <em>et al</em>., 2013).</p> \n<p>A espécie ocorre em uma variedade de ambientes nos diferentes biomas brasileiros. No Cerrado, está associada tanto a áreas florestadas quanto a campos com alta densidade de gramíneas e também pode ocorrer em ambientes antropizados (Colli <em>et al</em>., 2002; Recoder &amp; Nogueira, 2007). No Mato Grosso do Sul, foi registrada em ambientes de Cerrado, Pantanal, Chaco e campos (Ferreira <em>et al</em>., 2017). Na Mata Atlântica, há registros em áreas de planícies fluviais temporariamente alagadas e bordas de lagoas costeiras na Bahia, aparentemente sem forte impacto da alteração do habitat (Santos <em>et al</em>., 2014; Linares &amp; Eterovick, 2013; Sousa <em>et al</em>., 2010, 2012). Na região da Cadeia do Espinhaço e em áreas urbanizadas de Minas Gerais, foi registrada em ambientes florestados e clareiras (Cruz <em>et al</em>., 2014; Mati <em>et al</em>., 2013). Nos Pampas, ocorre em campos abertos e pode estar associada a ambientes campestres nativos (Winck <em>et al</em>., 2011). Na Caatinga, foi registrada em enclave de floresta de altitude no Ceará (Castro <em>et al</em>., 2019).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, mas ela é considerada comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "Não são conhecidas ameaças que indiquem risco de extinção em um futuro próximo.",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Reptiles, Squamata, Parque Natural Municipal da Taquará, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "ARIE Capetinga-Taquara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Murici",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "De Araújo Neto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Grande Sertão Veredas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder & Nogueira, 2007",
+              "title": "Composição e diversidade de Répteis Squamata na região sul do Parque Nacional Grande Sertão Veredas, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Mapinguari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bodoquena",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Uetenabaro <i>et al.</i>, 2007",
+              "title": "Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro <i>et al.</i>, 2019",
+              "title": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Barros & Teixeira, 2007",
+              "title": "Diet and fecundity of the glass-lizard, <i>Ophiodes striatus</i> (Sauria, Anguidae) from the Atlantic Forest in southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAÍ BOTUCATU TEJUPA PERIMETRO BOTUCATU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO JARDIM BOTÂNICO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2018",
+              "title": "The herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DAS NASCENTES DO RIO TAQUARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vrcibradic <i>et al.</i>, 2011",
+              "title": "Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "De Araújo Neto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2018",
+              "title": "The herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira & Oliveira, 2014",
+              "title": "Reptiles (Squamata) in Atlantic forest in Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLóGICO DO MORRO DO IRIRIú",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Comitti, 2017",
+              "title": "Herpetofauna da bacia do Rio Cachoeira, município de Joinville, Santa Catarina, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Alegrete",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chácara Mangueiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Ophiodes striatus"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Ávila <i>et al.</i>, 2010",
+              "title": "Helminths from seven species of lizards (Reptilia: Squamata) at the Cerrado of Mato Grosso do Sul State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Taunay/Ipegue",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários estudos taxonômicos para descrição das espécies do complexo.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida-Gomes, M., Siqueira, C.C., Borges-Júnior, V.N.T., Vrcibradic, D., Fusinatto, L.A. &amp; Rocha, C.F.D. (2014) Herpetofauna of the Reserva Ecológica de Guapiaçu (REGUA) and its surrounding areas, in the state of Rio de Janeiro, Brazil. <i>Biota Neotropica</i>. 14, 1-15.",
+          "Barros, E.H.D. &amp; Teixeira, R.L. (2007) Diet and fecundity of the glass-lizard, <i>Ophiodes striatus</i> (Sauria, Anguidae) from the Atlantic Forest in southeastern Brazil. <i>Boletim do Museu de Biologia Mello Leitão</i>. 22, 11-23.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Borges-Martins, M. (1998) <i>Revisão taxonômica e sistemática filogenética do gênero <i>Ophiodes</i> Wagler, 1828 (Sauria, Anguidae, Diploglossinae)</i>. Tese de Doutorado. Pontifícia Universidade Católica do Rio Grande do Sul. Porto Alegre. 239pp.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cacciali, P. &amp; Scott, N. J. (2015) Key to the <i>Ophiodes</i> (Squamata: Sauria: Diploglossidae) of Paraguay with the description of a new species. <i>Zootaxa</i>. 3980 (1), 042 - 050.",
+          "Castro, D.P., Mângia, S., Magalhães, F.M., Röhr, D.L., Camurugi, F., Silveira-Filho, R.R., Silva, M.M.X., Andrade-Oliveira, J.A., Sousa, T.A., França, F.G.R., Harris, D.J., Garda, A.A. &amp; Borges-Nojosa, D.M. (2019) Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil. <i>Herpetology Notes</i>. 12, 727-742.",
+          "Colli, G.R. Bastos, R.P. &amp; Araujo, A.F. (2002) The character and dynamics of the Cerrado herpetofauna In: Oliveira (ed.) <i>The Cerrados of Brazil: ecology and natural history of a Neotropical savanna</i>. New York, Columbia University Press, pp. 223-241.",
+          "Comitti, E.J. (2017) Herpetofauna da bacia do Rio Cachoeira, município de Joinville, Santa Catarina, Sul do Brasil. <i>Acta Biológica Catarinense</i>. 4 (3), 90-105.",
+          "Cruz, A.J.R., Drummond, L.O., Lucena, V.D., Magalhães, A.P., Braga, C.A.C., Rolin, J.M. &amp; Pires, M.R.S. (2014) Lizard fauna (Squamata, Sauria) from Serra do Ouro Branco, southern Espinhaço Range, Minas Gerais, Brazil. <i>Check List</i>. 10 (6), 1290-1299.",
+          "Entiauspe-Neto, O. M., Quintela, F. M., Pino, S. R. &amp; Loebmann, D. (2018) <i> Ophiodes striatus</i> (Brazilian Glass Lizard). Predation. <i>Herpetological Review</i>. 49 (2), 331-331.",
+          "Ferreira, V.L., Terra, J. de S., Piatti, L., Delatorre, M., Strüssmann, C., Béda, A.F., Kawashita-Ribeiro, R.A., Landgref-Filho, P., Aoki, C., Campos, Z., Souza, F.L., Ávila, R.W., Duleba, S., Martins, K.S., Rita, P.H.S. &amp; Albuquerque, N.R. (2017) Répteis do Mato Grosso do Sul, Brasil. <i>Iheringia, Série Zoologia</i>. 107, 1-13.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Linares, A.M. &amp; Eterovick, P.C. (2013) Herpetofaunal surveys support successful reconciliation ecology in secondary and human-modified habitats at the inhotim institute, Southeastern Brazil. <i>Herpetologica</i>. 69, 237-256.",
+          "Mati, V.L.T., Pinto, H.A. &amp; de Melo, A.L. (2013) <i>Strongyloides cruzi</i> (Rhabditida: Strongyloididae) in <i>Ophiodes striatus</i> (Squamata: Anguidae) from Brazil: new host and locality records with taxonomic comments on Strongyloides of Lizards. <i>Neotropical Helminthology</i>. 7 (2), 327-333.",
+          "Montechiaro, L., Kaefer, I.L., Quadros, F.C. &amp; Cechin, S. (2011) Feeding habits and reproductive biology of the glass lizard <i>Ophiodes cf. striatus</i> from subtropical Brazil. <i>North-Western Journal of Zoology</i>. 7 (1),.",
+          "Nogueira, C.D.C. (2006) <i>Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado</i>. Tese de Doutorado. Universidade de São Paulo, Instituto de Biociências. São Paulo. 296pp.",
+          "Novelli, I.A., Lucas, P.D.S., Carvalho, R.G.D., Santos, R.C. &amp; Sousa, B.M.D. (2012) Lagartos de áreas de Cerrado na Reserva Biológica Unilavras-Boqueirão, Ingaí, sul de Minas Gerais, Brasil. <i>Biota Neotropica</i>. 12 (3), 147-153.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Quintela, F.M., Pinheiro, R.M. &amp; Loebmann, D. (2011) Composição e uso do hábitat pela herpetofauna em uma área de mata paludosa da Planície Costeira do Rio Grande do Sul, extremo sul do Brasil. <i>Revista Brasileira de Biociências</i>. 9 (1), 6-11.",
+          "Recoder, R. &amp; Nogueira, C. (2007) Composição e diversidade de Répteis Squamata na região sul do Parque Nacional Grande Sertão Veredas, Brasil Central. <i>Biota Neotropica</i>. 7 (3), 267-278.",
+          "Santos, D.L., Andrade, S.P., Victor-Jr., E.P. &amp; Vaz-Silva, W. (2014) Amphibians and reptiles from southeastern Goiás, Central Brazil. <i>Check List</i>. 10 (1), 131-148.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Silva-Soares, T., Ferreira, R.B., Salles, R.O.L. &amp; Rocha, C.F.D. (2011) Continental, insular and coastal marine reptiles from the municipality of Vitória, state of Espírito Santo, southeastern Brazil. <i>Check List</i>. 7 (3), 290-298.",
+          "Sousa, B.M., Gomides, S.C., Hudson, A.A., Ribeiro, L.B. &amp; Novelli, I.A. (2012) Reptiles of the municipality of Juiz de Fora, Minas Gerais state, Brazil. <i>Biota Neotropica</i>. 12 (3), 35-49.",
+          "Sousa, B.M., Nascimento, A.E.R., Gomides, S.C., Rios, C.H.V., Assis, H.A. &amp; Novelli, I.A. (2010) Répteis em fragmentos de Cerrado e Mata Atlântica no Campo das Vertentes, Estado de Minas Gerais, Sudeste do Brasil. <i>Biota Neotropica</i>. 10 (2), 129-138.",
+          "Uetanabaro, M.,, Souza, F. L., Landgref Filho, P., Beda, A. F. &amp; Brandão, R. A. (2007) Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil. <i>Biota Neotropica</i>. 7, 279-289.",
+          "Winck, G.R., Santos, T.G.D. &amp; Cechin, S.Z. (2011) Pampean lizard assemblage from subtropical Brazil: a temporal analysis. <i>Anais da Academia Brasileira de Ciências</i>. 83 (4), 1345-1358."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

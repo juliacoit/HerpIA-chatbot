@@ -1,0 +1,420 @@
+{
+  "id_ficha": "766a344a574a5151555969564a5530656d44515a68413d3d",
+  "nome_cientifico": "Taeniophallus brevirostris (Peters, 1863)",
+  "nome_cientifico_atual": "Taeniophallus brevirostris (Peters, 1863)",
+  "nome_comum": "Cobra-Corredeira, Cobra-de-Capim, Jararaquinha",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27924.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=766a344a574a5151555969564a5530656d44515a68413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Taeniophallus brevirostris</i>&nbsp;<span>(Peters, 1863)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "24/02/2026",
+      "justificative": "<p><em>Taeniophallus brevirostris</em> possui registros no Brasil, Guiana, Peru e Equador. Distribui-se amplamente na Amazônia brasileira, desde o oeste do Maranhão até a fronteira com o Peru. Ocorre principalmente em florestas bem preservadas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Taeniophallus brevirostris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Taeniophallus brevirostris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27924.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27924.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19140,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Taeniophallus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Taeniophallus brevirostris</i>"
+        }
+      ],
+      "oldNames": "Coluber undulatus, Coronella decorata, Coronella taeniolata, Dromicus brevirostris, Dromicus viperinus, Echinanthera brevirostris, E. [nicognathus] taeniolatus, Liophis brevirostris, Liophis undulatus, Rhadinaea brevirostris, Rhadinaea taeniolata, Rhadinaea undulata, Urotheca brevirostris",
+      "commonNames": "Cobra-Corredeira, Cobra-de-Capim, Jararaquinha",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Taeniophallus brevirostris</em> é amplamente distribuída na Amazônia, com registros no Brasil, Guiana, Peru e Equador (Cunha &amp; Nascimento, 1978; Duellman, 1978; Ortega-Andrade, 2010; Catenazzi <em>et al</em>., 2013; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, distribui-se amplamente desde o oeste do Maranhão até a fronteira com o Peru (Cunha &amp; Nascimento, 1978; Vitt &amp; Caldwell, 1995; Morais <em>et al</em>., 2010; Bernarde <em>et al</em>., 2013; Nogueira <em>et al</em>., 2019; Frazão <em>et al</em>., 2020).</p>",
+      "states": "Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4c44697065423242416e382b3544797030777a4c3463577a6c74525a4d7573654d78326932733856462b6f7644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição de Taeniophallus brevirostris",
+        "diskFileName": "586b0f12b4854f0df21b2429acffc038.png",
+        "fileName": "Mapa de Taeniophallus brevirostris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Taeniophallus brevirostris</em> é criptozóica, diurna e habita principalmente em floresta bem preservadas, sendo ocasionalmente encontrada em áreas degradadas (Cunha &amp; Nascimento, 1978; Dixon &amp; Soini, 1986; Duellman, 1978; Duellman &amp; Mendelson, 1995). Parece reproduzir-se entre setembro e novembro (Martins &amp; Oliveira, 1998). Alimenta-se principalmente de pequenos lagartos (Avila-Pires, 1995; Cunha &amp; Nascimento, 1978; Dixon &amp; Soini, 1986; Duellman, 1978).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caicedo <i>et al.</i>, 2019",
+              "title": "Caicedo, J., Calderón, M., Ines Hladki, A., Ramírez Pinilla, M., Renjifo, J., Urbina, N., Nogueira, C., Catenazzi, A., Gonzales, L., Schargel, W. &amp; Rivas, G. (2019) <i>Taeniophallus brevirostris</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182904A15182912.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182904A15182912.en</a>."
+            }
+          ],
+          "orderBy": "Y2019"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "M. S. Hoogmoed, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Jaru",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M. S. Hoogmoed, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE TAPAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE ALGODOAL-MAIANDEUA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morais <i>et al.</i>, 2010",
+              "title": "Reptilia, Squamata, Dipsadidae, Xenodontinae, <i>Taeniophallus brevirostris</I> (Peters, 1863): Distribution extension and new state record"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morais <i>et al.</i>, 2010",
+              "title": "Reptilia, Squamata, Dipsadidae, Xenodontinae, <i>Taeniophallus brevirostris</I> (Peters, 1863): Distribution extension and new state record"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha & Nascimento, 1978",
+              "title": "Ofídios da Amazônia X - As cobras da região leste do Pará"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO JAPIIM PENTECOSTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2013",
+              "title": "Herpetofauna da floresta do baixo rio Moa em Cruzeiro do Sul, Acre – Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Adão e Eva",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Morais <i>et al.</i>, 2010",
+              "title": "Reptilia, Squamata, Dipsadidae, Xenodontinae, <i>Taeniophallus brevirostris</I> (Peters, 1863): Distribution extension and new state record"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Laço de Amor",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Vitt & Caldwell, 1995",
+              "title": "Inventário e Ecologia da herpetofauna da Amazônia: Alter do Chão, Santarém, Pará, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Alto Turiaçu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Morais <i>et al.</i>, 2010",
+              "title": "Reptilia, Squamata, Dipsadidae, Xenodontinae, <i>Taeniophallus brevirostris</I> (Peters, 1863): Distribution extension and new state record"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Bernarde, P.S., Albuquerque, S. &amp; Miranda, D.B. Turci, L.C.B. (2013) Herpetofauna da floresta do baixo rio Moa em Cruzeiro do Sul, Acre – Brasil. <i>Biota Neotropica</i>. 13,.",
+          "Caicedo, J., Calderón, M., Ines Hladki, A., Ramírez Pinilla, M., Renjifo, J., Urbina, N., Nogueira, C., Catenazzi, A., Gonzales, L., Schargel, W. &amp; Rivas, G. (2019) <i>Taeniophallus brevirostris</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182904A15182912.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182904A15182912.en</a>.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1978) Ofídios da Amazônia X - As cobras da região leste do Pará. <i>Publicações Avulsas do Museu Paraense Emílio Goeldi</i>. 31, 1-218.",
+          "Dixon, J.R. &amp; Soini, P. (1986) <i>The reptiles of the upper Amazon Basin, Iquitos region, Peru. I Lizards and amphisbaenians. II Crocodilians, turtles and snakes</i> Milwaukee, WI, Milwaukee Public Museum, 148-154pp.",
+          "Duellman, W. E. &amp; Mendelson, III. J. R. (1995) Amphibians and reptiles from Northern Departamento Loreto, Peru: Taxomony and biogeography. <i>The University of Kansas Science Bulletin</i>. 55, 329-376.",
+          "Duellman, W.E. (1978) The biology of an equatorial herpetofauna in Amazonian Ecuador. <i>Miscellaneous publication - University of Kansas, Museum of Natural History</i>. (65), 34.",
+          "Frazão, L., Oliveira, M.E, Menin, M., Campos, J., Almeida, A., Kaefer, I.L. &amp; Hrbek, T. (2020) Species richness and composition of snake assemblages in poorly accessible areas in the Brazilian Amazonia. <i>Biota Neotropica</i>. 20 (1), e20180661.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, M. &amp; Oliveira, E.M. (1998) Natural history of snakes in forests of the Manaus region, central Amazonia, Brazil. <i>Herpetological Natural History</i>. 6, 78–150.",
+          "Morais, D.H., Mott, T., Kawashita-Ribeiro, R.A. &amp; Santos-Jr., A.P. (2010) Reptilia, Squamata, Dipsadidae, Xenodontinae, <i>Taeniophallus brevirostris</I> (Peters, 1863): Distribution extension and new state record. <i>Check list</i>. 6 (3), 456-457.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Ortega-Andrade, H.M. (2010) <i>Diversidad de la herpetofauna en la centro Amazonía de Ecuador</i>. Dissertação de Mestrado. Instituto de Ecología. A.C, México.",
+          "Vitt, L. J. &amp; Caldwell, J. P. (1995) <i>Inventário e Ecologia da herpetofauna da Amazônia: Alter do Chão, Santarém, Pará, Brasil</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "id_ficha": "53354a3337545461765464566753664d65697a444e673d3d",
+  "nome_cientifico": "Mesoclemmys wermuthi (Mertens, 1969)",
+  "nome_cientifico_atual": "Mesoclemmys wermuthi (Mertens, 1969)",
+  "nome_comum": "Tartaruga-do-igapó",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.39208.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=53354a3337545461765464566753664d65697a444e673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Mesoclemmys wermuthi</i>&nbsp;<span>(Mertens, 1969)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "24/02/2026",
+      "justificative": "<p><em>Mesoclemmys</em> <em>wermuthi</em> ocorre na América do Sul, onde é conhecida para a Bolívia, Brasil, Colômbia, Equador e Peru. No Brasil, ocorre na Amazônia, distribuindo-se principalmente na região hidrográfica Amazônica e com registro para os estados do Acre, Amazonas e Rondônia. É uma espécie rara e de difícil detecção. Embora haja perda de vegetação natural e da qualidade do habitat e consumo pontual pelas comunidades tradicionais, não há indícios de que estes impactos coloquem sua população em risco de extinção no futuro próximo. Por isso, <em>M.</em> <em>wermuthi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Fábio Andrew Gomes Cunha; Carlos Roberto Abrahão; Daniele Carvalho; Fábio Andrew Gomes Cunha; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luis Regolin; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Cunha, F.A.G.; Abrahão, C.R.; Carvalho, D.; Cunha, F.A.G.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Ferrara, C.R.; Grou, C.E.V.; Maffei, F.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2026. <i>Mesoclemmys wermuthi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.39208.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.39208.1",
+      "photo": {
+        "authorName": "Fábio Andrew Gomes Cunha",
+        "authorEmail": "fabioagcunha@gmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "e8ce7dbc2d887c5244938bb1bf72189a.jpg",
+        "fileName": "Captura de Tela 2024-05-31 às 16.21.10.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/62356c324a43722f33417732592b4955756e53733536784d6441734a6e43397673395a33693753316f7039704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 1,
+      "versionId": 28319,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Chelidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Mesoclemmys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Mesoclemmys wermuthi</i>"
+        }
+      ],
+      "oldNames": "Batrachemys raniceps, Hydraspis maculata, Mesoclemmys raniceps, Mesoclemmys wermuthi, Phrynops wermuthi",
+      "commonNames": "Tartaruga-do-igapó",
+      "taxonomicNotes": "<p>Cunha <em>et al</em>. (2019) revalidaram <em>Hydraspis maculata</em>, anteriormente considerada sinonímia de <em>Mesoclemmys raniceps</em>, como <em>Mesoclemmys maculata</em>. Os mesmos autores sinonimizaram <em>Phrynops wermuthi</em> a <em>M. maculata</em>. Essa informação foi ratificada por Rhodin <em>et al</em>. (2021), que consideraram <em>H. maculata</em> como nomen oblitum, reconhecendo <em>Mesoclemmys wermuthi</em> como sendo o nome válido para a espécie. De acordo com Iverson (2022), o holótipo (SMF 66246) foi fotografado por Mertens (1970) e o parátipo (SMF 66247) por Bour &amp; Pauler (1987). Cunha <em>et al</em>., (2022) corroboram a informação de que a espécie é válida.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Mesoclemmys wermuthi</em> ocorre na América do Sul e distribui-se na Bolívia, Brasil, Colômbia e Peru (Molina<em> et al</em>., 2012; Moravec, 2017; Páez <em>et al</em>., 2022). F. Cunha (com. pess. 2024) registrou o primeiro registro da espécie para o Equador.</p>",
+      "nationalDistribution": "<p>No Brasil, ocorre na região hidrográfica Amazônica, com registros nas bacias dos rios Madeira, Purus e Solimões, compreendendo os estados do Acre, Rondônia e Amazonas (Molina<em> et al</em>., 2012; Cunha <em>et al</em>., 2019; Cunha <em>et al</em>., 2022). A presença da espécie é provável no estado do Pará. Tendo uma área de distribuição de 1.367.818 km2.</p>",
+      "states": "Acre, Amazonas, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Trombetas",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/36794853795854416d6333576c6b31787947454e4d5137684375703648516c6f6d446c415565435a6d4d726e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Mesoclemmys wermuthi",
+        "diskFileName": "9f5183853958c588e0c9e0adea62ae3e.png",
+        "fileName": "Mapa de Mesoclemmys wermuthi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie habita igarapés de agua preta na região do Acre.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara, e seu registro e captura são muito difíceis. Nas áreas onde houve avistamentos, foram capturados até quatro indivíduos adultos, um juvenil e um filhote. Isso foi alcançado por meio de busca ativa e uso de armadilhas com iscas, com um esforço total de 3 dias por indivíduo.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A principal ameaça à espécie é o desmatamento. Até 2021, 8,15% da área de distribuição da espécie já havia sido convertida em áreas não naturais. O maior impacto é a conversão de florestas em pastagens (6,33%), seguida por agricultura (1,71%), urbanização (0,07%) e mineração (0,04%) (MapBiomas, 2023). Não há conhecimento sobre o declínio de populações no Brasil. No entanto, com o avanço do desmatamento nas bordas da floresta amazônica e considerando que essa espécie parece ser altamente específica em relação ao habitat, as populações estabelecidas em áreas ameaçadas pelo desmatamento podem estar sob pressão e, consequentemente, sofrendo redução à medida que o desmatamento avança.</p> \n<p>De acordo com a Agência Nacional de Energia Elétrica (ANEEL) (2019), atualmente existem 307 usinas hidrelétricas na Amazônia, entre construídas e em construção, com mais 239 planejadas. Áreas adequadas para a construção de hidrelétricas frequentemente coincidem com habitats ideais para quelônios, sugerindo que as avaliações de risco de extinção foram subestimadas, revelando conflitos entre geração de energia e conservação dessas espécies (Regolin <em>et al.,</em> 2023). A construção de usinas, sejam grandes ou pequenas, impacta negativamente as populações de tartarugas ao alterar o curso natural dos rios e os regimes hidrológicos, contribuindo para a perda e alteração de habitats.</p> \n<p>A construção de estradas e ferrovias para grandes projetos de infraestrutura no norte do Brasil fragmenta habitats e interrompe o movimento de indivíduos de <em>M. wermuthi</em>. (F. Cunha com. pess. 2023).</p> \n<p>Embora não haja estudos específicos sobre os impactos da mineração nas populações de <em>M. wermuthi</em>, a espécie provavelmente enfrenta efeitos negativos dessa atividade, pois a mineração altera diretamente a paisagem e causa impactos indiretos, como desmatamento e erosão dos corpos d'água.</p> \n<p>A espécie também pode ser encontrada em pequenos riachos próximos a centros urbanos, e a expansão desordenada dessas áreas resulta no descarte de resíduos sólidos em áreas florestais, formando aterros que contaminam o solo e os corpos d'água. O descarte inadequado de lixo pelos próprios moradores também contribui para a contaminação do solo e da água, impactando a fauna local.</p> \n<p>As mudanças climáticas, em escala local ou global, afetam diretamente as populações de <em>M. wermuthi</em>, alterando as condições microclimáticas dos hábitats, incluindo locais de nidificação, além de modificar os regimes hidrológicos, o que afeta os padrões de fluxo dos rios. A maioria dos rios da Bacia Amazônica, onde a espécie vive, tem um pulso de inundação distinto, ao qual toda a biota aquática está intimamente ligada.</p> \n<p>Apesar das ameaças, não há indícios de que elas coloquem a espécie em risco de extinção no futuro próximo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.2 - Pecuária em pequenas propriedades",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.4 - Aquacultura marinha e de água doce|2.4.3 - Aquacultura em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.10 - Represas (grandes)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.11 - Represas (tamanho desconhecido)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.9 - Represas (pequenas)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água|9.1.1 - Esgoto",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial|9.2.1 - Derramamento de óleo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.1 - Acúmulo de nutrientes",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.2 - Erosão do solo/sedimentação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.3 - Extração de minérios - subsolo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.4 - Extração de minérios - garimpo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos|9.4.1 - Urbanos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.4 - Pequenas Centrais Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.1 - Captura intencional - subsistência/pequena escala|5.4.1.1 - Coleta manual",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Há consumo ocasional da espécie em algumas regiões da Amazônia. O consumo foi observado no estado do Acre e na região sudoeste do estado do Amazonas. De dezembro de 2019 a novembro de 2020, foram registrados relatos de 34 animais capturados, com usos que vão desde alimento até crenças medicinais, supersticiosas e costumes ritualísticos (V. Vasconcelos, com. pess., 2023). No entanto, não há certeza sobre a identificação taxonômica precisa, pois os membros das comunidades locais referem-se ao animal como \"Tartaruga-do-igapó\", um termo que não é taxonomicamente específico.</p> \n<p>A carapaça é usada para fazer chás para dores nas costas; a gordura é usada no tratamento de hérnias; a bile é usada no tratamento da malária; e resíduos da carapaça são usados para repelir animais venenosos (V. Vasconcelos, com. pess. 2023). Especialmente na região do estado do Acre, moradores locais relataram que a caça e o consumo são altos (mais de 10 animais por mês durante a estação chuvosa), provavelmente quando os animais estão mais ativos e em movimento/migração. Com base em fotos e informações reunidas, parece ser uma espécie do gênero <em>Mesoclemmys</em>, mas não há certeza quanto ao epíteto específico, se é <em>raniceps</em> ou <em>wermuthi</em>, já que ambas são simpátricas nessa região.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Genética",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bour, R. &amp; Pauler, I. (1987) Identité de <i>Phrynops vanderhaegei</i> Bour 1973 et des espèces affines. <i>Mésogée</i>. 47, 3-23.",
+          "Bour, R. (1973) Contribution a la connaissance de <i>Phrynops nasutus</i> (Schweigger: 1812) et <i>Phrynops tuberculatus</i> (Luederwaldt: 1926). Description d`une nouvelle sous-espèce originaire du Paraguay, <i>Phrynops tuberculatus vanderhaegei</i> (Testudinata - Pleurodira - Chelidae Bull.). <i>Soc. Zool. France</i>. 98, 175-190.",
+          "Cunha, F. A. G., Fernandes, T., Franco, J. &amp; Vogt, R. C. (2019) Reproductive biology and hatchling morphology of the Amazon Toad-headed Turtle (<i>Mesoclemmys raniceps</i>) (Testudines: Chelidae), with notes on species morphology and taxonomy of the <i>Mesoclemmys</i> group. <i>Chelonian Conservation and Biology</i>. 18 (2), 195-209.",
+          "Cunha, F. A. G., Sampaio, I., Carneiro, J., Vogt, R. C., Mittermeier, R. A., Rhodin, A. G. J. &amp; Andrade, M. C. (2022) A new South American freshwater turtle of the genus <i>Mesoclemmys</i> from the Brazilian Amazon (Testudines: Pleurodira: Chelidae). <i>Chelonian Conservation and Biology</i>. 21 (2), 158-180.",
+          "Gray, J. E. (1873) Observations on Chelonians, with description of new genera and species. <i>Annals and Magazine of Natural History</i>. 11, 289-308.",
+          "Iverson, J. B. (2022) A review of Chelonian type specimens (order Testudines). <i>Megataxa</i>. 7 (1), 1-85.",
+          "McCord, W.P., Joseph-Ouni, M. &amp; Lamar, W. (2001) A taxonomic reevaluation of <i>Phrynops</i> (Testudines: Chelidae) with the description of two new genera and a new species of <i>Batrachemys</i>. <i>Revista de Biologia Tropical</i>. 49 (2), 715-764.",
+          "Mertens, R. (1970) Zur Kenntnis von <i>Phrynops nasutus</i>. <i>Senckenbergiana Biologica</i>. 51, 17-20.",
+          "Molina, F. B., Machado, F.A. &amp; Zaher, H. (2012) Taxonomic validity of <i>Mesoclemmys heliostemma</i> (McCord, Joseph-Ouni & Lamar, 2001) (Testudines, Chelidae) inferred from morphological analysis. <i>Zootaxa</i>. 3575, 63–77.",
+          "Moravec, J. (2017) First data on reproduction and hatchling morphology of <i>Mesoclemmys heliostemma</i> (McCord, Joseph-Ouni & Lamar, 2001). <i>Herpetozoa</i>. 29 (3/4), 205-208.",
+          "Páez, V. P., Bock, B. C., Alzate-Estrada, D. A., Barrientos-Muñoz, K. G., Cartagena-Otálvaro, V. M., Echeverry-Alcendra, A., Gómez-Rincón, M. T., Ramírez-Gallego, C., del Río, J. S. &amp; Vallejo-Betancur, M. M. (2022) Turtles of Colombia: an annotated analysis of their diversity, distribution, and conservation status. <i>Amphibian & Reptile Conservation</i>. 16 (1), 106-135.",
+          "Rhodin, A. G. J., Iverson, J. B., Bour, R., Fritz, U., Georges, A., Shaffer, H. B. &amp; van Dijk, P. P. (2021) Turtles of the world - Annoted Checklist and Atlas of Taxonomy, Synonymy, Distribution, and Conservation Status (9th Ed.). <i>Chelonian Research Monographs</i>. 8 (9), 1-486."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

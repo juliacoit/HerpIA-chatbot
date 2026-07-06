@@ -1,0 +1,401 @@
+{
+  "id_ficha": "4e332f742f5174526a7a41666f4449687a69384865413d3d",
+  "nome_cientifico": "Rhinella rubescens (Lutz, 1925)",
+  "nome_cientifico_atual": "Rhinella rubescens (Lutz, 1925)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21506.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4e332f742f5174526a7a41666f4449687a69384865413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella rubescens</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Rhinella rubescens </em>é endêmica do Brasil e possui ampla distribuição no Cerrado, com registros nos estado de Goiás, Mato Grosso, Mato Grosso do Sul, Bahia, Minas Gerais e São Paulo e no Distrito Federal. A espécie habita ambientes abertos e é comum ao longo de sua distribuição. Não há ameaças evidentes que possam colocá-la em risco de extinção. Além disso, ocorre em várias unidades de conservação. Por essas razões, <em>Rhinella rubescens </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Rhinella rubescens</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21506.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21506.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16550,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella rubescens</i>"
+        }
+      ],
+      "oldNames": "Bufo rubescens, Bufo rufescens, Bufo rufus, Chaunus rubescens",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Rhinella rubescens</em> é endêmica do Brasil, com registros de ocorrência no Cerrado e áreas de transição com a Caatinga, nos estados da Bahia, Goiás, Minas Gerais, Mato Grosso do Sul, Mato Grosso e São Paulo, e no Distrito Federal (Cei, 1980; Kwet <em>et al</em>., 2006; Araújo <em>et al</em>., 2007; Brandão <em>et al</em>., 2007; Leite <em>et al</em>., 2008; Vallinoto<em> et al</em>., 2010; Aoki <em>et al</em>., 2011; Valencia-Zuleta <em>et al</em>., 2017). Sua extensão de ocorrência é de 856.505 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Paranaíba, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/74394f505a4b326664653770316575546f2b314570796e345336504e6570736c5375306365307853436f677644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "089bf6e50ed9ec02472174ceb2646cf4.png",
+        "fileName": "Mapa de Rhinella rubescens.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Rhinella rubescens </em>é encontrada associadas a riachos e lagoas permanentes de ambientes abertos; parece adaptar-se a ambientes antropogênicos, incluindo áreas urbanas (Bastos <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição, porém pouco abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda de vegetação nativa na área de distribuição da espécie, não há evidências de que essas ameaças possam colocá-la em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre a utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2010",
+              "title": "Bastos, B., Pavan, D., Eterovick, P.C. &amp; Silvano, D. (2010) <i>Rhinella rubescens</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T54750A11199260.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T54750A11199260.en</a>. [Acessado em: 29/jul/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2008",
+              "title": "Estado de São Paulo (2008) Lista de fauna ameaçada do estado de São Paulo. <a target=\"_blank\" href=\"https://www.ambiente.sp.gov.br/listas_fauna.zip\">https://www.ambiente.sp.gov.br/listas_fauna.zip</a>. [Acessado em: 25/jul/2012]."
+            },
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Barros, 2011",
+              "title": "Herpetofauna do Parque Nacional da Serra da Canastra, Minas Gerais, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brandão <i>et al.</i>, 2007",
+              "title": "A new species of <i>Chaunus</i> from central Brazil (Anura; Bufonidae)"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ÁGUAS EMENDADAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vasconcellos, 2007",
+              "title": "Dinamica populacional de dois bufonideos (Amphibia: Anura) em uma lagoa no Cerrado do Brasil central"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DE ITATIAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "São-Pedro & Feio, 2011",
+              "title": "Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "São-Pedro & Feio, 2011",
+              "title": "Anuran species composition from Serra do Ouro Branco, southernmost Espinhaço Mountain Range, state of Minas Gerais, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Valencia-Zuleta <i>et al.</i>, 2017",
+              "title": "Occurrence of <i>Rhinella rubescens</i> (Lutz, 1925) (Anura: Bufonidae): Update and comments on distribution"
+            },
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Eterovick & Barata, 2006",
+              "title": "Distribution of tadpoles within and among Brazilian streams: the influence of predators, habitat size and heterogeneity"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Boca da Mata",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Aoki, C.; Landgref-Filho, P.; Oda, F.H. &amp; Gamarra, R.M. 2011. <i>Rhinella rubescens</i>. <b>Herpetological Review</b>, 42 (1): p.108.",
+          "Araújo, C.O.; Condez, T.H. &amp; Haddad, C.F.B. 2007. Amphibia, Anura, <i>Barycholos ternetzi</i>, <i>Chaunus rubescens</i>, and <i>Scinax canastrensis</i>: Distribution extension, new state record. <b>Check List</b>, 3 (2): p.153-155.",
+          "Bastos, B.; Pavan, D.; Eterovick, P.C. &amp; Silvano, D. 2010. <i>Rhinella rubescens</i>. <b>The IUCN Red List of Threatened Species 2010: e.T54750A11199260</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T54750A11199260.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T54750A11199260.en</a>. Acessado em: 29/07/2012.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Brandão, R.; Maciel, M. &amp; Sebben, A. 2007. A new species of <i>Chaunus</i> from central Brazil (Anura; Bufonidae). <b>Journal of Herpetology</b>, 41 (2): p.309-316.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cei, J.M. 1980. Amphibians of Argentina. <b>Monitore Zoologico Italiano. Nuova Serie, Monographia</b>, 2: p.ixii + 609.",
+          "Estado de São Paulo 2008. Lista de fauna ameaçada do estado de São Paulo.. Disponível em: <a target=\"_blank\" href=\"https://www.ambiente.sp.gov.br/listas_fauna.zip\">https://www.ambiente.sp.gov.br/listas_fauna.zip</a>. Acessado em: 25/07/2012.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kwet, A.; Di-Bernardo, M. &amp; Maneyro, R. 2006. First record of <i>Chaunus achavali</i> (Anura, Bufonidae) from Rio Grande do Sul, Brazil, with a key for the identification of the species in the <i>Chaunus marinus</i> group. <b>Iheringia. Série Zoologia</b>, 96 (4): p.479-485.",
+          "Leite, F.S.F.; Juncá, F.A. &amp; Eterovick, P.C. 2008. Status do conhecimento, endemismo e conservação de anfíbios anuros da Cadeia do Espinhaço, Brasil. <b>Megadiversidade</b>, 4 (12): p.159-176.",
+          "Valencia-Zuleta, A.; Valdujo, P.H. &amp; Maciel, N.M. 2017. Occurrence of <i>Rhinella rubescens</i> (Lutz, 1925) (Anura: Bufonidae): Update and comments on distribution. <b>Herpetology Notes</b>, 10: p.79-87.",
+          "Vallinoto, M.; Sequeira, F.; Sodré, D.; Bernardi, J.A.R.; Sampaio, I. &amp; Schneider, H. 2010. Phylogeny and biogeography of the <I>Rhinella marina</i> species complex (Amphibia, Bufonidae) revisited: implications for Neotropical diversification hypotheses. <b>Zoologica Scripta</b>, 39 (2): p.128-140."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

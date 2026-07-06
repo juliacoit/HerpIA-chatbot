@@ -1,0 +1,836 @@
+{
+  "id_ficha": "765464536c35747531493564446b346a6939687451413d3d",
+  "nome_cientifico": "Norops fuscoauratus (D’Orbigny, 1837 in Duméril e Bibron, 1837)",
+  "nome_cientifico_atual": "Norops fuscoauratus (D’Orbigny, 1837 in Duméril e Bibron, 1837)",
+  "nome_comum": "papa-vento",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35704.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=765464536c35747531493564446b346a6939687451413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Norops fuscoauratus</i>&nbsp;<span>(D’Orbigny, 1837 in Duméril e Bibron, 1837)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "20/03/2026",
+      "justificative": "<p><em>Norops fuscoauratus</em> possui ampla distribuição, ocorrendo desde o Panamá até a Bolívia. No Brasil, a distribuição da espécie é disjunta, ocorrendo em quase toda a Amazônia e na Mata Atlântica do Rio Grande do Norte ao Rio de Janeiro, havendo também registros em brejos de altitude no Ceará. A espécie pode ser encontrada em diferentes ambientes, incluindo florestas primárias, secundárias, áreas abertas e até plantações. Não são conhecidas ameaças que possam colocá-la em risco de extinção em curto prazo. Portanto, <em>N. fuscoauratus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Norops fuscoauratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35704.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35704.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24364,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dactyloidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Norops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Norops fuscoauratus</i>"
+        }
+      ],
+      "oldNames": "Anolis fuscoauratus",
+      "commonNames": "papa-vento",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Norops fuscoauratus</em> possui ampla distribuição, ocorrendo desde o Panamá até a Bolívia (Dirksen &amp; Riva, 1999; MacCulloch <em>et al</em>., 2007; Cole <em>et al</em>., 2013; Ribeiro-Júnior, 2015). </p>",
+      "nationalDistribution": "<p>No Brasil, a distribuição da espécie é disjunta, ocorrendo em grande parte da Amazônia e na Mata Atlântica do Nordeste e Sudeste, além de possuir registros em brejos de altitude no Ceará (Avila-Pires, 1995; Rodrigues et al., 2002; Delfim, 2012; Ribeiro-Júnior, 2015).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Paraíba, Pernambuco, Rio de Janeiro, Rio Grande do Norte, Rondônia, Roraima, Sergipe",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/72474e683053527a506856585a78416445795a6e66666d44534e382b7a336231797a35444e4c3732512f666e4c6b6578357476663470504c6447375035785151",
+        "legend": "Norops fuscoauratus.",
+        "diskFileName": "a67de2419073f05cfb760eb455919a14.png",
+        "fileName": "Mapa de Norops fuscoauratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Espécie diurna e arborícola. Ocupa ampla gama de ambientes, desde florestas primárias e secundárias até áreas abertas e de plantação (Freire, 1996; Whithworth &amp; Beirne, 2011). Encontrada em troncos de árvores, galhos, ramos (Vitt <em>et al</em>., 2003), serapilheira, bromélias e no dossel (M. Tinôco, com. pess. 2013), geralmente em ambientes sombreados (Freire, 1996; Whithworth &amp; Beirne, 2011). Alimenta-se de invertebrados, como Orthoptera, aranhas e larvas de insetos, e até de pequenos vertebrados (Vitt <em>et al</em>., 2003; Whithworth &amp; Beirne, 2011). Reproduz ao longo do ano (Avila-Pires, 1995).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção. Entretanto, as subpopulações da Mata Atlântica estão sob intenso processo de fragmentação de habitat e as subpopulações dos brejos de altitude possuem alto grau de isolamento. As subpopulações da Amazônia estão sob a ameaça das mudanças climáticas (Diele-Viegas <em>et al</em>., 2019).</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2020",
+              "title": "Herpetofauna from the Estação Ecológica Rio Acre, Amazon Rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ribeiro-Júnior & Amaral, 2016",
+              "title": "Diversity, distribution, and conservation of lizards (Reptilia: Squamata) in the Brazilian Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jamari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jatuarana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Mapinguari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Nascentes do Lago Jari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Peixoto <i>et al.</i>, 2019",
+              "title": "The lizards along the road BR-319 in the Purus-Madeira interfluve, Brazilian Amazonia (Squamata, Lacertilia)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Moraes <i>et al.</i>, 2017",
+              "title": "Integrative overview of the herpetofauna from Serra da Mocidade, a granitic mountain range in northern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro <i>et al.</i>, 2019",
+              "title": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Auati-Paraná",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Chico Mendes",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "França <i>et al.</i>, 2017",
+              "title": "Diversidade local e influência da sazonalidade sobre taxocenoses de anfíbios e répteis na Reserva Extrativista Chico Mendes, Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Norops fuscoauratus"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO AMAPÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Norops fuscoauratus"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE DOIS IRMÃOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MATUPIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Peixoto <i>et al.</i>, 2019",
+              "title": "The lizards along the road BR-319 in the Purus-Madeira interfluve, Brazilian Amazonia (Squamata, Lacertilia)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA TRAÇADAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Microhabitat variation explains local‐scale distribution of terrestrial Amazonian lizards in Rondônia, Western Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Debien <i>et al.</i>, 2019",
+              "title": "Diversity of reptiles in flooded and unflooded forests of the Amanã Sustainable Development Reserve, central Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Waldez <i>et al.</i>, 2013",
+              "title": "Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CATUÁ-IPIXUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "E.X. Freire, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO ITAPIRACó",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "A. L. Silveira, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO JAPIIM PENTECOSTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO CORREDOR ECOLÓGICO LAGOA ENCANTADA / SERRA DO CONDURU",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 1985",
+              "title": "Os répteis da área de Carajás, Pará, Brasil (Testudines, Squamata) I"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fonte da Bica",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Herpetologia do Estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "Koatinemo",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "Parakanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Norops fuscoauratus"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Delfim, F.R. (2012) <i>Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga</i>. Tese de Doutorado. Centro de Ciências Exatas e da Natureza, Universidade Federal da Paraíba, Pós-graduação em Ciências Biológicas, Zoologia.",
+          "Diele-Viegas, L.M. Werneck, F.P. Rocha, C.F.D. (2019) Climate change effects on population dynamics of three species of Amazonian lizards. <i>Comparative Biochemistry and Physiology</i>. Part A. 236, 110530.",
+          "Dirksen, L. &amp; De la Riva, I (1999) The lizards and amphisbaenians of Bolivia (Reptilia, Squamata): checklist, localities, and bibliography. <i>Graellsia</i>. 55, 199-215.",
+          "Freire, E.M.X. (1996) Estudo ecológico e zoogeográfico sobre a fauna de lagartos (Sauria) das dunas de Natal, Rio Grande do Norte, e da restinga de Ponta de Campina, Cabedelo, Paraíba, Brasil. <i>Revista Brasileira de Zoologia</i>. 13 (4), 903-921.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "MacCulloch, R.D., Lathrop, A., Reynolds, R.P., Señaris, J.C. &amp; Schneider, G.E. (2007) Herpetofauna of Mount Roraima, Guiana Shield Region, Northeastern South America. <i>Herpetological Review</i>. 38 (1), 24-30.",
+          "Nicholson, K.E., Crother, B.I., Guyer, C. &amp; Savage, J.M. (2012) It is time for a new classification of anoles (Squamata: Dactyloidae). <i>Zootaxa</i>. 3477, 1–108.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Rodrigues, M.T, Xavier, V., Skuk, G. &amp; Pavan, D. (2002) New specimens of <i>Anolis phyllorhinus</i> (Squamata, Polychrotidae): the first female of the species and of proboscid anoles. <i>Papéis Avulsos de Zoologia (São Paulo)</i>. 42, 363-380.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Vitt, L.J., Avila-Pires, T.C.S., Zani, P.A., Sartorius, S.S., Esposito, M.C. &amp; M C (2003) Life above ground: ecology of <i>Anolis fuscoauratus</i> in the Amazon rain forest, and comparisons with its nearest relatives. <i>Canadian Journal of Zoology-Revue Canadienne De Zoologie</i>. 81 (1), 142-156.",
+          "Whitworth, A. &amp; Beirne, C. (2011) <i>Reptiles of the Yachana Reserve</i> Global Vision International, Exeter,"
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

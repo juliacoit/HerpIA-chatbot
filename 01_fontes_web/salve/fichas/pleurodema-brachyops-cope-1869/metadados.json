@@ -1,0 +1,285 @@
+{
+  "id_ficha": "42316572746272486237647766696c757046575946673d3d",
+  "nome_cientifico": "Pleurodema brachyops (Cope, 1869)",
+  "nome_cientifico_atual": "Pleurodema brachyops (Cope, 1869)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21427.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=42316572746272486237647766696c757046575946673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pleurodema brachyops</i>&nbsp;<span>(Cope, 1869)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "17/02/2025",
+      "justificative": "<p><em>Pleurodema brachyops </em>ocorre na região amazônica da América Central e do Sul. No Brasil, há poucos registros em áreas de campos abertos e savanas no estado de Roraima. A espécie usa pequenas poças d’água, temporárias ou permanentes, mas também pode ser encontrada muito longe da água. É comum e tolera ambientes antropizados, não havendo ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Pleurodema brachyops </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Pleurodema brachyops</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21427.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21427.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16476,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pleurodema</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pleurodema brachyops</i>"
+        }
+      ],
+      "oldNames": "Lystris brachyops, Paludicola brachyops, Paludicola sachsi, Physodes albiventris, Pleurodema elegans, Pleurodema sachsi",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pleurodema brachyops</em> ocorre em Aruba, Brasil, Colômbia, Guiana, Panamá, Venezuela e em algumas ilhas das Antilhas Holandesas (Martins, 1989; Rodriguez, 2004; Lynch, 2006; Torres &amp; Gómez, 2010; Cole <em>et al</em>., 2013).</p>",
+      "nationalDistribution": "<p>No Brasil, há registros no estado de Roraima, nos municípios de Boa Vista a Amajari (Martins, 1989; M. Martins, com. pess., 2012).</p>",
+      "states": "Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/56665062422b3530587271644f786b7432672b2f4b4c65586d79566b3165795255585578557a626a706c336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "273fcd9529d08c542a10ae17c3dbfbe9.png",
+        "fileName": "Mapa de Pleurodema brachyops.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pleurodema brachyops</em> vive em campos abertos e savanas na região Amazônica, muitas vezes em áreas relativamente secas. A espécie usa pequenas poças de água, temporárias ou permanentes, para fins de reprodução, mas também pode ser encontrada muito longe da água. No início das primeiras chuvas, emergem de solos arenosos onde se escondem durante a estação seca. É uma espécie muito adaptável às mudanças antrópicas no ambiente (La Marca<em> et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie pode ser encontrada em ambientes alterados e não há ameaças evidentes que a coloquem em risco.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "La Marca <i>et al.</i>, 2010",
+              "title": "La Marca, E., Solís, F., Ibáñez, R., Jaramillo, C., Fuenmayor, Q., Reynolds, R., Rodrigues, M.T., Mijares, A. &amp; MacCulloch, R. (2010) <i>Pleurodema brachyops</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57283A11599287.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57283A11599287.en</a>. [Acessado em: 06/fev/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Maracá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários levantamentos no entorno da área de ocorrência para melhor compreender sua distribuição geográfica, além de estudos sobre sua história natural e dinâmica populacional.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "La Marca, E., Solís, F., Ibáñez, R., Jaramillo, C., Fuenmayor, Q., Reynolds, R., Rodrigues, M.T., Mijares, A. &amp; MacCulloch, R. (2010) <i>Pleurodema brachyops</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57283A11599287.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57283A11599287.en</a>. [Acessado em: 06/fev/2012].",
+          "Lynch, J.D. (2006) The tadpoles of frogs and toads found in the lowlands of northern Colombia. <i>Revista de la Academia Colombiana de Ciencias</i>. 30 (116), 443-457.",
+          "Martins, M. (1989) Deimatic Behavior in <I>Pleurodema brachyops</i>. <i>Journal of Herpetology</i>. 23 (3), 305-307.",
+          "Rodriguez, C.R.M. (2004) Reproducción de <i>Pleurodema brachyops</i> (Anura: Lectodactylidae) en los llanos del Estado Apure, Venezuela. <i>Memoria de la Fundación La Salle Ciencias Naturales</i>. 158, 117-125.",
+          "Torres, A.B. &amp; Gómez, M.A.B. (2010) Partición de microhábitats entre especies de Bufonidae y Leiuperidae (Amphibia: Anura) en áreas con bosque seco tropical de la región Caribe-Colombia. <i>Acta Biológica Colombiana</i>. 15 (3), 47-60."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

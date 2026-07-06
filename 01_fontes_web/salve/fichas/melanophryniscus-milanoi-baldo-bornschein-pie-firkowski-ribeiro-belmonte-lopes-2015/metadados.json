@@ -1,0 +1,325 @@
+{
+  "id_ficha": "354144487034684a4d6d305030697a544767704178773d3d",
+  "nome_cientifico": "Melanophryniscus milanoi Baldo, Bornschein, Pie, Firkowski, Ribeiro & Belmonte-Lopes, 2015",
+  "nome_cientifico_atual": "Melanophryniscus milanoi Baldo, Bornschein, Pie, Firkowski, Ribeiro & Belmonte-Lopes, 2015",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16554.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=354144487034684a4d6d305030697a544767704178773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Melanophryniscus milanoi</i>&nbsp;<span>Baldo, Bornschein, Pie, Firkowski, Ribeiro & Belmonte-Lopes, 2015</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Melanophryniscus milanoi</em> é endêmica do Brasil, com distribuição conhecida para a Serra do Mar no estado de Santa Catarina. Sua extensão de ocorrência foi calculada em 1.937 km2. A espécie habita Floresta Ombrófila Densa Montana primária e secundária em avançado estado de regeneração, entre 655 e 850 metros de altitude. Existem dúvidas quanto à identidade taxonômica dos registros atribuídos à espécie fora da localidade-tipo. Algumas das subpopulações sofrem ameaças como redução da floresta devido aos incêndios, construções de edificações e plantações de <em>Pinus</em> e <em>Eucalypto</em>. Considerando as incertezas taxonômicas e a respeito de sua distribuição e ameaças, <em>Melanophryniscus milanoi</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Melanophryniscus milanoi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16554.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16554.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 14452,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Melanophryniscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Melanophryniscus milanoi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Existem dúvidas quanto à identidade taxonômica dos registros atribuídos à espécie fora da localidade-tipo (Pie <em>et al</em>., 2018). O registro mais a sul (Candioti <em>et al</em>., 2016) também é incerto, pois foi identificado a partir de desova.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Melanophryniscus milanoi</em> é endêmica do Brasil, com distribuição conhecida para a Serra do Mar, no estado de Santa Catarina (Bornschein <em>et al.,</em> 2015; Rossa-Feres <em>et al</em>., 2017). Sua localidade-tipo é o Morro do Baú, no município de Ilhota. Há ainda registros para o Morro Boa Vista, entre os municípios de Jaraguá do Sul e Massaranduba, para o Morro Azul, localizado entre os municípios de Pomerode e Rio dos Cedros, e também para o Morro do Cachorro, entre os municípios de Blumenau, Gaspar e Luiz Alves (Baldo <em>et al</em>., 2015). A maioria dessas localidades está situada entre a margem direita do rio Itapocu e a margem esquerda do rio Itajaí-Açu (Bornschein <em>et al.,</em> 2015; Pie <em>et al.,</em> 2017). O registro mais a sul é no Parque Estadual da Serra do Tabuleiro, no município de Palhoça (Candioti <em>et al</em>., 2016). Sua extensão de ocorrência foi calculada em 1.937 km2, por meio do mínimo polígono convexo formado pelos registros conhecidos.</p>",
+      "nationalDistribution": "",
+      "states": "Santa Catarina",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP PR SC",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/535577574a376a31685a447a384776624c31497331505765586c52332b53686f6a7363547051415956347a6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Melanophryniscus milanoi",
+        "diskFileName": "87af82eaec5d05d604ea9422dcb73f7d.png",
+        "fileName": "Mapa de Melanophryniscus milanoi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Melanophryniscus milanoi</em> ocorre em áreas montanhosas (ente 655 e 850 metros) no bioma Mata Atlântica, em ambientes de Floresta Ombrófila Densa Montana primária e secundária em avançado estado de regeneração. A espécie reproduz em bromélias. Girinos, adultos vocalizando, casal em amplexo e ovos foram encontrados em bromélias terrestres (<em>Vriesea platynema</em>, <em>V. incurvata</em>, <em>V. altodaserra</em>, <em>Nidularium amazonicum</em>, <em>N. procerum</em>) em trocos caídos ou em árvores com mais de um metro de altura; raramente foi observada em bromélias epifíticas (Bornschein <em>et al</em>., 2015). Nenhuma dessas bromélias é considerada ameaçada de extinção (Martinelli &amp; Moraes, 2013).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [
+          {
+            "type": "Outros",
+            "taxon": "Vriesea platynema",
+            "category": "Menos Preocupante (LC)",
+            "refBibs": []
+          },
+          {
+            "type": "Outros",
+            "taxon": "Vriesea incurvata",
+            "category": "Menos Preocupante (LC)",
+            "refBibs": []
+          },
+          {
+            "type": "Outros",
+            "taxon": "Nidularium amazonicum",
+            "category": "Menos Preocupante (LC)",
+            "refBibs": []
+          },
+          {
+            "type": "Outros",
+            "taxon": "Nidularium procerum",
+            "category": "Não Avaliada (NE)",
+            "refBibs": []
+          },
+          {
+            "type": "Outros",
+            "taxon": "Vriesea altodaserrae",
+            "category": "Não Avaliada (NE)",
+            "refBibs": []
+          }
+        ],
+        "observations": "<p>Espécie classificada como bromelígena, visto que a complementação de seu ciclo de vida esta, de alguma forma na dependência de bromeliáceas (sensu Peixoto 1995). Neste sentido Sabagh <em>et al.</em>(2017), durante estudo revisivo, indicou que <em>Melanophryniscus milanoi</em> possui registros associada às espécies de Bromeliaceae: <em>Vriesea platynema, V. incurvata, V. altodaserra, Nidularium amazonicum, N. procerum </em>(Bornschein <em>et al.</em> 2015). Nenhuma dessas bromélias estão no Livro Vermelho da Flora Brasileira (Martinelli &amp; Moraes 2013).</p>"
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A abundância e tendência populacional são desconhecidas. Firkowski <em>et al</em>. (2016), por meio de estudos moleculares de espécies endêmicas de áreas montanhosas na região Sul, sugerem que a subpopulação do Morro da Boa Vista (SC) é uma linhagem evolutiva independente das dos Morros Azul (SC) e do Cachorro (SC).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Algumas localidades em que a espécie foi registrada sofrem desmatamento e redução da floresta devido a incêndios (Bornschein <em>et al.,</em> 2015). A localidade Morro do Cachorro é afetada por edificações e plantações de <em>Pinus</em> e <em>Eucalypto</em> (L.F. Ribeiro, com. pess., 2018).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.3 - Plantações em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não há indícios de utilização desta espécie para quaisquer finalidades.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Candioti <i>et al.</i>, 2016",
+              "title": "Structural and heterochronic variations during the early ontogeny in oads (Anura: Bufonidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL FREYMUND GERMER",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bornschein <i>et al.</i>, 2015",
+              "title": "Three new species of phytotelm-breeding <i>Melanophryniscus</i> from the atlantic rainforest of southern Brazil (Anura: Bufonidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É importante confirmar a identidade das subpopulação fora da localidade-tipo. Estudos a respeito da distribuição geográfica, história natural e aspectos populacionais também são importantes para compreender melhor o estado de conservação da espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bornschein, M.R.; Firkowski, C.R.; Baldo, D.; Ribeiro, L.F.; Belmonte-Lopes, R.; Corrêa, L.; Morato, S.A.A &amp; Pie, M.R. 2015. Three new species of phytotelm-breeding <i>Melanophryniscus</i> from the atlantic rainforest of southern Brazil (Anura: Bufonidae). <b>PLoS ONE</b>, 10 (12): p.e0142791: 1–35.",
+          "Candioti, F.V.; Grosso, J.; Haad, B.; Pereyra, M.O.; Bornschein, M.R.; Borteiro, C.; Costa, P.; Kolenc, F.; Pie, M.R.; Proaño, B.; Ron, S.; Stanescu, F. &amp; Baldo, D. 2016. Structural and heterochronic variations during the early ontogeny in oads (Anura: Bufonidae). <b>Herpetological Monographs</b>, 30 (1): p.79-118.",
+          "Firkowski, C.R.; Bornschein, M.R.; Ribeiro, L.F. &amp; Pie, M.R. 2016. Species delimitation, phylogeny and evolutionary demography of co-distributed, montane frogs in the southern Brazilian Atlantic Forest. <b>Molecular Phylogenetics and Evolution</b>, 100: p.345-360.",
+          "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012.",
+          "Martinelli, G. &amp; Moraes, M.A. 2013. <b>Livro Vermelho da Flora do Brasil</b>. p.1100. Instituto de Pesquisas Jardim Botânico do Rio de Janeiro Rio de Janeiro.",
+          "Pie, M.R.; Bornschein, M.R.; Ribeiro, L.F.; Faircloth, B.C. &amp; McCormack, J.E. 2017. Phylogenomic species delimitation in microendemic frogs of the Brazilian Atlantic Forest. <b>BioRxiv</b>,",
+          "Rossa-Feres, D.C.; Garey, M.V.; Caramaschi, U.; Napoli, M.F.; Nomura, F.; Bispo, A.A.; Brasileiro, C.A.; Thomé, M.T.C.; Sawaya, R.J.; Conte, C.E.; Cruz, C.A.G; Nascimento, L.B.; Gasparini, J.L.; Almeida, A.P. &amp; Haddad, C.F.B. 2017. Anfíbios da Mata Atlântica: Lista de espécies, histórico dos estudos, biologia e conservação. p.237-315. <i>In</i>: Monteiro-Filho & Conte. <b>Revisões em Zoologia: Mata Atlântica</b>. UFPR Curitiba."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "id_ficha": "5a416e5042384c584f5135497a664f764742764557773d3d",
+  "nome_cientifico": "Dendropsophus marmoratus (Laurenti, 1768)",
+  "nome_cientifico_atual": "Dendropsophus marmoratus (Laurenti, 1768)",
+  "nome_comum": "Marbled Toad, Marbled Treefrog",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21205.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5a416e5042384c584f5135497a664f764742764557773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus marmoratus</i>&nbsp;<span>(Laurenti, 1768)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus marmoratus</em> ocorre no Brasil, Bolívia, Colômbia, Equador, Peru, Venezuela, Guiana, Guiana Francesa e Suriname. No Brasil, possui ampla distribuição na Amazônia, com registros nos estados do Acre, Amazonas, Pará, Rondônia e Mato Grosso. A espécie é comum, encontrada em floresta ombrófila e áreas abertas adjacentes. Ocorre em áreas bem preservadas, incluindo unidades de conservação, e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Dendropsophus marmoratus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Dendropsophus marmoratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21205.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21205.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16379,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus marmoratus</i>"
+        }
+      ],
+      "oldNames": "Bufo marmoratus, Hyla marmorata, Lophopus marmoratus, Quinzhyla marmorata",
+      "commonNames": "Marbled Toad, Marbled Treefrog",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Dendropsophus marmoratus</em> possui ampla distribuição na América do Sul, onde pode ser encontrada no Brasil, Bolívia, Colômbia, Equador, Peru, Venezuela, Guiana, Guiana Francesa e Suriname (Lutz, 1973; Azevedo-Ramos <em>et al., </em>2004).</p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros nos estados do Acre, Amazonas, Pará, Rondônia e Mato Grosso (Lutz, 1973; Vanzolini, 1986; Gascon &amp; Pereira, 1993; Heyer, 1977; Vitt &amp; Caldwell, 1993; Galatti, 1999; Vogt <em>et al.,</em> 2007; Galatti <em>et al., </em>2008; Souza, 2009; Gomes &amp; Peixoto, 2009; Mendes-Pinto &amp; Souza, 2011).</p>",
+      "states": "Acre, Amazonas, Mato Grosso, Pará, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/687952734658474f51374654733261647a4f2f536651677939455a31624930616450535a59792b614873376f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Dendropsophus marmoratus",
+        "diskFileName": "6f3df338433aa554035316d8f14e476c.png",
+        "fileName": "Mapa de Dendropsophus marmoratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Dendropsophus marmoratus </em>é noturna, encontrada em floresta ombrófila e áreas abertas adjacentes.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Esta espécie é comum em sua área de distribuição, e a tendência populacional é aparentemente estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Yeda Bataus, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Azevedo-Ramos <i>et al.</i>, 2004",
+              "title": "Azevedo-Ramos, C., La Marca, E., Coloma, L. A. &amp; Ron, S. (2004) <i>Dendropsophus marmoratus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55548A11330574\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55548A11330574</a>. [Acessado em: 09/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Altamira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Galatti <i>et al.</i>, 2008",
+              "title": "Planejamento estratégico do mosaico Terra do Meio avaliação ecológica rápida relatório da primeira expedição – componente herpetofauna"
+            },
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Jamanxim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Trairão",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jamanxim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Galatti <i>et al.</i>, 2008",
+              "title": "Planejamento estratégico do mosaico Terra do Meio avaliação ecológica rápida relatório da primeira expedição – componente herpetofauna"
+            },
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Uatumã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), 2017",
+              "title": "Relatório do SISBIO (Sistema de Autorização e Informação em Biodiversidade) do ICMBio"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA RIO OURO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Galatti, 1999",
+              "title": "Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto"
+            }
+          ]
+        },
+        {
+          "name": "Rio Negro Ocaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Galatti, 1999",
+              "title": "Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Azevedo-Ramos, C.; La Marca, E.; Coloma, L. A. &amp; Ron, S., 2004. <i>Dendropsophus marmoratus</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55548A11330574\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55548A11330574</a>. Acessado em: 09/11/2011.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Galatti, U. 1999. Inventário da herpetofauna da Res. Biol. rio Ouro Preto. Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto, Guajará-Mirim, Rondônia. p.11.",
+          "Galatti, U.; Lima, C.J. &amp; Silva, R.R. 2008. Planejamento estratégico do mosaico \"Terra do Meio\" Avaliação Ecológica Rápida. Relatório da primeira expedição - componente herpetofauna. Belém. Belém - PA.",
+          "Gascon, C. &amp; Pereira, O.S. 1993. Preliminary checklist of the herpetofauna of the upper Rio Urucu, Amazonas, Brazil. <b>Revista Brasileira de Zoologia</b>, 10 (1): p.179-183.",
+          "Gomes, M. R. &amp; Peixoto, O. L., 2009. Geographic distribution: <i>Dendropsophus marmoratus</i>. Herpetological Review, 40 (4): p.445.",
+          "Heyer, W.R. 1977. Taxonomic notes on frogs from the Madeira and Purus rivers, Brasil. <b>Papéis Avulsos de Zoologia</b>, 31 (8): p.141-162.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Mendes-Pinto, T.J. &amp; Souza, S.M. 2011. Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon. <b>Salamandra</b>, 47 (4): p.199-206.",
+          "Souza, M.B. 2009. <b>Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais</b>. p.77. Instituto de Filosofia e Ciências Humanas - IFCH Unicamp Campinas, SP.",
+          "Vanzolini, P. 1986. Levantamento herpetológico da área do estado de Rondônia sob a influência da rodovia BR 364. Brasilia-DF. p.50.",
+          "Vitt, L.J. &amp; Caldwell, J.P., 1993. Inventário e Ecologia da herpetofauna da Amazônia: Rio Ajanari, Roraima, Brasil.",
+          "Vogt, R.C.; Ferrara, C.R.; Bernhard, R.; Carvalho, V.T.; Balensiefer, D.C.; Bonora, L. &amp; Novelle, S.M.H. 2007. Herpetofauna. Capitulo 9. p.127-143. <i>In</i>: Py-Daniel <i>et al.</i>. <b>Biodiversidade do Médio Madeira: Bases científicas para propostas de conservação</b>. INPA Manaus - AM."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "id_ficha": "4c53357542704a38466a39766b6a2b6b637a467346513d3d",
+  "nome_cientifico": "Caecilia tentaculata Linnaeus, 1758",
+  "nome_cientifico_atual": "Caecilia tentaculata Linnaeus, 1758",
+  "nome_comum": "Cecilia de Tentaculos",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20718.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4c53357542704a38466a39766b6a2b6b637a467346513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Caecilia tentaculata</i>&nbsp;<span>Linnaeus, 1758</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Caecilia tentaculata </em>ocorre na América do Sul, com registros na Colômbia, Equador, Guiana Francesa, Peru, Suriname, Venezuela e Brasil. É uma espécie fossorial, podendo ser encontrada em florestas primarias e secundárias. No Brasil, possui ampla distribuição na Amazônia e pode ser encontrada nos estados do Acre, Amapá, Amazonas, Pará, Roraima, Rondônia, Maranhão e Mato Grosso. Não são conhecidas ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Caecilia tentaculata </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Caecilia tentaculata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20718.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20718.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15951,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Caeciliidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Caecilia</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Caecilia tentaculata</i>"
+        }
+      ],
+      "oldNames": "Amphiumophis andicola, Caecilia ibiara, Caecilia lenticulata",
+      "commonNames": "Cecilia de Tentaculos",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Caecilia tentaculata </em>apresenta ampla distribuição na América do Sul, com registros na Colômbia, Equador, Guiana, Guiana Francesa, Peru, Suriname, Venezuela e Brasil (Nussbaum &amp; Hoogmoed, 1979; Aguilar <em>et al</em>., 2010; Cisneros-Heredia &amp; Mosquera, 2010; Maciel &amp; Hoogmoed, 2011). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência para os estados do Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia e Roraima (Maciel &amp; Hoogmoed, 2011; Faria &amp; Mott, 2011; Queiroz <em>et al</em>., 2011). </p>",
+      "states": "Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4f4f65547362787a524c387144573347664835506e563435796b784c624f6e71776c736b494a7065426f684b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "9c50cc9cd8825e3a0f89361e132ceb53.png",
+        "fileName": "Mapa de Caecilia tentaculata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Caecilia tentaculata </em>é uma espécie fossorial que pode ser encontrada em florestas primarias e secundárias, porém, não se sabe se pode ocupar áreas abertas e degradadas (Coloma <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista certo grau de antropização em alguns locais na área de sua distribuição, não são conhecidas ameaças que possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há nenhuma informação conhecida quanto à utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Coloma <i>et al.</i>, 2004",
+              "title": "Coloma, L.A., Ron, S., La Marca, E., Hoogmoed, M., Castro, F., Lynch, J. &amp; Wilkinson , M. (2004) <i>Caecilia tentaculata.</i> <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59530A11958955\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59530A11958955</a>. [Acessado em: 06/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Gurupi-Piriá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            },
+            {
+              "label": "Bernarde, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Bernarde, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA DE MAICURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Mott, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Kayabi",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Faria & Mott, 2011",
+              "title": "Geographic distribution of Caecilians (Gymnophiona, Amphibia) in the state of Mato Grosso, Brazil with a new state record for <I>Caecilia mertensi</i> Taylor 1973"
+            }
+          ]
+        },
+        {
+          "name": "Zoe",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre distribuição geográfica e história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Aguilar, C.; Ramírez, C.; Rivera, D.; Siu-Ting, K.; Suarez, J. &amp; Torres, C. 2010. Anfibios andinos del Perú fuera de Áreas Naturales Protegidas: amenazas y estado de conservación. <b>Revista Peruana de Biología</b>, 17 (1): p.005- 028.",
+          "Cisneros-Heredia, D.F. &amp; Mosquera, D. 2010. First record of a canid (<i>Atelocynus microtis</i>) predating on a caecilian amphibian. <b>ACI Avances en Ciencias e Ingenierías</b>, 2 (3): p.5-6.",
+          "Coloma, L.A.; Ron, S.; La Marca, E.; Hoogmoed, M.; Castro, F.; Lynch, J. &amp; Wilkinson , M.. 2004. <i>Caecilia tentaculata.</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59530A11958955\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59530A11958955</a>. Acessado em: 06/11/2011.",
+          "Faria, H.A.B. &amp; Mott, T. 2011. Geographic distribution of Caecilians (Gymnophiona, Amphibia) in the state of Mato Grosso, Brazil with a new state record for <I>Caecilia mertensi</i> Taylor 1973. <b>Herpetology Notes</b>, 4 (1): p.53–56.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Maciel, A.O. &amp; Hoogmoed, M.S. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. <b>Zootaxa</b>, 2984: p.1–53.",
+          "Nussbaum, R.A. &amp; Hoogmoed, M.S. 1979. Surinam Caecilians, with notes on <i>Rhinatrema bivittatum</I> and the description of a new species of <I>Microcaecilia</i> (Amphibia, Gymnophiona). <b>Zoologische Mededelingen</b>, 54 (14): p.217-235.",
+          "Queiroz, S.D.S.; Ramalho, A.; Miranda, F.; Lima, J.D. &amp; Lima, J.R.F. 2011. Anfíbios de uma área de castanhal da Reserva Extrativista do Rio Cajari, Amapá. <b>Biota amazônia</b>, 1 (1): p.1-18."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

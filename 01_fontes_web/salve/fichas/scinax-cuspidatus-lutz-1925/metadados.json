@@ -1,0 +1,496 @@
+{
+  "id_ficha": "4b4b53712f674234506f664e644e7076524c6b6332513d3d",
+  "nome_cientifico": "Scinax cuspidatus (Lutz, 1925)",
+  "nome_cientifico_atual": "Scinax cuspidatus (Lutz, 1925)",
+  "nome_comum": "Coastal Lowland Snouted Treefrog",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.15635.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4b4b53712f674234506f664e644e7076524c6b6332513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax cuspidatus</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "19/03/2025",
+      "justificative": "<p><em>Scinax cuspidatus </em>é endêmica do Brasil, ocorrendo na Mata Atlântica entre os estados de Alagoas e Rio de Janeiro, incluindo Minas Gerais. A espécie possui ampla distribuição, é bastante comum e pode ser encontrada em diferentes ambientes, inclusive em áreas antropizadas. Não há ameaças que a coloquem em risco de extinção. Por essas razões, <em>Scinax cuspidatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Scinax cuspidatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.15635.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.15635.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14311,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax cuspidatus</i>"
+        }
+      ],
+      "oldNames": "Hyla cuspidata, Ololygon cuspidata, Scinax cuspidata",
+      "commonNames": "Coastal Lowland Snouted Treefrog",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax cuspidatus</em> é endêmica do Brasil, com ocorrência na Mata Atlântica entre Alagoas (Lima <em>et al</em>., 2006) e o sul do estado do Rio de Janeiro, incluindo Minas Gerais (Feio <em>et al</em>., 1998; Alves &amp; Carvalho-e-Silva, 2002; Silvano &amp; Pimenta, 2003; Rocha <em>et al</em>., 2008; Almeida <em>et al</em>., 2011; Tonini <em>et al.</em>, 2011).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/423535704d6158317a39556d6d4246323736713849764e694d4a456c684d447562306979372b73575a6d6f7644426c347748384e476b4d725073304275487441",
+        "legend": "Scinax cuspidatus.",
+        "diskFileName": "775ce929b4d94efc55c99ae92b8b2a48.png",
+        "fileName": "Mapa de Scinax cuspidatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax cuspidatus </em>é uma espécie arborícola, encontrada em uma variedade de ambientes, incluindo florestas e suas bordas, áreas abertas, restingas e mesmo ambientes antropizados. Sua reprodução se dá em lagoas permanentes ou intermitentes, onde, deposita seus ovos e os girinos se desenvolvem (Van Sluys &amp; Rocha 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição e não há indícios de declínios populacionais.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação direcionadas à espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Van Sluys & Rocha, 2004",
+              "title": "Van Sluys, M. &amp; Rocha, C.F. (2004) <i>Scinax cuspidatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55949A11400211.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55949A11400211.en</a>. [Acessado em: 30/jul/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA do Rio Preto",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Tonini, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cardoso, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Junior, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Descobrimento",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "REBIO União",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Guimarães, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Poço das Antas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silveira, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Córrego Grande",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prado, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REVIS Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 1998",
+              "title": "Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabagh, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE SANTA RITA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lima <i>et al.</i>, 2006",
+              "title": "<i>Scinax cuspidatus</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO ALTO IGUAçU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Alves & Carvalho-e-Silva, 2002",
+              "title": "Description of the tadpoles of Scinax alter and Scinax cuspidatus (Anura: Hylidae)."
+            }
+          ]
+        },
+        {
+          "name": "APA DA PEDRA BRANCA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nunes & Pombal Jr., 2010",
+              "title": "A new <i>Scinax</i> Wagler (Amphibia, Anura, Hylidae) from the Atlantic Rain Forest remains of southern State of Bahia, North-eastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL BOSQUE DA BARRA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Pontes, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL MESTRE ÁLVARO",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2010",
+              "title": "Amphibians of Vitória, an urban area in south-eastern Brazil: first approximation"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA ECOLóGICA DE GUAPIAçU",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabagh, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio do Brasil III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva-Soares, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Belmonte",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A.P., Gasparini, J.L. &amp; Peloso, P.L.V. (2011) Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’. <i>Check List</i>. 7 (4), 542-560.",
+          "Alves, A.C.R. &amp; Carvalho-e-Silva, S. P. (2002) Description of the tadpoles of Scinax alter and Scinax cuspidatus (Anura: Hylidae). <i>Journal of Herpetology</i>. 36 (1), 133-137.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Feio, R.N., Braga, U.M.L., Wiederhecker, H.C. &amp; Santos, P.S. (1998) <i>Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)</i> Viçosa, Universidade Federal de Viçosa, Instituto Estadual de Florestas, 32pp.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lima, M.G., Skuk, G.O., Cruz, C.A.G. &amp; Pimenta, B.V.S. (2006) <i>Scinax cuspidatus</i>. <i>Herpetological Review</i>. 37 (4), 490.",
+          "Rocha, C.F.D., Hatano, F.H., Vrcibradic, D. &amp; Van Sluys, M. (2008) Frog species richness, composition and β-diversity in coastal Brazilian restinga habitats. <i>Revista brasileira de biologia</i>. 68 (1), 101-107.",
+          "Silvano, D. &amp; Pimenta, B. (2003) Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia In: Prado <i>et al.</i> (eds.) <i>Corredor de Biodiversidade na Mata Atlântica do Sul da Bahia</i>. Ilhéus, IESB/CI/CABS/UFMG/UNICAMP, pp. 1-20.",
+          "Tonini, J.F.R., Mendonça, I.S., Coutinho, A.B. &amp; Gasparini, J.L. (2011) Anurans from Costa Bela, state of Espírito Santo, southeastern Brazil: inventory at an urban area and the re-discovery of <i>Allobates</i> in the state. <i>Herpetology Notes</i>. 4, 435-444.",
+          "Van Sluys, M. &amp; Rocha, C.F. (2004) <i>Scinax cuspidatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55949A11400211.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55949A11400211.en</a>. [Acessado em: 30/jul/2012]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

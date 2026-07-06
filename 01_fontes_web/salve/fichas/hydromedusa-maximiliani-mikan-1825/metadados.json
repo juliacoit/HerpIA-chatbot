@@ -1,0 +1,1108 @@
+{
+  "id_ficha": "4b364d4f32726f51792f5267413446694c4667732f773d3d",
+  "nome_cientifico": "Hydromedusa maximiliani (Mikan, 1825)",
+  "nome_cientifico_atual": "Hydromedusa maximiliani (Mikan, 1825)",
+  "nome_comum": "Brazilian snake-necked turtle, Cágado-da-serra, Cágado-pescoço-de-cobra, Maximilian´s snake-necked turtle",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "02/2025",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20813.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4b364d4f32726f51792f5267413446694c4667732f773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hydromedusa maximiliani</i>&nbsp;<span>(Mikan, 1825)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "19/02/2026",
+      "justificative": "<p><em>Hydromedusa maximiliani</em> é endêmica da Mata Atlântica. Sua distribuição abrange as bacias mais meridionais da região hidrográfica Atlântico Leste, porção setentrional da região Atlântico Sudeste, leste da região hidrográfica Paraná e alto da região São Francisco. Ocorre em áreas montanhosas dos estados da região Sudeste e no estado da Bahia. A espécie é rara em algumas localidade e extremamente exigente em relação à qualidade do habitat. Parte de sua distribuição é bastante impactada pela degradação ambiental em decorrência de expansão urbana, industrial e atividades agropecuária e minerária, e há suspeita de declínio populacional. No entanto, sua distribuição é ampla, há registros em diversas unidades de conservação e não há indícios de que os impactos a coloquem em risco de extinção no futuro próximo. Por isso, <em>H. maximiliani</em> foi categorizada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Shirley Famelli; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luis Regolin; Camila Kurzmann Fagundes; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Marcia Marrie Pinheiro Mullher; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Famelli, S.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Fagundes, C.K.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Moura, G.J.B.; Mullher, M.M.P.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2026. <i>Hydromedusa maximiliani</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20813.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20813.3",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 3,
+      "versionId": 30434,
+      "deleted": false,
+      "lastAvaliationDate": "20/02/2025",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Chelidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hydromedusa</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hydromedusa maximiliani</i>"
+        }
+      ],
+      "oldNames": "Chelodina flavilabris, Chelomedusa flavilabis, Emys maximiliani, Hydromedusa bankae, Hydromedusa depressa, Hydromedusa flavilabis, Hydromedusa subdepressa",
+      "commonNames": "Brazilian snake-necked turtle, Cágado-da-serra, Cágado-pescoço-de-cobra, Maximilian´s snake-necked turtle",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Hydromedusa maximiliani</em> é endêmica do Brasil e distribui-se pelas regiões hidrográficas Paraná, Atlântico Sudeste, São Francisco e Atlântico Leste. A espécie é endêmica da Mata Atlântica, encontrada em regiões montanhosas da costa leste e sudeste do país, incluindo os estados da Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro e São Paulo (Argôlo &amp; Freitas, 2002; Junqueira <em>et al</em>., 2007; Costa, 2009; Almeida-Gomes <em>et al.</em>, 2014; Costa <em>et al</em>., 2015; Freitas <em>et al</em>., 2019; Friol, 2019; Oliveira <em>et al</em>., 2020).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral BA ES, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/476870555037364e367a6a6b6a632b4c46596e43707731674c68532b496a716c666a2f6e4f6e54556f2b546f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Hydromedusa maximiliani",
+        "diskFileName": "1a21bf3437cb9282506f69b16bc993fa.png",
+        "fileName": "Mapa de Hydromedusa maximiliani.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Hydromedusa maximiliani</em> (cágado-da-serra) ocorre em córregos e riachos de corredeira, com fundos arenosos e rochosos e águas claras, normalmente com pequenas cachoeiras, em áreas montanhosas (Luederwaldt, 1926; Drummond, 1998; Souza, 2005). A espécie é encontrada em riachos com margens cobertas por floresta conservada e em drenagens costeiras (Argôlo &amp; Freitas, 2002; Souza &amp; Martins, 2009). As florestas que habita geralmente apresentam sub-bosque denso e dossel criando um hábitat propício a estratégia de termorregulação típica da espécie. <em>Hydromedusa maximiliani</em> permanece em poças rasas, nas quais consegue igualar sua temperatura corpórea ao do ambiente (Souza &amp; Martins, 2006; Famelli et al., 2022). Machos foram capturados em pontos de maior correnteza e maior profundidade em relação a fêmeas e jovens, indicando uso diferenciado de ambiente por ambos os sexos (Souza, 1995; Souza &amp; Abe, 1997). Aparentemente, a espécie é sensível a alterações ambientais, especialmente ao desmatamento (S. H. Mendonça &amp; R. Valadão, com. pess., 2016), podendo populações fora de unidades de conservação serem mais afetadas do que as em áreas protegidas, como indica a Análise de Viablilidade Populacional de Famelli <em>et al</em>. (2012).</p> \n<p>Interações ecológicas podem explicar alguns padrões de distribuição locais. Quando é encontrada em simpatria com <em>H. tectifera</em>, <em>H. maximiliani</em> é encontrada apenas em áreas acima de 600 metros. Em contraste, em áreas onde a <em>H. tectifera</em> está ausente, <em>H. maximiliani</em> pode ser encontrada em rios costeiros abaixo de 100 metros (Souza, 2005; Muller <em>et al</em>., 2024). <em>H. maximiliani</em> é um cágado de menor porte, com comprimento linear médio da carapaça variando de 100 a 200 mm, sendo que os machos são maiores que as fêmeas (Souza &amp; Martins, 2009). O tamanho máximo de comprimento linear observado para a espécie é de 168,5 mm para fêmeas e 203 mm para machos (S. Famelli com. pess., 2024; Famelli <em>et al</em>., 2014; 2016).</p> \n<p>Sua atividade é fortemente influenciada pelo regime de chuvas e pela temperatura. No sul do estado de São Paulo, a espécie apresenta maior atividade de setembro a janeiro, período no qual as chuvas são mais frequentes, enquanto que de maio a agosto, quando ocorrem baixas temperaturas e estiagem, a atividade da espécie diminui (Souza, 1995; Souza &amp; Abe, 1997, Famelli <em>et al</em>., 2014). De acordo com Costa (2013), a espécie apresenta comportamento sedentário, deslocando-se entre 3 e 138 m/dia, com área de vida linear de aproximadamente 0,2 a 1,5 ha. Os machos movem-se em distâncias maiores que as fêmeas durante a época de acasalamento (de agosto a novembro), enquanto as fêmeas apresentam movimentos pronunciados associados ao período de postura dos ovos (dezembro a fevereiro) (Fameli <em>et al</em>., 2016).</p> \n<p>A idade de maturação sexual em fêmeas é de 13 anos, o que corresponde a 100,2 mm de comprimento retilíneo de plastrão para fêmeas ovígeras (Famelli com. pess., 2024). Já para machos, a média é de 14 anos (Costa, 2009; Martins, 2006, Martins &amp; Souza, 2008; Famelli <em>et al.,</em> 2014). A longevidade da espécie pode ser maior que 100 anos (Martins, 2006; Martins &amp; Souza, 2008). O período reprodutivo está associado à estação quente e chuvosa (Costa, 2009; Famelli <em>et al</em>., 2014). As fêmeas de <em>H. maximiliani</em> desovam em locais não muito próximos das margens dos riachos, fora da área de inundação periódica (Guix <em>et al., </em>1992), e provavelmente realizam apenas uma desova por estação reprodutiva (Costa, 2009; Famelli <em>et al</em>., 2014), contendo de um à três ovos, o que indica uma baixa fertilidade das fêmeas (Guix <em>et al.,</em> 1992; Yamashita, 1990; Famelli <em>et al.,</em> 2014). O período de incubação estimado é de 250 a 300 dias (Souza <em>et al,.</em> 2006; Costa, 2009; Famelli <em>et al., </em>2014), sendo os filhotes encontrados do início de setembro a janeiro, coincidindo com o início das chuvas em certas partes de sua distribuição (Souza &amp; Martins, 2009). Já no Parque Estadual Carlos Botelho, onde a espécie é satisfatoriamente estudada, os filhotes são encontrados de agosto a novembro (Famelli <em>et al</em>. 2014). Machos e fêmeas apresentam diferenças no padrão de uso de microhábitat, com machos utilizando poças mais fundas e com maior velocidade do que fêmeas, embora não haja diferenças nas áreas de vida entre os sexos (Famelli <em>et al</em>., 2014, 2025).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "1-3 indivíduo(s)",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "13 null",
+            "female": "13 null"
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "10,3 null",
+            "female": "10,2 null"
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "73 Ano(s)",
+            "female": "73 Ano(s)"
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "30 Ano(s)",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é rara em grande parte de sua distribuição, mas pode ser comum e abundante em algumas localidades, como no Parque Estadual Carlos Botelho (Souza <em>et al</em>., 2002). </p> \n<p>Nesse local, a população encontra-se estável, com um leve aumento da população ao longo de uma década (Martins, 2006) Estudos de populações no Parque Estadual da Serra do Mar também indicam que a população encontra-se estável localmente (Famelli <em>et al</em>. 2011). Contudo, há grande preocupação com populações fora de Unidades de Conservação, especialmente aquelas nas regiões afetadas pelo desastre ocorrido em 2015 em Mariana e em 2019 em Brumadinho (MG). Foi detectado baixo fluxo gênico entre as diferentes microbacias da região do Parque Estadual Carlos Botelho - SP, o que indica que se os processos migratórios ocorrem, são raros mesmo em ambientes primários (Souza <em>et al</em>., 2002).</p> \n<p> Observações recentes em campo indicam que a população da espécie se encontra em forte declínio em grande parte de sua distribuição geográfica, especialmente fora das áreas protegidas. Dentre os principais fatores do declínio está a conversão do hábitat em áreas agricultáveis, mineração e recentes eventos de rompimento de barragens que afetou a bacia do Rio Doce (Mariana) e do Rio São Francisco (córrego do feijão). No entanto, não é possível quantificar o declínio exato no período de três gerações.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p></p>   A principal ameaça à espécie é a perda de hábitat em decorrência do desmatamento das margens dos rios, o assoreamento do leito, poluição e envenenamento decorrente do despejo de lixo industrial e doméstico e de produtos agroquímicos (Rodrigues, 2005).   A área de distribuição da espécie estimada para o Brasil, via modelo de distribuição elaborado a partir da metodologia indicada por Pinto <em>et al</em>. (2024), é de aproximadamente 451.191 km², dos quais 65,65% foram convertidos em ambiente antrópico até 2023, tornando a paisagem severamente fragmentada com a maior parte de sua distribuição dividida em fragmentos que não são suficientes para a persistência da espécie (Pinto <em>et al</em>., 2024). A conversão de hábitat é relativamente antiga, sendo que apenas 2,35% de toda a área foi convertida nos últimos 38 anos (MapBiomas, 2024). Subpopulações que ocorrem na bacia do Rio Doce (que cobre cerca de 12,61% da área de distribuição estimada pelo modelo de distribuição), assim como as subpopulações que ocorrem na bacia do Rio São Francisco (que cobre cerca de 5,52% da área), sofrem ainda com a perda da qualidade do hábitat devido ao rompimento das barragens de Fundão em Mariana/MG (em 2015) e da Mina Córrego do Feijão em Brumadinho (em 2019) respectivamente, causando poluição e contaminação do ambiente. Contudo, a magnitude dessas ameaças sobre as populações de <em>Hydromedusa maximiliani</em> ainda é pouco conhecida.    Segundo Costa (2009), a desconexão e redução de hábitat e o desmatamento são as ameaças de maior influência para subpopulação do Parque Estadual Carlos Botelho (SP), a mais estudada e conhecida até o momento.",
+      "table": [
+        {
+          "type": {
+            "description": "12 - Outras ameaças",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.4 - Tempestades/enchentes",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.5 - Desertificação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água|7.2.9 - Represas (pequenas)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água|9.1.2 - Escoamento urbano",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial|9.2.2 - Infiltraçao oriunda de mineração",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos|9.4.2 - Industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.4 - Pequenas Centrais Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial|9.2.4 - Resíduos líquidos diversos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial|9.2.3 - Contaminação por metais pesados",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p><em>Hydromedusa maximiliani</em> é criada ocasionalmente como animal de estimação. Espécimes podem ser fortuitamente encontrados sendo vendidos de forma ilegal em feiras livres na região metropolitana do Rio de Janeiro (A. L. Silveira, com. pess., 2010).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Adriano Lima Silveira, com. pess., 2010",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Hydromedusa maximiliani</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015). Essa espécie também foi beneficiada no primeiro ciclo do Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção da Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço (ICMBio, 2012; ICMBio, 2016), sendo mantida no segundo ciclo desse PAN (ICMBio, 2018). </p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Hydromedusa maximiliani (Mikan, 1825)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2016"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 1996,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "TFTSG (Tortoise & Freshwater Turtle Specialist Group), 1996",
+              "title": "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Hydromedusa maximiliani</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T10309A3191766\">https://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T10309A3191766</a>. [Acessado em: 07/jul/2016]."
+            }
+          ],
+          "orderBy": "Y1996"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Espírito Santo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IEMA, 2022",
+              "title": "IEMA 28/10/2022 <i>Instituto Estadual de Meio Ambiente e Recursos Hídricos. Decreto Nº 5237-R, de 25 de novembro de 2022. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA, 2017",
+              "title": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2010,
+          "coverage": "Minas Gerais",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii)",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Espírito Santo, 2005",
+              "title": "Estado do Espírito Santo 13/06/2005 <i>Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências</i>."
+            },
+            {
+              "label": "Almeida <i>et al.</i>, 2007",
+              "title": "Almeida, A. P., Gasparini, J. L., Abe, A. S., Argôlo, A. J. S., Baptistotte, C., Fernandes, R., Rocha, C. F D. &amp; Van Sluys, M. (2007) Os répteis ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Ipema, pp. 65-84."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 1998",
+              "title": "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2012",
+              "title": "ICMBio 2012 <i>Portaria nº 24 de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2016",
+              "title": "ICMBio 2016 <i>Portaria No. 38, de 03 de maio de 2016. Atualiza e aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2015",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Espinhaço Mineiro - 2º ciclo",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2018",
+              "title": "ICMBio 2018 <i>Portaria nº 384, de 24 de abril de 2018. Aprova o 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendonca, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rosa <i>et al.</i>, 2017",
+              "title": "New records and habitat featrures of the threatened <i>Hydromedusa maximiliani<i/> in protected areas of Serra da Mantiqueira"
+            }
+          ]
+        },
+        {
+          "name": "APA da Bacia do Rio São João - Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA de Cairuçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rhodin <i>et al.</i>, 2021",
+              "title": "Turtles of the world - Annoted Checklist and Atlas of Taxonomy, Synonymy, Distribution, and Conservation Status (9th Ed.)"
+            }
+          ]
+        },
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Argôlo & Freitas, 2002",
+              "title": "Geographic distribution. <i>Hydromedusa maximiliani</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Gandarela",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendonca, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rosa <i>et al.</i>, 2017",
+              "title": "New records and habitat featrures of the threatened <i>Hydromedusa maximiliani<i/> in protected areas of Serra da Mantiqueira"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Alto Cariri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leite, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Caparaó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza & Martins, 2009",
+              "title": "<i>Hydromedusa maximiliani</i> (Mikan 1825) - Maximilian´s snake-necked turtle, Brazilian snake-necked turtle"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas <i>et al.</i>, 2019",
+              "title": "Levantamento preliminar da herpetofauna no Legado das Águas-Reserva Votorantim, SP"
+            }
+          ]
+        },
+        {
+          "name": "APA VáRZEA DO RIO TIETê",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "La Tortue, 2007",
+              "title": "La Rainforest et les tortues a cou de serpentes"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO UAIMII",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 1998",
+              "title": "Livro vermelho das espécies ameaçadas de extinção da fauna de Minas Gerais"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa, 2013",
+              "title": "Área de vida, movimentação e seleção de habitat do cágado <i>Hydromedusa maximiliani</i> (Testudines: Chelidae) no Parque Estadual Carlos Botelho, SP"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            },
+            {
+              "label": "Souza & Martins, 2009",
+              "title": "<i>Hydromedusa maximiliani</i> (Mikan 1825) - Maximilian´s snake-necked turtle, Brazilian snake-necked turtle"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ILHABELA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Centeno, 2008",
+              "title": "Diversidade e uso do ambiente pelos anfíbios e répteis da Ilha de São Sebastião, Ilhabela, SP"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Famelli <i>et al.</i>, 2012",
+              "title": "Population viability analysis of a long-lived freschwater turtle, <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2012",
+              "title": "Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE MATA DOS MURIQUIS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Souza & Martins, 2009",
+              "title": "<i>Hydromedusa maximiliani</i> (Mikan 1825) - Maximilian´s snake-necked turtle, Brazilian snake-necked turtle"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Friol, 2019",
+              "title": "Revisão taxonômica e filogenia das espécies sul-americanas de Chelidae (Testudines, Pleurodira)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Mendonca, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DO ALTO IGUAçU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa <i>et al.</i>, 2015",
+              "title": "New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL NASCENTES DE PARANAPIACABA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Friol, 2019",
+              "title": "Revisão taxonômica e filogenia das espécies sul-americanas de Chelidae (Testudines, Pleurodira)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUA SANTA DE MINAS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Brejo Novo",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sousa, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁGUIA BRANCA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Modelagem de distribuição geográfica para <i>Hydromedusa maximiliani<i/> (Mikan, 1820) (Testudines, Chelidae), Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Ribeirão Silveira",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Souza, 2005",
+              "title": "Geographical distribution patterns of South American side-necked turtles (Chelidae), with emphasis on Brasilian species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Pesquisas sobre história natural, ecologia e população, incluindo estudos de distribuição geográfica, filogeografia, tamanho populacional e efeito das ameaças sobre as subpopulações são necessárias. </p> \n<p> </p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Filogenia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Outro",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A. P., Gasparini, J. L., Abe, A. S., Argôlo, A. J. S., Baptistotte, C., Fernandes, R., Rocha, C. F D. &amp; Van Sluys, M. (2007) Os répteis ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Ipema, pp. 65-84.",
+          "Almeida-Gomes, M., Siqueira, C.C., Borges-Júnior, V.N.T., Vrcibradic, D., Fusinatto, L.A. &amp; Rocha, C.F.D. (2014) Herpetofauna of the Reserva Ecológica de Guapiaçu (REGUA) and its surrounding areas, in the state of Rio de Janeiro, Brazil. <i>Biota Neotropica</i>. 14, 1-15.",
+          "Argôlo, A.J.S. &amp; Freitas, M.A. (2002) Geographic distribution. <i>Hydromedusa maximiliani</i>. <i>Herpetological Review</i>. 33 (2), 147.",
+          "Bertoluci, J.A. (1997) <i>Fenologia e seleção de <i>habitat</i> em girinos da Mata Atlântica em Boracéia, São Paulo (Amphibia, Anura)</i>. Tese de Doutorado. Universidade de São Paulo. Sao Paulo-SP.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Brusa, F. &amp; Damborenea, M. C. (2000) First Report of <i>Temnocephala brevicornis</i> Monticelli 1889 (Temnocephalidae: Platyhelminthes) in Argentina. <i>Memorias do Instituto Oswaldo Cruz</i>. 95 (1), 81-82.",
+          "Caputo, R.C.C. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Caputo, R.C.C. (2017) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Carvalho, R.B.J. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Centeno, F. C. &amp; Sawaya, R. J. (2007) A herpetofauna da Ilha de São Sebastião, Ilhabela, SP . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "Chagas, A.C.S. &amp; Raposo Filho, J.R. (1999) Biologia do comportamento de <i>Hydromedusa maximiliani</i> (Mikan, 1820) (Testudines: Chelidae) na Reserva Biológica Santa Cândida em Juiz de Fora – MG. <i>Bioscience Journal</i>. 15 (2), 15-23.",
+          "Costa, H., Rezende, D.T., Molina, F.B., Nascimento, L.B., Leite, F.S.F. &amp; Fernandes, A.P.B. (2015) New distribution records and potentially suitable areas for the threatened Snake Necked Turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae). <i>Chelonian Conservation and Biology</i>. 14 (1), 88-94.",
+          "Costa, S.F. (2007) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Costa, S.F. (2008) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Costa, S.F. (2009) <i>Ecologia reprodutiva e análise de viabilidade populacional do cágado <i>Hydromedusa maximiliani</i> (Testudines, Chelidae) no Parque Estadual Carlos Botelho, SP</i>. Dissertação de Mestrado. Mestrado em Ecologia aplicada. Universidade de São Paulo, USP, Brasil. São Paulo. 114ppp.",
+          "Costa, S.F. (2009) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Costa, S.F. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Costa, S.F. (2013) <i>Área de vida, movimentação e seleção de habitat do cágado <i>Hydromedusa maximiliani</i> (Testudines: Chelidae) no Parque Estadual Carlos Botelho, SP</i>. Tese de Doutorado. Doutorado em Ciências. Universidade de São Paulo, Escola Superior de Agricultura “Luiz de Queiroz. 104p.pp.",
+          "Drummond, G.M. (1998) <i>Hydromedusa maximiliani</i> (Mikan, 1820). <i>In</i>: Barbosa, A.M.; Cartelle, C. & Fonseca, G.B. (Orgs.). Livro Vermelho das Espécies Ameaçadas de Extinção da Fauna de Minas Gerais. <i>Fundação Biodiversitas</i>. 608p.",
+          "Emysystem (1999) World Turtle Database. <a target=\"_blank\" href=\"http://emys.geo.orst.edu/\">http://emys.geo.orst.edu/</a>. [Acessado em: 10/jun/2010].",
+          "Ernst, C. H. &amp; Lovich, J. E. (1996) <i>Hydromedusa maximiliani</i>. Epizoic commensal. <i>Herpetological Review</i>. 27 (2), 79-77.",
+          "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>.",
+          "Estado do Espírito Santo 13/06/2005 <i>Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências</i>.",
+          "FAMELLI, S., GRUBER, B., GEORGES, A., Ortiz, C., SOUZA, F. L. &amp; BERTOLUCI, J . (2025) pace use and home range size of the freshwater turtle Hydromedusa maximiliani (Testudines: Chelidae) in southeastern Brazil. <i>Herpetological Conservation and Biology</i>. 20, 68-81.",
+          "Famelli, S., Adriano, L.R., Pinheiro, S.C.P., Souza, F.L. &amp; Bertoluci, J. (2014) Reproductive Biology of the Freshwater Turtle <i>Hydromedusa maximiliani</i> (Chelidae) from Southeastern Brazil. <i>Chelonian Conservation and Biology</i>. 13, 81-88.",
+          "Famelli, S., Bertoluci, J., Molina, F.B. &amp; Matarazzo-Neuberger, W. M. (2011) Structure of a population of <i>Hydromedusa maximiliani</i> (Testudines, Chelidae) from Parque Estadual da Serra do Mar, an Atlantic Rainforest Preserve in Southeastern Brazil. <i>Chelonian Conservation and Biology</i>. 10 (1), 131-137.",
+          "Famelli, S., Gruber, B., Georfes, A., Ortiz, C., Souza, F. L. &amp; Bertoluci, J. (2022) Space Use and Home Range Size of the Freshwater Turtle Hydromedusa maximiliani (Testudines: Chelidae) in Southeastern Brazil. <i>67 Herpetological Conservation and Biology</i>. 20 (1), 67-81.",
+          "Famelli, S., Pinheiro, S. C. P., Souza, F. L., Chiaravolloti, R. M. &amp; Bertoluci, J. (2012) Population viability analysis of a long-lived freschwater turtle, <i>Hydromedusa maximiliani</i> (Testudines: Chelidae). <i>Chelonian Conservation and Biology</i>. 11 (2), 162-169.",
+          "Famelli, S., Souza, F.L., Georges, A. &amp; Bertoluci, J. (2016) Movement patterns and activity of the Brazilian snake-necked turtle <i>Hydromedusa maximiliani</i> (Testudines: Chelidae) in southeastern Brazil. <i>Amphibia-Reptilia</i>. 37, 215-228.",
+          "Ferri, M. &amp; Warming, E (1973) <i>Lagoa Santa e a Vegetação de Cerrados Brasileiros</i> Edição 1ª. Itatiaia,",
+          "Freitas, M.A., Silva, T.F.S., Fonseca, P.M., Hamdam, B., Filadelfo, T. &amp; Abegg, A.D. (2019) Herpetofauna of Serra do Timbó, an Atlantic Forest remnant in Bahia State, northeastern Brazil. <i>Herpetology Notes</i>. 12, 245-260.",
+          "GBIF (Global Biodiversity Information Facility) (2016) <i>Hydromedusa maximiliani</i> (Mikan, 1820). <a target=\"_blank\" href=\"https://www.gbif.org/species/2442142\">https://www.gbif.org/species/2442142</a>. [Acessado em: 20/mai/2016].",
+          "Guix, J.C., Miranda, J.R. &amp; Nunes, V.S. (1992) Observaciones sobre la ecologia de <i>Hydromedusa maximiliani</i>. <i>Boletín de la Asociación Herpetológica Española</i>. 3, 23-25.",
+          "Hurtado, E.G.L. (2017) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "ICMBio 2012 <i>Portaria nº 24 de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço</i>.",
+          "ICMBio 2013 <i>Portaria nº 200 de 1° de julho de 2013. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina</i>.",
+          "ICMBio 2016 <i>Portaria No. 38, de 03 de maio de 2016. Atualiza e aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina</i>.",
+          "ICMBio 2016 <i>Portaria nº 109, de 16 dezembro de 2016, que atualiza e aprova o Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço. DOU edição nº 246</i>.",
+          "ICMBio 2018 <i>Portaria nº 384, de 24 de abril de 2018. Aprova o 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais</i>.",
+          "IEMA 28/10/2022 <i>Instituto Estadual de Meio Ambiente e Recursos Hídricos. Decreto Nº 5237-R, de 25 de novembro de 2022. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2019 <i>Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste</i>.",
+          "Iverson, J.P. (1992) A revised checklist with distribution maps of the turtles of the world. <i>Privately Printed</i>. 358p.",
+          "Junqueira, A. F. B., Martins, I. A. &amp; Gomes, F. B. R. (2007) Inventário da herpetofauna na região de Cristina, Serra da Mantiqueira, Minas Gerais . In: Sociedade Brasileira de Herpeptologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "La Tortue (2007) La Rainforest et les tortues a cou de serpentes. <i>La Tortue</i>.",
+          "Leite, F.S.F. (2018) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Luederwaldt, H. (1926) Os chelônios brasileiros, com a lista das espécies do Museu Paulista. <i>Revista do Museu Paulista</i>. 14, 404–468.",
+          "Machado, A.B.M., Fonseca, G.A.B., Machado, R.B., Aguiar, L.M.S. &amp; Lins, L.V. (1998) <i>Livro vermelho das espécies ameaçadas de extinção da fauna de Minas Gerais</i> Belo Horizonte - MG, Fundação Biodiversitas, 608pp.",
+          "MapBiomas (2024) Projeto MapBiomas – Coleção 9 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil. <a target=\"_blank\" href=\"https://brasil.mapbiomas.org/\">https://brasil.mapbiomas.org/</a>. [Acessado em: 04/ago/2025].",
+          "Maran, J. (2004) De nouvelles découvertes au Brésil. <i>La Tortue</i>. 68, 38-51.",
+          "Martins, F.I. &amp; Souza, F.L. (2008) Estimates of Growth of the Atlantic Rain Forest Freshwater Turtle <i>Hydromedusa maximiliani</i> (Chelidae). <i>Journal of Herpetology</i>. 41 (1), 54-60.",
+          "Martins, F.I. (2006) <i>Crescimento corpóreo e dinâmica populacional de <i>Hydromedusa maximiliani</i> (Testudines, Chelidae) no Parque Estadual de Carlos Botelho, São Paulo</i>. Dissertação de Mestrado. Mestrado em Ecologia e Conservação. Universidade Federal do Mato Grosso do Sul. 49p.pp.",
+          "Mendonca, S.H.S.T. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Mendonca, S.H.S.T. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Mendonca, S.H.S.T. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Monteiro, W.S. (2018) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Moura, M.R., Motta, A.P., Fernandes, V.D. &amp; Feio, R.N. (2012) Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil. <i>Biota Neotropica</i>. 12 (1), 209-235.",
+          "Muller, M. M. P., Santana, D. J., Costa, H. C. &amp; Ceron, K. (2024) Geographic patterns of distribution and ecological niche of the snake-necked turtle genus Hydromedusa. <i>PeerJ.</i> 12, e16712.",
+          "Nascimento, L.B. (2008) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Novelli, I. A., Morton, G. F., Trindade, I. T., Neto Silva, D. A. &amp; Vieira, F. M. (2014) First occurrence of <i>Spirocamallanus sp</i>. (Nematoda, Camallanoidea) in a freshwater turtle, <i>Hydromedusa tectifera</i> (Cope, 1869) (Testudines, Chelidae), from Brazil. <i>Herpetological NOtes</i>. 7, 599-602.",
+          "Novelli, I. A., Sousa, B. M, Carvalho, A. R., Bessa, E. C. A. &amp; Lima, S. S. (2007) Registro de <i>Temnocephala brevicornis</i> Monticelli, 1889 (Platyhelminthes, Temnocephalidae) em <i>Hydromedusa maximiliani</i> (Mikan, 1820) (Testudines, Chelidae) em Juiz de Fora, Minas Gerais, Brasil . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "Novelli, I. A., Sousa, B. M. &amp; Brugiolo, S. S. S. (2005) Macroinvertebrados aquáticos presentes no contúdo estomacal de <i>Hydromedusa maximiliani</i> (Mikan, 1820) (Testudinata, Chelidae) . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "Novelli, I.A. &amp; Sousa, B.M (2006) Hábitos alimentares de <i>Hydromedusa maximiliani</i> (Mikan, 1820) (Testudines, Chelidae) na Reserva Biológica Municipal Santa Cândida, Juiz de Fora, MG. <i>Zoociências</i>. 8 (2), 210.",
+          "Novelli, I.A. &amp; Souza, B.M. (2007) Análise descritiva do comportamento de corte e cópula de <i>Hydromedusa maximiliani</i> (Mikan 1820) (Testudines, Chelidae) em laboratório. <i>Revista Brasileira de Zoociências</i>. 9, 43-50.",
+          "Oliveira, J.C.F., Santos, R., Lopes-Silva, M.L., Barros, L.P.V., Risse-Quaioto, B., Militão, C.M., Fatorelli, P., Belmoch, F.A.L. &amp; Rocha, C.F.D. (2020) Reptiles of the Monumento Natural Serra das Torres: using the Rapid Assessment method to fill a knowledge gap in the Atlantic Forest of southeastern Brazil. <i>Biota Neotropica. In press.</i> 20 (2), e20190726.",
+          "Paglia, A.P., Paese, A., Bedê, L., Fonseca, M., Pinto, L.P. &amp; Machado, R.B. (2004) Lacunas de conservação e áreas insubstituíveis para vertebrados ameaçados da Mata Atlântica. p. 39-50 . In: Volume II – Seminários. Fundação O’ Boticário de Proteção à Natureza e Rede Nacional Pró Unidades de Conservação (ed.) <i><i>In</i>: Anais do IV Congresso Brasileiro de Unidades de Conservação</i>",
+          "Pinto, H. B. A., Valadão, R. M., Andrade, A. F. A., Batista, F. R. Q. &amp; De Marco Júnior, P. (2024) Assessing Brazilian turtles’ vulnerability by using species distribution models and dispersal constraints. <i>Biodiversity and Conservation</i>. 33 (2), 825-841.",
+          "Rabello, H. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Rocha Barbosa, O., Novelli, I. A., Sousa, B. M., Gomides, S. C. &amp; Loguercio, M. F. C. (2014) Movimento de giro subaquático durante o forrageio em <i>Hydromedusa maximiliani</i> (Testudines, Chelidae) do Sudeste do Brasil. <i>Braz. J. Biol.</i> 74 (4), 997-982.",
+          "Rodrigues, M.T. (2005) A conservação de répteis brasileiros: os desafios para um país megadiverso. <i>Megadiversidade</i>. 1 (1), 87-94.",
+          "Rodrigues, M.T.U. (2009) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Rodrigues, M.T.U. (2012) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Salles, R.O.L. &amp; Silva-Soares, T. (2010) Répteis do município de Duque de Caxias, Baixada Fluminense, Rio de Janeiro, Sudeste do Brasil. <i>Biotemas</i>. 23 (2), 135-144.",
+          "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>",
+          "Silveira, A.L. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Silveira, A.L. (2017) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Sousa, B. M., Brugiolo, S. S., Nascimento, G. A. &amp; Daibert, M. K. (2004) Artrópodos aquáticos disponíveis ao cágado <i>Hydromedusa maximiliani</i> na Reserva Biológica Municipal Santa Cândida, Juiz de Fora, MG . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba - PR.",
+          "Sousa, B.M. (2010) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Sousa, B.M. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Souza, F.L. &amp; Abe, A.S. (1995) Observations on feeding habits of <i>Hydromedusa maximiliani</i> (Testudines: Chelidae) in southeastern Brazil. <i>Chelonian Conservation and Biology</i>. 1 (4), 320-322.",
+          "Souza, F.L. &amp; Abe, A.S. (1997) Population structure, activity, and conservation of the neotropical freshwater turtle, <i>Hydromedusa maximiliani</i>, in Brazil. <i>Chelonian Conservation and Biology</i>. 2 (4), 521-525.",
+          "Souza, F.L. &amp; Abe, A.S. (1997) Seasonal variation in the feeding habits of <i>Hydromedusa maximiliani</i> (Testudines, Chelidae). <i>Boletín de La Asociación Herpetológica Española</i>. 8, 17-20.",
+          "Souza, F.L. &amp; Abe, A.S. (1998) Resource partitioning by the Neotropical freshwater turtle, <i>Hydromedusa maximiliani</i>. <i>Journal of Herpetology</i>. 32, 106-112.",
+          "Souza, F.L. &amp; Martins, F.I. (2006) Body temperature of free-living freshwater turtles, <i>Hydromedusa maximiliani</i> (Testudinae, Chelidae). <i>Amphibia-Reptilia</i>. 27, 464-468.",
+          "Souza, F.L. &amp; Martins, F.I. (2009) <i>Hydromedusa maximiliani</i> (Mikan 1825) - Maximilian´s snake-necked turtle, Brazilian snake-necked turtle. <i>Chelonian Research Monographs</i>. 5 (26), 1-6.",
+          "Souza, F.L. (1995) <i>História Natural do Cágado <i>Hydromedusa maximiliani</i> (Mikan, 1820) no Parque Estadual de Carlos Botelho, SP, Região de Mata Atlântica (Testudines, Chelidae)</i>. Dissertação de Mestrado. Mestrado em Ciências Biológicas. Universidade Estadual Paulista Júlio de Mesquita Filho. Piracicaba - SP. 78p.pp.",
+          "Souza, F.L. (1995) <i>Hydromedusa maximiliani</i> (Maximilian´s Snake-necked Turtle). Juvenile morphology. <i>Herpetological Review</i>. 26 (1), 34-35.",
+          "Souza, F.L. (2005) The Brazilian Snake-necked Turtle, <i>Hydromedusa maximiliani</i>. <i>Reptilia</i>. 47, 47-51.",
+          "Souza, F.L., Cunha, A.F., Oliveira, M.A., Pereira, G.A.G. &amp; Reis, S.F. (2002) Estimating dispersal and gene flow in the neotropical freshwater turtle <i>Hydromedusa maximiliani</i> (Chelidae) by combining ecological and genetic methods. <i>Genetics and Molecular Biology</i>. 25 (2), 151-155.",
+          "Souza, F.L., Cunha, A.F., Oliveira, M.A., Pereira, G.A.G., Pinheiro, H.P. &amp; Reis, S.F. (2002) Partitioning of molecular variation at local spatial scales in the vulnerable neotropical freshwater turtle, <i>Hydromedusa maximiliani</i> (Testudines, Chelidae): implications for the conservation of aquatic organisms in natural hierarchical systems. <i>Biological Conservation</i>. 104, 119-126.",
+          "Souza, F.L., Cunha. A.F., Oliveira, M.A., Pereira, G.A.G. &amp; Reis, S.F. (2003) Preliminary phylogeographic analysis of the neotropical freshwather turtle <i>Hydromedusa maximiliani</i> (Chelidae). <i>Journal of Herpetology</i>. 37 (2), 427-433.",
+          "Souza, F.L., Giraldelli, G.R. &amp; Martins, T.A. (2006) Reproductive aspects of Brazilian side-necked turtles (Chelidae). <i>Bol. Asoc. Herpetolol. Esp.</i> 17 (1), 28-34.",
+          "Souza, M.S., Santos, A. P., Novelli, I. A. &amp; Gomides, S. C. (2005) Como crescem os quelônios? O caso de <i>Hydromedusa maximiliani</i> (Testudinata:Chelidae) . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>.",
+          "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Hydromedusa maximiliani</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T10309A3191766\">https://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T10309A3191766</a>. [Acessado em: 07/jul/2016].",
+          "Trevine, V.C. (2009) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Trevine, V.C. (2010) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Uétz, P. (2015) <i>Hydromedusa maximiliani</i>. <a target=\"_blank\" href=\"http://reptile-database.reptarium.cz/species?genus=Hydromedusa&species=maximiliani\">http://reptile-database.reptarium.cz/species?genus=Hydromedusa&species=maximiliani</a>. [Acessado em: 02/mai/2016].",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Hydromedusa maximiliani (Mikan, 1825)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Yamashita, C. (1990) Natural History Notes. <i>Hydromedusa maximiliani</i>. Ecology. <i>Herpetological Review</i>. 21 (1), 19."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "id_ficha": "65304976454970776d33462b504643624530463073413d3d",
+  "nome_cientifico": "Rhinella ocellata (Günther, 1858)",
+  "nome_cientifico_atual": "Rhinella ocellata (Günther, 1858)",
+  "nome_comum": "Cururuzinho-ocelado",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21503.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=65304976454970776d33462b504643624530463073413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella ocellata</i>&nbsp;<span>(Günther, 1858)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Rhinella ocellata </em>é endêmica do Brasil e possui ampla distribuição no Cerrado e áreas de transição, possuindo registros de ocorrência nos estados de Rondônia, Pará, Maranhão, Tocantins, Goiás, Mato Grosso e Minas Gerais. Trata-se de espécie comum, encontrada em formações abertas, campos úmidos, veredas e margens de rios, podendo ocorrer também em áreas degradadas. Embora haja perda de hábitat em algumas localidades onde a espécie ocorre, não há evidências de que as ameaças possam colocá-la em risco de extinção. Por essas razões, <em>Rhinella ocellata </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Rhinella ocellata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21503.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21503.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16548,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella ocellata</i>"
+        }
+      ],
+      "oldNames": "Bufo ocellatus, Chilophryne ocellata, Rhinella ocellatus",
+      "commonNames": "Cururuzinho-ocelado",
+      "taxonomicNotes": "<p> </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Rhinella ocellata</em> é endêmica do Brasil e possui ampla distribuição no Cerrado e áreas de transição com a Amazônia (Caldwell &amp; Shepard, 2007; Narvaes &amp; Rodrigues, 2009; Valdujo <em>et al</em>., 2011; Matavelli <em>et al</em>., 2014; M. Hoogmoed, com. pess., 2018). </p>",
+      "nationalDistribution": "",
+      "states": "Goiás, Maranhão, Mato Grosso, Minas Gerais, Pará, Rondônia, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Itapecuru, Sub-bacia Madeira, Sub-bacia Paranaíba, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/575776696871523059706d6e574a5854355158697a506f717a5467313143334450726c4e443851783353597644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "bd8f12c5bf8f3d9e7d7c5b2e0f3fc900.png",
+        "fileName": "Mapa de Rhinella ocellata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Rhinella ocellata </em>ocorre em campos úmidos, veredas, margens de rios e áreas abertas no Cerrado. Apresenta uma reprodução prolongada e canta em ambiente terrestre tanto de dia quanto à noite. Seu comportamento reprodutivo difere dos seus congêneres por não envolver grandes migrações para corpos d'água ou formação de grandes coros (Caldwell &amp; Shepard, 2007). Pode ocorrer também em áreas degradadas (C. Strussman, com. pess., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Em pelo menos duas localidades onde a espécie foi registrada os hábitats de reprodução foram transformados em represas em decorrência da construção de Usinas Hidrelétricas. A perda de hábitat na porção norte do Cerrado é crescente e pode ameaçar subpopulações da espécie em médio e longo prazo. Contudo, sua distribuição é ampla e as ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre a utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2004",
+              "title": "Bastos, R., Pavan, D. &amp; Silvano, D. (2004) <i>Rhinella ocellata</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54720A11192773.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54720A11192773.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Pará",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Pará, 2007",
+              "title": "Estado do Pará 24/10/2007 <i>Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "REBIO Nascentes da Serra do Cachimbo",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "M. Hoogmoed, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            },
+            {
+              "label": "Caldwell & Shepard, 2007",
+              "title": "Calling site Fidelity and call structure of a Neotropical toad, <I>Rhinella ocellata</i> (Anura: Bufonidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA FOZ DO RIO DAS PREGUIçAS - PEQUENOS LENçóIS - REGIãO LAGUNAR ADJACENTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Matavelli <i>et al.</i>, 2014",
+              "title": "First record of <i>Rhinella ocellata</i> (Günther, 1858)(Bufonidae) for the state of Maranhão, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Caldwell & Shepard, 2007",
+              "title": "Calling site Fidelity and call structure of a Neotropical toad, <I>Rhinella ocellata</i> (Anura: Bufonidae)"
+            }
+          ]
+        },
+        {
+          "name": "Pequizal do Naruvôtu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Ubawawe",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Narvaes & Rodrigues, 2009",
+              "title": "Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história de vida e distribuição ainda são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bastos, R.; Pavan, D. &amp; Silvano, D. 2004. <i>Rhinella ocellata</i>. <b>The IUCN Red List of Threatened Species 2004: e.T54720A11192773</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54720A11192773.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54720A11192773.en</a>.",
+          "Caldwell, J.P. &amp; Shepard, D.B. 2007. Calling site Fidelity and call structure of a Neotropical toad, <I>Rhinella ocellata</i> (Anura: Bufonidae). <b>Journal of Herpetology</b>, 41 (4): p.611-621.",
+          "Estado de Minas Gerais 30/04/2010. Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais. Disponível em: <a target=\"_blank\" href=\"http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192\">http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192</a>. Acessado em: 22/07/2022.",
+          "Estado do Pará 24/10/2007. Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará. Disponível em: <a target=\"_blank\" href=\"http://www.sema.pa.gov.br/anexos_legislacao/Anexo_resolucao_054%20coema.pdf\">http://www.sema.pa.gov.br/anexos_legislacao/Anexo_resolucao_054%20coema.pdf</a>.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Matavelli, R.; Campos, A.M.; Da Silva, G.R. &amp; de Andrade, G.V. 2014. First record of <i>Rhinella ocellata</i> (Günther, 1858)(Bufonidae) for the state of Maranhão, northeastern Brazil. <b>Check List</b>, 10 (2): p.432-433.",
+          "Narvaes, P. &amp; Rodrigues, M.T. 2009. Taxonomic revision of <i>Rhinella granulosa</i> species group (Amphibia, Anura, Bufonidae), with a description of a new species. <b>Arquivos de Zoologia</b>, 40 (1): p.1-73.",
+          "Valdujo, P.H.; Camacho, A.; Recoder, R.S.; Teixeira Jr., M.; Ghellere, J.M.B.; Mott, T.; Nunes, P.M.S.; Nogueira, C. &amp; Rodrigues, M.T. 2011. Anfíbios da Estação Ecológica Serra Geral do Tocantins, região do Jalapão, estados do Tocantins e Bahia. <b>Biota Neotropica</b>, 11 (1): p.251-261."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

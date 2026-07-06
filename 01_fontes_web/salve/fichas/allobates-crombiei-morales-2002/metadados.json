@@ -1,0 +1,302 @@
+{
+  "id_ficha": "323946514279574f38563152366c33553538766e4e773d3d",
+  "nome_cientifico": "Allobates crombiei (Morales, 2002)",
+  "nome_cientifico_atual": "Allobates crombiei (Morales, 2002)",
+  "nome_comum": "Rãzinha-de-Crombie",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19154",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=323946514279574f38563152366c33553538766e4e773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Allobates crombiei</i>&nbsp;<span>(Morales, 2002)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Allobates crombiei </em>é endêmica do Brasil, com registros nos estados do Pará e Tocantins, nos biomas Amazônia e Cerrado. Embora tenha poucos registros, sua distribuição pode ser ainda mais ampla que a conhecida. Trata-se de espécie de fácil encontro e abundante, não havendo ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Allobates crombiei </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Allobates crombiei</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19154 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19154",
+      "photo": {},
+      "version": 2,
+      "versionId": 15423,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Aromobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Allobates</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Allobates crombiei</i>"
+        }
+      ],
+      "oldNames": "Colostethus crombiei",
+      "commonNames": "Rãzinha-de-Crombie",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Allobates crombiei</em> é endêmica do Brasil, ocorre nas bacias dos rios Xingu e Tocantins, com registros de ocorrência nos municípios de Altamira (Morales, 2002; Lima <em>et al.</em> 2012) e São Geraldo do Araguaia (M.S. Hoogmoed, com. pess., 2017), no estado do Pará, e Caseara, Palmas e Wanderlândia, no estado de Tocantins (D.J. Santana, com. pess., 2017). Sua distribuição pode ser ainda mais ampla que a atualmente conhecida.</p>",
+      "nationalDistribution": "",
+      "states": "Pará, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Tocantins Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/556d506e4878674f785570324e2b6d7347773972735a6761777979304a465a444d6d5556546c6b315054354b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "4fadf85e72326a5fef512de09088fd94.png",
+        "fileName": "Mapa de Allobates crombiei.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Allobates crombiei</em> é diurna e de pequeno porte. Lima <em>et al</em>. (2012) registraram fêmeas, machos vocalizando e desovas na serrapilheira de florestas próxima a lagoas e riachos temporários, a cerca de 100 metros da margem direita do rio Xingu. Na Serra das Andorinhas e nas localidades do Tocantins a espécie foi encontrada ao lado de igarapés no interior de matas de galeria (M.S. Hoogmoed, com. pess., 2017; D.J. Santana, com. pess., 2017).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Trata-se de espécie de fácil encontro e abundante. No entanto, não há estudos populacionais disponíveis para a espécie e sua tendência populacional é desconhecida.</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A construção da Usina Hidrelétrica de Belo Monte, no Pará, foi indicada como uma potencial ameaça para a espécie. No entanto, sua distribuição é ampla e essa ameaça não coloca a espécie em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Allobates crombiei</i> (Morales, 2002). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7561-anfibios-allobates-crombiei.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7561-anfibios-allobates-crombiei.html</a>. [Acessado em: 04/jan/2017]."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Caramaschi, 2004",
+              "title": "Rodrigues, M.T. &amp; Caramaschi, U. (2004) <i>Allobates crombiei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55069A11247763.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55069A11247763.en.</a>. [Acessado em: 31/out/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE SÃO GERALDO DO ARAGUAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.S. Hoogmoed, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D.J. Santana, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U. 2016. Avaliação do Risco de Extinção de <i>Allobates crombiei</i> (Morales, 2002). <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7561-anfibios-allobates-crombiei.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7561-anfibios-allobates-crombiei.html</a>. Acessado em: 04/01/2017.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lima, A.P.; Erdtmann, L.K.. &amp; Amézquita, A., 2012. Advertisement call and colour in life of <i>Allobates crombiei</i> (Morales) “2000” [2002] (Anura: Aromobatidae) from the type Locality (Cachoeira do Espelho), Xingu River, Brazil. Zootaxa, 3475: p.86-88.",
+          "Morales, V.R. 2002. Sistematica y biogeografía del grupo <i>trilineatus</i> (Amphibia, Anura, Dendrobatidae, <i>Colostethus</i>), con descripción de once nuevas especies. <b>Publicaciones de la Asociación de Amigos de Doñana</b>, 13: p.1-59.",
+          "Rodrigues, M.T. &amp; Caramaschi, U. 2004. <i>Allobates crombiei</i>. <b>The IUCN Red List of Threatened Species.</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55069A11247763.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55069A11247763.en.</a>. Acessado em: 31/10/2011."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

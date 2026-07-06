@@ -1,0 +1,360 @@
+{
+  "id_ficha": "495a4954352f5470674571795377623747652b306d673d3d",
+  "nome_cientifico": "Physalaemus olfersii (Lichtenstein & Martens, 1856)",
+  "nome_cientifico_atual": "Physalaemus olfersii (Lichtenstein & Martens, 1856)",
+  "nome_comum": "Rãzinha-rangedora",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22204.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=495a4954352f5470674571795377623747652b306d673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus olfersii</i>&nbsp;<span>(Lichtenstein & Martens, 1856)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Physalaemus olfersii </em>é endêmica do Brasil, com registros de ocorrência no bioma Mata Atlântica entre os estados do Espírito Santo e Paraná. Trata-se de uma espécie abundante, encontrada em florestas primárias e secundárias. Embora exista perda de vegetação nativa em algumas regiões na área da sua distribuição, não há evidências de ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Physalaemus olfersii </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Physalaemus olfersii</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22204.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22204.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16924,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus olfersii</i>"
+        }
+      ],
+      "oldNames": "Paludicola olfersi, Phrynidium olfersi, Phryniscus olfersii",
+      "commonNames": "Rãzinha-rangedora",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Physalaemus olfersii</em> é endêmica do Brasil, com registros na Mata Atlântica entre os estados do Espírito Santo e Paraná (Giaretta <em>et al</em>., 2009; Cassini <em>et al</em>., 2010; Cunha <em>et al</em>., 2010). Sua extensão de ocorrência é de 161.694 km2, calculada via mínimo polígono convexo formado a partir dos pontos de registros.</p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Paraná, Rio de Janeiro, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4d7348437946743753534168557647614b7935584731674458494d6364797561694d77435267693463506e6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "afd9622304b15347ea54e71771eeaa11.png",
+        "fileName": "Mapa de Physalaemus olfersii.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Physalaemus olfersii </em>habita florestas primárias e secundárias, onde é encontrada na serrapilheira ou em vegetação rasteira, incluindo gramíneas próximas a lagoas pantanosas na borda da floresta (Giaretta <em>et al</em>., 2009; Segalla &amp; Carvalho-e-Silva, 2010). A reprodução acontece em lagoas temporárias e permanentes (Segalla &amp; Carvalho-e-Silva, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é muito abundante e sua tendência populacional parece ser estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda de vegetação nativa em algumas regiões na área de sua distribuição, não há evidências de ameaças que possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Segalla & Carvalho-e-Silva, 2010",
+              "title": "Segalla, M.V. &amp; Carvalho-e-Silva, S.P. (2010) <i>Physalaemus olfersii</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57269A11611700.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57269A11611700.en</a>."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Segalla & Carvalho-e-Silva, 2004",
+              "title": "Segalla, M.V. &amp; Carvalho-e-Silva, S.P. (2004) <i>Physalaemus olfersii</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/57269/11611571\">https://www.iucnredlist.org/species/57269/11611571</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Guaricana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA PEDRA BRANCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "Fauna de anfíbios, répteis e mamíferos do Estado do Rio de Janeiro, Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moraes <i>et al.</i>, 2007",
+              "title": "Composição e diversidade de anfíbios anuros em dois ambientes de Mata Atlântica no Parque Estadual Carlos Botelho, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL TURÍSTICO DO ALTO DO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo & Almeida-Santos, 2013",
+              "title": "Composição, riqueza e abundância de anuros em um remanescente de Cerrado e Mata Atlântica no estado de São Paulo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cassini, C.S.; Cruz, CAG. &amp; Caramaschi, U. 2010. Taxonomic review of <i>Physalaemus olfersii</i> (Lichtenstein & Martens, 1856) with revalidation of <i>Physalaemus lateristriga</i> (Steindachner, 1864) and description of two new related species (Anura: Leiuperidae). <b>Zootaxa</b>, 2491: p.1-33.",
+          "Cunha, A.K.; Oliveira, I.S. &amp; Hartmann, M.T. 2010. Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil. <b>Biotemas</b>, 23 (2): p.123-134.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Giaretta, A.A.; Martins, L.B. &amp; Santos, M.P. 2009. Further notes on the taxonomy of four species of <i>Physalaemus</i> (Anura, Leiuperidae) from the Atlantic Forest of Southeastern Brazil. <b>Zootaxa</b>, 2266: p.51–60.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Segalla, M.V. &amp; Carvalho-e-Silva, S.P. 2004. <i>Physalaemus olfersii</i>. <b>The IUCN Red List of Threatened Species 2004: e.T57269A11611571</b>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/57269/11611571\">https://www.iucnredlist.org/species/57269/11611571</a>.",
+          "Segalla, M.V. &amp; Carvalho-e-Silva, S.P. 2010. <i>Physalaemus olfersii</i>. <b>The IUCN Red List of Threatened Species</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57269A11611700.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57269A11611700.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "id_ficha": "30334e71763845634963363554336b634f45377732513d3d",
+  "nome_cientifico": "Cercophis auratus (Schlegel, 1837)",
+  "nome_cientifico_atual": "Cercophis auratus (Schlegel, 1837)",
+  "nome_comum": "Bicuda, Cipó-liquenosa, Cobra-cipó, cobra-líquen, cobra-sipó-metallica",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25490.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=30334e71763845634963363554336b634f45377732513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Cercophis auratus</i>&nbsp;<span>(Schlegel, 1837)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "28/05/2026",
+      "justificative": "<p><em>Cercophis auratus</em> foi descrita do Suriname com base em apenas um exemplar, tendo sido posteriormente descoberta na região de Porto Real, no Rio de Janeiro, a partir de uma coleta de 1890. Há um registro no Pará e vários outros registros na Mata Atlântica entre o sul da Bahia e o norte do Rio Grande do Sul. A espécie é pouco amostrada e de difícil detecção, mas possui ampla distribuição e não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>Cercophis auratus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Cercophis auratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25490.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25490.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 18362,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Cercophis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Cercophis auratus</i>"
+        }
+      ],
+      "oldNames": "Cercophis aurata, Dendrophis aurata, Dendrophis auratus, Leptophis ahaetulla, Leptophis ahaetulla liocercus, Leptophis flagellum, Leptophis occidentalis occidentalis, Leptophis vertebralis, Thalerosophis richardi liocercus, Uromacerina ricardinii, Uromacerina richardii, Uromacerina richardini, Uromacer Ricardinii, Uromacer riccardinii",
+      "commonNames": "Bicuda, Cipó-liquenosa, Cobra-cipó, cobra-líquen, cobra-sipó-metallica",
+      "taxonomicNotes": "<p>Hoogmoed <em>et al</em>. (2019) propuseram a sinonimização de <em>Uromacerina ricardinii,</em> descrita de São Paulo, Brasil, e <em>Dendrophis aurata</em>, descrita do Suriname e nunca mais ali registrada, com <em>Cercophis auratus.</em></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Cercophis auratus </em>possui registros no Suriname e no Brasil (Hoogmoed, 1997; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>A espécie foi descrita do Suriname com base em apenas um exemplar, tendo sido posteriormente descoberta na região de Porto Real, no Rio de Janeiro, a partir de uma coleção de 1890 (Hoogmoed, 1997). Há vários outros registros da espécie na Mata Atlântica entre o sul da Bahia e o norte do Rio Grande do Sul, além de um registro no noroeste do estado de São Paulo, no município de Fernandópolis, e um registro no nordeste do Pará (Hoogmoed <em>et al.,</em> 2019).</p>",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Pará, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Amazônia, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Grande, Sub-bacia Gurupi, Sub-bacia Jequitinhonha, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral RS, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6f53366776304d6c7961333633745873664f4b4e5a706b754961656a6441765a6a5a3543746e68396b2b2f6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Cercophis auratus",
+        "diskFileName": "9e7a966ee3aabaed29f0199faa48f8c7.png",
+        "fileName": "Mapa de Cercophis auratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há informações sobre a história natural da espécie. Considerando seus formato e tamanho, é provável que seja arborícola (Hoogmoed, 1997).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, que é pouco amostrada e de difícil detecção</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Cercophis auratus </em>é contemplada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste (ICMBio, 2019) e também é beneficiada pelo Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Ouboter, 2019",
+              "title": "Ouboter, P. (2019) <i>Cercophis auratus</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/15158700/15158709\">https://www.iucnredlist.org/species/15158700/15158709</a>. [Acessado em: 20/fev/2026]."
+            }
+          ],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná (2024), 2024",
+              "title": "Paraná (2024) 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº 11673.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Espírito Santo",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA, 2022",
+              "title": "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA 28/10/2022 <i><i>Decreto nº 5237-R, de 25 de novembro de 2022</i>. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA, 2017",
+              "title": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rio Grande do Sul, 2014",
+              "title": "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Pará",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Pará, 2007",
+              "title": "Estado do Pará 24/10/2007 <i>Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Passamani & Mendes, 2007",
+              "title": "Passamani, M. &amp; Mendes, S.L. (2007) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i> Vitória/ ES, Ipema - Institutos de Pesquisas da Mata Atlântica, 140pp."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2019",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2019 <i>Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2015",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA da Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL BORORé-COLôNIA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tenondé Porã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Estado do Pará 24/10/2007 <i>Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará</i>.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Hoogmoed, M.S. (1997) Rediscovery of a forgotten snake in an unexpected place and remarks on a small herpetological collection from southeastern Brazil. <i>Zoologische Mededeelingen</i>. 71, 63-81.",
+          "Hoogmoed, M.S., Fernandes, R., Kucharzewski, C., Moura-Leite, J.C., Bérnils, R.C., Entiauspe-Neto, O.M. &amp; Santos, F.P.R. (2019) Synonymization of <i>Uromacer ricardinii</i> Peracca, 1897 with <I>Dendrophis aurata</i> Schlegel, 1837 (Reptilia: Squamata: Colubridae: Dipsadinae), a Rare South American Snake with a Disjunct Distribution. <i>South American Journal of Herpetology</i>. 12 (4), 88-102.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2019 <i>Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste</i>.",
+          "Instituto Estadual de Meio Ambiente e Recursos Hídricos - IEMA 28/10/2022 <i><i>Decreto nº 5237-R, de 25 de novembro de 2022</i>. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Ouboter, P. (2019) <i>Cercophis auratus</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/15158700/15158709\">https://www.iucnredlist.org/species/15158700/15158709</a>. [Acessado em: 20/fev/2026].",
+          "Paraná (2024) 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº 11673.</i>",
+          "Passamani, M. &amp; Mendes, S.L. (2007) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i> Vitória/ ES, Ipema - Institutos de Pesquisas da Mata Atlântica, 140pp.",
+          "Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>.",
+          "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "id_ficha": "434a627067487958784f4176747553377437416f2f513d3d",
+  "nome_cientifico": "Scinax rizibilis (Bokermann, 1964)",
+  "nome_cientifico_atual": "Scinax rizibilis (Bokermann, 1964)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17816",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=434a627067487958784f4176747553377437416f2f513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax rizibilis</i>&nbsp;<span>(Bokermann, 1964)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Scinax rizibilis</em> é endêmica do Brasil, com registros de ocorrência na Mata Atlântica entre o estado de São Paulo e o nordeste do estado do Rio Grande do Sul. Trata-se de uma espécie comum, de ampla distribuição e com vários registros em unidades de conservação. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Portanto, <em>Scinax rizibilis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax rizibilis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17816 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17816",
+      "photo": {},
+      "version": 2,
+      "versionId": 14983,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax rizibilis</i>"
+        }
+      ],
+      "oldNames": "Hyla mirim, Hyla rizibilis, Ololygon mirim, Ololygon rizibilis",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax rizibilis</em> é endêmica do Brasil, com registros predominantes no bioma Mata Atlântica, entre os estados de São Paulo e o Rio Grande do Sul (Bokermann, 1964; Lutz, 1973; Bastos &amp; Haddad, 1999, 2001, 2002; Bastos<em> et al</em>., 2010; Armstrong et al., 2010; Lema &amp; Martins, 2011; Pombal Jr. <em>et al</em>., 2010). Sua extensão de ocorrência é de 249.602 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro. </p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/775142444a4b73617179454a51726f3469667461666c7a7463782b63502b6f51614a64794a4f6b474151457644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "9d2de09e46302c71dc6713b37e8e8318.png",
+        "fileName": "Mapa de Scinax rizibilis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax rizibilis </em>é uma espécie arborícola, encontrada em lagoas intermitentes de florestas primárias e secundárias; sua reprodução é explosiva e os ovos são depositados em lagoas, onde os girinos se desenvolvem (Rodrigues &amp; Garcia, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Scinax rizibilis</em> é comum ao longo de sua distribuição. No entanto, na localidade do Rio Grande do Sul, a espécie não é registrada há mais de 10 anos.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas que possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Scinax rizibilis</em> foi beneficiada após ajuste no primeiro ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul (ICMBio, 2012; RAN, 2015). Contudo, como é espécie Menos Preocupante (LC) na avaliação nacional (ICMBio/MMA, 2018), não foi contemplada no segundo ciclo desse PAN (ICMBio, 2019).</p> \n<p> </p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Garcia, 2004",
+              "title": "Rodrigues, M.T. &amp; Garcia, P. (2004) <i>Scinax rizibilis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en</a>. [Acessado em: 15/mai/2018]."
+            },
+            {
+              "label": "Rodrigues & Garcia, 2004",
+              "title": "Rodrigues, M.T. &amp; Garcia, P. (2004) <i>Scinax rizibilis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii)",
+          "refBibs": [],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii)",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leivas, 2014",
+              "title": "Estrutura de Comunidades de Anuros em Ilhas: padrões locais e regionais"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Irati",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            },
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Guaricana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Superagui",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leivas, 2014",
+              "title": "Estrutura de Comunidades de Anuros em Ilhas: padrões locais e regionais"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Itajaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dias, 2006",
+              "title": "Riqueza de espécies e ambientes de reprodução de uma comunidade de anuros (Amphibia, Anura) na região do Mono, no Parque Nacional da Serra do Itajaí, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DA ILHA DO MEL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leivas, 2014",
+              "title": "Estrutura de Comunidades de Anuros em Ilhas: padrões locais e regionais"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DOS CAETETUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brassaloti <i>et al.</i>, 2010",
+              "title": "Anurofauna da floresta estacional semidecidual da Estação Ecológica dos Caetetus, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE ANGATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo & Almeida-Santos, 2013",
+              "title": "Composição, riqueza e abundância de anuros em um remanescente de Cerrado e Mata Atlântica no estado de São Paulo"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani <i>et al.</i>, 2010",
+              "title": "Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil"
+            },
+            {
+              "label": "Bertoluci <i>et al.</i>, 2007",
+              "title": "Species composition and similarities among anuran assemblages of forest sites in Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2017",
+              "title": "Expanding the knowledge about the occurrence of anurans in the highest amphibian diversity area of Atlantic Forest: Parque Estadual da Serra do Mar, São Paulo, Brazil"
+            },
+            {
+              "label": "Malagoli, 2013",
+              "title": "Diversidade e Distribuição dos anfíbios anuros do Núcleo Curucutu, Parque Estadual da Serra do Mar, SP"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO TURVO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forti, 2013",
+              "title": "Organização acústica e microespacial de agregações reprodutivas de anfíbios anuros da Mata Atlântica: competição ou confusão?"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL TURÍSTICO DO ALTO DO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo <i>et al.</i>, 2010",
+              "title": "Amphibians and reptiles of the Parque Estadual Turístico do Alto Ribeira (PETAR), SP: an Atlantic Forest remnant of Southeastern Brazil"
+            },
+            {
+              "label": "Forti, 2013",
+              "title": "Organização acústica e microespacial de agregações reprodutivas de anfíbios anuros da Mata Atlântica: competição ou confusão?"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL NASCENTES DE PARANAPIACABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Trevine <i>et al.</i>, 2014",
+              "title": "Herpetofauna of Paranapiacaba: expanding our knowledge on a historical region in the Atlantic forest of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Yanzen & Costa, 2014",
+              "title": "Anurofauna"
+            },
+            {
+              "label": "Cardoso, 2006",
+              "title": "Uso de ambientes por uma comunidade de anuros de São Luís do Purunã, município de Balsa Nova, estado do Paraná"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            },
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte & Rossa-Feres, 2006",
+              "title": "Diversidade e ocorrência temporal da anurofauna (Amphibia, Anura) em São José dos Pinhais, Paraná, Brasil"
+            },
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2017",
+              "title": "Expanding the knowledge about the occurrence of anurans in the highest amphibian diversity area of Atlantic Forest: Parque Estadual da Serra do Mar, São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lema & Martins, 2011",
+              "title": "Anfíbios do Rio Grande do Sul: Catalogo, diagnoses, distribuição, iconografia"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural, dinâmica populacional e distribuição geográfica ainda são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Armstrong, C.G. &amp; Conte, C.E. 2010. Taxocenose de anuros (Amphibia: Anura) em uma área de Floresta Ombrófila Densa no Sul do Brasil. <b>Biota Neotropica</b>, 10 (1): p.39-46.",
+          "Bastos, R.P. &amp; Haddad, C.F.B. 1999. Atividade reprodutiva de <i>Scinax rizibilis</i> (Bokermann) (Anura, Hylidae) na Floresta Atlântica, sudeste do Brasil. <b>Revista Brasileira de Zoologia</b>, 16 (2): p.409-421.",
+          "Bastos, R.P. &amp; Haddad, C.F.B. 2001. Larvas de <i>Scinax rizibilis</i> (Bokermann) (Anura, Hylidae): avaliando o efeito parental. <b>Revista Brasileira de Biologia</b>, 18 (4): p.1127 -1133.",
+          "Bastos, R.P. &amp; Haddad, C.F.B. 2002. Acoustic and aggressive interactions in <i>Scinax rizibilis</i> (Anura: Hylidae) during the reproductive activity in southeastern Brazil. <b>Amphibia-Reptilia</b>, 23: p.97-104.",
+          "Bastos, R.P.; Haddad, C.F.B. &amp; Pombal Jr., J.P. 2010. Foam nest in <i>Scinax rizibilis</i> (Amphibia: Anura: Hylidae). <b>Zoologia</b>, 27 (6): p.881-886.",
+          "Bokermann, W.C.A. 1964. Uma nova espécie de “<i>Hyla</i>” da Serra do Mar em São Paulo (Amphibia, Salientia). <b>Revista Brasileira de biologia</b>, 24 (4): p.429-434.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Estado do Rio Grande do Sul 09/09/2014. Decreto n.º 51.797, de 8 de setembro de 2014. Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul. Disponível em: <a target=\"_blank\" href=\"http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf\">http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf</a>.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012.",
+          "ICMBio 30/07/2019. Portaria nº 350 de 23 de julho de 2019, que aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.47. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080\">https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080</a>. Acessado em: 12/10/2019.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lema, T. &amp; Martins, L.A. 2011. <b>Anfíbios do Rio Grande do Sul: Catalogo, diagnoses, distribuição, iconografia</b>. p.197. ediPUCRS Porto Alegre.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Pombal Jr., J.P.; Carvalho Jr., R.R.; Canelas, M.A.S. &amp; Bastos, R.P. 2010. A new <i>Scinax</i> of the <i>S. catharinae</i> species group from central Brazil (Amphibia: Anura: Hylidae). <b>Sociedade Brasileira de Zoologia, Curitiba</b>, 27: p.795-802.",
+          "RAN, (Centro Nacional de Pesquisa e Conservação dos Répteis e Anfíbios) 2015. Relatório da 3a. Monitoria e Avaliação de Meio Termo do PAN Herpetofauna do Sul. Processo SEI: 02071.000084/2017-20. Goiânia - GO. p.56.",
+          "Rodrigues, M.T. &amp; Garcia, P. 2004. <i>Scinax rizibilis</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55992A11394386</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55992A11394386.en</a>. Acessado em: 15/05/2018."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

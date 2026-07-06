@@ -1,0 +1,294 @@
+{
+  "id_ficha": "746b4f692f4f5a4177475531612b7a4d5231502f6a413d3d",
+  "nome_cientifico": "Allobates tinae Melo-Sampaio, Oliveira & Prates, 2018",
+  "nome_cientifico_atual": "Allobates tinae Melo-Sampaio, Oliveira & Prates, 2018",
+  "nome_comum": "Rã-cuidadora",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20202.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=746b4f692f4f5a4177475531612b7a4d5231502f6a413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Allobates tinae</i>&nbsp;<span>Melo-Sampaio, Oliveira & Prates, 2018</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Allobates tinae</em> é endêmica do Brasil e possui ampla distribuição na Amazônia, com registros ao sul do rio Amazonas nos estados do Acre, Amazonas e Rondônia. Ao longo de sua área de ocorrência são observados remanescentes florestais bem conservados e não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Allobates tinae</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2022. <i>Allobates tinae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20202.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20202.1",
+      "photo": {
+        "authorName": "Pedro Ivo Simões",
+        "authorEmail": "pedroivo@inpa.gov.br",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "5ec8d55b74212adb2a185ef2c76b5032.PNG",
+        "fileName": "Allobates tinae.PNG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/3062633662324e2b3559682b6b7266663845784f4d4c473245623479536446477a56497978345031494a38683542304153567a354c7a4a55515950767248546a/full"
+      },
+      "version": 1,
+      "versionId": 15668,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Aromobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Allobates</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Allobates tinae</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Rã-cuidadora",
+      "taxonomicNotes": "<p>Caracteres bioacústicos, morfológicos e moleculares diferenciam <em>A. tinae</em> de suas congêneres, mas a espécie foi previamente confundida com outras, como <em>Allobates</em> aff. <em>conspicuus</em> e <em>Allobates flaviventris</em>, devido a similaridades morfológicas (Melo-Sampaio <em>et al.,</em> 2018).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Allobates tinae</em> é endêmica do Brasil, com distribuição conhecida para a Amazônia ocidental ao sul do rio Amazonas, nos estados do Acre, Amazonas e Rondônia. Sua localidade-tipo é o Platô do Piquiá, no município de Boca do Acre, no estado do Amazonas (Melo-Sampaio <em>et al.,</em> 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Acre, Amazonas, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6b6f4a777445766f6570536335614b6a4133346b2b42546a6669706c7339526871466f504e78644170794e4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Allobates tinae",
+        "diskFileName": "09edd65010a47c004851a4c1b4ca9ad1.png",
+        "fileName": "Mapa de Allobates tinae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Allobates</em> <em>tinae</em> possui hábitos diurnos e é terrícola. Machos machos vocalizantes foram registrados entre 15:30 a 18:00h. Informação sobre o seu canto de anúncio são apresentadas por Melo-Sampaio <em>et al</em>. (2018).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Allobates tinae</em> foi descrita a partir de 19 espécimes oriundos de três subpopulações (uma no estado do Acre e duas no estado do Amazonas) coletados entre 2009 a 2013 (Melo-Sampaio <em>et al.,</em> 2018). Várias outras subpopulações são conhecidas. Levantamentos realizados na Reserva Extrativista Arapixi (P.R. Melo-Sampaio, dados não publicados) e Reserva Extrativista do Médio Purus (Waldez <em>et al</em>., 2013) não detectaram a ocorrência da espécie, embora essas unidades de conservação estejam próximas à área de ocorrência da espécie (Melo-Sampaio <em>et al.,</em> 2018). Não há dados para evidenciar a tendência populacional.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A porção sul da distribuição da espécie, em Rondônia, está situada no chamado arco do desmatamento, que vem sofrendo grande redução florestal principalmente devido ao avanço de atividades agropecuárias. No entanto, a distribuição da espécie é bastante ampla e abriga extensas áreas de floresta. Não foram identificadas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.2 - Plantações agro-industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação direcionadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Melo-Sampaio <i>et al.</i>, 2018",
+              "title": "A New Nurse Frog from Brazil (Aromobatidae: <I>Allobates</i>), with Data on the Distribution and Phenotypic Variation of Western Amazonian Species"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Melo-Sampaio <i>et al.</i>, 2018",
+              "title": "A New Nurse Frog from Brazil (Aromobatidae: <I>Allobates</i>), with Data on the Distribution and Phenotypic Variation of Western Amazonian Species"
+            }
+          ]
+        },
+        {
+          "name": "Coata-Laranjal",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Melo-Sampaio <i>et al.</i>, 2018",
+              "title": "A New Nurse Frog from Brazil (Aromobatidae: <I>Allobates</i>), with Data on the Distribution and Phenotypic Variation of Western Amazonian Species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Melo-Sampaio <em>et al.</em> (2018) recomendam inventários nas unidades de conservação Flona do Iquiri, Flona Mapiá-Inauini, Parque Estadual do Matupiri e Parque Nacional Mapinguari para avaliar se a espécie está de fato protegida, considerando que parte de sua distribuição abrange a porção sul da Amazônia brasileira, que vem sofrendo intenso desmatamento.</p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Melo-Sampaio, P.R.; Oliveira, R.M. &amp; Prates, I., 2018. A New Nurse Frog from Brazil (Aromobatidae: <I>Allobates</i>), with Data on the Distribution and Phenotypic Variation of Western Amazonian Species. South American Journal of Herpetology, 13 (2): p.131-149.",
+          "Simões, P.I. 2016. A new species of nurse-frog (Aromobatidae, <i>Allobates</I>) from the Madeira River basin with a small geographic range. <b>Zootaxa</b>, 4083 (4): p.501–525."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "id_ficha": "48534773494d546970586f5771524433492f716d65773d3d",
+  "nome_cientifico": "Peltocephalus dumerilianus (Schweigger, 1812)",
+  "nome_cientifico_atual": "Peltocephalus dumerilianus (Schweigger, 1812)",
+  "nome_comum": "Acanguaçu, Cabeçudo, Capitari (machos), Jurará, Peindu, Tartaruga-arara, Tartaruga-de-bico-de-arara, Tortuga-de-charco",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20830.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=48534773494d546970586f5771524433492f716d65773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Peltocephalus dumerilianus</i>&nbsp;<span>(Schweigger, 1812)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "24/02/2026",
+      "justificative": "<p><em>Peltocephalus dumerilianus</em> ocorre na América do Sul, é encontrada nas bacias Orinoco e Amazônica, com registros para a Venezuela, Colômbia, Peru, Brasil, Guiana e Guiana Francesa. No Brasil, possui registros nos estados do Amapá, Pará, Amazonas e Roraima, sendo que boa parte de sua distribuição no país ocorre em áreas com baixa densidade humana. Diferentemente das outras espécies da família Podocnemididae, essa espécie não desova em praias abertas, mas sim no interior de florestas de terra firme próximas aos igarapés. Os ninhos são misturados com folhas e cupinzeiros e, por isso, difíceis de serem encontrados. Embora haja consumo humano de indivíduos adultos ao longo do ano, não há indícios de impactos afetando significativamente sua população. Por essas razões, <em>Peltocephalus dumerilianus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Fábio Maffei; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luís Regolin; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques; Elizângela Silva de Brito",
+      "citation": "<p>Maffei, F.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S.; Brito, E.S. 2026. <i>Peltocephalus dumerilianus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20830.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20830.3",
+      "photo": {
+        "authorName": "Fábio Andrew Gomes Cunha",
+        "authorEmail": "fabioagcunha@gmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "f410d54a89041c8c9ac0e5bfeea7d363.jpg",
+        "fileName": "Captura de Tela 2024-05-26 às 01.39.27.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/5962786563592b75394435477a7278654d4361582b626830396e6269742b45434e2f716e654c7962664f39704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 3,
+      "versionId": 30444,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Podocnemididae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Peltocephalus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Peltocephalus dumerilianus</i>"
+        }
+      ],
+      "oldNames": "Chelys (Hydraspis) dumerilliana, Chelys (Hydraspis) lata, Emys dumeriliana, Emys icterocephala, Emys macrocephala, Emys tracaxa, Peltocephalus dumeriliana, Peltocephalus dumerilianus, Peltocephalus Tracaxa, Peltocephalus tracaya, Podocnemis Dumeriliana, Podocnemis tracaxa",
+      "commonNames": "Acanguaçu, Cabeçudo, Capitari (machos), Jurará, Peindu, Tartaruga-arara, Tartaruga-de-bico-de-arara, Tortuga-de-charco",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Peltocephalus dumerilianus</em> é amplamente distribuída no norte da América do Sul, sendo encontrada nas bacias do Orinoco e Amazônica, com registros para Venezuela, Colômbia, Equador, Peru, Guiana, Guiana Francesa, Equador e Brasil (Pri­tchard &amp; Trebbau, 1984; Iverson, 1992; Rodriguez &amp; Rojas-Suarez, 1995; Perez-Eman &amp; Paolillo, 1997; Ceballos-Fonseca, 2000; Iverson &amp; Vogt, 2002; Cisneros-Heredia, 2006; Barrio-Amoros &amp; Narbazia, 2008; Ferronato &amp; Morales, 2012; Pineda Catalan <em>et al.,</em> 2013; Van Dijk <em>et al.,</em> 2014). </p>",
+      "nationalDistribution": "<p>No Brasil, ocorre na região hidrográfica Amazônica e na Tocantins/Araguaia (ANA, 2016), com registros para os estados do Amapá, Amazonas, Pará e Roraima (Pritchard &amp; Trebbau, 1984; Nascimento <em>et al</em>., 1991; Ferrara <em>et al</em>., 2005; Lima <em>et al.,</em> 2007; Noronha &amp; Silveira, 2009; Pezzutti <em>et al</em>., 2022).</p>",
+      "states": "Amapá, Amazonas, Pará, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/645a4b5954477666436548645738484e6b63532f626537516465512b4d44584845516f504a37616c5544336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Peltocephalus dumerilianus",
+        "diskFileName": "6fc29ce61bd476a483667203920dc1ea.png",
+        "fileName": "Mapa de Peltocephalus dumerilianus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Peltocephalus dumerilianus</em> (cabeçudo) ocorre na Amazônia, é onívora, oportunista e generalista, podendo apresentar oofagia canibalística (De La Ossa <em>et al</em>., 2009). A espécie prefere os meandros dos rios e canais do sistema de águas pretas, apesar de ser encontrada, em menor proporção, nos rios de águas brancas e claras (Rueda-Almonacid <em>et al.,</em> 2007). Tem preferência por ambientes florestados preservados e é encontrada em águas superficiais, entre 1 e 3 metros de profundidade (Vogt, 2008). A espécie permanece no igarapé durante todo o ano, não migrando para o igapó, conforme se esperava, o que pode facilitar ações de proteção (R. Vogt, com. pess., 2018).</p> \n<p>Diferentemente das outras espécies da família Podocnemididae, no Brasil, a espécie não desova em praias abertas, mas sim nas areias secas na floresta de igapó e mata de terra firme próxima ao igarapé. Os ninhos são postos em barrancos de terra junto a raízes de árvores caídas sobre troncos mortos e em solos emersos ao longo do curso dos igarapés (Pritchard &amp; Trebbau, 1984; Moretti, 2004). A postura é feita entre 1e 8 metros da margem do igarapé (Moretti, 2004; Vogt, 2008), mas em solo da mata de igapó, os ninhos são encontrados até 12 metros do recurso hídrico (Vogt <em>et al.,</em> 1994).</p> \n<p>A espécie apresenta um período reprodutivo por ano com uma (Vogt, 2008; Velasquez &amp; Vogt, 2011) a duas (R. Vogt, com. pess., 2018) desovas solitárias, que ocorrem dentro da floresta ou na sua borda (Medem, 1983). Aparentemente, as fêmeas não são seletivas na escolha das áreas de desova (Vogt <em>et al.,</em> 1994). As fêmeas de <em>P. dumerilianus</em> começam sua estação de ovipostura logo no princípio da vazante, quando ainda é pouco perceptível a diminuição do nível das águas fluviais (Moretti, 2004). A nidificação acontece entre agosto e outubro, chegando até novembro, podendo variar conforme a localidade. O tamanho da ninhada varia de 3 a 25 ovos e o período de incubação médio está entre 74 e 97 dias (Vogt <em>et al</em>., 1994; Vogt, 2001; Félix-Silva, 2004; Moretti, 2004).</p> \n<p>O sucesso de eclosão varia de acordo com a região, variando entre 16,7 e 33,3% (Vogt <em>et al., </em>1994; Moretti, 2004; Félix-Silva, 2004). A definição do sexo dos embriões depende da temperatura de incubação dos ovos (Vogt, 2008): temperatura média de 29,73 ºC produz significativamente maior número de machos, enquanto temperaturas mais baixas favorecem a maior proporção de fêmeas (Vogt, 2001; De La Ossa, 2007). A maturidade sexual é alcançada com 27–30 cm de comprimento da carapaça em ambos os sexos (Rueda-Almonacid <em>et al.,</em> 2007).</p> \n<p>Machos são maiores do que fêmeas (Pezzutti <em>et al</em>., 2022). O tamanho máximo observado em fêmeas é de 47 cm de comprimento linear de carapaça e 8 kg de massa corporal (Medem, 1983; Iverson &amp; Vogt, 2002), e de machos é de 52 cm de comprimento linear da carapaça e 16 kg de massa corporal (Ernst &amp; Barbour, 1989; Iverson &amp; Vogt, 2002; Pezzutti <em>et al</em>., 2022).</p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Apesar de uma ampla distribuição geográfica no Brasil, grande parte das áreas potenciais de ocorrência de <em>P. dumerilianus</em> carece de amostragem sistemática, sendo as informações frequentemente baseadas em inferências ou relatos de terceiros. Existem apenas dois estudos que investigaram a estrutura populacional da espécie. um na região de Barcelos e outro no Parna Jaú, Rio Jaú (Pezzuti <em>et al</em>., 2022), ambos no Amazonas. No Rio Jaú, a população foi considerada estável, apesar das pressões antrópicas.</p> \n<p>Há conectividade entre as populações dos países vizinhos e é plausível que ocorra fluxo gênico, no entanto, não se sabe o quanto reflete na manutenção das subpopulações no Brasil.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Assim como as outras espécies brasileiras da família Podocnemididae, <em>Peltocephalus dumerilianus</em> é utilizada na alimentação humana. Os adultos são caçados com o uso de espinhel, malhadeira (Moretti, 2004), jaticá e baliza (C. Ferrara, com. pess., 2014; P. Andrade, com. pess., 2024), havendo preferência por indivíduos maiores (Pezzutti <em>et al</em>., 2022). É o quelônio mais consumido na região do rio Negro (AM), principalmente na cidade de Barcelos e na comunidade de Caracuá (Vogt, 2008). Também é muito consumido no Parque Nacional do Jaú (AM) (Pezzutti <em>et al.,</em> 2010). Embora haja consumo humano de carne e de ovos da espécie no rio Trombetas (PA), <em>P.</em> <em>dumerilianus</em> é a espécie da família Podocnemididae com menor exploração de uso para alimentação nessa região, uma vez que que a ovipostura é realizada entre as folhas e cupinzeiros, sendo, portanto, difícil de ser encontrada. Além disso, os mesmos são construídos nas florestas as margens dos igarapés (Moretti, 2004; Vogt, 2008). Deste modo, desflorestamento dos igarapés altera os sítios reprodutivos e facilita a predação de ninhos. As inundações de igarapés em consequência de construções de reservatórios para hidrelétricas prejudicam o habitat da espécie (Vogt, 2008). <em>Peltocephalus dumerilianus</em> está presente em autos de infração dos estados do Amazonas e Ceará, resultando em 1.024 indivíduos apreendidos, sendo provenientes de caça ou criadouros ilegais.</p> \n<p>A contaminação por metais pesados, especialmente, mercúrio na região do rio Negro, pode ocasionar riscos à espécie, uma vez que ela se alimenta de peixes, podendo ocorrer bioacumulação e biomagnificação em seu organismo. Deste modo, considera-se a contaminação por metais uma ameaça (Schneider <em>et al.,</em> 2010). </p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.5 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.4 - Extração de minérios - garimpo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.1 - Captura intencional - subsistência/pequena escala|5.4.1.1 - Coleta manual",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.2 - Comercial - Nacional/Local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.2 - Captura intencional - larga escala|5.4.2.8 - Espinhel|5.4.2.8.1 - Espinhel de superfície",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A carne e ovos de<em> Peltocephalus dumerilianus</em> são utilizados na alimentação humana, no entanto, em menor intensidade se comparado às outras espécies de podocnemidídeos no Brasil (Moretti, 2004; Vogt, 2008). Não há trafico de ovos dessa espécie, pois não desovam em praias, mas sim em locais de difícil acesso (R. Vogt, com. pess., 2017). No rio Negro, machos são utilizados na alimentação e vendidos ilegalmente em maior número quando comparados com fêmeas (Pezzutti <em>et al</em>., 2022). Além disso, há uma predileção por espécimes maiores. </p> \n<p><em>Peltocephalus dumerilianus</em> é capturada para o comércio local e internacional, com parte dessa exploração voltada para a criação como animal de estimação (Gorzula &amp; Señaris 1999). Além da carne e ovos, outras partes do corpo da espécie são usadas por algumas comunidades: o sangue como veneno de formigas, a gordura como cosmético e os ossos como ornamentos e em práticas medicinais (Silva, 2008; Félix-Silva <em>et al</em>., 2018; Gentil <em>et al</em>., 2021a).</p> \n<p>No Oiapoque, em 2004, um programa de monitoramento registrou o consumo de 187 quelônios, dos quais apenas 20 eram <em>P. dumerilianus</em> (von Mühlen, 2005). Tradicionalmente, essa espécie não era muito apreciada até o declínio de <em>P. unifilis</em>, e o consumo de seus ovos ou a criação de filhotes como pets ainda é raro em comparação com outras espécies na região.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Moretti, 2004",
+              "title": "Moretti, R. (2004) <i>Biologia reprodutiva de <i>Podocnemis erythrocephala</i> (Spix, 1824), <i>Podocnemis expansa</i> (Schweigger, 1812) e <i>Peltocephalus dumerilianus</i> (Schweigger, 1812) (Testudinata, Podocnemididae) na bacia do Rio Trombetas, Pará</i>. Dissertação de Mestrado. Mestrado em Biologia da Conservaçã. Universidade de São Paulo. 77p.pp."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>O Projeto Quelônios da Amazônia (PQA) é executado nas áreas de ocorrência natural, principalmente das espécies <em>P.</em> <em>expansa,</em> <em>P.</em> <em>unifilis </em>e <em>P.</em> <em>sextuberculata</em>, atuando nos rios das bacias Amazônica e Tocantins/Araguaia. O projeto foi criado em 1979, visando a conservação dos quelônios amazônicos, tendo atuado até 2001 sob coordenação do Centro Nacional dos Quelônios da Amazônia (Cenaqua/IBAMA) e, posteriormente, pelo Centro Nacional de Pesquisa de Conservação de Répteis e Anfíbios (RAN/ICMBio) (Cantarelli <em>et al.,</em> 2014). De 1992 a 1993, o PQA realizou trabalhos de proteção e manejo em 34 sítios de reprodução de <em>Peltocephalus dumerilianus</em>, no interior da Reserva Biológica do Rio Trombetas ou sua área de influência. </p> \n<p>Vale ressaltar que, entre os anos 2007 a 2010, somente algumas unidades executoras do PQA realizaram poucas ações do projeto, pois nesse período havia indefinição da locação administrativa e funcional do projeto entre as autarquias do governo federal, Ibama e ICMBio (R. Balestra, com. pess., 2016). O Programa foi retomado pelo Ibama em 2011 (Portaria nº 259/2011, Ibama, 2011), sendo reestruturado posteriormente (Ibama, 2013). Uma miríade de problemas motivadas principalmente pelo severo contingenciamento de recursos financeiros imposto pelo Governo Federal, e priorização de ações de fiscalização contra desmatamentos e queimadas, notadamente no bioma Amazônia, imputaram ao projeto limitações operacionais que restringiram sensivelmente a abrangência e a sistematização na coleta de dados do monitoramento reprodutivo, mesmo para as espécies alvo (R. Balestra e R. V. Lacava e Silva, com. pess., 2016). O RAN/ICMBio colabora técnico-cientificamente com as unidades de conservação com ocorrência da espécie (R. Balestra, com. pess., 2016). Paralelamente, o RAN/ICMBio, através do seu Programa de Monitoramento e Manejo Conservacionista de Quelônios Amazônicos, vem implementando uma série de ações por meio de projetos de pesquisa direcionados à conservação dos quelônios nas Unidades de Conservação Federais, mas não há nada específico para <em>Peltocephalus dumerilianus</em> (R. Balestra, com. pess., 2016).</p> \n<p>Em 2011, o PQA, por meio da Portaria Ibama nº 259, foi renomeado “Programa Quelônios da Amazônia - PQA”, e ficou sob a responsabilidade da Coordenação de Fauna Silvestre (Cofau)/ Diretoria de Uso Sustentável da Biodiversidade e Florestas (DBFLO) do Ibama, mantendo sua estrutura e concepção finalística habitual (Ibama, 2011). Dado o interesse do Ibama, ICMBio e comunidade científica foi criado o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos (PAN Quelônios Amazônicos), aprovado pela Portaria Conjunta Ibama/ICMBio nº.1/2015. O PAN Quelônios Amazônicos tem como objetivo geral aperfeiçoar as estratégias de conservação para os quelônios amazônicos e promover ações para sua recuperação e uso sustentável, especialmente para as espécies-alvo (<em>Podocnemis unifilis, P. expansa e P. sextuberculata</em>), mas também para outras espécies que ocorrem na região, como: <em>Podocnemis erythrocephala, Peltocephalus dumerialianus, Chelus fimbriata, Platemys platycephala, Mesoclemmys nasuta, M. raniceps, M. gibba, Phrynops geoffroanus, P. tuberosus, Rhinemys rufipes, Kinosternon scorpioides, Rhinoclemmys punctularia, Chelonoidis carbonarius </em>e<em> C. denticulatus</em> (Brasil, 2015).</p> \n<p>A coordenação do PAN é do Ibama e o RAN/ICMBio é parceiro e membro do Grupo de Assessoramento Técnico (GAT). Como frutos gerados dessa parceria destacam-se: Sistema de Gestão e Informação dos Quelônios Amazônicos - SisQuelônios, desenvolvido pelo RAN/ICMBio e implementado em 2014, como ferramenta para sistematização dos dados do PAN e compartilhado com a coordenação do PQA; o Roteiro para inventários e monitoramento de quelônios continentais (Balestra <em>et al.,</em> 2016) e o Manual Técnico - Manejo Conservacionista e Monitoramento Populacional de Quelônios Amazônicos (Ibama, 2016), que visa orientar e padronizar a obtenção de dados, propiciando consolidá-los em bancos de dados robustos, cujas informações poderão ser geridas pelo SisQuelônios (R. Balestra, com. pess., 2016).</p> \n<p>- Recomenda-se intensificação das ações de fiscalização sobre a apanha e o comércio ilegal de <em>Peltocephalus dumerialianus</em> e o desenvolvimento de ações de educação ambiental voltadas para as comunidades locais; e</p> \n<p>- Recomenda-se incluir nas condicionantes do licenciamento de empreendimentos na área de extensão de ocorrência da espécie, ações mitigadoras para a mesma, bem como, exigir programas de monitoramentos das suas subpopulações, assim como, a avaliação do grau de consumo e tráfico de espécimes na região, principalmente nos estados do Amazonas e Pará.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Peltocephalus dumerilianus (Schweigger, 1812)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2016"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2014,
+          "coverage": "Colômbia",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Morales-Betancourt <i>et al.</i>, 2015",
+              "title": "Morales-Betancourt, M. A., Lasso, C.A., Páez, V.P. &amp; Bock, B.C. (2015) <i>Libro rojo de reptiles de Colombia</i> Bogotá, Colombia, Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), Universidad de Antioquia, 258 p.pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2008,
+          "coverage": "Venezuela",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A2abd",
+          "refBibs": [
+            {
+              "label": "Rodríguez & Rojas-Suárez, 2008",
+              "title": "Rodríguez, J.P. &amp; Rojas-Suárez, F. (2008) <i>Libro Rojo de la Fauna Venezolana</i> Edição Tercera Edición Caracas, Venezuela, Provita y Shell Venezuela, S.A., 364 pppp."
+            }
+          ],
+          "orderBy": "Z2008"
+        },
+        {
+          "type": "Nacional Outro País",
+          "year": 2005,
+          "coverage": "Equador",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carrillo <i>et al.</i>, 2005",
+              "title": "Carrillo, E., Aldás, S., Altamirano, M., Ayala, F., Cisneros, D., Endara, A., Márquez, C., Morales, M., Nogales, F., Salvador, P., Torres, M. L., Valencia, J., Villamarin, F., Yánez, M. &amp; Zarate, P. (2005) Lista Roja de los Reptiles del Ecuador."
+            }
+          ],
+          "orderBy": "Z2005"
+        },
+        {
+          "type": "Global",
+          "year": 1996,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A1acd",
+          "refBibs": [
+            {
+              "label": "TFTSG (Tortoise & Freshwater Turtle Specialist Group), 1996",
+              "title": "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Peltocephalus dumerilianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T16511A5972664.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T16511A5972664.en</a>. [Acessado em: 21/jan/2016]."
+            }
+          ],
+          "orderBy": "Y1996"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 2015,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação dos Quelônios",
+          "refBibs": [
+            {
+              "label": "Brasil, 2015",
+              "title": "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>."
+            }
+          ]
+        },
+        {
+          "name": "Capacitação/treinamento",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Legislação e política",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": [
+            {
+              "label": "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis), 2011",
+              "title": "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (2011) Portaria-ibama nº. 259, de 21 de março de 2011."
+            }
+          ]
+        },
+        {
+          "name": "Manejo de espécies",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": [
+            {
+              "label": "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis), 2011",
+              "title": "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (2011) Portaria-ibama nº. 259, de 21 de março de 2011."
+            }
+          ]
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": [
+            {
+              "label": "Cantarelli <i>et al.</i>, 2014",
+              "title": "Cantarelli, V. H., Malvasio, A. &amp; Verdade, L. M. (2014) Brazil’s <i>Podocnemis expansa</i> Conservation Program: Retrospective and Future Directions. <i>Chelonian Conservation and Biology</i>. 13 (1), 124-128."
+            }
+          ]
+        },
+        {
+          "name": "Controle e fiscalização",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ventura <i>et al.</i>, 2014",
+              "title": "The lowest diploid number in Testudines: Banding patterns, telomeric and 45S rDNA FISH in <i>Peltocephalus dumerilianus</i>, 2n = 26 and FN = 52 (Pleurodira, Podocnemididae)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Amazonas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Gurgel, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Gurgel, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pacheco, 2022",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 1994",
+              "title": "Reproduction of the cabecudo, <i>Peltocephalus dumerilianus</i>, in the Biological Reserve of Rio Trombetas, Pará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Unini",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vogt, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2007",
+              "title": "Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Rio Branco-Jauaperi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Médio Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2007",
+              "title": "Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima <i>et al.</i>, 2007",
+              "title": "Quelônios e jacarés do estado do Amapá e seu <i>status</i> de conservação"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Jutaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morcatty, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE TAPAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            },
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Schneider <i>et al.</i>, 2010",
+              "title": "Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ARACÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lainson & Naiff, 1998",
+              "title": "<i>Haemoproteus</i> (Apicomplexa: Haemoproteidae) of tortoises and turtles"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Acosta, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL IGAPÓ-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM DIREITA DO RIO NEGRO- SETOR PADUARI-SOLIMÕES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM ESQUERDA DO RIO NEGRO-SETOR ATURIÁ-APUAUZINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Negro",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Cué Cué/ Marabitanas",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Gurgel, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Jumina",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Médio Rio Negro I",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Rodriguez & Rojas-Suarez, 1995",
+              "title": "Libro Rojo de la Fauna Venezolana"
+            }
+          ]
+        },
+        {
+          "name": "Rio Téa",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Velásquez, 2007",
+              "title": "Ecologia e conservação de <i>Peltocephalus dumerilianus</i> (Testudines Podocnemididae) em Barcelos, Amazonas, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        },
+        {
+          "name": "Uaça",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Noronha & Da Silveira, 2009",
+              "title": "Etnoconservação de quelônios pelos povos indígenas do Oiapoque"
+            }
+          ]
+        },
+        {
+          "name": "Uneiuxi",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Mayrink, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Waimiri-Atroari",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Burger <i>et al.</i>, 2010",
+              "title": "Arsenic, cadmium, chromium, lead, mercury, and selenium levels in blood of four species of turtles from the Amazon in Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pritchard & Trebbau, 1984",
+              "title": "The turtles of Venezuela"
+            }
+          ]
+        },
+        {
+          "name": "Zoe",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 1998",
+              "title": "Esophageal Papillae in Pelomedusid Turtles"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Recomendam-se estudos de dinâmica populacional visando, sobretudo, avaliar os impactos das ameaças sobre as subpopulações.</p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Outro",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "ANA (Agência Nacional de Águas e Saneamento Básico) (2016) Divisões hidrográficas do Brasil. <a target=\"_blank\" href=\"https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas\">https://www.ana.gov.br/panorama-das-aguas/divisoes-hidrograficas</a>. [Acessado em: 07/jul/2016].",
+          "Andrade, P.C.M. (2013) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Andrade, P.C.M. (2014) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Andrade, P.C.M. (2015) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Andrade, P.C.M. (2019) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Andrade, P.C.M., Oliveira, A.B., Almeida Júnior, C.D., Souza, H.C.M., Oliveira, P.H.G. &amp; Rodrigues, W.S. (2007) Levantamento e manejo de quelônios por comunidades no Médio e Baixo rio Juruá, Amazonas . In: Sociedade Brasileira de Herpeptologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém, PA.",
+          "Balestra, R.A.M., Valadão, R.M., Vogt, R.C., Bernhard, R., Ferrara, C.R., Brito, E.S, Botero-Arias, R., Malvásio, A., Lustosa, A.P.G., Souza, F.L., Drummond, G.M., Bassetti, L.A.B., Coutinho, M.E., Junior, P.D.F., Campos, Z., Mendonça, S.H.S.T., Rocha, J.M.N.R. &amp; Luz, V.L.F. (2016) Roteiro para Inventários e Monitoramentos de Quelônios Continentais. <i>Biodiversidade Brasileira</i>. 6 (1), 114-152.",
+          "Bernhard, R. (2004) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Bernhard, R. (2005) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Bernhard, R. (2006) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Bernhard, R. (2008) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>.",
+          "Burger, J., Jeitner, C., Schneider, L., Vogt, R. &amp; Gochfeld, M. (2010) Arsenic, cadmium, chromium, lead, mercury, and selenium levels in blood of four species of turtles from the Amazon in Brazil. <i>Journal of Toxicology and Environmental health. Part A</i>. 73 (April), 33-40.",
+          "CITES (2015) (Convenção Sobre o Comércio Internacional de Espécies Ameaçadas da Fauna e Flora Silvestres). <a target=\"_blank\" href=\"https://www.cites.org\">https://www.cites.org</a>. [Acessado em: 16/jan/2016].",
+          "Cantarelli, V. H., Malvasio, A. &amp; Verdade, L. M. (2014) Brazil’s <i>Podocnemis expansa</i> Conservation Program: Retrospective and Future Directions. <i>Chelonian Conservation and Biology</i>. 13 (1), 124-128.",
+          "Carrillo, E., Aldás, S., Altamirano, M., Ayala, F., Cisneros, D., Endara, A., Márquez, C., Morales, M., Nogales, F., Salvador, P., Torres, M. L., Valencia, J., Villamarin, F., Yánez, M. &amp; Zarate, P. (2005) Lista Roja de los Reptiles del Ecuador.",
+          "Cisneros-Heredia, D. F. (2006) Turtles of the Tiputini Biodiversity Station with remarks on the diversity and distribution of the Testudines from Ecuador. - BN00906012006. <i>Biota Neotropica</i>. 6 (1), 1-11.",
+          "De La Ossa, J. (2007) <i>Ecologia e conservação de <i>Peltocephalus dumerilianus</i> (Testudines, Podocnemididae) em Barcelos, Amazonas, Brasil</i>. Tese de Doutorado. Doutorado em Biologia Tropical e Recursos Naturais - Universidade Federal do Amazonas e Pós-Graduação em Biologia de Água Doce e Pesca Interior, Instituto Nacional de Pesquisas da Amazônia. Manaus. 179p.pp.",
+          "De La Ossa, J., Santos Júnior, L. B. &amp; Vogt, R. C. (2007) Análise da relação entre a morfometria e o sexo em <i>Peltocephalus dumerilianus</i> em dois afluentes do rio Negro, Amazonas, Brasil . In: Sociedade Brasileira de Herpeptologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpeptologia</i> Belém - PA.",
+          "De La Ossa, J.V. &amp; Vogt, R.C. (2011) Ecologia Populacional de <i>Peltocephalus dumerilianus</i> (Testudines, Podocnemididae) em dois tributários do rio Negro, Amazonas, Brasil. <i>Interciência</i>. 36 (1), 56-58.",
+          "De La Ossa, J.V., Vogt, R.C. &amp; De La Ossa-Lacayo, A. (2009) Hallazgo de Oofagia Canibalística en <i>Peltocephalus dumerilianus</i> (Testudines: Podocnemididae). <i>Actual Biol</i>. 31 (90), 81-84.",
+          "De La Ossa, V. J., Vogt, R. C &amp; Santos Júnior, L. B. (2011) Alimentacion de <i>Peltocephalus dumerilianus</i> (Testudines: Podocnemididae) en condiciones natureles. <i>Actual Biol.</i> 33 (94), 85-92.",
+          "De La Ossa, V. J., Vogt, R. C. &amp; Ferrara, R. C. (2010) <i>Melanosuchus niger</i> (Crocodylia Alligatoridae) as opportunistic turtles consumer in its natural enviroment. <i>Rev. Colombiana Cienc. Anim</i>. 2 (2), 224-252.",
+          "Dezincourt, M.E.B. &amp; Maia, A. R. (2004) <i>Peltocephalus dumerilianus</i>. <i>Herpetological Review</i>. 35 (3),.",
+          "Emysystem (1999) World Turtle Database. <a target=\"_blank\" href=\"http://emys.geo.orst.edu/\">http://emys.geo.orst.edu/</a>. [Acessado em: 10/jun/2010].",
+          "Ernst, C.H. &amp; Barbour, R.W. (1989) Turtles of the World. <i>Smithsonian Institute Press, Washington, D.C. e Londres</i>. 313 p.",
+          "Fachín-Terán, A. (2003) Preservação de quelônios aquáticos com participação comunitária na Reserva de Desenvolvimento Sustentável Mamirauá, Amazonas, Brasil In: Campos-Rozo & Astrid (eds.) <i>Fauna Socializada: Tendências en el manejo participativo de la fauna en América Latina</i>. Edição 1ª. Bogotá, Colombia, Fundacíón Natura, MacArthur Fundation, Instituto Colombiano de Antropología e Historia, pp. 145-175.",
+          "Ferrara, C. R, Balensiefer, D. C., Bonara, L., Rodrigues, M. T. U., Bernhard, R., Vogt, R. C. &amp; Carvalho, V. T. (2005) A herpetofauna dos rios Madeira e Aripuanã, estado do Amazonas . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do II Congresso Brasileiro de Herpetologia</i> Belo Horizonte - MG.",
+          "Félix-Silva, D. (2004) <i>Ecologia Reprodutiva do \"Cabeçudo\" (<i>Peltocephalus dumerilianus</i>) Testudines: Pelomedusidae, no Parque Nacional do Jaú, Amazonas</i>. Dissertação de Mestrado. Mestrado em Ecologia. Universidade Estadual do Rio de Janeiro. Rio de Janeiro. 98p.pp.",
+          "INPA (Instituto Nacional de Pesquisas da Amazônia) (2016) <i>Coleção Herpetológica</i>.",
+          "Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) (2016) <i>Manejo Conservacionista e Monitoramento Populacional de Quelônios Amazônicos</i>. Brasília-DF. 136ppp.",
+          "Ibama (Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis) (2011) Portaria-ibama nº. 259, de 21 de março de 2011.",
+          "Ibama (Instituto do Meio Ambiente e dos Recursos Naturais Renováveis) 2013 <i>Portaria Normativa-Ibama, no. 15 de 19 de julho de 2013 que reestrutura o Programa Quelônios da Amazônia – PQA. Diário Oficial da União, Seção 1, pág. 140</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Iverson, J.B. &amp; Vogt, R.C. (2002) <i>Peltocephalus</i> Duméril and Bibron: Big-headed Amazon River Turtles. <i>Catalogue of American Amphibians and Reptiles</i>. 744.1-744.4.",
+          "Lainson, R. &amp; Naiff, R. D. (1998) <i>Eimeria peltocephali n. sp.</i>, (Apicomplexa:Eimeriidae) from the freshwater turtle <i>Peltocephalus dumerilianus</i> (Chelonia:Pelomusidae) and <i>Eimeria molossi n. sp.</i>, from the bat, <i>Molossus ater </i>(Mammalia:Chiroptera). <i>Mem. Inst. Oswaldo Cruz</i>. 93 (1), 81-90.",
+          "Lainson, R. &amp; Naiff, R. D. (1998) <i>Haemoproteus</i> (Apicomplexa: Haemoproteidae) of tortoises and turtles. <i>The Royal Society</i>. 265, 941-949.",
+          "Lehner, B. &amp; Grill, G. (2013) Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. <i>Hydrological Processes</i>. 27 (15), 2171–2186.",
+          "Maffei, F., Siva, F. F. Ruffiel, L. A. A. S. &amp; Da Silveira, R. (2007) Os bichos de casco dos povos indígenas do Oiapoque . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém -PA.",
+          "Medem, F. (1983) Las tortugas marina sacrificadas en el mercado de Cartagena. <i>Lozania</i>. 44, 1-14.",
+          "Morales-Betancourt, M. A., Lasso, C.A., Páez, V.P. &amp; Bock, B.C. (2015) <i>Libro rojo de reptiles de Colombia</i> Bogotá, Colombia, Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), Universidad de Antioquia, 258 p.pp.",
+          "Morcatty, T.Q. (2014) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Moretti, R. (2004) <i>Biologia reprodutiva de <i>Podocnemis erythrocephala</i> (Spix, 1824), <i>Podocnemis expansa</i> (Schweigger, 1812) e <i>Peltocephalus dumerilianus</i> (Schweigger, 1812) (Testudinata, Podocnemididae) na bacia do Rio Trombetas, Pará</i>. Dissertação de Mestrado. Mestrado em Biologia da Conservaçã. Universidade de São Paulo. 77p.pp.",
+          "Nascimento, F.P., Avila-Pires, T.C.S., Santos, I.N.F.F. &amp; Lima, A.C.M. (1991) Répteis de Marajó e Mexiana, Pará, Brasil. I. Revisão bibliográfica e novos registros. <i>Boletim do Museu Paraense Emílio Goeldi, sér. Zool.</i> 7 (1), 24-41.",
+          "Noronha, G.K. &amp; Da Silveira, R. (2009) <i>Etnoconservação de quelônios pelos povos indígenas do Oiapoque</i> Macapá - AP, APIO, 33. IIpp.",
+          "Perrone, E. L., Lopes, L. P. C., Santos Júnior, L. B. S., De La Ossa, J. &amp; Vogt, R. C. (2007) Ecologia parasitária de trematodeos no trato digestivo de <i>Peltocephalus dumerilianus</i> da amazônia brasileira . In: Sociedade Brasileira de Herpetologia (SBH) (ed.) <i>Anais do III Congresso Brasileiro de Herpetologia</i> Belém - PA.",
+          "Pezzuti, J.C.B., Pantoja-Lima, J., Silva, D.F. &amp; Begossi, A. (2010) Uses and taboos of turtles and tortoises along Rio Negro, Amazon Basin. <i>Journal of Ethnobiology</i>. 30 (1), 153-168.",
+          "Peña, A.P. &amp; Castro, M.R. (2004) Comunidade de quelônios e jacarés do oeste do Pará, entre as bacias do Rio Trombetas e Nhamundá . <i>Anais do I Congresso Brasileiro de Herpetologia</i> Curitiba.",
+          "Pineda Catalan, O., Perkins, S.L., Peirce, M.A., Engstrand, R., Garcia Davila, C., Pinedo Vasquez, M. &amp; Aguirre, A.A. (2013) Revision of Hemoproteid Genera and Description and Redescription of Two Species of Chelonian Hemoproteid Parasites. <i>Journal of Parasitology</i>. 99 (6), 1089 a 1098.",
+          "Pires, T.C.S.A. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Pritchard, P.C.H. &amp; Trebbau, P. (1984) <i>The turtles of Venezuela</i> 403ppp.",
+          "RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios) (2016) <i>Banco de registros de ocorrência de quelônios continentais</i>.",
+          "Rodríguez, J.P. &amp; Rojas-Suárez, F. (2008) <i>Libro Rojo de la Fauna Venezolana</i> Edição Tercera Edición Caracas, Venezuela, Provita y Shell Venezuela, S.A., 364 pppp.",
+          "Rueda-Almonacid, J. V., Carr, J. L., Mittermeier, R. A., Rodríguez-Mahecha, J. V., Mast, R. B., Vogt, R. C., Rhodin, A. G. J., Ossa-Velásquez, J., Rueda, J. N. &amp; Mittermeier, C. G. (2007) <i>Las tortugas y los cocodrilianos de los países andinos del trópico. Serie de guías tropicales de campo</i> Edição 6 Bogotá, Colombia, Conservación Internacional., 538pp.",
+          "Scabin, A., Ferrara, C. R., Nascimento, F. R., Schneider, L., Santos Junior, L., Gama, L.E &amp; Bernardes, V.C.D. (2010) Conservation and Management of Amazon Turtles, Brazil. <a target=\"_blank\" href=\"http://www.conservationleadershipprogramme.org/media/2014/11/080609_Brazil_turtles.pdf\">http://www.conservationleadershipprogramme.org/media/2014/11/080609_Brazil_turtles.pdf</a>. [Acessado em: 10/out/2016].",
+          "Schneider, L., Belger, L., Burger, J., Vogt, R. C. &amp; Ferrara, C. R. (2010) Mercury levels in muscle of six species of turtles eaten by people along the Rio Negro of the Amazon Basin. <i>Archives of Environmental Contamination and Toxicology</i>. 58 (2), 444-450.",
+          "Schweigger, A. F. (1812) Prodromus Monographia Cheloniorum auctore Schweigger. <i>Königsberg. Arch. Naturwiss. Mathem.</i> 1 (271-368), 406-458.",
+          "Silva, D. X., Fachín-Terán, A., Rocha, J. M. &amp; Jacaúna, C. L. F. S. (2012) Representações simbólicas / ambientais de atividades de conservação de quelônios por estudantes de escola ribeirinha no Baixo Amazonas. <a target=\"_blank\" href=\"http://www.revistaea.org\">http://www.revistaea.org</a>.",
+          "TFTSG (Tortoise &amp; Freshwater Turtle Specialist Group) (1996) <i>Peltocephalus dumerilianus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T16511A5972664.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T16511A5972664.en</a>. [Acessado em: 21/jan/2016].",
+          "Uetz, P., Freed, P. &amp; Hošek, J. (2015) <i>Peltocephalus dumerilianus</i>. <a target=\"_blank\" href=\"http://www.reptile-database.org.\">http://www.reptile-database.org.</a>. [Acessado em: 23/out/2018].",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Velasquez, J.O. &amp; Vogt, R.C. (2011) Ciclo ovárico y jerarquía folicular de <i>Peltocephalus dumerilianus</i> (Testudines: Podocnemididae). <i>Acta Amazonica</i>. 41 (2), 243 - 250.",
+          "Vogt, R. C. (2001) Turtles of the Rio Negro In: Chao <i>et al.</i> (eds.) <i>Conservation and Management of Ornamental Fish Resources of the Rio Negro Basin, Amazonia, Brazil:Project Piaba</i>. Manaus - AM, Editora da Universidade do Amazonas., pp. 260-271.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Peltocephalus dumerilianus (Schweigger, 1812)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Vogt, R.C. (2008) <i>Tartarugas da Amazônia</i> Edição 1ª. Manaus - AM, Editora INPA., 104pp.",
+          "Vogt, R.C. (2010) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Vogt, R.C., Cantarelli, V.H. &amp; Carvalho, A.G.D. (1994) Reproduction of the cabecudo, <i>Peltocephalus dumerilianus</i>, in the Biological Reserve of Rio Trombetas, Pará, Brazil. <i>Chelonian Conservation and Biology</i>. 1, 159-162."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

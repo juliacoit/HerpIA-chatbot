@@ -1,0 +1,261 @@
+{
+  "id_ficha": "4e6c564833566d48596672312b44526a7068727376513d3d",
+  "nome_cientifico": "Atractus nawa Melo-Sampaio, Passos, Prudente, Venegas & Torres-Carvajal, 2021",
+  "nome_cientifico_atual": "Atractus nawa Melo-Sampaio, Passos, Prudente, Venegas & Torres-Carvajal, 2021",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "10/2022",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.39033.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4e6c564833566d48596672312b44526a7068727376513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus nawa</i>&nbsp;<span>Melo-Sampaio, Passos, Prudente, Venegas & Torres-Carvajal, 2021</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2022",
+      "publicationDate": "05/02/2026",
+      "justificative": "<p><em>Atractus nawa </em>é endêmica do Brasil e conhecida de duas localidades da bacia do alto rio Juruá, estado do Acre. Apenas dois exemplares são conhecidos. Apesar de ser pouco conhecida e ter sido registrada em locais impactados pela abertura de pastagens e pelo desenvolvimento provocado por rodovias, a distribuição da espécie é provavelmente mais ampla, pois há na região extensas áreas de florestas ainda pouco amostradas. Não foram identificadas ameaças que coloquem a espécie em risco de extinção em curto prazo. Portanto, <em>Atractus nawa </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Alejandro Valencia-Zuleta; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Gabriela do Valle Alvarenga; Fausto Erritto Barbo; Renato Silveira Bérnils; Guarino Rinaldi Colli; Henrique Caldeira Costa; Frederico Gustavo Rodrigues França; Francisco Luís Franco; Thaís Guedes; Daniel Loebmann; Otavio Augusto Vuolo Marques; Márcio Borges Martins; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Ana Lúcia da Costa Prudente; Paulo Roberto Melo Sampaio; Christine Strüssmann",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Valencia-Zuleta, A.; Abrahão, C.R.; Argôlo, A.J.S.; Alvarenga, G.V.; Barbo, F.E.; Bérnils, R.S.; Colli, G.R.; Costa, H.C.; França, F.G.R.; Franco, F.L.; Guedes, T.; Loebmann, D.; Marques, O.A.V.; Martins, M.B.; Pantoja, D.L.; Passos, P.G.H.; Prudente, A.L.C.; Sampaio, P.R.M.; Strüssmann, C. 2026. <i>Atractus nawa</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.39033.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.39033.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 27047,
+      "deleted": false,
+      "lastAvaliationDate": "28/10/2022",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus nawa</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Atractus nawa </em>é endêmica do Brasil, conhecida apenas de duas localidades da bacia do alto rio Juruá, estado do Acre (Melo-Sampaio <em>et al</em>., 2021).</p>",
+      "nationalDistribution": "",
+      "states": "Acre",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Solimões",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/527638556d543975722b5a334937757a70713446767279555764772f49305638776d6172567834663153354b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Atractus nawa",
+        "diskFileName": "7d67d714c15f29133da652a1a6e0b914.png",
+        "fileName": "Mapa de Atractus nawa.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie foi registrada em floresta ombrófila densa e em ambientes de transição de florestas ombrófila densa e campinas e campiranara (P. Melo-Sampaio, com. pess., 2022).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis. A espécie é conhecida somente de dois exemplares, coletados em 1996 e 2020 (Melo-Sampaio <em>et al</em>., 2021). Sua região de ocorrência como um todo é pouco amostrada, apesar de inventários recentes na região de Porto Walter, não havendo registros adicionais da espécie (P. Melo-Sampaio, com. pess., 2022).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A localidade tipo, em Porto Walter, foi desmatada para pastagem (Vitt <em>et al</em>., 1998; Melo-Sampaio <em>et al</em>., 2021), e o local onde o parátipo foi coletado também sofre com o desmatamento ao longo da BR-364 (Melo-Sampaio <em>et al</em>., 2021). Há ainda o processo de abertura da estrada estadual entre os municípios de Cruzeiro do Sul e Porto Walter (P. Melo-Sampaio, com. pess., 2022), que acelera o processo de fragmentação e pode afetar o habitat da espécie. No entanto, a região ainda abriga extensas áreas de florestas bem preservadas e não há evidencias de que essas ameaças possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.1 - Estradas e ferrovias",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Inventários direcionados na região são necessários para melhor conhecer a distribuição geográfica, história natural e impacto de ameaças sobre a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Melo‐Sampaio, P.R., Passos, P., Prudente, A.L.C., Venegas, P.J. &amp; Torres‐Carvajal, O. (2021) Systematic review of the polychromatic ground snakes <i>Atractus snethlageae</i> complex reveals four new species from threatened environments. <i>Journal of Zoological Systematics and Evolutionary Research</i>. 59 (3), 718-747.",
+          "Vitt, L.J., Avila‐Pires, T.C., Caldwell, J.P. &amp; Oliveira, V.R. (1998) The impact of individual tree harvesting on thermal environments of lizards in Amazonian rain forest. <i>Conservation Biology</i>. 12 (3), 654-664."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "id_ficha": "6f366b47396d77546d586b41744a304b544a2f7377773d3d",
+  "nome_cientifico": "Psomophis obtusus (Cope, 1864)",
+  "nome_cientifico_atual": "Psomophis obtusus (Cope, 1864)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Pampa",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27902.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6f366b47396d77546d586b41744a304b544a2f7377773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Psomophis obtusus</i>&nbsp;<span>(Cope, 1864)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "24/04/2026",
+      "justificative": "<p><em>Psomophis obtusus</em> ocorre no Uruguai, Argentina, Paraguai e Brasil, onde é encontrada apenas no estado do Rio Grande do Sul. A espécie habita ambientes de campo no bioma Pampa, possui ampla distribuição no país e pode ser encontrada em áreas alteradas. Não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>Psomophis obtusus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Psomophis obtusus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27902.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27902.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19118,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Psomophis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Psomophis obtusus</i>"
+        }
+      ],
+      "oldNames": "Coronella obtusa, Liophis obtusus, Rhadinaea obtusa",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Psomophis obtusus</em> ocorre no Brasil, Argentina, Paraguai e Uruguai (Giraudo &amp; Contreras, 1994; Myers &amp; Cadle, 1994; Yanosky <em>et al</em>., 1996; Carreira <em>et al</em>., 2005).</p>",
+      "nationalDistribution": "<p>No Brasil, há registros apenas no estado do Rio Grande do Sul (Amaral, 1978; Nogueira <em>et al.</em>, 2019).</p>",
+      "states": "Rio Grande do Sul",
+      "biomes": "Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Litoral RS, Sub-bacia Negro RS, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6d5062434148512b397846462b556c484e3465366d4f6d4975617850353263435a516f7877536241517539777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Psomophis obtusus",
+        "diskFileName": "943a0902f10f976f5c242f4a548f116f.png",
+        "fileName": "Mapa de Psomophis obtusus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Psomophis obtusus</em> é terrestre, diurna (Yanosky <em>et al.</em>, 1996) e habita os campos sulinos na região do Pampa, já tendo sido registrada em áreas alteradas (Myers &amp; Cadle, 1994). Há relatos de oviposição comunal (Vaz-Ferreira <em>et al.</em>, 1970), podendo depositar de um a 18 ovos em formigueiros (Achaval, 1997). Alimenta-se primariamente de anuros, mas também de artrópodes, girinos e peixes (Amaral, 1978; Achaval, 1997; Carreira, 2002).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie parece ser mais rara na porção norte da sua distribuição (M. B. Martins, com. pess., 2019).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "Não são conhecidas ameaças que possam levar a espécie a algum grau de risco de extinção.",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Embert & Carreira, 2010",
+              "title": "Embert, D. &amp; Carreira, S. (2010) <i>Psomophis obtusus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174102A7014998.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174102A7014998.en</a>."
+            }
+          ],
+          "orderBy": "Y2009"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC do Taim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Particular Professor Delmar Harry dos Reis",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Achaval, F. &amp; Olmos, A. (1997) Anfibios y reptiles del Uruguay. <i>Facultad de Ciencias, Montevideo, UY</i>. 128.",
+          "Amaral, A. (1978) <i>Serpentes do Brasil: Iconografia colorida</i> Melhoramentos, 247pp.",
+          "Carreira, S., Meneguel, M. &amp; Achaval, F. (2005) <i>Reptiles de Uruguay</i> Montevideo, Uruguay, D.I.R.A.C. Universidad de La República. Facultad de Ciências, 639pp.",
+          "Carreira, V.S. (2002) Alimentación de los ofidios de Uruguay. <i>Asoc. Herp. Esp., Monograf. Herp</i>. 6, 127.",
+          "Embert, D. &amp; Carreira, S. (2010) <i>Psomophis obtusus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174102A7014998.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174102A7014998.en</a>.",
+          "Giraudo, A. &amp; Contreras, A.O. (1994) Lista preliminar de los reptiles registrados en el Departamento de Ñeembucu, Paraguay. <i>Boletín de la Asociación Herpetológica Argentina</i>. 10, 1-4.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Myers, C.W. &amp; Cadle, J.E. (1994) A new genus for South American snakes to <i>Rhadinaea obtusa</i> Cope (Colubridae) and resurrection of <i>Taeniophallus</i> Cope for the \"<i>Rhadinaea</i>\" <i>brevirostris</i> group. <i>American Museum of Natural History</i>. 3102, 1-36.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Vaz-Ferreira, R., Zolessi, L.C. &amp; Achaval, F. (1970) Oviposicion y desarrollo de ofidios y lacertilios en hormigueros de <i>Acromyrmex</i>. <i>Physis</i>. 29 (79), 431-459.",
+          "Yanosky, A.A., Dixon, J.R. &amp; Mercolli, C. (1996) Ecology of the snake communityat El Bagual Ecological Reserve, Northeastern Argentina. <i>Herpetological Natural</i>. 4 (2), 97-110."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

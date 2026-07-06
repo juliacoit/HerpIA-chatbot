@@ -1,0 +1,393 @@
+{
+  "id_ficha": "493245645637656b4b6972734f4275356d306e7153773d3d",
+  "nome_cientifico": "Fritziana ohausi (Wandolleck, 1907)",
+  "nome_cientifico_atual": "Fritziana ohausi (Wandolleck, 1907)",
+  "nome_comum": "Perereca-marsupial, Petropolis Treefrog",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22152.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=493245645637656b4b6972734f4275356d306e7153773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Fritziana ohausi</i>&nbsp;<span>(Wandolleck, 1907)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Fritziana ohausi </em> é endêmica do Brasil, conhecida da Serra do Mar dos estados do Rio de Janeiro e São Paulo, em altitudes que variam de 600 a 1.200 metros. A espécie ocorre em agrupamentos de bambus ou de folhas de vegetação rasteira em florestas primárias. Embora possa ser localmente impactada por atividades antrópicas, sua distribuição é relativamente ampla e não há evidência de ameaças que possam colocá-la em risco de extinção em curto prazo. Além disso, ela está presente em unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Fritziana ohausi </em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Fritziana ohausi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22152.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22152.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16873,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hemiphractidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Fritziana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Fritziana ohausi</i>"
+        }
+      ],
+      "oldNames": "Flectonotus ohausi, Fritzia hohousi, Fritzia ohausi, Hyla ohausi",
+      "commonNames": "Perereca-marsupial, Petropolis Treefrog",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Fritziana ohausi </em>é endêmica do Brasil e restrita à Mata Atlântica da Serra do Mar nos estados de São Paulo e Rio de Janeiro, com registros entre 600 e 1.200 metros de altitude (Rocha <em>et al.</em>, 2004; Eterovick <em>et al</em>., 2005; Verdade <em>et al.</em>, 2009; Forlani <em>et al.</em>, 2010; Araujo &amp; Almeida-Santos, 2013). Sua localidade-tipo é no município de Petrópolis, no estado do Rio de Janeiro (Duellman, 1977), e sua extensão de ocorrência é de 21.695km2, calculada via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5a6d2b677444756c6f77567574493677484f767633556f38437a43594c305a6848523545424d386a56467a6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Fritziana ohausi",
+        "diskFileName": "b4d4d32684984165896f1c9372632563.png",
+        "fileName": "Mapa de Fritziana ohausi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Fritziana ohausi</em> ocorre em agrupamentos de bambu ou de folhas de vegetação rasteira em florestas primárias. As fêmeas carregam os ovos em suas costas e em seguida depositam os girinos em bambus. Pode tolerar certo grau de perturbação do hábitat, desde que no local haja árvores e bambus (Carvalho-e-Silva &amp; Telles, 2004). O sítio de canto é na margem dos riachos sobre a vegetação marginal (D. Din, com.pess., 2017).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Houve declínio populacional da espécie no passado na Reserva Biológica de Boracéia (Heyer <em>et al</em>., 1999; Eterovick <em>et al</em>., 2005), mas não há registro de que continue. Possivelmente, são flutuações que acompanham a ocorrência de bambuzais. Durante aproximadamente um ano de amostragem foram registrados apenas 2 indivíduos na época reprodutiva, sendo considerada espécie infrequente (D. Din, com. pess., 2017).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora não sejam conhecidas ameaças imediatas à espécie, a redução de bambuzais pode representar um impacto negativo. Parte da distribuição da espécie está sujeita a impactos de poluentes químicos das petroquímicas do Polo Petroquímico de Cubatão (Lopes, 2001). Assim, atividades industriais e poluição ambiental são ameaças potenciais. No entanto, a distribuição da espécie é relativamente ampla e as ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação direcionadas à espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva & Telles, 2004",
+              "title": "Carvalho-e-Silva, S.P. &amp; Telles, A.M. (2004) <i>Flectonotus ohausi</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/55318/11291078\">https://www.iucnredlist.org/species/55318/11291078</a>. [Acessado em: 02/mai/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2004,
+          "coverage": "Paraná",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mikich & Bérnils, 2004",
+              "title": "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp."
+            }
+          ],
+          "orderBy": "X2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Frost, 2018",
+              "title": "Amphibian Species of the World: an Online Reference. Version 6"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani <i>et al.</i>, 2010",
+              "title": "Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Giasson, 2008",
+              "title": "Atividade sazonal e uso do ambiente por anfibios da Mata Atlantica no Alto da Serra do Mar"
+            },
+            {
+              "label": "Eterovick <i>et al.</i>, 2005",
+              "title": "Amphibian declines in Brazil: An overview"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL NASCENTES DE PARANAPIACABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Trevine, 2011",
+              "title": "Levantamento da herpetofauna do parque natural municipal Nascentes de Paranapiacaba, Santo Andre, SP"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Limeira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Frost, 2018",
+              "title": "Amphibian Species of the World: an Online Reference. Version 6"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Araujo, C.O. &amp; Almeida-Santos, S.M. 2013. Composição, riqueza e abundância de anuros em um remanescente de Cerrado e Mata Atlântica no estado de São Paulo. <b>Biota Neotropica</b>, 13: p.265-275.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P. &amp; Telles, A.M. 2004. <i>Flectonotus ohausi</i>. <b>In: IUCN 2010. Red List of Threatened Species. Version 2.010,4</b>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/55318/11291078\">https://www.iucnredlist.org/species/55318/11291078</a>. Acessado em: 02/05/2011.",
+          "Duellman, W.E. 1977. Liste der rezenten Amphibien und Reptilien: Hylidae, Centrolenidae, Pseudidae. <b>Das Tierreich</b>, p.1-225.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Eterovick, P.C.; Carnaval, A.C.O.Q.; Borges-Nojosa, D.M.; Silvano, D.L.; Segalla, M. &amp; Sazima, I. 2005. Amphibian declines in Brazil: An overview. <b>Biotropica</b>, 37: p.166-179.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Heyer, W.R. 1999. A new genus and species of frog from Bahia, Brazil (Amphibia: Anura: Leptodactylidae) with comments on the zoogeography of brazilian campos rupestres. <b>Proceedings of the Biological Society of Washington</b>, 112 (1): p.19-39.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lopes, M.I.M.S. 2001. <b>Fluxo de água, balanço químico e alterações no solo da floresta atlântica atingida pela poluição da área de Cubatão, São Paulo, Brasil</b>. Tese de Doutorado. Instituto de Biociências, Universidade de São Paulo.. São Paulo, SP. p.188p..",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Mikich, S.B. &amp; Bérnils, R.S. 2004. <b>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</b>. p.764. Instituto Ambiental do Paraná. Disponível em http://www.maternatura.org.br. (Acesso em 01/11/2011) Curitiba.",
+          "Rocha, C.F.D.; Bergallo , H.G.; Pombal Jr., J.P.; Geise, L.; Sluys, M.V.; Fernandes, R. &amp; Caramaschi, U. 2004. Fauna de anfíbios, répteis e mamíferos do Estado do Rio de Janeiro, Sudeste do Brasil. <b>Publicações Avulsas Museu Nacional, Rio de Janeiro</b>, 104: p.3-23.",
+          "Verdade, V.K.; Rodrigues, M.T. &amp; Pavan, D. 2009. Anfibios Anuros da região da Estação Biológica do Alto da Serra de Paranapiacaba. p.579-604. <i>In</i>: Lopes <i>et al.</i>. <b>Patrimonio da Reserva Biológica do Alto da Serra de Paranapiacaba A antiga Estação Biológica do Alto da Serra</b>. Secretaria do Meio Ambiente do Estado de Sao Paulo São Paulo."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

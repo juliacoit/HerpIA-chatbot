@@ -1,0 +1,515 @@
+{
+  "id_ficha": "5975517a74446a6b465341726b6c6d55706b545a44413d3d",
+  "nome_cientifico": "Norops brasiliensis (Vanzolini & Williams, 1970)",
+  "nome_cientifico_atual": "Norops brasiliensis (Vanzolini & Williams, 1970)",
+  "nome_comum": "papa-vento",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35701.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5975517a74446a6b465341726b6c6d55706b545a44413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Norops brasiliensis</i>&nbsp;<span>(Vanzolini & Williams, 1970)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "20/03/2026",
+      "justificative": "<p><em>Norops brasiliensis</em> é endêmica do Brasil, onde é encontrada principalmente em áreas florestadas do Cerrado, com registros também na Amazônia e na região da Chapada do Araripe, no Ceará. Embora possa ser localmente afetada pela conversão dos ambientes naturais em áreas plantadas, a distribuição da espécie é muito ampla e as ameaças não a colocam em risco de extinção em curto prazo. Portanto, <em>N. brasiliensis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Norops brasiliensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35701.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35701.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24361,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dactyloidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Norops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Norops brasiliensis</i>"
+        }
+      ],
+      "oldNames": "Anolis brasiliensis, Anolis nitens brasiliensis",
+      "commonNames": "papa-vento",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Norops brasiliensis</em> é endêmica do Brasil, onde possui ampla distribuição no Cerrado, com registros também em algumas áreas de vegetação aberta na Amazônia e na região da Chapada do Araripe, no Ceará (Nogueira, 2006; D’Angionella <em>et al</em>., 2011; Ribeiro <em>et al</em>., 2012; Prudente <em>et al</em>., 2013; Santos <em>et al</em>., 2014; Ribeiro-Júnior, 2015; Roberto &amp; Loebmann, 2016).</p>",
+      "nationalDistribution": "",
+      "states": "Ceará, Distrito Federal, Goiás, Maranhão, Mato Grosso, Minas Gerais, Pará, Piauí, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Jaguaribe, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Paraguai 03, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Parnaíba Alto, Sub-bacia São Francisco Médio, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/63563741394f70652b4a396f43586e4e41656b36755655397a303048437a70646b6f6f7046676832436f6a6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Norops brasiliensis.",
+        "diskFileName": "db8fbaaf32e56ba9e4c85d67c89b560d.png",
+        "fileName": "Mapa de Norops brasiliensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Norops brasiliensis </em>é diurna, encontrada principalmente em áreas florestadas do Cerrado (Nogueira, 2006). Na Amazônia, habita florestas de galeria, florestas alagadas e áreas de savana próximas a florestas (Ribeiro-Júnior, 2015). Há registro de infecção pelo nematódeo <em>Rhabdias</em> sp. (Ribeiro <em>et al</em>, 2012b) e <em>Subulura lacertilia</em> (Ávila <em>et al</em>., 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora haja perda de vegetação nativa na área de distribuição da espécie, em decorrência principalmente da conversão das áreas naturais em agricultura de larga escala, além de outras atividades antrópicas, como mineração, a distribuição da espécie é ampla e as ameaças não devem colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.2 - Plantações agro-industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.3 - Pecuária agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Ameaçada (AMEACADA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Pará",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Pará, 2007",
+              "title": "Estado do Pará 24/10/2007 <i>Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ribeiro <i>et al.</i>, 2012",
+              "title": "Amphibians and reptiles from the Araripe bioregion, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dal Vechio <i>et al.</i>, 2013",
+              "title": "The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA RIO BATALHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo & Almeida-Santos, 2011",
+              "title": "Herpetofauna de um remanescente de Cerrado no estado de São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL ALTAMIRO DE MOURA PACHECO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D'angiolella <i>et al.</i>, 2011",
+              "title": "<i>Anolis chrysolepis</i> Duméril and Bibron, 1837 (Squamata: Iguanidae), revisited: molecular phylogeny and taxonomy of the <i>Anolis chrysolepis</i> species group"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chácara Mangueiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "D'angiolella <i>et al.</i>, 2011",
+              "title": "<i>Anolis chrysolepis</i> Duméril and Bibron, 1837 (Squamata: Iguanidae), revisited: molecular phylogeny and taxonomy of the <i>Anolis chrysolepis</i> species group"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1987",
+              "title": "Os répteis da área de Carajás, Pará, Brasil (Squamata). II"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Terra Nova",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre dinâmica populacional e história natural.</p>",
+      "table": [
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "D'angiolella, A.B., Gamble, T., Avila-Pires, T.C., Colli, G.R., Noonan, B.P. &amp; Vitt, L.J. (2011) <i>Anolis chrysolepis</i> Duméril and Bibron, 1837 (Squamata: Iguanidae), revisited: molecular phylogeny and taxonomy of the <i>Anolis chrysolepis</i> species group. <i>Bulletin of the Museum of Comparative Zoology</i>. 160 (2), 35-63.",
+          "Estado do Pará 24/10/2007 <i>Resolução Coema- 054/2007: Lista de espécies da flora e da fauna ameaçadas no Estado do Pará</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Nicholson, K.E., Crother, B.I., Guyer, C. &amp; Savage, J.M. (2012) It is time for a new classification of anoles (Squamata: Dactyloidae). <i>Zootaxa</i>. 3477, 1–108.",
+          "Nogueira, C.D.C. (2006) <i>Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado</i>. Tese de Doutorado. Universidade de São Paulo, Instituto de Biociências. São Paulo. 296pp.",
+          "Prudente, A. L.C., Magalhães, F., Menks, A. &amp; Sarmento, J.F.M. (2013) Checklist of Lizards of the Juruti, state of Pará, Brazil. <i>Check List</i>. 9 (1), 42-50.",
+          "Ribeiro, S.C., Ferreira, F.S., Brito, S.V., Teles, D.A., Ávila, R.W., Almeida, W.O., Anjos, L.A. &amp; Guarnieri, M.C. (2012) Pulmonary infection in two sympatric lizards, <i>Mabuya arajara</i> (Scincidae) and <i>Anolis brasiliensis</i> (Polychrotidae) from a cloud forest in Chapada do Araripe, Ceará, Northeastern Brazil. <i>Brazilian Journal of Biology</i>. 72 (4), 929-933.",
+          "Ribeiro, S.C., Roberto, I.J., Sales, D.L., Ávila, R.W. &amp; Almeida, W.O. (2012) Amphibians and reptiles from the Araripe bioregion, northeastern Brazil. <i>Salamandra</i>. 48 (3), 133-146.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Santos, D.L., Andrade, S.P., Victor-Jr., E.P. &amp; Vaz-Silva, W. (2014) Amphibians and reptiles from southeastern Goiás, Central Brazil. <i>Check List</i>. 10 (1), 131-148.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>.",
+          "Ávila, R.W., Cardoso, M.W., Oda, F.H. &amp; da Silva, R.J. (2011) Helminths from lizards (Reptilia: Squamata) at the Cerrado of Goiás state, Brazil. <i>Comparative Parasitology</i>. 78 (1), 120-129."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

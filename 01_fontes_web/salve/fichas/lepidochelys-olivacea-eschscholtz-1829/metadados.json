@@ -1,0 +1,1105 @@
+{
+  "id_ficha": "4b732b417369725667532f2f2f65322f367337534c773d3d",
+  "nome_cientifico": "Lepidochelys olivacea (Eschscholtz, 1829)",
+  "nome_cientifico_atual": "Lepidochelys olivacea (Eschscholtz, 1829)",
+  "nome_comum": "Tartaruga comum, Tartaruga-oliva, Tartaruga pequena, Xibirro",
+  "grupo": "Répteis",
+  "categoria_risco": "VU",
+  "categoria_risco_completa": "Vulnerável (VU)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "10/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.12569.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4b732b417369725667532f2f2f65322f367337534c773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Lepidochelys olivacea</i>&nbsp;<span>(Eschscholtz, 1829)</span>",
+      "category": "Vulnerável (VU)",
+      "lastAvaliation": "10/2018",
+      "publicationDate": "04/10/2022",
+      "justificative": "<p>A tartaruga-oliva <em>Lepidochelys olivacea</em> é uma espécie migratória com distribuição global e possui hábitos alimentares carnívoros durante todo o ciclo de vida. A área prioritária de desova desta espécie no Brasil está localizada entre o litoral sul do estado de Alagoas e o litoral norte da Bahia com maior quantidade de desovas no estado de Sergipe. Ocorrem em áreas costeiras e oceânicas desde o Rio Grande do Sul até o Pará, e em águas internacionais adjacentes à zona econômica exclusiva do Brasil. A espécie apresenta ciclo de vida longo com maturação sexual média de 16 anos e tempo geracional estimado em 20 anos. A principal ameaça para <em>L. olivacea</em> no passado foi a coleta de ovos, o que não acontece mais nas áreas prioritárias de reprodução. Atualmente as maiores ameaças são a captura incidental na pesca, principalmente a de arrasto, em frente às áreas de desova, e a perda de ninhos por predação animal (raposas). Além disso, a ocupação desordenada do ambiente costeiro, a poluição, e as atividades portuárias e de petróleo e gás, também afetam negativamente as populações. Apesar do declínio acentuado ocorrido no passado, iniciativas de conservação, desde a década de 1980, resultaram no início da recuperação destas populações. Entretanto, não se pode assegurar a continuidade dessa recuperação, tendo em vista a alta mortalidade contínua de indivíduos decorrente da pesca de arrasto nas áreas de reprodução. Nesse contexto, como os estudos de tendência de população cobrem pouco mais de um tempo geracional para este táxon, foram utilizadas estimativas para o período anterior, chegando a uma faixa de reduções estimada que inclui valores superiores a 50% de redução da população nos últimos 60 anos, baseado em um índice de abundância apropriado para o táxon, e considerando como causas da redução os níveis reais de exploração e declínio na qualidade do habitat. Por essas razões, <em>L. olivacea</em> foi categorizada como Vulnerável (VU) pelo critério A1bcd.</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Alexsandro Sant´ana dos Santos; Ana Claudia Jorge Marcondes; Bruno Barbosa Iespa; Bruno Stefanis Santos Pereira de Oliveira; Cecilia Baptistotte; Claudio Bellini; Danielle da Silveira Monteiro; Daphne Wrobel Goldberg; Frederico Tognin; Gilberto Sales; Jaqueline Comin de Castilhos; Joao Carlos Alciati Thome; Maria Angela Azevedo Guagni Dei Marcovaldi; Paulo Cesar Rosito Barata; Robson Guimarães dos Santos; Simone Almeida Gavilan Leandro da Costa; Werlanne Mendes de Santanaw",
+      "citation": "<p>Santos, A.S.; Marcondes, A.C.J.; Iespa, B.B.; Oliveira, B.S.S.P.; Baptistotte, C.; Bellini, C.; Monteiro, D.S.; Goldberg, D.W.; Tognin, F.; Sales, G.; Castilhos, J.C.; Thome, J.C.A.; Marcovaldi, M.A.A.G.D.; Barata, P.C.R.; Santos, R.G.; Costa, S.A.G.L.; Santanaw, W.M. 2022. <i>Lepidochelys olivacea</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.12569.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.12569.2",
+      "photo": {
+        "authorName": "Banco de dados Centro TAMAR",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "3cd383a585601ed1b5be93ae8cb42fce.jpg",
+        "fileName": "oliva.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4b31593161446d2f4936664249456870495567505a6e323753362f30475035353975615342445370465531704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 2,
+      "versionId": 12903,
+      "deleted": false,
+      "lastAvaliationDate": "18/10/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Cheloniidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Lepidochelys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Lepidochelys olivacea</i>"
+        }
+      ],
+      "oldNames": "Chelonia olivacea",
+      "commonNames": "Tartaruga comum, Tartaruga-oliva, Tartaruga pequena, Xibirro",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p>A carapaça possui de 6 a 12 pares de placas laterais justapostas; a coloração varia de cinza claro a verde escuro e o ventre é amarelo claro; a cabeça possui 2 pares de placas (ou escudos) pré-frontais e 3 pares pós-orbitais (FAO, 1990). </p> \n<p>O comprimento médio curvilíneo de carapaça de 170 fêmeas abordadas nas praias monitoradas pelo Tamar nos estados da Bahia e Sergipe, entre agosto de 1991 e julho de 2003, foi de 73,1 cm (mínimo de 62,5 cm e máximo de 83 cm). Sendo que alguns exemplares podem ser mais largos do que compridos (Silva <em>et al</em>., 2007). O peso médio obtido com dezoito fêmeas que desovaram na temporada 2004/2005 em Sergipe foi de 41,3 Kg (mínimo de 33,8 kg e máximo de 56 Kg) (Castilhos &amp; Tiwari, 2006). A tartaruga-oliva é a menor dentre as espécies de tartarugas marinhas encontradas em águas brasileiras.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p>A<em> Lepidochelys olivacea</em> possui ampla distribuição pelas bacias oceânicas tropicais e subtropicais, sendo provavelmente a espécie mais abundante no mundo. Ocorre em mais de 60 países (Spotila, 2004) mas as maiores colônias reprodutivas estão localizadas na Costa Rica, México e Índia. Em menores densidades, ocorrências reprodutivas desta espécie são registradas nas praias do Atlântico Oeste: Suriname, Guiana Francesa e Brasil (Marcovaldi, 2001; FAO, 1990). </p> \n<p> </p> \n<p>Considerado um comportamento característico, a “arribada” consiste na subida simultânea de dezenas de milhares de fêmeas para desovar durante alguns dias (Pritchard &amp; Plotkin, 1995). Embora as praias de reprodução do Brasil sejam consideradas áreas de desovas solitárias, as áreas prioritárias de reprodução localizadas em Sergipe e norte da Bahia (Silva <em>et al</em>., 2007) têm registrado um comportamento sincronizado de subidas de fêmeas em dias consecutivos. A maior quantidade registrada até o momento aconteceu entre as noites de 3 e 5 de janeiro de 2017, ocasião em que quase 900 ocorrências reprodutivas foram observadas em 205 km de praias dos estados da Bahia e Sergipe (80 km de praias da porção norte da Bahia e em 125 dos 163 km de praias de Sergipe) (Banco de Dados Fundação Pró-Tamar/Sitamar, não publicados). </p>",
+      "nationalDistribution": "<p>As <em>L. olivacea</em> permanecem quase toda a vida em águas oceânicas e aproximam-se da costa apenas para a reprodução (Bolten, 2003). E, assim como as demais espécies de tartarugas marinhas, quando adultas e fisiologicamente maduras, realizam migrações reprodutivas de longa distância que culminam em corte e acasalamento em corredores migratórios e/ou nas adjacências das áreas de reprodução (Meylan <em>et al</em>., 2011).</p> \n<p> </p> \n<p>As áreas prioritárias de reprodução no Brasil estão localizadas entre o litoral sul de Alagoas e o litoral norte da Bahia com maior densidade de desovas obervadas nas praias de Sergipe (Silva <em>et al</em>., 2007). Juntas, estas praias totalizam 268 Km de extensão: 23 Km no litoral sul de Alagoas (36o17’45” W; 10o21’24” S e 36o23’52” W; 10o30’21” S), todos os 163 Km de praias de Sergipe (36o23’52” W; 10o30’21” S e 37o19’41” W; 11o26’37” S) e 80 Km no litoral norte da Bahia (37o19’41” W; 11o26’37” S e 37o34’07” W; 11o51’20” S). Ocorrências reprodutivas, em muito menor densidade, são registradas nos estados do Espírito Santo (Banco de Dados Fundação Pró-Tamar/Sitamar, não publicado) e Rio de Janeiro (Lima <em>et al</em>, 2012) a cada temporada reprodutiva. Desovas ocasionais já foram registradas nos estados do Rio Grande do Norte (Santos <em>et al</em>, 2013) e Ceará (Lima <em>et al. </em>2003).</p> \n<p>Estudos com telemetria satelital indicaram uso da região costeira desde o Rio Grande do Sul até a Guiana Francesa, com deslocamentos para águas internacionais até a região equatorial da África numa indicação de amplo uso costeiro (ao longo dos deslocamentos entre desovas) e oceânico (em deslocamentos pós reprodutivos) (Silva <em>et al</em>., 2011; Santos <em>et al</em>., no prelo).</p> \n<p> </p> \n<p>Além dos deslocamentos costeiros e indicação de uso da plataforma continental observados a partir de Sergipe (local de abordagem de fêmeas em reproduçao e de instalaçao dos transmissores), áreas de alimentação foram identificadas nos estados do Pará, Maranhão, Ceará, Rio Grande do Norte, Pernambuco, Alagoas, Sergipe, Bahia e Espírito Santo. Destaca-se ainda a comprovação de uma ampla área de alimentação em quase toda a porção sul da plataforma continental do Rio de Janeiro, São Paulo, Paraná até o norte de Santa Catarina (Santos <em>et al.</em>, no prelo).</p> \n<p> </p> \n<p> </p> \n<p>Considerando as regiões fora da jurisdição brasileira, outras áreas de alimentação da tartaruga-oliva foram identificadas próximas ao Cabo Verde, Mauritânia, Senegal, Gambia, Guiné Bissau e Serra Leoa (Silva <em>et al</em>., 2011; Santos <em>et al</em>., no prelo).</p> \n<p> </p> \n<p>Há registros de captura incidental na pesca oceânica do Norte/Nordeste e Sul/Sudeste do Brasil, com capturas se estendendo para águas internacionais principalmente na regiao equatorial do atlântico (Sales <em>et al.,</em> 2008). Sendo esta região também identificada como area de uso por fêmeas em deslocamento pós reprodutivos através de estudos de telemetria satelital (Silva <em>et al</em>., 2011).</p> \n<p> </p> \n<p>As áreas prioritárias de reprodução (praias localizadas entre o sul de Alagoas, Sergipe e o norte da Bahia) registram também as maiores ocorrências de encalhes da tartaruga oliva adultas. Entre agosto de 2009 e julho de 2014, 4.831 encalhes foram regitrados nestas praias. Das 4.777 carcaças com espécie identificada, 41,8% (n=1999) foram da espécie <em>L. olivacea</em>. As análises macroscópicas (observação de lesões e/ou presença de petrechos; bem como de evidências de morte crônica) realizadas com 1.160 carcaças indicaram que mais de 90% dos encalhes foram associados à pescaria costeira de arrasto de camarões (Castilhos <em>et al.,</em> 2018). Além das análises das carcaças apontarem interaçao negativa entre tartarugas-olivas e pescaria costeira de arrasto de camarão, tal sobreposiçao também foi documentada por Oliveira (2016). Os 906 pontos de pescaria georreferenciadas e as 372 embarcaçoes monitoradas entre setembro de 2010 e junho de 2013 indicaram sobreposiçao de uso de áreas por tartarugas em reprodução e pescaria de arrasto de camarão desde o sul de Alagoas até o norte da Bahia.</p> \n<p>Migrações reprodutivas monitoradas por telemetria satelital registraram deslocamentos por toda a plataforma continental brasileira, indicando uma sobreposição do uso de áreas com pescarias costeiras de arrasto de camarão e de rede de emalhe (Silva <em>et al.,</em> 2011). Segundo Wallace <em>et al.</em> (2008), a suscetibilidade à captura incidental pode ser ainda maior se as pescarias, mesmo as de pequena escala comercial, forem realizadas em sobreposição a áreas de reprodução ou alimentação, uma vez que estas áreas concentram uma grande quantidade de indivíduos. Sendo esta, portanto, a principal vulnerabilidade da tartaruga oliva ao longo de todas praias prioritárias de reprodução (Castilhos, 2016; Oliveira, 2016; Castilhos <em>et al.,</em> 2018).</p> \n<p>Considerando as pescarias oceânicas monitoradas, o espinhel pelágico da região norte/nordeste foi responsável pela maioria das capturas registradas (Marcovaldi <em>et al.,</em> 2006; Domingo <em>et al.,</em> 2006; Coluchi, 2006).</p>",
+      "states": "Pará, Paraíba, Pernambuco, Rio de Janeiro, Rio Grande do Norte, Santa Catarina, São Paulo, Sergipe",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": [
+          {
+            "type": "Área de desova",
+            "local": "Litoral Sul",
+            "state": "AL",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Litoral Norte",
+            "state": "BA",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Litoral",
+            "state": "SE",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Reserva Biológica de Santa Isabel",
+            "state": "SE",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Reserva Biológica de Santa Isabel",
+            "state": "SE",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Reserva Biológica de Santa Isabel",
+            "state": "SE",
+            "province": "",
+            "refBibs": []
+          }
+        ]
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7072534b7830514c31322f365251377633514452463577466e5173616f4f4d616c47636b51636d5865547452327145686c5154423374483279474e47545a676d",
+        "legend": "Área de distribuição e registros de ocorrências reprodutivas",
+        "diskFileName": "a74f9d9937378d4b8e6eb3c1a17324fa.jpeg",
+        "fileName": "Mapa de Lepiochelys olivacea(1).jpeg"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Sim",
+      "description": "<p>Este táxon é altamente migratório. As fêmeas migram das áreas de reprodução para as áreas de alimentação, em deslocamentos que podem chegar a mais de 4000 km, percorridos em pouco mais de 100 dias (Silva <em>et al.,</em> 2011; Santos <em>et al.,</em> no prelo). O cumprimento destas etapas do ciclo de vida, bem como a periodicidade destes eventos, estão diretamente relacionados à disponibilidade e qualidade de alimentos e ao tempo necessário para o acúmulo de reservas energéticas nas áreas de alimentação (Hamann <em>et al.,</em> 2003). São carnívoros durante todo o ciclo de vida. Fêmeas em atividade reprodutiva apresentam uma camada mais espessa de tecido adiposo, que funciona como um reservatório de energia para a reprodução (Kwan, 1994).</p> \n<p> </p> \n<p>Análises do conteúdo gastrointestinal de tartarugas encalhadas em Sergipe indicaram que fêmeas e machos podem se alimentar ao longo do período de reprodução e, como os estudos com telemetria satelital indicaram sobreposição de uso de áreas ao longo do período internidal, tal fato pode potencializar as chances de capturas e perdas de animais adultos e reprodutivamente ativos (Colman <em>et al.,</em> 2014; Oliveira, 2016). </p> \n<p>Devido às particularidades da ecologia alimentar e da biologia reprodutiva associadas às diferentes etapas do ciclo de vida, e às dificuldades de estudos populacionais com machos, subadultos e juvenis, o índice de abundância mais comumente utilizado é o total de desovas registradas a cada temporada (Meylan, 1995). O aumento do número de ninhos observado ao longo dos últimos anos pode ser considerado como um indicador de recuperação da população, resultado das ações de conservação desenvolvidas ininterruptamente por quase quatro décadas (Silva <em>et al.,</em> 2007; Castilhos <em>et al</em>., 2019). No entanto, apesar dos resultados serem promissores, é preciso cautela pois existe uma lacuna de informação sobre o tamanho populacional do passado e quais proporções seriam adequadas e necessárias sem comprometer as funções ecológicas. Os dados do Brasil permenecem promissores apesar do aumento das perdas de animais adultos.</p> \n<p>Não existem dados quantitativos comprovados da abundância deste táxon para o período anterior ao levantamento realizado pelo TAMAR entre 1980-82, onde está registrada a interrupção do ciclo de vida desses animais em várias áreas visitadas, devido a um longo histórico de coleta de praticamente todos os ovos e abate de fêmeas (Marcovaldi &amp; Albuquerque, 1982). Conclui-se que, no passado, a abundância destas populações poderia ser muito maior. A falta de perspectiva adequada para quantificação ou o uso de uma linha imaginária de dados iniciais de abundância para o estudo de tendência populacional podem levar a uma interpretação errônea destas análises. A síndrome da mudança de referencial ou “<em>shifting baseline syndrome</em>” é conhecida como o uso de dados de tamanho da população que correspondem ao início das atividades dos pesquisadores e não da sua real abundância no passado, levando potencialmente a subestimativas da redução populacional (Bjorndal, 1999).</p>",
+      "foodHabit": {
+        "table": [
+          {
+            "type": "Carnívoro",
+            "refBibs": []
+          }
+        ],
+        "specialist": {
+          "yn": "Não",
+          "table": []
+        },
+        "observations": "<p>Pouco se sabe sobre os habitats de alimentação dos juvenis dessa espécie. Os adultos aparentemente utilizam uma ampla variedade de áreas para alimentação. É uma espécie predominantemente carnívora e pode se alimentar de salpas, peixes, moluscos, crustáceos, briozoários, tunicados, águas-vivas, ovos de peixe e eventualmente algas (Bjorndal, 1997). Análises do conteúdo gastrointestinal de animais que encalharam nas praias de Sergipe confirmaram preferência por crustáceos decápodes bentônicos e de recursos obtidos de forma oportuna como peixes demersais e descartes da pesca (Colman <em>et al</em>., 2014). As capturas em redes de fundo indicam que podem se alimentar em locais profundos (80 a 110m), sendo também encontradas em locais rasos, geralmente próximas a estuários (Bjorndal, 1997).</p> \n<p> </p> \n<p>Análises de isótopos estáveis de fêmeas abordadas e de ovos depositados nas praias de Sergipe indicaram alimentação em áreas oceânicas e neríticas em períodos que antecederam a desova (Echevenguá, 2015; Petitet &amp; Bugoni, 2017). A utilização desses dois ambientes ao longo dos deslocamentos pós reprodutivos também foi observada através dos estudos com telemetria satelital (Silva <em>et al</em>., 2011; Santos <em>et al</em>., no prelo).</p>"
+      },
+      "restrictedPrimaryHabitat": "Não",
+      "specialistMicroHabitat": {
+        "yn": "Não",
+        "observations": ""
+      },
+      "habitatObservations": "<p>A <em>Lepidochelys olivacea</em>, assim como as demais tartarugas marinhas, possuem um complexo ciclo de vida e utilizam uma grande área geográfica e múltiplos habitats (Abreu-Grobois &amp; Plotkin 2008, Márquez 1990), podendo incluir estágios neríticos e/ou oceânicos para juvenis e adultos, dependendo das diferenças na disponibilidade de recursos entre as regiões (Bolten, 2003).De acordo com o estudo realizado na Costa Rica, Pacífico Sul, as olivas selecionam os locais de nidificação de acordo com um padrão de preferência estabelecido, mantendo os ninhos longe da linha de maré, como uma estratégia de proteção (Avila-Aguilar, 2015).  Embora o habitat dos filhotes recém-eclodidos não seja conhecido, é possível que permaneçam numa fase pelágica, flutuando ao sabor das correntes marinhas que podem levá-los para longe da praia natal (Kopitsky <em>et al</em>., 2000). </p> \n<p> </p> \n<p>O movimento migratório é complexo, com rotas que variam anualmente e que podem cobrir centenas a milhares de quilômetros, preferencialmente em regiões do oceano com temperaturas acima de 20ºC. Em pesquisa recente com telemetria e sensores remotos por satélite, foi possível determinar que as tartarugas da espécie <em>L. olivacea</em> do Pacífico Norte possuem preferência por águas mais quentes, entre 23-28°C, permanecendo 20% do tempo na superfície e 60% em profundidade acima de 40 metros (Polovina <em>et. al</em>., 2004)</p> \n<p> </p> \n<p>Pesquisas indicam distintas estratégias de forrageio em diferentes regiões para as olivas, possivelmente relacionadas às características oceanográficas. No Brasil, os deslocamentos pós reprodutivos foram costeiros e oceânicos, sendo que a maioria das tartarugas amostradas permaneceram dentro de águas neríticas durante o período internidal (período entre desovas consecutivas). É nessa área, onde ocorrem as variadas operações de pesca com elevado potencial de interação com as tartarugas marinhas. (Silva <em>et al</em>., 2011). </p> \n<p> </p> \n<p>Análises de dados obtidos com mapas de bordo e caracterização da pesca em Sergipe identificaram uma maior sobreposição de áreas de uso das tartarugas <em>L. olivacea</em> com a pescaria costeira de arrasto de camarão. A espécie permaneceu (entre 8 e 28 dias) em áreas com registro de esforço de pesca, situadas na porção norte do estado de Sergipe, assim como na região próxima aos municípios de Pirambu e Barra dos Coqueiros. Secundariamente foi possível observar um potencial de interação com a pescaria de arrasto no segmento da plataforma continental entre os rios Vaza-Barris e Rio Real/Rio Fundo, onde se registrou três áreas com elevada permanência das tartarugas-oliva (15 – 28 dias) e existente esforço de pesca (Oliveira, 2016).</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "22 Dia(s)",
+        "gestationTime": "50,6 (41-72 dias de incubação) Dia(s)",
+        "offspringSize": "100,1 ovos (4-182) indivíduo(s)",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": "20 Ano(s)"
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": "41 Quilogramas"
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": "83 cm"
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": "73 cm"
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": "<p>As populações de <em>L. olivacea</em> apresentam comportamento reprodutivo distinto. As fêmeas podem emergir em massa e de forma sincronizada, comportamento denominado de arribada (termo em espanhol) ou podem emergir de forma solitária. As maiores arribadas ocorrem em poucas praias no mundo: Orissa, Índia; Playa Escobilla, México; e Ostional, Costa Rica (Marcovaldi, 2001; Bernardo &amp; Plotkin, 2007).</p> \n<p>O censo de tartarugas marinhas é normalmente feito em praias de desova por causa da dificuldade de acesso aos indivíduos em áreas de alimentação. O número total de ninhos registrados a cada temporada reprodutiva é comumente adotado como índice de abundância (Meylan, 1995).</p> \n<p>O Brasil possui um dos mais importantes sítios reprodutivos do Oceano Atlântico Sul. A população do Brasil tem apresentado sinais de recuperação, indicados pelo aumento do número de desovas registradas ao longo das últimas temporadas reprodutivas (Silva <em>et al</em>., 2007; Castilhos <em>et al</em>., 2019). </p> \n<p>Podem desovar 1, 2 ou 3 vezes a cada temporada com uma média de intervalo internidal <em>sensu lato</em> (intervalo entre desovas consecutivas) de 22,35 dias (DP=7,01; n= 143) (Matos <em>et al</em>., 2012). Além do aumento do número de desovas registrado a cada temporada reprodutiva, uma expansão de uso de áreas e do período reprodutivo também vêm sendo observados. Praias que antes não registravam preferência das tartarugas-oliva agora apresentam maior densidade de desovas. E, quanto à sazonalidade, a maior densidade de desovas foi observada apenas ao longo de 4-6 meses e, agora, ocorrem ao longo de todos os meses do ano (Castilhos <em>et al</em>., 2019).</p> \n<p>Os juvenis compartilham algumas áreas utilizadas pelos adultos (Kopitsky <em>et al</em>., 2000) até a maturidade sexual ser atingida (Musick &amp; Limpus, 1997). Machos e fêmeas ativos e em fase de reprodução migram para zonas costeiras e se concentram próximos às praias de desova. Contudo, alguns machos aparentemente permanecem em águas oceânicas e acasalam com as fêmeas em rotas para as praias de desovas (Plotkin 1994, Plotkin <em>et al</em>., 1995, Kopitsky <em>et al</em>., 2000).</p> \n<p> </p> \n<p>A determinação sexual nas tartarugas marinhas depende da temperatura na qual os ovos são incubados – temperaturas mais altas produzem fêmeas e mais baixas, machos. Denomina-se de temperatura pivotal a que produz machos e fêmeas em proporções muito semelhantes (Mrosovsky &amp; Yntema, 1980). Um estudo realizado na praia de Pirambu/Sergipe, área prioritária de desovas da tartaruga-oliva, indicou uma temperatura pivotal de 30,7ºC (DP=1,5ºC), mediante análise histológica de gônadas de filhotes de ninhos mantidos <em>ex situ</em>. Os ninhos mantidos <em>in situ</em> apresentaram temperaturas que variaram entre 28°C e 32,8°C e uma incubação média de 49,5 dias (DP=3,1) (Castheloge <em>et al</em>., 2018).</p> \n<p> </p> \n<p>Ninhos mantidos nos locais de origem (<em>in situ</em>), monitorados nas praias de Sergipe ao longo de todo o período de incubação, demoraram uma média de 50,6 dias para eclodirem (41 – 72 dias; N=473), com uma taxa média de eclosão de 80,2% (0 – 100%; N=1.034). As desovas apresentaram tamanho médio de 100,1 ovos (4 – 182; N=6.480). As fêmeas abordadas em reprodução apresentaram comprimento curvilíneo de carapaça médio de 73 cm (62,5 – 83 cm; N=170) e um peso médio de 41,3 Kg (33,8 – 56 kg; N=18). Em desovas subsequentes as fêmeas apresentaram peso médio de 39,5 Kg (33,8 – 52 Kg; N=18) (Castilhos &amp; Tiwari, 2006; Silva <em>et al</em>., 2007). As fêmeas acumulam energia nas áreas de alimentação antes de migrarem para as áreas de reprodução, não precisam se alimentar ao longo do período entre desovas, mas podem utilizar-se dos recursos alimentares disponíveis. </p> \n<p>Todas as tartarugas marinhas apresentam maturação tardia e ciclo de vida longo, podendo demorar de 15 a 40 anos (dependendo da espécie e da população), para atingirem a maturidade sexual. Estudos de identificação de idade (esqueletocronologia) conduzidos com 68 tartarugas-oliva encalhadas nas praias de reprodução de Sergipe e do sul de Alagoas, com medidas entre 58 – 77 cm de comprimento curvilíneo da carapaça (CCC), apresentaram idades entre 14 e 26 anos (médias: 16 anos/66 cm) (Petitet <em>et al</em>., 2015). Estudo semelhante foi conduzido com 26 tartarugas-oliva do Oceano Pacífico, com medidas entre 20,5 e 64,4 cm de comprimento retilíneo de carapaça registrou idades entre 7,3 e 24,1 anos (Zug <em>et al</em>., 2006). Sendo animais de ciclo de vida longo e de maturação sexual tardia, ameaças que resultem em perda de indivíduos adultos e reprodutivamente ativos podem trazer consequências ainda desconhecidas. As perdas de indivíduos de sexo masculino constitui importante indicador de possíveis implicações para a manutenção do equilíbrio populacional da tartaruga <em>Lepidochelys olivacea</em> (Castilhos, 2016). Além disso, os machos parecem exercer um importante papel no fluxo gênico da espécie (Hahn, 2011).</p>"
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "20 Ano(s)",
+      "populationTrend": "Aumentando",
+      "geneticCharacteristics": "<p style=\"margin: 0cm 0cm 0.0001pt; text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt;\">As populações de tartaruga-oliva que desovam nas praias dos oceanos Índico, Indo-Pacífico, Pacífico leste e Atlântico são distintas e devem ser manejadas separadamente. As populações que desovam nas praias do Atlântico apresentam a menor diversidade genética dentre as demais colônias reprodutivas. Esta menor diversidade genética e o padrão de estrutura populacional podem ser explicados pela recente colonização do oceano Atlântico. Como a taxa de mutação para o mtDNA em tartarugas é em geral mais lenta comparada a outros vertebrados, não teria havido tempo suficiente para maiores níveis de diferenciação das linhagens no oceano Atlântico (Hahn, 2011). </span></p>\r\n<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt;\">Estudos genéticos comprovam a ocorrência de híbridos: existe alta proporção de hibridismo entre tartarugas da espécie <em>Caretta caretta</em> e <em>Lepidochelys olivacea</em>, não sendo ainda entendidas as causas e implicações deste fato, e seu impacto na diversidade genética e identificação destas espécies. A ocorrência de hibridização interespecífica pode acarretar sérias conseqüências para as espécies envolvidas e é de suma importância para sua conservação.</span></p>",
+      "populationObservations": "<p>Desde 1982, um programa de monitoramento das praias e o registro das ocorrências reprodutivas foi estabelecido nas principais áreas de reprodução das tartarugas marinhas que ocorrem no Brasil. O levantamento inicial realizado através de entrevistas com os pescadores ao longo do litoral brasileiro entre os anos de 1980 e 1982 constatou um histórico muito longo de exploração/uso direto. Relatos em algumas comunidades litorâneas afirmavam que muitos moradores jamais tinham visto um filhote de tartaruga marinha (Marcovaldi &amp; Albuquerque, 1982), indicação de interferência ao ciclo de vidas das tartarugas marinhas. As ações contínuas de conservação desenvolvidas há quase quatro décadas permitiram que as populações apresentassem sinais de recuperação. Algumas espécies apresentaram índices mais robustos, como é o caso da tartaruga-oliva. Um crescimento no número de desovas foi observado mediante análise dos dados coletados em Sergipe e Bahia entre 1991/1992 (252 desovas), 2002/2003 (2.602 desovas) e 2013/2014 (8.764 desovas). Expandiram também as praias e o período de ocorrência. Praias que antes não registravam desovas desta espécie passaram a registrar maiores proporções e, registros comumente observados apenas durante 4-6 meses passaram a ocorrer ao longo de todos os meses do ano (Silva <em>et al</em>., 2007; Castilhos <em>et al</em>., 2019). </p> \n<p>O Grupo de Especialistas de Tartarugas Marinhas - MTSG da UICN, baseado em resultados de genética molecular, áreas de reprodução, resultados de marcação e recaptura, satélite telemetria, bem como aspectos da historia natural e biogeografia, definiu Unidades de Manejo Regional para <em>L. olivacea</em>. Segundo Abreu-Grobois e colaboradores (2008), Unidades de Manejo Regionais referem-se às áreas ocupadas por populações funcionalmente independentes, possuidoras de processos demográficos distintos. O Brasil (praias, plataforma costeira e ZEE) pertence à unidade de manejo do Atlântico Oeste.</p> \n<p>O aumento no número de ninhos observado nos últimos anos representa um aumento no tamanho populacional. No entanto, apesar de promissora, acredita-se que essa recuperação é limitada em relação ao tamanho populacional no passado. Adicionalmente, características da estratégia de vida das tartarugas marinhas como a maturação tardia e ciclo de vida longo tornam a recuperação muito lenta. É possível que os números de desovas observados até o presente não se mantenham no futuro, devido à ação das atuais ameaças sobre o estoque de juvenis a serem recrutados para a população reprodutiva. Além disso, os estudos de tendência de população cobrem pouco mais de um tempo geracional para este táxon, estimado em cerca de 20 anos em escala global mas podendo variar regionalmente (Abreu-Grobois <em>et al.,</em> 2008).</p> \n<p>A dificuldade de estimar o tamanho das populações de tartarugas marinhas há três gerações (critério A1 da IUCN) é comum em todo o planeta, mas alguns estudos têm conseguido estimar a abundância de tartarugas marinhas no passado, com incertezas consideráveis. Jackson <em>et al.</em> (2001) apresentaram estimativas de abundância de tartarugas marinhas no Caribe no passado, obtidas através de dados quanto à capacidade de suporte do ecossistema e de biomassa, mostrando que, para a espécie Chelonia mydas, a abundância da espécie em anos próximos a 2001 era da ordem de 3 a 7% daquela que deve ter existido na época das grandes navegações. Estas estimativas de Jackson <em>et al</em>. (2001) podem possivelmente ser consideradas conservadoras: McClenachan<em> et al.</em> (2006), com base em dados históricos de capturas e exportação de tartarugas marinhas, estimaram que as populações atuais de C. mydas e E. imbricata no Caribe são, cada uma, da ordem de 0.3% do que havia em épocas históricas. Na ausência de dados históricos para o Brasil, foi analisada a situação brasileira a partir das estimativas apresentadas por Jackson<em> et al.</em> (2001), considerando também as estimativas apresentadas por McClenachan<em> et al.</em> (2006). Tais dados foram comparados com estimativas para o número de ninhos de L. olivacea na época \"pré-Tamar\", anterior a 1982, ano em que o Projeto Tamar começou efetivamente a trabalhar nas praias de desova.</p> \n<p>Existe grande imprecisão nas estimativas obtidas por meio dos dados de Jackson <em>et al.</em> (2001) e de McClenachan<em> et al.</em> (2006). Mas a possibilidade de imprecisão nas estimativas, através do uso de faixas de incerteza, está especificada nas normas da IUCN. Para a espécie L. olivacea, a faixa de reduções estimada inclui valores superiores a 50% de redução da população. Portanto, a recuperação do número de adultos ou do tamanho populacional observado só poderá ser considerada consistente quando a série histórica de dados for mais longa, incluindo várias décadas.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A captura incidental em atividades de pesca representa a principal ameaça a este táxon, principalmente redes de arrasto empregadas na pesca de camarão no entorno das praias de desova em Sergipe. As análises macroscópicas (observação de lesões e/ou presença de petrechos; bem como de evidências de morte crônica) realizadas com 1.160 carcaças indicaram que mais de 90% dos encalhes foram associados à pescaria costeira de arrasto de camarões (Castilhos <em>et al.,</em> 2018). Destaca-se que as informações obtidas através da telemetria mostram uma sobreposição com áreas conhecidas para diferentes pescarias ao longo de todo o deslocamento pós reprodutivo (Oliveira, 2016; Silva <em>et al</em>., 2011). Na pesca de arrasto-de-fundo industrial, <em>L. olivacea</em> foi uma das duas espécies de tartarugas marinhas capturadas incidentalmente na região Sudeste do Brasil. Foram 21 indivíduos capturados em 1996 lances de arrasto monitorados entre 2010 e 2011 (Guimarães <em>et al.</em>, 2018).</p> \n<p>Há registros de captura incidental nas pescarias oceânicas (<em>longline</em> ou espinhel de superfície) do norte/nordeste e sul/sudeste do Brasil com capturas se estendendo para águas internacionais adjacentes.</p> \n<p>O impacto humano sobre os habitats das tartarugas marinhas é reconhecido há décadas, com os esforços para mitigação concentrados no ambiente terrestre. Apesar de progressos feitos na proteção e recuperação de ecossistemas costeiros em algumas áreas, impactos antropogênicos diretos ou indiretos continuam a ocorrer. A coleta de desovas nas praias, principal ameaça do passado, foi revertida graças ao trabalho contínuo de conservação e pesquisa aplicada e às atividades de educação ambiental e de inclusão social. Em comparação com outras ameaças, podemos considerar baixos os índices de coleta de ovos registrados entre 1991/1992 e 2002/2003 (Silva <em>et al</em>., 2007) e que se mantêm nas temporadas atuais (Banco de Dados Fundação Pró-Tamar/Sitamar). </p> \n<p>Além da interação com pescarias já mencionadas anteriormente e que representam a maior ameaça da atualidade não somente no Brasil mas no mundo (Magnuson <em>et al</em>., 1990; Arauz<em> et al</em>., 1998; Epperly <em>et al</em>., 2000; Marcovaldi <em>et al</em>., 2002; Sales <em>et al</em>., 2008), existem outras ameaças potenciais associadas ao desenvolvimento costeiro desordenado e que causam um impacto negativo na população brasileira de <em>L. olivacea</em>: descaracterização dos ambientes costeiros e ocupação de áreas de preservação permanente; fotopoluição; trânsito de veículos nas praias; exploração de óleo e gás (Sforza <em>et al.,</em> 2017). Outras ameaças associadas de forma indireta com a degradação dos ambientes costeiros são as predações de desovas e de fêmeas por animais silvestres e domésticos, respectivamente. As raposas (<em>Cerdocyon thous</em>) são responsáveis pelas maiores predações de desovas e os cães domésticos, os principais predadores de fêmeas no ato da postura, principalmente nas praias do norte da Bahia e sul de Sergipe (Longo <em>et al</em>., 2014; Melo <em>et al</em>., 2017; Fundação Mamíferos Aquáticos, 2019). A perda de ninhos por predação animal tem aumentado nos últimos anos (Banco de dados Tamar/SITAMAR, dados não publicados), possivelmente devido a desequilíbrios de origem antrópica nos habitats das raposas.</p> \n<p>O alto índice de ocorrência de híbridos de <em>Caretta caretta</em> com <em>Lepidochelys olivacea</em> em Sergipe pode significar uma ameaça. No entanto não são compreendidas as causas e implicações deste fato e seu impacto na diversidade genética, taxonomia e conservação destas espécies.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.2 - Áreas comerciais e industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.3 - Áreas de turismo e recreação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Poloczanska <i>et al.</i>, 2009",
+              "title": "Poloczanska, E.S., Limpus, C.J. &amp; Hays, G.C. (2009) Vulnerability of marine turtles to climate change. <i>Advances in Marine Biology</i>. 56, 151--211."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.1 - Extração de petróleo e gás natural",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.4 - Tráfego de embarcações",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.3 - Portos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.2 - Espécies domésticas|8.2.2 - Predadores",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Fundação Mamíferos Aquáticos Fundação Mamíferos Aquáticos - Aracaju (4816798) & 19 de março de 2019, 2019",
+              "title": "Fundação Mamíferos Aquáticos Fundação Mamíferos Aquáticos - Aracaju (4816798) &amp; 19 de março de 2019 (2019) <i>Nota Técnica. Assunto: Ataques de cães domésticos a tartarugas marinhas no litoral de Aracaju. (nº SEI ICMBio 4816798)</i>. Aracaju. 06pp."
+            },
+            {
+              "label": "Fundação Mamíferos Aquáticos Fundação Mamíferos Aquáticos - Aracaju (4816798) & 19 de março de 2019, 2019",
+              "title": "Fundação Mamíferos Aquáticos Fundação Mamíferos Aquáticos - Aracaju (4816798) &amp; 19 de março de 2019 (2019) <i>Nota Técnica. Assunto: Ataques de cães domésticos a tartarugas marinhas no litoral de Aracaju. (nº SEI ICMBio 4816798)</i>. Aracaju. 06pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.5 - Captura indireta - subsistência/pequena escala",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Wallace, 2010",
+              "title": "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B. (2010) Global patterns of marine turtle bycatch. <i>Conservation Letters</i>. 3, 131-142."
+            },
+            {
+              "label": "Castilhos <i>et al.</i>, 2018",
+              "title": "Castilhos, J. C., Goldberg, D. W., Giffoni, B. B., Weber, M. I., Oliveira, F. L. C., Fonseca, E. L., Silva, A. C. C. D., Melo, A. C. C., Abreu, J. A. G., Santos, E. A. P., Tognin, F. &amp; Nillin, J. (2018) Using stranding data as a key to mitigate threats at one of the largest olive ridley rookery in the south atlantic . In: PROCEEDINGS OF THE ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION (ed.) <i>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION, 38, 2018</i>"
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos|5.4.6 - Captura indireta - larga escala",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Wallace, 2010",
+              "title": "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B. (2010) Global patterns of marine turtle bycatch. <i>Conservation Letters</i>. 3, 131-142."
+            },
+            {
+              "label": "Castilhos <i>et al.</i>, 2018",
+              "title": "Castilhos, J. C., Goldberg, D. W., Giffoni, B. B., Weber, M. I., Oliveira, F. L. C., Fonseca, E. L., Silva, A. C. C. D., Melo, A. C. C., Abreu, J. A. G., Santos, E. A. P., Tognin, F. &amp; Nillin, J. (2018) Using stranding data as a key to mitigate threats at one of the largest olive ridley rookery in the south atlantic . In: PROCEEDINGS OF THE ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION (ed.) <i>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION, 38, 2018</i>"
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.3 - Espécies nativas problemáticas|8.3.1 - Espécie conhecida|8.3.1.2 - Predadores",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Projeto TAMAR, 2018",
+              "title": "Projeto TAMAR (2018) Banco de Dados TAMAR/SITAMAR."
+            },
+            {
+              "label": "Longo, 2009",
+              "title": "Longo, Guilherme O. Pazeto, Fernando D. Abreu, João A. G. de Floeter, Sergio R. (2009) Flags Reduce Sea Turtle Nest Predation by Foxes in NE Brazil. <i>Marine Turtle Newsletter</i>. 125, 1-4."
+            },
+            {
+              "label": "Melo <i>et al.</i>, 2017",
+              "title": "Melo de, A.C. C., Oliveira, F. L. das C., Castilhos de, J. C. &amp; Santos dos, E. A. P. (2017) Estrategia de protección de nidos de tortugas marinas contra depredación por zorros (Cerdocyon thous ) en las playas del litoral sur de Sergipe, Brasil. In: . (ed.) <i>Simposio Regional Sobre Tortugas Marinas en el Pacifico sur Oriental (Proceedings of.)</i> Arica, Chile."
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A espécie é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto, além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país também participa da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas - IAC.</p>  \n<p>Desde 1986 (Portaria SUDEPE 5/86), é proibida no Brasil a captura de tartarugas marinhas e seus ovos.</p> \n<p>As principais ameaças no passado, que causaram a redução populacional nas últimas 3 gerações, foram a coleta de ovos e o abate de fêmeas nas áreas de reprodução e a pesca permissionada, que não acontecem mais (Marcovaldi &amp; Marcovaldi, 1999), exceto relatos esporádicos.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "15 - Pesquisa",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "1 - Alimentação humana",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Marcovaldi & Marcovaldi, 1999",
+              "title": "Marcovaldi, M.A. &amp; Marcovaldi, G.G., 1999. Marine turtles of Brazil: the history and structure of Projeto Tamar-Ibama. Biological Conservation, 91: p.35--41."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><strong>Existentes:</strong></p> \n<p>A espécie é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto, além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país também participa da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas - IAC e da Convenção da Diversidade Biológica (CDB).</p> \n<p>O PAN Tartarugas Marinhas define as ações para conservação da espécie.</p> \n<p><strong>Necessárias:</strong></p> \n<p>• Dar continuidade às atividades de educação ambiental, sensibilização pública e desenvolvimento local, incluindo geração de emprego e renda, junto às comunidades costeiras onde a espécie ocorre;</p> \n<p>• Manter o monitoramento das áreas de desova, garantindo a proteção dos ninhos in situ, filhotes e fêmeas;</p> \n<p>• Desenvolver e implementar tecnologia para minimizar impactos antropogênicos.</p> \n<p>Dar continuidade ao “Programa Interação Tartarugas e Pesca” para redução das capturas incidentais, com ênfase em:</p> \n<p>• Estimular a gestão participativa nas comunidades pesqueiras para busca de soluções alternativas e de ordenamento;</p> \n<p>• Realizar levantamento sobre a interação com as pescarias costeiras;</p> \n<p>• Fomentar a criação, implantação e gestão de unidades de conservação litorâneas e marinhas;</p> \n<p>• Desenvolver e implementar medidas mitigadoras e compensatórias, nas três esferas de licenciamento, para os empreendimentos desenvolvidos na área de ocorrência do táxon.</p> \n<p>• Realizar palestras nas comunidades litorâneas que abordem temas relacionados à conservação dos ecossistemas costeiros e a importância das espécies focais para o seu equilíbrio. </p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A1bcd",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2022",
+              "title": "Santos, A.S., Marcondes, A.C.J., Iespa, B.B., Oliveira, B.S.S.P., Baptistotte, C., Bellini, C., Monteiro, D.S., Goldberg, D.W., Tognin, F., Sales, G., Castilhos, J.C., Thome, J.C.A., Marcovaldi, M.A.A.G.D., Barata, P.C.R., Santos, R.G., Costa, S.A.G.L. &amp; Santanaw, W.M. (2022) <i>Lepidochelys olivacea (Eschscholtz, 1829)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2010,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "A2abcde",
+          "refBibs": [],
+          "orderBy": "Z2010"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para a Conservação das Tartarugas Marinhas - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação das Tartarugas Marinhas",
+          "refBibs": []
+        },
+        {
+          "name": "Educação e comunicação",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção territorial",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Costa dos Corais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Piaçabuçú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Jericoacoara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Lagoa do Peixe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Comboios",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Santa Isabel",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Araí Peroba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Arraial do Cabo",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Canavieiras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX MAR Soure",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Maracanã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Marinha da Lagoa do Jequiá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DA ORLA MARíTIMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA ILHA COMPRIDA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL CENTRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA LAGOA DO AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CARAÍVA/ TRANCOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Botticelli, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Botticelli, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA MARITUBA DO PEIXE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE SANTA RITA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PLATAFORMA CONTINENTAL DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SANTO ANTÔNIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA FOZ DO RIO DAS PREGUIçAS - PEQUENOS LENçóIS - REGIãO LAGUNAR ADJACENTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE UPAON-AçU / MIRITIBA / ALTO PREGUIçAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLóGICO DO DEGREDO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Araçari",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ecoparque de Una",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Comboios",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p><strong>Existentes:</strong></p> \n<p>A espécie é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto, além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país também participa da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas - IAC.</p> \n<p><strong>Necessárias:</strong></p> \n<p>• Manter o monitoramento das áreas de desova;</p> \n<p>• Manter e incrementar as atividades de pesquisa ao longo prazo para avaliar as tendências das populações (crescimento, estabilidade, diminuição);</p> \n<p>• Identificar as áreas de alimentação e implementar ações de conservação, manejo e pesquisa de longa duração;</p> \n<p>• Realizar levantamento sobre a interação com as pescarias costeiras;</p> \n<p>• Manter e incrementar a marcação de adultos e juvenis, para determinação das áreas de uso e deslocamento e biologia reprodutiva;\\</p> \n<p>• Dar continuidade aos estudos genéticos para determinação das populações (áreas de alimentação e desova).</p>",
+      "table": [
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Em Andamento",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Abreu-Grobois, F.A.; Plotkin, P. &amp; IUCN SSC Marine Turtle Specialist Group, 1895. <i>Lepidochelys olivacea</i>. The IUCN Red List of Threatened Species 2008: e.T11534A3292503, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T11534A3292503.en\">http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T11534A3292503.en</a>.",
+          "Almeida de, I. C.; Melo, M. B.M.; Garcia, R. S. &amp; Messeger, R.M.N. 2017. Enriquecimento Ambiental Alimentar Com Tartarugas Marinhas No Projeto Tamar Aracajú. <i>In</i>: Resumos.... [S.I.: s.n.].<i>In</i>: <b>SIMPÓSIO DE MEDICINA VETERINÁRIA DO CENTRO UNIVERSITARIO CESMAC</b>. Alagoas. (Resumo)",
+          "Baptistotte, C.; Lopez, G. G.; Reith, D.; Santos, M. R.; Boldrin, M. A.; Werneck, M .R.; Becker, H.; Goldberg, D. W.; Stahelin, G. D.; Marcovaldi, M. A. &amp; Pires, T. 2012. Anthropogenic threats to the sea turtle populations along the Brazilian coast.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Huatulco. (Resumo)",
+          "Barata, P.C.R. 2015. Literature and Conservation: “The Turtle”, A Short Story by the Brazilian Writer Rubem Braga.. <b>Marine Turtle Newsletter</b>, p.15-17.",
+          "Becker, J. H.; Giffoni, B.; Alvarenga, F. S.; Dos Santos, E. L; Navarro, F. C. S.; Barbosa, J. N. &amp; Ortiz, P. Gallo, B. M. G. 2013. Community Iniciative of Non-Consumptive use of Sea Turtles as A Result of Long term Conservation Program In Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Miami. (Resumo)",
+          "Bjorndal, K.A., 1999. Foraging ecology and nutrition of sea turtles. p.199--231. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press",
+          "Britto, M.; Giffoni, B.; Sales, G.; Maçaneiro, L. R.; Nascimento, C.; Junior, N. de O. &amp; Fiedler, F. N. 2016. Working with fishermen to minimize sea turtles capture and mortality in pelagic longline fishery in Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Castilhos, J. C. 2016. <b>Causas associadas aos encalhes de tartarugas-oliva (Lepidochelys olivacea) nas principais praias de reprodução no Brasil.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador.",
+          "Castilhos, J. C.; Goldberg, D. W.; Giffoni, B. B.; Weber, M. I.; Oliveira, F. L. C.; Fonseca, E. L.; Silva, A. C. C. D.; Melo, A. C. C.; Abreu, J. A. G.; Santos, E. A. P.; Tognin, F. &amp; Nillin, J. 2018. Using stranding data as a key to mitigate threats at one of the largest olive ridley rookery in the south atlantic. <i>In</i>: PROCEEDINGS OF THE ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION, 38, 2018</b>. (Resumo)",
+          "Castilhos, J. C.; Silva, A. C. C. D.; Marcovaldi, M. A.; Lopez, G. G. &amp; Goldberg, D. W. 2014. Preliminary data on olive ridle (Lepidochelys olivaceae) strandings in northeastern Brazil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. New Orleans. (Resumo)",
+          "Castilhos, J.C. &amp; Tiwari, M., 2006. Preliminary data and observations from an increasing olive ridley population in Sergipe, Brazil. Marine Turtle Newsletter, 113: p.6--7.",
+          "Cegoni, C.T.; Goldberg, D.; Wanderlinde, J.; Giffoni, B. &amp; Rogério, D.W. 2015. Centro de Visitantes Projeto Tamar Sul: uma ferramenta de sensibilização ambiental. <i>In</i>: Anais... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO DA SOCIEDADE DE ZOOLOGICOS E AQUÁRIOS DO BRASIL</b>. Foz do Iguaçu. (Resumo)",
+          "Colman, L. P.; Sampaio, C.L.S.; Weber, M. I. &amp; Castilhos, J. C. 2014. Diet of Olive Ridley Sea Turtles, Lepidochelys olivacea (Eschscholtz, 1829), in the Waters of Sergipe, Brazil. <b>Chelonian Conservation and Biology.</b>, 13 (2): p.266-271.",
+          "Coluchi, R., 2006. Caracterização da Captura Incidental de Tartarugas Marinhas pela Pesca de Espinhel Pelágico no Nordeste do Brasil. Dissertação de Mestrado. Dissertação (Mestrado em Bioecologia Aquática), Universidade Federal do Rio Grande do Norte. p.66.",
+          "Cruz da, D. N. 2017. Avaliação do desenvolvimento de filhotes de tartaruga oliva (Lepidochelys olivacea) submetidas à enriquecimento ambiental.",
+          "D'amato, A.F., 1992. Ocorrência de <i> Lepidochelys olivacea</i> (Eschscholtz,1829) (Testudines: Cheloniidae) para o Estado do Paraná - Brasil. Acta Biologica Leopoldensia, 14 (1): p.95--97.",
+          "Domingo, A. Sales, G. Giffoni, B. Miller, P. Laporta, M. &amp; Maurutto, G., 2006. Captura incidental de tortugas marinas con palangre pelagico em el atlantico sur por las flotas de Brasil y Uruguay. Collective Volume of Scientific Papers - ICCAT, 59 (3): p.992--1002.",
+          "Fieldler, F. N.; Sales, G.; Giffoni, B. B.; Monteiro-Filho, E. L. A.; Secchi, E. R. &amp; Bugoni, L. 2012. Driftnet fishery threats sea turtles in the Atlantic Ocean.. <b>Biodiversity and Conservation</b>, 20:",
+          "Fundação Mamíferos Aquáticos Fundação Mamíferos Aquáticos - Aracaju (4816798) &amp; 19 de março de 2019, 2019. Nota Técnica. Assunto: Ataques de cães domésticos a tartarugas marinhas no litoral de Aracaju. (nº SEI ICMBio 4816798). Aracaju. p.06.",
+          "Gallo, B. G.; Becker, H.; Macedo, S.; Oliveira, A. M. F.; Coelho, M.A.R.; Lovizio, A. M. &amp; Ferraz, M. L. C. P. 2013. Programa de Educação Ambiental “Tartarugas marinhas vivendo livres no mar”.. <b>Revista Educação Ambiental em Ação</b>,",
+          "Giffoni B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2013. Captura incidental de tartarugas marinhas pela frota de espinhel pelágico do Brasil e Uruguai (1998 - 2010).. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Giffoni, B. B. 2016. <b>Pescaria como unidade de gestão para o monitoramento, avaliação e mitigação da captura incidental de tartarugas marinhas na pesca.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.63.",
+          "Giffoni, B. B.; Sales, G.; Leite Jr, N. O.; Britto, M.; Fiedler, F. N. &amp; Olavo, G. 2017. Fishery as administrative unit: Implications for sea turtle conservation.. <b>Collective Volume of Scientific Papers ICCAT</b>, 73: p.3252-3268.",
+          "Giffoni, B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2014. Captura incidental de tortugas marinas por las flotas de palangre pelágico de Brasil y Uruguay (1998 - 2010).. <b>Collective Volume of Scientific Papers ICCAT</b>, 70: p.2217-2225.",
+          "Giffoni, B.B.; Marcovaldi, M. A; Sales, G; Thomé, J. C. A; Da Silva, A. C.C; Marcovaldi, G; Gallo, B. M. G; Lima, E. H. S. M.; Lima, E. P; Bellini, C.; Wanderlinde, J.; Lopez, G.; Santos, A. J. B. &amp; López-Mendilaharsu, M and Santos, A. 2013. Interactions between sea turtles and fisheries in Brazil. An overview within the scope of projeto tamar monitoring area (1990 – 2012).. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Goldberg, D. W.; Pires, T. T.; Castilhos, J. C.; Marcovaldi, M. A.; Lopez, G. G.; Lima, E. P. &amp; Baptistotte, C. 2013. Avaliação dos encalhes de tartarugas marinhas: um indicador estratégico para a conservação.. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Goldberg, D.W.; Almeida, D.T.; Tognin, F.; Lopez, G.G.; Pizetta, G.T.; Leite Junior, N.O. &amp; Sforza, R. 2016. Hopper Dredging: A potential threat to sea turtles on the northern coast of Rio de Janeiro. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Goldberg, D.W.; Baptistotte, C.; D'Azeredo F.T.; Bertoloto, A.; Guimarães, S.; Velez-Rubio, G. &amp; Prosdoscimi, L. 2016. Aso-turtle network: Collaborative efforts to understand strandings.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Goldberg, D.W.; Cegoni, C.T.; Stahelin, G.; Wanderlinde, J.; Giffoni, B. &amp; Lima, E.P. 2013. Enriquecimento ambiental para tartarugas marinhas em cativeiro no Museu Aberto do Projeto Tamar em Florianópolis. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Goldberg, D.W.; Pires, T.; Velloso, R.; Becker, H.; Castilhos, J.C.; Wanderlinde, J.; Lopez, G.G.; Melo, M.T.D.; Santos, A.B. &amp; Baptistotte, C 2016. What can we learn from sea turtle strandings?. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Guimarães, S.M.; Tavares, D.C. &amp; Monteiro-Neto, C. 2018. Incidental capture of sea turtles by industrial bottom trawl fishery in the Tropical South-western Atlantic. <b>Journal of the Marine Biological Association of the United Kingdom</b>, 98 (6): p.1525-1531.",
+          "Hahn, A. T., 2011. Filogeografia global da tartaruga oliva (Lepidochelys olivacea). Tese de Doutorado. PUC-RS. Porto Alegre. p.107.",
+          "Hamann, M. Godfrey, M.H. Seminoff, J.A. Arthur, K. Barata, P.C.R. Bjorndal, K.A. Bolten, A.B. Broderick, A.C. Campbell, L.M. Carreras, C. Casale, P. Chaloupka, M. Chan, S.K.F. Coyne, M.S. Crowder, L.B. Diez, C.E. Dutton, P.H. Epperly, S.P, 2010. Global research priorities for sea turtles: informing management and conservation in the 21st century. Endangered Species Research, 11: p.245--269.",
+          "Jackson, J. B. C.; Kirby, M. X.; Berger, W. H.; Bjorndal, K. A.; Botsford, L. W.; Bourque, B. J.; Bradbury, R. H.; Cooke, R.; Erlandson, J.; Estes, J. A.; Hughes, T. P.; Kidwell, S.; Lange, C. B.; Lenihan, H. S.; Pandolfi, J. M.; Peterson, C. H.; Steneck, R. S.; Tegner, M. J. &amp; Warner, R. R. 2001. Historical overfishing and the recent collapse of coastal ecosystems. <b>Science</b>, 293: p.629-637.",
+          "Júnior, J. C. R.; Pfaller, J. B.; Corbetta, R. &amp; Veríssimo, L. 2014. Parasitic isopods associated with sea turtles nesting in Brazil.. <b>Journal of the Marine Biological Association of the United</b>, p.1-9.",
+          "Júnior, N. de O. L.; Giffoni, B.; Fieldler, F. N. &amp; Sales, G. 2012. Review of actions by Brazil in meeting the BYC recommendation 10-09 and the FAO guidelines to reduce sea turtle mortality in fishing operations.. <b>Collect. Vol. Sci. Pap. ICCAT</b>, 68: p.1763-1768.",
+          "Lima, E. H. S. M. &amp; Melo, M. T. D. 2016. Recapturas De Tartarugas Marinhas em Pescarias nas Comunidades de Almofala E Volta Do Rio, Litoral Oeste do Ceará.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE OCEANOGRAFIA</b>. Salvador. (Resumo)",
+          "Lima, E.H.S.M. 2014. Projeto TAMAR - 34 años conservando las tortugas marinas en Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>CONGRESSO LATINO-AMERICANO DE HERPETOLOGIA</b>. Colômbia. (Resumo)",
+          "Lima. E. H.S.M. &amp; Melo, M.T.D. 2016. Nets Catch more than just fish – Theater as a Tool to Involve Fishermen is Sea Turtle Conservation In Almofala, Ceará, Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Longo, Guilherme O. Pazeto, Fernando D. Abreu, João A. G. de Floeter, Sergio R., 2009. Flags Reduce Sea Turtle Nest Predation by Foxes in NE Brazil. Marine Turtle Newsletter, 125: p.1-4.",
+          "Lutcavage, M.E. Plotkin, P. Witherington, B. &amp; Lutz, P.L., 1997. Human impacts on sea turtle survival. p.387--409. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press",
+          "Magalhães, M. dos S.; Santos, A. J. B,; Silva, N. B. da &amp; Moura, C. E. B. de. 2012. Anatomy of the digestive tube of sea turtles (Reptilia: Testudines).. <b>Zoologia</b>, 1: p.70-76.",
+          "Mansfield, K. L.; Mendilaharsu, M. L.; Putman, N.F.; Marcovaldi, M. A. G.; Sacco, A.E.; Lopez, G.; Pires, T. &amp; Swimmer, Y. 2017. First satellite tracks of South Atlantic sea turtle ‘lost years’: seasonal variation in trans-equatorial movement.. <b>Proceedings. Royal. Society. B.</b>,",
+          "Marcondes, A. C. J. 2015. Estratégias de proteção das áreas reprodutivas de tartarugas marinhas em casos de vazamento de óleo na costa brasileira.",
+          "Marcovaldi, M. A.; Santos, A. S.; Lara, P. H. &amp; López-Mendilaharsu, M. 2017. Novel Research Techniques Provide New Insights to the Sea Turtle Life Cycle. p.169-195. <i>In</i>: Rossi-Santos & Finkl. <b>Advances in Marine Vertebrate Research in Latin America: Technological Innovation and Conservation</b>. Springer International Publishing",
+          "Marcovaldi, M. A.; Thomé, J. C.; Silva, A. C. C. D. da; Sales, G.; Giffoni, B.; Gomes, B. M.; Baptistotte, C.; Lima, E.; Wanderlinde, J.; Santos, A. J. B.; Santos, A. S. dos; Mendilaharsu, M. L. &amp; López, G. G. 2013. Projeto Tamar: matching, threats and conservation priorities for sea turtles in Brazil.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Marcovaldi, M.A. &amp; Marcovaldi, G.G., 1999. Marine turtles of Brazil: the history and structure of Projeto Tamar-Ibama. Biological Conservation, 91: p.35--41.",
+          "Marcovaldi, M.A. Silva, A.C.C.D. Gallo, B.M.G. Baptistote, C. Lima, E.P. Bellini, C. Lima, E.H.S.M. Castilhos, J.C. Thomé, J.C.A. Moreira, L.M.P. &amp; Sanches, T.M., 2000. Recaptures of tagged turtles from nesting and feeding grounds protected by Projeto TAMAR-IBAMA, Brasil. <i>In</i>:NOAA.<i>In</i>: Proceedings of the 19th Annual Symposium on Sea Turtle Biology and Conservation, (Resumo)",
+          "Matos, L.; Silva, A. C. C. D.; Castilhos, J. C.; Weber, M. I.; Soares, L. S. &amp; Vicente, L. 2012. Strong site fidelity and longer interesting interval for solitary nesting olive ridley sea turtles in Brazil.. <b>Marine Biology</b>, 159: p.1011-1019.",
+          "Maçaneiro, L.; Britto, M.; Giffoni, B.; Sales, G.; Fiedler, F.; Nascimento, C. &amp; Oliveira Jr, N de. 2013. Caracterização de pescarias de espinhel em Santa Catarina, Brasil. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "McClenachan, L. et al., 2006. Conservation implications of historic sea turtle nesting beach loss. Frontiers in Ecology and the Environment, 4 (6):",
+          "Melo de, A.C. C., Oliveira, F. L. das C., Castilhos de, J. C., Santos dos, E. A. P. 2017. Estrategia de protección de nidos de tortugas marinas contra depredación por zorros (Cerdocyon thous ) en las playas del litoral sur de Sergipe, Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>SIMPOSIO REGIONAL SOBRE TORTUGAS MARINAS EN EL PACIFICO SUR ORIENTAL</b>. Arica. (Resumo)",
+          "Melo de, A.C. C.; Oliveira, F. L. das C.; Castilhos de, J. C. &amp; Santos dos, E. A. P. 2017. Estrategia de protección de nidos de tortugas marinas contra depredación por zorros (Cerdocyon thous ) en las playas del litoral sur de Sergipe, Brasil.. <i>In</i>: ..<i>In</i>: <b>Simposio Regional Sobre Tortugas Marinas en el Pacifico sur Oriental (Proceedings of...)</b>. Arica, Chile. (Resumo)",
+          "Monteiro, D.S., 2004. Fatores Determinantes da Captura Incidental de Aves e Tartarugas Marinhas e da Interação com Orcas/Falsas-Orcas, na Pescaria com Espinhel Pelágico no Sudeste-sul do Brasil. Dissertação de Mestrado. Dissertação (Mestrado em Oceanografia), Universidade Federal do Rio Grande.",
+          "Márquez, M.R, 2008. Sea turtles of the world. An anotated and illustrated catalogue of sea turtle species known to date. FAO (Food and Agriculture Organization of the United Nations). FAO Species Catalogue, 11:",
+          "Nassar, P. R. 2015. <b>Projeções para os efeitos do aumento do nível do mar no sucesso reprodutivo de tartarugas marinhas, Brasil</b>. Dissertação de Mestrado. Universidade Estadual de Santa Cruz - UESC. Ilhéus. p.103.",
+          "Pegas, F. de V.; Coghlan, A.; Stronza, A. &amp; Rocha, V. 2013. For love or for money?: investigating the impact of an ecotourism programme on local redidents` assigned values towards sea turtles.. <b>Journal of Ecotourism</b>, 12: p.17.",
+          "Pegas, F.; Coghlan, A. &amp; Rocha, V. 2012. An exploration of a mini-guide programme: Training local children in sea turtle conservation and ecotourism in Brazil.. <b>Journal of Ecotourism</b>, 11: p.48-55.",
+          "Petitet, R.; Avens, L.; Castilhos, J.C.; Kinas, P.G. &amp; Bugoni, L., 2015. Age and growth of olive ridley sea turtles Lepidochelys olivacea in the main Brazilian nesting ground. Marine Ecology Progress Series, 541: p.205-218.",
+          "Pinedo, M.C. Capitoli, R. Barreto, A.S. &amp; Andrade, A.L.V., 1998. Occurrence and feeding of sea turtles in southern Brazil. p.117--118. <i>In</i>:NOAA. Proceedings of the 16th Annual Symposium on Sea Turtle Biology and Conservation, NOAA",
+          "Poloczanska, E.S.; Limpus, C.J. &amp; Hays, G.C., 2009. Vulnerability of marine turtles to climate change. Advances in Marine Biology, 56: p.151--211.",
+          "Projeto TAMAR, 2018. Banco de Dados TAMAR/SITAMAR.",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Biologia, ecologia e conservação de tartarugas marinhas. p.63-89. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Pesquisa e conservação de tartarugas marinhas no Brasil e as recentes contribuições da telemetria e da genética. p.91-120. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Rocha, V. 2016. Educacion Ambiental - Projeto Tamar: Estrategia para la conservacion de las tortugas marinas. Environmental education workshop.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Rodrigues, I.S &amp; Araújo, J.X.S. 2016. A importância da campanha SOS ninhos do projeto TAMAR para sensibilização e educação ambiental da população em Pirambu-SE.",
+          "Sales, G. Giffoni, B.B. &amp; Barata, P.C.R., 2008. Incidental catch of sea turtles by the Brazilian pelagic longline fishery. Journal of the Marine Biological Association of the United Kingdom, 88 (4): p.853--864.",
+          "Sales, G.; Britto, M.; Fiedler, F.N.; Giffoni, B.; Domingo, A.; Leite, N. &amp; Miller, P. 2015. Management Units: Challenges To Promote Understanding And Conservation Of Marine Turtles In Oceanic Areas.. <b>Collective Volume of Scientific Papers ICCAT</b>, 71: p.2983-2986.",
+          "Santos, A. J. B. &amp; Bellini, C., Bortolon, L. F., Coluchi, R. 2012. Ghost Nets Haunt the Olive Ridley Turtle (Lepidochelys olivacea) near the Brazilian Islands of Fernando de Noronha and Atol das Rocas.. <b>Herpetological Review</b>, 43: p.245-246.",
+          "Santos, A. S. 2016. <b>Quando menos é mais: delineamento amostral como garantia da continuidade da coleta de dados reprodutivos de tartarugas marinhas a longo prazo.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.46.",
+          "Santos, E.A.P.; Silva, A. C. D; Sforza, R.; Oliveira, F. L. C.; Weber, M.I.; Castilhos, J.C.; Garcia, R.S.; Mendilaharsu, M.M. L.; Marcovaldi, M. A. G.; Ramos, R. M. A. &amp; Dimatteo, A. 2016. Where do the olives go after nesting in Brazil? Implications for conservation.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Sforza, R.; Marcondes, A. C. J. &amp; Pizetta, G. T. 2017. <b>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</b>. p.130. ICMBIO Brasília.",
+          "Sforza, R.; Marcondes, A. C. J.; Pizetta, G. T.; Lara, P. H.; Santos, E. A. P.; Saliés, E. &amp; Thomé, J. C. A 2016. Diretrizes para Avaliação e Mitigação de Impactos de Empreendimentos Costeiros e Marinhos nas Tartarugas Marinhas.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE AVALIAÇÃO DE IMPACTO</b>. Ribeirão Preto. (Resumo)",
+          "Silva, A. C. C. D.; Castilhos, J. C.; Lopez, G. G. &amp; Barata, P. C. R. 2007. Nesting biology and conservation of the olive ridley sea turtle (Lepidochelys olivacea) in Brazil, 1991/1992 to 2002/2003. <b>J. Mar. Biol. Ass</b>, 87: p.1047-1056.",
+          "Silva, A. C. C. D.; Santos, E. A. P.; Oliveira, F. L. C.; Weber, M. I.; Batista, J. A. F.; Serafini, T. Z. &amp; Castilhos, J. C. 2011. Satellite-tracking Reveals Multiple Foraging Strategies and Threats for Olive ridley Turtles in Brazil. <b>Marine Ecology Progress Series</b>, 443: p.237-247.",
+          "Silva, A.C.C.D. Castilhos, J.C. Santos, E.A.P. Brondízio, L.S. &amp; Bugoni, L., 2010. Efforts to reduce sea turtle bycatch in the shrimp fishery in Northeastern Brazil through a co-management process. Ocean and Coastal Management, 53: p.570--576.",
+          "Silva, A.C.C.D.; Castilhos, J.C. &amp; Santos, A.S., 2009. <i>Lepidochelys olivacea</i> (Eschscholtz, 1829). p.364--365. <i>In</i>:Machado & Drummond. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Ministério do Meio Ambiente e Fundação Biodiversitas Brasilia, DF, Belo Horizonte, MG.",
+          "Silva, A.C.C.D.; Castilhos, J.C.; Lopez, G.G. &amp; Barata, P.C.R., 2009. Nesting biology and conservation of the olive ridley sea turtle (<i>Lepidochelys olivacea</i>) in Brazil, 1991/1992 to 2002/2003. Journal of the Marine Biological Association of the United Kingdom, 87: p.1047--1056.",
+          "Silva, F.P.M.S; Costa Neto, E.M. &amp; Carqueija, C.R.G. 2015. A etnotaxonomia de crustáceos estomatópodes e decápodes segundo pescadores artesanais do litoral norte da Bahia, Brasil. <b>Revista Ouricuri</b>, 5 (1):",
+          "Soares, L. S.; Bolten, A.; Marcovaldi, M. Â.; Vilaça, S.; Vargas, S. M. &amp; Santos, F. R. and Bjorndal, K. 2012. Sea Turtle Hybridization In Brazil: What Do We Know?. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. San Diego. (Resumo)",
+          "Soares, L.S.; Bolten, A.B.; Wayne, M.L.; Vilaça, S.T.; Santos, F.R.; Marcovaldi, M.A.G. &amp; Bjorndal, K.A. 2017. Comparison of reproductive output of hybrid sea turtles and parental species.. <b>Marine Biology</b>, 164: p.1-10.",
+          "Soto, J.M.R. Beheregaray, R.C.P. &amp; Rebello, R.A.R.P, 1997. Range extension: nesting by <i>Dermochelys</i> and <i>Caretta</i> in Southern Brazil. Marine Turtle Newsletter, 77: p.6--7.",
+          "Stahelin, G. D.; Fieldler, F. N.; Lima, E. P.; Sales, G. &amp; Wanderlinde, J. 2012. Projeto TAMAR’s station in Florianópolis, state of Santa Catarina, southern Brasil.. <b>Marine Turtle Newsletter</b>, p.23-24.",
+          "Szablak, F. T. 2015. Avaliação da interação da frota linheira “tipo Itaipava” com as tartarugas marinhas.",
+          "Szablak, T. F.; Galina, M. O. &amp; Leite Jr., N. DE O. 2015. Caracterização da frota linheira \"tipo Itaipava” no litoral do Brasil e avaliação da interação da pesca com as tartarugas marinhas. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>SEMINÁRIO DE PESQUISA, 7,. E ENCONTRO DE INICIAÇÃO CIENTÍFICA DO ICMBio</b>. Brasilia. (Resumo)",
+          "Vilaça, S. T.; Vargas, S. M.; Lara-Ruiz, P.; Molfetti, E.; Reis, E. C.; Lobo-Hajdu, G. &amp; Soares, L. S. and Santos, F. 2012. Nuclear markers reveal a complex introgression pattern among marine turtle species on the Brazilian coast.. <b>Molecular Ecology</b>, p.1-13.",
+          "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B., 2010. Global patterns of marine turtle bycatch. Conservation Letters, 3: p.131-142."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "id_ficha": "456661752b6f74575a475a6550336e56746e4c4c77413d3d",
+  "nome_cientifico": "Ameerega flavopicta (Lutz, 1925)",
+  "nome_cientifico_atual": "Ameerega flavopicta (Lutz, 1925)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21187.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=456661752b6f74575a475a6550336e56746e4c4c77413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Ameerega flavopicta</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Ameerega flavopicta</em>, endêmica do Brasil, possui registros de ocorrências para os estados de Minas Gerais, Goiás, Tocantins, Pará e Maranhão. Apesar da existência de ameaças locais, a espécie possui ampla distribuição e ocorre também em áreas bem preservadas, incluindo Unidades de Conservação. Assim, as ameaças não a colocam em risco de extinção em curto prazo. Por essas razões, <em>Ameerega flavopicta </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Ameerega flavopicta</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21187.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21187.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16362,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dendrobatidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Ameerega</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Ameerega flavopicta</i>"
+        }
+      ],
+      "oldNames": "Dendrobates pictus flavopictus, Epipedobates flavopictus, Hylaplesia flavopicta",
+      "commonNames": "",
+      "taxonomicNotes": "<p>O caráter específico de <em>Ameerega flavopicta </em>foi discutido e validado por Haddad &amp; Martins (1994), onde demonstraram que a espécie apresenta variação interpopulacional nos padrões de coloração (Haddad &amp; Martins, 1994) e em suas vocalizações (Magrini <em>et al</em>., 2010), mas a população da Floresta Nacional de Carajás pode ser de espécie ainda não descrita (Leite <em>et al</em>., 2020). Registros associados a <em>A</em>. <em>flavopicta</em> na Bolívia (Azevedo-Ramos <em>et al</em>., 2004) correspondem a <em>A</em>. <em>boehmei</em> (Lötters <em>et al</em>., 2009).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Ameerega flavopicta </em>é endêmica do Brasil e possui registros de ocorrência para os estados de Minas Gerais, Goiás, Tocantins, Pará e Maranhão (Haddad &amp; Martins, 1994; Biavati <em>et al</em>., 2004; Toledo e<em>t al</em>., 2004; Costa &amp; Giaretta, 2006; Silveira, 2006; Torres &amp; Eterovick, 2007; Barata, 2008; Giaretta, 2008; Oda <em>et al</em>., 2009; Lima &amp; Eterovick, 2013). </p>",
+      "nationalDistribution": "",
+      "states": "Goiás, Maranhão, Minas Gerais, Pará, Tocantins",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Paranaíba, Sub-bacia Parnaíba Alto, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4464594e6468734d4f356968456a54347174352f43386a696a67452b4a2f4e756c532b616959754e3262354b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "dc48e0d4f6e67338ce533680d8ebe147.png",
+        "fileName": "Mapa de Ameerega flavopicta.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Ameerega flavopicta </em>é diurna, encontrada nos afloramentos rochosos em campos rupestres, entre a serapilheira ou na vegetação em meio a florestas. Seus ovos são depositados na serapilheira e seus girinos são carregados por seus pais até riachos, onde se desenvolvem (Azevedo-Ramos <em>et al</em>., 2004). Lima &amp; Eterovick (2013) descrevem informações adicionais sobre comportamento e história natural da espécie.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Na Estação Ecológica (ESEC) da Pirapitinga foram registrados 23 indivíduos da espécie, enquanto no continente do reservatório foram registrados dois indivíduos, ambos em ambientes rochosos com presença de vegetação (Barata, 2008). A riqueza de espécies na ESEC Pirapitinga é baixa (N=11), sendo que <em>Ameerega flavopicta</em> apresentou abundância relativa reduzida se comparada com as outras espécies presentes na unidade (Barata, 2008). Todavia, a espécie está se reproduzindo e parece explorar os recursos disponíveis que possibilitam sua permanência na unidade (Lima &amp; Eterovick, 2013).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As maiores ameaças a espécie são a atividade agropecuária, desmatamento, queimadas, barragens e a utilização como animais de estimação (Azevedo-Ramos <em>et al</em>., 2004). A construção de reservatórios para geração de energia hidrelétrica pode estar afetando o hábitat originalmente ocupado pela espécie, reduzindo sua abundância nessas áreas (Barata, 2008). Apesar das ameaças, a espécie possui ampla distribuição no país e ocorre em áreas protegidas conservadas. Assim, as ameaças e não devem colocar a espécie em risco de extinção, uma vez que, tem .</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.2 - Represas e uso de água",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Há interesse no uso da espécie como animal de estimação. </p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Azevedo-Ramos <i>et al.</i>, 2004",
+              "title": "Azevedo-Ramos, C., Bastos, R., Eterovick, P. C. &amp; Silvano, D. (2004) <i>Ameerega flavopicta</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55222A11273258\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55222A11273258</a>. [Acessado em: 03/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Magrini <i>et al.</i>, 2010",
+              "title": "Geographic call variation and further notes on habitat of <I>Ameerega flavopicta</i> (Anura, Dendrobatidae)"
+            },
+            {
+              "label": "Toledo <i>et al.</i>, 2004",
+              "title": "Notes on courtship, egg-laying site, and defensive behavior of <I>Epipedobates flavopictus</i> (Anura, Dendrobatidae) from two mountain ranges of central and southeastern Brazil"
+            },
+            {
+              "label": "Haddad & Martins, 1994",
+              "title": "Four species of brazilian poison frogs related to <I>Epipedobates pictus</i> (Dendrobatidae): Taxonomy and Natural History Observations"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Pirapitinga",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Torres & Eterovick, 2007",
+              "title": "Padrão de distribuição espacial de anfíbios anuros na margem da estação Ecológica de Pirapitinga, Morada Nova de Minas (MG, Brasil)"
+            },
+            {
+              "label": "Barata, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Barata, 2008",
+              "title": "Padrões biogeográficos de riqueza e composição, densidade e biomassa de anfíbios nas ilhas do reservatório de Três Marias"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Haddad & Martins, 1994",
+              "title": "Four species of brazilian poison frogs related to <I>Epipedobates pictus</i> (Dendrobatidae): Taxonomy and Natural History Observations"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Veadeiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Haddad & Martins, 1994",
+              "title": "Four species of brazilian poison frogs related to <I>Epipedobates pictus</i> (Dendrobatidae): Taxonomy and Natural History Observations"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Barros, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Haddad & Martins, 1994",
+              "title": "Four species of brazilian poison frogs related to <I>Epipedobates pictus</i> (Dendrobatidae): Taxonomy and Natural History Observations"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Toledo <i>et al.</i>, 2004",
+              "title": "Notes on courtship, egg-laying site, and defensive behavior of <I>Epipedobates flavopictus</i> (Anura, Dendrobatidae) from two mountain ranges of central and southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jamanxim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DE CALDAS NOVAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Magrini <i>et al.</i>, 2010",
+              "title": "Geographic call variation and further notes on habitat of <I>Ameerega flavopicta</i> (Anura, Dendrobatidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Toledo <i>et al.</i>, 2004",
+              "title": "Notes on courtship, egg-laying site, and defensive behavior of <I>Epipedobates flavopictus</i> (Anura, Dendrobatidae) from two mountain ranges of central and southeastern Brazil"
+            },
+            {
+              "label": "S.P. Andrade, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Biavati <i>et al.</i>, 2004",
+              "title": "Diet of <I>Epipedobates flavopictus</I> (Anura: Dendrobatidae) in a Neotropical Savanna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA DA JIBÓIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira do Cerradão",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Arruda",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Biavati <i>et al.</i>, 2004",
+              "title": "Diet of <I>Epipedobates flavopictus</I> (Anura: Dendrobatidae) in a Neotropical Savanna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua distribuição e história natural ainda são necessários, assim como trabalhos taxonômicos para definir o <em>status</em> de algumas subpopulações.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Azevedo-Ramos, C.; Bastos, R.; Eterovick, P. C. &amp; Silvano, D., 2004. <i>Ameerega flavopicta</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55222A11273258\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55222A11273258</a>. Acessado em: 03/11/2011.",
+          "Barata, I.M. 2008. <b>Padrões biogeográficos de riqueza e composição, densidade e biomassa de anfíbios nas ilhas do reservatório de Três Marias</b>. Dissertação de Mestrado. Pontifícia Universidade Católica de Minas Gerais. Belo Horizonte. p.115.",
+          "Biavati, G.M.; Wiederhecker, H.C. &amp; Colli, G.R., 2004. Diet of <I>Epipedobates flavopictus</I> (Anura: Dendrobatidae) in a Neotropical Savanna. Journal of Herpetology, 38 (4):",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Costa, R.C. &amp; Giaretta, A.A. 2006. Courtship, vocalization, and tadpole description oof <i>Epipedobates flavopictus</i> (Anura: Dendrobatidae) in southern Goiás, Brazil. <b>Biota Neotropica</b>, 6 (1):",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Giaretta, A.A.; Menin, M.; Facure, K.G.; Kokubum, M.N.C. &amp; Oliveira-Filho, J.C. 2008. Species richness, relative abundance, and habitat of reproduction of terrestrial frogs in the Triângulo Mineiro region, Cerrado biome, southeastern Brazil. <b>Iheringia, Série Zoologia</b>, 98 (2): p.181-188.",
+          "Haddad, C.F.B. &amp; Martins, M., 1994. Four species of brazilian poison frogs related to <I>Epipedobates pictus</i> (Dendrobatidae): Taxonomy and Natural History Observations. Herpetologica, 50 (3): p.282-295.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Leite, F.S.F.; Lima, R.C.L.L. &amp; Arruda, L.F. 2020. Anfíbios. p.126-162. <i>In</i>: Barbosa <i>et al.</i>. <b>Fauna da Floresta Nacional de Carajás, Serra Norte</b>. Gaia Cultural – Cultura e Meio Ambiente Belo Horizonte.",
+          "Lima, N.G.S. &amp; Eterovick, P.C. 2013. Natural history of <i>Ameerega flavopicta</i> (Dendrobatidae) on an island formed by Três Marias Hydroelectric Reservoir in Southeastern Brazil. <b>Journal of Herpetology</b>, 47 (3): p.480-488.",
+          "Lötters, S.; Schmitz, A.; Reichle, S.; Rödder, D. &amp; Quennet, V. 2009. Another case of cryptic diversity in poison frogs (Dendrobatidae: <i>Ameerega</i>) description of a new species from Bolivia. <b>Zootaxa</b>, 2028: p.20-30.",
+          "Magrini, L.; Facure, K.G.; Giaretta, A.A.; Rodrigues, W. &amp; Costa, R.C. 2010. Geographic call variation and further notes on habitat of <I>Ameerega flavopicta</i> (Anura, Dendrobatidae). <b>Studies on Neotropical Fauna and Environment</b>, 45 (2): p.89-90.",
+          "Oda, F.H.; Bastos, R.P. &amp; Sá-Lima, M.A.C. 2009. Taxocenose de anfíbios anuros no Cerrado do Alto Tocantins, Niquelândia, Estado de Goiás: diversidade, distribuição local e sazonalidade. <b>Biota Neotropica</b>, 9 (4): p.219-232.",
+          "Silveira, A.L. 2006. Anfíbios do município de João Pinheiro, uma área de Cerrado no noroeste de Minas Gerais, Brasil. <b>Arquivos do Museu Nacional, Rio de Janeiro</b>, 64 (2): p.131-139.",
+          "Toledo, L.F.; Guimarães, L.D.; Lima, L.P.; Bastos, R.P. &amp; Haddad, C.F.B., 2004. Notes on courtship, egg-laying site, and defensive behavior of <I>Epipedobates flavopictus</i> (Anura, Dendrobatidae) from two mountain ranges of central and southeastern Brazil. Phyllomedusa, 3 (2): p.145-147.",
+          "Torres, P.F. &amp; Eterovick, P.C., 2007. Padrão de distribuição espacial de anfíbios anuros na margem da estação Ecológica de Pirapitinga, Morada Nova de Minas (MG, Brasil). <i>In</i>:Congresso de Ecologia do Brasil.<i>In</i>: Anais do VIII Congresso de Ecologia do Brasil, Caxambu - MG. (Resumo)"
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

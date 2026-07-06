@@ -1,0 +1,427 @@
+{
+  "id_ficha": "5a4b6877797133546c544948505731737957554d68413d3d",
+  "nome_cientifico": "Amerotyphlops amoipira (Rodrigues & Juncá, 2002)",
+  "nome_cientifico_atual": "Amerotyphlops amoipira (Rodrigues & Juncá, 2002)",
+  "nome_comum": "cobra-cega-das-dunas",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25519",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5a4b6877797133546c544948505731737957554d68413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Amerotyphlops amoipira</i>&nbsp;<span>(Rodrigues & Juncá, 2002)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Amerotyphlops amoipira</em> é endêmica do Brasil. A espécie era conhecida apenas da localidade-tipo, no município de Barra (Ibiraba), estado de Bahia, na região das dunas da margem esquerda do rio São Francisco, mas estudos mais recentes ampliaram consideravelmente sua distribuição para os estados de Alagoas, Rio Grande do Norte, Sergipe, Maranhão e Ceará. Trata-se de espécie fossorial associada a solos arenosos dos biomas Mata Atlântica e Caatinga. Embora haja alterações antrópicas ao longo de sua distribuição, principalmente em decorrência da atividade agrapoastoril, extração de areia e urbanização, a distribuição da espécie é ampla e não há evidências de que essas ameaças coloquem a espécie em risco de extinção. Por essas razões, <em>Amerotyphlops </em><em>amoipira </em>foi avaliada como Menos Preocupante (LC)</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Amerotyphlops amoipira</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25519 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25519",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6b6b50384e46545370567055506975674f63373850673d3d/full"
+      },
+      "version": 2,
+      "versionId": 18389,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Typhlopidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Amerotyphlops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Amerotyphlops amoipira</i>"
+        }
+      ],
+      "oldNames": "Typhlops amoipira",
+      "commonNames": "cobra-cega-das-dunas",
+      "taxonomicNotes": "<p>A similaridade morfológica, preferências ecológicas e a distribuição geográfica de <em>Amerotyphlops</em><em> amoipira</em> e <em>A. yonenaga</em>e indicam que possivelmente estas espécies são filogeneticamente próximas (Rodrigues &amp; Juncá, 2002). Tal hipótese foi confirmada posteriormente por Graboski <em>et al</em>. (2018), que verificaram que <em>A.</em><em> amoipira</em>, juntamente com <em>A. yonenagae, A. arenensis</em> e<em> A. paucisquamus</em>, compõem um clado com as espécies do nordeste brasileiro, com <em>A. paucisquamus</em> e <em>A. amoipira</em> formando um subclado bem suportado. Ressalta-se ainda que <em>Amerotyphlops amoipira</em> é morfologicamente semelhante a <em>A. arenensis</em> e <em>A.</em> paucisquamus, compartilhando o mesmo número de fileiras de escamas em torno do corpo e sobreposição de quanto ao número de escamas do médio-dorsais. A análise de caracteres morfológicos externos de espécimes coletados no município de Bonito de Minas, no estado de Minas Gerais, inicialmente classificados como <em>A. amoipira,</em> permitiu a identificação desses indivíduos como <em>A. arenensis </em>(Graboski <em>et al</em>., 2018).</p>\n<p><b>Notas Morfológicas</b></p>\n<p><em>Amerotyphlops</em><em> amoipira</em> é diagnosticada pelo seu pequeno tamanho, corpo levemente pigmentado de marrom-claro, sutura nasal incompleta, 18 fileiras de escamas ao redor do meio do corpo, 212-242 escamas dorsais entre a rostral e a extremidade da cauda e 7-12 escamas subcaudais (Rodrigues &amp; Juncá, 2002). </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Amerotyphlops amoipira</em> é endêmica do Brasil. A espécie era até recentemente conhecida apenas de sua localidade-tipo, no município de Barra (Ibiraba), estado de Bahia, na região das dunas da margem esquerda do rio São Francisco (Rodrigues &amp; Juncá, 2002). Dados recentes ampliaram sua distribuição para os estados de Alagoas, Rio Grande do Norte, Sergipe, Maranhão e Ceará (Brito &amp; Freire, 2012; Borges-Leite, <em>et al</em>., 2014; Graboski <em>et al., </em>2015, 2018). Registros atribuídos à espécie no Cerrado de Minas Gerais, no município de Bonito de Minas, Fazenda Santa Maria de Vereda (Fernandes <em>et al</em>., 2010), tratam-se de <em>A. arenensis</em> (Graboski <em>et al</em>., 2018). Cabe destacar ainda que a coordenada apresentada por Rodrigues &amp; Juncá (2002) da localidade-tipo foi corrigida por Fernandes <em>et al.</em> (2010) (Wallach <em>et al.,</em> 2014). Sua extensão de ocorrência foi calculada em 701.708 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro confirmado para a espécie.</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Maranhão, Rio Grande do Norte, Sergipe",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral SE, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4a36473766424a766b763878333965626a7049674441786f2b704e776a64384a6a326f47646247302b39314b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Distribuição de Amerotyphlops amoipira.",
+        "diskFileName": "1ea9bbcdfe6f08cb8c9ff4a304531840.png",
+        "fileName": "Mapa de Amerotyphlops amoipira.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie é fossorial e possui hábitat específico, com ocorrência associada principalmente a ambientes psamófilos, sendo encontrada em fragmentos florestais em áreas de dunas e solos arenosos nos biomas da Caatinga e Mata Atlântica (Rodrigues &amp; Juncá, 2002; Brito &amp; Freire, 2012; Graboski <em>et al.</em>, 2015, 2018).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p>A espécie possui ocorrência associada principalmente a ambientes psamófilos, sendo encontrada em fragmentos florestais em áreas de dunas e solos arenosos nos biomas da Caatinga e Mata Atlântica (Rodrigues &amp; Juncá, 2002; Brito &amp; Freire, 2012; Graboski <em>et al.</em>, 2015, 2018).</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais. A espécie foi descrita a partir de seis espécimes coletados em 2000 advindos da localidade-tipo (Rodrigues &amp; Juncá, 2002). Outras subpopulações nos estados de Alagoas, Sergipe, Rio Grande do Norte e Maranhão foram confirmadas a partir de reanálise de material advindo de coleções (Brito &amp; Freire, 2012; Graboski <em>et al</em>., 2018).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As subpopulações da espécie podem estar sendo afetadas pela expansão agropastoril, urbana e extração de areia. Além da perda de hábitat, não se conhecem bem as ameaças à espécie, mas algumas subpopulações podem ter sido afetadas no processo de construção da Usina Hidrelétrica (UHE) de Sobradinho. Em relação às obras de Transposição do Rio São Francisco, aparentemente a espécie não é afetada, tendo em vista a distância entre o empreendimento e o local de registro nas margens do rio (aproximadamente 500 km). Além disso, até o momento não houve depósito de espécimes adicionais na coleção da Universidade Federal do Vale do São Francisco - UNIVASF, que é depositária de todo material biológico procedente do empreendimento (Leonardo Ribeiro, com. pess. 2019). Embora haja alterações antrópicas locais, não há evidências de que essas ameaças estejam colocando a espécie em risco de extinção, pois ela possui ampla distribuição no país e nos últimos anos tem havido novos registros em diferentes localidades. </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.1 - Extração de areia",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Amerotyphlops amoipira</em> é espécie alvo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste (ICMBio, 2019). É importante a proteção dos ambientes de dunas do rio São Francisco, sendo recomendada a criação de uma unidade de conservação de proteção integral, dada a importância biológica desses ambientes e a ausências dessa categoria de unidade de conservação.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2018",
+              "title": "Martins, M.R.C., Nogueira, C.C., Fiorillo, B.F., Azevedo, J.A.R., Bataus, Y.S.L., Uhlig, V.M., Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H.E.D., Martins, M.B., Oliveira, M.E.E.S., Passos, P.G.H. Bérnils, R.S., Sawaya, R.J., Cechin, S.T.Z. &amp; Guedes, T.B.C. (2018) <I>Amerotyphlops amoipira</i> (Rodrigues & Juncá, 2002) In: Instituto Chico Mendes de Conservação da & Biodiversidade (Org.) (eds.) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume IV - Répteis</i>. Brasília, ICMBio, pp. 155-157."
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2019",
+              "title": "Martins, M.R.C., Nogueira, C. C. &amp; Wallach, V. (2019) <I>Amerotyphlops amoipira</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T178692A96476524.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T178692A96476524.en</a>. [Acessado em: 03/set/2019]."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMA-BA, 2017",
+              "title": "SEMA-BA 2017 <i>Secretaria do Meio Ambiente - Governo do Estado da Bahia. Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Diário Oficial do Estado – BA.</i>"
+            },
+            {
+              "label": "Estado da Bahia, 2017",
+              "title": "Estado da Bahia 2017 <i>Portaria nº 37, de 15 de agosto de 2017, Torna pública a Lista de Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Criação de áreas protegidas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Piaçabuçú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Brito & Freire, 2012",
+              "title": "New records and geographic distribution map of <i>Typhlops amoipira</i> Rodrigues and Juncá, 2002 (Typhlopidae) in the Brazilian Rainforest"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brito & Freire, 2012",
+              "title": "New records and geographic distribution map of <i>Typhlops amoipira</i> Rodrigues and Juncá, 2002 (Typhlopidae) in the Brazilian Rainforest"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Juncá, 2002",
+              "title": "Herpetofauna of the quaternary sand dunes of the middle Rio São Francisco: Bahia: Brazil. VII. <i>Typhlops amoipira</i> sp. nov., a possible relative of <i>Typhlops yonenagae</i> (Serpentes, Typhlopidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE UPAON-AçU / MIRITIBA / ALTO PREGUIçAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Graboski <i>et al.</i>, 2018",
+              "title": "Molecular phylogeny and hemipenial diversity of South American species of <I>Amerotyphlops</i> (Typhlopidae, Scolecophidia)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Boa Ventura",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Juncá, 2002",
+              "title": "Herpetofauna of the quaternary sand dunes of the middle Rio São Francisco: Bahia: Brazil. VII. <i>Typhlops amoipira</i> sp. nov., a possible relative of <i>Typhlops yonenagae</i> (Serpentes, Typhlopidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre a distribuição geográfica da espécie são pertinentes, tendo em vista que a distribuição real da maioria das espécies do gênero pode estar subestimada (Graboski <em>et al</em>., 2018). </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Borges-Leite, M.J.; Rodrigues, J.F.M. &amp; Borges-Nojosa, D.M. 2014. Herpetofauna of a coastal region of northeastern Brazil. <b>Herpetology Notes</b>, 7: p.405-413.",
+          "Brito, P.S. &amp; Freire, E.M.X. 2012. New records and geographic distribution map of <i>Typhlops amoipira</i> Rodrigues and Juncá, 2002 (Typhlopidae) in the Brazilian Rainforest. <b>Check List</b>, 8 (6): p.1347-1349.",
+          "Estado da Bahia 15/08/2017. Portaria nº. 37: Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Disponível em: <a target=\"_blank\" href=\"http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html\">http://www.ceama.mp.ba.gov.br/biblioteca-virtual-ceama/doc_view/3977-portaria-n-37-de-15-de-agosto-de-2017.html</a>. Acessado em: 08/05/2019.",
+          "Fernandes, V.D.; Moura, M.R.; Dayrell, J.S.; Santana, D.J. &amp; Lima, L.H.R. 2010. Reptilia, Squamata, Serpentes, Typhlopidae, <i>Typhlops amoipira</I> Rodrigues and Juncá, 2002: Range extension and new state record. <b>Check List</b>, 6 (2): p.268-269.",
+          "Graboski, R.; Arredondo, J.C.; Grazziotin, F.G.; Silva, A.A.A.; Prudente, A.L.C.; Rodrigues, M.T.; Bonatto, S.L. &amp; Zaher, H. 2018. Molecular phylogeny and hemipenial diversity of South American species of <I>Amerotyphlops</i> (Typhlopidae, Scolecophidia). <b>Zoologica Scripta</b>, 2018: p.1-18.",
+          "Graboski, R.; Pereira-Filho, G.A.; Silva, A.A.A.; Prudente, A.L.C. &amp; Zaher, H. 2015. A new species of <i>Amerotyphlops</I> from Northeastern Brazil, with comments on distribution of related species. <b>Zootaxa</b>, 3920 (3): p.443-452.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "Martins, M.R.C.; Nogueira, C. C. &amp; Wallach, V., 2019. <I>Amerotyphlops amoipira</i>. The IUCN Red List of Threatened Species 2019: e.T178692A96476524, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T178692A96476524.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T178692A96476524.en</a>. Acessado em: 03/09/2019.",
+          "Martins, M.R.C.; Nogueira, C.C.; Fiorillo, B.F.; Azevedo, J.A.R.; Bataus, Y.S.L.; Uhlig, V.M.; Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.E.D.; Martins, M.B.; Oliveira, M.E.E.S.; Passos, P.G.H. Bérnils, R.S.; Sawaya, R.J.; Cechin, S.T.Z. &amp; Guedes, T.B.C., 2018. <I>Amerotyphlops amoipira</i> (Rodrigues & Juncá, 2002). p.155-157. <i>In</i>:Instituto Chico Mendes de Conservação da & Biodiversidade (Org.). Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume IV - Répteis, ICMBio Brasília.",
+          "Rodrigues, M.T. &amp; Juncá, F.A., 2002. Herpetofauna of the quaternary sand dunes of the middle Rio São Francisco: Bahia: Brazil. VII. <i>Typhlops amoipira</i> sp. nov., a possible relative of <i>Typhlops yonenagae</i> (Serpentes, Typhlopidae). Papéis Avulsos de Zoologia (São Paulo), 42 (13): p.325--333.",
+          "Uetz, P., 2012. <i>Amerotyphlops amoipira</i>. Reptile Databese, Disponível em: <a target=\"_blank\" href=\"http://reptile-database.reptarium.cz\">http://reptile-database.reptarium.cz</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

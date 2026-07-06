@@ -1,0 +1,520 @@
+{
+  "id_ficha": "746c714c767034704b414a382f576f5551677a3571773d3d",
+  "nome_cientifico": "Bokermannohyla martinsi (Bokermann, 1964)",
+  "nome_cientifico_atual": "Bokermannohyla martinsi (Bokermann, 1964)",
+  "nome_comum": "Perereca",
+  "grupo": "Anfíbios",
+  "categoria_risco": "NT",
+  "categoria_risco_completa": "Quase Ameaçada (NT)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19275.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=746c714c767034704b414a382f576f5551677a3571773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bokermannohyla martinsi</i>&nbsp;<span>(Bokermann, 1964)</span>",
+      "category": "Quase Ameaçada (NT)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Bokermannohyla martinsi </em>é endêmica do Brasil, conhecida de regiões montanhosas no Quadrilátero Ferrífero do estado de Minas Gerais, em região de transição do bioma Mata Atlântica com o Cerrado. Sua extensão de ocorrência foi estimada em 3.816 km2. Trata-se de espécie comum, encontrada em rochas de borda de riachos em ,ata de galeria e, provavelmente, não se adapta a ambientes perturbados. A principal ameaça à espécie é a atividade minerária, causadora de declínio da área e qualidade do seu hábitat, e algumas subpopulações não foram mais encontradas. Contudo, não há indícios de que a população esteja severamente fragmentada. Sendo assim, <em>Bokermannohyla martinsi</em> quase se qualifica como Em perigo (EN) pelo critério B1b (iii,iv), sendo avaliada como Quase Ameaçada (NT).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Bokermannohyla martinsi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19275.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19275.2",
+      "photo": {
+        "authorName": "Henrique Costa",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "14c73ef8bc94032c4ce955bdf95f6fe9.JPG",
+        "fileName": "Bokermannohyla martinsi-Henrique Costa.JPG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/484c4b3739474a4635736e5151534862686365424271437469564976474d764956623643584a66437568503843344b4546724e72434b664677444e4d58596445/full"
+      },
+      "version": 2,
+      "versionId": 15443,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bokermannohyla</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bokermannohyla martinsi</i>"
+        }
+      ],
+      "oldNames": "Boana martinsi, Hyla martinsi",
+      "commonNames": "Perereca",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bokermannohyla martinsi</em> é endêmica do Brasil, com distribuição conhecida para o Quadrilátero Ferrífero no estado de Minas Gerais, nas regiões montanhosas da Serra do Caraça, Serra do Espinhaço, Serra da Calçada e Serra da Moeda (Bokermann, 1964; Canelas &amp; Bertoluci, 2007; Leite &amp; Eterovick, 2010; Pinheiro <em>et al</em>., 2014; Taucce <em>et al.,</em> 2015; F. Leite, com. pess., 2017). A localidade-tipo é no Colégio do Caraça (Serra do Caraça), no município de Santa Bárbara (Bokermann, 1964). O registro no município de Jaboticatubas (Caramaschi <em>et al.</em>, 2001) é um erro (F. Leite, com. pess., 2017), e não foi considerado nesta avaliação. </p> \n<p>A extensão de ocorrência da espécie foi calculada em 3.816 km2, tomando por base o mínimo polígono convexo, formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia São Francisco Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/736863527057744d6d3666624372447a5933666644506f71487a44504a5464485246774a486c782b6a62564b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Bokermannohyla martinsi",
+        "diskFileName": "81f870b56a193a3413747ed58f9d0807.png",
+        "fileName": "Mapa de Bokermannohyla martinsi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Bokermannohyla</em><em> martinsi</em> ocorre na área de transição entre os biomas Mata Atlântica e Cerrado, em região montanhosa do estado de Minas Gerais (Bokermann, 1964; Canelas &amp; Bertoluci, 2007; Pinheiro <em>et al</em>., 2014; F. Leite, com. pess., 2017). É encontrada em rochas de borda de riachos em mata de galeria, onde também se reproduz. Provavelmente, não se adapta a ambientes perturbados (Caramaschi <em>et al.,</em> 2010).</p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>É uma espécie comum, facilmente encontrada. A tendência da população é desconhecida, todavia, algumas subpopulações não são mais encontradas (F. Leite, com. pess., 2017).</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A principal ameaça à espécie é a atividade minerária. Além disso, muitas subpopulações encontram-se em ambientes fortemente impactados por queimadas frequentes, atividades turísticas desordenadas e desmatamento. Algumas subpopulações não são mais encontradas, estando possivelmente extintas localmente (F. Leite, com. pess., 2017). Entretanto, não há indícios de que a população esteja severamente fragmentada.</p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.3 - Extração de minérios - subsolo",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Bokermannohyla martinsi</em> foi beneficiada do primeiro ciclo do Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção da Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço (ICMBio, 2016), mantendo-se no segundo ciclo desse PAN, doravante denominado Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais - PAN Herpetofauna do Espinhaço Mineiro (ICMBio, 2018). Também é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista,F.A.Q., Maciel, A.O., Cruz, C.A.G., Loebmann, D., Silvano, D.L., Gonsales, E.M.L., Nomura, F., Leite, F.S.F., Pinto, H.B.A., Amaral, I.B., Nascimento, L.B., Sturaro, M.J., Hoogmoed, M.S., Kienle, M.S., Souza, M.B., Maciel, N.M., Colombo, P., Feio, R.N., Lingnau, R. &amp; Bastos, R.P. (2016) Avaliação do estado de conservação de <i>Bokermannohyla martinsi</i> (Bokermann, 1964). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/faunabrasileira/carga-estado-de-conservacao/8134-anfibios-bokermannohyla-martinsi.\">http://www.icmbio.gov.br/portal/faunabrasileira/carga-estado-de-conservacao/8134-anfibios-bokermannohyla-martinsi.</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2010",
+              "title": "Caramaschi, U., Nascimento, L.B., Eterovick P.C. &amp; Silvano, D. (2010) <i>Bokermannohyla martinsi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55549A11330848\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55549A11330848</a>. [Acessado em: 26/mai/2017]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Espinhaço Mineiro - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA da Serra do Gandarela",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Henrique Costa, com. pess., 2021",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO UAIMII",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Henrique Costa, com. pess., 2021",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DE ITATIAIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL SERRA DA MOEDA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CACHOEIRA DAS ANDORINHAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            },
+            {
+              "label": "Henrique Costa, com. pess., 2021",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            },
+            {
+              "label": "Leite & Eterovick, 2010",
+              "title": "Description of the Tadpole of <I>Bokermannohyla martinsi</i> (Anura: Hylidae), Morphological and Ecological Comparison with Related <I>Bokermannohyla</i> Tadpoles"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Caramaschi <i>et al.</i>, 2001",
+              "title": "Nova espécie do grupo de <i>Hyla circumdata</i> (Cope, 1870) do Estado de Minas Gerais, Brasil (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Itajurú ou Sobrado",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Henrique Costa, com. pess., 2021",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Poço Fundo",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "F.S.F. Leite, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio São Francisco",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Henrique Costa, com. pess., 2021",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN dos Feixos",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos de história natural e que abordem os processos de dinâmica populacional, de distribuição espacial e de impactos da alteração do hábitat são necessários.</p> \n<p> </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bokermann, W.C.A. 1964. Dos nuevas especies de <i>Hyla</i> de Minas Gerais y notas sobre <I>Hyla alvarengai</I> Bok. (Amphibia, Salientia, Hylidae). <b>Neotropica</b>, 10: p.67-76.",
+          "Canelas, M.A.S. &amp; Bertoluci, J. 2007. Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal. <b>Iheringia, Série Zoologia</b>, 97: p.21-26.",
+          "Caramaschi, U.; Napoli, M.F. &amp; Bernardes, A.T. 2001. Nova espécie do grupo de <i>Hyla circumdata</i> (Cope, 1870) do Estado de Minas Gerais, Brasil (Amphibia, Anura, Hylidae). <b>Arquivos do Museu Nacional Rio de Janeiro</b>, 457: p.1-11.",
+          "Caramaschi, U.; Nascimento, L.B.; Eterovick P.C. &amp; Silvano, D. 2010. <i>Bokermannohyla martinsi</i>. <b>The IUCN Red List of Threatened Species 2010</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55549A11330848\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55549A11330848</a>. Acessado em: 26/05/2017.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista,F.A.Q.; Maciel, A.O.; Cruz, C.A.G.; Loebmann, D.; Silvano, D.L.; Gonsales, E.M.L.; Nomura, F.; Leite, F.S.F.; Pinto, H.B.A.; Amaral, I.B.; Nascimento, L.B.; Sturaro, M.J.; Hoogmoed, M.S.; Kienle, M.S.; Souza, M.B.; Maciel, N.M.; Colombo, P.; Feio, R.N.; Lingnau, R. &amp; Bastos, R.P. 2016. Avaliação do estado de conservação de <i>Bokermannohyla martinsi</i> (Bokermann, 1964). <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/faunabrasileira/carga-estado-de-conservacao/8134-anfibios-bokermannohyla-martinsi.\">http://www.icmbio.gov.br/portal/faunabrasileira/carga-estado-de-conservacao/8134-anfibios-bokermannohyla-martinsi.</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio 23/12/2016. Portaria nº 109, de 16 dezembro de 2016, que atualiza e aprova o Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço. DOU edição nº 246. Disponível em: <a target=\"_blank\" href=\"https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-herpetofauna-do-espinhaco/1-ciclo/pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf\">https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-herpetofauna-do-espinhaco/1-ciclo/pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf</a>.",
+          "ICMBio 24/04/2018. Portaria nº 384, de 24 de abril de 2018. Aprova o 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/\">http://www.icmbio.gov.br/portal/</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Leite, F.S.F. &amp; Eterovick, C., 2010. Description of the Tadpole of <I>Bokermannohyla martinsi</i> (Anura: Hylidae), Morphological and Ecological Comparison with Related <I>Bokermannohyla</i> Tadpoles. Journal of Herpetology, 44(3): p.431–440.",
+          "Pinheiro, P.D.P.; Taucce, P.P.G.; Leite, F.S.F. &amp; Garcia, P.C.A. 2014. The advertisement call of the endemic <i>Bokermannohyla martinsi</i> (Bokermann, 1964) (Anura: Hylidae) from southern Espinhaço Range, southeastern Brazil. <b>Zootaxa</b>, 3815: p.147–150.",
+          "Taucce, P.P.G.; Pinheiro, P.D.P.; Leite, F.S.F. &amp; Garcia, P.C.A. 2015. Advertisement call and morphological variation of the poorly known and endemic <i>Bokermannohyla juiju</I> Faivovich, Lugli, Lourenço and Haddad, 2009 (Anura: Hylidae) from Central Bahia, Brazil. <b>Zootaxa</b>, 3915 (1): p.99-110."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

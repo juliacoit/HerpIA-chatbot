@@ -1,0 +1,510 @@
+{
+  "id_ficha": "7749342b7068323956364e6d445274437534586941773d3d",
+  "nome_cientifico": "Physalaemus cuvieri Fitzinger, 1826",
+  "nome_cientifico_atual": "Physalaemus cuvieri Fitzinger, 1826",
+  "nome_comum": "Rã-cachorro",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21412.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=7749342b7068323956364e6d445274437534586941773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus cuvieri</i>&nbsp;<span>Fitzinger, 1826</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Physalaemus cuvieri </em>ocorre na Argentina, Bolívia, Brasil, Paraguai e Uruguai. No Brasil, possui ampla distribuição, com registros em todos os biomas, desde a região Nordeste e sul da Amazônia até a região Sul. A espécie é comum e encontrada em uma variedade de hábitats, incluindo ambientes antrópicos. Não há ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Physalaemus cuvieri </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Physalaemus cuvieri</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21412.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21412.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16461,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus cuvieri</i>"
+        }
+      ],
+      "oldNames": "Gomphobates notatus, Paludicola bischoffi, Paludicola neglecta, Paludicola notata, Physalaemus bischoffi, Physalaemus cuvieri, Physalaemus neglecta, Physalaemus neglectus, Physalaemus neglectus neglectus, Physolaemus cuvieri",
+      "commonNames": "Rã-cachorro",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Physalaemus cuvieri</em> ocorre na Argentina, Bolívia, Brasil, Paraguai e Uruguai (Nascimento <em>et al</em>., 2005; Brusquetti &amp; Lavilla, 2006; Maneyro &amp; Beheregaray, 2007; Jansen <em>et al</em>., 2008; Quinderé <em>et al</em>., 2009). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, com registros desde a região Nordeste e sul da Amazônia até a região Sul (Bernarde &amp; Anjos, 1999; Nascimento <em>et al</em>., 2005; Quinderé <em>et al</em>., 2009; Bitar <em>et al</em>., 2012).</p>",
+      "states": "Alagoas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraíba, Paraná, Pernambuco, Rio Grande do Sul, Santa Catarina, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Gurupi, Sub-bacia Iguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Baixo, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Uruguai Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/554e45483731306332464b38385a6e755666394d5758464f3358583145414b6e58766442743276697a642f6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "fa4fe24c779f1dd5b418248813dfa81f.png",
+        "fileName": "Mapa de Physalaemus cuvieri.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Physalaemus cuvieri </em>é uma espécie generalista, que ocorre em diferentes ambientes, incluindo pastagens abertas e savanas inundadas. Reproduz-se em lagoas ou corpos d'água temporários, como poças d'água. A espécie é muito adaptável a atividades antrópicas (Mijares <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é bastante comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mijares <i>et al.</i>, 2010",
+              "title": "Mijares, A., Rodrigues, M.T. &amp; Baldo, D. (2010) <i>Physalaemus cuvieri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57250A11609155.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57250A11609155.en</a>. [Acessado em: 27/jan/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mijares <i>et al.</i>, 2004",
+              "title": "Mijares, A., Rodrigues, M.T. &amp; Baldo, D. (2004) <i>Physalaemus cuvieri</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/57250/11608987\">https://www.iucnredlist.org/species/57250/11608987</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA Nascentes do Rio Vermelho",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 2005",
+              "title": "Taxonomic review of the species groups of the genus <i>Physalaemus</i> Fitzinger, 1826 with revalidation of the genera <i>Engystomops</i> Jiménez-De-La-Espada, 1872 and <i>Eupemphix</i> Steindachner, 1863 (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Iguaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nazaretti, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Dias, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Veadeiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 2005",
+              "title": "Taxonomic review of the species groups of the genus <i>Physalaemus</i> Fitzinger, 1826 with revalidation of the genera <i>Engystomops</i> Jiménez-De-La-Espada, 1872 and <i>Eupemphix</i> Steindachner, 1863 (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 2005",
+              "title": "Taxonomic review of the species groups of the genus <i>Physalaemus</i> Fitzinger, 1826 with revalidation of the genera <i>Engystomops</i> Jiménez-De-La-Espada, 1872 and <i>Eupemphix</i> Steindachner, 1863 (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MORRO DO DIABO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DAS GALÉS E DA PORTARIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 2005",
+              "title": "Taxonomic review of the species groups of the genus <i>Physalaemus</i> Fitzinger, 1826 with revalidation of the genera <i>Engystomops</i> Jiménez-De-La-Espada, 1872 and <i>Eupemphix</i> Steindachner, 1863 (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Palmeiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bernarde, P.S. &amp; Anjos, L. 1999. Distribuição espacial e temporal da anurofauna no Parque Estadual Mata dos Godoy, Londrina, Paraná, Brasil (Amphibia: Anura). <b>Comunicações do Museu de Ciências da PUCRS Série Zoologia</b>, 12: p.127-140.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bitar, Y.O.C.; Pinheiro, L.P.C.; Abe, P.S. &amp; Santos-Costa, M.C. 2012. Species composition and reproductive modes of anurans from a transitional Amazonian forest, Brazil. <b>Zoologia</b>, 29 (1): p.19-26.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Brusquetti, F. &amp; Lavilla, E.O. 2006. Lista comentada de los anfibios de Paraguay. <b>Cuadernos de Herpetología</b>, 20 (2): p.3-79.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Eterovick, P.C. &amp; Sazima, I. 2004. <b>Anfíbios da Serra do Cipó, Minas Gerais - Brasil</b>. p.152. PUC Minas Belo Horizonte.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Jansen, M.; Vidoz, J.Q. &amp; Helmig, O. 2008. Geographic distribution: <i>Physalaemus cuvieri</i>. <b>Herpetological Review</b>, 39 (1): p.106.",
+          "Maneyro, R. &amp; Beheregaray, M. 2007. First record of <i>Physalaemus cuvieri</i> Fitzinger, 1826 (Anura, Leiuperidae) in Uruguay, with comments on the anuran fauna along the borderline Uruguay-Brazil. <b>Boletín de la Sociedad zoológica del Uruguay</b>, 16: p.36-41.",
+          "Mijares, A.; Rodrigues, M.T. &amp; Baldo, D. 2004. <i>Physalaemus cuvieri</i>. <b>The IUCN Red List of Threatened Species 2004: e.T57250A11608987</b>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/57250/11608987\">https://www.iucnredlist.org/species/57250/11608987</a>.",
+          "Mijares, A.; Rodrigues, M.T. &amp; Baldo, D. 2010. <i>Physalaemus cuvieri</i>. <b>The IUCN Red List of Threatened Species 2010: e.T57250A11609155</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57250A11609155.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57250A11609155.en</a>. Acessado em: 27/01/2012.",
+          "Nascimento, L.B.; Caramaschi, U. &amp; Cruz, C.A.G. 2005. Taxonomic review of the species groups of the genus <i>Physalaemus</i> Fitzinger, 1826 with revalidation of the genera <i>Engystomops</i> Jiménez-De-La-Espada, 1872 and <i>Eupemphix</i> Steindachner, 1863 (Amphibia, Anura, Leptodactylidae). <b>Arquivos do Museu Nacional, Rio de Janeiro</b>, 63 (2): p.297-320.",
+          "Quinderé, Y.R.S.D.; Lourenço, L.B.; Andrade, V.; Tomatis, C.; Baldo, D. &amp; Recco-Pimentel, S.M. 2009. Polytypic and polymorphic cytogenetic variations in the widespread anuran <i>Physalaemus cuvieri</i> (Anura, Leiuperidae) with emphasis on nucleolar organizing regions. <b>Biological Research</b>, 42 (1): p.79-92."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

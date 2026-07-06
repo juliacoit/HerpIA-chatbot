@@ -1,0 +1,541 @@
+{
+  "id_ficha": "4d6b72313835317a4f6a4b4b4c574b426141623233513d3d",
+  "nome_cientifico": "Bothrops erythromelas Amaral, 1923",
+  "nome_cientifico_atual": "Bothrops erythromelas Amaral, 1923",
+  "nome_comum": "Cabeça-de-capanga, Jararaca-avermelhada, Jararaca-da-Caatinga, Jararaca-da-folha-seca",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28020.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d6b72313835317a4f6a4b4b4c574b426141623233513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops erythromelas</i>&nbsp;<span>Amaral, 1923</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "28/05/2026",
+      "justificative": "<p><em>Bothrops erythromelas </em>é endêmica do Brasil, com ocorrência predominantemente na Caatinga, onde é amplamente distribuída. A espécie é comum e apresenta certa plasticidade quanto ao uso do habitat, sendo encontrada em ambientes áridos e semiáridos que circundam florestas tropicais secas e decíduas, formações secundárias e áreas parcialmente alteradas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões <em>Bothrops erythromelas</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Bothrops erythromelas</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28020.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28020.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6b6b50384e46545370567055506975674f63373850673d3d/full"
+      },
+      "version": 2,
+      "versionId": 19234,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops erythromelas</i>"
+        }
+      ],
+      "oldNames": "Bothropoides erythromelas, Coluber punctulatus",
+      "commonNames": "Cabeça-de-capanga, Jararaca-avermelhada, Jararaca-da-Caatinga, Jararaca-da-folha-seca",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bothrops erythromelas </em>é endêmica do Brasil, típica da Caatinga, onde é amplamente distribuída, ocorrendo também em áreas de transição com o Cerrado no oeste da Bahia (Amaral, 1923; Freitas <em>et al</em>., 2016; Guedes <em>et al.,</em> 2014; Roberto &amp; Loebmann, 2016; Costa <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Paraíba, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Piranhas, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/596f42473773634e43396c6539636a61562f575736443458774c56653473315231684163416550615a70704b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Bothrops erythromelas",
+        "diskFileName": "29f9ff788844a04491f3bf1f7ce70ad9.png",
+        "fileName": "Mapa de Bothrops erythromelas.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie ocorre em ambientes áridos e semiáridos que circundam florestas tropicais secas e decíduas, áreas rochosas e áreas de vegetação rasteira com bromélias terrestres (Campbell &amp; Lamar, 2004). Pode ser facilmente encontrada em áreas de solos pedregosos e próximo a afloramentos rochosos, durante o dia em repouso ou forrageando durante o crepúsculo ou a noite (T. Guedes, com. pess., 2012). Lira-da-Silva <em>et al</em>. (2009) descreveram sua ocorrência em formações secundárias de Mata Atlântica e restingas na região metropolitana do Salvador. Quirino <em>et al</em>. (2009) registraram a espécie nos arredores e no interior de edificações na região de Serra Talhada, em Pernambuco. É terrestre e noturna (Rodrigues, 1996; 2003). Uma fêmea da Usina Hidrelétrica de Itaparica (Paulo Afonso) pariu 11 filhotes, com um período mínimo de gestação de 123 dias (Lira-da-Silva, 1994). Alimentam-se de centopeias, anuros, lagartos, mamíferos (Martins <em>et al.,</em> 2002). Em cativeiro, há um registro de longevidade de cerca de 12 anos (Costa <em>et al</em>., 2006).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é facilmente encontrada em áreas de solos pedregosos e próximos a afloramentos rochosos (T. Costa, com. pess., 2012).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A Caatinga sofre com processos de queimadas, desmatamento e desertificação (Garda, 1996), e menos de 2% de sua área está protegida em Unidades de Conservação (Leal <em>et al.,</em> 2005). A espécie pode ser localmente afetada, mas, considerando sua ampla distribuição não há risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Martins, 2010",
+              "title": "Martins, M. (2010) <i>Bothrops erythromelas</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en</a>. [Acessado em: 22/mai/2012]."
+            }
+          ],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Martins, 2010",
+              "title": "Martins, M. (2010) <i>Bothrops erythromelas</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en</a>. [Acessado em: 22/mai/2012]."
+            }
+          ],
+          "orderBy": "Y2009"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ávila, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Castanhão",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Açu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sales, 2019",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Contendas do Sincorá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada Diamantina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2018",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Capivara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Confusões",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nunes, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Almas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Freire, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Boa Ventura",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Piabas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Amaral, A. (1923) <i>A New Genera and Species of Snakes</i> New England, New England Zoological Club, 85-105pp.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Campbell, J.A. &amp; Lamar, W.W. (2004) <i>The venomous reptiles of the Western Hemisphere</i> Edição Vol. 2 Ithaca, New York, Cornell University Press, 898pp.",
+          "Costa, A.C.O.R., Almeida-Santos, S.M., Germano, V.J., Oliveira, L., Scartozzoni, R.R. &amp; Salomão, M.G. (2006) Manutenção de Serpentes em Cativeiro no Instituto Butantan. <i>Manutenção de Serpentes em Cativeiro no Instituto Butantan. Publicações Avulsas do Instituto Pau Brasil</i>. (8-9), 63-68.",
+          "Costa, T.B., Laranjeiras, D.O., Caldas, F.L.S., Santana, D.O., Silva, C.F., Alcântara, E.P., Brito, S.V., Galdino, J.Y., Mesquita, D.O., Faria, R.G., França, F.G.R., Ávila, R.W. &amp; Garda, A.A. (2018) Herpetofauna of protected areas in the Caatinga VII: Aiuaba Ecological Station (Ceará, Brazil). <i>Herpetology Notes</i>. 11, 929-941.",
+          "Freitas, M.A., Colli, G.R., Entiauspe-Neto, O.M., Trinchão, L., Araújo, D., Lima, T.O., França, D.P.F., Gaiga, R. &amp; Dias, P. (2016) Snakes of Cerrado localities in western Bahia, Brazil. <i>Check List</i>. 12, 1896.",
+          "Garda, E.C. (1996) Atlas do meio ambiente Brasil. <i>Editora Terra Viva, Brasília</i>.",
+          "Guedes, T.B., Nogueira, C. &amp; Marques, O.A.V. (2014) Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <i>Zootaxa</i>. 3863, 1-93.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Leal, I.R., Silva, J.M.C., Tabarelli, M. &amp; Lacher-Jr., T.E (2005) Mudando o curso da conservação da biodiversidade na Caatinga do nordeste do Brasil. <i>Megadiversidade</i>. 1 (1), 139-146.",
+          "Lira-da-Silva, R.M, Mise,Y.F., Casais-e-Silva, L.L., Ulloa, J., Hamdan, B. &amp; Brazil, T.K. (2009) Serpentes de Importância Médica do Nordeste do Brasil. <i>Gazeta Médica da Bahia</i>. 79 ((Supl.1)), 7-20.",
+          "Lira-da-Silva, R.M., Casais-e-Silva, L.L., Queiroz, I.B. &amp; Nune, T.B. (1994) Contribuição à Biologia das Serpentes da Bahia, Brasil. I Víviparas. <i>Revista brasileira de Zoologia</i>. 11 (2), 187 - 193.",
+          "Martins, M. (2010) <i>Bothrops erythromelas</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178643A7587055.en</a>. [Acessado em: 22/mai/2012].",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2002) Ecological and phylogenetic correlates of feeding habits in Neotropical pitvipers of the genus <i>Bothrops</i> In: Schuett <i>et al.</i> (eds.) <i>Biology of the Vipers</i>. Eagle Mountain, Utah, U.S.A, Eagle Mountain Publishing,",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Quirino, A.M.S., da Silva, G.L., Magalhães, J.D.R. &amp; Santos, E.M. (2009) Educação Ambiental como Medida preventiva e Cuidados com Acidentes Ofídicos na Unidade Acadêmica de Serra Talhada. <a target=\"_blank\" href=\"http://www.eventosufrpe.com.br\">http://www.eventosufrpe.com.br</a>.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Rodrigues, M.T. (1996) Lizards, snakes, and amphisbaenians from the quaternary sand dunes of the middle Rio São Francisco, Bahia, Brazil. <i>Journal of Herpetology</i>. 30 (4), 513-523.",
+          "Rodrigues, M.T. (2003) Herpetofauna da Caatinga In: Leal, Tabarelli & Silva (eds.) <i>Ecologia e conservação da Caatinga</i>. Recife, PE, Editora Universitária, Universidade Federal de Pernambuco, pp. 181-236.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

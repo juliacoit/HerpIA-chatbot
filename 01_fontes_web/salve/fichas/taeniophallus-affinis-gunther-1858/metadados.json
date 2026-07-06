@@ -1,0 +1,725 @@
+{
+  "id_ficha": "347a6d66392f4c6d664b664e63636a73436d66324b413d3d",
+  "nome_cientifico": "Taeniophallus affinis (Günther, 1858)",
+  "nome_cientifico_atual": "Taeniophallus affinis (Günther, 1858)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27922.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=347a6d66392f4c6d664b664e63636a73436d66324b413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Taeniophallus affinis</i>&nbsp;<span>(Günther, 1858)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Taeniophallus affinis </em>é endêmica do Brasil, com registros na Mata Atlântica, entre a Paraíba e o Rio Grande do Sul e em florestas mais úmidas no Piauí e Ceará. Embora possa ser localmente rara, sua distribuição é ampla, com registros em diversas unidades de conservação, não havendo ameaças que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Taeniophallus affinis </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Taeniophallus affinis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27922.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27922.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19138,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Taeniophallus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Taeniophallus affinis</i>"
+        }
+      ],
+      "oldNames": "Coronella iheringii, Dromicus affinis, Echinanthera affinis, Liophis affinis, Rhadinaea affinis",
+      "commonNames": "",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Taeniophallus affinis </em>é endêmica do Brasil, com ampla distribuição na Mata Atlântica entre a Paraíba e o Rio Grande do Sul, ocorrendo também em florestas mais úmidas no Piauí e Ceará (Pontes &amp; Di-Bernardo, 1988; Argôlo, 1998; Guedes <em>et al</em>., 2014; Roberto <em>et al</em>., 2015; Mesquita <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p> \n<p> </p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Espírito Santo, Minas Gerais, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Baixo, Sub-bacia São Francisco Alto, Sub-bacia Tietê, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/714e7176643663726739382b704e6a356e317337594a42744c4758486a4c5363454e3247444a68624f50497644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "a92ebff03abbcf5b709173d73e086b64.png",
+        "fileName": "Mapa de Taeniophallus affinis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Taeniophallus affinis </em>ocorre em ambientes florestais da Mata Atlântica e florestas relictuais da Caatinga, em altitudes de até 1.600 metros (Di-Bernardo &amp; Lema, 1988; Argôlo, 1998; Bérnils, 2009; Loebmann &amp; Haddad, 2010; Hartmann <em>et al</em>., 2011). A espécie é terrestre, diurna, ovípara (Marques <em>et al</em>., 2004; Hartmann <em>et al</em>., 2011) e alimenta-se de anfisbenas, lagartos e anuros (Sousa &amp; Cruz, 2000; Hartmann <em>et al</em>., 2009; Zacariotti &amp; Gomes, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara (Barbo<em> et al</em>., 2011; Loebmann &amp; Haddad, 2011). No entanto, é abundante no Parque Estadual Carlos Botelho, São Paulo (Forlani <em>et al</em>., 2010).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Strüssmann , C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Kawashita-Ribeiro, R.A., Sawaya, R.J. &amp; Costa, T.B.G. (2019) <i>Taeniophallus affinis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T177523A123176551.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T177523A123176551.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Bacia do Rio São João/Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Richness, abundance, and mass in snake assemblages from two Atlantic Rainforest sites (Ilha do Cardoso, São Paulo) with differences in environmental productivity"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Amaral, 1977",
+              "title": "Serpentes do Brasil. Iconografia colorida"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Assis, 1999",
+              "title": "Introdução às serpentes da “Serra do Cipó” (municípios de Santana do Riacho e Jaboticatubas)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Sooretama",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sazima & Haddad, 1992",
+              "title": "Repteis da Serra do Japi: notas sobre historia natural"
+            }
+          ]
+        },
+        {
+          "name": "APA PARQUE E FAZENDA DO CARMO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL PICO DO IBITURUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2008",
+              "title": "Richness, abundance, and mass in snake assemblages from two Atlantic Rainforest sites (Ilha do Cardoso, São Paulo) with differences in environmental productivity"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Hartmann, 2005",
+              "title": "História natural e ecologia de duas taxocenoses de serpentes na Mata Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITACOLOMI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2010",
+              "title": "Serpentes de uma área de transição entre o Cerrado e a Mata Atlântica no Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sazima, 2001",
+              "title": "Répteis"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL NOVA BADEN",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO PAPAGAIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Menezes <i>et al.</i>, 2018",
+              "title": "Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2008",
+              "title": "Snakes from the Atlantic rainforest area of Serra do Medanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA SERRA DA ESPERANÇA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL BORORé-COLôNIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Pontes & Di-Bernardo, 1988",
+              "title": "Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Feliciano Miguel Abdala",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Palmuti <i>et al.</i>, 2009",
+              "title": "Hábito alimentar de serpentes da RPPN FelicianoMiguel Abdala, um fragmento de Mata Atlântica do sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rancho Mira-Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio dos Pilões",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Argôlo, A.J.S. 1998. Geographic distribution. <i>Echinanthera affinis</i>. <b>Herpetological Review</b>, 29 (3): p.176.",
+          "Barbo, F.E.; Marques, O.A.V. &amp; Sawaya, R.J. 2011. Diversity, natural history, and distribution of snakes in the municipality of São Paulo. <b>South American Journal of Herpetology</b>, 6 (3): p.135-160.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Bérnils, R.S. 2009. <b>Composição e padrões de distribuição de Caenophidia (Squamata, Serpentes) das Serras Atlânticas e Planaltos do Sudeste da América do Sul</b>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Di-Bernardo, M. &amp; Lema, T. 1988. O Gênero <i>Rhadinaea</i> Cope 1863 no Brasil meridional. III. <i>Rhadinaea affinis</i> (Günther, 1858) (Serpentes, Colubridae). <b>Acta Biologica Leopoldensia</b>, 10 (2): p.223-252.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Guedes, T.B.; Nogueira, C. &amp; Marques, O.A.V. 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <b>Zootaxa</b>, 3863: p.1-93.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2009. Ecology of a snake assemblage in the Atlantic Forest of southeastern Brazil. <b>Papéis Avulsos de Zoologia</b>, 49 (27): p.343-361.",
+          "Hartmann, P.A.; Hartmann, M.T. &amp; Martins, M. 2011. Snake road mortality in a protected area in the Atlantic Forest of Southeastern Brazil. <b>South American Journal of Herpetology</b>, 6 (1): p.35-42.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Loebmann, D. &amp; Haddad, C.F.B. 2010. Amphibians and reptiles from a highly diverse area of the Caatinga domain: composition and conservation implications. <b>Biota Neotropica</b>, 10 (3): p.227-256.",
+          "Marques, O.A.V.; Eterovic, A. &amp; Sazima, I. 2004. <b>Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar</b>. p.205. Holos Ribeirão Preto.",
+          "Mesquita, D.O.; Alves, B.C.F.; Pedro, C.K.B.; Laranjeiras, D.O.; Caldas, F.L.S.; Pedrosa, I.M.M.C.; Rodrigues, J.B.; Drummond, L.O.; Cavalcanti, L.B.Q.; Wachlevski, M.; Nogueira-Costa, P.; França, R.C. &amp; França, F.G.R. 2018. Herpetofauna in two habitat types (tabuleiros and Stational Semidecidual Forest) in the Reserva Biológica Guaribas, northeastern Brazil. <b>Herpetology Notes</b>, 11: p.455-474.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Pontes, G.M.F. &amp; Di-Bernardo, M. 1988. Registros sobre aspectos reprodutivos de serpentes ovíparas neotropicais (Serpentes: Colubridae e Elapidae). <b>Comunicações do Museu de Ciências e Tecnologia da PUCRS, Série Zoologia</b>, 1 (5): p.123-149.",
+          "Roberto, I.J.; Ávila, R.W. &amp; Melgarejo, A.R. 2015. Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada. p.357-375. <i>In</i>: Studer <i>et al.</i>. <b>Biodiversidade da Reserva Biológica de Pedra Talhada (Alagoas, Pernambuco - Brasil)</b>. Boissiera",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Strüssmann , C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Kawashita-Ribeiro, R.A.; Sawaya, R.J. &amp; Costa, T.B.G. 2019. <i>Taeniophallus affinis</i>. <b>The IUCN Red List of Threatened Species 2019: e.T177523A123176551</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T177523A123176551.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T177523A123176551.en</a>.",
+          "Sousa, B.M. &amp; Cruz, C.A.G. 2000. <i>Echinanthera affinis</i>: diet. <b>Herpetological Review</b>, 31 (3): p.178.",
+          "Zacariotti, R.L. &amp; Gomes, C.A. 2010. Diet of the Black headed Forest Racer <i>Taeniophallus affinis</i> Günther, 1858 in the Brazilian Atlantic forest. <b>Herpetology Notes</b>, 3: p.11-12."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

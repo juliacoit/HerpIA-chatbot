@@ -1,0 +1,598 @@
+{
+  "id_ficha": "712b424e545451453839535a725437485054556c38673d3d",
+  "nome_cientifico": "Rhinemys rufipes (Spix, 1824)",
+  "nome_cientifico_atual": "Rhinemys rufipes (Spix, 1824)",
+  "nome_comum": "Cágado-vermelho, Perema",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "09/2024",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21252.3",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=712b424e545451453839535a725437485054556c38673d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinemys rufipes</i>&nbsp;<span>(Spix, 1824)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2024",
+      "publicationDate": "20/03/2026",
+      "justificative": "<p><em>Rhinemys</em> <em>rufipes</em> ocorre na América do Sul e distribui-se pela Bacia do alto Amazonas, no Brasil e Colômbia. Vive em pequenos igarapés de água corrente escura ou clara bem preservados, pouco profundos, em florestas de terra firme. No Brasil, há registros nos estados do Pará e Amazonas, inclusive em unidades de conservação. Não foram identificadas ameaças que coloquem a espécie em risco de extinção no futuro próximo. Por isso, <em>R.</em> <em>rufipes</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Elizângela Silva de Brito; Carlos Roberto Abrahão; Daniele Carvalho; Miquéias Ferrão; Adriano Lima Silveira; Aline Tavares Santos; Almerinda Macieira Medeiros; André Luís Regolin; Camila Rudge Ferrara; Carlos Eduardo Vargas Grou; Fábio Andrew Gomes Cunha; Fábio Maffei; Geraldo Jorge Barbosa de Moura; Natália Rizzo Friol; Paulo Cesar Machado Andrade; Rafael Martins Valadão; Roberto Victor Lacava e Silva; Sabine Borges da Rocha; Shirley Famelli; Thiago Costa Gonçalves Portelinha; Thiago Simon Marques",
+      "citation": "<p>Brito, E.S.; Abrahão, C.R.; Carvalho, D.; Ferrão, M.; Silveira, A.L.; Santos, A.T.; Medeiros, A.M.; Regolin, A.L.; Ferrara, C.R.; Grou, C.E.V.; Cunha, F.A.G.; Maffei, F.; Moura, G.J.B.; Friol, N.R.; Andrade, P.C.M.; Valadão, R.M.; Silva, R.V.L.E.; Rocha, S.B.; Famelli, S.; Portelinha, T.C.G.; Marques, T.S. 2026. <i>Rhinemys rufipes</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21252.3 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21252.3",
+      "photo": {
+        "authorName": "Fábio Andrew Gomes Cunha",
+        "authorEmail": "fabioagcunha@gmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "2498bb807d1793300cd628bfc3bd57c9.jpg",
+        "fileName": "DSC_0898.JPG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/3335496b30544f316452442b547a79497545704a383731522f5350706347463448506148632b484772565735356668476b75573767486c6a58574a5350533732/full"
+      },
+      "version": 3,
+      "versionId": 30458,
+      "deleted": false,
+      "lastAvaliationDate": "19/09/2024",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Chelidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinemys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinemys rufipes</i>"
+        }
+      ],
+      "oldNames": "Chelys (Hidrapsis) rufipes, Chelys rufipes, Emys rufipes, Emys stenops, Hydraspis rufipes, Phrynops rufipes, Platemys rufipes, Rhinemys (Phrynops) rufipes",
+      "commonNames": "Cágado-vermelho, Perema",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Rhinemys rufipes</em> ocorre na América do Sul, onde distribui-se pela Bacia do alto rio Amazonas, no Brasil e Colômbia (McCord <em>et al.,</em> 2001; Magnusson &amp; Vogt, 2014). Na Amazônia colombiana, ocorre nas baixas regiões das bacias dos rios Apaporis, Vaupés, Papurí e Pirá-Paraná (Lamar &amp; Medem, 1984; Rueda-Almonacid <em>et al</em>., 2007; Páez <em>et al</em>., 2012).</p>",
+      "nationalDistribution": "<p>No Brasil, ocorre na região hidrográfica Amazônica, há registros da espécie pela faixa que se estende por toda bacia do rio Negro, a partir do município de Presidente Figueiredo, no estado do Amazonas até o estado do Pará, onde é conhecida a partir dos afluentes do rio Trombetas (Magnusson <em>et al.,</em> 1997a; Alvarenga, 2006; Vogt, 2009; Pezzuti <em>et al.,</em> 2010; Morato <em>et al.,</em> 2018; Agostini <em>et al</em>., 2022).</p>",
+      "states": "Amazonas, Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Solimões, Sub-bacia Trombetas",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/564836634c7358552f6469656c7064554167326e41587179697136383248337a6b44726e4566705051586b7644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição de Rhinemys rufipes",
+        "diskFileName": "1cd39399f77fa97b278229ac32229a3f.png",
+        "fileName": "Mapa de Rhinemys rufipes.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Rhinemys rufipes</em> (cágado-vermelho) ocorre no bioma Amazônia, é predominantemente aquática, vive em pequenos córregos (entre 2 e 4 metros de largura) de terra firme, acima de segunda ordem, em florestas de dossel fechado bem preservadas (Magnusson &amp; Vogt, 2014). Esses corpos d'água apresentam água escura ou clara, mas pouco profundos (Lamar &amp; Medem, 1984; Magnusson <em>et al.,</em> 1997a; Ernst &amp; Barbou, 1989; Magnusson &amp; Vogt, 2014), não sendo encontrada em grandes rios ou lagos (Vogt, 2008). É raramente avistada, pois tem hábitos crepuscular e noturno (Magnusson <em>et al.,</em> 1997a) e passar o tempo escondida durante o dia no fundo (Rueda-Almonacid <em>et al.,</em> 2007) ou em tocas nas margens dos córregos. Indivíduos desta espécie não têm o hábito de assoalhar (Rueda-Almonacid <em>et al.,</em> 2007) e um monitoramento por radiotelemetria indicou que raramente saem da água, apresentando pequenas áreas de vida (Magnusson <em>et al</em>., 1997a). Na Reserva Florestal Adolpho Ducke (RFAD), localizada próxima a cidade de Manaus (AM), sua área de vida é pequena, estendendo-se por dois quilômetros ao longo dos riachos estudados, com indivíduos frequentemente recapturados perto da área de captura inicial (Magnusson <em>et al</em>., 1997a).</p> \n<p>Trata-se de uma espécie onívora e oportunista, alimentando-se de uma grande variedade de alimentos, incluindo frutos de palmeira, sementes, insetos, invertebrados como camarões (larvas de Trichoptera), caranguejos, além de peixes e pequenos lagartos (Lima &amp; Magnusson, 1997; Caputo &amp; Vogt, 2008). Há evidências de mudanças ontogenéticas na dieta, com indivíduos juvenis alimentando-se mais de itens de origem animal (Lima &amp; Magnusson, 1997).</p> \n<p>As fêmeas atingem a maturidade sexual entre 4,5 e 5,3 anos de idade, dependendo de seu ritmo de crescimento (Magnusson <em>et al</em>., 1997b), embora haja registros de maturação entre 6,3 a 8,0 anos. No entanto, é certo que isso ocorra antes dos 10 anos de idade. O comprimento total da carapaça (CTC) varia entre 179 mm e 204 mm (Lamar &amp; Medem, 1984; Magnusson <em>et al., </em>1997b; Paez <em>et al.,</em> 2012). O CTC máximo observado foi de 270 mm em fêmeas (Vogt, 2008) e 233 mm em machos (Magnusson <em>et al.,</em> 1997b).</p> \n<p>A estação reprodutiva varia de acordo com a região, estando relacionada aos diferentes padrões de precipitação. Na região de Manaus (AM), a oviposição ocorre entre março e junho (Magnusson <em>et al., </em>1997b). No entanto, a espécie apresenta período de desova ligado à estação chuvosa na Reserva Florestal Adolpho Ducke, em Manaus (AM) (Alvarenga, 2006). As fêmeas podem desovar uma ou duas vezes por período reprodutivo (Lamar &amp; Medem, 1984; Alvarenga, 2006; Rueda-Almonacid <em>et al.,</em> 2007; Vogt, 2008; Magnusson &amp; Vogt, 2014). Os ninhos podem conter entre três e 12 ovos na Colômbia (Rueda-Almonacid <em>et al</em>., 2007), contudo, no Brasil, há registros de ninhadas variando entre três e oito ovos (média quatro ovos) na Reserva Florestal Adolfo Ducke (Alvarenga, 2006; Vogt, 2008; Magnusson &amp; Vogt, 2014).  Acredita-se que a nidificação seja sob a terra, pois seus ninhos nunca foram encontrados em bancos de areia ao longo dos igarapés onde elas são abundantes (Vogt, 2008). O tempo de incubação varia entre cinco e seis meses (Magnusson &amp; Vogt, 2014). Os ovos, de casca quebradiça, são ligeiramente elípticos, medindo entre 37 e 44 mm de comprimento, 32 e 36 mm de largura, e massa entre 32,5 e 34,5 g. Uma ninhada de seis ovos produziu filhotes entre 51 e 57 mm de CTC (Magnusson <em>et al</em>., 1997b).</p> \n<p>Faltam estudos com relação aos mecanismos de determinação sexual dessa espécie (Ferreira Junior, 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "Sim",
+      "specialistMicroHabitat": {
+        "yn": "Não",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "6 indivíduo(s)",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": "4,5 Ano(s)"
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "233 mm",
+            "female": "270 mm"
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": "57 Ano(s)"
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é abundante nas áreas em que ocorre (Vogt, 2008; Magnusson &amp; Vogt, 2014), como na Reserva Florestal Adolpho Ducke (RFAD). Nesta localidade, <em>R. rufipes</em> apresentou densidades entre 17 e 18 indivíduos/km, com um total de 93 indivíduos registrados (43 machos, 33 fêmeas e 17 não sexados). A estimativa é de que toda a RFAD possa ter 2.500 indivíduos (Magnusson <em>et al.,</em> 1997a; Magnusson &amp; Vogt, 2014). Em estudo posterior, um total de 144 indivíduos (78 fêmeas, 55 machos e 11 juvenis) foram capturados em quatro riachos na RFAD, com biomassa de 22,6 kg/ha e estimativa entre 420 e 1.100 indivíduos na Reserva (Sanchez, 2008), uma abundância muito menor do que a identificada nos anos 90. Contudo, a tendência populacional da espécie é desconhecida.</p> \n<p>Há conectividade com populações de países vizinhos e é plausível que ocorra fluxo gênico entre essas populações, no entanto, não se sabe o quanto reflete na manutenção das subpopulações no Brasil.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Algumas subpopulações vivem em reservas próximas a áreas urbanizadas, como na cidade de Manaus (AM) (Vogt, 2008). A espécie está sujeita aos impactos de desmatamento, agricultura, mineração, rodovias, e outras pressões (Magnusson &amp; Vogt, 2014). </p> \n<p>No município de Oriximiná, no estado do Pará, a espécie também é encontrada em áreas próximas às zonas de mineração de bauxita. As alterações provocadas pela extração desse minério nos platôs dos morros podem impactar negativamente as subpopulações de <em>Rhinoclemmys rufipes</em> que habitam os córregos nas regiões mais baixas, devido ao possível escoamento de detritos por lixiviação. Além disso, o desmatamento associado à atividade mineradora representa um impacto significativo para essa espécie de quelônio (E. S. Brito, com. pess., 2024).</p> \n<p>Uma recente avaliação nas áreas de distribuição potencial atuais e futuras de tartarugas amazônicas em dois cenários de mudanças climáticas (2041-2060), um mais conservador e outro mais alarmante, apontou que todas as espécies são afetadas pelo aquecimento global, independentemente do cenário utilizado, com a grande maioria perdendo extensas áreas ambientais adequadas para sua ocorrência (Silva, 2023).</p> \n<p>Acredita-se que os indivíduos dessa espécie sejam sensíveis à alteração ou à perda de habitat, demonstrando baixa tolerância a mudanças ambientais (E. S. Brito, com. pess., 2024). Isso se deve ao fato de que, na maioria dos registros, a espécie ocorre em ambientes bem conservados, sendo incomum sua presença em áreas alteradas (Agostini <em>et al</em>., 2022).</p> \n<p>Apesar dessas ameaças, não há evidências de que elas afetem a população da espécie como um todo, ao ponto de colocá-la em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.2 - Áreas comerciais e industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.3 - Áreas de turismo e recreação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.2 - Secas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p><em>Rhinemys rufipes</em> é amplamente caçada por tribos indígenas na Colômbia para consumo de carne e ovos, além de ser utilizada na confecção de instrumentos musicais (Lamar &amp; Medem, 1984). No entanto, no Brasil, seu uso para consumo humano é raro (Vogt, 2008). Há relatos de consumo ocasional por moradores do município de Oriximiná, no estado do Pará (E. S. Brito, com. pess., 2024). Apesar de ser uma espécie visualmente marcante, com coloração vibrante, não há registros de sua captura ativa para o comércio de animais de estimação no Brasil.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Vogt, 2008",
+              "title": "Vogt, R.C. (2008) <i>Tartarugas da Amazônia</i> Edição 1ª. Manaus - AM, Editora INPA., 104pp."
+            },
+            {
+              "label": "E. S. Brito, com. pess., 2016",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>A espécie é contemplada pelo Plano de Ação Nacional para Conservação dos Quelônios Amazônicos – PAN Quelônios Amazônicos. Esse PAN tem como objetivo geral aperfeiçoar as estratégias de conservação para os quelônios amazônicos e promover ações para sua recuperação e uso sustentável, especialmente para as espécies-alvo (Brasil, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2023",
+              "title": "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Rhinemys rufipes (Spix, 1824)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2016"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 1996,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "TFTSG (Tortoise Freshwater Turtle Specialist Group), 1996",
+              "title": "TFTSG (Tortoise Freshwater Turtle Specialist Group) (1996) <i>Rhinemys rufipes</i> (errata version published in 2016). <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17082A6797634.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17082A6797634.en</a>. [Acessado em: 14/jan/2016]."
+            }
+          ],
+          "orderBy": "Y1996"
+        },
+        {
+          "type": "Global",
+          "year": 1994,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1994"
+        },
+        {
+          "type": "Global",
+          "year": 1990,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1990"
+        },
+        {
+          "type": "Global",
+          "year": 1988,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1988"
+        },
+        {
+          "type": "Global",
+          "year": 1986,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1986"
+        },
+        {
+          "type": "Global",
+          "year": 1982,
+          "coverage": "",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y1982"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação dos Quelônios",
+          "refBibs": [
+            {
+              "label": "Brasil, 2015",
+              "title": "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>."
+            }
+          ]
+        },
+        {
+          "name": "Recuperação de espécies",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Educação e comunicação",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Em execução/existente",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Elizangela Brito, com. pess., 2016",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Viana <i>et al.</i>, 2020",
+              "title": "The Amazonian red side-necked turtle <i>Rhinemys rufipes<i/> (Spix, 1824) (Testudines, Chelidae) has a GSD sex-determining mechanism with an ancient XY sex microchromosome system"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pezzuti <i>et al.</i>, 2010",
+              "title": "Uses and taboos of turtles and tortoises along Rio Negro, Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vogt <i>et al.</i>, 2009",
+              "title": "Amazonian Turtles Habitat"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM ESQUERDA DO RIO NEGRO-SETOR ATURIÁ-APUAUZINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Viana, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Cué Cué/ Marabitanas",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Emysystem, 1999",
+              "title": "World Turtle Database"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Recomenda-se a realização de estudos voltados à biologia básica da espécie, bem como à sua ecologia e dinâmica populacional, incluindo investigações sobre filogeografia, genética, os efeitos das ameaças sobre as subpopulações e a conectividade entre elas. Pesquisas sobre reprodução <em>in situ</em> também são fundamentais para compreender os padrões reprodutivos (Magnusson &amp; Vogt, 2014). Além disso, é essencial entender como a perda de habitat está impactando as populações dessa espécie. Por fim, estudos sobre sua distribuição geográfica são igualmente necessários, uma vez que se acredita que sua área de ocorrência esteja atualmente subestimada.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Genética",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Outro",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Agostini, M. A. P., Batista, E. O., Garcês, L. M., Ferreira, A. J. S., Moraes, M. L., Santos, M. L. M., &amp; et al. (2022) New record of Red Side-necked Turtle <i>Rhinemys rufipes</i> (Reptilia, Testudines, Chelidae), a Near Threatened Amazonian freshwater turtle. <i>Herpetologia Brasileira</i>. 1, 130-138.",
+          "Alvarenga, C.C.E. (2006) <i>Aspectos de Biologia Reprodutiva de <i>Rhinemys rufipes</i> (Spix, 1824) (Chelidae, Testudines) na Reserva Florestal Adolpho Ducke, Amazonas, Brasil</i>. Dissertação de Mestrado. Mestrado em Ciências Biológicas - Instituto Nacional de Pesquisas da Amazônia/Universidade Federal do Amazonas, Manaus. Manaus/AM. 48pp.",
+          "Brasil (2015) <i>Portaria Conjunta Ibama/ICMBio Nº 1, de 4 de abril de 2015. Aprova o Plano de Ação Nacional para Conservação dos Quelônios Amazônicos - PAN Quelônios Amazônicos, estabelece seus objetivos geral e específicos, ações, prazo de execução, abrangência e formas de implementação e supervisão</i>.",
+          "Caputo, F. P. &amp; Vogt, R. (2008) Stomach flushing vs. fecal analysis: The example of <i>Phrynops rufipes</i>(Testudines: Chelidae). <i>Copeia</i>. 2, 301-305.",
+          "Ernst, C.H. &amp; Barbour, R.W. (1989) Turtles of the World. <i>Smithsonian Institute Press, Washington, D.C. e Londres</i>. 313 p.",
+          "Ferreira Júnior, P.D. (2009) Aspectos Ecológicos da Determinação Sexual em Tartarugas. <i>Acta Amazônica</i>. 39 (1), 139-154.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lamar, W.W. &amp; Medem, F. (1984) Notes on the chelid turtle <i>Phrynops rufipes</i> in Colombia (Reptilia: Testudines: Chelidae). <i>Salamandra</i>. 18, 305-321.",
+          "Lima, A. C. &amp; Magnusson, W. E. (1997) Diet of the turtle <i>Phrynops rufipes<i/> in central Amazonia. <i>Copeia</i>. 216-219.",
+          "Magnusson, W. E., Lima, A. C., Costa, V. L. &amp; Vogt, R. C. (1997) Home range of the turtle <i>Phrynops rufipes</i> in an isolated reserve in central Amazônia, Brazil. <i>Chelonian Conservation and Biology</i>. 2 (4), 494-499.",
+          "Magnusson, W. E., Lima, A. C., Costa, V. L. &amp; Vogt, R. C. (1997a) Home range of the turtle <i>Phrynops rufipes</i> in an isolated reserve in central Amazônia, Brazil. <i>Chelonian Conservation and Biology</i>. 2 (4), 494-499.",
+          "Magnusson, W.E. &amp; Vogt, R.C. (2014) <i>Rhinemys rufipes</i> (Spix 1824) – Red Side-necked Turtle, Red-footed Sideneck Turtle, Perema. In: Rhodin <i>et al.</i> (eds.) <i>Conservation Biology of Freshwater Turtles and Tortoises: A Compilation Project of the IUCN/SSC Tortoise and Freshwater Turtle Specialist Group.</i> Edição 5(7) Chelonian Research Monographs, pp. 079.1-079.7.",
+          "Magnusson, W.E., Lima, A.C., Costa, V.L. &amp; Lima, O.P. (1997b) Growth of the turtle, <i>Phrynops rufipes</i>, in central Amazônia, Brazil. <i>Chelonian Conservation and Biology</i>. 2, 494-499.",
+          "McCord, W.P., Joseph-Ouni, M. &amp; Lamar, W. (2001) A taxonomic reevaluation of <i>Phrynops</i> (Testudines: Chelidae) with the description of two new genera and a new species of <i>Batrachemys</i>. <i>Revista de Biologia Tropical</i>. 49 (2), 715-764.",
+          "Morato, S.A.A., Ferreira, G.N. &amp; Scupino, M.R.C. (2018) <i>Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera</i> Curitiba, STCP Engenharia de Projetos Ltda.; Porto Trombetas: MRN – Mineração Rio do Norte S.A., 210pp.",
+          "Pezzuti, J.C.B., Pantoja-Lima, J., Silva, D.F. &amp; Begossi, A. (2010) Uses and taboos of turtles and tortoises along Rio Negro, Amazon Basin. <i>Journal of Ethnobiology</i>. 30 (1), 153-168.",
+          "Páez, V.P., Morales-Betancourt, M.A., Lasso, C.A., Castaño-Mora, O.V. &amp; Bock, B.C. (2012) Biología y Conservación de las Tortugas Continentales de Colombia. Bogotá, Colombia: Serie Editorial Recursos, Hidrobiológicos y Pesqueros Continentales de Colombia. <i>Instituto de Investigación de Recursos Biológicos Alexander von Humboldt</i>. 528 pp.",
+          "Rueda-Almonacid, J. V., Carr, J. L., Mittermeier, R. A., Rodríguez-Mahecha, J. V., Mast, R. B., Vogt, R. C., Rhodin, A. G. J., Ossa-Velásquez, J., Rueda, J. N. &amp; Mittermeier, C. G. (2007) <i>Las tortugas y los cocodrilianos de los países andinos del trópico. Serie de guías tropicales de campo</i> Edição 6 Bogotá, Colombia, Conservación Internacional., 538pp.",
+          "Sanchez, D.E.A. (2008) <i>Abundância e padrão de distribuição de <i>Rhinemys rufipes</i> (Spix, 1824), Chelidae, em uma floresta de terra firme na Amazônia Central</i>. Dissertação de Mestrado. Mestrado em Capacidade de suporte, Ecologia animal, Ecologia vegetal, Ecossistemas, Interação inseto-planta, Lim - Instituto Nacional de Pesquisas da Amazônia. Manaus - AM. 49pp.",
+          "Silva, I. B. (2023) <i>O futuro dos quelônios amazônicos no contexto das mudanças climáticas.</i> Dissertação de Mestrado. Universidade Federal do Pará e Museu Paraense Emílio Goeldi. Belém. 52pp.",
+          "TFTSG (Tortoise Freshwater Turtle Specialist Group) (1996) <i>Rhinemys rufipes</i> (errata version published in 2016). <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17082A6797634.en\">http://dx.doi.org/10.2305/IUCN.UK.1996.RLTS.T17082A6797634.en</a>. [Acessado em: 14/jan/2016].",
+          "Van Dijk, P.P.V., Iverson, J.B., Rhodin, A.G.D., Shaffer, H.B. &amp; Bour, R. (2014) [TTWG - Turtle Taxonomy Working Group].Turtles of the World, 7th Edition: Annotated Checklist of Taxonomy, Synonymy, Distribution, and Conservation Status. <i>Chelonian Research Monographs</i>. (5), 329-479.",
+          "Vogt, R., Bataus, Y.S.L., Rodrigues, J., Uhlig, V.M., Balestra, R.A.M., Barreto, L.N., Bressan, R.F., Brito, E.S., Carvalho, V.T., Falcon, G.B., Ferrara, C.R., Marques, T.S., Matias, F., Souza, F.L., Tinôco, M.S. &amp; Valadão, R.M. (2023) <i>Rhinemys rufipes (Spix, 1824)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio.",
+          "Vogt, R.C. (2008) <i>Tartarugas da Amazônia</i> Edição 1ª. Manaus - AM, Editora INPA., 104pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

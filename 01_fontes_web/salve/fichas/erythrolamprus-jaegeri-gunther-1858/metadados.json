@@ -1,0 +1,723 @@
+{
+  "id_ficha": "676338763378343850644a7a49467973424465584f513d3d",
+  "nome_cientifico": "Erythrolamprus jaegeri (Günther, 1858)",
+  "nome_cientifico_atual": "Erythrolamprus jaegeri (Günther, 1858)",
+  "nome_comum": "Cobra-D’água, Cobra-Verde, Jararaquinha-Verde",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28808.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=676338763378343850644a7a49467973424465584f513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Erythrolamprus jaegeri</i>&nbsp;<span>(Günther, 1858)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "23/03/2026",
+      "justificative": "<p><em>Erythrolamprus jaegeri</em> ocorre no Brasil, Uruguai, Argentina, Paraguai e Bolívia. No Brasil, possui ampla distribuição nas regiões Sul e Sudeste, além de registros no Mato Grosso e Mato Grosso do Sul, sendo encontrada predominantemente na Mata Atlântica e Cerrado, em campos, bordas de matas, alagados, lagoas e banhados. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Erythrolamprus jaegeri</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Erythrolamprus jaegeri</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28808.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28808.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19730,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Erythrolamprus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Erythrolamprus jaegeri</i>"
+        }
+      ],
+      "oldNames": "Aporophis coralliventris, Coronella jaegeri, Erythrolamprus jaegeri coralliventris, Liophis coralliventris, Liophis jaegeri, Liophis (Ophiomorphus) dorsalis, Lygophis coralliventris, Opheomorphus [sic] dorsalis, Rhadinaea dichroa, Rhadinaea lineata",
+      "commonNames": "Cobra-D’água, Cobra-Verde, Jararaquinha-Verde",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Erythrolamprus jaegeri </em>ocorre no Brasil, Uruguai, Argentina, Paraguai e Bolívia (Dixon, 1987; Aquino <em>et al</em>., 1996; Achaval, 2001; Carreira <em>et al</em>., 2005; Cacciali, 2010; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição nas regiões Sul e Sudeste, com registros também nos estados do Mato Grosso e Mato Grosso do Sul (Dixon, 1987; Marques <em>et al</em>., 2004; Zanella &amp;Deiques <em>et al</em>., 2007; Sawaya <em>et al</em>., 2008; Outeiral <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral RS, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Negro RS, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia Tietê, Sub-bacia Uruguai Alto, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/49676a6e56345847354653704d30465a4f3646614b7a705777782b386f312f657a6b52436d626a4d3252546f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Erythrolamprus jaegeri",
+        "diskFileName": "50d8953a16ef6154b22aef8a2d6146bd.png",
+        "fileName": "Mapa de Erythrolamprus jaegeri.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Erythrolamprus jaegeri</em> pode ser encontrada em campos, bordas de matas, alagados, lagoas e banhados, em altitudes de até 1.730 metros (Ibaté, Campos do Jordão, SP) (Martins <em>et al.,</em> 2008; Bérnils, 2009; Marques<em> et al.,</em> 2009; Costa <em>et al</em>., 2010). É diurna e provavelmente terrestre, mas pode ser semi-aquática e semi-fossorial (Martins <em>et al.,</em> 2008). Apresenta ciclo reprodutivo sazonal, com folículos ovarianos vitelogênicos entre agosto e março, e ovos nos ovidutos entre setembro e janeiro, e sua fecundidade varia de quatro a 13 ovos (depositados em formigueiros), com período de incubação de 56 a 84 dias; os machos atingem a maturidade sexual com pelo menos 195mm de comprimento rostro-cloacal e as fêmeas, com 291mm (Vaz-Ferreira <em>et al.,</em> 1973; Achaval &amp; Olmos, 1997; Frota, 2005). Alimenta-se primariamente de anuros, mas também de girinos, peixes, suas larvas e lagartos (Carreira, 2002; Frota, 2005).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Embora considerada relativamente rara em localidades do sudeste (Sawaya<em> et al.,</em> 2008) é abundante na região sul mesmo em ambientes antropizadas (C. Strüssmann, com. pess., 2012).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colcoar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Williams <i>et al.</i>, 2019",
+              "title": "Williams, J., Giraudo, A., Arzamendia, V., Fitzgerald, L. &amp; Scrocchi, G. (2019) <i>Erythrolamprus jaegeri</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/176835/61319417\">https://www.iucnredlist.org/species/176835/61319417</a>. [Acessado em: 26/fev/2026]."
+            }
+          ],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Kwet & Embert, 2010",
+              "title": "Kwet, A. &amp; Embert, D. (2010) <i>Erythrolamprus jaegeri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176835A7313826.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176835A7313826.en</a>. [Acessado em: 13/dez/2012]."
+            }
+          ],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA das Ilhas e Várzeas do Rio Paraná",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA de Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Taim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CAJAMAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SAPUCAí MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CACHOEIRA DAS ANDORINHAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO BANHADO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IRAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PASSAUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEçãO AMBIENTAL DE CAMPINAS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IGUAÇÚ",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Araucária",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Dixon, 1987",
+              "title": "Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Curupira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rancho Mira-Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Particular Professor Delmar Harry dos Reis",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Unidade de Conservação de Galheiros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Achaval, F. &amp; Olmos, A. (1997) Anfibios y reptiles del Uruguay. <i>Facultad de Ciencias, Montevideo, UY</i>. 128.",
+          "Achaval, F. (2001) Actualización Sistemática y mapas de distribución de Reptiles Del Uruguay. <i>Smithsonian Herpetological Information Service</i>. 129, 1-21.",
+          "Aquino, A.L., Scott, N.J. &amp; Motte, M. (1996) Lista de anfibios y reptiles del Museo de Historia Natural del Paraguay (Marzo, 1980-Septiembre, 1995) In: Romero (ed.) <i>Colección de Flora y Fauna del Museo Nacional de Historia Natural del Paraguay</i>. Asunción, Museo Nacional de Historia Natural del Paraguay, pp. 331-400.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Bérnils, R.S. (2009) <i>Composição e padrões de distribuição de Caenophidia (Squamata, Serpentes) das Serras Atlânticas e Planaltos do Sudeste da América do Sul</i>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Cacciali, P. (2010) <i>Reptiles del Paraguay: una aproximación al estudio de su diversidad y distribución geográfica</i>. Dissertação de Mestrado. Universidad de la República. Montevideo. 386pp.",
+          "Carreira, S., Meneguel, M. &amp; Achaval, F. (2005) <i>Reptiles de Uruguay</i> Montevideo, Uruguay, D.I.R.A.C. Universidad de La República. Facultad de Ciências, 639pp.",
+          "Carreira, V.S. (2002) Alimentación de los ofidios de Uruguay. <i>Asoc. Herp. Esp., Monograf. Herp</i>. 6, 127.",
+          "Costa, H.C., Pantoja, D.L. &amp; Pontes, J.L. (2010) Snakes of the Municipality of Viçosa, Atlantic Forest of Southeastern Brazil. <i>Biota Neotropica</i>. 10 (3), 353-376.",
+          "Deiques, C.H., Stahnke, L.F., Reinke, M. &amp; Schmitt, P. (2007) <i>Guia ilustrado dos anfibios e repteis do Parque Nacional de Aparados da Serra, Rio Grande do Sul, Santa Catarina, Brasil</i> Pelotas, USEB, 117pp.",
+          "Dixon, J.R. (1987) Taxonomy and geographic variation of <i>Liophis typhlus</i> and related \"green\" species of South America (Serpentes: Colubridae). <i>Ann. Carnegie Mus.</i> 56, 173-191.",
+          "Frota, J.G. (2005) <i>História natural de <i>Liophis jaegeri jaegeri</i> (Serpentes, Colubridae)</i>. Dissertação de Mestrado. Tese de Mestrado - Pontifícia Universidade Católica do Rio Grande do Sul.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Grazziotin, F.G., Zaher, H., Murph, R.W., Scrocchie, G., Benavides, M.A., Zhang, Y. &amp; Bonatto, S.L. (2012) Molecular phylogeny of the New World Dipsadidae (Serpentes: Colubroidea): a reappraisal. <i>Cladistics</i>. 1 (2012), 1–23.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Kwet, A. &amp; Embert, D. (2010) <i>Erythrolamprus jaegeri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176835A7313826.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T176835A7313826.en</a>. [Acessado em: 13/dez/2012].",
+          "Marques, O.A.V., Eterovic, A. &amp; Sazima, I. (2004) <i>Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar</i> Ribeirão Preto, Holos, 205pp.",
+          "Marques, O.A.V., Pereira, D.N., Barbo, F.E., Germano, J.V. &amp; Sawaya, R.J. (2009) Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <i>Biota Neotropica</i>. 9 (2), 139-150.",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2008) How to be arborial and diurnal and still stay alive: microhabitat use, time of activity, and defense in neotropical forest snakes. <i>South American Journal of Herpetology</i>. 3 (1), 58-67.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Outeiral, A.B., Balestrin, R.L., Cappellari, L.H., Lema, T. &amp; Ferreira, V.L. (2018) Snake assemblage from Serra do Sudeste, Pampas Biome, southern Brazil. <i>Herpetology Notes</i>. 11, 733-745.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Sawaya, R.J., Marques, O.A.V. &amp; Martins, M. (2008) Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil. <i>Biota Neotropica</i>. 8 (2), 127-149.",
+          "Uetz, P., Freed, P. &amp; Hošek, J. (2014) <i>Erythrolamprus jaegeri</i>. <a target=\"_blank\" href=\"http://www.reptile-database.org\">http://www.reptile-database.org</a>. [Acessado em: 26/mar/2019].",
+          "Vaz-Ferreira, R., Zolessi, L.C. &amp; Achaval, F. (1973) Oviposition y Desarrollo de Ofidios y Lacertilios em Hormigueros de <i>Acromyrmex</i>. <i>II. Trab. V Latinoam. Zool</i>. 1, 232-244.",
+          "Williams, J., Giraudo, A., Arzamendia, V., Fitzgerald, L. &amp; Scrocchi, G. (2019) <i>Erythrolamprus jaegeri</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/176835/61319417\">https://www.iucnredlist.org/species/176835/61319417</a>. [Acessado em: 26/fev/2026].",
+          "Zanella, N. &amp; Cechin, S.Z. (2006) Taxocenose de serpentes no Planalto Médio do Rio Grande do Sul, Brasil. <i>Revista Brasileira de Zoologia</i>. 23 (1), 211-217."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

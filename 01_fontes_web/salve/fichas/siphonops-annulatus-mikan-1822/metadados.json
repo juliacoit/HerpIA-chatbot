@@ -1,0 +1,433 @@
+{
+  "id_ficha": "48624c774f39337055554642597a58364151376e47413d3d",
+  "nome_cientifico": "Siphonops annulatus (Mikan, 1822)",
+  "nome_cientifico_atual": "Siphonops annulatus (Mikan, 1822)",
+  "nome_comum": "Cecília",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21527.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=48624c774f39337055554642597a58364151376e47413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Siphonops annulatus</i>&nbsp;<span>(Mikan, 1822)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Siphonops annulatus </em>ocorre na Argentina, Bolívia, Brasil, Colômbia, Equador, Guiana Francesa, Peru e Venezuela. No Brasil, possui populações disjuntas na Amazônia e parte oeste do Cerrado, e a leste, entre os estados de Sergipe e Rio Grande do Sul. Trata-se de uma espécie fossorial, encontrada em solos úmidos de florestas e ambientes abertos, podendo ocorrer também em áreas antropizadas. É comum nos locais onde ocorre e não há evidências de ameaçadas que possam colocá-la em risco de extinção. Por essas razões, <em>Siphonops annulatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Siphonops annulatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21527.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21527.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16570,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Siphonopidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Siphonops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Siphonops annulatus</i>"
+        }
+      ],
+      "oldNames": "Caecilia annulata, Caecilia interrupta, Caecilia (Siphonops) annulata, Coecilia annulata, Siphonops annulata, Siphonops annulatus var. marmoratus, Siphonops interruptus",
+      "commonNames": "Cecília",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Siphonops annulatus</em> ocorre na Argentina, Bolívia, Brasil, Colômbia, Equador, Guiana Francesa, Peru e Venezuela (Maciel <em>et al</em>., 2013).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui populações disjuntas, na Amazônia e parte oeste do Cerrado, e outra a leste, entre os estados de Sergipe e Rio Grande do Sul (Dunn, 1942; Braun &amp; Braun, 1980; Carvalho <em>et al</em>., 2005; Bertoluci <em>et al</em>., 2009; Maciel &amp; Hoogmoed, 2011; Faria &amp; Mott, 2011; M.B. Souza, com. pess., 2012; Maciel <em>et al</em>., 2013).</p>",
+      "states": "Acre, Amazonas, Bahia, Espírito Santo, Mato Grosso, Minas Gerais, Pará, Rio de Janeiro, Rio Grande do Sul, Rondônia, Santa Catarina, São Paulo, Sergipe",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SE, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Paraíba do Sul, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/524e5937386a624c353549744f6e704c65335a626c6f79506359334f7a6f6245764367472f4845767872417644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "1b91288b3cd5bd772b0a723a21593d5f.png",
+        "fileName": "Mapa de Siphonops annulatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Siphonops annulatus </em>é uma espécie fossorial, encontrada em solos úmidos de florestas e ambientes abertos; pode ser encontrada também em plantações e outros ambientes antropizados (IUCN SSC Amphibian Specialist Group, 2014).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é localmente comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group, 2014",
+              "title": "IUCN SSC Amphibian Specialist Group (2014) <i>Siphonops annulatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2014-1.RLTS.T59593A43784684.en\">http://dx.doi.org/10.2305/IUCN.UK.2014-1.RLTS.T59593A43784684.en</a>. [Acessado em: 13/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2013"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dunn, 1942",
+              "title": "The American Caecilians"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dunn, 1942",
+              "title": "The American Caecilians"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra de Itabaiana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho <i>et al.</i>, 2005",
+              "title": "Répteis e anfíbios"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL MONTANHAS DE TERESóPOLIS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA RIO PACAÁS NOVOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL MESTRE ÁLVARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2010",
+              "title": "Amphibians of Vitória, an urban area in south-eastern Brazil: first approximation"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dunn, 1942",
+              "title": "The American Caecilians"
+            }
+          ]
+        },
+        {
+          "name": "RPN Salto Apepique",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEFLUSMME",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Faria & Mott, 2011",
+              "title": "Geographic distribution of Caecilians (Gymnophiona, Amphibia) in the state of Mato Grosso, Brazil with a new state record for <I>Caecilia mertensi</i> Taylor 1973"
+            }
+          ]
+        },
+        {
+          "name": "Évare I",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Dunn, 1942",
+              "title": "The American Caecilians"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bertoluci, J.; Canelas, M.A.S.; Eisemberg, C.C.; Palmuti, C.F.S. &amp; Montingelli, G.G. 2009. Herpetofauna da Estação Ambiental de Peti, um fragmento de Mata Atlântica do estado de Minas Gerais, sudeste do Brasil. <b>Biota Neotropica</b>, 9 (1): p.147-155.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Braun, P.C. &amp; Braun, C.A.S. 1980. Lista prévia dos anfíbios do Estado do Rio Grande do Sul, Brasil. <b>Iheringia, Série Zoologia</b>, 56 (56): p.121-146.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho, C.M.; Vilar, J.C. &amp; Oliveira, F.F. 2005. Répteis e anfíbios. p.39-61. <i>In</i>: Carvalho & Vilar. <b>Parque Nacional Serra de Itabaiana - Levantamento da Biota</b>. Biologia Geral e Experimental Aracajú, Sergipe.",
+          "Dunn, E.R. 1942. The American Caecilians. <b>Bulletin of the Museum of Comparative Zoology, Harvard</b>, 91 (6): p.439-540.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Faria, H.A.B. &amp; Mott, T. 2011. Geographic distribution of Caecilians (Gymnophiona, Amphibia) in the state of Mato Grosso, Brazil with a new state record for <I>Caecilia mertensi</i> Taylor 1973. <b>Herpetology Notes</b>, 4 (1): p.53–56.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "IUCN SSC Amphibian Specialist Group 2014. <i>Siphonops annulatus</i>. <b>The IUCN Red List of Threatened Species 2014: e.T59593A43784684</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2014-1.RLTS.T59593A43784684.en\">http://dx.doi.org/10.2305/IUCN.UK.2014-1.RLTS.T59593A43784684.en</a>. Acessado em: 13/08/2012.",
+          "Maciel, A.O. &amp; Hoogmoed, M.S. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. <b>Zootaxa</b>, 2984: p.1–53.",
+          "Maciel, A.O.; Costa, H.C.; Drummond, L.O.; Gomes, J.O. &amp; D’angiolella, A. 2013. Rediscovery of <i>Siphonops annulatus</I> (Mikan, 1820) (Amphibia: Gymnophiona: Siphonopidae) in the state of Pará, Brazil, with an updated geographic distribution map, and notes on size and variation. <b>Check List</b>, 9: p.106-110."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

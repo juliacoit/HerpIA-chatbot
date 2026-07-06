@@ -1,0 +1,332 @@
+{
+  "id_ficha": "4466484133735a4c4a723973715256487855544434773d3d",
+  "nome_cientifico": "Leptodactylus riveroi Heyer & Pyburn, 1983",
+  "nome_cientifico_atual": "Leptodactylus riveroi Heyer & Pyburn, 1983",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20366.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4466484133735a4c4a723973715256487855544434773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptodactylus riveroi</i>&nbsp;<span>Heyer & Pyburn, 1983</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/10/2023",
+      "justificative": "<p><em>Leptodactylus riveroi </em>ocorre no bioma Amazônia e é conhecida para o Brasil, Colômbia e Venezuela. No Brasil, possui registros de ocorrência nos estados do Amazonas e Roraima É uma espécie comum, encontrada na serapilheira da florestas. Ocorre em áreas naturais preservadas, incluindo unidade de conservação, e não há evidência de ameaças que a coloquem em risco de extinção. Por estas razões, <em>Leptodactylus riveroi </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Leptodactylus riveroi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20366.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20366.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15745,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptodactylus riveroi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptodactylus riveroi</em> ocorre no Brasil, Colômbia e Venezuela (Barrio-Amorós, 2004; Lynch, 2005; Zimmerman &amp; Simberloff, 1996; Mijares <em>et al</em>., 2004).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência nos estados do Amazonas e Roraima (Zimmerman &amp; Simberloff, 1996; Lima<em> et al</em>., 2006; Gordo <em>et al</em>., 2009; Ilha &amp; Dixo, 2010). É provável que sua distribuição no país seja ainda maior.</p> \n<p> </p>",
+      "states": "Amazonas, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6f334a7343497073426644412f586f7268694a6247446f79792f354950393667585250746f615a537a507a6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Leptodactylus riveroi",
+        "diskFileName": "03985e5e47a1f20eb7ba0c553b5294f0.png",
+        "fileName": "Mapa de Leptodactylus riveroi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Leptodactylus riveroi </em>é terrestre e noturna, encontrada na serapilheira em florestas primárias. Os ovos são encontrados em ninhos de espuma e os se desenvolvem em ambientes lênticos.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum em sua área de ocorrência.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda de vegetação natural na sua área de ocorrência, não há evidências de que as ameaças possam colocá-la em risco de extinção em curto prazo.</p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mijares <i>et al.</i>, 2004",
+              "title": "Mijares, A., Acosta-Galvis, A. &amp; Manzanilla, J. (2004) <i>Leptodactylus riveroi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57163A11593770.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57163A11593770.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Werneck, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Viruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "GBIF, 2017",
+              "title": "Global Biodiversity Information Facility: GBIF Occurrence Download"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Werneck, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Barrio-Amorós, C.L. (2004) Amphibians of Venezuela. Systematic list, distribution and references, an update. <i>Revista De Ecología Latino-Americana. Mérida</i>. 9 (3), 1-48.",
+          "Gordo, M., Carvalho, V.T.C., Oliveira, M.E., Dubyna, F.A., Lemos, M., Bernhard, R., Bernardes, V.C.D., Nascente, L.B. &amp; Seixas, M. (2009) <i>Diagnóstico Ambiental do Parque Nacional do Viruá: Relatório Temático de Herpetologia</i>. Manaus, AM. 44pp.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Ilha, P. &amp; Dixo, M. (2010) Anurans and lizards, Rio Preto da Eva, Amazonas, Brazil. <i>Check List</i>. 6 (1), 17-21.",
+          "Lima, A.P., Magnusson, W.E., Menin, M., Erdtmann, L.K., Rodrigues, D.J., Keller, C. &amp; Hödl, W. (2006) <i>Guia de sapos da Reserva Adolpho Ducke, Amazônia Central</i> Manaus, Áttema Design Editorial, 168pp.",
+          "Lynch, J.D. (2005) Discovery of the richest frog fauna in the world - An exploration of the forests to the north of Leticia. <i>Revista de la Academia Colombiana de Ciencias</i>. 29, 581-588.",
+          "Mijares, A., Acosta-Galvis, A. &amp; Manzanilla, J. (2004) <i>Leptodactylus riveroi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57163A11593770.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57163A11593770.en</a>.",
+          "Zimmerman, B.L. &amp; Simberloff, D. (1996) An historical interpretation of habitat use by frogs in a Central Amazonian forest. <i>Journal of Biogeography</i>. 23, 27-46."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "id_ficha": "725a614c30713934593755754c3972304574766c79413d3d",
+  "nome_cientifico": "Melanophryniscus cambaraensis Braun & Braun, 1979",
+  "nome_cientifico_atual": "Melanophryniscus cambaraensis Braun & Braun, 1979",
+  "nome_comum": "Sapinho-mão-vermelha-de-Cambará, Sapinho-verde, Sapinho-verde-de-barriga-vermelha",
+  "grupo": "Anfíbios",
+  "categoria_risco": "EN",
+  "categoria_risco_completa": "Em Perigo (EN)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.15776",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=725a614c30713934593755754c3972304574766c79413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Melanophryniscus cambaraensis</i>&nbsp;<span>Braun & Braun, 1979</span>",
+      "category": "Em Perigo (EN)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Melanophryniscus cambaraensis</em> é endêmica do Brasil, do sul do bioma Mata Atlântica, com ocorrência em floresta ombrófila mista (Floresta de Araucária) no estado do Rio Grande do Sul. A espécie é conhecida apenas de duas localidades, sendo que na localidade-tipo, no Parque Nacional (PARNA) de Serra Geral, não é registrada desde o ano de descrição (1979). A outra localidade é na Floresta Nacional (FLONA) de São Francisco de Paula. Tanto o interior do PARNA quanto a região entre as duas unidades de conservação têm sido bem amostrados, mas a espécie não foi mais localizada. No interior da FLONA, que também é muito bem amostrada, só foram identificados dois sítios reprodutivos. Existe uma carência de dados sobre a extensão de ocorrência, mas considerando os ambientes potencialmente favoráveis à ocorrência da espécie, sua extensão de ocorrência foi estimada em cerca de 500 km2. Toda essa região sofre pressão de atividades agropecuárias e do manejo de florestas de pinheiros (<em>Pinus</em> spp.), além do uso do fogo em ambientes naturais. Essas atividades fragmentam o ambiente e causam declínio contínuo da qualidade do hábitat da espécie. Aliando-se esses impactos à baixa capacidade de dispersão da espécie, supõem-se que sua população esteja severamente fragmentada. Por essas razões, <em>Melanophryniscus cambaraensis</em> foi avaliada como Em Perigo (EN) pelo critério B1ab(iii).</p> \n<p> </p> \n<p> </p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Melanophryniscus cambaraensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.15776 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.15776",
+      "photo": {
+        "authorName": "Daniel Loebmann",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "1b6ac6d916b365264f64485136cb5dfe.jpg",
+        "fileName": "Melanophryniscus cambaraensis_Daniel Loebmann.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6f3938544f6d54384f43493037614d61507770486c6a36693677386f2f5176515349466e6e52784b354378704d4852545576352b7565586d3741306536525047/full"
+      },
+      "version": 2,
+      "versionId": 14355,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Melanophryniscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Melanophryniscus cambaraensis</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Sapinho-mão-vermelha-de-Cambará, Sapinho-verde, Sapinho-verde-de-barriga-vermelha",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Melanophryniscus cambaraensis</em> é endêmica do Brasil, com ocorrência para o Planalto das Araucárias no estado do Rio Grande do Sul (Martins <em>et al</em>., 2017). Sua localidade-tipo é a cachoeira Fortaleza dos Aparados da Serra, no Parque Nacional (PARNA) da Serra Geral, município de Cambará do Sul (Braun &amp; Braun, 1979). A espécie possui ainda registros na Floresta Nacional (FLONA) de São Francisco de Paula (Garcia &amp; Strussmann, 1998; Kwet <em>et al</em>., 2010; V. Caorsi, com. pess., 2013; Martins <em>et al.,</em> 2016; M.B. Martins, com. pess., 2018). Existe uma carência de dados sobre a extensão de ocorrência da espécie, mas considerando os ambientes potencialmente favoráveis entre os registros mais ao norte (PARNA da Serra Geral) e mais ao sul (FLONA de São Francisco de Paula), sua extensão de ocorrência foi estimada em cerca de 500 km2.</p>",
+      "nationalDistribution": "",
+      "states": "Rio Grande do Sul",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Litoral SP PR SC",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/49393976624249563844376d4d6864344d335866624d755634454f655a674257313578466f56336a6548336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Melanophryniscus cambaraensis",
+        "diskFileName": "d4ae9076b56961b6180cd9f834795eb1.png",
+        "fileName": "Mapa de Melanophryniscus cambaraensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Melanophryniscus cambaraensis</em> é preferencialmente diurna, terrestre, com ocorrência associada a áreas inundadas, próximas a pequenos riachos e valas, em ambientes abertos e remanescentes de florestas ombrófilas mistas (Floresta de Araucária). Na FLONA de São Francisco de Paula, um dos sítios reprodutivos conhecidos possui aproximadamente 20 metros de comprimento e 4 metros de largura, e está localizado na borda de uma pequena estrada não pavimentada em um afloramento rochoso parcialmente coberto por uma fina camada de solo superficial, com vegetação dominada por gramíneas e herbáceas. Exceto pela pequena estrada, que é usada muito raramente, a área ao redor do riacho é composto de floresta ombrófila mista (Santos &amp; Grant, 2011).</p> \n<p>Seu padrão reprodutivo é caracterizado como explosivo, por ocorrer em curto período (geralmente apenas alguns dias), quando vários indivíduos deixam seus abrigos e, simultaneamente, migram em direção aos corpos d´água temporários durante e imediatamente após intensas chuvas (Garcia &amp; Vinciprova, 1998; Kwet &amp; Di-Bernardo, 1999). A reprodução não é sazonal, e os eventos de reprodução ocorrem repetidamente, em intervalos irregulares, ao longo de todo o ano (Santos &amp; Grant, 2011). Machos e fêmeas migram simultaneamente em direção ao local de reprodução (R.R. Santos, C. Both &amp; T. Grant, dados não publicados). Um ciclo migratório completo (migração pré-reprodutiva + atividade de reprodução + migração pós-reprodutiva) tem duração de aproximadamente 14 dias, sendo a quantidade de chuva acumulada num período de 72 h o preditor desse ciclo (R.R. Santos, C. Both &amp; T. Grant, dados não publicados). A espécie apresenta desenvolvimento indireto, sua desova contém cerca de 100 ovos aderentes, geralmente depositados entre pedras nas partes rasas do corpo d’água, e os girinos são exotróficos (Kwet &amp; Di-Bernardo, 1999; Haddad <em>et al., </em>2013). Outras informações sobre o comportamento reprodutivo e a morfologia externa de girinos são apresentadas por Caorsi <em>et al., </em>(2011) e Bernardo-Silva <em>et al., </em>(2010), respectivamente. Seu pequeno tamanho lhe confere uma baixa capacidade de dispersão.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie não é registrada na localidade-tipo (PARNA da Serra Geral) desde o ano de sua descrição, em 1979. Outras duas subpopulações da espécie foram encontradas na porção nordeste do estado do Rio Grande do Sul, na Floresta Nacional (FLONA) de São Francisco de Paula (Kwet &amp; Di-Bernaardo, 2010; Martins <em>et al., </em>2017), onde, durante os eventos de reprodução explosiva, a espécie pode ser facilmente encontrada. Toledo <em>et al., </em>(2014) classificam a espécie como rara quanto ao seu tamanho populacional, de acordo com critérios utilizados pelos autores. Estudo populacional recente na FLONA de São Francisco de Paula mostrou que a população no local é bem pequena (T. Grant, com. pess., 2018). A FLONA é muito bem amostrada, mas só foram identificados dois sítios reprodutivos em seu interior.</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A região entre os registros conhecidos da espécie sofre pressão de atividades agropecuárias e do manejo de florestas de pinheiros (<em>Pinus</em> spp.), o que provoca a redução dos ambientes propícios para a reprodução da espécie. O uso do fogo nos ambientes naturais também contribui para o declínio da qualidade do hábitat. Adicionalmente, alterações climáticas podem constituir outra fonte de preocupação para a conservação da espécie. Aliando-se esses impactos à baixa capacidade de dispersão da espécie, supõem-se que sua população esteja severamente fragmentada, com mais de 50% dos indivíduos em fragmentos pequenos e isolados.</p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.3 - Plantações em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Melanophryniscus cambaraensis</em> foi beneficiada pelo primeiro ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul (ICMBio, 2012), e passou a ser espécie-alvo no segundo ciclo desse PAN (ICMBio, 2019).</p> \n<p>Ações de uso da terra que entrem em conflito com a conservação da espécie, como empreendimentos hidrelétricos, exploração de madeira e expansão agrícola, devem ter como condicionante programas de monitoramento e de conservação. Independentemente do resultado do inquérito instaurado que reivindica a área da FLONA de São Francisco de Paula para Território Indígena, a espécie deve ter um programa de conservação na localidade. É necessária uma avaliação da efetividade das unidades de conservação da região em relação à conservação da espécie.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2023",
+              "title": "Bastos, R.P., Martins, M.R., Guidorizzi, C.E., Andrade, S.P., Bataus, Y.S.L., Júnior, R.V.G., Andrade, G.V., Ávila, R.W., Colombo, P., Dias, I.R., Kokubum, M.N.C., Lima, D.C., Lingnau, R., Lisboa, B.S., Loebmann, D., Lucas, E., Machado, I.F., Júnior, A.M., Martins, M.B., Moura, G.J.B., Napoli, M.F., Oliveira, S.N., Ribeiro, L.F., Tinôco, M.S. &amp; Zank, C. (2023) <i>Melanophryniscus cambaraensis Braun & Braun, 1979</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Segalla, M.V., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Garda, A., Hudson, A.A., Cruz, A.A.G., Strüssmann, C., Brasileiro, C.A., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Lima, L.P., Martins, M.R.C., Hoogmoed, M.S., Colombo, P., Valdujo, P.H., Garcia, P.C.A., Feio, R.N., Brandão, R.A., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Melanophryniscus cambaraensis</i> Braun & Braun, 1979. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/faunabrasileira/estado-de-conservacao/7507-anfibios-melanophryniscus-cambaraensis\">http://www.icmbio.gov.br/portal/faunabrasileira/estado-de-conservacao/7507-anfibios-melanophryniscus-cambaraensis</a>."
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia <i>et al.</i>, 2004",
+              "title": "Garcia, P., Kwet, A. &amp; Silvano, D. (2004) <i>Melanophryniscus cambaraensis</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54817A11208173.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54817A11208173.en.</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B1ab(i,ii,iii)",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2002,
+          "coverage": "Rio Grande do Sul",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2002",
+              "title": "Marques, A.A.B., Fontana, C.S., Vélez, E., Bencker. G.A., Schneider, M. &amp; Reis, R.E. (2002) <i>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</i> Edição 11 Porto Alegre, FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB), 52pp."
+            }
+          ],
+          "orderBy": "X2002"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Sul - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA São Francisco de Paula",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Valentina Caorsi, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra Geral",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Braun & Braun, 1979",
+              "title": "Nova espécie de <i>Melanophryniscus</i> Gallardo, 1961 do Estado do Rio Grande do Sul, Brasil (Anura, Bufonidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É essencial o monitoramento das subpopulações da Flona de São Francisco de Paula. São necessários ainda estudos sobre a distribuição geográfica e a dinâmica populacional da espécie (Haddad <em>et al</em>., 2016).</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bernardo-Silva, J.S.; Rocha Dos Santos, R. &amp; Both, C., 2010. The tadpole of <i>Melanophryniscus cambaraensis</i> Braun & Braun, 1979 (Anura: Bufonidae). Zootaxa, 2569: p.67–68.",
+          "Braun, P.C. &amp; Braun, C.A.S.B, 1979. Nova espécie de <i>Melanophryniscus</i> Gallardo, 1961 do Estado do Rio Grande do Sul, Brasil (Anura, Bufonidae). Iheringia, Série Zoologia, 54: p.7-16.",
+          "Caorsi, V.Z., 2011. Comportamento reprodutivo de <I>Melanophryniscus cambaraensis</i> (Anura: Bufonidae) na Floresta Nacional de São Francisco de Paula, Rio Grande do Sul, Brasil",
+          "Estado do Rio Grande do Sul 09/09/2014. Decreto n.º 51.797, de 8 de setembro de 2014. Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul. Disponível em: <a target=\"_blank\" href=\"http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf\">http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf</a>.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Garcia, P.; Kwet, A. &amp; Silvano, D., 2004. <i>Melanophryniscus cambaraensis</i>. The IUCN Red List of Threatened Species 2004: e.T54817A11208173, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54817A11208173.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54817A11208173.en.</a>.",
+          "Garcia, P.C.A. &amp; Strussmann, C., 1998. Aspectos da biologia reprodutiva e descrição do girino de <i>Melanophryniscus cambarensis</i> (Braun e Braun, 1978) (Amphibia: Bufonudae).<i>In</i>: XXII Congresso Brasileiro de Zoologia, Recife. (Resumo)",
+          "Garcia, P.C.A. &amp; Vinciprova, G. 1998. Range extensions of some anuran species for Santa Catarina and Rio Grande do Sul states, Brazil. <b>Herpetological Review</b>, 29 (2): p.117--118.",
+          "Haddad, C.F.B.; Segalla, M.V.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Garda, A.; Hudson, A.A.; Cruz, A.A.G.; Strüssmann, C.; Brasileiro, C.A.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Lima, L.P.; Martins, M.R.C.; Hoogmoed, M.S.; Colombo, P.; Valdujo, P.H.; Garcia, P.C.A.; Feio, R.N.; Brandão, R.A.; Bastos, R.P. &amp; Caramaschi, U., 2016. Avaliação do Risco de Extinção de <i>Melanophryniscus cambaraensis</i> Braun & Braun, 1979. Processo de avaliação do risco de extinção da fauna brasileira. ICMBio, Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/faunabrasileira/estado-de-conservacao/7507-anfibios-melanophryniscus-cambaraensis\">http://www.icmbio.gov.br/portal/faunabrasileira/estado-de-conservacao/7507-anfibios-melanophryniscus-cambaraensis</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade) 2018. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume V - Anfíbios. p.128. <i>In</i>: Instituto Chico Mendes de Conservação & da Biodiversidade (Org.). <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. ICMBio Brasília.",
+          "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012.",
+          "ICMBio 30/07/2019. Portaria nº 350 de 23 de julho de 2019, que aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.47. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080\">https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080</a>. Acessado em: 12/10/2019.",
+          "Kwet, A. &amp; Di-Bernardo, M. 1999. <b>Pró-Mata Anfíbios</b>. p.107. Edipucrs Porto Alegre, RS.",
+          "Kwet, A.; Lingau, R. &amp; Di-Bernardo, M. 2010. <b>Pró-Mata: Anfíbios da Serra Gaúcha, Sul do Brasil – Amphibien der Serra Gaúcha, Südbrasilien – Amphibians of the Serra Gaúcha, South of Brazil</b>. p.148. Brasilien Zentrum der Universität Tübingen and EDIPUCRS Tübingen, Germany, and Porto Alegre, Brazil.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Marques, A.A.B.; Fontana, C.S.; Vélez, E.; Bencker. G.A.; Schneider, M. &amp; Reis, R.E. 2002. <b>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</b>. p.52. FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB) Porto Alegre.",
+          "Martins, L.A.; Kwet, A. &amp; Lema, T. 2017. <b>Anfíbios do Rio Grande do Sul: Lista sistemática comentada, com distribuição e iconografia das espécies de anfíbios ocorrentes no Rio Grande do Sul, Brasil, registrados até 2013</b>. p.391. ediPUCRS Porto Alegre.",
+          "Santos, R.R. &amp; Grant, T., 2011. Diel pattern of migration in a poisonous toad from Brazil and the evolution of chemical defenses in diurnal amphibians. Evolutionary Ecology, 25: p.249-258.",
+          "Toledo, L.F.; Becker, G.; Haddad, C.F.B. &amp; Zamudio, K. 2014. Rarity as an indicator of endangerment in neotropical frogs. <b>Biological Conservation</b>, 179: p.54-62."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

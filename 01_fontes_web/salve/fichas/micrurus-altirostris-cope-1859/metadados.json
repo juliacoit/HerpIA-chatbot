@@ -1,0 +1,514 @@
+{
+  "id_ficha": "34334d30533055444f644771565444657639797432413d3d",
+  "nome_cientifico": "Micrurus altirostris (Cope, 1859)",
+  "nome_cientifico_atual": "Micrurus altirostris (Cope, 1859)",
+  "nome_comum": "Boipinima, Cobra-Coral, Cobra-Coral-Pampeana",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28060.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=34334d30533055444f644771565444657639797432413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Micrurus altirostris</i>&nbsp;<span>(Cope, 1859)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "26/02/2026",
+      "justificative": "<p><em>Micrurus altirostris</em> ocorre no Brasil, Argentina, Paraguai e Uruguai. No Brasil, possui registros nos biomas Mata Atlântica e Pampa, desde o sul do estado de São Paulo até o Rio Grande do Sul. A espécie apresenta plasticidade ambiental, sendo encontrada em ambientes florestais e abertos, bem como em áreas alteradas. Possui ampla distribuição no país e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Micrurus altirostris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Micrurus altirostris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28060.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28060.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19274,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Elapidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Micrurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Micrurus altirostris</i>"
+        }
+      ],
+      "oldNames": "Elaps altirostris, Elaps frontalis, Elaps heterochilus, Micrurus frontalis altirostris, Micrurus lemniscatus multicinctus",
+      "commonNames": "Boipinima, Cobra-Coral, Cobra-Coral-Pampeana",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Micrurus altirostris </em>possui registros no Brasil Argentina, Paraguai e Uruguai (Roze, 1996; Wallach <em>et al</em>., 2014; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros nos estados do Rio Grande do Sul, Santa Catarina, Paraná e no sul de São Paulo (Silva Jr. <em>et al</em>., 2016; Outeiral <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Negro RS, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Uruguai Alto, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/37714439665047766830775178705a2f3236505166514537687a2f5a68614e555057584b4730786f6661446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Micrurus altirostris",
+        "diskFileName": "295033992c90518dc5e36f49ea8a2591.png",
+        "fileName": "Mapa de Micrurus altirostris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie ocorre nos biomas Pampas e Mata Atlântica, podendo ser encontrada em campos, savanas, florestas sazonais, florestas ombrófilas mistas, em altitudes de até 1360 metros (São Joaquim, SC); também é frequentemente encontrada em ambientes alterados (Roze, 1996; Silva &amp; Sites, 1999; Campbell &amp; Lamar, 2004; Sestren-Bastos, 2006; Bérnils, 2009). É semi-fossorial (Aguiar &amp; Di-Bernardo, 2007). Devido às baixas temperaturas no inverno, a vitalogênese ocorre em um período curto (Marques<em> et al.,</em> 2006). Deposita de um a sete ovos em formigueiros de formigas cortadoras (Achaval &amp; Olmos, 1997). Alimenta-se de lagartos, cobras-cegas e outros ofídeos (registro de <em>Sordellina punctata</em>) e anfisbenas (Roze, 1996; Carreira, 2002; Aguiar &amp; Di-Bernardo, 2007). Possui um registro de longevidade em cativeiro de cerca de um ano (Oliveira <em>et al</em>., 2005). Pode empoleirar-se na vegetação quando ameaçada (Getelina <em>et al</em>., 2018)</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa é ameaça local, mas, considerando a ampla distribuição da espécie, não a coloca em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Cacciali <i>et al.</i>, 2019",
+              "title": "Cacciali, P., Carreira, S., Kacoliris, F., Montero, R., Pelegrin, N. &amp; Giraudo, A. (2019) <i>Micrurus altirostris</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/56039849/56039892\">https://www.iucnredlist.org/species/56039849/56039892</a>. [Acessado em: 29/jan/2026]."
+            }
+          ],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Ibirapuitã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Iguaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ghizoni-Jr. <i>et al.</i>, 2009",
+              "title": "Registros notáveis de répteis de áreas abertas naturais do planalto e litoral do Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ESPIGãO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO TURVO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO BANHADO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO IRAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PASSAUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Caetezal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Araucária",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Primavera",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro das Aranhas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rancho Mira-Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Particular Professor Delmar Harry dos Reis",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio do Bananal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Estrada do Mar",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Achaval, F. &amp; Olmos, A. (1997) Anfibios y reptiles del Uruguay. <i>Facultad de Ciencias, Montevideo, UY</i>. 128.",
+          "Aguiar, L.F. &amp; Di-Bernardo, M. (2007) <i>Micrurus altirostris</i> (Southern Coral Snake). Diet. <i>Herpetological Review</i>. 38 (2), 209.",
+          "Bérnils, R.S. (2009) <i>Composição e padrões de distribuição de Caenophidia (Squamata, Serpentes) das Serras Atlânticas e Planaltos do Sudeste da América do Sul</i>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Cacciali, P., Carreira, S., Kacoliris, F., Montero, R., Pelegrin, N. &amp; Giraudo, A. (2019) <i>Micrurus altirostris</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/56039849/56039892\">https://www.iucnredlist.org/species/56039849/56039892</a>. [Acessado em: 29/jan/2026].",
+          "Campbell, J.A. &amp; Lamar, W.W. (2004) <i>The venomous reptiles of the Western Hemisphere</i> Edição Vol. 2 Ithaca, New York, Cornell University Press, 898pp.",
+          "Carreira, V.S. (2002) Alimentación de los ofidios de Uruguay. <i>Asoc. Herp. Esp., Monograf. Herp</i>. 6, 127.",
+          "Getelina, M.A., Santos, G., Busatto, I., Bortoluzzi, C. &amp; Rocha, M.C. (2018) Climbing behaviour in <i>Micrurus altirostris</I> (Cope, 1860) (Serpentes, Elapidae) from an Atlantic rainforest in southern Brazil. <i>Herpetology Notes</i>. 11, 437-439.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Marques, O.A.V., Almeida-Santos, S.M. &amp; Rodrigues, M.G. (2006) Activity Patterns in Coral Snakes, Genus <i>Micrurus</i> (Elapidae), in South and Southeastern Brazil. <i>South American Journal of Herpetology</i>. 1 (2), 114-120.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Oliveira, L., Almeida-Santos, S.M., Costa, A.C.O.R., Scartozzoni, R.R., Germano, V.J. &amp; Salomão, M.G. (2005) Manutenção de Serpentes em Cativeiro no Instituto Butantan: I – A longevidade do Gênero <i>Micrurus</i>. <i>Publicações Avulsas do Instituto Pau Brasil</i>. (8-9), 55-62.",
+          "Outeiral, A.B., Balestrin, R.L., Cappellari, L.H., Lema, T. &amp; Ferreira, V.L. (2018) Snake assemblage from Serra do Sudeste, Pampas Biome, southern Brazil. <i>Herpetology Notes</i>. 11, 733-745.",
+          "Paraná 05/06/2024 <i>Decreto nº 6.040, 5 de junho de 2024. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências.</i>",
+          "Roze, J. (1996) <i>Coral snakes of the Americas. Biology, identification and venoms</i> Edição 1 Florida, Krieger Publishing Company, 328pp.",
+          "Sestren-Bastos, M.C. (2006) Plano de manejo participativo do Parque Natural Morro do Osso. <i>Porto Alegre: Secretaria Municipal do Meio Ambiente</i>.",
+          "Silva Jr., N.J. &amp; Sites, J.W. (1999) Revision of the <i>Micrurus frontalis</i> complex (Serpentes: Elapidae). <i>Herpetological Monographs</i>. 13, 142-194.",
+          "Silva Jr., N.J., Pires, M.G. &amp; Feitosa, D.T. (2016) Diversidade das cobras-corais do Brasil In: Silva Jr. (ed.) <i>As cobras-corais do Brasil: Biologia, Taxonomia, Venenos e Envenenamentos</i>. Edição 1 Goiânia, PUC Goiás, pp. 79-155.",
+          "Wallach, V., Williams, K. L. &amp; Boundy, J. (2014) <i>Snakes of the world: a catalogue of living and extinct species</i> Edição 1 ed. Boca Raton, FL, CRC Press, 1257pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

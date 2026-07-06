@@ -1,0 +1,515 @@
+{
+  "id_ficha": "306d4e50495438754d70414a724d30334758394730673d3d",
+  "nome_cientifico": "Drymoluber brazili (Gomes, 1918)",
+  "nome_cientifico_atual": "Drymoluber brazili (Gomes, 1918)",
+  "nome_comum": "Cobra-Cipó",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28467.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=306d4e50495438754d70414a724d30334758394730673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Drymoluber brazili</i>&nbsp;<span>(Gomes, 1918)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "03/03/2026",
+      "justificative": "<p><em>Drymoluber brazili</em> ocorre no Brasil e no Paraguai. No Brasil, ocorre predominantemente no Cerrado, com alguns registros também na Caatinga, Mata Atlântica, Amazônia e áreas de transição. Embora a espécie seja aparentemente sensível a alterações ambientais, sua distribuição é bastante ampla e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Drymoluber brazili</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Drymoluber brazili</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28467.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28467.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/70526d6a542f6c57345966746f4758494934476f33413d3d/full"
+      },
+      "version": 2,
+      "versionId": 19459,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Colubridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Drymoluber</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Drymoluber brazili</i>"
+        }
+      ],
+      "oldNames": "Drymobius boddaerti, Drymobius brazilii, Drymobius rubriceps",
+      "commonNames": "Cobra-Cipó",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Drymoluber brazili</em> ocorre no Brasil e no Paraguai (Costa <em>et al.,</em> 2013; Costa <em>et al., </em>2016; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>A espécie possui ampla distribuição no Brasil, habitando principalmente o Cerrado, com registros adicionais na Caatinga, Mata Atlântica e seus ecótonos com Cerrado (Rodrigues, 1996; Lehr <em>et al.,</em> 2004; França &amp; Araújo, 2006, 2007; Costa, 2010; Guedes <em>et al</em>., 2014; Nogueira <em>et al</em>., 2019). Registros na Mata Atlântica, em Colatina, Baixo Guandú (Espírito Santo) e Aimorés (Minas Gerais) sugerem populações relictuais habitando o baixo rio Doce, uma região relativamente árida e com notável ocorrência de afloramentos rochosos que lembram ambientes de Caatinga (Costa <em>et al</em>., 2013).</p>",
+      "states": "Amazonas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraíba, Piauí, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Jequitinhonha, Sub-bacia Litoral CE PI, Sub-bacia Madeira, Sub-bacia Paraguai 01, Sub-bacia Paraguai 03, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Médio, Sub-bacia Piranhas, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/49672f56676d5444647665575a5534704b4c524d36772b636f416d30324632344e3569444f6837595a5a626f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Drymoluber brazili",
+        "diskFileName": "a748f0ee1abbcc81d86c691680ba207a.png",
+        "fileName": "Mapa de Drymoluber brazili.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Drymoluber brazili</em> habita ambientes abertos e parece ser sensível a alterações no habitat. Há registros de ocupação de térmitas, comportamento comum em serpentes do Cerrado. Possui atividade diurna e é provavelmente terrícola, embora um espécime cativo tenha sido observado empoleirado. Lagartos Gymnophthalmidae são as principais presas, embora haja citação de que também se alimente de pequenos anfíbios (Costa <em>et al</em>., 2013). A longa cauda é utilizada durante a defesa em comportamento de pseudoautotomia (Costa <em>et al.,</em> 2013). Quanto a aspectos reprodutivos, o tamanho da prole é menor que 5 ovos (Costa <em>et al</em>., 2013).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Drymoluber brazili</em> foi beneficiada pelo Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil, de acordo com Portaria nº 48 de 6 de outubro de 2015 (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2020,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Cacciali & Scott, 2020",
+              "title": "Cacciali, P. &amp; Scott, N. (2020) <i>Drymoluber brazili</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/44580203/44580212\">https://www.iucnredlist.org/species/44580203/44580212</a>. [Acessado em: 24/fev/2026]."
+            }
+          ],
+          "orderBy": "Y2020"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Espírito Santo",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IEMA, 2022",
+              "title": "IEMA 28/10/2022 <i>Instituto Estadual de Meio Ambiente e Recursos Hídricos. Decreto Nº 5237-R, de 25 de novembro de 2022. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2018",
+              "title": "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA, 2017",
+              "title": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 1998",
+              "title": "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2015",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Veadeiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Teixeira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Emas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JATAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL GRUTAS DOS BREJÕES / VEREDAS DO ROMÃO GRAMACHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "A.J.S. Argolo, com. pess., com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PALMAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lehr <i>et al.</i>, 2004",
+              "title": "New species of <i>Drymoluber</i> (Reptilia: Squamata: Colubridae) from Southeastern Peru"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cacciali, P. &amp; Scott, N. (2020) <i>Drymoluber brazili</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/44580203/44580212\">https://www.iucnredlist.org/species/44580203/44580212</a>. [Acessado em: 24/fev/2026].",
+          "Costa, H.C. (2010) <i>Revisão Taxonômica de <i>Drymoluber</i> Amaral, 1930 (Serpentes, Colubridae).</i> Tese de Doutorado. Universidade Federal de Viçosa. Viçosa. 84pp.",
+          "Costa, H.C., Moura, M.R. &amp; Feio, R.N. (2013) Taxonomic revision of <I>Drymoluber</i> Amaral, 1930 (Serpentes: Colubridae). <i>Zootaxa</i>. 3716 (3), 349-394.",
+          "Costa, H.C., São-Pedro, V.A. &amp; Silva, D.P. (2016) Climatically suitable habitats under current and future scenarios for a potentially threatened snake. <i>Neotropical Biology and Conservation</i>. 11 (1), 13-2.",
+          "França, F.G.R. &amp; Araújo, A.F.B. (2006) The conservation status of snakes in central Brazil. <i>South American Journal of Herpetology</i>. 1 (1), 25-36.",
+          "França, F.G.R. &amp; Araújo, A.F.B. (2007) Are there co-occurrence patterns that structure snake communities in Central Brazil?. <i>Brazilian Journal of Biology</i>. 67 (1), 33-40.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Guedes, T.B., Nogueira, C. &amp; Marques, O.A.V. (2014) Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <i>Zootaxa</i>. 3863, 1-93.",
+          "IEMA 28/10/2022 <i>Instituto Estadual de Meio Ambiente e Recursos Hídricos. Decreto Nº 5237-R, de 25 de novembro de 2022. Declara as espécies de fauna ameaçadas de extinção no Estado do Espirito Santo e dá outras providências.</i>",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "Lehr, E., Carrillo, N. &amp; Hoocking, P. (2004) New species of <i>Drymoluber</i> (Reptilia: Squamata: Colubridae) from Southeastern Peru. <i>Copeia</i>. 2004 (1), 46-52.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Rodrigues, M.T. (1996) Lizards, snakes, and amphisbaenians from the quaternary sand dunes of the middle Rio São Francisco, Bahia, Brazil. <i>Journal of Herpetology</i>. 30 (4), 513-523.",
+          "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>",
+          "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

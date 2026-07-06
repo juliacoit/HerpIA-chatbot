@@ -1,0 +1,391 @@
+{
+  "id_ficha": "337042656e704f4e506a3457495772427742534c72773d3d",
+  "nome_cientifico": "Boana fasciata (Günther, 1858)",
+  "nome_cientifico_atual": "Boana fasciata (Günther, 1858)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19117.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=337042656e704f4e506a3457495772427742534c72773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Boana fasciata</i>&nbsp;<span>(Günther, 1858)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Boana fasciata </em>ocorre na América do Sul, com registros na Bolívia, Brasil, Colômbia, Equador, Guiana Francesa, Guiana, Peru e Suriname. No Brasil, possui ampla distribuição na Amazônia, é comum e abundante. Ocorre em áreas florestadas de terras baixas e também montanhosas, principalmente ao redor de poças temporárias. Não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Boana fasciata </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Boana fasciata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19117.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19117.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15407,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Boana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Boana fasciata</i>"
+        }
+      ],
+      "oldNames": "Hyla fasciata, Hypsiboas fasciatus",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Em revisão taxonômica, Caminer &amp; Ron (2014) separam algumas espécies do complexo <em>B. fasciata</em> na região amazônica fora do Brasil. A situação das populações brasileiras ainda não é clara, sendo possível que haja mais de uma espécie (M. Hoogmoed, com. pess., 2018). Nesta avaliação <em>Boana fasciata</em> foi considerada uma unidade taxonômica.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Boana fasciata </em>ocorre na América do Sul, sendo conhecida para a Bolívia, Brasil, Colômbia, Equador, Guiana Francesa, Guiana, Peru e Suriname (Icochea <em>et al., </em>2004; Caminer &amp; Ron, 2014).</p>",
+      "nationalDistribution": "<p>No Brasil, ocorre em toda bacia do alto rio Amazonas (Souza, 2009) incluindo os estados do Amazonas, Pará, Amapá, Acre, Rondônia e Mato Grosso (Bernarde <em>et al., </em>2011; Ávila &amp; Kawashita-Ribeiro, 2012; Pantoja &amp; Fraga, 2012).</p>",
+      "states": "Acre, Amapá, Amazonas, Mato Grosso, Pará, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Paru, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6c7372574a4e43346e6e50497663736c786b6965626430706947466244766f5158532b424c2f4a452b64684b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Boana fasciata",
+        "diskFileName": "151ba5eafc2b8e7d439c73903eb675d2.png",
+        "fileName": "Mapa de Boana fasciata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Boana fasciata </em>é noturna, encontrada em florestas de terras baixas e florestas montanas no bioma Amazônia, principalmente ao redor de poças temporárias formadas na estação chuvosa (Rodríguez &amp; Duellman, 1994). Os ovos são depositados na água, onde os girinos se desenvolvem (Icochea <em>et al., </em>2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>É uma espécie comum (Icochea <em>et al., </em>2004) e sua população aparentemente encontra-se estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora haja perda de vegetação nativa em alguns locais na área de sua distribuição, não há ameaças evidentes que possam levar a espécie em risco de extinção, pois é comum e tem ampla distribuição no país.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização da espécie. </p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Icochea <i>et al.</i>, 2004",
+              "title": "Icochea, J., Coloma, L.A. &amp; Ron, S. (2004) <i>Hypsiboas fasciatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55480A11303722.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55480A11303722.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ESEC da Terra do Meio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Mulata",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Guaporé",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA DE MAICURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL CUJUBIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA RIO PACAÁS NOVOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Kararaô",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Massaco",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Trincheira Bacaja",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Splink, 2018",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bernarde, P.S.; Machado, R.A. &amp; Turci, L.C.B. 2011. Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <b>Biota Neotrópica</b>, 11 (3): p.117-144.",
+          "Caminer, M.A. &amp; Ron, S.R., 2014. Systematics of treefrogs of the <i>Hypsiboas calcaratus</i> and <i>Hypsiboas fasciatus</i> species complex (Anura, Hylidae) with the description of four new species. ZooKeys, 370: p.1-68.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Icochea, J.; Coloma, L.A. &amp; Ron, S., 2004. <i>Hypsiboas fasciatus</i>. The IUCN Red List of Threatened Species 2004: e.T55480A11303722, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55480A11303722.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55480A11303722.en</a>.",
+          "Pantoja, D.L. &amp; Fraga, R. 2012. Herpetofauna of the Reserva Extrativista do Rio Gregório, Juruá Basin, southwest Amazonia, Brazil. <b>Check List</b>, 8 (3): p.362-374.",
+          "Rodríguez, L.O. &amp; Duellman, W.E. 1994. <b>Guide to the frogs of the Iquitos region, Amazonian Peru</b>. Asocacion de Ecologia y Conservacion, Amazon Center for Environmental Education and Research and Natural History Museum, The University of Kansas Lawrence, Kansas.",
+          "Souza, M.B. 2009. <b>Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais</b>. p.77. Instituto de Filosofia e Ciências Humanas - IFCH Unicamp Campinas, SP.",
+          "Ávila, R.W. &amp; Kawashita-Ribeiro, R.A. 2011. Herpetofauna of São João da Barra Hydroelectric Plant, state of Mato Grosso, Brazil. <b>Check List</b>, 7 (6): p.750-755."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

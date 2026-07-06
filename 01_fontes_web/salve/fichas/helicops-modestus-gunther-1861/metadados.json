@@ -1,0 +1,766 @@
+{
+  "id_ficha": "45445842305a676a4f425a4a6251677664466e6d50773d3d",
+  "nome_cientifico": "Helicops modestus Günther, 1861",
+  "nome_cientifico_atual": "Helicops modestus Günther, 1861",
+  "nome_comum": "Cobra-d’água",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.29597.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=45445842305a676a4f425a4a6251677664466e6d50773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Helicops modestus</i>&nbsp;<span>Günther, 1861</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Helicops modestus </em>é endêmica do Brasil, ocorrendo predominantemente no Cerrado, mas com registros também na Mata Atlântica da região Sudeste. Embora pareça ser localmente rara, a espécie possui ampla distribuição e não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Por esses motivos, <em>Helicops modestus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Helicops modestus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.29597.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.29597.2",
+      "photo": {
+        "authorName": "Marco Antônio de Freitas",
+        "authorEmail": "philodryas@hotmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "5b9e466add707581f29f3eae5e87bddc.jpg",
+        "fileName": "Helicops modestus by Marco Freitas.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4467374332474b4c324b566859427335545637566c584b544562414a7a744a50346a59334e2b6759303139743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 2,
+      "versionId": 19804,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Helicops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Helicops modestus</i>"
+        }
+      ],
+      "oldNames": "Helicops assimilis, Tachyplotus hedemanni",
+      "commonNames": "Cobra-d’água",
+      "taxonomicNotes": "<p>Os registros de <em>Helicops modestus </em>no Pará, na região do rio Xingu (Vaz-Silva <em>et al</em>., 2015), e no Paraná (Nunes, 2006; Shibatta <em>et al</em>., 2009) são erros de identificação.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Helicops modestus </em>é endêmica do Brasil, com registros de ocorrência no Cerrado das regiões Sudeste e Centro-Oeste e na Mata Atlântica da região Sudeste (Silva &amp; Sites, 1995; Frota, 2005; França &amp; Araújo, 2006; Marques <em>et al</em>., 2009; Nogueira <em>et al</em>., 2019). </p>",
+      "nationalDistribution": "",
+      "states": "Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Litoral RJ SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/475a757a74356343582f576e4775666a6e7166397841524363526b6536754936596e36666b36787a6439726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "54d34c1e61b3dc5233c984e7cc26aa28.png",
+        "fileName": "Mapa de Helicops modestus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Helicops modestus </em>é aquática e noturna (Sazima &amp; Manzini, 1995; França &amp; Araújo, 2006), encontrada em veredas e florestas de galeria do Cerrado (Silva &amp; Sites, 1995; França &amp; Araújo, 2006; Sawaya <em>et al.,</em> 2008). A espécie é vivípara e apresenta ciclo reprodutivo sazonal, com folículos vitelogênicos e embriões ocorrendo principalmente entre setembro e março e fecundidade entre dois e 45 filhotes (Albolea, 1998; Lopes &amp; Abe, 1981; Picchi, 2001; Sawaya <em>et al.,</em> 2008). Alimenta-se de peixes (inclusive já mortos) e anfíbios (Sazima &amp; Manzini, 1995; Sazima &amp; Strüssmann, 1990; França &amp; Araújo, 2006; Scartozzoni, 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p><em>Helicops modestus </em>é encontrada em ambientes aquáticos lênticos, como lagoas, rios, represas e veredas, no Cerrado e em seu contado com a Mata Atlântica (Silva &amp; Sites, 1995; França &amp; Araújo, 2006; Sawaya <em>et al.,</em> 2008).</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é considerada rara no Distrito Federal, no município de São Paulo e na Estação Ecológica de Itirapina (França &amp; Araújo, 2006; Barbo <em>et al</em>., 2011; Sawaya <em>et al</em>., 2008).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ação específica para a conservação da espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Strüssmann , C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Kawashita-Ribeiro, R.A., Sawaya, R.J. &amp; Costa, T.B.G. (2019) <i>Helicops modestus</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15178878A123739797.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15178878A123739797.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio Paraíba do Sul",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Frota, 2005",
+              "title": "Nova espécie de <i>Helicops</i> Wagler, 1830 (Serpentes, Colubridae) do rio Tapajós, Amazônia, Brasil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Bacia do Rio São Bartolomeu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Carste da Lagoa Santa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "França & Araújo, 2007",
+              "title": "Are there co-occurrence patterns that structure snake communities in Central Brazil?"
+            }
+          ]
+        },
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Ipanema ",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "França & Araújo, 2007",
+              "title": "Are there co-occurrence patterns that structure snake communities in Central Brazil?"
+            }
+          ]
+        },
+        {
+          "name": "APA CAJAMAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAÍ BOTUCATU TEJUPA PERIMETRO BOTUCATU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            },
+            {
+              "label": "França & Araújo, 2007",
+              "title": "Are there co-occurrence patterns that structure snake communities in Central Brazil?"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA RIO BATALHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "APA VáRZEA DO RIO TIETê",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEçãO AMBIENTAL DE CAMPINAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sazima & Strüssmann, 1990",
+              "title": "Necrofagia em serpentes brasileira: Exemplos e previsões"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ÁGUAS EMENDADAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "França & Araújo, 2007",
+              "title": "Are there co-occurrence patterns that structure snake communities in Central Brazil?"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO JARDIM BOTÂNICO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JATAÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA HIDROGRÁFICA DO RIO MACHADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTRADA PARQUE DE PIRAPUTANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL FERNÃO DIAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL VARGEM DAS FLORES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Amadeu Botelho",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva da Cachoeira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio dos Pilões",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Capuavinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Pithon",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Raio Solar",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Scartozoni, 2009",
+              "title": "Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Albolea, A.B.P. 1998. <b>Padrões de atividade em serpentes não peçonhentas de interesse médico: <i>Helicops modestus</i> (Colubridae: Xenodontinae) e <i>Liophis miliaris</i> (Colubridae: Xenodontinae) e sua relação com a epidemiologia</b>. Dissertação de Mestrado. Universidade de Guarulhos, São Paulo, Brazil - Tese de Mestrado. Guarulho/SP.",
+          "Barbo, F.E.; Marques, O.A.V. &amp; Sawaya, R.J. 2011. Diversity, natural history, and distribution of snakes in the municipality of São Paulo. <b>South American Journal of Herpetology</b>, 6 (3): p.135-160.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "França, F.G.R. &amp; Araújo, A.F.B. 2006. The conservation status of snakes in central Brazil. <b>South American Journal of Herpetology</b>, 1 (1): p.25-36.",
+          "Frota, J.G. 2005. Nova espécie de <i>Helicops</i> Wagler, 1830 (Serpentes, Colubridae) do rio Tapajós, Amazônia, Brasil. <b>Phyllomedusa</b>, 4 (1): p.61-68.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lopes, H.R. &amp; Abe, A.S. 1981. Aspectos da biologia reprodutiva em fêmeas de <i>Helicops modestus</i> (Serpentes Colubridae). <i>In</i>: VIII Congresso Brasileiro de Zoologia.<i>In</i>: <b>Resumos das Comunicações Científicas do VIII Congresso Brasileiro de Zoologia</b>. Brasília/DF. (Resumo)",
+          "Marques, O.A.V.; Pereira, D.N.; Barbo, F.E.; Germano, J.V. &amp; Sawaya, R.J. 2009. Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <b>Biota Neotropica</b>, 9 (2): p.139-150.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Nunes, P.M.S. 2006. <b>Filogenia da tribo Hydropsini baseada em caracteres morfológicos (Serpentes: Xenodontinae)</b>. Dissertação de Mestrado. Instituto de Biociências, Universidade de São Paulo, São Paulo. São Paulo.",
+          "Picchi, S.H.A. 2001. <b>Estudo antômico-topográfico e análise da biologia reprodutiva de <i>Helicops modestus</i> Günther 1861 (Colubridae Xenodontini)</b>. Dissertação de Mestrado. Universidade de São Paulo.",
+          "Sawaya, R.J.; Marques, O.A.V. &amp; Martins, M. 2008. Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil. <b>Biota Neotropica</b>, 8 (2): p.127-149.",
+          "Sazima, C. &amp; Strüssmann, I. 1990. Necrofagia em serpentes brasileira: Exemplos e previsões. <b>Revista Brasileira de Biologia</b>, 50 (2): p.463-468.",
+          "Sazima, I. &amp; Manzani, P.R. 1995. As cobras que vivem numa reserva florestal urbana. p.78-119. <i>In</i>: Morellato & Leitão Filho. <b>Ecologia e preservação de uma Floresta Tropical Urbana</b>. Unicamp",
+          "Scartozoni, R.R. 2009. <b>Estratégias reprodutivas e ecologia alimentar de serpentes aquáticas da tribo Hydropsini (Dipsadidae, Xenodontinae)</b>. Tese de Doutorado. (Catálogo USP) - Interunidades em Biotecnologia/ USP. São Paulo.",
+          "Shibatta, O.A.; Galves, W.; Carmo, W.P.D.; Lima, I.P.; Lopes, E.V. &amp; Machado, R.A. 2009. A fauna de vertebrados do campus da Universidade Estadual de Londrina, região norte do estado do Paraná, Brasil. <b>Semina: Ciências Biológicas e da Saúde</b>, 30 (1): p.3-26.",
+          "Silva, N.J. &amp; Sites, J. 1995. Patterns of diversity of neotropical squamate reptile species with emphasis on the Brazilian Amazon and the conservation potential of indigenous reserves. <b>Conservation Biology</b>, 9 (4): p.873-901.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Strüssmann , C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Kawashita-Ribeiro, R.A.; Sawaya, R.J. &amp; Costa, T.B.G. 2019. <i>Helicops modestus</I>. <b>The IUCN Red List of Threatened Species 2019: e.T15178878A123739797</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15178878A123739797.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15178878A123739797.en</a>.",
+          "Vaz-Silva, W.; Oliveira, R.M.; Gonzaga, A.F.N.; Pinto, K.C.; Poli, F.C.; Bilce, T.M.; Penhacek, M.; Wronski, L.; Martins, J.X.; Junqueira, T.G.; Cesca, L.C.C.; Guimarães, V.Y. &amp; Pinheiro, R.D. 2015. Contributions to the knowledge of amphibians and reptiles from Volta Grande do Xingu, northern Brazil. <b>Brazilian Journal of Biology</b>, 75 (3): p.205-218."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

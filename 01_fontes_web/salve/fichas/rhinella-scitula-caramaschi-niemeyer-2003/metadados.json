@@ -1,0 +1,351 @@
+{
+  "id_ficha": "34535a467370664839314e5a395755506436725978413d3d",
+  "nome_cientifico": "Rhinella scitula (Caramaschi & Niemeyer, 2003)",
+  "nome_cientifico_atual": "Rhinella scitula (Caramaschi & Niemeyer, 2003)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21508.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=34535a467370664839314e5a395755506436725978413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella scitula</i>&nbsp;<span>(Caramaschi & Niemeyer, 2003)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Rhinella scitula </em>ocorre no Brasil e Paraguai. No Brasil, ocorre predominantemente no bioma Cerrado e possui registros de ocorrência somente para o estado de Mato Grosso do Sul. A espécie habita matas ciliares densas ou afloramentos rochosos e nascentes com predominância de gramíneas. Embora aparentemente seja exigente quanto às condições ambientais, não suportando ambientes antropizados, sua distribuição é relativamente ampla e não há evidências de ameaças que possam colocá-la em risco de extinção. Além disso, ocorre em unidades de conservação, inclusive federal de proteção integral. Por essas razões, <em>Rhinella scitula </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Rhinella scitula</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21508.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21508.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16552,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella scitula</i>"
+        }
+      ],
+      "oldNames": "Bufo scitulus",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Recentemente, <em>Rhinella paraguayensis </em>foi sinonimizada com <em>R. scitula </em>(Pereyra <em>et al</em>., 2021). No entanto, essa mudança taxonômica não foi incorporada nesta avaliação.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Rhinella scitula</em> ocorre no Brasil e no Paraguai (Caramaschi &amp; Niemeyer, 2003; Brusquetti &amp; Lavilla, 2006; Sugai <em>et al</em>., 2014).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência no estado do Mato Grosso do Sul, sendo o município de Bonito sua localidade tipo (Caramaschi &amp; Niemeyer, 2003; Maragno &amp; Souza, 2007; Uetanabaro <em>et al</em>., 2007; Maragno, 2008; Ávila <em>et al</em>., 2010; Sugai <em>et al</em>., 2014). </p>",
+      "states": "Mato Grosso do Sul",
+      "biomes": "Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Paraná RH1",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/79743376674c5a68353133392b4a56504c6d34594378316766436a6276386c73684543636b6b4c7a364b417644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "9d36227fed2782e5e91fa631b90c5a28.png",
+        "fileName": "Mapa de Rhinella scitula.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Rhinella scitula</em> habita riachos com matas de galeria bem preservada (Maragno &amp; Souza, 2007; Maragno, 2008). No Parque Nacional Serra da Bodoquena, foi encontrada em floresta estacional semidecidual aluvial (Uetanabaro <em>et al</em>., 2007). Utiliza as margens dos riachos para a desova e consome presas em locais úmidos da mata (Maragno, 2008). Estas características ecológicas sugerem que a espécie seja exigente quanto às condições ambientais, estando presente em áreas mais restritas, como nascentes com predominância de gramíneas, formação ciliar florestada ou afloramentos rochosos (Uetanabaro <em>et al</em>., 2007), podendo não suportar áreas abertas onde as condições são mais extremas (Maragno, 2008).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A população desta espécie é sazonalmente abundante (Caramaschi, 2004). Foi uma das espécies mais comuns e abundantes no Parque Nacional da Serra da Bodoquena (Uetanabaro <em>et al.,</em> 2007). </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam colocar a espécie em risco de extinção a curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caramaschi, 2004",
+              "title": "Caramaschi, U. (2004) <i>Rhinella scitula</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54756A11200283.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54756A11200283.en</a>. [Acessado em: 01/jun/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC da Serra das Araras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "C. Strüssmann, com. pess., 2012",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bodoquena",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sugai <i>et al.</i>, 2014",
+              "title": "<I>Rhinella scitula</i> (Caramaschi & Niemeyer, 2003) (Amphibia: Anura: Bufonidae): New distribution records"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pantanal Mato-grossense",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "C. Strüssmann, com. pess., 2012",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Ávila <i>et al.</i>, 2010",
+              "title": "A new species of the <I>Rhinella margaritifera</i> group (Anura: Bufonidae) from Brazilian Pantanal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTRADA PARQUE DE PIRAPUTANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sugai <i>et al.</i>, 2014",
+              "title": "<I>Rhinella scitula</i> (Caramaschi & Niemeyer, 2003) (Amphibia: Anura: Bufonidae): New distribution records"
+            },
+            {
+              "label": "Maragno & Souza, 2007",
+              "title": "Geographic distribution: <I>Rhinella scitula</i>"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda América",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Caramaschi, 2004",
+              "title": "<i>Rhinella scitula</i>"
+            }
+          ]
+        },
+        {
+          "name": "Kadiwéu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Maragno, 2008",
+              "title": "Uso do microhabitat e dieta de <I>Rhinella scitula</i> (anura, bufonidae) no Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre o estado populacional e exigências ecológicas são necessárias (Caramaschi, 2004).</p>",
+      "table": [
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Brusquetti, F. &amp; Lavilla, E.O. 2006. Lista comentada de los anfibios de Paraguay. <b>Cuadernos de Herpetología</b>, 20 (2): p.3-79.",
+          "Caramaschi, U. &amp; Niemeyer, H. 2003. Nova espécie do complexo de <i>Bufo margaritifer</i> (Laurenti, 1768) do estado do Mato Grosso do Sul, Brasil (Amphibia, Anura, Bufonidae). <b>Boletim do Museu Nacional. Nova Serie, Zoologia</b>, 501: p.1-16.",
+          "Caramaschi, U. 2004. <i>Rhinella scitula</i>. <b>The IUCN Red List of Threatened Species 2004: e.T54756A11200283</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54756A11200283.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54756A11200283.en</a>. Acessado em: 01/06/2011.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Maragno, F.P. &amp; Souza, F.L. 2007. Geographic distribution: <I>Rhinella scitula</i>. <b>Herpetological Review</b>, 38 (2): p.216.",
+          "Maragno, F.P. 2008. <b>Uso do microhabitat e dieta de <I>Rhinella scitula</i> (anura, bufonidae) no Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul</b>. Dissertação de Mestrado. Universidade Federal do Mato Grosso do Sul. Campo Grande.",
+          "Pereyra, M.O.; Blotto, B.L.; Baldo, D.; Chaparro, J.C.; Ron, S.R.; Elias-Costa, A.J.; Iglesias, P.P.; Venegas, P.J.; Thomé, M.T.C.; Ospina-Sarria, J.J.; Maciel, N.M.; Rada, M.; Kolenc, F.; Borteiro, C.; Rivera-Correa, M.; Rojas-Runjaic, F.J.M.; Moravec, J.; De la Riva, I.; Wheeler, W.C.; Castroviejo-Fisher, S.; Grant, T.; Haddad, C.F.B. &amp; Faivovich, J. 2021. Evolution in the genus <i>Rhinella</i>: A total evidence phylogenetic analysis of Neotropical True Toads (Anura: Bufonidae). <b>Bulletin of the American Museum of Natural History 447:1-156</b>. Disponível em: <a target=\"_blank\" href=\"http://digitallibrary.amnh.org/handle/2246/7261\">http://digitallibrary.amnh.org/handle/2246/7261</a>.",
+          "Sugai, J.L.M.M.; Souza, F.L.; Filho-Landgref, P. &amp; Sczesny-Moraes, E.A. 2014. <I>Rhinella scitula</i> (Caramaschi & Niemeyer, 2003) (Amphibia: Anura: Bufonidae): New distribution records. <b>Check List</b>, 10 (3): p.694-696.",
+          "Uetenabaro, M.; Souza, F.L.; Landgref-Filho, P.; Beda, A.F. &amp; Brandão, R.A. 2007. Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil. <b>Biota Neotropica</b>, 7 (3): p.279-289.",
+          "Ávila, R.W.; Pansonato, A. &amp; Strüssmann, C. 2010. A new species of the <I>Rhinella margaritifera</i> group (Anura: Bufonidae) from Brazilian Pantanal. <b>Zootaxa</b>, 2339: p.57-68."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

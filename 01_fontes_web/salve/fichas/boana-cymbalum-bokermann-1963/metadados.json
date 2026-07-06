@@ -1,0 +1,383 @@
+{
+  "id_ficha": "516846657361636a5968486b50394e4f364f6c7070773d3d",
+  "nome_cientifico": "Boana cymbalum (Bokermann, 1963)",
+  "nome_cientifico_atual": "Boana cymbalum (Bokermann, 1963)",
+  "nome_comum": "Perereca-gladiadora-de-sino",
+  "grupo": "Anfíbios",
+  "categoria_risco": "EX",
+  "categoria_risco_completa": "Extinta (EX)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21789",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=516846657361636a5968486b50394e4f364f6c7070773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Boana cymbalum</i>&nbsp;<span>(Bokermann, 1963)</span>",
+      "category": "Extinta (EX)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "07/10/2021",
+      "justificative": "<p><em>Boana cymbalum</em> era endêmica do Brasil, do bioma Mata Atlântica. A espécie era conhecida apenas de duas localidades no estado de São Paulo, uma na Estação Ferroviária de Campo Grande (Serra de Paranapiacaba), no município de Santo André (localidade-tipo), e outro da Vila Nova Manchester, no município de São Paulo. O local desse último registro foi transformado em estacionamento. Embora de grande porte e com vocalização muito característica, a espécie não é registrada desde 1962, apesar de dezenas de expedições terem sido realizadas nos últimos anos na região da localidade-tipo, por diferentes pesquisadores experientes. Por essas razões, <em>Boana cymbalum</em> foi avaliada como Extinta (EX).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2021. <i>Boana cymbalum</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21789 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21789",
+      "photo": {},
+      "version": 2,
+      "versionId": 16641,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2021",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Boana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Boana cymbalum</i>"
+        }
+      ],
+      "oldNames": "Hyla cymbalum, Hypsiboas cymbalum",
+      "commonNames": "Perereca-gladiadora-de-sino",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p><em>Boana cymbalum </em>é morfologicamente muito semelhante à <em>Boana prasina</em>, que ocorre na mesma região, diferenciando-se pelo padrão reticulado das manchas nas áreas internas das coxas e flancos e pela vocalização semelhante ao tilintar de sinos (Garcia <em>et al., </em>2009).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Boana cymbalum</em> era endêmica do Brasil, conhecida de dois registros no estado de São Paulo, um na Estação Ferroviária de Campo Grande, na Serra de Paranapiacaba, município de Santo André (localidade-tipo) (Bokermann, 1963), e outro na Vila Nova Manchester, no município de São Paulo (Garcia <em>et al., </em>2009).</p>",
+      "nationalDistribution": "",
+      "states": "São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/42716a366d6d4150634c3249756141364445453757302f70556d57362b48586d5a73434963374c6d3664354b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Boana cymbalum",
+        "diskFileName": "2bf9052c0a79d5e5bb6d09975d467a1c.png",
+        "fileName": "Mapa de Boana cymbalum.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>Os registos da espécie são em áreas abertas com vegetação de gramíneas, no bioma Mata Atlântica. Machos vocalizavam a partir de matas ilhadas nas margens de riachos, tanto de dia como de noite (Bokermann, 1963; Garcia <em>et al.,</em> 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Boana cymbalum</em> é conhecida apenas de quatro exemplares coletados no início da década de 1960 (três da série-tipo, coletados nas imediações da Estação Ferroviária de Campo Grande, no município de Santo André, e um coletado na Vila Nova Manchester, no município de São Paulo) e nunca mais foi encontrada (Garcia <em>et al.,</em> 2009). Apesar do grande porte e da vocalização de volume alto e muito característica, novos exemplares da espécie não são registrados desde 1962, mesmo com a realização de dezenas de expedições na região da localidade-tipo por diferentes pesquisadores experientes (exemplos: Werner C. A. Bokermann, Adão José Cardoso, Célio F. B. Haddad, Paulo C. A. Garcia e José P. Pombal Jr.). Acredita-se que esteja extinta.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>O ambiente original da espécie foi altamente afetado pelo crescimento urbano (Garcia <em>et al.,</em> 2009), e uma das duas localidades onde ocorria foi transformada em estacionamento (P.C. Garcia, com. pess., 2017). A localidade-tipo, no município de Santo André, situa-se na Serra da Mantiqueira próximo ao município de Cubatão, que sofreu em tempos recentes com a intensa poluição industrial. Além disso, houve perda de área florestal, tanto como decorrência da poluição como por desmatamento ao longo de muitos anos, que ainda persiste. Outras hipóteses para o declínio de anfíbios após o final da década de 1970 na Mata Atlântica são a chegada de um novo genótipo de quitrídio (<em>Batrachochytrium dendrobatidis</em>) mais virulento, o aumento da virulência de uma cepa local, ou, ainda, um efeito sinérgico entre as mudanças climáticas, alterações e poluição do hábitat (Carvalho <em>et al., </em>2017). </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.8 - Doenças de causas desconhecidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Boana cymbalum</em> foi espécie-alvo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015), quando ainda não era reconhecida como extinta.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "A2a; B1ac(iv)",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C. F. B., Segalla, M. V., Bataus, Y. S. L., Uhlig, V. M., Batista, F. R. Q., Garda, A., Hudson, A. A., Cruz, C. A. G., Strüsmann, C., Brasileiro, C. A., Silvano, D. L., Nomura, F., Pinto, H. B. A., Amaral, I. B., Gasparini, J. L. R., Lima, L. P., Martins, M. R. C., Hoogmoed, M. S., Colombo, P., Valdujo, P. H., Garcia, P. C. A., Feio, R. N., Brandão, R. A., Bastos, R. P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de Hypsiboas cymbalum (Bokerman, 1963). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7505-anfibios-hypsiboas-cymbalum.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7505-anfibios-hypsiboas-cymbalum.html.</a>."
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2008",
+              "title": "Machado, A. B. M., Drummond, G. M. &amp; Paglia, A. P. (2008) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília & Belo Horizonte, Ministério do Meio Ambiente/Fundação Biodiversitas, 1420pp."
+            },
+            {
+              "label": "MMA, 2003",
+              "title": "MMA 26/05/2003 <i>Instrução Normativa n° 003, de 26 de maio de 2003. Lista das Espécies da Fauna Brasileira Ameaçadas de Extinção</i>."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)+2ab(iii)",
+          "refBibs": [
+            {
+              "label": "Garcia & Rodrigues, 2003",
+              "title": "Garcia, P. &amp; Rodrigues, M.T. (2003) <i>Hypsiboas cymbalum</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55461A11300769.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55461A11300769.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Regionalmente Extinta (RE)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            },
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Ameaçada (AMEACADA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bokermann, W. C. A., 1963. Una nueva especie de <i>Hyla</I> del sudeste Brasileño. Neotropica. La Plata, 9: p.27-30.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho, T.; Becker, C.G. &amp; Toledo, L.F. 2017. Historical amphibian declines and extinctions in Brazil linked to chytridiomycosis. <b>Proceedings of the Royal Society B: Biological Sciences</b>, 284 (1848): p.20162254.",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Estado de São Paulo 27/11/2018. Decreto nº 63.853, de 27 de novembro de 2018: Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html</a>. Acessado em: 22/07/2022.",
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "Garcia, P. &amp; Rodrigues, M.T., 2003. <i>Hypsiboas cymbalum</i>. The IUCN Red List of Threatened Species 2004: e.T55461A11300769, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55461A11300769.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55461A11300769.en</a>.",
+          "Haddad, C. F. B.; Segalla, M. V.; Bataus, Y. S. L.; Uhlig, V. M.; Batista, F. R. Q.; Garda, A.; Hudson, A. A.; Cruz, C. A. G.; Strüsmann, C.; Brasileiro, C. A.; Silvano, D. L.; Nomura, F.; Pinto, H. B. A.; Amaral, I. B.; Gasparini, J. L. R.; Lima, L. P.; Martins, M. R. C.; Hoogmoed, M. S.; Colombo, P.; Valdujo, P. H.; Garcia, P. C. A.; Feio, R. N.; Brandão, R. A.; Bastos, R. P. &amp; Caramaschi, U., 2016. Avaliação do Risco de Extinção de Hypsiboas cymbalum (Bokerman, 1963). Processo de avaliação do risco de extinção da fauna brasileira. ICMBio, Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7505-anfibios-hypsiboas-cymbalum.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7505-anfibios-hypsiboas-cymbalum.html.</a>.",
+          "ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade) 2018. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume V - Anfíbios. p.128. <i>In</i>: Instituto Chico Mendes de Conservação & da Biodiversidade (Org.). <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. ICMBio Brasília.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "MMA 26/05/2003. Instrução Normativa n° 003, de 26 de maio de 2003. Lista das Espécies da Fauna Brasileira Ameaçadas de Extinção. p.21. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2003/in_mma_03_2003_especiesfaunabrasileiraameacadasextincao.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2003/in_mma_03_2003_especiesfaunabrasileiraameacadasextincao.pdf</a>. Acessado em: 01/03/2013.",
+          "Machado, A.B.M.; Drummond, G.M. &amp; Paglia, A.P. 2008. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. p.1420. Ministério do Meio Ambiente/Fundação Biodiversitas Brasília & Belo Horizonte."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

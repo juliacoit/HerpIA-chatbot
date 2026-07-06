@@ -1,0 +1,335 @@
+{
+  "id_ficha": "456261482f624a724175642b434a666a486f2f3872773d3d",
+  "nome_cientifico": "Cycloramphus duseni (Andersson, 1914)",
+  "nome_cientifico_atual": "Cycloramphus duseni (Andersson, 1914)",
+  "nome_comum": "Rã-da-cachoeira",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16233",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=456261482f624a724175642b434a666a486f2f3872773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Cycloramphus duseni</i>&nbsp;<span>(Andersson, 1914)</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Cycloramphus duseni</em> é endêmica do Brasil, com registro conhecido apenas para a localidade-tipo, Casa do Ypiranga da estrada de ferro Curitiba-Paranaguá, próximo à cidade de Morretes, na Serra do Mar do estado do Paraná. A espécie não foi mais registrada após sua descrição em 1914. A localidade-tipo está em uma região de difícil acesso, e a última expedição no local ocorreu em 1982. Embora esteja inserida no Parque Estadual Pico do Marumbi, trata-se de uma região com intensa atividade turística, realizada de forma pouco controlada, o que representa ameaça potencial. Os dados sobre distribuição, população e história natural da espécie são insuficientes para uma avaliação adequada do seu risco de extinção. Portanto, <em>Cycloramphus duseni</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Cycloramphus duseni</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16233 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16233",
+      "photo": {},
+      "version": 2,
+      "versionId": 14422,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Cycloramphidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Cycloramphus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Cycloramphus duseni</i>"
+        }
+      ],
+      "oldNames": "Telmatobuis duseni",
+      "commonNames": "Rã-da-cachoeira",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Cycloramphus duseni</em> é endêmica do Brasil, com registro apenas para a localidade-tipo, Casa Ypiranga da estrada de ferro Curitiba-Paranaguá, próximo à cidade de Morretes, na Serra do Mar no estado do Paraná; foi registrada a aproximadamente 600 metros acima do nível do mar (Verdade &amp; Segalla, 2004). A localidade-tipo está hoje inserida no Parque Estadual Pico do Marumbi. </p>",
+      "nationalDistribution": "",
+      "states": "Paraná",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP PR SC",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/78356d4c7a766274414948646c326478584165374368587463745156364c39364c57695069636175545a446f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Cycloramphus duseni",
+        "diskFileName": "f0c87f13aed0f330db7a757b8a00d41f.png",
+        "fileName": "Mapa de Cycloramphus duseni.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A série-tipo foi coletada em fendas e rachaduras nos penhascos verticais ao longo da ferrovia Curitiba-Paranaguá (Verdade &amp; Segalla, 2004). Não existem informações sobre o ambiente em que <em>Cycloramphus duseni</em> foi coletada, mas a julgar pelas características morfológicas externas, a espécie é mais próxima de suas congenéricas encontrados em riachos (Verdade, 2005). Segundo Heyer (1983), espécies do grupo ao qual pertence <em>C. duseni</em> estão associadas a riachos encachoeirados de áreas florestadas e apresentam girinos exotróficos com desenvolvimento semi-terrestre. </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é conhecida somente da série-tipo (Eterovick <em>et al.,</em> 2005; Carvalho, 2016). Levantamentos realizados em 1982 entre os municípios de Curitiba e Paranaguá, direcionados para coleta de topotípico de <em>Cycloramphus duseni</em>, não registraram nenhum espécime (Heyer, 1983). No entanto, a região onde a espécie foi registrada é de difícil acesso (R. Lingnau, com. pess., 2018), não havendo esforços mais recentes de procura. </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Heyer <em>et al.,</em> (1988) sugerem que a espécie possivelmente foi afetada pela poluição ou evento climático (inverno rigoroso), ocasionando a redução e/ou desaparecimento de suas subpopulações. Uma ameaça potencial é o impacto causado pela atividade turística na região do Parque Estadual do Marumbi (Verdade &amp; Segalla, 2004). Não há limitação quanto ao número de visitantes por dia e somente nos finais de semana há o registro dos visitantes e orientação para o uso do parque, porém, a quantidade de acesso não é limitada, e é comum observar, em qualquer dia da semana, sinais de restos de acampamentos e de fogueiras (L.F. Ribeiro, com. pess., 2018).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos|9.4.1 - Urbanos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informações sobre uso da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>A região onde a espécie ocorre é listada como de extrema importância para a conservação dos anfíbios da Mata Atlântica (MMA, 2000).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Cycloramphus duseni</i> (Andersson, 1914). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7594-anfibios-cycloramphus-duseni.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7594-anfibios-cycloramphus-duseni.html.</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Verdade & Segalla, 2004",
+              "title": "Verdade, V. &amp; Segalla, M.V. (2004) <i>Cycloramphus duseni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56367A11467919.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56367A11467919.en</a>. [Acessado em: 13/dez/2017]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2004,
+          "coverage": "Paraná",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mikich & Bérnils, 2004",
+              "title": "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp."
+            }
+          ],
+          "orderBy": "X2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São urgentes buscas direcionadas para localizar a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Carvalho, T., 2016. Distribuição histórica de <i>Batrachochytrium dendrobatidis</i> no Brasil. Dissertação de Mestrado. Universidade Estadual de Campinas. Campinas. p.61.",
+          "Eterovick, P.C.; Carnaval, A.C.O.Q.; Borges-Nojosa, D.M.; Silvano, D.L.; Segalla, M. &amp; Sazima, I. 2005. Amphibian declines in Brazil: An overview. <b>Biotropica</b>, 37: p.166-179.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U. 2016. Avaliação do Risco de Extinção de <i>Cycloramphus duseni</i> (Andersson, 1914). <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7594-anfibios-cycloramphus-duseni.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7594-anfibios-cycloramphus-duseni.html.</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "Heyer, W.R. 1983. Notes on the frog genus <i>Cycloramphus</i> (Amphibia: Leptodactylidae), with descriptions of two new species. <b>Proceedings of the Biological Society of Washington</b>, 96: p.548–559.",
+          "Heyer, W.R. 1983. Variation and systematics of frogs of the genus <i>Cycloramphus</i> (Amphibia, Leptodactylidae). <b>Arquivos de Zoologia</b>, 30: p.235-339.",
+          "Heyer, W.R; Rand, A.S.; Cruz, C.A.G. &amp; Peixoto, O.L., 1988. Decimations, extinctions, and colonizations of frog populations in southeast Brazil and their evolutionary implications. Biotropica, 20: p.230-235.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "MMA (Ministério do Meio Ambiente) 2000. <b>Avaliação e ações prioritárias para a conservação da biodiversidade da Mata Atlântica e Campos Sulinos</b>. p.45. Conservation International do Brasil/Fundação SOS Mata Atlântica/Fundação Biodiversitas/Instituto de Pesquisas Ecológicas/ Secretaria do Meio Ambiente do Estado de São Paulo SEMAD/Instituto Estadual de Florestas-MG, Brasília. Brasília/DF.",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Mikich, S.B. &amp; Bérnils, R.S. 2004. <b>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</b>. p.764. Instituto Ambiental do Paraná. Disponível em http://www.maternatura.org.br. (Acesso em 01/11/2011) Curitiba.",
+          "Verdade, V. &amp; Segalla, M.V., 2004. <i>Cycloramphus duseni</i>. The IUCN Red List of Threatened Species 2004: e.T56367A11467919, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56367A11467919.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56367A11467919.en</a>. Acessado em: 13/12/2017.",
+          "Verdade, V.K. 2005. <b>Relações filogenéticas entre as espécies dos gêneros <i>Cycloramphus</i> Tschudi 1838 e <i>Zachaenus</i> Cope 1866 (Anura , Leptodactylidae)</b>. Tese de Doutorado. Universidade de São Paulo. São Paulo."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

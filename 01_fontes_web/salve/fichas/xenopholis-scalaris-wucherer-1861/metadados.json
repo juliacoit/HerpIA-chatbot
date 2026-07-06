@@ -1,0 +1,589 @@
+{
+  "id_ficha": "534a6b794a4e744750496f35487271485446497176513d3d",
+  "nome_cientifico": "Xenopholis scalaris (Wucherer, 1861)",
+  "nome_cientifico_atual": "Xenopholis scalaris (Wucherer, 1861)",
+  "nome_comum": "Falsa-Coral, Jararaquinha-do-Igapó, Wucherer's Ground Snake",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27951.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=534a6b794a4e744750496f35487271485446497176513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Xenopholis scalaris</i>&nbsp;<span>(Wucherer, 1861)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "08/06/2026",
+      "justificative": "<p><em>Xenopholis scalaris</em> ocorre na região amazônica da América do Sul. A espécie possui distribuição disjunta no Brasil, sendo encontrada na Amazônia e na Mata Atlântica costeira entre Pernambuco e São Paulo. Possui ampla distribuição no país e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Xenopholis scalaris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Xenopholis scalaris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27951.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27951.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4d746b51595a654b53744930467669323361335a45513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19167,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Xenopholis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Xenopholis scalaris</i>"
+        }
+      ],
+      "oldNames": "Elapomorphus scalaris, Gerrhosteus prosopis, Sympeltophis ungalioides, Xenopholis Braconnieri",
+      "commonNames": "Falsa-Coral, Jararaquinha-do-Igapó, Wucherer's Ground Snake",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Xenopholis scalaris</em> possui ampla distribuição na América do Sul, com registros no Brasil, Colômbia, Equador, Bolívia e Peru  (Duellman, 1978; Pérez-Santos &amp; Moreno, 1988; Cadle <em>et al</em>., 2003; Jansen <em>et al</em>., 2009; Ortega-Andrade, 2010; Catenazzi <em>et al</em>., 2013; Hamdan<em> et al</em>., 2015; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>A espécie possui ampla distribuição na Amazônia brasileira (Cunha &amp; Nascimento, 1978; Avila-Pires <em>et al</em>., 2009; Silva <em>et al</em>., 2010; Bernarde <em>et al</em>., 2011; Nogueira <em>et al</em>., 2019) e, de forma disjunta, na Mata Atlântica costeira entre Pernambuco e São Paulo (Hamdan <em>et al</em>., 2015; Roberto <em>et al</em>., 2017; França <em>et al</em>., 2019; Nogueira <em>et al</em>., 2019).</p> \n<p> </p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Espírito Santo, Mato Grosso, Pará, Pernambuco, Rio de Janeiro, Rondônia, São Paulo",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/51714a523174584942644243434c5575436a476c38652b74676b75545674364d326e5639624a67613537387644426c347748384e476b4d725073304275487441",
+        "legend": "Xenopholis scalaris",
+        "diskFileName": "cb0f76b9aceba8ad216c06b8b5330a71.png",
+        "fileName": "Mapa de Xenopholis scalaris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie é associada a florestas úmidas e, na Amazônia, normalmente é encontrada em terras baixas (Cunha &amp; Nascimento, 1978; Pérez-Santos &amp; Moreno, 1991). Ocorre em florestas primárias e secundárias na Amazônia e na Mata Atlântica, e já foi registrado um indivíduo em uma floresta de <em>Eucalyptus</em> (Cunha <em>et al.</em>, 1985; Frota <em>et al.</em>, 2005; Condez <em>et al</em>., 2009). É terrestre e criptozoica, com atividade diurna e noturna (Bernarde &amp; Abe, 2006). Duellman (1978) relatou uma fêmea com três ovos; Martins &amp; Oliveira (1998) registraram uma fêmea com dois ovos já com casca em dezembro; Bernarde &amp; Abe (2006) relataram o encontro de fêmeas com folículos vitelogênicos em maio e com ovos em agosto. Sua dieta é especializada em anuros (Duellman, 1978; Bernarde &amp; Abe, 2010; Jadin &amp; Orlofske, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Considerada uma das serpentes mais abundantes em uma comunidade no sudoeste Amazônico (Bernarde &amp; Abe, 2006). Em Marabá, leste do Pará, porém, mostrou-se rara em um levantamento de longo prazo (A. L. Silveira, com. pess., 2019).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam levar a espécie a algum grau de risco de extinção. No entanto, pode ser localmente afetada pela fragmentação das florestas, especialmente na Mata Atlântica.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Lehr & Doan, 2010",
+              "title": "Lehr, E. &amp; Doan, T.M. (2010) <i>Xenopholis scalaris</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T177550A7455112.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T177550A7455112.en</a>."
+            }
+          ],
+          "orderBy": "Y2009"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2019",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2019 <i>Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos-Costa <i>et al.</i>, 2015",
+              "title": "Natural history of snakes from Floresta Nacional de Caxiuanã, eastern Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2017",
+              "title": "Amphibians and reptiles from Floresta Nacional de Pau-Rosa, Amazonas, Brazil: an important protected area at the heart of Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jamari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Trairão",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Campos Amazônicos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Saltinho",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "França <i>et al.</i>, 2019",
+              "title": "A new record of <i>Xenopholis scalaris scalaris</i> (Wucherer, 1861) (Dipsadidae) for the state of Pernambuco, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Médio Purus",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MATUPIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Frazão <i>et al.</i>, 2019",
+              "title": "Species richness and composition of snake assemblages in poorly accessible areas in the Brazilian Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CANUTAMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ecoparque de Una",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Seringal Assunção",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Escondido",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Évare I",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S., Vitt, L.J., Sartorius, S.S. &amp; Zani, P.A. (2009) Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards. <i>Boletim do Museu Paraense Emilio Goeldi, Ciências Naturais</i>. 4, 99-118.",
+          "Bernarde, P.S. &amp; Abe, A.S. (2006) A snake comunity at Espigão do Oeste, Rondônia, Southwestern Amazon, Brazil. <i>South American Journal of Herpetology</i>. 1 (2), 102-113.",
+          "Bernarde, P.S. &amp; Abe, A.S. (2010) Hábitos alimentares de serpentes em Espigão do Oeste, Rondônia, Brasil. <i>Biota Neotropica</i>. 10 (1), 167-173.",
+          "Bernarde, P.S., Machado, R.A. &amp; Turci, L.C.B. (2011) Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <i>Biota Neotrópica</i>. 11 (3), 117-144.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cadle, J.E., Gonzales, L. &amp; Guerrero, M. (2003) Amphibians and reptiles In: Alverson & I.C. Halm (eds.) <i>Bolivia: Pando, Federico Roman, Rapid biological inventories: 06.</i> Chicago, The Field Museum, pp. 41-45, 122-124.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Condez, T.H., Sawaya, R.J. &amp; Dixo, M. (2009) Herpetofauna dos remanescentes de Mata Atlântica da região de Tapirai e Piedade, SP, sudeste do Brasil. <i>Biota Neotropica</i>. 9 (1), 157-185.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1978) Ofídios da Amazônia X - As cobras da região leste do Pará. <i>Publicações Avulsas do Museu Paraense Emílio Goeldi</i>. 31, 1-218.",
+          "Cunha, O.R., Nascimento, F.P. &amp; Avila-Pires, T.C.S. (1985) Os répteis da área de Carajás, Pará, Brasil (Testudines, Squamata) I. <i>Publicações Avulsas do Museu Paraense Emilio Goeldi</i>. 40, 9-92.",
+          "Duellman, W.E. (1978) The biology of an equatorial herpetofauna in Amazonian Ecuador. <i>Miscellaneous publication - University of Kansas, Museum of Natural History</i>. (65), 34.",
+          "França, R.C., Morais, M.S.R., Freitas, M.A., Moura, G.J.B. &amp; França, F.G.R. (2019) A new record of <i>Xenopholis scalaris scalaris</i> (Wucherer, 1861) (Dipsadidae) for the state of Pernambuco, Brazil. <i>Herpetology Notes</i>. 12, 57-59.",
+          "Frota, J.G., Santos-Jr, A.P., Chalkidis, H.M. &amp; Guedes, A.G. (2005) As serpentes da região do baixo Rio Amazonas, oeste do Estado do Pará, Brasil (Squamata). <i>Biociências</i>. 13, 211–220.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Hamdan, B., Machado, C. &amp; Citeli, N. (2015) Filling gaps and a new state record of <I>Xenopholis scalaris</I> (Wucherer, 1861) (Serpentes: Dipsadidae). <i>Check List</i>. 11 (5), 1746.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2019 <i>Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste</i>.",
+          "Jadin, R.C. &amp; Orlofske, S.A. (2010) <i>Xenopholis scalaris</i> (Wucherer’s Ground Snake). Diet. <i>Herpetological Review</i>. 41 (1), 101.",
+          "Jansen, M., Álvarez, L.G. &amp; Köhler, G. (2009) Description of a new species of <i>Xenopholis</i> (Serpentes: Colubridae) from the Cerrado of Bolivia, with comments on <i>Xenopholis scalaris</i> in Bolivia. <i>Zootaxa</i>. 2222, 31-45.",
+          "Lehr, E. &amp; Doan, T.M. (2010) <i>Xenopholis scalaris</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T177550A7455112.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T177550A7455112.en</a>.",
+          "Martins, M. &amp; Oliveira, E.M. (1998) Natural history of snakes in forests of the Manaus region, central Amazonia, Brazil. <i>Herpetological Natural History</i>. 6, 78–150.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Ortega-Andrade, H.M. (2010) <i>Diversidad de la herpetofauna en la centro Amazonía de Ecuador</i>. Dissertação de Mestrado. Instituto de Ecología. A.C, México.",
+          "Pérez-Santos, C. &amp; Moreno, A. G. (1988) Ofidios de Colombia. <i>Bollettino del Museo Regionale di Scienze Naturali, Torino</i>. 6, 1-517.",
+          "Pérez-Santos, C. &amp; Moreno, A.G. (1991) <i>Serpientes de Ecuador</i> Torino, Museo Regionale di Scienze Naturali, Monografia, XI, 538pp.",
+          "Roberto, I.J., Oliveira, C.R., Araújo-Filho, J.A., Oliveira, H.F. &amp; Ávila, R.W. (2017) The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. <i>Papéis Avulsos de Zoologia</i>. 57 (27), 347-373.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Silva, M.V., Souza, M.B. &amp; Bernarde, P.S. (2010) Riqueza e dieta de serpentes do Estado do Acre, Brasil. <i>Revista Brasileira de Zoociências</i>. 12 (2), 55-66."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

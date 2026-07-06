@@ -1,0 +1,382 @@
+{
+  "id_ficha": "796c3435536e59435a7364542f534d463575485747413d3d",
+  "nome_cientifico": "Sphaenorhynchus caramaschii Toledo, Garcia, Lingnau & Haddad, 2007",
+  "nome_cientifico_atual": "Sphaenorhynchus caramaschii Toledo, Garcia, Lingnau & Haddad, 2007",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22226.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=796c3435536e59435a7364542f534d463575485747413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Sphaenorhynchus caramaschii</i>&nbsp;<span>Toledo, Garcia, Lingnau & Haddad, 2007</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Sphaenorhynchus caramaschii </em>é endêmica do Brasil e possui registros de ocorrência predominantes no bioma Mata Atlântica, entre os estados de São Paulo e Rio Grande do Sul. Trata-se de uma espécie abundante, encontrada em áreas abertas, principalmente na vegetação emergente e flutuante de corpos d’água permanentes. Sua distribuição é ampla e não há evidências de ameaças que possam colocá-la em risco de extinção. Além disso, ocorre em várias unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Sphaenorhynchus caramaschii </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Sphaenorhynchus caramaschii</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22226.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22226.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16946,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Sphaenorhynchus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Sphaenorhynchus caramaschii</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Sphaenorhynchus caramaschii</em> é endêmica do Brasil e possui registros de ocorrência entre o estado de São Paulo e o nordeste do estado do Rio Grande do Sul (Toledo <em>et al</em>., 2007; Almeida<em> et al</em>., 2008; Colombo <em>et al</em>., 2008; Caramaschi <em>et al</em>., 2009; Maffei <em>et al</em>., 2011). Sua localidade-tipo é a Fazenda São Luís, no município de Ribeirão Branco, estado de São Paulo (Toledo <em>et al</em>., 2007), e sua extensão de ocorrência é de 115.981 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</p> \n<p> </p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/42695256784f373871706f6f4f4e6b342f456b73616762744d3377526d4c3774715531595254384b686a677644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "36c9ba4d7fa177e2310bb73098e58211.png",
+        "fileName": "Mapa de Sphaenorhynchus caramaschii.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Sphaenorhyncus caramaschii </em>é uma espécie de áreas abertas, encontrada principalmente na vegetação emergente e flutuante de corpos d’água permanentes. Sua reprodução ocorre nesses corpos d’água, onde os ovos são depositados e girinos se desenvolvem (Haddad <em>et al</em>., 2013).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é abundante localmente ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Toledo, 2008",
+              "title": "Toledo, L.F. (2008) <i>Sphaenorhynchus caramaschii</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org.\">https://www.iucnredlist.org.</a>. [Acessado em: 13/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(i,ii,iii)",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA QUILOMBOS DO MéDIO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Almenida <i>et al.</i>, 2008",
+              "title": "Amphibia, Anura, Hylidae, <i>Sphaenorhynchus caramaschii</i>: Distribution extension in state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE ANGATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo & Almeida-Santos, 2013",
+              "title": "Composição, riqueza e abundância de anuros em um remanescente de Cerrado e Mata Atlântica no estado de São Paulo"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Toledo <i>et al.</i>, 2007",
+              "title": "A new species of <i>Sphaenorhynchus</I> (Anura; Hylidae) from Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Toledo <i>et al.</i>, 2007",
+              "title": "A new species of <i>Sphaenorhynchus</I> (Anura; Hylidae) from Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira & Colombo, 2016",
+              "title": "Composição e fatores de ameaça da fauna de anfíbios anuros da Reserva Biológica Estadual da Mata Paludosa, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Colombo <i>et al.</i>, 2008",
+              "title": "Composição e ameaças à conservação dos anfíbios anuros do Parque Estadual de Itapeva, município de Torres, Rio Grande do Sul, Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almenida, S.C.; Maffei, F.; Rolim, D.C.; Ubaid, F.K. &amp; Jim, J. 2008. Amphibia, Anura, Hylidae, <i>Sphaenorhynchus caramaschii</i>: Distribution extension in state of São Paulo, Brazil. <b>Check List</b>, 4 (4): p.439-441.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Caramaschi, U.; Almeida, A.P. &amp; Gasparini, J.L. 2009. Description of two new species of <i>Sphaenorhynchus</i> (Anura, Hylidae) from the State of Espírito Santo, Southeastern Brazil. <b>Zootaxa</b>, 46 (2115):",
+          "Colombo, P.; Kindel, A.; Vinciprova, G. &amp; Krause, L. 2008. Composição e ameaças à conservação dos anfíbios anuros do Parque Estadual de Itapeva, município de Torres, Rio Grande do Sul, Brasil. <b>Biota Neotropica</b>, 8 (3): p.229-240.",
+          "Estado do Rio Grande do Sul 09/09/2014. Decreto n.º 51.797, de 8 de setembro de 2014. Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul. Disponível em: <a target=\"_blank\" href=\"http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf\">http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Maffei, F.; Ubaid, F.K. &amp; Jim, J. 2011. <b>Anfibios da Fazenda Rio Claro, Lencois Paulista, SP, Brasil</b>. p.128. Canal 6 Bauru.",
+          "Toledo, L.F. 2008. <i>Sphaenorhynchus caramaschii</i>. <b>The IUCN Red List of Threatened Species</b>. Disponível em: <a target=\"_blank\" href=\"https://www.iucnredlist.org.\">https://www.iucnredlist.org.</a>. Acessado em: 13/08/2012.",
+          "Toledo, L.F.; Garcia, P.C.A.; Lingnau, R. &amp; Haddad, C.F.B. 2007. A new species of <i>Sphaenorhynchus</I> (Anura; Hylidae) from Brazil. <b>Zootaxa</b>, 1658: p.57-68."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

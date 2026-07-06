@@ -1,0 +1,343 @@
+{
+  "id_ficha": "6c6750786f59696a7a3772546d646c776555545552513d3d",
+  "nome_cientifico": "Phyllodytes wuchereri (Peters, 1873)",
+  "nome_cientifico_atual": "Phyllodytes wuchereri (Peters, 1873)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17822.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6c6750786f59696a7a3772546d646c776555545552513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Phyllodytes wuchereri</i>&nbsp;<span>(Peters, 1873)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "15/05/2024",
+      "justificative": "<p><em>Phyllodytes wuchereri</em> é endêmica do Brasil, conhecida de localidades na Mata Atlântica da Bahia. Embora tenha distribuição relativamente pequena, com uma extensão de ocorrência calculada em 8.785km², é uma espécie comum, que ocorre em diversas unidades de conservação. As ameaças à espécie estão relacionadas à perda de hábitat pela conversão da paisagem para formação de pastagens, agricultura, silvicultura e exploração de madeira, contudo elas não ameaçam de forma significativa a ponto de coloca-la em risco de extinção. Portanto, <em>Phyllodytes wuchereri</em> foi categorizada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Daniele Carvalho do Carmo Faria; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Faria, D.C.C.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2024. <i>Phyllodytes wuchereri</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17822.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17822.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14989,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Phyllodytes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Phyllodytes wuchereri</i>"
+        }
+      ],
+      "oldNames": "Amphodus wuchereri",
+      "commonNames": "",
+      "taxonomicNotes": "<p> Espécie removida da sinonímia de <em>Phyllodytes luteolus</em> (Caramaschi <em>et al</em>., 2004). </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p> <em>Phyllodytes wuchereri </em>ocorre em remanescentes de Mata Atlântica em zonas costeiras da Bahia (Caramaschi <em>et al</em>., 2004; Juncá, 2006; Dias <em>et al</em>., 2014). Sua extensão de ocorrência é calculada em 8.785km2.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia",
+      "biomes": "Mata Atlântica",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/695468524551706e535a4170664c41323047494c46414e44357647596568633633576771612f6e474676766e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Phyllodytes wuchereri.",
+        "diskFileName": "4d757de1964ac0bdb4dbb17ac6ba741d.png",
+        "fileName": "Mapa de Phyllodytes wuchereri.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> <em>Phyllodytes wuchereri </em>é encontrada em bromélias epifíticas (Cruz <em>et al</em>., 2014). Em São José da Vitória foi encontrada em região montanhosa de floresta primária desmatada para plantação de cacau. Os indivíduos foram encontrados em bromélias agrupadas em troncos de árvores de grande porte, 6 à 8 metros acima do solo. A espécie se reproduz em bromélias (Rodrigues, 2006). Os girinos são encontrados em pequenos corpos d'água nas axilas das bromélias, e os machos adultos da espécie parecem ser territoriais (Magalhães <em>et al</em>., 2015).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As ameaças à espécie estão relacionadas à desmatamento e fragmentação para exploração madeireira, pastagens de gado, agricultura (cana-de-açúcar, café e cacau) e silvicultura (Rodrigues, 2006).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura|2.2.3 - Plantações em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal|5.3.5 - Motivação desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para o táxon.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2006,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2006",
+              "title": "Rodrigues, M.T. (2006) <i>Phyllodytes wuchereri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61790A12546667.en\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61790A12546667.en</a>."
+            }
+          ],
+          "orderBy": "Y2006"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2004",
+              "title": "Revalidation and redescription Of <i>Phyllodytes wuchereri</i> (Peters, 1873) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PONTA DA BALEIA / ABROLHOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2004",
+              "title": "Revalidation and redescription Of <i>Phyllodytes wuchereri</i> (Peters, 1873) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa do Peixe",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2004",
+              "title": "Revalidation and redescription Of <i>Phyllodytes wuchereri</i> (Peters, 1873) (Amphibia, Anura, Hylidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre dinâmica populacional e distribuição ainda são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Caramaschi, U., Peixoto, O.L. &amp; Rodrigues, M.T. (2004) Revalidation and redescription Of <i>Phyllodytes wuchereri</i> (Peters, 1873) (Amphibia, Anura, Hylidae). <i>Arquivos do Museu Nacional, Rio de Janeiro</i>. 62 (2), 185-191.",
+          "Cruz, D., Marciano-Jr., E. &amp; Napoli, M. F. (2014) Advertisement and courtship calls of Phyylodytes wuchereri (Peters, 1873) (Anura: Hylidae). <i>Zootaxa</i>. 3774 (1), 97.",
+          "Dias, I.R., Medeiros, T.T., Vila-Nova, M.F. &amp; Solé, M. (2014) Amphibians of Serra Bonita, southern Bahia: a new hotpoint within Brazil’s Atlantic Forest hotspot. <i>ZooKeys</i>. 449, 105-130.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Juncá, F.A. (2006) Diversidade e uso de hábitat por anfíbios anuros em duas localidades de Mata Atlântica, no norte do estado da Bahia. <i>Biota Neotropica</i>. 6 (2), 1-17.",
+          "Magalhães, F. M., Juncá, F. &amp; Garda, A. A. (2015) Tadpole and vocalisations of Phyllodytes wuchereri (Anura: Hylidae) from Bahia, Brazil. <i>Salamandra</i>. 51 (2), 83-90.",
+          "Rodrigues, M.T. (2006) <i>Phyllodytes wuchereri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61790A12546667.en\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61790A12546667.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

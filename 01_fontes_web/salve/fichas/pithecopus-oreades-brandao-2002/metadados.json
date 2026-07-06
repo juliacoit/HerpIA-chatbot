@@ -1,0 +1,311 @@
+{
+  "id_ficha": "6879766a752f585753646767753858747a63664347413d3d",
+  "nome_cientifico": "Pithecopus oreades (Brandão, 2002)",
+  "nome_cientifico_atual": "Pithecopus oreades (Brandão, 2002)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21425",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6879766a752f585753646767753858747a63664347413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pithecopus oreades</i>&nbsp;<span>(Brandão, 2002)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Pithecopus oreades </em>é endêmica do Brasil e possui registros de ocorrência no Cerrado do Distrito Federal e dos estados de Goiás e Minas Gerais. A espécie vive em ambientes abertos com afloramentos rochosos. Apesar de ser considerada pouco frequente e sofrer com alterações do hábitat em algumas localidades, sua distribuição é ampla e não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Por essas razões, <em>Pithecopus oreades </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Pithecopus oreades</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21425 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21425",
+      "photo": {},
+      "version": 2,
+      "versionId": 16474,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Phyllomedusidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pithecopus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pithecopus oreades</i>"
+        }
+      ],
+      "oldNames": "Phyllomedusa araguari, Phyllomedusa oreades",
+      "commonNames": "",
+      "taxonomicNotes": "<p> <em></em></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Pithecopus oreades </em>é endêmica do Brasil, com distribuição predominante na região do planalto central, com registros no Distrito Federal e nos estados de Goiás e Minas Gerais, em altitudes acima de 900 metros (Brandão, 2002; Caramaschi, 2006; Giaretta <em>et al</em>., 2007; P.L. Ferreira, com. pess., 2011; D. Silvano &amp; P.H. Valdujo, com. pess., 2013). Sua extensão de ocorrência é de 106.731 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Distrito Federal, Goiás, Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Paranaíba, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/714d30636c2b73656a485a4f4447422f47673235713744435836786a47686b6263364d4f705a4c724441336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "66e84ac727c0c935fb311604cbb8c214.png",
+        "fileName": "Mapa de Pithecopus oreades.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Pithecopus oreades </em>é uma espécie noturna, encontrada em áreas abertas do bioma Cerrado, como campo sujo e campo cerrado com afloramentos rochosos. Machos vocalizam sobre a vegetação, entre 20 e 150 cm de altura do solo, próximo a pequenos riachos. Quando perturbados, param de vocalizar e permanecem imóveis e, após a captura, todos os indivíduos apresentaram tanatose duradoura. A vocalização é semelhante à de <em>P. hypochondrialis </em>(Brandão, 2002).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> Não há dados populacionais, mas a espécie é pouco frequente.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p> Nenhuma informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silvano, 2016",
+              "title": "Silvano, D. (2016) <i>Pithecopus oreades</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T55858A107298828.en\">http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T55858A107298828.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prette, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ARIE Capetinga-Taquara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prette, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Grande Sertão Veredas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "P.L. Ferreira, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prette, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Brandão, R.A. 2002. A new species of <I>Phyllomedusa</i> Wagler, 1830 (Anura: Hylidae) from central Brazil. <b>Journal of Herpetology</b>, 36 (4): p.571-578.",
+          "Caramaschi, U. 2006. Redefinição do grupo de <i>Phyllomedusa hypochondrialis</i>, com redescrição de <i>P. megacephala</i> (Miranda-Ribeiro, 1926), revalidação de <i>P. azurea</i> Cope, 1862 e descrição de uma nova espécie (Amphibia, Anura, Hylidae). <b>Arquivos do Museu Nacional</b>, 64 (2): p.159-179.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Giaretta, A.A.; Filho, J.C.O. &amp; Kokubum, M.N.C. 2007. A new <i>Phyllomedusa</i> Wagler (Anura, Hylidae) with reticulated patterns on the flanks from Southestern Brazil. <b>Zootaxa</b>, 1614: p.31-41.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Silvano, D. 2016. <i>Pithecopus oreades</i>. <b>The IUCN Red List of Threatened Species 2016: e.T55858A107298828</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T55858A107298828.en\">http://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T55858A107298828.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

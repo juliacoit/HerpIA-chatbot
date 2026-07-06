@@ -1,0 +1,442 @@
+{
+  "id_ficha": "516451376861616a4f39454c643832634d39316b47773d3d",
+  "nome_cientifico": "Physalaemus caete Pombal & Madureira, 1997",
+  "nome_cientifico_atual": "Physalaemus caete Pombal & Madureira, 1997",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "NT",
+  "categoria_risco_completa": "Quase Ameaçada (NT)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.15780.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=516451376861616a4f39454c643832634d39316b47773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus caete</i>&nbsp;<span>Pombal & Madureira, 1997</span>",
+      "category": "Quase Ameaçada (NT)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Physalaemus caete</em>é endêmica do Brasil, conhecida de poucas localidades na Mata Atlântica dos estados de Alagoas e Pernambuco, com extensão de ocorrência estimada em 3.242 km2. A espécie é encontrada na serrapilheira de florestas úmidas, em torno das lagoas. Ao longo de sua distribuição, há perda de vegetação nativa em decorrência da expansão agropastoril e de assentamentos humanos, inclusive dentro das unidades de conservação onde a espécie ocorre. Essas perturbações no ambiente causam declínio contínuo da área e da qualidade do hábitat da espécie, no entanto, há mais de dez localizações e não é possível sua população esteja severamente fragmentada. Sendo assim, <em>Physalaemus caete</em> aproxima-se de Em Perigo (EN) pelo critério B1b(iii) e, por isso, foi avaliada como Quase Ameaçada (NT).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Physalaemus caete</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.15780.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.15780.2",
+      "photo": {
+        "authorName": "Ednilza Santos",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "b6d8e3121791e77a62fd18277d3ef93b.JPG",
+        "fileName": "Physalaemus caete_Ednilza Santos.JPG",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/5a6578596b535059342b70627233624c6e6b4d4d3172544743577130726e665235694268385570384f42353737585759776a48486d7978442b69597864776d51/full"
+      },
+      "version": 2,
+      "versionId": 14359,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus caete</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Physalaemus caete</em> é endêmica do Brasil, com distribuição conhecida para a Mata Atlântica dos estados de Pernambuco e Alagoas (Pombal &amp; Madureira, 1997; Santos <em>et al.,</em> 2016). Sua localidade-tipo é a Fazenda Santa Justina, no município de Passo de Camaragibe, no estado de Alagoas (Pombal &amp; Madureira, 1997). Nesse Estado, a espécie possui registros também no município de Murici, entre 600 e 750 metros de altitude (Freire &amp; Silvano, 2004; Santos <em>et al.,</em> 2016). No estado de Pernambuco <em>P. caete</em> foi encontrada nos municípios de Abreu e Lima e Paulista (Santos <em>et al.,</em> 2016; Barbosa <em>et al</em>., 2017). Sua extensão de ocorrência calculada é de 3.242 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Pernambuco",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral AL PE PB",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/2b4f6b4266752f596d337a7a6d5150756235522b425a793871334556384e35365a484f57666b34545035446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Physalaemus caete",
+        "diskFileName": "44ce939294c7487944c1032bad68949b.png",
+        "fileName": "Mapa de Physalaemus caete.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Physalaemus caete</em> ocorre na serrapilheira de florestas úmidas, geralmente encontrada em torno das lagoas; os ovos, depositados em ninhos de espuma, têm sido observados em poças temporárias e na água acumulada em ocos de árvores próximos ao solo (Freire &amp; Silvano, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há estudos sobre tendência populacional e abundância para a espécie, que é conhecida de quatro subpopulações.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As principais ameaças à espécie provavelmente estão relacionadas à perda, degradação e fragmentação de hábitat, provocadas pela expansão do desenvolvimento agrícola, da criação de gado e dos assentamentos humanos (Freire &amp; Silvano, 2004). Houve perda de 15% de vegetação nativa na área de extensão de ocorrência da espécie entre os anos de 2006 e 2016 (dados MapBiomas, 2018). Mesmo na Estação Ecológica Murici, uma unidade de conservação de proteção integral, observa-se a ocorrência de desmatamento ilegal e invasões para assentamentos (M.A. Freitas &amp; B. Lisboa, com. pess., 2018). Barbosa <em>et al., </em>(2017) relatam que o fragmento de mata ombrófila da Estação Ecológica de Caetés, onde duas subpopulações da espécie foram catalogadas, não está conectado com outros fragmentos, e seu entorno é totalmente antropizado.</p> \n<p>As perturbações no ambiente causam declínio contínuo da área e da qualidade do hábitat, no entanto, não é possível afirmar que sua população esteja severamente fragmentada.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.4 - Assentamentos e pequenas propriedades rurais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Physalaemus caete</em> foi espécie-alvo na atualização do primeiro ciclo do Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina – PAN Herpetofauna da Mata Atlântica Nordestina (ICMBio, 2016), mantendo-se como espécie-alvo no segundo ciclo desse PAN, doravante denominado Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste (ICMBio, 2019).</p> \n<p>Barbosa <em>et al., </em>(2017) relatam a necessidade de planos ambientais que visem a proteção das espécies que ocorrem na Estação Ecológica de Caetés. Resultados de estudo desenvolvido por Vilela <em>et al., </em>(2018) indicam que as ações, para diminuir as emissões de gases de efeito estufa reduziriam o impacto previsto em cenários futuros de mudanças climáticas sobre essa espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D. L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N. M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Physalaemus caete</i> Pombal & Madureira, 1997. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7534-anfibios-physalaemus-caete.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7534-anfibios-physalaemus-caete.html.</a>."
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Freire & Silvano, 2004",
+              "title": "Freire, E.M.X. &amp; Silvano, D. (2004) <i>Physalaemus caete</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57244A11608073.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57244A11608073.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Nordeste - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": []
+        },
+        {
+          "name": "Meios de subsistência, economia e outros incentivos",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Normas e códigos de referência do setor privado",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Identificação de novas áreas protegidas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Implementação de áreas protegidas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Murici",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freire & Silvano, 2004",
+              "title": "<i>Physalaemus caete</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2016",
+              "title": "Geographic Distribution: <I>Physalaemus caete</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Freire & Silvano, 2004",
+              "title": "<i>Physalaemus caete</i>"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São recomendados estudos que abordem ecologia, história natural, dinâmica populacional e efeito das alterações ambientais sobre a espécie (R. Ávila, com. pess., 2018).</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Barbosa, V.N.; Pereira, E.N. &amp; Maranhão, E.S. 2017. Anfíbios da Estação Ecológica de Caetés Paulista, Pernambuco-Atualização da lista de espécies. <b>Revista de Ciências Ambientais</b>, 11 (2): p.39-49.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Freire, E.M.X. &amp; Silvano, D., 2004. <i>Physalaemus caete</i>. The IUCN Red List of Threatened Species 2004: e.T57244A11608073, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57244A11608073.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57244A11608073.en</a>.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D. L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N. M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U., 2016. Avaliação do Risco de Extinção de <i>Physalaemus caete</i> Pombal & Madureira, 1997. Processo de avaliação do risco de extinção da fauna brasileira. ICMBio., Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7534-anfibios-physalaemus-caete.html.\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7534-anfibios-physalaemus-caete.html.</a>.",
+          "ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade) 2018. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume V - Anfíbios. p.128. <i>In</i>: Instituto Chico Mendes de Conservação & da Biodiversidade (Org.). <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. ICMBio Brasília.",
+          "ICMBio 05/05/2016. Portaria No. 38, de 03 de maio de 2016. Atualiza e aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atântica Nordestina - PAN Herpetofauna da Mata Atlântica Nordestina.",
+          "ICMBio 30/07/2019. Portaria n°. 354, de 25 de julho de 2019, que aprova do 2° ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste. p.46. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072\">https://www.in.gov.br/web/dou/-/portaria-n-354-de-25-de-julho-de-2019-207683072</a>. Acessado em: 12/08/2019.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "Pombal-Jr., J.P. &amp; Madureira, C.A., 1997. A new species of <i>Physalaemus</i> (Anura, Leptodactylidae) from the Atlantic rain forest of northeastern Brazil. Alytes, 15 (3): p.105-112.",
+          "Projeto MapBiomas 2018. Coleção 2.3 da Série Anual de Mapas de Cobertura e Uso de Solo do Brasil. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/\">http://mapbiomas.org/</a>. Acessado em: 01/09/2018.",
+          "Santos, E.M.; Nacimento, V.; Pereira, E.N. &amp; Amorim, F.O., 2016. Geographic Distribution: <I>Physalaemus caete</i>. Herpetological Review, 47: p.249.",
+          "Vilela, B.; Nascimento, F.A. &amp; Vital, M.V.C. 2018. Impacts of climate change on small-ranged amphibians of the northern Atlantic Forest. <b>Oecologia Australis</b>, 22 (2): p.130-143."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

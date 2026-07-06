@@ -1,0 +1,326 @@
+{
+  "id_ficha": "336e58324936594d393577312f4333316f4c454e74773d3d",
+  "nome_cientifico": "Amazophrynella bokermanni (Izecksohn, 1994)",
+  "nome_cientifico_atual": "Amazophrynella bokermanni (Izecksohn, 1994)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21182.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=336e58324936594d393577312f4333316f4c454e74773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Amazophrynella bokermanni</i>&nbsp;<span>(Izecksohn, 1994)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Amazophrynella bokermanni </em>é endêmica do Brasil, do bioma Amazônia, com registros de ocorrência para os estados do Amazonas e Pará. A espécie é comum, abundante e ocorre em ambiente preservado, sem ameaças significativas. Por essas razões, <em>Amazophrynella bokermanni </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2022. <i>Amazophrynella bokermanni</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21182.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21182.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16357,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Amazophrynella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Amazophrynella bokermanni</i>"
+        }
+      ],
+      "oldNames": "Amazonella bokermanni, Dendrophryniscus bokermanni",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Amazophrynella bokermanni</em> é endêmica do Brasil, com registros de ocorrência nos estados do Amazonas (município de Borba, Maues e Parintins) e Pará (municípios de Jacareacanga, Oriximiná, rio Cururu e Igarapé do Anta) (Izecksohn, 1994; Recoder <em>et al., </em>2010; Avila-Pires <em>et al., </em>2010; M. Sturaro, com. pess., 2011).</p>",
+      "nationalDistribution": "",
+      "states": "Amazonas, Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Paru, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/567357616f416a7568706c4e4a5341335a58786c786f664f7065646d454166575868372b6543575878516c4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Amazophrynella bokermanni",
+        "diskFileName": "1be1f6c8568e04a392fb71530985e346.png",
+        "fileName": "Mapa de Amazophrynella bokermanni.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Amazophrynella bokermanni</em> é diurna e ocupa a serapilheira de floresta primária e bem preservada. Seus ovos são depositados em raízes aéreas sobre poças temporárias, local onde seus girinos se desenvolvem (Izecksohn, 1994).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é considerada comum e abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região bem preservada, sem ameaças significativas.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação quanto à utilização desta espécie. </p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Azevedo-Ramos, 2004",
+              "title": "Rodrigues, M.T. &amp; Azevedo-Ramos, C. (2004) <i>Amazophrynella bokermanni</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54805A11203960\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54805A11203960</a>. [Acessado em: 09/nov/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn, 1994",
+              "title": "Nova espécie de <I>Dendrophryniscus</i> da região amazônica (Amphibia, Anura, Bufonidae)"
+            },
+            {
+              "label": "M. Sturaro, com. pess., 2011",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menin, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "Coata-Laranjal",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Izecksohn, 1994",
+              "title": "Nova espécie de <I>Dendrophryniscus</i> da região amazônica (Amphibia, Anura, Bufonidae)"
+            }
+          ]
+        },
+        {
+          "name": "Munduruku",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Izecksohn, 1994",
+              "title": "Nova espécie de <I>Dendrophryniscus</i> da região amazônica (Amphibia, Anura, Bufonidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua distribuição e história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S.; Hoogmoed, M.S. &amp; Rocha, W.A. 2010. Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna. <b>Boletim do Museu Paraense Emílio Goeldi. Ciências Naturais</b>, 5 (1): p.13-112.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. 1994. Nova espécie de <I>Dendrophryniscus</i> da região amazônica (Amphibia, Anura, Bufonidae). <b>Revista Brasileira de Zoologia</b>, 10 (3): p.407-412.",
+          "Recoder, R.S.; Teixeira Junior, M.; Cassimiro, J.; Camacho, A. &amp; Rodrigues, M.T. 2010. A new species of <i>Dendrophryniscus</i> (Amphibia, Anura, Bufonidae) from the Atlantic Rainforest of southern Bahia, Brazil. <b>Zootaxa</b>, 2642: p.36-44.",
+          "Rodrigues, M.T. &amp; Azevedo-Ramos, C., 2004. <i>Amazophrynella bokermanni</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54805A11203960\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54805A11203960</a>. Acessado em: 09/11/2012."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

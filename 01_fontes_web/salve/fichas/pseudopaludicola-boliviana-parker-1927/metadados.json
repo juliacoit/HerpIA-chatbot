@@ -1,0 +1,296 @@
+{
+  "id_ficha": "45614265427a334354656e4e577561696a43554d37773d3d",
+  "nome_cientifico": "Pseudopaludicola boliviana Parker, 1927",
+  "nome_cientifico_atual": "Pseudopaludicola boliviana Parker, 1927",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21470.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=45614265427a334354656e4e577561696a43554d37773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pseudopaludicola boliviana</i>&nbsp;<span>Parker, 1927</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "17/02/2025",
+      "justificative": "<p><em>Pseudopaludicola boliviana </em>é conhecida para o Brasil, Suriname, Guiana, Venezuela, Colômbia, Bolívia, Paraguai e Argentina. No Brasil, há registros na Amazônia, nos estados de Roraima, Amapá e Pará. A espécie é comum, abundante e possui ampla distribuição no país. Não há evidências de ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Pseudopaludicola boliviana </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Pseudopaludicola boliviana</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21470.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21470.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16517,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pseudopaludicola</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pseudopaludicola boliviana</i>"
+        }
+      ],
+      "oldNames": "Pseudopaludicola mirandae",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Pseudopaludicola mirandae</em> Mercadal de Barrio &amp; Barrio, 1994 é sinônimo júnior de <em>Pseudopaludicola boliviana</em> Parker, 1927 (Cardozo &amp; Lobo, 2009).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pseudopaludicola boliviana</em> tem ampla distribuição na América do Sul, com ocorrência na Guiana, Suriname, Brasil, Venezuela, Colômbia, Bolívia, Paraguai e Argentina (Lobo, 1994; Señaris &amp; MacCulloch, 2005; Brusquetti &amp; Lavilla, 2006; Duré <em>et al</em>., 2008; Frost, 2018).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é conhecida de poucas localidades nos estados do Amapá, Pará e Roraima (Lobo, 1996; Martins, 1998; Costa-Campos <em>et al., </em>2016; Pansonato <em>et al.</em>, 2016). Porém, pode ter distribuição mais ampla no pais.</p>",
+      "states": "Amapá, Pará, Roraima",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Negro, Sub-bacia Trombetas",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/42566f376a556e3545564a47366b5a74755576643750564132486b765a4a34494d7438786f323046474539777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "86a28d286d7a5d414cee200435171e88.png",
+        "fileName": "Mapa de Pseudopaludicola boliviana.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pseudopaludicola boliviana </em>é uma espécie crepuscular e noturna de hábitos aquáticos, encontrada em margens de lagoas e poças de águas paradas em ambientes florestais. Os indivíduos vocalizam e se reproduzem na água (Martins, 1998; Prado<em> et al</em>., 2005).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Trata-se de espécie comum e abundante nos locais onde ocorre, e aparentemente a população encontra-se estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rodríguez <i>et al.</i>, 2010",
+              "title": "Rodríguez, L., Acosta-Galvis, A., Lavilla, E. &amp; Blotto, B. (2010) <i>Pseudopaludicola boliviana</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57310A11617057.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57310A11617057.en</a>."
+            }
+          ],
+          "orderBy": "Y2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC de Maracá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Martins, 1998",
+              "title": "The frogs of the ilha de Maracá"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO CURIAÚ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Costa-Campos <i>et al.</i>, 2016",
+              "title": "First record of <I>Pseudopaludicola boliviana</i> Parker, 1927 (Anura, Leptodactylidae, Leiuperinae) in the Brazilian state of Amapá, with comments on its advertisement call and distribution"
+            }
+          ]
+        },
+        {
+          "name": "Raposa Serra do Sol",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Lobo, 1996",
+              "title": "Evaluación del status taxonómico de <I>Pseudopaludicola ternetzi</i> Miranda Ribeiro, 1937; </i>P. mystacalis</i> y <i>P. ameghini</i> (Cope, 1887). Osteología y distribución de las especies estudiadas"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Brusquetti, F. &amp; Lavilla, E.O. (2006) Lista comentada de los anfibios de Paraguay. <i>Cuadernos de Herpetología</i>. 20 (2), 3-79.",
+          "Cardozo, D. &amp; Lobo, F. (2009) <i>Pseudopaludicola mirandae</i> Mercadal de Barrio and Barrio, 1994 (Anura, Leiuperidae) Is a Junior Synonym of <i>Pseudopaludicola boliviana</i> Parker, 1927. <i>Journal of Herpetology</i>. 43 (4), 685-687.",
+          "Costa-Campos, C.E., Carvalho, T.R. &amp; Freire, E.M.X. (2016) First record of <I>Pseudopaludicola boliviana</i> Parker, 1927 (Anura, Leptodactylidae, Leiuperinae) in the Brazilian state of Amapá, with comments on its advertisement call and distribution. <i>Check List</i>. 12 (6), 1-5.",
+          "Duré, M.I., Kehr, A.I., Schaefer, E.F. &amp; Marangoni, F. (2008) Diversity of amphibinas in rice fields from northeastern Argentina. <i>Interciencia</i>. 33 (7), 523-527.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lobo, F. (1994) Primeira cita de <i>Pseudopaludicola boliviana</i> Parker, 1927, para el Brasil y nuevos registros para el Paraguay. <i>Cuadernos de Herpetologia</i>. 8 (2), 229-233.",
+          "Lobo, F. (1996) Evaluación del status taxonómico de <I>Pseudopaludicola ternetzi</i> Miranda Ribeiro, 1937; </i>P. mystacalis</i> y <i>P. ameghini</i> (Cope, 1887). Osteología y distribución de las especies estudiadas. <i>Acta Zoologica Lilloana</i>. 43 (2), 327-346.",
+          "Martins, M. (1998) The frogs of the ilha de Maracá In: Milliken & Ratter (eds.) <i>Maracá: The Biodiversity and Environment of an Amazonian Rainforest</i>. New York, John Wiley & Sons, pp. 285-306.",
+          "Pansonato, A., Veiga-Menoncello, A.C.P., Mudrek, J.R., Jansen, M., Recco-Pimentel, S.M., Martins, I.A. &amp; Strüssmann, C. (2016) Two new species of <I>Pseudopaludicola</i> (Anura: Leptodactylidae: Leiuperinae) from eastern Bolivia and western Brazil. <i>Herpetologica</i>. 72, 235–255.",
+          "Prado, C.P.A., Uetanabaro, M. &amp; Haddad, C.F.B. (2005) Breeding activity patterns, reproductive modes, and habitat use by anurans (Amphibia) in a seasonal environment in the Pantanal, Brazil. <i>Amphibia-Reptilia</i>. 26 (2005), 211-221.",
+          "Rodríguez, L., Acosta-Galvis, A., Lavilla, E. &amp; Blotto, B. (2010) <i>Pseudopaludicola boliviana</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57310A11617057.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57310A11617057.en</a>.",
+          "Señaris, J.C. &amp; MacCulloch, R.D. (2005) Amphibians; p. 9-23. In T. Hollowell and R.P. Reynolds (ed.). Checklist of the terrestrial vertebrates of the Guiana Shield. <i>Washington, DC: Bulletin of the Biological Society of Washington</i>. 13 (1), 9-24."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

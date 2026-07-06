@@ -1,0 +1,381 @@
+{
+  "id_ficha": "48724e4a5669724675374566636455444938714e39773d3d",
+  "nome_cientifico": "Rhinella henseli (Lutz, 1934)",
+  "nome_cientifico_atual": "Rhinella henseli (Lutz, 1934)",
+  "nome_comum": "Sapo-cururuzinho",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17573.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=48724e4a5669724675374566636455444938714e39773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella henseli</i>&nbsp;<span>(Lutz, 1934)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "17/03/2025",
+      "justificative": "<p><em>Rhinella henseli</em> é endêmica do Brasil e possui ampla distribuição nos biomas Mata Atlântica e Pampa, com registros para os estados do Paraná, Santa Catarina e Rio Grande do Sul. É uma espécie frequente nas áreas de ocorrência e não há ameaças diretas significativas que possam colocá-la em risco e extinção. Portanto, <em>Rhinella henseli</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Rhinella henseli</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17573.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17573.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14909,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella henseli</i>"
+        }
+      ],
+      "oldNames": "Bufo crucifer var. henseli, Bufo henseli, Chaunus henseli",
+      "commonNames": "Sapo-cururuzinho",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Rhinella henseli </em>é endêmica do Brasil, ocorre nos biomas Mata Atlântica e Pampa, com ampla distribuição nos estados de Rio Grande do Sul, Santa Catarina e Paraná (Braun &amp; Braun, 1980; Baldissera <em>et al</em>., 2004; Lima <em>et al</em>., 2005; Lucas, 2008; Lucas &amp; Fortes, 2008; Lucas &amp; Marocco, 2011; Lema &amp; Martins, 2011). Maneyro e Kwet (2008) indicam a provável ocorrência na Argentina, em Missiones e Corrientes. </p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina",
+      "biomes": "Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema, Sub-bacia Uruguai Alto, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/67324865376e55436148717a706e3344766e5478326735485a6f71446c594979677475474c702b63635646777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Registros de Rhinella henseli",
+        "diskFileName": "a34b9a8c5ffd0f2cd307d80fcfde7383.png",
+        "fileName": "Mapa de Rhinella henseli.png"
+      },
+      "simplified": false,
+      "vlEoo": "302027.00",
+      "vlAoo": "",
+      "eooCalculationMemory": "<p><span lang=\"pt-BR\">Sua extensão de ocorrência calculada é de km</span><sup><span lang=\"pt-BR\">2</span></sup><span lang=\"pt-BR\">, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</span></p>",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Rhinella henseli </em>é encontrada em áreas florestais. Sua reprodução explosiva se dá em remansos de riachos, córregos e poças, onde seus girinos se desenvolvem.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2006,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Baldissera, 2006",
+              "title": "Baldissera, F. (2006) <i>Rhinella henseli</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61752A12554283\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61752A12554283</a>. [Acessado em: 13/mar/2018]."
+            }
+          ],
+          "orderBy": "Y2006"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Chapecó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Irati",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Araucárias",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lucas & Marocco, 2011",
+              "title": "Anurofauna (Amphibia, Anura) em um remanescente de Floresta Ombrófila Mista no Estado de Santa Catarina, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA São Joaquim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO PAPAGAIO-CHARãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zanella, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL FRITZ PLAUMANN",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bastiani, 2012",
+              "title": "Anfíbios anuros (Amphibia, Anura) de um remanescente de Floresta Estacional no sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLóGICA ESTADUAL MATA PALUDOSA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE SERTãO",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Zanella <i>et al.</i>, 2013",
+              "title": "Herpetofauna do Parque Natural Municipal de Sertão, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Ugioni, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Baldissera, F. (2006) <i>Rhinella henseli</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61752A12554283\">http://dx.doi.org/10.2305/IUCN.UK.2006.RLTS.T61752A12554283</a>. [Acessado em: 13/mar/2018].",
+          "Baldissera, F.A., Caramaschi, U. &amp; Haddad, C.F.B. (2004) Review of the <i>Bufo crucifer species</i> group, with descriptions of two new related species (Amphibia, Anura, Bufonidae). <i>Arquivos do Museu Nacional Rio de Janeiro</i>. 62 (3), 255-282.",
+          "Braun, P.C. &amp; Braun, C.A.S. (1980) Lista prévia dos anfíbios do Estado do Rio Grande do Sul, Brasil. <i>Iheringia, Série Zoologia</i>. 56 (56), 121-146.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Governo do Estado do Paraná 05/06/2024 <i>Decreto nº 6.040. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lima, A.M.X., Rodrigues, R G., Bittencourt, S., Condrati, L.H. &amp; Machado, R.A. (2005) Geographic distribution: <i>Bufo henseli</i>. <i>Herpetological Review</i>. 36 (2), 198.",
+          "Lucas, E.M. &amp; Marocco, J.C. (2011) Anurofauna (Amphibia, Anura) em um remanescente de Floresta Ombrófila Mista no Estado de Santa Catarina, Sul do Brasil. <i>Biota Neotropica</i>. 11 (1), 377-384.",
+          "Lucas, E.M. (2008) <i>Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil</i>. Tese de Doutorado. Universidade de São Paulo. São Paulo. 202pp.",
+          "Maneyro, R. &amp; Kwet, A. (2008) Amphibians in the border region between Uruguay and Brazil: updated species list with comments on taxonomy and natural history (Part I: Bufonidae). <i>Stuttgarter Beiträge zur Naturkunde. Serie A, Biologie. Neue Serie</i>. 1, 95-121."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

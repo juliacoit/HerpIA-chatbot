@@ -1,0 +1,310 @@
+{
+  "id_ficha": "37526f2b546c52436965326441517a4c3544746554513d3d",
+  "nome_cientifico": "Physalaemus lateristriga (Steindachner, 1864)",
+  "nome_cientifico_atual": "Physalaemus lateristriga (Steindachner, 1864)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17837.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=37526f2b546c52436965326441517a4c3544746554513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus lateristriga</i>&nbsp;<span>(Steindachner, 1864)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "20/02/2025",
+      "justificative": "<p><em>Physalaemus lateristriga</em> é endêmica do Brasil, com distribuição entre o sul do estado de São Paulo e Santa Catarina. Trata-se de espécie abundante, frequente e de ampla distribuição. Não há ameaças significativas que possam colocá-la em risco de extinção. Portanto, <em>Physalaemus lateristriga</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Physalaemus lateristriga</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17837.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17837.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15004,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus lateristriga</i>"
+        }
+      ],
+      "oldNames": "Nattereria lateristriga, Physalaemus personatus",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Physalaemus lateristriga</em> é endêmica do Brasil, com ocorrência na Mata Atlântica entre o sul do estado de São Paulo e Santa Catarina (Cassini <em>et al</em>., 2010; Batista &amp; Bastos, 2014; Crivellari <em>et al.,</em> 2014; Wachlevski <em>et al.,</em> 2014; Leivas <em>et al.,</em> 2015; Leivas &amp; Hiert, 2016). Sua extensão de ocorrência é de 62.149km2, tomando por base o mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/494c4e70784a792b6f44347070644a33662b62445a51386d466e4b46753049625966464e496e5041705a446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Registros de Physalaemus lateristriga.",
+        "diskFileName": "6c40d3d9a8f28a6e727d43a1bcb2260b.png",
+        "fileName": "Mapa de Physalaemus lateristriga.png"
+      },
+      "simplified": false,
+      "vlEoo": "62149.00",
+      "vlAoo": "",
+      "eooCalculationMemory": "<p>Sua extensão de ocorrência é de 62.149km<sup>2</sup>, tomando por base o mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> A espécie encontrada na serapilheira em ambientes florestais, inclusive bordas; a reprodução se dá em lagoas temporárias formadas após fortes chuvas, e a desova é colocada na forma de um ninho de espuma (Cassini <em>et al</em>., 2010). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> A espécie é comum e abundante ao longo de sua distribuição.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não existem ameaças evidentes que possam afetar a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília, 4162pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cassini <i>et al.</i>, 2010",
+              "title": "Taxonomic review of <i>Physalaemus olfersii</i> (Lichtenstein & Martens, 1856) with revalidation of <i>Physalaemus lateristriga</i> (Steindachner, 1864) and description of two new related species (Anura: Leiuperidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Farias, 2014",
+              "title": "Colonização de poças artificiais por anfíbios anuros na Mata Atlântica, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO VERDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leivas & Hiert, 2016",
+              "title": "Anuran richness in remnants of Araucaria Forest, Paraná, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Yanzen & Costa, 2014",
+              "title": "Anurofauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Mariotto, 2014",
+              "title": "Anfíbios de um Gradiente Altitudinal em Mata Atlântica"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Não há.</p>",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Batista, V.G. &amp; Bastos, R.P. (2014) Anurans from a Cerrado-Atlantic Forest ecotone in Campos Gerais region, southern Brazil. <i>Check List</i>. 10 (3), 574-582.",
+          "Cassini, C.S., Cruz, CAG. &amp; Caramaschi, U. (2010) Taxonomic review of <i>Physalaemus olfersii</i> (Lichtenstein & Martens, 1856) with revalidation of <i>Physalaemus lateristriga</i> (Steindachner, 1864) and description of two new related species (Anura: Leiuperidae). <i>Zootaxa</i>. 2491, 1-33.",
+          "Crivellari, L.B., Leivas, P.T., Leite, J.C.M., Gonçalves, D.S., Mello, C.M., Rossa-Feres, D.C. &amp; Conte, C.E. (2014) Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos). <i>Herpetology Notes</i>. 7, 639-654.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Governo do Estado do Paraná 05/06/2024 <i>Decreto nº 6.040. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília, 4162pp.",
+          "Leivas, P.T. &amp; Hiert, C. (2016) Anuran richness in remnants of Araucaria Forest, Paraná, Brazil. <i>Herpetology Notes</i>. 9, 15-21.",
+          "Leivas, P.T., Beltramin, A.S., Machado, R.A. &amp; Moura, M.O. (2015) Anuran richness (Amphibia: Anura) in remnant forest fragments of Araucaria Forest and Atlantic Rainforest in Paraná, Brazil. <i>Herpetology Notes</i>. 8, 661-667.",
+          "Wachlevski, M., Erdtmann, L.K. &amp; Garcia, P.C.A. (2014) Anfíbios anuros em uma área de Mata Atlântica da Serra do Tabuleiro, Santa Catarina. <i>Biotemas</i>. 27 (2), 97-107."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

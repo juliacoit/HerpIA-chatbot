@@ -1,0 +1,386 @@
+{
+  "id_ficha": "544c7a7a664b70746875393937387653486255336e773d3d",
+  "nome_cientifico": "Bothrops otavioi Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012",
+  "nome_cientifico_atual": "Bothrops otavioi Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)",
+  "bioma": null,
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25547.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=544c7a7a664b70746875393937387653486255336e773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops otavioi</i>&nbsp;<span>Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Bothrops otavioi</em> é endêmica do Brasil, registrada somente na Ilha da Vitória, no litoral norte do estado de São Paulo. Sua extensão de ocorrência é de 2,2 km2, que corresponde à área da ilha, e a sua área de ocupação é estimada em 1,87 km2, que corresponde à área da ilha excluindo os ambientes rochosos. A ilha é habitada por comunidades de pescadores que, por meio das atividades agrícolas e introdução de animais domésticos, provocam declínio continuado da qualidade do hábitat de <em>B. otavioi</em>, além do declínio do número de indivíduos maduros pela eliminação direta. Considerando apenas uma localização, <em>Bothrops otavioi</em> foi categorizada como Criticamente em perigo (CR) pelos critérios B1ab(iii,v)+2ab(iii,v).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Bothrops otavioi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25547.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25547.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 18416,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops otavioi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bothrops otavioi</em> é endêmica do Brasil, conhecida apenas da localidade-tipo, a Ilha da Vitória, localizada próxima a Ilhabela, no litoral norte do estado de São Paulo (Barbo <em>et al</em>., 2012). Sua extensão de ocorrência foi calculada em 3 km2, considerando um mínimo polígono convexo que abrange toda a illha, e a sua área de ocupação é estimada em 1,87 km2, que corresponde à área da ilha coberta por vegetação, sem rochas.</p> \n<p> </p>",
+      "nationalDistribution": "",
+      "states": "São Paulo",
+      "biomes": "",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6644527467442f7754326b35616a43665955715869687a33333275493647774e44312b7545666157387a684b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_ Bothrops otavioi",
+        "diskFileName": "f092f92d190dec5133dac5bbafcdb18d.png",
+        "fileName": "Mapa de Bothrops otavioi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A cobertura vegetal da ilha da Vitória é formada principalmente por matas de encosta sucessional, com manchas de matas mais preservadas em locais de difícil acesso (Sartorello, 2010). A espécie alimenta-se de anuros e atinge 1.000 mm de comprimento rostro-cloacal, com maturidade sexual ocorrendo com tamanho relativamente pequeno (388 mm nos machos e 692 mm nas fêmeas) (Barbo<em> et al</em>., 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A Ilha da Vitória é habitada por comunidades de pescadores. Em 2010 residiam oito famílias, com cerca de 60 pessoas, que ocupam principalmente a porção central da metade norte da ilha (Sartorello, 2010). Há cultivo principalmente de mandioca, mas também de café, cana-de-açúcar e plantas frutíferas (Sartorello, 2010) e presença de animais domésticos, atividades que impactam e avançam sobre o hábitat da espécies (Barbo <em>et al</em>. 2012). Além disso, há eliminação direta da espécie pelos moradores. Considerando as ameaças, foi considerada apenas uma localização.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.2 - Agricultura em pequenas propriedades",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "8 - Espécies invasoras, problemáticas e doenças|8.2 - Espécies domésticas|8.2.2 - Predadores",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Bothrops insularis</em> é espécie alvo do Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil (ICMBio, 2015). É importante a manutenção dos ambientes naturais da ilha. A espécie está incluída no acordo de cooperação entre o Instituo Chico Mendes e a Sociedade de Zoológicos do Brasil (SZB), que prevê a implementação de um programa de manejo <em>ex situ</em>.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2019,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii,v)+2ab(iii,v)",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2023",
+              "title": "Martins, M., Nogueira, C.C., Guidorizzi, C.E., Andrade, S.P., Bataus, Y.S.L., Abrahão, C.R., Argôlo, A.J.S., Barbo, F.E., Bérnils, R.S., Martins, M.B., Colli, G.R., Costa, H.C., Frazão, L., Guedes, T., Ribeiro, R.A.K., Loebmann, D., Marques, O.A.V., Maschio, G.F., Oliveira, M.E.E.S., Oliveira, R.B., Pantoja, D.L., Passos, P.G.H., Ribeiro, L.B., Silveira, A.L., Strüssmann, C. &amp; Silva, W.V. (2023) <i>Bothrops otavioi Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2019"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii,v)+2ab(iii,v)",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2018",
+              "title": "Martins, M.R.C., Nogueira, C.C., Fiorillo, B.F., Azevedo, Y.A.R., Bataus, Y.S.L., Uhlig, V.M., Silveira, A.L., Argôlo, A.J.S., Abrahão, C.R., Strüssmann, C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J B., Zaher, H.D., Martins, M.B., Oliveira, M.E.E.S., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Ribeiro, R.A.K., Sawaya, R.J. &amp; Costa, T.B.G. (2018) <i>Bothrops otavioi</i> Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012 In: ICMBio (ed.) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume IV – Répteis</i>. Brasília, DF, ICMBio/MMA,"
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            },
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Ameaçada (AMEACADA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>."
+            }
+          ]
+        },
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Reprodução em cativeiro/propagação artificial",
+          "situation": "Em Implementação",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA MARINHA DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barbo <i>et al.</i>, 2012",
+              "title": "A new threatened insular species of lancehead from Sotheastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Barbo, F.E.; Grazziotin, F.G.; Sazima, I.; Martins, M. &amp; Sawaya, R.J., 2012. A new threatened insular species of lancehead from Sotheastern Brazil. Herpetologica, 68 (3): p.418--429.",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Estado de São Paulo 27/11/2018. Decreto nº 63.853, de 27 de novembro de 2018: Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html</a>. Acessado em: 22/07/2022.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "Martins, M.R.C.; Nogueira, C.C.; Fiorillo, B.F.; Azevedo, Y.A.R.; Bataus, Y.S.L.; Uhlig, V.M.; Silveira, A.L.; Argôlo, A.J.S.; Abrahão, C.R.; Strüssmann, C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J B.; Zaher, H.D.; Martins, M.B.; Oliveira, M.E.E.S.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Ribeiro, R.A.K.; Sawaya, R.J. &amp; Costa, T.B.G., 2018. <i>Bothrops otavioi</i> Barbo, Grazziotin, Sazima, Martins & Sawaya, 2012. <i>In</i>:ICMBio. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume IV – Répteis, ICMBio/MMA Brasília, DF.",
+          "Sartorello, R. 2010. <b>Ilhas do litoral norte do estado de São Paulo: paisagem e conservação</b>. Dissertação de Mestrado. Departamento de Geografia da Faculdade de Filosofia, Letras e Ciências Humanas da Universidade de São Paulo. São Paulo. p.160."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,929 @@
+{
+  "id_ficha": "7831626f716e72504f7848345a4a4e6b6e58753643413d3d",
+  "nome_cientifico": "Spilotes sulphureus (Wagler in Spix, 1824)",
+  "nome_cientifico_atual": "Spilotes sulphureus (Wagler in Spix, 1824)",
+  "nome_comum": "caninana",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27899.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=7831626f716e72504f7848345a4a4e6b6e58753643413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Spilotes sulphureus</i>&nbsp;<span>(Wagler in Spix, 1824)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "18/05/2026",
+      "justificative": "<p><em>Spilotes sulphureus </em>possui ampla distribuição no norte da América do Sul. No Brasil, é amplamente distribuída na Amazônia e Cerrado da região Centro-Oeste, ocorrendo também, de forma disjunta, na Mata Atlântica costeira das regiões Nordeste e Sudeste. Pode ser encontrada em diferentes fitofisionomias e também em áreas perturbadas. É relativamente comum e não foram identificadas ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>S. sulphureus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Spilotes sulphureus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27899.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27899.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/4d746b51595a654b53744930467669323361335a45513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19115,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Colubridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Spilotes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Spilotes sulphureus</i>"
+        }
+      ],
+      "oldNames": "Coluber poecilostoma, Natrix sulphurea, Paraphrynonax versicolor, Phrynonax sulphureus, Pseustes sulphureus, Spilotes poecilostoma",
+      "commonNames": "caninana",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Spilotes sulphureus </em>possui ampla distribuição no norte da América do Sul, incluindo a Ilha de Trinidad e Tobago, até o sudeste do Brasil (Amaral, 1977; Fugler <em>et al</em>., 1995; Marques &amp; Calleffo, 1997; Lehr, 2002; Hailey &amp; Cazabon-Mannette, 2011; Catenazzi <em>et al</em>., 2013; Cole <em>et al</em>., 2013).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é amplamente distribuída na Amazônia, no Cerrado e na Mata Atlântica costeira das regiões Nordeste e Sudeste, além de ocorrer em enclaves de floresta úmida na Caatinga (Cunha &amp; Nascimento, 1978; Lisboa <em>et al</em>., 2009; Roberto &amp; Loebmann, 2016; Prudente <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Paraíba, Rio de Janeiro, Rondônia, São Paulo, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Parnaíba Baixo, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7648726e5441795865555676794c4c58455275435851354d7a2f6c5373686c4c45553279675141636b456f7644426c347748384e476b4d725073304275487441",
+        "legend": "Spilotes sulphureus",
+        "diskFileName": "b3d20ec02bbb3d0dd14f84365b353b4b.png",
+        "fileName": "Mapa de Spilotes sulphureus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Spilotes sulphureus </em>ocorre nos domínios de Mata Atlântica, Floresta Amazônica, Cerrado e enclaves de mata úmida na Caatinga, inclusive em áreas perturbadas (Borges-Nojosa, 2006; Martins <em>et al</em>., 2008; Bérnils, 2009; Loebmann &amp; Haddad, 2010; Nogueira <em>et al</em>., 2010). É diurna e semi-arborícola (Silva <em>et al</em>., 1985; Martins &amp; Oliveira, 1998; Martins <em>et al</em>., 2008). Martins &amp; Oliveira (1998) relataram fecundidade de sete a 11 ovos e sugerem que os nascimentos ocorram ao longo de todo ano. Alimenta-se de lagartos, aves e pequenos mamíferos (Beebe, 1946; Cunha &amp; Nascimento, 1978; Duellman, 1978; Murphy, 1997).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Spilotes sulphureus </em>é considerada comum. É uma das serpentes mais abundantes da Serra da Medanha, RJ (Pontes <em>et al</em>., 2009).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Ceará",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(i,iii)",
+          "refBibs": [
+            {
+              "label": "Secretaria Estadual do Meio Ambiente e Mudança do Clima - SEMA/CE, 2022",
+              "title": "Secretaria Estadual do Meio Ambiente e Mudança do Clima - SEMA/CE 2022 <i>Portaria nº 146, de 27 de setembro de 2022. Dispõe sobre a lista vermelha dos anfíbios e répteis continentais ameaçados de extinção do Ceará. Diário Oficial do Estado – CE.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 1998",
+              "title": "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESEC da Serra das Araras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos-Costa <i>et al.</i>, 2015",
+              "title": "Natural history of snakes from Floresta Nacional de Caxiuanã, eastern Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Monitoramento da Herpetofauna das Áreas Florestais Adjacentes à Mineração de Bauxita na FLONA de Saracá-Taquera, Amazônia Central, Estado do Pará, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Tefé",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Nascentes do Lago Jari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Frazão <i>et al.</i>, 2019",
+              "title": "Species richness and composition of snake assemblages in poorly accessible areas in the Brazilian Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Lontras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO da Mata Escura",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Uatumã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Maracanã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Verde para Sempre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Boa Nova",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTEçãO AMBIENTAL DO RIO GUANDU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DO JUNCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL IGAPÓ-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CATUÁ-IPIXUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO LAGO DE TUCURUI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Lisboa <i>et al.</i>, 2009",
+              "title": "Primeiro registro de <i>Pseustes sulphureus</i> (Wagler, 1824) (Serpentes: Colubridae) no Estado de Alagoas, Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Adão e Eva",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN El Nagual",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Manacá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pindorama - BA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Feliciano Miguel Abdala",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Laço de Amor",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Mato Grosso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Natural da Serra do Teimoso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Seringal Assunção",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Marques & Calleffo, 1997",
+              "title": "Geographic distribution: <i>Pseustes sulphureus</i>"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Araguaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Tumucumaque",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Xingu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Olivença",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Xikrin do Rio Catete",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Andrade <i>et al.</i>, 2017",
+              "title": "<I>Spilotes sulphureus</i> Wagler, 1824 (Squamata: Colubridae): review of distribution and first record in the state of Sergipe, northeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Amaral, A. (1977) <i>Serpentes do Brasil. Iconografia colorida</i> Edição 2ª São Paulo, Edições Melhoramentos, 248pp.",
+          "Beebe, W. (1946) Field notes on the snakes of Kartabo, British Guiana, and Caripito, Venezuela. <i>Zoologica</i>. 31, 11-52.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Borges-Nojosa, D.M., Loebmann, D., Lima, D.C., Melo, J.C.L. &amp; Mai, A.C.G. (2006) Reptilia, Colubridae, <i>Pseustes sulphureus</i>: distribution extension, new state record. <i>Check List</i>. 2 (3), 79-81.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Bérnils, R.S. (2009) <i>Composição e padrões de distribuição de Caenophidia (Squamata, Serpentes) das Serras Atlânticas e Planaltos do Sudeste da América do Sul</i>. Tese de Doutorado. Museu Nacional, Universidade Federal do Rio de Janeiro. Rio de Janeiro.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Cunha, O.R. &amp; Nascimento, F.P. (1978) Ofídios da Amazônia X - As cobras da região leste do Pará. <i>Publicações Avulsas do Museu Paraense Emílio Goeldi</i>. 31, 1-218.",
+          "Duellman, W.E. (1978) The biology of an equatorial herpetofauna in Amazonian Ecuador. <i>Miscellaneous publication - University of Kansas, Museum of Natural History</i>. (65), 34.",
+          "Fugler, C. M., De La Riva, I. &amp; Cabot, J. (1995) Herpetologica boliviana: una lista comentada de las serpientes de Bolivia con datos sobre su distribucion. <i>Ecologia en Bolivia</i>. 24, 40-87.",
+          "Hailey, A. &amp; Cazabon-Mannette, M. (2011) Conservation of herpetofauna in the Republic of Trinidad and Tobago In: Hailey, Wilson & Horrocks (eds.) <i>Conservation of Caribbean island herpetofaunas, Volume 1</i>. Leiden, Brill, p. 183–217.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lehr, E. (2002) <i>Amphibien und Reptilien in Peru</i> Münster, Natur und Tier-Verlag, 208pp.",
+          "Lisboa, S.B., Tiburcio, S.C.I. Silva, T.S. &amp; Sugliano, S.O.G. (2009) Primeiro registro de <i>Pseustes sulphureus</i> (Wagler, 1824) (Serpentes: Colubridae) no Estado de Alagoas, Nordeste do Brasil. <i>Biotemas</i>. 22 (4), 237–240.",
+          "Loebmann, D. &amp; Haddad, C.F.B. (2010) Amphibians and reptiles from a highly diverse area of the Caatinga domain: composition and conservation implications. <i>Biota Neotropica</i>. 10 (3), 227-256.",
+          "Marques, O.A.V. &amp; Calleffo, M.E. (1997) Geographic distribution: <i>Pseustes sulphureus</i>. <i>Herpetological Review</i>. 28 (3), 160.",
+          "Martins, M. &amp; Oliveira, E.M. (1998) Natural history of snakes in forests of the Manaus region, central Amazonia, Brazil. <i>Herpetological Natural History</i>. 6, 78–150.",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2008) How to be arborial and diurnal and still stay alive: microhabitat use, time of activity, and defense in neotropical forest snakes. <i>South American Journal of Herpetology</i>. 3 (1), 58-67.",
+          "Murphy, J.C. (1997) Amphibians and reptiles of Trinidad and Tobago. <i>Krieger Publishing Company, Malabar, Florida</i>. 245p.+172plates.",
+          "Nogueira, C., Colli, G.R., Costa, G.C. &amp; Machado, R.B. (2010) Diversidade de répteis Squamata e evolução do conhecimento faunístico no Cerrado In: Diniz & Marinho-Filho (eds.) <i>Cerrado: conhecimento científico quantitativo como subsídio para ações de conservação</i>. Brasília - DF, Editora UnB, pp. 333-375.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Pontes, J.A.L., Pontes, R.C. &amp; Rocha, C.F.D. (2009) The snakes community of Serra do Mendanha, in Rio de Janeiro state, southeastern Brazil: composition, abundance, richness and diversity in areas with different conservation degrees. <i>Brazilian Journal of Biology</i>. 69, 795--804.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Santos, P.S. (2013) <i>Herpetofauna do Corredor Sossego-Caratinga, Mata Atlântica no Sudeste do Brasil: estruturas das comunidades e influência da paisagem</i>. Tese de Doutorado. Universidade Federal de Minas Gerais. Belo Horizonte.",
+          "Secretaria Estadual do Meio Ambiente e Mudança do Clima - SEMA/CE 2022 <i>Portaria nº 146, de 27 de setembro de 2022. Dispõe sobre a lista vermelha dos anfíbios e répteis continentais ameaçados de extinção do Ceará. Diário Oficial do Estado – CE.</i>",
+          "Silva L.J.L., Valdez, J. &amp; Ojasti, J. (1985) Algunos aspectos de una comunidad de ofidios del norte de Venezuela. <i>Biotropica</i>. 17 (2), 112-125.",
+          "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

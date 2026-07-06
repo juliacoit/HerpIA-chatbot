@@ -1,0 +1,366 @@
+{
+  "id_ficha": "714153513439724f686b51713168477064324e2b4d413d3d",
+  "nome_cientifico": "Thoropa megatympanum Caramaschi & Sazima, 1984",
+  "nome_cientifico_atual": "Thoropa megatympanum Caramaschi & Sazima, 1984",
+  "nome_comum": "Rã-do-paredão",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20275.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=714153513439724f686b51713168477064324e2b4d413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Thoropa megatympanum</i>&nbsp;<span>Caramaschi & Sazima, 1984</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Thoropa megatympanum</em> é endêmica do Brasil e possui registros de ocorrência na Serra do Espinhaço e Serra do Cipó, no estado de Minas Gerais. Sua extensão de ocorrência foi calculada em 29.100km2. A espécie é encontrada em campos rupestres, onde é abundante, e não há evidências de declínios populacionais. Não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Por essas razões, <em>Thoropa megatympanum</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Thoropa megatympanum</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20275.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20275.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15695,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Cycloramphidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Thoropa</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Thoropa megatympanum</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Rã-do-paredão",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Thoropa megatympanum</em> é endêmica do Brasil e possui registros de ocorrência na Serra do Espinhaço e Serra do Cipó, no estado de Minas Gerais (Caramaschi &amp; Sazima, 1984; Eterovick &amp; Sazima, 2004; Canelas &amp; Bertoluci 2007; Fitzpatrick <em>et al.</em> 2009; Sabbag, 2013). Sua extensão de ocorrência foi calculada em 29.100 km2, via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5964625370456f6d483555342f674f697634614f7a426d665350756770575a59496a5168706a434e6966497644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "803bfa824563f52d35b12a3d8ecf2183.png",
+        "fileName": "Mapa de Thoropa megatympanum.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Thoropa megatympanum </em>habita campos rupestres, sendo encontrada sobre rochas próximas a riachos e cachoeiras. Sua reprodução ocorre em riachos, onde os ovos são depositados em fissuras nas rochas e os girinos se desenvolvem na película de água sobre as rochas (Caramaschi <em>et al</em>., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum e sua tendência populacional é estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2010",
+              "title": "Caramaschi, U., Nascimento, L.B. &amp; Silvano, D. (2010) <i>Thoropa megatympanum</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57370A11628013\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57370A11628013</a>. [Acessado em: 15/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA do Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Eterovick & Sazima, 2000",
+              "title": "Structure of an anuran community in a montane meadow in southeastern Brazil: effects of seasonality, habitat, and predation"
+            },
+            {
+              "label": "Nascimento, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Rodrigues, 2015",
+              "title": "Anfíbios da Serra dos Alves (Itabira, Minas Gerais): composição e atividade reprodutiva"
+            },
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            },
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Sempre-Vivas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO CABRAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA NOVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leite <i>et al.</i>, 2008",
+              "title": "Status do conhecimento, endemismo e conservação de anfíbios anuros da Cadeia do Espinhaço, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Cruzeiro",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre distribuição geográfica e história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Canelas, M.A.S. &amp; Bertoluci, J. 2007. Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal. <b>Iheringia, Série Zoologia</b>, 97: p.21-26.",
+          "Caramaschi, U. &amp; Sazima, I. 1984. Uma nova espécie de <I>Thoropa</i> da Serra do Cipo, Minas Gerais, Brasil (Amphibia, Leptodactylidae). <b>Revista Brasileira de Zoologia</b>, 2 (3): p.139-146.",
+          "Caramaschi, U.; Nascimento, L.B. &amp; Silvano, D. 2010. <i>Thoropa megatympanum</i>. <b>The IUCN Red List of Threatened Species 2010</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57370A11628013\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57370A11628013</a>. Acessado em: 15/08/2012.",
+          "Eterovick, P.C. &amp; Sazima, I. 2004. <b>Anfíbios da Serra do Cipó, Minas Gerais - Brasil</b>. p.152. PUC Minas Belo Horizonte.",
+          "Fitzpatrick, S.W.; Brasileiro, C.A.; Haddad, C.F.B. &amp; Zamudio, K.R. 2009. Geographical variation in genetic structure of an Atlantic Coastal Forest frog reveals regional differences in habitat stability. <b>Molecular Ecology</b>, 18 (13): p.2877-2896.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Sabbag, A.F. 2013. <b>Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)</b>. Dissertação de Mestrado. Universidade Estadual Paulista. São José do Rio Preto. p.84."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

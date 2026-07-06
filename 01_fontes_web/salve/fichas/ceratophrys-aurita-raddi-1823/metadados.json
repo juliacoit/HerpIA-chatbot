@@ -1,0 +1,551 @@
+{
+  "id_ficha": "375343373172596f7276536d69465a4631532b4363413d3d",
+  "nome_cientifico": "Ceratophrys aurita (Raddi, 1823)",
+  "nome_cientifico_atual": "Ceratophrys aurita (Raddi, 1823)",
+  "nome_comum": "Intanha, Sapo-intanha",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Caatinga, Mata Atlântica",
+  "periodo_avaliacao": "11/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.18302.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=375343373172596f7276536d69465a4631532b4363413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Ceratophrys aurita</i>&nbsp;<span>(Raddi, 1823)</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "09/01/2023",
+      "justificative": "<p><em>Ceratophrys aurita</em> é endêmica do Brasil, do bioma Mata Atlântica, com registros confirmados para os estados da Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro e São Paulo. Trata-se de espécie florestal, de reprodução explosiva e baixo grau de detectabilidade. Apesar da distribuição ampla, há registros mais recentes somente para os estados do Espírito Santo e Bahia. No estado de São Paulo, os últimos registros são de 1995. Não se sabe exatamente as ameaças que estão afetando a espécie e nem a magnitude do provável declínio populacional. Sendo assim, <em>Ceratophrys aurita</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Ceratophrys aurita</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.18302.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.18302.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15093,
+      "deleted": false,
+      "lastAvaliationDate": "29/11/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Ceratophryidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Ceratophrys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Ceratophrys aurita</i>"
+        }
+      ],
+      "oldNames": "Bufo auritus, Ceratophris clipeata, Ceratophryne dorsata, Ceratophrys (Ceratophrys) aurita, Ceratophrys clypeata, Ceratophrys dorsata, Ceratophrys varia, Ceratophrys varius, Rana macrocephala, Stombus dorsatus",
+      "commonNames": "Intanha, Sapo-intanha",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Ceratophrys aurita </em>é endêmica do Brasil, com registros predominantes na Mata Atlântica nos estados da Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro e São Paulo (Heyer <em>et al.</em>, 1990; Giaretta, 1999; Izecksohn &amp; Carvalho-Silva, 2001; Santos, 2003; Silvano &amp; Pimenta, 2003; Pombal Jr &amp; Gordo, 2004; Ramos &amp; Gaspaini, 2004; Pomba Jr. &amp; Haddad, 2005; Assis, 2009; Targino &amp; Wild, 2009; Solé <em>et al.</em>, 2010; Almeida <em>et al</em>., 2011; Garey, 2012; Moura <em>et al.</em>, 2012; Dias <em>et al</em>., 2014; Luiz <em>et al.</em>, 2016; Lyra <em>et al.</em>, 2017; Vancine <em>et al.</em>, 2018). Sua localidade-tipo é a Serra da Estrela, Inhomirim, município de Magé, no estado do Rio de Janeiro (Bokermann, 1966).</p> \n<p>Carvalho-e-Silva <em>et al</em>. (2004) e Rossa-Feres <em>et al.,</em> (2017) citam a ocorrência da espécie para a região sul do Brasil, nos estados de Santa Catarina, Paraná e Rio Grande do Sul, e o último registro para a região Sul teria sido na década de 1980 (M. Segalla, com. pess., 2010). Contudo, a ocorrência da espécie no sul do Brasil ainda precisa ser confirmada.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Caatinga, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/355642304b71792b4577376f523238384661477a4f7352503179753239496163787679386a48665765516e6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Ceratophrys aurita",
+        "diskFileName": "d27cc28467017b25085d4a28f99cec3b.png",
+        "fileName": "Mapa de Ceratophrys aurita.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> <em>Ceratophrys aurita </em>ocupa o chão de ambientes florestais da Mata Atlântica e é de difícil detecção, pois é extremamente camuflada. Possui reprodução explosiva e alimenta-se de invertebrados e pequenos vertebrados, inclusive outros anfíbios (R. Brandão, com. pess., 2018). A espécie foi registrada em ambientes de mata seca no Parque Nacional do Peruaçu e no município de Buritizeiro, no estado de Minas Gerais (R. Feio &amp; R. Brandão, com. pess., 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Ceratophrys aurita</em> parece ser bastante rara e é de difícil encontro (R. Brandão, com. pess., 2018). Em anos recentes, a espécie só tem sido encontrada nos estados do Espírito Santo e Bahia. Nos demais estados, não foi mais registrada, apesar da realização de pesquisas de campo com armadilhas de interceptação e queda. Em Ubatuba e Ribeirão Branco, estado de São Paulo, a espécie não é mais encontrada desde 1995 (R. Feio &amp; R. Brandão, com. pess., 2010). Sua população parece estar em declínio, mas não se sabe a magnitude da redução.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não se sabe quais ameaças são responsáveis pelo desaparecimento ou declínio populacional da espécie em muitas localidades. Ela pode ser capturada para o comércio ilegal, mas não se sabe o quanto essa atividade afeta a espécie.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "12 - Outras ameaças",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Existe interesse para comercialização ilegal da espécie como animal de estimação ou para zoológicos. Ela é anunciada como “brazilian horned frog” em sites de compra de animais.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Ceratophrys aurita </em>foi beneficiada no primeiro ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul (ICMBio, 2012; RAN, 2015). Contudo, como é espécie Menos Preocupante (LC) na avaliação nacional (ICMBio, 2018), não foi contemplada no segundo ciclo desse PAN (ICMBio, 2019).</p> \n<p> </p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2011,
+          "coverage": "Santa Catarina",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii,iv)+2ab(iii,iv)",
+          "refBibs": [
+            {
+              "label": "CONSEMA, 2011",
+              "title": "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+            }
+          ],
+          "orderBy": "X2011"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Espírito Santo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Gasparini <i>et al.</i>, 2007",
+              "title": "Gasparini, J.L., Almeida, A.P., Cruz, C.A.G. &amp; Feio, R.N. (2007) Os anfíbios ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Instituto de Pesquisas da Mata Atlântica, p. 140."
+            },
+            {
+              "label": "Passamani & Mendes, 2007",
+              "title": "Passamani, M. &amp; Mendes, S.L. (2007) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i> Vitória/ ES, Ipema - Institutos de Pesquisas da Mata Atlântica, 140pp."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2004,
+          "coverage": "Paraná",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mikich & Bérnils, 2004",
+              "title": "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp."
+            }
+          ],
+          "orderBy": "X2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Contendas do Sincorá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ramos, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Ramos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pombal Jr. & Gordo, 2004",
+              "title": "Anfíbios Anuros da Juréia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Assis, 2009",
+              "title": "Riqueza, distribuição temporal e utilização de habitats por anfíbios anuros na Serra do Brigadeiro, Minas Gerais"
+            },
+            {
+              "label": "Moura <i>et al.</i>, 2012",
+              "title": "Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil"
+            },
+            {
+              "label": "Santos, 2003",
+              "title": "Utilização de habitats, padrões de atividade reprodutiva e fenologia larval de uma taxocenose de anuros da Mata Atlântica do sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos & Gasparini, 2004",
+              "title": "Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Solé <i>et al.</i>, 2010",
+              "title": "Predation attempts on <I>Trachycephalus</i> cf. <i>mesophaeus</i> (Hylidae) by <I>Leptophis ahaetulla</i> (Colubridae) and <I>Ceratophrys aurita</i> (Ceratophryidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SURUí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários esforços de busca em seus locais de ocorrência, como a região do Vale do Ribeira, do Vale do Itajaí e a Serra do Brigadeiro. Além disso, estudos de história natural, aspectos populacionais e impactos das ameaças também são necessários.</p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A.P.; Gasparini, J.L. &amp; Peloso, P.L.V. 2011. Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’. <b>Check List</b>, 7 (4): p.542-560.",
+          "Assis, B. 2009. <b>Riqueza, distribuição temporal e utilização de habitats por anfíbios anuros na Serra do Brigadeiro, Minas Gerais</b>. Dissertação de Mestrado. Universidade Federal de Viçosa. Viçosa.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bokermann. W.C.A. 1966. <b>Lista Anotada das localidades tipo de anfibios brasileiros</b>. p.183. Servicio de Documentação, Universidade Rural São Paulo São Paulo.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P.; Peixoto, O.L. &amp; Segalla, M.V., 2004. <i>Ceratophrys aurita</i>. The IUCN Red List of Threatened Species 2004: e.T56335A11463751, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56335A11463751.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T56335A11463751.en</a>. Acessado em: 13/07/2010.",
+          "Dias, I.R.; Medeiros, T.T.; Vila-Nova, M.F. &amp; Solé, M. 2014. Amphibians of Serra Bonita, southern Bahia: a new hotpoint within Brazil’s Atlantic Forest hotspot. <b>ZooKeys</b>, 449: p.105-130.",
+          "Estado de Santa Catarina 06/12/2011. Resolução Consema No 002/2011: Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. p.02–08. Disponível em: <a target=\"_blank\" href=\"https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file\">https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file</a>. Acessado em: 22/07/2022.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Garey, M.V., 2012. Estrutura da comunidade de anfíbios do Parque Nacional da Serra da Bocaina, São Paulo, Brasil. Tese de Doutorado. Universidade Estadual Paulista. São José do Rio Preto. p.181.",
+          "Gasparini, J.L.; Almeida, A.P.; Cruz, C.A.G. &amp; Feio, R.N. 2007. Os anfíbios ameaçados de extinção no Estado do Espírito Santo. p.140. <i>In</i>: Passamani & Mendes. <b>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</b>. Instituto de Pesquisas da Mata Atlântica Vitória.",
+          "Giaretta, A.A. 1999. <b>Diversidade e densidade de anuros de serapilheira num gradiente altitudinal na Mata Atlântica costeira</b>. Tese de Doutorado. Universidade Estadual de Campinas. Campinas.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "Heyer, W.R.; Rand, A.S.; Cruz, C.A.G.; Peixoto, O.L. &amp; Nelson, C.E. 1990. Frogs of Boracéia. <b>Arquivos de Zoologia, São Paulo</b>, 31 (4): p.235-410.",
+          "ICMBio 17/02/2012. Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.1-3. Acessado em: 22/02/2012.",
+          "ICMBio 30/07/2019. Portaria nº 350 de 23 de julho de 2019, que aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.47. Disponível em: <a target=\"_blank\" href=\"https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080\">https://www.in.gov.br/en/web/dou/-/portaria-n-350-de-23-de-julho-de-2019-207683080</a>. Acessado em: 12/10/2019.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. 2001. <b>Anfíbios do município do Rio de Janeiro</b>. p.148. Editora UFRJ Rio de Janeiro.",
+          "Luiz, A.M.; Leão-Pires, T.A. &amp; Sawaya, R.J. 2016. Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil. <b>PlosOne</b>, 11 (5): p.e0153977.",
+          "Lyra, M.L.; Haddad, C.F.B. &amp; Azeredo-Espin, A.M.L. 2017. Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers. <b>Molecular Ecology Resources</b>, 17 (5): p.966-980.",
+          "Mikich, S.B. &amp; Bérnils, R.S. 2004. <b>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</b>. p.764. Instituto Ambiental do Paraná. Disponível em http://www.maternatura.org.br. (Acesso em 01/11/2011) Curitiba.",
+          "Moura, M.R.; Motta, A.P.; Fernandes, V.D. &amp; Feio, R.N. 2012. Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil. <b>Biota Neotropica</b>, 12 (1): p.209-235.",
+          "Passamani, M. &amp; Mendes, S.L. 2007. <b>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</b>. p.140. Ipema - Institutos de Pesquisas da Mata Atlântica Vitória/ ES.",
+          "Pombal Jr., J.P. &amp; Gordo, M. 2004. Anfíbios Anuros da Juréia. p.243-256. <i>In</i>:Marques & Dulepa. <b>Estação Ecológica Juréia-Itatins: Ambiente Físico, Flora e Fauna</b>. Holos São Paulo.",
+          "Pombal Jr., J.P. &amp; Haddad, C.F.B. 2005. Estratégias e modos reprodutivos de anuros (Amphibia) em uma poça permanente na Serra de Paranapiacaba, Sudeste do Brasil. <b>Papéis Avulsos de Zoologia</b>, 45 (15): p.201-213.",
+          "RAN, (Centro Nacional de Pesquisa e Conservação dos Répteis e Anfíbios) 2015. Relatório da 3a. Monitoria e Avaliação de Meio Termo do PAN Herpetofauna do Sul. Processo SEI: 02071.000084/2017-20. Goiânia - GO. p.56.",
+          "Ramos, A.D. &amp; Gasparini, J.L. 2004. <b>Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo</b>. Vitória: Gráfica Santo Antônio Vitória.",
+          "Santos, P.S. 2003. <b>Utilização de habitats, padrões de atividade reprodutiva e fenologia larval de uma taxocenose de anuros da Mata Atlântica do sudeste do Brasil</b>. Tese de Doutorado. Universidade Federal de Minas Gerais. Belo Horizonte.",
+          "Silvano, D. &amp; Pimenta, B. 2003. Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia. p.1-20. <i>In</i>: Prado <i>et al.</i>. <b>Corredor de Biodiversidade na Mata Atlântica do Sul da Bahia</b>. IESB/CI/CABS/UFMG/UNICAMP Ilhéus.",
+          "Solé, M.; Marciano-Jr, E.; Dias, I.R. &amp; Kwet, A. 2010. Predation attempts on <I>Trachycephalus</i> cf. <i>mesophaeus</i> (Hylidae) by <I>Leptophis ahaetulla</i> (Colubridae) and <I>Ceratophrys aurita</i> (Ceratophryidae). <b>Salamandra</b>, 46 (2): p.101-103.",
+          "Targino, M. &amp; Wild, E., 2009. Amphibia, Anura, Microhylidae, <i>Hyophryne histrio</i>: Distribution extension. Check List, 5: p.024–026.",
+          "Vancine, M.H.; Duarte, K.S.; Souza, Y.S.; Giovanelli, J.G.R.; Martins-Sobrinho, P.M.; Lopez, A.; Bovo, R.P.; Maffei, F.; Lion, M.B.; Ribeiro Jr., J.W.; Brassaloti, R.; Costa, C.O.R.; Sawakuchi, H.O.; Forti, L.R.; Cacciali, P.; Bertoluci, J.; Haddad, C.F.B. &amp; Ribeiro, M.C. 2018. Atlantic Amphibians: a data set of amphibian communities from the Atlantic Forests of South America. <b>Ecology</b>, 99 (7): p.1692-1692."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

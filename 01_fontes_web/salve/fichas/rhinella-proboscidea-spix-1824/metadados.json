@@ -1,0 +1,311 @@
+{
+  "id_ficha": "45334a46566b51375677715779343244364e372f34513d3d",
+  "nome_cientifico": "Rhinella proboscidea (Spix, 1824)",
+  "nome_cientifico_atual": "Rhinella proboscidea (Spix, 1824)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21505.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=45334a46566b51375677715779343244364e372f34513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinella proboscidea</i>&nbsp;<span>(Spix, 1824)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "14/05/2024",
+      "justificative": "<p><em>Rhinella proboscidea </em>ocorre na América do Sul, no bioma amazônico, sendo conhecida para o Brasil, Peru, Colômbia e possivelmente Equador. No Brasil, tem ampla distribuição, com registros nos estados de Rondônia, Amazonas e fronteira deste com o estado de Roraima. Embora necessite de revisão taxonômica, trata-se de espécie comum, que habita florestas primárias e secundárias. Não há evidência de ameaças que possam levar a espécie a risco de extinção. Além disso, ocorre em unidades de conservação. Por essas razões, <em>Rhinella proboscidea </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2024. <i>Rhinella proboscidea</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21505.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21505.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16549,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinella</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinella proboscidea</i>"
+        }
+      ],
+      "oldNames": "Bufo (Oxyrhynchus) proboscideus, Bufo proboscideus, Bufo (Rhinella) proboscideus, Eurhina proboscideus, Oxyrhynchus proboscideus, Rhinella proboscidea",
+      "commonNames": "",
+      "taxonomicNotes": "<p>É necessária revisão taxonômica da espécie. Os registros a sul do rio Amazonas, na região do rio Madeira, provavelmente são de espécie ainda não descrita (M. Ferrão, com. pess., 2018). </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p> <em>Rhinella proboscidea </em>ocorre no Brasil, na Colômbia, Peru e possivelmente no Equador  (Frost, 2018). </p>",
+      "nationalDistribution": "<p>No Brasil, tem ampla distribuição no bioma Amazônia, possui registros nos estados do Amazonas e Roraima (Lima <em>et al</em>., 2006; S. Bittencourt, dados SISBIO, 2008; GBIF, 2017).</p>",
+      "states": "Amazonas",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6b2b6f74337734736270356276424464747155636e68525a6d4c5862582b775641617a6d34574c504f67517644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa Rhinella proboscidea.",
+        "diskFileName": "db2fa8a15c789cb21ad760ece46bd62c.png",
+        "fileName": "Mapa de Rhinella proboscidea.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> Vive em florestas primárias e secundárias. Reproduz-se de forma explosiva em pequenas poças temporárias (Coloma <em>et al.</em>, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": "<p>Não há informação.</p>",
+      "populationObservations": "<p>Espécie muito comum (Coloma <em>et al.</em>, 2004). Tendência populacional, aparentemente, estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não são conhecidas ameaças que possam levar a espécie a algum risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Coloma <i>et al.</i>, 2004",
+              "title": "Coloma, L.A., Ron S., Gascon, G. &amp; Hoogmoed, M. (2004) <i>Rhinella proboscidea</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54737A11197047.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54737A11197047.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "REBIO Uatumã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "GBIF, 2017",
+              "title": "Global Biodiversity Information Facility: GBIF Occurrence Download"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL IGAPÓ-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "GBIF, 2017",
+              "title": "Global Biodiversity Information Facility: GBIF Occurrence Download"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CANUTAMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "GBIF, 2017",
+              "title": "Global Biodiversity Information Facility: GBIF Occurrence Download"
+            }
+          ]
+        },
+        {
+          "name": "AREA DE PROTECAO AMBIENTAL XERIUINI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Bittencourt, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Apurinã Igarapé Tauamirim",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "GBIF, 2017",
+              "title": "Global Biodiversity Information Facility: GBIF Occurrence Download"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bittencourt, S. (2008) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Coloma, L.A., Ron S., Gascon, G. &amp; Hoogmoed, M. (2004) <i>Rhinella proboscidea</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54737A11197047.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54737A11197047.en</a>.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "GBIF (2017) Global Biodiversity Information Facility: GBIF Occurrence Download. <a target=\"_blank\" href=\"https://www.gbif.org/occurrence/search\">https://www.gbif.org/occurrence/search</a>. [Acessado em: 18/fev/2017].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lima, A.P., Magnusson, W.E., Menin, M., Erdtmann, L.K., Rodrigues, D.J., Keller, C. &amp; Hödl, W. (2006) <i>Guia de sapos da Reserva Adolpho Ducke, Amazônia Central</i> Manaus, Áttema Design Editorial, 168pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

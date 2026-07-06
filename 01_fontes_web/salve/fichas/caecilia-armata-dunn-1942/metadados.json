@@ -1,0 +1,268 @@
+{
+  "id_ficha": "324a395a34353942346b4b6a6f32414e796136446c413d3d",
+  "nome_cientifico": "Caecilia armata Dunn, 1942",
+  "nome_cientifico_atual": "Caecilia armata Dunn, 1942",
+  "nome_comum": "Cecília",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": null,
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19291.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=324a395a34353942346b4b6a6f32414e796136446c413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Caecilia armata</i>&nbsp;<span>Dunn, 1942</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "09/01/2023",
+      "justificative": "<p><em>Caecilia armata </em>foi descrita em 1942 e é conhecida apenas do holótipo. Sua localidade-tipo é citada como \"provavelmente Brasil\", não havendo informações adicionais. Assim, sua distribuição é incerta. Considerando que há problemas taxonômicos e que não há informações sobre distribuição, população e possíveis ameaças, <em>Caecilia armata</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Caecilia armata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19291.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19291.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15448,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Caeciliidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Caecilia</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Caecilia armata</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Cecília",
+      "taxonomicNotes": "<p>A espécie necessita revisão taxonômica (Carnaval <em>et al</em>., 2004).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Caecilia</em> <em>armata</em> possui localidade-tipo citada como “no data, probably Brazil” (Dunn, 1942), sem especificar qualquer município, estado ou região de ocorrência. Assim, sua distribuição geográfica não é conhecida.</p>",
+      "nationalDistribution": "",
+      "states": "",
+      "biomes": "",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "",
+        "legend": "",
+        "diskFileName": "",
+        "fileName": ""
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há informações sobre sua história natural, mas, assim como outras espécies do gênero, deve possuir hábito fossorial (Carnaval <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Apenas o holótipo é conhecido, depositado no Museu Nacional da Universidade Federal do Rio de Janeiro (MNRJ 832) (Dunn, 1942). </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há informações sobre ameaças para a espécie, pois não se conhece sua distribuição. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista,F.A.Q., Maciel, A.O., Cruz, C.A.G., Loebmann, D., Silvano, D.L., Gonsales, E.M.L., Nomura, F., Leite, F.S.F., Pinto, H.B.A., Amaral, I.B., Nascimento, L.B., Sturaro, M.J., Hoogmoed, M.S., Kienle, M.S., Souza, M.B., Maciel, N.M., Colombo, P., Feio, R.N. &amp; Lingnau, R. Bastos, R.P. (2016) Avaliação do Risco de Extinção de <i>Caecilia armata</i> Dunn, 1942. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7825-anfibios-caecilia-armata.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7825-anfibios-caecilia-armata.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carnaval <i>et al.</i>, 2004",
+              "title": "Carnaval, A.C., Carvalho-e-Silva, S.P. &amp; Wilkinson, M. (2004) <i>Caecilia armata</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59504A11950834\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59504A11950834</a>. [Acessado em: 12/jun/2017]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É necessária uma revisão taxonômica da espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Carnaval, A.C.; Carvalho-e-Silva, S.P. &amp; Wilkinson, M. 2004. <i>Caecilia armata</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59504A11950834\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59504A11950834</a>. Acessado em: 12/06/2017.",
+          "Dunn, E.R. 1942. The American Caecilians. <b>Bulletin of the Museum of Comparative Zoology, Harvard</b>, 91 (6): p.439-540.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista,F.A.Q.; Maciel, A.O.; Cruz, C.A.G.; Loebmann, D.; Silvano, D.L.; Gonsales, E.M.L.; Nomura, F.; Leite, F.S.F.; Pinto, H.B.A.; Amaral, I.B.; Nascimento, L.B.; Sturaro, M.J.; Hoogmoed, M.S.; Kienle, M.S.; Souza, M.B.; Maciel, N.M.; Colombo, P.; Feio, R.N. &amp; Lingnau, R. Bastos, R.P. 2016. Avaliação do Risco de Extinção de <i>Caecilia armata</i> Dunn, 1942. <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7825-anfibios-caecilia-armata.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7825-anfibios-caecilia-armata.html</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

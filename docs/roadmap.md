@@ -3,17 +3,17 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-07-03
+**Atualizado em:** 2026-07-06
 
 ---
 
 ## Status geral
 
 ```
-[Fase 1] Coleta de dados          ███████░░░  70% — SALVE incompleto; publicações pendentes; SEI catalogado
-[Fase 2] Extração de texto        ███████░░░  70% — PDFs Monitora/PANs extraídos (816/816); SALVE testado (24 fichas), aguardando coleta completa
-[Fase 3] Classificação            ░░░░░░░░░░   0% — nenhum documento avaliado
-[Fase 4] Chunking                 ████████░░  80% — 39.242 chunks (monitora, PANs, SALVE); SEI pendente (autorização Fase 1.5)
+[Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações pendentes; SEI catalogado
+[Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
+[Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
+[Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ░░░░░░░░░░   0%
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
@@ -40,14 +40,7 @@ do estado atual até o protótipo funcional validado com usuários.
 ### 1.3 SALVE
 - [x] Script de coleta implementado (`scripts/coleta/coleta_salve.py`)
 - [x] Coleta de teste validada (3 fichas — 2026-06-24)
-- [ ] **Executar coleta completa** (~2086 fichas de répteis e anfíbios)
-  ```bash
-  source venv/bin/activate
-  python scripts/coleta/coleta_salve.py --atraso 1.0
-  ```
-  - Estimativa: 4–6 horas (~23 mil requisições com atraso de 1s)
-  - Saída: `01_fontes_web/salve/fichas/<slug>/metadados.json` + `_indice_salve.json`
-  - Rodar com `--atraso 0.5` se a API tolerar; manter 1.0 se houver erros 429
+- [x] **Coleta completa executada** — 2086 fichas de répteis e anfíbios em `01_fontes_web/salve/fichas/`
 
 ### 1.4 Publicações científicas do RAN
 - [ ] **Definir critérios de inclusão** (quais publicações entram no acervo inicial?)
@@ -87,15 +80,14 @@ do estado atual até o protótipo funcional validado com usuários.
 
 ### 2.1 SALVE — fichas de espécies (JSON → texto limpo)
 - [x] Script de extração criado (`scripts/processamento/extrair_texto_salve.py`)
-- [x] **Executar extração no conjunto de teste (24 fichas) e validar saída**
+- [x] Executar extração no conjunto de teste (24 fichas) e validar saída (0 erros)
+- [x] **Executar extração completa** — 2086/2086 fichas, 0 erros (2026-07-06)
   ```bash
   source venv/bin/activate
   python scripts/processamento/extrair_texto_salve.py
   ```
-  - Verificado: texto limpo, parágrafos preservados, campos estruturados legíveis (0 erros)
   - Saída: `07_processados/textos_extraidos/salve/<slug>.json`
   - Ver detalhamento em [`docs/processos/extracao_texto_salve.md`](processos/extracao_texto_salve.md)
-- [ ] Executar extração completa após coleta completa do SALVE (Fase 1.3)
 
 ### 2.2 PDFs do Monitora e dos PANs (PDF → texto)
 - [x] **Script de extração de PDFs implementado** (`scripts/processamento/extrair_texto_pdfs.py`)
@@ -122,8 +114,7 @@ do estado atual até o protótipo funcional validado com usuários.
 
 - [ ] **Revisão manual dos documentos do Monitora:** verificar se há localização precisa de espécies ameaçadas ou dados pessoais
 - [ ] **Revisão manual dos PDFs dos PANs:** mesmos critérios
-- [ ] **Fichas SALVE:** avaliar se as coordenadas de distribuição nas fichas são sensíveis
-  - As fichas são públicas no site do ICMBio, portanto a tendência é classificá-las como autorizadas
+- [x] **Fichas SALVE:** avaliadas — não contêm coordenadas precisas de ocorrência (só estados/biomas/EOO-AOO agregados e mapa-imagem público); fichas são públicas no site do ICMBio, classificadas como autorizadas. Todas as 2086 copiadas para `03_documentos_autorizados/salve/` (2026-07-06)
 - [ ] **Publicações científicas:** verificar copyright e termos de uso de cada publicação
 - [ ] Mover documentos aprovados: `04_documentos_pendentes_avaliacao/` → `03_documentos_autorizados/`
 - [ ] Mover documentos sensíveis: `04_documentos_pendentes_avaliacao/` → `05_documentos_sensiveis_nao_indexar/`
@@ -144,7 +135,7 @@ do estado atual até o protótipo funcional validado com usuários.
 ### 4.1 SALVE
 - [x] Um chunk por seção da ficha (10 seções); seções longas divididas em sub-chunks com overlap
 - [x] Cabeçalho em cada chunk com metadados da espécie (nome, categoria de risco, bioma, DOI)
-- [x] Executado: 24 fichas → 231 chunks (`07_processados/chunks/salve/chunks.jsonl`)
+- [x] Executado: 2086 fichas → 20.069 chunks (`07_processados/chunks/salve/chunks.jsonl`) (2026-07-06)
 
 ### 4.2 PDFs do Monitora e dos PANs
 - [x] Janela deslizante com overlap sobre o texto por página; cada chunk registra `pagina_inicio`/`pagina_fim`, fonte, nome do documento, URL/caminho local e data de extração
@@ -251,19 +242,18 @@ do estado atual até o protótipo funcional validado com usuários.
 | Modelo de LLM para geração (Claude vs. GPT vs. outro) | Custo, qualidade, privacidade dos dados | Antes da Fase 6 |
 | Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
-| Sensibilidade das coordenadas nas fichas SALVE | Quais fichas podem ser indexadas | Fase 3 |
 | Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
 
 ---
 
 ## Ordem recomendada para as próximas sessões
 
-1. **Agora:** analisar catálogo do SEI (`documentos_por_processo.json`) para identificar processos com documentos técnicos relevantes
-2. **Em seguida:** decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação
-3. **Em seguida:** executar coleta completa do SALVE (`coleta_salve.py` sem `--limite`)
-4. **Depois:** executar e validar `extrair_texto_salve.py`
-5. **Depois:** extração dos PDFs do Monitora e dos PANs
-6. **Depois:** classificação de sensibilidade dos documentos coletados
-7. **Depois:** chunking (SALVE primeiro, depois PDFs)
-8. **Depois:** embeddings e indexação no Qdrant
-9. **Depois:** FastAPI + Streamlit + validação
+Coleta, extração e chunking de Monitora, PANs e SALVE estão completos (59.080 chunks
+em `07_processados/chunks/`). O que resta não depende da reunião do SEI e pode
+avançar em paralelo:
+
+1. **Agora:** escolher modelo de embeddings e subir o Qdrant (Fase 5) — chunks de Monitora/PANs/SALVE já estão prontos para indexar
+2. **Em paralelo:** organizar e catalogar publicações científicas do RAN (Fase 1.4)
+3. **Em paralelo:** atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual de cada fonte
+4. **Em paralelo:** decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5) — quando sair, roda extração + `gerar_chunks.py --fonte sei`
+5. **Depois:** FastAPI + Streamlit + validação com usuários

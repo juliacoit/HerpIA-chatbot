@@ -1,0 +1,390 @@
+{
+  "id_ficha": "4d643379454535516b7570516c5363353978554638773d3d",
+  "nome_cientifico": "Proceratophrys salvatori (Caramaschi, 1996)",
+  "nome_cientifico_atual": "Proceratophrys salvatori (Caramaschi, 1996)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21381.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d643379454535516b7570516c5363353978554638773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Proceratophrys salvatori</i>&nbsp;<span>(Caramaschi, 1996)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Proceratophrys salvatori </em>é endêmica do Brasil, do bioma Cerrado, com registros de ocorrência no Distrito Federal e no estado de Goiás. A espécie é terrestre e ocorre próxima a corpos d’água. É considerada comum, porém não se adapta a perturbações antrópicas. Embora exista perda de vegetação nativa em sua região de ocorrência, sua distribuição é ampla e não há evidências de ameaças que possam colocá-la em risco de extinção. Além disso, ocorre em unidades de conservação, inclusive de proteção integral. Por estas razões, <em>Proceratophrys salvatori </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Proceratophrys salvatori</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21381.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21381.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16435,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Odontophrynidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Proceratophrys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Proceratophrys salvatori</i>"
+        }
+      ],
+      "oldNames": "Odontophrynus salvatori",
+      "commonNames": "",
+      "taxonomicNotes": "<p>A espécie foi realocada no gênero <em>Proceratophrys </em>após estudo molecular que confirmou que ela é espécie irmã de <em>Proceratophrys moratoi</em> (Magalhães <em>et al</em>., 2020).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Proceratophrys salvatori </em>é endêmica do Brasil, do bioma Cerrado, com registros de ocorrência no Distrito Federal e no estado de Goiás (Caramaschi, 1996; Brandão &amp; Batista, 2000; Pacífico, 2011). Sua localidade tipo é no Parque Nacional da Chapada dos Veadeiros (Caramaschi, 1996), e sua extensão de ocorrência é de 120.825 km2, calculada via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Distrito Federal, Goiás",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Paranaíba, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6534316e753732486975486272473133376230484d733644346771514b52543266337452444c66434a5735777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "33016b444b92539fa802bf13e5160917.png",
+        "fileName": "Mapa de Proceratophrys salvatori.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Proceratophrys salvatori </em>é terrestre e ocorre próxima a corpos d’água. As larvas são encontradas em pequenos córregos temporários e a espécie parece não se adaptar a perturbações antrópicas (Caramaschi <em>et al</em>,, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum nos locais de ocorrência (Caramaschi <em>et al</em>, 2004).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A região do Cerrado onde a espécie ocorre é afetada principalmente pelo desenvolvimento agrícola, tanto para o cultivo de lavouras como para criação de animais, além de sofrer com incêndios frequêntes (Caramaschi <em>et al</em>., 2004). No entanto, considerando a ampla distribuição da espécie, as ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2004",
+              "title": "Caramaschi, U., Colli, G., Bastos, R. &amp; Silvano, D. (2004) <i>Odontophrynus salvatori</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57194A11586180.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57194A11586180.en</a>. [Acessado em: 03/ago/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio São Bartolomeu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pacífico, 2011",
+              "title": "Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Veadeiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ribeiro, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Ribeiro, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DOS PIRINEUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2004",
+              "title": "<i>Odontophrynus salvatori</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pacífico, 2011",
+              "title": "Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade"
+            },
+            {
+              "label": "Brandão & Batista, 2000",
+              "title": "Descrição do girino de <I>Odontophrynus salvatori</i> (Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Arruda",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Pacífico, 2011",
+              "title": "Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Mata Funda",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Pacífico, 2011",
+              "title": "Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Linda Serra dos Topázios",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Pacífico, 2011",
+              "title": "Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Brandão, R.A. &amp; Batista, C.G. 2000. Descrição do girino de <I>Odontophrynus salvatori</i> (Anura, Leptodactylidae). <b>Iheringia</b>, 89: p.165-170.",
+          "Caramaschi, U. 1996. Nova espécie de <i>Odontophrynus</i> Reinhardt & Lütken, 1862 do Brasil Central (Amphibia, Anura, Leptodactylidae). <b>Boletim do Museu Nacional. Nova Serie, Zoologia. Rio de Janeiro</b>, 367 (1-8):",
+          "Caramaschi, U.; Colli, G.; Bastos, R. &amp; Silvano, D. 2004. <i>Odontophrynus salvatori</i>. <b>The IUCN Red List of Threatened Species 2004: e.T57194A11586180</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57194A11586180.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57194A11586180.en</a>. Acessado em: 03/08/2011.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Magalhães, R.F.; Brandão, R.A.; Garda, A.A. &amp; Mângia, S. 2020. Revisiting the generic position and acoustic diagnosis of <i>Odontophrynus salvatori</i> (Anura: Odontophrynidae). <b>Herpetological Journal</b>, 30 (4): p.189-196.",
+          "Pacífico, E.S. 2011. <b>Anuros do Cerrado em um mundo em mudança: fatores de vulnerabilidade</b>. Dissertação de Mestrado. Universidade Federal de Goiás. Goiânia. p.130."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

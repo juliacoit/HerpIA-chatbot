@@ -1,0 +1,392 @@
+{
+  "id_ficha": "47774c6e306e6a383542423072522f787949395432673d3d",
+  "nome_cientifico": "Heterodactylus imbricatus Spix, 1825",
+  "nome_cientifico_atual": "Heterodactylus imbricatus Spix, 1825",
+  "nome_comum": "briba, calango-que-vira-cobra, cobra-de-pé, cobrinha",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35771.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=47774c6e306e6a383542423072522f787949395432673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Heterodactylus imbricatus</i>&nbsp;<span>Spix, 1825</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "19/03/2026",
+      "justificative": "<p><em>Heterodactylus imbricatus </em>é endêmica do Brasil e ocorre predominantemente em áreas de altitude da Mata Atlântica do Sudeste, sendo dependente de ambientes florestais em bom estado de conservação. Embora ocorra em uma região historicamente muito impactada, e que ainda sofre certa pressão, sua distribuição é ampla e não há indícios de declínios populacionais. Assim, as ameaças não devem colocá-la em risco de extinção em curto prazo. Portanto, <em>H. </em><em>imbricatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Heterodactylus imbricatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35771.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35771.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24431,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Gymnophthalmidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Heterodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Heterodactylus imbricatus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "briba, calango-que-vira-cobra, cobra-de-pé, cobrinha",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Heterodactylus imbricatus </em>é endêmica do Brasil, ocorrendo predominantemente em áreas de altitude da Mata Atlântica do Sudeste (Rodrigues <em>et al</em>., 2009; Novelli <em>et al</em>., 2011; Peloso <em>et al.</em>, 2011; Oliveira <em>et al</em>., 2020). </p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Paraíba do Sul, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/77657662496172686d6e4e7a3974684452724c7866392b7842752b325145783637755471464c666a526f586f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Heterodactylus imbricatus",
+        "diskFileName": "d3241b2006db5077681b100a3a71887e.png",
+        "fileName": "Mapa de Heterodactylus imbricatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Heterodactylus imbricatus</em> ocorre em florestas de galeria, principalmente em áreas elevadas de clima frio da Mata Atlântica, sendo dependente de habitats florestais pouco impactados (Novelli <em>et al.</em>, 2011). A espécie apresenta hábito criptozoico e vive na serrapilheira (Dixo &amp; Verdade, 2006; Sousa <em>et al.</em>, 2012). Há registro da espécie no conteúdo estomacal de <em>Taeniophallus affinis</em> no Parque Estadual de Ibitipoca (Zacariotti &amp; Gomes, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie. Sousa <em>et al</em>. (2012) reportaram que mesmo após significativo esforço amostral em Juiz de Fora, Minas Gerais, apenas um espécime foi coletado. No entanto, a coleção da UFJF abriga 35 exemplares, sugerindo que a espécie não seja tão rara (H. C. Costa, com. pess., 2020).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora ocorra em uma região historicamente muito impactada, não há indícios de declínios populacionais severos em anos recentes.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações específicas de conservação direcionadas à espécie. No entanto, por depender de ambientes pouco impactados, a preservação das áreas onde ocorre é essencial.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2010"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço",
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2007",
+              "title": "A new genus of microteiid lizard from the Atlantic forests of state of Bahia, Brazil, with a new generic name for <i>Colobosaura mentalis</i>, and a discussion of relationships among the Heterodactylini (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2009",
+              "title": "A new genus of microteiid lizard from the Caparaó Mountains, southeastern Brazil, with a discussion of relationships among Gymnophthalminae (Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2009",
+              "title": "A new genus of microteiid lizard from the Caparaó Mountains, southeastern Brazil, with a discussion of relationships among Gymnophthalminae (Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2007",
+              "title": "A new genus of microteiid lizard from the Atlantic forests of state of Bahia, Brazil, with a new generic name for <i>Colobosaura mentalis</i>, and a discussion of relationships among the Heterodactylini (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE LIBÉLULAS DA SERRA DE SÃO JOSÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sousa, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA SÃO JOSÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sousa, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2007",
+              "title": "A new genus of microteiid lizard from the Atlantic forests of state of Bahia, Brazil, with a new generic name for <i>Colobosaura mentalis</i>, and a discussion of relationships among the Heterodactylini (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEFLUSMME",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Peloso <i>et al.</i>, 2011",
+              "title": "Description and phylogenetic relationships of a new genus and species of lizard (Squamata, Gymnophthalmidae) from the Amazonian rainforest of northern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2007",
+              "title": "A new genus of microteiid lizard from the Atlantic forests of state of Bahia, Brazil, with a new generic name for <i>Colobosaura mentalis</i>, and a discussion of relationships among the Heterodactylini (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Capuavinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2009",
+              "title": "A new genus of microteiid lizard from the Caparaó Mountains, southeastern Brazil, with a discussion of relationships among Gymnophthalminae (Squamata)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Dixo, M. &amp; Verdade, V.K. (2006) Leaf litter herpetofauna of the Reserva Florestal de Morro Grande, Cotia (SP). <i>Biota Neotropica</i>. 6 (2), 1-20.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Novelli, I.A., Lucas, P.,S. &amp; Santos, R.C. (2011) Reptilia, Squamata, Gymnophthalmidae, <i>Heterodactylus imbricatus</i> Spix, 1825: Filling gaps in the state of Minas Gerais. <i>Check List</i>. 7 (1), 30-31.",
+          "Oliveira, J.C.F., Santos, R., Lopes-Silva, M.L., Barros, L.P.V., Risse-Quaioto, B., Militão, C.M., Fatorelli, P., Belmoch, F.A.L. &amp; Rocha, C.F.D. (2020) Reptiles of the Monumento Natural Serra das Torres: using the Rapid Assessment method to fill a knowledge gap in the Atlantic Forest of southeastern Brazil. <i>Biota Neotropica. In press.</i> 20 (2), e20190726.",
+          "Peloso, P.L., Pellegrino, K.C., Rodrigues, M.T. &amp; Ávila-Pires, T.C. (2011) Description and phylogenetic relationships of a new genus and species of lizard (Squamata, Gymnophthalmidae) from the Amazonian rainforest of northern Brazil. <i>American Museum Novitates</i>. 3713, 1-24.",
+          "Rodrigues, M.T., Cassimiro, J., Pavan, D., Curcio, F.F., Verdade, V.K. &amp; Pellegrino, K.C.M. (2009) A new genus of microteiid lizard from the Caparaó Mountains, southeastern Brazil, with a discussion of relationships among Gymnophthalminae (Squamata). <i>American Museum Novitates</i>. 3673, 1-27.",
+          "Sousa, B.M., Gomides, S.C., Hudson, A.A., Ribeiro, L.B. &amp; Novelli, I.A. (2012) Reptiles of the municipality of Juiz de Fora, Minas Gerais state, Brazil. <i>Biota Neotropica</i>. 12 (3), 35-49.",
+          "Zacariotti, R.L. &amp; Gomes, C.A. (2010) Diet of the black-headed forest racer <i>Taeniophallus affinis</i> Günther, 1858 in the Brazilian Atlantic forest. <i>Herpetology Notes</i>. 3, 11-12."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

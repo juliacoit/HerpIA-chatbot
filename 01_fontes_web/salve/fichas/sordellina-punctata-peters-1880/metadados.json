@@ -1,0 +1,494 @@
+{
+  "id_ficha": "6b64347750505866594e546d49572b7a4e4f4f316f413d3d",
+  "nome_cientifico": "Sordellina punctata (Peters, 1880)",
+  "nome_cientifico_atual": "Sordellina punctata (Peters, 1880)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27920.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6b64347750505866594e546d49572b7a4e4f4f316f413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Sordellina punctata</i>&nbsp;<span>(Peters, 1880)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "10/01/2023",
+      "justificative": "<p><em>Sordellina punctata </em>é endêmica do Brasil, com distribuição na Mata Atlântica, principalmente em floresta ombrófila densa, entre o Rio de Janeiro e sul de Santa Catarina. A espécie possui ampla distribuição, ocorre em diversas unidades de conservação e não possui ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Portanto, <em>Sordellina punctata </em>foi categorizada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Sordellina punctata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27920.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27920.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19136,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Sordellina</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Sordellina punctata</i>"
+        }
+      ],
+      "oldNames": "Liophis rehi, Pseudoxyrhopus punctatus, Sordellina brandon-jonesii, Sordellina pauloensis, Xenodon punctatus",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Registros associados à espécie no Rio de Janeiro (Grilo <em>et al</em>., 2018) necessitam de confirmação. </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Sordellina punctata</em> é endêmica do Brasil, com distribuição na Mata Atlântica entre o Rio de Janeiro e sul de Santa Catarina (Pereira<em> et al</em>., 2007; Grillo <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 120.130 km2, calculada via mínimo polígono convexo a partir dos registros.</p>",
+      "nationalDistribution": "",
+      "states": "Paraná, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/475a766c55432b6866377a68614c364747596350344b305a50767846684f337243307850376579317671677644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f71358c49446b406bd71ccd8d19d07fb.png",
+        "fileName": "Mapa de Sordellina punctata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Sordellina punctata </em>ocorre em ambientes florestais da Mata Atlântica, principalmente em floresta ombrófila densa (Amaral, 1977; Marques &amp; Sazima, 2004; Marques <em>et al.,</em> 2004; Cicchi<em> et al</em>., 2007; Pereira<em> et al.,</em> 2007), desde o nível do mar até 900 metros de altitude (Morato, 2005). A espécie é semiaquática, diurna (Marques <em>et al</em>., 2004; Pereira <em>et al</em>., 2007; Marques <em>et al</em>., 2009) e ovípara com ciclo reprodutivo sazonal (Pizzatto <em>et al</em>., 2007). Alimenta-se principalmente de minhocas (Marques <em>et al</em>., 2001; Marques <em>et al</em>., 2009), mas há um registro de uma cecília como item alimentar (Proctor, 1923).</p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa decorrente de pressões antrópicas, especialmente nas áreas de baixada litorânea, é uma ameaça para a espécie, mas não deve colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ação específica para a conservação da espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z &amp; Costa, T.B.G. (2019) <i>Sordellina punctata</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182759A123739224.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182759A123739224.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2011,
+          "coverage": "Santa Catarina",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B2ab(ii,iii)",
+          "refBibs": [
+            {
+              "label": "CONSEMA, 2011",
+              "title": "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+            }
+          ],
+          "orderBy": "X2011"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Bacia do Rio São João/Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA ILHA COMPRIDA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2007",
+              "title": "Snakes from coastal islands of state of São Paulo, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JURÉIA-ITATINS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Marques & Sazima, 2004",
+              "title": "História natural dos répteis da Estação Ecológica Juréia-Itatins"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DO PIRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL BORORé-COLôNIA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Caetezal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Pereira <i>et al.</i>, 2007",
+              "title": "Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Morro dos Cavalos",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Amaral, A. 1977. <b>Serpentes do Brasil. Iconografia colorida</b>. p.248. Edições Melhoramentos São Paulo.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Cicchi, P.J.P.; De Sena, M.A.; Peccinini-Seale, D.M. &amp; Duarte, M.R. 2007. Snakes from coastal islands of state of São Paulo, Southeastern Brazil. <b>Biota Neotropica</b>, 7 (2): p.228--240.",
+          "Estado de Santa Catarina 06/12/2011. Resolução Consema No 002/2011: Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. p.02–08. Disponível em: <a target=\"_blank\" href=\"https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file\">https://www.sde.sc.gov.br/index.php/biblioteca/consema/legislacao/resolucoes/2011/2462-resolucao-consema-02-2011/file</a>. Acessado em: 22/07/2022.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Estado do Rio Grande do Sul 09/09/2014. Decreto n.º 51.797, de 8 de setembro de 2014. Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul. Disponível em: <a target=\"_blank\" href=\"http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf\">http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf</a>.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Grilo, C.; Coimbra, M.R; Cerqueira, R.C.; Barbosa, P.; Dornas, R.A.P.; Gonçalves, L.O.; Teixeira, F.Z.; Coelho, I.P.; Schmidt, B.R.; Pacheco, D.L.K.; Schuck, G.; Esperando, I.B.; Anza, J.A.; Beduschi, J.; Oliveira, N.R.; Pinheiro, P.F.; Bager, A.; Secco, H.; Guerreiro, M.; Carvalho, C.F.; Veloso, A.C.; Custódio, A.E.I.; Marçal Jr., O.; Ciocheti, G.; Assis, J.; Ribeiro, M.C.; Francisco, B.S.S.; Cherem, J.J.; Trigo, T.C.; Jardim, M.M.A; Franceschi, M.M.A; Espinosa, C.; Tirelli, F.P.; Rocha, V.J; Sekiama, M.L.; Barbosa, G.P; Rossi, H.R.; Moreira, T.C.; Cervini, M.; Rosa, C.A.; Silva, L.G.; Ferreira, C.M.M.; César, A.; Casella, J.; Mendes, S.L.; Zina, J.; Bastos, D.F.O.; Souza, R.A.T.; Hartmann, P.A.; Deffaci, A.C.G.; Mulinari, J.; Luzzi, S.C.; Rezzadori, T.; Kolcenti, C.; Reis, T.X.; Fonseca, V.S.C.; Giorgi, C.F.; Migliorini, R.; Kasper, C.B.; Bueno, C.; Sobanski, M.; Pereira, A.P.F.G.; Andrade, F.A.G.; Fernandes, M.E.B.; Corrêa, L.L.C.; Nepomuceno, A.; Banhos, A.; Hannibal, W.; Fonseca, R.; Costa, L.A.; Medici, E.P.; Croce, A.; Werther, K.; Oliveira, J.P.; Ribeiro, J.M.; Santi, M.; Kawanami, A.N; Perles, L.; Couto, C.; Figueiró, D.S.; Eizirik, E.; Correia Jr., A.A.; Corrêa, F.M.; Queirolo, D.; Quagliatto, A.L.; Saranholi, B. H.; Galetti Jr., P.M.; Rodriguez‐Castro, K.G.; Braz, V.S.; França, F.G.R.; Buss, G.; Rezini, J.A.; Lion, M.B.; Cheida, C.C.; Lacerda, A.C.R; Freitas, C.H.; Venâncio, F.; Adania, C.H.; Batisteli, A.F.; Hegel, C.G.Z.; Mantovani, J.A.; Rodrigues, F.H.G.; Bagatini, T.; Curi, N.H.A.; Emmert, L.; Erdmann, R.H.; Costa, R.R.G.F.; Martinelli, A.; Santos, C.V.S. &amp; Kindel, A. 2018. Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills. <b>Ecology</b>, 99 (11): p.2625.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Marques, O.A.V. &amp; Sazima, I. 2004. História natural dos répteis da Estação Ecológica Juréia-Itatins. p.257-277. <i>In</i>: Marques & Duleba. <b>Estação Ecológica Juréia-Itatins: Ambiente Físico, Flora e Fauna</b>. Holos Ribeirão Preto.",
+          "Marques, O.A.V.; Eterovic, A. &amp; Sazima, I. 2004. <b>Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar</b>. p.205. Holos Ribeirão Preto.",
+          "Marques, O.A.V.; Pereira, D.N.; Barbo, F.E.; Germano, J.V. &amp; Sawaya, R.J. 2009. Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual. <b>Biota Neotropica</b>, 9 (2): p.139-150.",
+          "Morato, S.A.A. 2005. <b>Serpentes da região atlântica do Estado do Paraná, Brasil: diversidade, distribuição e ecologia</b>. Tese de Doutorado. Universidade Federal do Paraná. Curitiba.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Pereira, D.N.; Stender-Oliveira, F.; Guimarães, M.R. &amp; Bérnils, R.S. 2007. Distribution and habitat use of <i>Sordellina punctata</i> (Serpentes, Colubridae), with a new record from state of São Paulo, Brazil. <b>Herpetological Bulletin</b>, 100: p.18-22.",
+          "Pizzatto, L.; Almeida-Santos, S.M. &amp; Marques., O.A.V. 2007. Biologia reprodutiva de serpentes Brasileiras. p.201-221. <i>In</i>: Nascimento & Oliveira. <b>Herpetologia no Brasil II</b>. Sociedade Brasileira de Herpetologia Belo Horizonte, Minas Gerais.",
+          "Proctor, J.B. 1923. On a new genus and species of Colubrinae snakes from S.E. Brazil. <b>Annals and Magazine of Natural History, Series 9</b>, 11 (62): p.227–230.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z &amp; Costa, T.B.G. 2019. <i>Sordellina punctata</I>. <b>The IUCN Red List of Threatened Species 2019: e.T15182759A123739224</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182759A123739224.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15182759A123739224.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

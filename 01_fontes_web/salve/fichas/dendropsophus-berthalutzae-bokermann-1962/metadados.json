@@ -1,0 +1,412 @@
+{
+  "id_ficha": "3262676e6234432b734e746f4c65646b4a454b546e773d3d",
+  "nome_cientifico": "Dendropsophus berthalutzae (Bokermann, 1962)",
+  "nome_cientifico_atual": "Dendropsophus berthalutzae (Bokermann, 1962)",
+  "nome_comum": "Pererequinha",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22144.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=3262676e6234432b734e746f4c65646b4a454b546e773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus berthalutzae</i>&nbsp;<span>(Bokermann, 1962)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Dendropsophus berthalutzae </em>é endêmica do Brasil, com ocorrência entre os estados do Espírito Santo e Santa Catarina. Trata-se de espécie comum, que habita a vegetação baixa de florestas primárias e secundárias. Embora exista perda de vegetação nativa em algumas localidades nessa área, principalmente em decorrência da atividade agrícola e da silvicultura, a distribuição da espécie é ampla e não há evidência de ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Dendropsophus berthalutzae </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Dendropsophus berthalutzae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22144.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22144.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16865,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus berthalutzae</i>"
+        }
+      ],
+      "oldNames": "Hyla berthalutzae",
+      "commonNames": "Pererequinha",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em> Dendropsophus berthalutzae </em>é endêmica do Brasil, com registros de ocorrência predominantes na zona costeira e na Serra do Mar, entre o Espírito Santo e Santa Catarina (Conte<em> et al</em>., 2009; Cunha <em>et al</em>., 2010; Silva-Soares<em> et al</em>., 2010; Almeida <em>et al</em>., 2011; P. Garcia, com. pess., 2018). </p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/634f5a5771303947483347524b34457a78456958542b4e362b4668612b327172427044792f337475587a446f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "ed453c0b5304441d08dcb6e15e88a005.png",
+        "fileName": "Mapa de Dendropsophus berthalutzae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em> Dendropsophus berthalutzae </em>habita a vegetação baixa de florestas secundárias próximas a áreas úmidas. Ovos em vegetação acima d’água, os girinos caem e finalizam seu desenvolvimento na água (Carvalho-e-Silva &amp; Cruz, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> <em>Dendropsophus berthalutzae</em> é considerada comum nos ambientes em que ocorre e a tendência populacional é estável (Carvalho-e-Silva &amp; Cruz, 2004).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda de vegetação nativa em alguns locais na área de sua distribuição, principalmente em decorrência da atividade agrícola e da silvicultura, não há evidência de ameaças imediatas que possam colocá-la em risco de extinção.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva & Cruz, 2004",
+              "title": "Carvalho-e-Silva, S.P. &amp; Cruz, C.A.G. (2004) <i>Dendropsophus berthalutzae</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55408A11302549.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55408A11302549.en</a>. [Acessado em: 13/dez/2010]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Conte <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL XIXOVÁ-JAPUÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL NASCENTES DE PARANAPIACABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SURUí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps"
+            }
+          ]
+        },
+        {
+          "name": "CAMPO ESCOTEIRO GERALDO HUGO NUNES",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva-Soares <i>et al.</i>, 2010",
+              "title": "Anfíbios anuros da RPPN Campo Escoteiro Geraldo Hugo Nunes, Município de Guapimirim, Rio de Janeiro, Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEC/Tinguá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio do Bananal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Boa Vista Sertão do Promirim",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Conte <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A.P.; Gasparini, J.L. &amp; Peloso, P.L.V. 2011. Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’. <b>Check List</b>, 7 (4): p.542-560.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P. &amp; Cruz, C.A.G., 2004. <i>Dendropsophus berthalutzae</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55408A11302549.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55408A11302549.en</a>. Acessado em: 13/12/2010.",
+          "Conte, C.E.; Garey, M.V.; Lingnau, R.; Silva, M.X. Armstrong, C. &amp; Hartmann, M.T. 2009. Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps. <b>Check List</b>, 5 (2): p.202-209.",
+          "Cunha, A.K.; Oliveira, I.S. &amp; Hartmann, M.T. 2010. Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil. <b>Biotemas</b>, 23 (2): p.123-134.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Silva-Soares, T.; Hepp, F.; Costa, P.N.; Luna-Dias, C.; Gomes, M.R.; Carvalho-e-Silva, A.M.P.T. &amp; Carvalho-e-Silva, S.P. 2010. Anfíbios anuros da RPPN Campo Escoteiro Geraldo Hugo Nunes, Município de Guapimirim, Rio de Janeiro, Sudeste do Brasil. <b>Biota Neotropica</b>, 10 (2): p.225-233."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

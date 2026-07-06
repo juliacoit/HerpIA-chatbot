@@ -1,0 +1,273 @@
+{
+  "id_ficha": "586b45546d783050593938326d503865334e377139413d3d",
+  "nome_cientifico": "Stereocyclops palmipes Caramaschi, Salles & Cruz, 2012",
+  "nome_cientifico_atual": "Stereocyclops palmipes Caramaschi, Salles & Cruz, 2012",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21924.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=586b45546d783050593938326d503865334e377139413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Stereocyclops palmipes</i>&nbsp;<span>Caramaschi, Salles & Cruz, 2012</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Sterocyclops palmipes</em> é endêmica do Brasil, conhecida de poucas localidades na Mata Atlântica do estado de Minas Gerais, em ambiente de floresta estacional semidecidual montana, e sua extensão de ocorrência foi calculada em 15 km2. O hábitat da espécie encontra-se bastante reduzido e fragmentado, especialmente pelo avanço de atividades agropecuárias, e uma das localidades e que a espéwcie foi registrada (município de Goianá) foi fortemente alterada pela construção de um aeroporto. No entanto, apenas os exemplares da série-tipo são conhecidos, e não há informações suficientes sobre distribuição e população para uma avaliação adequada do seu risco de extinção. Por essas razões, <em>Sterocyclops palmipes</em> foi avaliada com Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2023. <i>Stereocyclops palmipes</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21924.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21924.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 16776,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Microhylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Stereocyclops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Stereocyclops palmipes</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Uma das populações conhecidas da espécie foi anteriormente atribuída a <em>Stereocyclops incrassatus</em> por Feio &amp; Ferreira (2005) (Caramaschi <em>et al</em>., 2012).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Stereocyclops palmipes</em> é endêmica do Brasil, conhecida para os municípios de Tombos, Rio Novo e Goianá, no estado de Minas Gerais (CaramaschiI <em>et al.,</em> 2012). Sua extensão de ocorrência foi calculada em 15 km2, por meio do mínimo polígono convexo formado pelos registros conhecidos.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/39487553416b41753847466d413861754b3978363252324634434e39434c46636373566b6f392b547478347644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa distribuição_Stereocyclops palmipes",
+        "diskFileName": "74e853eb170bb83a35e31f705f57e832.png",
+        "fileName": "Mapa de Stereocyclops palmipes.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie ocorre na região da Zona da Mata de Minas Gerais, em ambiente de floresta estacional semidecidual montana (Caramaschi <em>et al</em>., 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, que é conhecida somente da série-tipo (sete indivíduos), coletados entre 2001 e 2003 (Caramaschi <em>et al</em>., 2012).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A Mata Atlântica na região de ocorrência da espécie encontra-se bastante reduzida e fragmentada, especialmente pelo avanço de atividades agropecuárias. O habitat da subpopulação do município de Goianá foi fortemente alterado pela construção do aeroporto Presidente Itamar Franco e um dos fragmentos em que a espécie foi registrada em Rio Novo possui apenas 12 ha (Feio &amp; Ferreira, 2005).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.5 - Aeroportos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUA SANTA DE MINAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Caramaschi <i>et al.</i>, 2012",
+              "title": "A new species of <i>Stereocyclops</I> Cope (anura, microhylidae) from southeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural, distribuição e populacionais são necessários para melhor compreender o estado de conservação da espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Caramaschi, U.; Salles, R.O.L. &amp; Cruz, C.A.G. 2012. A new species of <i>Stereocyclops</I> Cope (anura, microhylidae) from southeastern Brazil. <b>Zootaxa</b>, 3583: p.83-88.",
+          "Projeto MapBiomas 2017. Mapeamento Anual da Cobertura e Uso do Solo no Brasil. Coleção 2. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/pages/about/about\">http://mapbiomas.org/pages/about/about</a>. Acessado em: 18/09/2017."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

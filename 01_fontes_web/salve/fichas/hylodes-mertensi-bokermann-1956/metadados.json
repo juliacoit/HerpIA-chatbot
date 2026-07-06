@@ -1,0 +1,388 @@
+{
+  "id_ficha": "4768335a544c3966696b4c4530727a656c43526762773d3d",
+  "nome_cientifico": "Hylodes mertensi (Bokermann, 1956)",
+  "nome_cientifico_atual": "Hylodes mertensi (Bokermann, 1956)",
+  "nome_comum": "Rã-de-riacho-de-Mertens",
+  "grupo": "Anfíbios",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "11/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21844",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4768335a544c3966696b4c4530727a656c43526762773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Hylodes mertensi</i>&nbsp;<span>(Bokermann, 1956)</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Hylodes mertensi</em> é endêmica do Brasil, sendo conhecida apenas da localidade-tipo, um fragmento de Mata Atlântica no Parque Estadual da Serra do Mar, no estado de São Paulo. A espécie possui habitat específico, tendo sido registrada em riacho no interior de floresta montanhosa. Seu último registro foi há mais de 60 anos, em 1956. Embora não haja amostragens recentes na localidade-tipo, há amostragens voltadas para anfíbios em regiões próximas, mas <em>Hylodes mertensi </em>não foi registrada, sugerindo que tenha distribuição bastante restrita. Assim, é possível supor que sua extensão de ocorrência seja menor que 100 km2. Embora seu registro seja em uma unidade de conservação de proteção integral, essa região sofre impacto da poluição proveniente do polo industrial da cidade de Cubatão, causando declínio contínuo da qualidade do hábitat. Considerando apenas uma localização, tendo a poluição como principal ameaça, <em>Hylodes mertensi</em> foi avaliada como Criticamente em Perigo (CR) pelo critério B1ab(iii).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2023. <i>Hylodes mertensi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21844 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21844",
+      "photo": {},
+      "version": 2,
+      "versionId": 16696,
+      "deleted": false,
+      "lastAvaliationDate": "28/11/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylodidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Hylodes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Hylodes mertensi</i>"
+        }
+      ],
+      "oldNames": "Elosia mertensi",
+      "commonNames": "Rã-de-riacho-de-Mertens",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Hylodes mertensi</em> é endêmica do Brasil, conhecida apenas da localidade-tipo no Parque Estadual da Serra do Mar, no estado de São Paulo, no km 47 da antiga estrada de Santos (Rocha <em>et al</em>., 2004). Tem havido amostragens voltadas para anfíbios em regiões próximas à localidade-tipo (Cristiano Nogueira, com. pess., 2018) e espécies têm sido descritas ou registradas, menos <em>Hylodes mertensi</em>, sugerindo que sua distribuição seja bastante restrita. Nesse sentido, é possível supor que sua extensão de ocorrência seja menor que 100 km2.</p>",
+      "nationalDistribution": "",
+      "states": "São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/746c4b5958706a6a4b566a51646145746e3131413955307a716d794e35337942437453536c3847323146336f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Hylodes mertensi",
+        "diskFileName": "78975481511d517a78cf802d8e475d46.png",
+        "fileName": "Mapa de Hylodes mertensi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Hylodes mertensi </em>é encontrada no bioma Mata Atlântica é diurna e possui hábitat específico, sendo encontrada em em riacho no interior de floresta no topo da Serra do Mar, a 800 metros de altitude. A localidade conhecida para a espécie consiste atualmente em floresta secundária conservada. Não há informações sobre hábitos reprodutivos, mas presume-se que se reproduza em pequenos riachos de montanha e que as larvas se desenvolvam em córregos, como acontece com outras espécies do gênero (Rocha <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie e sua tendência populacional é desconhecida. O último registro da espécie na localidade-tipo foi em 1956, mas a região não é bem amostrada (Felipe Toledo, com. pess., 2017). Embora não haja amostragens recentes na localidade-tipo, há amostragens voltadas para anfíbios em regiões próximas, como Juréia, Paranapiacaba, São Paulo, entre outras, e espécies têm sido descritas ou registradas, menos <em>Hylodes mertensi </em>(Cristiano Nogueira, com. pess., 2018).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A região de registro da espécie sofre impacto da poluição do ar proveniente do polo industrial da cidade de Cubatão e consequente formação de chuvas ácidas, que impactam a vegetação e os corpos d'água, causando declínio contínuo da qualidade do hábitat.</p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "9 - Poluição|9.5 - Poluição do ar|9.5.2 - Fumaça (industrial, veículos, etc)",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.5 - Poluição do ar|9.5.1 - Chuva ácida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Hylodes mertensi</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2023",
+              "title": "Bastos, R.P., Martins, M.R., Bataus, Y.S.L., Côrtes, L.G., Uhlig, V.M., Almeida, A.P.L., Canedo, C.C., Caramaschi, U., Costa, C.O.R., Ferrante, L., Ferreira, R.B., Garcia, P.C.A., Gasparini, J.L., Hepp, F., Lourenço-de-moraes, R., Leite, F.S.F., Martins, I.A., Nascimento, L.B., Santana, D.J., Silva-filho, I.S.N., Silva-soares, T. &amp; Toledo, L.F. (2023) <i>Hylodes mertensi (Bokermann, 1956)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V. M., Batista, F.R.Q., Cruz, C.A.G., Conte, C. E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Hylodes mertensi</i> (Bokermann, 1956). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7611-anfibios-hylodes-mertensi.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7611-anfibios-hylodes-mertensi.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "Rocha, C.F.R., Van Sluys, M. &amp; Cruz, C.A.G. (2004) <I> Hylodes mertensi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57095A11570630.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57095A11570630.en</a>. [Acessado em: 20/ago/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            },
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "<I> Hylodes mertensi</i>"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São urgentes inventários direcionados na localidade-tipo e região para localizar a espécie.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Estado de São Paulo 27/11/2018. Decreto nº 63.853, de 27 de novembro de 2018: Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html</a>. Acessado em: 22/07/2022.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V. M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C. E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U. 2016. Avaliação do Risco de Extinção de <i>Hylodes mertensi</i> (Bokermann, 1956). <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio.</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7611-anfibios-hylodes-mertensi.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7611-anfibios-hylodes-mertensi.html</a>.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Rocha, C.F.R.; Van Sluys, M. &amp; Cruz, C.A.G., 2004. <I> Hylodes mertensi</i>. The IUCN Red List of Threatened Species 2004: e.T57095A11570630, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57095A11570630.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57095A11570630.en</a>. Acessado em: 20/08/2018."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

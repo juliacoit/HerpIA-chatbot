@@ -1,0 +1,282 @@
+{
+  "id_ficha": "6e4e4b7a5750584459704130775046413456394242673d3d",
+  "nome_cientifico": "Pristimantis aureolineatus (Guayasamin, Ron, Cisneros-Heredia, Lamar & McCracken, 2006)",
+  "nome_cientifico_atual": "Pristimantis aureolineatus (Guayasamin, Ron, Cisneros-Heredia, Lamar & McCracken, 2006)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21433.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6e4e4b7a5750584459704130775046413456394242673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Pristimantis aureolineatus</i>&nbsp;<span>(Guayasamin, Ron, Cisneros-Heredia, Lamar & McCracken, 2006)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "13/08/2024",
+      "justificative": "<p><em>Pristimantis aureolineatus </em>ocorre na América do Sul, no bioma amazônico, sendo conhecida para o Brasil, Equador e Peru. No Brasil possui somente um registro de ocorrência na região do Alto Rio Juruá, no estado do Acre, no Igarapé Esperança, situado na Reserva Extrativista Riozinho da Liberdade. Trata-se de uma região bem preservada, portanto, não há ameaças evidentes que possam colocar a espécie em risco de extinção. Por essas razões, <em>Pristimantis aureolineatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2024. <i>Pristimantis aureolineatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21433.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21433.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16481,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Strabomantidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Pristimantis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Pristimantis aureolineatus</i>"
+        }
+      ],
+      "oldNames": "Eleutherodactylus aureolineatus, Pristimantis (Pristimantis) aureolineatus",
+      "commonNames": "",
+      "taxonomicNotes": "<p></p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Pristimantis aureolineatus</em> ocorre em localidades com altitudes inferiores a 350 m, na Bacia do Alto Amazonas, no leste do Equador, Peru e Brasil (Guayasamin <em>et al., </em>2006; Bernarde <em>et al.,</em> 2011).</p>",
+      "nationalDistribution": "<p>O único registro de <em>Pristimantis aureolineatus</em> para o Brasil ocorreu no Igarapé Esperança, tributário do rio Liberdade, situado na Reserva Extrativista Riozinho da Liberdade, na região do Alto Juruá, estado do Acre (Bernarde <em>et al.,</em> 2011). Esse registro ampliou em aproximadamente 530 km para o sudeste a distribuição da espécie (Bernarde <em>et al.,</em> 2011).</p>",
+      "states": "Acre",
+      "biomes": "Amazônia",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/3264744a394478756e47334250344f4137344c2f6a2b6161323159344a6c65586e463842306d5270512b336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "56206ed71257ecbcb149a3f0ba5b8a68.png",
+        "fileName": "Mapa de Pristimantis aureolineatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Pristimantis aureolineatus</em> foi encontrada em floresta de planície amazônica, incluindo floresta de terra firme e várzea (Guayasamin <em>et al., </em>2006). Os indivíduos podem ser mais frequentemente encontrados até 40 m de altitude no dossel, muitas vezes associados com bromélias, embora também possam ocorrer em vegetação rasteira e no chão da floresta (Guayasamin <em>et al., </em>2006). No Brasil, foi registrada em floresta com dossel aberto e com abundância de palmeiras, cipós e bambus (Bernarde <em>et al.,</em> 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A tendência populacional é desconhecida, pois não há estudos nesse sentido. O pequeno número de registros pode ser decorrente da falta de amostragens direcionadas para anfíbios em dossel (Guayasamin <em>et al., </em>2006).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não há ameaças evidentes que possam levar a espécie a extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p> Não há.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2017,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group, 2018",
+              "title": "IUCN SSC Amphibian Specialist Group (2018) <i>Pristimantis aureolineatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2018-1.RLTS.T135755A61416162.en\">http://dx.doi.org/10.2305/IUCN.UK.2018-1.RLTS.T135755A61416162.en</a>."
+            }
+          ],
+          "orderBy": "Y2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Ainda são necessários estudos sobre distribuição geográfica, ecologia e história natural.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bernarde, P.S., Machado, R.A. &amp; Turci, L.C.B. (2011) Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <i>Biota Neotrópica</i>. 11 (3), 117-144.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Guayasamin, J. M., Ron, S. R., Cisneros-Heredia, S. F., Lamar, W. &amp; McCracken, S. F. (2006) A new species of frog of the <I>Eleutherodactylus lacrimosus</I> assemblage (Leptodactylidae) from the western Amazon Basin, with comments on the utility of canopy surveys in lowland rainforest. <i>Herpetologica</i>. 62 (2), 191–202.",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "IUCN SSC Amphibian Specialist Group (2018) <i>Pristimantis aureolineatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2018-1.RLTS.T135755A61416162.en\">http://dx.doi.org/10.2305/IUCN.UK.2018-1.RLTS.T135755A61416162.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

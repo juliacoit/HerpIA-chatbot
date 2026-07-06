@@ -1,0 +1,308 @@
+{
+  "id_ficha": "493159386c72614d7736484a64745a356d49734150513d3d",
+  "nome_cientifico": "Amphisbaena mitchelli Procter, 1923",
+  "nome_cientifico_atual": "Amphisbaena mitchelli Procter, 1923",
+  "nome_comum": "cobra-de-duas-cabeças",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.34179.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=493159386c72614d7736484a64745a356d49734150513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Amphisbaena mitchelli</i>&nbsp;<span>Procter, 1923</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "20/02/2026",
+      "justificative": "<p><em>Amphisbaena mitchelli</em> é endêmica do Brasil, registrada no leste da Amazônia, nos estados do Pará e Maranhão. A espécie possui ampla distribuição e pode ser encontrada em ambientes antropizados, incluindo áreas urbanas, não havendo ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>A.</em> <em>mitchelli</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Amphisbaena mitchelli</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.34179.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.34179.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 23176,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Amphisbaenidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Amphisbaena</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Amphisbaena mitchelli</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "cobra-de-duas-cabeças",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Amphisbaena mitchelli</em> é endêmica do Brasil, ocorre no estado do Pará (localidade-tipo: Ilha do Marajó) e Maranhão (Gans, 1964; Hoogmoed &amp; Avila-Pires, 1991; Azevedo-Ramos &amp; Moutinho, 1994; Silva <em>et al</em>., 2011; Ribeiro <em>et al</em>., 2014).</p>",
+      "nationalDistribution": "",
+      "states": "Maranhão, Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Mearim, Sub-bacia Tapajós, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/52342b4b554c4b485366524e4374725a6575774a644c48586658334261434b354b377047714c6641546a4e4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Amphisbaena mitchelli",
+        "diskFileName": "0bba9af867b18697e38ca6c2df3d52f0.png",
+        "fileName": "Mapa de Amphisbaena mitchelli.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie ocorre em ambientes preservados e antropizados, incluindo áreas urbanas (Ribeiro <em>et al</em>., 2014).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora parte de sua distribuição esteja inserida em uma região da Amazônia que já sofreu grande perda de vegetação nativa, principalmente em decorrência da conversão de áreas naturias em grandes áreas de pastagem e monocultura, a espécie possui ampla distribuição e pode ser encontrada em alguns ambientes alterados. Assim, as ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.3 - Pecuária agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2021",
+              "title": "Silveira, A. L., Rocha, C., Nogueira, C. C., Werneck, F., Moura, G. J. B., Winck, G., Ribeiro Júnior, M. A., Kiefer, M., Freitas, M. A., Hoogmoed, M. S., Tinôco, M. S. T., Valadão, R., Cardoso Vieira, R., Perez Maciel, R., Gomes Faria, R., Recoder, R., D’Ávila, R., Torquato da Silva, S., Barcelos Ribeiro, S. &amp; Avila-Pires, T. C. S. (2021) <i>Amphisbaena mitchelli</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/75161240/75161257\">https://www.iucnredlist.org/species/75161240/75161257</a>. [Acessado em: 01/dez/2025]."
+            }
+          ],
+          "orderBy": "Y2021"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Hoogmoed & Avila-Pires, 1991",
+              "title": "A new species of small <i>Amphisbaena</i> (Reptilia: Amphisbaenia: Amphisbaenidae) from western Amazonian Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Gans, 1964",
+              "title": "<i>Amphisbaena mitchelli</i> Procter recorded from Belem, Para, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Hoogmoed & Avila-Pires, 1991",
+              "title": "A new species of small <i>Amphisbaena</i> (Reptilia: Amphisbaenia: Amphisbaenidae) from western Amazonian Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Azevedo-Ramos, C. &amp; Moutinho, P.R.S. (1994) Amphisbaenians (Reptilia, Amphisbaenidae) in nests of Atta sexdens (Hymenoptera, Formicidae) in eastern Amazonia, Brazil. <i>Entomological News</i>. 105 (3), 183-184.",
+          "Gans, C. (1964) The South American species of <i>Amphisbaena</i> with a vertically keeled tail (Reptilia, Amphisbaenidae). <i>Senckenbergiana Biologica</i>. 45, 387-416.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Hoogmoed, M.S. &amp; Avila-Pires, T.C.S. (1991) Annotated checklist of the herpetofauna of Petit Saut, Sinnamary River, French Guiana. <i>Zoologische Mededelingen Leiden</i>. 65 (5), 53-88.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Ribeiro, S., Santos-Jr, A.P., Chagas, L.C. &amp; Chalkidis, H.M. (2014) Range extension and geographic distribution of <i>Amphisbaena mitchelli</i> Procter, 1923 in the state of Pará, Brazil. <i>Check List</i>. 10 (5), 1229-1230.",
+          "Silva, F.M., Menks, A.C., Prudente, A.L.C., Costa, J.C.L., Travassos, A.E.M. &amp; Galatti, U. (2011) Squamate reptiles from municipality of Barcarena and surroundings, state of pará, North of Brazil. <i>Check List</i>. 7 (3), 220-226.",
+          "Silveira, A. L., Rocha, C., Nogueira, C. C., Werneck, F., Moura, G. J. B., Winck, G., Ribeiro Júnior, M. A., Kiefer, M., Freitas, M. A., Hoogmoed, M. S., Tinôco, M. S. T., Valadão, R., Cardoso Vieira, R., Perez Maciel, R., Gomes Faria, R., Recoder, R., D’Ávila, R., Torquato da Silva, S., Barcelos Ribeiro, S. &amp; Avila-Pires, T. C. S. (2021) <i>Amphisbaena mitchelli</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/75161240/75161257\">https://www.iucnredlist.org/species/75161240/75161257</a>. [Acessado em: 01/dez/2025]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

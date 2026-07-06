@@ -1,0 +1,255 @@
+{
+  "id_ficha": "6f564b473978483376625064724d71305667476f75413d3d",
+  "nome_cientifico": "Melanophryniscus fulvoguttatus (Mertens, 1937)",
+  "nome_cientifico_atual": "Melanophryniscus fulvoguttatus (Mertens, 1937)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21373.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6f564b473978483376625064724d71305667476f75413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Melanophryniscus fulvoguttatus</i>&nbsp;<span>(Mertens, 1937)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Melanophryniscus fulvoguttatus </em>ocorre na Argentina, Brasil e Paraguai. No Brasil, possui registros de ocorrência apenas no estado de Mato Grosso do Sul. A espécie é terrestre e encontrada em pastagens sazonalmente inundadas e campos naturais, onde se reproduz após chuvas fortes. A espécie é resiliente a alterações no hábitat e não há evidência de ameaças que possam colocá-la em risco de extinção. Por estas razões, <em>Melanophryniscus fulvoguttatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Melanophryniscus fulvoguttatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21373.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21373.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16427,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Melanophryniscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Melanophryniscus fulvoguttatus</i>"
+        }
+      ],
+      "oldNames": "Dendrophryniscus stelzneri fulvoguttatus, Melanophryniscus stelzneri fulvoguttatus",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Melanophryniscus fulvoguttatus</em> é conhecida para Argentina, Brasil e Paraguai (Cruz &amp; Caramaschi, 2003). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência restritas às porções central e sul do estado do Mato Grosso do Sul (Kokobum &amp; Bernarde, 1998; Prigioni &amp; Langone, 1998; Cruz &amp; Caramaschi, 2003; C. Zank, com. pess., 2012).</p>",
+      "states": "Mato Grosso do Sul",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Paraná RH1",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/674b4232683545334f6f714b74366659394f4e416744797339384b762f7666776f716567416765644d30506e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "929c386fdf282d6d2ffff3434ba19083.png",
+        "fileName": "Mapa de Melanophryniscus fulvoguttatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Melanophryniscus fulvoguttatus </em>habita pastagens sazonalmente inundadas e campos naturais. A reprodução é explosiva e acontece após chuvas fortes, quando os machos vocalizam em pequenos arbustos até 20 cm de altura. Abrigam-se no subsolo quando as áreas de reprodução secam (Baldo &amp; Langone, 2004). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a tendência populacional parece ser estável (I.B. Amaral, com. pess., 2012).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie é resiliente a alterações no hábitat<em>, </em>e não há evidência de ameaças que possam colocá-la em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Baldo & Langone, 2004",
+              "title": "Baldo, D. &amp; Langone, J. (2004) <i>Melanophryniscus fulvoguttatus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54821A11209419.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54821A11209419.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Baldo, D. &amp; Langone, J., 2004. <i>Melanophryniscus fulvoguttatus</i>. The IUCN Red List of Threatened Species 2004: e.T54821A11209419, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54821A11209419.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54821A11209419.en</a>.",
+          "Cruz, C.A.G. &amp; Caramaschi, U. 2003. Taxonomic status of <i>Melanophryniscus stelzneri dorsalis</i> (Mertens, 1933) and <i>Melanophryniscus stelzneri fulvoguttatus</i> (Mertens, 1937) (Amphibia, Anura, Bufonidae). <b>Boletim do Museu Nacional. Nova Serie, Zoologia</b>, 500: p.1-11.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kokubum, M.N. &amp; Bernarde, P.S. 1998. <i>Melanophryniscus stelzneri fulvoguttatus</i> (Redbelly Toad). <b>Herpetological Review</b>, 29 (3): p.173.",
+          "Prigioni, C.M. &amp; Langone, J.A. 1998. <i>Melanophryniscus stelzneri fulvoguttatus</i> (Mertens, 1937) (Anura, Bufonidae). Primera cita para el estado brasileño de Mato Grosso do Sul. <b>Cuadernos de Herpetología</b>, 12: p.52."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

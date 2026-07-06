@@ -1,0 +1,505 @@
+{
+  "id_ficha": "522f7139317846577a45534d557859356369393568413d3d",
+  "nome_cientifico": "Bothrops mattogrossensis Amaral, 1925",
+  "nome_cientifico_atual": "Bothrops mattogrossensis Amaral, 1925",
+  "nome_comum": "Boca-de-sapo, Jararaca, Jararaca-pintada",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28028.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=522f7139317846577a45534d557859356369393568413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops mattogrossensis</i>&nbsp;<span>Amaral, 1925</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "26/02/2026",
+      "justificative": "<p><em>Bothrops mattogrossensis</em> ocorre no Brasil, Argentina, Paraguai, Bolívia e Peru. No Brasil, a espécie é amplamente distribuída, com ocorrência predominante no Cerrado e Pantanal. A espécie é abundante, comum e generalista quanto ao uso do habitat, sendo encontrada em ambientes florestais e savânicos, planícies alagáveis e áreas alteradas. Não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões <em>Bothrops mattogrossensis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Bothrops mattogrossensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28028.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28028.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/6b6b50384e46545370567055506975674f63373850673d3d/full"
+      },
+      "version": 2,
+      "versionId": 19242,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops mattogrossensis</i>"
+        }
+      ],
+      "oldNames": "Bothropoides matogrossensis, Bothrops neuwiedi boliviana, Bothrops neuwiedi bolivianus, Bothrops neuwiedi matogrossensis",
+      "commonNames": "Boca-de-sapo, Jararaca, Jararaca-pintada",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Bothrops mattogrossensis </em>ocorre no Brasil, Argentina, Paraguai, Bolívia e Peru (Gonzáles, 1998; Giraudo &amp; Scrocchi, 2002; Campbell &amp; Lamar, 2004; Gonzales <em>et al</em>., 2004; Harvey <em>et al</em>., 2005; Silva &amp; Rodrigues, 2008; Cacciali, 2010; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie é amplamente distribuída no Cerrado e Pantanal, ocorrendo em todos os estados da região Centro-Oeste, com registros também em São Paulo, Tocantins, Amazonas e Rondônia (Strüssmann &amp; Sazima, 1993; Silva, 2000; Strüssmann, 2000; Martins<em> et al.,</em> 2002; França <em>et al</em>., 2006; Monteiro <em>et al.,</em> 2006; Silva &amp; Rodrigues, 2008; Souza <em>et al</em>., 2010; Carvalho <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019). No estado do Amazonas, há uma população isolada em área de campos no município de Humaitá (Silva &amp; Rodrigues, 2008). </p>",
+      "states": "Amazonas, Goiás, Mato Grosso, Mato Grosso do Sul, Rondônia, São Paulo, Tocantins",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Grande, Sub-bacia Madeira, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paranaíba, Sub-bacia Paraná RH1, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/483339716b3753774a77367a627370336973746f69464b424d302f466d65655553422f4a304c39767433744b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição de Bothrops mattogrossensis",
+        "diskFileName": "a14be6d9cfa36cb20a1396de722d5e42.png",
+        "fileName": "Mapa de Bothrops mattogrossensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p>A espécie ocorre no Pantanal, no Cerrado e em áreas de savana na Amazônia, ocupando principalmente ambientes abertos, incluindo áreas adjacentes a florestas sazonais semideciduais, planícies alagáveis e áreas desmatadas (Strüssmann &amp; Sazima, 1993; Martins <em>et al</em>., 2002; Monteiro <em>et al</em>., 2006). Apresenta hábitos noturnos e terrestres (Strüssmann &amp; Sazima, 1993; Martins <em>et al</em>., 2002); contudo, o corpo mais esguio e a cauda relativamente mais longa em comparação a outras espécies do grupo <em>B. neuwiedi</em> sugerem uma tendência a maior atividade arborícola (Monteiro <em>et al</em>., 2006). O ciclo reprodutivo das fêmeas é sazonal, com período vitelogênico concentrado no final da estação chuvosa, e o tamanho da ninhada varia entre 18 e 37 embriões. O comprimento rostro-cloacal mínimo registrado para machos e fêmeas sexualmente maduros é de 410 mm e 568 mm, respectivamente (Monteiro <em>et al</em>., 2006). A dieta inclui anuros, lagartos e mamíferos, com registros ocasionais de consumo de centopeias e outras serpentes, apresentando variação ontogenética na alimentação (Martins <em>et al</em>., 2002; Monteiro <em>et al.</em>, 2006; Strüssmann &amp; Sazima, 1993).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Bothrops mattogrossensis</em> é comum e abundante nos locais onde ocorre.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2018",
+              "title": "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA das Ilhas e Várzeas do Rio Paraná",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "C. Aoki, com. pess., com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jatuarana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Werneck, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Mapinguari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Werneck, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada dos Guimarães",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO PANTANAL DO RIO NEGRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2000",
+              "title": "Revisão sistemática do complexo <i>Bothrops neuwiedi</I> (Serpentes, Viperidae, Crotalinae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "CABECEIRA DO PRATA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda América",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Paula H. Santa-Rita, dados não publicaados,, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Estância Dorochê",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazendinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jubran",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Amadeu Botelho",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Araguaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        },
+        {
+          "name": "Tapirapé/Karajá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Taunay/Ipegue",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silva & Rodrigues, 2008",
+              "title": "Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cacciali, P. (2010) <i>Reptiles del Paraguay: una aproximación al estudio de su diversidad y distribución geográfica</i>. Dissertação de Mestrado. Universidad de la República. Montevideo. 386pp.",
+          "Campbell, J.A. &amp; Lamar, W.W. (2004) <i>The venomous reptiles of the Western Hemisphere</i> Edição Vol. 2 Ithaca, New York, Cornell University Press, 898pp.",
+          "Carvalho, P.S., da Silva, L.A., Ferreira, V.L., Souza, F.L. &amp; Santana, D.J. (2018) Snakes of Campo Grande municipality, Mato Grosso do Sul state, Central Brazil. <i>Herpetology Notes</i>. 11, 321-328.",
+          "França, F.G.R., Mesquita, D.O. &amp; Colli, G.R. (2006) A checklist of snakes from Amazonian Savannas in Brazil, housed in the coleção herpetologica da universidade de Brasilia, with new distribution records. <i>Occasional Papers of the Oklahoma Museum of Natural History</i>. 17, 1-13.",
+          "Giraudo, A.R. &amp; Scrocchi,G.J. (2002) Argentinian snakes: an annoted checklist. <i>Smithsonian Herpetological Information Service</i>. 132, 1–53.",
+          "Gonzales, L., Embert, D. &amp; Montano, R. (2004) Reptiles In: Azurduy <i>et al.</i> (eds.) <i>Historia Natural del Municipio de Pampagrande. Una Localidad tipica de los Valles Interandinos de Bolivia</i>. Fondo editorial A.C. NUSA,",
+          "Gonzáles, L. (1998) La herpetofauna del Izozog. <i>Ecología en Bolivia</i>. 31, 45-51.",
+          "Harvey, M.B., Aparicio , J.E. &amp; Gonzales, L.A. (2005) Revision of the venomous snakes of Bolivia. II: the pitvipers (Serpentes: Viperidae). <i>Annals of Carnegie Museum</i>. 74, 1-37.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2002) <i>In Schuett <i>et al.</i> [eds.], Biology of the Vipers</i> Utah, Eagle Mountain Publishing, Eagle Mountain, 307–328pp.",
+          "Monteiro, C., Montgomery, C.E., Spina, F., Sawaya, R.J. &amp; Martins, M. (2006) Feeding, Reproduction, and Morphology of <i>Bothrops mattogrossensis</i> (Serpentes, Viperidae, Crotalinae) in the Brazilian Pantanal. <i>Journal of Herpetology</i>. 40 (3), 408–413.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Silva, V.X. &amp; Rodrigues, M.T.U. (2008) Taxonomic revision of the <i>Bothrops neuwiedi </i>complex ( Serpentes , Viperidae ) with description of a new species. <i>Phyllomedusa</i>. 7 (1), 45-90.",
+          "Silva, V.X. (2000) <i>Revisão sistemática do complexo <i>Bothrops neuwiedi</I> (Serpentes, Viperidae, Crotalinae)</i>. Tese de Doutorado. Universidade de São Paulo. São Paulo. 56pp.",
+          "Souza, F.L., Uetanabaro, M., Landgref-Filho, P., Piatti, L. &amp; Prado, C.P.A. (2010) Herpetofauna, municipality of Porto Murtinho, Chaco region, state of Mato Grosso do Sul, Brazil. <i>Check List</i>. 6 (3), 470-475.",
+          "Strüssmann, C. &amp; Sazima, I. (1993) The snake assemblage of the Pantanal at Poconé, western Brazil: composition and ecological summary. <i>Studies on Neotropical Fauna and Environment</i>. 28, 157-168.",
+          "Strüssmann, C. (2000) Herpetofauna In: Alho (ed.) <i>Fauna Silvestre da Região do Rio Manso, MT</i>. Brasília-DF, IBAMA., pp. 153-189.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>.",
+          "Uetz, P., Freed, P. &amp; Hošek, J. (2018) <i>Bothrops mattogrossensis</i>. <a target=\"_blank\" href=\"http://www.reptiledatabase.org.\">http://www.reptiledatabase.org.</a>. [Acessado em: 23/out/2018]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id_ficha": "7737486568685a55505a6736425252427a7959664d413d3d",
+  "nome_cientifico": "Melanophryniscus pachyrhynus (Miranda-Ribeiro, 1920)",
+  "nome_cientifico_atual": "Melanophryniscus pachyrhynus (Miranda-Ribeiro, 1920)",
+  "nome_comum": "Sapinho-de-barriga-vermelha-marmoreada",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17804.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=7737486568685a55505a6736425252427a7959664d413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Melanophryniscus pachyrhynus</i>&nbsp;<span>(Miranda-Ribeiro, 1920)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "13/06/2024",
+      "justificative": "<p><em>Melanophryniscus pachyrhynus</em> é conhecida para o Uruguai e Brasil, onde está associada às serras pampianas do estado do Rio Grande do Sul. A espécie é encontrada facilmente em sua área de ocorrência, principalmente durante o período reprodutivo. Pode ser localmente afetada pela perda e conversão de hábitat, mas essas ameaças não devem impactar todas as populações da espécie. Por esses motivos, <em>Melanophryniscus pachyrhynus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Daniele Carvalho do Carmo Faria; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Faria, D.C.C.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2024. <i>Melanophryniscus pachyrhynus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17804.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17804.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14971,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2024",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Bufonidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Melanophryniscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Melanophryniscus pachyrhynus</i>"
+        }
+      ],
+      "oldNames": "Atelopus pachyrhynus, Melanophryniscus orejasmirandai",
+      "commonNames": "Sapinho-de-barriga-vermelha-marmoreada",
+      "taxonomicNotes": "<p>Redescrição da espécie e detalhamento morfológico com base em espécimes vivos por Vaz-Silva <em>et al</em>. (2008).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p> <em>Melanophryniscus pachyrhynus</em> é conhecida para o Uruguai e Brasil (Achaval &amp; Olmos, 2003; Maneyro &amp; Kwet, 2008; Vaz-Silva <em>et al</em>., 2008). </p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, é amplamente distribuído no Rio Grande do Sul (Caramaschi &amp; Cruz, 2002; Vaz-Silva et al., 2008; Santos <em>et al</em>., 2011), com extensão de ocorrência calculada de 47.682 km2.</p>",
+      "states": "Rio Grande do Sul",
+      "biomes": "Pampa",
+      "watersheds": "Sub-bacia Guaíba",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/456178524e3462365959695952476d4967704e6f334f50464b7739726c4378554f33795a4d506f6a2b61446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Melanophryniscus pachyrhynus.",
+        "diskFileName": "bcb19486831cb7787cda94652bda8cdf.png",
+        "fileName": "Mapa de Melanophryniscus pachyrhynus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Melanophryniscus pachyrhynus</em> é encontrado em ambientes com poças temporárias, nos quais a reprodução ocorre (Garcia &amp; Segalla, 2004). A espécie parece estar associada a ambientes de terras altas no bioma Pampa (Planalto Sul-Rio-Grandense), caracterizado por afloramentos rochosos, mosaicos de campos naturais e florestas semideciduais (Santos <em>et al</em>., 2011). Os machos da espécie vocalizam do fim do dia (18:30 horas) até às 20:30 horas e a reprodução ocorre após fortes chuvas em ambientes lênticos e lóticos, como em pequenos córregos, poças rasas e áreas alagadas, porém foram observados utilizando poças em áreas perturbadas (Santos <em>et al</em>., 2011). </p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada abundante nas áreas em que ocorre, facilmente encontrada durante o período reprodutivo (Vaz-Silva <em>et al</em>., 2008). </p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de hábitat pela conversão da paisagem em monoculturas e silviculturas, bem como a implantação de empreendimentos de mineração na região de ocorrência da espécie, estão entre as principais ameaças à espécie (C. Zank, com. pess., 2011).</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para o táxon.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia & Segalla, 2004",
+              "title": "Garcia, P. &amp; Segalla, M.V. (2004) <i>Melanophryniscus pachyrhynus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54826A11210690.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54826A11210690.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos mais aprofundados acerca de sua ecologia e história natural são necessários para a espécie (Vaz-Silva <em>et al</em>., 2008; Santos <em>et al</em>., 2011).</p>",
+      "table": [
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Vaz-Silva <i>et al.</i>, 2008",
+              "title": "Vaz-Silva, W., Balestrin, R.L. &amp; Di-Bernardo, M. (2008) Rediscovery of <i>Melanophryniscus pachyrhynus</i> (Miranda-Ribeiro, 1920) (Amphibia: Anura: Bufonidae) in southern Brazil, with addenda to species redescription. <i>South American Journal of Herpetology</i>. 3 (1), 36-42."
+            }
+          ]
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2011",
+              "title": "Santos, T.G., Maneyro, R., Cechin, S.Z. &amp; Haddad C.F.B. (2011) Breeding habitat and natural history notes of the toad <i>Melanophryniscus pachyrhynus</i> (Miranda-Ribeiro, 1920) (Anura, Bufonidae) in southern Brazil. <i>Herpetological Bulletin</i>. 1 (116), 15-18."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Achaval, F. &amp; Olmos, A. (2003) <i>Anfibios y reptiles del Uruguay. 2ª Edición corregida y aumentada. – Serie Fauna 1</i> Montevideo, Graphis, 136pp.",
+          "Borteiro, C., Kolenc, F., Tedros, M. &amp; Gutiérrez, F.M. (2005) Geographic Distribution: <i>Melanophryniscus pachyrhynus</i>. <i>Herpetological Review</i>. 36 (2), 199–200.",
+          "Caramaschi, U. &amp; Cruz, C.A.G. (2002) Taxonomic status of <i> Atelopus pachyrhynus </i> Miranda-Ribeiro, 1920, redescription of <i>Melanophryniscus tumifrons</i> (Boulenger, 1905), and descriptions of two new species of <i> Melanophryniscus</i> from the state of Santa Catarina, Brazil (Amphibia). <i>Arquivos do Museu Nacional</i>. 60 (4), 303-314.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Garcia, P. &amp; Segalla, M.V. (2004) <i>Melanophryniscus pachyrhynus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54826A11210690.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T54826A11210690.en</a>. [Acessado em: 15/mai/2018].",
+          "ICMBio/MMA (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Maneyro, R. &amp; Kwet, A. (2008) Amphibians in the border region between Uruguay and Brazil: updated species list with comments on taxonomy and natural history (Part I: Bufonidae). <i>Stuttgarter Beiträge zur Naturkunde. Serie A, Biologie. Neue Serie</i>. 1, 95-121.",
+          "Santos, T.G., Maneyro, R., Cechin, S.Z. &amp; Haddad C.F.B. (2011) Breeding habitat and natural history notes of the toad <i>Melanophryniscus pachyrhynus</i> (Miranda-Ribeiro, 1920) (Anura, Bufonidae) in southern Brazil. <i>Herpetological Bulletin</i>. 1 (116), 15-18.",
+          "Vaz-Silva, W., Balestrin, R.L. &amp; Di-Bernardo, M. (2008) Rediscovery of <i>Melanophryniscus pachyrhynus</i> (Miranda-Ribeiro, 1920) (Amphibia: Anura: Bufonidae) in southern Brazil, with addenda to species redescription. <i>South American Journal of Herpetology</i>. 3 (1), 36-42."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

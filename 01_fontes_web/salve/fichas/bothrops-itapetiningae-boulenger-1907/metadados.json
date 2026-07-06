@@ -1,0 +1,609 @@
+{
+  "id_ficha": "5245322b6938397256557263317575517a64464576513d3d",
+  "nome_cientifico": "Bothrops itapetiningae (Boulenger, 1907)",
+  "nome_cientifico_atual": "Bothrops itapetiningae (Boulenger, 1907)",
+  "nome_comum": "Cotiarinha, Jaracada-do-campo, Pequena cotiara",
+  "grupo": "Répteis",
+  "categoria_risco": "VU",
+  "categoria_risco_completa": "Vulnerável (VU)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25545.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=5245322b6938397256557263317575517a64464576513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bothrops itapetiningae</i>&nbsp;<span>(Boulenger, 1907)</span>",
+      "category": "Vulnerável (VU)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "03/08/2025",
+      "justificative": "<p><em>Bothrops itapetiningae</em> é endêmica do Brasil, com registro nos estados do Paraná, São Paulo, Minas Gerais, Goiás, Mato Grosso do Sul e Distrito Federal. Embora sua extensão de ocorrência seja ampla, calculada em 768.100km², sua área de ocupação é consideravelmente menor, já ela é especialista de hábitat, ocorrendo somente fitofisionomias campestre de Cerrado. Além disso, ela não é encontrada em todos os remanescentes (por exemplo, ela não é encontrada nos Parques Nacionais das Emas e da Serra da Canastra, regiões bem amostradas e com hábitat adequado). Os ambientes campestres de Cerrado ao longo da distribuição da espécie têm sido drasticamente reduzidos e fragmentados, principalmente em decorrência da sua conversão em áreas para agricultura mecanizada e pastagem. A perda acumulada desse ambientes ao longo de toda a extensão de ocorrência da espécie é de 97%, implicando na fragmentação da sua população. A pressão sobre esses ambientes campestres nativos persiste, tendo havido uma redução de 9,47% entre 2007 e 2017 nas regiões de registro da espécie. Sua área de ocupação foi estimada em 972 km². Considerando a área de ocupação reduzida, a fragmentação severa da população e o declínio continuado da área da qualidade do hábitat, <em>Bothrops </em><em>itapetiningae, </em>foi avaliada como Vulnerável (VU) pelo critério B2ab(ii,iii).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Alejandro Valencia-Zuleta; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Valencia-Zuleta, A.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2025. <i>Bothrops itapetiningae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25545.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25545.2",
+      "photo": {
+        "authorName": "Cristiano de Campos Nogueira",
+        "authorEmail": "cnbiogeo@gmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "e123aab7b6d83a068f7f900aba5875eb.jpg",
+        "fileName": "Bothrops itapetiningae RECOR.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/354731694165316774517058776c7739552b734e4b702f50753936737156572b68716a6a7a747574536c65462b776455784f514b2b5355317a4962486351614d/full"
+      },
+      "version": 2,
+      "versionId": 18414,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Viperidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bothrops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bothrops itapetiningae</i>"
+        }
+      ],
+      "oldNames": "Lachesis itapetiningae, Rhinocerophis itapetiningae",
+      "commonNames": "Cotiarinha, Jaracada-do-campo, Pequena cotiara",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bothrops itapetiningae</em> é endêmica do Brasil, com registros de ocorrência na porção sul do Cerrado, nos estados do Paraná, São Paulo, Minas Gerais, Goiás, Mato Grosso do Sul e no Distrito Federal (Martins <em>et al</em>., 2002; França &amp; Araújo, 2006; Sawaya <em>et al</em>., 2008; Martins &amp; Nogueira, 2010; Nogueira <em>et al</em>., 2019). Sua localidade-tipo é Itapetininga, sul do estado de São Paulo (Boulenger, 1907).</p> \n<p>A maioria dos registros nos estados de São Paulo e Paraná são possivelmente históricos, pois em boa parte das localidades de registro nestas regiões praticamente não restam ambientes campestres de Cerrado. A espécie também não é encontrada em todos os remanescentes de cerrado campestre ao longo de sua distribuição. Por exemplo, algumas das unidades de conservação presentes em sua extensão de ocorrência, como o Parque Nacional das Emas e Parque Nacional da Serra da Canastra, são bem amostradas, mas a espécie não foi encontrada (C. Nogueira, com. pess., 2019).</p> \n<p>No momento da avaliação, não foi possível identificar quais registros eram históricos, sendo assim, para os cálculos de extensão de ocorrência (EOO) e área de ocupação (AOO) foram considerados todos os registros. A EOO da espécie foi estimada em 768.100 km2, via mínimo polígono convexo a partir dos pontos de registro. Já sua AOO foi consideravelmente menor, estimada em 972 km2, considerando a área de remanescentes de campo (Projeto MapBiomas, 2018), hábitat específico da espécie, em um raio de 10 km ao redor dos registros e um grid de 2x2 km.</p>",
+      "nationalDistribution": "",
+      "states": "Distrito Federal, Goiás, Mato Grosso do Sul, Minas Gerais, Paraná, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Grande, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Tietê, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7476614a43656b5469306d756f784f5831664a343770597669346536626f6c6356324333693733334257424b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_ Bothrops itapetiningae",
+        "diskFileName": "c216b62736f3a06e6b171d724d976915.png",
+        "fileName": "Mapa de Bothrops itapetiningae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Bothrops itapetiningae</em> ocorre predominantemente no Cerrado (Martins <em>et al</em>., 2002; França &amp; Araújo, 2006; Leão et al., 2014) e é especialista de hábitat, sendo encontrada somente em áreas de cerrado campestre bem preservados (Sawaya <em>et al</em>., 2008), e não ocorre em áreas alteradas. É terrestre, com atividade tanto noturna quanto diurna (França &amp; Araújo, 2006), e vivípara, com fecundidade entre três e 11 embriões, e folículos ovarianos vitelogênicos entre maio e setembro (Leão et al., 2014). Fêmeas com embriões são encontradas entre outubro e dezembro (Leão et al., 2014). A fecundidade da espécie é menor em relação à de espécies congenéricas ou simpátricas (Leão et al., 2014). Alimenta-se de mamíferos, lagartos, anfíbios, aves e centopéias, e não há mudança ontogenética na dieta (Martins <em>et al</em>., 2002; França &amp; Araújo, 2006; Sawaya <em>et al</em>., 2008; Leão et al., 2014).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Bothrops itapetiningae </em>foi frequentemente encontrada na Estação Ecológica de Itirapina (Sawaya, 2004). No entanto, ela não tem sido encontrada recentemente em diversas localidades ao longo da sua distribuição, e parece ter havido um declínio populacional da espécie no estado de São Paulo (Marques <em>et al</em>., 1998). Suas taxas de encontro na natureza, em procuras limitadas por tempo, são relativamente baixas se comparadas a outras jararacas da porção sul do Cerrado (Leão et al., 2014). Nestas buscas direcionadas, os encontros foram concentrados apenas em áreas de cerrado campestre (campo limpo ou campo sujo), em poucas localidades (Itirapina e Brasília), indicando relativa raridade e especialização em hábitats, quando comparada às demais jararacas do Cerrado (Leão et al., 2014). </p> \n<p>Em Minas Gerais, a espécie também não tem sido encontrada nos últimos anos (A.L. Silveira, com. pess., 2019) e é muito rara em coleções científicas. Na região de Brasília, os exemplares recebidos por coleções científicas têm sido pouco frequentes nas duas últimas décadas (C. Nogueira, com. pess., 2019).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A maior ameaça à espécie é a perda de hábitat, principalmente em decorrência da conversão de áreas naturais em plantios extensivos de soja e formação de pastagem (Martins &amp; Nogueira, 2010). O hábitat da espécie, fisionomias campestres de Cerrado, tem sido drasticamente reduzido e fragmentado ao longo dos últimos 40 anos. Na extensão de ocorrência da espécie, houve perda de 97% da vegetação nativa, e declínio contínuo da qualidade do hábitat, pois entre 2007 e 2017 houve perda de aproximadamente 1.149km2 (4,56% ) de florestas  (Projeto Mapbiomas, 2018) . Se consideradas apenas as áreas de de vegetação campestre nativa, a redução foi proporcionalmente maior, com perda acumulada de 97,35% e perda recente (2007-2017) de aproximadamente 102,75 km2 (9,47%)  (Projeto Mapbiomas, 2018). Assim, há declínio da qualidade do hábitat e, considerando o tamanho pequeno dos remanescentes e a baixa capacidade de dispersão da espécie, sua população encontra-se severamente fragmentada, com pelo menos 50% dos indivíduos em remanescentes pequenos e isolados.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.3 - Pecuária agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Bothrops itapetiningae </em>foi espécie beneficiada no primeiro ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul (ICMBio, 2012), e manteve-se contemplada no segundo ciclo desse PAN (ICMBio, 2019). A espécie também é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p> \n<p> </p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2019,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B2ab(ii,iii)",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2020",
+              "title": "Martins, M., Nogueira, C.C., Guidorizzi, C.E., Andrade, S.P., Bataus, Y.S.L., Valencia-zuleta, A., Abrahão, C.R., Argôlo, A.J.S., Barbo, F.E., Bérnils, R.S., Martins, M.B., Colli, G.R., Costa, H.C., Frazão, L., Guedes, T., Ribeiro, R.A.K., Loebmann, D., Marques, O.A.V., Maschio, G.F., Oliveira, M.E.E.S., Oliveira, R.B., Pantoja, D.L., Passos, P.G.H., Ribeiro, L.B., Silveira, A.L., Strüssmann, C. &amp; Silva, W.V. (2020) <i>Bothrops itapetiningae (Boulenger, 1907)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2019"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Martins & Nogueira, 2010",
+              "title": "Martins, M. &amp; Nogueira, C. (2010) <i>Bothrops itapetiningae</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178266A7510399.en\">https://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178266A7510399.en</a>."
+            }
+          ],
+          "orderBy": "Y2009"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            },
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Ameaçada (AMEACADA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2010,
+          "coverage": "Minas Gerais",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii)",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Lista das espécies da fauna ameaçada de Minas Gerais. Deliberação Normativa COPAM Nº 147, de 30 de abril de 2010. Publicada pelo Diário do Executivo, Minas Gerais.</i>"
+            }
+          ],
+          "orderBy": "X2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 1998",
+              "title": "Estado de São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Sul - 2º ciclo",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 23/07/2019. Portaria nº 350, de 23 de Julho 2019, Aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.3. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf\">https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf</a>. Acessado em: 08/04/2022."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Nascentes do Rio Vermelho",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ARIE Capetinga-Taquara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA CORUMBATAí, BOTUCATU E TEJUPá PERIMETRO CORUMBATAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA IBITINGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ITIRAPINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sawaya <i>et al.</i>, 2008",
+              "title": "Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE SANTA BáRBARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chakra Grisu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santuário Ecológico Sonhem",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Hudson, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Inventários direcionados, assim como estudos populacionais e de história natural são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Boulenger, G.A. 1907. Description of a new pit viper from Brazil. <b>Annals and Magazine of Natural History</b>, 7 (20): p.338.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Estado de Minas Gerais 30/04/2010. Lista das espécies da fauna ameaçada de Minas Gerais. Deliberação Normativa COPAM Nº 147, de 30 de abril de 2010. Publicada pelo Diário do Executivo, Minas Gerais.. Disponível em: <a target=\"_blank\" href=\"http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192\">http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192</a>. Acessado em: 04/05/2010.",
+          "Estado de São Paulo 07/02/1998. Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1998/dec_sp_42838_1998_faunasilvestreameacadasextincao_sp.pdf</a>.",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Estado de São Paulo 27/11/2018. Decreto nº 63.853, de 27 de novembro de 2018: Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2018/decreto-63853-27.11.2018.html</a>. Acessado em: 22/07/2022.",
+          "França, F.G.R. &amp; Araújo, A.F.B. 2006. The conservation status of snakes in central Brazil. <b>South American Journal of Herpetology</b>, 1 (1): p.25-36.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio 23/07/2019. Portaria nº 350, de 23 de Julho 2019, Aprova o 2º Ciclo do Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul. p.3. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf\">https://www.icmbio.gov.br/portal/images/stories/docs-pan/pan-herpetofauna-do-sul/2-ciclo/pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf</a>. Acessado em: 08/04/2022.",
+          "ICMBio/MMA, 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Leão, S. M.; Pelegrin, N.; Nogueira, C. C. &amp; Brandão, R. A. 2014. Natural History of<i>Bothrops itapetiningae</i> Boulenger, 1907 (Serpentes: Viperidae: Crotalinae), an Endemic Species of the Brazilian Cerrado. <b>Journal of Herpetology</b>, 48 (3): p.324-331.",
+          "Marques, O.A.V. 1998. <b>Composição Faunística História Natural e Ecologia de Serpentes da Mata Atlântica na Região da Estação Ecológica Juréia Itatins São Paulo SP</b>. Tese de Doutorado. Universidade de São Paulo. São Paulo. p.142.",
+          "Martins, M. &amp; Nogueira, C. 2010. <i>Bothrops itapetiningae</i>. <b>The IUCN Red List of Threatened Species 2010: e.T178266A7510399</b>. Disponível em: <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178266A7510399.en\">https://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T178266A7510399.en</a>.",
+          "Martins, M.; Marques, O.A.V. &amp; Sazima, I. 2002. Ecological and phylogenetic correlates of feeding habits in Neotropical pitvipers of the genus <i>Bothrops</i>. <i>In</i>: Schuett <i>et al.</i>. <b>Biology of the Vipers</b>. Eagle Mountain Publishing Eagle Mountain, Utah, U.S.A.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Projeto MapBiomas 2018. Coleção 2.3 da Série Anual de Mapas de Cobertura e Uso de Solo do Brasil. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/\">http://mapbiomas.org/</a>. Acessado em: 01/09/2018.",
+          "Sawaya, R.J. 2004. <b>História natural e ecologia das serpentes de Cerrado da região de Itirapina, SP</b>. Tese de Doutorado. Universidade Estadual de Campinas. Campinas, São Paulo.",
+          "Sawaya, R.J.; Marques, O.A.V. &amp; Martins, M. 2008. Composição e história natural das serpentes de Cerrado de Itirapina, São Paulo, sudeste do Brasil. <b>Biota Neotropica</b>, 8 (2): p.127-149."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

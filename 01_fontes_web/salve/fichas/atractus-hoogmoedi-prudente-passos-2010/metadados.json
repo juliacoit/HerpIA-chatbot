@@ -1,0 +1,280 @@
+{
+  "id_ficha": "794d6f6d77475044523054695a73482f6432724f78773d3d",
+  "nome_cientifico": "Atractus hoogmoedi Prudente & Passos, 2010",
+  "nome_cientifico_atual": "Atractus hoogmoedi Prudente & Passos, 2010",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25536.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=794d6f6d77475044523054695a73482f6432724f78773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus hoogmoedi</i>&nbsp;<span>Prudente & Passos, 2010</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Atractus hoogmoedi</em> é endêmica do Brasil, registrada apenas da localidade-tipo, no leste do estado do Pará, e conhecida somente de três exemplares coletados em 1975, em uma região da Amazônia que já sofreu grande alteração da paisagem em decorrência de conversão de ambientes naturais em áreas agrícolas. A espécie apresenta baixa detectabilidade, no entanto, a região é pouco amostrada e não se sabe como a redução da vegetação a afetou. Não há informações suficientes dobre distribuição, população e impactos das ameaças para uma avaliação adequada da espécie. Por essas razões, <em>Atractus hoogmoedi</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Atractus hoogmoedi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25536.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25536.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 18405,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus hoogmoedi</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Espécie críptica, antes identificada como uma população disjunta de <em>Atractus zidoki</em> (Prudente &amp; Passos, 2010).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Atractus hoogmoedi </em>é endêmica do Brasil, conhecida apenas da localidade-tipo, no leste do Pará (Prudente &amp; Passos, 2010; Prudente <em>et al</em>., 2018), na região dos municípios de Capitão Poço e Santa Luzia. A espécie pode ter uma distribuição mais ampla, que inclui áreas protegidas (p. ex., a Terra Indígena Gurupi), já que essa região ainda é pouco inventariada e a espécie apresenta baixa detectabilidade. Porém, não existem registros para a espécie nas áreas urbanas de Belém e no leste e sul do Pará, onde existem coletas recentes e históricas (Cunha &amp; Nascimento, 1983, 1984).</p>",
+      "nationalDistribution": "",
+      "states": "Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4c4d716d7a367672723974714e435030526c2b37304747737446665863513057626a31442b354c624433784b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Atractus hoogmoedi",
+        "diskFileName": "06683828e6c21bdc704f5f1191ce2e5c.png",
+        "fileName": "Mapa de Atractus hoogmoedi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há informações sobre a história natural da espécie.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p>Não há informações detalhadas sobre uso de hábitat para a espécie. </p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais. A espécie é conhecida de apenas três exemplares coletados na localidade-tipo em 1975 (Prudente &amp; Passos, 2010). As revisões recentes de <em>Atractus</em> não registraram a espécie em nenhuma outra região ou localidade após o exame de extenso material deste gênero no Pará e adjacências (P. Passos, com. pess. 2019).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em região da Amazônia onde a vegetação original já estava sendo removida desde o início do século XIX, e os fragmentos de floresta remanescentes encontram-se isolados por extensas área de atividades agropecuárias. No entanto, não tem havido perda recente de vegetação na região. Análise da cobertura vegetal entre 2007 e 2017 mostrou que houve regeneração da vegetação nativa (dados MapBiomas, 2018). No entanto, não e sabe os efeitos da redução histórica da vegetação sobre a espécie.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.3 - Pecuária agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não foram encontradas informações para o táxon.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Atractus hoogmoedi</em> é espécie alvo do Plano de Ação Nacional para Conservação das Espécies Ameaçadas de Extinção da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal (ICMBio, 2018)</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "Martins <i>et al.</i>, 2018",
+              "title": "Martins, M.R.C., Nogueira, C.C., Fiorillo, B.F., Azevedo, Y.A.R., Bataus, Y.S.L., Uhlig, V.M., Silveira, A.L., Argôlo, A.J.S., Abrahão, C.R., Strüssmann, C., Loebmann, D., Barbo, F.E., Franco, F.L., Costa, G.C., Moura, G.J.B., Zaher, H.D., Martins, M.B., Oliveira, M.E.E.S., Hoogmoed, M.S., Marques, O.A.V., Passos, P.G.H., Bérnils, R.S., Ribeiro, R.A.K., Sawaya, R.J. &amp; Costa, T.B.G. (2018) <i>Atractus hoogmoedi</i> Prudente & Passos, 2010 In: ICMBio (ed.) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume IV – Répteis</i>. Brasília, DF, ICMBio/MMA,"
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            }
+          ],
+          "orderBy": "Z2013"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para Conservação das Espécies Ameaçadas de Extinção da Ictiofauna, Herpetofauna e Primatas do Cerrado e Pantanal",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São urgentes inventários na localidade-tipo e na região leste do Pará para localizar possíveis novas subpopulações.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cunha, O.R. &amp; Nascimento, F.P. 1983. Ofídios da Amazônia XX - As especies de <i>Atractus</i> Wagler, 1828, na Amazônia oriental e Maranhão (Ophidia, Colubridae). <b>Boletim do Museu Paraense Emílio Goeldi, série Zoologia</b>, 123: p.1-38.",
+          "Cunha, O.R. &amp; Nascimento, F.P., 1984. Ofídios da Amazônia. XXI - <i>Atractus zidoki</i> do leste Pará e notas sobre <i>A. alphonseihogei</i> e <i>A. schach</i> (Ophidia, Colubridae). Boletim do Museu Paraense Emílio Goeldi, série Zoologia, 1: p.219-228.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "Martins, M.R.C.; Nogueira, C.C.; Fiorillo, B.F.; Azevedo, Y.A.R.; Bataus, Y.S.L.; Uhlig, V.M.; Silveira, A.L.; Argôlo, A.J.S.; Abrahão, C.R.; Strüssmann, C.; Loebmann, D.; Barbo, F.E.; Franco, F.L.; Costa, G.C.; Moura, G.J.B.; Zaher, H.D.; Martins, M.B.; Oliveira, M.E.E.S.; Hoogmoed, M.S.; Marques, O.A.V.; Passos, P.G.H.; Bérnils, R.S.; Ribeiro, R.A.K.; Sawaya, R.J. &amp; Costa, T.B.G., 2018. <i>Atractus hoogmoedi</i> Prudente & Passos, 2010. <i>In</i>:ICMBio. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume IV – Répteis, ICMBio/MMA Brasília, DF.",
+          "Projeto MapBiomas 2018. Coleção 2.3 da Série Anual de Mapas de Cobertura e Uso de Solo do Brasil. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/\">http://mapbiomas.org/</a>. Acessado em: 01/09/2018.",
+          "Prudente, A.L.C. &amp; Passos, P. 2010. New cryptic species of <i>Atractus</i> (Serpentes: Dipsadidae) from Brazilian Amazonia. <b>Copeia</b>, 3: p.397-404.",
+          "Prudente, A.L.C.; Sarmento, J.F.M.; Ávila-Pires, T.C.; Maschio, G. &amp; Sturaro, M.J. 2018. How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <b>South American Journal of Herpetology</b>, 13: p.117-131."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

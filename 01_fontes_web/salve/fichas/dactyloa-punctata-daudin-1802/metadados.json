@@ -1,0 +1,850 @@
+{
+  "id_ficha": "7970506e65496d415736794d5343344c7445336967773d3d",
+  "nome_cientifico": "Dactyloa punctata (Daudin, 1802)",
+  "nome_cientifico_atual": "Dactyloa punctata (Daudin, 1802)",
+  "nome_comum": "papa-vento",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35688.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=7970506e65496d415736794d5343344c7445336967773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dactyloa punctata</i>&nbsp;<span>(Daudin, 1802)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "10/03/2026",
+      "justificative": "<p><em>Dactyloa punctata </em>possui ampla distribuição na América do sul, ocorrendo no Brasil e outros países da região Amazônica. No Brasil, possui distribuição disjunta, ocorrendo em quase toda a Amazônia e na Mata Atlântica entre a Paraíba e o estado de São Paulo. Habita florestas primárias e secundárias, sua distribuição é ampla, mesmo na Mata Atlântica, e não há ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>D. </em><em>punctata </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Dactyloa punctata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35688.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35688.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24349,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dactyloidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dactyloa</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dactyloa punctata</i>"
+        }
+      ],
+      "oldNames": "Anolis punctatus",
+      "commonNames": "papa-vento",
+      "taxonomicNotes": "<p>Duas subespécies são reconhecidas:<em> Dactyloa p. punctata</em> e <em>Dactyloa p. boulengeri</em>. Prates<em> et al</em>. (2015) tentativamente consideraram <em>D. philopunctata</em> como sinônimo de <em>D. punctata</em>.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Dactyloa punctata</em> possui ampla distribuição na América do Sul, ocorrendo no Brasil, Bolívia, Colômbia, Equador, Venezuela, Guiana e Peru (Williams, 1965; Cunha <em>et al</em>., 1985; Avila-Pires, 1995; Catenazzi <em>et al.</em>, 2013; Ribeiro-Júnior, 2015).</p> \n<p> </p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, apresenta distribuição disjunta, com registros em grande parte da Amazônia e na Mata Atlântica, desde a Paraíba até o estado de São Paulo (Avila-Pires, 1995; Rodrigues <em>et al.</em>, 2002; Vitt <em>et al.</em>, 2003; Avila-Pires <em>et al.</em>, 2009; Winck <em>et al</em>., 2011; Ribeiro-Júnior &amp; Amaral, 2016).</p>",
+      "states": "Acre, Alagoas, Amazonas, Bahia, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Paraíba, Pernambuco, Rio de Janeiro, Rondônia, Roraima, São Paulo",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6833456379734b6e734548673237794a304a734d49616a4b353371514c394343566a306f387266544c75586f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Dactyloa punctata.",
+        "diskFileName": "118eed434c9d37d8a37514619de448b5.png",
+        "fileName": "Mapa de Dactyloa punctata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Dactyloa punctata </em>é diurna e arborícola, habita florestas primárias e secundárias, sendo usualmente encontrada sobre tronco de árvores, mas ocasionalmente em vegetação rasteira e bordas de floresta e clareiras (Vitt <em>et al.</em>, 2003; Whithworth &amp; Beirne, 2011). São generalistas, alimentando-se de uma variedade de insetos (Gasnier <em>et al</em>., 1994). As fêmeas produzem várias ninhadas por ano, com media de 1 a 2 ovos cada (Whithworth &amp; Beirne, 2011). Há registro de parasitismo por <em>Physaloptera retusa</em> e <em>Strongyluris oscari</em> (Avila <em>et al.</em>, 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças que coloquem a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Dactyloa punctata foi beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2018",
+              "title": "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Ameaçada (AMEACADA)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 2014",
+              "title": "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2015",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Reptiles, Squamata, Parque Natural Municipal da Taquará, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA do Tapajós",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2020",
+              "title": "Herpetofauna from the Estação Ecológica Rio Acre, Amazon Rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2009",
+              "title": "Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Goytacazes",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Moraes <i>et al.</i>, 2017",
+              "title": "Integrative overview of the herpetofauna from Serra da Mocidade, a granitic mountain range in northern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Cutia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Pacaás Novos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Nascentes da Serra do Cachimbo",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Dactyloa punctata"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Sooretama",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Chico Mendes",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "França <i>et al.</i>, 2017",
+              "title": "Diversidade local e influência da sazonalidade sobre taxocenoses de anfíbios e répteis na Reserva Extrativista Chico Mendes, Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RVS de Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ribeiro-Júnior & Amaral, 2016",
+              "title": "Diversity, distribution, and conservation of lizards (Reptilia: Squamata) in the Brazilian Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Winck <i>et al.</i>, 2011",
+              "title": "Squamata, Iguania, <i>Anolis punctatus</i> (Daudin, 1802) and <i>Tropidurus torquatus</i> (Wied, 1820): Distribution extension and new records for Ilha Grande, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO CONDURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE GUAJARÁ-MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA TRAÇADAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Dactyloa punctata"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Debien <i>et al.</i>, 2019",
+              "title": "Diversity of reptiles in flooded and unflooded forests of the Amanã Sustainable Development Reserve, central Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Waldez <i>et al.</i>, 2013",
+              "title": "Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vrcibradic <i>et al.</i>, 2011",
+              "title": "Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Winck <i>et al.</i>, 2011",
+              "title": "Squamata, Iguania, <i>Anolis punctatus</i> (Daudin, 1802) and <i>Tropidurus torquatus</i> (Wied, 1820): Distribution extension and new records for Ilha Grande, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "CRISTALINO III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Dactyloa punctata"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Água Boa",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Fermiano <i>et al.</i>, 2017",
+              "title": "Lagartos (Ordem Squamata) em um fragmento de floresta ombrófila aberta no centro-sul de Rondônia Florestal no Centro-Sul de Rondônia"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Negro",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Dactyloa punctata"
+            }
+          ]
+        },
+        {
+          "name": "Caru",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "A.L. Silveira, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "Escondido",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "Marajai",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "Parakanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Dactyloa punctata"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Aripuanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        },
+        {
+          "name": "Uru-Eu-Wau-Wau",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Prates <i>et al.</i>, 2016",
+              "title": "Inferring responses to climate dynamics from historical demography in neotropical forest lizards"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Avila-Pires, T.C.S., Vitt, L.J., Sartorius, S.S. &amp; Zani, P.A. (2009) Squamata (Reptilia) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards. <i>Boletim do Museu Paraense Emilio Goeldi, Ciências Naturais</i>. 4, 99-118.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Cunha, O.R., Nascimento, F.P. &amp; Avila-Pires, T.C.S. (1985) Os répteis da área de Carajás, Pará, Brasil (Testudines, Squamata) I. <i>Publicações Avulsas do Museu Paraense Emilio Goeldi</i>. 40, 9-92.",
+          "Gasnier, T.R., Magnusson, W.E. &amp; Lima, A.P. (1994) Foraging activity and diet of four sympatric lizard species in a Tropical rainforest. <i>Journal of Herpetology</i>. 28 (2), 187-192.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "Prates, I., Rodrigues, M.T., Melo-Sampaio, P.R. &amp; Carnaval, A.C. (2015) Phylogenetic relationships of Amazonian anole lizards (Dactyloa): taxonomic implications, new insights about phenotypic evolution and the timing of diversification. <i>Molecular phylogenetics and evolution</i>. 82, 258-268.",
+          "Ribeiro-Júnior, M. A. &amp; Amaral, S. (2016) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. III. Anguidae, Scincidae, Teiidae. <i>Zootaxa</i>. 4205, 401-430.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Rodrigues, M.T, Xavier, V., Skuk, G. &amp; Pavan, D. (2002) New specimens of <i>Anolis phyllorhinus</i> (Squamata, Polychrotidae): the first female of the species and of proboscid anoles. <i>Papéis Avulsos de Zoologia (São Paulo)</i>. 42, 363-380.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>.",
+          "São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>.",
+          "Vitt, L.J., Avila-Pires, T.C.S., Espósito, M.C., Sartorius, S.S. &amp; Zani, P.A. (2003) Sharing Amazonian rain-forest trees: ecology of <i>Anolis punctatus</i> and <i>Anolis transversalis</i> (Squamata: Polychrotidae). <i>Journal of Herpetology</i>. 37 (2), 276-285.",
+          "Whitworth, A. &amp; Beirne, C. (2011) <i>Reptiles of the Yachana Reserve</i> Global Vision International, Exeter,",
+          "Williams, E.E. (1965) South American <i>Anolis</i> (Sauria, Iguanidae): two new species of the punctatus group. <i>Breviora</i>. 233, 1-15.",
+          "Winck, G.R., Vrcibradic, D., Telles, F.B.S., Borges-Júnior, V.N.T., van Sluys, M. &amp; Rocha, C.F.D. (2011) Squamata, Iguania, <i>Anolis punctatus</i> (Daudin, 1802) and <i>Tropidurus torquatus</i> (Wied, 1820): Distribution extension and new records for Ilha Grande, state of Rio de Janeiro, southeastern Brazil. <i>Check List</i>. 7 (3), 270-271.",
+          "Ávila, R.W., Anjos, L.A., Ribeiro, S.C., Morais, D.H., Silva, R.J. &amp; Almeida, W.O. (2012) Nematodes of lizards (Reptilia: Squamata) from Caatinga biome, northeastern Brazil. <i>Comparative Parasitology</i>. 79 (1), 56-63."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

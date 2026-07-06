@@ -1,0 +1,990 @@
+{
+  "id_ficha": "32474a38496b347362715341756d636c7a30713161413d3d",
+  "nome_cientifico": "Trachycephalus mesophaeus (Hensel, 1867)",
+  "nome_cientifico_atual": "Trachycephalus mesophaeus (Hensel, 1867)",
+  "nome_comum": "Perereca-grudenta",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17597.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=32474a38496b347362715341756d636c7a30713161413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Trachycephalus mesophaeus</i>&nbsp;<span>(Hensel, 1867)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Trachycephalus mesophaeus</em> é endêmica do Brasil, amplamente distribuída na Mata Atlântica, podendo ser encontrada de Pernambuco ao Rio Grande do Sul. A espécie não é encontrada frequentemente, mas durante o período reprodutivo mostra-se abundante. Ocorre em diversas unidades de conservação, inclusive de proteção integral, e tolera ambientes alterados. Não há ameaças que possam afetar toda a sua população. Portanto, <em>Trachycephalus mesophaeus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Trachycephalus mesophaeus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17597.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17597.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14932,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Trachycephalus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Trachycephalus mesophaeus</i>"
+        }
+      ],
+      "oldNames": "Hyla mesophaea, Phrynohyas mesophaea",
+      "commonNames": "Perereca-grudenta",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Trachycephalus mesophaeus</em>  é endêmica do Brasil e possui registros de ocorrência entre os estados de Pernambuco e Rio Grande do Sul, incluindo áreas interioranas de Minas Gerais (Cochran, 1955; Bokermann, 1966; Lutz, 1973; Brandão <em>et al</em>., 1996; Izecksohn &amp; Carvalho-e-Silva, 2001; Prado <em>et al</em>., 2003; Silva, 2006; Kwet &amp; Solé, 2008; Cintra <em>et al</em>., 2009; Kwet <em>et al</em>., 2010; Rievers, 2010; Solé <em>et al</em>., 2010; Almeida <em>et al</em>., 2011; Lema &amp; Martins, 2011; Carvalho-e-Silva <em>et al</em>., 2015; Roberto <em>et al</em>., 2017).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Espírito Santo, Minas Gerais, Paraná, Pernambuco, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Guaíba, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4f354155754f344235334f7675486a5961464b776a6b574464315636466e315147654a37574a6871302b307644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "3429e1bccc7223cc621b4820ba474d90.png",
+        "fileName": "Mapa de Trachycephalus mesophaeus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Trachycephalus mesophaeus </em>é uma espécie arborícola, que vive em florestas primárias, secundária e borda de floresta. Sua reprodução é explosiva e ocorre em lagoas permanentes e intermitentes, onde os ovos e girinos se desenvolvem (Carvalho-e-Silva &amp; Garcia, 2004). Pode ocorrer em ambientes antropizados.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é incomum ao longo de sua distribuição, porém durante o período reprodutivo é abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças significativas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida sobre utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva & Garcia, 2004",
+              "title": "Carvalho-e-Silva, S.P. &amp; Garcia, P. (2004) <i>Trachycephalus mesophaeus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55822A11372732\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55822A11372732</a>. [Acessado em: 15/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zina <i>et al.</i>, 2012",
+              "title": "Anurans of the sandy coastal plains of the Lagamar Paulista, state of São Paulo, Brazil"
+            },
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos-Pereira <i>et al.</i>, 2016",
+              "title": "Anuran species of the Salto Morato Nature Reserve in Paraná, southern Brazil: review of the species list"
+            },
+            {
+              "label": "Garey & Hartmann, 2012",
+              "title": "Anuros da Reserva Natural Salto Morato, Guaraqueçaba, Paraná, Brasil"
+            },
+            {
+              "label": "Castanho, 2000",
+              "title": "História natural de uma comunidade de anuros da região de Guaraqueçaba, litoral norte do estado do Paraná"
+            },
+            {
+              "label": "Leivas, 2014",
+              "title": "Estrutura de Comunidades de Anuros em Ilhas: padrões locais e regionais"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Rio Preto",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Tonini, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Guaricana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Saint-Hilaire/Lange",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lima, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Superagui",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Leivas, 2014",
+              "title": "Estrutura de Comunidades de Anuros em Ilhas: padrões locais e regionais"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra Geral",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zocche, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Itajaí",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dias, 2006",
+              "title": "Riqueza de espécies e ambientes de reprodução de uma comunidade de anuros (Amphibia, Anura) na região do Mono, no Parque Nacional da Serra do Itajaí, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Descobrimento",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Ferreira, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO União",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Figueiredo-de-Andrade <i>et al.</i>, 2011",
+              "title": "Anfíbios e Répteis na Reserva Biológica União"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2015",
+              "title": "Anfíbios (Lissamphibia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Sooretama",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Córrego do Veado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fagundes, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Fagundes, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Fagundes, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Tinguá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Tavares, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE CORUMBÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maffei, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA ESTADUAL WENCESLAU GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JURÉIA-ITATINS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ouvernay <i>et al.</i>, 2012",
+              "title": "Amphibia, Anura, Parque Estadual do Cunhambebe Itaguaí municipality, Rio de Janeiro state"
+            },
+            {
+              "label": "Silva, 2011",
+              "title": "Estrutura de Comunidades de Anfíbios e Lagartos da Baía de Sepetiba e do Parque Estadual do Cunhambebe (RJ)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Jordani, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Hartmann <i>et al.</i>, 2010",
+              "title": "Reproductive modes and fecundity of an assemblage of anuran amphibians in the Atlantic rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA FURADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ceron <i>et al.</i>, 2017",
+              "title": "Anurans of Parque Estadual da Serra Furada, Santa Catarina, Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE DOIS IRMÃOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2016",
+              "title": "Guia dos Anfíbios do Parque Estadual de Dois Irmãos"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO DESENGANO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canedo, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pombal Jr. & Gordo, 2004",
+              "title": "Anfíbios Anuros da Juréia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Laia, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RESTINGA DE BERTIOGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moraes, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Nobre, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos & Gasparini, 2004",
+              "title": "Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lima, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lima, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Cunha <i>et al.</i>, 2010",
+              "title": "Anurofauna da Colônia Castelhanos, na Área de Proteção Ambiental de Guaratuba, Serra do Mar paranaense, Brasil"
+            },
+            {
+              "label": "Silva, 2006",
+              "title": "Atividade reprodutiva de <i>Trachycephalus mesophaeus</I> (Hensel, 1867), (Anura, Hylidae) no Parque Florestal do Rio da Onça, Floresta Atlântica do estado do Paraná"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Solé <i>et al.</i>, 2010",
+              "title": "Predation attempts on <I>Trachycephalus</i> cf. <i>mesophaeus</i> (Hylidae) by <I>Leptophis ahaetulla</i> (Colubridae) and <I>Ceratophrys aurita</i> (Ceratophryidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL MUNICIPAL DO MONTE MOCHUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Almeida <i>et al.</i>, 2011",
+              "title": "Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPN Salto Apepique",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Figueira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Garey & Hartmann, 2012",
+              "title": "Anuros da Reserva Natural Salto Morato, Guaraqueçaba, Paraná, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Sayonara",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Santos, 2009",
+              "title": "Diversidade e distribuição temporal de anfíbios anuros na RPPN Frei Caneca, Jaqueira Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro das Aranhas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Olho-de-fogo-rendado",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Herrera, 2011",
+              "title": "Efeitos da heterogeneidade, área e variáveis ambientais sobre anfíbios anuros em uma paisagem fragmentada na Floresta Atlântica"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico ARTEX",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio do Bananal",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Kwet & Solé, 2008",
+              "title": "A new species of <I>Trachycephalus</i> (Anura: Hylidae) from the Atlantic Rain Forest in southern Brazil"
+            },
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Martins, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        },
+        {
+          "name": "Piaçaguera",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Luiz, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A.P.; Gasparini, J.L. &amp; Peloso, P.L.V. 2011. Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’. <b>Check List</b>, 7 (4): p.542-560.",
+          "Bokermann, W.C.A. 1966. Notas sobre Hylidae do Espírito Santo (Amphibia, Salientia). <b>Revista Brasileira de Biologia</b>, 26: p.29-37.",
+          "Brandão, R.A.; Freitas, M.A. &amp; Sebben, A. 1996. <i>Phrynohyas mesophaea</i>. <b>Herpetological Review</b>, 27: p.86.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Carvalho-e-Silva, S.P. &amp; Garcia, P. 2004. <i>Trachycephalus mesophaeus</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55822A11372732\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55822A11372732</a>. Acessado em: 15/08/2012.",
+          "Carvalho-e-Silva, S.P.; Carvalho-e-Silva, A.M.P.T. &amp; Luna-Dias, C. 2015. Anfíbios (Lissamphibia) da Reserva Biológica de Pedra Talhada. p.333-355. <i>In</i>: Studer <i>et al.</i>. <b>Biodiversidade da Reserva Biológica de Pedra Talhada: Alagoas, Pernambuco, Brasil</b>. Boissiera Geneve.",
+          "Cintra, C.E.D.; Silva, H.L.R.; Silva Jr., N.J.; Garcia, P.C.A. &amp; Zaher, H. 2009. A new species of <i>Trachycephalus</i> (Amphibia, Anura, Hylidae) from the state of Goias, Brazil. <b>Zootaxa</b>, 1975: p.58-68.",
+          "Cochran, D.M. 1955. Frogs of southeastern Brazil. <b>United States National Museum Bulletin</b>, p.1-423.",
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. 2001. <b>Anfíbios do município do Rio de Janeiro</b>. p.148. Editora UFRJ Rio de Janeiro.",
+          "Kwet, A. &amp; Solé, M. 2008. A new species of <I>Trachycephalus</i> (Anura: Hylidae) from the Atlantic Rain Forest in southern Brazil. <b>Zootaxa</b>, 1947: p.53-67.",
+          "Kwet, A.; Lingau, R. &amp; Di-Bernardo, M. 2010. <b>Pró-Mata: Anfíbios da Serra Gaúcha, Sul do Brasil – Amphibien der Serra Gaúcha, Südbrasilien – Amphibians of the Serra Gaúcha, South of Brazil</b>. p.148. Brasilien Zentrum der Universität Tübingen and EDIPUCRS Tübingen, Germany, and Porto Alegre, Brazil.",
+          "Lema, T. &amp; Martins, L.A. 2011. <b>Anfíbios do Rio Grande do Sul: Catalogo, diagnoses, distribuição, iconografia</b>. p.197. ediPUCRS Porto Alegre.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Prado, G.M.; Borgo, J.H.; Abrunhosa, P.A. &amp; Wogel, H. 2003. Comportamento reprodutivo, vocalização e redescrição do girino de <i>Phrynohyas mesophaea</i> (Hensel, 1867) do sudeste do Brasil (Amphibia, Anura, Hylidae). <b>Boletim do Museu Nacional, Nova Série, Zoologia</b>, 510: p.1-11.",
+          "Rievers, C.R. 2010. <b>Anfíbios anuros de serrapilheira do Parque Estadual do Rio Doce: resposta à disponibilidade de recursos e aos fatores climáticos</b>. Dissertação de Mestrado. Programa de Pós-Graduação em Ecologia de Biomas Tropicais, Universidade Federal de Ouro Preto. Ouro Preto.",
+          "Roberto, I.J.; Oliveira, C.R.; Araújo-Filho, J.A.; Oliveira, H.F. &amp; Ávila, R.W. 2017. The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. <b>Papéis Avulsos de Zoologia</b>, 57 (27): p.347-373.",
+          "Silva, M.O. 2006. <b>Atividade reprodutiva de <i>Trachycephalus mesophaeus</I> (Hensel, 1867), (Anura, Hylidae) no Parque Florestal do Rio da Onça, Floresta Atlântica do estado do Paraná</b>. Dissertação de Mestrado. Universidade Federal do Paraná. Curitiba. p.86.",
+          "Solé, M.; Marciano-Jr, E.; Dias, I.R. &amp; Kwet, A. 2010. Predation attempts on <I>Trachycephalus</i> cf. <i>mesophaeus</i> (Hylidae) by <I>Leptophis ahaetulla</i> (Colubridae) and <I>Ceratophrys aurita</i> (Ceratophryidae). <b>Salamandra</b>, 46 (2): p.101-103."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id_ficha": "4e4b5553704468746534555157756b6c7354694d33413d3d",
+  "nome_cientifico": "Dendropsophus leali (Bokermann, 1964)",
+  "nome_cientifico_atual": "Dendropsophus leali (Bokermann, 1964)",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20824.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4e4b5553704468746534555157756b6c7354694d33413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus leali</i>&nbsp;<span>(Bokermann, 1964)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus leali </em>ocorre na região amazônica do Brasil, Bolívia e Peru. No Brasil, possui registros de ocorrência nos estados do Acre, Amazonas e Rondônia. Trata-se de espécie comum e abundante, que utiliza o sub-bosques de florestas primárias e secundárias. Sua distribuição é ampla e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Dendropsophus leali </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Dendropsophus leali</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20824.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20824.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16022,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus leali</i>"
+        }
+      ],
+      "oldNames": "Hyla leali",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Dendropsophus leali</em> pode ser um complexo de espécies, mas nesta avalição foi considerada unidade taxonômica válida.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Dendropsophus leali </em>ocorre na América do Sul, onde possui registros confirmados para o Brasil, Bolívia e Peru (De la Riva <em>et al.</em>, 2000; Rodríguez &amp; Duellman, 1994; Schulze <em>et al.</em>, 2009; Jansen <em>et al.</em>, 2011).</p> \n<p> </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie foi registrada nos estados do Amazonas, Acre e Rondônia (Gallati, 1999; Gascom &amp; Pereira, 1993; Heyer, 1977; Lutz, 1973; Souza, 2003; Vanzolini, 1986; Vitt &amp; Caldwell, 1995; Goldberg <em>et al.</em>, 2007; Souza, 2009; Bernarde <em>et al.,</em> 2011). É possível que sua distribuição seja mais ampla no país, pois existem ambientes favoráveis à espécie ainda pouco amostrados.</p>",
+      "states": "Acre, Amazonas, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/695458506b394c594361696753596e744a4e646541666c6c7a6834366a56654d713557624e3476316966446f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Dendropsophus leali",
+        "diskFileName": "e229e956793fb8114938d0010e75c30e.png",
+        "fileName": "Mapa de Dendropsophus leali.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Dendropsophus leali </em>é noturna e utiliza sub-bosques de florestas tropicais primárias e secundárias do bioma Amazônia. Sua reprodução se dá em lagoas rasas permanentes e intermitentes (Souza, 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie ;e considerada comum e abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Yeda Bataus, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Azevedo-Ramos <i>et al.</i>, 2004",
+              "title": "Azevedo-Ramos, C., Reichle, S., Jungfer, K-H., Angulo, A. &amp; De La Riva, I. (2004) <i>Dendropsophus leali</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55533A11328437\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55533A11328437</a>. [Acessado em: 09/nov/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Prates, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Alto Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Souza, 2003",
+              "title": "Diversidade de anfíbios nas unidades de conservação ambiental: Reserva Extrativista do Alto Juruá (REAJ) e Parque Nacional da Serra do Divisor (PNSD), Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA RIO OURO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Gallati, 1999",
+              "title": "Inventário da da Res. Biol. rio Ouro Preto. Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto, Guajara-Mirim, Rondônia. S.l. : Programa das Nações Unidas para o Desenvolvimento Plano Agropecuário e Florestal de Rondônia (PNUD PLANAFLORO)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO MADEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer, 1977",
+              "title": "Taxonomic notes on frogs from the Madeira and Purus rivers, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO JAPIIM PENTECOSTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Souza, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Seringal Assunção",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Igarapé Capana",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Heyer, 1977",
+              "title": "Taxonomic notes on frogs from the Madeira and Purus rivers, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Rio Negro Ocaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Gallati, 1999",
+              "title": "Inventário da da Res. Biol. rio Ouro Preto. Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto, Guajara-Mirim, Rondônia. S.l. : Programa das Nações Unidas para o Desenvolvimento Plano Agropecuário e Florestal de Rondônia (PNUD PLANAFLORO)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua distribuição e história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Azevedo-Ramos, C.; Reichle, S.; Jungfer, K-H.; Angulo, A. &amp; De La Riva, I., 2004. <i>Dendropsophus leali</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55533A11328437\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55533A11328437</a>. Acessado em: 09/11/2011.",
+          "Bernarde, P.S.; Machado, R.A. &amp; Turci, L.C.B. 2011. Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil. <b>Biota Neotrópica</b>, 11 (3): p.117-144.",
+          "De la Riva, I.; Köhler, J.; Lötters, S. &amp; Reichle, S. 2000. Ten years of research on Bolivian amphibians: updated checklist, distribution, taxonomic problems, literature and iconography. <b>Revista Española de Herpetologia</b>, 14: p.19-164.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Galatti, U. 1999. Inventário da herpetofauna da Res. Biol. rio Ouro Preto. Avaliação ecológica rápida da Reserva Biológica Estadual Rio Ouro Preto, Guajará-Mirim, Rondônia. p.11.",
+          "Gascon, C. &amp; Pereira, O.S. 1993. Preliminary checklist of the herpetofauna of the upper Rio Urucu, Amazonas, Brazil. <b>Revista Brasileira de Zoologia</b>, 10 (1): p.179-183.",
+          "Goldberg, S.; Bursey, C.R.; Caldwell, J.P.; Vitt, L.J. &amp; Costa, G.C. 2007. Gastrointestinal helminths from six species of frogs and three species of lizards, sympatric in Pará State, Brazil. <b>Comparative Parasitology</b>, 74 (2): p.327-342.",
+          "Heyer, W.R. 1977. Taxonomic notes on frogs from the Madeira and Purus rivers, Brasil. <b>Papéis Avulsos de Zoologia</b>, 31 (8): p.141-162.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Jansen, M.; Bloch, R.; Schulze, A. &amp; Pfenninger, M. 2011. Integrative inventory of Bolivia`s lowland anurans reveals hidden diversity. <b>Zoologica Scripta</b>, 40 (6): p.567-583.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Rodríguez, L.O. &amp; Duellman, W.E. 1994. <b>Guide to the frogs of the Iquitos region, Amazonian Peru</b>. Asocacion de Ecologia y Conservacion, Amazon Center for Environmental Education and Research and Natural History Museum, The University of Kansas Lawrence, Kansas.",
+          "Schulze, A.; Jansen, M. &amp; Köhler, G. 2009. Diversity and ecology of anuran communities in San Sebastián (Chiquitano region, Bolivia). <b>Salamandra</b>, 45 (2): p.75-90.",
+          "Souza, M.B. 2003. <b>Diversidade de anfíbios nas unidades de conservação ambiental: Reserva Extrativista do Alto Juruá (REAJ) e Parque Nacional da Serra do Divisor (PNSD), Acre, Brasil</b>. Tese de Doutorado. Universidade Estadual Paulista. Rio Claro.",
+          "Souza, M.B. 2009. <b>Anfíbios – Reserva Extrativista do Alto Juruá e Parque Nacional da Serra do Divisor, Acre. Série Pesquisa e Monitoramento Participativo em Áreas de Conservação Gerenciadas por Populações Tradicionais</b>. p.77. Instituto de Filosofia e Ciências Humanas - IFCH Unicamp Campinas, SP.",
+          "Vanzolini, P. 1986. Levantamento herpetológico da área do estado de Rondônia sob a influência da rodovia BR 364. Brasilia-DF. p.50.",
+          "Vitt, L.J. &amp; Caldwell, J.P., 1993. Inventário e Ecologia da herpetofauna da Amazônia: Rio Ajanari, Roraima, Brasil."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

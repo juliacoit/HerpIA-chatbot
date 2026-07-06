@@ -1,0 +1,504 @@
+{
+  "id_ficha": "78556a4e4c703142454e2f6d49744f354734624e32773d3d",
+  "nome_cientifico": "Scinax catharinae (Boulenger, 1888)",
+  "nome_cientifico_atual": "Scinax catharinae (Boulenger, 1888)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17814",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=78556a4e4c703142454e2f6d49744f354734624e32773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax catharinae</i>&nbsp;<span>(Boulenger, 1888)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Scinax catharinae</em> é endêmica do Brasil e possui ampla distribuição, predominantemente no bioma Mata Atlântica, com registros desde o estado da Bahia até o nordeste do estado do Rio Grande do Sul. Trata-se de espécie arborícola, encontrada em florestas primárias e secundárias em avançado estágio de sucessão. Ocorre em baixa abundância e não há evidências de ameaças que possam colocá-la em risco de extinção em curto prazo. Por esses motivos, <em>Scinax catharinae</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax catharinae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17814 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17814",
+      "photo": {},
+      "version": 2,
+      "versionId": 14981,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax catharinae</i>"
+        }
+      ],
+      "oldNames": "Hyla catharinae, Hyla strigilata catharinae, Ololygon catharinae, Scinax catharinae",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Scinax catharinae</em> é um complexo de espécies (V.G.D. Orrico, com. pess., 2012). No entanto, foi considerada como uma única unidade taxonômica nesta avaliação.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax catharinae</em> é endêmica do Brasil e apresenta ampla distribuição no bioma Mata Atlântica, com registros de ocorrência entre os estados da Bahia e Rio Grande do Sul (Pombal Jr. <em>et al</em>., 1995; Ramos &amp; Gasparini, 2004; Conte <em>et al.</em>, 2007; Deiques <em>et al.</em>, 2007; Machado &amp; Maltchik, 2007; Lourenço <em>et al</em>., 2009; Kwet <em>et al.</em>, 2010; Lema &amp; Martins, 2011; I.F. Machado, com. pess., 2012; Magalhães <em>et al</em>., 2015; Luiz <em>et al</em>., 2016). Sua extensão de ocorrência é de 883.302 km2, calculada via mínimo polígono convexo a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Guaíba, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/41434666596f38734c77753136424962614d78414f462b69624e7a7434757446496851552b7941794870517644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "345a6deec6d0ec27299709db230fabbc.png",
+        "fileName": "Mapa de Scinax catharinae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax catharinae </em>é uma espécie arborícola, encontrada em florestas primárias e secundárias em avançado estágio de sucessão (Silvano <em>et al</em>., 2004). Sua reprodução acontece em riachos e lagoas cristalinas, onde deposita seus ovos e os girinos se desenvolvem.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é pouco frequente ao longo de sua distribuição e não é abundante, sendo registrados poucos indivíduos (entre 5 e 10) em eventos de reprodução. Sua tendência populacional é desconhecida.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Embora exista perda de vegetação nativa e poluição em alguns locais ao longo da distribuição da espécie, principalmente em decorrência da atividades agrícolas, não há evidências de que essas ameaças possam colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silvano <i>et al.</i>, 2004",
+              "title": "Silvano, D., Garcia, P. &amp; Segalla, M.V. (2004) <i>Scinax catharinae</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en</a>. [Acessado em: 15/mai/2018]."
+            },
+            {
+              "label": "Silvano <i>et al.</i>, 2004",
+              "title": "Silvano, D., Garcia, P. &amp; Segalla, M.V. (2004) <i>Scinax catharinae</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Forti, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FLONA São Francisco de Paula",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garcia, 1998",
+              "title": "Anfibios anuros da Floresta Nacional de São Francisco de Paula, RS. Relatório Final"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra Geral",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zocche, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Deiques <i>et al.</i>, 2007",
+              "title": "Guia ilustrado dos anfibios e repteis do Parque Nacional de Aparados da Serra, Rio Grande do Sul, Santa Catarina, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL BIRIBIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forti, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO TABULEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Farias, 2014",
+              "title": "Colonização de poças artificiais por anfíbios anuros na Mata Atlântica, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA FURADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ceron <i>et al.</i>, 2017",
+              "title": "Anurans of Parque Estadual da Serra Furada, Santa Catarina, Southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO DESENGANO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canedo, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pires, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA NOVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luz, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos & Gasparini, 2004",
+              "title": "Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cardoso, 2006",
+              "title": "Uso de ambientes por uma comunidade de anuros de São Luís do Purunã, município de Balsa Nova, estado do Paraná"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte & Rossa-Feres, 2006",
+              "title": "Diversidade e ocorrência temporal da anurofauna (Amphibia, Anura) em São José dos Pinhais, Paraná, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Both <i>et al.</i>, 2009",
+              "title": "The role of spatial and temporal descriptors for neotropical tadpole communities in southern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL SERRA DONA FRANCISCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lucas, 2008",
+              "title": "Diversidade e conservação de anfíbios anuros no Estado de Santa Catarina, sul do Brasil"
+            },
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            },
+            {
+              "label": "Pombal <i>et al.</i>, 1995",
+              "title": "Vocalizações de algumas espécies do gênero <i>Scinax</i> (Anura, Hylidae) do sudeste do Brasil e comentários taxonômicos"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Conte, C.E. Nomura, F. Rossa-Feres, D.C. D’Heursel, A. Haddad, C.F.B., 2007. The tadpole of <i>Scinax catharinae</i> (Anura: Hylidae) with description of the internal oral morphology, and a review of the tadpoles from the Scinax catharinae group. Amphibia-Reptilia, 28 (2): p.177-192.",
+          "Deiques, C.H.; Stahnke, L.F.; Reinke, M. &amp; Schmitt, P. 2007. <b>Guia ilustrado dos anfibios e repteis do Parque Nacional de Aparados da Serra, Rio Grande do Sul, Santa Catarina, Brasil</b>. p.117. USEB Pelotas.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kwet, A.; Lingau, R. &amp; Di-Bernardo, M. 2010. <b>Pró-Mata: Anfíbios da Serra Gaúcha, Sul do Brasil – Amphibien der Serra Gaúcha, Südbrasilien – Amphibians of the Serra Gaúcha, South of Brazil</b>. p.148. Brasilien Zentrum der Universität Tübingen and EDIPUCRS Tübingen, Germany, and Porto Alegre, Brazil.",
+          "Lema, T. &amp; Martins, L.A. 2011. <b>Anfíbios do Rio Grande do Sul: Catalogo, diagnoses, distribuição, iconografia</b>. p.197. ediPUCRS Porto Alegre.",
+          "Lourenço, A.C.C.; Nascimento, L.B. &amp; Pires, M.R.S. 2009. A new species of the <i>Scinax catharinae</i> species group (Anura: Hylidae) from Minas Gerais, Southeastern Brazil. <b>Herpetologica</b>, 65 (4): p.468-479.",
+          "Luiz, A.M.; Leão-Pires, T.A. &amp; Sawaya, R.J. 2016. Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil. <b>PlosOne</b>, 11 (5): p.e0153977.",
+          "Machado, I.F. &amp; Maltchik, L. 2007. Check-list da diversidade de anuros no Rio Grande do Sul (Brasil) e proposta de classificação para as formas larvais. <b>Neotropical Biology and Conservation</b>, 2 (2): p.101-116.",
+          "Magalhães, F.M.; Laranjeiras, D.O.; Costa, T.B.; Juncá, F.A.; Mesquita, D.O.; Röhr, D.L.; Silva, W.P.; Vieira, G.H.C. &amp; Garda, A. 2015. Herpetofauna of protected areas in the Caatinga IV: Chapada Diamantina National Park, Bahia, Brazil. <b>Herpetology Notes</b>, 8: p.243-261.",
+          "Pombal Jr., J.P.; Bastos, R.P. &amp; Haddad, C.F.B. 1995. Vocalizações de algumas espécies do gênero <i>Scinax</i> (Anura, Hylidae) do sudeste do Brasil e comentários taxonômicos. <b>Naturalia. São Paulo</b>, 20: p.213-225.",
+          "Ramos, A.D. &amp; Gasparini, J.L. 2004. <b>Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo</b>. Vitória: Gráfica Santo Antônio Vitória.",
+          "Silvano, D.; Garcia, P. &amp; Segalla, M.V. 2004. <i>Scinax catharinae</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55944A11399513</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55944A11399513.en</a>. Acessado em: 15/05/2018."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

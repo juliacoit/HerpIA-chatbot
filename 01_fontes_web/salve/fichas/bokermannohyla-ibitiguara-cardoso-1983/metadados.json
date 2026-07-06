@@ -1,0 +1,316 @@
+{
+  "id_ficha": "37614379376a64463339584571427851664b314335413d3d",
+  "nome_cientifico": "Bokermannohyla ibitiguara (Cardoso, 1983)",
+  "nome_cientifico_atual": "Bokermannohyla ibitiguara (Cardoso, 1983)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21192.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=37614379376a64463339584571427851664b314335413d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Bokermannohyla ibitiguara</i>&nbsp;<span>(Cardoso, 1983)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Bokermannohyla ibitiguara </em>é endêmica do Brasil, conhecida apenas da região da Serra da Canastra no estado de Minas Gerais. A espécie habita ambientes rochosos no bioma Cerrado, encontrada em pedras ou árvores perto de pequenas cachoeiras ou córregos permanentes. Embora posa ser localmente afetada por atividades antrópicas, boa parte de sua distribuição abrange o Parque Nacional da Serra da Canastra, e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Bokermannohyla ibitiguara </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Bokermannohyla ibitiguara</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21192.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21192.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16367,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Bokermannohyla</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Bokermannohyla ibitiguara</i>"
+        }
+      ],
+      "oldNames": "Boana ibitiguara, Hyla ibitiguara",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Bokermannohyla ibitiguara </em>é endêmica do Brasil, com registros de ocorrência para o estado de Minas Gerais, na região da Serra da Canastra (Caramaschi &amp; Eterovick, 2004; Catroli, 2008; N. Maciel, com. pess., 2017; P. Valdujo, com. pess., 2017). Sua extensão de ocorrência é de 2.942 km2, calculada a partir dos pontos de registro usando o mínimo polígono convexo.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Grande, Sub-bacia São Francisco Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/71635a6f376347477931534a65774c44416165383732335649652f6d49746675735535774771555868615a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "5382fffd5d89b4d6f092ed555e748fc4.png",
+        "fileName": "Mapa de Bokermannohyla ibitiguara.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há muitas informações sobre a história natural da espécie. Bokermannohyla<em> ibitiguara </em>ocupa ambientes rochosos no bioma Cerrado, e pode ser encontrada em pedras ou árvores perto de pequenas cachoeiras ou córregos permanentes (Caramaschi &amp; Eterovick, 2004). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas nos últimos anos a espécie tem sido encontrada com frequência no Parque Nacional da Serra da Canastra. </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista perda e degradação de vegetação nativa em alguns locais ao longo de sua distribuição, em decorrência principalmente da conversão em áreas agrícolas e do turismo em expansão, não há evidências de que essas ameaças possam colocar a espécie em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informação sobre qualquer tipo de uso da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Caramaschi & Eterovick, 2004",
+              "title": "Caramaschi, U. &amp; Eterovick, P.C. (2004) <i>Bokermannohyla ibitiguara</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55509A11320909\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55509A11320909</a>. [Acessado em: 02/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            },
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "D. Silvano & P.H. Valdujo, com. pess., 2013",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Barros, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "P.H. Valdujo & N.M. Maciel, com. pess., 2017",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos de história natural, dinâmica populacional, distribuição espacial e monitoramento da população do Parque Nacional da Serra da Canastra são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Caramaschi, U. &amp; Eterovick, P.C. 2004. <i>Bokermannohyla ibitiguara</i>. <b>The IUCN Red List of Threatened Species 2004</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55509A11320909\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55509A11320909</a>. Acessado em: 02/08/2012.",
+          "Catroli, G.F. 2008. <b>Cariótipo de seis espécies de <i>Bokermannohyla </i>dos grupos de <i>B. circumdata </i>e <i>B. pseudopseudis </i>(Anura, Hylidae)</b>. Dissertação de Mestrado. Instituto de Biociências da Universidade Estadual Paulista, UNESP. Rio Claro.",
+          "Estado de Minas Gerais 30/04/2010. Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais. Disponível em: <a target=\"_blank\" href=\"http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192\">http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192</a>. Acessado em: 22/07/2022.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

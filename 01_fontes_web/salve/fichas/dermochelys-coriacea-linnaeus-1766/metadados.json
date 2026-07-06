@@ -1,0 +1,861 @@
+{
+  "id_ficha": "556f312b5648364d746d446c65783477787a765061513d3d",
+  "nome_cientifico": "Dermochelys coriacea (Linnaeus, 1766)",
+  "nome_cientifico_atual": "Dermochelys coriacea (Linnaeus, 1766)",
+  "nome_comum": "Careba-gigante, Careba-mole, Tartaruga-de-cerro, Tartaruga-de-couro, Tartaruga-de-leste, Tartaruga-de-quilha, Tartaruga-gigante, Tartaruga-preta, Tartaruga-sete-quilhas",
+  "grupo": "Répteis",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "10/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.12567.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=556f312b5648364d746d446c65783477787a765061513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dermochelys coriacea</i>&nbsp;<span>(Linnaeus, 1766)</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "10/2018",
+      "publicationDate": "04/10/2022",
+      "justificative": "<p>A tartaruga-de-couro <em>Dermochelys coriacea</em> é uma espécie migratória que ocorre nos oceanos tropicais e temperados de todo o mundo, com hábitos pelágicos durante a maior parte da vida. A população brasileira é geneticamente distinta de outras populações conhecidas. A única área com registros regulares de desova da espécie no Brasil é o litoral norte do Espírito Santo, e há citações de ocorrências na costa do Piauí que provavelmente são de uma subpopulação diferente. As principais ameaças no passado, que quase interromperam o ciclo biológico da espécie, foram a coleta de ovos e o abate de fêmeas nas áreas de reprodução, o que de forma geral, não acontecem mais. Atualmente, a maior ameaça é a captura incidental na pesca, no Brasil e águas internacionais. Além disso, a ocupação desordenada do ambiente costeiro, a poluição, e as atividades portuárias e de petróleo e gás, também afetam negativamente as populações. A partir dos dados de número anual de ninhos, de estimativas do intervalo de remigração e da razão machos/fêmeas, o número de indivíduos maduros foi estimado na forma de uma faixa de valores que inclui, com probabilidade considerada significativa, valores menores que 50, que é o ponto de corte entre as categorias CR e EN no critério D. Assim sendo, e tomando uma atitude de precaução quanto à classificação do risco de extinção, <em>D. coriacea</em> foi categorizada como Criticamente em Perigo (CR) pelo critério D.</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Alexsandro Sant´ana dos Santos; Ana Claudia Jorge Marcondes; Bruno Barbosa Iespa; Bruno Stefanis Santos Pereira de Oliveira; Cecilia Baptistotte; Claudio Bellini; Danielle da Silveira Monteiro; Daphne Wrobel Goldberg; Frederico Tognin; Gilberto Sales; Jaqueline Comin de Castilhos; Joao Carlos Alciati Thome; Maria Angela Azevedo Guagni Dei Marcovaldi; Paulo Cesar Rosito Barata; Robson Guimarães dos Santos; Simone Almeida Gavilan Leandro da Costa; Werlanne Mendes de Santanaw",
+      "citation": "<p>Santos, A.S.; Marcondes, A.C.J.; Iespa, B.B.; Oliveira, B.S.S.P.; Baptistotte, C.; Bellini, C.; Monteiro, D.S.; Goldberg, D.W.; Tognin, F.; Sales, G.; Castilhos, J.C.; Thome, J.C.A.; Marcovaldi, M.A.A.G.D.; Barata, P.C.R.; Santos, R.G.; Costa, S.A.G.L.; Santanaw, W.M. 2022. <i>Dermochelys coriacea</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.12567.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.12567.2",
+      "photo": {
+        "authorName": "Banco de dados TAMAR",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "6ab79575145375fe8ee1a13fdb3bb7fe.jpg",
+        "fileName": "Dermochelys coriacea (Tartaruga de couro).jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/5a373176445165426e5071514d464d506c74444a7a74736a723136436c6d723944417430686e6f53595574743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 2,
+      "versionId": 12901,
+      "deleted": false,
+      "lastAvaliationDate": "18/10/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dermochelyidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dermochelys</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dermochelys coriacea</i>"
+        }
+      ],
+      "oldNames": "Testudo coriacea",
+      "commonNames": "Careba-gigante, Careba-mole, Tartaruga-de-cerro, Tartaruga-de-couro, Tartaruga-de-leste, Tartaruga-de-quilha, Tartaruga-gigante, Tartaruga-preta, Tartaruga-sete-quilhas",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p>A carapaça possui 7 quilhas longitudinais, sem placas; a coloração é negra com manchas brancas, azuladas ou rosadas; a cabeça e as nadadeiras são recobertas de pele sem placas ou escudos; a coloração do ventre é similar à carapaça porém com manchas mais claras (FAO, 1990). As fêmeas adultas do Brasil têm comprimento curvilíneo médio de 159,8 cm, podendo atingir 182 cm (Almeida <em>et al</em>., 2011). Pesam em média 500 kg (Pritchard &amp; Mortimer, 1999), mas há registros de animais com mais de 700 kg.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p>A espécie <em>Dermochelys coriacea</em> é cosmopolita, ocorrendo nos oceanos tropicais e temperados de todo o mundo, chegando próximo de águas sub-árticas. Vive usualmente na zona oceânica durante a maior parte da vida.</p> \n<p>Desova em praias dos oceanos Atlântico, Índico e Pacífico (Hutchinson &amp; Hutchinson, 2006). No Atlântico, as principais áreas de desova localizam-se no Suriname e Guiana Francesa, Trinidad e Tobago, Gabão e Congo; também há número significativo de desovas em diversos locais do Caribe, sul dos Estados Unidos e ilha de Bioko (Guiné Equatorial) (Hutchinson &amp; Hutchinson, 2006; Thomé <em>et al</em>., 2007; Fossette <em>et al.</em>, 2008).</p> \n<p>É a espécie que apresenta a mais ampla distribuição pelos oceanos, uma vez que os adultos são melhores adaptados a águas frias do que as demais espécies, graças ao tamanho e a espessa camada de gordura. Colônias reprodutivas estão limitadas a regiões tropicais (raramente subtropicais) (Pritchard &amp; Trebbau, 1984) e concentram-se principalmente no México, Costa Rica, Guiana Francesa, Suriname e Trinidad (FAO, 1990).</p>",
+      "nationalDistribution": "<p>A única área regular de desova conhecida no Brasil situa-se no litoral norte do Espírito Santo, com relatos de desovas ocasionais no Rio Grande do Norte, Bahia (Gandu <em>et al</em>., 2014), Rio de Janeiro, São Paulo (Bezerra <em>et al.</em>, 2014), Santa Catarina e Rio Grande do Sul (Soto <em>et al</em>. 1997, Barata &amp; Fabiano 2002). Há registros de ocorrências reprodutivas no Piauí (Loebmann <em>et al.</em> 2008). Existem registros de ocorrências de encalhes nos Estados do Maranhão (Santana <em>et al.</em> 2007), Pará (Cunha 1975, Figueiredo <em>et al.</em> 2008), Ceará (Lima &amp; Evangelista 1997, Barata <em>et al.</em> 2004), Rio Grande do Norte (Sanches <em>et al.</em> 1999), Bahia (Barata <em>et al.</em> 2004), Espírito Santo, Rio de Janeiro, São Paulo, Paraná (D’Amato 1991) e Rio Grande do Sul (Pinedo <em>et al.</em> 1998).</p> \n<p>Fêmeas de <em>D. coriacea</em> marcadas no Gabão foram recapturadas ou encontradas mortas no Brasil e na Argentina, confirmando a primeira evidência de migração transatlântica de tartarugas que desovam no Atlântico leste para o Atlântico oeste (Billes <em>et al</em>. 2006). Registros de captura incidental na pesca oceânica estão disponíveis para as costas Nordeste, Sudeste e Sul, entre as latitudes 10°N e 35°N (Pinedo &amp; Polacheck 2004, Giffoni <em>et al.</em> 2008, Sales <em>et al.</em> 2008).</p> \n<p>O período reprodutivo das tartarugas marinhas na Região da APA Delta do Parnaíba, em particular no litoral piauiense, fica compreendido entre os meses de janeiro até julho. No caso da  <em>Dermochelys coriacea</em> o período de nidificação ocorre a partir do mês de maio, sendo o Piauí o 2° sítio de desova no Brasil (Loebmann <em>et al</em>., 2008).</p>",
+      "states": "Bahia, Espírito Santo, Pará, Piauí, Rio Grande do Norte",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": [
+          {
+            "type": "Área de desova",
+            "local": "Praias de Regência e de Povoação",
+            "state": "ES",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Reserva Biológica de Comboios",
+            "state": "ES",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Praias de Regência e de Povoação",
+            "state": "ES",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Reserva Biológica de Comboios",
+            "state": "ES",
+            "province": "",
+            "refBibs": []
+          }
+        ]
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/336d7035465463316262586d645a5953585631662b4465452f655a67656c5742737977516a314d47512f476154584d6471717371636758434c56383677326841",
+        "legend": "Área de distribuição e registros de ocorrências reprodutivas",
+        "diskFileName": "3b27f5559387b8dca9e7fa1e9804de5c.jpeg",
+        "fileName": "Mapa de Dermochelys coriacea(1).jpeg"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Sim",
+      "description": "<p>A principal ameaça para <em>D. coriacea</em> no passado foi a coleta de ovos e o abate de fêmeas, o que não acontece mais nas áreas principais de reprodução. Desde a implantação do Projeto TAMAR/ICMBio em 1982, quando as desovas em numerosas praias passaram a estar protegidas, o desenvolvimento e a ocupação desordenada da zona costeira e a pesca artesanal e industrial aumentaram vertiginosamente – principalmente nos últimos 10-15 anos. As tartarugas-marinhas são capturadas incidentalmente em praticamente todas as pescarias no Brasil, com destaque para a alta mortalidade em rede de emalhe de deriva. Não existem dados quantitativos comprovados da abundância deste táxon para o período anterior ao levantamento realizado pelo TAMAR entre 1980-82, onde está registrada a interrupção do ciclo de vida desses animais em várias áreas visitadas, devido a um longo histórico de coleta de praticamente todos os ovos e abate de quase todas as fêmeas. Historicamente, a abundância destas populações era enorme. A falta de perspectiva adequada para quantificação ou o uso de uma linha imaginaria de dados iniciais de abundância para o estudo de tendência populacional podem levar a uma interpretação errônea dos dados. Síndrome da mudança de referencial (“<em>shifting baseline syndrome</em>”) é como se conhece o uso de dados de tamanho da população que correspondem ao início das atividades dos pesquisadores e não da sua real abundância no passado (Bjorndal 1999). </p> \n<p>Características da estratégia de vida das tartarugas marinhas, como a maturação tardia e ciclo de vida longo, tornam a recuperação populacional muito lenta. É possível que os números de desovas observados até o presente não se mantenham no futuro, devido à ação das atuais ameaças sobre o estoque de juvenis a serem recrutados para a população reprodutiva. </p> \n<p>A espécie realiza grandes deslocamentos transoceânicos. Indivíduos de diferentes classes de tamanho são capturados na pesca oceânica monitorada no mar territorial e na zona econômica exclusiva do Brasil e em águas internacionais adjacentes, e subadultos e juvenis foram capturados principalmente na costa Nordeste. Fêmeas adultas marcadas no Gabão foram capturadas em áreas de pesca na costa Sul-Sudeste do Brasil. A quantidade de encalhes, avistagens no mar e capturas acidentais em atividades de pesca sugere, com base em cálculos demográficos, que as águas adjacentes à costa do Brasil são frequentadas não apenas por indivíduos que compõem a população que desova no Brasil, mas também por indivíduos de outras populações do Atlântico e talvez mesmo do Oceano Índico, uma vez que há comprovação, por meio de telemetria por satélite, de que indivíduos de <em>D. coriacea</em> que desovaram em praias do leste da África entraram depois no Atlântico. </p> \n<p>Estudos de telemetria por satélite realizados para a população que desova no Brasil indicam movimentos migratórios variados. Durante o período internidal, a espécie utiliza amplamente a zona costeira, se deslocando ao longo de todo o litoral capixaba. Após o período reprodutivo, as fêmeas apresentaram deslocamentos costeiros das praias de desova no Espirito Santo ate o estuário do Rio de La Plata (Almeida <em>et al.</em>, 2011), no Uruguai. Também foram registradas migrações extensas em sentido ao continente Africano e até próximo ao litoral oeste da África do Sul. Durante as migrações foi observado o uso da região da plataforma de Rio Grande pelas tartarugas.</p>",
+      "foodHabit": {
+        "table": [
+          {
+            "type": "Carnívoro",
+            "refBibs": []
+          }
+        ],
+        "specialist": {
+          "yn": "Não",
+          "table": []
+        },
+        "observations": "<p><em>D. coriacea</em> tem hábitos de forrageio desde a superfície do oceano até grandes profundidades (Doyle <em>et al.,</em> 2008). </p> \n<p>A dieta é composta por zooplâncton gelatinoso, como medusas, sifonóforos e tunicados pelágicos (pirossomos e salpas) (James &amp; Herman, 2001; Witt <em>et al.</em>, 2007) em geral obtidos entre a coluna d’água e grandes profundidades (Bjorndal, 1997). </p> \n<p>Fêmeas monitoradas por satélite a partir da costa sudeste brasileira – 3 fêmeas marcadas em praias de desova no Espírito Santo e uma recuperada de rede de deriva na costa de São Paulo – mostraram uma utilização nas áreas adjacentes às praias de desova durante o período reprodutivo e destacaram uma importante área de alimentação compartilhada pelo Brasil, Uruguai e Argentina, no sul da America do Sul (Almeida <em>et al</em>., 2011).</p> \n<p> </p>"
+      },
+      "restrictedPrimaryHabitat": "Não",
+      "specialistMicroHabitat": {
+        "yn": "Não",
+        "observations": ""
+      },
+      "habitatObservations": "<p>A espécie tem habitat essencialmente oceânico, podendo ser encontrada em alto mar em águas tropicais, subtropicais, temperadas e mesmo subpolares (Márquez, 1990).</p> \n<p>É uma espécie de hábitos pelágicos que passa a maior parte do tempo em áreas oceânicas. No entanto pode se aproximar da costa em busca de alimento.</p> \n<p><em>D. coriacea</em> forrageia desde a superfície do oceano até grandes profundidades. </p> \n<p>Habito Alimentar especialmente zooplâncton gelatinoso</p> \n<p> </p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "10 Dia(s)",
+        "gestationTime": "66,3 Dia(s)",
+        "offspringSize": "110 indivíduo(s)",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": "23 Ano(s)"
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": "182 cm"
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": "152,9 cm"
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": "<p>Para a espécie <em>Dermochelys coriacea</em>, estimativas utilizando diferentes métodos apontam incertezas sobre a idade de maturação sexual, que pode variar entre 13-14 anos (Zug &amp; Parham, 1996) e 23-27 anos (Avens <em>et al.</em> 2009). O sexo dos filhotes é influenciado pela temperatura de incubação dos ninhos.</p> \n<p>As fêmeas que se reproduzem no Espírito Santo apresentaram, entre 1989 e 2017, comprimento curvilíneo da carapaça entre 124,7 e 182,0 cm, com média de 152,9 ±10,0 (Colman <em>et al.,</em> 2019). Tem sido observada uma redução no tamanho das fêmeas adultas ao longo dos anos: para os dados dos períodos 1988-1989 e 2003-2004, a média era de 159,8 cm (Thomé <em>et al.</em>, 2007) e no período 2013−2017 a média foi de 149,9 cm, segundo dados de Colman <em>et al</em>. (2019), que consideram provável ter ocorrido um recrutamento de novas fêmeas adultas, talvez como resultado da proteção de ninhos e fêmeas desde 1982.</p> \n<p>As fêmeas depositam em média 87,7 ovos viáveis, além de 22,1 ovos menores, não-viáveis, por desova (Thomé <em>et al</em>., 2007). Em uma mesma temporada reprodutiva as fêmeas realizam em média 5 ou 6 desovas (Spotila <em>et al.</em>, 1996, Eckert <em>et al</em>., 2012). </p> \n<p>O intervalo de remigração geralmente é entre dois e três anos (Colman<em> et al.</em>, 2019). No Espírito Santo, a média anual do sucesso de eclosão das desovas variou, entre temporadas, de 38,8 % a 82,4% e o período de incubação variou entre 52 dias e 91 dias (Colman <em>et al</em>., 2019). </p>"
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": "<p><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">A população do Espírito Santo representa uma unidade genética distinta das demais populações conhecidas do Atlântico (Turtle Expert Working Group 2007; Vargas <em>et al</em>. 2017). O Grupo de Especialistas de Tartarugas Marinhas (MTSG) da União Internacional para a Conservação da Natureza (IUCN na sigla em inglês), baseado em resultados de genética molecular, áreas de reprodução, resultados de marcação e recaptura, satélite telemetria, bem como aspectos da historia natural e biogeografia, definiu sete Unidades de Manejo Regional para <em>D. coriacea</em>, dentre elas, a unidade do Oceano Atlântico Sudoeste, que tem como única área regular de desova as praias do norte do Espírito Santo (IUCN, 2017; Thomé <em>et al.</em>, 2007). A população de D. coriacea que desova no Espírito Santo, apesar do baixo número de indivíduos, apresenta o segundo maior nível de diversidade de haplótipos entre todas as populações do Atlântico (Vargas <em>et al</em>., 2017).</span></p>\r\n<p><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\"><em>D. coriacea</em> encalhadas ou capturadas incidentalmente no sul do Brasil parecem pertencer a múltiplos estoques genéticos, <span style=\"caret-color: #0a0a0a; background-color: #fefefe;\">i</span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">nclusive de populações da Indo-Pacífico, sendo a maior parte da contribuição proveniente do Oeste da África (aproximadamente 84%)</span> (Vargas <em>et al.</em>, 2008 e 2017). Fêmeas marcadas em áreas de desova no Gabão chegam à costa sudeste do Brasil e Argentina (Billes <em>et al</em>., 2006), reforçando esta evidência e mostrando que a alta captura incidental registrada na atividade pesqueira brasileira nas rotas migratórias já determinadas para estes animais atinge pelo menos duas populações reprodutivas (Sales <em>et al.,</em> 2008).</span></p>",
+      "populationObservations": "<p>Para as tartarugas marinhas o número de ninhos é adotado como índice de abundância populacional. Não existem dados quantitativos comprovados da abundância deste táxon para o período anterior à implantação do TAMAR nas principais áreas de desova em 1982. O levantamento inicial realizado através de entrevistas com os pescadores ao longo do litoral entre os anos de 1980 e 1982 constatou um histórico muito longo de exploração/uso direto. O depoimento mais frequente descrevia um número de tartarugas muito maior, coleta de praticamente todos os ovos e matança de quase todas as fêmeas. Relatos em algumas comunidades litorâneas nos primeiros anos de atuação do Projeto TAMAR indicavam que muitos moradores jamais tinham visto um filhote de tartaruga marinha.</p> \n<p>A única área regular de desova conhecida desta espécie no Brasil situa-se no litoral norte do Espírito Santo (Almeida <em>et al,</em> 2011) e apenas para esta área há dados populacionais de médio a longo prazo. Há registros de ocorrências reprodutivas no litoral do Piauí (Loebmann <em>et al</em>., 2008; Almeida <em>et al</em>., 2011), área onde o monitoramento efetivo ocorre há poucos anos, assim os dados locais ainda são menos robustos do que nas áreas monitoradas desde os anos 1980 (Espírito Santo). Ainda há muitas incertezas sobre a população desta espécie que utiliza as praias do Piauí: não há estudos de genética ou dados de tamanho populacional e remigração. O período reprodutivo no Piauí parece ser de maio a julho (Correia <em>et al</em>., 2016), indicando tratar-se de população distinta em relação à do Espírito Santo (Colman <em>et al.</em> 2019).</p> \n<p>No litoral norte do Espírito Santo, apesar da tendência de aumento observada (Thomé <em>et al</em>., 2007; Colman <em>et al.</em> 2019) os dados indicam acentuadas oscilações no número de ninhos, entre temporadas (Banco de Dados TAMAR/SITAMAR; Colman <em>et al.</em> 2019). Devido ao pequeno tamanho da população e à existência natural de flutuações no número anual de desovas de populações desta espécie (Thomé <em>et al</em>., 2007), essa variação é esperada. Assim, o alto número de <em>D. coriacea</em> encalhadas ou capturadas incidentalmente no Brasil só pode ser explicado pela ocorrência de animais provenientes de outras populações (Barata <em>et al</em>., 2004, Sales<em> et al.,</em> 2008).</p> \n<p>Não existem dados quantitativos comprovados da abundância deste táxon para o período anterior ao levantamento realizado pelo TAMAR entre 1980-82, onde está registrada a interrupção do ciclo de vida desses animais em várias áreas visitadas, devido a um longo histórico de coleta de praticamente todos os ovos e abate de quase todas as fêmeas. Historicamente, a abundância destas populações era enorme. Características da estratégia de vida das tartarugas marinhas, como a maturação tardia e ciclo de vida longo, tornam a recuperação populacional muito lenta. É possível que os números de desovas observados até o presente não se mantenham no futuro, devido à ação das atuais ameaças sobre o estoque de juvenis a serem recrutados para a população reprodutiva. Além disso, os estudos de tendência de população cobrem apenas um tempo geracional (30 anos) para este táxon.</p> \n<p>Não há perspectiva de migração de adultos de outras regiões para o Brasil: as tartarugas marinhas são conhecidas por sua alta filopatria (<em>homing</em>) – capacidade das fêmeas de voltarem para se reproduzir na região onde nasceram, tornando praticamente impossível a recolonização das praias por fêmeas oriundas de outras populações.</p> \n<p> </p> \n<p>Dados como o intervalo de remigração e a razão sexual entre adultos ainda são bastante incertos para a população brasileira de <em>D. coriacea</em>, por isso os cálculos a seguir são feitos por meio de faixas de incerteza, representadas por números entre colchetes, por exemplo, [30 - 54]. Uma faixa de incerteza está representada por um valor mínimo e um valor máximo aceitos para a quantidade em questão. As faixas de incerteza têm a função de incorporar aos cálculos a incerteza existente quanto ao valor real de determinados parâmetros demográficos. Não é atribuída uma probabilidade a uma faixa de incerteza. A possibilidade de uso de faixas de incerteza está especificada nas normas da IUCN, na publicação \"IUCN Red List Categories and Criteria: Version 3.1\" (IUCN 2012)</p> \n<p>A população que desova no litoral norte do Espírito Santo é extremamente reduzida, mas houve um suave crescimento: média de 25,6 ninhos por ano no período 1988−1992 e de 89,8 ninhos no período 2013-2017 (Colman<em> et al</em>. 2019). </p> \n<p>Nesse período 2013-2017, supondo um número médio de ninhos por fêmea por temporada reprodutiva entre 5 e 6 ninhos (Colman <em>et al.</em> 2019), temos então uma estimativa para o número médio de fêmeas desovando a cada temporada no período: entre 15 e 18 fêmeas por temporada:90 / [5 - 6] = [15 - 18]</p> \n<p>O intervalo de remigração para DC é geralmente de 2 a 3 anos (Thomé <em>et al</em>. 2007, Colman <em>et al.</em> 2019). Com isto, temos uma estimativa para o número total de fêmeas reprodutivas existentes na população no período: entre 30 e 54 fêmeas.[15 - 18] x [2 - 3] = [30 - 54]</p> \n<p>Para estimar o tamanho total da população adulta reprodutiva, como é requerido para possível aplicação do critério D, além da estimativa do número de fêmeas,é preciso fazer uma estimação do número de machos. Existe grande incerteza quanto à razão de sexos entre adultos de DC. Em particular, não se sabese a razão de sexos existente entre filhotes se mantém, como norma geral, na fase adulta:a) Existe uma estimativa, obtida por meio de análise genética de filhotes, de uma razão de sexos de 1:1 (F:M) entre adultos na Costa Rica (Stewart &amp; Dutton 2014).b) Barata <em>et al.</em> (2004) encontraram uma razão de sexos de 2:1 (F:M) em uma amostra de 6 DC encalhadas ou capturadas em pesca na costa brasileira com o sexo determinado (5 adultas e uma juvenil com 85 cm de comprimento da carapaça).c) James <em>et al.</em> (2007) obtiveram uma razão de sexos de 1.86:1 (F:M) em 80 DC encalhadas ou capturadas em pesca no Canadá.d) Quanto à razão de sexos em filhotes de DC, Godfrey <em>et al.</em> (1996) encontraram o valor de 2.27:1 (F:M) no Suriname.</p> \n<p>Aplicando-se cada uma destas estimativas da razão de sexos ao número de fêmeas estimado para o período 2013-2017, que é [30 - 54], temos, de acordo com os itens a)-d) acima:a) razão de sexos de 1:1 (F:M) ---&gt; [30 - 54] fêmeas e [30 - 54] machospopulação adulta total (fêmeas + machos) = [60 - 108]b) razão de sexos de 2:1 (F:M) ---&gt; [30 - 54] fêmeas e [15 - 27] machospopulação adulta total (fêmeas + machos) = [45 - 81]c) razão de sexos de 1.86:1 (F:M) ---&gt; [30 - 54] fêmeas e [16 - 29] machospopulação adulta total (fêmeas + machos) = [46 - 83]d) razão de sexos de 2.27:1 (F:M) ---&gt; [30 - 54] fêmeas e [13 - 24] machospopulação adulta total (fêmeas + machos) = [43 - 78]</p> \n<p>Analisando estes cálculos, vemos que o valor de 50 indivíduos adultos, que é o ponto de corte para a classificação de uma população como Criticamente em Perigo segundo o critério D (IUCN 2012), está dentro das faixas de incerteza calculadas em (b), (c) e (d). De acordo com as estimativas apresentadas em (b), (c) e (d), não pode ser excluída a possibilidade de que a população tenha menos do que 50 indivíduos adultos, o que enquadra a população no critério D das normas da IUCN, conforme a publicação \"IUCN Red List Categories and Criteria: Version 3.1\" (IUCN 2012).</p> \n<p>Observe-se que as análises acima, no que toca às várias estimativas obtidas com base em diferentes possíveis valores para a razão de sexos, estão de acordo com o que está recomendado pelas normas da IUCN (2012):<em>\"In the case of populations with biased adult or breeding sex ratios, it is </em><em>appropriate to use lower estimates for the number of mature individuals, which </em><em>take this into account.\"</em>Observe-se também que a decisão de inclusão da população no critério D é feita com base em uma atitude de precaução em situação de incerteza, conforme especificado nas normas da IUCN (2012):<em>\"In general, when uncertainty leads to wide variation in the results of assessments, </em><em>the range of possible outcomes should be specified. A single category must be chosen and the basis for the decision should be documented; it should be both </em><em>precautionary and credible.\"</em></p> \n<p> </p>",
+      "images": [
+        {
+          "url": "https://salve.icmbio.gov.br/salve-api/public/anexo/6b6233337468304f744e55557a3032446130467a756d596b7a66526f4437597344396d556b634541333877792b4f6c7645464174584c6a6554537a676f2f722f",
+          "diskFileName": "571d060f275db3fdb471d428ce883773.tif",
+          "legend": "Colman et al, 2019, fig.2: suave crescimento no número de ninhos"
+        }
+      ],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>O aumento da atividade pesqueira e consequente crescimento das capturas incidentais nos últimos anos é considerado a principal ameaça para a espécie <em>D. coriacea </em>no Brasil (Sales <em>et al.</em>, 2008, Fossette <em>et al</em>., 2014) e no mundo (Ferraroli <em>et al.</em>, 2004). Há captura incidental em atividades de pesca, tanto em pesca costeira (principalmente redes de emalhe) quanto em pesca oceânica (redes de deriva, espinhéis de superfície) e indícios de captura em pesca de arrasto no sul do país. </p> \n<p>Uma pescaria oceânica de grande impacto para <em>D. coriacea</em> é a pescaria com redes de emalhe de deriva (malhão) direcionada principalmente à captura de tubarões-martelo, realizada de São Paulo ao Rio Grande do Sul por embarcações oriundas dos portos de São Paulo e Santa Catarina. Na pesca de emalhe de fundo oceânico na frota arrendada (barcos estrangeiros que são arrendados por uma empresa brasileira e assim conseguem permissão para pescar dentro da ZEE brasileira) foram registradas capturas de <em>D. coriacea</em>, com mortalidade registrada de Santa Catarina a São Paulo. A pesca com espinhel pelágico para atuns, espadartes e cações captura <em>D. coriacea</em> na região oceânica de todo o Brasil, em águas internacionais adjacentes e na Elevação do Rio Grande, com alguma mortalidade registrada no momento das atividades de pesca. Entre os anos de 1995 e 2014 foram observados 376 encalhes de <em>D. coriacea</em> no Rio Grande do Sul, dos quais 17 apresentavam sinais externos de interação com atividades pesqueiras (Monteiro <em>et al</em>., 2016). As áreas de maior densidade de encalhes<em>, </em>concentrados na primavera e no verão, coincidem com as áreas de maior esforço da pescaria de arrasto de parelha (Monteiro <em>et al</em>., 2016), indicando que esta pescaria é uma das principais causas de mortalidade de indivíduos de <em>D. coriacea</em> no Rio Grande do Sul.</p> \n<p>Em pescarias costeiras, é conhecida até o momento a captura incidental de <em>D. coriacea</em> em currais de pesca no Ceará; em redes de emalhe para lagosta nos estados do Ceará e Bahia; em redes de emalhe para peixes e no arrasto para camarão no Espírito Santo. Em Santa Catarina foram registradas capturas de <em>D. coriacea</em> na pescaria com cerco flutuante. No Rio Grande do Sul observa-se a captura incidental no emalhe de fundo e arrasto. De acordo com Thomé <em>et al.</em> (2007), a pesca artesanal de emalhe no entorno da foz do rio Doce, no Espírito Santo (no entorno da área de desova naquele Estado), oferece risco significativo para <em>D. coriacea</em>, com registros de capturas acidentais.</p> \n<p>O impacto humano sobre os habitats das tartarugas marinhas é reconhecido há décadas, com os esforços para mitigação concentrados no ambiente terrestre. Apesar de progressos feitos na proteção e recuperação de ecossistemas marinhos em algumas áreas, impactos antropogênicos diretos ou indiretos continuam a ocorrer. Os principais fatores ligados ao desenvolvimento costeiro desordenado e que causam um impacto negativo nas populações de tartarugas marinhas são: iluminação artificial (fotopoluição), impactos de dragagens, abalroamentos e ruídos de embarcações, injúrias e soterramentos pela instalação de enrocamentos, pontes e estruturas marinhas, descarte inadequado de efluentes e de resíduos sólidos, vazamentos de petróleo, trânsito de veículos nas praias, entre outros (Sforza <em>et al.</em>, 2017). Colman (2018) avaliou, a partir de imagens de satélite, a iluminação artificial nas áreas reprodutivas de tartarugas marinhas nos períodos 1992-1996 e 2008-2012, observando aumento na iluminação da maior parte das áreas. Nas áreas prioritárias de desova de <em>D. coriacea</em>, a Reserva Biológica de Comboios tem garantido a existência de áreas com pouca iluminação, mas o desenvolvimento costeiro segue pressionando as áreas no entorno da Unidade de Conservação (Colman, 2018).</p> \n<p>No Brasil, não há comércio de ovos ou carne nas áreas de desova. Desde 1982 quando o Projeto TAMAR foi implantado no Norte do Espírito Santo, não houve registros de abate de fêmeas, mas há registros esporádicos de coleta de ovos, com consumo local. Já foram realizadas investigações, com base na Lei de Crimes Ambientais, Lei 9605/1998, mas até hoje sem encontrar responsáveis.</p> \n<p>Segundo Poloczanska <em>et al.</em> (2009), as tartarugas marinhas são geralmente vistas como vulneráveis às alterações climáticas devido ao papel que a temperatura desempenha na determinação do sexo dos embriões. O aumento da temperatura na ordem de 2°C pode causar a feminização de toda uma população. Além disto, por se tratar de espécies de natureza altamente migratória, mudanças de disponibilidade de recursos alimentares, de circulação de correntes marinhas e ventos podem comprometer seu ciclo de vida longo e complexo.</p> \n<p>Existem diferentes formas de poluição que constituem ameaça para os habitats marinhos e terrestres das tartarugas marinhas que incluem som, temperatura, luz, plásticos, produtos químicos, efluentes e outros. De um modo geral, a poluição de qualquer tipo, ocorrendo acima de um certo limiar, pode produzir uma área inabitável. Em níveis abaixo desse limiar, pode significativamente degradar a qualidade do habitat, a capacidade de carga e outros aspectos da função do ecossistema (Sforza <em>et al</em>., 2017). A avaliação dos impactos antropogênicos sobre os habitats de tartarugas marinhas foi considerada um dos 20 temas de pesquisa prioritários para tartarugas marinhas e considerado insuficientemente pesquisado na literatura recente (Rees <em>et al</em>., 2016).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.2 - Áreas comerciais e industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.3 - Áreas de turismo e recreação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Poloczanska <i>et al.</i>, 2009",
+              "title": "Poloczanska, E.S., Limpus, C.J. &amp; Hays, G.C. (2009) Vulnerability of marine turtles to climate change. <i>Advances in Marine Biology</i>. 56, 151--211."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.1 - Extração de petróleo e gás natural",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.4 - Tráfego de embarcações",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Thomé & Barata, 2007",
+              "title": "Thomé, J.C. Baptistotte, C. Moreira, L.M.P. Scalfoni, J.T. Almeida, A.P. Rieth, D. &amp; Barata, P.C.R. (2007) Nesting biology and conservation of the leatherback sea turtle (<i>Dermochelys coriacea</i>) in the State of Espírito Santo, Brazil. <i>Chelonian Conservation and Biology</i>. 6 (1), 15--27."
+            },
+            {
+              "label": "Giffoni, 2012",
+              "title": "Giffoni, B. Domingo, A. Sales, G. Miller, P. Pons, M. Leite, N.O. Britto, M.D.K. Maçaneiro, L., (2012) Captura incidental de tortugas marinas (Caretta caretta y Dermochelys coriacea) por las flotas de palangre pelágico de Brasil y Uruguay . In: Giffoni (ed.) <i>CONGRESO URUGUAYO DE ZOOLOGIA, 2</i> Montevideo."
+            },
+            {
+              "label": "Melo, 2013",
+              "title": "Melo, M. T. D. Lima, E. H. S. M. (2013) Registro de Interação de Dermochelys Coriacea com duas Pescarias – Espinhel e Curral de Pesca Observado Pelo Projeto TAMAR – ICMBIO No Ceará. In: Livro de Resumos (ed.) <i>VI JORNADA Y VII REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</i> Piriápolis."
+            },
+            {
+              "label": "Fossette, 2014",
+              "title": "Fossette, S. Witt, M.J. Miller, P. Nalovic, M.A. Albareda, D. Almeida, A.P. Broderick, A.C. Chacon-Chaverri, D. Coyne, M.S. Domingo, A. Eckert, S. Evans, D. Fallabrino, A. Ferraroli, S. Formia, A. Giffoni, B. Hays, G.C. Hughes, G. Kelle, L Leslie, A. Lopez-Mendilaharsu, M. Luschi, P. Prosdocimi, L. Rodriguez-Heredia, S. Turny, A. Verhage, S. Godley, B.J. (2014) Pan-Atlantic analysis of the overlap of a highly migratory species, the leatherback turtle, with pelagic longline fisheries. <i>Proc. R. Soc. B</i>. 281,."
+            },
+            {
+              "label": "Wallace, 2010",
+              "title": "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B. (2010) Global patterns of marine turtle bycatch. <i>Conservation Letters</i>. 3, 131-142."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.3 - Portos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p><em>D. coriacea</em> é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país participa ainda da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas (IAC). Desde 1986 (Portaria SUDEPE 5/86), é proibida no Brasil a captura de tartarugas marinhas e seus ovos.</p> \n<p>As principais ameaças no passado, que causaram a redução populacional nas últimas 3 gerações, foram a coleta de ovos e o abate de fêmeas nas áreas de reprodução e a pesca permissionada, que não acontecem mais (Marcovaldi &amp; Marcovaldi, 1999), exceto relatos esporádicos.</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "15 - Pesquisa",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "1 - Alimentação humana",
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Marcovaldi & Marcovaldi, 1999",
+              "title": "Marcovaldi, M.A. &amp; Marcovaldi, G.G., 1999. Marine turtles of Brazil: the history and structure of Projeto Tamar-Ibama. Biological Conservation, 91: p.35--41."
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><strong>Existentes:</strong></p> \n<p><em>D. coriacea</em> é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país participa ainda da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas (IAC).</p> \n<p><strong>Necessárias:</strong></p> \n<p>• Dar continuidade às atividades de educação ambiental, sensibilização pública e desenvolvimento local, incluindo geração de emprego e renda, junto às comunidades costeiras onde a espécie ocorre;</p> \n<p>• Manter o monitoramento das áreas de desova, garantindo a proteção dos ninhos in situ, filhotes e fêmeas;</p> \n<p>• Desenvolver e implementar tecnologia para minimizar impactos antropogênicos;</p> \n<p>Dar continuidade ao “Programa Interação Tartarugas e Pesca” para redução das capturas incidentais, com ênfase em:</p> \n<p>• Estimular a gestão participativa nas comunidades pesqueiras para busca de soluções alternativas e de ordenamento;</p> \n<p>• Realizar levantamento sobre a interação com as pescarias costeiras;</p> \n<p>• Fomentar a criação, implantação e gestão de unidades de conservação litorâneas e marinhas;</p> \n<p>• Implementar medidas de manejo pesqueiro para redução do esforço das pescarias de emalhe e arrasto de parelha na plataforma continental da região sul do Rio Grande do Sul, nos meses de primavera e verão (Monteiro et al., 2016).</p> \n<p>• Desenvolver e implementar medidas mitigadoras e compensatórias, nas três esferas de licenciamento, para os empreendimentos desenvolvidos na área de ocorrência do táxon.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "D",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2022",
+              "title": "Santos, A.S., Marcondes, A.C.J., Iespa, B.B., Oliveira, B.S.S.P., Baptistotte, C., Bellini, C., Monteiro, D.S., Goldberg, D.W., Tognin, F., Sales, G., Castilhos, J.C., Thome, J.C.A., Marcovaldi, M.A.A.G.D., Barata, P.C.R., Santos, R.G., Costa, S.A.G.L. &amp; Santanaw, W.M. (2022) <i>Dermochelys coriacea (Linnaeus, 1766)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2010,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "A2ab",
+          "refBibs": [],
+          "orderBy": "Z2010"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 1977,
+          "name": "CITES - Anexo I"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para a Conservação das Tartarugas Marinhas - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação das Tartarugas Marinhas",
+          "refBibs": []
+        },
+        {
+          "name": "Educação e comunicação",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção territorial",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bondioli, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santanaw, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bc, 2010",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Comboios",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Thomé & Barata, 2007",
+              "title": "Nesting biology and conservation of the leatherback sea turtle (<i>Dermochelys coriacea</i>) in the State of Espírito Santo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA DA ORLA MARíTIMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Neto, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA DA PAISAGEM E DO AREAL DA PRAIA DO PONTAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Neto, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA ILHA COMPRIDA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Filho, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL CENTRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertozzi, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Bertozzi, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Maranho, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Bertozzi, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA LAGOA DO AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Bc, 2015",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            },
+            {
+              "label": "Bc, 2010",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2020",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Gu, 2010",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2021",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PLATAFORMA CONTINENTAL DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Baptistotte, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA FOZ DO RIO DAS PREGUIçAS - PEQUENOS LENçóIS - REGIãO LAGUNAR ADJACENTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Santanaw, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro das Aranhas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Silva, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Comboios",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Cb, 2013",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            },
+            {
+              "label": "Cb, 2012",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            },
+            {
+              "label": "Cb, 2011",
+              "title": "Sistema de Informação sobre Tartarugas Marinhas – SITAMAR"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p><strong>Necessárias:</strong></p> \n<p>• Manter o monitoramento das áreas de desova;</p> \n<p>• Manter e incrementar as atividades de pesquisa ao longo prazo para avaliar as tendências das populações (crescimento, estabilidade, diminuição);</p> \n<p>• Identificar principais rotas migratorias e estabelecer conectividade entre as populações do Atlântico.</p> \n<p>• Identificar as áreas de alimentação e implementar ações de conservação, manejo e pesquisa de longa duração;</p> \n<p>• Realizar levantamento sobre a interação com as pescarias costeiras;</p> \n<p>• Quantificar as taxas de captura incidental e de mortalidade nas pescarias de arrasto e emalhe no sul do Brasil (Monteiro, 2017), Norte do ES e outros locais críticos;</p> \n<p>• Manter e incrementar a marcação de adultos e juvenis, para determinação das áreas de uso e deslocamento e biologia reprodutiva;</p> \n<p>• Dar continuidade aos estudos genéticos para determinação das populações (áreas de alimentação e desova).</p>",
+      "table": [
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Em Andamento",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Al,, 2013. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Almeida, A. P.; Filgueiras, H.; Brad, R. &amp; Tiwari, M. 2014. Increasing Evidence of Leatherback Migrations from Brazil Beaches to the West African Continent.. <b>African Sea Turtle Newsletter</b>, p.9-11.",
+          "Almeida, A.P Thomé, J.C.A. Baptistotte, C. Marcovaldi, M.A. Santos, A.S. Lopez, M., 2011. Avaliação do Estado de Conservação da Tartaruga Marinha Dermochelys coriacea (Vandelli, 1761) no Brasil. Biodiversidade Brasileira, (1) p.37-44.",
+          "Almeida, A.P. S. de Eckert, S.A. Bruno, S.C. Scalfoni, J.T. Giffoni, B. López-Mendilaharsu, M. &amp; Thomé, J.C.A., 2011. Satellite-tracked movements of female <i>Dermochelys coriacea</i> from southeastern Brazil. ENDANGERED SPECIES RESEARCH, 15: p.77--86.",
+          "Assunção, S. 2015. Educação ambiental e a deficiência visual: uma contribuição da geografia para o Projeto Tamar.",
+          "Avens, L.; Taylor, J.C.; Goshe, L.R.; Jones, T.T. &amp; Hastings, M., 2009. Use of skeletochronological analysis to estimate the age of leatherback sea turtles Dermochelys coriacea in the western North Atlantic. Endang Species Res, 8: p.165−177.",
+          "Baptistotte, C.; Lopez, G. G.; Reith, D.; Santos, M. R.; Boldrin, M. A.; Werneck, M .R.; Becker, H.; Goldberg, D. W.; Stahelin, G. D.; Marcovaldi, M. A. &amp; Pires, T. 2012. Anthropogenic threats to the sea turtle populations along the Brazilian coast.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Huatulco. (Resumo)",
+          "Barata, P.C.R. &amp; Fabiano, F.F.C., 2002. Evidence for leatherback sea turtle (<i>Dermochelys coriacea</i>) nesting in Arraial do Cabo, State of Rio de Janeiro, and a review of occasional leatherback nests in Brazil. Marine Turtle Newsletter, 96: p.13--16.",
+          "Barata, P.C.R. 2015. Literature and Conservation: “The Turtle”, A Short Story by the Brazilian Writer Rubem Braga.. <b>Marine Turtle Newsletter</b>, p.15-17.",
+          "Barata, P.C.R. Lima, E.H.S.M. Borges-Martins, M. Scalfoni, J.T. Bellini, C. &amp; Siciliano, S., 2004. Records of the leatherback sea turtle (<i>Dermochelys coriacea</i>) on the Brazilian coast, 1969-2001. Journal of the Marine Biological Association of the United Kingdom, 84: p.1233--1240.",
+          "Bc,, 2010. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Bc,, 2011. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Bc,, 2012. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Bc,, 2013. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Bc,, 2015. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Becker, J. H.; Giffoni, B.; Alvarenga, F. S.; Dos Santos, E. L; Navarro, F. C. S.; Barbosa, J. N. &amp; Ortiz, P. Gallo, B. M. G. 2013. Community Iniciative of Non-Consumptive use of Sea Turtles as A Result of Long term Conservation Program In Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Miami. (Resumo)",
+          "Berredo, R. D. 2014. Encalhes de tartarugas marinhas no município de Anchieta-ES e sua relação com a pesca costeira.",
+          "Berrêdo, R.; Rosa, M.; Giffoni, B.; Sales, G.; Britto, M.; Thomé, J. &amp; Leite Jr, N. 2013. Encalhes e interação da pesca costeira com tartarugas marinhas em Anchieta – Espírito Santo, Brasil.. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Billes, A. Fretey, J. Verhage, B. Huijbregts, B. Giffoni, B. Prosdocimi, L. Albareda, D.A. Georges, J.Y. &amp; Tiwari, M., 2006. First evidence of leatherback movement from Africa to South America. Marine Turtle Newsletter, 111: p.13--14.",
+          "Bjorndal, K.A., 1999. Foraging ecology and nutrition of sea turtles. p.199--231. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press",
+          "Britto, M.; Giffoni, B.; Sales, G.; Maçaneiro, L. R.; Nascimento, C.; Junior, N. de O. &amp; Fiedler, F. N. 2016. Working with fishermen to minimize sea turtles capture and mortality in pelagic longline fishery in Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Caraccio, M.N. Domingo, A. Máequez, A. Naro-Maciel, E. Miller, P. &amp; Pereira, A., 2008. Las aguas del Atlántico Sudoccidental y su importancia en el ciclo de vida de la tortuga cabezona (<i>Caretta caretta</i>): evidencias a través del análisis del ADNmt.. Collective Volume of Scientific Papers - ICCAT, 62 (6): p.1831--1837.",
+          "Cb,, 2013. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Cegoni, C.T.; Goldberg, D.; Wanderlinde, J.; Giffoni, B. &amp; Rogério, D.W. 2015. Centro de Visitantes Projeto Tamar Sul: uma ferramenta de sensibilização ambiental. <i>In</i>: Anais... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO DA SOCIEDADE DE ZOOLOGICOS E AQUÁRIOS DO BRASIL</b>. Foz do Iguaçu. (Resumo)",
+          "Colman, L., 2018. Ecology and conservation of the leatherback sea turtle (Dermochelys coriacea) nesting in Brazil. Tese de Doutorado. University of Exeter. Exeter. p.205.",
+          "Contato, M.C.D. Soto, J.M.R. Rosa, F.D., 2004. Captura incidental de tartaruga-de-couro (Dermochelys coriacea) e tartaruga-verde (Chelonia mydas) em redes de emalhe de fundo no sul do Brasil. <i>In</i>:PRICTMA/ FVSA.<i>In</i>: Resumenes de la II Reunión Sobre la Investigación y Conservación de Tortugas Marinas del Atlántico Sur Occidental., (Resumo)",
+          "Correia, J.; Santos, E. &amp; Moura, G., 2016. Conservação de Tartarugas Marinhas no Nordeste do Brasil: Pesquisas, Desafios e Perspectivas, p.257. EDURFPE Recife.",
+          "Cunha, O.R., 1975. Sobre a ocorrência da tartaruga de couro <i>Dermochelys coriacea</i> (Linnaeus, 1758) na foz do Rio Amazonas (Chelonia, Dermochelyidae). Boletim do Museu Paraense Emílio Goeldi, série Zoologia, 81: p.1--18.",
+          "Dondoni, D. C. 2015. Ocorrência de quelônios e avaliação dos relatórios do Projeto de Monitoramento da Biota Marinha durante atividades sísmicas nas bacias de Campos, Santos e Espírito Santo.",
+          "Ferraroli, S.; Georges, J.-Y. Gaspar P. &amp; Maho, Y. L., 2004. Where leatherback turtles meet fisheries. Nature, 429: p.521–522.",
+          "Fiedler, F.N., 2009. As pescarias industriais de rede de emalhe de superfície e as tartarugas marinhas: caracterização das frotas de Itajaí, Navegantes, Porto Belo (Santa Catarina) e Ubatuba (São Paulo), suas áreas de atuação, sazonalidade e a interação com tartarugas marinha. Dissertação de Mestrado. Dissertação (Mestrado em Oceanografia Biológica), Universidade Federal do Paraná. p.86.",
+          "Fieldler, F. N.; Sales, G.; Giffoni, B. B.; Monteiro-Filho, E. L. A.; Secchi, E. R. &amp; Bugoni, L. 2012. Driftnet fishery threats sea turtles in the Atlantic Ocean.. <b>Biodiversity and Conservation</b>, 20:",
+          "Figueiredo, M.W. Carmo, N.S. Albuquerque, A. &amp; Pezutti, J.C.B, 2008. Occurrence of sea turtles in the coast of Pará, Brasil. Book of Abstract of the 6th World Congress of Herpetology, AIHA/INPA/UFAM",
+          "Fossette, S. Witt, M.J. Miller, P. Nalovic, M.A. Albareda, D. Almeida, A.P. Broderick, A.C. Chacon-Chaverri, D. Coyne, M.S. Domingo, A. Eckert, S. Evans, D. Fallabrino, A. Ferraroli, S. Formia, A. Giffoni, B. Hays, G.C. Hughes, G. Kelle, L Leslie, A. Lopez-Mendilaharsu, M. Luschi, P. Prosdocimi, L. Rodriguez-Heredia, S. Turny, A. Verhage, S. Godley, B.J. 2014. Pan-Atlantic analysis of the overlap of a highly migratory species, the leatherback turtle, with pelagic longline fisheries. <b>Proc. R. Soc. B</b>, 281:",
+          "Gallo, B. G.; Becker, H.; Macedo, S.; Oliveira, A. M. F.; Coelho, M.A.R.; Lovizio, A. M. &amp; Ferraz, M. L. C. P. 2013. Programa de Educação Ambiental “Tartarugas marinhas vivendo livres no mar”.. <b>Revista Educação Ambiental em Ação</b>,",
+          "Gandu, M. D.; Goldberg, D. W.; Lopez, G. G &amp; Tognin, F. 2014. Evidence of leatherback nesting activity in Northern Bahia, Brazil.. <b>Marine turtle newsletter</b>, 141: p.10-12.",
+          "Giffoni B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2013. Captura incidental de tartarugas marinhas pela frota de espinhel pelágico do Brasil e Uruguai (1998 - 2010).. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Giffoni, B. B. 2016. <b>Pescaria como unidade de gestão para o monitoramento, avaliação e mitigação da captura incidental de tartarugas marinhas na pesca.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.63.",
+          "Giffoni, B. B.; Sales, G.; Leite Jr, N. O.; Britto, M.; Fiedler, F. N. &amp; Olavo, G. 2017. Fishery as administrative unit: Implications for sea turtle conservation.. <b>Collective Volume of Scientific Papers ICCAT</b>, 73: p.3252-3268.",
+          "Giffoni, B. Domingo, A. Sales, G. Fiedler, F.N. &amp; Miller, P., 2008. Interacción de tortugas marinas (<i>Caretta caretta</i> y <i>Dermochelys coriacea</i>) con la pesca de palangre pelágico en el Atlantico Sudoccidental: una perspectiva regional para conservacion. Collective Volume of Scientific Papers - ICCAT, 62 (6): p.1861--1870.",
+          "Giffoni, B. Domingo, A. Sales, G. Miller, P. Pons, M. Leite, N.O. Britto, M.D.K. Maçaneiro, L.,, 2012. Captura incidental de tortugas marinas (Caretta caretta y Dermochelys coriacea) por las flotas de palangre pelágico de Brasil y Uruguay. <i>In</i>:Giffoni.<i>In</i>: CONGRESO URUGUAYO DE ZOOLOGIA, 2, Montevideo. Disponível em: <a target=\"_blank\" href=\"http://www.tamar.org.br/publicacoes_html/pdf/2012/2012_Captura_incidental_de_tortugas_marinas.pdf\">http://www.tamar.org.br/publicacoes_html/pdf/2012/2012_Captura_incidental_de_tortugas_marinas.pdf</a>. Acessado em: 09/02/2018. (Resumo)",
+          "Giffoni, B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2014. Captura incidental de tortugas marinas por las flotas de palangre pelágico de Brasil y Uruguay (1998 - 2010).. <b>Collective Volume of Scientific Papers ICCAT</b>, 70: p.2217-2225.",
+          "Giffoni, B.B.; Marcovaldi, M. A; Sales, G; Thomé, J. C. A; Da Silva, A. C.C; Marcovaldi, G; Gallo, B. M. G; Lima, E. H. S. M.; Lima, E. P; Bellini, C.; Wanderlinde, J.; Lopez, G.; Santos, A. J. B. &amp; López-Mendilaharsu, M and Santos, A. 2013. Interactions between sea turtles and fisheries in Brazil. An overview within the scope of projeto tamar monitoring area (1990 – 2012).. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Godfrey, M.H.; Barreto, R. &amp; Mrosovsky, N., 1996. Estimating past and present sex ratios of sea turtles in Suriname. Canadian Journal of Zoology, 74: p.267-277.",
+          "Goldberg, D. W.; Pires, T. T.; Castilhos, J. C.; Marcovaldi, M. A.; Lopez, G. G.; Lima, E. P. &amp; Baptistotte, C. 2013. Avaliação dos encalhes de tartarugas marinhas: um indicador estratégico para a conservação.. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Goldberg, D.W.; Baptistotte, C.; D'Azeredo F.T.; Bertoloto, A.; Guimarães, S.; Velez-Rubio, G. &amp; Prosdoscimi, L. 2016. Aso-turtle network: Collaborative efforts to understand strandings.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Goldberg, D.W.; Pires, T.; Velloso, R.; Becker, H.; Castilhos, J.C.; Wanderlinde, J.; Lopez, G.G.; Melo, M.T.D.; Santos, A.B. &amp; Baptistotte, C 2016. What can we learn from sea turtle strandings?. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Gu,, 2013. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Hamann, M. Godfrey, M.H. Seminoff, J.A. Arthur, K. Barata, P.C.R. Bjorndal, K.A. Bolten, A.B. Broderick, A.C. Campbell, L.M. Carreras, C. Casale, P. Chaloupka, M. Chan, S.K.F. Coyne, M.S. Crowder, L.B. Diez, C.E. Dutton, P.H. Epperly, S.P, 2010. Global research priorities for sea turtles: informing management and conservation in the 21st century. Endangered Species Research, 11: p.245--269.",
+          "IUCN 2017, 2017. The IUCN Red List of Threatened Species. Version 2017-2. Disponível em: <a target=\"_blank\" href=\"http://www.iucnredlist.org\">http://www.iucnredlist.org</a>. Acessado em: 01/07/2017.",
+          "James, M.C. Sherrill-Mix, S.A.. &amp; Myers, R.A., 2007. Population characteristics and seasonal migrations of leatherback sea turtles at high latitudes. Marine Ecology Progress Series, 337: p.245–254.",
+          "Júnior, J. C. R.; Pfaller, J. B.; Corbetta, R. &amp; Veríssimo, L. 2014. Parasitic isopods associated with sea turtles nesting in Brazil.. <b>Journal of the Marine Biological Association of the United</b>, p.1-9.",
+          "Júnior, N. de O. L.; Giffoni, B.; Fieldler, F. N. &amp; Sales, G. 2012. Review of actions by Brazil in meeting the BYC recommendation 10-09 and the FAO guidelines to reduce sea turtle mortality in fishing operations.. <b>Collect. Vol. Sci. Pap. ICCAT</b>, 68: p.1763-1768.",
+          "Lima, E. H. S. M. &amp; Melo, M. T. D. 2016. Recapturas De Tartarugas Marinhas em Pescarias nas Comunidades de Almofala E Volta Do Rio, Litoral Oeste do Ceará.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE OCEANOGRAFIA</b>. Salvador. (Resumo)",
+          "Lima, E. H.S.M. &amp; Melo, M.T.D. 2017. Monitoramento de pescarias pelo Projeto TAMAR para salvar tartarugas marinhas nos Municípios de Itarema e Acaraú – Ceará. <i>In</i>: Resumos.... [S.I.: s.n.].<i>In</i>: <b>SIMPOSIO SOBRE PESQUISA E CONSERVAÇÃO DE TARTARUGAS</b>. Natal. (Resumo)",
+          "Lima, E.H.S.M. &amp; Evangelista, L.E.V., 1997. Sobre a captura acidental em curral de pesca da tartaruga marinha <i>Dermochelys coriacea</i> em Almofala-Ceará. <i>In</i>:EDITUS.<i>In</i>: Anais do VII Congresso Nordestino de Ecologia, Ilhéus. (Resumo)",
+          "Lima, E.H.S.M. 2014. Projeto TAMAR - 34 años conservando las tortugas marinas en Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>CONGRESSO LATINO-AMERICANO DE HERPETOLOGIA</b>. Colômbia. (Resumo)",
+          "Lima. E. H.S.M. &amp; Melo, M.T.D. 2016. Interinstitutional Partnerships Formed For Sea Turtle Conservation In The State Of Ceará, Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Lima. E. H.S.M. &amp; Melo, M.T.D. 2016. Nets Catch more than just fish – Theater as a Tool to Involve Fishermen is Sea Turtle Conservation In Almofala, Ceará, Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Loebmann, D. Legat, J.F.A. Legat, A.P. Camargo, R.C.R. Erthal, S. Severo, M.M. &amp; Goes, J.M., 2008. <i>Dermochelys coriacea</i> (Leatherback sea turtle) nesting. Herpetological Review, 39 (1): p.81.",
+          "Lopez, G.G.; Salies, E.de C.; Lara, P.H.; Tognin, F.; Marcovaldi, M.A. &amp; Serafini, T.Z. 2015. Coastal development at sea turtles nesting ground: Efforts to establish a tool for supporting conservation and coastal management in northeastern Brazil.. <b>Ocean & Coastal Management</b>, 116: p.270-276.",
+          "Magalhães, M. dos S.; Santos, A. J. B,; Silva, N. B. da &amp; Moura, C. E. B. de. 2012. Anatomy of the digestive tube of sea turtles (Reptilia: Testudines).. <b>Zoologia</b>, 1: p.70-76.",
+          "Mansfield, K. L.; Mendilaharsu, M. L.; Putman, N.F.; Marcovaldi, M. A. G.; Sacco, A.E.; Lopez, G.; Pires, T. &amp; Swimmer, Y. 2017. First satellite tracks of South Atlantic sea turtle ‘lost years’: seasonal variation in trans-equatorial movement.. <b>Proceedings. Royal. Society. B.</b>,",
+          "Marcondes, A. C. J. 2015. Estratégias de proteção das áreas reprodutivas de tartarugas marinhas em casos de vazamento de óleo na costa brasileira.",
+          "Marcondes, A. C. J.; Baptistotte, C.; Thomé, J. C. A., Vila-Verde, L.; Ribeiro, F. A. &amp; Freire, J. B., Pizetta, G. T. 2017. Pesquisa e proteção das tartarugas marinhas na foz do rio doce e o desastre de Mariana-MG.. <i>In</i>: Resumos.... [S.I.: s.n.].<i>In</i>: <b>ENCONTRO NACIONAL DE GERENCIAMENTO COSTEIRO. INTEGRAÇÃO DE BACIAS HIDROGRÁFICAS E ZONAS COSTEIRAS</b>. Rio Grande. (Resumo)",
+          "Marcondes, A. C. J.; Sangália, C. A.; Baptistotte, C.; Thomé, J. C. A.; Vila-Verde, L. &amp; Ribeiro, F. A. 2017. Sensibilização e mobilização socioambiental como ferramenta de proteção da foz do rio doce.. <i>In</i>: Resumos.... [S.I.: s.n.].<i>In</i>: <b>ENCONTRO NACIONAL DE GERENCIAMENTO COSTEIRO. INTEGRAÇÃO DE BACIAS HIDROGRÁFICAS E ZONAS COSTEIRAS</b>. Rio Grande. (Resumo)",
+          "Marcovaldi, G.G. &amp; Albuquerque, J.C.B., 1983. Trabalhos de proteção a desova, avaliação quali-quantitativa e marcação nas praias de Pirambu (SE), Forte (BA), Comboios (ES) e Ilha da Trindade - Relatorio Parcial de 17/01/83 a 19/01/83. Relatório Técnico,",
+          "Marcovaldi, M. A.; Santos, A. S.; Lara, P. H. &amp; López-Mendilaharsu, M. 2017. Novel Research Techniques Provide New Insights to the Sea Turtle Life Cycle. p.169-195. <i>In</i>: Rossi-Santos & Finkl. <b>Advances in Marine Vertebrate Research in Latin America: Technological Innovation and Conservation</b>. Springer International Publishing",
+          "Marcovaldi, M. A.; Thomé, J. C.; Silva, A. C. C. D. da; Sales, G.; Giffoni, B.; Gomes, B. M.; Baptistotte, C.; Lima, E.; Wanderlinde, J.; Santos, A. J. B.; Santos, A. S. dos; Mendilaharsu, M. L. &amp; López, G. G. 2013. Projeto Tamar: matching, threats and conservation priorities for sea turtles in Brazil.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Marcovaldi, M.A. &amp; Marcovaldi, G.G., 1999. Marine turtles of Brazil: the history and structure of Projeto Tamar-Ibama. Biological Conservation, 91: p.35--41.",
+          "Melo, M. T. D. Lima, E. H. S. M. 2013. Registro de Interação de Dermochelys Coriacea com duas Pescarias – Espinhel e Curral de Pesca Observado Pelo Projeto TAMAR – ICMBIO No Ceará.. <i>In</i>: Livro de Resumos.<i>In</i>: <b>VI JORNADA Y VII REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. Disponível em: <a target=\"_blank\" href=\"http://www.tamar.org.br/publicacoes_html/pdf/2013/2013_Registro_de_interacao_de_Dermochelys_coriacea_com_duas_pescarias_espinhel_e_curral_de_pesca_observado_pelo_projeto_tamar_ICMBio_no_Ceara.pdf\">http://www.tamar.org.br/publicacoes_html/pdf/2013/2013_Registro_de_interacao_de_Dermochelys_coriacea_com_duas_pescarias_espinhel_e_curral_de_pesca_observado_pelo_projeto_tamar_ICMBio_no_Ceara.pdf</a>. Acessado em: 09/02/2018. (Resumo)",
+          "Meylan, A.B, 1995. Estimating population size in sea turtles. p.135--138. <i>In</i>:Bjorndal. Biology and Conservation of Sea Turtles, Smithsonian Institution Press",
+          "Monteiro, A. F.; Materazi, J.; Frazier, J. G.; Schimit, A. F.; Rocha, V. &amp; Camargo, M. L. 2013. Apresentação da proposta de diagnóstico das iniciativas de educação ambiental da rede ASO.. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "NEMA, Núcleo de Educação e Monitoramento Ambiental, 2006. Subprojeto Manejo e Conservação das Tartarugas Marinhas: relatório final de atividades. Rio Grande. Núcleo de Educação e Monitoramento Ambiental (NEMA). Relatório Técnico,",
+          "Nassar, P. R. 2015. <b>Projeções para os efeitos do aumento do nível do mar no sucesso reprodutivo de tartarugas marinhas, Brasil</b>. Dissertação de Mestrado. Universidade Estadual de Santa Cruz - UESC. Ilhéus. p.103.",
+          "Oliveira, M. T. 2015. A importância do trabalho educacional do Programa TAMAR na escola em prol da conservação das tartarugas marinhas na localidade de Almofala-CE.",
+          "Pegas, F. de V.; Coghlan, A.; Stronza, A. &amp; Rocha, V. 2013. For love or for money?: investigating the impact of an ecotourism programme on local redidents` assigned values towards sea turtles.. <b>Journal of Ecotourism</b>, 12: p.17.",
+          "Pegas, F.; Coghlan, A. &amp; Rocha, V. 2012. An exploration of a mini-guide programme: Training local children in sea turtle conservation and ecotourism in Brazil.. <b>Journal of Ecotourism</b>, 11: p.48-55.",
+          "Pinedo, M.C. &amp; Polacheck, T., 2004. Sea turtle bycatch in pelagic longline sets off Southern Brazil. Biological Conservation, 119: p.335--339.",
+          "Pinedo, M.C. Capitoli, R. Barreto, A.S. &amp; Andrade, A.L.V., 1998. Occurrence and feeding of sea turtles in southern Brazil. p.117--118. <i>In</i>:NOAA. Proceedings of the 16th Annual Symposium on Sea Turtle Biology and Conservation, NOAA",
+          "Poloczanska, E.S.; Limpus, C.J. &amp; Hays, G.C., 2009. Vulnerability of marine turtles to climate change. Advances in Marine Biology, 56: p.151--211.",
+          "Projeto TAMAR, 2018. Banco de Dados TAMAR/SITAMAR.",
+          "Prosdocimi, L.; Mendilaharsu, M. L.; Fallabrino, A.; Giffoni, B. B.; Marcovaldi, M. A.; Estrades, A.; Dos Santos, A.; López, G.; Tiwari, M. &amp; Bolten, A. 2016. Multiple threats analysis for leatherback turtles in the southwest atlantic.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Pv,, 2011. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Pv,, 2012. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Biologia, ecologia e conservação de tartarugas marinhas. p.63-89. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Pesquisa e conservação de tartarugas marinhas no Brasil e as recentes contribuições da telemetria e da genética. p.91-120. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C. Soares, L.S. Vargas, S.M. Santos, F.R. Young, R.J. Bjorndal, K.A. Bolten, A.B. &amp; Lôbo-Hadju, G., 2010. Genetic composition, population structure and phylogeography of loggerhead sea turtle: colonization hypothesis for the Brazilian rookeries. Conservation Genetics, 11 (4): p.1467-1477.",
+          "Rocha, V. 2016. Educacion Ambiental - Projeto Tamar: Estrategia para la conservacion de las tortugas marinas. Environmental education workshop.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Sales, G. Giffoni, B.B. &amp; Barata, P.C.R., 2008. Incidental catch of sea turtles by the Brazilian pelagic longline fishery. Journal of the Marine Biological Association of the United Kingdom, 88 (4): p.853--864.",
+          "Sales, G. Giffoni, B.B. Maurutto, G. &amp; Bruzin, M., 2003. Captura incidental de tartarugas marinhas pela frota de rede de emalhe de deriva sediada em Ubatuba, São Paulo - Brasil. <i>In</i>:Libro de Resúmenes de la I Reunión de Investigación y Conservación de las Tortugas Marinas del Atlán.<i>In</i>: II Jornadas de Conservación y Uso Sustentable De La Fauna Marina, (Resumo)",
+          "Sales, G.; Britto, M.; Fiedler, F.N.; Giffoni, B.; Domingo, A.; Leite, N. &amp; Miller, P. 2015. Management Units: Challenges To Promote Understanding And Conservation Of Marine Turtles In Oceanic Areas.. <b>Collective Volume of Scientific Papers ICCAT</b>, 71: p.2983-2986.",
+          "Santana, W.M. Lima-Junior, T.B. Aragão, G.M.O. Silva, J.C. Silva-Leite, R.R. Leite-Junior, J.M.A. &amp; Leite, J.R.S.A, 2007. Encalhe de tartarugas marinhas na região costeira da Ilha do Caju, Maranhão, Brasil.<i>In</i>: Anais do III Congresso Brasileiro de Herpetologia, Belém, PA. (Resumo)",
+          "Santos, A. J. B.; Bellini, C.; Marcovaldi, M. A.; Barata, P. C. R. &amp; Chaloupka, M. 2015. Estimativas da probabilidade de sobrevivência aparente e da abundância de tartarugas de pente juvenis (Eretmochelys imbricata) em Fernando de Noronha, Pernambuco, Brasil.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>ENCONTRO DE PESQUISA DE FERNANDO DE NORONHA, SÃO PEDRO E SÃO PAULO E ATOL DAS ROCAS</b>. Fernando de noronha. (Resumo)",
+          "Santos, A.S.; Marcovaldi, M.A.; Lopez, G.G.; Wanderlinde, J.; Trentin, C.; Goldberg, D.W.; Silva, B.M.G.; Becker, J.H.; Giffoni, B.; Torres, D.; Thomé, J.C.A.; Baptistotte, C.; Sforza, R.; Rieth, D. B.; Tognin, F.; López-Mendilaharsu, M.; Maurutto, G.; Lara, P.H.; Castilhos, J.C. de; Silva, C.C. da; Melo, M.T.D.; Lima. E. H.S.M.; Barsante, A.; Bellini, A. &amp; Sales, G. 2016. Sitamar: connecting sea turtles information to reach better conservation actions in Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Santos, R.C.A. &amp; Soto, J.M.R., 2004. Caracterização da pesca artesanal com redes de cerco-flutuante na Ilha de Santa Catarina, Brasil. <i>In</i>:Libro de Resúmenes de la II Reunión Sobre La Investigación y Conservación de Tortugas Marinas del Atlántico Sur Occidental.<i>In</i>: Libro de Resúmenes de la II Reunión Sobre La Investigación y Conservación de Tortugas Marinas del Atlántico Sur Occidental, (Resumo)",
+          "Sc,, 2012. Sistema de Informação sobre Tartarugas Marinhas – SITAMAR.",
+          "Sforza, R.; Marcondes, A. C. J. &amp; Pizetta, G. T. 2017. <b>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</b>. p.130. ICMBIO Brasília.",
+          "Sforza, R.; Marcondes, A. C. J.; Pizetta, G. T.; Lara, P. H.; Santos, E. A. P.; Saliés, E. &amp; Thomé, J. C. A 2016. Diretrizes para Avaliação e Mitigação de Impactos de Empreendimentos Costeiros e Marinhos nas Tartarugas Marinhas.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE AVALIAÇÃO DE IMPACTO</b>. Ribeirão Preto. (Resumo)",
+          "Shoop, C.R. &amp; Kenney, R.D., 2011. Seasonal distribution and abundance of loggerhead and leatherback sea turtles in waters of the northeastern United States. Herpetological Monographs, 6: p.43--67.",
+          "Silva, F.P.M.S; Costa Neto, E.M. &amp; Carqueija, C.R.G. 2015. A etnotaxonomia de crustáceos estomatópodes e decápodes segundo pescadores artesanais do litoral norte da Bahia, Brasil. <b>Revista Ouricuri</b>, 5 (1):",
+          "Soto, J.M.R. Beheregaray, R.C.P. &amp; Rebello, R.A.R.P, 1997. Range extension: nesting by <i>Dermochelys</i> and <i>Caretta</i> in Southern Brazil. Marine Turtle Newsletter, 77: p.6--7.",
+          "Spotila, J.R.; Dunham, A.E.; Leslie, A.J.; Steyermark, A.C.; Plotkin, P.T. &amp; Paladino, F.V., 1996. Worldwide population decline of Dermochelys coriacea: Are leatherback turtles going extinct?. Chelonian Conserv Biol, 2: p.209−222.",
+          "Stewart, K.R. &amp; Dutton, P.H., 2014. Breeding sex ratios in adult leatherback turtles (Dermochelys coriacea) may compensate for female-biased hatchling sex ratios.. PLoS One, 9(2):",
+          "Szablak, F. T. 2015. Avaliação da interação da frota linheira “tipo Itaipava” com as tartarugas marinhas.",
+          "Szablak, T. F.; Galina, M. O. &amp; Leite Jr., N. DE O. 2015. Caracterização da frota linheira \"tipo Itaipava” no litoral do Brasil e avaliação da interação da pesca com as tartarugas marinhas. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>SEMINÁRIO DE PESQUISA, 7,. E ENCONTRO DE INICIAÇÃO CIENTÍFICA DO ICMBio</b>. Brasilia. (Resumo)",
+          "Tavares, G.M.F.; Santos, A.J.B.; Vieira, D.H,G. &amp; Carmo,.H.M.de.A. 2015. Nove temporadas de monitoramento reprodutivo das tartarugas marinhas no Centro de lançamento da Barreira do Inferno (Parnamirim/RN).. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE BIOLOGIA MARINHA</b>. Porto de Garlinhas. (Resumo)",
+          "Thomé , J. C. A.; Martini, E. A. D. &amp; Leite Júnior, N. O. 2016. Avaliação inicial dos impactos da pluma de rejeitos da Samarco nos ambientes estuarinos, costeiros e marinhos.. <i>In</i>: Anais... [S.I.: s.n.].<i>In</i>: <b>SIMPÓSIO SOBRE A BIODIVERSIDADE DA MATA ATLÂNTICA – SIMBIOMA</b>. Santa Teresa. (Resumo)",
+          "Thomé, J.C. Baptistotte, C. Moreira, L.M.P. Scalfoni, J.T. Almeida, A.P. Rieth, D. &amp; Barata, P.C.R., 2007. Nesting biology and conservation of the leatherback sea turtle (<i>Dermochelys coriacea</i>) in the State of Espírito Santo, Brazil. Chelonian Conservation and Biology, 6 (1): p.15--27.",
+          "Thomé, J.C.; Martini, E.D.; Colman, L.; Marcondes, A.C.J.; Baptistotte, C.; Pizetta, G.T.; Leite Jr, N.O. &amp; Tavares, S. A 2017. Dam Disaster in Brazil and its Impacts on Distant Sea Turtle Beaches.. <b>SWOT report: the state of the Worlds sea turtles. Special feature Africa</b>, 12: p.36-37.",
+          "Thomé, R. B. 2015. Estudo de caso da comunidade pesqueira de Regência, foz do rio Doce: análise de conflitos e visão crítica sobre a proposta de criação de uma unidade de conservação.",
+          "Turtle Expert Working Group, 2007. An Assessment of the Leatherback Turtle Population in the Atlantic Ocean, p.116. NOAA",
+          "Vargas, S. M.; Lins, L. S.; Molfetti, E.; Ho, S.Y.W.; Monteiro, D.; Barreto J.; Colman, L.; Vila-Verde, L.; Baptistotte, C.; Thomé, J. C. A. &amp; Santos, F. 2017. Revisiting the genetic diversity and population structure of the critically endangered leatherback turtles in the South-west Atlantic Ocean: insights for species conservation.. <b>Journal of the Marine Biological Association of the United Kingdom</b>, p.1-17.",
+          "Vargas, S.; Molfetti, E.; Vilaça, S. T.; Monteiro, D.; Estima, S. C.; Soares, L. S.; Almeida, A. P.; Thoisy, de B.; Naro-Marciel, E. &amp; Santos, F. R. 2013. Mixed stock analysis of leatherback turtles feeding in brazil: records over four years.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Vargas, S.M. Araújo, F.C.F. Monteiro, D.S. Estima, S.C. Almeida, A.P. Soares, L.S. &amp; Santos, F.R., 2008. Genetic diversity and origin of leatherback turtles (<i>Dermochelys coriacea</i>) from the Brazilian coast. Journal of Heredity, 99 (2): p.215--222.",
+          "Vilaça, S. T.; Vargas, S. M.; Lara-Ruiz, P.; Molfetti, E.; Reis, E. C.; Lobo-Hajdu, G. &amp; Soares, L. S. and Santos, F. 2012. Nuclear markers reveal a complex introgression pattern among marine turtle species on the Brazilian coast.. <b>Molecular Ecology</b>, p.1-13.",
+          "Wallace, B.P. Dimatteo, A.D. Hurley, B.J. Finkbeiner, E.M. Bolten, A.B. Chaloupka, M.Y. Hutchinson, B.J. Abreu-Grobois, F.A. Amorocho, D. Bjorndal, K.A. Bourjea, J. Bowen, B.W. Due\\ nas, R.B. Casale, P. Choydhury, B.C. Costa, A. Dutton,, 2010. Regional management units for marine turtles: a novel framework for prioritizing conservation and research across multiple scales. PLoS ONE, 5 (12): p.1--11.",
+          "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B., 2010. Global patterns of marine turtle bycatch. Conservation Letters, 3: p.131-142.",
+          "Zug, G.R. &amp; Parham, J.F., 1996. Age and growth in leatherback turtles, Dermochelys coriacea (Testudines: Dermochelyidae): a skeletochronological analysis.. Chelonian Conserv Biol, 2: p.244-249."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

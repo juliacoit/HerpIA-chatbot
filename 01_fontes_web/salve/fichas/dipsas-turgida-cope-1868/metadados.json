@@ -1,0 +1,402 @@
+{
+  "id_ficha": "50784a304352747a4f4c54447a6b6a3348584d7468513d3d",
+  "nome_cientifico": "Dipsas turgida (Cope, 1868)",
+  "nome_cientifico_atual": "Dipsas turgida (Cope, 1868)",
+  "nome_comum": "Dormideira, Dormideira-rajada, Papa-lesma",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27912.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=50784a304352747a4f4c54447a6b6a3348584d7468513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dipsas turgida</i>&nbsp;<span>(Cope, 1868)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "13/05/2026",
+      "justificative": "<p><em>Dipsas turgida</em> ocorre no Brasil, Argentina, Paraguai, Uruguai e Bolívia. No Brasil, possui ampla distribuição, podendo ser encontrada principalmente no Pantanal e Cerrado do Mato Grosso e Mato Grosso do Sul, mas com registros também nos Pampas, no Rio Grande do Sul. Ocupa principalmente ambientes abertos, podendo ser encontrada em áreas antropizadas, e parece ser resiliente a alterações ambientais. Pode ser abundante localmente e não foram identificadas ameaças que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Dipsas turgida</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Dipsas turgida</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27912.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27912.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19128,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dipsas</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dipsas turgida</i>"
+        }
+      ],
+      "oldNames": "Cochliophagus inaequifasciatus, Leptognathus atypicus, Leptognathus inaequifasciata, Leptognathus turgida, Sibynomorphus inaequifasciatus, Sibynomorphus turgidus, Tropidodipsas spilogaster",
+      "commonNames": "Dormideira, Dormideira-rajada, Papa-lesma",
+      "taxonomicNotes": "<p>Estudo de revisão filogenética das espécies da tribo Dipsadini designou o gênero <em>Sibynomorphus</em> como sinônimo júnior de <em>Dipsas</em> (Arteaga <em>et al</em>., 2018).</p> \n<p> </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em><em>Dipsas turgida</em> </em>ocorre na Argentina, Bolívia, Brasil, Paraguai e Uruguai (Fugler <em>et al</em>., 1995; Cacciali, 2010; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, possui ampla distribuição, podendo ser encontrada principalmente na região do Pantanal e Cerrado do Mato Grosso e Mato Grosso do Sul, mas com registros também na região dos Pampas no Rio Grande do Sul (Amaral, 1925; Avila, 2005; Carvalho <em>et al.,</em> 2018; Nogueira <em>et al.</em>, 2019 ). </p>",
+      "states": "Mato Grosso, Mato Grosso do Sul, Rio Grande do Sul",
+      "biomes": "Amazônia, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Ibicuí, Sub-bacia Madeira, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraná RH1, Sub-bacia Uruguai Médio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6f4b4c79587239483252375348474857665979324e55794174686f3652435a6e55797364584471554d54446f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa de distribuição de Dipsas turgida",
+        "diskFileName": "cee04ab199550ac13c93841ef915a8fe.png",
+        "fileName": "Mapa de Dipsas turgida.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Dipsas turgida</em> ocorre principalmente em ambientes abertos, é terrestre e noturna (Carvalho &amp; Nogueira, 1998; Arzamendia &amp; Giraudo, 2002; Alvarez <em>et al</em>., 1995; Sawaya, 2003; Leynaud <em>et al</em>., 2006). Uma fêmea foi registrada depositando 11 ovos em outubro, dos quais dez indivíduos eclodiram após um período de incubação de 54 a 55 dias (Campbell, 1984). A espécie demonstra aparente resiliência a alterações ambientais, sendo encontrada em áreas periantrópicas.</p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Uma das espécies de maior abundância na área urbana de Cuiabá (Carvalho &amp; Nogueira, 1998).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC da Serra das Araras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTRADA PARQUE DE PIRAPUTANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA ECOLÓGICA VALE DO BUGIO",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Amaral, 1925",
+              "title": "Ofidios de Mato Grosso"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Estância Dorochê",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Margarida",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazendinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jubran",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Paculândia",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Guató",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Taunay/Ipegue",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Alvarez, B.B., Lions, M.L., Aguirre, R., Cespedez, J. &amp; Hernando, A. (1995) Herpetofauna del area de influencia del embalse de la represa Yacyreta (Argentina-Paraguay). <i>Facena</i>. 1, 57-73.",
+          "Amaral, A. (1925) Ophidios de Matto Grosso (Contribuição II para o conhecimento dos ophidios do Brasil). <i>Commissão de Linhas Telegraphicas Estratégicas de Matto Grosso ao Amazonas</i>. 84 (5), 1-29.",
+          "Arteaga, A., Salazar-Valenzuela, D., Mebert, K., Peñafiel, N., Aguiar, G., Sánchez-Nivicela, J.C., Pyron, R.A., Colston, T.J., Cisneros-Heredia, D.F., Yánez-Muñoz, M.H., Venegas, P.J., Guayasamin, J.M. &amp; Torres-Carvajal, O. (2018) Systematics of South American snail-eating snakes (Serpentes, Dipsadini), with the description of five new species from Ecuador and Peru. <i>ZooKeys</i>. 766, 79-147.",
+          "Arzamendia, V. &amp; Giraudo, R.G. (2002) Lista y Distribuición de lós Ofidios (Reptilia: Serpentes) de Santa Fe, Argentina. <i>Cuadernos de Herpetologia</i>. 16 (1), 15-32.",
+          "Avila, R.W. (2005) <i>Herpetofauna da Serra do Amolar</i>. Corumba.",
+          "Cacciali, P. (2010) <i>Reptiles del Paraguay: una aproximación al estudio de su diversidad y distribución geográfica</i>. Dissertação de Mestrado. Universidad de la República. Montevideo. 386pp.",
+          "Campbell, J.A. (1984) Reproduction in five species of paraguayan Colubrids. <i>Transactions of The Kansas Academy of Science</i>. 87 (1-2), 63-65.",
+          "Carvalho, M.A. &amp; Nogueira, F. (1998) Serpentes da área urbana de Cuiabá, Mato Grosso: aspectos ecológicos e acidentes ofídicos associados. <i>Cadernos de Saúde Pública</i>. 14 (4), 753-763.",
+          "Carvalho, P.S., da Silva, L.A., Ferreira, V.L., Souza, F.L. &amp; Santana, D.J. (2018) Snakes of Campo Grande municipality, Mato Grosso do Sul state, Central Brazil. <i>Herpetology Notes</i>. 11, 321-328.",
+          "Fugler, C. M., De La Riva, I. &amp; Cabot, J. (1995) Herpetologica boliviana: una lista comentada de las serpientes de Bolivia con datos sobre su distribucion. <i>Ecologia en Bolivia</i>. 24, 40-87.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Leynaud G.C., Pelegrin, N. &amp; Lescano, J.N. (2006) Anfibios y Reptiles In: Bucher (ed.) <i>Bañados del río Dulce y Laguna Mar Chiquita (Córdoba, Argentina)</i>. Córdoba, Argentina, Academia Nacional de Ciencias, pp. 219-235.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Sawaya, R.J. (2003) <i>História natural e ecologia das serpentes de Cerrado da região de Itirapina</i>. Tese de Doutorado. Universidade Estadual de Campinas. Campinas."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

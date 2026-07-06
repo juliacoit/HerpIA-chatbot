@@ -1,0 +1,980 @@
+{
+  "id_ficha": "59696978564e306836364930684869316c464f634c513d3d",
+  "nome_cientifico": "Polychrus acutirostris Spix, 1825",
+  "nome_cientifico_atual": "Polychrus acutirostris Spix, 1825",
+  "nome_comum": "bicho-preguiça, bico-doce, calango-cego, camaleão, papa-vento, tapuinhãnhã",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35734.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=59696978564e306836364930684869316c464f634c513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Polychrus acutirostris</i>&nbsp;<span>Spix, 1825</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "23/03/2026",
+      "justificative": "<p><em>Polychrus acutirostris</em> possui distribuição na diagonal de áreas abertas da América do Sul, com registros no Brasil, Argentina, Paraguai e Bolívia. A espécie possui ampla distribuição no Brasil, ocorrendo em áreas abertas ao longo do Pantanal, Cerrado, Caatinga e marginalmente na Mata Atlântica e Amazônia. Não há ameaças que possam colocá-la em risco de extinção. Portanto, <em>P. acutirostris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Polychrus acutirostris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35734.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35734.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24394,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Polychrotidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Polychrus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Polychrus acutirostris</i>"
+        }
+      ],
+      "oldNames": "Polychrus marmoratus acutirostris",
+      "commonNames": "bicho-preguiça, bico-doce, calango-cego, camaleão, papa-vento, tapuinhãnhã",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Polychrus acutirostris</em> possui ampla distribuição na diagonal de áreas abertas da América do Sul, havendo registros no Brasil, Argentina, Paraguai e Bolívia (Montero <em>et al</em>., 1995; Dirksen &amp; De la Riva, 1999; Cacciali, 2010; Cabral &amp; Weiler, 2014; Ribeiro-Júnior, 2015; Cacciali<em> et al</em>., 2016).</p>",
+      "nationalDistribution": "<p>A espécie possui ampla distribuição no Brasil ao longo do Pantanal, Cerrado e Caatinga, ocorrendo marginalmente na Mata Atlântica e Amazônia (Vitt &amp; Lacher, 1981; Avila-Pires, 1995; Rodrigues, 1996; Gainsbury &amp; Colli, 2003; Kawashita-Ribeiro &amp; Avila, 2008; Moura, 2011; Garda <em>et al</em>., 2012; Santos <em>et al</em>., 2014; Ribeiro-Júnior, 2015).</p>",
+      "states": "Alagoas, Bahia, Ceará, Distrito Federal, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Rondônia, São Paulo, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Grande, Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral SE, Sub-bacia Litoral SP, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Paraná RH1, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Piranhas, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/46713478612b466d7355792f722b4f472f716a4a46463154675946615372694638486d6d707966492f69626e4c6b6578357476663470504c6447375035785151",
+        "legend": "Polychrus acutirostris.",
+        "diskFileName": "92eabf4a648f840d14d8666357d365a3.png",
+        "fileName": "Mapa de Polychrus acutirostris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em> Polychrus acutirostris</em> é diurna e arborícola, encontrada em ambientes florestais, savânicos e campestres e em planícies fluviais alagáveis; na Amazônia, ocorre em enclaves de vegetação aberta (Vitt &amp; Lacher, 1981; Kawashita-Ribeiro &amp; Avila, 2008). O encontro da espécie em armadilhas de interceptação e queda indica que também forrageia no chão (Novelli <em>et al</em>., 2012). Grandes insetos arbóreos dominam sua dieta e material de origem vegetal compreende uma porção significativa dos itens consumidos (Garda <em>et al</em>., 2012). Visto que é a única espécie do gênero que ocorre em ambientes secos, apresenta ninhada com mais e menores ovos que suas espécies congenéricas (Vitt &amp; Lacher, 1981; Garda <em>et al</em>., 2012). Como mecanismo de defesa, fica imóvel e pode alterar sua coloração dorsal para se assemelhar ao ambiente em que se encontra; caso detectado, pode expandir seu corpo e abrir a boca, de coloração escura no interior (Vitt &amp; Lacher, 1981).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças que coloquem a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA Morro da Pedreira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "ARIE Capetinga-Taquara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder <i>et al.</i>, 2011",
+              "title": "Répteis da Estação Ecológica Serra Geral do Tocantins, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freire <i>et al.</i>, 2009",
+              "title": "Répteis Squamata das Caatingas do Seridó do Rio Grande do Norte e do Cariri da Paraíba: síntese do conhecimento atual e perspectivas"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Negreiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2015",
+              "title": "Herpetofauna em remanescente de Caatinga no Sertão de Pernambuco, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Grande Sertão Veredas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder & Nogueira, 2007",
+              "title": "Composição e diversidade de Répteis Squamata na região sul do Parque Nacional Grande Sertão Veredas, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Canastra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Cipó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA das Emas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rodrigues <i>et al.</i>, 2008",
+              "title": "A new species of the lizard genus <i>Bachia</i> (Squamata: Gymnophthalmidae) from the Cerrados of Central Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Brasília",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Miranda <i>et al.</i>, 2012",
+              "title": "Reptiles from Lençóis Maranhenses National Park, Maranhão, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "APA CABREUVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA DE CAFURINGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DE ÁGUAS EMENDADAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO JARDIM BOTÂNICO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "GBIF - Global Biodiversity Information Facility, 2014",
+              "title": "<i>Polychrus acutirostris</i> Spix, 1825"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ARAGUAIAA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ROLA MOÇA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Kawashita-Ribeiro & Avila, 2008",
+              "title": "Reptilia, Squamata, <i>Polychrus</i> spp.: New record, range extensions, and distribution map in the state of Mato Grosso, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DA ARATANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Borges-Nojosa & Caramaschi, 2003",
+              "title": "Composição e análise comparativa da diversidade e das afinidades biogeográficas dos lagartos e anfisbenídeos (Squamata) dos brejos nordestinos"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DOURADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO PRETO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Recoder <i>et al.</i>, 2011",
+              "title": "Répteis da Estação Ecológica Serra Geral do Tocantins, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "GBIF - Global Biodiversity Information Facility, 2014",
+              "title": "<i>Polychrus acutirostris</i> Spix, 1825"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Arara Azul",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "GBIF - Global Biodiversity Information Facility, 2014",
+              "title": "<i>Polychrus acutirostris</i> Spix, 1825"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Córrego dos bois",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Santa Inês",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Ávila <i>et al.</i>, 2010",
+              "title": "Helminths from seven species of lizards (Reptilia: Squamata) at the Cerrado of Mato Grosso do Sul State, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Terra Nova",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jubran",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Kawashita-Ribeiro & Avila, 2008",
+              "title": "Reptilia, Squamata, <i>Polychrus</i> spp.: New record, range extensions, and distribution map in the state of Mato Grosso, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa das Campinas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Mercês Sabiaquaba e Nazário",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Maurício Dantas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica da Mata Fria",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Kawashita-Ribeiro & Avila, 2008",
+              "title": "Reptilia, Squamata, <i>Polychrus</i> spp.: New record, range extensions, and distribution map in the state of Mato Grosso, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Santa Mônica",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN São Joquim da Cabonha APA I e APA II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2009",
+              "title": "Os répteis do município de São Paulo: diversidade e ecologia da fauna pretérita e atual"
+            }
+          ]
+        },
+        {
+          "name": "Inawebohona",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Aripuanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus acutirostris</i>"
+            }
+          ]
+        },
+        {
+          "name": "Tirecatinga",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Xukuru",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cabral, H. &amp; Weiler, A. (2014) Lista comentada de los reptiles de la Colección Zoológica de la Facultad de Ciencias Exactas y Naturales de Asunción, Paraguay. <i>Cuadernos de Herpetología</i>. 28, 19-28.",
+          "Cacciali, P. (2010) Distribución y afinidades Biogeográficas de la Familia Gymnophthalmidae de Paraguay (Reptilia: Sauria). <i>Reportes Científicos de la FACEN</i>. 1 (1), 10-19.",
+          "Cacciali, P., Scott, N.J., Ortiz, A.L.A., Fitzgerald, L.A. &amp; Smith, P. (2016) The reptiles of Paraguay: Literature, distribution, and an annotated taxonomic checklist. <i>Special Publication of the Museum of Southwestern Biology</i>. 11, 1-373.",
+          "Dirksen, L. &amp; De la Riva, I (1999) The lizards and amphisbaenians of Bolivia (Reptilia, Squamata): checklist, localities, and bibliography. <i>Graellsia</i>. 55, 199-215.",
+          "Gainsbury, A.M. &amp; Colli, G.R. (2003) Lizard assemblages from natural Cerrado enclaves in southwestern Amazonia: the role of stochastic extinctions and isolation. <i>Biotropica</i>. 35 (4), 503-519.",
+          "Garda, A.A., Costa, G.C., França, F.G., Giugliano, L.G., Leite, G.S., Mesquita, D.O., Nogueira, C., Tavares-Bastos, L., Vasconcellos, M.M., Vieira, G.H.C. &amp; Vitt, L.J. (2012) Reproduction, body size, and diet of <i>Polychrus acutirostris</i> (Squamata: Polychrotidae) in two contrasting environments in Brazil. <i>Journal of Herpetology</i>. 46 (1), 2-8.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Kawashita-Ribeiro, R.A. &amp; Avila, R.W. (2008) Reptilia, Squamata, <i>Polychrus</i> spp.: New record, range extensions, and distribution map in the state of Mato Grosso, Brazil. <i>Check List</i>. 4 (3), 362-365.",
+          "Montero, R., Scrocchi, G., Montaño, M.E. &amp; Fernandez, I.M. (1995) Nuevas citas de Saurios, Anfisbenidos y Ofidios para Bolivia. <i>Cuadernos de Herpetología</i>. 9 (1), 7-13.",
+          "Moura, G.J.B., Santos, E.M., Oliveira, M.A.B. &amp; Cabral, M.C.C. (2011) <i>Herpetologia do Estado de Pernambuco</i> Brasília - DF, Ibama, 443pp.",
+          "Novelli, I.A., Lucas, P.D.S., Carvalho, R.G.D., Santos, R.C. &amp; Sousa, B.M.D. (2012) Lagartos de áreas de Cerrado na Reserva Biológica Unilavras-Boqueirão, Ingaí, sul de Minas Gerais, Brasil. <i>Biota Neotropica</i>. 12 (3), 147-153.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Rodrigues, M.T. (1996) Lizards, snakes, and amphisbaenians from the quaternary sand dunes of the middle Rio São Francisco, Bahia, Brazil. <i>Journal of Herpetology</i>. 30 (4), 513-523.",
+          "Santos, D.L., Andrade, S.P., Victor-Jr., E.P. &amp; Vaz-Silva, W. (2014) Amphibians and reptiles from southeastern Goiás, Central Brazil. <i>Check List</i>. 10 (1), 131-148.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Vitt, L.J. &amp; Lacher Jr., T.E. (1981) Behavior, habitat, diet and reproduction of the Iguanid lizard <i>Polychrus acutirostris</i> in the Caatinga of northeastern Brazil. <i>Herpetologica</i>. 37 (1), 53-63."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "id_ficha": "61644b6f3058356b70503643656e2b666c5958684b673d3d",
+  "nome_cientifico": "Micrurus brasiliensis Roze, 1967",
+  "nome_cientifico_atual": "Micrurus brasiliensis Roze, 1967",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.28063.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=61644b6f3058356b70503643656e2b666c5958684b673d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Micrurus brasiliensis</i>&nbsp;<span>Roze, 1967</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "26/02/2026",
+      "justificative": "<p><em>Micrurus brasiliensis</em> é endêmica do Brasil, ocorrendo predominantemente no Cerrado, com registros nos estados da Bahia, Maranhão, Tocantins, Goiás e Minas Gerais. Embora possa ser localmente afetada por alterações ambientais, em decorrência principalmente das expansões agropastoril e urbana, a sua distribuição é bastante ampla e não há evidências de ameaças que possam colocar a espécie em risco de extinção em curto prazo. Por isso, <em>Micrurus brasiliensis</em> foi categorizada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Micrurus brasiliensis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.28063.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.28063.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7444556b4e426c68434569742f726f673057744270513d3d/full"
+      },
+      "version": 2,
+      "versionId": 19277,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Elapidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Micrurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Micrurus brasiliensis</i>"
+        }
+      ],
+      "oldNames": "Micrurus frontalis brasiliensis",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Micrurus brasiliensis</em> é endêmica do Brasil, com ocorrênica na porção central do país, com registros nos estados da Bahia, Maranhão, Tocantins, Goiás e Minas Gerais (Silva Jr. &amp; Sites, 1999; Guedes <em>et al</em>., 2014; Pires, 2014; Freitas <em>et al</em>., 2016; Silva Jr., 2017; Nogueira <em>et al.</em>, 2019).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Goiás, Maranhão, Minas Gerais, Tocantins",
+      "biomes": "Caatinga, Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Parnaíba Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5765674e5951466e64726e6e4362525a6757386858437a4a4f4f4f4e422f31495875486c594a337a506f506e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Micrurus brasiliensis",
+        "diskFileName": "36df9cbe857dda0893fa0a394d0a056b.png",
+        "fileName": "Mapa de Micrurus brasiliensis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Micrurus brasiliensis </em>ocorre no domínio do Cerrado, em campos arenosos (Recoder <em>et al.,</em> 2011), florestas decíduas e florestas tropicais e subtropicais, em altitudes de cerca de 700 metros (Campbell &amp; Lamar, 2004). Alimenta-se de anfisbenas e outras serpentes (Roze, 1996; Bocchiglieri &amp; Reis, 2008). Possui uma longevidade de quase dois anos em cativeiro (Oliveira <em>et al</em>., 2005).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora ao longo da distribuição da espécie haja alterações no ambiente em alguns locais, em decorrência principalmente das expansões agropastoril e urbana, a distribuição da espécie é ampla e não há indícios de grandes declínios populacionais. Assim as ameaças não a colocam em risco em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2020,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2020",
+              "title": "Silveira, A. L., Prudente, A. L. da C., Argôlo , A. J. S., Abrahão, C. R., Nogueira, C. de C., Strüssmann, C., Loebmann, D., Barbo, F. E., Franco, F. L., Costa, G. C., Moura, G. J. B., Zaher, H. el D., Borges-Martins, M., Martins, M. R. C., Oliveira , M. E., Hoogmoed, M. S., Marques, O. A. V., Passos, P. G. H., Bérnils, R. S., Kawashita-Ribeiro, R. A., Sawaya, R. J. &amp; Guedes, T. B. (2020) <i>Micrurus brasiliensis</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/56040356/123740960\">https://www.iucnredlist.org/species/56040356/123740960</a>. [Acessado em: 16/jan/2026]."
+            }
+          ],
+          "orderBy": "Y2020"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cavernas do Peruaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Junior, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Cavernas do Peruaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Junior, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada das Mesas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Araguaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RVS das Veredas do Oeste Baiano",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Ressaca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Inawebohona",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Araguaia",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bocchiglieri, A. &amp; Reis, M.L. (2008) <i>Micrurus brasiliensis</i> (Brazilian Coralsnake). Diet. <i>Herpetological Review</i>. 39 (4), 471.",
+          "Campbell, J.A. &amp; Lamar, W.W. (2004) <i>The venomous reptiles of the Western Hemisphere</i> Edição Vol. 2 Ithaca, New York, Cornell University Press, 898pp.",
+          "Freitas, M.A., Colli, G.R., Entiauspe-Neto, O.M., Trinchão, L., Araújo, D., Lima, T.O., França, D.P.F., Gaiga, R. &amp; Dias, P. (2016) Snakes of Cerrado localities in western Bahia, Brazil. <i>Check List</i>. 12, 1896.",
+          "Guedes, T.B., Nogueira, C. &amp; Marques, O.A.V. (2014) Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. <i>Zootaxa</i>. 3863, 1-93.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Nogueira, C.C. (2007) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Oliveira, L., Almeida-Santos, S.M., Costa, A.C.O.R., Scartozzoni, R.R., Germano, V.J. &amp; Salomão, M.G. (2005) Manutenção de Serpentes em Cativeiro no Instituto Butantan: I – A longevidade do Gênero <i>Micrurus</i>. <i>Publicações Avulsas do Instituto Pau Brasil</i>. (8-9), 55-62.",
+          "Pires, M.G., Da Silva Jr.,N.J., Feitosa, D.T. &amp; Prudente Filho, A.L (2014) A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil. <i>Zootaxa</i>. 3811 (4), 569–584.",
+          "Recoder, R.S., Teixeira Jr., M., Camacho, A., Nunes, P.M.S., Mott, T., Valdujo, P.H., Ghellere, J.M., Nogueira, C. &amp; Rodrigues, M.T. (2011) Répteis da Estação Ecológica Serra Geral do Tocantins, Brasil Central. <i>Biota Neotropica</i>. 11 (1), 263-281.",
+          "Roze, J. (1996) <i>Coral snakes of the Americas. Biology, identification and venoms</i> Edição 1 Florida, Krieger Publishing Company, 328pp.",
+          "Silva Jr., N.J. &amp; Sites, J.W. (1999) Revision of the <i>Micrurus frontalis</i> complex (Serpentes: Elapidae). <i>Herpetological Monographs</i>. 13, 142-194.",
+          "Silva Jr., N.J. (2007) Novas Ocorrências de <i>Micrurus brasiliensis</i> Roze, 1967 (Serpentes: Elapidae) em áreas de tensão ambiental no Centro-oeste brasileiro. <i>Estudos</i>. 34 (11/12), 931-956.",
+          "Silveira, A. L., Prudente, A. L. da C., Argôlo , A. J. S., Abrahão, C. R., Nogueira, C. de C., Strüssmann, C., Loebmann, D., Barbo, F. E., Franco, F. L., Costa, G. C., Moura, G. J. B., Zaher, H. el D., Borges-Martins, M., Martins, M. R. C., Oliveira , M. E., Hoogmoed, M. S., Marques, O. A. V., Passos, P. G. H., Bérnils, R. S., Kawashita-Ribeiro, R. A., Sawaya, R. J. &amp; Guedes, T. B. (2020) <i>Micrurus brasiliensis</i>. <a target=\"_blank\" href=\"https://www.iucnredlist.org/species/56040356/123740960\">https://www.iucnredlist.org/species/56040356/123740960</a>. [Acessado em: 16/jan/2026]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

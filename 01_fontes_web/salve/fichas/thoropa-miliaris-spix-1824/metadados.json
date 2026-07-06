@@ -1,0 +1,947 @@
+{
+  "id_ficha": "54584253462f6c30514b67342b70454a595357594c773d3d",
+  "nome_cientifico": "Thoropa miliaris (Spix, 1824)",
+  "nome_cientifico_atual": "Thoropa miliaris (Spix, 1824)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16580.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=54584253462f6c30514b67342b70454a595357594c773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Thoropa miliaris</i>&nbsp;<span>(Spix, 1824)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Thoropa miliaris</em> é endêmica do Brasil e possui ampla distribuição na Mata Atlântica, entre os estados da Bahia e São Paulo, desde o nível do mar até altitudes próximas a 2.000 metros. Trata-se de uma espécie saxícola, comum nos locais onde ocorre e presente em várias unidades de conservação, Não foram identificadas ameaças que possam colocá-la em risco de extinção em curto prazo. Por esses motivos, <em>T</em><em>horopa miliaris</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Thoropa miliaris</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16580.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16580.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14477,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Cycloramphidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Thoropa</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Thoropa miliaris</i>"
+        }
+      ],
+      "oldNames": "Borborocoetes miliaris, Cystignathus discolor, Cystignathus (Eupsophus) fuliginosus, Cystignathus missiessii, Eleutherodactylus miliaris, Eupsophus fuliginosus, Eupsophus miliaris, Hylodes brieni, Hylodes miliaris, Leptodactylus discolor, Ololygon miliaris, Rana miliaris, Thoropa missiessii",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Thoropa miliaris</em> é endêmica do Brasil e possii ampla distribuição no bioma Mata Atlântica, com registros desde o estado da Bahia até o estado São Paulo, entre o nível do mar até altitudes próximas a 2.000 metros (Cochran, 1955; Bertoluci &amp; Heyer, 1995; Izecksohn &amp; Carvalho-e-Silva, 2001; Giaretta &amp; Facure, 2004; Feio <em>et al</em>., 2006; Canelas &amp; Bertoluci, 2007; Sabbag, 2013). Sua extensão de ocorrência é de 423.877 km2, obtida via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/5272796861377146664e344d7065696769576977755136344f41393765563759727073747239385174476f7644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "f89419ea7bf8bcc5bce9492246c1090c.png",
+        "fileName": "Mapa de Thoropa miliaris.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Thoropa miliaris</em> é saxícola, encontrada sobre rochas em áreas florestais próximas a riachos e cachoeiras. Seus ovos são depositados nas rochas dos corpos d'água e os girinos desenvolvem-se na película de água sobre as rochas (Giaretta &amp; Facure, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "A espécie é comum ao longo de sua distribuição e sua tendência populacional é estável.",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora exista alteração no ambiente natural em algumas localidades na área de ocorrência da espécie, principalmente em decorrência da expansão urbana, extração de madeira e atividade agropastoril, não há evidência de que essas ameaças possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há informações sobre a utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia <i>et al.</i>, 2010",
+              "title": "Garcia, P., Peixoto, O.L. &amp; Moreira, G. (2010) <i>Thoropa miliaris</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57371A11628284.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57371A11628284.en</a>. [Acessado em: 15/ago/2012]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cairuçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            },
+            {
+              "label": "Silva-soares, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Rodrigues, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Gomes, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Gomes, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Silva-soares, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            },
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Taucce, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Caparaó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garcia, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Simon, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Gasparini, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Córrego do Veado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fagundes, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Tinguá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Tavares, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA DA PEDRA BRANCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA DA PRAINHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "APA DOS MORROS DA BABILôNIA E DE SãO JOãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SAPUCAí MIRIM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL DO ITABIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL SERRA DAS TORRES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2008",
+              "title": "Anuros da Reserva Rio das Pedras, Mangaratiba, RJ, Brasil"
+            },
+            {
+              "label": "Silva, 2011",
+              "title": "Estrutura de Comunidades de Anfíbios e Lagartos da Baía de Sepetiba e do Parque Estadual do Cunhambebe (RJ)"
+            },
+            {
+              "label": "Ouvernay <i>et al.</i>, 2012",
+              "title": "Amphibia, Anura, Parque Estadual do Cunhambebe Itaguaí municipality, Rio de Janeiro state"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA FONTE GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Marques, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carneiro, 2011",
+              "title": "Ocorrência e distribuição espacial e temporal das larvas de anuros (Amphibia) em diferentes sistemas aquáticos da Ilha Grande (Rio de Janeiro)"
+            },
+            {
+              "label": "Goyannes-Araújo <i>et al.</i>, 2015",
+              "title": "Anuran species distribution along an elevational gradient and seasonal comparisons of leaf liter frogs in an Atlantic Rainforest area of southeastern Brazil"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2009",
+              "title": "Fauna de ambientes de interiores"
+            },
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer <i>et al.</i>, 1990",
+              "title": "Frogs of Boracéia"
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO DESENGANO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO FORNO GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva-Soares & Scherrer, 2013",
+              "title": "Amphibians of Parque Estadual do Forno Grande, State of Espirito Santo, Southeastern Brazil: Species composition and conservation"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pombal Jr. & Gordo, 2004",
+              "title": "Anfíbios Anuros da Juréia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Laia, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Feio, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA PRAINHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            },
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL PAISAGEM CARIOCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL VALE DO MULEMBá",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "REFÚGIO ESTADUAL DE VIDA SILVESTRE MATA DOS MURIQUIS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA ESTADUAL DA PRAIA DO SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Telles, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lima, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2008",
+              "title": "Frogs of Marambaia: a naturally isolated Restinga and Atlantic Forest remnant of southeastern Brazil"
+            },
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carneiro, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Silva, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Carneiro, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Carneiro, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Carneiro, 2010",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Sabbag, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Lima, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Telles, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ALTO DO MUCURI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramos & Gasparini, 2004",
+              "title": "Anfíbios do Goiapaba-Açu, Fundão, Estado do Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL MESTRE ÁLVARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2010",
+              "title": "Amphibians of Vitória, an urban area in south-eastern Brazil: first approximation"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUAS VERTENTES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Santos, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL PAISAGEM CARIOCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estação Biológica da Mata do Sossego",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Barra do Sana",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Suspiro",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Feliciano Miguel Abdala",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Santos, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santuário Caraça",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Sabbag, 2013",
+              "title": "Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)"
+            }
+          ]
+        },
+        {
+          "name": "VALE DO SOL",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Barreto, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Belmonte",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bertoluci, J. &amp; Heyer, W.R. 1995. Boracéia update. <b>FrogLog</b>, 14: p.2-3.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Canelas, M.A.S. &amp; Bertoluci, J. 2007. Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal. <b>Iheringia, Série Zoologia</b>, 97: p.21-26.",
+          "Cochran, D.M. 1955. Frogs of southeastern Brazil. <b>United States National Museum Bulletin</b>, p.1-423.",
+          "Feio, R.N.; Napoli, M.F. &amp; Caramaschi, U. 2006. Considerações taxonômicas sobre <i>Thoropa miliaris</I> (Spix, 1824), com revalidação e redescrição de <I>Thoropa taophora</I> (Miranda-Ribeiro, 1923) (Amphibia, Anura, Leptodactylidae). <b>Arquivos do Museu Nacional, Rio de Janeiro</b>, 64 (1): p.41-60.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Garcia, P.; Peixoto, O.L. &amp; Moreira, G. 2010. <i>Thoropa miliaris</I>. <b>The IUCN Red List of Threatened Species 2010: e.T57371A11628284</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57371A11628284.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57371A11628284.en</a>. Acessado em: 15/08/2012.",
+          "Giaretta, A.A. &amp; Facure, K.G. 2004. Reproductive ecology and behavior of <i>Thoropa miliaris</I> (Spix, 1824) (Anura, Leptodactylidae, Telmatobiinae). <b>Biota neotropica</b>, 4 (2): p.1-10.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. 2001. <b>Anfíbios do município do Rio de Janeiro</b>. p.148. Editora UFRJ Rio de Janeiro.",
+          "Sabbag, A.F. 2013. <b>Filogeografia de <I>Thoropa</I> grupo <I>miliaris</I> (Anura: Cycloramphidae)</b>. Dissertação de Mestrado. Universidade Estadual Paulista. São José do Rio Preto. p.84."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

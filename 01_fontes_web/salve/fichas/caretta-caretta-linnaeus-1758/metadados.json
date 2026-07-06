@@ -1,0 +1,1276 @@
+{
+  "id_ficha": "695275782f6a5064533178484a4b732b447859622b773d3d",
+  "nome_cientifico": "Caretta caretta (Linnaeus, 1758)",
+  "nome_cientifico_atual": "Caretta caretta (Linnaeus, 1758)",
+  "nome_comum": "Avó de Aruanã, Careba-dura, Tartaruga amarela, Tartaruga-avó, Tartaruga-cabeçuda, Tartaruga mestiça",
+  "grupo": "Répteis",
+  "categoria_risco": "VU",
+  "categoria_risco_completa": "Vulnerável (VU)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "10/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.12566",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=695275782f6a5064533178484a4b732b447859622b773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Caretta caretta</i>&nbsp;<span>(Linnaeus, 1758)</span>",
+      "category": "Vulnerável (VU)",
+      "lastAvaliation": "10/2018",
+      "publicationDate": "04/10/2022",
+      "justificative": "<p>A tartaruga-cabeçuda <em>Caretta caretta</em> é uma espécie migratória e de distribuição global. No Brasil, as áreas prioritárias de desova estão localizadas em Sergipe e norte da Bahia, norte do Espírito Santo e norte do Rio de Janeiro. Ocorrências de indivíduos em diferentes estágios de vida também são registradas em toda a costa brasileira, em águas costeiras ou oceânicas. A espécie apresenta ciclo de vida longo com maturação sexual média de 32 anos e tempo geracional estimado em 46 anos. As principais ameaças no passado, que quase interromperam o ciclo biológico da espécie, foram a coleta de ovos e o abate de fêmeas nas áreas de reprodução, o que de forma geral, não acontecem mais. Atualmente a maior ameaça é a captura incidental na pesca, no Brasil e águas internacionais, impactando todas as classes etárias. Além disso, a ocupação desordenada do ambiente costeiro, a poluição, e as atividades portuárias e de petróleo e gás, também afetam negativamente as populações. Apesar do declínio acentuado ocorrido no passado, iniciativas de conservação, desde a década de 1980, resultaram no início da recuperação destas populações. Entretanto, não se pode assegurar a continuidade dessa recuperação, tendo em vista a mortalidade contínua de indivíduos decorrente do incremento das ameaças atuais, e dos estudos de tendência populacional não cobrirem ainda um período geracional. </p> \n<p>Nesse contexto, como os estudos de tendência de população cobrem menos de um tempo geracional para este táxon, foram utilizadas estimativas para o período anterior, chegando a uma faixa de reduções estimada que inclui valores superiores a 50% de redução da população nos últimos 138 anos, baseado em um índice de abundância apropriado para o táxon, e considerando como causas da redução os níveis reais de exploração e declínio na qualidade do habitat. Por essas razões, <em>C. caretta</em> foi categorizada como Vulnerável (VU) pelo critério A1bcd.</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Alexsandro Sant´ana dos Santos; Ana Claudia Jorge Marcondes; Bruno Barbosa Iespa; Bruno Stefanis Santos Pereira de Oliveira; Cecilia Baptistotte; Claudio Bellini; Danielle da Silveira Monteiro; Daphne Wrobel Goldberg; Frederico Tognin; Gilberto Sales; Jaqueline Comin de Castilhos; Joao Carlos Alciati Thome; Maria Angela Azevedo Guagni Dei Marcovaldi; Paulo Cesar Rosito Barata; Robson Guimarães dos Santos; Simone Almeida Gavilan Leandro da Costa; Werlanne Mendes de Santanaw",
+      "citation": "<p>Santos, A.S.; Marcondes, A.C.J.; Iespa, B.B.; Oliveira, B.S.S.P.; Baptistotte, C.; Bellini, C.; Monteiro, D.S.; Goldberg, D.W.; Tognin, F.; Sales, G.; Castilhos, J.C.; Thome, J.C.A.; Marcovaldi, M.A.A.G.D.; Barata, P.C.R.; Santos, R.G.; Costa, S.A.G.L.; Santanaw, W.M. 2022. <i>Caretta caretta</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.12566 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.12566",
+      "photo": {
+        "authorName": "Banco de dados Centro TAMAR",
+        "authorEmail": "",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "996c497273602038da5f4af4bfc9cc15.jpg",
+        "fileName": "caretta - praia.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/51414c7030546b2b3476356d4b7547354c65615a4d504e5965766f3373753434707a4b426e735262714e70743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 2,
+      "versionId": 12900,
+      "deleted": false,
+      "lastAvaliationDate": "18/10/2018",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Testudines"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Cheloniidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Caretta</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Caretta caretta</i>"
+        }
+      ],
+      "oldNames": "Testudo caretta",
+      "commonNames": "Avó de Aruanã, Careba-dura, Tartaruga amarela, Tartaruga-avó, Tartaruga-cabeçuda, Tartaruga mestiça",
+      "taxonomicNotes": "<p><b>Notas Morfológicas</b></p>\n<p>Os indivíduos da espécie <em>C. caretta </em>apresentam como características diagnósticas básicas a presença de dois pares de placas pré-frontais e três pares pós-orbitais na cabeça, cinco pares de escudos laterais justapostos na carapaça e três pares inframarginais no plastrão. O primeiro escudo lateral de cada lado da extremidade anterior da carapaça é significativamente menor que os demais. A cabeça é triangular e proporcionalmente grande em relação ao corpo (Wyneken, 2001). As nadadeiras dianteiras são curtas se comparadas às demais espécies e apresentam duas unhas cada.</p> \n<p>A carapaça das fêmeas adultas do Brasil tem medida curvilínea média de 103 cm de comprimento (Marcovaldi &amp; Chaloupka, 2007; Marcovaldi &amp; Laurent, 1996) e o peso de exemplares adultos pode variar de 100 a 180 kg (Pritchard &amp; Mortimer, 1999). Dados morfométricos da subpopulação reprodutiva presente no litoral norte do Rio de Janeiro evidenciam animais com comprimento curvilíneo entre 86,5–114,5 cm (média = 100,5) (Lima <em>et al.</em>, 2012).</p> \n<p>Estudos realizados na Praia do Forte, Bahia, encontraram um tamanho mínimo de 81,5 e 116,7 cm, com média de 99.</p> \n<p>Fêmeas em processo reprodutivo pesadas na base de Praia do Forte (BA) apresentaram um mínimo de 92 kg e máximo de 143,6 kg, com média de 112,02. Já na Base Bacia de Campos (RJ) esses valores ficaram entre 71,7 kg e 168,1 kg, com média de 118,42 kg (Lara, 2016).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p>Tem distribuição global, ocorrendo nos mares tropicais, subtropicais e temperados do Atlântico, Índico e Pacífico e o Mar Mediterrâneo (Wallace <em>et al,</em> 2010). </p> \n<p>No Atlântico, os principais sítios reprodutivos estão localizados na costa sudeste dos Estados Unidos, em Cabo Verde e no Brasil (Hutchinson &amp; Hutchinson, 2006).</p> \n<p>Os habitats marinhos das tartarugas-cabeçuda estendem-se por praticamente todo o Oceano Atlântico Sudoeste e incluem indivíduos juvenis desta espécie originários de outras populações (Barceló <em>et al. </em>2013, González Carman <em>et al.</em> 2011, Marcovaldi <em>et al.</em> 2010, Prosdocimi <em>et al.</em> 2015, Sales <em>et al.</em> 2008, Vélez-Rubio <em>et al</em>. 2013, Wallace <em>et al.</em> 2010).</p>",
+      "nationalDistribution": "<p>No Brasil, as áreas prioritárias de desova estão localizadas no norte da Bahia e Sergipe, norte do Espírito Santo, norte do Rio de Janeiro, e áreas secundárias ocorrem em alguns pontos dos litorais do Espírito Santo e sul da Bahia (Marcovaldi &amp; Marcovaldi 1999; Marcovaldi &amp; Chaloupka 2007). Desovas ocasionais foram registradas em Parati– RJ (Campos <em>et al.</em> 2004), litoral norte de São Paulo (Banco de Dados TAMAR/SITAMAR), Pontal do Peba– AL, litoral do Ceará, Pipa – RN (Banco de Dados TAMAR/SITAMAR), Santa Catarina Soto <em>et al.</em> 1997) e Rio Grande do Sul (Nakashima <em>et al</em>. 2004).</p> \n<p>Ocorrências de indivíduos em diferentes estágios de vida são registradas na costa de diversos estados do Brasil entre o Pará e o Rio Grande do Sul, em áreas costeiras ou oceânicas, o que é conhecido através da interação destes animais com a atividade pesqueira, encalhes ou estudos telemétricos (Banco de Dados TAMAR/SITAMAR, Pinedo <em>et al</em>. 1998, Sales <em>et al.</em> 2008, Reis <em>et al.</em> 2009a).</p> \n<p>Encalhes de <em>Caretta caretta </em>são comuns ao longo de toda a costa do Rio Grande do Sul (Monteiro <em>et al.</em>, 2016; Luz, 2016). A maioria dos espécimes encalhados (73,7%) são imaturos, com comprimento curvilíneo da carapaça médio de 72,9 cm (Monteiro <em>et al.</em>, 2016). Existem registros de encalhes nas praias do Rio Grande do Sul de fêmeas adultas marcadas nas áreas de desova no Brasil, sendo duas provenientes da Bahia, duas do Espírito Santo e uma do Rio de Janeiro (Monteiro <em>et al.</em>, 2016). Também foram observadas duas fêmeas adultas provenientes das áreas de desova do Brasil (uma do Espírito Santo e uma do Rio de Janeiro) capturadas incidentalmente na pescaria de arrasto de parelha na plataforma continental do Rio Grande do Sul (Silva <em>et al.</em>, 2014), o que sugere que o sul do Brasil pode ser uma importante área de alimentação para juvenis/subadultos de <em>C. caretta</em> (Marcovaldi &amp; Chaloupka, 2007).</p> \n<p>Existem registros de encalhes em praias do Uruguai e do Rio Grande do Sul de fêmeas marcadas na Bahia (Laporta &amp; Lopez, 2003) e no Espírito Santo (Almeida <em>et al.</em>, 2000).</p> \n<p>O monitoramento de oito fêmeas através de transmissores por satélite, durante a temporada 2000/2001, no litoral do Espírito Santo, mostrou que estes animais migraram em direção ao sul e nordeste do Brasil ao longo da plataforma continental (Marcovaldi <em>et al</em>., 2009, Lemke <em>et al.</em>, 2003). Os resultados obtidos em outro estudo de telemetria por satélite com 10 fêmeas durante a temporada reprodutiva 2005/2006, no norte da Bahia, revelaram a existência de um corredor migratório ao longo de toda a costa Nordeste do Brasil, e áreas de alimentação e descanso na costa Norte, especialmente no Ceará (Marcovaldi <em>et al.</em>, 2009; Marcovaldi <em>et al.</em>, 2010).</p> \n<p>Os dados de rastreamento por satélite de 16 tartarugas-cabeçudas com comprimento curvilíneo da carapaça médio de 76 cm (58 a 96 cm) que haviam sido capturadas incidentalmente na pescaria de arrasto de parelha na plataforma continental do Rio Grande do Sul revelaram que estes indivíduos permaneceram praticamente o ano todo no Rio Grande do Sul, evidenciando a importância dessa região como área de alimentação para indivíduos imaturos de <em>Caretta caretta</em> (Monteiro, 2017).</p> \n<p>Fêmeas monitoradas através de outros estudos de telemetria, realizados em 2013, 2014 e 2017 na Praia do Forte evidenciaram áreas de alimentação no litoral nordeste, sudeste e sul do Brasil.</p> \n<p>Cabe salientar que estudos genéticos têm sugerido a existência de dois ou três estoques populacionais de <em>C. caretta</em> no país (Nordeste e Sudeste, conforme Reis <em>et al.</em>, 2010, ou Nordeste, Espírito Santo e Rio de Janeiro, conforme Shamblin <em>et al.</em>, 2014), o que poderia justificar essa diferença de padrões migratórios.</p> \n<p>Não há precedente de migração de adultos de <em>C. caretta</em> de outras regiões para o Brasil: as tartarugas marinhas são conhecidas por sua alta filopatria (<em>homing</em>) – a capacidade das fêmeas de voltarem para se reproduzir na praia onde nasceram, tornando praticamente impossível a recolonização das praias por fêmeas oriundas de outras populações.</p>",
+      "states": "",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Sistema Costeiro-Marinho",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": [
+          {
+            "type": "Área de desova",
+            "local": "Norte da Bahia",
+            "state": "BA",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Litoral",
+            "state": "ES",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Norte do Rio de Janeiro",
+            "state": "RJ",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de desova",
+            "local": "Litoral",
+            "state": "SE",
+            "province": "",
+            "refBibs": []
+          },
+          {
+            "type": "Área de alimentação",
+            "local": "Norte do Ceará",
+            "state": "CE",
+            "province": "",
+            "refBibs": []
+          }
+        ]
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/324f426f796d32354374424c5734754e5874474c6656312f564b6536482f6d482f514d7059326d76572b436154584d6471717371636758434c56383677326841",
+        "legend": "Área de distribuição e registros de ocorrências reprodutivas",
+        "diskFileName": "317e6969d6c23b66b0388c7b98e77a7d.jpeg",
+        "fileName": "Mapa de Caretta caretta(1).jpeg"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Sim",
+      "description": "<p>No Brasil, a estação reprodutiva estende-se do final de agosto ao final de fevereiro, com pico das desovas entre outubro e dezembro. Para algumas populações deste táxon conhecidas em outros países, as fêmeas desovam em intervalos de um a nove anos, com média de dois anos e meio a três anos e realizam de uma a sete desovas em uma mesma estação reprodutiva. Estes tipos de dados não são ainda conhecidos para o Brasil.</p> \n<p>Áreas de alimentação para <em>C. caretta</em> imaturas e adultas na fase nerítica são essencialmente a plataforma continental. Shoop &amp; Kenney observaram que indivíduos de <em>C. caretta</em> tendem a permanecer em profundidades menores de 200 m, sendo observadas geralmente em profundidades inferiores a 60 m. No entanto, há registros na literatura de tartarugas-cabeçudas adultas se alimentando em ambientes oceânicos (Hatase <em>et al.</em>, 2002; Hawkes <em>et al.</em>, 2006). </p> \n<p>Esta espécie apresenta uma dieta carnívora durante toda a sua vida. Nos estágios iniciais e de juvenil são epipelágicas e habitam zonas oceânicas, se alimentando na maior parte do tempo nos cinco primeiros metros da coluna d’água, já em estágios de subadulto e adulto se tornam neríticas e se alimentam principalmente no fundo. </p> \n<p>Bugoni <em>et al.</em> (2003), num estudo realizado com dez C. caretta provenientes de encalhes, no sul do Brasil identificaram os principais itens encontrados no trato gastrointestinal desses animais. Segundo os autores, peixes, moluscos e crustáceos foram os itens mais frequentemente encontrados.</p> \n<p>No Rio Grande do Sul, a dieta dos indivíduos de <em>C. caretta</em> na fase oceânica, comprimento curvo da carapaça (CCC) médio de 57 cm, foi composta principalmente por salpas, representando cerca de 70% do volume da dieta. Já os animais neríticos, com CCC médio de 70,7 cm se alimentam sobre a plataforma interna do Rio Grande do Sul, com dieta bentônica composta principalmente por crustáceos, que representaram 55% do volume da dieta. Moluscos e peixes também ocorrem na dieta, sendo os peixes provavelmente provenientes do descarte de pesca (Barros <em>et al.</em> dados não publicados).</p> \n<p>De acordo com Di Beneditto <em>et al.</em> (2015) tartarugas-cabeçudas amostradas no litoral do estado do Rio de Janeiro apresentaram comportamento alimentar generalista, com uma grande variedade de itens, como, peixes, moluscos, crustáceos e equinodermos.</p> \n<p>As fêmeas migram das áreas de alimentação e descanso para as áreas de reprodução, em deslocamentos que, confirmados por telemetria por satélite, podem chegar a mais de 1.500 km. O filhote, após deixar a praia ao nascer, atinge o ambiente oceânico e raramente é visto novamente até um estágio de tamanho juvenil. Os juvenis podem compartilhar algumas áreas utilizadas pelos adultos até a maturidade sexual ser atingida. Como as demais espécies de tartarugas marinhas, as fêmeas de <em>C. caretta</em> possuem alta filopatria, ou seja, voltam, quando adultas, para desovar na praia em que nasceram, o que torna extremamente improvável o recrutamento de outras populações para ocupar o nicho deixado por uma população extinta.</p> \n<p>A espécie apresenta ciclo de vida longo com maturação sexual entre 10 e 38 anos, dependendo da população (Mendonça, 1981; Chaloupka e Musick, 1997; Snover, 2002; Limpus e Limpus, 2003; Piovano <em>et al.</em>, 2011), sendo a média para a população do Atlântico Sudoeste de 32 anos (Petitet <em>et al.</em>, 2012). O tempo geracional é estimado globalmente em 45 anos (Casale &amp; Tucker, 2017), podendo haver variações regionais entre as populações.</p>",
+      "foodHabit": {
+        "table": [
+          {
+            "type": "Carnívoro",
+            "refBibs": []
+          }
+        ],
+        "specialist": {
+          "yn": "Não",
+          "table": []
+        },
+        "observations": "<p>Nos primeiros anos de vida se alimentam em áreas pelágicas e freqüentemente em associação com bancos de <em>Sargassum</em> (Bolten &amp; Balazs, 1997). No Atlântico, migram para áreas mais rasas a partir dos 40-50 cm de casco, passando a se alimentar de organismos bentônicos. Exemplares juvenis e adultos podem se alimentar de crustáceos, principalmente camarões siris e caranguejos, além de moluscos, águas-vivas, hidrozoários e ovos de peixes, sendo bastante oportunistas durante os deslocamentos migratórios (Bjorndal, 1997).</p> \n<p>No Rio Grande do Sul, a dieta dos indivíduos de<em> C. caretta</em> na fase oceânica (comprimento curvo da carapaça (CCC) médio de 57 cm) foi composta principalmente por salpas, representando cerca de 70% do volume da dieta. Já os animais neríticos, com CCC médio de 70,7 cm se alimentam sobre a plataforma interna do Rio Grande do Sul, com dieta bentônica composta principalmente por crustáceos, que representaram 55% do volume da dieta. Moluscos e peixes também ocorrem na dieta, sendo os peixes provavelmente provenientes do descarte de pesca (Barros <em>et al</em>. 2009, Barros<em> et al.</em> no prelo).</p>"
+      },
+      "restrictedPrimaryHabitat": "Não",
+      "specialistMicroHabitat": {
+        "yn": "Não",
+        "observations": ""
+      },
+      "habitatObservations": "<p>Áreas de alimentação dos adultos de <em>Caretta caretta</em> se localizam essencialmente em áreas neríticas, enquanto que os juvenis podem ocupar áreas neríticas ou oceânicas. (Hopkins- Murphy<em> et al</em>., 2003). Nos estágios iniciais até fase juvenil são epipelágicas e habitam zonas oceânicas, alimentando-se na maior parte do tempo nos cinco primeiros metros da coluna d’agua (Bolten, 2003). </p> \n<p>Na temporada reprodutiva 2008/2009 foram registrados no Brasil cerca de 6.800 ninhos (Banco de Dados TAMAR/SITAMAR) distribuídos em 639 km de praias. Para os estados da Bahia e Espírito Santo, onde ocorrem mais de 75% das desovas de <em>C. caretta</em> no Brasil, observa-se um aumento no número de ninhos desde 1988, com taxa de 6,4% ao ano para a Bahia e de 1,9% para o Espírito Santo (Marcovaldi &amp; Chaloupka 2007). </p> \n<p>O filhote, após deixar a praia ao nascer, atinge o ambiente oceânico e raramente é visto novamente até um estágio de tamanho juvenil (Bolten 2003). Os juvenis podem compartilhar algumas áreas utilizadas pelos adultos (Kopitsky <em>et al.</em> 2000) até a maturidade sexual ser atingida (Musick &amp; Limpus 1997). Como as demais espécies de tartarugas marinhas, as fêmeas de <em>C. caretta</em> possuem alta filopatria, ou seja, voltam, quando adultas, para desovar na praia em que nasceram, o que torna extremamente improvável o recrutamento de outras populações para ocupar o nicho deixado por uma população extinta.</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "14 Dia(s)",
+        "gestationTime": "51 a 60 Dia(s)",
+        "offspringSize": "120 indivíduo(s)",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": "25 Ano(s)"
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": "112 Quilogramas"
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": "136 cm"
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": "99 cm"
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": "<p>A estratégia de vida das tartarugas marinhas, com características como a maturação tardia e ciclo de vida longo, torna a recuperação das populações muito lenta. É possível que os números de desovas observados até o presente não se mantenham no futuro, devido à ação das atuais ameaças sobre o estoque de juvenis a serem recrutados para a população reprodutiva. Além disso, os estudos de tendência populacional não cobrem ainda um período geracional para este táxon, estimado em no mínimo 46 anos no Atlântico Sudoeste e em 45 anos a nível global (Casale &amp; Tucker, 2017). Portanto, a recuperação do número de adultos ou do tamanho populacional observado só poderá ser considerada consistente quando a série histórica de dados for mais longa, incluindo várias décadas.</p> \n<p>As informações coletadas no levantamento inicial do TAMAR sugerem um potencial de áreas de desova e de abundância nas áreas remanescentes maior do que a encontrada, indicando desaparecimento de desovas em várias destas áreas e, nas remanescentes, o declínio acentuado das populações. O TAMAR iniciou suas atividades apenas nas áreas remanescentes com concentração ainda significativa de desova.</p> \n<p>As fêmeas nidificam a cada dois ou três anos, realizando em média três desovas em cada temporada reprodutiva, em um intervalo de 13-14 dias (Dodd, 1988). Fêmeas em processo reprodutivo na Praia do Forte (BA) apresentaram um peso mínimo de 92 kg e máximo de 143,6 kg, com média de 112,02 kg; o comprimento variou entre 81,5 e 116,7 cm, com média de 99 cm. O maior tamanho registrado de uma fêmea em processo reprodutivo foi de 1,36 m, no ES. Já na Bacia de Campos (RJ) esses valores ficaram entre 71,7 kg e 168,1 kg, com média de 118,42 kg (SITAMAR). </p> \n<p>Em cada desova são depositados cerca de 120 ovos, em média; Baptistotte <em>et al</em>. (2003) encontraram média de 119,7 ovos por ninho no Espírito Santo, e Marcovaldi &amp; Laurent (1996) encontraram cerca de 127 ovos por ninho na Bahia. O período de incubação dura aproximadamente 50 a 60 dias (Dodd, 1988), no Brasil esses valores encontram-se entre 59,5 dias em média para o Espírito Santo (Baptistotte <em>et al</em>., 2003) e 53 dias para a Bahia (Marcovaldi &amp; Laurent, 1996). O numero médio de filhotes produzidos por ninho (taxa de eclosão) também apresenta variações por estado: na Bahia, 73,1 (in situ) e 63,2 (transferidos para cercado), segundo Marcovaldi &amp; Laurent (1996); no Espírito Santo: 79,9 (in situ) e 67,7 (cercado), segundo Baptistotte <em>et al.</em> (2003); no Rio de Janeiro, entre as diferentes temporadas e estratégias de manejo, variou entre 56,76 (transferidos) na temporada 2009/10 e 80,88 (in situ) na temporada 2007/08, segundo Lima <em>et al.</em> 2012. Os filhotes eclodem, normalmente à noite, rumando imediatamente para o mar.</p> \n<p>Carr (1987) propõe um cenário em que os recém-nascidos realizariam passivamente migrações pelágicas, associados a bancos de <em>Sargassum</em> em zonas de convergência de correntes marinhas. Essas migrações passivas poderiam ocorrer repetidamente, até que os animais, já no estágio juvenil, se incorporassem às populações conhecidas, em zonas costeiras. Estudos posteriores reforçam esse comportamento e evidenciam a realização dessas migrações oceânicas em populações no Atlântico, Índico e Pacífico (Musick &amp; Limpus, 1997) </p> \n<p>O sexo dos filhotes é determinado pela temperatura de incubação dos ovos (Mrosovsky, 1980). À temperatura pivotal, a proporção dos sexos é de 1:1; temperaturas mais altas geram maior proporção de fêmeas, enquanto temperaturas mais baixas geram mais machos (Mrosovsky &amp; Pieau, 1991). Uma vez que a temperatura pivotal não apresenta variações latitudinais significativas (Mrosovsky, 1994), praias localizadas em diferentes latitudes geram ninhadas com razão sexual variável (Mrosovsky &amp; Provancha, 1992). No Brasil, estudos mostraram a existência de diferentes proporções sexuais nas ninhadas originadas em áreas distintas (Marcovaldi <em>et al.,</em> 1997), o que atribui a cada uma dessas áreas a condição de unidades de manejo distintas.</p> \n<p>Para dados reprodutivos de <em>C. caretta</em> de 1991 a 1994, as praias de desova localizadas no estado do Espírito Santo apresentaram uma proporção de filhotes machos, entre 29,5 a 46,5% dos filhotes nascidos, maior do que nos estados da Bahia e Sergipe, que produziram quase que exclusivamente fêmeas (89,3 a 100%) (Marcovaldi<em> et al,</em> 1997). Mais recentemente, com dados de 1989 a 2014, Marcovaldi <em>et al.</em> (2016) observaram um forte viés de produção de fêmeas (94%) nas praias de desova de <em>C. caretta</em> na Bahia e em Sergipe, enquanto para as praias do Espírito Santo e Rio de Janeiro uma proporção mais balanceada (53% de fêmeas) foi observada. Marcovaldi <em>et al.</em> (2016) também determinaram a duração média de incubação por estado, chegando aos seguintes resultados, em dias: 51 ± 3 em Sergipe e na Bahia, 59 ± 7 no Espírito Santo e 60 ± 7 no Rio de Janeiro, corroborando com os resultados anteriores, onde foi demonstrada uma maior proporção de machos no Espírito Santo e Rio de Janeiro. Estudos sobre a determinação sexual podem ajudar a elucidar os impactos sobre as tartarugas marinhas das mudanças climáticas globais previstas para as próximas décadas. Esses resultados reforçam a importância da proteção das praias de desova do Rio de Janeiro e do Espírito Santo, que apresentam maior produção de machos.</p> \n<p>Estudos genéticos estão sendo conduzidos com o objetivo de compreender as relações entre os diferentes sítios de desova da espécie no Brasil. </p>"
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "45 Ano(s)",
+      "populationTrend": "Aumentando",
+      "geneticCharacteristics": "<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">Em um estudo genético com 125 indivíduos juvenis, 59,5% pertenciam à população brasileira e os demais a outras populações. Estudos recentes de genética, baseados em DNA mitocondrial, mostram que a população brasileira é distinta das demais populações conhecidas no mundo, e se divide em duas sub-populações: nordeste, nas praias da Bahia e Sergipe, e sudeste, nas praias do Rio de Janeiro e Espírito Santo (Reis <em>et al.,</em> 2010). Mais recentemente, foi sugerida a existência de 3 unidades de manejo, com características genéticas diferentes: nordeste (Sergipe e Bahia), Espírito Santo e uma terceira no Rio de Janeiro (Shamblin<em> et al.,</em> 2014).<br /></span></p>\r\n<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">Há ocorrência de alto índice de hibridismo para o táxon com <em>Lepidochelys olivacea </em>em Sergipe e com <em>Eretmochelys imbricata</em> na Bahia. Reis <em>et al.</em> (2009), ao analisarem imaturos capturados incidentalmente na pescaria com espinhel pelágico em alto mar, identificaram indivíduos de diferentes populações, incluindo Brasil, Atlântico Norte, Mediterrâneo e Oceano Indo- Pacífico.</span></p>\r\n<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">O Grupo de Especialistas de Tartarugas Marinhas - MTSG da UICN, com base em resultados de genética molecular, áreas de reprodução, resultados de marcação e recaptura, satélite telemetria, bem como aspectos da História natural e biogeografia, definiu um conjunto de Unidades de Manejo Regional para <em>C. caretta</em>. Unidades de Manejo Regionais referem-se às áreas ocupadas por populações funcionalmente independentes, com processos demográficos distintos. O Brasil, incluindo praias, plataforma costeira e Zona Econômica Exclusiva, pertence à unidade de manejo do Atlântico Sudoeste.</span></p>\r\n<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">A partir de análises genéticas foi observado que todos os indivíduos juvenis e subadultos analisados em estudo realizado por Caraccio <em>et al.</em> (2008) na pescaria de arrasto de parelha no estuário do Rio da Prata (n = 14) pertencem à população do Brasil.</span></p>\r\n<p style=\"text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\">Estudo genético realizado com fêmeas de <em>Caretta caretta</em> (N=51) que se reproduzem no estado de Sergipe apontou um índice de ocorrência de hibridismo significativo (27%) com <em>Lepidochelys olivacea</em> (Reis <em>et al.</em>, 2009b). Não são compreendidas as causas e implicações deste fato e seu impacto na diversidade genética, taxonomia e conservação destas espécies (Lara-Ruiz <em>et al.</em>, 2006; Reis <em>et al</em>., 2009b), sendo necessário um estudo a longo prazo dos possíveis efeitos desse fenômeno na viabilidade dessas populações.</span></p>\r\n<p style=\"box-sizing: border-box; font-family: 'open_sansregular', Times, Arial, Helvetica, Lato, Roboto, sans-serif; margin: 0px 0px 10px; caret-color: #f6492f; color: #f6492f; background-color: #ffffff; text-align: justify;\"><span style=\"font-family: 'open_sansregular'; font-size: 14pt; color: #000000;\"><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">Mais recentemente, estudos de genética, baseados em sequência curtas do DNA mitocondrial (DNAmt), mostram que a população brasileira é distinta das demais populações conhecidas no mundo, e se divide em duas sub-populações: nordeste, nas praias da Bahia e Sergipe, e sudeste, nas praias do Rio de Janeiro e Espírito Santo. Nesse mesmo estudo, os pesquisadores analisaram amostras de DNA de 125 indivíduos juvenis </span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">coletadas na Elevação do Rio Grande (ERG) e adjacências e observaram que </span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">59,5% dos indivíduos apresentaram um haplótipo exclusivo de populações de desova brasileiras (CC-A4), sugerindo uma maior contribuição de animais do Brasil nesse agregado. Os outros 40,5% parecem pertencer a outras populações como as do Norte do Atlântico e Mediterrâneo </span></span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">(Reis <em>et al</em>., 2010). </span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">Mais recentemente, uma pesquisa baseada em uma análise com maior resolução utilizando-se sequências longas do DNAmt, sugeriu a existência de 3 unidades de manejo com características genéticas diferentes </span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">para a espécie no Brasil:</span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\"> nordeste (Sergipe </span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">+</span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\"> Bahia), Espírito Santo e uma terceira no Rio de Janeiro. Para o </span></span><span style=\"box-sizing: border-box; background-color: #fefefe;\"><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; caret-color: #0a0a0a;\">agregado da ERG, esses autores ainda observaram a contribuição de animais com haplótipos característicos de populações de desova do Sul da África e da Austrália </span></span></span><span style=\"box-sizing: border-box; caret-color: #0a0a0a; background-color: #fefefe;\">(Shamblin <em>et al</em>., 2014), além dos já relatados por Reis<em> et al.</em> (2010).</span></span></p>",
+      "populationObservations": "<p>Não existem dados quantitativos comprovados da abundância deste táxon para o período anterior à implantação do Projeto TAMAR/ICMBio nas áreas principais de desova, em 1982. O levantamento inicial realizado através de entrevistas com os pescadores ao longo do litoral entre os anos de 1980 e 1982 constatou um histórico muito longo de exploração/uso direto. O depoimento mais frequente descrevia um número de tartarugas muito maior anteriormente, coleta de praticamente todos os ovos e matança de quase todas as fêmeas. Relatos em algumas comunidades litorâneas nos primeiros anos de atuação do Projeto TAMAR-ICMBio indicavam que muitos moradores jamais tinham visto um filhote de tartaruga marinha. Atualmente são baixos os índices de coleta de ovos, menos de 2% dos ninhos a cada ano, e sem relatos de comércio regular ou tráfico internacional.</p> \n<p><em>Caretta caretta</em> é a espécie de tartaruga marinha com maior ocorrência de desovas nas praias continentais brasileiras. Na temporada reprodutiva 2012/2013 foram registrados no Brasil 7.696 ninhos (Casale &amp; Tucker, 2017). Para os estados da Bahia e Espírito Santo, onde ocorrem mais de 75% das desovas de <em>C. caretta</em> no Brasil, observa-se um aumento no número de ninhos desde 1988, com taxa de 6,4% ao ano para a Bahia e de 1,9% para o Espírito Santo (Banco de dados SITAMAR). </p> \n<p>Entretanto, há elevada captura incidental na pescaria de espinhel pelágico de indivíduos juvenis, principalmente no talude da região sul e Elevação do Rio Grande. Nos meses de primavera e verão são frequentes os encalhes de <em>C. caretta </em>nas praias do Rio Grande do Sul. Entre os anos de 1995 e 2014 foram observados 3192 indivíduos, com um aumento significativo no número de encalhes a partir de 2004 (Monteiro <em>et al.</em>, 2016). A partir de 2004 tem-se observado um aumento nos encalhes de <em>C. caretta</em> no litoral sul e médio do Rio Grande do Sul. Entre 2004 e 2008 foram registrados 1195 indivíduos de <em>C. caretta </em>mortos nas praias, com média de 239 animais/ano. Os dados dos encalhes, associados às informações da dieta e de captura incidental na pesca sugerem que o Rio Grande do Sul é uma área de extrema importância para a conservação do táxon no Brasil. Devido a características bioecológicas das tartarugas marinhas, tais como ciclo de vida longo e complexo, maturação tardia estimada entre 25 e 35 anos, comportamento altamente migratório com utilização de uma grande área geográfica (o que inclui normalmente mais de um país) e múltiplos habitats, somente uma série histórica de dados de no mínimo 20 a 25 anos pode fornecer uma indicação confiável de tendência populacional para as tartarugas marinhas.</p> \n<p>Estudos mostram que a população brasileira é distinta das demais populações conhecidas no mundo, e se divide em duas sub-populações: nordeste (praias da Bahia e Sergipe) e sudeste (praias do Rio de Janeiro e Espírito Santo). Há ocorrência de alto índice de hibridismo para o táxon com <em>Lepidochelys olivacea</em> em Sergipe (Reis <em>et al</em>. 2009b) e com <em>Eretmochelys imbricata</em> (Lara-Ruiz <em>et al.</em> 2006) na Bahia. </p> \n<p>Considera-se que o índice de abundância populacional mais adequado para as tartarugas marinhas seja o número de ninhos em cada temporada. Desta forma, o aumento no número de ninhos observado nos últimos anos representa um indício de aumento no tamanho populacional. No entanto, apesar de promissora, acredita-se que essa recuperação é insignificante em relação ao tamanho populacional no passado. Além disso, os estudos de tendência populacional não cobrem ainda um período geracional para este táxon, estimado em cerca de 45 anos (Casale &amp; Tucker, 2017). </p> \n<p>A dificuldade de estimar o tamanho das populações de tartarugas marinhas há três gerações (critério A1 da IUCN) é comum em todo o planeta, mas alguns estudos têm conseguido estimar a abundância de tartarugas marinhas no passado, com incertezas consideráveis. Jackson <em>et al.</em> (2001) apresentaram estimativas de abundância de tartarugas marinhas no Caribe no passado, obtidas através de dados quanto à capacidade de suporte do ecossistema e de biomassa, mostrando que, para a espécie Chelonia mydas, a abundância da espécie em anos próximos a 2001 era da ordem de 3 a 7% daquela que deve ter existido na época das grandes navegações. Estas estimativas de Jackson <em>et al.</em> (2001) podem possivelmente ser consideradas conservadoras: McClenachan <em>et al.</em> (2006), com base em dados históricos de capturas e exportação de tartarugas marinhas, estimaram que as populações atuais de C. mydas e E. imbricata no Caribe são, cada uma, da ordem de 0.3% do que havia em épocas históricas. Na ausência de dados históricos para o Brasil, foi analisada a situação brasileira a partir das estimativas apresentadas por Jackson <em>et al.</em> (2001), considerando também as estimativas apresentadas por McClenachan <em>et al.</em> (2006). Tais dados foram comparados com estimativas para o número de ninhos de C. caretta na época \"pré-Tamar\", anterior a 1982, ano em que o Projeto Tamar começou efetivamente a trabalhar nas praias de desova.</p> \n<p>Existe grande imprecisão nas estimativas obtidas por meio dos dados de Jackson <em>et al.</em> (2001) e de McClenachan <em>et al.</em> (2006). Mas a possibilidade de imprecisão nas estimativas, através do uso de faixas de incerteza, está especificada nas normas da IUCN. Para a espécie C. caretta, todos os valores da faixa de reduções estimada são superiores a 50% de redução da população. Portanto, a recuperação do número de adultos ou do tamanho populacional observado só poderá ser considerada consistente quando a série histórica de dados for mais longa, incluindo várias décadas.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As principais ameaças para <em>C.caretta </em>no passado foram a coleta de ovos e o abate de fêmeas, porém desde a implantação do Projeto Tamar em 1982, que promoveu esta proteção, as principais ameaças atualmente são a pesca artesanal e industrial e a ocupação desordenada da zona costeira (Santos <em>et al.</em>, 2012).</p> \n<p>O aumento da atividade pesqueira nos últimos anos é considerado a principal ameaça para a população deste táxon, atingindo diretamente a população de juvenis e também de subadultos e adultos que e alimentam na plataforma continental do Rio Grande do Sul. O esforço da pesca industrial tem aumentado desde 2001, tanto na quantidade de cruzeiros como no número de anzóis. Embora tenha havido capturas de <em>C. caretta</em> em todas as latitudes entre 10°N e 40°S, a maior parte das capturas se concentraram na região sul (≥20°S411). Apesar de haver capturas de adultos, 95,5% dos registros correspondem a animais menores que 70 cm de comprimento de casco (N = 624 de acordo com Sales <em>et al. </em>411). Em comparação com o Atlântico Norte, as capturas pelo espinhel pelágico no Sul/Sudeste brasileiro são consideradas mais altas. A pesca com espinhel pelágico para atuns, espadartes e cações, captura <em>C. caretta</em> na região oceânica de todo o Brasil, principalmente nas regiões sudeste e sul e em águas internacionais adjacentes. A Elevação do Rio Grande, localizada cerca de 1.100 km a leste da costa do sul do Brasil, e a região do talude entre o Uruguai e Santa Catarina, locais conhecidos de elevada captura incidental de juvenis tardios e subadultos de <em>C. caretta</em> sugerem que estes são importantes habitat oceânicos de desenvolvimento para imaturos de <em>C. caretta</em> no Atlântico Sul. Capturas de <em>C. caretta </em>também ocorrem: na pescaria com espinhel de superfície (boiado) direcionada à captura de dourados, realizada principalmente no sudeste do Brasil; em redes de emalhe de deriva (malhão) direcionada principalmente à captura de tubarões-martelo, realizada de São Paulo ao Rio Grande do Sul.</p> \n<p>Em pescarias costeiras, é conhecida até o momento a captura incidental de <em>C. caretta</em> em currais de pesca no Ceará; em redes de emalhe para lagosta nos estados do Ceará, Sergipe e Bahia; em redes de emalhe para peixes nos estados do Ceará, Sergipe, Bahia, Espírito Santo e Rio de Janeiro; no arrasto para camarão nos estados de Sergipe, Bahia, Espírito Santo, Rio de Janeiro e São Paulo e no cerco flutuante em São Paulo. No Rio Grande do Sul observa-se a captura incidental no emalhe de fundo e arrasto e no emalhe de superfície (malhão), das quais a captura incidental no arrasto é provavelmente a maior ameaça para indivíduos imaturos e maduros de <em>C. caretta</em> na fase nerítica que estão se alimentando na plataforma continental (D. Monteiro, obs. pess., 2010).</p> \n<p>No Rio Grande do Sul observa-se a captura incidental no emalhe de fundo (Ramos &amp; Vasconcellos, 2013) no emalhe de superfície (malhão; Fiedler <em>et al.</em> 2012) e nas quatro modalidades de arrasto: arrasto de parelha, arrasto simples, arrasto de tangone para camarões e arrasto de tangone para peixes (NEMA, dados não publicados). Resultados preliminares obtidos em cinco embarques de observadores científicos no arrasto de parelha no Rio Grande do Sul, entre novembro de 2011 e março de 2013, nos quais foram monitorados 223 lances e observada a captura de 20 tartarugas-cabeçuda, sugerem uma elevada taxa de captura incidental de tartarugas marinhas nesta pescaria (Monteiro <em>et al.</em>, 2013).</p> \n<p>Além disso, observou-se uma elevada sobreposição entre as áreas de maior densidade de uso de 16 tartarugas-cabeçuda rastreadas por satélite e as áreas de maior esforço de pesca de emalhe de fundo e arrasto de parelha. Observou-se que no verão e na primavera, as áreas utilizadas pelas tartarugas estão sobrepostas em 75% e 60%, respectivamente, com as áreas utilizadas pela frota de arrasto de parelha, e no outono houve uma sobreposição de 64% com a pescaria de emalhe de fundo (Monteiro, 2017).</p> \n<p>O impacto humano sobre os habitats das tartarugas marinhas é reconhecido há décadas, com os esforços para mitigação concentrados no ambiente terrestre. Apesar de progressos feitos na proteção e recuperação de ecossistemas marinhos em algumas áreas, impactos antropogênicos diretos ou indiretos continuam a ocorrer. Também foram observados impactos causados por dragagem em portos. (Goldberg <em>et al.</em>, 2015).</p> \n<p>Os principais fatores ligados ao desenvolvimento costeiro desordenado e que causam um impacto negativo nas populações de tartarugas marinhas são: movimentação da areia da praia (extração de areia e aterros); fotopoluição; tráfego de veículos; presença humana nas praias; portos, ancoradouros e molhes; ocupação da orla (hotéis e condomínios); e a exploração (produção e distribuição) de óleo e gás. </p> \n<p>Segundo Poloczanska <em>et al</em>. (2009), as tartarugas marinhas são geralmente vistas como vulneráveis às alterações climáticas devido ao papel que a temperatura desempenha na determinação do sexo dos embriões. O aumento da temperatura na ordem de 2°C pode causar a feminização de toda uma população. Além disto, por se tratar de espécies de natureza altamente migratórias, mudanças de disponibilidade de recursos alimentares, de circulação de correntes marinhas e ventos podem comprometer seu ciclo de vida longo e complexo.</p> \n<p>Existem diferentes formas de poluição que constituem uma ameaça para os habitat marinhos e terrestres das tartarugas marinhas, que incluem som, temperatura, luz, plásticos, produtos químicos, efluentes e outros. De um modo geral, a poluição de qualquer tipo, ocorrendo acima de um certo limiar, pode produzir uma área inabitável. Em níveis abaixo desse limiar, pode significativamente degradar a qualidade do habitat, a capacidade de carga e outros aspectos da função do ecossistema.</p> \n<p>O alto índice de ocorrência de híbridos de <em>Caretta caretta</em> com <em>Lepidochelys olivacea</em> em Sergipe e <em>Eretmochelys imbricata</em> na Bahia, podem significar uma ameaça. No entanto, não são compreendidas as causas e implicações deste fato e seu impacto na diversidade genética, taxonomia e conservação destas espécies, sendo necessário um estudo ao longo prazo dos possíveis efeitos desse fenômeno na viabilidade dessas populações.</p> \n<p>Também são observadas ameaças por: Captura indireta a) Currais de Pesca (CE) Lima <em>et al</em>, 2016, Lima <em>et al</em> 2007, Melo <em>et al,</em> 2011, Cruz 2003; b) Arrasto de Parelha, espinhel de Superfície (Nacional) Marcovaldi <em>et al,</em> 2017, Giffoni <em>et al,</em> 2017, Ponds <em>et al,</em> 2010; por poluição luminosa - Patiri <em>et al</em> 2008, Lara <em>et al,</em> 2016, Byun <em>et al</em>, 2016. Lopez <em>et al</em>, 2015, Serafini <em>et al,</em> 2010 e por doenças provocadas por vírus ou príons Rossi <em>et al,</em> 2015. </p> \n<p>Na pescaria de arrasto-de-fundo industrial, <em>Caretta caretta</em> foi um das duas espécies com maior interação com essa pesca na região Sudeste do Brasil. Entre julho de 2010 e dezembro de 2011 foram monitorados 1996 lances de arrasto nos quais 22 indivíduos de <em>C. caretta</em> foram capturados incidentalmente (Guimarães et al. 2017).</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.2 - Áreas comerciais e industriais",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.3 - Áreas de turismo e recreação",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.1 - Mudança/alteração de habitat",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Poloczanska <i>et al.</i>, 2009",
+              "title": "Poloczanska, E.S., Limpus, C.J. &amp; Hays, G.C. (2009) Vulnerability of marine turtles to climate change. <i>Advances in Marine Biology</i>. 56, 151--211."
+            },
+            {
+              "label": "Marcovaldi, 2016",
+              "title": "Marcovaldi, M.A. López-Mendilaharsu, M. Santos, A.S. Lopez, G.G. Godfrey, M.H. Tognin, F. Baptistotte, C. Thomé, J.C. Dias A.C.C. Castilhos J.C. Fuentes M.M.P.B. (2016) Identification of loggerhead male producing beaches in the south Atlantic: Implications for conservation. <i>J Exp Mar Biol Ecol</i>. 477, 14-22."
+            },
+            {
+              "label": "Lima, 2012",
+              "title": "Lima, E. P. Wanderlinde, J. Almeida, D. T Lopez, G. Goldberg, D. W. (2012) Nesting Ecology and Conservation of the Loggerhead Sea Turtle (Caretta caretta) in Rio de Janeiro, Brazil. <i>Chelonian Conservation and Biology</i>. 11 (2), 249-254."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.1 - Extração de petróleo e gás natural",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            },
+            {
+              "label": "Lima, 2012",
+              "title": "Lima, E. P. Wanderlinde, J. Almeida, D. T Lopez, G. Goldberg, D. W. (2012) Nesting Ecology and Conservation of the Loggerhead Sea Turtle (Caretta caretta) in Rio de Janeiro, Brazil. <i>Chelonian Conservation and Biology</i>. 11 (2), 249-254."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.4 - Tráfego de embarcações",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.4 - Pesca e uso de recursos aquáticos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Giffoni, 2012",
+              "title": "Giffoni, B. Domingo, A. Sales, G. Miller, P. Pons, M. Leite, N.O. Britto, M.D.K. Maçaneiro, L., (2012) Captura incidental de tortugas marinas (Caretta caretta y Dermochelys coriacea) por las flotas de palangre pelágico de Brasil y Uruguay . In: Giffoni (ed.) <i>CONGRESO URUGUAYO DE ZOOLOGIA, 2</i> Montevideo."
+            },
+            {
+              "label": "Wallace, 2010",
+              "title": "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B. (2010) Global patterns of marine turtle bycatch. <i>Conservation Letters</i>. 3, 131-142."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.3 - Outras modificações nos ecossistemas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.2 - Industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.3 - Portos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        },
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.2 - Atropelamentos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": [
+            {
+              "label": "Sforza <i>et al.</i>, 2017",
+              "title": "Sforza, R., Marcondes, A. C. J. &amp; Pizetta, G. T. (2017) <i>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</i> Brasília, ICMBIO, 130pp."
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>A espécie é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país também participa da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas (IAC). Desde 1986 (Portaria SUDEPE 5/86), é proibida no Brasil a captura de tartarugas marinhas e seus ovos.</p> \n<p>As principais ameaças no passado, que causaram a redução populacional nas últimas 3 gerações, foram a coleta de ovos e o abate de fêmeas nas áreas de reprodução e a pesca permissionada, que não acontecem mais (Marcovaldi &amp; Marcovaldi, 1999), exceto relatos esporádicos.</p> \n<p> </p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><strong>Existentes:</strong></p> \n<p>A espécie é totalmente protegida por instrumentos legais nacionais, que proíbem todo e qualquer tipo de uso direto além de prever medidas de proteção das áreas de desova. O táxon também faz parte do Anexo I do CITES do qual o Brasil é signatário. O país também participa da Convenção Interamericana para Conservação e Proteção das Tartarugas Marinhas (IAC).</p> \n<p><strong>Necessárias:</strong></p> \n<p>• Dar continuidade às atividades de educação ambiental, sensibilização pública e desenvolvimento local, incluindo geração de emprego e renda, junto às comunidades costeiras onde a espécie ocorre;</p> \n<p>• Manter o monitoramento das áreas de desova, garantindo a proteção dos ninhos in situ, filhotes e fêmeas;</p> \n<p>• Desenvolver pesquisas que gerem informações ecológicas e a respeito dos locais que são utilizados para esta espécie.</p> \n<p>• Desenvolver e implementar tecnologia para minimizar impactos antropogênicos. Dar continuidade ao “Programa Interação Tartarugas e Pesca” para redução das capturas incidentais,</p> \n<p>com ênfase em:</p> \n<p>• Estimular a gestão participativa nas comunidades pesqueiras para busca de soluções e alternativas e de ordenamento;</p> \n<p>• Promover a revisão da legislação que obriga o uso do Dispositivo Excluidor de Tartarugas – TED;</p> \n<p>• Fomentar a criação, implantação e gestão de unidades de conservação litorâneas e marinhas;</p> \n<p>• Desenvolver e implementar medidas mitigadoras e compensatórias, nas três esferas de licenciamento, para os empreendimentos desenvolvidos na área de ocorrência do táxon.</p> \n<p>Implementar medidas para reduzir o esforço pesqueiro e a sobreposição com as áreas utilizadas pelas tartarugas-cabeçuda, especialmente na plataforma continental do Rio Grande do Sul, entre o Farol do Albardão e o Chuí, na primavera e no verão (Monteiro, 2017).</p> \n<p>Investimento em conhecimento: Análises das sequências longas do DNAmt para amostras da ERG para verificar, com maior resolução, quais populações de desova contribuem com esse agregado e assim entender melhor as rotas migratórias dos indivíduos juvenis.</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2018,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "A1bcd",
+          "refBibs": [
+            {
+              "label": "Santos <i>et al.</i>, 2022",
+              "title": "Santos, A.S., Marcondes, A.C.J., Iespa, B.B., Oliveira, B.S.S.P., Baptistotte, C., Bellini, C., Monteiro, D.S., Goldberg, D.W., Tognin, F., Sales, G., Castilhos, J.C., Thome, J.C.A., Marcovaldi, M.A.A.G.D., Barata, P.C.R., Santos, R.G., Costa, S.A.G.L. &amp; Santanaw, W.M. (2022) <i>Caretta caretta (Linnaeus, 1758)</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2018"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2010,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "A2abcd",
+          "refBibs": [],
+          "orderBy": "Z2010"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2006,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "A2bcd",
+          "refBibs": [],
+          "orderBy": "Z2006"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Convenção Interamericana para a Proteção e Conservação das Tartarugas Marinhas"
+        },
+        {
+          "year": 1981,
+          "name": "CITES - Anexo I"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional Lagoas do Sul",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para a Conservação das Tartarugas Marinhas - 2º ciclo",
+          "refBibs": []
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para Conservação das Tartarugas Marinhas",
+          "refBibs": []
+        },
+        {
+          "name": "Educação e comunicação",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção territorial",
+          "situation": "Existente",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Baleia Franca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Costa das Algas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Costa dos Corais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Delta do Parnaíba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Piaçabuçú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Taim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Jericoacoara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Marinho dos Abrolhos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Superagui",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Lagoa do Peixe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Comboios",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bellini,C., com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Santa Isabel",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Acaú-Goiana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Canavieiras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Marinha da Lagoa do Jequiá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Corumbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REVIS Rio dos Frades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DA ORLA MARíTIMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DA PEDRA BRANCA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA ILHA COMPRIDA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL CENTRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JURÉIA-ITATINS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA LAGOA DO AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL XIXOVÁ-JAPUÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CARAÍVA/ TRANCOSO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL CONCEIÇÃO DA BARRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE SANTA RITA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOAS DE GUARAJUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL TARTARUGAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PLATAFORMA CONTINENTAL DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SANTO ANTÔNIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE UPAON-AçU / MIRITIBA / ALTO PREGUIçAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLóGICO DO DEGREDO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Estação Veracel",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Dunas de Santo Antônio",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro das Aranhas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Comboios",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Necessárias:</p> \n<p>• Manter o monitoramento das áreas de desova;</p> \n<p>• Manter e incrementar as atividades de pesquisa ao longo prazo para avaliar as tendências das populações (crescimento, estabilidade, diminuição);</p> \n<p>• Identificar as áreas de alimentação e implementar ações de conservação, manejo e pesquisa de longa duração;</p> \n<p>• Realizar levantamento sobre a interação com as pescarias costeiras;</p> \n<p>• Manter e incrementar a marcação de adultos e juvenis, para determinação das áreas de uso e deslocamento e biologia reprodutiva;</p> \n<p>• Dar continuidade às pesquisas voltadas à genética, dinâmica populacional, uso de habitat, hibridização, mudanças climáticas e interações ecológicas;</p> \n<p>• Realizar diagnóstico para avaliação da eficácia e de lacunas existentes nas políticas públicas para a conservação de tartarugas marinhas, especialmente, dentro dos seguintes temas: UCs, licenciamento ambiental, zoneamento costeiro, pesca e poluição marinha;</p> \n<p>• Identificar e mapear potenciais fontes de poluição e seus efeitos na saúde das tartarugas marinhas.</p> \n<p>Quantificar as taxas de captura incidental e mortalidade nas pescarias de arrasto e emalhe no Rio Grande do Sul.</p>",
+      "table": [
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Em Andamento",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "A.S. Santos, L.S. Soares, M.A. Marcovaldi, D.S. Monteiro, B. Giffoni, A.P. Almeida, 2011. Avaliação do estado de conservação da tartaruga marinha Caretta caretta (Linnaeus, 1758) no Brasil. Biodiversidade Brasileira, 1 (1): p.1-9.",
+          "Almeida, A.P. Baptistotte, C. &amp; Schineider, J.A.P, 2000. Loggerhead turtle tagged in Brazil found in Uruguay. Marine Turtle Newsletter, 87: p.10.",
+          "Baptistotte, C. Thomé, J.C.A. Bjorndal, K.A., 2003. Reproductive biology and conservation status of the loggerhead sea turtle (Caretta caretta) in Espirito Santo State, Brazil. v.4, n.3, p.523-529, 2003.. Chelonian Conservation and Biology, 4 (3): p.523-529.",
+          "Baptistotte, C.; Lopez, G. G.; Reith, D.; Santos, M. R.; Boldrin, M. A.; Werneck, M .R.; Becker, H.; Goldberg, D. W.; Stahelin, G. D.; Marcovaldi, M. A. &amp; Pires, T. 2012. Anthropogenic threats to the sea turtle populations along the Brazilian coast.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Huatulco. (Resumo)",
+          "Barata, P.C.R. 2015. Literature and Conservation: “The Turtle”, A Short Story by the Brazilian Writer Rubem Braga.. <b>Marine Turtle Newsletter</b>, p.15-17.",
+          "Barceló, C.; Domingo; A.; Miller, P.; Ortega, L.; Giffoni, B.; Sales, G.; Mcnaughton, L.; Marcovaldi, M.; Heppell, S. S. &amp; Swimmer, Y. 2013. High-use areas, seasonal movements and dive patterns of juvenile loggerhead sea turtles in the Southwestern Atlantic Ocean.. <b>Marine Ecology Progress Series</b>, 479: p.235-250.",
+          "Becker, J. H.; Giffoni, B.; Alvarenga, F. S.; Dos Santos, E. L; Navarro, F. C. S.; Barbosa, J. N. &amp; Ortiz, P. Gallo, B. M. G. 2013. Community Iniciative of Non-Consumptive use of Sea Turtles as A Result of Long term Conservation Program In Brasil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Miami. (Resumo)",
+          "Bjorndal, K.A., 1999. Foraging ecology and nutrition of sea turtles. p.199--231. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press",
+          "Bolten, A.B., 2003. Active swimmers - passive drifters: the oceanic juvenile stage of loggerhead in the Atlantic system. p.63--78. <i>In</i>:Bolten. Loggerhead Sea Turtles, Smithsonian Institution Press",
+          "Britto, M.; Giffoni, B.; Sales, G.; Maçaneiro, L. R.; Nascimento, C.; Junior, N. de O. &amp; Fiedler, F. N. 2016. Working with fishermen to minimize sea turtles capture and mortality in pelagic longline fishery in Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Byun, A.; Lara, P.H.; Almeida, D.T.; Goldberg, D.W.; Martin, K.; Tognin, F. &amp; Lopez, G.G. 2016. Conservation challenges for nesting loggerhead turtles in the face of coastal development in southeastern Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Campos, F.R. Becker, J.H. &amp; Gallo, B.M.G., 1998. Registro de ocorrência reprodutiva da tartaruga marinha <i>Caretta caretta</i> em Parati, Litoral Sul do Rio de Janeiro. <i>In</i>:Instituto Oceanográfico da Universidade de São Paulo.<i>In</i>: Resumos do II Simpósio Brasileiro de Oceanografia, (Resumo)",
+          "Caraccio, M.N. Domingo, A. Máequez, A. Naro-Maciel, E. Miller, P. &amp; Pereira, A., 2008. Las aguas del Atlántico Sudoccidental y su importancia en el ciclo de vida de la tortuga cabezona (<i>Caretta caretta</i>): evidencias a través del análisis del ADNmt.. Collective Volume of Scientific Papers - ICCAT, 62 (6): p.1831--1837.",
+          "Casale, P. &amp; Tucker, A.D., 2017. Caretta caretta (amended version of 2015 assessment). The IUCN Red List of Threatened Species. Disponível em:<a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T3897A119333622.en\">http://dx.doi.org/10.2305/IUCN.UK.2017-2.RLTS.T3897A119333622.en</a>.",
+          "Cegoni, C.T.; Goldberg, D.; Wanderlinde, J.; Giffoni, B. &amp; Rogério, D.W. 2015. Centro de Visitantes Projeto Tamar Sul: uma ferramenta de sensibilização ambiental. <i>In</i>: Anais... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO DA SOCIEDADE DE ZOOLOGICOS E AQUÁRIOS DO BRASIL</b>. Foz do Iguaçu. (Resumo)",
+          "Chaloupka, M.Y. &amp; Musick, J.A., 1997. Age, growth, and population dynamics. p.233--276. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press.",
+          "Dodd, C.K., 1988. Synopsis of the biological data on the loggerhead sea turtle <i>Caretta caretta</i> (Linnaeus 1758). U.S. Biological Report, 88: p.14.",
+          "Fieldler, F. N.; Sales, G.; Giffoni, B. B.; Monteiro-Filho, E. L. A.; Secchi, E. R. &amp; Bugoni, L. 2012. Driftnet fishery threats sea turtles in the Atlantic Ocean.. <b>Biodiversity and Conservation</b>, 20:",
+          "Gallo, B. G.; Becker, H.; Macedo, S.; Oliveira, A. M. F.; Coelho, M.A.R.; Lovizio, A. M. &amp; Ferraz, M. L. C. P. 2013. Programa de Educação Ambiental “Tartarugas marinhas vivendo livres no mar”.. <b>Revista Educação Ambiental em Ação</b>,",
+          "Gandu, M. D., López-Mendiaharsu, M., Goldberg, D. W., Lopez, G. G. &amp; Tognin, F. 2013. Predation of Sea Turtle Nests by Armadillos in the Northern Coast of Bahia, Brazil.. <b>Marine Turtle Newsletter</b>, 139: p.12-13.",
+          "Gaube, P.; Barceló, C.; Mcgillicuddy Jr, D. J.; Domingo, A.; Miller, P.; Giffoni, B.; Marcovaldi, M. A. &amp; Swimmer, Y. 2017. The use of mesoscale eddies by juvenile loggerhead sea turtles (Caretta caretta) in the southwestern Atlantic.. <b>PloS one</b>, 12:",
+          "Giffoni B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2013. Captura incidental de tartarugas marinhas pela frota de espinhel pelágico do Brasil e Uruguai (1998 - 2010).. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Giffoni, B. B. 2016. <b>Pescaria como unidade de gestão para o monitoramento, avaliação e mitigação da captura incidental de tartarugas marinhas na pesca.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.63.",
+          "Giffoni, B. B.; Sales, G.; Leite Jr, N. O.; Britto, M.; Fiedler, F. N. &amp; Olavo, G. 2017. Fishery as administrative unit: Implications for sea turtle conservation.. <b>Collective Volume of Scientific Papers ICCAT</b>, 73: p.3252-3268.",
+          "Giffoni, B. Domingo, A. Sales, G. Fiedler, F.N. &amp; Miller, P., 2008. Interacción de tortugas marinas (<i>Caretta caretta</i> y <i>Dermochelys coriacea</i>) con la pesca de palangre pelágico en el Atlantico Sudoccidental: una perspectiva regional para conservacion. Collective Volume of Scientific Papers - ICCAT, 62 (6): p.1861--1870.",
+          "Giffoni, B. Domingo, A. Sales, G. Miller, P. Pons, M. Leite, N.O. Britto, M.D.K. Maçaneiro, L.,, 2012. Captura incidental de tortugas marinas (Caretta caretta y Dermochelys coriacea) por las flotas de palangre pelágico de Brasil y Uruguay. <i>In</i>:Giffoni.<i>In</i>: CONGRESO URUGUAYO DE ZOOLOGIA, 2, Montevideo. Disponível em: <a target=\"_blank\" href=\"http://www.tamar.org.br/publicacoes_html/pdf/2012/2012_Captura_incidental_de_tortugas_marinas.pdf\">http://www.tamar.org.br/publicacoes_html/pdf/2012/2012_Captura_incidental_de_tortugas_marinas.pdf</a>. Acessado em: 09/02/2018. (Resumo)",
+          "Giffoni, B.; Leite Jr, N.; Miller, P.; Pons, M.; Sales, G. &amp; Domingo, A. 2014. Captura incidental de tortugas marinas por las flotas de palangre pelágico de Brasil y Uruguay (1998 - 2010).. <b>Collective Volume of Scientific Papers ICCAT</b>, 70: p.2217-2225.",
+          "Giffoni, B.B.; Marcovaldi, M. A; Sales, G; Thomé, J. C. A; Da Silva, A. C.C; Marcovaldi, G; Gallo, B. M. G; Lima, E. H. S. M.; Lima, E. P; Bellini, C.; Wanderlinde, J.; Lopez, G.; Santos, A. J. B. &amp; López-Mendilaharsu, M and Santos, A. 2013. Interactions between sea turtles and fisheries in Brazil. An overview within the scope of projeto tamar monitoring area (1990 – 2012).. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Gil, M. I.; Rossi-Santos, R. M. &amp; Marcovaldi, G. 2013. Anthropogenic impacts on the behavior of fish and marine turtles in the largest visition Center of Projeto Tamar, Praia do Forte, Bahia, Brazil.. <i>In</i>: Resumos… [S.I.: s.n.].<i>In</i>: <b>INTERNATIONAL BIOACOUSTICS CONGRESS</b>. Pirenópolis. (Resumo)",
+          "Goldberg, D. W.; Pires, T. T.; Castilhos, J. C.; Marcovaldi, M. A.; Lopez, G. G.; Lima, E. P. &amp; Baptistotte, C. 2013. Avaliação dos encalhes de tartarugas marinhas: um indicador estratégico para a conservação.. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Goldberg, D. W.; Wanderlinde, J.; Freire, I. M. A.; Silva da, L. C. P. &amp; Almosny, N. R. P. 2011. Serum Biochemistry Profile Determination for Wild Loggerhead Sea Turtles Nesting in Campos dos Goytacazes, Rio de Janeiro, Brazil.. <b>Ciência Rural</b>, 41: p.143-148.",
+          "Goldberg, D.W., Brito, F., Tognin, F., Oliveira JR, N., Lopez, G.G., Silva, R. R. B. A., Almeida, D .T. 2013. Ecologia reprodutiva e conservação da tartaruga-cabeçuda (Caretta caretta) no litoral norte Fluminense.. <i>In</i>: Anais... Campos dos Goytacazes.<i>In</i>: <b>Encontro Científico da Estação Ecológica Estadual da Guaxindiba</b>. Campos dos Goytacazes. (Resumo)",
+          "Goldberg, D.W.; Almeida, D.T.; Tognin, F.; Lopez, G.G.; Pizetta, G.T.; Leite Junior, N.O. &amp; Sforza, R. 2016. Hopper Dredging: A potential threat to sea turtles on the northern coast of Rio de Janeiro. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Goldberg, D.W.; Baptistotte, C.; D'Azeredo F.T.; Bertoloto, A.; Guimarães, S.; Velez-Rubio, G. &amp; Prosdoscimi, L. 2016. Aso-turtle network: Collaborative efforts to understand strandings.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Goldberg, D.W.; Brito, F.; Tognin, F.; Junior, N.O.; Lopez, G.G.; Silva, R.R.B.A. &amp; Almeida, D.T. 2012. Ecologia reprodutiva e conservação da tartaruga cabeçuda (Caretta caretta) no Norte Fluminense.. <i>In</i>: Resumo... [S.l.:s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE OCEANOGRAFIA</b>. Rio de Janeiro. (Resumo)",
+          "Goldberg, D.W.; Pires, T.; Velloso, R.; Becker, H.; Castilhos, J.C.; Wanderlinde, J.; Lopez, G.G.; Melo, M.T.D.; Santos, A.B. &amp; Baptistotte, C 2016. What can we learn from sea turtle strandings?. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "González Carman, V.; Álvarez, K.C.; Prosdocimi, L.; Inchaurraga, M.C.; Dellacasa, R.F.; Faiella, A.,; Echenique, C.; González, R.; Andrejuk, J.; Mianzan, H.W.; Campagna, C. &amp; Albareda, D.A., 2011. Argentinian coastal waters: A temperate habitat for three species of threatened sea turtles. Marine Biology Research, 7: p.500-508.",
+          "Hamann, M. Godfrey, M.H. Seminoff, J.A. Arthur, K. Barata, P.C.R. Bjorndal, K.A. Bolten, A.B. Broderick, A.C. Campbell, L.M. Carreras, C. Casale, P. Chaloupka, M. Chan, S.K.F. Coyne, M.S. Crowder, L.B. Diez, C.E. Dutton, P.H. Epperly, S.P, 2010. Global research priorities for sea turtles: informing management and conservation in the 21st century. Endangered Species Research, 11: p.245--269.",
+          "IUCN, 2001. IUCN Red List of Threatened Species. Version 2011.. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57270A11611865.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T57270A11611865.en</a>. Acessado em: 18/08/2011.",
+          "Jackson, J. B. C.; Kirby, M. X.; Berger, W. H.; Bjorndal, K. A.; Botsford, L. W.; Bourque, B. J.; Bradbury, R. H.; Cooke, R.; Erlandson, J.; Estes, J. A.; Hughes, T. P.; Kidwell, S.; Lange, C. B.; Lenihan, H. S.; Pandolfi, J. M.; Peterson, C. H.; Steneck, R. S.; Tegner, M. J. &amp; Warner, R. R. 2001. Historical overfishing and the recent collapse of coastal ecosystems. <b>Science</b>, 293: p.629-637.",
+          "Júnior, J. C. R.; Pfaller, J. B.; Corbetta, R. &amp; Veríssimo, L. 2014. Parasitic isopods associated with sea turtles nesting in Brazil.. <b>Journal of the Marine Biological Association of the United</b>, p.1-9.",
+          "Júnior, N. de O. L.; Giffoni, B.; Fieldler, F. N. &amp; Sales, G. 2012. Review of actions by Brazil in meeting the BYC recommendation 10-09 and the FAO guidelines to reduce sea turtle mortality in fishing operations.. <b>Collect. Vol. Sci. Pap. ICCAT</b>, 68: p.1763-1768.",
+          "Kopitsky, K. Pitman, R.L. &amp; Plotkin, P., 2000. Investigations on at-sea mating and reproductive status of olive ridleys, <i>Lepidochelys olivacea</i>, captured in the eastern tropical Pacific. <i>In</i>:NOAA.<i>In</i>: Proceedings of the 19th Annual Symposium on Sea Turtle Biology and Conservation, (Resumo)",
+          "Laporta, M. &amp; Lopez, G., 2003. Loggerhead sea turtle in Brazil caught by a trawler in waters of the common Argentinian- Uruguayan fishing area. Marine Turtle Newsletter, p.102.",
+          "Lara, P.H., 2016. Parâmetros populacionais de Caretta caretta (Linneaus, 1758) em Praia do Forte, Mata de São João, Bahia, Brasil. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.37.",
+          "Lara, P.H.; De Almeida, D. T.; Famigliettia, C.; Romano, A.; Whelpley, J. &amp; Byun, A. 2016. Continued Light Interference on Loggerhead Hatchlings Along the Southern Brazilian Coast.. <b>Marine Turtle Newsletter</b>, p.01-05.",
+          "Lara-Ruiz, P.; Lopez, G.G.; Santos, F.R. &amp; Soares, L.S., 2006. Extensive hybridization in hawksbill turtle (<i>Eretmochelys imbricata</i>) nesting in Brazil revealed by mtDNA analyses. Conservation Genetics, 7: p.773--781.",
+          "Leite Junior, N.O. Stein, C.E. Thomé, J.C.A. &amp; Neves, T.S., 2005. Monitoramento da pesca de currico e espinhel de superfície na localidade de Itaipava/ES e sua interação com tartarugas marinhas. <i>In</i>:Livro de Resumos da II Jornada de Conservação e Pesquisa de Tartarugas Marinhas no Atlântico Sul Ocidental.. Livro de Resumos da II Jornada de Conservação e Pesquisa de Tartarugas Marinhas no Atl\\^{a}ntico Sul Ocidental, Livro de Resumos da II Jornada de Conservação e Pesquisa de Tartarugas Marinhas no Atlântico Sul Ocidental.",
+          "Lemke, D. Frazier, J.G. Douglas, D.C. Thomé, J.C.A. Almeida, A.P. &amp; Scalfoni, J.T., 2003. Satellite telemetry of loggerheads in Brazil. p.230--233. <i>In</i>:NOAA. Proceedings of the 23rd Annual Symposium on Sea Turtle Biology and Conservation, NOAA",
+          "Lima, E. H. S. M. &amp; Melo, M. T. D. 2016. Recapturas De Tartarugas Marinhas em Pescarias nas Comunidades de Almofala E Volta Do Rio, Litoral Oeste do Ceará.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE OCEANOGRAFIA</b>. Salvador. (Resumo)",
+          "Lima, E. H. S. M.; Melo, M. T. D.; Godfrey, M. H. &amp; Barata, P. C. R. 2013. Sea Turtles in the Waters of Almofala, Ceará, in Northeastern Brazil, 2001–2010.. <b>Marine Turtle Newsletter</b>, p.5-9.",
+          "Lima, E. H. S. M.; Melo, M. T. D.; Santos, A. S.; Arenas, A. A. &amp; Godfrey, M. H. 2014. Second record of tagged loggerhead moving between South and North Atlantic.. <b>Marine turtle newsletter</b>, p.16.",
+          "Lima, E. P. Wanderlinde, J. Almeida, D. T Lopez, G. Goldberg, D. W. 2012. Nesting Ecology and Conservation of the Loggerhead Sea Turtle (Caretta caretta) in Rio de Janeiro, Brazil.. <b>Chelonian Conservation and Biology</b>, 11 (2): p.249-254.",
+          "Lima. E. H.S.M. &amp; Melo, M.T.D. 2016. Interinstitutional Partnerships Formed For Sea Turtle Conservation In The State Of Ceará, Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Lima. E. H.S.M. &amp; Melo, M.T.D. 2016. Nets Catch more than just fish – Theater as a Tool to Involve Fishermen is Sea Turtle Conservation In Almofala, Ceará, Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Lopez, G.; Lara, P. H. &amp; and Saliés, E. 2012. A Tool For Sea Turtle Conservation At The Northern Bahia State Coast, Brazil.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Huatulco. (Resumo)",
+          "Lopez, G.G.; Salies, E.de C.; Lara, P.H.; Tognin, F.; Marcovaldi, M.A. &amp; Serafini, T.Z. 2015. Coastal development at sea turtles nesting ground: Efforts to establish a tool for supporting conservation and coastal management in northeastern Brazil.. <b>Ocean & Coastal Management</b>, 116: p.270-276.",
+          "Lutcavage, M.E. Plotkin, P. Witherington, B. &amp; Lutz, P.L., 1997. Human impacts on sea turtle survival. p.387--409. <i>In</i>:Lutz. The Biology of Sea Turtles, CRC Press",
+          "Macedo, G. R.; Pires, T. T.; Rostan, G.; Goldberg, D. W.; Leal, D. C.; Neto, A. F. G. &amp; Franke, C. R. 2011. Ingestão de Resíduos Antropogênicos por Tartarugas Marinhas no Litoral Norte do Estado da Bahia, Brasil.. <b>Ciência Rural</b>, 41: p.1938-1943.",
+          "Magalhães, M. dos S.; Santos, A. J. B,; Silva, N. B. da &amp; Moura, C. E. B. de. 2012. Anatomy of the digestive tube of sea turtles (Reptilia: Testudines).. <b>Zoologia</b>, 1: p.70-76.",
+          "Mansfield, K. L.; Mendilaharsu, M. L.; Putman, N.F.; Marcovaldi, M. A. G.; Sacco, A.E.; Lopez, G.; Pires, T. &amp; Swimmer, Y. 2017. First satellite tracks of South Atlantic sea turtle ‘lost years’: seasonal variation in trans-equatorial movement.. <b>Proceedings. Royal. Society. B.</b>,",
+          "Marcondes, A. C. J. 2015. Estratégias de proteção das áreas reprodutivas de tartarugas marinhas em casos de vazamento de óleo na costa brasileira.",
+          "Marcovaldi, G.G. &amp; Albuquerque, J.C.B., 1983. Trabalhos de proteção a desova, avaliação quali-quantitativa e marcação nas praias de Pirambu (SE), Forte (BA), Comboios (ES) e Ilha da Trindade - Relatorio Parcial de 17/01/83 a 19/01/83. Relatório Técnico,",
+          "Marcovaldi, M. A. G.; López-Mendilaharsu, M.; Baptistotte, C.; Torres, D. &amp; Fuentes, M. M. P. B. 2016. Identificação de praias que produzem machos de tartaruga cabeçuda no Atlântico Sul: implicações para a conservação.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE OCEANOGRAFIA</b>. Salvador. (Resumo)",
+          "Marcovaldi, M. A.; Santos, A. S.; Lara, P. H. &amp; López-Mendilaharsu, M. 2017. Novel Research Techniques Provide New Insights to the Sea Turtle Life Cycle. p.169-195. <i>In</i>: Rossi-Santos & Finkl. <b>Advances in Marine Vertebrate Research in Latin America: Technological Innovation and Conservation</b>. Springer International Publishing",
+          "Marcovaldi, M. A.; Thomé, J. C.; Silva, A. C. C. D. da; Sales, G.; Giffoni, B.; Gomes, B. M.; Baptistotte, C.; Lima, E.; Wanderlinde, J.; Santos, A. J. B.; Santos, A. S. dos; Mendilaharsu, M. L. &amp; López, G. G. 2013. Projeto Tamar: matching, threats and conservation priorities for sea turtles in Brazil.. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Baltimore. (Resumo)",
+          "Marcovaldi, M.A. &amp; Chaloupka, M., 2007. Conservation status of the loggerhead sea turtle in Brazil: an encouraging outlook. Endangered Species Research, 3: p.133--143.",
+          "Marcovaldi, M.A. &amp; Laurent, A., 1996. A six season study of marine turtle nesting at Praia do Forte, Bahia, Brazil, with implications for conservation and management.Chelonian Conservation and Biology. Chelonian Conservation and Biology, 2 (1): p.55--59.",
+          "Marcovaldi, M.A. &amp; Marcovaldi, G.G., 1999. Marine turtles of Brazil: the history and structure of Projeto Tamar-Ibama. Biological Conservation, 91: p.35--41.",
+          "Marcovaldi, M.A. Godfrey, M.H. &amp; Mrosovsky, N., 1997. Estimating sex ratios of loggerhead turtles in Brazil from pivotal incubation durations. Canadian Journal of Zoology, 75: p.755--770.",
+          "Marcovaldi, M.A. Lopez, G.G. Soares, E.H.S.M. Barata, P.C.R. Bruno, S.C. &amp; Almeida, A.P., 2009. Satellite telemetry studies highlight an important feeding ground for loggerheads and hawksbills in northern Brazil. <i>In</i>:SBH/UnB.<i>In</i>: Proceedings of the XXIX Annual Symposium On Sea Turtle Conservation and Biology. NOAA, (Resumo)",
+          "Marcovaldi, M.A. Lopez, G.G. Soares, L.S. Lima, E.H.S.M. Thomé, J.C.A. &amp; Almeida, A.P., 2009. Movimentos migratórios da tartaruga-cabeçuda, <i>Caretta caretta</i>, monitorados através de telemetria por satélite. <i>In</i>:NOAA.<i>In</i>: Resumos do IV Congresso Brasileiro de Herpetologia, Brasilia, DF. (Resumo)",
+          "Marcovaldi, M.A. Lopez, G.G. Soares, L.S. Lima, E.H.S.M. Thomé, J.C.A. &amp; Almeida, A.P., 2010. Satellite-tracking of female loggerhead turtles highlights fidelity behavior in Northeastern Brazil. Endangered Species Research, 12: p.263--272.",
+          "Marcovaldi, M.A. López-Mendilaharsu, M. Santos, A.S. Lopez, G.G. Godfrey, M.H. Tognin, F. Baptistotte, C. Thomé, J.C. Dias A.C.C. Castilhos J.C. Fuentes M.M.P.B., 2016. Identification of loggerhead male producing beaches in the south Atlantic: Implications for conservation.. J Exp Mar Biol Ecol, 477: p.14-22.",
+          "Marcovaldi, M.A. Sales, G. Thomé, J.C.A. Silva, A.C.C.D. Gallo, B.M.G. Lima, E.H.S.M. Lima, E.P. &amp; Bellini, C., 2006. Sea turtles and fishery interactions in Brazil: identifying and mitigating potential conflicts. Marine Turtle Newsletter, 112: p.4--8.",
+          "Marcovaldi, M.A.; López-Mendilaharsu M.; Verissimo, L.; Lara, P.H.; Santos, A.S. &amp; López, G.G. 2012. Saturation tagging of loggerheads nesting at Praia do Forte, Brazil: preliminary results. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Huatulco. (Resumo)",
+          "Marcovaldi, M.A.; Prosdocimi, L.; Fallabrino, A,; Giffoni, B.; Estrades, A.; Santos, A.; Lara, P.H,; Pires. T.; Monteiro, D.; Tiwari, M.; Bolten, A. &amp; López-Mendilaharsu, M. 2017. Multiples threats analysis for loggerhead turtles in the southwest Atlantic.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Las Vegas. (Resumo)",
+          "McClenachan, L. et al., 2006. Conservation implications of historic sea turtle nesting beach loss. Frontiers in Ecology and the Environment, 4 (6):",
+          "Melo, M. T. D.; Lima, E. H. S. M. &amp; Silveira, F. M. 2013. Dados Sobre Ocorrências De Tartarugas Marinhas Registradas Pelo Projeto TAMAR-ICMBIO no Estado do Ceará, Brasil durante o ano de 2012. <i>In</i>: Livro de Resumos... [S.l.:s.n].<i>In</i>: <b>REUNIÓN DE CONSERVACIÓN E INVESTIGACIÓN DE TORTUGAS MARINAS EN EL ATLÁNTICO SUR OCCIDENTAL</b>. Piriápolis. (Resumo)",
+          "Mendes, S. S. 2017. <b>Morfometria geométrica e histologia: ferramentas complementares na estimativa do sexo de filhotes da tartaruga marinha Caretta caretta (Linnaeus, 1758) (Testudines, Cheloniidae) dos estados da Bahia e do Espírito Santo</b>. Tese de Doutorado. Universidade Federal de Juiz de Fora. p.67.",
+          "Meylan, A.B, 1995. Estimating population size in sea turtles. p.135--138. <i>In</i>:Bjorndal. Biology and Conservation of Sea Turtles, Smithsonian Institution Press",
+          "Monteiro, D.S. Bugoni, L. Estima, S.C. &amp; Gandra, T.B.R., 2005. A pescaria de emalhe de superfície direcionada à captura de tubarões-martelo e a interação com tartarugas marinhas no litoral norte do Rio Grande do Sul. <i>In</i>:II Jornada de Conservação e Pesquisa de Tartarugas Marinhas no Atlântico Sul Ocidental.<i>In</i>: Resumos da II Jornada de Conservação e Pesquisa de Tartarugas Marinhas no Atl\\^{a}ntico Sul Ocidental, (Resumo)",
+          "Monteiro, D.S., 2004. Fatores Determinantes da Captura Incidental de Aves e Tartarugas Marinhas e da Interação com Orcas/Falsas-Orcas, na Pescaria com Espinhel Pelágico no Sudeste-sul do Brasil. Dissertação de Mestrado. Dissertação (Mestrado em Oceanografia), Universidade Federal do Rio Grande.",
+          "Musick, J.A. &amp; Limpus, C.J., 1997. Habitat utilization and migration in juvenile sea turtles. p.137--163. <i>In</i>:Lutz. The Biology of Sea Turtles,",
+          "NEMA, Núcleo de Educação e Monitoramento Ambiental, 2006. Subprojeto Manejo e Conservação das Tartarugas Marinhas: relatório final de atividades. Rio Grande. Núcleo de Educação e Monitoramento Ambiental (NEMA). Relatório Técnico,",
+          "Nakashima, S.B. Trigo, C.C. Moreno, I.B. Borges-Marins, M. Danielewicz, D. Ott, P.H. Oliveira, L. Tavares, M. Bozzetti, M. Machado, R. &amp; Almeida, R., 2004. Revisão do último ano de monitoramento dos registros de tartarugas marinhas no litoral norte do Rio Grande do Sul (junho de 2003 a maio de 2004). <i>In</i>:Revisão do último ano de monitoramento dos registros de tartarugas marinhas no litoral norte do Rio Grande do Sul.<i>In</i>: Resumenes de la II Reunión Sobre la Investigación y Conservación de Tortugas Marinas del Atlántico Sur Occidental San Clemente del Tuyú, (Resumo)",
+          "Nassar, P. R. 2015. <b>Projeções para os efeitos do aumento do nível do mar no sucesso reprodutivo de tartarugas marinhas, Brasil</b>. Dissertação de Mestrado. Universidade Estadual de Santa Cruz - UESC. Ilhéus. p.103.",
+          "Oliveira, F. 2016. <b>As pescarias costeiras em áreas de reprodução de tartarugas marinhas no nordeste do Brasil</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.50.",
+          "Oliveira, M. T. 2015. A importância do trabalho educacional do Programa TAMAR na escola em prol da conservação das tartarugas marinhas na localidade de Almofala-CE.",
+          "Pegas, F. de V.; Coghlan, A.; Stronza, A. &amp; Rocha, V. 2013. For love or for money?: investigating the impact of an ecotourism programme on local redidents` assigned values towards sea turtles.. <b>Journal of Ecotourism</b>, 12: p.17.",
+          "Pegas, F.; Coghlan, A. &amp; Rocha, V. 2012. An exploration of a mini-guide programme: Training local children in sea turtle conservation and ecotourism in Brazil.. <b>Journal of Ecotourism</b>, 11: p.48-55.",
+          "Pfaller, J. B.; Alfaro-Shigueto, J.; Giffone, B.; Ishihara, T.; Mangel, J. C.; Peckham, S. H.; Bjorndal, K. A. &amp; Baeza, A. 2014. Social monogamy in the crab Planes major, a facultative symbiont of loggerhead sea turtles.. <b>Journal of Experimental Marine Biology and Ecology</b>, 461: p.124-132.",
+          "Pinedo, M.C. Capitoli, R. Barreto, A.S. &amp; Andrade, A.L.V., 1998. Occurrence and feeding of sea turtles in southern Brazil. p.117--118. <i>In</i>:NOAA. Proceedings of the 16th Annual Symposium on Sea Turtle Biology and Conservation, NOAA",
+          "Poloczanska, E.S.; Limpus, C.J. &amp; Hays, G.C., 2009. Vulnerability of marine turtles to climate change. Advances in Marine Biology, 56: p.151--211.",
+          "Pons, M.; Domingo, A.; Giffoni, B.; Sales, G. &amp; Miller, P. 2015. Update Of Standardized Catch Rates Of Loggerhead Sea Turtles, Caretta Caretta, Caught By Uruguayan And Brazilian Longline Fleets (1998-2012).. <b>Collective Volume of Scientific Papers ICCAT</b>, 71: p.2977-2982.",
+          "Projeto TAMAR, 2018. Banco de Dados TAMAR/SITAMAR.",
+          "Prosdocimi, L.; Bugoni, L.; Albareda, D. &amp; Remis, M.I., 2015. Are stocks of immature loggerhead sea turtles always mixed?. Journal of Experimental Marine Biology and Ecology, 466: p.85-91.",
+          "Queiroz, M. V. M. de. 2014. Padrões de distribuição espaço-temporal dos encalhes de tartarugas marinhas no litoral norte da Bahia, Brasil.",
+          "Reis, E. C.; Soares, L. S.; Vargas, S. M.; Santos, F. R.; Young, R. J.; Bjorndal, K. A.; Bolten, A. B. &amp; Lôbo-Hadju, G. 2009. Genetic composition, population structure and phylogeography of loggerhead sea turtle: colonization hypothesis for the Brazilian rookeries.. <b>Conservation Genetics</b>,",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Biologia, ecologia e conservação de tartarugas marinhas. p.63-89. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C. &amp; Goldberg, D.W. 2017. Pesquisa e conservação de tartarugas marinhas no Brasil e as recentes contribuições da telemetria e da genética. p.91-120. <i>In</i>: Reis. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C. Silveira, V.V.B. &amp; Siciliano, S., 2009. Records of stranded sea turtles on the coast of Rio de Janeiro State, Brazil. Marine Biodiversity Records, 2: p.121.",
+          "Reis, E.C. Soares, L.S. Vargas, S.M. Santos, F.R. Young, R.J. Bjorndal, K.A. Bolten, A.B. &amp; Lôbo-Hadju, G., 2010. Genetic composition, population structure and phylogeography of loggerhead sea turtle: colonization hypothesis for the Brazilian rookeries. Conservation Genetics, 11 (4): p.1467-1477.",
+          "Reis, E.C.; Goldberg, D.W. &amp; Lopez, G.G. 2017. Diversidade e distribuição de tartarugas marinhas na área de influência das atividades de E&P na Bacia de Campos.. p.121-159. <i>In</i>: Reis & Curbelo-Fernandez. <b>Mamíferos, quelônios e aves: caracterização ambiental regional da Bacia de Campos, Atlântico Sudoeste</b>. Elsevier. Habitats Rio de Janeiro.",
+          "Reis, E.C.; Soares, L.S. &amp; Lôbo-Hadju, G. 2009. Evidence of olive ridley mitochondrial genome introgression into loggerhead turtle rookeries of Sergipe. <b>Conservation Genetics.</b>,",
+          "Rocha, V. 2016. Educacion Ambiental - Projeto Tamar: Estrategia para la conservacion de las tortugas marinas. Environmental education workshop.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Rossi, A. S.; Gattamorta, M.A.; Prioste, F.E.S.; Lima, E.H.S.M.; Melo, M.T.D.; Brandão, P.E.; Silva, S.O. de S.; Silveira, F.M. da. &amp; Matushima, E.R. 2015. Fibropapillomas in a Loggerhead Sea Turtle (Caretta caretta) Caught in Almofala, Ceará,Brazil: Histopathological and Molecular Characterizations.. <b>Marine Turtle Newsletter</b>, p.12-16.",
+          "Rossi, S.; Gattamorta, M.A.; Prioste, F.E.S.; Lima, E.H.S.M.; Silveira, F.M. da.; Melo, M.T.D. &amp; Matushima, E. R. 2015. Histopathogical and Molecular Characterization of Fibropapilomatosis in Caretta caretta (Testudines, Cheloniidae) Caught at Boca da Barra, Ceará, Brazil.. <i>In</i>: Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. Turkey. (Resumo)",
+          "Rostan, G. 2016. <b>Museu da Tartaruga Marinha do Projeto Tamar na Praia do Forte (Mata de São João-BA): Sensibilização para a conservação marinha.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.56.",
+          "Sales, G. Giffoni, B.B. &amp; Barata, P.C.R., 2008. Incidental catch of sea turtles by the Brazilian pelagic longline fishery. Journal of the Marine Biological Association of the United Kingdom, 88 (4): p.853--864.",
+          "Sales, G.; Britto, M.; Fiedler, F.N.; Giffoni, B.; Domingo, A.; Leite, N. &amp; Miller, P. 2015. Management Units: Challenges To Promote Understanding And Conservation Of Marine Turtles In Oceanic Areas.. <b>Collective Volume of Scientific Papers ICCAT</b>, 71: p.2983-2986.",
+          "Santos, A. S. 2016. <b>Quando menos é mais: delineamento amostral como garantia da continuidade da coleta de dados reprodutivos de tartarugas marinhas a longo prazo.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.46.",
+          "Santos, A.S.; Marcovaldi, M.A.; Lopez, G.G.; Wanderlinde, J.; Trentin, C.; Goldberg, D.W.; Silva, B.M.G.; Becker, J.H.; Giffoni, B.; Torres, D.; Thomé, J.C.A.; Baptistotte, C.; Sforza, R.; Rieth, D. B.; Tognin, F.; López-Mendilaharsu, M.; Maurutto, G.; Lara, P.H.; Castilhos, J.C. de; Silva, C.C. da; Melo, M.T.D.; Lima. E. H.S.M.; Barsante, A.; Bellini, A. &amp; Sales, G. 2016. Sitamar: connecting sea turtles information to reach better conservation actions in Brazil.. <i>In</i>: Lima. Proceedings… [S.I.: s.n.].<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. (Resumo)",
+          "Serafini, T. Z.; Carneiro, K.; Lima, M.F.; Luca, M.J.; Bosquirolli, M. R. B. &amp; Saliés, E. de C. 2011. Identifying and Mitigating Hatchling Disorientation on Nesting Beaches. <b>Marine Turtles Newsletter</b>, p.14-16.",
+          "Sforza, R.; Marcondes, A. C. J. &amp; Pizetta, G. T. 2017. <b>Guia de licenciamento tartarugas marinhas - Diretrizes para avaliação e mitigação de impactos de empreendimentos costeiros e marinhos</b>. p.130. ICMBIO Brasília.",
+          "Sforza, R.; Marcondes, A. C. J.; Pizetta, G. T.; Lara, P. H.; Santos, E. A. P.; Saliés, E. &amp; Thomé, J. C. A 2016. Diretrizes para Avaliação e Mitigação de Impactos de Empreendimentos Costeiros e Marinhos nas Tartarugas Marinhas.. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>CONGRESSO BRASILEIRO DE AVALIAÇÃO DE IMPACTO</b>. Ribeirão Preto. (Resumo)",
+          "Shamblin, B.M. A.B. Bolten, F.A. Abreu-Grobois, K.A. Bjorndal, L. Cardona, C. Carreras, M. Clusa, C. Monzón-Argüello, C. J. Nairn, J. T. Nielsen, R. Nel, L.S. Soares, K.R. Stewart, S.T. Vilaça, O. Türkozan, C. Yilmaz, P.H. Dutton, 2014. Geographic Patterns of Genetic Variation in a Broadly Distributed Marine Vertebrate: New Insights into Loggerhead Turtle Stock Structure from Expanded Mitochondrial DNA Sequences. PLoS ONE,",
+          "Silva, F.P.M.S; Costa Neto, E.M. &amp; Carqueija, C.R.G. 2015. A etnotaxonomia de crustáceos estomatópodes e decápodes segundo pescadores artesanais do litoral norte da Bahia, Brasil. <b>Revista Ouricuri</b>, 5 (1):",
+          "Soares, L. S.; Bolten, A.; Marcovaldi, M. Â.; Vilaça, S.; Vargas, S. M. &amp; Santos, F. R. and Bjorndal, K. 2012. Sea Turtle Hybridization In Brazil: What Do We Know?. <i>In</i>: Proceedings... Miami: U.S.Department of Commerce.<i>In</i>: <b>ANNUAL SYMPOSIUM ON SEA TURTLE BIOLOGY AND CONSERVATION</b>. San Diego. (Resumo)",
+          "Soares, L.S., 2005. O Uso da Análise Genética da Região Controle do mtDNA na Identificação das Populações de Tartarugas Cabeçudas (<i>Caretta caretta</i>, Linnaeus 1758) nas áreas de Desova e Captura Incidental no Litoral Brasileiro. Dissertação de Mestrado. Dissertação (Mestrado), Pontifícia Universidade Católica de Minas Gerais.",
+          "Soares, L.S.; Bolten, A.B.; Wayne, M.L.; Vilaça, S.T.; Santos, F.R.; Marcovaldi, M.A.G. &amp; Bjorndal, K.A. 2017. Comparison of reproductive output of hybrid sea turtles and parental species.. <b>Marine Biology</b>, 164: p.1-10.",
+          "Soto, J.M.R. Beheregaray, R.C.P. &amp; Rebello, R.A.R.P, 1997. Range extension: nesting by <i>Dermochelys</i> and <i>Caretta</i> in Southern Brazil. Marine Turtle Newsletter, 77: p.6--7.",
+          "Szablak, F. T. 2015. Avaliação da interação da frota linheira “tipo Itaipava” com as tartarugas marinhas.",
+          "Szablak, T. F.; Galina, M. O. &amp; Leite Jr., N. DE O. 2015. Caracterização da frota linheira \"tipo Itaipava” no litoral do Brasil e avaliação da interação da pesca com as tartarugas marinhas. <i>In</i>: Resumos... [S.I.: s.n.].<i>In</i>: <b>SEMINÁRIO DE PESQUISA, 7,. E ENCONTRO DE INICIAÇÃO CIENTÍFICA DO ICMBio</b>. Brasilia. (Resumo)",
+          "Thomé, J.C.; Martini, E.D.; Colman, L.; Marcondes, A.C.J.; Baptistotte, C.; Pizetta, G.T.; Leite Jr, N.O. &amp; Tavares, S. A 2017. Dam Disaster in Brazil and its Impacts on Distant Sea Turtle Beaches.. <b>SWOT report: the state of the Worlds sea turtles. Special feature Africa</b>, 12: p.36-37.",
+          "Tognin, F. 2016. <b>Entre a mudança cultural e a formação de sujeitos ecológicos: os tartarugueiros do Projeto TAMAR.</b>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador. p.55.",
+          "Wallace, B.P. Dimatteo, A.D. Hurley, B.J. Finkbeiner, E.M. Bolten, A.B. Chaloupka, M.Y. Hutchinson, B.J. Abreu-Grobois, F.A. Amorocho, D. Bjorndal, K.A. Bourjea, J. Bowen, B.W. Due\\ nas, R.B. Casale, P. Choydhury, B.C. Costa, A. Dutton,, 2010. Regional management units for marine turtles: a novel framework for prioritizing conservation and research across multiple scales. PLoS ONE, 5 (12): p.1--11.",
+          "Wallace, B.P. Lewison, R.L. McDonald, S.L. McDonald, R.K. Kot, C.Y. Kelez, S. Bjorkland, R.K. Finkbeiner, E.M. Helmbrecht, S. Crowder, L.B., 2010. Global patterns of marine turtle bycatch. Conservation Letters, 3: p.131-142."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

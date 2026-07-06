@@ -1,0 +1,689 @@
+{
+  "id_ficha": "515768697244576972394e375556694b5568464837773d3d",
+  "nome_cientifico": "Tropidurus oreadicus Rodrigues, 1987",
+  "nome_cientifico_atual": "Tropidurus oreadicus Rodrigues, 1987",
+  "nome_comum": "calango",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35798.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=515768697244576972394e375556694b5568464837773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Tropidurus oreadicus</i>&nbsp;<span>Rodrigues, 1987</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "12/05/2026",
+      "justificative": "<p><em>Tropidurus oreadicus </em>é endêmica do Brasil e ocorre predominantemente no Cerrado, com registros mais isolados em áreas abertas da Amazônia e na Caatinga. É comum e pode ser encontrada em diferentes ambientes abertos, inclusive periantrópicos. Não são conhecidas ameaças que possam colocar a espécie em risco de extinção em curto prazo. Portanto, <em>T. oreadicus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Tropidurus oreadicus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35798.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35798.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24457,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Tropiduridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Tropidurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Tropidurus oreadicus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "calango",
+      "taxonomicNotes": "<p> <em>Tropidurus oreadicus</em> representa um complexo de espécies (Sena, 2015), avaliado aqui como unidade taxonômica.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Tropidurus oreadicus </em>é endêmica do Brasil, ocorrendo predominantemente no Cerrado, com registros mais isolados em áreas abertas da Amazônia e na Caatinga (Rodrigues, 1987; Mesquita <em>et al</em>., 2006; Recoder &amp; Nogueira, 2007; Rocha &amp; Siqueira, 2008; Cintra <em>et al</em>., 2009; Carvalho, 2013; Dal Vechio <em>et al</em>., 2013; Ribeiro-Júnior, 2015; Prudente <em>et al</em>., 2018; Ramalho <em>et al</em>., 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Amapá, Amazonas, Bahia, Distrito Federal, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Piauí, Rondônia, Roraima, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paranaíba, Sub-bacia Parnaíba Alto, Sub-bacia Purus, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Médio, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/544a5136734b73677a4a734178645738564c62415378435577627a4e4b586e564d3864575038716f51426b7644426c347748384e476b4d725073304275487441",
+        "legend": "Tropidurus oreadicus",
+        "diskFileName": "904c0e809f0383c98df4c02039c23439.png",
+        "fileName": "Mapa de Tropidurus oreadicus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Tropidurus oreadicus</em> ocorre em diferentes ambientes abertos do Cerrado, incluindo regiões de solo arenoso com árvores esparsas, campos rupestres, áreas xeromórficas e ambientes periantrópicos (Colli <em>et al.</em>, 1992; Meira <em>et al</em>., 2007; Carvalho, 2013; Ribeiro-Júnior, 2015). Sua reprodução é provavelmente sazonal, ocorrendo principalmente nos meses de maior pluviosidade. São animais sexualmente dimórficos, com machos adultos maiores do que as fêmeas (Meira <em>et al.</em>, 2007). Possui dieta generalista, que inclui artrópodes (principalmente formigas, larvas de insetos e besouros) e material vegetal (Meira <em>et al</em>., 2007; Rocha &amp; Siqueira, 2008). Já foram observados casos de canibalismo na espécie e predação de outro lagarto, <em>Cercosaura schreibersii</em> (Albuquerque, 2010). Também foi registrado um exemplar da espécie predado pela aranha <em>Lycosa erythrognatha</em> (Lycosidae, Araneae) (Bocchiglieri &amp; Mendonça, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Embora não haja informações detalhadas sobre suas populações, a espécie parece ser bastante comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não são conhecidas ameaças que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não é conhecida nenhuma ação específica para a conservação da espécie. No entanto, vale destacar que, por se tratar de um complexo de espécies, algumas linhagens podem ter distribuição restrita e necessitar de ações de conservação (Sena, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA do Planalto Central",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dal Vechio <i>et al.</i>, 2013",
+              "title": "The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rocha & Siqueira, 2008",
+              "title": "Feeding ecology of the lizard <i>Tropidurus oreadicus</i> Rodrigues 1987 (Tropiduridae) at Serra dos Carajás, Pará state, northern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Grande Sertão Veredas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Recoder & Nogueira, 2007",
+              "title": "Composição e diversidade de Répteis Squamata na região sul do Parque Nacional Grande Sertão Veredas, Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Chapada das Mesas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Cutia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Confusões",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Arias <i>et al.</i>, 2011",
+              "title": "Two new species of <i>Cnemidophorus</i> (Squamata: Teiidae) from the Caatinga, northwest Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Campos Amazônicos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RVS das Veredas do Oeste Baiano",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DA BACIA DOS RIBEIRÕES DO GAMA E CABEÇA DE VEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA DO LAGO PARANOÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL ALTAMIRO DE MOURA PACHECO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ÁGUAS QUENTES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO CANTãO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DOS PIRINEUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA AZUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA CHAPADA DOS GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cassel <i>et al.</i>, 2012",
+              "title": "Histological evidence of reproductive activity in lizards from the APM Manso, Chapada dos Guimarães, Mato Grosso state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO LAGO DE TUCURUI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO MADEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE PEIXE/ANGICAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA DO LAJEADO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Área de Proteção Ambiental Jalapão",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Mesquita <i>et al.</i>, 2006",
+              "title": "Ecology of a Cerrado lizard assemblage in the Jalapão region of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chácara Mangueiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Arruda",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Faria & Araujo, 2004",
+              "title": "Sintopy of two <i>Tropidurus</i> lizard species (Squamata: Tropiduridae) in a rocky cerrado habitat in central Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Jaquanêz",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pé de Serra",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazendinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Jubran",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Parque Ecológico João Basso",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "Tenharim Marmelos",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Xikrin do Rio Catete",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Diversas subpopulações disjuntas conhecidas como <em>T. oreadicus</em>, principalmente na Amazônia, devem ser estudadas, pois podem ser diferentes espécies (Sena, 2015; Carvalho, 2013).</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Albuquerque, S. (2010) <i>Tropidurus oreadicus</i> (NCN). Cannibalism and prey. <i>Herpetological Review</i>. 41 (2), 231-232.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bocchiglieri, A. &amp; Mendonça, A.F. (2010) <i>Tropidurus oreadicus</i> (Neotropical Ground Lizard). Predation. <i>Herpetological Review</i>. 41 (2), 231.",
+          "Carvalho, A.L.G. (2013) On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985. <i>Zootaxa</i>. 3640, 42-56.",
+          "Cintra, C.E.D., Silva, H.L.R. &amp; Silva Jr., N.J. (2009) Herpetofauna, Santa Edwiges I and II hydroelectric power plants, state of Goiás, Brazil. <i>Check List</i>. 5 (3), 570–576.",
+          "Colli, G. R., de Araújo, A. F. B., da Silveira, R. &amp; Roma, F. (1992) Niche partitioning and morphology of two syntopic <i>Tropidurus</i> (Sauria: Tropiduridae) in Mato Grosso, Brazil. <i>Journal of Herpetology</i>. 26 (1), 66-69.",
+          "Dal Vechio, F., Recorder, R., Rodrigues, M.T. &amp; Zaher, H. (2013) The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil. <i>Papéis Avulsos de Zoologia</i>. 53 (16), 225-243.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Meira, K.T.R., Faria, R.G., Silva, M.D.M., Miranda, V.T. &amp; Zahn-Silva, W. (2007) Natural history of <i>Tropidurus oreadicus</i> in a rocky cerrado area of Central Brazil. <i>Biota Neotropica</i>. 7 (2), 155-163.",
+          "Mesquita, D.O., Colli, G.R., França, F.G.R. &amp; Vitt, L.J. (2006) Ecology of a Cerrado lizard assemblage in the Jalapão region of Brazil. <i>Copeia</i>. 2006 (3), 460-471.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Ramalho, W.P., França, D.P.F., Guerra, V., Marciano, R., Vale, N.C. &amp; Silva, H.L.R. (2018) Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado. <i>Papéis Avulsos de Zoologia</i>. 58, e20185851.",
+          "Recoder, R. &amp; Nogueira, C. (2007) Composição e diversidade de Répteis Squamata na região sul do Parque Nacional Grande Sertão Veredas, Brasil Central. <i>Biota Neotropica</i>. 7 (3), 267-278.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Rocha, C.F.D. &amp; Siqueira, C.C. (2008) Feeding ecology of the lizard <i>Tropidurus oreadicus</i> Rodrigues 1987 (Tropiduridae) at Serra dos Carajás, Pará state, northern Brazil. <i>Brazilian Journal of Biology</i>. 68 (1), 109-113.",
+          "Rodrigues, M.T. (1987) Sistemática, ecologia e zoogeografia dos <i>Tropidurus</i> do grupo <i>torquatus</i> ao sul do rio Amazonas (Sauria, Iguanidae). <i>Arquivos de Zoologia</i>. 31 (3), 105-230.",
+          "Sena, M.A. (2015) <i>Filogenia e Evolução dos Tropidurs do grupo torquatus (Squamata: Tropiduridae)</i>. Tese de Doutorado. Universidade de São Paulo. São Paulo. 61pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

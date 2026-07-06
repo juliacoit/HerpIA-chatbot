@@ -1,0 +1,912 @@
+{
+  "id_ficha": "724f6d567076777865597768476d38576a626c4956773d3d",
+  "nome_cientifico": "Ischnocnema parva (Girard, 1853)",
+  "nome_cientifico_atual": "Ischnocnema parva (Girard, 1853)",
+  "nome_comum": "Rãzinha-do-folhiço",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17787.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=724f6d567076777865597768476d38576a626c4956773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Ischnocnema parva</i>&nbsp;<span>(Girard, 1853)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/10/2023",
+      "justificative": "<p><em>Ischnocnema parva</em> é endêmica do Brasil e possui ampla distribuição na Mata Atlântica, ocorrendo desde o estado da Bahia até São Paulo, em altitudes em torno de 1.000 metros. A espécie é comum e não há ameaças evidentes que a coloquem em risco de extinção em curto prazo. Por essas razões, <em>Ischnocnema parva</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Ischnocnema parva</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17787.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17787.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14954,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Brachycephalidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Ischnocnema</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Ischnocnema parva</i>"
+        }
+      ],
+      "oldNames": "Eleutherodactylus (Eleutherodactylus) parvus, Eleutherodactylus parvus, Hylodes (Hylodes) parvus, Hylodes parvus, Leptodactylus pumilio, Phrynanodus nanus",
+      "commonNames": "Rãzinha-do-folhiço",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p> <em>Ischnocnema parva</em> é endêmica do Brasil, com registros de ocorrência entre os estados Bahia e São Paulo, incluindo o estado de Minas Gerais, em altitudes em torno de 1000 metros (Heyer <em>et al</em>., 1990; Izecksohn &amp; Carvalho-e-Silva, 2001; Rödder <em>et al</em>., 2007; Haddad <em>et al</em>., 2008; C.A.G. Cruz, com. pess., 2011; Moura <em>et al</em>., 2012; Martins <em>et al</em>., 2014; Trevine <em>et al.</em>, 2014; Campos &amp; Lourenço-de-Moraes, 2017; Neves <em>et al</em>., 2017; P.L.V. Peloso, com. pess., 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/66392b5467364134454b6b6f534631336f42683759545864346f51466f3650527a726355556e637136436e6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Ischnocnema parva",
+        "diskFileName": "9f346852a012184188d21c798dbb9f31.png",
+        "fileName": "Mapa de Ischnocnema parva.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> <em>Ischnocnema parva </em>habita a serapilheira de florestas primárias e secundárias, não ocorrendo em ambientes abertos. Sua reprodução ocorre por desenvolvimento direto (Van Sluys &amp; Rocha, 2010). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é muito comum ao longo de sua distribuição (C. Cruz, com. pess., 2011).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas para a espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Van Sluys & Rocha, 2010",
+              "title": "Van Sluys, M. &amp; Rocha, C.F. (2010) <i>Ischnocnema parva</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56831A11542229.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56831A11542229.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Cananéia-Iguape-Peruíbe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "C.C. Canedo, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            },
+            {
+              "label": "M.T.U. Rodrigues, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "M.A. Gomes, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Yamamoto & Bertoluci, 2013",
+              "title": "Anfíbios e anuros em áreas de floresta plantada no Vale Paraíba, Estado de São Paulo: uma contribuição para a conservação da Biodiversidade"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "M.V. Garey, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "C.C. Canedo, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil"
+            },
+            {
+              "label": "Soares, 2010",
+              "title": "Análise histológica do tegumento de anfíbios anuros da Serra dos Órgãos, município de Teresópolis, estado do Rio de Janeiro, Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "I.A. Martins, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Caparaó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "P.C.A Garcia, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "J.E. Simon, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "M.T.U. Rodrigues, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Tinguá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "H.W. Tavares, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bruscagin <i>et al.</i>, 2014",
+              "title": "Diversity of leaf-litter anurans in a fragmented landscape of the Atlantic Plateau of São Paulo State, southeastern Brazil"
+            },
+            {
+              "label": "Dixo & Metzger, 2010",
+              "title": "The matrix-tolerance hypothesis: an empirical test with frogs in the Atlantic Forest"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2009",
+              "title": "Herpetofauna em uma área de Floresta Atlântica na Ilha Anchieta, município de Ubatuba, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "APA PARQUE E FAZENDA DO CARMO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "J.L. Laporta, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nomura, 2008",
+              "title": "Padrões de diversidade e estrutura de taxocenoses de anfíbios anuros: análise em multi escala espacial"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA BANANAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher <i>et al.</i>, 2005",
+              "title": "<I>Paratelmatobius gaigeae</i> (Cochran 1938) re-discovered (Amphibia, Anura, Leptodactylidae)"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA JURÉIA-ITATINS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Luiz <i>et al.</i>, 2016",
+              "title": "Geomorphology drives amphibian beta diversity in Atlantic Forest lowlands of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "MONUMENTO NATURAL ESTADUAL DA PEDRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nomura, 2008",
+              "title": "Padrões de diversidade e estrutura de taxocenoses de anfíbios anuros: análise em multi escala espacial"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2013",
+              "title": "The leaf-litter frog community from Reserva Rio das Pedras, Mangaratiba, Rio de Janeiro State, Southeastern Brazil: species richness, composition and densities"
+            },
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2008",
+              "title": "Anuros da Reserva Rio das Pedras, Mangaratiba, RJ, Brasil"
+            },
+            {
+              "label": "Ouvernay <i>et al.</i>, 2012",
+              "title": "Amphibia, Anura, Parque Estadual do Cunhambebe Itaguaí municipality, Rio de Janeiro state"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA ANCHIETA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cicchi <i>et al.</i>, 2009",
+              "title": "Herpetofauna em uma área de Floresta Atlântica na Ilha Anchieta, município de Ubatuba, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2009",
+              "title": "Fauna de ambientes de interiores"
+            },
+            {
+              "label": "Goyannes-Araújo <i>et al.</i>, 2015",
+              "title": "Anuran species distribution along an elevational gradient and seasonal comparisons of leaf liter frogs in an Atlantic Rainforest area of southeastern Brazil"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2001",
+              "title": "Estimates of forest floor litter frog communities: A comparison of two methods"
+            },
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            },
+            {
+              "label": "Van Sluys <i>et al.</i>, 2007",
+              "title": "Ecological parameters of the leaf-litter frog community of an Atlantic Rainforest area at Ilha Grande, Rio de Janeiro state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2017",
+              "title": "Expanding the knowledge about the occurrence of anurans in the highest amphibian diversity area of Atlantic Forest: Parque Estadual da Serra do Mar, São Paulo, Brazil"
+            },
+            {
+              "label": "Hartmann <i>et al.</i>, 2010",
+              "title": "Reproductive modes and fecundity of an assemblage of anuran amphibians in the Atlantic rainforest, Brazil"
+            },
+            {
+              "label": "Giasson, 2008",
+              "title": "Atividade sazonal e uso do ambiente por anfibios da Mata Atlantica no Alto da Serra do Mar"
+            },
+            {
+              "label": "Malagoli, 2013",
+              "title": "Diversidade e Distribuição dos anfíbios anuros do Núcleo Curucutu, Parque Estadual da Serra do Mar, SP"
+            },
+            {
+              "label": "Paula, 2011",
+              "title": "Patologia comparada de infecções selecionadas de anfíbios anuros de vida livre do bioma da Mata Atlântica: estudo prospectivo"
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil"
+            },
+            {
+              "label": "Heyer <i>et al.</i>, 1990",
+              "title": "Frogs of Boracéia"
+            },
+            {
+              "label": "Giaretta, 1999",
+              "title": "Diversidade e densidade de anuros de serapilheira num gradiente altitudinal na Mata Atlântica costeira"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DAS FONTES DO IPIRANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.M. Andrade, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ILHABELA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAPETINGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Giaretta <i>et al.</i>, 1999",
+              "title": "Diversity and abundance of litter frogs in a montane forest of southeastern Brazil: Seasonal and altitudinal changes"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO DESENGANO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "C.C. Canedo, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rievers, 2010",
+              "title": "Anfíbios anuros de serrapilheira do Parque Estadual do Rio Doce: resposta à disponibilidade de recursos e aos fatores climáticos"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RESTINGA DE BERTIOGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2012",
+              "title": "Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO OURO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "M.R.S. Pires, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL TURÍSTICO DO ALTO DO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo <i>et al.</i>, 2010",
+              "title": "Amphibians and reptiles of the Parque Estadual Turístico do Alto Ribeira (PETAR), SP: an Atlantic Forest remnant of Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA ESTADUAL DA PRAIA DO SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "F.B.S. Telles, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "P.L.V. Peloso, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE GERICINÓ/MENDANHA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "D.O.F. da Silva, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2001",
+              "title": "Estimates of forest floor litter frog communities: A comparison of two methods"
+            },
+            {
+              "label": "Rocha <i>et al.</i>, 2009",
+              "title": "Fauna de ambientes de interiores"
+            },
+            {
+              "label": "Van Sluys <i>et al.</i>, 2007",
+              "title": "Ecological parameters of the leaf-litter frog community of an Atlantic Rainforest area at Ilha Grande, Rio de Janeiro state, Brazil"
+            },
+            {
+              "label": "Goyannes-Araújo <i>et al.</i>, 2015",
+              "title": "Anuran species distribution along an elevational gradient and seasonal comparisons of leaf liter frogs in an Atlantic Rainforest area of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO PICO DO GOIAPABA-AÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rödder <i>et al.</i>, 2007",
+              "title": "Anuran hotspots: the municipality of Santa Teresa, Espírito Santo, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DA SERRA DO MENDANHA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Pontes, 2010",
+              "title": "A riqueza e diversidade de anfíbios anuros da Serra do Mendanha, Estado do Rio de Janeiro: grau de conservação da floresta, variação altitudinal e uso de recursos hídricos"
+            },
+            {
+              "label": "Pontes <i>et al.</i>, 2015",
+              "title": "Unidades de conservação da cidade do Rio de Janeiro: hotspots da herpetofauna carioca"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL NASCENTES DE PARANAPIACABA",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Trevine <i>et al.</i>, 2014",
+              "title": "Herpetofauna of Paranapiacaba: expanding our knowledge on a historical region in the Atlantic forest of southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2017",
+              "title": "Expanding the knowledge about the occurrence of anurans in the highest amphibian diversity area of Atlantic Forest: Parque Estadual da Serra do Mar, São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "OIUTREM",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Dantas, 2009",
+              "title": "Composição e distribuição espacial e sazonal de anfíbios em unidade de conservação da Mata Atlântica, Alfredo Chaves, Espírito Santo"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEFLUSMME",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Boa Vista Sertão do Promirim",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Piaçaguera",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "A.M. Luiz, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P.M., Kierulff, M.C.M. &amp; Sugieda, A.M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Haddad, C.F.B. Toledo, L.F. Prado, C.P.A. (2008) <i>Anfíbios da Mata Atlântica: guia dos anfíbios anuros da Mata Atlântica</i> São Paulo, Editora Neotropica,",
+          "Heyer, W.R., Rand, A.S., Cruz, C.A.G., Peixoto, O.L. &amp; Nelson, C.E. (1990) Frogs of Boracéia. <i>Arquivos de Zoologia, São Paulo</i>. 31 (4), 235-410.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. (2001) <i>Anfíbios do município do Rio de Janeiro</i> Rio de Janeiro, Editora UFRJ, 148pp.",
+          "Martins, A., Pontes, R., Mattedi, C., Fratani, J., Murta-Fonseca, R.A., Ramos, L. &amp; Brandão, A.L.R. (2014) Anuran community of a coastal Atlantic Forest fragment in the state of Rio de Janeiro, southeastern Brazil. <i>Salamandra</i>. 50, 27-39.",
+          "Moura, M.R., Motta, A.P., Fernandes, V.D. &amp; Feio, R.N. (2012) Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil. <i>Biota Neotropica</i>. 12 (1), 209-235.",
+          "Neves, M.O.N., Pereira, E.A., Lima, L.M.C., Folly, H., Oliveira, E.F., Santana, D.J. &amp; Feio, R.N. (2017) Anurans of serra negra da mantiqueira, zona da mata of Minas Gerais, Brazil: A priority area for biodiversity conservation. <i>Herpetology Notes</i>. 10, 297-311.",
+          "Rödder, D., Teixeira, R.L., Ferreira, R.B., Dantas, R.B., Pertel, W. &amp; Guarneire, G.J. (2007) Anuran hotspots: the municipality of Santa Teresa, Espírito Santo, southeastern Brazil. <i>Salamandra</i>. 43 (2), 91-110.",
+          "Trevine, V., Forlani, M.C., Haddad, C.F.B. &amp; Zaher, H. (2014) Herpetofauna of Paranapiacaba: expanding our knowledge on a historical region in the Atlantic forest of southeastern Brazil. <i>Zoologia (Curitiba)</i>. 31 (2), 126-146.",
+          "Van Sluys, M. &amp; Rocha, C.F. (2010) <i>Ischnocnema parva</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56831A11542229.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T56831A11542229.en</a>. [Acessado em: 15/mai/2018]."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,860 @@
+{
+  "id_ficha": "6b397038386e4b684855424e6d6131526c72495751413d3d",
+  "nome_cientifico": "Gonatodes humeralis (Guichenot, 1855)",
+  "nome_cientifico_atual": "Gonatodes humeralis (Guichenot, 1855)",
+  "nome_comum": "lagartixa-da-mata",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35746.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6b397038386e4b684855424e6d6131526c72495751413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Gonatodes humeralis</i>&nbsp;<span>(Guichenot, 1855)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "06/03/2026",
+      "justificative": "<p><em>Gonatodes humeralis</em> ocorre no Brasil e em outros países da região amazônica da América do Sul. No país, ocorre em toda a Amazônia e áreas adjacentes do Cerrado e Pantanal. Pode ser encontrada em florestas primárias, secundárias e mesmo em ambientes com algumas alterações antrópicas. A espécie é abundante, de ampla distribuição e não há ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>G. </em><em>humeralis</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Gonatodes humeralis</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35746.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35746.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24406,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Sphaerodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Gonatodes</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Gonatodes humeralis</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "lagartixa-da-mata",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Gonatodes humeralis</em> ocorre no Brasil e em outros países da região amazônica da América do Sul (Avila-Pires, 1995; Cole &amp; Kok, 2006; Almendáriz, 2011; Avila-Pires <em>et al</em>., 2012; Catenazzi <em>et al.</em>, 2013; Cole <em>et al.</em>, 2013; Ribeiro-Júnior, 2015). </p>",
+      "nationalDistribution": "<p>No Brasil, a espécie apresenta ampla distribuição na Amazônia, estendendo-se a áreas adjacentes do Cerrado e do Pantanal (Avila-Pires, 1995; Vitt &amp; Zani, 1996; Miranda &amp; Andrade, 2003; Avila-Pires <em>et al.</em>, 2010; Nogueira, 2006; Sturaro &amp; Avila-Pires, 2011; Ribeiro-Júnior, 2013; Prudente <em>et al</em>., 2018).</p>",
+      "states": "Acre, Amapá, Amazonas, Ceará, Maranhão, Mato Grosso, Mato Grosso do Sul, Pará, Piauí, Rondônia, Roraima, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Pantanal",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru, Sub-bacia Litoral CE PI, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Parnaíba Baixo, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4b4e47336c4936614e63744334382f7445476a51774f6e495445613351726e42494a70617554647953354c6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Gonatodes humeralis",
+        "diskFileName": "13da90dc49cc2e8192a48b26fa8abf61.png",
+        "fileName": "Mapa de Gonatodes humeralis.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Espécie diurna, prefere áreas sombreadas, adjacentes a rios, encontrada em florestas primárias, secundárias e mesmo em ambientes com algumas alterações antrópicas (Avila-Pires <em>et al</em>., 2012). Utiliza substratos mais altos (sobre troncos) que sua espécie congenérica, <em>G. hasemani</em> (Vitt <em>et al</em>., 2000). Sua dieta é composta de larvas de insetos, cupins e homópteros (Vitt <em>et al</em>., 2000). Há registro de parasitismo por C<em>osmocerca parva</em>, <em>Parapharyngodon scleratus</em>, <em>Physaloptera retusa</em> e <em>Skrjabinelazia galliardi</em> (Goldberg <em>et al.</em>, 2013). Machos são maiores que fêmeas e o territorialismo dos machos parece ser determinante na estruturação espacial da espécie (Vitt <em>et al</em>., 2000).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "Não há informações detalhadas sobre suas populações, mas trata-se de uma espécie abundante em florestas secundárias e áreas arborizadas periantrópicas.",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças evidentes que possam colocar a espécie em risco de extinção. No entanto, há evidências de ameaça direta das mudanças climáticas à sobrevivência de pelo menos algumas populações (Diele-Viegas <em>et al</em>., 2019).</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2022,
+          "coverage": "Ceará",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B1ab(i,ii,iii)",
+          "refBibs": [
+            {
+              "label": "SEMA - CE, 2022",
+              "title": "SEMA - CE 2022 <i>Secretaria Estadual do Meio Ambiente e Mudança do Clima. Portaria nº 146, de 27 de setembro de 2022. Dispõe sobre a lista vermelha dos anfíbios e répteis continentais ameaçados de extinção do Ceará. Diário Oficial do Estado – CE.</i>"
+            }
+          ],
+          "orderBy": "X2022"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC Rio Acre",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2020",
+              "title": "Herpetofauna from the Estação Ecológica Rio Acre, Amazon Rainforest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC da Serra das Araras",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Maracá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "FLONA Mulata",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Caxiuana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Ferreira <i>et al.</i>, 2017",
+              "title": "Amphibians and reptiles from Floresta Nacional de Pau-Rosa, Amazonas, Brazil: an important protected area at the heart of Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2018",
+              "title": "Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Amazonas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Jatuarana",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra do Pardo",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Vitt <i>et al.</i>, 1997",
+              "title": "Ecological variation among populations of the gekkonid lizard <i>Gonatodes humeralis</i> in the Amazon Basin"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Jaú",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pantoja & Fraga, 2012",
+              "title": "Herpetofauna of the Reserva Extrativista do Rio Gregório, Juruá Basin, southwest Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pico da Neblina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Miranda <i>et al.</i>, 2012",
+              "title": "Reptiles from Lençóis Maranhenses National Park, Maranhão, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Chico Mendes",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "França <i>et al.</i>, 2017",
+              "title": "Diversidade local e influência da sazonalidade sobre taxocenoses de anfíbios e répteis na Reserva Extrativista Chico Mendes, Acre, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Marinha Caeté-Taperaçu",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Silva & Fernandes, 2016",
+              "title": "Anfíbios e Répteis"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Unini",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pantoja & Fraga, 2012",
+              "title": "Herpetofauna of the Reserva Extrativista do Rio Gregório, Juruá Basin, southwest Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bernarde <i>et al.</i>, 2011",
+              "title": "Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre - Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho do Anfrísio",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Mendes-Pinto & Souza, 2011",
+              "title": "Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Baixo Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESEX do Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA DO GRÃO PARÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DE FARO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO AMAPÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO TROMBETAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires <i>et al.</i>, 2010",
+              "title": "Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE MONTE ALEGRE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO NEGRO SETOR NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA TRAÇADAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Debien <i>et al.</i>, 2019",
+              "title": "Diversity of reptiles in flooded and unflooded forests of the Amanã Sustainable Development Reserve, central Amazonia"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL PIAGAÇU PURUS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Waldez <i>et al.</i>, 2013",
+              "title": "Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA CATUÁ-IPIXUNA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Fernanda Werneck & Leandro Moraes; Coleção INPA H, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA JACI-PARANÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL - BAIXO RIO BRANCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO MADEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SANTA ISABEL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARGEM DIREITA DO RIO NEGRO- SETOR PADUARI-SOLIMÕES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "CRISTALINO III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1987",
+              "title": "Os répteis da área de Carajás, Pará, Brasil (Squamata). II"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Nadir Júnior",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "A. Garda, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Seringal Assunção",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Água Boa",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Fermiano <i>et al.</i>, 2017",
+              "title": "Lagartos (Ordem Squamata) em um fragmento de floresta ombrófila aberta no centro-sul de Rondônia Florestal no Centro-Sul de Rondônia"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Negro",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "Parakanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB, 2014",
+              "title": "Gonatodes humeralis"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2006",
+              "title": "Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almendáriz, A. (2011) Anfibios y reptiles In: Albuja (ed.) <i>Fauna de Guiyero: Parque Nacional Yasuni</i>. Escuela Politécnica Nacional-EcoFondo,",
+          "Avila-Pires, T. C. S., Hoogmoed, M. S. &amp; Rocha, W. A. (2010) Notes on the vertebrates of northern Pará, Brazil: a forgotten part of Guianan Region, I. Herpetofauna. <i>Boletim do Museu Paraense Emílio Goeldi. Ciências Naturais</i>. 5 (1), 13-112.",
+          "Avila-Pires, T.C., Mulcahy, D.G., Werneck, F.P. &amp; Sites Jr., J.W. (2012) Phylogeography of the teiid lizard <i>Kentropyx calcarata</i> and the sphaerodactylid <i>Gonatodes humeralis</i> (Reptilia: Squamata): testing a geological scenario for the lower Amazon–Tocantins basins, Amazonia, Brazil. <i>Herpetologica</i>. 68 (2), 272-287.",
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "CHUNB, Coleção Herpetológica da Universidade de Brasília (2014) <i>Gonatodes humeralis</i>.",
+          "Catenazzi, A., Lehr, E. &amp; von May, R. (2013) The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. <i>Biota Neotropica</i>. 13, 269–283.",
+          "Cole, C.J. &amp; Kok, P.J. (2006) A New Species of Gekkonid Lizard (Sphaerodactylinae: <i>Gonatodes</i>) from Guyana, South America. <i>American Museum Novitates</i>. 3523, 1-13.",
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Debien, I.V., Waldez, F. &amp; Menin, M. (2019) Diversity of reptiles in flooded and unflooded forests of the Amanã Sustainable Development Reserve, central Amazonia. <i>Herpetology Notes</i>. 12, 1051-1065.",
+          "Diele-Viegas, L.M. Werneck, F.P. Rocha, C.F.D. (2019) Climate change effects on population dynamics of three species of Amazonian lizards. <i>Comparative Biochemistry and Physiology</i>. Part A. 236, 110530.",
+          "Ferreira, G.C., Sturaro, M.J. &amp; Peloso, P.L.V. (2017) Amphibians and reptiles from Floresta Nacional de Pau-Rosa, Amazonas, Brazil: an important protected area at the heart of Amazonia. <i>Acta Amazonica</i>. 47 (3), 259-268.",
+          "Goldberg, S.R., Bursey, C.R &amp; Vitt, L.J. (2013) Gastrointestinal nematodes of four species of <i>Gonatodes</i> (Squamata: Sphaerodactylidae) from Central and South America. <i>Comparative Parasitology</i>. 80 (1), 143-146.",
+          "Ilha, P. &amp; Dixo, M. (2010) Anurans and lizards, Rio Preto da Eva, Amazonas, Brazil. <i>Check List</i>. 6 (1), 17-21.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, M. (1991) The Lizards of Balbina, Central Amazonia, Brazil- a Qualitative -Analysis of Resource Utilization. <i>Studies on Neotropical Fauna and Environment</i>. 26 (3), 179-190.",
+          "Miranda, J.P &amp; Andrade, G.V. (2003) Seasonality in diet, perch use, and reproduction of the gecko <i>Gonatodes humeralis</i> from Eastern Brazilian Amazon. <i>Journal of Herpetology</i>. 37 (2), 433-438.",
+          "Nogueira, C.D.C. (2006) <i>Diversidade e Padrões de Distribuição da Fauna de Lagartos do Cerrado</i>. Tese de Doutorado. Universidade de São Paulo, Instituto de Biociências. São Paulo. 296pp.",
+          "Oliveira, D.P., Souza, S.M., Frazão, L., Almeida, A.P. &amp; Hrbek, T. (2014) Lizards from central Jatapú River, Amazonas, Brazil. <i>Check List</i>. 10 (1), 46-53.",
+          "Pantoja, D.L. &amp; Fraga, R. (2012) Herpetofauna of the Reserva Extrativista do Rio Gregório, Juruá Basin, southwest Amazonia, Brazil. <i>Check List</i>. 8 (3), 362-374.",
+          "Peixoto, G., Leitão, P., Kaefer, I.L. &amp; Lima, A.P. (2019) The lizards along the road BR-319 in the Purus-Madeira interfluve, Brazilian Amazonia (Squamata, Lacertilia). <i>Herpetology Notes</i>. 12, 689-697.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Ribeiro-Júnior, M.A. (2013) <i>Fauna de lagartos da Amazônia brasileira: diversidade, biogeografia e conservação</i>. Tese de Doutorado. Universidade Federal do Pará/Museu Paraense Emílio Goeldi. Belém. 1-1090pp.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. II. Gekkonidae, Phyllodactylidae, Sphaerodactylidae. <i>Zootaxa</i>. 3981, 001–055.",
+          "SEMA - CE 2022 <i>Secretaria Estadual do Meio Ambiente e Mudança do Clima. Portaria nº 146, de 27 de setembro de 2022. Dispõe sobre a lista vermelha dos anfíbios e répteis continentais ameaçados de extinção do Ceará. Diário Oficial do Estado – CE.</i>",
+          "Sturaro, M.J. &amp; Avila-Pires, T.C.S. (2011) Taxonomic revision of the geckos of the<i> Gonatodes concinnatus</i> complex (Squamata: Sphaerodactylidae), with description of two new species. <i>Zootaxa</i>. 2869, 1--36.",
+          "Vitt, L.J., Magnusson, W.E., Avila-Pires, T.C.S. &amp; Lima, A.P. (2008) <i>Guia de Lagartos da Reserva Adolpho Ducke - Amazônia Central</i> Manaus, Attema Design Editorial,",
+          "Vitt, L.J., Souza, R.A., Sartorius, S.S., Avila-Pires, T.C.S. &amp; Espósito, M.C. (2000) Comparative ecology of sympatric <i>Gonatodes</i> (Squamata: Gekkonidae) in the western Amazon of Brazil. <i>Copeia</i>. 2000 (1), 83-95.",
+          "Waldez, F., Menin, M. &amp; Vogt, R.C. (2013) Diversidade de anfíbios e répteis Squamata na região do baixo rio Purus, Amazônia Central, Brasil. <i>Biota Neotropica</i>. 13 (1), 1-17."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

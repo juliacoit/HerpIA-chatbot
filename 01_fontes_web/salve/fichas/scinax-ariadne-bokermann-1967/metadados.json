@@ -1,0 +1,331 @@
+{
+  "id_ficha": "546e382b763947586f653747586255485746363436513d3d",
+  "nome_cientifico": "Scinax ariadne (Bokermann, 1967)",
+  "nome_cientifico_atual": "Scinax ariadne (Bokermann, 1967)",
+  "nome_comum": "Serra da Bocaina Snouted Treefrog",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.22178.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=546e382b763947586f653747586255485746363436513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax ariadne</i>&nbsp;<span>(Bokermann, 1967)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "18/03/2025",
+      "justificative": "<p><em>Scinax ariadne</em> é endêmica do Brasil, conhecida somente para a Serra da Bocaina, entre 500 e 1.600 metros de altitude, na divisa dos estados de São Paulo e Rio de Janeiro. Apesar da distribuição restrita, a região encontra-se bem preservada e protegida pelo Parque Nacional da Serra da Bocaina. Não foram identificadas ameaças que possam colocar a espécie em risco de extinção. Por essas razões, <em>Scinax ariadne</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Scinax ariadne</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.22178.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.22178.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16899,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax ariadne</i>"
+        }
+      ],
+      "oldNames": "Hyla ariadne, Hyla catharinae bocainensis",
+      "commonNames": "Serra da Bocaina Snouted Treefrog",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax ariadne</em> é endêmica do Brasil e ocorre somente na região da localidade-tipo, na Serra da Bocaina, na divisa dos estados de São Paulo e Rio Janeiro, tendo sido registrada entre 500 e até pelo menos 1.600 metros de altitude (Bokermann, 1967).</p>",
+      "nationalDistribution": "",
+      "states": "São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral RJ",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/71784f6b7944662f5a682b4f6a65626739334d482b7765334a58634b7431396443506849753564746664457644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa distribuição_Scinax ariadne",
+        "diskFileName": "13c15445e81ec785d127be0c22ddb8f6.png",
+        "fileName": "Mapa de Scinax ariadne.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie pode ser encontrada em florestas primárias e secundárias na vegetação baixa à beira de córregos, onde se reproduz (Bokermann, 1967).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie. Trata-se de uma espécie rara, pouco comum em coleções.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Praticamente toda a área de distribuição inferida da espécie encontra-se no Parque Nacional da Serra da Bocaina, que encontra-se bem preservado e relativamente isolado. Nesta região, o único impacto potencial é a estrada entre Cunha e Parati, que não é considerado ameaça significativa para a espécie.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "4 - Transportes e serviços de transmissão|4.1 - Estradas e ferrovias",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Cruz & Carvalho-e-Silva, 2004",
+              "title": "Cruz, C.A.G. &amp; Carvalho-e-Silva, S.P. (2004) <I>Scinax ariadne</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55930A11397196.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55930A11397196.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2010",
+              "title": "Estado de São Paulo 21/07/2010 <i>Decreto Estadual nº 56.031 de 20 de julho de 2010. Declara as Espécies da Fauna Silvestre Ameaçadas, as Quase Ameaçadas, as Colapsadas, as Sobrexplotadas, as Ameaçadas de Sobrexplotação e com dados insuficientes para avaliação no Estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "X2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bokermann, 1967",
+              "title": "Dos nuevas especies de <i>Hyla</i> del grupo <i>catharinae</i>"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Recomenda-se estudos no entorno das áreas onde a espécie é encontrada para uma melhor compreensão de sua distribuição, além do monitoramento das subpopulações conhecidas.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bokermann, W.C.A. (1967) Dos nuevas especies de <i>Hyla</i> del grupo <i>catharinae</i>. <i>Neotropica. La Plata</i>. 13, 61–66.",
+          "Cruz, C.A.G. &amp; Carvalho-e-Silva, S.P. (2004) <I>Scinax ariadne</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55930A11397196.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55930A11397196.en</a>.",
+          "Estado de São Paulo 21/07/2010 <i>Decreto Estadual nº 56.031 de 20 de julho de 2010. Declara as Espécies da Fauna Silvestre Ameaçadas, as Quase Ameaçadas, as Colapsadas, as Sobrexplotadas, as Ameaçadas de Sobrexplotação e com dados insuficientes para avaliação no Estado de São Paulo e dá providências correlatas</i>.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "id_ficha": "31373033477061614a79654d45447947353432794a773d3d",
+  "nome_cientifico": "Rhinatrema bivittatum (Guérin-Méneville, 1838)",
+  "nome_cientifico_atual": "Rhinatrema bivittatum (Guérin-Méneville, 1838)",
+  "nome_comum": "Two Banded Caecilia, Two-lined Caecilian",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21485.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=31373033477061614a79654d45447947353432794a773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Rhinatrema bivittatum</i>&nbsp;<span>(Guérin-Méneville, 1838)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "18/02/2025",
+      "justificative": "<p><em>Rhinatrema bivittatum </em>ocorre na América do Sul, no bioma amazônico, sendo conhecida para o Brasil, Guiana Francesa e Suriname. No Brasil, possui ampla distribuição no extremo norte, com registros nos estados do Amapá e norte do Pará. A espécie é fossorial, de difícil encontro, e suas larvas são aquáticas. Ocorre em uma região bem preservada,, sem ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Rhinatrema bivittatum </em>foi avaliada como Menos Preocupante (LC)</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2025. <i>Rhinatrema bivittatum</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21485.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21485.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16531,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Rhinatrematidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Rhinatrema</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Rhinatrema bivittatum</i>"
+        }
+      ],
+      "oldNames": "Caecilia bivittata, Coecilia bivitatum",
+      "commonNames": "Two Banded Caecilia, Two-lined Caecilian",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Rhinatrema bivittatum</em> ocorre na América do Sul, onde é conhecida para o Suriname, Guiana Francesa e Brasil (Frost, 2018). </p>",
+      "nationalDistribution": "<p>No Brasil, há registros da espécie no Amapá e norte do Pará (Nussbaum &amp; Hoogmoed, 1979; Maciel &amp; Hoogmoed, 2011; Queiroz<em> et al</em>., 2011).</p>",
+      "states": "Amapá, Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Foz Amazonas, Sub-bacia Paru",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/7571776c33556c546771744e454a724539747a526a55306b3851654d78756d363667694c6936702b365974777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "16cd646a4afc37c1de9ac29b1e9ddeeb.png",
+        "fileName": "Mapa de Rhinatrema bivittatum.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Rhinatrema bivittatum</em> é uma espécie fossorial de ambientes úmidos florestais, e suas larvas são aquáticas.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Por ser fossorial, a espécie é de difícil encontro. No entanto, é considerada abundante na Guiana Francesa.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças significativas conhecidas para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Gaucher <i>et al.</i>, 2004",
+              "title": "Gaucher, P., MacCulloch, R., Wilkinson, M. &amp; Wake, M. (2004) <i>Rhinatrema bivittatum</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59647A11975672.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59647A11975672.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Amapá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Rio Cajari",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Queiroz <i>et al.</i>, 2011",
+              "title": "Anfíbios de uma área de castanhal da Reserva Extrativista do Rio Cajari, Amapá"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTáVEL DO RIO IRATAPURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre distribuição geográfica, história natural e ecologia ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Ecologia",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Gaucher, P., MacCulloch, R., Wilkinson, M. &amp; Wake, M. (2004) <i>Rhinatrema bivittatum</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59647A11975672.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59647A11975672.en</a>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Maciel, A.O. &amp; Hoogmoed, M.S. (2011) Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. <i>Zootaxa</i>. 2984, 1–53.",
+          "Nussbaum, R.A. &amp; Hoogmoed, M.S. (1979) Surinam Caecilians, with notes on <i>Rhinatrema bivittatum</I> and the description of a new species of <I>Microcaecilia</i> (Amphibia, Gymnophiona). <i>Zoologische Mededelingen</i>. 54 (14), 217-235.",
+          "Queiroz, S.D.S., Ramalho, A., Miranda, F., Lima, J.D. &amp; Lima, J.R.F. (2011) Anfíbios de uma área de castanhal da Reserva Extrativista do Rio Cajari, Amapá. <i>Biota amazônia</i>. 1 (1), 1-18."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

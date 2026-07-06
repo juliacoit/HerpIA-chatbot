@@ -1,0 +1,659 @@
+{
+  "id_ficha": "617a784e774b4241665841717a7457517247664f74773d3d",
+  "nome_cientifico": "Siphlophis longicaudatus (Andersson, 1901)",
+  "nome_cientifico_atual": "Siphlophis longicaudatus (Andersson, 1901)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27917.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=617a784e774b4241665841717a7457517247664f74773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Siphlophis longicaudatus</i>&nbsp;<span>(Andersson, 1901)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Siphlophis longicaudatus </em>é endêmica do Brasil, com registros de ocorrência na Mata Atlântica entre o estado do Espírito Santo e o norte do Rio Grande do Sul e em áreas de Cerrado nos estados de São Paulo, Minas Gerais e Goiás. A espécie é rara em algumas regiões e a perda de vegetação nativa representa ameaça local. No entanto, a espécie possui ampla distribuição e ocorre em diversas unidades de conservação. Assim, as ameaças não devem colocá-la em risco de extinção em curto prazo. Por esses motivos, <em>Siphlophis longicaudatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Siphlophis longicaudatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27917.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27917.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19133,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Siphlophis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Siphlophis longicaudatus</i>"
+        }
+      ],
+      "oldNames": "Dipsas longicaudata, Siphlophis cinereus, Siphlophis longicaudata, Tropidodipsas longicaudata",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Siphlophis longicaudatus </em>é endêmica do Brasil, com registros de ocorrência na Mata Atlântica entre o estado do Espírito Santo ao norte do Rio Grande do Sul, sendo registrada também em áreas de Cerrado nos estados de São Paulo, Minas Gerais e Goiás (Prudente <em>et al</em>., 1998; Zaher &amp; Prudente, 1999; Prudente &amp; Feio, 2001; Marques <em>et al</em>., 2004; Thomassen <em>et al</em>., 2015; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 492.116km2, calculada via mínimo polígono convexo a partir dos registros.</p>",
+      "nationalDistribution": "",
+      "states": "Espírito Santo, Goiás, Minas Gerais, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, São Paulo",
+      "biomes": "Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Iguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/44484731714636355270684d4f594f325a78375552694732443046516971537331734572685234345079597644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "2dcaebd9fd9275b39ecb5b40a7ca0c77.png",
+        "fileName": "Mapa de Siphlophis longicaudatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Siphlophis longicaudatus</em> ocorre principalmente em ambientes densamente florestados e preservados da Mata Atlântica (Prudente &amp; Feio, 2001; Forlani <em>et al</em>., 2010), mas também pode ser encontrada no Cerrado. A espécie é semi-arborícola e pode ter hábito tanto diurno como noturno (Marques <em>et al</em>., 2004; Prudente <em>et al</em>., 1998). Possui dieta especializada em lagartos, mas pode predar outras serpentes (Prudente <em>et al</em>., 1998; Alencar, 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p><em>Siphlophis longicaudatus</em> ocorre principalmente em ambientes densamente florestados e preservados da Mata Atlântica (Prudente &amp; Feio, 2001; Forlani <em>et al</em>., 2010)</p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>S<em>iphlophis longicaudatus</em> apresentou número de indivíduos muito baixo no município de São Paulo, apontando maior sensibilidade em relação à qualidade do ambiente do que outras espécies amostradas (Barbo <em>et al</em>., 2011).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de vegetação nativa é ameaça local para a espécie, mas não deve colocá-la em risco de extinção em curto prazo, uma vez que possui ampla distribuição.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ação específica para a conservação da espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo, A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z &amp; Costa, T.B.G. (2019) <i>Siphlophis longicaudatus</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T203598A123740727.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T203598A123740727.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "Rio Grande do Sul",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            },
+            {
+              "label": "Governo do Estado do Rio Grande do Sul, 2014",
+              "title": "Governo do Estado do Rio Grande do Sul 09/09/2014 <i>Decreto nº 51.797. Declara as Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2002,
+          "coverage": "Rio Grande do Sul",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Marques <i>et al.</i>, 2002",
+              "title": "Marques, A.A.B., Fontana, C.S., Vélez, E., Bencker. G.A., Schneider, M. &amp; Reis, R.E. (2002) <i>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</i> Edição 11 Porto Alegre, FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB), 52pp."
+            }
+          ],
+          "orderBy": "X2002"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA ITUPARARANGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            },
+            {
+              "label": "Marques <i>et al.</i>, 2004",
+              "title": "Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERí-MIRIM AREA II",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "APA SISTEMA CANTAREIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "APA TIETê",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Zaher & Prudente, 1999",
+              "title": "Intraespecific variation of the hemipenis in <i>Siphlophis</i> and <i>Tripanurgos</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL BIRIBIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ano Bom",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Serrinha",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Silvo Agro-Pastoril Gonçalves",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Prudente <i>et al.</i>, 1998",
+              "title": "Alimentação das espécies de <i>Siphlophis</i> Fitzinger (Serpentes, Colubridae, Xenodontinae, Pseudoboini)"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Suspiro",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Zaher & Prudente, 1999",
+              "title": "Intraespecific variation of the hemipenis in <i>Siphlophis</i> and <i>Tripanurgos</i>"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Meandros II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Morro do Curussu Mirim",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Curucutu",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "F. Barbo, com. pess., 2018",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Pithon",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Sítio Ryan",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Voturuna V",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            },
+            {
+              "label": "Thomassen <i>et al.</i>, 2015",
+              "title": "First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Alencar, L.R.V. 2010. <b>Ecomorfologia em serpentes neotropicais: um estudo de caso com a tribo Pseudoboini</b>. Dissertação de Mestrado. Universidade de São Paulo. São Paulo.",
+          "Barbo, F.E.; Marques, O.A.V. &amp; Sawaya, R.J. 2011. Diversity, natural history, and distribution of snakes in the municipality of São Paulo. <b>South American Journal of Herpetology</b>, 6 (3): p.135-160.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Estado do Rio Grande do Sul 09/09/2014. Decreto n.º 51.797, de 8 de setembro de 2014. Espécies da Fauna Silvestre Ameaçadas de Extinção no Estado do Rio Grande do Sul. Disponível em: <a target=\"_blank\" href=\"http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf\">http://www.al.rs.gov.br/filerepository/repLegis/arquivos/DEC%2051.797.pdf</a>.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Marques, A.A.B.; Fontana, C.S.; Vélez, E.; Bencker. G.A.; Schneider, M. &amp; Reis, R.E. 2002. <b>Lista das Espécies da Fauna Ameaçadas de Extinção no Rio Grande do Sul, Decreto nº 41.672, de 11 de Junho de 2002</b>. p.52. FZB/MCTPUCRS/ PANGEA (Publicações Avulsas FZB) Porto Alegre.",
+          "Marques, O.A.V.; Eterovic, A. &amp; Sazima, I. 2004. <b>Snakes of the Brazilian Atlantic Forest: An Illustrate Field Guide for the Serra do Mar</b>. p.205. Holos Ribeirão Preto.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Prudente, A.L. &amp; Feio, R.N. 2001. <i>Sipholophis longicaudatus</i> Geographic distribution. <b>Herpetological Review</b>, 32 (2): p.125.",
+          "Prudente, A.L.C; Moura-Leite, J.C. &amp; Morato, S.A.A. 1998. Alimentação das espécies de <i>Siphlophis</i> Fitzinger (Serpentes, Colubridae, Xenodontinae, Pseudoboini). <b>Revista Brasileira de Zoologia</b>, 15: p.375-383.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo, A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z &amp; Costa, T.B.G. 2019. <i>Siphlophis longicaudatus</I>. <b>The IUCN Red List of Threatened Species 2019: e.T203598A123740727</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T203598A123740727.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T203598A123740727.en</a>.",
+          "Thomassen, H.; Costa, H.C.; Silveira, A.L.; Garcia, P.C.A. &amp; Bérnils, R.S. 2015. First records of the snake <I>Siphlophis leucocephalus</i> (Günther, 1863) in Minas Gerais, Brazil, and a review of the geographic distribution of <I>S. longicaudatus</i> (Andersson, 1901) (Squamata: Dipsadidae). <b>Check List</b>, 11 (3): p.1637.",
+          "Zaher, H. &amp; Prudente, A.L.C. 1999. Intraespecific variation of the hemipenis in <i>Siphlophis</i> and <i>Tripanurgos</i>. <b>Journal of Herpetology</b>, 33 (4): p.698-702."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

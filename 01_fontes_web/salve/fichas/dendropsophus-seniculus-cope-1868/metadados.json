@@ -1,0 +1,571 @@
+{
+  "id_ficha": "7253432f6950614b79786f2f49424b47474b50726e673d3d",
+  "nome_cientifico": "Dendropsophus seniculus (Cope, 1868)",
+  "nome_cientifico_atual": "Dendropsophus seniculus (Cope, 1868)",
+  "nome_comum": "Perereca",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Sistema Costeiro-Marinho",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.18323.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=7253432f6950614b79786f2f49424b47474b50726e673d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Dendropsophus seniculus</i>&nbsp;<span>(Cope, 1868)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Dendropsophus seniculus</em> é endêmica do Brasil, do bioma Mata Atlântica, com registros entre os estados da Bahia e Paraná. A espécie habita florestas primárias e secundárias e é comum nas localidades onde ocorre, sendo facilmente encontrada no período reprodutivo. Embora em algumas localidades onde ocorre haja redução de ambientes florestais ocasionada pela expansão imobiliária, minerária ou atividades agrícolas, sua distribuição é ampla e as ameaças não a colocam em risco de extinção. Por essas razões, <em>Dendropsophus seniculus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Dendropsophus seniculus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.18323.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.18323.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15114,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Dendropsophus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Dendropsophus seniculus</i>"
+        }
+      ],
+      "oldNames": "Güntheria dasynota, Hyla burmeisteri, Hyla dasynotus, Hyla marmorata, Hyla marmorata senicula, Hyla senicula, Hyla vermicularis, Hyla vermiculata",
+      "commonNames": "Perereca",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Dendropsophus seniculus </em>é endêmica do Brasil e ocorre na Mata Atlântica dos estados da Bahia, Minas Gerais, Espírito Santo, Rio de Janeiro, São Paulo e Paraná (Bokermann, 1966; Heyer <em>et al</em>., 1990; Feio <em>et al.</em>, 1998; Pimenta &amp; Silvano, 2001; Bertoluci &amp; Rodrigues, 2002; Abrunhosa <em>et al.</em>, 2006; Canelas &amp; Bertoluci, 2007; Conte <em>et al</em>., 2009; Forlani <em>et al.</em>, 2010; Camurugi <em>et al.</em>, 2010; Silva-Soares <em>et al.</em>, 2010). Sua localidade-tipo é no bairro de Laranjeiras, município do Rio de Janeiro, estado do Rio de Janeiro (Lutz, 1973).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Paraná, Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica, Sistema Costeiro-Marinho",
+      "watersheds": "Sub-bacia Doce, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Litoral RJ, Sub-bacia Litoral RJ SP, Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/376562694d51485751472f6b446142454a6f4838552b44723775656c5a6f58776277474a3753367a65472f6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Dendropsophus seniculus",
+        "diskFileName": "619971044b64fca42af5c2ae0247eaf8.png",
+        "fileName": "Mapa de Dendropsophus seniculus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Dendropsophus seniculus</em> possui hábito noturno e arborícola e é frequentemente encontrada em bordas de mata e ambientes abertos, sendo ocasionalmente registrada no interior de florestas. A reprodução é explosiva e se dá em poças permanentes e temporárias, com grande número de indivíduos formando coros logo após as primeiras chuvas fortes. Os machos vocalizam no chão, em arbustos e até no alto de árvores, e a desova é depositada diretamente na água. Os girinos possuem hábito nectônico e são frequentemente encontrados em meio à vegetação aquática às margens dos corpos d’água (Abrunhosa<em> et al</em>., 2006; Carvalho-e-Silva &amp; Bertoluci, 2010; Eterovick <em>et al</em>., 2020).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> Espécie comum, facilmente encontrada apenas durante a estação reprodutiva. </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> A redução de ambientes florestais ocasionado pela expansão imobiliária, mineração ou atividades agrícolas pode ser uma ameaça para esta espécie. No entanto, são ameaças locais e, considerando a ampla distribuição da espécie, não a colocam em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva & Bertoluci, 2010",
+              "title": "Carvalho-e-Silva, S. P. &amp; Bertoluci, J. (2010) Dendropsophus seniculus. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55653A11348942.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55653A11348942.en</a>."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Guaraqueçaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santos-Pereira <i>et al.</i>, 2016",
+              "title": "Anuran species of the Salto Morato Nature Reserve in Paraná, southern Brazil: review of the species list"
+            },
+            {
+              "label": "Garey & Hartmann, 2012",
+              "title": "Anuros da Reserva Natural Salto Morato, Guaraqueçaba, Paraná, Brasil"
+            },
+            {
+              "label": "Castanho, 2000",
+              "title": "História natural de uma comunidade de anuros da região de Guaraqueçaba, litoral norte do estado do Paraná"
+            }
+          ]
+        },
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Izecksohn & Carvalho-e-Silva, 2001",
+              "title": "Anfíbios do município do Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Teixeira <i>et al.</i>, 2007",
+              "title": "Diversidade anfibios anuros no entorno da Reserva Biológica Augusto Ruschi, Sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO União",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Fusinatto, 2006",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertoluci <i>et al.</i>, 2007",
+              "title": "Species composition and similarities among anuran assemblages of forest sites in Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAÇÃO ECOLÓGICA ESTADUAL WENCESLAU GUIMARÃES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Rodrigues, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CARLOS BOTELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani <i>et al.</i>, 2010",
+              "title": "Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil"
+            },
+            {
+              "label": "Bertoluci <i>et al.</i>, 2007",
+              "title": "Species composition and similarities among anuran assemblages of forest sites in Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CAVERNA DO DIABO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CUNHAMBEBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ouvernay <i>et al.</i>, 2012",
+              "title": "Amphibia, Anura, Parque Estadual do Cunhambebe Itaguaí municipality, Rio de Janeiro state"
+            },
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2008",
+              "title": "Anuros da Reserva Rio das Pedras, Mangaratiba, RJ, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Heyer <i>et al.</i>, 1990",
+              "title": "Frogs of Boracéia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO RIO DOCE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 1998",
+              "title": "Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL INTERVALES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Forlani <i>et al.</i>, 2010",
+              "title": "Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL TURÍSTICO DO ALTO DO RIBEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo <i>et al.</i>, 2010",
+              "title": "Amphibians and reptiles of the Parque Estadual Turístico do Alto Ribeira (PETAR), SP: an Atlantic Forest remnant of Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ALTO DO MUCURI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Feio <i>et al.</i>, 2006",
+              "title": "Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Canelas & Bertoluci, 2007",
+              "title": "Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal"
+            },
+            {
+              "label": "Silveira, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Andrade, 2011",
+              "title": "Anfíbios Anuros da Restinga de Iquiparí, São João da Barra, Rio de Janeiro, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN CEC/Tinguá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN El Nagual",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Figueira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Garey & Hartmann, 2012",
+              "title": "Anuros da Reserva Natural Salto Morato, Guaraqueçaba, Paraná, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Sayonara",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Coroa Vermelha - Gleba C",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Silvano & Pimenta, 2003",
+              "title": "Diversidade e distribuição de anfíbios anuros na Mata Atlântica do Sul da Bahia"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Abrunhosa, P.A.; Wogel, H. &amp; Pombal Jr., J.P. 2006. Anuran temporal occupancy in a temporary pond from the Atlantic rain forest, South-Eastern Brazil. <b>The Herpetological Journal</b>, 16: p.115-122.",
+          "Bertoluci, J. &amp; Rodrigues, M.T. 2002. Utilização de habitats reprodutivos e micro-habitats de vocalização em uma taxocenose de anuros (Amphibia) da Mata Atlântica do sudeste do Brasil. <b>Papéis Avulsos de Zoologia</b>, 42 (11): p.287-297.",
+          "Bokermann, W.C.A. 1966. Notas sobre Hylidae do Espírito Santo (Amphibia, Salientia). <b>Revista Brasileira de Biologia</b>, 26: p.29-37.",
+          "Bressan, P.M.; Kierulff, M.C.M. &amp; Sugieda, A.M. 2009. <b>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</b>. p.645. Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo São Paulo.",
+          "Camurugi, F.; Lima, T.M.; Mercês, E.A. &amp; Juncá, F.A. 2010. Anurans of the Reserva Ecológica da Michelin, Municipality of Igrapiúna, State of Bahia, Brazil. <b>Biota Neotropica</b>, 10 (2): p.305-312.",
+          "Canelas, M.A.S. &amp; Bertoluci, J. 2007. Anuros da Serra do Caraça, sudeste do Brasil: composição de espécies e padrões sazonais de atividade vocal. <b>Iheringia, Série Zoologia</b>, 97: p.21-26.",
+          "Carvalho-e-Silva, S. P. &amp; Bertoluci, J., 2010. Dendropsophus seniculus. The IUCN Red List of Threatened Species 2010: e.T55653A11348942, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55653A11348942.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55653A11348942.en</a>.",
+          "Conte, C.E.; Garey, M.V.; Lingnau, R.; Silva, M.X. Armstrong, C. &amp; Hartmann, M.T. 2009. Amphibia, Anura, <i>Limnomedusa macroglossa</i>, <i>Dendropsophus anceps</i>, <i>D. berthalutzae</i>, <i>D. seniculus</i>, <i>Scinax littoralis</i>: new state records, distribution extension and filling gaps. <b>Check List</b>, 5 (2): p.202-209.",
+          "Estado de Minas Gerais 30/04/2010. Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais. Disponível em: <a target=\"_blank\" href=\"http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192\">http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192</a>. Acessado em: 22/07/2022.",
+          "Eterovick, P.C.; Souza, A.M. &amp; Sazima, I. 2020. <b>Anfíbios Anuros da Serra do Cipó</b>. p.292. Gráfion Estúdio Editorial Belo Horizonte.",
+          "Feio, R.N.; Braga, U.M.L.; Wiederhecker, H.C. &amp; Santos, P.S. 1998. <b>Anfíbios do Parque Estadual do Rio Doce (Minas Gerais)</b>. p.32. Universidade Federal de Viçosa, Instituto Estadual de Florestas Viçosa.",
+          "Forlani, M.C.; Bernardo, P.H.; Haddad, C.F.B. &amp; Zaher, H. 2010. Herpetofauna do Parque Estadual Carlos Botelho, São Paulo, Brasil. <b>Biota Neotropica</b>, 10 (3): p.265-309.",
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "Heyer, W.R.; Rand, A.S.; Cruz, C.A.G.; Peixoto, O.L. &amp; Nelson, C.E. 1990. Frogs of Boracéia. <b>Arquivos de Zoologia, São Paulo</b>, 31 (4): p.235-410.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lutz, B. 1973. <b>Brazilian species of <i>Hyla</i></b>. p.260. University of Texas Press Austin.",
+          "Pimenta, B.V.S. &amp; Silvano, D.L. 2001. Geographic distribution. <i>Hyla senicula</i>. <b>Herpetological Review</b>, 32 (4): p.271.",
+          "Silva-Soares, T.; Hepp, F.; Costa, P.N.; Luna-Dias, C.; Gomes, M.R.; Carvalho-e-Silva, A.M.P.T. &amp; Carvalho-e-Silva, S.P. 2010. Anuran Amphibians from RPPN Campo Escoteiro Geraldo Hugo Nunes, Guapimirim Municipality, Rio de Janeiro, Southeastern Brazil. <b>Biota Neotropica</b>, 10 (2): p.225-233."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

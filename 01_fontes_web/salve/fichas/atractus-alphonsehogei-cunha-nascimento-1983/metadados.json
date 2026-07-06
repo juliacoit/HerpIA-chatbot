@@ -1,0 +1,300 @@
+{
+  "id_ficha": "4d3332705578465278704776337564753354345077773d3d",
+  "nome_cientifico": "Atractus alphonsehogei Cunha & Nascimento, 1983",
+  "nome_cientifico_atual": "Atractus alphonsehogei Cunha & Nascimento, 1983",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27987.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d3332705578465278704776337564753354345077773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus alphonsehogei</i>&nbsp;<span>Cunha & Nascimento, 1983</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "19/12/2022",
+      "justificative": "<p><em>Atractus alphonsehogei </em>é endêmica do Brasil, com registros de ocorrência na porção leste da Amazônia, nos estados do Pará e Maranhão. Trata-se de uma espécie rara, de difícil detecção. Embora possa ser localmente afetada pela redução da vegetação nativa, sua distribuição é relativamente ampla e as ameaças não devem colocá-la em risco de extinção em curto prazo. Por estas razões, <em>Atractus alphonsehogei </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2022. <i>Atractus alphonsehogei</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27987.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27987.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19202,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus alphonsehogei</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p>A subpopulação associada com <em>Atractus alphonsehogei</em> para o município de Presidente Figueiredo, estado do Amazonas (Martin &amp; Oliveira, 1993), corresponde a <em>A. collaris </em>(Passos <em>et al</em>., 2018). Deste modo, <em>A. alphonsehogei </em>possui distribuição restrita ao leste da Amazônia brasileira.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Atractus alphonsehogei</em> é endêmica do Brasil, com distribuição restrita à porção leste da Amazônia, próxima à costa do Atlântico, com ocorrência desde o município de Vigia, no nordeste do estado do Pará, até Santa Inês, no estado do Maranhão (Cunha &amp; Nascimento, 1983; Passos <em>et al</em>., 2018; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência é de 25.458 km2, calculada via mínimo polígono convexo a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Maranhão, Pará",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Gurupi, Sub-bacia Mearim, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/374c7468685363524938675361374f3435316b634373794e38304a37544c4a58673945795354764f4564524b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "fa9a5fcd5be3bcfd2fbe3ea306c76d65.png",
+        "fileName": "Mapa de Atractus alphonsehogei.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Atractus alphonsehogei</em> é fossorial e habita florestas primárias e secundárias do bioma Amazônia. Alimenta-se de minhocas (Cunha &amp; Nascimento, 1983).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "<p>Ocorre em formações florestais primárias e secundárias, na região Amazônica (Cunha &amp; Nascimento, 1983). </p>",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p><em>Atractus alphonsehogei</em> é conhecida, até o momento, apenas da série-tipo, composta por 14 indivíduos, além de dois topótipos adicionais (MPEG 13907–08), todos coletados entre 1972 e 1978. A ausência de amostras em quase 40 anos, bem como sua distribuição relativamente restrita, podem representar evidências substanciais de raridade e endemismo (Passos <em>et al</em>., 2018).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda de hábitat decorrente do amplo desmatamento ao longo da distribuição da espécie nas últimas três décadas, principalmente pela expansão de atividades agropecuárias, constitui uma das maiores ameaças à espécie (Passos <em>et al</em>., 2018). No entanto, sua distribuição é relativamente ampla, e as ameaças não devem colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.4 - Agricultura de escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Passos<em> et al.</em> (2018) propõem a criação de uma Unidade de Conservação na região costeira da Floresta Amazônica brasileira, visto que esta área abriga diversas outras espécies com endemismo restrito.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silveira <i>et al.</i>, 2019",
+              "title": "Silveira, A.L., Prudente, A.L.C., Argôlo , A.J.S., Abrahão, C.R., Nogueira, C.C., Barbo, F.E., Costa, G.C., Pontes, G.M.F., Colli, G.R., Zaher, H., Borges-Martins, M., Martins, M.R.C., Oliveira , M.E., Passos, P.G.H., Bérnils, R.S., Sawaya, R.J., Cechin, C.T.Z. &amp; Costa, T.B.G. (2019) <I>Atractus alphonsehogei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15157797A123738628.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15157797A123738628.en</a>."
+            }
+          ],
+          "orderBy": "Y2012"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Criação de áreas protegidas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos que abordem a distribuição geográfica, história natural e dinâmica populacional são indicados para melhor compreender o estado de conservação da espécie e os efeitos das alterações do ambiente natural.</p>",
+      "table": [
+        {
+          "theme": "Conservação",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cunha, O.R. &amp; Nascimento, F.P. 1983. Ofídios da Amazônia XX - As especies de <i>Atractus</i> Wagler, 1828, na Amazônia oriental e Maranhão (Ophidia, Colubridae). <b>Boletim do Museu Paraense Emílio Goeldi, série Zoologia</b>, 123: p.1-38.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Martins, M. &amp; Oliveira, E.M. 1993. The snakes of the genus <i>Atractus</i> (Reptilia: Squamata: Colubridae) from the Manaus region, central Amazonia, Brazil. <b>Zoologische Mededelingen</b>, 67: p.21–40.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Passos, P.; Prudente, A.C.; Ramos, L.O.; Caicedo-Portilla, J.R. &amp; Lynch, J.D. 2018. Species delimitations in the <I>Atractus collaris</i> complex (Serpentes: Dipsadidae). <b>Zootaxa</b>, 4392 (3): p.491-520.",
+          "Silveira, A.L.; Prudente, A.L.C.; Argôlo , A.J.S.; Abrahão, C.R.; Nogueira, C.C.; Barbo, F.E.; Costa, G.C.; Pontes, G.M.F.; Colli, G.R.; Zaher, H.; Borges-Martins, M.; Martins, M.R.C.; Oliveira , M.E.; Passos, P.G.H.; Bérnils, R.S.; Sawaya, R.J.; Cechin, C.T.Z. &amp; Costa, T.B.G. 2019. <I>Atractus alphonsehogei</i>. <b>The IUCN Red List of Threatened Species 2019: e.T15157797A123738628</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15157797A123738628.en\">http://dx.doi.org/10.2305/IUCN.UK.2019-2.RLTS.T15157797A123738628.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

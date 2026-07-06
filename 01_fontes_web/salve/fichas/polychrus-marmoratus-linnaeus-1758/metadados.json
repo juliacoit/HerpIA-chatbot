@@ -1,0 +1,575 @@
+{
+  "id_ficha": "4d61553939533037534f46326657392b6872763475513d3d",
+  "nome_cientifico": "Polychrus marmoratus (Linnaeus, 1758)",
+  "nome_cientifico_atual": "Polychrus marmoratus (Linnaeus, 1758)",
+  "nome_comum": "bicho-preguiça, bico-doce, camaleão, papa-vento",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35738.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=4d61553939533037534f46326657392b6872763475513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Polychrus marmoratus</i>&nbsp;<span>(Linnaeus, 1758)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "25/03/2026",
+      "justificative": "<p><em>Polychrus marmoratus</em> possui ampla distribuição na América do Sul, com ocorrência no Brasil e outros países da região amazônica. No Brasil, é encontrada em toda a Amazônia e na Mata Atlântica entre a Paraíba e São Paulo, ocorrendo também em brejos de altitude do Nordeste. Parece ser abundante em diversas localidades, possui ampla distribuição no Brasil e não há ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>P. marmoratus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Polychrus marmoratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35738.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35738.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24398,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Polychrotidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Polychrus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Polychrus marmoratus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "bicho-preguiça, bico-doce, camaleão, papa-vento",
+      "taxonomicNotes": "<p><em>Polychrus marmoratus </em>é um complexo de espécies, com populações da Mata Atlântica, das Guianas e do restante da Amazônia (Brasil, Equador e Peru) representado supostas espécies distintas (Torres-Carvajal <em>et al</em>., 2017). Foi avaliado aqui como unidade taxonômica.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Polychrus marmoratus</em> possui ampla distribuição na América do Sul, com ocorrência no Brasil e outros países da região amazônica (Avila-Pires, 1995; Markezich, 2002; MacCulloch <em>et al</em>., 2007; Cole <em>et al</em>., 2013; Ribeiro-Júnior, 2015; Torres-Carvajal <em>et al</em>., 2017).</p>",
+      "nationalDistribution": "<p>No país, <em>Polychrus marmoratus</em> é encontrado em toda a Amazônia e na Mata Atlântica entre a Paraíba e São Paulo, ocorrendo também em brejos de altitude do Nordeste (Avila-Pires, 1995; Ribeiro-Júnior, 2015; Roberto &amp; Loebmann, 2016; Torres-Carvajal <em>et al</em>., 2017).</p>",
+      "states": "Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Paraíba, Pernambuco, Rio de Janeiro, Rio Grande do Norte, Rondônia, Roraima, São Paulo, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Foz Amazonas, Sub-bacia Gurupi, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Litoral SP, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraíba, Sub-bacia Paranaíba, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Paru, Sub-bacia Piranhas, Sub-bacia São Francisco Submédio, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Trombetas, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/726d46746c73686f4d4a4c3241697962534e6559512f2b463056536a747234713367626e66474a35686e666e4c6b6578357476663470504c6447375035785151",
+        "legend": "Polychrus marmoratus",
+        "diskFileName": "3b9954c1537ea7cae70a2efbea1fbd61.png",
+        "fileName": "Mapa de Polychrus marmoratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Polychrus marmoratus </em>é arborícola, diurna e habita ambientes florestais, normalmente encontrada nos ramos de arbustos ou árvores e menos frequentemente no chão. A espécie também é registrada em áreas de várzea, igapó, florestas secundárias e áreas urbanas (jardins) (Avila-Pires, 1995). Alimenta-se de invertebrados, com uma variedade de insetos e aranhas, e material vegetal, como folhas, frutos e sementes (Avila-Pires, 1995). Indivíduos do sul da Bahia tiveram sua dieta composta exclusivamente de formigas (Tinôco, 2004). Há registro de predação por aves, serpentes e macacos (Cassimiro &amp; Martins, 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais para a espécie, que é de encontro difícil devido à coloração críptica e ocorrência em dossel (Gasc, 1990; Avila-Pires, 1995). Ainda assim, parece ser abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>As subpopulações da Mata Atlântica estão sob intenso processo de fragmentação de habitat e as subpopulações dos brejos da Caatinga de altitude possuem alto grau de isolamento. No entanto, considerando sua grande distribuição, essas ameaças não colocam a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 1998,
+          "coverage": "São Paulo",
+          "category": "Outras (OUTRA)*",
+          "oficialCategory": false,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "São Paulo, 1998",
+              "title": "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X1998"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Insular",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA de Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Saracá-Taquera",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra da Mocidade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2017",
+              "title": "The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest"
+            }
+          ]
+        },
+        {
+          "name": "APA PIRACICABA JUQUERI MIRIM ÁREA I",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bertolotto <i>et al.</i>, 2001",
+              "title": "Banding patterns, multiple sex chromosome system and localization of telomeric (TTAGGG) n sequences by FISH on two species of <i>Polychrus</i> (Squamata, Polychrotidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ILHABELA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA TRAÇADAL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Microhabitat variation explains local‐scale distribution of terrestrial Amazonian lizards in Rondônia, Western Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL MAMIRAUÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA REGIÃO METROLPOLITANA DE BELÉM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "GBIF - Global Biodiversity Information Facility, 2014",
+              "title": "<i>Polychrus marmoratus</i> (Linnaeus, 1758)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Borges-Nojosa & Caramaschi, 2003",
+              "title": "Composição e análise comparativa da diversidade e das afinidades biogeográficas dos lagartos e anfisbenídeos (Squamata) dos brejos nordestinos"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Avila-Pires, 1995",
+              "title": "Lizards of Brazilian Amazonia (Reptilia: Squamata)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO ARQUIPÉLAGO DO MARAJÓ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PONTA DA BALEIA / ABROLHOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "CRISTALINO III",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Polychrus marmoratus</i>"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Cachoeira Boa Vista",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfino & Rabello, 2007",
+              "title": "Resultados preliminares do levantamento da ordem Squamata (lagartos e serpentes) da Estação Ambientel Ilha do Meirelles, Cachoeiro de Itapemirim/ES"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Pioneira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1987",
+              "title": "Os répteis da área de Carajás, Pará, Brasil (Squamata). II"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa do Peixe",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lote Urbano",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Unidade de Conservação de Galheiros",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Guamá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Delfim, 2012",
+              "title": "Riqueza e padrões de distribuição dos lagartos do Domínio Morfoclimático da Caatinga"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É necessária revisão taxonômica para delimitação das espécies do complexo.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Cassimiro, J. &amp; Martins, W.P. (2011) <i>Polychrus marmoratus</i> (Common Monkey Lizard; Bichopreguica). Predation. <i>Herpetological Review</i>. 42 (3), 432-433.",
+          "Cole, C.J., Townsend, C.R., Reynolds, R.P., MacCulloch, R.D. &amp; Lathrop, A. (2013) Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. <i>Proceedings of the Biological Society of Washington</i>. 125 (4), 317-578.",
+          "Gasc, J.P. (1990) <i>Les lezards de Guyane</i> Paris, Raymond Chabanaud, 76pp.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "MacCulloch, R.D., Lathrop, A., Reynolds, R.P., Señaris, J.C. &amp; Schneider, G.E. (2007) Herpetofauna of Mount Roraima, Guiana Shield Region, Northeastern South America. <i>Herpetological Review</i>. 38 (1), 24-30.",
+          "Markezich, A. (2002) New distribution records of reptiles from Western Venezuela. <i>Herpetological Review</i>. 33 (1), 69-74.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "São Paulo 07/02/1998 <i>Decreto nº 42.838 de 4 de fevereiro de 1998. Declara as espécies da fauna silvestre ameaçadas de extinção e as provavelmente ameaçadas de extinção no estado de São Paulo e dá providências correlatas</i>.",
+          "Tinôco, M. S. (2004) <i>Variação da composição da comunidade de artrópodes das formações florestadas do extremo sul da Bahia: disponibilidade de recursos alimentares para lagartos e sapos de folhiço</i>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador.",
+          "Torres-Carvajal, O., Koch, C., Venegas, P.J. &amp; Poe, S. (2017) Phylogeny and diversity of neotropical monkey lizards (Iguanidae: <i>Polychrus</i> Cuvier, 1817). <i>PloS One</i>. 12 (6), e0178139."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

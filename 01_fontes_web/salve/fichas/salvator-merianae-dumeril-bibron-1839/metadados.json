@@ -1,0 +1,987 @@
+{
+  "id_ficha": "2f44576b2b4c377168644439356a5a656a77355063773d3d",
+  "nome_cientifico": "Salvator merianae Duméril & Bibron, 1839",
+  "nome_cientifico_atual": "Salvator merianae Duméril & Bibron, 1839",
+  "nome_comum": "tegu, teiu, teiú-preto-e-branco, teju, tiu",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35752.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=2f44576b2b4c377168644439356a5a656a77355063773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Salvator merianae</i>&nbsp;<span>Duméril & Bibron, 1839</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "12/05/2026",
+      "justificative": "<p><em>Salvator merianae</em> possui registros no Brasil, Paraguai, Uruguai, Argentina e Bolívia. A espécie possui ampla distribuição no Brasil, ocorrendo em todos os biomas e quase todos os estados. Foi introduzida no arquipélago de Fernando de Noronha. A espécie é abundante em diversas localidades e ocorre principalmente em ambientes abertos, inclusive áreas antropizadas. Não há ameaças que possam colocá-la em risco de extinção em curto prazo. Portanto, <em>S. </em><em>merianae</em> foi avaliada como Menos Preocupante (LC). </p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Salvator merianae</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35752.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35752.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24412,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Teiidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Salvator</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Salvator merianae</i>"
+        }
+      ],
+      "oldNames": "Tupinambis merianae",
+      "commonNames": "tegu, teiu, teiú-preto-e-branco, teju, tiu",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Salvator merianae</em> possui registros no Brasil, Paraguai, Uruguai, Argentina e Bolívia (Donadio &amp; Gallardo, 1985; Fitzgerald <em>et al</em>., 1999; Mieres &amp; Fitzgerald, 2006; Harvey <em>et al</em>., 2012). A espécie foi introduzida no sul da Flórida, nos Estados Unidos (Pernas <em>et al</em>., 2012).</p>",
+      "nationalDistribution": "<p>A espécie possui ampla distribuição no Brasil, com registros em todas regiões, desde o sul e leste da Amazônia até o litoral e sul do país, incluindo algumas ilhas costeiras (Fitzgerald <em>et al</em>., 1999; Castro &amp; Galetti, 2004; Rocha &amp; Van-Sluys, 2006; Bovendorp <em>et al</em>., 2008; Chiarello <em>et al</em>., 2010; Winck <em>et al</em>., 2011a; Harvey <em>et al</em>., 2012). Há uma população introduzida no arquipélago de Fernando de Noronha (Pernas<em> et al</em>., 2012).</p>",
+      "states": "Alagoas, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Santa Catarina, São Paulo, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Guaíba, Sub-bacia Iguaçu, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Madeira, Sub-bacia Mearim, Sub-bacia Paraguai 01, Sub-bacia Paraguai 02, Sub-bacia Paraguai 03, Sub-bacia Paraíba do Sul, Sub-bacia Paranaíba, Sub-bacia Paranapanema, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Piranhas, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio, Sub-bacia Tietê, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo, Sub-bacia Uruguai Alto, Sub-bacia Xingu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6b6b7075452b706964707550574f34616432556b364a4c687a306b543779377434594d53654e30714f556f7644426c347748384e476b4d725073304275487441",
+        "legend": "Salvator merianae.",
+        "diskFileName": "85ea5b3d27f48b7c405d1f9623a84b69.png",
+        "fileName": "Mapa de Salvator merianae.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Salvator merianae </em>ocorre em uma ampla variedade de ambientes, em todos os biomas brasileiros, e pode ocupar áreas antrópicas. Pode ser encontrada em fitofisionomias de vegetação herbácea e de zonas úmidas permanentes e temporárias, vegetação de moitas arbustivas e mata de restinga, como no litoral norte da Bahia (Tinôco, com. pess. 2013). </p> \n<p>Possui atividade diurna, forragemento ativo e alimentação onívora, composta por plantas, vertebrados, ovos e até mesmo matéria em decomposição (Kiefer &amp; Sazima, 2002; Castro &amp; Galetti, 2004; Toledo <em>et al</em>., 2004; Machado, 2007; Couto-Ferreira <em>et al</em>., 2011). As fêmeas nidificam em mata e constroem ninhos com serapilheira, onde depositam em torno de 30 ovos, com tempo de eclosão de aproximadamente 90 dias; os filhotes nascem com aproximadamente 20 cm de comprimento total entre os meses de janeiro e março (Yanosky &amp; Mercolli, 1992). Em cativeiro, a espécie pode viver até 17 anos (Brito <em>et al</em>., 2001). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": "<p>De acordo com o trabalho de Winck <em>et al</em>. (2011), o maior macho da espécie mediu 488 mm (CRC) e 427 mm (TL) (SVL, média= 416±3.5 mm, N=34) e a maior fêmea 420 mm (CRC) e 468 (TL) (CRC, média= 377±23 mm, N = 6). Tamanhos dos sub-adultos variaram de 213 à 283 mm de CRC (média= 53.7±20.4 mm, N= 18). Apenas foi possível verificar o crescimento de um juvenil macho: aumento de 30 mm no CRC depois de 82 dias (média= 11.0 mm/mês).</p>"
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é comum e abundante em diversas localidades. Winck <em>et al</em>. (2017) conduziram estudos populacionais com a espécie em diversas subpopulações de restingas do estado do Rio de Janeiro. Na ESEC Taim (município de Santa Vitoria do Palmar, RS), Winck <em>et al</em>. (2011) estudaram a dinâmica populacional da espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p><em>Salvator merianae</em> é visada para a comercialização ilegal das suas peles (Mieres &amp; Fitzgerald, 2006), bem como para consumo humano (Caldironi &amp; Manes, 2006; Araujo &amp; Almeida-Santos, 2011). Também é capturada para o uso como animal de estimação (Araujo &amp; Almeida-Santos, 2011; Pernas <em>et al</em>., 2012). Em algumas localidades, como no litoral da Bahia, pode ser afetada pela perda de habitat. Apesar das ameaças, não há evidências de declínio populacional severo, e essas ameaças não colocam a espécie em risco de extinção em curto prazo.</p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.1 - Uso de subsistência/escambo local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.2 - Comercial - Nacional/Local",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.1 - Caça e captura de animais terrestres ou marinhos|5.1.1 - Caça/captura intencional (a espécie é o alvo)|5.1.1.3 - Comercial - Internacional",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>O couro da espécie é utilizado na confecção de diversos artefatos (Mieres &amp; Fitzgerald, 2006) e sua carne, para consumo humano (Caldironi &amp; Manes, 2006; Araujo &amp; Almeida-Santos, 2011). Também é capturada para manutenção como animais de estimação (Araujo &amp; Almeida-Santos, 2011; Pernas <em>et al</em>., 2012).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "1 - Alimentação humana|1.1 - Caça de subsistência",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "3 - Animais de estimação/ornamentais",
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": "12 - Vestuário, acessório",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2016,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2016"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2024,
+          "coverage": "Paraná",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Paraná, 2024",
+              "title": "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>"
+            }
+          ],
+          "orderBy": "X2024"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Pará",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado do Pará, 2007",
+              "title": "Estado do Pará (2007) Resolução nº 54 de 24 de Outubro de 2007: Homologa a Lista de Espécies da Flora e da Fauna Ameaçadas no Estado do Pará, Anexo I."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 1977,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "APA da Bacia do Rio São João - Mico-Leão-Dourado",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Serra Geral do Tocantins",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caldas <i>et al.</i>, 2016",
+              "title": "Herpetofauna of protected areas in the Caatinga V: Seridó Ecological Station (Rio Grande do Norte, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Taim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Negreiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2015",
+              "title": "Herpetofauna em remanescente de Caatinga no Sertão de Pernambuco, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Marinho de Fernando de Noronha",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Restinga de Jurubatiba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Capivara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN, 2019",
+              "title": "Base de dados de pesquisa para testes de protocolo do Programa Monitora"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra das Confusões",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Arias <i>et al.</i>, 2011",
+              "title": "Two new species of <i>Cnemidophorus</i> (Squamata: Teiidae) from the Caatinga, northwest Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro <i>et al.</i>, 2019",
+              "title": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Campos Amazônicos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "F. Werneck, com. pess., 2020",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Poço das Antas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA MARINHA DO LITORAL NORTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bovendorp <i>et al.</i>, 2008",
+              "title": "Density of the tegu lizard (<i>Tupinambis merianae</i>) and its role as nest predator at Anchieta Island, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESTAçãO ECOLóGICA DE SANTA BáRBARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Araujo <i>et al.</i>, 2014",
+              "title": "Lizards from Estação Ecológica de Santa Bárbara, a remnant of Cerrado in the state of São Paulo, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL ALTAMIRO DE MOURA PACHECO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA COSTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA ANCHIETA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bovendorp <i>et al.</i>, 2008",
+              "title": "Density of the tegu lizard (<i>Tupinambis merianae</i>) and its role as nest predator at Anchieta Island, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA BIOLÓGICA ESTADUAL DA PRAIA DO SUL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA BACIA DO RIO MACACU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Vrcibradic <i>et al.</i>, 2011",
+              "title": "Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho <i>et al.</i>, 2007",
+              "title": "Lagartos da Marambaia, um remanescente insular de Restinga e Floresta Atlântica no estado do Rio de Janeiro, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MARICÁ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL JOÃO LEITE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ramalho <i>et al.</i>, 2018",
+              "title": "Herpetofauna of Parque Estadual Altamiro de Moura Pacheco: one of the last remnants of seasonal forest in the core region of the Brazilian Cerrado"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL POUSO ALTO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE MASSAMBABA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "APA DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE GRUMARI",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "G.R. Winck, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "FAZENDA CARUARA",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Winck <i>et al.</i>, 2011",
+              "title": "Squamata, Iguania, <i>Anolis punctatus</i> (Daudin, 1802) and <i>Tropidurus torquatus</i> (Wied, 1820): Distribution extension and new records for Ilha Grande, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Chácara Mangueiras",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Maurício Dantas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "Campo Bonito",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Grilo <i>et al.</i>, 2018",
+              "title": "Brazil road-kill: a dataset of wildlife terrestrial vertebrate road-kills"
+            }
+          ]
+        },
+        {
+          "name": "Estrada do Mar",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Dal Vechio <i>et al.</i>, 2013",
+              "title": "The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Ilhas da Tapera/São Félix/Porto",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "Parque do Aripuanã",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        },
+        {
+          "name": "Xikrin do Rio Catete",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "CHUNB - Coleção Herpetológica da Universidade de Brasília, 2014",
+              "title": "<i>Salvator merianae</i>"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Araujo, C.O. &amp; Almeida-Santos, S.M. (2011) Herpetofauna de um remanescente de Cerrado no estado de São Paulo, sudeste do Brasil. <i>Biota Neotropica</i>. 11, 47-62.",
+          "Avila-Pires, T.C.S. (1995) Lizards of Brazilian Amazonia (Reptilia: Squamata). <i>Zoologische Verhandelingen</i>. 299, 1-706.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bovendorp, R.S., Alvarez, A.D. &amp; Gialetti, M. (2008) Density of the tegu lizard (<i>Tupinambis merianae</i>) and its role as nest predator at Anchieta Island, Brazil. <i>Neotropical Biology and Conservation</i>. 3 (1), 9-12.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Brito, S. P., Abe, A. S. &amp; Andrade, D. V. (2001) <i>Tupinambis merianae</i> (Tegu lizard). Longevity. <i>Herpetological Review</i>. 32 (4), 260-261.",
+          "Caldironi, H. A. &amp; Manes, M. E. (2006) Proximate composition, fatty acids and cholesterol content of meat cuts from tegu lizard <i>Tupinambis merianae</i>. <i>Journal of Food Composition and Analysis</i>. 19 (6-7), 711-714.",
+          "Castro, R.E. &amp; Galetti, M. (2004) Frugivory and seed dispersal by the tegu lizard <i>Tupinambis merianae</i> (Reptilia: Teiidae). <i>Papéis Avulsos de Zoologia (São Paulo)</i>. 44 (6), 91-97.",
+          "Chiarello, A, Srbek-Araujo, A., Del-Duque Jr, H., Coelho, E. &amp; Rocha, C. (2010) Abundance of tegu lizards (<i>Tupinambis merianae</i>) in a remnant of the Brazilian Atlantic forest. <i>Amphibia-Reptilia</i>. 31 (4), 563-570.",
+          "Couto-Ferreira, D., Tinôco, M.S., Oliveira, M.L.T., Browne-Ribeiro, H.C., Fazolato, C.P., Silva, R.M., Barreto, G.S. &amp; Dias, M.A. (2011) Restinga lizards (Reptilia: Squamata) at the Imbassaí Preserve on the northern coast of Bahia, Brazil. <i>Journal of Threatened Taxa</i>. 3 (8), 1990-2000.",
+          "Donadio, O.E. &amp; Gallardo, J.M. (1985) Biologia y conservacion de las especies del genero <i>Tupinambis</i> (Squamata, Sauria Teiidae) en la republica Argentina. <i>Revista del Museo Argentino de Ciencias Naturales \"Bernardino Rivadavia\" e Instituto Nacional de Investigacion de las Ciencias Naturales Zoologia</i>. 13, 117-127.",
+          "Estado do Pará (2007) Resolução nº 54 de 24 de Outubro de 2007: Homologa a Lista de Espécies da Flora e da Fauna Ameaçadas no Estado do Pará, Anexo I.",
+          "Fitzgerald, L.A., Cook, J.A. &amp; Aquino, A.L. (1999) Molecular phylogenetics and conservation of <i>Tupinambis</i> (Sauria : Teiidae). <i>Copeia</i>. (4), 894-905.",
+          "Harvey, M.B., Ugueto, G.N. &amp; Gutberlet Jr., R.L. (2012) Review of teiid morphology with a revised taxonomy and phylogeny of the Teiidae (Lepidosauria: Squamata). <i>Zootaxa</i>. 3459 (1), 156.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Kiefer, M. C. &amp; Sazima, I. (2002) Diet of juvenile tegu lizard <i>Tupinambis merianae</i> (Teiidae) in southeastern Brazil. <i>Amphibia-Reptilia</i>. 23 (1), 105-108.",
+          "Machado, A.R. (2007) <i>Tupinambis merianae</i> (tiu, teiu, tegu, or teju): diet. <i>Herpetological Review</i>. 38 (1), 84.",
+          "Mieres, M.M. &amp; Fitzgerald, L.A. (2006) Monitoring and managing the harvest of tegu lizards in Paraguay. <i>The Journal of Wildlife Management</i>. 70 (6), 1723-1734.",
+          "Paraná 05/06/2024 <i><i>Decreto nº 6.040, 5 de junho de 2024.</i> Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências. Diário Oficial do Estado do Paraná nº11673.</i>",
+          "Pernas, T., Giardina, D J., McKinley, A., Parns, A. &amp; Mazzotti, F.J. (2012) First observations of nesting by the Argentine black and white tegu, <i>Tupinambis merianae</i>, in south Florida. <i>Southeastern Naturalist</i>. 11 (4), 765-770.",
+          "Rocha, C.F.D. &amp; Van-Sluys, M. (2006) New records of reptiles from Ilha Grande Island in Rio de Janeiro State, Brazil. <i>Herpetological Review</i>. 37 (1), 112-114.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Toledo, L. F., Prado, C. P. A. &amp; Andrade, D. V. (2004) <i>Tupinambis merianae</i> (tegu lizard). Fungivory. <i>Herpetological Review</i>. 35 (2), 173-174.",
+          "Winck, G.R., Almeida-Santos, M., Dorigo, T.A., Telles, F.B. &amp; Rocha, C.F.D. (2017) When invasion may not be harmful: niche relations in a lizard assemblage. <i>Biotropica</i>. 49 (1), 117-129.",
+          "Winck, G.R., Blanco, C.C. &amp; Cechin, S.Z. (2011) Population ecology of <i>Tupinambis merianae</i> (Squamata, Teiidae): home-range, activity and space use. <i>Animal Biology</i>. 61, 493-510.",
+          "Winck, G.R., Blanco, C.C. &amp; Cechin, S.Z. (2011b) Population ecology of <i>Tupinambis merianae</i> (Squamata, Teiidae): home-range, activity and space use. <i>Animal Biology</i>. 61, 493-510.",
+          "Winck, G.R., Vrcibradic, D., Telles, F.B.S., Borges-Júnior, V.N.T., van Sluys, M. &amp; Rocha, C.F.D. (2011a) Squamata, Iguania, <i>Anolis punctatus</i> (Daudin, 1802) and <i>Tropidurus torquatus</i> (Wied, 1820): Distribution extension and new records for Ilha Grande, state of Rio de Janeiro, southeastern Brazil. <i>Check List</i>. 7 (3), 270-271.",
+          "Yanosky, A.A. &amp; Mercolli, C. (1992) Some observations on the growth and related topics in juvenile tegu lizards (<i>Tupinambis teguixin</i>). <i>Archivos de Zootecnia</i>. 41 (153), 265-278."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

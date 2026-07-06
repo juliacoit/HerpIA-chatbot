@@ -1,0 +1,311 @@
+{
+  "id_ficha": "30452b6b6376533277307673626c4c7253674f6239773d3d",
+  "nome_cientifico": "Aplastodiscus sibilatus (Cruz, Pimenta & Silvano, 2003)",
+  "nome_cientifico_atual": "Aplastodiscus sibilatus (Cruz, Pimenta & Silvano, 2003)",
+  "nome_comum": "Perereca",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17878.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=30452b6b6376533277307673626c4c7253674f6239773d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Aplastodiscus sibilatus</i>&nbsp;<span>(Cruz, Pimenta & Silvano, 2003)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Aplastodiscus sibilatus</em> é endêmica do Brasil, com registros de ocorrência na Mata Atlântica da porção litorânea central do estado da Bahia. A espécie é de difícil encontro e, embora ocorra em uma região bastante desmatada, pode ser encontrada em áreas sob efeito antrópico. Além disso, ainda restam fragmento florestais bem preservados ao longo de sua distribuição, incluindo unidades de conservação. Não há ameaças evidentes que possam colocar a espécies em risco de extinção. Por essas razões, <em>Aplastodiscus sibilatus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Aplastodiscus sibilatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17878.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17878.2",
+      "photo": {
+        "authorName": "Marco Antônio de Freitas",
+        "authorEmail": "philodryas@hotmail.com",
+        "date": "dd/MM/yyyy",
+        "diskFileName": "b82f7f61931daf7bad12c2c7ae37140d.jpg",
+        "fileName": "Aplastodiscus sibilatus by Marco Freitas.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/2b58346158656c32306644474d306a63763375634d75414e6f654c416f726a71617835722f37396e7a7936462b776455784f514b2b5355317a4962486351614d/full"
+      },
+      "version": 2,
+      "versionId": 15041,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Aplastodiscus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Aplastodiscus sibilatus</i>"
+        }
+      ],
+      "oldNames": "Hyla sibilata",
+      "commonNames": "Perereca",
+      "taxonomicNotes": "<p>Registros de ocorrência associados a <em>Aplastodiscus sibilatus</em> no estado de Alagoas (Lima <em>et al</em>., 2006; Valencia-Aguilar <em>et al</em>., 2016) correspondem a espécie ainda não descrita (Berneck <em>et al</em>., 2016).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Aplastodiscus sibilatus</em> é endêmica do Brasil, com registros de ocorrência na Mata Atlântica da porção litorânea central do estado da Bahia, entre 20 e 720 metros de altitude (Cruz <em>et al</em>., 2003; Abrunhosa <em>et al</em>., 2005; Juncá, 2006; Carumugi <em>et al</em>., 2010; Mercês &amp; Juncá, 2010; Haddad <em>et al</em>., 2013; Dias <em>et al</em>., 2014; Rossa-Feres <em>et al</em>., 2017). Sua localidade-tipo é a Fazenda Subaúma, no município de Cairu (Cruz <em>et al</em>., 2003), e sua extensão de ocorrência é de 8.063 km2, calculada via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Bahia",
+      "biomes": "Caatinga, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru-Paraguaçu",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/30726536783559724b42666e6f774242556472745143317646534652314d6f4f49787655325662736130644b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "25255057b8dfab00b88ea41d1dbf3f77.png",
+        "fileName": "Mapa de Aplastodiscus sibilatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> <em>Aplastodiscus sibilatus </em>ocorre associada a florestas de restinga arbórea do litoral, porém também pode ser encontrada em área de transição de floresta ombrófila densa com mata mesofídica pouco perturbada (Cruz <em>et al</em>., 2004). A espécie já foi registrada também em ambiente de restinga com domínio natural da “palmeira-de-piaçava” (<em>Attalea funifera</em>) e denso subbosque. Sua reprodução acontece em remansos lentos de córregos de corrente rápida, e os machos vocalizam em diferentes micro hábitats, como a copa de árvores baixas, arbustos, bromélias terrestres, axilas de folhas de ciperáceas e sob a serrapilheira (Cruz <em>et al</em>., 2004; Mercês &amp; Juncá, 2010). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> Não há informações populacionais disponíveis, mas a espécie é de difícil encontro. </p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> A Mata Atlântica do nordeste vem sofrendo com a perda e desconexão de hábitat, provocadas principalmente por atividades agropecuárias e ocupação urbana. No entanto, não há evidências de que essas ameaças possam colocar a espécie em risco de extinção em curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Aplastodiscus sibilatus</em> é listada como espécie alvo para a conservação da biodiversidade do estado da Bahia (WWF-Brasil, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Cruz <i>et al.</i>, 2004",
+              "title": "Cruz, C.A.G., Pimenta, B. &amp; Silvano, D. (2004) <i>Aplastodiscus sibilatus</i>. <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55654A11349131.en\">https://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55654A11349131.en</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL COSTA DE ITACARÉ/ SERRA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moraes, 2008",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO CORREDOR ECOLÓGICO LAGOA ENCANTADA / SERRA DO CONDURU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Abrunhosa, P.A.; Pimenta, B.V.S.; Cruz, C.A.G. &amp; Haddad, C.F.B. 2005. Advertisement calls of species of the <i>Hyla albosignata</i> group (Amphibia, Anura, Hylidae). <b>Arquivos do Museu Nacional</b>, 63 (2): p.275-282.",
+          "Berneck, B.V.M.; Haddad, C.F.B.; Lyra, M.L.; Cruz, C.A.G. &amp; Faivovich, J. 2016. The green clade grows: a phylogenetic analysis of <i>Aplastodiscus</i> (Anura; Hylidae). <b>Molecular Phylogenetics and Evolution</b>, 97: p.213-223.",
+          "Camurugi, F.; Lima, T.M.; Mercês, E.A. &amp; Juncá, F.A. 2010. Anurans of the Reserva Ecológica da Michelin, Municipality of Igrapiúna, State of Bahia, Brazil. <b>Biota Neotropica</b>, 10 (2): p.305-312.",
+          "Cruz, C.A.G.; Pimenta, B. &amp; Silvano, D. 2004. <i>Aplastodiscus sibilatus</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55654A11349131</b>. Disponível em: <a target=\"_blank\" href=\"https://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55654A11349131.en\">https://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55654A11349131.en</a>.",
+          "Cruz, C.A.G.; Pimenta, B.V.S. &amp; Silvano, D.L. 2003. Duas novas espécies pertencentes ao complexo de <i>Hyla albosignata</i> Lutz & Lutz, 1938, do leste do Brasil (Amphibia, Anura, Hylidae). <b>Boletim do Museu Nacional. Nova Serie, Zoologia. Rio de Janeiro</b>, 503: p.1–13.",
+          "Dias, I.R.; Mira-Mendes, C.V. &amp; Solé, M. 2014. Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil. <b>Herpetology Notes</b>, 7: p.627–637.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Juncá, F.A. 2006. Diversidade e uso de hábitat por anfíbios anuros em duas localidades de Mata Atlântica, no norte do estado da Bahia. <b>Biota Neotropica</b>, 6 (2): p.1-17.",
+          "Lima, M.G.; Skuk, G.O. &amp; Silva, M.C.C. 2006. Geographic distribution: <i>Aplastodiscus</i> (= <i>Hyla</i>) <i>sibilatus</i>. <b>Herpetological Review</b>, 37: p.485.",
+          "Mercês, E.A. &amp; Juncá, F.A. 2010. Girinos de três espécies de <i>Aplastodiscus</i> Lutz, 1950 (Anura - Hylidae) ocorrentes no Estado da Bahia, Brasil. <b>Biota Neotropica</b>, 10 (4): p.167-172.",
+          "Rossa-Feres, D.C.; Garey, M.V.; Caramaschi, U.; Napoli, M.F.; Nomura, F.; Bispo, A.A.; Brasileiro, C.A.; Thomé, M.T.C.; Sawaya, R.J.; Conte, C.E.; Cruz, C.A.G; Nascimento, L.B.; Gasparini, J.L.; Almeida, A.P. &amp; Haddad, C.F.B. 2017. Anfíbios da Mata Atlântica: Lista de espécies, histórico dos estudos, biologia e conservação. p.237-315. <i>In</i>: Monteiro-Filho & Conte. <b>Revisões em Zoologia: Mata Atlântica</b>. UFPR Curitiba.",
+          "Valencia-Aguilar, A.; Toledo, L.F.; Vital, M.V.C. &amp; Mott, T. 2016. Seasonality, environmental factors, and host behavior linked to disease risk in stream-dwelling tadpoles. <b>Herpetologica</b>, 72 (2): p.98-106.",
+          "WWF-Brasil 2015. Áreas Prioritárias para Conservação da Biodiversidade do Estado da Bahia. Disponível em: <a target=\"_blank\" href=\"http://paisagem.wwf.org.br/projeto.php?id=16\">http://paisagem.wwf.org.br/projeto.php?id=16</a>. Acessado em: 19/12/2017."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

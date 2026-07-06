@@ -1,0 +1,330 @@
+{
+  "id_ficha": "39556f736a2b5a307351396c674d437143704b4d45773d3d",
+  "nome_cientifico": "Physalaemus lisei Braun & Braun, 1977",
+  "nome_cientifico_atual": "Physalaemus lisei Braun & Braun, 1977",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17838.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=39556f736a2b5a307351396c674d437143704b4d45773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Physalaemus lisei</i>&nbsp;<span>Braun & Braun, 1977</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "19/03/2025",
+      "justificative": "<p><em>Physalaemus lisei</em> é endêmica do Brasil, onde é conhecida somente para o estado do Rio de Grande do Sul, sendo encontrada na serrapilheira de florestas primárias e secundárias e de áreas de transição entre florestas e ambientes abertos. Possui ampla distribuição, é frequente e bastante abundante. Não há ameaças que possam afetar toda a sua população. Portanto, <em>Physalaemus lisei</em> foi categorizada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Physalaemus lisei</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17838.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17838.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15005,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Leptodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Physalaemus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Physalaemus lisei</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Physalaemus lisei</em> é endêmica do Brasil e possui ocorrência confirmada somente para o estado do Rio de Grande do Sul, nos biomas Mata Atlântica e Pampa (Both <em>et al</em>., 2006; Deiques <em>et al</em>., 2007; Colombo <em>et al</em>., 2008; Maltchik <em>et al</em>., 2008; Cassini <em>et al</em>., 2010; Bueno <em>et al</em>., 2013; Zank <em>et al</em>., 2013). Sua extensão de ocorrência é de 47.595km2, calculada a partir do mínimo polígono convexo formado a partir dos pontos de registros.</p>",
+      "nationalDistribution": "",
+      "states": "Rio Grande do Sul, Santa Catarina",
+      "biomes": "Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Litoral RS, Sub-bacia Litoral SP PR SC, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6e4468712f7030307871435945446a6a765a756b762b6b6a33734874527857553956302f554e726236494c6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Physalaemus lisei.",
+        "diskFileName": "50b8718d554d0ab91fb29f48982abab4.png",
+        "fileName": "Mapa de Physalaemus lisei.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p> A espécie habita a serapilheira de florestas primárias, secundárias e de ambientes de transição entre florestas e áreas abertas, sendo normalmente encontrada próxima a corpos d’água (Silvano &amp; Garcia, 2004). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p> A espécie é frequente e bastante abundante.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p> Não existem ameaças evidentes que possam afetar toda a população da espécie. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silvano & Garcia, 2004",
+              "title": "Silvano, D. &amp; Garcia, P. (2004) <i>Physalaemus lisei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57262A11595807.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57262A11595807.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA São Francisco de Paula",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra Geral",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zocche, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Parna Aparados da Serra",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE ITAPEVA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Colombo <i>et al.</i>, 2008",
+              "title": "Composição e ameaças à conservação dos anfíbios anuros do Parque Estadual de Itapeva, município de Torres, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE NATURAL MUNICIPAL DE SERTãO",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Zanella <i>et al.</i>, 2013",
+              "title": "Herpetofauna do Parque Natural Municipal de Sertão, Rio Grande do Sul, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "Riozinho - RS",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Colombo, 2017",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Both, C. Kwet, A. Solé, M. (2006) The tadpole of <i>Physalaemus lisei</i> Braun & Braun, 1977 (Anura, Leptodactylidae) from southern Brazil. <i>Alytes</i>. 24 (1-4), 109-116.",
+          "Bueno, C.M., Cademartori, C.V., Forneck, E.D. &amp; Cabral, T.C. (2013) Anurofauna de uma área do domínio da Mata Atlântica no Sul do Brasil, Morro do Coco, Viamão, RS. <i>Revista de Ciências Ambientais</i>. 14, 11-20.",
+          "Cassini, C.S., Cruz, CAG. &amp; Caramaschi, U. (2010) Taxonomic review of <i>Physalaemus olfersii</i> (Lichtenstein & Martens, 1856) with revalidation of <i>Physalaemus lateristriga</i> (Steindachner, 1864) and description of two new related species (Anura: Leiuperidae). <i>Zootaxa</i>. 2491, 1-33.",
+          "Colombo, P. (2014) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Colombo, P. (2016) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Colombo, P., Kindel, A., Vinciprova, G. &amp; Krause, L. (2008) Composição e ameaças à conservação dos anfíbios anuros do Parque Estadual de Itapeva, município de Torres, Rio Grande do Sul, Brasil. <i>Biota Neotropica</i>. 8 (3), 229-240.",
+          "Deiques, C.H., Stahnke, L.F., Reinke, M. &amp; Schmitt, P. (2007) <i>Guia ilustrado dos anfibios e repteis do Parque Nacional de Aparados da Serra, Rio Grande do Sul, Santa Catarina, Brasil</i> Pelotas, USEB, 117pp.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Maltchik, L., Peixoto, C.D., Stenert, C., Moreira, L.F.B. &amp; Machado, I.F. (2008) Dynamics of the terrestrial amphibian assemblage in a flooded riparian forest fragment in a Neotropical region in the south of Brazil. <i>Brazilian Journal of Biology</i>. 68 (4), 763-769.",
+          "Moreira, L.F.B., Machado, I.F., Lace, A.R.G.M. &amp; Maltchik, L. (2008) Anuran amphibians dynamics in an intermittent pond in southern Brazil. <i>Acta Limnologica Brasiliensia</i>. 20 (3), 205-212.",
+          "Silvano, D. &amp; Garcia, P. (2004) <i>Physalaemus lisei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57262A11595807.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57262A11595807.en</a>. [Acessado em: 15/mai/2018].",
+          "Zanella, N., Almir, P., Guaragni, S.A., Machado, LS. &amp; Ribeiro, C.D. (2013) Herpetofauna do Parque Natural Municipal de Sertão, Rio Grande do Sul, Brasil. <i>Biota Neotropica</i>. 13 (4), 290-298.",
+          "Zank, C., Freire, M.D. &amp; Colombo, P. (2013) Anfíbios In: Castro (ed.) <i>Atlas Ambiental da Bacia Hidrográfica do Rio Tramandaí</i>. Porto Alegre, Via Sapiens, pp. 134-137."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

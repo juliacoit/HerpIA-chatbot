@@ -1,0 +1,339 @@
+{
+  "id_ficha": "312f626456524b6665756e4f344e755a4631315a6e773d3d",
+  "nome_cientifico": "Potomotyphlus kaupii (Berthold, 1859)",
+  "nome_cientifico_atual": "Potomotyphlus kaupii (Berthold, 1859)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Cerrado",
+  "periodo_avaliacao": "05/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21428.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=312f626456524b6665756e4f344e755a4631315a6e773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Potomotyphlus kaupii</i>&nbsp;<span>(Berthold, 1859)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "05/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Potomotyphlus kaupii </em>ocorre na América do Sul, sendo conhecida para o Brasil, Venezuela, Colômbia, Equador, Guiana Francesa e Peru. No Brasil, é amplamente distribuída na Amazônia, com registros também no Cerrado do estado de Goiás. A espécie é aquática e vive em rios, córregos, lagos grandes e pequenos e planícies alagadas. Ocorre em unidades de conservação e não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Potomotyphlus kaupii </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Débora Leite Silvano; Moisés Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Potomotyphlus kaupii</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21428.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21428.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 16477,
+      "deleted": false,
+      "lastAvaliationDate": "30/05/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Typhlonectidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Potomotyphlus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Potomotyphlus kaupii</i>"
+        }
+      ],
+      "oldNames": "Caecilia dorsalis, Caecilia kaupii, Chthonerpeton microcephalum, Potomotyphlus melanochrus, Thyphlonectes dorsalis, Typhlonectes dorsalis, Typhlonectus kaupii",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Potomotyphlus kaupii</em> ocorre na América do Sul, sendo encontrada na bacia Amazônica e em sistemas de drenagem do rio Orinoco, no Brasil, Colômbia, Equador, Guiana Francesa, Peru e Venezuela (Taylor, 1968; Taylor &amp; Peters, 1974; Lynch, 1999; Marty <em>et al</em>., 2007; Maciel &amp; Hoogmoed, 2011).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, com registros de ocorrência na região Norte e nos estados de Goiás e Maranhão (Cintra <em>et al</em>., 2009; Maciel &amp; Hoogmoed, 2011; Oliveira <em>et al</em>., 2012; Pinheiro <em>et al</em>., 2012).</p>",
+      "states": "Acre, Amapá, Amazonas, Goiás, Maranhão, Pará, Rondônia, Roraima, Tocantins",
+      "biomes": "Amazônia, Cerrado",
+      "watersheds": "Sub-bacia Araguaia, Sub-bacia Foz Amazonas, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/67535a6169692f503730503347736b32703778476d4854634b324e6f7a54764a494761655a49526f71676e6e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "87e129479c57ecf0f67a482b13495a4e.png",
+        "fileName": "Mapa de Potomotyphlus kaupii.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Potomotyphlus kaupii </em>é uma espécie aquática e vivípara, que vive em rios, córregos, lagos grandes e pequenos e planícies alagadas (Wilkinson <em>et al</em>., 2010). A espécie é facilmente coletada em armadilhas para camarão (matapis) de ribeirinhos no Pará (Maciel &amp; Hoogmoed, 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações populacionais para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não existem ameaças evidentes que possam colocar a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Wilkinson <i>et al.</i>, 2010",
+              "title": "Wilkinson, M., Measey, J., La Marca, E., Coloma, L.A., Ron, S. &amp; Castro, C. (2010) <i>Potomotyphlus kaupii</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T59589A11955756.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T59589A11955756.en</a>."
+            }
+          ],
+          "orderBy": "Y2008"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Carajás",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinheiro <i>et al.</i>, 2012",
+              "title": "Amphibians from southeastern state of Pará: Carajás Region, northern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Rio Trombetas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA REGIÃO METROLPOLITANA DE BELÉM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO RIO MADEIRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira <i>et al.</i>, 2012",
+              "title": "First record of <i>Potomotyphlus kaupii</I> (Berthold, 1859). (Gymnophiona: Typhlonectidae) for the state of Rondônia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ILHA DO BANANAL/CANTÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pires, 2016",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Xikrin do Rio Catete",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Maciel & Hoogmoed, 2011",
+              "title": "Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Cintra, C.E.D.; Silva, H.L.R. &amp; Silva Jr., N.J. 2009. Herpetofauna, Santa Edwiges I and II hydroelectric power plants, state of Goiás, Brazil. <b>Check List</b>, 5 (3): p.570–576.",
+          "Frank, N. &amp; Ramus, E. 1995. <b>Complete guide to scientific and common names of amphibians and reptiles of the world</b>. N.G. Publishing Inc Pottsville, Pennsylvania.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Lynch, J.D. 1999. Una aproximacion a las culebras ciegas de Colombia (Amphibia: Gymnophiona). <b>Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales</b>, 23: p.317-337.",
+          "Maciel, A.O. &amp; Hoogmoed, M.S. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. <b>Zootaxa</b>, 2984: p.1–53.",
+          "Marty, C.; Ravet, E.B.D. &amp; Lescure, J. 2007. Redécouverte de <i>Potamotyphlus kaupii</i> (Berthold, 1859) (Amphibia, Gymnophiona, Typhlonectidae) en Guyane française. <b>Bulletin Societ Herpétologique de France</b>, 121: p.35–36.",
+          "Oliveira, U.S.C.; Meneghelli, D.; Messias, M.R.; Rosa, I.B.S. &amp; Gomes, J.T.C. 2012. First record of <i>Potomotyphlus kaupii</I> (Berthold, 1859). (Gymnophiona: Typhlonectidae) for the state of Rondônia, Brazil. <b>Herpetology Notes</b>, 5: p.155-156.",
+          "Pinheiro, L.C.; Bitar, Y.O.C.; Galatti, U.; Neckel-Oliveira, S. &amp; Santos-Costa, M.C. 2012. Amphibians from southeastern state of Pará: Carajás Region, northern Brazil. <b>Check List</b>, 8 (4): p.693–702.",
+          "Taylor, E.H. &amp; Peters, J.A. 1974. The caecilians of Ecuador. <b>University of Kansas Science Bulletin</b>, 50: p.333–346.",
+          "Taylor, E.H. 1968. <b>The Caecilians of the World: A Taxonomic Review</b>. University of Kansas Press Lawrence.",
+          "Wilkinson, M.; Measey, J.; La Marca, E.; Coloma, L.A.; Ron, S. &amp; Castro, C. 2010. <i>Potomotyphlus kaupii</i>. <b>The IUCN Red List of Threatened Species 2010: e.T59589A11955756</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T59589A11955756.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T59589A11955756.en</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

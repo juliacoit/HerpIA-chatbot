@@ -1,0 +1,336 @@
+{
+  "id_ficha": "6a34574a6a58374c5335756a6953503834536a656c673d3d",
+  "nome_cientifico": "Atractus poeppigi (Jan, 1862)",
+  "nome_cientifico_atual": "Atractus poeppigi (Jan, 1862)",
+  "nome_comum": "Basin Ground Snake",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.27999.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6a34574a6a58374c5335756a6953503834536a656c673d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Atractus poeppigi</i>&nbsp;<span>(Jan, 1862)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "06/02/2026",
+      "justificative": "<p><em>Atractus poeppigi</em> ocorre no Brasil, Peru e Colômbia. No Brasil, a espécie é encontrada no bioma amazônico, com registros no estado do Amazonas. Sua distribuição é ampla e não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões <em>Atractus poeppigi</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2026. <i>Atractus poeppigi</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.27999.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.27999.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 19214,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Dipsadidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Atractus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Atractus poeppigi</i>"
+        }
+      ],
+      "oldNames": "Atractus elaps, Rhabdosoma poeppigi, Rhabdosoma Pöppigi",
+      "commonNames": "Basin Ground Snake",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Atractus poeppigi</em> é conhecida da região Amazônica, no Brasil, Peru e Colômbia (Dixon <em>et al.,</em> 1976; Passos<em> et al</em>., 2007; Passos &amp; Fernandes, 2008; Nogueira <em>et al</em>., 2019).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie tem ocorrência para o bioma amazônico, sendo encontrada no centro-norte do estado do Amazonas (Passos <em>et al.,</em> 2007; Passos &amp; Fernandes, 2008; Nogueira <em>et al</em>., 2019).</p>",
+      "states": "Amazonas",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Solimões, Sub-bacia Trombetas",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6f4c55524c2f3763304f7259487763724e2f676250723835366637476935475566564a7446314c467339784b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Atractus poeppigi",
+        "diskFileName": "22798fd0e9f60207cdbf4eb8a9add949.png",
+        "fileName": "Mapa de Atractus poeppigi.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Martins &amp; Oliveira (1998) sugerem que seja fossorial. A espécie foi encontrada sob troncos podres e serrapilheira associada a florestas primárias (Dixon <em>et al</em>., 1976; Dixon &amp; Soini, 1986). Martins <em>et al.</em> (2008) citam atividade diurna e noturna. Alimenta-se de minhocas (Dixon <em>et al., </em>1976; Duellman, 1978; Martins &amp; Oliveira 1993, 1998).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais disponíveis para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "Não são conhecidas ameaças que indiquem risco de extinção em um futuro próximo.",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "Não é conhecida nenhuma ação específica para a conservação da espécie.",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Global",
+          "year": 2010,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2010"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Martins & Passos, 2010",
+              "title": "Martins, M. &amp; Passos, P. (2010) <I>Atractus poeppigi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174093A7013630.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174093A7013630.en</a>."
+            }
+          ],
+          "orderBy": "Y2009"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA de Anavilhanas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL AMANÃ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva <i>et al.</i>, 2005",
+              "title": "Uma nova espécie do gênero <i>Atractus</i> Wagler, 1928 (Colubridae: Dipsadidae) do Cerrado do Brasil Central"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE PRESIDENTE FIGUEIREDO - CAVERNA DO MOROAGA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Martins & Oliveira, 1993",
+              "title": "The snakes of the genus <i>Atractus</i> (Reptilia: Squamata: Colubridae) from the Manaus region, central Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Adão e Eva",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Martins & Oliveira, 1993",
+              "title": "The snakes of the genus <i>Atractus</i> (Reptilia: Squamata: Colubridae) from the Manaus region, central Amazonia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Laço de Amor",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Martins & Oliveira, 1993",
+              "title": "The snakes of the genus <i>Atractus</i> (Reptilia: Squamata: Colubridae) from the Manaus region, central Amazonia, Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Dixon, J. R., Thomas, R.A. &amp; Greene, H.W. (1976) Status of the Neotropical Snake <i>Rhabdosoma poeppigi</i> Jan, with Notes on Variation in Atractuselaps (Günther). <i>Herpetologica</i>. 32, 221-227.",
+          "Dixon, J.R. &amp; Soini, P. (1986) <i>The reptiles of the upper Amazon Basin, Iquitos region, Peru. I Lizards and amphisbaenians. II Crocodilians, turtles and snakes</i> Milwaukee, WI, Milwaukee Public Museum, 148-154pp.",
+          "Duellman, W.E. (1978) The biology of an equatorial herpetofauna in Amazonian Ecuador. <i>Miscellaneous publication - University of Kansas, Museum of Natural History</i>. (65), 34.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, M. &amp; Oliveira, E.M. (1993) The snakes of the genus <i>Atractus</i> (Reptilia: Squamata: Colubridae) from the Manaus region, central Amazonia, Brazil. <i>Zoologische Mededelingen</i>. 67, 21–40.",
+          "Martins, M. &amp; Oliveira, E.M. (1998) Natural history of snakes in forests of the Manaus region, central Amazonia, Brazil. <i>Herpetological Natural History</i>. 6, 78–150.",
+          "Martins, M. &amp; Passos, P. (2010) <I>Atractus poeppigi</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174093A7013630.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-4.RLTS.T174093A7013630.en</a>.",
+          "Martins, M., Marques, O.A.V. &amp; Sazima, I. (2008) How to be arborial and diurnal and still stay alive: microhabitat use, time of activity, and defense in neotropical forest snakes. <i>South American Journal of Herpetology</i>. 3 (1), 58-67.",
+          "Nogueira, C.C., Argôlo, A.J.S., Arzamendia, V., Azevedo, J.A., Barbo, F.E., Bérnils, R.S., Bolochio, B.E., Borges-Martins, M., Brasil-Godinho, M., Braz, H., Buononato, M.A., Cisneros-Heredia, D.F., Colli, G.R., Costa, H.C., Franco, F.L., Giraudo, A., Gonzales, R.C., Guedes, T., Hoogmoed, M., Marques, O.A.V., Montignelli, G.G., Passos, P., Prudente, A.L.C., Rivas, G.A., Sanchez, P.M., Serrano, F.C., Silva Jr., N.J., Strüssmann, C., Vieira-Alencar, J.P.S., Zaher, H., Sawaya, R.J. &amp; Martins, M. (2019) Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <i>South American Journal of Herpetology</i>. 14 (2p1), 1-274.",
+          "Passos, P. &amp; Fernandes, R. (2008) A new species of the colubrid snake genus <I>Atractus</i> (Reptilia: Serpentes) from the central Amazon of Brazil. <i>Zootaxa</i>. 1849, 59-66.",
+          "Passos, P., Fernandes, R. &amp; Borges-Nojosa, D.M. (2007) A New Species of <i>Atractus</i> (Serpentes: Dipsadinae) from a Relictual Forest in Northeastern Brazil. <i>Copeia</i>. 4, 788-797."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

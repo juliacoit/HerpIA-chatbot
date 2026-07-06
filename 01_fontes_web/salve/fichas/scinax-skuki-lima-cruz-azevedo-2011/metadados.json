@@ -1,0 +1,376 @@
+{
+  "id_ficha": "304e7463726549674c4847383372347938456c7167773d3d",
+  "nome_cientifico": "Scinax skuki Lima, Cruz & Azevedo, 2011",
+  "nome_cientifico_atual": "Scinax skuki Lima, Cruz & Azevedo, 2011",
+  "nome_comum": null,
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16559.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=304e7463726549674c4847383372347938456c7167773d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax skuki</i>&nbsp;<span>Lima, Cruz & Azevedo, 2011</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Scinax skuki</em> é endêmica do Brasil, conhecida apenas de duas localidades na Mata Atlântica dos estados de Alagoas e Pernambuco. A distribuição da espécie, no entanto, ainda não é bem estudada, visto que <em>S. skuki</em> pode estar sendo confundida com <em>S</em><em>. argyreornatus</em> na região. É possível que sofra perda de hábitat em decorrência da conversão de áreas naturais em áreas agrícolas e urbana. No entanto, não há informações suficientes sobre distribuição, população e ameaças para uma avaliação adequada do seu risco de extinção. Por essas razões, <em>Scinax skuki</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax skuki</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16559.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16559.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14457,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax skuki</i>"
+        }
+      ],
+      "oldNames": "Ololygon skuki",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Scinax skuki</em> pode ser confundida com outra espécie, <em>Scinax</em> <em>argyreornatus</em>, que ocorre na mesma região e é morfologicamente semelhante, o que dificulta a compreensão de sua real distribuição.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax skuki</em> é endêmica do Brasil, conhecida apenas de duas localidades, uma na Área de Proteção Ambiental (APA) do Catolé e Fernão Velho (localidade-tipo), no município de Maceió, estado de Alagoas (Lima <em>et al</em>., 2011), e outra no município de Paudalho, estado de Pernambuco (Barnagleison S. Lisboa, com. pess., 2012).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Pernambuco",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral AL PE PB",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/63796e666b495259795a4e7934646a776b724c634f4435454e70597a30305958732f7748774e57624e36457644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa distribuição_Scinax skuki",
+        "diskFileName": "a0971adb76a4169b1c6fa127f5cd3357.png",
+        "fileName": "Mapa de Scinax skuki.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie foi registrada em ambiente florestal de Mata Atlântica (Lima <em>et al.,</em> 2011). A localidade-tipo, na APA do Catolé e Fernão Velho, é detentora de um rico manancial hídrico e possui ecossistemas variando da floresta ombrófila ao manguezal (IMA, 2014). A espécie não parece tolerar ambientes degradados (IUCN SSC Amphibian Specialist Group, 2015).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais para a espécie, que foi descrita a partir de 21 espécimes coletados entre 2005 e 2006 em sua localidade-tipo (Lima <em>et al.</em> 2011).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A Mata Atlântica entre os dois registros conhecidos da espécie encontra-se extremamente reduzida e fragmentada em função principalmente do avanço de atividades agropecuárias. A localidade-tipo da espécie, embora dentro de uma unidade de conservação (APA), sofre forte impacto ambiental em decorrência da expansão urbana, com ocupações irregulares, e pecuária, além de ser afetada pela poluição hídrica, extração de areia por meio de dragas e queimadas (IMA, 2014). No entanto, não se conhece o impacto dessas alterações ambientais sobre a espécie. </p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.1 - Doméstica e urbana - escoamento de água|9.1.2 - Escoamento urbano",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.2 - Mineração|3.2.1 - Extração de areia",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Resultados de estudo desenvolvido por Vilela <em>et al</em>. (2018) indicam que ações para diminuir as emissões de gases de efeito estufa reduziriam o impacto previsto em cenários futuros de mudanças climáticas sobre essa espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Bataus, Y.S.L., Uhlig, V.M., Silvano, D.L., Nomura, F.N., Hoogmoed, M.S., Garcia, P.C.A., Feio, R.N. &amp; Lingnau, R. (2016) Avaliação do Risco de Extinção de <i>Scinax skuki</I> Lima, Cruz & Azevedo, 2011. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7758-anfibios-scinax-skuki.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7758-anfibios-scinax-skuki.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2015,
+          "coverage": "",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "B1ab(iii)",
+          "refBibs": [
+            {
+              "label": "IUCN SSC Amphibian Specialist Group, 2015",
+              "title": "IUCN SSC Amphibian Specialist Group (2015) <I>Scinax skuki</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086193A48086196.en\">http://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086193A48086196.en</a>. [Acessado em: 24/nov/2017]."
+            }
+          ],
+          "orderBy": "Y2015"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Mata Atlântica Nordestina",
+          "refBibs": []
+        },
+        {
+          "name": "Meios de subsistência, economia e outros incentivos",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Normas e códigos de referência do setor privado",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Políticas e regulamentações",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de recursos/habitat",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        },
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história de vida e distribuição são necessários para melhor compreender o estado de conservação da espécie (Haddad <em>et al</em>. 2016).</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Estado de Pernambuco 27/01/2015. Resolução SEMAS Nº 1 DE 09/01/2015, que reconhece a Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Anfíbios. Diário Oficial do Estado de Pernambuco.",
+          "Haddad, C.F.B.; Bataus, Y.S.L.; Uhlig, V.M.; Silvano, D.L.; Nomura, F.N.; Hoogmoed, M.S.; Garcia, P.C.A.; Feio, R.N. &amp; Lingnau, R. 2016. Avaliação do Risco de Extinção de <i>Scinax skuki</I> Lima, Cruz & Azevedo, 2011. <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7758-anfibios-scinax-skuki.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7758-anfibios-scinax-skuki.html</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "IMA (Instituto do Meio Ambiente do Estado de Alagoas) 2014. APA do Catolé e Fernão Velho. Disponível em: <a target=\"_blank\" href=\"http://www.ima.al.gov.br/diretorias/diruc/unid.-de-conservacao/uso-sustentavel/area-de-protecao-ambiental-2013-apa/apa-do-catole-e-fernao-velho\">http://www.ima.al.gov.br/diretorias/diruc/unid.-de-conservacao/uso-sustentavel/area-de-protecao-ambiental-2013-apa/apa-do-catole-e-fernao-velho</a>. Acessado em: 08/04/2014.",
+          "IUCN SSC Amphibian Specialist Group, 2015. <I>Scinax skuki</i>. The IUCN Red List of Threatened Species 2015: e.T48086193A48086196, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086193A48086196.en\">http://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T48086193A48086196.en</a>. Acessado em: 24/11/2017.",
+          "Lima, M.G.; Cruz, C.A.G. &amp; Azevedo Jr, S.M., 2011. A new species belonging to the <I>Scinax catharinae</i> group from the state of Alagoas, northeastern Brazil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 529: p.1-12.",
+          "Vilela, B.; Nascimento, F.A. &amp; Vital, M.V.C. 2018. Impacts of climate change on small-ranged amphibians of the northern Atlantic Forest. <b>Oecologia Australis</b>, 22 (2): p.130-143."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

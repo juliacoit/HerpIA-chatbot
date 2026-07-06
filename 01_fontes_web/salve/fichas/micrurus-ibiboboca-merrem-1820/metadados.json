@@ -1,0 +1,665 @@
+{
+  "id_ficha": "625034632f7a4b6e42375134695133355a2b42316e413d3d",
+  "nome_cientifico": "Micrurus ibiboboca (Merrem, 1820)",
+  "nome_cientifico_atual": "Micrurus ibiboboca (Merrem, 1820)",
+  "nome_comum": "Caatinga Coral Snake, Cobra-Corá, Cobra-Coral, Cobra-de-Coral, Coral, Coral-Verdadeira, Ibiboboca",
+  "grupo": "Répteis",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "11/2019",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.25560.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=625034632f7a4b6e42375134695133355a2b42316e413d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Micrurus ibiboboca</i>&nbsp;<span>(Merrem, 1820)</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "11/2019",
+      "publicationDate": "06/09/2023",
+      "justificative": "<p><em>Micrurus ibiboboca</em> é nome de um complexo de espécies, todas endêmicas do Brasil e com ocorrência predominante na região Nordeste, primordialmente nos biomas Caatinga e Mata Atlântica, havendo também registro no estado do Rio de Janeiro. Embora a distribuição do complexo seja ampla, subpopulações contidas nesse complexo, que podem representar espécies, podem estar sofrendo impactos severos de perda e fragmentação de hábitat em decorrência de cultivos de larga escala de cana-de-açúcar, expansão da pecuária, desenvolvimento urbano e poluição, principalmente na Mata Atlântica do Nordeste. Considerando a falta de informações, especialmente sobre a taxonomia da espécie e sua real distribuição, não é possível avaliar adequadamente o seu risco de extinção. Por isso, <em>Micrurus ibiboboca</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Fausto Erritto Barbo; Renato Silveira Bérnils; Márcio Borges Martins; Guarino Rinaldi Colli; Henrique Caldeira Costa; Luciana Frazão; Thaís Guedes; Ricardo Alexandre Kawashita Ribeiro; Daniel Loebmann; Otavio Augusto Vuolo Marques; Gleomar Fabiano Maschio; Maria Ermelinda do Espirito Santo Oliveira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Leonardo Barros Ribeiro; Adriano Lima Silveira; Christine Strüssmann; Wilian Vaz Silva",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Abrahão, C.R.; Argôlo, A.J.S.; Barbo, F.E.; Bérnils, R.S.; Martins, M.B.; Colli, G.R.; Costa, H.C.; Frazão, L.; Guedes, T.; Ribeiro, R.A.K.; Loebmann, D.; Marques, O.A.V.; Maschio, G.F.; Oliveira, M.E.E.S.; Oliveira, R.B.; Pantoja, D.L.; Passos, P.G.H.; Ribeiro, L.B.; Silveira, A.L.; Strüssmann, C.; Silva, W.V. 2023. <i>Micrurus ibiboboca</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.25560.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.25560.2",
+      "photo": {
+        "authorName": "",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "",
+        "fileName": "",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/7444556b4e426c68434569742f726f673057744270513d3d/full"
+      },
+      "version": 2,
+      "versionId": 18428,
+      "deleted": false,
+      "lastAvaliationDate": "08/11/2019",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Elapidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Micrurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Micrurus ibiboboca</i>"
+        }
+      ],
+      "oldNames": "Eaps gravenhorsti, Elaps ibiboboca, Elaps marcgravei, Elaps marcgravii, Micrurus lemniscatus ibiboboca",
+      "commonNames": "Caatinga Coral Snake, Cobra-Corá, Cobra-Coral, Cobra-de-Coral, Coral, Coral-Verdadeira, Ibiboboca",
+      "taxonomicNotes": "<p>O nome <em>Micrurus ibiboboca</em> é aplicado a um complexo de pelo menos três espécies, todas endêmicas da Caatinga e Mata Atlântica. A distribuição de algumas destas supostas espécies é aparentemente muito restrita, podendo inclusive serem avaliadas no futuro como ameaçadas.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Micrurus ibiboboca</em> é um complexo de espécies que apresenta ampla distribuição para a região Nordeste do país, havendo registros também para o norte do estado do Rio de Janeiro (Roze, 1996; Dal Vechio <em>et al</em>., 2013; Freitas, 2014; Pires <em>et al</em>., 2014; Nogueira <em>et al</em>., 2019). Sua extensão de ocorrência foi calculada em 1.533.391km2, via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Sergipe",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Mearim, Sub-bacia Paraíba, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/55546d326e5839653467794d6d424c592f534336714a3972776b476f41475a6f574545695178324d574f336e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa distribuição_Micrurus ibiboboca",
+        "diskFileName": "9af2a8e62f602d6b76ad9b0bb351ca03.png",
+        "fileName": "Mapa de Micrurus ibiboboca.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Micrurus ibiboboca</em> ocorre em uma variedade de ambientes, podendo ser encontrada em florestas úmidas e semidecíduas, restingas (Roze, 1996; Freitas, 2003; Santana <em>et al</em>., 2008; Marques <em>et al</em>., 2011; Rodrigues &amp; Prudente, 2011) e também no Cerrado e na Caatinga (Dal Vechio <em>et al.,</em> 2013). Eventualmente pode ocorrer em ambientes alterados e em geral é encontrada sob a serrapilheira. É semifossorial e tanto diurna como noturna (Rodrigues, 1996; Santana <em>et al</em>., 2008). Apresenta um ciclo reprodutivo sazonal, com maturidade sexual em torno de 12 meses de idade, e há relatos de fecundidade de um ovo e até 5 ninhadas no período de um ano (Vitt, 1992). Alimenta-se de serpentes, anfisbenas e cecílias (Roze, 1996; Gomes <em>et al</em>., 2005; Carvalho <em>et al.,</em> 2005; Berriozabal-Islas <em>et al.,</em> 2010).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações disponíveis sobre variações populacionais, tendo em vista que há incerteza quanto a sua real distribuição em decorrência dos problemas taxonômicos.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Subpopulações no domínio da Mata Atlântica da região Nordeste do país, podem estar sofrendo impactos severos de perda e fragmentação de hábitat em decorrência de cultivos de larga escala de cana-de-açúcar, expansão da pecuária, desenvolvimento urbano e poluição.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária|2.3.4 - Pecuária em escala desconhecida",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras|2.1.3 - Agricultura agro-industrial",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "9 - Poluição|9.4 - Lixo e resíduos sólidos|9.4.1 - Urbanos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não foram encontradas informações para o táxon.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Micrurus ibiboboca</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2013,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2013"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2017",
+              "title": "SEMAS - PE 16/05/2017 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio",
+              "title": "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freire <i>et al.</i>, 2009",
+              "title": "Répteis Squamata das Caatingas do Seridó do Rio Grande do Norte e do Cariri da Paraíba: síntese do conhecimento atual e perspectivas"
+            }
+          ]
+        },
+        {
+          "name": "ESEC de Uruçuí-Una",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dal Vechio <i>et al.</i>, 2013",
+              "title": "The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roze, 1996",
+              "title": "Coral snakes of the Americas. Biology, identification and venoms"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Freitas, 2014",
+              "title": "Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil"
+            },
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE SAPIATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE SIRINHAÉM",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roze, 1996",
+              "title": "Coral snakes of the Americas. Biology, identification and venoms"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            },
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MARIMBUS / IRAQUARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL PONTA DA BALEIA / ABROLHOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SANTO ANTÔNIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DE UPAON-AçU / MIRITIBA / ALTO PREGUIçAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ecoparque de Una",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Panema",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            },
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa do Peixe",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Marvão",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santa Maria de Tapuã",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        },
+        {
+          "name": "Caramuru/Paraguassu",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            },
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Belmonte",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Pires <i>et al.</i>, 2014",
+              "title": "A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil"
+            },
+            {
+              "label": "",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "Tupinambá de Olivença",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Nogueira <i>et al.</i>, 2019",
+              "title": "Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É necessária a realização de estudos taxonômicos para definir os limites entre as espécies do complexo, e assim possibilitar uma avaliação de risco de extinção mais precisa.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Berriozabal-Islas, C. &amp; Ramírez-Bautista, A. Hernández-Salinas, U., 2010. <i>Amphisbaena vermicularis</i> (NCN). Predation. Herpetological Review, 41 (1): p.73.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Carvalho, C.M.; Vilar, J.C. &amp; Oliveira, F.F. 2005. Répteis e anfíbios. p.39-61. <i>In</i>: Carvalho & Vilar. <b>Parque Nacional Serra de Itabaiana - Levantamento da Biota</b>. Biologia Geral e Experimental Aracajú, Sergipe.",
+          "Dal Vechio, F.; Recorder, R.; Rodrigues, M.T. &amp; Zaher, H. 2013. The herpetofauna of the Estação Ecológica de Uruçuí-Una, state of Piauí, Brazil. <b>Papéis Avulsos de Zoologia</b>, 53 (16): p.225-243.",
+          "Estado do Pernambuco, 15/05/2017. Resolução SEMAS Nº 1 DE 15/05/2017: Lista Estadual Oficial de Espécies da Fauna Ameaçadas de Extinção - Répteis. Diário Oficial do Estado de Pernambuco..",
+          "Freitas, M.A. 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. <b>Check List</b>, 10 (5): p.1020-1030.",
+          "Freitas, M.A., 2003. Serpentes Brasileiras, p.160. Malha-de-Sapo-Publicações Lauro de Freitas.",
+          "Gomes, J.O.; Brito, F.L.; Maciel, A.O.; Costa, J.C.L. &amp; Andrade, G.V., 2005. <i>Amphisbaena ibijara</i> (NCN). Predation. Herpetological Review, 36 (2): p.170.",
+          "Gonzalez, R.C.; Abegg, A.D.; Mendes, D.M.M.; Silva, M.B.; Machado-Filho, P.R.; Mario-da-Rosa, C.; Passos, D.C.; Ribeiro, M.V.; Benício, R.A. &amp; Oliveira, J.C.F. 2020. Lista dos nomes populares dos répteis no Brasil - primeira versão. <b>Herpetologia Brasileira</b>, 9 (2): p.121-214.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "ICMBio/MMA, (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Marques, R.; Tinôco, M.S.; Couto-Ferreira, D.; Fazolato, C.P.; Browne-Ribeiro, H.C.; Travassos, M.LO.; Dias, M.A. &amp; Mota, J.V.L., 2011. Reserva Imbassaí Restinga: inventory of snakes on the northern coast of Bahia, Brazil. Journal of Threatened Taxa, 3 (11): p.2184–2191.",
+          "Nogueira, C.C.; Argôlo, A.J.S.; Arzamendia, V.; Azevedo, J.A.; Barbo, F.E.; Bérnils, R.S.; Bolochio, B.E.; Borges-Martins, M.; Brasil-Godinho, M.; Braz, H.; Buononato, M.A.; Cisneros-Heredia, D.F.; Colli, G.R.; Costa, H.C.; Franco, F.L.; Giraudo, A.; Gonzales, R.C.; Guedes, T.; Hoogmoed, M.; Marques, O.A.V.; Montignelli, G.G.; Passos, P.; Prudente, A.L.C.; Rivas, G.A.; Sanchez, P.M.; Serrano, F.C.; Silva Jr., N.J.; Strüssmann, C.; Vieira-Alencar, J.P.S.; Zaher, H.; Sawaya, R.J. &amp; Martins, M. 2019. Atlas of brazilian snakes: verified point-locality maps to mitigate the wallacean shortfall in a megadiverse snake fauna. <b>South American Journal of Herpetology</b>, 14 (2p1): p.1-274.",
+          "Pires, M.G.; Da Silva Jr.,N.J.; Feitosa, D.T. &amp; Prudente Filho, A.L2014. A new species of triadal coral snake of the genus <i>Micrurus</i> Wagler, 1824 (Serpentes: Elapidae) from northeastern Brazil. <b>Zootaxa</b>, 3811 (4): p.569–584.",
+          "Rodrigues, F.S. &amp; Prudente, A.L.C. 2011. The snake assemblage (Squamata: Serpentes) of a Cerrado-Caatinga transition area in Castelo do Piauí, state of Piauí, Brazil. <b>Zoologia</b>, 28 (4): p.440–448.",
+          "Rodrigues, M.T. 1996. Lizards, snakes, and amphisbaenians from the quaternary sand dunes of the middle Rio São Francisco, Bahia, Brazil. <b>Journal of Herpetology</b>, 30 (4): p.513-523.",
+          "Roze, J. 1996. <b>Coral snakes of the Americas. Biology, identification and venoms</b>. p.328. Krieger Publishing Company Florida.",
+          "Santana, G.G.; Vieira, W.L.S.; Pereira-Filho, G.A.; Delfim, F.R.; Lima, Y.C.C. &amp; Vieira, K.S. 2008. Herpetofauna em um fragmento de Mata Atlântica no estado da Paraíba, Região Nordeste do Brasil. <b>Biotemas</b>, 21 (1): p.75-84.",
+          "Vitt, L.J. 1992. Diversity of reproductive strategies among Brazilian lizards and snakes: the significance of lineage and adaptation. p.135-149. <i>In</i>: Hamlett. <b>Reproductive Biology of South American Vertebrates</b>. Springer-Verlag New York."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

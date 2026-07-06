@@ -1,0 +1,843 @@
+{
+  "id_ficha": "556672523977782f304957526a667656644a46432b513d3d",
+  "nome_cientifico": "Tropidurus hispidus (Spix, 1825)",
+  "nome_cientifico_atual": "Tropidurus hispidus (Spix, 1825)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "10/2020",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35791.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=556672523977782f304957526a667656644a46432b513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Tropidurus hispidus</i>&nbsp;<span>(Spix, 1825)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2020",
+      "publicationDate": "13/05/2026",
+      "justificative": "<p><em>Tropidurus hispidus </em>ocorre no norte da Amazônia (Brasil, Colômbia, Venezuela e região do Escudo das Guianas) e, de forma disjunta, no leste do Brasil, estando presente na Caatinga e litoral do Nordeste, estendendo-se ao longo de grande parte da Serra do Espinhaço, até Minas Gerais e Rio de Janeiro. É comum, possui ampla distribuição e não há ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>T. hispidus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Iberê Farna Machado; Luciana Signorelli; Carlos Roberto Abrahao; Robson Waldemar Ávila; Márcio Borges-Martins; Diva Maria Borges-Nojosa; Gabriel Henrique de Oliveira Caetano; Henrique Caldeira Costa; Eduardo José dos Reis Dias; Renato Gomes Faria; Vanda Lucia Ferreira; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Daniel Oliveira Mesquita; Geraldo Jorge Barbosa de Moura; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Leandro João Carneiro de Lima Moraes; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Carlos Frederico da Rocha; Selma Torquato da Silva; Adriano Lima Silveira; Christine Strüssmann; Marcelo José Sturaro; Moacir Santos Tinôco; Luisa Maria Viegas; Laura Verrastro Vinas; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Machado, I.F.; Signorelli, L.; Abrahao, C.R.; Ávila, R.W.; Borges-Martins, M.; Borges-Nojosa, D.M.; Caetano, G.H.O.; Costa, H.C.; Dias, E.J.R.; Faria, R.G.; Ferreira, V.L.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Mesquita, D.O.; Moura, G.J.B.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Moraes, L.J.C.L.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Rocha, C.F.; Silva, S.T.; Silveira, A.L.; Strüssmann, C.; Sturaro, M.J.; Tinôco, M.S.; Viegas, L.M.; Vinas, L.V.; Werneck, F.P.; Winck, G.R. 2026. <i>Tropidurus hispidus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35791.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35791.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24450,
+      "deleted": false,
+      "lastAvaliationDate": "30/10/2020",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Tropiduridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Tropidurus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Tropidurus hispidus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Tropidurus hispidus</em> representa um complexo de espécies (Sena, 2015).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Tropidurus hispidus</em> ocorre no norte da Amazônia, com registros no Brasil, Colômbia, Venezuela e no Escudo das Guianas, além do leste do Brasil (Prieto, 1976; Prieto <em>et al.</em>, 1980; Carvalho, 2013; Ribeiro-Júnior, 2015).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição, ocorrendo na Caatinga e no litoral do Nordeste, estendendo-se ao longo de grande parte da Serra do Espinhaço, onde é sintópica com vários congêneres e, de forma disjunta, ocorre também no norte da Amazônia (Van Sluys <em>et al</em>., 2004; Silva, 2008; Carvalho, 2013; Roberto &amp; Loebmann, 2016; Freitas <em>et al</em>., 2017; Madella-Auricchio <em>et al</em>., 2017; Mesquita <em>et al</em>., 2018; Prudente <em>et al</em>., 2018; Freitas <em>et al</em>., 2019).</p>",
+      "states": "Alagoas, Amapá, Amazonas, Bahia, Ceará, Maranhão, Minas Gerais, Pará, Paraíba, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Roraima, Sergipe, Tocantins",
+      "biomes": "Amazônia, Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Gurupi, Sub-bacia Itapecuru, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jaguaribe, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral BA ES, Sub-bacia Litoral CE PB, Sub-bacia Litoral CE PI, Sub-bacia Litoral RJ, Sub-bacia Litoral SE, Sub-bacia Mearim, Sub-bacia Negro, Sub-bacia Paraíba, Sub-bacia Paraíba do Sul, Sub-bacia Parnaíba Alto, Sub-bacia Parnaíba Baixo, Sub-bacia Parnaíba Médio, Sub-bacia Paru, Sub-bacia Piranhas, Sub-bacia São Francisco Alto, Sub-bacia São Francisco Baixo, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio, Sub-bacia Tocantins Alto, Sub-bacia Tocantins Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/41466f514e38766170333948647051736663346778434d384a38672b41383737555863652f546a6649586f7644426c347748384e476b4d725073304275487441",
+        "legend": "Tropidurus hispidus",
+        "diskFileName": "f7792025d21ca04c222fd5fc7a98f8d8.png",
+        "fileName": "Mapa de Tropidurus hispidus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Tropidurus hispidus</em> é um lagarto diurno e saxícola, predador do tipo “senta-e-espera”, com padrão bimodal de atividade tanto na estação seca quanto na chuvosa (Pontes <em>et al</em>., 2008; Ribeiro &amp; Freire, 2011). Em relação à dieta, é especialista no consumo de Hymenoptera (Formicidae), mas pode incluir outros tipos de presas, como larvas de Lepidoptera (Velasquez <em>et al</em>., 2007; Ribeiro &amp; Freire, 2011). A reprodução ocorre da metade da estação seca até o início da estação chuvosa, sendo a atividade reprodutiva das fêmeas associada ao período de chuvas. Machos apresentam espermatozoides nos testículos ao longo de todo o ano (Tinôco, 2004; Ribeiro &amp; Freire, 2011). O estoque de gordura varia inversamente em relação ao período reprodutivo. Mesmo apresentando padrão de forrageamento semelhante, a espécie mostra maior vagilidade, maior amplitude de itens alimentares e maior uso do espaço vertical do que sua congênere simpátrica em muitas localidades, <em>T. semitaeniatus</em> (Kolodiuk <em>et al</em>., 2009; Ribeiro &amp; Freire, 2011).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Embora não haja informações sobre suas subpopulações, parece ser bastante comum.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não há ameaças que coloquem <em>Tropidurus hispidus</em> em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p><em>Tropidurus hispidus</em> é utilizada na medicina tradicional no Nordeste do Brasil para combater infecções bacterianas, como amigdalites e faringites (Santos <em>et al</em>., 2012).</p>",
+      "images": [],
+      "table": [
+        {
+          "type": "5 - Medicina humana ou veterinária",
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para <em>Tropidurus hispidus</em>. No entanto, vale destacar que algumas linhagens, que futuramente podem ser reconhecidas como espécies distintas de distribuição reduzida, podem merecer atenção quanto à sua conservação (Sena, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria de Meio Ambiente, 2017",
+              "title": "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Chapada do Araripe",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Ibiapaba",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Meruoca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA de Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ESEC do Seridó",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Kolodiuk <i>et al.</i>, 2009",
+              "title": "The effects of seasonality on the foraging behavior of <i>Tropidurus hispidus</i> and <i>Tropidurus semitaeniatus</i> (Squamata, Tropiduridae) living in sympatry in the Caatinga of northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA de Negreiros",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pereira <i>et al.</i>, 2015",
+              "title": "Herpetofauna em remanescente de Caatinga no Sertão de Pernambuco, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "FLONA do Araripe-Apodi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Montanhas do Tumucumaque",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Capivara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN, 2019",
+              "title": "Base de dados de pesquisa para testes de protocolo do Programa Monitora"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Sete Cidades",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Ubajara",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Castro <i>et al.</i>, 2019",
+              "title": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Catimbau",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Rodrigues & Santos, 2008",
+              "title": "A new genus and species of eyelid-less and limb reduced gymnophthalmid lizard from northeastern Brazil (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "PARNA dos Lençóis Maranhenses",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Miranda <i>et al.</i>, 2012",
+              "title": "Reptiles from Lençóis Maranhenses National Park, Maranhão, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Roberto <i>et al.</i>, 2015",
+              "title": "Répteis (Testudines, Squamata, Crocodylia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "REBIO do Gurupi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Freitas <i>et al.</i>, 2017",
+              "title": "Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve"
+            }
+          ]
+        },
+        {
+          "name": "FLORESTA ESTADUAL DO PARU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Mesquita <i>et al.</i>, 2006",
+              "title": "Ecology of an Amazonian savanna lizard assemblage in Monte Alegre, Pará state, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE DOIS IRMÃOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DA USINA SãO JOSé",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BACIA DO RIO DE JANEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE CAMAMU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "G. Colli, com. pess., 2014",
+              "title": "Comunicação pessoal"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BONFIM/GUARAÍRA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Diaz-Uriarte, 1999",
+              "title": "Anti-predator behaviour changes following an aggressive encounter in the lizard <i>Tropidurus hispidus</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA MARITUBA DO PEIXE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DA SERRA DE BATURITÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Roberto & Loebmann, 2016",
+              "title": "Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MURICÍ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2008",
+              "title": "Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGO DE SOBRADINHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Arias <i>et al.</i>, 2011",
+              "title": "Two new species of <i>Cnemidophorus</i> (Squamata: Teiidae) from the Caatinga, northwest Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DA BAIXADA MARANHENSE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL DAS REENTRâNCIAS MARANHENSES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Estância Manacá",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Kaybí",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Não me Deixes",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Piabas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Ressaca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Água Branca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Herpetologia do Estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Itacira",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Lagoa das Campinas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Reserva Ecológica Maurício Dantas",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Rio Bonito",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Santa Maria de Tapuã",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Ser Nativo",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "RPPN São Joquim da Cabonha APA I e APA II",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "Alto Rio Guamá",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "Ilhas da Tapera/São Félix/Porto",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2011",
+              "title": "Distribuição geográfica e caracterização ecológica dos répteis do estado de Pernambuco"
+            }
+          ]
+        },
+        {
+          "name": "São Marcos - RR",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        },
+        {
+          "name": "Yanomami",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Carvalho, 2013",
+              "title": "On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>São necessários estudos taxonômicos para separar as espécies do complexo.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Carvalho, A.L.G. (2013) On the distribution and conservation of the South American lizard genus <i>Tropidurus</i> Wied-Neuwied,1985. <i>Zootaxa</i>. 3640, 42-56.",
+          "Freitas, M.A., Abegg, A.D., Araújo, D.S., Coelho H.E.A., Azevedo, W.S., Chaves, M.F., Rosa, C.M. &amp; Moura, G.J.B. (2019) Herpetofauna of three \"Brejos de Altitude\" in the interior of the state of Pernambuco, northeastern Brazil. <i>Herpetology Notes,</i>. 12, 591 - 602.",
+          "Freitas, M.A., Vieira, R.S., Entiauspe-Neto, O.M., Sousa, S.O., Farias, T., Sousa A.G. &amp; Moura G.J.B. (2017) Herpetofauna of the Northwest Amazon forest in the state of Maranhão, Brazil, with remarks on the Gurupi Biological Reserve. <i>ZooKeys</i>. 643, 141–155.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Kolodiuk, M.F., Ribeiro, L.B. &amp; Freire, E.M.X. (2009) The effects of seasonality on the foraging behavior of <i>Tropidurus hispidus</i> and <i>Tropidurus semitaeniatus</i> (Squamata, Tropiduridae) living in sympatry in the Caatinga of northeastern Brazil. <i>Zoologia</i>. 26 (3), 581-585.",
+          "Madella-Auricchio, C. R., Auricchio, P. &amp; Soares, E. S. (2017) Reptile species composition in the Middle Gurguéia and comparison with inventories in the eastern Parnaíba River Basin, State of Piauí, Brazil. <i>Papéis Avulsos de Zoologia</i>. 57 (28), 375-386.",
+          "Mesquita, D.O., Alves, B.C.F., Pedro, C.K.B., Laranjeiras, D.O., Caldas, F.L.S., Pedrosa, I.M.M.C., Rodrigues, J.B., Drummond, L.O., Cavalcanti, L.B.Q., Wachlevski, M., Nogueira-Costa, P., França, R.C. &amp; França, F.G.R. (2018) Herpetofauna in two habitat types (tabuleiros and Stational Semidecidual Forest) in the Reserva Biológica Guaribas, northeastern Brazil. <i>Herpetology Notes</i>. 11, 455-474.",
+          "Pontes, M.C., Garri, R.G. &amp; Chiamenti, A. (2008) Predation activity of <i>Tropidurus hispidus</i> (Sauria, Tropiduridae) in Nisia floresta- RN, Brazil. <i>Revista Brasileira de Zoociencias</i>. 10 (3), 203-209.",
+          "Prieto, A.S. (1980) Note on parasites of the tropical lizard <i>Tropidurus hispidus</i>. <i>Journal of Herpetology</i>. 14 (2), 190-192.",
+          "Prieto, A.S., Leon, J.R. &amp; Lara, O. (1976) Reproduction in the tropical lizard, <i>Tropidurus hispidus</i> (Sauria: Iguanidae). <i>Herpetologica</i>. 32 (3), 318-323.",
+          "Prudente, A.L.C., Sarmento, J.F.M., Ávila-Pires, T.C., Maschio, G. &amp; Sturaro, M.J. (2018) How much do we know about the diversity of Squamata (Reptilia) in the most degraded region of Amazonia?. <i>South American Journal of Herpetology</i>. 13, 117-131.",
+          "Ribeiro, L.B. &amp; Freire, E.M.X. (2011) Trophic ecology and foraging behavior of <i>Tropidurus hispidus</i> and <i>Tropidurus semitaeniatus</i> (Squamata, Tropiduridae) in a caatinga area of northeastern Brazil. <i>Iheringia. Série Zoologia</i>. 101 (3), 225-232.",
+          "Ribeiro-Júnior, M.A. (2015) Catalogue of distribution of lizards (Reptilia: Squamata) from the Brazilian Amazonia. I. Dactyloidae, Hoplocercidae, Iguanidae, Leiosauridae, Polychrotidae, Tropiduridae. <i>Zootaxa</i>. 3983 (3), 001-110.",
+          "Roberto, I.J. &amp; Loebmann, D. (2016) Composition, distribution patterns, and conservation priority areas for the herpetofauna of the state of Ceará, northeastern Brazil. <i>Salamandra</i>. 52 (2), 134-152.",
+          "Santos, I. J. M., Matias, E. F. F., Santos, K. K. A., Braga, M. F. B. M., Andrade, J. C., Souza, T. M., Santos, F. A. V., Sousa, A. C. A., Costa, J. G. M., Menezes, I. R. A., Alves, R. R. N., Almeida, W. O. &amp; Coutinho, H. D. M. (2012) Evaluation of the antimicrobial activity of the decoction of <i>Tropidurus hispidus</i> (Spix, 1825) and <i>Tropidurus semitaeniatus</i> (Spix, 1825) used by the traditional medicine. <i>Evidence-Based Complementary and Alternative Medicine</i>. 2012, 747969.",
+          "Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco - SEMAS/PE 16/05/2017 <i>Resolução nº1 de 15 de maio de 2017. Reconhece como espécies de répteis da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Sena, M.A. (2015) <i>Filogenia e Evolução dos Tropidurs do grupo torquatus (Squamata: Tropiduridae)</i>. Tese de Doutorado. Universidade de São Paulo. São Paulo. 61pp.",
+          "Silva, U.G.D. (2008) <i>Diversidade de espécies e ecologia da comunidade de lagartos de um fragmento de Mata Atlântica no Nordeste do Brasil</i>. Dissertação de Mestrado. Dissertação (Mestrado em Ciências Biológicas), Universidade Federal do Rio Grande do Norte.",
+          "Tinôco, M. S. (2004) <i>Variação da composição da comunidade de artrópodes das formações florestadas do extremo sul da Bahia: disponibilidade de recursos alimentares para lagartos e sapos de folhiço</i>. Dissertação de Mestrado. Universidade Federal da Bahia. Salvador.",
+          "Van Sluys, M., Rocha, C. F. D., Vrcibradic, D., Galdino, C. A. B. &amp; Fontes, A. F. (2004) Diet, activity, and microhabitat use of two syntopic <i>Tropidurus</i> species (Lacertilia: Tropiduridae) in Minas Gerais, Brazil. <i>Journal of Herpetology</i>. 38 (4), 606-611.",
+          "Velásquez, D.V., Gonzáles, L.A., Arcas, A.P., Velásquez, J. &amp; Ferrer, H. (2007) Hábitos alimentares del lagarto <i>Tropidurus hispidus</i> (Spix 1825) (Sauria: Tropiduridae) en el Cerro El Tacal, Parque Nacional Mochima, Estado Sucre, Venezuela. <i>Acta Biologica Venezuelica</i>. 27 (2), 9-18."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

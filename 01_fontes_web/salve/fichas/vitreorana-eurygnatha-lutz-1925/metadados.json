@@ -1,0 +1,617 @@
+{
+  "id_ficha": "396971743156673635386a326e3858687939385732513d3d",
+  "nome_cientifico": "Vitreorana eurygnatha (Lutz, 1925)",
+  "nome_cientifico_atual": "Vitreorana eurygnatha (Lutz, 1925)",
+  "nome_comum": "Perereca-de-vidro-do-focinho-curto",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17599.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=396971743156673635386a326e3858687939385732513d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Vitreorana eurygnatha</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "21/03/2025",
+      "justificative": "<p><em>Vitreorana eurygnatha</em> é endêmica do Brasil, com ocorrência predominante na Mata Atlântica entre os estado da Bahia e Santa Catarina, incluindo Minas Gerais. Trata-se de espécie com ampla distribuição geográfica e comum. Não há ameaças evidentes que possam colocá-la em risco de extinção. Por essas razões, <em>Vitreorana eurygnatha</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Vitreorana eurygnatha</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17599.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17599.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14934,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Centrolenidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Vitreorana</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Vitreorana eurygnatha</i>"
+        }
+      ],
+      "oldNames": "Centrolenella bokermanni, Centrolenella delicatissima, Centrolenella divaricans, Centrolenella eurygnatha, Centrolenella surda, Cochranella bokermanni, Cochranella delicatissima, Cochranella divaricans, Cochranella eurygnatha, Cochranella petropolitana, Cochranella surda, Hyalinobatrachium eurygnathum, Hyla (Hylella) eurygnatha",
+      "commonNames": "Perereca-de-vidro-do-focinho-curto",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Vitreorana eurygnatha </em>é endêmica do Brasil, ocorrendo predominantemente na Mata Atlântica, entre os estados da Bahia, sendo o limite norte de sua distribuição o município de Ubaíra (Freitas <em>et al.,</em> 2007), e o estado de Santa Catarina (Heyer <em>et al.</em>, 1990; Izecksohn &amp; Carvalho-e-Silva, 2001; Freitas <em>et al.,</em> 2004; Feio <em>et al.</em>, 2006; Almeida <em>et al.</em>, 2011; Dias <em>et al.</em>, 2014; Pontes <em>et al.</em>, 2014; Barata <em>et al.</em>, 2016; D. Baêta, com. pess., 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Doce, Sub-bacia Grande, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral ES, Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul, Sub-bacia Paranapanema, Sub-bacia São Francisco Alto, Sub-bacia Tietê",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/74796e344e4c5836516a47596634624450546376776233595547685a343052525072784d79526a356f6d307644426c347748384e476b4d725073304275487441",
+        "legend": "Vitreorana eurygnatha",
+        "diskFileName": "fa9443c2af1721e0193b0f95c0da8508.png",
+        "fileName": "Mapa de Vitreorana eurygnatha.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>A espécie é encontrada na vegetação às margens de riachos em ambientes florestais da Mata Atlântica e áreas de transição com o Cerrado.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há dados populacionais, mas a espécie é comumente encontrada diversas localidades (R. Feio, com. pess., 2010).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A supressão das matas ciliares e o uso indiscriminado de agrotóxicos nas proximidades de riachos são ameaças. No entanto, são ameaças pontuais.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "9 - Poluição|9.3 - Agropecuária e florestal|9.3.3 - Herbicidas e pesticidas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Vitreorana eurygnatha</em> é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015). Recomenda-se verificar a pertinência de mantê-la no segundo ciclo desse PAN.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia & Pimenta, 2010",
+              "title": "Garcia, P. &amp; Pimenta, B. (2010) <i>Vitreorana eurygnatha</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55013A11238132.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55013A11238132.en</a>. [Acessado em: 21/jun/2018]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMA-BA, 2017",
+              "title": "SEMA-BA 2017 <i>Secretaria do Meio Ambiente - Governo do Estado da Bahia. Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Diário Oficial do Estado – BA.</i>"
+            },
+            {
+              "label": "Estado da Bahia, 2017",
+              "title": "Estado da Bahia 2017 <i>Portaria nº 37, de 15 de agosto de 2017, Torna pública a Lista de Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia</i>."
+            }
+          ],
+          "orderBy": "X2017"
+        },
+        {
+          "type": "Estadual",
+          "year": 2008,
+          "coverage": "São Paulo",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bressan <i>et al.</i>, 2009",
+              "title": "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp."
+            }
+          ],
+          "orderBy": "X2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2005,
+          "coverage": "Espírito Santo",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "D2",
+          "refBibs": [
+            {
+              "label": "Estado do Espírito Santo, 2005",
+              "title": "Estado do Espírito Santo 13/06/2005 <i>Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências</i>."
+            },
+            {
+              "label": "Gasparini <i>et al.</i>, 2007",
+              "title": "Gasparini, J.L., Almeida, A.P., Cruz, C.A.G. &amp; Feio, R.N. (2007) Os anfíbios ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Instituto de Pesquisas da Mata Atlântica, p. 140."
+            }
+          ],
+          "orderBy": "X2005"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": 2023,
+          "name": "CITES - Anexo II"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Salles <i>et al.</i>, 2010",
+              "title": "Amphibia, Anura, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA Serra da Mantiqueira",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Juares, 2011",
+              "title": "Diversidade de Anfíbios Anuros na Serra da Mantiqueira, na Região do Pico dos Marins"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Alto Cariri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Dias, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra da Bocaina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pontes & Caramaschi, 2014",
+              "title": "A remarkable new glass frog (Centrolenidae: Vitreorana) from the Northeast Atlantic Forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Tijuca",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pontes & Caramaschi, 2014",
+              "title": "A remarkable new glass frog (Centrolenidae: Vitreorana) from the Northeast Atlantic Forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Augusto Ruschi",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "APA CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pontes & Caramaschi, 2014",
+              "title": "A remarkable new glass frog (Centrolenidae: Vitreorana) from the Northeast Atlantic Forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "APA JUNDIAí",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Ribeiro <i>et al.</i>, 2005",
+              "title": "Chave de identificação: anfíbios anuros da vertente de Jundiaí da Serra do Japi, Estado de São Paulo"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA ILHA GRANDE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE CAMPOS DO JORDÃO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DO ITINGUÇU",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Pombal Jr. & Gordo, 2004",
+              "title": "Anfíbios Anuros da Juréia"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL PICO DO ITAMBÉ",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO BRIGADEIRO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Moura <i>et al.</i>, 2012",
+              "title": "Herpetofauna da Serra do Brigadeiro, um remanescente de Mata Atlântica em Minas Gerais, sudeste do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL SERRA DO ROLA MOÇA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1994",
+              "title": "Distribuição estacional e ocupação ambiental dos anfíbios anuros da Área de Proteção da Captação da Mutuca (Nova Lima, MG)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MANGARATIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE TAMOIOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bittencourt-Silva & Silva, 2013",
+              "title": "Insular Anurans (Amphibia: Anura) of the coast of Rio de Janeiro, Southeast, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Dias <i>et al.</i>, 2014",
+              "title": "Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SUL-RMBH",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Nascimento <i>et al.</i>, 1994",
+              "title": "Distribuição estacional e ocupação ambiental dos anfíbios anuros da Área de Proteção da Captação da Mutuca (Nova Lima, MG)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ÁGUAS VERTENTES",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Barata <i>et al.</i>, 2016",
+              "title": "Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL MUNICIPAL DO CAPIVARI-MONOS",
+          "sphere": "Municipais",
+          "printOrder": "3",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre história natural, dinâmica populacional e distribuição ainda são necessários. </p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Almeida, A.P., Gasparini, J.L. &amp; Peloso, P.L.V. (2011) Frogs of the state of Espírito Santo, southeastern Brazil - The need for looking at the ‘coldspots’. <i>Check List</i>. 7 (4), 542-560.",
+          "Barata, I.M., Correia, C.M. &amp; Ferreira, G.B. (2016) Amphibian species composition and priorities for regional conservation at the Espinhaço mosaic, Southeastern Brazil. <i>Herpetological Conservation and Biology</i>. 11 (2), 293-303.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Bressan, P. M., Kierulff, M. C. M. &amp; Sugieda, A. M. (2009) <i>Fauna Ameaçada de Extinção no Estado de São Paulo: Vertebrados</i> São Paulo, Fundação Parque Zoológico de São Paulo/Secretaria de Meio Ambiente do Estado de São Paulo, 645pp.",
+          "Dias, I.R., Mira-Mendes, C.V. &amp; Solé, M. (2014) Rapid inventory of herpetofauna at the APA (Environmental protection area) of the Lagoa Encantada and Rio Almada, Southern Bahia, Brazil. <i>Herpetology Notes</i>. 7, 627–637.",
+          "Estado da Bahia 2017 <i>Portaria nº 37, de 15 de agosto de 2017, Torna pública a Lista de Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia</i>.",
+          "Estado do Espírito Santo 13/06/2005 <i>Decreto nº 1499-R. Declara as espécies da Fauna e Flora silvestres ameaçadas de extinção no Estado do Espírito Santo, e dá outras providências</i>.",
+          "Feio, R.N., Nascimento, L.B., Cruz, C.A.G., Ferrerira, P.L. &amp; Pantoja, D.L. (2006) Anfíbios das áreas prioritárias dos rios Jequitinhonha e Mucuri In: Pinto & Bede (eds.) <i>Biodiversidade e conservação nos vales dos rios Jequitinhonha e Mucuri</i>. Brasilia, DF, Ministério do Meio Ambiente, pp. 94-119.",
+          "Freitas, M.A, Silva, T.F.S. &amp; Argôlo, A.J.S. (2004) Geographic distribution. <i>Hyalinobatrachium eurygnathum</i> (Rio GlassFrog). <i>Herpetological Review</i>. 35, 281.",
+          "Freitas, M.A., Silva, T.F.S. &amp; Fonseca, P. (2007) Geographic distribution <i>Hyalinobatrachium eurygnathum</i>. <i>Herpetological Review</i>. 38, 475-476.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Garcia, P. &amp; Pimenta, B. (2010) <i>Vitreorana eurygnatha</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55013A11238132.en\">http://dx.doi.org/10.2305/IUCN.UK.2010-2.RLTS.T55013A11238132.en</a>. [Acessado em: 21/jun/2018].",
+          "Gasparini, J.L., Almeida, A.P., Cruz, C.A.G. &amp; Feio, R.N. (2007) Os anfíbios ameaçados de extinção no Estado do Espírito Santo In: Passamani & Mendes (eds.) <i>Espécies da fauna ameaçadas de extinção no estado do Espírito Santo</i>. Vitória, Instituto de Pesquisas da Mata Atlântica, p. 140.",
+          "Governo do Estado do Paraná 05/06/2024 <i>Decreto nº 6.040. Reconhece as espécies da fauna ameaçada de extinção no Estado do Paraná e dá outras providências</i>.",
+          "Heyer, W.R., Rand, A.S., Cruz, C.A.G., Peixoto, O.L. &amp; Nelson, C.E. (1990) Frogs of Boracéia. <i>Arquivos de Zoologia, São Paulo</i>. 31 (4), 235-410.",
+          "ICMBio 2015 <i>Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. (2001) <i>Anfíbios do município do Rio de Janeiro</i> Rio de Janeiro, Editora UFRJ, 148pp.",
+          "Pontes, R. &amp; Caramaschi, U. Pombal, J.P. (2014) A remarkable new glass frog (Centrolenidae: Vitreorana) from the Northeast Atlantic Forest, Brazil. <i>Herpetologica</i>. 70 (3), 298–308.",
+          "SEMA-BA 2017 <i>Secretaria do Meio Ambiente - Governo do Estado da Bahia. Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia. Diário Oficial do Estado – BA.</i>"
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

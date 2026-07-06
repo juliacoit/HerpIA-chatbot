@@ -1,0 +1,329 @@
+{
+  "id_ficha": "2f4b725a58777a5463754a6938647a2f636b627a35413d3d",
+  "nome_cientifico": "Gymnodactylus guttulatus Vanzolini, 1982",
+  "nome_cientifico_atual": "Gymnodactylus guttulatus Vanzolini, 1982",
+  "nome_comum": "briba",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado",
+  "periodo_avaliacao": "03/2021",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.35757.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=2f4b725a58777a5463754a6938647a2f636b627a35413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Gymnodactylus guttulatus</i>&nbsp;<span>Vanzolini, 1982</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "03/2021",
+      "publicationDate": "02/03/2026",
+      "justificative": "<p><em>Gymnodactylus guttulatus</em> é endêmica do Brasil, conhecida somente de algumas localidades em campos rupestres da Serra do Espinhaço, no estado de Minas Gerais. Trata-se de espécie localmente abundante, associada a ambiente rochoso. Embora tenha distribuição relativamente restrita, a região onde ocorre encontra-se bem preservada, não há evidências de declínios populacionais e a espécie é registrada em unidades de conservação de proteção integral. Diante disso, não há ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Gymnodactylus guttulatus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Paula Ribeiro Anunciação; Luciana Signorelli; Carlos Roberto Abrahão; Robson Waldemar Ávila; Renato Silveira Bérnils; Márcio Borges-Martins; Gabriel Henrique de Oliveira Caetano; Beatriz Nunes Cosendey; Henrique Caldeira Costa; Renato Gomes Faria; Vanda Lucia Ferreira; Ivo Rohling Ghizoni Jr; Mara Cíntia Kiefer; Renata Perez Maciel; Vanderlaine Amaral de Menezes; Cristiano de Campos Nogueira; Roberto Baptista de Oliveira; Davi Lima Pantoja; Síria Lisandra de Barcelos Ribeiro; Diego José Santana; Christine Strüssmann; Marcelo José Sturaro; Luisa Maria Viegas; Laura Verrastro Vinas; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Anunciação, P.R.; Signorelli, L.; Abrahão, C.R.; Ávila, R.W.; Bérnils, R.S.; Borges-Martins, M.; Caetano, G.H.O.; Cosendey, B.N.; Costa, H.C.; Faria, R.G.; Ferreira, V.L.; Jr, I.R.G.; Kiefer, M.C.; Maciel, R.P.; Menezes, V.A.; Nogueira, C.C.; Oliveira, R.B.; Pantoja, D.L.; Ribeiro, S.L.B.; Santana, D.J.; Strüssmann, C.; Sturaro, M.J.; Viegas, L.M.; Vinas, L.V.; Winck, G.R. 2026. <i>Gymnodactylus guttulatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.35757.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.35757.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 24417,
+      "deleted": false,
+      "lastAvaliationDate": "05/03/2021",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Phyllodactylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Gymnodactylus</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Gymnodactylus guttulatus</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "briba",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Gymnodactylus guttulatus</em> é endêmica do Brasil, conhecida apenas de algumas localidades nos campos rupestres da Serra do Espinhaço, no estado de Minas Gerais (Vanzolini, 1982; Cassimiro &amp; Rodrigues, 2009). </p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais",
+      "biomes": "Cerrado",
+      "watersheds": "Sub-bacia Jequitinhonha, Sub-bacia São Francisco Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/67674f7a75614a3869637071566c774939724b3448706e6a6b3544345448733475376735776652336f56726f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Gymnodactylus guttulatus",
+        "diskFileName": "3e153c412ef357160f4348bf3513a2a2.png",
+        "fileName": "Mapa de Gymnodactylus guttulatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Gymnodactylus guttulatus </em>possui hábito saxícola (Novaes e Silva <em>et al.,</em> 2014). É potencial presa de <em>Siphlophis longicaudatus</em> (Alencar <em>et al</em>., 2009).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não há informações populacionais, mas parece ser localmente abundante (R. Recoder, com. pess., 2014).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A perda e a fragmentação das matas e dos campos rupestres, além da sua degradação, constituem as principais ameaças imediatas à conservação da espécie (Martins &amp; Molina, 2008). No entanto, não há evidências de que as pressões atuais resultem em risco de extinção no curto prazo.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não existem ações de conservação específicas direcionadas à espécie. Considerando que ocorre em uma área de elevado endemismo, que abriga, por exemplo, os lagartos <em>Placosoma cipoense</em>, <em>Heterodactylus lundii</em> e <em>Eurolophosaurus nanuzae</em>, a preservação dessa região é fundamental para evitar o desaparecimento de múltiplas espécies.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2019,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2019"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Proteção de locais/áreas",
+          "situation": "Necessária",
+          "actionPanName": null,
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA das Sempre-Vivas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Pinto, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL BIRIBIRI",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Cassimiro & Rodrigues, 2009",
+              "title": "A new species of lizard genus <i>Gymnodactylus</i> Spix, 1825 (Squamata: Gekkota: Phyllodactylidae) from Serra do Sincorá, northeastern Brazil, and the status of <i>G. carvalhoi</i> Vanzolini, 2005"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL GRÃO MOGOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Leite, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Impactos de ameaças",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Alencar, L. R. V., Righi, A. F., Nascimento, L. B. &amp; Morato, S. A. A. (2009) Siphlophis longicaudatus (Brazilian spotted night snake): Habitat. <i>Herpetological Bulletin</i>. 108, 37-39.",
+          "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142.",
+          "Cassimiro, J. &amp; Rodrigues, M.T. (2009) A new species of lizard genus <i>Gymnodactylus</i> Spix, 1825 (Squamata: Gekkota: Phyllodactylidae) from Serra do Sincorá, northeastern Brazil, and the status of <i>G. carvalhoi</i> Vanzolini, 2005. <i>Zootaxa</i>. 2008 (1), 38-52.",
+          "Gonzalez, R.C., Abegg, A.D., Mendes, D.M.M., Silva, M.B., Machado-Filho, P.R., Mario-da-Rosa, C., Passos, D.C., Ribeiro, M.V., Benício, R.A. &amp; Oliveira, J.C.F. (2020) Lista dos nomes populares dos répteis no Brasil - primeira versão. <i>Herpetologia Brasileira</i>. 9 (2), 121-214.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Martins, M. &amp; Molina, F.B. (2008) Répteis In: M (ed.) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i>. Brasília - DF, Belo Horizonte - MG, Ministério do Meio Ambiente e Fundação Biodiversitas, p. 1420.",
+          "Novaes-e-Silva, V., Pressey, R.L., Machado, R.B., Vanderwal, J., Wiederhecker, H.C., Werneck, F.P. &amp; Colli, G.R. (2014) Formulating conservation targets for a gap analysis of endemic lizards in a biodiversity hotspot. <i>Biological Conservation</i>. 180, 1-10.",
+          "Vanzolini, P.E. (1982) A new <i>Gymnodactylus</i> from Minas Gerais, Brasil, with remarks on the genus on the area and on the montane endemisms in Brasil (Sauria, Gekkonidae). <i>Papéis Avulsos de Zoologia (São Paulo)</i>. 34 (29), 403-413."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

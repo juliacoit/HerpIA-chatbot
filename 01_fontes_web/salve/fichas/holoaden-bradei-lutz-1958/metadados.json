@@ -1,0 +1,601 @@
+{
+  "id_ficha": "316b616a53322b6a6a736e69325063696154524a31513d3d",
+  "nome_cientifico": "Holoaden bradei Lutz, 1958",
+  "nome_cientifico_atual": "Holoaden bradei Lutz, 1958",
+  "nome_comum": "Rãzinha-verrugosa-da-serra-de-Bradei, Sapinho-manicure",
+  "grupo": "Anfíbios",
+  "categoria_risco": "CR",
+  "categoria_risco_completa": "Criticamente em Perigo (CR)(PE)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21829",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=316b616a53322b6a6a736e69325063696154524a31513d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Holoaden bradei</i>&nbsp;<span>Lutz, 1958</span>",
+      "category": "Criticamente em Perigo (CR)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "07/06/2023",
+      "justificative": "<p><em>Holoaden bradei</em> é endêmica do Brasil, do bioma Mata Atlântica, com registros somente para o Parque Nacional do Itatiaia, na divisa dos estados de Minas Gerais e Rio de Janeiro. Sua extensão de ocorrência foi estimada em 19 km2. A espécie foi registrada no solo de áreas de altitude acima de 2.000 metros. Todos os registros são históricos e <em>Holoaden bradei</em> não é observada desde 1979, apesar dos esforços de amostragem direcionados para ela. As causas do declínio populacional são desconhecidas. Dadas as circunstâncias, é possível supor que existam menos de 50 indivíduos maduros ou mesmo que esteja extinta. Por essas razões, <em>Holoaden bradei</em> foi avaliada como Criticamente em Perigo (CR) pelo critério D, estando possivelmente extinta (PEX).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2023. <i>Holoaden bradei</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21829 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21829",
+      "photo": {
+        "authorName": "Ivan Sazima",
+        "authorEmail": "",
+        "date": "",
+        "diskFileName": "ddf98f34d3833a792355677b81d4508c.jpg",
+        "fileName": "Holoaden bradei_ Ivan Sazima.jpg",
+        "url": "https://salve.icmbio.gov.br/salve-api/public/speciePhoto/68784e6757564e2f54425a3239327358716b36636472657a6c526d4b786e6b375374784e68427964356d56743639746e316f7171786d39472b5a4e74672f6d65/full"
+      },
+      "version": 2,
+      "versionId": 16681,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Strabomantidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Holoaden</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Holoaden bradei</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Rãzinha-verrugosa-da-serra-de-Bradei, Sapinho-manicure",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Holoaden bradei </em>é endêmica do Brasil, com ocorrência na Mata Atlântica na divisa dos estados de Minas Gerais e Rio de Janeiro. Os registros confirmados para a espécie estão inseridos no Parque Nacional do Itatiaia, na Serra da Mantiqueira, acima de 2.000 metros de altitude, no município de Resende, no estado do Rio de Janeiro, e no município de Itamonte, no estado de Minas Gerais (Brejo da Lapa, localidade-tipo) (Caramaschi &amp; Pombal, 2006; SpLink, 2018). A extensão de ocorrência foi estimada em 19 km2, via mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Minas Gerais, Rio de Janeiro",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Grande, Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6a3150537839596b674661636f754f4865382f7778316547563836723137554a5a6e532b532b4f4273367a6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Holoaden bradei",
+        "diskFileName": "b4bc81f8cf647046662a3244e3f5ae57.png",
+        "fileName": "Mapa de Holoaden bradei.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Holoaden bradei</em> vive no solo, embaixo de detritos e de folhas mortas e oculta-se sob pedras e em bromélias terrestres. A postura é feita no solo entre o folhiço (Lutz, 1958).</p> \n<p> </p> \n<p> </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Declinando",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Apesar de terem sido realizadas várias buscas direcionadas para a espécie na área de sua distribuição, nenhum indivíduo foi coletado desde 1979 (C. Cruz &amp; U. Caramaschi, com. pess., 2017). Dada as circunstâncias, é possível supor que existam menos de 50 indivíduos maduros da espécie ou que esteja extinta.</p> \n<p> </p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região da Mata Atlântica que já sofreu grande redução histórica e, ao longo da extensão de sua ocorrência, 54,1% da cobertura vegetal permanecem na forma de remanescentes de vegetação nativa (dados MapBiomas, 2016). Apesar da espécie ocorrer em área protegida e bem conservada, ela tem sido severamente impactada pela degradação do hábitat devido à atividades turísticas e os frequentes incêndios florestais, além de ser afetada por geadas extremas (Rocha <em>et al</em>., 2004). </p> \n<p> </p>",
+      "table": [
+        {
+          "type": {
+            "description": "12 - Outras ameaças",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "11 - Mudanças e extremos climáticos|11.3 - Extremos térmicos",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "6 - Distúrbios humanos|6.1 - Atividades recreacionais/turísticas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "7 - Modificações nos sistemas naturais|7.1 - Incêndios e supressão de incêndios|7.1.1 - Aumento da frequência/intensidade de incêndios",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Holoaden bradei</em> é espécie-alvo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Sim",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2017,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)<br>(PEX)",
+          "oficialCategory": true,
+          "criteria": "D",
+          "refBibs": [
+            {
+              "label": "Bastos <i>et al.</i>, 2023",
+              "title": "Bastos, R.P., Martins, M.R., Bataus, Y.S.L., Côrtes, L.G., Uhlig, V.M., Almeida, A.P.L., Canedo, C.C., Caramaschi, U., Costa, C.O.R., Ferrante, L., Ferreira, R.B., Garcia, P.C.A., Gasparini, J.L., Hepp, F., Lourenço-de-moraes, R., Leite, F.S.F., Martins, I.A., Nascimento, L.B., Santana, D.J., Silva-filho, I.S.N., Silva-soares, T. &amp; Toledo, L.F. (2023) <i>Holoaden bradei Lutz, 1958</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio."
+            }
+          ],
+          "orderBy": "Z2017"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "A2a",
+          "refBibs": [
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "A2a",
+          "refBibs": [
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "A2a",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C. F. B., Segalla, M. V., Bataus, Y. S. L., Uhlig, V. M., Batista, F. R. Q., Garda, A., Hudson, A. A., Cruz, C. A. G., Strüsmann, C., Brasileiro, C. A., Silvano, D. L., Nomura, F., Pinto, H. B. A., Amaral, I. B., Gasparini, J. L. R., Lima, L. P., Martins, M. R. C., Hoogmoed, M. S., Colombo, P., Valdujo, P. H., Garcia, P. C. A., Feio, R. N., Brandão, R. A., Bastos, R. P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Holoaden bradei</i> B. Lutz, 1959 \"1958\". <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7515-anfibios-holoaden-bradei.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7515-anfibios-holoaden-bradei.html</a>."
+            },
+            {
+              "label": "MMA, 2014",
+              "title": "MMA 2014 <i>Portaria MMA nº 444 de 17 de dezembro de 2014: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\"</i>."
+            },
+            {
+              "label": "Campos & Lourenço-de-Moraes, 2017",
+              "title": "Campos, F.S. &amp; Lourenço-de-Moraes, R. (2017) Anurans from the mountain chain Serra do Mar: a critical area for amphibian conservation in the Atlantic Forest, Brazil. <i>Herpetology Notes</i>. 10, 547-560."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2008",
+              "title": "Machado, A. B. M., Drummond, G. M. &amp; Paglia, A. P. (2008) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília & Belo Horizonte, Ministério do Meio Ambiente/Fundação Biodiversitas, 1420pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2008",
+              "title": "Machado, A. B. M., Drummond, G. M. &amp; Paglia, A. P. (2008) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília & Belo Horizonte, Ministério do Meio Ambiente/Fundação Biodiversitas, 1420pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2008",
+              "title": "Machado, A. B. M., Drummond, G. M. &amp; Paglia, A. P. (2008) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</i> Brasília & Belo Horizonte, Ministério do Meio Ambiente/Fundação Biodiversitas, 1420pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii,v)",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "Rocha, C.F. &amp; Van Sluys, M. Cruz, C.A.G. (2004) <i>Holoaden bradei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii,v)",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "Rocha, C.F. &amp; Van Sluys, M. Cruz, C.A.G. (2004) <i>Holoaden bradei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ab(iii,v)",
+          "refBibs": [
+            {
+              "label": "Rocha <i>et al.</i>, 2004",
+              "title": "Rocha, C.F. &amp; Van Sluys, M. Cruz, C.A.G. (2004) <i>Holoaden bradei</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473</a>."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2010,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2010,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2010,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "B2ac(ii)",
+          "refBibs": [
+            {
+              "label": "Estado de Minas Gerais, 2010",
+              "title": "Estado de Minas Gerais 30/04/2010 <i>Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais</i>."
+            }
+          ],
+          "orderBy": "X2010"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2007,
+          "coverage": "Minas Gerais",
+          "category": "Criticamente em Perigo (CR)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Biodiversitas, 2007",
+              "title": "Biodiversitas (2007) Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <i>Fundação Biodiversitas</i>. 3, 142."
+            }
+          ],
+          "orderBy": "X2007"
+        },
+        {
+          "type": "Estadual",
+          "year": 2000,
+          "coverage": "Rio de Janeiro",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bergallo <i>et al.</i>, 2000",
+              "title": "Bergallo, H. G., Rocha, C. F. D., Alves, M. A. S. &amp; Van Sluys, M. (2000) <i>A Fauna Ameaçada de Extinção do Estado do Rio de Janeiro. 1ª ed</i> Edição 1 Rio de Janeiro, Editora Universidade do Estado do Rio de Janeiro (UERJ), 168pp."
+            }
+          ],
+          "orderBy": "X2000"
+        },
+        {
+          "type": "Estadual",
+          "year": 2000,
+          "coverage": "Rio de Janeiro",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bergallo <i>et al.</i>, 2000",
+              "title": "Bergallo, H. G., Rocha, C. F. D., Alves, M. A. S. &amp; Van Sluys, M. (2000) <i>A Fauna Ameaçada de Extinção do Estado do Rio de Janeiro. 1ª ed</i> Edição 1 Rio de Janeiro, Editora Universidade do Estado do Rio de Janeiro (UERJ), 168pp."
+            }
+          ],
+          "orderBy": "X2000"
+        },
+        {
+          "type": "Estadual",
+          "year": 2000,
+          "coverage": "Rio de Janeiro",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Bergallo <i>et al.</i>, 2000",
+              "title": "Bergallo, H. G., Rocha, C. F. D., Alves, M. A. S. &amp; Van Sluys, M. (2000) <i>A Fauna Ameaçada de Extinção do Estado do Rio de Janeiro. 1ª ed</i> Edição 1 Rio de Janeiro, Editora Universidade do Estado do Rio de Janeiro (UERJ), 168pp."
+            }
+          ],
+          "orderBy": "X2000"
+        }
+      ],
+      "conventionPresenceTable": [
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2014"
+        },
+        {
+          "year": null,
+          "name": "Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção 2022"
+        }
+      ],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Existente",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA de Itatiaia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Caramaschi & Pombal Jr., 2006",
+              "title": "Notas sobre as séries-tipo de <i>Holoaden bradei</I> B. Lutz e <i>Holoaden luederwaldti</I> Miranda-Ribeiro (Anura, Brachycephalidae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É urgente a realização de inventários direcionados para localizar a espécie no Parque Nacional de Itatiaia e seu entorno.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Bergallo, H.G.; Rocha, C.F.D.; Alves, M.A.S. &amp; Van Sluys, M. 2000. <b>A Fauna Ameaçada de Extinção do Estado do Rio de Janeiro. 1ª ed</b>. p.168. UERJ (Editora Universidade do Estado do Rio de Janeiro) Rio de Janeiro.",
+          "Biodiversitas 2007. Revisão das listas das espécies da flora e da fauna ameaçadas de extinção do estado de Minas Gerais - Relatório Final. <b>Fundação Biodiversitas</b>, 3: p.142.",
+          "Caramaschi, U. &amp; Pombal Jr., J.P. 2006. Notas sobre as séries-tipo de <i>Holoaden bradei</I> B. Lutz e <i>Holoaden luederwaldti</I> Miranda-Ribeiro (Anura, Brachycephalidae). <b>Revista Brasileira de Zoologia</b>, 23 (4): p.1261-1263.",
+          "Estado de Minas Gerais 30/04/2010. Deliberação Normativa COPAM nº 147, de 30 de abril de 2010: Aprova a Lista de Espécies Ameaçadas de Extinção da Fauna do Estado de Minas Gerais. Disponível em: <a target=\"_blank\" href=\"http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192\">http://www.siam.mg.gov.br/sla/download.pdf?idNorma=13192</a>. Acessado em: 22/07/2022.",
+          "Frost, D.R. 2017. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 27/11/2017.",
+          "Haddad, C. F. B.; Segalla, M. V.; Bataus, Y. S. L.; Uhlig, V. M.; Batista, F. R. Q.; Garda, A.; Hudson, A. A.; Cruz, C. A. G.; Strüsmann, C.; Brasileiro, C. A.; Silvano, D. L.; Nomura, F.; Pinto, H. B. A.; Amaral, I. B.; Gasparini, J. L. R.; Lima, L. P., Martins, M. R. C.; Hoogmoed, M. S.; Colombo, P.; Valdujo, P. H.; Garcia, P. C. A.; Feio, R. N.; Brandão, R. A.; Bastos, R. P. &amp; Caramaschi, U., 2016. Avaliação do Risco de Extinção de Holoaden bradei B. Lutz, 1959 \"1958\".. Processo de avaliação do risco de extinção da fauna brasileira. ICMBio, Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7515-anfibios-holoaden-bradei.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7515-anfibios-holoaden-bradei.html</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade) 2018. Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. Volume V - Anfíbios. p.128. <i>In</i>: Instituto Chico Mendes de Conservação & da Biodiversidade (Org.). <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. ICMBio Brasília.",
+          "ICMBio 07/10/2015. Portaria Nº 48, de 6 de outubro de 2015. Aprova o Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste. p.49. Disponível em: <a target=\"_blank\" href=\"http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254\">http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/33257265/do1-2015-10-07-portaria-n-48-de-6-de-outubro-de-2015-33257254</a>.",
+          "Lutz, B. 1958. Anfíbios novos e raros das serras costeiras do Brasil (new or rare frogs from the coastal ranges of Brazil). <i>Eleutherodactylus venancioi</i> sp. nov., <i>E. hoehnei </i>sp. nov., <i>Holoaden bradei</i> sp. nov. e <i>H. lüderwaldti</i> Mir. Rib., 1920. <b>Memórias do Instituto Oswaldo Cruz</b>, 56: p.373-399.",
+          "MMA 17/12/2014. Portaria 444: reconhece como espécies da fauna brasileira ameaçadas de extinção aquelas constantes da \"Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção\". p.13. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html\">https://www.icmbio.gov.br/cepsul/legislacao/portaria/427-2014.html</a>. Acessado em: 24/02/2022.",
+          "MMA 26/05/2003. Instrução Normativa n° 003, de 26 de maio de 2003. Lista das Espécies da Fauna Brasileira Ameaçadas de Extinção. p.21. Disponível em: <a target=\"_blank\" href=\"https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2003/in_mma_03_2003_especiesfaunabrasileiraameacadasextincao.pdf\">https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2003/in_mma_03_2003_especiesfaunabrasileiraameacadasextincao.pdf</a>. Acessado em: 01/03/2013.",
+          "Machado, A.B.M.; Drummond, G.M. &amp; Paglia, A.P. 2008. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</b>. p.1420. Ministério do Meio Ambiente/Fundação Biodiversitas Brasília & Belo Horizonte.",
+          "Projeto MapBiomas 2017. Mapeamento Anual da Cobertura e Uso do Solo no Brasil. Coleção 2. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/pages/about/about\">http://mapbiomas.org/pages/about/about</a>. Acessado em: 18/09/2017.",
+          "Rocha, C.F. &amp; Van Sluys, M. Cruz, C.A.G., 2004. <i>Holoaden bradei</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T10215A3183473</a>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

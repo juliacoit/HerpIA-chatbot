@@ -1,0 +1,253 @@
+{
+  "id_ficha": "444a453778394f4a38684c39664a3971436d575957773d3d",
+  "nome_cientifico": "Leptophis nigromarginatus (Günther, 1866)",
+  "nome_cientifico_atual": "Leptophis nigromarginatus (Günther, 1866)",
+  "nome_comum": null,
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "10/2022",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.39045.1",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=444a453778394f4a38684c39664a3971436d575957773d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Leptophis nigromarginatus</i>&nbsp;<span>(Günther, 1866)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "10/2022",
+      "publicationDate": "16/03/2026",
+      "justificative": "<p><em>Leptophis nigromarginatus </em>ocorre na Guiana e nas porções central e oeste da Amazônia, com registros no Brasil, Colômbia, Equador, Peru e norte da Bolívia. No Brasil, a espécie possui ampla distribuição, podendo ser encontrada desde o Amapá até o Acre. Não foram identificadas ameaças que a coloquem em risco de extinção em curto prazo. Portanto, <em>Leptophis nigromarginatus </em>foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Marcio Martins; Cristiano de Campos Nogueira; Alejandro Valencia-Zuleta; Carlos Roberto Abrahão; Antônio Jorge Suzart Argôlo; Gabriela do Valle Alvarenga; Fausto Erritto Barbo; Renato Silveira Bérnils; Guarino Rinaldi Colli; Henrique Caldeira Costa; Frederico Gustavo Rodrigues França; Francisco Luís Franco; Thaís Guedes; Daniel Loebmann; Otavio Augusto Vuolo Marques; Márcio Borges Martins; Davi Lima Pantoja; Paulo Gustavo Homem Passos; Ana Lúcia da Costa Prudente; Paulo Roberto Melo Sampaio; Christine Strüssmann",
+      "citation": "<p>Martins, M.; Nogueira, C.C.; Valencia-Zuleta, A.; Abrahão, C.R.; Argôlo, A.J.S.; Alvarenga, G.V.; Barbo, F.E.; Bérnils, R.S.; Colli, G.R.; Costa, H.C.; França, F.G.R.; Franco, F.L.; Guedes, T.; Loebmann, D.; Marques, O.A.V.; Martins, M.B.; Pantoja, D.L.; Passos, P.G.H.; Prudente, A.L.C.; Sampaio, P.R.M.; Strüssmann, C. 2026. <i>Leptophis nigromarginatus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.39045.1 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.39045.1",
+      "photo": {},
+      "version": 1,
+      "versionId": 27056,
+      "deleted": false,
+      "lastAvaliationDate": "28/10/2022",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Colubridae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Leptophis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Leptophis nigromarginatus</i>"
+        }
+      ],
+      "oldNames": "Ahaetulla nigromarginata, Leptophis ahaetulla nigromarginatus",
+      "commonNames": "",
+      "taxonomicNotes": "<p>Recente revisão taxonômica de <em>Leptophis ahaetulla </em>reconheceu <em>Leptophis nigromarginatus </em>como espécie plena (Albuquerque &amp; Fernandes, 2022).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Leptophis nigromarginatus</em> ocorre na Guiana e nas porções central e oeste da Amazônia, no Brasil, Colômbia, Equador, Peru e norte da Bolívia (Albuquerque &amp; Fernandes, 2022).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui ampla distribuição na Amazônia, podendo ser encontrada no Acre, Rondônia, Amazonas, Pará e Amapá (Albuquerque &amp; Fernandes, 2022).</p>",
+      "states": "Acre, Amapá, Amazonas, Pará, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Amapá Litoral, Sub-bacia Madeira, Sub-bacia Negro, Sub-bacia Paru, Sub-bacia Purus, Sub-bacia Solimões, Sub-bacia Tapajós, Sub-bacia Trombetas",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/6159552f46746b2b47395538554c4459356f7969756a6e7758347073357478614959622b4e446e342b54446e4c6b6578357476663470504c6447375035785151",
+        "legend": "Mapa de distribuição de Leptophis nigromarginatus",
+        "diskFileName": "6a6ad3001d1411b63fb33b4fa94c3a33.png",
+        "fileName": "Mapa de Leptophis nigromarginatus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Leptophis nigromarginatus </em>ocorre em ambientes florestais e foi registrada até 700 metros de altitude (Albuquerque &amp; Fernandes, 2022).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças que coloquem a espécie em risco de extinção.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Iquiri",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Albuquerque & Fernandes, 2022",
+              "title": "Taxonomic revision of the parrot snake <i>Leptophis ahaetulla</i> (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE CORUMBIARA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Albuquerque & Fernandes, 2022",
+              "title": "Taxonomic revision of the parrot snake <i>Leptophis ahaetulla</i> (Serpentes, Colubridae)"
+            }
+          ]
+        },
+        {
+          "name": "Évare I",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Albuquerque & Fernandes, 2022",
+              "title": "Taxonomic revision of the parrot snake <i>Leptophis ahaetulla</i> (Serpentes, Colubridae)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Albuquerque, N.R. &amp; Fernandes, D.S. (2022) Taxonomic revision of the parrot snake <i>Leptophis ahaetulla</i> (Serpentes, Colubridae). <i>Zootaxa</i>. 5153 (1), 1-69."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "id_ficha": "73354573755a53677776347531794c5a713741734e413d3d",
+  "nome_cientifico": "Scinax uruguayus (Schmidt, 1944)",
+  "nome_cientifico_atual": "Scinax uruguayus (Schmidt, 1944)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Cerrado, Mata Atlântica, Pampa",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17791.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=73354573755a53677776347531794c5a713741734e413d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax uruguayus</i>&nbsp;<span>(Schmidt, 1944)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "11/04/2023",
+      "justificative": "<p><em>Scinax uruguayus</em> ocorre na Argentina, Brasil e Uruguai. No Brasil, possui registros de ocorrência na região Sul, entre os estados do Paraná e Rio Grande do Sul. Trata-se de uma espécie de áreas abertas, incomum nas localidades onde ocorre, porém observada em altas densidades no período reprodutivo. Embora exista perda de hábitat ao longo de sua distribuição, principalmente em decorrência do avanço de atividades agrícolas e da silvicultura, a espécie possui ampla distribuição e não há evidências de que as ameaças possam colocá-la em risco de extinção em curto prazo. Ocorre em unidades de conservação, inclusive de proteção integral. Por essas razões, <em>Scinax uruguayus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Carlos Eduardo Guidorizzi; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Guidorizzi, C.E.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2023. <i>Scinax uruguayus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17791.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17791.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14958,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax uruguayus</i>"
+        }
+      ],
+      "oldNames": "Hyla uruguaya, Julianus uruguayus",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Scinax uruguayus </em>é um complexo de espécies (F. Kolenc, com. pess., 2012). </p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Scinax uruguayus </em>ocorre na América do Sul, onde distribui-se na Argentina, Brasil e Uruguai (Langone, 1990; Silvano <em>et al</em>., 2004).</p>",
+      "nationalDistribution": "<p>No Brasil, a espécie possui registros de ocorrência na região Sul, entre os estados do Paraná e Rio Grande do Sul (Braun &amp; Braun, 1980; Langone, 1990, 1997; Kwet <em>et al.</em>, 2010; Conte &amp; Rossa-Feres, 2006). Sua extensão de ocorrência é de 234.099 km2, obtida via mínimo polígono convexo a partir dos registros dentro do Brasil.</p>",
+      "states": "Paraná, Rio Grande do Sul, Santa Catarina",
+      "biomes": "Cerrado, Mata Atlântica, Pampa",
+      "watersheds": "Sub-bacia Guaíba, Sub-bacia Ibicuí, Sub-bacia Iguaçu, Sub-bacia Litoral RJ SP, Sub-bacia Paranapanema, Sub-bacia Uruguai Alto",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/4744366e6f586d7772636f2f6531514a4862345a4849386c4b475a2f4d627a3650324a42495063544c756b7644426c347748384e476b4d725073304275487441",
+        "legend": "Mapa de distribuição com registros de ocorrência.",
+        "diskFileName": "e5ae71afcece89fea31a90ca2268c8bb.png",
+        "fileName": "Mapa de Scinax uruguayus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax uruguayus </em>é uma espécie exclusiva de áreas abertas naturais serranas. Sua reprodução possui um padrão explosivo, e acontece em poças e lagoas temporárias, onde deposita seus ovos e os girinos se desenvolvem (Silvano <em>et al</em>., 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie não é comum ao longo de sua distribuição, porém, pode ser observada em altas densidades durante o período reprodutivo.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A principal ameaça para a espécie é a conversão dos campos nativos para silvicultura e agricultura. No entanto, a distribuição da espécie é ampla e não há evidência de que essa ameaça possa colocá-la em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.2 - Silvicultura",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não foram encontradas informações para a espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Silvano <i>et al.</i>, 2004",
+              "title": "Silvano, D., Garcia, P., Kwet, A., Lavilla, E. &amp; Langone, J. (2004) <i>Scinax uruguayus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en</a>. [Acessado em: 15/mai/2018]."
+            },
+            {
+              "label": "Silvano <i>et al.</i>, 2004",
+              "title": "Silvano, D., Garcia, P., Kwet, A., Lavilla, E. &amp; Langone, J. (2004) <i>Scinax uruguayus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en</a>. [Acessado em: 15/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "APA Ibirapuitã",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Bolzan, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Araucárias",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Lucas & Marocco, 2011",
+              "title": "Anurofauna (Amphibia, Anura) em um remanescente de Floresta Ombrófila Mista no Estado de Santa Catarina, Sul do Brasil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Campos Gerais",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "PARNA São Joaquim",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REVIS dos Campos de Palmas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2015",
+              "title": "Estruturação de Assembleias de Girinos Sujeitas ao Hidroperíodo: uma Abordagem em Diferentes Escalas"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            },
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Conte, 2010",
+              "title": "Diversidade de anfíbios da floresta com Araucária"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL RIO CANOAS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Lyra <i>et al.</i>, 2017",
+              "title": "Meeting the challenge of DNA barcoding Neotropical amphibians: polymerase chain reaction optimization and new COI primers"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DA ESCARPA DEVONIANA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Crivellari <i>et al.</i>, 2014",
+              "title": "Amphibians of grasslands in the state of Paraná, southern Brazil (Campos Sulinos)"
+            },
+            {
+              "label": "Bernarde & Machado, 2001",
+              "title": "Riqueza de espécies, ambientes de reprodução e temporada de vocalização da anurofauna em Três Barras do Paraná, Brasil (Amphibia: Anura)"
+            },
+            {
+              "label": "Pinto, 2015",
+              "title": "Diversidade e distribuição espaço-temporal de anuros ocorrentes em Floresta Ombrófila Mista"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ESTADUAL DE GUARATUBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Conte & Rossa-Feres, 2006",
+              "title": "Diversidade e ocorrência temporal da anurofauna (Amphibia, Anura) em São José dos Pinhais, Paraná, Brasil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEçãO AMBIENTAL ROTA DO SOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Domenico, 2008",
+              "title": "Herpetofauna do Mosaico de Unidades de Conservação do Jacupiranga (SP)"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Braun, P.C. &amp; Braun, C.A.S. 1980. Lista prévia dos anfíbios do Estado do Rio Grande do Sul, Brasil. <b>Iheringia, Série Zoologia</b>, 56 (56): p.121-146.",
+          "Conte, C.E. &amp; Rossa-Feres, D.C. 2006. Diversidade e ocorrência temporal da anurofauna (Amphibia, Anura) em São José dos Pinhais, Paraná, Brasil. <b>Revista Brasileira de Zoologia</b>, 23 (1): p.162-175.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kwet, A.; Lingau, R. &amp; Di-Bernardo, M. 2010. <b>Pró-Mata: Anfíbios da Serra Gaúcha, Sul do Brasil – Amphibien der Serra Gaúcha, Südbrasilien – Amphibians of the Serra Gaúcha, South of Brazil</b>. p.148. Brasilien Zentrum der Universität Tübingen and EDIPUCRS Tübingen, Germany, and Porto Alegre, Brazil.",
+          "Langone, J. 1990. Revalidacion de <i>Hyla uruguaya</i> Schmidt, 1944 (Amphibia, Anura, Hylidae). <b>Comunicaciones Zoológicas del Museo de Historia Natural de Montevideo</b>, XII (172): p.1-9.",
+          "Langone, J.A. 1997. <i>Hyla uruguaya</i> K. P. Schmidt, 1944 (Amphibia, Anura, Hylidae). Primera cita para el estado brasileño de Santa Catarina. <b>Cuadernos de Herpetología</b>, 11 (1-2): p.87-89.",
+          "Silvano, D.; Garcia, P.; Kwet, A.; Lavilla, E. &amp; Langone, J. 2004. <i>Scinax uruguayus</i>. <b>The IUCN Red List of Threatened Species 2004: e.T55684A11339664</b>. Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55684A11339664.en</a>. Acessado em: 15/05/2018."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

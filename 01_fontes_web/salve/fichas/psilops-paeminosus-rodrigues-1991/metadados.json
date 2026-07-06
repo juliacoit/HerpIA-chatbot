@@ -1,0 +1,452 @@
+{
+  "id_ficha": "317a3477735148454a6e7a432b4365725872374c6d773d3d",
+  "nome_cientifico": "Psilops paeminosus (Rodrigues, 1991)",
+  "nome_cientifico_atual": "Psilops paeminosus (Rodrigues, 1991)",
+  "nome_comum": "Briba",
+  "grupo": "Répteis",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Cerrado, Mata Atlântica",
+  "periodo_avaliacao": "04/2021",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.34250.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=317a3477735148454a6e7a432b4365725872374c6d773d3d",
+  "data_coleta": "2026-07-01",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Psilops paeminosus</i>&nbsp;<span>(Rodrigues, 1991)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "04/2021",
+      "publicationDate": "23/03/2026",
+      "justificative": "<p><em>Psilops paeminosus</em> é endêmica do Brasil, com registros nos estados da Bahia, Sergipe, Pernambuco e Minas Gerais. A espécie é fossorial, encontrada em solos arenosos. Apesar de poder ser localmente afetada por atividades antrópicas, sua distribuição é ampla e as ameaças não a colocam em risco de extinção em curto prazo. Portanto, <em>Psilops paeminosus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Guarino Rinaldi Colli; Yeda Soares de Lucena Bataus; Paula Ribeiro Anunciação; Luciana Signorelli; Carlos Roberto Abrahão; Robson Waldemar Ávila; Diva Maria Borges-Nojosa; Beatriz Nunes Cosendey; Henrique Caldeira Costa; Annelise Batista D´Angiolella; Eduardo José dos Reis Dias; Iuri Ribeiro Dias; Renato Gomes Faria; Eliza Maria Xavier Freire; Luciana Frazão; Thaís Barreto Guedes; Mara Cíntia Kiefer; Renata Perez Maciel; Daniel Oliveira Mesquita; Leandro João Carneiro de Lima Moraes; Geraldo Jorge Barbosa de Moura; Tamí Mott; Cristiano de Campos Nogueira; Davi Lima Pantoja; Daniel Cunha Passos; Hugo Bonfim de Arruda Pinto; Leonardo Barros Ribeiro; Síria Lisandra de Barcelos Ribeiro; Marco Antônio Ribeiro-Júnior; Diego José Santana; Marcélia Basto da Silva; Selma Torquato da Silva; Adriano Lima Silveira; Marcelo José Sturaro; Moacir Santos Tinôco; Lucas Rafael Uchoa; Fernanda de Pinho Werneck; Gisele Regina Winck",
+      "citation": "<p>Colli, G.R.; Bataus, Y.S.L.; Anunciação, P.R.; Signorelli, L.; Abrahão, C.R.; Ávila, R.W.; Borges-Nojosa, D.M.; Cosendey, B.N.; Costa, H.C.; D´angiolella, A.B.; Dias, E.J.R.; Dias, I.R.; Faria, R.G.; Freire, E.M.X.; Frazão, L.; Guedes, T.B.; Kiefer, M.C.; Maciel, R.P.; Mesquita, D.O.; Moraes, L.J.C.L.; Moura, G.J.B.; Mott, T.; Nogueira, C.C.; Pantoja, D.L.; Passos, D.C.; Pinto, H.B.A.; Ribeiro, L.B.; Ribeiro, S.L.B.; Ribeiro Jr, M.A.; Santana, D.J.; Silva, M.B.; Silva, S.T.; Silveira, A.L.; Sturaro, M.J.; Tinôco, M.S.; Uchoa, L.R.; Werneck, F.P.; Winck, G.R. 2026. <i>Psilops paeminosus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.34250.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.34250.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 23247,
+      "deleted": false,
+      "lastAvaliationDate": "30/04/2021",
+      "publicationYear": "2026",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Reptilia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Squamata"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Gymnophthalmidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Psilops</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Psilops paeminosus</i>"
+        }
+      ],
+      "oldNames": "Psilophthalmus paeminosus",
+      "commonNames": "Briba",
+      "taxonomicNotes": "<p>Trata-se de um complexo de espécies (Rodrigues <em>et al</em>., 2017), avaliado aqui como unidade taxonômica válida.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Psilops paeminosus</em> é endêmica do Brasil, conhecida para os estados da Bahia, Sergipe, Pernambuco e Minas Gerais (Rodrigues, 1991; Delfim <em>et al.</em>, 2006; Garda <em>et al.</em>, 2013; Oliveira <em>et al</em><em>.,</em> 2017; Rodrigues <em>et al.</em>, 2017; Thomassen <em>et al.,</em> 2017; Macêdo <em>et al.</em>, 2018).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia, Minas Gerais, Pernambuco, Sergipe",
+      "biomes": "Caatinga, Cerrado, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral SE, Sub-bacia São Francisco Médio, Sub-bacia São Francisco Submédio",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/754170454143333166484c344c4f744d5569596d396d2f334643517479634a78655931683174364e502f39777a3046313049334f512b5a4b794f6d5a6969336f",
+        "legend": "Mapa distribuição_Psilops paeminosu",
+        "diskFileName": "2f270de9299cb26d7073e1502db26f0c.png",
+        "fileName": "Mapa de Psilops paeminosus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Psilops paeminosus</em> é encontrada no bioma Caatinga e algumas áreas de transição com o Cerrado e a Mata Altântica (Thomassen<em> et al</em>., 2017), possui hábito fossorial e habita o folhiço de touceiras de vegetação (Rodrigues, 1991) e microhabitats que possuem alguma sombra, como cactos e bromélias, podendo ser encontrada em grupos de vários indivíduos (Delfim <em>et al</em>., 2006). Quando ameaçada, escava a areia para se refugiar (Rodrigues, 1991). Foram encontrados indivíduos enterrados entre 5 e 30 cm de profundidade (Delfim <em>et al</em>., 2006).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>Embora não haja informações sobre sua população, a espécie parece ser bastante comum (Rodrigues, 1991;Delfim <em>et al</em>., 2006).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>O ambiente da espécie é afetado por diversas atividades antrópicas ao longo da sua distribuição, como expansão urbana, atividades agropastoris, extração da madeira e barragens no rio São Francisco. No entanto, a distribuição da espécie é ampla e essas ameaças não a colocam em risco de extinção em curto prazo.</p>",
+      "table": [
+        {
+          "type": {
+            "description": "1 - Desenvolvimento residencial e comercial|1.1 - Expansão urbana",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.1 - Culturas anuais e perenes não-madeireiras",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "2 - Agropecuária e Aquacultura|2.3 - Pecuária",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "5 - Uso de recursos biológicos|5.3 - Extração florestal",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        },
+        {
+          "type": {
+            "description": "3 - Produção energética e mineração|3.3 - Energia renovável|3.3.1 - Hidrelétricas",
+            "coverage": ""
+          },
+          "regions": [],
+          "refBibs": []
+        }
+      ],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Psilops paeminosus</em> foi beneficiada no primeiro e segundo ciclos do Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção da Serra do Espinhaço (ICMBio, 2012, 2016, 2018).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2021,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2021"
+        },
+        {
+          "type": "Global",
+          "year": 2011,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [],
+          "orderBy": "Y2011"
+        },
+        {
+          "type": "Global",
+          "year": 2009,
+          "coverage": "",
+          "category": "Vulnerável (VU)",
+          "oficialCategory": true,
+          "criteria": "D2",
+          "refBibs": [
+            {
+              "label": "Nogueira, 2011",
+              "title": "Nogueira, C. (2011) <i>Psilophthalmus paeminosus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T178622A7583045.en\">http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T178622A7583045.en</a>."
+            }
+          ],
+          "orderBy": "Y2009"
+        },
+        {
+          "type": "Estadual",
+          "year": 2017,
+          "coverage": "Bahia",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA, 2017",
+              "title": "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>"
+            }
+          ],
+          "orderBy": "X2017"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação dos Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2016",
+              "title": "ICMBio 2016 <i>Portaria nº 109, de 16 dezembro de 2016, que atualiza e aprova o Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço. DOU edição nº 246</i>."
+            }
+          ]
+        },
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação da Herpetofauna do Espinhaço Mineiro - 2º ciclo",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2018",
+              "title": "ICMBio 2018 <i>Portaria nº 384, de 24 de abril de 2018. Aprova o 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "ESEC Raso da Catarina",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Costa, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "MONA do Rio São Francisco",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Delfim <i>et al.</i>, 2006",
+              "title": "Squamata, Gymnophthalmidae, <i>Psilophthalmus paeminosus</i>: distribution extension, new state record"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL GRÃO MOGOL",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Thomassen <i>et al.</i>, 2017",
+              "title": "New state record and updated geographic distribution for the little known <i>Psilophthalmus paeminosus</i> (Squamata, Gymnophthalmidae)"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DUNAS E VEREDAS DO BAIXO MÉDIO SÃO FRANCISCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Delfim <i>et al.</i>, 2006",
+              "title": "Squamata, Gymnophthalmidae, <i>Psilophthalmus paeminosus</i>: distribution extension, new state record"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA DE ITAPARICA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Closel, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL SERRA BRANCA / RASO DA CATARINA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Garda <i>et al.</i>, 2013",
+              "title": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Fazenda Boa Ventura",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Delfim <i>et al.</i>, 2006",
+              "title": "Squamata, Gymnophthalmidae, <i>Psilophthalmus paeminosus</i>: distribution extension, new state record"
+            },
+            {
+              "label": "CHUNB, 2014",
+              "title": "Psilophthalmus paeminosus"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Por se tratar de um complexo de espécies, são necessários estudos taxonômicos.</p>",
+      "table": [
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Costa, T.B. (2015) <i>Estrutura das taxocenoses de lagartos nos biomas Caatinga, Cerrado e Amazônia</i>. Tese de Doutorado. Universidade Federal da Paraíba -UFPB. João Pessoa - PB. 166pp.",
+          "Delfim, F., Gonçalves, E. &amp; Torquato, S. (2006) Squamata, Gymnophthalmidae, <i>Psilophthalmus paeminosus</i>: distribution extension, new state record. <i>Check List</i>. 2 (3), 89-92.",
+          "Fonseca, C. R., Antongiovanni, M., Matsumoto, M., Bernard, E. &amp; Venticinque E. M. (2018) Oportunidades de conservação na Caatinga. <i>Ciência e Cultura</i>. 70 (4), 44-51.",
+          "Garda, A.A., Costa, T.B., Silva, C.R.S., Mesquita, D.O., Faria, R.G., Conceição, B.M., Silva, I.R.S., Ferreira, A.S., Rocha, S.M., Palmeira, C.N.S., Rodrigues, R., Ferrari, S.F. &amp; Torquato, S. (2013) Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil). <i>Check List</i>. 9 (2), 405–414.",
+          "ICMBio 2016 <i>Portaria nº 109, de 16 dezembro de 2016, que atualiza e aprova o Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados de Extinção na Serra do Espinhaço - PAN Herpetofauna da Serra do Espinhaço. DOU edição nº 246</i>.",
+          "ICMBio 2018 <i>Portaria nº 384, de 24 de abril de 2018. Aprova o 2º Ciclo do Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada da Serra do Espinhaço em Minas Gerais</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Macêdo, E.F., Mira-Mendes, C.V. &amp; Le Pendu, Y. (2018) New record of <i>Psilops paeminosus</i> (Rodrigues, 1991) (Squamata: Gymnophthalmidae) from south-central Bahia State, Brazil. <i>Herpetology Notes</i>. 11, 495-497.",
+          "Mesquita, O.D., Costa, G.C., Garda, A.A. &amp; Delfim, F.R. (2017) Species Composition, Biogeography, and Conservation of the Caatinga Lizards. Capítulo 6 In: Silva, Leal & Tabarelli (eds.) <i>Caatinga: The Largest Tropical Dry Forest Region in South America</i>. Switzerland, Springer International Publishing, pp. 151 -180.",
+          "Nogueira, C. (2011) <i>Psilophthalmus paeminosus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T178622A7583045.en\">http://dx.doi.org/10.2305/IUCN.UK.2011-1.RLTS.T178622A7583045.en</a>.",
+          "Oliveira, R.F., Vieira, L.R. &amp; Viera, A.G.T. (2017) Répteis de uma área de Caatinga no Município de Caetés, Agreste Meridional do Estado de Pernambuco, Brasil. <i>Revista Brasileira de Gestão Ambiental e Sustentabilidade</i>. 4 (7), 167-175.",
+          "Rodrigues, M.T. (1991) Herpetofauna das dunas interiores do rio São Francisco, Bahia, Brasil. 2. <i>Psilophthalmus</i>: um novo gênero de Microteiidae sem pálpebra (Sauria, Teiidae). <i>Papéis Avulsos de Zoologia (São Paulo)</i>. 37 (20), 321-327.",
+          "Rodrigues, M.T., Recoder, R., Teixeira Jr, M., Roscito, J.G., Guerrero, A.C., Nunes, P.M.S., Freitas, M.A., Fernandes, D.S., Bocchiglieri, A., Dal Vechio, F., Leite, F.S.F., Nogueira, C.C., Damasceno, R., Pellegrino K.C.M., Argôlo, A.J.S. &amp; Amaro, R.C. (2017) A morphological and molecular study of <i>Psilops</i>, a replacement name for the Brazilian microteiid lizard genus <i>Psilophthalmus</i> Rodrigues 1991 (Squamata, Gymnophthalmidae), with the description of two new species. <i>Zootaxa</i>. 4286 (4), 451–482.",
+          "Secretaria do Meio Ambiente do Estado da Bahia - SEMA/BA 2017 <i>Portaria nº 37 de 15 de agosto de 2017. Torna pública a Lista Oficial das Espécies da Fauna Ameaçadas de Extinção do Estado da Bahia.</i>",
+          "Souza, C.R.N. (2011) <i>Sistema de Autorização de Informação em Biodiversidade - SISBIO</i>.",
+          "Thomassen, H., Gomides, S.C., Silva, E. T., Pinto, H.B.A., Leite, F. S. F. &amp; Garcia, P. C. A. (2017) New state record and updated geographic distribution for the little known <i>Psilophthalmus paeminosus</i> (Squamata, Gymnophthalmidae). <i>North-Western Journal of Zoology</i>. 13 (1), 171-175."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

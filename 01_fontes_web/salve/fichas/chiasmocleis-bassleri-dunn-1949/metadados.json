@@ -1,0 +1,435 @@
+{
+  "id_ficha": "3571305679355573693941482f387a2b524468736d773d3d",
+  "nome_cientifico": "Chiasmocleis bassleri Dunn, 1949",
+  "nome_cientifico_atual": "Chiasmocleis bassleri Dunn, 1949",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Amazônia",
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.20723.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=3571305679355573693941482f387a2b524468736d773d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Chiasmocleis bassleri</i>&nbsp;<span>Dunn, 1949</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "04/01/2023",
+      "justificative": "<p><em>Chiasmocleis bassleri</em> ocorre na América do Sul, no Peru, Bolívia, Equador e Brasil. No Brasil, é amplamente distribuída nas porções oeste e central da Amazônia. A espécie é generalista, podendo ser encontrada em diferentes ambientes, e não foram identificadas ameaças que possam colocá-la em risco de extinção. Por essas razões, <em>Chiasmocleis bassleri</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Chiasmocleis bassleri</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.20723.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.20723.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15955,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Microhylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Chiasmocleis</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Chiasmocleis bassleri</i>"
+        }
+      ],
+      "oldNames": "Syncope bassleri",
+      "commonNames": "",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Não",
+      "globalDistribution": "<p><em>Chiasmocleis bassleri </em>ocorre na América do Sul, no Peru, Bolívia, Colômbia, Equador e Brasil (Icochea <em>et al.,</em> 2004; Frost, 2018).</p>",
+      "nationalDistribution": "<p>No Brasil, tem ampla distribuição, possui registros de ocorrência para os estados do Acre, Amazonas, Pará, Rondônia e Mato Grosso (França &amp; Venâncio, 2010; Peloso &amp; Sturaro, 2008; Santana <em>et al.</em>, 2009; Soares-Filho <em>et al.</em>, 2007; Souza, 2003; Sturaro &amp; Peloso, 2009; Rodrigues <em>et al.,</em> 2011; Silva, 2015).</p>",
+      "states": "Acre, Amazonas, Mato Grosso, Pará, Rondônia",
+      "biomes": "Amazônia",
+      "watersheds": "Sub-bacia Madeira",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/3542596c466c75724d68783655594b315a357a69574975424f366130354b52686830576564713969786f2f6f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Chiasmocleis bassleri",
+        "diskFileName": "0684855df9262ad9c48f48ad4e634857.png",
+        "fileName": "Mapa de Chiasmocleis bassleri.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "Não",
+      "description": "<p><em>Chiasmocleis basssleri </em>é noturna, vive na serapilheira e se reproduz de forma explosiva em poças temporárias (Souza, 2003). A espécie é generalista, podendo ser encontrada em diferentes ambientes.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>No estado do Acre é localmente comum (Souza, 2003).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Embora haja perda de vegetação nativa em alguns locais na área de distribuição da espécie, não há ameaças evidentes que possam colocá-la em risco de extinção. </p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há nenhuma informação conhecida quanto à utilização desta espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Icochea <i>et al.</i>, 2004",
+              "title": "Icochea, J., Azevedo-Ramos, C., Coloma, L. A. &amp; Ron, S. (2004) <i>Chiasmocleis bassleri</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57751A11680452\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57751A11680452</a>. [Acessado em: 14/out/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "FLONA Pau-Rosa",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Sturaro & Peloso, 2009",
+              "title": "I Expedição Científica à Floresta Nacional do Pau-Rosa, Município de Maués, Estado do Amazonas, Brasil. Inventário da Herpeptofauna: Rio Paraconi"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Amazônia",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Peloso & Sturaro, 2008",
+              "title": "A new species of narrow-mouthed frog of the genus <I>Chiasmocleis</i> Mehely 1904 (Anura, Microhylidae) from the Amazonian rainforest of Brazil"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Pacaás Novos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Zaqueo, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Zaqueo, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA Serra do Divisor",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            },
+            {
+              "label": "Prates, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Alto Juruá",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Médio Purus",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "VertNet, 2012",
+              "title": "VertNet"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Riozinho da Liberdade",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Peloso & Sturaro, 2008",
+              "title": "A new species of narrow-mouthed frog of the genus <I>Chiasmocleis</i> Mehely 1904 (Anura, Microhylidae) from the Amazonian rainforest of Brazil"
+            },
+            {
+              "label": "Bernarde, 2007",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Tapajós-Arapiuns",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Menin, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Pires, 2012",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL CHANDLESS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2015",
+              "title": "Estrutura das assembleias de anfíbios e repteis em áreas riparias e não riparias do Parque Estadual Chandless, Acre"
+            }
+          ]
+        },
+        {
+          "name": "RESERVA EXTRATIVISTA DO RIO GREGÓRIO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bernarde, 2011",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE RELEVANTE INTERESSE ECOLÓGICO JAPIIM PENTECOSTE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Bernarde, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "Kampa do Rio Amonea",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "SpLink, 2011",
+              "title": "Species Link"
+            }
+          ]
+        },
+        {
+          "name": "Uru-Eu-Wau-Wau",
+          "sphere": "Terras indígenas",
+          "printOrder": "5",
+          "refBibs": [
+            {
+              "label": "Zaqueo, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            },
+            {
+              "label": "Zaqueo, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos sobre sua distribuição e história natural ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "França, F.G.R. &amp; Venâncio, N.M. 2010. Reptiles and amphibians of a poorly known region in southwest Amazonia. <b>Biotemas</b>, 23 (3): p.71-84.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Icochea, J.; Azevedo-Ramos, C.; Coloma, L. A. &amp; Ron, S., 2004. <i>Chiasmocleis bassleri</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57751A11680452\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T57751A11680452</a>. Acessado em: 14/10/2011.",
+          "Peloso, P.L.V. &amp; Sturaro, M.J. 2008. A new species of narrow-mouthed frog of the genus <I>Chiasmocleis</i> Mehely 1904 (Anura, Microhylidae) from the Amazonian rainforest of Brazil. <b>Zootaxa</b>, 1947: p.39 - 52.",
+          "Rodrigues, D.D.J.; Noronha, J.D.C.; Lima, M.M. &amp; Rosa, A.C. 2011. Amphibia, Anura, Microhylidae, <i>Chiasmocleis avilapiresae</i> Peloso and Sturaro, 2008 and <I>Chiasmocleis bassleri</i> Dunn, 1949: New Distribution records. <b>Check List</b>, p.846-848.",
+          "Santana, D.J.; Sant’anna, A.C.; São-Pedro, V.A. &amp; Feio, R.N. 2009. The advertisement call of <i>Chiasmocleis bassleri</i> (Anura,Microhylidae) from southern amazon, Mato Grosso, Brazil. <b>South American Journal of Herpetology</b>, 4 (3): p.225-228.",
+          "Silva, D. P. 2015. <b>Estrutura das assembleias de anfíbios e repteis em áreas riparias e não riparias do Parque Estadual Chandless, Acre</b>. Dissertação de Mestrado. Universidade Federal do Acre. Rio Branco.",
+          "Soares-Filho, J.A.R.; Silva, M.O. &amp; Oliveira, M. 2007. Composição e conservação da anurofauna em ambientes de floresta e pastagem no município de Alto Alegre dos Parecis. <b>Biologia</b>, 1: p.2-2.",
+          "Souza, M.B. 2003. <b>Diversidade de anfíbios nas unidades de conservação ambiental: Reserva Extrativista do Alto Juruá (REAJ) e Parque Nacional da Serra do Divisor (PNSD), Acre, Brasil</b>. Tese de Doutorado. Universidade Estadual Paulista. Rio Claro.",
+          "Sturaro, M. J. &amp; Peloso, P.L.V. 2009. I Expedição Científica à Floresta Nacional do Pau-Rosa, Município de Maués, Estado do Amazonas, Brasil. Inventário da Herpeptofauna: Rio Paraconi. Belém."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id_ficha": "6b34763372704b6f46555163316a6441614575784d413d3d",
+  "nome_cientifico": "Chthonerpeton exile Nussbaum & Wilkinson, 1987",
+  "nome_cientifico_atual": "Chthonerpeton exile Nussbaum & Wilkinson, 1987",
+  "nome_comum": "Cecília, Cobra-cega",
+  "grupo": "Anfíbios",
+  "categoria_risco": "DD",
+  "categoria_risco_completa": "Dados Insuficientes (DD)",
+  "bioma": null,
+  "periodo_avaliacao": "06/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.19319.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=6b34763372704b6f46555163316a6441614575784d413d3d",
+  "data_coleta": "2026-06-26",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Chthonerpeton exile</i>&nbsp;<span>Nussbaum & Wilkinson, 1987</span>",
+      "category": "Dados Insuficientes (DD)",
+      "lastAvaliation": "06/2017",
+      "publicationDate": "09/01/2023",
+      "justificative": "<p><em>Chthonerpeton exile</em> é endêmica do Brasil, com localidade-tipo citada como “Bahia”, sem especificações quanto ao município ou localidade. O holótipo, único indivíduo conhecido, foi perdido. Considerando que não há informações sobre distribuição, não é possível avaliar ameaças e seu risco de extinção. Portanto, <em>Chthonerpeton exile</em> foi avaliada como Dados Insuficientes (DD).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Robson Vieira Guimarães Júnior; Juliana Rodrigues; Reuber Albuquerque Brandão; Miquéias Ferrão; Marcelo Gordo; Marinus Steven Hoogmoed; Igor Luis Kaefer; Felipe Sá Fortes Leite; Natan Medeiros Maciel; Vitor Hugo Mendonça do Prado; Diego José Santana; Debora Leite Silvano; Moises Barbosa de Souza; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Guimarães Jr, R.V.; Rodrigues, J.; Brandão, R.A.; Ferrão, M.; Gordo, M.; Hoogmoed, M.S.; Kaefer, I.L.; Leite, F.S.F.; Maciel, N.M.; Prado, V.H.M.; Santana, D.J.; Silvano, D.L.; Souza, M.B.; Toledo, L.F. 2023. <i>Chthonerpeton exile</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.19319.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.19319.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 15453,
+      "deleted": false,
+      "lastAvaliationDate": "23/06/2017",
+      "publicationYear": "2023",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Gymnophiona"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Typhlonectidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Chthonerpeton</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Chthonerpeton exile</i>"
+        }
+      ],
+      "oldNames": "",
+      "commonNames": "Cecília, Cobra-cega",
+      "taxonomicNotes": "",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Chthonerpeton exile </em>é endêmica do Brasil, mas sua distribuição é desconhecida. A localidade-tipo é citada como “Bahia, Brasil” (Nussbaum &amp; Wilkinson, 1987), sem especificações quanto ao município ou localidade. Sabe-se que o grupo <em>indistinctum</em>, ao qual a espécie pertence, é endêmico do sudeste da América do Sul (Nussbaum &amp; Wilkinson, 1987).</p>",
+      "nationalDistribution": "",
+      "states": "Bahia",
+      "biomes": "",
+      "watersheds": null,
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/474435774f7a3564777a4f2f2f2b4e4b455075736338634744784476505a79654c307662716d30694973586f6134336441455a6f312f57617267726e446c4748",
+        "legend": "Mapa distribuição_Chthonerpeton exile",
+        "diskFileName": "6bbaf151fffc2f68c3cade75808f7030.png",
+        "fileName": "Mapa de Chthonerpeton exile.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Não há informações sobre sua história natural. É provável que apresente características ecológicas semelhantes a <em>Chthonerpeton indistinctum</em>, que é vivípara e desova na água (Wilkinson &amp; Junca, 2004).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é conhecida apenas do holótipo, que encontra-se perdido (Frost, 2018). A data da coleta e coletor do holótipo são desconhecidos (Nussbaum &amp; Wilkinson, 1987).</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Como não há informação sobre sua distribuição, não é possível identificar ameaças para a espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há indícios de utilização desta espécie para quaisquer finalidades.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.A.Q., Maciel, A.O., Cruz, C.A.G., Loebmann, D., Silvano, D.L., Gonsales, E.M.L., Nomura, F., Leite, F.S.F., Pinto, H.B.A., Amaral, I.B., Nascimento, L.B., Sturaro, M.J., Hoogmoed, M.S., Kienle, M.S., Souza, M.B., Maciel, N.M., Colombo, P., Feio, R.N., Lingnau, R. &amp; Bastos, R.P. (2016) Avaliação de Risco de Extinção de <i>Chthonerpeton exile</i> Nussbaum & Wilkinson 1987. <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7831-anfibios-chthonerpeton-exile.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7831-anfibios-chthonerpeton-exile.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Nacional Brasil",
+          "year": 2003,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Machado <i>et al.</i>, 2005",
+              "title": "Machado, A. B. M., Martins, C. S. &amp; Drummond, G. M. (2005) <i>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</i> Edição 1ª Belo Horizonte, Fundação Biodiversitas, 160pp."
+            }
+          ],
+          "orderBy": "Z2003"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Wilkinson & Junca, 2004",
+              "title": "Wilkinson, M. &amp; Junca, F. (2004) <i>Chthonerpeton exile</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59536A11960172\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59536A11960172</a>. [Acessado em: 30/jan/2011]."
+            }
+          ],
+          "orderBy": "Y2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Como recomendações para conservação de Gymnophiona em geral, Gower &amp; Wilkinson (2005) sugerem intensificar as coletas, mesmo em escalas pequenas, a fim de aumentar as informações conhecidas para o grupo. Dessa forma, levantamentos herpetofaunísticos para Estudos de Impacto Ambiental (EIA) poderiam realizar buscas específicas para Gymnophiona por meio de diversos métodos (p. ex., Oommen <em>et al</em>., 2000; Measey &amp; Di-Bernardo, 2003; Measey <em>et al.,</em> 2001; Measey <em>et al.,</em> 2003; Kupfer <em>et al.,</em> 2006).</p>",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Gower, D.J. &amp; Wilkinson, M. 2005. Conservation biology of caecilian amphibians. <b>Conservation Biology</b>, 19 (1): p.45-55.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.A.Q.; Maciel, A.O.; Cruz, C.A.G.; Loebmann, D.; Silvano, D.L.; Gonsales, E.M.L.; Nomura, F.; Leite, F.S.F.; Pinto, H.B.A.; Amaral, I.B.; Nascimento, L.B.; Sturaro, M.J.; Hoogmoed, M.S.; Kienle, M.S.; Souza, M.B.; Maciel, N.M.; Colombo, P.; Feio, R.N.; Lingnau, R. &amp; Bastos, R.P. 2016. Avaliação de Risco de Extinção de <i>Chthonerpeton exile</i> Nussbaum & Wilkinson 1987. <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7831-anfibios-chthonerpeton-exile.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7831-anfibios-chthonerpeton-exile.html</a>.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Kupfer, A.; Gaucher, P.; Wilkinson, M. &amp; Gower, D.J. 2006. Passive trapping of aquatic caecilians (Amphibia: Gymnophiona: Typhlonectidae). <b>Studies on Neotropical Fauna and Environment</b>, 41 (2): p.93-96.",
+          "Machado, A.B.M.; Martins, C.S. &amp; Drummond, G.M. 2005. <b>Lista da Fauna Brasileira Ameaçada de Extinção: Incluindo as Listas das Espécies Quase Ameaçadas e Deficientes em Dados</b>. p.160. Fundação Biodiversitas Belo Horizonte.",
+          "Measey, G.J. &amp; Di-Bernardo, M. 2003. Estimating juvenile abundance in a population of the semiaquatic caecilian, <i>Chthonerpeton indistinctum</i> (Amphibia: Gymnophiona: Typhlonectidae), in Southern Brazil. <b>Journal of Herpetology</b>, 37 (2): p.371-373.",
+          "Measey, G.J.; Gower, D.J.; Oommen, O.V. &amp; Wilkinson, M. 2001. Permanent marking of a fossorial caecilian, <i>Gegeneophis ramaswamii</i> (Amphibia: Gymnophiona: Caeciliidae). <b>Journal of South Asian Natural History</b>, 5: p.141–147.",
+          "Measey, G.J.; Gower, D.J.; Oommen, O.V. &amp; Wilkinson, M. 2003. A mark-recapture study of the caecilian amphibian <I>Gegeneophis ramaswamii</i> (Amphibia: Gymnophiona: Caeciliidae) in southern India. <b>Journal of Zoology</b>, 261: p.129-133.",
+          "Nussbaum, R.A. &amp; Wilkinson, M. 1987. Two new species of <i>Chthonerpeton</i> (Amphibia: Gymnophiona: Typhlonectidae) from Brazil. <b>Occasional Papers of the Museum of Zoology of the University of Michigan</b>, (716) p.1-16.",
+          "Oommen, O.V.; Measey, G.J.; Gower, D.J. &amp; Wilkinson, M. 2000. Distribution and abundance of the caecilian <I>Gegeneophis ramaswamii</i> (Amphibia: Gymnophiona) in southern Kerala. <b>Current Science</b>, 79 (9): p.1386-1389.",
+          "Wilkinson, M. &amp; Junca, F., 2004. <i>Chthonerpeton exile</i>. The IUCN Red List of Threatened Species 2004, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59536A11960172\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T59536A11960172</a>. Acessado em: 30/01/2011."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

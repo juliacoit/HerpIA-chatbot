@@ -1,0 +1,360 @@
+{
+  "id_ficha": "594958617a414966324658796532324d4a47763953513d3d",
+  "nome_cientifico": "Phrynomedusa appendiculata (Lutz, 1925)",
+  "nome_cientifico_atual": "Phrynomedusa appendiculata (Lutz, 1925)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.16564.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=594958617a414966324658796532324d4a47763953513d3d",
+  "data_coleta": "2026-06-30",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Phrynomedusa appendiculata</i>&nbsp;<span>(Lutz, 1925)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "19/03/2025",
+      "justificative": "<p><em>Phrynomedusa appendiculata</em> é endêmica do Brasil, conhecida de poucos registros na Mata Atlântica de São Paulo e Santa Catarina. A espécie é florestal e arborícola, considerada bastante rara e conhecida de poucos indivíduos. Ficou sem ser registrada de 1966 até 2012. Houve esforços recentes de busca direcionada em algumas outras localidades, mas a espécie não foi registrada. No entanto, é um grupo que ocorre em baixas densidades e é de detecção bastante difícil. Apesar do histórico de poucos registros, a espécie ocorre em regiões com extensas áreas de florestas bem preservadas, e não há evidências de ameaças significativas que a coloquem em risco a curto prazo. Portanto, <em>P. appendiculata</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Phrynomedusa appendiculata</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.16564.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.16564.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14462,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Phyllomedusidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Phrynomedusa</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Phrynomedusa appendiculata</i>"
+        }
+      ],
+      "oldNames": "Phyllomedusa appendiculata",
+      "commonNames": "",
+      "taxonomicNotes": "<p>O registro de Salesópolis, em São Paulo (Heyer <em>et al</em>., 1990), trata-se de <em>Phrynomedusa vanzolinii</em> (Baêta <em>et al</em>., 2016).</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Phrynomedusa appendiculata</em> é endêmica do Brasil, com distribuição conhecida para regiões elevadas da Mata Atlântica entre os estados de São Paulo e Santa Catarina. Sua localidade-tipo é o município de São Bento do Sul, estado de Santa Catarina, entre 800 e 1.000 metros de altitude (Lutz, 1925). Em Santa Catarina, é encontrada ainda no município de Lauro Müller (Garcia <em>et al</em>., 2004) e, no estado de São Paulo, em Santo André (Baêta <em>et al</em>., 2016) e no Parque Estadual Nascentes do Paranapenama (IA-RBMA, 2012).</p>",
+      "nationalDistribution": "",
+      "states": "Santa Catarina, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral SP, Sub-bacia Litoral SP PR SC, Sub-bacia Paranapanema",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/342b7455374a77556c6b316a666f69637150305065717a3835426734624c502b32414839654856784d32586e4c6b6578357476663470504c6447375035785151",
+        "legend": "Phrynomedusa appendiculata.",
+        "diskFileName": "720990189a3711fea6effb6a77650793.png",
+        "fileName": "Mapa de Phrynomedusa appendiculata.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Há poucas informações sobre a história natural e ecologia da espécie. <em>Phrynomedusa appendiculata</em> é arborícola e desova em riacho (D. Baêta, com. pess., 2018). Indivíduos foram registrados vocalizando em grandes poças e lagoas formadas por meandros abandonados de um riacho (IA-RBMA, 2012).</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é bastante rara e conhecida de poucos exemplares, sendo pouco representada em coleções. Ficou sem ser registrada de 1966 até 2012, quando foi observda no Parque Estadual Nascentes do Paranapanema, em São Paulo (IA-RBMA, 2012). Recentemente, houve esforços direcionados de busca em algumas localidades, mas a espécie não foi registrada (D. Baêta, com. pess., 2018). No entanto, é um espécie de detecção bastante difícil.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie habita uma região da Mata Atlântica historicamente impactada por atividades antrópicas que resultaram na conversão de habitats, especialmente devido à expansão agropecuária e urbana. No entanto, sua área de distribuição ainda abriga extensas porções de floresta em bom estado de conservação.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Não há uso conhecido da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>A espécie é beneficiada pelo Plano de Ação Nacional para a Conservação dos Anfíbios e Répteis Ameaçados da Região Sul do Brasil (ICMBio, 2012).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Quase Ameaçada (NT)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Garcia <i>et al.</i>, 2004",
+              "title": "Garcia, P., Segalla, M.V. &amp; Silvano, D. (2004) <I>Phrynomedusa appendiculata</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55825A11374203.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55825A11374203.en.</a>. [Acessado em: 05/jun/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2018,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            },
+            {
+              "label": "Governo do Estado de São Paulo, 2018",
+              "title": "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2018"
+        },
+        {
+          "type": "Estadual",
+          "year": 2011,
+          "coverage": "Santa Catarina",
+          "category": "Em Perigo (EN)",
+          "oficialCategory": true,
+          "criteria": "A2c; B2ab(iii)",
+          "refBibs": [
+            {
+              "label": "CONSEMA, 2011",
+              "title": "CONSEMA 06/12/2011 <i>Resolução Consema Nº 002. Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+            }
+          ],
+          "orderBy": "X2011"
+        },
+        {
+          "type": "Estadual",
+          "year": 2004,
+          "coverage": "Paraná",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Mikich & Bérnils, 2004",
+              "title": "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp."
+            }
+          ],
+          "orderBy": "X2004"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Concluída",
+          "actionPanName": "Plano de Ação Nacional para a Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil",
+          "refBibs": [
+            {
+              "label": "ICMBio, 2012",
+              "title": "ICMBio 17/02/2012 <i>Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul</i>."
+            }
+          ]
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA SERRA DO MAR",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "IA-RBMA, 2012",
+              "title": "Proposta Técnica para criação do Parque Estadual Nascentes do Paranapanema PENAP- Estudos, mapas e memorial descritivo"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL NASCENTES DO PARANAPANEMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "IA-RBMA, 2012",
+              "title": "Proposta Técnica para criação do Parque Estadual Nascentes do Paranapanema PENAP- Estudos, mapas e memorial descritivo"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>É essencial o monitoramento da única população registrada em anos recentes, no Parque Estadual Nascentes do Paranapenama. É necessária realização de buscas direcionadas nos locais onde a espécie já foi registrada e outros locais com ambientes favoráveis, assim como estudos taxonômicos para definir a posição taxonômica das populações de Paranapiacaba (SP) e Guaratuba (PR).</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Monitoramento populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Taxonomia",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Baêta, D., Giasson, L.O.M., Pombal Jr., J.P. &amp; Haddad, C.F.B. (2016) Review of the rare genus <i>Phrynomedusa</i> Miranda-Ribeiro, 1923 (Anura: Phyllomedusidae) with description of a new species. <i>Herpetological Monographs</i>. 30, 49-78.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Garcia, P., Segalla, M.V. &amp; Silvano, D. (2004) <I>Phrynomedusa appendiculata</I>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55825A11374203.en.\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55825A11374203.en.</a>. [Acessado em: 05/jun/2018].",
+          "Governo do Estado de São Paulo 27/11/2018 <i>Decreto nº 63.853. Declara as espécies da fauna silvestre no Estado de São Paulo regionalmente extintas, as ameaçadas de extinção, as quase ameaçadas e as com dados insuficientes para avaliação, e dá providências correlatas</i>.",
+          "Heyer, W.R., Rand, A.S., Cruz, C.A.G., Peixoto, O.L. &amp; Nelson, C.E. (1990) Frogs of Boracéia. <i>Arquivos de Zoologia, São Paulo</i>. 31 (4), 235-410.",
+          "IA-RBMA, Instituto Amigos da Reserva da Biosfera da Mata Atlântica (2012) <i>Proposta Técnica para criação do Parque Estadual Nascentes do Paranapanema PENAP- Estudos, mapas e memorial descritivo</i>. 185pp.",
+          "ICMBio 17/02/2012 <i>Portaria nº 25, de 17 de fevereiro de 2012. Aprova o Plano de Ação Nacional para Conservação de Répteis e Anfíbios Ameaçados da Região Sul do Brasil - PAN Herpetofauna do Sul</i>.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Lutz, A. (1925) Batraciens du Brésil. <i>Comptes Rendus et Mémoires Hebdomadaires des Séances de la Société de Biologie et des ses Filiales. Paris</i>. 93 (2), 137–139.",
+          "Mikich, S.B. &amp; Bérnils, R.S. (2004) <i>Livro Vermelho da Fauna Ameaçada no Estado do Paraná</i> Curitiba, Instituto Ambiental do Paraná, 764pp.",
+          "Resolução Consema Nº 002 06/12/2011 <i>Lista Oficial de Espécies da Fauna Ameaçadas de Extinção do Estado de Santa Catarina. Conselho Estadual do Meio Ambiente</i>."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": "Instituto Boitatá"
+    }
+  }
+}

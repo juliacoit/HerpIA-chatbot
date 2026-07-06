@@ -1,0 +1,436 @@
+{
+  "id_ficha": "2f6a5a714e69765a7741382f593253723670613550673d3d",
+  "nome_cientifico": "Scinax auratus (Wied-Neuwied, 1821)",
+  "nome_cientifico_atual": "Scinax auratus (Wied-Neuwied, 1821)",
+  "nome_comum": "",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Caatinga, Mata Atlântica",
+  "periodo_avaliacao": "09/2018",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.17579.2",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=2f6a5a714e69765a7741382f593253723670613550673d3d",
+  "data_coleta": "2026-07-02",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Scinax auratus</i>&nbsp;<span>(Wied-Neuwied, 1821)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2018",
+      "publicationDate": "18/03/2025",
+      "justificative": "<p><em>Scinax auratus</em> é endêmica do Brasil, encontrada predominantemente na Mata Atlântica nordestina entre os estados do Rio Grande do Norte e o sul da Bahia. A espécie é comum, ocupa uma variedade de ambientes, como florestas e áreas abertas, incluindo ambientes moderadamente antropizados, e possui ampla distribuição. Não foram identificadas ameaças que a coloquem em risco e extinção. Portanto, <em>Scinax auratus</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Sheila Pereira de Andrade; Yeda Soares de Lucena Bataus; Robson Vieira Guimarães Júnior; Gilda Vasconcellos de Andrade; Robson Waldemar Ávila; Patrick Colombo; Iuri Ribeiro Dias; Marcelo Nogueira de Carvalho Kokubum; Daniel Cassiano Lima; Rodrigo Lingnau; Barnagleison Silva Lisboa; Daniel Loebmann; Elaine Lucas; Iberê Farina Machado; Arnaldo Magalhães Júnior; Márcio Borges Martins; Geraldo Jorge Barbosa de Moura; Marcelo Felgueiras Napoli; Selvino Neckel de Oliveira; Luiz Fernando Ribeiro; Moacir Santos Tinôco; Caroline Zank",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Andrade, S.P.; Bataus, Y.S.L.; Guimarães Jr, R.V.; Andrade, G.V.; Ávila, R.W.; Colombo, P.; Dias, I.R.; Kokubum, M.N.C.; Lima, D.C.; Lingnau, R.; Lisboa, B.S.; Loebmann, D.; Lucas, E.; Machado, I.F.; Magalhães Jr, A.; Martins, M.B.; Moura, G.J.B.; Napoli, M.F.; Oliveira, S.N.; Ribeiro, L.F.; Tinôco, M.S.; Zank, C. 2025. <i>Scinax auratus</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.17579.2 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.17579.2",
+      "photo": {},
+      "version": 2,
+      "versionId": 14914,
+      "deleted": false,
+      "lastAvaliationDate": "28/09/2018",
+      "publicationYear": "2025",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hylidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Scinax</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Scinax auratus</i>"
+        }
+      ],
+      "oldNames": "Hyla aurata, Ololygon aurata, Scinax aurata",
+      "commonNames": "",
+      "taxonomicNotes": "<p><em>Scinax auratus</em> não está associada a nenhum grupo específico, mas pertence ao clado de <em>Scinax ruber</em> (Faivovich <em>et al</em>., 2005) e pode representar um complexo de espécies (Arzabe &amp; Juncá, 2004). Bokermann (1969) redescreveu a espécie com base em exemplares da localidade-tipo, enquanto Duellman &amp; Wiens posteriormente designaram um neótipo para <em>S. auratus</em>. Nunes &amp; Pombal Jr. (2010) descreveram uma espécie semelhante, <em>S. juncae</em>, e atribuíram a ela alguns exemplares provenientes da porção sul da distribuição de <em>S. auratus</em>.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Scinax auratus </em>é endêmica do Brasil e possui ampla distribuição na Mata Atlântica nordestina e regiões de transição com a Caatinga, com registro entre os estados do Rio Grande do Norte e o sul da Bahia (Alves <em>et al.</em>, 2004; Bastazini <em>et al.</em>, 2007; Santana et al., 2009; Nunes &amp; Pombal Jr., 2010; Morato <em>et al.</em>, 2011; Andrade <em>et al.</em>, 2014; Carvalho-e-Silva <em>et al.</em>, 2015; Gondim-Silva <em>et al.</em>, 2016; Roberto <em>et al.</em>, 2017).</p>",
+      "nationalDistribution": "",
+      "states": "Alagoas, Bahia, Minas Gerais, Paraíba, Pernambuco, Rio Grande do Norte, Sergipe",
+      "biomes": "Caatinga, Mata Atlântica",
+      "watersheds": "Sub-bacia Contas, Sub-bacia Itapecuru-Paraguaçu, Sub-bacia Jequitinhonha, Sub-bacia Litoral AL PE PB, Sub-bacia Litoral SE, Sub-bacia São Francisco Baixo",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/454e315948634251754d675944704e384f6e305142655a624d75494934344f3453526f734e6743433465597644426c347748384e476b4d725073304275487441",
+        "legend": "Scinax auratus.",
+        "diskFileName": "c3c40ca93c03b18847539fe9f48faf2c.png",
+        "fileName": "Mapa de Scinax auratus.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p><em>Scinax auratus </em>habita uma variedade de ambientes, incluindo florestas, áreas abertas e afloramentos rochosos próximos a florestas (Alves <em>et al</em>., 2004), sendo comumente encontrada dentro de bromélias e arbustos. Sua reprodução ocorre em lagoas intermitentes ou permanentes (Arzabe &amp; Juncá, 2004). Ocorre também em ambientes moderadamente antropizados.</p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": "<p>Sua reprodução ocorre em lagoas intermitentes ou permanentes (IUCN, 2011).</p>"
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Estável",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é bastante comum e a tendência populacional é estável.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>Não foram identificadas ameaças significativas à espécie.</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "<p>Nenhuma informação conhecida quanto à utilização da espécie.</p>",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p>Não há ações de conservação voltadas para a espécie.</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2012,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2012"
+        },
+        {
+          "type": "Global",
+          "year": 2004,
+          "coverage": "",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Arzabe & Juncá, 2004",
+              "title": "Arzabe, C. &amp; Juncá, F. (2004) <i>Scinax auratus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55932A11397585\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55932A11397585</a>. [Acessado em: 13/mai/2018]."
+            }
+          ],
+          "orderBy": "Y2004"
+        },
+        {
+          "type": "Estadual",
+          "year": 2015,
+          "coverage": "Pernambuco",
+          "category": "Menos Preocupante (LC)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            },
+            {
+              "label": "SEMAS - PE, 2015",
+              "title": "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>."
+            }
+          ],
+          "orderBy": "X2015"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [],
+      "UCPresenceTable": [
+        {
+          "name": "PARNA do Descobrimento",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "PARNA do Pau Brasil",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Drummond, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Guaribas",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Gomes, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REBIO Santa Isabel",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santana <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, Hylidae, <I>Scinax auratus</i>: Distribution extension, new state records and distribution map"
+            }
+          ]
+        },
+        {
+          "name": "REBIO de Pedra Talhada",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Carvalho-e-Silva <i>et al.</i>, 2015",
+              "title": "Anfíbios (Lissamphibia) da Reserva Biológica de Pedra Talhada"
+            }
+          ]
+        },
+        {
+          "name": "RESEX Marinha da Baia de Iguape",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Santana <i>et al.</i>, 2009",
+              "title": "Amphibia, Anura, Hylidae, <I>Scinax auratus</i>: Distribution extension, new state records and distribution map"
+            }
+          ]
+        },
+        {
+          "name": "PARQUE ESTADUAL DE DOIS IRMÃOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Santos, 2022",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DE MIRITIBA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "REFúGIO DE VIDA SILVESTRE MATA DO JUNCO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Morato <i>et al.</i>, 2011",
+              "title": "Amphibians and reptiles of the Refúgio de Vida Silvestre Mata do Junco, municipality of Capela, state of Sergipe, northeastern Brazil"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL ALDEIA-BEBERIBE",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Oliveira, 2015",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL BAÍA DE TODOS OS SANTOS",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2014",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DO CATOLÉ E FERNÃO VELHO",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Silva, 2013",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL LAGOA ENCANTADA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Brasileiro, 2009",
+              "title": "Sistema de Autorização de Informação em Biodiversidade - SISBIO"
+            }
+          ]
+        },
+        {
+          "name": "RPPN Frei Caneca",
+          "sphere": "RPPN",
+          "printOrder": "4",
+          "refBibs": [
+            {
+              "label": "Santos, 2009",
+              "title": "Diversidade e distribuição temporal de anfíbios anuros na RPPN Frei Caneca, Jaqueira Pernambuco"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "",
+      "table": [],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Alves, A.C.R. Gomes, M.R. &amp; Silva, S.P.C.E. (2004) Description of the tadpole of <i>Scinax auratus</i> (Wied-Neuwied) (Anura, Hylidae). <i>Revista Brasileira de Zoologia</i>. 21 (2), 315-317.",
+          "Arzabe, C. &amp; Juncá, F. (2004) <i>Scinax auratus</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55932A11397585\">http://dx.doi.org/10.2305/IUCN.UK.2004.RLTS.T55932A11397585</a>. [Acessado em: 13/mai/2018].",
+          "Bastazini, C.V., Munduruca, J.F.V., Rocha, P.L.B. &amp; Napoli, M.F. (2007) Which enviromental variables better explain changes in anuran community composition? A case study in the restinga of Mata de São João, Bahia, Brazil. <i>Herpetologica</i>. 63 (4), 459-471.",
+          "Bokermann, W.C.A. (1969) Notas sobre <i>Hyla aurata</i> Wied, 1824 (Anura, Hylidae). <i>Revista Brasileira De Biologia</i>. 29 (2), 159--162.",
+          "Duellman, W. E. Wiens, J. J. (1992) The status of the hylid frog genus Ololygon and the recognition of Scinax Wagler, 1830. <i>Occasional Papers of the Museum of Natural History. The University of Kansas, Lawrence, Kansas</i>. 151, 1-23.",
+          "Faivovich, J., Haddad, C.F.B., Garcia, P.C.A., Frost, D.R., Campbell, J.A. &amp; Wheeler, W.C. (2005) Systematic review of the frog family Hylidae, with special reference to Hylinae: Phylogenetic analysis and taxonomic revision. <i>Bulletin of the American Museum of Natural History</i>. 294, 1-240.",
+          "Frost, D. R. (2018) Amphibian Species of the World: an Online Reference. Version 6. <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. [Acessado em: 28/mar/2018].",
+          "Gondim-Silva, F.A.T., Andrade, A.R.S., Abreu, R.O., Nascimento, J.S., Corrêa, G.P., Menezes, L., Trevisan, C.C., Camargo, S.S. &amp; Napoli, M.F. (2016) Composition and diversity of anurans in the Restinga of the Conde municipality, northern coast of the state of Bahia, northeastern Brazil. <i>Biota Neotropica</i>. 16 (3), e20160157.",
+          "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp.",
+          "Nunes, I. &amp; Pombal Jr., J.P. (2010) A new <i>Scinax</i> Wagler (Amphibia, Anura, Hylidae) from the Atlantic Rain Forest remains of southern State of Bahia, North-eastern Brazil. <i>Amphibia-Reptilia</i>. 31 (2010), 347-353.",
+          "Roberto, I.J., Oliveira, C.R., Araújo-Filho, J.A., Oliveira, H.F. &amp; Ávila, R.W. (2017) The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. <i>Papéis Avulsos de Zoologia</i>. 57 (27), 347-373.",
+          "SEMAS - PE 27/01/2015 <i>Secretaria de Meio Ambiente, Sustentabilidade e de Fernando de Noronha de Pernambuco. Resolução nº1 de 9 de janeiro de 2015. Reconhece como espécies de anfíbios da fauna pernambucana ameaçadas de extinção aquelas constantes da lista oficial e dá outras providências. Diário Oficial do Estado - PE</i>.",
+          "Santana, D. J., Costa, H. C., Drummond, L.O., Ferreira, P. L. &amp; Feio, R. N. (2009) Amphibia, Anura, Hylidae, <I>Scinax auratus</i>: Distribution extension, new state records and distribution map. <i>Check List</i>. 5 (2), 246–248."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

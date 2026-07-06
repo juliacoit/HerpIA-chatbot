@@ -1,0 +1,336 @@
+{
+  "id_ficha": "3056306a49336e3934693848654f726f3469525a6d513d3d",
+  "nome_cientifico": "Alainia fulvorufa (Andersson, 1911)",
+  "nome_cientifico_atual": "Alainia fulvorufa (Andersson, 1911)",
+  "nome_comum": "Perereca-marsupial",
+  "grupo": "Anfíbios",
+  "categoria_risco": "LC",
+  "categoria_risco_completa": "Menos Preocupante (LC)",
+  "bioma": "Mata Atlântica",
+  "periodo_avaliacao": "09/2017",
+  "situacao_ficha": "PUBLICADA",
+  "excluida": false,
+  "justificativa_exclusao": null,
+  "doi": "10.37002/salve.ficha.21828",
+  "url_origem": "https://salve.icmbio.gov.br/salve-api/public/fichaHtml?idFicha=3056306a49336e3934693848654f726f3469525a6d513d3d",
+  "data_coleta": "2026-06-25",
+  "secoes": {
+    "header": {
+      "title": "Avaliação do Risco de Extinção de",
+      "cientificName": "<i>Alainia fulvorufa</i>&nbsp;<span>(Andersson, 1911)</span>",
+      "category": "Menos Preocupante (LC)",
+      "lastAvaliation": "09/2017",
+      "publicationDate": "14/10/2022",
+      "justificative": "<p><em>Alainia fulvorufa</em> é endêmica do Brasil, do bioma Mata Atlântica, com registros na Serra do Mar dos estados do Rio de Janeiro e São Paulo. A espécie é considerada rara e é conhecida de poucos registros, o que parece ser decorrente da dificuldade de detecção. Embora sua extensão de ocorrência seja de 7.066 km2, ocorre em uma região bem preservada, sem ameaças evidentes que possam colocá-la em risco de extinção em curto prazo. Por essas razões, <em>Alainia</em><em> fulvorufa</em> foi avaliada como Menos Preocupante (LC).</p>",
+      "disclaimer": "",
+      "categoryChanged": false,
+      "authorship": "Rogério Pereira Bastos; Marcio Roberto Martins; Yeda Soares de Lucena Bataus; Lara Gomes Côrtes; Vivian Mara Uhlig; Antônio de Pádua Leite de Almeida; Clarissa Coimbra Canedo; Ulisses Caramaschi; Carolina Ortiz Rocha da Costa; Lucas Ferrante; Rodrigo Barbosa Ferreira; Paulo Christiano de Anchieta Garcia; João Luiz Gasparini; Fabio Hepp; Ricardo Lourenço-de-Moraes; Felipe Sá Fortes Leite; Itamar Alves Martins; Luciana Barreto Nascimento; Diego José Santana; Ivan Sergio Nunes Silva-Filho; Thiago Silva-Soares; Luís Felipe Toledo",
+      "citation": "<p>Bastos, R.P.; Martins, M.R.; Bataus, Y.S.L.; Côrtes, L.G.; Uhlig, V.M.; Almeida, A.P.L.; Canedo, C.C.; Caramaschi, U.; Costa, C.O.R.; Ferrante, L.; Ferreira, R.B.; Garcia, P.C.A.; Gasparini, J.L.; Hepp, F.; Lourenço-De-Moraes, R.; Leite, F.S.F.; Martins, I.A.; Nascimento, L.B.; Santana, D.J.; Silva Filho, I.S.N.; Silva-Soares, T.; Toledo, L.F. 2022. <i>Alainia fulvorufa</i>. Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio. Disponível em: https://salve.icmbio.gov.br Digital Object Identifier (DOI): https://doi.org/10.37002/salve.ficha.21828 - Acessado em: ___/___/_____.</p>",
+      "DOI": "10.37002/salve.ficha.21828",
+      "photo": {},
+      "version": 2,
+      "versionId": 16680,
+      "deleted": false,
+      "lastAvaliationDate": "29/09/2017",
+      "publicationYear": "2022",
+      "simplified": false
+    },
+    "taxonomicClassification": {
+      "tree": [
+        {
+          "level": 1,
+          "name": "Reino",
+          "value": "Animalia"
+        },
+        {
+          "level": 2,
+          "name": "Filo",
+          "value": "Chordata"
+        },
+        {
+          "level": 3,
+          "name": "Classe",
+          "value": "Amphibia"
+        },
+        {
+          "level": 4,
+          "name": "Ordem",
+          "value": "Anura"
+        },
+        {
+          "level": 5,
+          "name": "Família",
+          "value": "Hemiphractidae"
+        },
+        {
+          "level": 6,
+          "name": "Gênero",
+          "value": "<i>Alainia</i>"
+        },
+        {
+          "level": 7,
+          "name": "Espécie",
+          "value": "<i>Alainia fulvorufa</i>"
+        }
+      ],
+      "oldNames": "Gastrotheca (Australotheca) fulvorufa, Gastrotheca fulvorufa, Hyla Parkeri, Hyla parkeriana, Nototrema fulvorufa",
+      "commonNames": "Perereca-marsupial",
+      "taxonomicNotes": "<p><em>Alainia fulvorufa</em> foi revalidada por Caramaschi &amp; Rodrigues (2007) com base em características morfológicas, removendo a espécie da sinonímia de <em>A. microdiscus</em>.</p>",
+      "morphologicalNotes": "",
+      "simplified": false
+    },
+    "distribution": {
+      "endemicOfBrazil": "Sim",
+      "globalDistribution": "<p><em>Alainia </em><em>fulvorufa</em> é endêmica do Brasil, restrita ao bioma Mata Atlântica, com ocorrência na Serra do Mar dos estados do Rio de Janeiro e São Paulo (Rocha <em>et al.,</em> 2004; Caramaschi &amp; Rodrigues, 2007; Izecksohn &amp; Carvalho-e-Silva, 2008). No Rio de Janeiro, há registros na região serrana do estado (Caramaschi &amp; Rodrigues, 2007; Juncá &amp; Nunes, 2008; Izecksohn &amp; Carvalho-e-Silva, 2008) e, em São Paulo, em Santos e na Serra de Paranapiacaba (Alto da Serra) (Izecksohn &amp; Carvalho-e-Silva, 2008). Sua extensão de ocorrência calculada é de 7.066km2, obtida pelo mínimo polígono convexo formado a partir dos pontos de registro.</p>",
+      "nationalDistribution": "",
+      "states": "Rio de Janeiro, São Paulo",
+      "biomes": "Mata Atlântica",
+      "watersheds": "Sub-bacia Litoral RJ, Sub-bacia Litoral SP, Sub-bacia Paraíba do Sul",
+      " vlEoo": "",
+      " eooCalculationMemory": "",
+      " vlAoo": "",
+      " aooCalculationMemory": "",
+      "relevantAreas": {
+        "table": []
+      },
+      "distributionMap": {
+        "image": "https://salve.icmbio.gov.br/salve-api/public/anexo/56597171732b4b6d644d59666e6d68536f786a474c67592b796f6d6f6f4d6a7146775764646249304e394a4b484b474d34314b6e794470767a497239784d4c52",
+        "legend": "Mapa distribuição_Alainia fulvorufa",
+        "diskFileName": "77c39c52782b64bc66d63ad29d43937e.png",
+        "fileName": "Mapa de Alainia fulvorufa.png"
+      },
+      "simplified": false,
+      "vlEoo": "",
+      "vlAoo": "",
+      "eooCalculationMemory": "",
+      "aooCalculationMemory": ""
+    },
+    "naturalHistory": {
+      "migratorySpecie": "",
+      "description": "<p>Há pouca informação sobre a história de vida e ecologia da espécie. Exemplares foram encontrados em bromélias e sua vocalização foi descrita como tendo timbre que sugere, à distância, a voz de <em>Aplastodiscus albofrenatus</em> (Izecksohn &amp; Carvalho-e-Silva, 2008). </p>",
+      "foodHabit": {
+        "table": [],
+        "specialist": {
+          "yn": "",
+          "table": []
+        },
+        "observations": ""
+      },
+      "restrictedPrimaryHabitat": "",
+      "specialistMicroHabitat": {
+        "yn": "",
+        "observations": ""
+      },
+      "habitatObservations": "",
+      "interactionsWithOtherSpecies": {
+        "table": [],
+        "observations": ""
+      },
+      "reproduction": {
+        "birthInterval": "",
+        "gestationTime": "",
+        "offspringSize": "",
+        "table": [
+          {
+            "name": "Maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Peso",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento máximo",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Comprimento na maturidade sexual",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Senelidade reprodutiva",
+            "male": "",
+            "female": ""
+          },
+          {
+            "name": "Longevidade",
+            "male": "",
+            "female": ""
+          }
+        ],
+        "observations": ""
+      },
+      "simplified": false
+    },
+    "population": {
+      "generationalTime": "",
+      "populationTrend": "Desconhecida",
+      "geneticCharacteristics": null,
+      "populationObservations": "<p>A espécie é considerada rara ou de difícil detecção. A tendência populacional é desconhecida.</p>",
+      "images": [],
+      "simplified": false,
+      "sexRatio": "",
+      "mortalityRate": ""
+    },
+    "threats": {
+      "description": "<p>A espécie ocorre em uma região bem preservada, especialmente no Rio de Janeiro, sem ameaças significativas evidentes. Ao longo de sua distribuição, 72,6% da cobertura permanecem na forma de remanescentes de vegetação nativa, e houve perda recente (2006 - 2016) de apenas 0,1% de vegetação (dados MapBiomas, 2017).</p>",
+      "table": [],
+      "images": [],
+      "simplified": false
+    },
+    "uses": {
+      "description": "Não foram encontradas informações para o taxon.",
+      "images": [],
+      "table": [],
+      "simplified": false
+    },
+    "conservation": {
+      "description": "<p><em>Alainia fulvorufa </em>é beneficiada pelo Plano de Ação Nacional para a Conservação da Herpetofauna Ameaçada de Extinção da Mata Atlântica da Região Sudeste do Brasil - PAN Herpetofauna do Sudeste (ICMBio, 2015).</p>",
+      "officialListPresence": "Não",
+      "historyTable": [
+        {
+          "type": "Nacional Brasil",
+          "year": 2014,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Haddad <i>et al.</i>, 2016",
+              "title": "Haddad, C.F.B., Machado, I.F., Giovanelli, J.G.R., Bataus, Y.S.L., Uhlig, V.M., Batista, F.R.Q., Cruz, C.A.G., Conte, C.E., Zank, C., Strüsmann, C., Canedo, C.C., Loebmann, D., Silvano, D.L., Nomura, F., Pinto, H.B.A., Amaral, I.B., Gasparini, J.L.R., Nascimento, L.B., Martins, M.R.C., Napoli, M.F., Gordo, M., Hoogmoed, M.S., Kienle, M.S., Maciel, N.M., Valdujo, P.H., Garcia, P.C.A., Sawaya, R.J., Lingnau, R., Bastos, R.P. &amp; Caramaschi, U. (2016) Avaliação do Risco de Extinção de <i>Gastrotheca fulvorufa</i> (Andersson, 1911). <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7608-anfibios-gastrotheca-fulvorufa.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7608-anfibios-gastrotheca-fulvorufa.html</a>."
+            },
+            {
+              "label": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, 2018",
+              "title": "Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio (2018) <i>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</i> Edição 1 Brasília, DF, 492pp."
+            }
+          ],
+          "orderBy": "Z2014"
+        },
+        {
+          "type": "Global",
+          "year": 2008,
+          "coverage": "",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Angulo, 2008",
+              "title": "Angulo, A. (2008) <i>Gastrotheca fulvorufa</i>. <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T135808A4204013.en.\">http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T135808A4204013.en.</a>. [Acessado em: 28/ago/2018]."
+            }
+          ],
+          "orderBy": "Y2008"
+        },
+        {
+          "type": "Estadual",
+          "year": 2014,
+          "coverage": "São Paulo",
+          "category": "Dados Insuficientes (DD)",
+          "oficialCategory": true,
+          "criteria": "",
+          "refBibs": [
+            {
+              "label": "Estado de São Paulo, 2014",
+              "title": "Estado de São Paulo 08/02/2014 <i>Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas</i>."
+            }
+          ],
+          "orderBy": "X2014"
+        }
+      ],
+      "conventionPresenceTable": [],
+      "conservationActionsTable": [
+        {
+          "name": "Plano de Ação Nacional (PAN)",
+          "situation": "Em Implementação",
+          "actionPanName": "Plano de Ação Nacional para conservação da Herpetofauna Ameaçada da Mata Atlântica da Região Sudeste do Brasil",
+          "refBibs": []
+        }
+      ],
+      "UCPresenceTable": [
+        {
+          "name": "APA Petrópolis",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Angulo, 2008",
+              "title": "<i>Gastrotheca fulvorufa</i>"
+            }
+          ]
+        },
+        {
+          "name": "PARNA da Serra dos Órgãos",
+          "sphere": "Federais",
+          "printOrder": "1",
+          "refBibs": [
+            {
+              "label": "Angulo, 2008",
+              "title": "<i>Gastrotheca fulvorufa</i>"
+            }
+          ]
+        },
+        {
+          "name": "ÁREA DE PROTEÇÃO AMBIENTAL DE MACAÉ DE CIMA",
+          "sphere": "Estaduais",
+          "printOrder": "2",
+          "refBibs": [
+            {
+              "label": "Juncá & Nunes, 2008",
+              "title": "A new species of marsupial frog of the genus <i>Gastrotheca</I> Fitzinger (Anura: Amphignatodontidae) from the state of Bahia, Northeastern Brazil"
+            }
+          ]
+        }
+      ],
+      "simplified": false
+    },
+    "research": {
+      "description": "<p>Estudos de história natural e que abordem os processos de dinâmica populacional e de distribuição espacial ainda são necessários.</p>",
+      "table": [
+        {
+          "theme": "Distribuição geográfica",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "Estudo populacional",
+          "situation": "Necessária",
+          "refBibs": []
+        },
+        {
+          "theme": "História natural",
+          "situation": "Necessária",
+          "refBibs": []
+        }
+      ],
+      "simplified": false
+    },
+    "bibliographicReferences": {
+      "table": {
+        "refsTaxon": [
+          "Angulo, A., 2008. <i>Gastrotheca fulvorufa</i>. The IUCN Red List of Threatened Species 2008: e.T135808A4204013, Disponível em: <a target=\"_blank\" href=\"http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T135808A4204013.en.\">http://dx.doi.org/10.2305/IUCN.UK.2008.RLTS.T135808A4204013.en.</a>. Acessado em: 28/08/2018.",
+          "Caramaschi, U. &amp; Rodrigues, M.T. 2007. Taxonomic status of the species of <i>Gastrotheca</i> Fitzinger, 1843 (Amphibia, Anura, Amphignathodontidae) of the Atlantic Rain Forest of eastern Brazil, with description of a new species. <b>Boletim do Museu Nacional</b>, 525: p.1-19.",
+          "Estado de São Paulo 08/02/2014. Decreto Estadual nº 60.133 de 7 de fevereiro de 2014. Declara as espécies da fauna silvestre ameaçadas, as quase ameaçadas e as deficientes de dados para avaliação no estado de São Paulo e dá providências correlatas. p.25. Disponível em: <a target=\"_blank\" href=\"https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html\">https://www.al.sp.gov.br/repositorio/legislacao/decreto/2014/decreto-60133-07.02.2014.html</a>.",
+          "Frost, D.R. 2018. Amphibian Species of the World: an Online Reference. Version 6. Disponível em: <a target=\"_blank\" href=\"http://research.amnh.org/vz/herpetology/amphibia/\">http://research.amnh.org/vz/herpetology/amphibia/</a>. Acessado em: 28/03/2018.",
+          "Haddad, C.F.B.; Machado, I.F.; Giovanelli, J.G.R.; Bataus, Y.S.L.; Uhlig, V.M.; Batista, F.R.Q.; Cruz, C.A.G.; Conte, C.E.; Zank, C.; Strüsmann, C.; Canedo, C.C.; Loebmann, D.; Silvano, D.L.; Nomura, F.; Pinto, H.B.A.; Amaral, I.B.; Gasparini, J.L.R.; Nascimento, L.B.; Martins, M.R.C.; Napoli, M.F.; Gordo, M.; Hoogmoed, M.S.; Kienle, M.S.; Maciel, N.M.; Valdujo, P.H.; Garcia, P.C.A.; Sawaya, R.J.; Lingnau, R.; Bastos, R.P. &amp; Caramaschi, U. 2016. Avaliação do Risco de Extinção de <i>Gastrotheca fulvorufa</i> (Andersson, 1911). <b>Processo de avaliação do risco de extinção da fauna brasileira. ICMBio</b>. Disponível em: <a target=\"_blank\" href=\"http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7608-anfibios-gastrotheca-fulvorufa.html\">http://www.icmbio.gov.br/portal/biodiversidade/fauna-brasileira/estado-de-conservacao/7608-anfibios-gastrotheca-fulvorufa.html</a>.",
+          "Haddad, C.F.B.; Toledo, L.F.; Prado, C.P.A.; Loebmann, D.; Gasparini, J.L. &amp; Sazima, I. 2013. <b>Guide to the Amphibians of the Atlantic Forest: Diversity and Biology</b>. p.544. Editora Anolis Books São Paulo.",
+          "ICMBio/MMA 2018. <b>Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Volume I</b>. p.492. Brasília, DF.",
+          "Izecksohn, E. &amp; Carvalho-e-Silva, S.P. 2008. As espécies de <i>Gastrotheca</i> Fitzinger na Serra dos Órgãos, Estado do Rio de Janeiro, Brasil (Amphibia: Anura: Amphignathodontidae). <b>Revista Brasileira de Zoologia</b>, 25 (1): p.100-110.",
+          "Juncá, F.A. &amp; Nunes, I. 2008. A new species of marsupial frog of the genus <i>Gastrotheca</I> Fitzinger (Anura: Amphignatodontidae) from the state of Bahia, Northeastern Brazil. <b>Zootaxa</b>, 1907: p.61-68.",
+          "Projeto MapBiomas 2017. Mapeamento Anual da Cobertura e Uso do Solo no Brasil. Coleção 2. Disponível em: <a target=\"_blank\" href=\"http://mapbiomas.org/pages/about/about\">http://mapbiomas.org/pages/about/about</a>. Acessado em: 18/09/2017.",
+          "Rocha, C.F.D.; Bergallo , H.G.; Pombal Jr., J.P.; Geise, L.; Sluys, M.V.; Fernandes, R. &amp; Caramaschi, U. 2004. Fauna de anfíbios, répteis e mamíferos do Estado do Rio de Janeiro, Sudeste do Brasil. <b>Publicações Avulsas Museu Nacional, Rio de Janeiro</b>, 104: p.3-23."
+        ],
+        "refsOccurrences": [],
+        "simplified": false
+      },
+      "simplified": false
+    },
+    "authors": {
+      "authors": null
+    }
+  }
+}

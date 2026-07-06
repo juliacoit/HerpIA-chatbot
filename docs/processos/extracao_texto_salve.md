@@ -1,7 +1,7 @@
 # Extração de texto das fichas SALVE
 
-- **Status:** ✅ Em produção (testado com 24 fichas; aguardando coleta completa)
-- **Última atualização:** 2026-06-25
+- **Status:** ✅ Em produção (extração completa — 2086/2086 fichas)
+- **Última atualização:** 2026-07-06
 - **Responsável(eis):** Script `scripts/processamento/extrair_texto_salve.py`
 
 ## Objetivo
@@ -114,14 +114,17 @@ Para reprocessar apenas fichas novas (sem sobrescrever as existentes), o script
 pode ser adaptado com verificação de existência do arquivo de saída — atualmente
 regrava todas as fichas encontradas.
 
-## Resultados da execução de 2026-06-25
+## Resultados das execuções
 
-| Fichas disponíveis | Extraídas | Erros |
-|---|---|---|
-| 24 (teste; coleta completa em andamento) | 24 | 0 |
+| Data | Fichas disponíveis | Extraídas | Erros |
+|---|---|---|---|
+| 2026-06-25 | 24 (teste) | 24 | 0 |
+| 2026-07-06 | 2086 (coleta completa) | 2086 | 0 |
 
-A coleta completa (~2086 fichas) está em andamento. Quando concluída, rodar o
-script novamente para extrair as fichas restantes.
+Todas as 2086 fichas extraídas foram copiadas para `03_documentos_autorizados/salve/`
+(ver [ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md) e a seção
+"Observações sobre dados sensíveis" abaixo) e já foram chunkadas por
+`gerar_chunks.py` (20.069 chunks — ver [`docs/roadmap.md`](../roadmap.md), Fase 4.1).
 
 ## Observações sobre dados sensíveis
 

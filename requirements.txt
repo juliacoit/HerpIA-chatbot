@@ -5,3 +5,5 @@ python-dotenv
 psycopg[binary]
 pymupdf
 pytesseract  # OCR para PDFs escaneados — requer: sudo apt install tesseract-ocr tesseract-ocr-por
+bs4
+openpyxl

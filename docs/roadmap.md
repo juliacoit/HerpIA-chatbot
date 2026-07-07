@@ -3,14 +3,14 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-07-06
+**Atualizado em:** 2026-07-07
 
 ---
 
 ## Status geral
 
 ```
-[Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações pendentes; SEI catalogado
+[Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações organizadas (312 arquivos, catálogo inicial); SEI catalogado
 [Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
@@ -43,11 +43,36 @@ do estado atual até o protótipo funcional validado com usuários.
 - [x] **Coleta completa executada** — 2086 fichas de répteis e anfíbios em `01_fontes_web/salve/fichas/`
 
 ### 1.4 Publicações científicas do RAN
-- [ ] **Definir critérios de inclusão** (quais publicações entram no acervo inicial?)
-  - Proposta: publicações dos pesquisadores listados no site do RAN/ICMBio, com foco em herpetofauna brasileira
-- [ ] **Organizar PDFs** nas subpastas de `02_publicacoes_cientificas_ran/` (anfibios, repteis, conservacao, monitoramento, outros)
-- [ ] Catalogar no inventário (`06_inventario/inventario_fontes.xlsx`)
-- [ ] Avaliar sensibilidade de cada publicação antes de mover para `03_documentos_autorizados/`
+- [x] **Definir critérios de inclusão** — resolvido na prática: a equipe do RAN já mantém uma
+  planilha de controle própria (`Publicacoes_RAN_Herpetofauna_..._15_11_2025.xlsx`, em
+  `02_publicacoes_cientificas_ran/bkup planilhas antigas/`) com o levantamento de publicações
+  de herpetofauna dos pesquisadores do RAN — esse é o critério de facto
+- [x] **PDFs entregues e organizados por tipo** em `02_publicacoes_cientificas_ran/`
+  (312 arquivos): Artigo/Nota/Comunicação Científica (95), Resumos de Eventos Científicos (110),
+  Livro/Capítulo/Cartilha/Manual (28), Matérias ICMBio em Foco (33), Boletins RAN (25),
+  Teses e Dissertações (10), Monografias/TCC (8), Outras Publicações Técnicas (3)
+  - As subpastas temáticas originais (`anfibios/`, `repteis/`, `conservacao/`, `monitoramento/`,
+    `outros/`) continuam vazias — a organização entregue pela equipe é por **tipo de
+    publicação**, não por tema; decidir se vale a pena reclassificar por tema ou manter por tipo
+- [x] **Catálogo gerado e revisado**, cruzando os arquivos com a planilha de controle da
+  equipe (`scripts/coleta/catalogar_publicacoes_ran.py` → `06_inventario/catalogo_publicacoes_ran.json`)
+  — 284/312 arquivos resolvidos automaticamente (número único, faixa de números, duplicata
+  exata ou placeholder de lacuna conhecida); 18 revisados manualmente (ver
+  [`docs/processos/catalogacao_publicacoes.md`](processos/catalogacao_publicacoes.md)):
+  9 edições do Boletim do RAN + 1 HerpetoPAN sem linha própria na planilha (institucionais,
+  baixo risco), 7 anais completos do Congresso Brasileiro de Herpetologia 2004–2015
+  (conteúdo majoritariamente de terceiros, **não** apenas do RAN — ver observação de
+  sensibilidade abaixo) e 1 artigo mais novo que a última atualização da planilha
+- [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
+- [ ] Avaliar sensibilidade/copyright de cada publicação antes de mover para
+  `03_documentos_autorizados/` — atenção especial aos anais de congresso (copyright de
+  terceiros — Sociedade Brasileira de Herpetologia) e aos artigos publicados em revistas
+  externas (copyright da editora); publicações institucionais do próprio RAN (boletins,
+  HerpetoPAN, ICMBio em Foco) têm risco mais baixo
+- [ ] **Decidir como versionar os PDFs**: vários arquivos excedem o limite de tamanho do
+  GitHub (um arquivo de 130 MB e outros entre 50–90 MB já bloquearam um `git push`) — decidir
+  entre Git LFS, manter os binários fora do git (como já é feito para `01_fontes_web/**/documentos/`,
+  com apenas o catálogo JSON versionado) ou outra estratégia de armazenamento
 
 ### 1.5 SEI/ICMBio
 - [x] **Login automatizado** via Python (requests + BeautifulSoup) com autenticação SIP (`listar_blocos_sei.py`)

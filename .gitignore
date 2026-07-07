@@ -27,6 +27,13 @@ Thumbs.db
 # Os metadados (JSON) com os links permanecem versionados.
 01_fontes_web/**/documentos/
 
+# PDFs/DOCX das publicações científicas do RAN (algumas dezenas de MB cada,
+# alguns acima do limite de 100MB do GitHub). O catálogo com os metadados
+# (06_inventario/catalogo_publicacoes_ran.json) permanece versionado; as
+# planilhas de controle da equipe (.xlsx, pequenas) também.
+02_publicacoes_cientificas_ran/**/*.pdf
+02_publicacoes_cientificas_ran/**/*.docx
+
 # Textos extraídos de PDFs (derivados de arquivos gitignored — regeneráveis pelo script)
 # Exceção: salve/ é versionado porque as fichas-fonte JSON também estão no git.
 07_processados/textos_extraidos/monitora/

@@ -63,7 +63,7 @@ apenas liga "arquivo no disco" a "linha na planilha".
 ## Ferramentas
 
 - **openpyxl** — leitura da planilha `.xlsx` (adicionado ao `requirements.txt`)
-- Biblioteca padrão (`re`, `json`, `pathlib`) — sem outras dependências
+- Biblioteca padrão (`re`, `json`, `hashlib`, `pathlib`) — sem outras dependências
 
 ## Como funciona
 
@@ -75,20 +75,27 @@ apenas liga "arquivo no disco" a "linha na planilha".
    (`Boletins_RAN-2015 a 2018` e `Matérias_ICMBio-em-Foco_Outros Meios`) apontam para a
    mesma aba `Boletim`, porque a planilha não separa "boletim próprio do RAN" de "matéria
    publicada em veículo de terceiros" em abas distintas.
-3. **Percorre os arquivos** de cada pasta mapeada e extrai o número no início do nome
-   (regex `^(\d+)\s*-`, ex.: `"12 - Alves Junior et al, 2012.pdf"` → `12`) e o ano, se
-   houver um padrão de 4 dígitos no nome.
-4. **Casa por número** com a aba correspondente e marca um status por arquivo:
+3. **Percorre os arquivos** de cada pasta mapeada e extrai a numeração no início do nome:
+   um número único (`"12 - Alves Junior et al, 2012.pdf"` → `[12]`) ou uma **faixa**
+   (`"5 a 16 - Balestra et al, 2016.pdf"` → `[5, 6, ..., 16]`, quando um único PDF reúne
+   vários capítulos/resumos numerados separadamente na planilha), além do ano, se houver
+   um padrão de 4 dígitos no nome.
+4. **Calcula o hash (MD5)** de todo arquivo do acervo, para detectar cópias exatas do mesmo
+   documento presentes em pastas diferentes.
+5. **Casa por número/faixa** com a aba correspondente e marca um status por arquivo:
 
    | Status | Significado |
    |---|---|
-   | `casado` | número do arquivo encontrado em exatamente uma linha da aba |
-   | `sem_numero_no_nome` | arquivo não começa com um número (ex.: `Boletim_RAN_Ano 2_n3_2015.pdf`) |
-   | `numero_nao_encontrado_na_planilha` | tem número, mas não há linha correspondente na aba |
+   | `casado` | número único do arquivo encontrado em exatamente uma linha da aba |
+   | `casado_faixa` | faixa de números (`X a Y`) com pelo menos um número encontrado na aba — `metadados` vira uma lista |
+   | `duplicata_exata` | mesmo hash de outro arquivo do acervo que já casou por número/faixa — herda os metadados dele (`duplicata_de` aponta o caminho canônico) |
+   | `placeholder_faltante` | nome contém "Faltam" — a própria equipe já sinalizou que o documento ainda não foi obtido; não é uma publicação real |
+   | `sem_numero_no_nome` | arquivo não começa com um número nem faixa reconhecível |
+   | `numero_nao_encontrado_na_planilha` / `faixa_nao_encontrada_na_planilha` | tem numeração, mas nenhum número bate com uma linha da aba |
    | `numero_ambiguo_na_planilha` | o número aparece em mais de uma linha da aba |
    | `sem_pasta_mapeada` | pasta sem aba associada (ex.: as subpastas temáticas vazias `anfibios/`, `repteis/` etc.) |
 
-5. **Grava o catálogo** em JSON, com estatísticas por pasta (total de arquivos, quantos
+6. **Grava o catálogo** em JSON, com estatísticas por pasta (total de arquivos, quantos
    casaram, quantos números da planilha não têm arquivo correspondente) e a lista de abas
    da planilha sem pasta de arquivos associada.
 
@@ -109,41 +116,70 @@ controle da equipe forem atualizadas.
 
 ## Resultados das execuções
 
-| Data | Total de arquivos | Casados automaticamente | Sem correspondência |
-|---|---|---|---|
-| 2026-07-07 | 312 | 272 | 40 |
+| Data | Total | `casado` | `casado_faixa` | `duplicata_exata` | `placeholder_faltante` | Sem resolução |
+|---|---|---|---|---|---|---|
+| 2026-07-07 (1ª execução, só nº único) | 312 | 272 | — | — | — | 40 |
+| 2026-07-07 (2ª execução, com faixas/hash) | 312 | 273 | 11 | 5 | 5 | **18** |
 
-Detalhamento por pasta (2026-07-07):
+Detalhamento por pasta (execução com faixas/hash):
 
 | Pasta | Casados / Total | Aba da planilha |
 |---|---|---|
 | Artigo, Nota, Comunicação Científica | 94/95 | Artigo,Nota,Comun. Cient. |
-| Resumos_Eventos Científicos | 91/110 | Resumo_Evento Científico |
-| Livro, Capítulo Livro, Cartilha, Revista, Manual | 24/28 | Liv,Cap.Liv,Cart,Mat.Rev.,Man. |
-| Matérias_ICMBio-em-Foco_Outros Meios | 32/33 | Boletim |
+| Resumos_Eventos Científicos | 98/110 | Resumo_Evento Científico |
+| Livro, Capítulo Livro, Cartilha, Revista, Manual | 28/28 | Liv,Cap.Liv,Cart,Mat.Rev.,Man. |
+| Matérias_ICMBio-em-Foco_Outros Meios | 33/33 | Boletim |
 | Boletins_RAN-2015 a 2018 | 10/25 | Boletim |
 | Monografias_TCC | 8/8 | Monografia_TCC |
 | Teses e Dissertações | 10/10 | Dissertação, Tese |
 | Outras Publicações Técnicas | 3/3 | Outras publicações |
 
-**Pendências identificadas:**
+Duas abas da planilha (`2018-2023` e `Relatório Anual do RAN`) não têm pasta de arquivos
+correspondente — a aba `2018-2023` parece ser uma curadoria bibliográfica anterior,
+possivelmente sobreposta com a aba `Artigo,Nota,Comun. Cient.`.
 
-- Os 40 arquivos sem correspondência automática estão concentrados em
-  `Boletins_RAN-2015 a 2018` (arquivos como `Boletim_RAN_Ano 2_n3_2015.pdf`, sem número no
-  nome) e em `Resumos_Eventos Científicos/Resumos_CBH_2004-2015` (`.docx` de congressos
-  antigos que não constam na planilha) — precisam de matching manual ou de metadados
-  digitados à mão.
-- `Boletins_RAN-2015 a 2018` e `Matérias_ICMBio-em-Foco_Outros Meios` parecem se sobrepor
-  parcialmente (vários arquivos "ICMBio em Foco nº X" aparecem duplicados nas duas pastas) —
-  ainda não deduplicado.
-- Duas abas da planilha (`2018-2023` e `Relatório Anual do RAN`) não têm pasta de arquivos
-  correspondente — a aba `2018-2023` parece ser uma curadoria bibliográfica anterior,
-  possivelmente sobreposta com a aba `Artigo,Nota,Comun. Cient.`.
+### Revisão manual dos 18 arquivos sem resolução automática (2026-07-07)
+
+Cada caso foi inspecionado individualmente (hash, texto extraído, contagem de páginas) para
+decidir a causa e a natureza do conteúdo:
+
+| Grupo | Arquivos | Causa | Natureza confirmada |
+|---|---|---|---|
+| `Boletim_RAN_Ano X_nY_20ZZ.pdf` | 9 | Nome não segue o padrão numerado da planilha | Edições do **Boletim do RAN** (2014–2018) sem linha própria na aba `Boletim` — a aba só cobre 4 dessas edições. Conteúdo institucional do RAN/ICMBio. |
+| `Herpetopan_pan_nordeste.pdf` | 1 | Nome não numerado | Confirmado por leitura do texto: "Boletim Informativo HerpetoPAN — Informativo bimestral do PAN Herpetofauna da Mata Atlântica Nordestina", publicação institucional do RAN/ICMBio. |
+| `I_CBH...` a `VII_CBH...` (`Resumos_CBH_2004-2015/*.docx`) | 7 | Não numerados; pré-datam o sistema de numeração da planilha | Confirmado por leitura do texto: são os **anais completos** dos Congressos Brasileiros de Herpetologia 2004–2015 (ex.: o de 2004 tem ~900 mil caracteres), com resumos de autores de todo o Brasil — não apenas do RAN. |
+| `126 - Mônico et al, 2026.pdf` | 1 | Nº 126 não existe na planilha | Artigo mais recente que a última atualização da planilha (15/11/2025) — mesma natureza dos demais artigos já catalogados. |
 
 ## Observações sobre dados sensíveis
 
-Nenhum arquivo é movido, copiado ou lido por este script além do nome — o conteúdo dos
-PDFs/DOCX não é acessado. Os arquivos permanecem em `02_publicacoes_cientificas_ran/`
-(fora de `03_documentos_autorizados/`) até que a sensibilidade e o copyright/termos de uso
-de cada publicação sejam avaliados (ver Fase 3 do roadmap), conforme
-[ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md).
+Nenhum arquivo é movido para `03_documentos_autorizados/` por este script, e o conteúdo dos
+PDFs/DOCX não é lido durante a catalogação em si (apenas o nome do arquivo e, para detecção
+de duplicatas, o hash MD5 dos bytes — não o texto). A revisão manual dos 18 casos acima abriu
+alguns arquivos pontualmente para identificar sua natureza; nenhum conteúdo de documento foi
+copiado para este repositório além do que já está registrado aqui.
+
+**Avaliação preliminar por grupo** (decisão final de sensibilidade/copyright ainda cabe à
+equipe do RAN, conforme [ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md)):
+
+- **Boletim do RAN / HerpetoPAN / ICMBio em Foco** — publicações próprias do RAN/ICMBio,
+  mesma natureza institucional das já classificadas como autorizadas em Monitora/PANs/SALVE.
+  Baixo risco de copyright de terceiros; risco de dados sensíveis também baixo (são boletins
+  de divulgação, não relatórios técnicos com dados brutos de localização).
+- **Artigos, resumos de evento e livros/capítulos com editora/revista externa** (a maioria do
+  acervo, incluindo os `casado_faixa`) — têm copyright de uma editora, revista ou sociedade
+  científica externa ao ICMBio. Mesmo sendo de autoria de pesquisadores do RAN, redistribuir o
+  texto integral num sistema de RAG pode contrariar os termos de uso da publicação original —
+  precisa de decisão explícita da equipe (ex.: usar apenas resumo/citação + link/DOI em vez do
+  PDF completo).
+- **Anais dos Congressos Brasileiros de Herpetologia (`Resumos_CBH_2004-2015/*.docx`)** —
+  atenção especial: são volumes completos de congresso nacional, com copyright da Sociedade
+  Brasileira de Herpetologia (organizadora) e conteúdo majoritariamente de autores **não
+  vinculados ao RAN**. Indexar o volume inteiro tanto foge do escopo do projeto (a maior parte
+  do conteúdo não é sobre o trabalho do RAN) quanto levanta uma questão de copyright mais forte
+  que a dos demais itens. Recomendação: não indexar o volume inteiro; se houver interesse,
+  extrair manualmente apenas os resumos de autoria de pesquisadores do RAN.
+- **`placeholder_faltante` (5 arquivos "Faltam")** — não são documentos, apenas marcadores da
+  própria equipe indicando lacunas conhecidas no acervo (números 31–35, 56–58, 61–64, 70–71,
+  113–114 da aba `Resumo_Evento Científico`). Não entram em nenhuma avaliação de sensibilidade.
+- **`duplicata_exata` (5 arquivos)** — cópias byte-a-byte de arquivos já presentes em
+  `Matérias_ICMBio-em-Foco_Outros Meios`; mesma classificação do arquivo canônico.

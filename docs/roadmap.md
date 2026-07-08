@@ -14,7 +14,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
-[Fase 5] Embeddings + Qdrant      █░░░░░░░░░  10% — BGE-M3 escolhido temporariamente para testes (ADR 0005); Qdrant e indexação ainda não implementados
+[Fase 5] Embeddings + Qdrant      ███░░░░░░░  30% — BGE-M3 escolhido temporariamente para testes (ADR 0005); script de indexação implementado, aguardando primeira execução real
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
@@ -195,21 +195,25 @@ do estado atual até o protótipo funcional validado com usuários.
   - Se a equipe confirmar que não há orçamento para API, a escolha temporária (BGE-M3) tende a virar definitiva — atualizar o ADR 0005 nesse caso, não criar um novo
 
 ### 5.2 Configuração do Qdrant
-- [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH
-- [ ] Criar coleção no Qdrant com os parâmetros adequados (dimensão do vetor, métrica de similaridade)
+- [x] Serviço definido em `docker-compose.yml` (imagem `qdrant/qdrant`, porta 6333 restrita a 127.0.0.1)
+- [x] Criação da coleção automatizada pelo próprio script de indexação (5.3) — dimensão 1024, distância cosseno
+- [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH (passo manual, a cada sessão)
   ```bash
   ssh -N -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
   ```
 - [ ] Validar conectividade (`scripts/check_services.py`)
 
 ### 5.3 Geração e indexação de embeddings
-- [ ] **Implementar script de indexação** (`scripts/indexacao/indexar_chunks.py`)
+- [x] **Script de indexação implementado** (`scripts/indexacao/indexar_chunks.py`) — ver
+  [`docs/processos/embeddings.md`](processos/embeddings.md) para detalhes
   - Lê `chunks.jsonl` de cada fonte
-  - Gera embeddings (modelo escolhido na 5.1)
-  - Insere pontos no Qdrant com payload de metadados
-  - Registra IDs e status no PostgreSQL (tabela de índice)
-- [ ] Indexar SALVE (testar com 3 fichas primeiro)
-- [ ] Indexar Monitora, PANs e publicações
+  - Gera embeddings densos com BGE-M3 (escolha temporária, ADR 0005)
+  - Insere pontos no Qdrant com payload de metadados; ID derivado do `chunk_id` (idempotente)
+  - Inclui modo `--buscar` para rodar buscas de teste sem reindexar
+  - **Ainda não registra IDs/status no PostgreSQL** — só grava no Qdrant por enquanto
+- [ ] Executar primeira indexação real (todas as fontes: monitora, pans, salve) contra o
+  Qdrant do servidor e avaliar qualidade da recuperação com perguntas reais do domínio
+- [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
 
 ---
 

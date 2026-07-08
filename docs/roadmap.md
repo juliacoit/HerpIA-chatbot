@@ -3,7 +3,7 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-07-07
+**Atualizado em:** 2026-07-08
 
 ---
 
@@ -14,7 +14,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
-[Fase 5] Embeddings + Qdrant      ░░░░░░░░░░   0%
+[Fase 5] Embeddings + Qdrant      █░░░░░░░░░  10% — BGE-M3 escolhido temporariamente para testes (ADR 0005); Qdrant e indexação ainda não implementados
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
@@ -183,11 +183,16 @@ do estado atual até o protótipo funcional validado com usuários.
 > **Dependência:** chunks gerados (Fase 4) + infraestrutura com Qdrant ativo
 
 ### 5.1 Escolha do modelo de embeddings
-- [ ] **Decisão pendente com a equipe do RAN** — documento de apoio à decisão pronto: [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md)
+- [x] **Decisão temporária tomada:** `BAAI/bge-m3` (Opção C, local), usado apenas para
+  testar os chunks já gerados e validar a qualidade dos vetores enquanto a decisão
+  final não sai (ver [ADR 0005](decisoes/0005-escolha-temporaria-modelo-embeddings.md))
+- [ ] **Decisão final pendente com a equipe do RAN** — condicionada a definir se há
+  orçamento para custear uma API de embeddings de forma recorrente; documento de apoio:
+  [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md)
   - Opção A: `text-embedding-3-small` (OpenAI API) — simples, boa qualidade, custo por token
   - Opção B: `text-embedding-3-large` (OpenAI API) — mais qualidade, mais caro; provavelmente acima do necessário
-  - Opção C: modelo open-source multilíngue local (ex.: `BAAI/bge-m3`, `intfloat/multilingual-e5-large`) — sem custo de API nem envio de dados a terceiros, requer processamento local
-  - Vira ADR (`docs/decisoes/0005-...`) assim que a equipe decidir
+  - Opção C: modelo open-source multilíngue local (`BAAI/bge-m3`, em teste; ou `intfloat/multilingual-e5-large`) — sem custo de API nem envio de dados a terceiros, requer processamento local
+  - Se a equipe confirmar que não há orçamento para API, a escolha temporária (BGE-M3) tende a virar definitiva — atualizar o ADR 0005 nesse caso, não criar um novo
 
 ### 5.2 Configuração do Qdrant
 - [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH
@@ -264,7 +269,7 @@ do estado atual até o protótipo funcional validado com usuários.
 
 | Decisão | Impacto | Quando decidir |
 |---|---|---|
-| Modelo de embeddings (OpenAI vs. open-source) — ver [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md) | Custo, qualidade, dependência de API | Antes da Fase 5 |
+| Modelo de embeddings em produção (OpenAI vs. open-source) — BGE-M3 já em uso temporário para testes ([ADR 0005](decisoes/0005-escolha-temporaria-modelo-embeddings.md)); decisão final depende de orçamento para API — ver [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md) | Custo, qualidade, dependência de API | Antes de indexar em produção (Fase 6) |
 | Modelo de LLM para geração (Claude vs. GPT vs. outro) | Custo, qualidade, privacidade dos dados | Antes da Fase 6 |
 | Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
@@ -278,7 +283,7 @@ Coleta, extração e chunking de Monitora, PANs e SALVE estão completos (59.080
 em `07_processados/chunks/`). O que resta não depende da reunião do SEI e pode
 avançar em paralelo:
 
-1. **Agora:** escolher modelo de embeddings e subir o Qdrant (Fase 5) — chunks de Monitora/PANs/SALVE já estão prontos para indexar
+1. **Agora:** subir o Qdrant e implementar a indexação com BGE-M3, o modelo escolhido temporariamente para testes (ADR 0005) — chunks de Monitora/PANs/SALVE já estão prontos para indexar
 2. **Em paralelo:** organizar e catalogar publicações científicas do RAN (Fase 1.4)
 3. **Em paralelo:** atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual de cada fonte
 4. **Em paralelo:** decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5) — quando sair, roda extração + `gerar_chunks.py --fonte sei`

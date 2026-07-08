@@ -1,8 +1,8 @@
 # Escolha do modelo de embeddings
 
-- **Status:** Em discussão com a equipe — decisão pendente (Fase 5.1 do [`docs/roadmap.md`](../roadmap.md))
+- **Status:** Decisão temporária tomada (BGE-M3, só para testes) — decisão final de produção segue pendente com a equipe (Fase 5.1 do [`docs/roadmap.md`](../roadmap.md))
 - **Última atualização:** 2026-07-08
-- **Vira ADR quando decidido:** este documento deve virar `docs/decisoes/0005-escolha-modelo-embeddings.md` assim que a equipe fechar a escolha (ver [`docs/decisoes/template.md`](../decisoes/template.md))
+- **Decisão temporária registrada em ADR:** [`docs/decisoes/0005-escolha-temporaria-modelo-embeddings.md`](../decisoes/0005-escolha-temporaria-modelo-embeddings.md) — enquanto a equipe não decide se há orçamento para custear uma API (Opção A/B), o modelo **BGE-M3** (Opção C) está sendo usado para gerar embeddings de teste sobre os chunks já existentes e avaliar a qualidade da recuperação. Essa escolha é descartável e não compromete a decisão final — se a equipe optar por API paga, os vetores de teste são regenerados do zero.
 
 ## Objetivo deste documento
 
@@ -234,9 +234,20 @@ entre eles não muda os requisitos de CPU/GPU/memória da infraestrutura — a
 diferença de custo computacional relevante é entre a Opção C como um todo e
 as opções A/B (API paga), não entre os dois modelos locais.
 
-## Próximos passos após a decisão
+## Próximos passos
 
-1. Registrar a escolha como ADR (`docs/decisoes/0005-...md`), substituindo este documento.
-2. Atualizar `requirements.txt` (`openai` ou `sentence-transformers`, conforme a escolha).
-3. Definir a dimensão do vetor e a métrica de similaridade da coleção no Qdrant (Fase 5.2).
-4. Implementar `scripts/indexacao/indexar_chunks.py` (Fase 5.3).
+A escolha temporária (BGE-M3, para testes) já está registrada em
+[ADR 0005](../decisoes/0005-escolha-temporaria-modelo-embeddings.md). Este
+documento continua valendo como material de apoio para a **decisão final**
+entre as opções A/B/C, que segue pendente com a equipe.
+
+1. Implementar `scripts/indexacao/indexar_chunks.py` usando BGE-M3
+   (`sentence-transformers` ou `FlagEmbedding`) — Fase 5.3.
+2. Definir a dimensão do vetor (1024, para BGE-M3) e a métrica de
+   similaridade da coleção no Qdrant (Fase 5.2).
+3. Indexar os chunks já existentes e avaliar a qualidade da recuperação.
+4. Levar o resultado do teste + a necessidade de orçamento para API para a
+   equipe decidir entre manter BGE-M3 em produção ou migrar para a Opção
+   A/B — quando essa decisão final sair, atualizar o ADR 0005 e o
+   `requirements.txt` (`sentence-transformers`/`FlagEmbedding` já cobrem a
+   Opção C; `openai` seria necessário só se a equipe optar por A/B).

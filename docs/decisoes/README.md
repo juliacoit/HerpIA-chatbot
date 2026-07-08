@@ -16,3 +16,4 @@ Cada arquivo nesta pasta documenta uma decisão técnica ou de processo relevant
 | [0002](0002-classificacao-de-sensibilidade-em-pastas.md) | Classificação de sensibilidade por pastas | Aceita |
 | [0003](0003-infraestrutura-prototipo-local-antes-de-servidor-dedicado.md) | Infraestrutura: protótipo local antes de servidor dedicado | Aceita |
 | [0004](0004-criterios-selecao-documentos-sei.md) | Critérios de seleção de documentos do SEI/ICMBio para indexação | Decisão parcial tomada |
+| [0005](0005-escolha-temporaria-modelo-embeddings.md) | Escolha temporária do modelo de embeddings para testes (BGE-M3) | Decisão parcial tomada |

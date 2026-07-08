@@ -21,9 +21,16 @@ Uso:
 
 Pré-requisitos:
     pip install sentence-transformers qdrant-client
-    Qdrant acessível (docker compose up -d no servidor + túnel SSH no
-    PC de desenvolvimento — ver docs/infraestrutura-local.md).
-    Verificar com: python scripts/check_services.py
+
+    Duas formas de rodar o Qdrant, conforme o que já estiver disponível:
+
+    1. Servidor (docker-compose.yml) + túnel SSH — ver docs/infraestrutura-local.md.
+       Verificar com: python scripts/check_services.py
+
+    2. Enquanto o PC servidor não estiver configurado: modo embutido, sem
+       Docker e sem rede — defina QDRANT_LOCAL_PATH no .env (ex.:
+       QDRANT_LOCAL_PATH=07_processados/qdrant_local) e o script usa esse
+       diretório local como banco vetorial. Nesse modo QDRANT_URL é ignorado.
 """
 
 import argparse
@@ -41,6 +48,7 @@ RAIZ = Path(__file__).resolve().parents[2]
 CHUNKS_DIR = RAIZ / "07_processados" / "chunks"
 
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
+QDRANT_LOCAL_PATH = os.getenv("QDRANT_LOCAL_PATH")
 COLECAO = os.getenv("QDRANT_COLLECTION", "ran_herpetofauna")
 
 MODELO_NOME = "BAAI/bge-m3"
@@ -60,6 +68,15 @@ def carregar_modelo():
 
 def conectar_qdrant():
     from qdrant_client import QdrantClient
+
+    if QDRANT_LOCAL_PATH:
+        caminho = Path(QDRANT_LOCAL_PATH)
+        if not caminho.is_absolute():
+            caminho = RAIZ / caminho
+        caminho.mkdir(parents=True, exist_ok=True)
+        print(f"Usando Qdrant embutido (local, sem servidor/rede) em {caminho}")
+        return QdrantClient(path=str(caminho))
+
     return QdrantClient(url=QDRANT_URL)
 
 

@@ -1,7 +1,9 @@
 # Geração de embeddings e indexação no Qdrant
 
 - **Status:** 🔶 Script implementado (`scripts/indexacao/indexar_chunks.py`), aguardando
-  primeira execução real contra o Qdrant do servidor e avaliação de qualidade
+  primeira execução real e avaliação de qualidade — como o PC servidor ainda não foi
+  configurado (pendência de segurança de rede, ver ADR 0003), a primeira execução deve
+  usar o **modo embutido do Qdrant** (sem Docker, sem rede), não o servidor dedicado
 - **Última atualização:** 2026-07-08
 - **Responsável(eis):** Script `scripts/indexacao/indexar_chunks.py`
 
@@ -39,8 +41,12 @@ para recuperação semântica. Ver [`docs/roadmap.md`](../roadmap.md), Fase 5.
 
 Implementado em `scripts/indexacao/indexar_chunks.py`:
 
-1. Conecta ao Qdrant (`QDRANT_URL` do `.env`) e garante que a coleção
-   (`QDRANT_COLLECTION`) existe, com vetor de 1024 dimensões e distância cosseno.
+1. Conecta ao Qdrant e garante que a coleção (`QDRANT_COLLECTION`) existe, com vetor
+   de 1024 dimensões e distância cosseno. Duas formas de conectar (ver "Onde rodar o
+   Qdrant" abaixo):
+   - `QDRANT_URL` do `.env` → servidor Qdrant (Docker + túnel SSH).
+   - `QDRANT_LOCAL_PATH` do `.env` → modo embutido, sem servidor (tem prioridade sobre
+     `QDRANT_URL` quando definido).
 2. Carrega o modelo `BAAI/bge-m3` (`sentence-transformers`) — primeira execução baixa
    ~2 GB, ficam em cache local depois.
 3. Lê `07_processados/chunks/<fonte>/chunks.jsonl` (uma fonte por vez ou todas).
@@ -50,11 +56,20 @@ Implementado em `scripts/indexacao/indexar_chunks.py`:
    O ID de cada ponto é derivado do `chunk_id` (uuid5) — reindexar os mesmos chunks
    atualiza os pontos existentes em vez de duplicá-los.
 
-Uso:
+### Onde rodar o Qdrant
+
+| | Servidor (Docker + túnel SSH) | Modo embutido (`QDRANT_LOCAL_PATH`) |
+|---|---|---|
+| Quando usar | PC servidor já configurado (ADR 0003) | Enquanto o PC servidor não estiver configurado — sem Docker, sem porta de rede envolvida |
+| Configuração | `QDRANT_URL` no `.env` + `docker compose up -d` no servidor + túnel SSH no dev | `QDRANT_LOCAL_PATH=07_processados/qdrant_local` no `.env` |
+| Persistência | Volume Docker no servidor | Diretório local (`07_processados/qdrant_local/`, gitignored) |
+| Dashboard web | Sim (`QDRANT_URL/dashboard`) | Não |
+| Migração depois | — | Os dados não migram automaticamente — ao migrar para o servidor, reindexar do zero (os vetores desta fase já são descartáveis, ver ADR 0005) |
+
+Uso (com o modo embutido, sem precisar de Docker nem SSH):
 
 ```bash
-# Verificar que o Qdrant está acessível (ver docs/infraestrutura-local.md)
-python scripts/check_services.py
+# .env: QDRANT_LOCAL_PATH=07_processados/qdrant_local
 
 # Indexar todas as fontes
 python scripts/indexacao/indexar_chunks.py
@@ -66,6 +81,11 @@ python scripts/indexacao/indexar_chunks.py --recriar-colecao
 # Busca de teste, sem reindexar (para avaliar qualidade da recuperação)
 python scripts/indexacao/indexar_chunks.py --buscar "qual o status de conservação da jararaca?"
 ```
+
+Quando o PC servidor estiver configurado (ver
+[`docs/infraestrutura-local.md`](../infraestrutura-local.md)), basta remover
+`QDRANT_LOCAL_PATH` do `.env` (ou deixar sem valor) para o script voltar a usar
+`QDRANT_URL`; validar com `python scripts/check_services.py` antes.
 
 **Ainda não implementado:** registro de IDs/status da indexação no PostgreSQL (mencionado
 nas Saídas) e busca híbrida (esparsa + multi-vetor do BGE-M3) — por ora só o vetor

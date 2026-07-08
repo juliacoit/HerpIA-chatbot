@@ -197,7 +197,11 @@ do estado atual até o protótipo funcional validado com usuários.
 ### 5.2 Configuração do Qdrant
 - [x] Serviço definido em `docker-compose.yml` (imagem `qdrant/qdrant`, porta 6333 restrita a 127.0.0.1)
 - [x] Criação da coleção automatizada pelo próprio script de indexação (5.3) — dimensão 1024, distância cosseno
-- [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH (passo manual, a cada sessão)
+- [x] **Modo alternativo sem servidor implementado** (`QDRANT_LOCAL_PATH` no `.env`) — Qdrant
+  embutido, sem Docker nem rede, para poder testar antes do PC servidor estar pronto
+- [ ] **PC servidor ainda não configurado** — pendente de revisão de segurança de rede
+  (não é bloqueio para a Fase 5: use o modo embutido acima enquanto isso)
+- [ ] Quando o servidor estiver pronto: verificar que está ativo e acessível via túnel SSH
   ```bash
   ssh -N -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
   ```
@@ -211,8 +215,9 @@ do estado atual até o protótipo funcional validado com usuários.
   - Insere pontos no Qdrant com payload de metadados; ID derivado do `chunk_id` (idempotente)
   - Inclui modo `--buscar` para rodar buscas de teste sem reindexar
   - **Ainda não registra IDs/status no PostgreSQL** — só grava no Qdrant por enquanto
-- [ ] Executar primeira indexação real (todas as fontes: monitora, pans, salve) contra o
-  Qdrant do servidor e avaliar qualidade da recuperação com perguntas reais do domínio
+- [ ] Executar primeira indexação real (todas as fontes: monitora, pans, salve), usando o
+  modo embutido do Qdrant por enquanto, e avaliar qualidade da recuperação com perguntas
+  reais do domínio
 - [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
 
 ---

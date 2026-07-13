@@ -1,7 +1,7 @@
 # Chunking dos documentos autorizados
 
 - **Status:** ✅ Em produção (Monitora, PANs, SALVE); 🔶 SEI e publicações científicas pendentes
-- **Última atualização:** 2026-07-03
+- **Última atualização:** 2026-07-13
 - **Responsável(eis):** Script `scripts/processamento/gerar_chunks.py`
 
 ## Objetivo
@@ -83,6 +83,21 @@ aproximação de ~4 caracteres por token usada no restante do projeto.
 
 ## Estratégia de chunking
 
+0. **Redação automática de dados pessoais (só Monitora/PANs):** antes de dividir
+   cada página em unidades, o texto passa por `redigir_texto()`
+   (`scripts/classificacao/regras_pii.py`), que substitui CPF, e-mail pessoal,
+   telefone e coordenadas (decimal ou graus/min/seg) por um placeholder
+   (ex.: `[e-mail removido]`). Monitora e PANs são fontes públicas, mas o PDF
+   individual pode conter dado pessoal de pesquisador/colaborador ou coordenada
+   de ocorrência de espécie embutidos no meio do texto — isso é tratado por
+   chunk, não como bloqueio do documento inteiro (ver
+   [`triagem_pendente_sensibilidade_copyright.md`](triagem_pendente_sensibilidade_copyright.md)).
+   Só os padrões estruturados (regex de alta precisão) são redigidos
+   automaticamente; menções semânticas (localização de espécie, palavra de
+   restrição administrativa) **não** são tocadas aqui e continuam dependendo
+   da revisão humana em `triagem_sensibilidade.py`. `regras_pii.py` é a mesma
+   lista de padrões usada pela triagem, para detecção e redação não ficarem
+   dessincronizadas.
 1. **Unidades de texto:** o texto de cada seção (SALVE) ou página (Monitora/PANs)
    é dividido em parágrafos (`\n\n`); parágrafos maiores que o tamanho-alvo são
    divididos em sentenças; sentenças que ainda excedam 2× o tamanho-alvo são
@@ -125,19 +140,26 @@ Sempre que novos documentos entrarem em `03_documentos_autorizados/` (nova
 autorização de Fase 3) ou o próprio script for alterado. Não depende de
 coleta/extração terem rodado de novo — só do conteúdo de `03_*`.
 
-## Resultados da execução de 2026-07-03
+## Resultados da execução de 2026-07-13
 
-| Fonte | Documentos em `03_documentos_autorizados/` | Chunks gerados | Tamanho (car.): média / mín / máx |
-|---|---|---|---|
-| SALVE | 24 | 231 | 1.111 / 196 / 2.428 |
-| Monitora | 109 | 7.220 | 1.685 / 97 / 4.098 |
-| PANs | 706 | 31.791 | 1.707 / 91 / 4.207 |
-| **Total** | **839** | **39.242** | — |
+| Fonte | Documentos em `03_documentos_autorizados/` | Chunks gerados |
+|---|---|---|
+| SALVE | 2.086 | 20.069 |
+| Monitora | 109 | 7.220 |
+| PANs | 706 | 31.796 |
+| **Total** | **2.901** | **59.085** |
 
 Um documento do catálogo de PANs (`pan-quelonios/ciclo-1/pan-quelonios-portaria-gat.json`)
 tem texto extraído em `07_processados/textos_extraidos/pans/`, mas **não** está em
 `03_documentos_autorizados/pans/` — foi corretamente excluído do chunking por não
 estar autorizado.
+
+**Redação automática de PII (Monitora/PANs):** 225 documentos tiveram ao menos 1
+trecho redigido — 2.162 e-mails, 282 telefones e 2.441 coordenadas (formato
+graus/min/seg) substituídos por placeholder. Nenhum CPF nem coordenada decimal foi
+encontrado nesta execução. Relatório completo (lista dos documentos afetados e
+contagem por tipo) em [`06_inventario/relatorio_anonimizacao_chunks.json`](../../06_inventario/relatorio_anonimizacao_chunks.json)
+(gerado a cada execução do script — não versionado, mesmo status de `chunks.jsonl`).
 
 ## Pendências
 

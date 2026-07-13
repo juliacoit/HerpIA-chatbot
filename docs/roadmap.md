@@ -88,8 +88,8 @@ do estado atual até o protótipo funcional validado com usuários.
   python scripts/coleta/listar_documentos_sei.py --retomar
   ```
   - Saída: `01_fontes_web/sei/documentos_por_processo.json`
-- [x] **Analisar catálogo** — triagem automática gerou lista de 197 processos candidatos (`processos_para_exportacao.json`; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
-- [x] **Documentar os 220 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
+- [x] **Analisar catálogo** — triagem automática gerou lista de 173 processos candidatos (`processos_para_exportacao.json`, v2 após correção de falsos positivos em 2026-07-13; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
+- [x] **Documentar os 244 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
 - [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`

@@ -78,7 +78,7 @@ Ver detalhamento técnico em [`docs/processos/coleta_sei_detalhado.md`](coleta_s
 
 - [x] Implementar `listar_blocos_sei.py` e catalogar os 43 blocos
 - [x] Implementar `listar_documentos_sei.py` para os 16 blocos prioritários
-- [x] Analisar `documentos_por_processo.json` — triagem automática gerou lista de 197 processos candidatos em `processos_para_exportacao.json` (ver [`docs/processos/selecao_processos_sei.md`](../processos/selecao_processos_sei.md))
+- [x] Analisar `documentos_por_processo.json` — triagem automática gerou lista de 173 processos candidatos em `processos_para_exportacao.json` (v2 após correção de falsos positivos em 2026-07-13; ver [`docs/processos/selecao_processos_sei.md`](../processos/selecao_processos_sei.md))
 - [ ] Validar com a Flávia (RAN) quais processos têm autorização de exportação
 - [ ] Definir critério de sensibilidade específico para processos com localização de espécies
 - [ ] Realizar primeira exportação piloto e mover para `04_documentos_pendentes_avaliacao/sei/`

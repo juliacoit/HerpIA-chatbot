@@ -43,6 +43,9 @@ Thumbs.db
 07_processados/chunks/
 07_processados/metadados/
 
+# Qdrant embutido (modo local, sem servidor — ver QDRANT_LOCAL_PATH no .env.example)
+07_processados/qdrant_local/
+
 # Relatório gerado pelo script de download
 01_fontes_web/pans/relatorio_download.json
 01_fontes_web/monitora/relatorio_download.json

@@ -14,7 +14,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
-[Fase 5] Embeddings + Qdrant      █░░░░░░░░░  10% — BGE-M3 escolhido temporariamente para testes (ADR 0005); Qdrant e indexação ainda não implementados
+[Fase 5] Embeddings + Qdrant      ███░░░░░░░  30% — BGE-M3 escolhido temporariamente para testes (ADR 0005); script de indexação implementado, aguardando primeira execução real
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
@@ -88,8 +88,8 @@ do estado atual até o protótipo funcional validado com usuários.
   python scripts/coleta/listar_documentos_sei.py --retomar
   ```
   - Saída: `01_fontes_web/sei/documentos_por_processo.json`
-- [x] **Analisar catálogo** — triagem automática gerou lista de 197 processos candidatos (`processos_para_exportacao.json`; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
-- [x] **Documentar os 220 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
+- [x] **Analisar catálogo** — triagem automática gerou lista de 173 processos candidatos (`processos_para_exportacao.json`, v2 após correção de falsos positivos em 2026-07-13; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
+- [x] **Documentar os 244 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
 - [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
@@ -195,21 +195,30 @@ do estado atual até o protótipo funcional validado com usuários.
   - Se a equipe confirmar que não há orçamento para API, a escolha temporária (BGE-M3) tende a virar definitiva — atualizar o ADR 0005 nesse caso, não criar um novo
 
 ### 5.2 Configuração do Qdrant
-- [ ] Verificar que o PC servidor está ativo e acessível via túnel SSH
-- [ ] Criar coleção no Qdrant com os parâmetros adequados (dimensão do vetor, métrica de similaridade)
+- [x] Serviço definido em `docker-compose.yml` (imagem `qdrant/qdrant`, porta 6333 restrita a 127.0.0.1)
+- [x] Criação da coleção automatizada pelo próprio script de indexação (5.3) — dimensão 1024, distância cosseno
+- [x] **Modo alternativo sem servidor implementado** (`QDRANT_LOCAL_PATH` no `.env`) — Qdrant
+  embutido, sem Docker nem rede, para poder testar antes do PC servidor estar pronto
+- [ ] **PC servidor ainda não configurado** — pendente de revisão de segurança de rede
+  (não é bloqueio para a Fase 5: use o modo embutido acima enquanto isso)
+- [ ] Quando o servidor estiver pronto: verificar que está ativo e acessível via túnel SSH
   ```bash
   ssh -N -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
   ```
 - [ ] Validar conectividade (`scripts/check_services.py`)
 
 ### 5.3 Geração e indexação de embeddings
-- [ ] **Implementar script de indexação** (`scripts/indexacao/indexar_chunks.py`)
+- [x] **Script de indexação implementado** (`scripts/indexacao/indexar_chunks.py`) — ver
+  [`docs/processos/embeddings.md`](processos/embeddings.md) para detalhes
   - Lê `chunks.jsonl` de cada fonte
-  - Gera embeddings (modelo escolhido na 5.1)
-  - Insere pontos no Qdrant com payload de metadados
-  - Registra IDs e status no PostgreSQL (tabela de índice)
-- [ ] Indexar SALVE (testar com 3 fichas primeiro)
-- [ ] Indexar Monitora, PANs e publicações
+  - Gera embeddings densos com BGE-M3 (escolha temporária, ADR 0005)
+  - Insere pontos no Qdrant com payload de metadados; ID derivado do `chunk_id` (idempotente)
+  - Inclui modo `--buscar` para rodar buscas de teste sem reindexar
+  - **Ainda não registra IDs/status no PostgreSQL** — só grava no Qdrant por enquanto
+- [ ] Executar primeira indexação real (todas as fontes: monitora, pans, salve), usando o
+  modo embutido do Qdrant por enquanto, e avaliar qualidade da recuperação com perguntas
+  reais do domínio
+- [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
 
 ---
 

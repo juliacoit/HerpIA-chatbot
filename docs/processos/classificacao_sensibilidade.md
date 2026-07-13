@@ -47,6 +47,11 @@ Critérios já decididos por fonte (roadmap Fase 3):
 Passo a passo detalhado (ferramenta de apoio, critérios objetivos por tipo de dado)
 ainda não definido.
 
+Triagens automáticas já geradas para priorizar a revisão manual de Monitora/PANs
+(sensibilidade) e publicações científicas (copyright), com planilhas de trabalho prontas
+para a equipe do RAN preencher: ver
+[`triagem_pendente_sensibilidade_copyright.md`](triagem_pendente_sensibilidade_copyright.md).
+
 ## Frequência de execução
 
 Sob demanda, conforme novos documentos chegam em `04_documentos_pendentes_avaliacao/`;

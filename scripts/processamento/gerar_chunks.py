@@ -26,11 +26,25 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[2]
 AUTORIZADOS_DIR = RAIZ / "03_documentos_autorizados"
 OUTPUT_DIR = RAIZ / "07_processados" / "chunks"
+RELATORIO_ANONIMIZACAO = RAIZ / "06_inventario" / "relatorio_anonimizacao_chunks.json"
+
+sys.path.insert(0, str(RAIZ / "scripts" / "classificacao"))
+from regras_pii import redigir_texto  # noqa: E402
+
+# Contadores globais de redação (Monitora/PANs), preenchidos durante o
+# chunking e salvos em RELATORIO_ANONIMIZACAO ao final — ver função main().
+# Só cobrem os padrões estruturados (redigivel=True em regras_pii.py); os
+# padrões semânticos (localização de espécie, palavra de restrição) não são
+# redigidos automaticamente e continuam dependendo da revisão humana via
+# triagem_sensibilidade.py.
+_contagem_redacoes: Counter = Counter()
+_documentos_com_redacao: set[str] = set()
 
 TAMANHO_ALVO = 2000
 SOBREPOSICAO = 200
@@ -184,12 +198,24 @@ def chunkar_ficha_salve(dados: dict, caminho_relativo: str) -> list[dict]:
 # --------------------------------------------------------------------------
 
 def chunkar_documento_pdf(dados: dict, fonte: str, caminho_relativo: str) -> list[dict]:
+    # Monitora/PANs vêm de fontes públicas, mas o PDF pode conter e-mail/telefone/CPF
+    # de pesquisadores ou coordenadas de ocorrência de espécie embutidos no meio do
+    # texto — isso é diferente de "o documento inteiro é sensível" (ver
+    # docs/processos/triagem_pendente_sensibilidade_copyright.md). Por isso a
+    # redação acontece aqui, no chunking, e não como um filtro de documento inteiro.
+    identificador_doc = f"{fonte}/{caminho_relativo}"
+
     # Lista de (unidade_texto, pagina) preservando a ordem das páginas.
     unidades_com_pagina: list[tuple[str, int]] = []
     for pagina in dados.get("paginas") or []:
         texto_pagina = pagina.get("texto", "")
         if not texto_pagina.strip():
             continue
+        texto_pagina, contagens = redigir_texto(texto_pagina)
+        if contagens:
+            _documentos_com_redacao.add(identificador_doc)
+            for chave, n in contagens.items():
+                _contagem_redacoes[chave] += n
         for unidade in unidades_de_texto(texto_pagina):
             unidades_com_pagina.append((unidade, pagina["pagina"]))
 
@@ -281,6 +307,27 @@ def main():
 
     print(f"\nCONCLUÍDO — {total['documentos']} documentos, {total['chunks']} chunks, "
           f"{total['erros']} erros no total.")
+
+    if _contagem_redacoes:
+        relatorio_anonimizacao = {
+            "total_documentos_com_redacao": len(_documentos_com_redacao),
+            "total_substituicoes_por_flag": dict(_contagem_redacoes),
+            "documentos_afetados": sorted(_documentos_com_redacao),
+        }
+        RELATORIO_ANONIMIZACAO.parent.mkdir(parents=True, exist_ok=True)
+        RELATORIO_ANONIMIZACAO.write_text(
+            json.dumps(relatorio_anonimizacao, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(
+            f"\nAnonimização automática (Monitora/PANs): {len(_documentos_com_redacao)} documentos "
+            f"tiveram ao menos 1 trecho redigido (CPF/e-mail/telefone/coordenada). "
+            f"Relatório de auditoria: {RELATORIO_ANONIMIZACAO.relative_to(RAIZ)}"
+        )
+        print(
+            "Lembrete: só os padrões estruturados são redigidos automaticamente — menções "
+            "semânticas (localização de espécie, palavra de restrição) continuam dependendo "
+            "da revisão humana em triagem_sensibilidade.py."
+        )
 
 
 if __name__ == "__main__":

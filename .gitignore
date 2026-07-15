@@ -38,6 +38,7 @@ Thumbs.db
 # Exceção: salve/ é versionado porque as fichas-fonte JSON também estão no git.
 07_processados/textos_extraidos/monitora/
 07_processados/textos_extraidos/pans/
+07_processados/textos_extraidos/publicacoes/
 
 # Chunks e embeddings (gerados pelo pipeline — não versionar)
 07_processados/chunks/

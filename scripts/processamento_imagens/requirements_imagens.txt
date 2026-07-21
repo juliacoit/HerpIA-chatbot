@@ -1,0 +1,13 @@
+# Dependências adicionais para processamento de imagens
+# Instalar com: pip install -r requirements_imagens.txt
+
+# Claude API
+anthropic>=0.36
+
+# CLIP para classificação de imagens
+torch>=2.0
+torchvision>=0.15
+transformers>=4.36
+
+# Suporte a imagens (já deve estar no projeto, adicionado por clareza)
+Pillow>=9.0

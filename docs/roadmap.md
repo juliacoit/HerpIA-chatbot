@@ -3,7 +3,7 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-07-08
+**Atualizado em:** 2026-07-21
 
 ---
 
@@ -11,7 +11,7 @@ do estado atual até o protótipo funcional validado com usuários.
 
 ```
 [Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações organizadas (312 arquivos, catálogo inicial); SEI catalogado
-[Fase 2] Extração de texto        █████████░  90% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086)
+[Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086); piloto de processamento de imagens implementado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ███░░░░░░░  30% — BGE-M3 escolhido temporariamente para testes (ADR 0005); script de indexação implementado, aguardando primeira execução real
@@ -125,9 +125,38 @@ do estado atual até o protótipo funcional validado com usuários.
 - [x] Executar extração nos PDFs do Monitora e validar amostra — 109/109 processados, 0 erros (2026-06-25)
 - [x] Executar extração nos PDFs dos PANs e validar amostra — 707/707 processados (47 via OCR), 0 erros (2026-06-25)
 
-### 2.3 Publicações científicas (PDF → texto)
+### 2.3 Processamento de imagens em PDFs (CLIP + Claude Haiku)
+
+A maioria dos PDFs nas fontes (publicações científicas, relatórios, PANs) contém imagens críticas: gráficos, mapas de distribuição, tabelas visuais, diagramas. Apenas extrair texto perde essas informações essenciais para o RAG.
+
+**Estratégia híbrida (CLIP + Claude Haiku):**
+1. Extrai imagens com PyMuPDF (já incluso na Fase 2.2)
+2. Classifica cada imagem com CLIP (gráfico/mapa/diagrama/tabela vs. fotografia/ilustração)
+3. Descreve apenas as relevantes com Claude Haiku
+4. Descrições são indexadas como chunks adicionais
+
+Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md)
+
+- [ ] **Piloto implementado** (`scripts/processamento_imagens/processar_imagens_piloto.py`)
+  - Script pronto para testes com PDFs reais
+  - Dependências: `pip install -r scripts/processamento_imagens/requirements_imagens.txt`
+  - Teste rápido (só CLIP, sem custos): `python testar_classificacao.py`
+  - Pipeline completo (com descrição Claude): `python processar_imagens_piloto.py`
+  - Ver instruções: [`scripts/processamento_imagens/COMECE_AQUI.md`](../../scripts/processamento_imagens/COMECE_AQUI.md)
+- [ ] **Validação:** testar com 5-10 PDFs variados
+  - Verificar qualidade de classificação (CLIP)
+  - Verificar qualidade de descrição (Claude Haiku)
+  - Custo real vs. estimado (~$0.002 USD/imagem com Haiku)
+  - Documentar em [`docs/processos/VALIDACAO_PILOTO_IMAGENS.md`](processos/VALIDACAO_PILOTO_IMAGENS.md)
+- [ ] **Integração:** adicionar ao pipeline principal de indexação
+  - Armazenar descrições em `07_processados/imagens_descritas/`
+  - Indexar descrições no Qdrant junto com chunks de texto
+  - Metadados: referência cruzada texto ↔ imagem
+
+### 2.4 Publicações científicas (PDF → texto)
 - [ ] Reutilizar o mesmo script de extração de PDFs (Fase 2.2)
 - [ ] Executar sobre `03_documentos_autorizados/` (somente documentos já aprovados)
+- [ ] Integrar processamento de imagens (Fase 2.3) para publicações com gráficos/mapas
 
 ---
 
@@ -215,9 +244,16 @@ do estado atual até o protótipo funcional validado com usuários.
   - Insere pontos no Qdrant com payload de metadados; ID derivado do `chunk_id` (idempotente)
   - Inclui modo `--buscar` para rodar buscas de teste sem reindexar
   - **Ainda não registra IDs/status no PostgreSQL** — só grava no Qdrant por enquanto
-- [ ] Executar primeira indexação real (todas as fontes: monitora, pans, salve), usando o
-  modo embutido do Qdrant por enquanto, e avaliar qualidade da recuperação com perguntas
-  reais do domínio
+- [x] **Teste comparativo de modelos implementado** (2026-07-17)
+  - Estratégia: indexar com 3 modelos diferentes e comparar qualidade
+  - Ver [`docs/processos/teste_comparativo_embeddings.md`](processos/teste_comparativo_embeddings.md)
+  - Modelos: multilingual-e5-small (local, leve), BGE-M3 (local, maior), text-embedding-3-small (OpenAI API)
+  - Scripts: `indexar_chunks_lite.py` (multilingual-e5), `indexar_chunks.py` (BGE-M3), `teste_openai_embeddings.py` (OpenAI)
+- [ ] Executar primeira indexação real com multilingual-e5-small (PC dev) — 59.085 chunks, modo embutido Qdrant
+- [ ] Executar segunda indexação com BGE-M3 (PC servidor) em paralelo
+- [ ] Testar qualidade com perguntas reais do domínio (ambos os modelos)
+- [ ] Testar OpenAI API em amostra e comparar custo/qualidade
+- [ ] Relatório comparativo para equipe RAN decidir qual modelo usar em produção
 - [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
 
 ---
@@ -289,11 +325,24 @@ do estado atual até o protótipo funcional validado com usuários.
 ## Ordem recomendada para as próximas sessões
 
 Coleta, extração e chunking de Monitora, PANs e SALVE estão completos (59.080 chunks
-em `07_processados/chunks/`). O que resta não depende da reunião do SEI e pode
-avançar em paralelo:
+em `07_processados/chunks/`). Piloto de processamento de imagens implementado. O que resta não depende da reunião do SEI e pode avançar em paralelo:
 
-1. **Agora:** subir o Qdrant e implementar a indexação com BGE-M3, o modelo escolhido temporariamente para testes (ADR 0005) — chunks de Monitora/PANs/SALVE já estão prontos para indexar
-2. **Em paralelo:** organizar e catalogar publicações científicas do RAN (Fase 1.4)
-3. **Em paralelo:** atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual de cada fonte
-4. **Em paralelo:** decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5) — quando sair, roda extração + `gerar_chunks.py --fonte sei`
-5. **Depois:** FastAPI + Streamlit + validação com usuários
+1. **Agora (Fase 2.3):** Validar piloto de processamento de imagens
+   - Testar com 5-10 PDFs variados
+   - Verificar qualidade de classificação (CLIP) e descrição (Claude Haiku)
+   - Documentar custos reais e validação
+   - Ver: [`scripts/processamento_imagens/COMECE_AQUI.md`](scripts/processamento_imagens/COMECE_AQUI.md)
+
+2. **Depois:** Integrar processamento de imagens ao pipeline de indexação
+   - Armazenar descrições em `07_processados/imagens_descritas/`
+   - Indexar no Qdrant junto com chunks de texto
+
+3. **Em paralelo:** Subir o Qdrant e indexar com BGE-M3 (ADR 0005) — chunks de Monitora/PANs/SALVE já estão prontos
+
+4. **Em paralelo:** Organizar e catalogar publicações científicas do RAN (Fase 1.4) + processamento de imagens para as que tiverem
+
+5. **Em paralelo:** Atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual
+
+6. **Em paralelo:** Decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5)
+
+7. **Depois:** FastAPI + Streamlit + validação com usuários

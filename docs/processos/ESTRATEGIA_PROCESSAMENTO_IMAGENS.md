@@ -1,8 +1,15 @@
 # Estratégia de Processamento de Imagens em PDFs
 
-**Data**: 2026-07-21  
+**Data**: 2026-07-21 (revisado em 2026-07-21 — restrição de orçamento)
 **Autora**: Júlia  
-**Status**: Piloto em validação
+**Status**: Piloto em validação — solução escolhida revisada para 100% local
+
+> **Atualização (2026-07-21):** ficou definido que este processamento deve ser
+> **100% local, sem API paga**, por falta de verba. A Opção 3 (híbrida com
+> Claude Haiku), descrita abaixo como "Solução Escolhida" original, **não é
+> mais a solução adotada** — mantida no documento apenas como referência
+> histórica de custo. A solução atual é a Opção 2 (100% local), detalhada na
+> seção "Solução Escolhida (revisada)" mais abaixo.
 
 ## Problema
 
@@ -28,6 +35,10 @@ No entanto, nem toda imagem é relevante:
 - Custo estimado (3k imagens): **~25-100 min com paralelização**
 - ✅ Zero custo de API
 - ❌ Requer GPU dedicada, overhead operacional
+- ⚠️ **GPU real da máquina de desenvolvimento: RTX 2050, 4 GB VRAM** (`nvidia-smi`,
+  2026-07-21) — LLaVA 13B e MiniCPM-V 8B **não cabem** nessa placa (precisam de
+  6-12 GB). Modelo viável precisa ser bem menor ou rodar quantizado — ver
+  "Solução Escolhida (revisada)" abaixo.
 
 ### Opção 3: Híbrida (CLIP + API)
 - **Estágio 1**: CLIP local (2-4 GB VRAM) classifica "é gráfico/mapa?" em milissegundos
@@ -37,9 +48,39 @@ No entanto, nem toda imagem é relevante:
 - ✅ Filtro local elimina latência de API para fotos de animais
 - ✅ Escalável — pode migrar descrição para local depois
 
-## Solução Escolhida: Híbrida (CLIP + Claude Haiku)
+## Solução Escolhida (revisada): 100% Local (CLIP + VLM local)
 
-### Arquitetura do Pipeline
+Substitui o Estágio 2 (Claude Haiku) da híbrida original por um modelo de
+visão-linguagem (VLM) local. Mantém o Estágio 1 (CLIP) sem alteração — já era
+100% local.
+
+**Modelo escolhido para descrição: `Qwen2-VL-2B-Instruct`** (via
+`transformers`), carregado em 4-bit (`bitsandbytes`) quando GPU disponível,
+com fallback para CPU (mesmo padrão já usado pelo `ClipClassifier`).
+
+Motivos da escolha, dado o hardware real (RTX 2050, 4 GB VRAM):
+- Cabe em 4-bit (~2 GB VRAM) mesmo com a GPU pequena — LLaVA 13B/MiniCPM-V 8B
+  não cabem.
+- Suporte multilíngue melhor que a maioria dos VLMs pequenos (moondream2,
+  por exemplo, é majoritariamente treinado em inglês) — relevante porque toda
+  a base de conhecimento e os prompts são em português.
+- Ativamente mantido, boa qualidade em descrição de gráficos/tabelas/diagramas
+  para o tamanho.
+
+**Custo**: $0 de API. Custo é só tempo de GPU/CPU local — mais lento que Haiku
+por imagem, mas sem limite de orçamento.
+
+**Atenção operacional**: a GPU de 4 GB é compartilhada com a indexação de
+embeddings (BGE-M3, ver [`embeddings.md`](embeddings.md)) — não rodar os dois
+processos pesados simultaneamente na mesma GPU (risco de OOM). Rodar o
+processamento de imagens depois que a indexação de embeddings terminar, ou
+forçar CPU (`--device cpu`) se precisar rodar em paralelo.
+
+### Arquitetura do Pipeline (histórica — híbrida com Claude Haiku)
+
+> Descrição abaixo é a arquitetura *original*, mantida como referência. A
+> arquitetura atual é igual, trocando apenas o Estágio 3 (Claude Haiku →
+> Qwen2-VL-2B-Instruct local).
 
 ```
 PDF
@@ -71,12 +112,17 @@ PDF
 - Threshold: >0.5 para "relevante"
 - **Custo computacional**: ~0.1-0.2s/imagem em CPU, <100 ms em GPU
 
-#### 3. Descrição (Claude Haiku)
-- Modelo: `claude-3-5-haiku-20241022`
-- Tarefa: "Descreva este gráfico/mapa/diagrama focando em dados, tendências e achados principais. Inclua eixos, legendas, valores numéricos importantes."
-- Tokens médios: ~150-300 tokens/imagem (input: 1000 tokens fixo para imagem, output: 150-300)
-- **Custo**: ~$0.002 USD/imagem (Haiku)
-- **Throughput**: 5-10 imagens/segundo com batching
+#### 3. Descrição (VLM local — Qwen2-VL-2B-Instruct)
+- Modelo: `Qwen/Qwen2-VL-2B-Instruct` (via `transformers`), 4-bit quantizado
+  (`bitsandbytes`) em GPU, fallback CPU
+- Tarefa: "Descreva este gráfico/mapa/diagrama focando em dados, tendências e achados principais. Inclua eixos, legendas, valores numéricos importantes." (mesmo prompt da versão Haiku, adaptado)
+- **Custo**: $0 (100% local)
+- **Throughput**: mais lento que API — depende de GPU/CPU disponível no momento;
+  medir throughput real no piloto (ver Fase 1 de Implementação)
+- **Nota**: Claude Haiku (`claude-3-5-haiku-20241022`) foi a escolha original
+  desta etapa — descontinuado por falta de verba (ver nota de atualização no
+  topo do documento). Mantido aqui só como registro histórico do que foi
+  testado antes.
 
 #### 4. Indexação
 - Descrições armazenadas como chunks adicionais: `tipo_conteudo: "imagem_descrita"`
@@ -96,21 +142,24 @@ Base atual: **59.080 chunks** (Monitora, PANs, SALVE)
 - Média: 10-20 imagens/documento → **2.000-6.000 imagens totais**
 - Relevantes (após CLIP): ~60% → **1.200-3.600 imagens descritas**
 
-**Custos**:
+**Custos (solução atual — 100% local)**:
 
 | Etapa | Recursos | Tempo | Custo |
 |-------|----------|-------|-------|
 | Extração (PyMuPDF) | CPU local | ~2-5 min | $0 |
 | Classificação (CLIP) | GPU/CPU local | ~5-20 min | $0 |
-| Descrição (Haiku) | API | ~2-5 min (batching) | $2-8 USD |
-| **Total** | — | **~15-30 min** | **~$2-8 USD** |
+| Descrição (Qwen2-VL-2B local) | GPU (4-bit)/CPU local | a medir no piloto — provavelmente mais lento que os ~2-5 min do Haiku, já que GPU é pequena (4 GB) e compartilhada com a indexação de embeddings | $0 |
+| **Total** | — | a medir | **$0** |
 
-**Por descrição**: $0.002 USD (Haiku), marginal.
+**Custos (referência histórica — descartada por falta de verba)**:
+
+| Etapa | Recursos | Tempo | Custo |
+|-------|----------|-------|-------|
+| Descrição (Claude Haiku) | API | ~2-5 min (batching) | $2-8 USD |
 
 ### ROI vs. Alternativas
 
-- **Claude Sonnet** (toda imagem): $0.012/imagem → $14-43 USD (40% mais caro)
-- **Modelo local LLaVA** (sem CLIP): 25-100 min CPU/GPU (mais lento, mais complexo)
+- **Claude Haiku/Sonnet** (API paga): descartado — sem verba disponível
 - **Não processar imagens**: Perde informações críticas para RAG
 
 ---
@@ -140,12 +189,15 @@ Base atual: **59.080 chunks** (Monitora, PANs, SALVE)
 ## Dependências
 
 ```
-pip install anthropic>=0.36  # Claude API
-pip install torch torchvision  # CLIP
-pip install transformers>=4.36  # CLIP via HuggingFace
+pip install torch torchvision  # CLIP + Qwen2-VL
+pip install transformers>=4.45  # CLIP e Qwen2-VL via HuggingFace
+pip install accelerate bitsandbytes  # quantização 4-bit do Qwen2-VL em GPU
 pip install pillow pymupdf  # Imagens e PDFs
 pip install numpy pydantic  # Utilitários
 ```
+
+`anthropic` não é mais necessário — removido do piloto junto com a troca de
+Claude Haiku pelo Qwen2-VL-2B-Instruct local.
 
 ---
 
@@ -158,9 +210,9 @@ pip install numpy pydantic  # Utilitários
    - Taxa de falsos negativos (gráfico descartado)
    - Distribuição de confiança
 
-2. **Descrição (Haiku)**:
-   - Tokens consumidos (input/output)
-   - Custo real vs. estimado
+2. **Descrição (Qwen2-VL-2B local)**:
+   - Tempo por imagem (GPU 4-bit vs. CPU)
+   - Uso de VRAM (cabe nos 4 GB da RTX 2050 junto com o resto do pipeline?)
    - Qualidade: responde que tipo de gráfico é? Quais são os dados principais?
 
 3. **Integração**:
@@ -188,11 +240,19 @@ Be concise, objective, and include any legends, titles, or annotations visible.
 
 ## Decisões Futuras
 
-### Quando Migrar para Modelo Local?
+### Migração para modelo local (decidido)
 
-- Se custo de API ultrapassar $50/mês → avaliar LLaVA
-- Se latência de API se tornar problema → cache descritivo local
-- Se volume crescer >10k imagens/mês → priorizar modelo local
+Já decidido em 2026-07-21 — ver nota de atualização no topo do documento.
+Não há previsão de voltar a usar API paga enquanto não houver orçamento
+aprovado.
+
+### Se a qualidade do Qwen2-VL-2B for insuficiente
+
+- Testar prompt mais estruturado/específico em português
+- Avaliar quantização diferente (8-bit em vez de 4-bit, se a VRAM permitir)
+- Avaliar outro VLM pequeno (ex.: SmolVLM2, InternVL2-2B) mantendo o mesmo
+  contrato de interface (`describe(imagem, classificação) -> descrição`)
+- Como último recurso, reavaliar orçamento para API paga com a equipe do RAN
 
 ### Quando Incluir Fotos de Animais?
 

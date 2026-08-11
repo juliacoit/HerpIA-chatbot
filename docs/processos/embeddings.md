@@ -50,11 +50,20 @@ Implementado em `scripts/indexacao/indexar_chunks.py`:
 2. Carrega o modelo `BAAI/bge-m3` (`sentence-transformers`) — primeira execução baixa
    ~2 GB, ficam em cache local depois.
 3. Lê `07_processados/chunks/<fonte>/chunks.jsonl` (uma fonte por vez ou todas).
-4. Gera embeddings em lotes de 32 chunks, com o texto normalizado.
+4. Gera embeddings em lotes de 32 chunks, com o texto normalizado. Uma barra de
+   progresso (`tqdm`) mostra o andamento por fonte durante a execução.
 5. Indexa cada chunk no Qdrant com o payload completo do chunk (fonte, documento,
    página/seção, URL/caminho local, data de coleta, nível de sensibilidade, texto).
    O ID de cada ponto é derivado do `chunk_id` (uuid5) — reindexar os mesmos chunks
    atualiza os pontos existentes em vez de duplicá-los.
+
+Rodar por partes (uma fonte por dia, por exemplo) já é possível com `--fonte`.
+Se uma fonte for interrompida no meio, `--retomar` pula os chunks cujo ID já
+está na coleção, sem reencodá-los — só reencoda o que falta. Sem `--retomar`,
+o comportamento padrão é reencodar tudo de novo (necessário se o texto do
+chunk mudou desde a última indexação, já que o `chunk_id` é derivado de
+`fonte:caminho:índice`, não do conteúdo — não muda se o texto for corrigido
+sem mudar o índice do chunk).
 
 ### Onde rodar o Qdrant
 
@@ -77,6 +86,10 @@ python scripts/indexacao/indexar_chunks.py
 # Indexar só uma fonte, ou recriar a coleção do zero
 python scripts/indexacao/indexar_chunks.py --fonte salve
 python scripts/indexacao/indexar_chunks.py --recriar-colecao
+
+# Rodar em partes (uma fonte hoje, outra amanhã) e retomar uma fonte
+# interrompida no meio sem reencodar o que já foi indexado
+python scripts/indexacao/indexar_chunks.py --fonte pans --retomar
 
 # Busca de teste, sem reindexar (para avaliar qualidade da recuperação)
 python scripts/indexacao/indexar_chunks.py --buscar "qual o status de conservação da jararaca?"

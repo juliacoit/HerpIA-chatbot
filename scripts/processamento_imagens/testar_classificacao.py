@@ -36,6 +36,11 @@ except ImportError:
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
+# Abaixo disso, imagens costumam ser logos/ícones institucionais — validação
+# (docs/processos/VALIDACAO_PILOTO_IMAGENS.md) achou logos de ~120px sendo
+# classificados como "tabela" com 100px de mínimo.
+MIN_IMAGE_SIZE = 150
+
 
 class ClipTester:
     """Testa classificação com CLIP."""
@@ -94,13 +99,14 @@ def extract_images(pdf_path: str) -> list[tuple[Image.Image, int]]:
 
     for page_num in range(len(doc)):
         page = doc[page_num]
-        for img_xref in page.get_images():
+        for img_info in page.get_images():
+            img_xref = img_info[0]
             try:
                 base_image = doc.extract_image(img_xref)
                 image_bytes = base_image["image"]
                 image_pil = Image.open(BytesIO(image_bytes))
 
-                if image_pil.width >= 100 and image_pil.height >= 100:
+                if image_pil.width >= MIN_IMAGE_SIZE and image_pil.height >= MIN_IMAGE_SIZE:
                     images.append((image_pil, page_num + 1))
             except Exception as e:
                 logger.warning(f"Erro na página {page_num+1}: {e}")

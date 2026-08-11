@@ -1,17 +1,17 @@
 # Processamento de Imagens em PDFs
 
-Scripts para extrair, classificar e descrever imagens em PDFs usando CLIP e Claude Haiku.
+Scripts para extrair, classificar e descrever imagens em PDFs usando CLIP e um
+VLM local (Qwen2-VL-2B-Instruct) — **100% local, sem API paga** (decisão de
+2026-07-21 por falta de verba; ver
+[`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](../../docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md)).
 
 ## Instalação de Dependências
 
 ```bash
-# Instalar dependências adicionais
 pip install -r requirements_imagens.txt
-
-# Verificar que ANTHROPIC_API_KEY está definida em .env
-# Exemplo em .env:
-# ANTHROPIC_API_KEY=sk-ant-...
 ```
+
+Sem chave de API necessária — tudo roda localmente (CLIP + Qwen2-VL-2B).
 
 ## Script Principal: `processar_imagens_piloto.py`
 
@@ -19,7 +19,7 @@ Pipeline de 3 etapas:
 
 1. **Extração**: PyMuPDF extrai todas as imagens do PDF
 2. **Classificação**: CLIP classifica cada imagem (gráfico? mapa? fotografia?)
-3. **Descrição**: Claude Haiku descreve as imagens relevantes com estrutura
+3. **Descrição**: VLM local (Qwen2-VL-2B-Instruct) descreve as imagens relevantes com estrutura
 
 ### Uso Básico
 
@@ -82,10 +82,10 @@ Arquivo JSON com estrutura:
       "description": "Gráfico de barras mostrando...",
       "tokens_input": 1234,
       "tokens_output": 156,
-      "cost_usd": 0.0034
+      "cost_usd": 0.0
     }
   ],
-  "custo_total_usd": 0.0850,
+  "custo_total_usd": 0.0,
   "resumo": {
     "gráficos": 12,
     "mapas": 8,
@@ -117,20 +117,16 @@ CLIP usa zero-shot classification com estas classes:
 - **0.7+**: Mais conservador, menos falsos positivos
 - **<0.5**: Mais permissivo, pode pegar fotos de animais
 
-## Custos de API
+## Custos
 
-Baseado em Claude Haiku:
+**$0 — 100% local.** A descrição roda em `Qwen/Qwen2-VL-2B-Instruct` local (4-bit
+na GPU quando disponível, com fallback para CPU), sem chamadas de API.
 
-- **Input**: $0.80 por 1M tokens
-- **Output**: $0.40 por 1M tokens
-
-Por imagem:
-- ~1000 tokens input (imagem codificada)
-- ~150-300 tokens output (descrição)
-- **Custo**: ~$0.002 USD/imagem
-
-Exemplo com 59.080 chunks (2-6k imagens totais, 60% relevantes = ~1.2-3.6k descritas):
-- **Custo total**: $2-8 USD por reindexação completa
+O único custo é tempo de processamento local (GPU/CPU), medido no piloto — não
+dinheiro. Ver seção "Custos Estimados" em
+[`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](../../docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md)
+para a comparação com a abordagem anterior (Claude Haiku, descontinuada por
+falta de verba).
 
 ## Próximas Etapas
 
@@ -162,16 +158,12 @@ pip install -r requirements_imagens.txt
 
 ### RuntimeError: CUDA out of memory
 
-Use CPU para CLIP (mais lento, mas funciona):
-- Modelo CLIP é pequeno (~330 MB)
-- Automaticamente usa CPU se GPU não disponível
-
-### Erro: "ANTHROPIC_API_KEY não está definida"
-
-Adicionar em `.env`:
-```
-ANTHROPIC_API_KEY=sk-ant-...
-```
+- CLIP é pequeno (~330 MB) — normalmente cabe mesmo em GPUs pequenas.
+- O VLM local (Qwen2-VL-2B) tenta 4-bit na GPU primeiro; se a GPU de 4 GB da
+  máquina de dev estiver ocupada (ex.: rodando a indexação de embeddings ao
+  mesmo tempo — ver [`docs/processos/embeddings.md`](../../docs/processos/embeddings.md)),
+  cai automaticamente para CPU (mais lento, mas funciona). Evite rodar os
+  dois processos pesados ao mesmo tempo na mesma GPU.
 
 ### PDF com muitas imagens (1000+) demora muito
 
@@ -184,10 +176,11 @@ Depois rode apenas nas relevantes.
 
 ## Implementação Futura
 
-- **Modelo local**: Migrar descrição para LLaVA/MiniCPM se volume crescer
 - **Cache**: Armazenar descrições já feitas (reprocesso apenas de PDFs novos)
 - **Validação**: Feedback do usuário sobre qualidade de descrições
 - **OCR**: Integração com Tesseract para gráficos em imagens escaneadas
+- **Modelo alternativo**: se a qualidade do Qwen2-VL-2B for insuficiente,
+  avaliar SmolVLM2/InternVL2-2B (ver "Decisões Futuras" na estratégia)
 
 ---
 

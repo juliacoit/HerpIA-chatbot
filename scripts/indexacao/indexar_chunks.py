@@ -13,9 +13,16 @@ Reindexação é idempotente: o ID de cada ponto no Qdrant é derivado do
 chunk_id (uuid5), então rodar o script de novo sobre os mesmos chunks
 atualiza os pontos existentes em vez de duplicá-los.
 
+Rodar em partes (hoje uma fonte, amanhã outra) já funciona com --fonte. Para
+retomar uma fonte específica que foi interrompida no meio, use --retomar:
+pula chunks cujo ID já existe na coleção, sem reencodá-los. Sem --retomar,
+todo chunk é reencodado (necessário se o texto do chunk mudou desde a última
+indexação, já que chunk_id não muda com o conteúdo — ver gerar_chunks.py).
+
 Uso:
     python scripts/indexacao/indexar_chunks.py
     python scripts/indexacao/indexar_chunks.py --fonte salve
+    python scripts/indexacao/indexar_chunks.py --fonte pans --retomar
     python scripts/indexacao/indexar_chunks.py --recriar-colecao
     python scripts/indexacao/indexar_chunks.py --buscar "qual o status de conservação da jararaca?"
 
@@ -41,6 +48,7 @@ import uuid
 from pathlib import Path
 
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 load_dotenv()
 
@@ -110,29 +118,49 @@ def ler_chunks(fonte: str):
                 yield json.loads(linha)
 
 
-def indexar_fonte(client, modelo, fonte: str) -> dict:
+def contar_chunks(fonte: str) -> int:
+    caminho = CHUNKS_DIR / fonte / "chunks.jsonl"
+    if not caminho.exists():
+        return 0
+    with caminho.open(encoding="utf-8") as f:
+        return sum(1 for linha in f if linha.strip())
+
+
+def indexar_fonte(client, modelo, fonte: str, retomar: bool = False) -> dict:
     from qdrant_client.models import PointStruct
 
-    relatorio = {"chunks": 0, "erros": 0}
+    relatorio = {"chunks": 0, "pulados": 0, "erros": 0}
     lote = []
+    total = contar_chunks(fonte)
+    barra = tqdm(total=total, desc=f"[{fonte}]", unit="chunk")
 
     def enviar_lote():
         if not lote:
             return
-        textos = [c["texto"] for c in lote]
-        vetores = modelo.encode(
-            textos, batch_size=TAMANHO_LOTE, show_progress_bar=False, normalize_embeddings=True
-        )
-        pontos = [
-            PointStruct(
-                id=str(uuid.uuid5(NAMESPACE_CHUNK_ID, chunk["chunk_id"])),
-                vector=vetor.tolist(),
-                payload=chunk,
+        pendentes = lote
+        if retomar:
+            ids = [str(uuid.uuid5(NAMESPACE_CHUNK_ID, c["chunk_id"])) for c in lote]
+            existentes = {p.id for p in client.retrieve(collection_name=COLECAO, ids=ids, with_payload=False, with_vectors=False)}
+            pendentes = [c for c, id_ in zip(lote, ids) if id_ not in existentes]
+            relatorio["pulados"] += len(lote) - len(pendentes)
+
+        if pendentes:
+            textos = [c["texto"] for c in pendentes]
+            vetores = modelo.encode(
+                textos, batch_size=TAMANHO_LOTE, show_progress_bar=False, normalize_embeddings=True
             )
-            for chunk, vetor in zip(lote, vetores)
-        ]
-        client.upsert(collection_name=COLECAO, points=pontos)
-        relatorio["chunks"] += len(pontos)
+            pontos = [
+                PointStruct(
+                    id=str(uuid.uuid5(NAMESPACE_CHUNK_ID, chunk["chunk_id"])),
+                    vector=vetor.tolist(),
+                    payload=chunk,
+                )
+                for chunk, vetor in zip(pendentes, vetores)
+            ]
+            client.upsert(collection_name=COLECAO, points=pontos)
+            relatorio["chunks"] += len(pontos)
+
+        barra.update(len(lote))
         lote.clear()
 
     for chunk in ler_chunks(fonte):
@@ -144,14 +172,18 @@ def indexar_fonte(client, modelo, fonte: str) -> dict:
             print(f"  ✗ {chunk.get('chunk_id')} — ERRO: {e}", file=sys.stderr)
             relatorio["erros"] += 1
     enviar_lote()
+    barra.close()
 
-    print(f"  [{fonte}] {relatorio['chunks']} chunks indexados ({relatorio['erros']} erros).")
+    resumo_pulados = f", {relatorio['pulados']} pulados (já indexados)" if retomar else ""
+    print(f"  [{fonte}] {relatorio['chunks']} chunks indexados{resumo_pulados} ({relatorio['erros']} erros).")
     return relatorio
 
 
 def buscar(client, modelo, pergunta: str, top_k: int):
     vetor = modelo.encode([pergunta], normalize_embeddings=True)[0]
-    resultados = client.search(collection_name=COLECAO, query_vector=vetor.tolist(), limit=top_k)
+    resultados = client.query_points(
+        collection_name=COLECAO, query=vetor.tolist(), limit=top_k
+    ).points
 
     print(f"\nPergunta: {pergunta}\n")
     if not resultados:
@@ -171,6 +203,8 @@ def main():
                         help="Indexar apenas esta fonte (padrão: todas)")
     parser.add_argument("--recriar-colecao", action="store_true",
                         help="Apaga e recria a coleção antes de indexar (destrutivo)")
+    parser.add_argument("--retomar", action="store_true",
+                        help="Pula chunks cujo ID já existe na coleção (útil para continuar uma fonte interrompida)")
     parser.add_argument("--buscar", metavar="PERGUNTA", default=None,
                         help="Não indexa — roda uma busca de teste na coleção já existente")
     parser.add_argument("--top-k", type=int, default=5, help="Número de resultados na busca de teste")
@@ -187,14 +221,15 @@ def main():
     modelo = carregar_modelo()
 
     fontes = [args.fonte] if args.fonte else ["monitora", "pans", "salve"]
-    total = {"chunks": 0, "erros": 0}
+    total = {"chunks": 0, "pulados": 0, "erros": 0}
     print(f"\nIndexando chunks com {MODELO_NOME} na coleção '{COLECAO}'...\n")
     for fonte in fontes:
-        relatorio = indexar_fonte(client, modelo, fonte)
+        relatorio = indexar_fonte(client, modelo, fonte, retomar=args.retomar)
         for chave in total:
             total[chave] += relatorio.get(chave, 0)
 
-    print(f"\nCONCLUÍDO — {total['chunks']} chunks indexados, {total['erros']} erros no total.")
+    resumo_pulados = f", {total['pulados']} pulados" if args.retomar else ""
+    print(f"\nCONCLUÍDO — {total['chunks']} chunks indexados{resumo_pulados}, {total['erros']} erros no total.")
 
 
 if __name__ == "__main__":

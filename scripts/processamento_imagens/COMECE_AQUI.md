@@ -8,32 +8,26 @@ pip install -r requirements_imagens.txt
 ```
 
 **Dependências principais:**
-- `torch` — framwork de ML (GPU: ~2 GB, CPU: ~500 MB)
-- `transformers` — modelos HuggingFace
-- `anthropic` — Claude API
+- `torch` — framework de ML (GPU: ~2 GB, CPU: ~500 MB)
+- `transformers` — modelos HuggingFace (CLIP + Qwen2-VL-2B-Instruct)
+- `accelerate`, `bitsandbytes` — quantização 4-bit do VLM em GPU
 - `Pillow` — manipulação de imagens
 
-## 2. Verificar Configuração (2 min)
+Tudo roda localmente — **sem chave de API, sem custo** (decisão de 2026-07-21,
+falta de verba; ver
+[`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](../../docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md)).
 
-Confirme que `.env` tem sua chave de API:
+## 2. Nota sobre a GPU (1 min)
 
-```bash
-cat ../../.env | grep ANTHROPIC_API_KEY
-```
-
-Saída esperada:
-```
-ANTHROPIC_API_KEY=sk-ant-...
-```
-
-Se não tiver, adicione em `.env`:
-```
-ANTHROPIC_API_KEY=sua_chave_aqui
-```
+A máquina de dev tem uma RTX 2050 com só 4 GB de VRAM, compartilhada com a
+indexação de embeddings (BGE-M3). Evite rodar os dois processos pesados ao
+mesmo tempo — se a GPU estiver ocupada, o VLM local cai automaticamente para
+CPU (mais lento, mas funciona).
 
 ## 3. Teste Rápido: Apenas Classificação (10 min, $0)
 
-Antes de gastar dinheiro, valide que a classificação está funcionando:
+Antes de rodar o pipeline completo (mais lento por usar o VLM local), valide
+que a classificação está funcionando:
 
 ```bash
 # Teste em um PDF pequeno (ex: 1-2 MB)
@@ -65,9 +59,10 @@ RESUMO: 2/10 relevantes (20%)
 - Ajuste `--threshold` (padrão: 0.5)
 - Exemplo com threshold mais alto: `--threshold 0.7`
 
-## 4. Piloto Completo: Classificar + Descrever (5-15 min, ~$0.01-0.10)
+## 4. Piloto Completo: Classificar + Descrever (tempo variável, $0)
 
-Agora execute o pipeline completo com Claude:
+Agora execute o pipeline completo com o VLM local (primeira execução baixa o
+Qwen2-VL-2B-Instruct, ~4 GB):
 
 ```bash
 python processar_imagens_piloto.py "../../02_publicacoes_cientificas_ran/seu_pdf.pdf"
@@ -76,9 +71,10 @@ python processar_imagens_piloto.py "../../02_publicacoes_cientificas_ran/seu_pdf
 **O que acontece:**
 1. Extrai imagens
 2. Classifica com CLIP
-3. Descreve imagens relevantes com Claude Haiku
+3. Descreve imagens relevantes com o VLM local (Qwen2-VL-2B-Instruct — GPU
+   4-bit se disponível, senão CPU)
 4. Salva resultado em JSON
-5. Mostra custo total
+5. Mostra custo total (sempre $0)
 
 **Exemplo de saída:**
 ```
@@ -93,7 +89,7 @@ Distribuição de tipos:
   - Gráficos: 2
   - Mapas: 1
 
-Custo total (Claude Haiku): $0.01
+Custo total: $0.00 (VLM local — sempre $0)
 ```
 
 ## 5. Revisar Resultados (5 min)
@@ -112,7 +108,7 @@ Get-Content resultado_seu_pdf_20260721_143000.json | Select-Object -First 100
 - [ ] Classificações fazem sentido? (gráficos estão marcados como "gráfico"?)
 - [ ] Descrições são úteis? (mencionam dados principais, eixos, tendências?)
 - [ ] Fotos de animais foram descartadas?
-- [ ] Custo está dentro do esperado (~$0.002 USD/imagem)?
+- [ ] Tempo por imagem está aceitável (GPU 4-bit ou CPU, conforme o que rodou)?
 
 ## 6. Relatório de Validação (10 min)
 
@@ -130,10 +126,10 @@ Antes de integrar ao pipeline principal, responda:
 - [ ] **Precisão**: Estão corretas as informações extraídas?
 - [ ] **Rastreabilidade**: Consegue voltar da descrição para a imagem original?
 
-### Custos
+### Tempo/Recursos (não há custo de API — 100% local)
 
-- [ ] **Custo real por imagem**: Quanto saiu (tokens consumidos)?
-- [ ] **Escalabilidade**: Quantas imagens por mês? Custo mensal estimado?
+- [ ] **Tempo real por imagem**: GPU (4-bit) vs. CPU?
+- [ ] **Escalabilidade**: Quantas imagens por lote é viável rodar de uma vez, dado que a GPU é compartilhada com a indexação de embeddings?
 
 ## 7. Próximos Passos
 
@@ -149,13 +145,13 @@ Antes de integrar ao pipeline principal, responda:
 1. Compartilhe relatório JSON comigo
 2. Aumentar threshold para reduzir falsos positivos
 3. Experimentar prompts diferentes
-4. Considerar modelo alternativo (LLaVA local)
+4. Considerar VLM local alternativo (ex.: SmolVLM2, InternVL2-2B)
 
 ## Arquivos Criados
 
 ```
 scripts/processamento_imagens/
-├── processar_imagens_piloto.py      ← Pipeline completo (CLIP + Claude)
+├── processar_imagens_piloto.py      ← Pipeline completo (CLIP + VLM local)
 ├── testar_classificacao.py           ← Teste rápido (apenas CLIP)
 ├── requirements_imagens.txt          ← Dependências
 ├── README.md                         ← Documentação
@@ -172,7 +168,7 @@ scripts/processamento_imagens/
 Se encontrar erros ou tiver dúvidas, consulte:
 
 1. **ImportError**: `pip install -r requirements_imagens.txt`
-2. **CUDA out of memory**: Modelo vai usar CPU automaticamente
-3. **API key error**: Verificar `.env` tem `ANTHROPIC_API_KEY`
+2. **CUDA out of memory**: o VLM local cai para CPU automaticamente (mais
+   lento); evite rodar junto com a indexação de embeddings na mesma GPU de 4 GB
 
 Boa sorte! 🚀

@@ -91,7 +91,9 @@ def main():
     print("\n7. Rodando busca de teste...")
     pergunta = "monitoramento participativo de espécies em unidades de conservação"
     vetor_pergunta = modelo.encode([pergunta], normalize_embeddings=True)[0]
-    resultados = client.search(collection_name=COLECAO_TESTE, query_vector=vetor_pergunta.tolist(), limit=3)
+    resultados = client.query_points(
+        collection_name=COLECAO_TESTE, query=vetor_pergunta.tolist(), limit=3
+    ).points
     print(f'   Pergunta: "{pergunta}"')
     for i, r in enumerate(resultados, start=1):
         payload = r.payload or {}

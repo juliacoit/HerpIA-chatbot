@@ -47,6 +47,9 @@ Thumbs.db
 # Qdrant embutido (modo local, sem servidor — ver QDRANT_LOCAL_PATH no .env.example)
 07_processados/qdrant_local/
 
+# Descrições de imagens geradas pelo piloto de processamento de imagens (regenerável)
+07_processados/imagens_descritas/
+
 # Relatório gerado pelo script de download
 01_fontes_web/pans/relatorio_download.json
 01_fontes_web/monitora/relatorio_download.json

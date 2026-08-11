@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """
-Piloto: Processamento de imagens em PDFs com CLIP + Claude Haiku
+Piloto: Processamento de imagens em PDFs com CLIP + VLM local (100% local, sem API paga)
 
 Pipeline:
 1. Extrai imagens de um PDF com PyMuPDF
 2. Classifica cada imagem com CLIP (é relevante? gráfico/mapa/diagrama/tabela)
-3. Descreve as imagens relevantes com Claude Haiku
-4. Salva resultados em JSON com custos
+3. Descreve as imagens relevantes com um VLM local (Qwen2-VL-2B-Instruct)
+4. Salva resultados em JSON
+
+Sem custo de API — decisão de 2026-07-21 (falta de verba), ver
+docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md. A etapa de descrição
+usava Claude Haiku antes dessa decisão; hoje usa um VLM local.
 
 Uso:
     python processar_imagens_piloto.py <caminho_pdf> [--output <dir_saida>] [--threshold 0.5]
@@ -16,9 +20,9 @@ Exemplo:
 """
 
 import argparse
+import hashlib
 import json
 import logging
-import os
 import sys
 from dataclasses import dataclass, asdict
 from datetime import datetime
@@ -40,11 +44,11 @@ except ImportError:
     print("⚠️  CLIP não instalado. Instale: pip install torch transformers pillow")
 
 try:
-    from anthropic import Anthropic
-    HAS_CLAUDE = True
+    from transformers import AutoModelForImageTextToText, AutoProcessor
+    HAS_LOCAL_VLM = True
 except ImportError:
-    HAS_CLAUDE = False
-    print("⚠️  Anthropic SDK não instalado. Instale: pip install anthropic")
+    HAS_LOCAL_VLM = False
+    print("⚠️  Suporte a VLM local não disponível. Instale: pip install transformers accelerate bitsandbytes")
 
 # Setup logging
 logging.basicConfig(
@@ -53,12 +57,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Abaixo disso, imagens costumam ser logos/ícones institucionais — validação
+# (docs/processos/VALIDACAO_PILOTO_IMAGENS.md) achou logos de ~120px sendo
+# classificados como "tabela" com 100px de mínimo.
+MIN_IMAGE_SIZE = 150
+
 
 @dataclass
 class ImageClassification:
     """Resultado da classificação de uma imagem."""
     image_id: int
-    page: int
+    pages: list[int]  # todas as páginas onde essa imagem aparece (pode repetir no PDF)
     width: int
     height: int
     is_relevant: bool
@@ -71,7 +80,7 @@ class ImageClassification:
 class ImageDescription:
     """Descrição de uma imagem relevante."""
     image_id: int
-    page: int
+    pages: list[int]
     classification: str
     description: str
     tokens_input: int
@@ -145,39 +154,65 @@ class ClipClassifier:
         )
 
 
-class ClaudeDescriber:
-    """Descritor de imagens com Claude Haiku."""
+class LocalVLMDescriber:
+    """Descritor de imagens com um VLM local (Qwen2-VL-2B-Instruct) — sem custo de API.
 
-    MODEL = "claude-3-5-haiku-20241022"
+    Substitui o ClaudeDescriber (descontinuado em 2026-07-21 por falta de
+    verba — ver docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md). Tenta
+    carregar em 4-bit na GPU (a RTX 2050 da máquina de dev só tem 4 GB de
+    VRAM, compartilhados com a indexação de embeddings); se a GPU não tiver
+    memória livre ou bitsandbytes não estiver instalado, cai para CPU.
+    """
 
-    # Custos por token (Haiku)
-    COST_INPUT_PER_K = 0.80 / 1000  # $0.80 por 1M input tokens
-    COST_OUTPUT_PER_K = 0.40 / 1000  # $0.40 por 1M output tokens
+    MODEL_NAME = "Qwen/Qwen2-VL-2B-Instruct"
+    MAX_NEW_TOKENS = 400
 
-    def __init__(self):
-        """Inicializa o cliente Claude."""
-        if not HAS_CLAUDE:
-            raise RuntimeError("Anthropic SDK não instalado")
+    def __init__(self, device: Optional[str] = None):
+        """Carrega o VLM local, com fallback automático GPU (4-bit) -> CPU."""
+        if not HAS_LOCAL_VLM:
+            raise RuntimeError("transformers não instalado com suporte a VLM local")
 
-        api_key = os.getenv("ANTHROPIC_API_KEY")
-        if not api_key:
-            raise ValueError("ANTHROPIC_API_KEY não está definida em .env")
+        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        logger.info(f"Carregando VLM local: {self.MODEL_NAME} (tentando device={self.device})")
 
-        self.client = Anthropic(api_key=api_key)
-        logger.info(f"Cliente Claude inicializado (modelo: {self.MODEL})")
+        try:
+            self.model, self.device = self._carregar_modelo(self.device)
+        except Exception as e:
+            if self.device == "cuda":
+                logger.warning(f"Falha ao carregar na GPU ({e}) — tentando CPU")
+                self.model, self.device = self._carregar_modelo("cpu")
+            else:
+                raise
+
+        self.processor = AutoProcessor.from_pretrained(self.MODEL_NAME)
+        self.model.eval()
+        logger.info(f"VLM local carregado (device final: {self.device})")
+
+    def _carregar_modelo(self, device: str):
+        kwargs = {"dtype": "auto"}
+        if device == "cuda":
+            try:
+                from transformers import BitsAndBytesConfig
+                kwargs["quantization_config"] = BitsAndBytesConfig(load_in_4bit=True)
+                kwargs["device_map"] = "auto"
+            except ImportError:
+                logger.warning(
+                    "bitsandbytes não instalado — carregando sem quantização "
+                    "(pode não caber em GPUs de 4 GB como a RTX 2050)"
+                )
+                kwargs["device_map"] = "auto"
+            model = AutoModelForImageTextToText.from_pretrained(self.MODEL_NAME, **kwargs)
+        else:
+            model = AutoModelForImageTextToText.from_pretrained(self.MODEL_NAME, **kwargs).to("cpu")
+        return model, device
 
     def describe(self, image_pil: Image.Image, classification: str) -> tuple[str, int, int, float]:
         """
-        Descreve uma imagem com Claude Haiku.
+        Descreve uma imagem com o VLM local.
 
-        Retorna: (descrição, tokens_input, tokens_output, custo_usd)
+        Retorna: (descrição, tokens_input, tokens_output, custo_usd) — custo
+        sempre 0.0 (100% local), tokens mantidos só para fins informativos.
         """
-        # Converte PIL para base64
-        buffered = BytesIO()
-        image_pil.save(buffered, format="PNG")
-        import base64
-        image_base64 = base64.standard_b64encode(buffered.getvalue()).decode("utf-8")
-
         prompt = f"""Você está analisando um {classification} de um documento científico sobre herpetofauna brasileira.
 
 Forneça uma descrição estruturada:
@@ -190,75 +225,90 @@ Forneça uma descrição estruturada:
 Seja conciso, objetivo e inclua legendas ou anotações visíveis.
 Máximo 150 palavras."""
 
-        message = self.client.messages.create(
-            model=self.MODEL,
-            max_tokens=400,
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "image",
-                            "source": {
-                                "type": "base64",
-                                "media_type": "image/png",
-                                "data": image_base64,
-                            },
-                        },
-                        {
-                            "type": "text",
-                            "text": prompt
-                        }
-                    ],
-                }
-            ],
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image"},
+                    {"type": "text", "text": prompt},
+                ],
+            }
+        ]
+        texto_chat = self.processor.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True
         )
+        inputs = self.processor(
+            text=[texto_chat], images=[image_pil], return_tensors="pt", padding=True
+        )
+        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
 
-        description = message.content[0].text
-        tokens_input = message.usage.input_tokens
-        tokens_output = message.usage.output_tokens
+        with torch.no_grad():
+            generated_ids = self.model.generate(**inputs, max_new_tokens=self.MAX_NEW_TOKENS)
+        generated_ids_novos = [
+            saida[len(entrada):] for entrada, saida in zip(inputs["input_ids"], generated_ids)
+        ]
+        description = self.processor.batch_decode(
+            generated_ids_novos, skip_special_tokens=True, clean_up_tokenization_spaces=False
+        )[0].strip()
 
-        cost = (tokens_input * self.COST_INPUT_PER_K) + (tokens_output * self.COST_OUTPUT_PER_K)
+        tokens_input = int(inputs["input_ids"].shape[1])
+        tokens_output = int(generated_ids_novos[0].shape[0])
 
-        return description, tokens_input, tokens_output, cost
+        return description, tokens_input, tokens_output, 0.0
 
 
-def extract_images_from_pdf(pdf_path: str) -> list[tuple[Image.Image, int]]:
+def extract_images_from_pdf(pdf_path: str) -> list[tuple[Image.Image, list[int]]]:
     """
-    Extrai todas as imagens de um PDF.
+    Extrai todas as imagens de um PDF, deduplicadas por conteúdo.
 
-    Retorna: lista de (imagem_PIL, número_página)
+    A mesma imagem pode estar embutida em mais de uma página do PDF (ex.:
+    figura repetida em anexo/resumo — visto na validação em
+    docs/processos/VALIDACAO_PILOTO_IMAGENS.md). Deduplicar aqui evita
+    descrever a mesma imagem duas vezes na etapa cara do VLM.
+
+    Retorna: lista de (imagem_PIL, páginas_onde_aparece)
     """
     logger.info(f"Abrindo PDF: {pdf_path}")
     doc = fitz.open(pdf_path)
-    images = []
+    imagens_por_hash: dict[str, tuple[Image.Image, list[int]]] = {}
 
     for page_num in range(len(doc)):
         page = doc[page_num]
         pix_list = page.get_images()
 
-        for img_index, xref in enumerate(pix_list):
+        for img_index, img_info in enumerate(pix_list):
+            xref = img_info[0]
             try:
                 base_image = doc.extract_image(xref)
                 image_bytes = base_image["image"]
                 image_pil = Image.open(BytesIO(image_bytes))
 
                 # Pula imagens muito pequenas (provavelmente logos/ícones)
-                if image_pil.width < 100 or image_pil.height < 100:
+                if image_pil.width < MIN_IMAGE_SIZE or image_pil.height < MIN_IMAGE_SIZE:
                     logger.debug(f"Página {page_num+1}: imagem pequena descartada ({image_pil.width}x{image_pil.height})")
                     continue
 
-                images.append((image_pil, page_num + 1))
-                logger.info(f"Página {page_num+1}: extraída imagem {img_index+1} ({image_pil.width}x{image_pil.height})")
+                image_hash = hashlib.md5(image_bytes).hexdigest()
+                if image_hash in imagens_por_hash:
+                    imagens_por_hash[image_hash][1].append(page_num + 1)
+                    logger.debug(f"Página {page_num+1}: imagem duplicada (já extraída na página {imagens_por_hash[image_hash][1][0]})")
+                else:
+                    imagens_por_hash[image_hash] = (image_pil, [page_num + 1])
+                    logger.info(f"Página {page_num+1}: extraída imagem {img_index+1} ({image_pil.width}x{image_pil.height})")
             except Exception as e:
                 logger.warning(f"Erro ao extrair imagem na página {page_num+1}: {e}")
 
-    logger.info(f"Total de imagens extraídas: {len(images)}")
+    images = list(imagens_por_hash.values())
+    duplicatas = sum(len(paginas) - 1 for _, paginas in images)
+    logger.info(
+        f"Total de imagens únicas extraídas: {len(images)}"
+        + (f" ({duplicatas} duplicata(s) descartada(s))" if duplicatas else "")
+    )
     return images
 
 
 def classify_images(
-    images: list[tuple[Image.Image, int]],
+    images: list[tuple[Image.Image, list[int]]],
     threshold: float = 0.5
 ) -> tuple[list[ImageClassification], list[int]]:
     """
@@ -270,14 +320,14 @@ def classify_images(
     classifications = []
     relevant_indices = []
 
-    for idx, (image_pil, page) in enumerate(images):
+    for idx, (image_pil, pages) in enumerate(images):
         class_name, confidence, reason = classifier.classify(image_pil)
 
         is_relevant = confidence >= threshold and class_name in ["gráfico", "mapa", "diagrama", "tabela"]
 
         classifications.append(ImageClassification(
             image_id=idx,
-            page=page,
+            pages=pages,
             width=image_pil.width,
             height=image_pil.height,
             is_relevant=is_relevant,
@@ -297,14 +347,14 @@ def classify_images(
 
 
 def describe_images(
-    images: list[tuple[Image.Image, int]],
+    images: list[tuple[Image.Image, list[int]]],
     classifications: list[ImageClassification],
     relevant_indices: list[int]
 ) -> list[ImageDescription]:
     """
-    Descreve imagens relevantes com Claude Haiku.
+    Descreve imagens relevantes com o VLM local (Qwen2-VL-2B-Instruct).
     """
-    describer = ClaudeDescriber()
+    describer = LocalVLMDescriber()
     descriptions = []
     total_cost = 0.0
 
@@ -320,7 +370,7 @@ def describe_images(
 
         descriptions.append(ImageDescription(
             image_id=idx,
-            page=classification.page,
+            pages=classification.pages,
             classification=classification.classification,
             description=description,
             tokens_input=tokens_in,
@@ -387,13 +437,13 @@ def print_summary(result: dict):
     print("\nDistribuição de tipos:")
     for tipo, count in result['resumo'].items():
         print(f"  - {tipo.capitalize()}: {count}")
-    print(f"\nCusto total (Claude Haiku): ${result['custo_total_usd']:.2f}")
+    print(f"\nCusto total: ${result['custo_total_usd']:.2f} (VLM local — sempre $0)")
     print("="*60 + "\n")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Piloto: processar imagens em PDFs com CLIP + Claude Haiku"
+        description="Piloto: processar imagens em PDFs com CLIP + VLM local (100% local, sem API paga)"
     )
     parser.add_argument("pdf_path", help="Caminho do PDF a processar")
     parser.add_argument(
@@ -410,7 +460,7 @@ def main():
     parser.add_argument(
         "--skip-description",
         action="store_true",
-        help="Só classifica, não descreve com Claude (útil para teste rápido)"
+        help="Só classifica, não descreve com o VLM local (útil para teste rápido)"
     )
 
     args = parser.parse_args()
@@ -424,8 +474,8 @@ def main():
         logger.error("CLIP não disponível. Instale: pip install torch transformers pillow")
         sys.exit(1)
 
-    if not args.skip_description and not HAS_CLAUDE:
-        logger.error("Anthropic SDK não disponível. Instale: pip install anthropic")
+    if not args.skip_description and not HAS_LOCAL_VLM:
+        logger.error("Suporte a VLM local não disponível. Instale: pip install transformers accelerate bitsandbytes")
         sys.exit(1)
 
     # Pipeline

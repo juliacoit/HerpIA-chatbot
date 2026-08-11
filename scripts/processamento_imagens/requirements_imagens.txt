@@ -1,13 +1,18 @@
 # Dependências adicionais para processamento de imagens
 # Instalar com: pip install -r requirements_imagens.txt
+#
+# 100% local — sem API paga (decisão de 2026-07-21, falta de verba).
+# Ver docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md
 
-# Claude API
-anthropic>=0.36
-
-# CLIP para classificação de imagens
+# CLIP (classificação) e Qwen2-VL-2B-Instruct (descrição) — ambos locais
 torch>=2.0
 torchvision>=0.15
-transformers>=4.36
+transformers>=4.45
+
+# Quantização 4-bit do VLM em GPU (necessário para caber em GPUs pequenas,
+# ex.: RTX 2050 com 4 GB VRAM); sem isso, cai para CPU automaticamente
+accelerate
+bitsandbytes
 
 # Suporte a imagens (já deve estar no projeto, adicionado por clareza)
 Pillow>=9.0

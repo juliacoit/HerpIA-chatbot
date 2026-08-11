@@ -14,7 +14,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086); piloto de processamento de imagens implementado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
-[Fase 5] Embeddings + Qdrant      ███░░░░░░░  30% — BGE-M3 escolhido temporariamente para testes (ADR 0005); script de indexação implementado, aguardando primeira execução real
+[Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
@@ -125,28 +125,33 @@ do estado atual até o protótipo funcional validado com usuários.
 - [x] Executar extração nos PDFs do Monitora e validar amostra — 109/109 processados, 0 erros (2026-06-25)
 - [x] Executar extração nos PDFs dos PANs e validar amostra — 707/707 processados (47 via OCR), 0 erros (2026-06-25)
 
-### 2.3 Processamento de imagens em PDFs (CLIP + Claude Haiku)
+### 2.3 Processamento de imagens em PDFs (CLIP + VLM local, 100% local)
 
 A maioria dos PDFs nas fontes (publicações científicas, relatórios, PANs) contém imagens críticas: gráficos, mapas de distribuição, tabelas visuais, diagramas. Apenas extrair texto perde essas informações essenciais para o RAG.
 
-**Estratégia híbrida (CLIP + Claude Haiku):**
+**Estratégia 100% local (CLIP + Qwen2-VL-2B-Instruct):** decisão de 2026-07-21 —
+por falta de verba, a descrição de imagens não pode depender de API paga.
+Substituiu a estratégia original (CLIP + Claude Haiku). Ver nota de atualização
+e seção "Solução Escolhida (revisada)" em
+[`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md).
+
 1. Extrai imagens com PyMuPDF (já incluso na Fase 2.2)
 2. Classifica cada imagem com CLIP (gráfico/mapa/diagrama/tabela vs. fotografia/ilustração)
-3. Descreve apenas as relevantes com Claude Haiku
+3. Descreve apenas as relevantes com um VLM local (`Qwen/Qwen2-VL-2B-Instruct`,
+   4-bit em GPU quando disponível, fallback CPU — cabe na RTX 2050 de 4 GB da
+   máquina de dev)
 4. Descrições são indexadas como chunks adicionais
-
-Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`](processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md)
 
 - [ ] **Piloto implementado** (`scripts/processamento_imagens/processar_imagens_piloto.py`)
   - Script pronto para testes com PDFs reais
   - Dependências: `pip install -r scripts/processamento_imagens/requirements_imagens.txt`
   - Teste rápido (só CLIP, sem custos): `python testar_classificacao.py`
-  - Pipeline completo (com descrição Claude): `python processar_imagens_piloto.py`
+  - Pipeline completo (com descrição via VLM local, sem custo de API): `python processar_imagens_piloto.py`
   - Ver instruções: [`scripts/processamento_imagens/COMECE_AQUI.md`](../../scripts/processamento_imagens/COMECE_AQUI.md)
 - [ ] **Validação:** testar com 5-10 PDFs variados
   - Verificar qualidade de classificação (CLIP)
-  - Verificar qualidade de descrição (Claude Haiku)
-  - Custo real vs. estimado (~$0.002 USD/imagem com Haiku)
+  - Verificar qualidade de descrição (Qwen2-VL-2B local)
+  - Tempo real por imagem (GPU 4-bit vs. CPU) — não há custo de API a medir
   - Documentar em [`docs/processos/VALIDACAO_PILOTO_IMAGENS.md`](processos/VALIDACAO_PILOTO_IMAGENS.md)
 - [ ] **Integração:** adicionar ao pipeline principal de indexação
   - Armazenar descrições em `07_processados/imagens_descritas/`
@@ -249,11 +254,9 @@ Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`]
   - Ver [`docs/processos/teste_comparativo_embeddings.md`](processos/teste_comparativo_embeddings.md)
   - Modelos: multilingual-e5-small (local, leve), BGE-M3 (local, maior), text-embedding-3-small (OpenAI API)
   - Scripts: `indexar_chunks_lite.py` (multilingual-e5), `indexar_chunks.py` (BGE-M3), `teste_openai_embeddings.py` (OpenAI)
-- [ ] Executar primeira indexação real com multilingual-e5-small (PC dev) — 59.085 chunks, modo embutido Qdrant
-- [ ] Executar segunda indexação com BGE-M3 (PC servidor) em paralelo
-- [ ] Testar qualidade com perguntas reais do domínio (ambos os modelos)
-- [ ] Testar OpenAI API em amostra e comparar custo/qualidade
-- [ ] Relatório comparativo para equipe RAN decidir qual modelo usar em produção
+- [x] **Indexação real com BGE-M3 concluída** (2026-08-10) — 59.085/59.085 chunks (monitora 7.220, PANs 31.796, SALVE 20.069), 0 erros, Qdrant embutido (`07_processados/qdrant_local`)
+  - Busca de teste validada com perguntas do domínio nas 3 fontes (ex.: status de conservação da jararaca-ilhoa — retornou ficha SALVE + PAN herpetofauna insular corretamente)
+- [ ] Testar multilingual-e5-small e OpenAI API em amostra e comparar custo/qualidade com BGE-M3 (comparação ainda não feita — decisão de modelo definitivo pendente)
 - [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
 
 ---
@@ -272,7 +275,7 @@ Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`]
   - Verificar que apenas chunks de documentos autorizados são retornados
 - [ ] **Implementar endpoint de geração de resposta**
   - Monta prompt com os chunks recuperados
-  - Chama API do LLM (ex: `claude-sonnet-4-6` ou `gpt-4o`)
+  - Chama o LLM através de uma interface `LLMClient` (ver [ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)) — implementação inicial usa Ollama local (`qwen2.5:3b-instruct` ou equivalente), trocável por API paga depois sem redesenho
   - Retorna resposta com citações de fonte formatadas
 - [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
 - [ ] **Configurar logging e feedback**
@@ -315,7 +318,7 @@ Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`]
 | Decisão | Impacto | Quando decidir |
 |---|---|---|
 | Modelo de embeddings em produção (OpenAI vs. open-source) — BGE-M3 já em uso temporário para testes ([ADR 0005](decisoes/0005-escolha-temporaria-modelo-embeddings.md)); decisão final depende de orçamento para API — ver [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md) | Custo, qualidade, dependência de API | Antes de indexar em produção (Fase 6) |
-| Modelo de LLM para geração (Claude vs. GPT vs. outro) | Custo, qualidade, privacidade dos dados | Antes da Fase 6 |
+| Modelo de LLM para geração em produção (API paga vs. local) — LLM local via Ollama já escolhido temporariamente para a Fase 6 ([ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)); decisão final depende de orçamento para API, mesmo padrão do ADR 0005 | Custo, qualidade, privacidade dos dados | Antes de ir a produção (Fase 8) |
 | Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
 | Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
@@ -327,10 +330,10 @@ Ver estratégia completa: [`docs/processos/ESTRATEGIA_PROCESSAMENTO_IMAGENS.md`]
 Coleta, extração e chunking de Monitora, PANs e SALVE estão completos (59.080 chunks
 em `07_processados/chunks/`). Piloto de processamento de imagens implementado. O que resta não depende da reunião do SEI e pode avançar em paralelo:
 
-1. **Agora (Fase 2.3):** Validar piloto de processamento de imagens
+1. **Agora (Fase 2.3):** Validar piloto de processamento de imagens (100% local — CLIP + Qwen2-VL-2B)
    - Testar com 5-10 PDFs variados
-   - Verificar qualidade de classificação (CLIP) e descrição (Claude Haiku)
-   - Documentar custos reais e validação
+   - Verificar qualidade de classificação (CLIP) e descrição (VLM local)
+   - Documentar tempos reais e validação (sem custo de API a medir)
    - Ver: [`scripts/processamento_imagens/COMECE_AQUI.md`](scripts/processamento_imagens/COMECE_AQUI.md)
 
 2. **Depois:** Integrar processamento de imagens ao pipeline de indexação

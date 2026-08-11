@@ -9,3 +9,7 @@ bs4
 openpyxl
 sentence-transformers  # embeddings (BGE-M3, Fase 5 — ver docs/decisoes/0005-...)
 qdrant-client
+fastapi  # backend RAG (Fase 6 — ver backend/ e docs/processos/backend_fastapi.md)
+uvicorn[standard]
+pydantic-settings
+httpx  # chamadas HTTP ao Ollama (ADR 0006)

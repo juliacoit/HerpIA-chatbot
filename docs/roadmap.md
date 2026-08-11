@@ -15,7 +15,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
-[Fase 6] Backend RAG (FastAPI)    ░░░░░░░░░░   0%
+[Fase 6] Backend RAG (FastAPI)    ████░░░░░░  40% — esqueleto implementado (busca semântica + geração com citações, ver docs/processos/backend_fastapi.md); faltam logging/feedback (PostgreSQL), busca híbrida e autenticação
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
@@ -265,22 +265,26 @@ e seção "Solução Escolhida (revisada)" em
 
 > **Dependência:** Qdrant com dados indexados (Fase 5)
 
-- [ ] **Inicializar projeto FastAPI** (`backend/`)
-- [ ] **Implementar endpoint de busca semântica**
+- [x] **Inicializar projeto FastAPI** (`backend/`) — esqueleto criado (2026-08-11), ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md)
+- [x] **Implementar endpoint de busca semântica** (`POST /buscar`)
   - Recebe pergunta do usuário
-  - Gera embedding da pergunta
+  - Gera embedding da pergunta (BGE-M3, mesmo modelo da indexação)
   - Busca top-K chunks no Qdrant
   - Retorna chunks com metadados de fonte
-- [ ] **Implementar filtro de acesso**
-  - Verificar que apenas chunks de documentos autorizados são retornados
-- [ ] **Implementar endpoint de geração de resposta**
+  - Testado manualmente contra a coleção real (59.085 pontos) — retornos corretos
+- [x] **Implementar filtro de acesso**
+  - Filtro por `nivel_sensibilidade == "autorizado"` aplicado na consulta ao Qdrant (`backend/services/retrieval.py`), além do filtro já existente na indexação
+- [x] **Implementar endpoint de geração de resposta** (`POST /perguntar`)
   - Monta prompt com os chunks recuperados
   - Chama o LLM através de uma interface `LLMClient` (ver [ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)) — implementação inicial usa Ollama local (`qwen2.5:3b-instruct` ou equivalente), trocável por API paga depois sem redesenho
-  - Retorna resposta com citações de fonte formatadas
+  - Retorna resposta com citações de fonte formatadas (deduplicadas)
+  - Responde `503` com instrução clara se o Ollama não estiver rodando
+  - [ ] **Validar de ponta a ponta** — Ollama ainda não foi instalado na máquina de dev; endpoint só foi testado até o ponto do erro esperado (503)
 - [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
 - [ ] **Configurar logging e feedback**
   - Registrar perguntas, chunks recuperados e respostas no PostgreSQL
   - Permitir feedback do usuário (thumbs up/down) por resposta
+- [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
 
 ---
 
@@ -327,25 +331,29 @@ e seção "Solução Escolhida (revisada)" em
 
 ## Ordem recomendada para as próximas sessões
 
-Coleta, extração e chunking de Monitora, PANs e SALVE estão completos (59.080 chunks
-em `07_processados/chunks/`). Piloto de processamento de imagens implementado. O que resta não depende da reunião do SEI e pode avançar em paralelo:
+Indexação real concluída (Fase 5) e esqueleto do backend FastAPI implementado
+(Fase 6, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md)).
+O que resta não depende da reunião do SEI e pode avançar em paralelo:
 
-1. **Agora (Fase 2.3):** Validar piloto de processamento de imagens (100% local — CLIP + Qwen2-VL-2B)
+1. **Agora (Fase 6):** Instalar Ollama na máquina de dev e validar `/perguntar`
+   de ponta a ponta (`ollama serve` + `ollama pull qwen2.5:3b-instruct`)
+
+2. **Depois (Fase 6):** Logging de perguntas/respostas no PostgreSQL + feedback do usuário
+
+3. **Em paralelo (Fase 2.3):** Validar piloto de processamento de imagens (100% local — CLIP + Qwen2-VL-2B)
    - Testar com 5-10 PDFs variados
    - Verificar qualidade de classificação (CLIP) e descrição (VLM local)
    - Documentar tempos reais e validação (sem custo de API a medir)
    - Ver: [`scripts/processamento_imagens/COMECE_AQUI.md`](scripts/processamento_imagens/COMECE_AQUI.md)
 
-2. **Depois:** Integrar processamento de imagens ao pipeline de indexação
+4. **Depois:** Integrar processamento de imagens ao pipeline de indexação
    - Armazenar descrições em `07_processados/imagens_descritas/`
    - Indexar no Qdrant junto com chunks de texto
 
-3. **Em paralelo:** Subir o Qdrant e indexar com BGE-M3 (ADR 0005) — chunks de Monitora/PANs/SALVE já estão prontos
+5. **Em paralelo:** Organizar e catalogar publicações científicas do RAN (Fase 1.4) + processamento de imagens para as que tiverem
 
-4. **Em paralelo:** Organizar e catalogar publicações científicas do RAN (Fase 1.4) + processamento de imagens para as que tiverem
+6. **Em paralelo:** Atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual
 
-5. **Em paralelo:** Atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual
+7. **Em paralelo:** Decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5)
 
-6. **Em paralelo:** Decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5)
-
-7. **Depois:** FastAPI + Streamlit + validação com usuários
+8. **Depois:** Streamlit (Fase 7) + validação com usuários (Fase 8)

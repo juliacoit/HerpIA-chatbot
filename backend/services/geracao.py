@@ -1,0 +1,72 @@
+"""Monta o prompt de geração a partir dos chunks recuperados e formata a
+resposta final com citações de fonte.
+
+Regra do projeto (CLAUDE.md): responder só com base nos trechos
+recuperados, sempre citando a fonte, e indicar claramente quando não há
+evidência suficiente em vez de inventar uma resposta.
+
+`evidencia_suficiente` aqui só reflete se algum chunk foi recuperado — não
+há (ainda) verificação de que a resposta do LLM realmente se apoiou nos
+trechos; isso é objetivo da validação da Fase 8.
+"""
+
+from backend.schemas import ChunkRecuperado, Citacao, PerguntarResponse
+from backend.services.llm import LLMClient
+
+PROMPT_SISTEMA = (
+    "Você é um assistente do RAN/ICMBio especializado em répteis e anfíbios "
+    "(herpetofauna). Responda à pergunta do usuário usando SOMENTE as "
+    "informações nos trechos abaixo. Nunca use conhecimento externo aos "
+    "trechos. Se os trechos não tiverem informação suficiente para "
+    "responder, diga isso explicitamente em vez de inventar uma resposta."
+)
+
+
+def montar_prompt(pergunta: str, chunks: list[ChunkRecuperado]) -> str:
+    trechos = "\n\n".join(
+        f"[Trecho {i + 1} — fonte: {c.fonte}, documento: {c.documento}]\n{c.texto}"
+        for i, c in enumerate(chunks)
+    )
+    return f"{PROMPT_SISTEMA}\n\nTrechos recuperados:\n{trechos}\n\nPergunta: {pergunta}\n\nResposta:"
+
+
+def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
+    vistas = set()
+    citacoes = []
+    for c in chunks:
+        chave = (c.fonte, c.documento, c.secao, c.pagina_inicio)
+        if chave in vistas:
+            continue
+        vistas.add(chave)
+        citacoes.append(
+            Citacao(
+                fonte=c.fonte,
+                documento=c.documento,
+                secao=c.secao,
+                pagina_inicio=c.pagina_inicio,
+                pagina_fim=c.pagina_fim,
+                url_origem=c.url_origem,
+            )
+        )
+    return citacoes
+
+
+async def gerar_resposta(
+    llm: LLMClient, pergunta: str, chunks: list[ChunkRecuperado]
+) -> PerguntarResponse:
+    if not chunks:
+        return PerguntarResponse(
+            pergunta=pergunta,
+            resposta="Não há evidência suficiente na base de conhecimento para responder a essa pergunta.",
+            citacoes=[],
+            evidencia_suficiente=False,
+        )
+
+    prompt = montar_prompt(pergunta, chunks)
+    resposta = await llm.generate(prompt)
+    return PerguntarResponse(
+        pergunta=pergunta,
+        resposta=resposta,
+        citacoes=montar_citacoes(chunks),
+        evidencia_suficiente=True,
+    )

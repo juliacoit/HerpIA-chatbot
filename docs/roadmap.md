@@ -15,7 +15,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
-[Fase 6] Backend RAG (FastAPI)    ████░░░░░░  40% — esqueleto implementado (busca semântica + geração com citações, ver docs/processos/backend_fastapi.md); faltam logging/feedback (PostgreSQL), busca híbrida e autenticação
+[Fase 6] Backend RAG (FastAPI)    █████░░░░░  50% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11, ver docs/processos/backend_fastapi.md); faltam logging/feedback (PostgreSQL), busca híbrida e autenticação
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
@@ -279,7 +279,10 @@ e seção "Solução Escolhida (revisada)" em
   - Chama o LLM através de uma interface `LLMClient` (ver [ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)) — implementação inicial usa Ollama local (`qwen2.5:3b-instruct` ou equivalente), trocável por API paga depois sem redesenho
   - Retorna resposta com citações de fonte formatadas (deduplicadas)
   - Responde `503` com instrução clara se o Ollama não estiver rodando
-  - [ ] **Validar de ponta a ponta** — Ollama ainda não foi instalado na máquina de dev; endpoint só foi testado até o ponto do erro esperado (503)
+  - [x] **Validado de ponta a ponta** (2026-08-11) — Ollama instalado sem root em `~/.local`
+    (ver `scripts/infra/subir_ollama.sh`, ADR 0006) e modelo `qwen2.5:3b-instruct` baixado;
+    `/perguntar` testado contra a coleção real (59.085 pontos), resposta e citações corretas
+  - [ ] Testar com uma amostra maior de perguntas reais do domínio (só uma pergunta de fumaça validada até agora)
 - [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
 - [ ] **Configurar logging e feedback**
   - Registrar perguntas, chunks recuperados e respostas no PostgreSQL
@@ -335,8 +338,8 @@ Indexação real concluída (Fase 5) e esqueleto do backend FastAPI implementado
 (Fase 6, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md)).
 O que resta não depende da reunião do SEI e pode avançar em paralelo:
 
-1. **Agora (Fase 6):** Instalar Ollama na máquina de dev e validar `/perguntar`
-   de ponta a ponta (`ollama serve` + `ollama pull qwen2.5:3b-instruct`)
+1. **Agora (Fase 6):** Testar `/perguntar` com uma amostra maior de perguntas reais
+   do domínio (Ollama já instalado e validado com uma pergunta de fumaça, 2026-08-11)
 
 2. **Depois (Fase 6):** Logging de perguntas/respostas no PostgreSQL + feedback do usuário
 

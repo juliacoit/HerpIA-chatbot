@@ -33,10 +33,20 @@ O backend deve isolar a chamada ao LLM atrás de uma interface pequena (ex.: uma
 
 ## Próximas etapas
 
-- [ ] Instalar Ollama na máquina de dev
-- [ ] Baixar o modelo escolhido (`ollama pull qwen2.5:3b-instruct` ou equivalente)
-- [ ] Implementar `LLMClient` no backend (Fase 6), chamando a API HTTP local do Ollama
-- [ ] Testar qualidade de resposta com perguntas reais do domínio + citação de fontes corretas
-- [ ] Medir latência real por pergunta (GPU vs. CPU, concorrência com BGE-M3 em tempo de consulta)
+- [x] **Instalar Ollama na máquina de dev** (2026-08-11) — sem sudo disponível na sessão,
+  instalado o tarball oficial (não o instalador padrão) em `~/.local` (binário em
+  `~/.local/bin/ollama`, já coberto pelo PATH via `~/.profile`). Sem systemd, então
+  precisa subir manualmente a cada reinício — ver `scripts/infra/subir_ollama.sh`.
+- [x] Baixar o modelo escolhido (`ollama pull qwen2.5:3b-instruct`) — 1,9 GB
+- [x] Implementar `LLMClient` no backend (Fase 6), chamando a API HTTP local do Ollama —
+  `backend/services/llm.py`
+- [x] **Validado de ponta a ponta** (2026-08-11): `POST /perguntar` do backend rodou
+  contra a coleção real (59.085 pontos) — resposta correta e citações corretas para
+  "qual o status de conservação da jararaca-ilhoa?" (~8s de latência com o modelo já
+  carregado; ~35s na primeira chamada, por causa do load do modelo na GPU/CPU)
+- [ ] Testar qualidade de resposta com mais perguntas reais do domínio (amostra maior,
+  não só uma pergunta de fumaça)
+- [ ] Medir latência real por pergunta em série (GPU vs. CPU, concorrência com BGE-M3
+  em tempo de consulta) — só a chamada isolada acima foi medida até agora
 - [ ] Levar o resultado + a necessidade (ou não) de orçamento para API para decisão final com a equipe do RAN
 - [ ] Atualizar este ADR quando a decisão definitiva for confirmada

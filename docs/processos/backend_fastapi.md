@@ -119,18 +119,28 @@ uvicorn backend.main:app --reload
 `/buscar` funciona sem nenhuma dependência extra (usa o Qdrant já indexado).
 `/perguntar` precisa do Ollama rodando com o modelo baixado:
 ```bash
-ollama serve &
-ollama pull qwen2.5:3b-instruct
+scripts/infra/subir_ollama.sh --pull
 ```
 
-Testado manualmente (2026-08-11): `/saude` e `/buscar` responderam
-corretamente contra a coleção real (59.085 pontos); `/perguntar` retornou
-`503` como esperado (Ollama ainda não instalado na máquina de dev — ver
-próximos passos do ADR 0006).
+O Ollama foi instalado (2026-08-11) sem root — tarball oficial extraído em
+`~/.local` em vez do instalador padrão, porque a sessão não tinha sudo sem
+senha disponível. Sem instalador padrão não existe serviço systemd, então
+o Ollama não sobe sozinho no boot: rode `scripts/infra/subir_ollama.sh`
+manualmente (ele não faz nada se o Ollama já estiver de pé). O binário fica
+em `~/.local/bin/ollama`, já coberto pelo `PATH` de novas sessões via
+`~/.profile`.
+
+Testado manualmente de ponta a ponta (2026-08-11) contra a coleção real
+(59.085 pontos): `/saude`, `/buscar` e `/perguntar` responderam
+corretamente — pergunta "qual o status de conservação da jararaca-ilhoa?"
+retornou resposta correta (CR, categoria criticamente ameaçada) com as
+citações certas (PAN herpetofauna insular + ficha SALVE da *Bothrops
+insularis*). ~8s de latência com o modelo já carregado em memória (~35s na
+primeira chamada, por causa do load inicial do modelo).
 
 ## O que falta (Fase 6, ver roadmap.md)
 
-- [ ] Instalar Ollama na máquina de dev e validar `/perguntar` de ponta a ponta
+- [ ] Testar `/perguntar` com uma amostra maior de perguntas reais do domínio (só uma pergunta de fumaça foi validada até agora)
 - [ ] Logging de perguntas/chunks recuperados/respostas no PostgreSQL
 - [ ] Feedback do usuário (thumbs up/down) por resposta
 - [ ] Busca híbrida (semântica + palavras-chave), se a busca pura for insuficiente

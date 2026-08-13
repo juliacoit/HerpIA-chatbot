@@ -50,7 +50,21 @@ como "aprovado" com esse risco em aberto.
 
 **O que deve ser feito, em ordem de prioridade:**
 
-1. **Reforçar o prompt contra especulação/invenção** (`backend/services/geracao.py::PROMPT_SISTEMA`) — a instrução atual já proíbe conhecimento externo, mas G1 e I1 mostram que o modelo escapa disso quando hedgeia com "provavelmente"/generaliza por analogia. Vale uma frase explícita proibindo esse tipo de resposta hedgeada, e/ou reduzir `top_k`/filtrar por score mínimo para não alimentar o prompt com trechos pouco relacionados que dão margem à especulação.
+1. ~~**Reforçar o prompt contra especulação/invenção**~~ **IMPLEMENTADO.** `PROMPT_SISTEMA`
+   (`backend/services/geracao.py`) agora proíbe explicitamente respostas hedgeadas
+   ("provavelmente", "possivelmente", "pode ser que"), proíbe usar trechos vagamente
+   relacionados como se respondessem à pergunta, e tem uma regra específica para quando a
+   pergunta nomeia um documento/processo específico (o gatilho exato do caso G1): se nenhum
+   trecho for de fato sobre esse documento, dizer que não há evidência, nunca descrever o
+   conteúdo de um documento diferente como se fosse o do documento perguntado.
+   **Reteste manual**: I1 corrigido por completo (agora identifica corretamente
+   *Hydrodynastes bicinctus* a partir do trecho real, sem inventar o inseto "Arapapás"). G1
+   melhorou substancialmente — agora abre com "o texto não fornece informações específicas
+   sobre um processo SEI mais recente" antes de descrever o conteúdo (agora claramente
+   atribuído aos trechos reais sobre SEMACE, não mais apresentado como se fosse o processo
+   perguntado); ainda faz uma menção hedgeada residual no fechamento, mas não é mais o tipo de
+   alucinação central do achado 1. Regressão checada em B2 (síntese multi-espécie) — continua
+   funcionando, inclusive mais honesto sobre os limites da evidência.
 2. **Apertar o regex de `detectar_fonte_prioritaria`** (`backend/services/roteamento.py`) para exigir "quais/lista de" próximo de "espécies", não só a palavra "quais" solta — conserta o falso positivo visto em D3/A2.
 3. **Tratar premissa falsa em perguntas sobre documento inexistente** (caso F1) — instruir o prompt a checar explicitamente se o documento perguntado existe nos trechos antes de responder sobre seu conteúdo.
 4. **Priorizar a verificação de groundedness da Fase 8** (já prevista no roadmap, mas agora com evidência concreta de por que é urgente) — `evidencia_suficiente` hoje não pegou nenhuma das duas alucinações, porque só checa presença de chunk, não se a resposta se apoiou neles.

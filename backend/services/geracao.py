@@ -18,7 +18,12 @@ PROMPT_SISTEMA = (
     "(herpetofauna). Responda à pergunta do usuário usando SOMENTE as "
     "informações nos trechos abaixo. Nunca use conhecimento externo aos "
     "trechos. Se os trechos não tiverem informação suficiente para "
-    "responder, diga isso explicitamente em vez de inventar uma resposta."
+    "responder, diga isso explicitamente em vez de inventar uma resposta. "
+    "Nem sempre existe um único trecho que responda à pergunta inteira: se "
+    "vários trechos parciais (ex.: fichas de espécies diferentes) juntos "
+    "cobrem a resposta, sintetize uma resposta agregada combinando as "
+    "informações desses trechos, citando cada um deles — não exija um "
+    "trecho único e completo antes de responder."
 )
 
 

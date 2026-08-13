@@ -10,7 +10,7 @@ from backend.dependencies import obter_llm, obter_modelo_embedding, obter_qdrant
 from backend.schemas import PerguntarRequest, PerguntarResponse
 from backend.services.geracao import gerar_resposta
 from backend.services.llm import LLMClient
-from backend.services.retrieval import buscar_chunks
+from backend.services.roteamento import buscar_chunks_priorizados
 
 router = APIRouter(prefix="/perguntar", tags=["perguntar"])
 
@@ -23,7 +23,7 @@ async def perguntar(
     llm: LLMClient = Depends(obter_llm),
     settings: Settings = Depends(obter_settings),
 ) -> PerguntarResponse:
-    chunks = buscar_chunks(client, modelo, settings, body.pergunta, body.top_k, body.fontes)
+    chunks = buscar_chunks_priorizados(client, modelo, settings, body.pergunta, body.top_k, body.fontes)
     try:
         return await gerar_resposta(llm, body.pergunta, chunks)
     except httpx.HTTPError as exc:

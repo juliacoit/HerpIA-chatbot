@@ -18,6 +18,45 @@ Perguntas organizadas por objetivo de teste, cobrindo o objetivo do projeto (res
 
 Heurística de leitura (coluna "parece reconhecer insuficiência"): sinaliza se a resposta contém alguma frase de ['não há evidência', 'nao ha evidencia', 'não encontrei']... (lista completa no script). **Isto não é uma métrica de avaliação** — é só um sinalizador grosseiro para leitura humana; a avaliação real da qualidade da resposta exige leitura da resposta completa, incluída abaixo para cada caso.
 
+## Avaliação geral
+
+**Resumo**: o pipeline recupera as fontes certas na maioria dos casos (retrieval e roteamento
+funcionam bem para o padrão que motivou a correção — perguntas de "espécies por bioma", ver
+categorias B e C) e não inventa nada nas perguntas simples de recusa (F2/F3). Mas a etapa de
+geração (o LLM local, qwen2.5:3b) tem dois problemas de peso: (1) em duas respostas (G1, I1) o
+modelo **inventou conteúdo que não está em nenhum trecho recuperado** — não é ambiguidade nem
+erro de retrieval, é alucinação de fato, na contramão da regra central do projeto; (2) a
+heurística de roteamento que acabamos de implementar já mostrou um caso real de falso positivo
+em produção simulada (D3), além do caso E1 que já era esperado. Nenhum desses problemas é do
+retrieval em si (as citações continuam corretas e rastreáveis nos 20 casos) — são de geração
+(o que o LLM escreve a partir dos trechos) e de roteamento (qual fonte é buscada).
+
+**Nota geral: 6,5 / 10** — retrieval e citações confiáveis (o que dá pra confiar), mas duas
+alucinações reais numa amostra de 20 perguntas é uma taxa alta demais para um sistema
+institucional que promete "nunca inventar uma resposta" (CLAUDE.md), e não dá pra classificar
+como "aprovado" com esse risco em aberto.
+
+| categoria | nota (0-10) | por quê |
+|---|---|---|
+| A — cobertura básica por fonte | 7 | A1/A3 muito bons; A2 foi capturado pelo falso positivo do roteamento (heurística, não retrieval) |
+| B — síntese multi-fonte | 6,5 | Generaliza bem para outros biomas/categorias, mas com sinais de síntese imprecisa (B1 mistura réptil/anfíbio; B2 pode ter sub-filtrado espécies) |
+| C — deve rotear para SALVE | 7 | Roteamento funcionou nos 3 casos; mesma mistura taxonômica de B aparece em C1 |
+| D — controle negativo | 6 | 2 de 3 sem regressão; D3 é falso positivo real do roteamento |
+| E — risco conhecido da heurística | 7 | Comportou-se como previsto (não alucinou, mas não respondeu à pergunta real) |
+| F — fora de cobertura / anti-alucinação | 6,5 | F2/F3 corretos; F1 não corrige a premissa falsa da pergunta |
+| G — dados restritos (SEI) | **2** | Alucinação real — especulou conteúdo de um processo SEI a partir de trechos não relacionados |
+| H — rastreabilidade de citação | 9 | DOI e ausência de página tratados corretamente |
+| I — robustez a fraseio leigo | **3** | Alucinação real — descreveu um "inseto" que não aparece em nenhum trecho recuperado |
+
+**O que deve ser feito, em ordem de prioridade:**
+
+1. **Reforçar o prompt contra especulação/invenção** (`backend/services/geracao.py::PROMPT_SISTEMA`) — a instrução atual já proíbe conhecimento externo, mas G1 e I1 mostram que o modelo escapa disso quando hedgeia com "provavelmente"/generaliza por analogia. Vale uma frase explícita proibindo esse tipo de resposta hedgeada, e/ou reduzir `top_k`/filtrar por score mínimo para não alimentar o prompt com trechos pouco relacionados que dão margem à especulação.
+2. **Apertar o regex de `detectar_fonte_prioritaria`** (`backend/services/roteamento.py`) para exigir "quais/lista de" próximo de "espécies", não só a palavra "quais" solta — conserta o falso positivo visto em D3/A2.
+3. **Tratar premissa falsa em perguntas sobre documento inexistente** (caso F1) — instruir o prompt a checar explicitamente se o documento perguntado existe nos trechos antes de responder sobre seu conteúdo.
+4. **Priorizar a verificação de groundedness da Fase 8** (já prevista no roadmap, mas agora com evidência concreta de por que é urgente) — `evidencia_suficiente` hoje não pegou nenhuma das duas alucinações, porque só checa presença de chunk, não se a resposta se apoiou neles.
+5. **Considerar um modelo LLM maior/melhor**, mesmo que local — a confusão taxonômica recorrente (réptil vs. anfíbio) e as duas alucinações apontam para limitação de capacidade do modelo de 3B escolhido por custo zero (ADR 0006); vale reavaliar esse trade-off se/quando houver orçamento ou hardware melhor.
+6. Menor prioridade: agrupar citações por documento na exibição (achado 5 abaixo) — cosmético, não afeta correção.
+
 ## Resumo por caso
 
 | id | categoria | evidência suficiente | fontes citadas | parece reconhecer insuficiência* | tempo (s) |
@@ -654,20 +693,30 @@ Heurística de leitura (coluna "parece reconhecer insuficiência"): sinaliza se 
 
 Achados após leitura manual das 20 respostas, ordenados por severidade.
 
-### 1 (mais sério) — G1: o LLM especulou sobre conteúdo do SEI em vez de recusar claramente
+### 1 (mais sério) — Duas respostas inventaram conteúdo que não está em nenhum trecho recuperado (G1 e I1)
 
-A pergunta pedia o conteúdo do processo SEI mais recente sobre licenciamento de soltura de
-espécimes — fonte que **não está indexada/autorizada** (ver CLAUDE.md). A resposta começa bem
-("não há acesso direto aos documentos específicos"), mas na sequência produz uma lista de 10
-itens descrevendo o que o processo "provavelmente cobriria", com base em chunks recuperados
-que não têm nada a ver com SEI (uma Instrução Normativa da SEMACE-CE, PAN Lagoas do Sul, PAN
-Aves da Mata Atlântica, PAN Sauim-de-coleira). Mesmo com a ressalva "provavelmente", isso é o
-tipo de complemento com conhecimento não verificado que a regra do projeto proíbe
-explicitamente ("nunca complementar respostas com conhecimento não verificado pelas fontes
-recuperadas"). `evidencia_suficiente` ficou `True` porque só reflete presença de chunks, não
-se a resposta realmente se apoiou neles — não pegou esse caso. Merece reforço de prompt (ex.:
-proibir explicitamente respostas "prováveis"/especulativas mesmo com ressalva) e é um bom
-argumento para priorizar a verificação de groundedness já prevista para a Fase 8.
+**G1**: a pergunta pedia o conteúdo do processo SEI mais recente sobre licenciamento de
+soltura de espécimes — fonte que **não está indexada/autorizada** (ver CLAUDE.md). A resposta
+começa bem ("não há acesso direto aos documentos específicos"), mas na sequência produz uma
+lista de 10 itens descrevendo o que o processo "provavelmente cobriria", com base em chunks
+recuperados que não têm nada a ver com SEI (uma Instrução Normativa da SEMACE-CE, PAN Lagoas
+do Sul, PAN Aves da Mata Atlântica, PAN Sauim-de-coleira).
+
+**I1**: a pergunta usava linguagem leiga ("bicho de couro que vive na água e na terra... no
+cerrado"). Os trechos recuperados eram sobre uma cobra (*Hydrodynastes bicinctus*), um jacaré
+(*Paleosuchus palpebrosus*) e PANs de manguezal/peixe-boi-marinho/aves limícolas — nenhum
+deles menciona insetos. Mesmo assim, a resposta afirma que "bicho de couro" "se refere a
+insetos coletores" e descreve um suposto inseto "Arapapás (Diploptera)" com características
+inventadas ("caudas curvas que lembram as patas de um pássaro") — não corresponde a nenhum
+trecho citado.
+
+Em ambos os casos, mesmo com ressalvas ("provavelmente", hedging), o modelo produziu conteúdo
+que a regra do projeto proíbe explicitamente ("nunca complementar respostas com conhecimento
+não verificado pelas fontes recuperadas"). `evidencia_suficiente` ficou `True` nos dois casos
+porque só reflete presença de chunks, não se a resposta realmente se apoiou neles — não pegou
+nenhuma das duas alucinações. Merece reforço de prompt (proibir explicitamente respostas
+especulativas/hedgeadas) e é o principal argumento para priorizar a verificação de
+groundedness já prevista para a Fase 8.
 
 ### 2 — Heurística de roteamento disparou mais vezes do que o previsto (falso positivo em D3, possivelmente em A2)
 

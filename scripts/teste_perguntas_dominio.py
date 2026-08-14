@@ -1,5 +1,5 @@
 """Bateria de perguntas de domínio para testar o pipeline completo do
-chatbot RAN/ICMBio (retrieval + roteamento por fonte + geração com LLM).
+HerpIA (RAN/ICMBio) (retrieval + roteamento por fonte + geração com LLM).
 
 Diferente de scripts/diagnostico_retrieval.py (que chama buscar_chunks
 diretamente, sem precisar do servidor HTTP), este script bate no endpoint
@@ -211,7 +211,7 @@ def rodar_caso(client: httpx.Client, caso: dict, top_k: int) -> ResultadoCaso:
 def gerar_relatorio(resultados: list[ResultadoCaso], url_base: str, top_k: int) -> str:
     hoje = date.today().isoformat()
     partes = [
-        "# Teste de perguntas de domínio — RAN/ICMBio chatbot",
+        "# Teste de perguntas de domínio — HerpIA (RAN/ICMBio)",
         "",
         f"_Gerado em {hoje} por `scripts/teste_perguntas_dominio.py`, contra "
         f"`{url_base}/perguntar` (top_k={top_k}). Requer backend (uvicorn) e Ollama "

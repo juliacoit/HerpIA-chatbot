@@ -36,7 +36,7 @@ DATABASE_URL = os.getenv(
 
 print()
 print("=" * 55)
-print("  Chatbot RAN/ICMBio — Verificação de serviços")
+print("  HerpIA (RAN/ICMBio) — Verificação de serviços")
 print("=" * 55)
 print(f"  Qdrant URL   : {QDRANT_URL}")
 print(f"  Database URL : {DATABASE_URL}")

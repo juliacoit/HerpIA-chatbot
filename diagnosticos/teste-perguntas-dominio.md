@@ -1,4 +1,4 @@
-# Teste de perguntas de domínio — RAN/ICMBio chatbot
+# Teste de perguntas de domínio — HerpIA (RAN/ICMBio)
 
 _Gerado em 2026-08-13 por `scripts/teste_perguntas_dominio.py`, contra `http://localhost:8000/perguntar` (top_k=8). Requer backend (uvicorn) e Ollama rodando — testa o pipeline completo (retrieval + roteamento por fonte + geração), não só o retrieval cru._
 
@@ -50,26 +50,75 @@ como "aprovado" com esse risco em aberto.
 
 **O que deve ser feito, em ordem de prioridade:**
 
-1. ~~**Reforçar o prompt contra especulação/invenção**~~ **IMPLEMENTADO.** `PROMPT_SISTEMA`
-   (`backend/services/geracao.py`) agora proíbe explicitamente respostas hedgeadas
-   ("provavelmente", "possivelmente", "pode ser que"), proíbe usar trechos vagamente
-   relacionados como se respondessem à pergunta, e tem uma regra específica para quando a
-   pergunta nomeia um documento/processo específico (o gatilho exato do caso G1): se nenhum
-   trecho for de fato sobre esse documento, dizer que não há evidência, nunca descrever o
-   conteúdo de um documento diferente como se fosse o do documento perguntado.
-   **Reteste manual**: I1 corrigido por completo (agora identifica corretamente
-   *Hydrodynastes bicinctus* a partir do trecho real, sem inventar o inseto "Arapapás"). G1
-   melhorou substancialmente — agora abre com "o texto não fornece informações específicas
-   sobre um processo SEI mais recente" antes de descrever o conteúdo (agora claramente
-   atribuído aos trechos reais sobre SEMACE, não mais apresentado como se fosse o processo
-   perguntado); ainda faz uma menção hedgeada residual no fechamento, mas não é mais o tipo de
-   alucinação central do achado 1. Regressão checada em B2 (síntese multi-espécie) — continua
-   funcionando, inclusive mais honesto sobre os limites da evidência.
-2. **Apertar o regex de `detectar_fonte_prioritaria`** (`backend/services/roteamento.py`) para exigir "quais/lista de" próximo de "espécies", não só a palavra "quais" solta — conserta o falso positivo visto em D3/A2.
-3. **Tratar premissa falsa em perguntas sobre documento inexistente** (caso F1) — instruir o prompt a checar explicitamente se o documento perguntado existe nos trechos antes de responder sobre seu conteúdo.
-4. **Priorizar a verificação de groundedness da Fase 8** (já prevista no roadmap, mas agora com evidência concreta de por que é urgente) — `evidencia_suficiente` hoje não pegou nenhuma das duas alucinações, porque só checa presença de chunk, não se a resposta se apoiou neles.
+1. ~~**Reforçar o prompt contra especulação/invenção**~~ **IMPLEMENTADO — eficácia parcial e
+   inconsistente, ver correção abaixo.** `PROMPT_SISTEMA` (`backend/services/geracao.py`)
+   proíbe explicitamente respostas hedgeadas ("provavelmente", "possivelmente", "pode ser
+   que"), proíbe usar trechos vagamente relacionados como se respondessem à pergunta, e tem
+   uma regra específica para quando a pergunta nomeia um documento/processo específico (o
+   gatilho exato do caso G1): se nenhum trecho for de fato sobre esse documento, dizer que não
+   há evidência, nunca descrever o conteúdo de um documento diferente como se fosse o do
+   documento perguntado.
+   **Reteste manual original** (1 execução por caso): I1 corrigido por completo (agora
+   identifica corretamente *Hydrodynastes bicinctus* a partir do trecho real, sem inventar o
+   inseto "Arapapás"). G1 pareceu melhorar substancialmente — abriu com "o texto não fornece
+   informações específicas sobre um processo SEI mais recente" antes de descrever o conteúdo.
+   B2 (regressão) continuou funcionando.
+   **Correção após reteste com 3 execuções independentes** (ver item 3 abaixo —
+   `llm.py` não fixa `temperature`/`seed`, então o Ollama amostra de forma não-determinística
+   a cada chamada, e uma única execução manual não é evidência confiável de correção): **G1
+   voltou a falhar em 3 de 3 novas execuções**, com o mesmo padrão do achado 1 original —
+   descreve o conteúdo da Instrução Normativa ASAS/SEMACE como se fosse "o processo SEI mais
+   recente" ("podemos inferir que o processo SEI mais recente trata da criação do Cadastro...
+   ASAS", "o processo SEI recente está relacionado ao licenciamento para soltura de animais
+   silvestres..."), violando diretamente a regra adicionada. Ou seja, o retest de 1 execução
+   registrado acima capturou uma amostra favorável, não uma correção robusta — o reforço de
+   prompt reduz a frequência da alucinação em G1, mas não a elimina de forma confiável. Isso é
+   evidência concreta a mais a favor de priorizar o item 4 (verificação de groundedness real,
+   não apenas instrução de prompt).
+2. ~~**Apertar o regex de `detectar_fonte_prioritaria`**~~ **IMPLEMENTADO.**
+   `_PADRAO_PEDIDO_LISTA` (`backend/services/roteamento.py`) agora exige que "quais/lista
+   de/liste" esteja a até 4 palavras de "espécies", em vez de casar com "quais" sozinho em
+   qualquer lugar da frase. **Reteste (chamada direta de `detectar_fonte_prioritaria`)**: D3 e
+   A2 (falsos positivos originais) agora retornam `None` corretamente. Sem regressão: D1/D2
+   (controles negativos) continuam `None`; C1/C2/C3, B1/B2/B3 continuam roteando para `salve`
+   (a maioria via o ramo `_PADRAO_OCORRENCIA`, que não foi alterado); E1 (risco conhecido) e F1
+   continuam roteando para `salve` como esperado/documentado.
+3. ~~**Tratar premissa falsa em perguntas sobre documento inexistente**~~ **IMPLEMENTADO —
+   objetivo específico não alcançado, ver reteste.** `PROMPT_SISTEMA`
+   (`backend/services/geracao.py`) agora instrui explicitamente: quando nenhum trecho for do
+   documento/processo nomeado na pergunta, dizer que esse documento não foi encontrado na
+   base, em vez de tratar a pergunta como se o documento existisse e só faltassem detalhes (o
+   padrão exato do caso F1).
+   **Reteste real, contra `/perguntar`** — nesta sessão consegui subir a stack local: Ollama
+   (`qwen2.5:3b-instruct`, já baixado) + backend FastAPI + Qdrant em **modo embutido local**
+   (`QDRANT_LOCAL_PATH`, 59.085 pontos, não depende do túnel SSH/PC servidor nesta fase do
+   projeto — Postgres também não é usado no caminho de `/perguntar`). F1 rodado 3 vezes:
+   nas 3 execuções a resposta **não alucina** conteúdo (mantém o comportamento correto de
+   F2/F3), mas em **nenhuma das 3** o sistema chega a dizer explicitamente que o "PAN
+   Herpetofauna do Cerrado" não existe no catálogo — continua tratando a pergunta como se o
+   documento pudesse existir e só faltasse "um estudo específico" ou "dados dedicados". Ou
+   seja: o objetivo concreto deste item (corrigir a premissa falsa) **não foi alcançado**,
+   ainda que não haja regressão de alucinação. Prompt-only não é suficiente aqui — corrigir
+   isso de verdade provavelmente exige uma checagem programática (ex.: comparar o nome do
+   documento citado na pergunta contra a lista de documentos indexados antes de gerar, e
+   injetar essa informação no prompt), não apenas mais uma instrução de texto.
+4. **Priorizar a verificação de groundedness da Fase 8** (já prevista no roadmap, e agora com
+   evidência mais forte ainda de que é urgente) — `evidencia_suficiente` hoje não pegou
+   nenhuma das duas alucinações, porque só checa presença de chunk, não se a resposta se
+   apoiou neles. O reteste desta sessão (3 execuções de G1, ver item 1) mostrou que reforço de
+   prompt sozinho **não elimina** a alucinação de forma confiável — ela reapareceu em 3/3
+   execuções depois do fix. Só uma checagem programática, executada em toda resposta,
+   resolveria isso de fato.
 5. **Considerar um modelo LLM maior/melhor**, mesmo que local — a confusão taxonômica recorrente (réptil vs. anfíbio) e as duas alucinações apontam para limitação de capacidade do modelo de 3B escolhido por custo zero (ADR 0006); vale reavaliar esse trade-off se/quando houver orçamento ou hardware melhor.
-6. Menor prioridade: agrupar citações por documento na exibição (achado 5 abaixo) — cosmético, não afeta correção.
+6. ~~Menor prioridade: agrupar citações por documento na exibição~~ **IMPLEMENTADO.**
+   `montar_citacoes` (`backend/services/geracao.py`) agora deduplica por
+   `(fonte, documento, pagina_inicio, pagina_fim)` em vez de incluir `secao` na chave —
+   `secao` nunca aparecia na citação exibida, então chunks do mesmo documento/página vindos de
+   seções diferentes (ex.: "história natural" e "ameaças" da mesma ficha SALVE) geravam
+   citações visualmente idênticas repetidas. **Verificado** com chunks sintéticos reproduzindo
+   os padrões de A1/H1 (mesma ficha SALVE, 6 seções, sem página — colapsa para 1 citação) e de
+   A3 (mesmo documento, páginas 21 e 38 — permanecem 2 citações distintas, sem perda de
+   precisão de página).
 
 ## Resumo por caso
 
@@ -793,3 +842,11 @@ cobertura — isso é esperado dado como o campo é calculado hoje (só reflete 
 recuperado, não se a resposta se apoiou neles de fato, ver docstring de
 `backend/services/geracao.py`). Não é um sinal útil, sozinho, para distinguir os achados 1-3
 acima — só a leitura manual da resposta completa revelou os problemas.
+
+**Não-determinismo do LLM**: `backend/services/llm.py` não fixa `temperature` nem `seed` na
+chamada ao Ollama — cada execução da mesma pergunta pode amostrar uma resposta diferente. Isso
+apareceu concretamente no reteste dos itens 1 e 3 (ver acima): G1 pareceu corrigido numa
+execução manual isolada e voltou a falhar em 3 de 3 execuções independentes logo depois. **Uma
+única execução manual não é evidência suficiente de que um fix de prompt funcionou** —
+qualquer reteste de caso propenso a alucinação (G1, I1 e similares) deveria rodar a mesma
+pergunta pelo menos 3x antes de declarar "corrigido".

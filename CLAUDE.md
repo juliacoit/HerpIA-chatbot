@@ -2,7 +2,7 @@
 
 ## Visão geral do projeto
 
-Este é o repositório do **chatbot interno do RAN/ICMBio** (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), desenvolvido em parceria com o CNPq e intermediação do CIEE. O sistema é baseado em **RAG (Retrieval-Augmented Generation)**: consulta uma base de conhecimento previamente organizada, recupera trechos relevantes e gera respostas fundamentadas nesses trechos, sempre citando as fontes utilizadas (documento, página, link, seção ou base consultada). O foco temático é a herpetofauna brasileira (répteis e anfíbios).
+Este é o repositório do **HerpIA** — Assistente Inteligente para Consulta de Informações sobre a Herpetofauna Brasileira, o chatbot interno do RAN/ICMBio (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios), desenvolvido em parceria com o CNPq e intermediação do CIEE. Nome técnico do projeto: **Sistema RAG para Consulta Inteligente de Dados sobre a Herpetofauna Brasileira — RAN/ICMBio**. O sistema é baseado em **RAG (Retrieval-Augmented Generation)**: consulta uma base de conhecimento previamente organizada, recupera trechos relevantes e gera respostas fundamentadas nesses trechos, sempre citando as fontes utilizadas (documento, página, link, seção ou base consultada). O foco temático é a herpetofauna brasileira (répteis e anfíbios).
 
 ## Objetivo
 

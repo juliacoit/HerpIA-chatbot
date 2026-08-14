@@ -1,4 +1,4 @@
-# Roadmap do projeto — Chatbot RAG RAN/ICMBio
+# Roadmap do projeto — HerpIA (Sistema RAG RAN/ICMBio)
 
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.

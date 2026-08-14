@@ -34,7 +34,10 @@ PROMPT_SISTEMA = (
     "nunca descreva o conteúdo de um trecho sobre um documento diferente "
     "como se fosse o conteúdo do documento perguntado, mesmo que os temas "
     "sejam parecidos (ex.: outro processo de licenciamento, outra norma "
-    "sobre o mesmo assunto geral). "
+    "sobre o mesmo assunto geral). Nesse caso, diga explicitamente que não "
+    "encontrou esse documento/processo específico na base — não trate a "
+    "pergunta como se o documento existisse e apenas faltassem detalhes "
+    "sobre ele. "
     "Nem sempre existe um único trecho que responda à pergunta inteira: se "
     "vários trechos parciais (ex.: fichas de espécies diferentes) juntos "
     "cobrem a resposta, sintetize uma resposta agregada combinando as "
@@ -54,10 +57,16 @@ def montar_prompt(pergunta: str, chunks: list[ChunkRecuperado]) -> str:
 
 
 def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
+    # Dedupe por (fonte, documento, página) — não por seção. `secao` não
+    # aparece na citação exibida ao usuário, então dois chunks do mesmo
+    # documento/página mas de seções diferentes (ex.: "história natural" e
+    # "ameaças" da mesma ficha SALVE) produziam citações visualmente
+    # idênticas e repetidas (ver diagnosticos/teste-perguntas-dominio.md,
+    # achado 5).
     vistas = set()
     citacoes = []
     for c in chunks:
-        chave = (c.fonte, c.documento, c.secao, c.pagina_inicio)
+        chave = (c.fonte, c.documento, c.pagina_inicio, c.pagina_fim)
         if chave in vistas:
             continue
         vistas.add(chave)

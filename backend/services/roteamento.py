@@ -26,8 +26,16 @@ from backend.services.retrieval import buscar_chunks
 # Pode errar em perguntas ambíguas (ver "Opções para decisão", item 4, no
 # relatório de diagnóstico). Detecta perguntas do tipo "quais/lista de
 # espécies/anfíbios/répteis ... ocorrem/existem em <lugar>".
+#
+# "quais/lista de" sozinho é permissivo demais: casa com perguntas como
+# "Quais UCs foram citadas ... no PAN Herpetofauna do Espinhaço?" ou "Quais
+# são os objetivos do PAN Herpetofauna do Espinhaço?", em que "quais" não se
+# refere a uma lista de espécies (falso positivo visto em D3/A2, ver
+# diagnosticos/teste-perguntas-dominio.md). Por isso a palavra-gatilho
+# precisa estar próxima (até 4 palavras) de "espécies".
 _PADRAO_PEDIDO_LISTA = re.compile(
-    r"\b(quais?|lista(?:\s+de)?|liste)\b", re.IGNORECASE
+    r"\b(quais?|lista(?:\s+de)?|liste)\b(?:\s+\S+){0,4}?\s+esp[ée]cies\b",
+    re.IGNORECASE,
 )
 _PADRAO_TAXON_HERPETOFAUNA = re.compile(
     r"\b(anf[íi]bios?|anuros?|r[ée]pteis?|serpentes?|lagartos?|"

@@ -1,4 +1,5 @@
-"""Backend FastAPI do chatbot RAG do RAN/ICMBio (Fase 6 do roadmap).
+"""Backend FastAPI do HerpIA (Sistema RAG para Consulta Inteligente de Dados
+sobre a Herpetofauna Brasileira — RAN/ICMBio), Fase 6 do roadmap.
 
 Esqueleto inicial: busca semântica (/buscar) e geração de resposta com
 citações (/perguntar). Ainda não implementados: logging/feedback em
@@ -31,8 +32,11 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Chatbot RAN/ICMBio — API",
+    title="HerpIA — API",
     description=(
+        "HerpIA — Assistente Inteligente para Consulta de Informações sobre a "
+        "Herpetofauna Brasileira. Nome técnico: Sistema RAG para Consulta "
+        "Inteligente de Dados sobre a Herpetofauna Brasileira — RAN/ICMBio. "
         "RAG sobre herpetofauna brasileira (répteis e anfíbios) para "
         "técnicos e gestores do RAN/ICMBio."
     ),

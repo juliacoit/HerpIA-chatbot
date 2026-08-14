@@ -1,4 +1,6 @@
-# Chatbot RAN/ICMBio
+# HerpIA — Assistente Inteligente para Consulta de Informações sobre a Herpetofauna Brasileira
+
+**Nome técnico:** Sistema RAG para Consulta Inteligente de Dados sobre a Herpetofauna Brasileira — RAN/ICMBio
 
 Projeto de chatbot interno baseado em RAG para facilitar a consulta a informações sobre a herpetofauna brasileira, apoiando técnicos e gestores do RAN/ICMBio no acesso a dados ambientais, científicos e institucionais.
 

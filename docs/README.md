@@ -1,6 +1,6 @@
 # Documentação do projeto
 
-Esta pasta reúne a documentação de processo do chatbot RAN/ICMBio — tudo que não é dado em si, mas explica **como e por que** o projeto está sendo construído.
+Esta pasta reúne a documentação de processo do HerpIA (RAN/ICMBio) — tudo que não é dado em si, mas explica **como e por que** o projeto está sendo construído.
 
 Para o contexto geral do projeto (visão geral, arquitetura, regras sobre dados sensíveis), veja [`/CLAUDE.md`](../CLAUDE.md) na raiz do repositório.
 

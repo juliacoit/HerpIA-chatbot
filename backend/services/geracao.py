@@ -5,12 +5,16 @@ Regra do projeto (CLAUDE.md): responder só com base nos trechos
 recuperados, sempre citando a fonte, e indicar claramente quando não há
 evidência suficiente em vez de inventar uma resposta.
 
-`evidencia_suficiente` aqui só reflete se algum chunk foi recuperado — não
-há (ainda) verificação de que a resposta do LLM realmente se apoiou nos
-trechos; isso é objetivo da validação da Fase 8.
+`evidencia_suficiente` só reflete se algum chunk foi recuperado — não se a
+resposta do LLM realmente se apoiou neles. Quem verifica isso de fato é
+`resposta_fundamentada`, calculado por `backend.services.groundedness`
+depois da geração (ver docstring daquele módulo para o motivo de precisar
+das duas camadas de checagem).
 """
 
+from backend.config import Settings
 from backend.schemas import ChunkRecuperado, Citacao, PerguntarResponse
+from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness
 from backend.services.llm import LLMClient
 
 PROMPT_SISTEMA = (
@@ -84,7 +88,7 @@ def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
 
 
 async def gerar_resposta(
-    llm: LLMClient, pergunta: str, chunks: list[ChunkRecuperado]
+    llm: LLMClient, pergunta: str, chunks: list[ChunkRecuperado], settings: Settings
 ) -> PerguntarResponse:
     if not chunks:
         return PerguntarResponse(
@@ -92,13 +96,25 @@ async def gerar_resposta(
             resposta="Não há evidência suficiente na base de conhecimento para responder a essa pergunta.",
             citacoes=[],
             evidencia_suficiente=False,
+            resposta_fundamentada=False,
         )
 
     prompt = montar_prompt(pergunta, chunks)
     resposta = await llm.generate(prompt)
+
+    fundamentada = True
+    justificativa = None
+    if settings.groundedness_verificar:
+        fundamentada, justificativa = await verificar_groundedness(llm, pergunta, resposta, chunks)
+        if not fundamentada:
+            print(f"[groundedness] resposta retida — {justificativa}\nResposta original: {resposta}")
+            resposta = MENSAGEM_NAO_FUNDAMENTADA
+
     return PerguntarResponse(
         pergunta=pergunta,
         resposta=resposta,
         citacoes=montar_citacoes(chunks),
         evidencia_suficiente=True,
+        resposta_fundamentada=fundamentada,
+        justificativa_groundedness=justificativa if not fundamentada else None,
     )

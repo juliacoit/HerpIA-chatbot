@@ -17,21 +17,36 @@ Uso:
     python scripts/teste_perguntas_dominio.py --url http://localhost:8000 --top-k 8
 
 Saída:
-    diagnosticos/teste-perguntas-dominio.md
+    Cada execução grava um arquivo próprio em diagnosticos/baterias/,
+    nomeado com data/hora e modelo (ex.: 2026-08-19_1743_qwen2.5-3b-instruct.md),
+    e nunca sobrescreve execuções anteriores — a ideia é manter histórico
+    completo de toda bateria já rodada, junto com a configuração exata usada
+    (modelo, commit git, groundedness ligado/desligado, top_k etc.), para dar
+    pra comparar runs entre si depois. Um índice cumulativo é mantido em
+    diagnosticos/baterias/indice.md (uma linha por execução, nunca reescrito
+    fora do append). O arquivo diagnosticos/teste-perguntas-dominio.md
+    (análise manual, com histórico dos achados e correções) não é tocado por
+    este script — é curado à mão, ver diagnosticos/baterias/ para os dados
+    brutos de cada execução.
 """
 
 from __future__ import annotations
 
 import argparse
+import subprocess
+import sys
 import time
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import datetime
 from pathlib import Path
 
 import httpx
 
 RAIZ = Path(__file__).resolve().parents[1]
-ARQUIVO_SAIDA = RAIZ / "diagnosticos" / "teste-perguntas-dominio.md"
+DIR_BATERIAS = RAIZ / "diagnosticos" / "baterias"
+ARQUIVO_INDICE = DIR_BATERIAS / "indice.md"
+
+sys.path.insert(0, str(RAIZ))
 
 # ---------------------------------------------------------------------------
 # Bateria de perguntas — categorias definidas em conversa com Júlia,
@@ -180,6 +195,8 @@ class ResultadoCaso:
     resposta: str = ""
     citacoes: list[dict] = field(default_factory=list)
     evidencia_suficiente: bool | None = None
+    resposta_fundamentada: bool | None = None
+    justificativa_groundedness: str | None = None
     tempo_s: float = 0.0
     erro: str | None = None
 
@@ -202,21 +219,85 @@ def rodar_caso(client: httpx.Client, caso: dict, top_k: int) -> ResultadoCaso:
         resultado.resposta = corpo.get("resposta", "")
         resultado.citacoes = corpo.get("citacoes", [])
         resultado.evidencia_suficiente = corpo.get("evidencia_suficiente")
+        resultado.resposta_fundamentada = corpo.get("resposta_fundamentada")
+        resultado.justificativa_groundedness = corpo.get("justificativa_groundedness")
     except httpx.HTTPError as exc:
         resultado.tempo_s = time.monotonic() - inicio
         resultado.erro = str(exc)
     return resultado
 
 
-def gerar_relatorio(resultados: list[ResultadoCaso], url_base: str, top_k: int) -> str:
-    hoje = date.today().isoformat()
+def obter_metadados_execucao(url_base: str, top_k: int) -> dict:
+    """Coleta a configuração exata em vigor no momento da execução, para que
+    cada arquivo de bateria seja auto-suficiente ao comparar runs entre si
+    (modelo, commit, groundedness ligado/desligado etc. mudam com o tempo)."""
+    agora = datetime.now()
+
+    def _git(*args: str) -> str:
+        try:
+            saida = subprocess.run(
+                ["git", *args], cwd=RAIZ, capture_output=True, text=True, timeout=5
+            )
+            return saida.stdout.strip()
+        except Exception:
+            return "?"
+
+    commit = _git("rev-parse", "--short", "HEAD") or "?"
+    sujo = bool(_git("status", "--porcelain"))
+
+    try:
+        from backend.config import obter_settings
+
+        s = obter_settings()
+        config_backend = {
+            "llm_provider": s.llm_provider,
+            "llm_model": s.llm_model,
+            "ollama_url": s.ollama_url,
+            "qdrant_collection": s.qdrant_collection,
+            "qdrant_local_path": s.qdrant_local_path,
+            "qdrant_url": s.qdrant_url,
+            "groundedness_verificar": s.groundedness_verificar,
+            "top_k_padrao": s.top_k_padrao,
+        }
+    except Exception as exc:
+        config_backend = {"erro_ao_ler_config": str(exc)}
+
+    return {
+        "timestamp_iso": agora.isoformat(timespec="seconds"),
+        "timestamp_arquivo": agora.strftime("%Y-%m-%d_%Hh%M"),
+        "git_commit": commit,
+        "git_sujo": sujo,
+        "url_base": url_base,
+        "top_k_requisicao": top_k,
+        **config_backend,
+    }
+
+
+def gerar_relatorio(
+    resultados: list[ResultadoCaso], url_base: str, top_k: int, meta: dict
+) -> str:
     partes = [
         "# Teste de perguntas de domínio — HerpIA (RAN/ICMBio)",
         "",
-        f"_Gerado em {hoje} por `scripts/teste_perguntas_dominio.py`, contra "
-        f"`{url_base}/perguntar` (top_k={top_k}). Requer backend (uvicorn) e Ollama "
-        "rodando — testa o pipeline completo (retrieval + roteamento por fonte + "
-        "geração), não só o retrieval cru._",
+        f"_Gerado em {meta['timestamp_iso']} por `scripts/teste_perguntas_dominio.py`, "
+        f"contra `{url_base}/perguntar` (top_k={top_k}). Requer backend (uvicorn) e "
+        "Ollama rodando — testa o pipeline completo (retrieval + roteamento por fonte "
+        "+ geração), não só o retrieval cru._",
+        "",
+        "## Configuração desta execução",
+        "",
+        f"- **Commit git**: `{meta['git_commit']}`"
+        + (" (árvore de trabalho com alterações não commitadas)" if meta["git_sujo"] else ""),
+        f"- **Modelo LLM**: `{meta.get('llm_model', '?')}` (provider: `{meta.get('llm_provider', '?')}`)",
+        f"- **Groundedness (verificação pós-geração)**: `{meta.get('groundedness_verificar', '?')}`",
+        f"- **Qdrant**: collection `{meta.get('qdrant_collection', '?')}`"
+        + (
+            f", local_path `{meta['qdrant_local_path']}`"
+            if meta.get("qdrant_local_path")
+            else f", url `{meta.get('qdrant_url', '?')}`"
+        ),
+        f"- **top_k da requisição**: {top_k} (padrão do backend: {meta.get('top_k_padrao', '?')})",
+        f"- **Ollama URL**: `{meta.get('ollama_url', '?')}`",
         "",
         "## Sobre esta bateria",
         "",
@@ -243,20 +324,20 @@ def gerar_relatorio(resultados: list[ResultadoCaso], url_base: str, top_k: int) 
         "",
         "## Resumo por caso",
         "",
-        "| id | categoria | evidência suficiente | fontes citadas | parece reconhecer insuficiência* | tempo (s) |",
-        "|----|-----------|------------------------|-----------------|-----------------------------------|-----------|",
+        "| id | categoria | evidência suficiente | fundamentada (groundedness) | fontes citadas | parece reconhecer insuficiência* | tempo (s) |",
+        "|----|-----------|------------------------|------------------------------|-----------------|-----------------------------------|-----------|",
     ]
 
     for r in resultados:
         fontes = sorted({c.get("fonte", "?") for c in r.citacoes}) if r.citacoes else []
         fontes_str = ", ".join(fontes) if fontes else "—"
         if r.erro:
-            partes.append(f"| {r.caso['id']} | {r.caso['categoria']} | ERRO | — | — | {r.tempo_s:.1f} |")
+            partes.append(f"| {r.caso['id']} | {r.caso['categoria']} | ERRO | — | — | — | {r.tempo_s:.1f} |")
             continue
         sinalizador = "sim" if parece_reconhecer_insuficiencia(r.resposta) else "não"
         partes.append(
             f"| {r.caso['id']} | {r.caso['categoria']} | {r.evidencia_suficiente} | "
-            f"{fontes_str} | {sinalizador} | {r.tempo_s:.1f} |"
+            f"{r.resposta_fundamentada} | {fontes_str} | {sinalizador} | {r.tempo_s:.1f} |"
         )
 
     partes.append("")
@@ -274,6 +355,9 @@ def gerar_relatorio(resultados: list[ResultadoCaso], url_base: str, top_k: int) 
             partes.append("")
             continue
         partes.append(f"- **evidencia_suficiente**: {r.evidencia_suficiente}")
+        partes.append(f"- **resposta_fundamentada**: {r.resposta_fundamentada}")
+        if r.justificativa_groundedness:
+            partes.append(f"- **justificativa_groundedness**: {r.justificativa_groundedness}")
         partes.append(f"- **Tempo de resposta**: {r.tempo_s:.1f}s")
         partes.append("")
         partes.append("**Resposta:**")
@@ -305,11 +389,43 @@ def gerar_relatorio(resultados: list[ResultadoCaso], url_base: str, top_k: int) 
     return "\n".join(partes)
 
 
+def _slug_modelo(modelo: str) -> str:
+    return modelo.replace(":", "-").replace("/", "-")
+
+
+def atualizar_indice(meta: dict, arquivo_relatorio: Path, resultados: list[ResultadoCaso]) -> None:
+    """Acrescenta uma linha ao índice cumulativo — nunca reescreve linhas
+    anteriores, só cria o cabeçalho na primeira execução."""
+    n_erros = sum(1 for r in resultados if r.erro)
+    n_nao_fundamentadas = sum(1 for r in resultados if r.resposta_fundamentada is False)
+    cabecalho = (
+        "# Índice de execuções da bateria de perguntas de domínio\n\n"
+        "Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente "
+        "por último. Cada linha aponta para o arquivo completo daquela execução, com "
+        "todas as respostas e citações. Não editar à mão — é gerado por append.\n\n"
+        "| timestamp | arquivo | commit | modelo | groundedness | top_k | erros | não fundamentadas |\n"
+        "|---|---|---|---|---|---|---|---|\n"
+    )
+    if not ARQUIVO_INDICE.exists():
+        ARQUIVO_INDICE.write_text(cabecalho, encoding="utf-8")
+
+    linha = (
+        f"| {meta['timestamp_iso']} | [{arquivo_relatorio.name}]({arquivo_relatorio.name}) | "
+        f"`{meta['git_commit']}`{'*' if meta['git_sujo'] else ''} | "
+        f"`{meta.get('llm_model', '?')}` | {meta.get('groundedness_verificar', '?')} | "
+        f"{meta['top_k_requisicao']} | {n_erros} | {n_nao_fundamentadas} |\n"
+    )
+    with ARQUIVO_INDICE.open("a", encoding="utf-8") as f:
+        f.write(linha)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--url", default="http://localhost:8000", help="URL base do backend")
     parser.add_argument("--top-k", type=int, default=8, help="top_k usado em cada pergunta")
     args = parser.parse_args()
+
+    meta = obter_metadados_execucao(args.url, args.top_k)
 
     resultados = []
     with httpx.Client(base_url=args.url) as client:
@@ -319,13 +435,21 @@ def main() -> None:
             if resultado.erro:
                 print(f"    ERRO: {resultado.erro}")
             else:
-                print(f"    ok ({resultado.tempo_s:.1f}s, evidencia_suficiente={resultado.evidencia_suficiente})")
+                print(
+                    f"    ok ({resultado.tempo_s:.1f}s, "
+                    f"evidencia_suficiente={resultado.evidencia_suficiente}, "
+                    f"resposta_fundamentada={resultado.resposta_fundamentada})"
+                )
             resultados.append(resultado)
 
-    relatorio = gerar_relatorio(resultados, args.url, args.top_k)
-    ARQUIVO_SAIDA.parent.mkdir(parents=True, exist_ok=True)
-    ARQUIVO_SAIDA.write_text(relatorio, encoding="utf-8")
-    print(f"\nRelatório gravado em {ARQUIVO_SAIDA.relative_to(RAIZ)}")
+    relatorio = gerar_relatorio(resultados, args.url, args.top_k, meta)
+    DIR_BATERIAS.mkdir(parents=True, exist_ok=True)
+    nome_arquivo = f"{meta['timestamp_arquivo']}_{_slug_modelo(meta.get('llm_model', 'modelo-desconhecido'))}.md"
+    arquivo_saida = DIR_BATERIAS / nome_arquivo
+    arquivo_saida.write_text(relatorio, encoding="utf-8")
+    atualizar_indice(meta, arquivo_saida, resultados)
+    print(f"\nRelatório gravado em {arquivo_saida.relative_to(RAIZ)}")
+    print(f"Índice atualizado em {ARQUIVO_INDICE.relative_to(RAIZ)}")
 
 
 if __name__ == "__main__":

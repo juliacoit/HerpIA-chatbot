@@ -102,14 +102,118 @@ como "aprovado" com esse risco em aberto.
    isso de verdade provavelmente exige uma checagem programática (ex.: comparar o nome do
    documento citado na pergunta contra a lista de documentos indexados antes de gerar, e
    injetar essa informação no prompt), não apenas mais uma instrução de texto.
-4. **Priorizar a verificação de groundedness da Fase 8** (já prevista no roadmap, e agora com
-   evidência mais forte ainda de que é urgente) — `evidencia_suficiente` hoje não pegou
-   nenhuma das duas alucinações, porque só checa presença de chunk, não se a resposta se
-   apoiou neles. O reteste desta sessão (3 execuções de G1, ver item 1) mostrou que reforço de
-   prompt sozinho **não elimina** a alucinação de forma confiável — ela reapareceu em 3/3
-   execuções depois do fix. Só uma checagem programática, executada em toda resposta,
-   resolveria isso de fato.
-5. **Considerar um modelo LLM maior/melhor**, mesmo que local — a confusão taxonômica recorrente (réptil vs. anfíbio) e as duas alucinações apontam para limitação de capacidade do modelo de 3B escolhido por custo zero (ADR 0006); vale reavaliar esse trade-off se/quando houver orçamento ou hardware melhor.
+4. ~~**Priorizar a verificação de groundedness da Fase 8**~~ **IMPLEMENTADO —
+   `backend/services/groundedness.py`, protege contra fabricação de entidade,
+   ainda não resolve G1 de forma confiável.** Substitui o antigo `evidencia_suficiente`
+   (só checava presença de chunk) por uma checagem real em três camadas, integrada em
+   `gerar_resposta` (`backend/services/geracao.py`) e exposta como `resposta_fundamentada` +
+   `justificativa_groundedness` em `PerguntarResponse`. Quando a checagem falha, a resposta é
+   substituída por uma mensagem de retenção — o texto original alucinado nunca chega ao
+   usuário, só fica logado no servidor para auditoria. Configurável via
+   `GROUNDEDNESS_VERIFICAR` (default `true`, ~dobra a latência quando o gate barato não já
+   resolve sozinho).
+
+   **As três camadas, e por que cada uma existe** (descoberto testando cada uma isolada contra
+   casos reais, não por design a priori):
+   - **Hard gate estrutural** (`checar_ancoras_estruturais`) — nomes seguidos de parênteses
+     ("Genero espécie (Autor, Ano)") ou liderando item de lista numerada/com marcador. Decide
+     sozinho, sem chamar o LLM: são posições de alta precisão neste corpus, praticamente só
+     usadas pra citação de espécie/documento. Comparação por palavra inteira (`\b...\b`), não
+     substring — a primeira versão usava substring e deixava "Verde" passar por bater dentro de
+     "esverdeada", um bug real encontrado no teste.
+   - **Soft hint** (`checar_ancoras_meio_frase`) — palavra capitalizada solta no meio de uma
+     cláusula. Só vira um aviso no prompt do juiz, nunca decide sozinha: testada como hard gate
+     primeiro, gerou falso positivo demais neste domínio (escrita institucional capitaliza
+     categoria o tempo todo — "Parques Nacionais", "Menos Preocupante" — e regex não distingue
+     isso de nome inventado; chegou a reter respostas corretas por causa disso).
+   - **Juiz por LLM** (`verificar_com_llm`) — pede pro próprio modelo local julgar a resposta
+     contra os trechos, recebendo os termos suspeitos da camada 2 como pista. Única camada que
+     em tese pegaria o padrão do G1 (vocabulário que *está* nos trechos, mas atribuído ao
+     documento errado — a checagem lexical não pega isso, as palavras aparecem de verdade).
+
+   **Teste real, isolando o juiz de texto conhecidamente alucinado** (bypassando geração, pra
+   não depender da variância de amostragem): contra a alucinação documentada do G1, o juiz
+   marcou "fundamentada" (errado) em 2 de 3 execuções antes de reforçar o prompt do juiz contra
+   linguagem hedgeada, e 3 de 3 depois (piorou, não melhorou) — mesma limitação de capacidade
+   do modelo de 3B usado tanto pra gerar quanto pra julgar. **G1 continua sem correção
+   confiável.** Já contra a fabricação do I1 ("Arapapás"), o hard gate estrutural pegou
+   corretamente, e ao testar mais uma vez ao vivo achou uma fabricação nova e mais elaborada
+   (gênero/espécie fictícios "Leptotrombidium akarai/cervi" com doença inventada) que o gate
+   original não pegava por usar formato de lista com traço em vez de parênteses — corrigido
+   adicionando o padrão de "primeira palavra de item de lista" ao hard gate.
+
+   **Resumo honesto**: essa implementação é estritamente melhor que o `evidencia_suficiente`
+   anterior (que não pegava nenhuma alucinação) e pega de forma confiável fabricação de
+   entidade nomeada (padrão I1). Não resolve de forma confiável o padrão G1 (atribuição de
+   conteúdo a documento errado) — isso precisaria de um verificador mais capaz que o modelo de
+   3B, ou de uma checagem estrutural específica (ex.: comparar `fonte` dos chunks recuperados
+   contra o tipo de documento nomeado na pergunta — SEI, por exemplo, nunca tem chunk com
+   `fonte == "sei"` porque não está indexado, então qualquer resposta que descreva "o processo
+   SEI mais recente" a partir de chunks de outra fonte já seria estruturalmente suspeita,
+   sem precisar de juízo semântico nenhum) — não implementado nesta sessão, fica como próximo
+   passo natural se o achado G1 continuar aparecendo.
+
+   **Reteste da bateria completa (20/20 casos, ver
+   `diagnosticos/baterias/2026-08-19_16h02_qwen2.5-3b-instruct.md` para o detalhe por
+   pergunta e a configuração exata da execução)**: confirma G1 sem correção (mesmo
+   padrão, juiz aprovou a alucinação de novo) e revela um problema novo — o hard gate
+   estrutural também **reteve 3 respostas corretas por falso positivo** (candidatos
+   "Representação", "Ela", "Biomas" — palavras comuns do português capitalizadas por
+   liderar item/sub-item de lista, não nomes de entidade) e o juiz por LLM rejeitou 1
+   resposta que corretamente admitia falta de evidência (H2) — 4 de 20 (20%) respostas
+   boas descartadas sem necessidade. Em compensação, pegou corretamente 2 alucinações
+   novas (C3: categoria de risco fabricada para *Caiman crocodilus* + espécie
+   "Paleosuchus inermis" que não existe nas citações; I1: classificação taxonômica
+   inventada pro "bicho-de-couro"). Ou seja, groundedness segue estritamente melhor que
+   `evidencia_suficiente`, mas não é de graça — a causa raiz do falso positivo é que
+   `_PADRAO_ITEM_LISTA_ENTIDADE` aceita uma única palavra capitalizada como candidato a
+   entidade, em vez de exigir estrutura de duas palavras (padrão binomial), como já faz
+   `_PADRAO_ENTIDADE_PARENTESES`.
+
+   **Fix aplicado e validado com mais 2 rodadas completas da bateria (16h32 e 16h38, ver
+   `diagnosticos/baterias/`)**: exigir padrão binomial de duas palavras + lista de
+   conectivos/pronomes/determinantes comuns (`_CONECTIVOS_E_PRONOMES_COMUNS`), aplicada
+   tanto no padrão de item de lista quanto no de parênteses. Resultado: o falso positivo
+   por palavra genérica isolada (o bug original) caiu de 3-4 por rodada pra 0 na última
+   rodada — o único residual restante é de natureza diferente (singular/plural: "Áreas
+   alagáveis" na resposta vs. "Área Alagável" no trecho, limitação de comparação por
+   string exata sem normalização morfológica, não corrigido, documentado como
+   limitação conhecida). As rodadas pós-fix também trouxeram a primeira captura bem-
+   sucedida do **padrão G1 pelo juiz por LLM** (rodada 16h38, caso B1: pegou uma adição
+   não apoiada de *Tropidurus pinima* à lista de répteis da Caatinga) — mostra que o
+   juiz consegue pegar esse padrão às vezes, só não de forma confiável (G1 em si
+   continua falhando nas 3 rodadas).
+
+   **Achado novo, não corrigido nesta sessão**: o juiz por LLM rejeita incorretamente
+   respostas de abstenção honesta ("não há evidência nos trechos") como não
+   fundamentadas — apareceu em H2 e F2, em 3 das 3 rodadas de hoje. É um problema de
+   calibração do prompt do juiz (`_PROMPT_JUIZ`), não do hard gate — próximo passo
+   natural é adicionar uma regra explícita tratando abstenção como automaticamente
+   fundamentada.
+5. ~~**Considerar um modelo LLM maior/melhor**, mesmo que local~~ **TESTADO — não compensa
+   dentro da família Qwen.** Hardware local (RTX 2050, 4 GB VRAM): `qwen2.5:3b-instruct`
+   cabe inteiro na GPU; `qwen2.5:7b-instruct` (Q4_K_M, ~4,7 GB) não cabe, faz offload parcial
+   pra CPU. Comparativo direto nos casos problemáticos, contra `/perguntar` real:
+   - **G1** (alucinação de atribuição de documento) — 7B falhou em 3 de 3 execuções, igual ao
+     3B, mas **mais confiante e sem hedge** (pior, não melhor: descreve o conteúdo da
+     Instrução Normativa ASAS/SEMACE como "o processo SEI mais recente" sem nenhuma ressalva).
+   - **B1** (répteis na Caatinga, confusão taxonômica) — melhora parcial: reconheceu 2 de 3
+     anfíbios corretamente e sinalizou o terceiro com uma ressalva (ainda que a frase saia
+     contraditória), contra nenhum reconhecimento no 3B.
+   - **C1** (répteis na Mata Atlântica) — ainda errou 2 de 3, mesma taxa do 3B, só que numa
+     resposta mais curta e mais confiante.
+   - **I1** (fraseio leigo) — correto, sem fabricar conteúdo, no mesmo nível do 3B já
+     corrigido pelo reforço de prompt (item 1).
+   - **Latência** — 30-93s por resposta (7B) vs. 5-24s (3B), 2 a 19x mais lento, por causa do
+     offload parcial pra CPU.
+
+   Conclusão: o problema mais grave (G1) não vem de falta de capacidade do modelo — o 7B da
+   mesma família herda o mesmo viés de "sempre sintetizar uma resposta" e fica pior nesse
+   caso específico. A confusão taxonômica melhora um pouco, mas não o suficiente pra justificar
+   a perda de latência neste hardware. Reforça a priorização do item 4 (groundedness real)
+   sobre troca de modelo. Não testado: modelos de outra família (Llama 3.1, Gemma2) ou em
+   hardware com mais VRAM — pode valer a pena revisitar se/quando houver orçamento ou hardware
+   melhor, mas trocar só de tamanho dentro do Qwen não resolveu o achado 1.
 6. ~~Menor prioridade: agrupar citações por documento na exibição~~ **IMPLEMENTADO.**
    `montar_citacoes` (`backend/services/geracao.py`) agora deduplica por
    `(fonte, documento, pagina_inicio, pagina_fim)` em vez de incluir `secao` na chave —

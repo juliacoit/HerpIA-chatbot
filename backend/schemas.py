@@ -49,3 +49,16 @@ class PerguntarResponse(BaseModel):
     resposta: str
     citacoes: list[Citacao]
     evidencia_suficiente: bool
+    resposta_fundamentada: bool = Field(
+        description=(
+            "Resultado da verificação de groundedness pós-geração (ver "
+            "backend/services/groundedness.py) — diferente de "
+            "evidencia_suficiente, que só reflete se chunks foram "
+            "recuperados. False quando a resposta original não passou na "
+            "checagem e foi substituída por uma mensagem de retenção."
+        )
+    )
+    justificativa_groundedness: str | None = Field(
+        default=None,
+        description="Motivo da retenção quando resposta_fundamentada é False.",
+    )

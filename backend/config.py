@@ -29,6 +29,8 @@ class Settings(BaseSettings):
 
     top_k_padrao: int = 5
 
+    groundedness_verificar: bool = True
+
 
 @lru_cache
 def obter_settings() -> Settings:

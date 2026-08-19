@@ -25,7 +25,7 @@ async def perguntar(
 ) -> PerguntarResponse:
     chunks = buscar_chunks_priorizados(client, modelo, settings, body.pergunta, body.top_k, body.fontes)
     try:
-        return await gerar_resposta(llm, body.pergunta, chunks)
+        return await gerar_resposta(llm, body.pergunta, chunks, settings)
     except httpx.HTTPError as exc:
         raise HTTPException(
             status_code=503,

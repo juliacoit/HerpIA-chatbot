@@ -190,6 +190,37 @@ como "aprovado" com esse risco em aberto.
    calibração do prompt do juiz (`_PROMPT_JUIZ`), não do hard gate — próximo passo
    natural é adicionar uma regra explícita tratando abstenção como automaticamente
    fundamentada.
+
+   **Dois fixes aplicados e validados em 2026-08-21** (ver
+   `diagnosticos/baterias/2026-08-21_15h32_qwen2.5-3b-instruct.md` para o reteste):
+   - **Abstenção honesta**: nova camada 0 (`checar_abstencao_honesta`,
+     `backend/services/groundedness.py`) intercepta respostas que já admitem falta de
+     evidência (lista de frases lexicais) antes de chamar o juiz por LLM, evitando a
+     rejeição incorreta descrita acima. Reteste: F2 passou de retido para
+     `resposta_fundamentada=True`, com a abstenção original preservada na resposta
+     (antes era substituída pela mensagem de retenção genérica).
+   - **G1 (atribuição de conteúdo ao SEI)**: implementada a checagem estrutural
+     sugerida no parágrafo acima ("Resumo honesto") — `_pergunta_pede_sei_nao_indexado`
+     (`backend/services/geracao.py`) recusa a pergunta antes mesmo de gerar, quando ela
+     nomeia SEI e nenhum chunk recuperado é da fonte `sei` (nunca indexada). Reteste:
+     G1 foi de 14s especulando sobre "o processo SEI mais recente" pra 0,9s de recusa
+     determinística, sem chamar o LLM de geração — resolve o achado G1 (nota 2/10) de
+     forma confiável, ao contrário do reforço de prompt (que falhava 3 de 3). Só cobre
+     SEI (única fonte hoje totalmente ausente do corpus); não generaliza pro padrão F1
+     (documento nomeado que não existe *dentro* de uma fonte já indexada), que ainda
+     precisaria de um catálogo de documentos pra comparar.
+
+   **Achado novo, não corrigido, encontrado no reteste de 2026-08-21**: I1 produziu uma
+   alucinação de um tipo ainda não catalogado — respondeu "bicho de couro no cerrado"
+   citando *aves* (Pitangus sulphuratus, Machetornis rixosa etc.), fora do domínio da
+   pergunta (répteis/anfíbios). O hard gate não pegou porque os nomes das aves
+   realmente apareciam, literalmente, em chunks recuperados de PANs de aves migratórias
+   — trazidos pela busca semântica por causa do fraseio leigo da pergunta, mas
+   irrelevantes ao tema. Ou seja: não é fabricação lexical (as palavras têm apoio nos
+   trechos), é *síntese fiel de conteúdo topicamente irrelevante* — um padrão que nem o
+   hard gate nem o juiz por LLM pegam hoje. Provavelmente precisa de um filtro de
+   relevância/score mínimo na etapa de recuperação, não mais checagem pós-geração — não
+   investigado a fundo ainda.
 5. ~~**Considerar um modelo LLM maior/melhor**, mesmo que local~~ **TESTADO — não compensa
    dentro da família Qwen.** Hardware local (RTX 2050, 4 GB VRAM): `qwen2.5:3b-instruct`
    cabe inteiro na GPU; `qwen2.5:7b-instruct` (Q4_K_M, ~4,7 GB) não cabe, faz offload parcial
@@ -223,6 +254,32 @@ como "aprovado" com esse risco em aberto.
    os padrões de A1/H1 (mesma ficha SALVE, 6 seções, sem página — colapsa para 1 citação) e de
    A3 (mesmo documento, páginas 21 e 38 — permanecem 2 citações distintas, sem perda de
    precisão de página).
+7. **Categoria B redesenhada (2026-08-21) — revelou viés de retrieval entre PANs e SALVE,
+   não corrigido.** As perguntas B1/B2/B3 originais (répteis/anfíbios por bioma, quelônios por
+   categoria de risco) roteavam quase sempre só pro SALVE via a heurística da categoria C —
+   testavam síntese multi-espécie dentro de uma fonte só, não síntese multi-fonte de verdade
+   (ver bateria de 2026-08-19: 100% das citações de B1/B2/B3 eram `[salve]`). Pedido da Júlia:
+   fazer a categoria cobrir perguntas que exigissem informação de mais de uma fonte de verdade.
+   As 3 perguntas foram reescritas (`scripts/teste_perguntas_dominio.py`) pra cruzar
+   explicitamente SALVE (status/categoria de risco) com PANs (ações/cobertura institucional) ou
+   Monitora (metodologia), e confirmadas via
+   `backend.services.roteamento.detectar_fonte_prioritaria` para não disparar a heurística de
+   priorização de SALVE.
+   **Reteste** (`diagnosticos/baterias/2026-08-21_15h50_qwen2.5-3b-instruct.md`): **B2** (Monitora
+   x PAN Quelônios) e **B3** (SALVE x cobertura por PAN) passaram a citar as duas fontes
+   pedidas e sintetizar entre elas corretamente (`resposta_fundamentada=True` nos dois). **B1**
+   (PAN do Sul x risco crítico segundo o SALVE) continuou citando só `[pans]` (8/8) — nenhuma
+   ficha SALVE veio na busca, apesar da pergunta pedir explicitamente dado do SALVE, e a
+   resposta foi retida pelo groundedness. Diferença aparente entre B1 e B3: B3 nomeia uma
+   espécie específica que casa bem com uma ficha SALVE; B1 pergunta de forma genérica ("espécies
+   avaliadas em risco crítico"), sem nome de espécie, e nesse caso os documentos de PAN dominam
+   o top_k por score puro, mesmo sem a heurística de roteamento interferindo. Decisão da Júlia:
+   manter B1 assim propositalmente, como caso documentado desse viés — não é regressão da
+   correção do roteamento (que resolve o viés por *palavra-chave*), é um viés diferente, de
+   *score* da busca vetorial sem filtro, que favorece PANs sobre SALVE quando a pergunta não
+   nomeia uma espécie. Não investigado a fundo nem corrigido — próximo passo natural seria
+   comparar diretamente os scores de chunks SALVE vs. PANs pra esse tipo de pergunta (nos moldes
+   de `diagnosticos/retrieval-cerrado-anfibios.md`, que motivou a correção original de B/C).
 
 ## Resumo por caso
 

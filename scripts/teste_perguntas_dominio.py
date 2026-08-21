@@ -71,21 +71,57 @@ CASOS_TESTE: list[dict] = [
         "pergunta": "O que é o Programa Monitora do ICMBio e como funciona a amostragem de formas de vida da vegetação?",
         "objetivo": "Confirmar recuperação e resposta correta usando material do Monitora.",
     },
-    # B — Síntese multi-fonte (política de agregação implementada)
+    # B — Síntese multi-fonte. Redesenhado em 2026-08-21: as 3 perguntas
+    # originais (répteis/anfíbios por bioma, quelônios por categoria de
+    # risco) roteavam quase sempre só pro SALVE — testavam síntese
+    # multi-ESPÉCIE dentro de uma fonte só, não síntese multi-FONTE de
+    # verdade (ver bateria 2026-08-19: B1/B2/B3 citaram 100% [salve]).
+    # As perguntas abaixo foram escolhidas/confirmadas (via
+    # backend.services.roteamento.detectar_fonte_prioritaria) para NÃO
+    # disparar a heurística de priorização de SALVE, e exigem
+    # explicitamente cruzar SALVE (status/categoria de risco) com PANs
+    # (ações/cobertura) e/ou Monitora (metodologia) — uma fonte só não
+    # basta pra responder por completo.
     {
         "id": "B1", "categoria": "B — síntese multi-fonte",
-        "pergunta": "Quais répteis ocorrem na Caatinga?",
-        "objetivo": "Verificar se a correção feita para o Cerrado generaliza para outro bioma.",
+        "pergunta": (
+            "Quais ações de conservação o PAN Herpetofauna do Sul prevê "
+            "para as espécies avaliadas em risco crítico (CR) segundo o "
+            "SALVE?"
+        ),
+        "objetivo": (
+            "Exige cruzar avaliação de risco do SALVE (quais espécies são "
+            "CR) com as ações específicas listadas no PAN do Sul para essas "
+            "espécies — uma resposta só com SALVE (sem ações) ou só com o "
+            "PAN (sem confirmar CR) estaria incompleta."
+        ),
     },
     {
         "id": "B2", "categoria": "B — síntese multi-fonte",
-        "pergunta": "Quais anfíbios estão ameaçados de extinção no Pampa?",
-        "objetivo": "Verificar generalização da correção para outro bioma + filtro de categoria de risco.",
+        "pergunta": (
+            "Como os protocolos do Programa Monitora se relacionam com as "
+            "espécies de quelônios cobertas pelo PAN Quelônios?"
+        ),
+        "objetivo": (
+            "Exige combinar uma fonte metodológica (Monitora) com uma fonte "
+            "de plano de ação (PAN Quelônios) — testa se o sistema consegue "
+            "sintetizar entre um documento de método e um de espécies/ações, "
+            "não só listar espécies de uma fonte só."
+        ),
     },
     {
         "id": "B3", "categoria": "B — síntese multi-fonte",
-        "pergunta": "Existem espécies de quelônios em categoria Vulnerável ou pior?",
-        "objetivo": "Verificar síntese multi-espécie fora do padrão “bioma”, por categoria de risco.",
+        "pergunta": (
+            "Das espécies de quelônios classificadas como Vulnerável ou "
+            "pior no SALVE, quais estão cobertas por algum PAN coordenado "
+            "pelo RAN?"
+        ),
+        "objetivo": (
+            "Metade da resposta vem do SALVE (quais espécies são VU/EN/CR) "
+            "e metade dos PANs (cobertura institucional) — checa se o "
+            "sistema atribui cada parte da resposta à fonte certa, em vez "
+            "de responder só com SALVE e ignorar a pergunta sobre PAN."
+        ),
     },
     # C — Deve disparar o roteamento para SALVE
     {
@@ -169,6 +205,43 @@ CASOS_TESTE: list[dict] = [
         "objetivo": (
             "Linguagem leiga, sem os termos técnicos que disparam a heurística de "
             "roteamento — testa se a busca semântica sozinha ainda dá conta."
+        ),
+    },
+    # J — Síntese cruzada complexa (múltiplos eixos: espécie x PAN x ameaça x status)
+    # Categoria definida em reunião com Júlia em 2026-08-19 — objetivo é testar
+    # perguntas que exigem cruzar vários eixos de dado ao mesmo tempo (não só
+    # "espécies por bioma", como em B), explicitando a facilidade de correlação
+    # que o RAG promove em relação a consultar cada fonte manualmente.
+    {
+        "id": "J1", "categoria": "J — síntese cruzada complexa (múltiplos eixos)",
+        "pergunta": (
+            "Quais as principais ameaças ambientais e o status de conservação de "
+            "cada uma das espécies de quelônios protegidas em cada um dos PANs "
+            "coordenados pelo RAN?"
+        ),
+        "objetivo": (
+            "Cruza três eixos ao mesmo tempo (PAN → espécies de quelônios "
+            "cobertas → ameaças e status de conservação de cada uma), exigindo "
+            "síntese entre PANs e SALVE por várias espécies. Bom caso pra "
+            "expor tanto sub-filtragem (política de agregação, ver achado B2) "
+            "quanto confusão de atribuição entre espécie e PAN de origem."
+        ),
+    },
+]
+
+# Backlog — perguntas planejadas para quando a fonte SEI for autorizada e
+# indexada (ver CLAUDE.md, seção "Fontes de dados"; hoje SEI está fora do
+# corpus, ver categoria G). Definido em reunião com Júlia em 2026-08-19.
+# Não incluir em CASOS_TESTE antes disso: sem chunks de fonte "sei", o
+# resultado esperado é sempre "sem evidência", o que não testa nada de novo
+# além do já coberto por G1.
+CASOS_TESTE_PENDENTES_SEI: list[dict] = [
+    {
+        "id": "K1", "categoria": "K — SEI (pendente de indexação)",
+        "pergunta": "Retorne do SEI todas as notas técnicas que envolvem espécies do PAN Sul",
+        "objetivo": (
+            "Consulta estruturada sobre metadados do SEI (tipo de documento x "
+            "PAN) — só faz sentido rodar depois que o SEI estiver indexado."
         ),
     },
 ]
@@ -315,6 +388,7 @@ def gerar_relatorio(
         "- **G** — dados restritos (SEI, ainda não indexado)",
         "- **H** — rastreabilidade de citação (checagem manual)",
         "- **I** — robustez a fraseio leigo, sem termos técnicos",
+        "- **J** — síntese cruzada complexa (múltiplos eixos: espécie x PAN x ameaça x status)",
         "",
         "Heurística de leitura (coluna \"parece reconhecer insuficiência\"): sinaliza "
         f"se a resposta contém alguma frase de {PALAVRAS_INSUFICIENCIA[:3]}... "

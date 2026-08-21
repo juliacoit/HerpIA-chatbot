@@ -41,7 +41,18 @@ arbitrária, é resultado de testar cada peça isoladamente contra casos reais
    testes diretos contra texto conhecidamente alucinado mostraram taxa de
    acerto baixa e inconsistente (0 a 1 em 3 execuções, mesmo modelo local
    que gerou a resposta original) — fica como camada complementar, não como
-   garantia.
+   garantia. O mesmo juiz fraco também erra pro outro lado: em várias
+   baterias (H2, F2) rejeitou abstenções honestas ("os trechos não contêm
+   informação sobre X") como se fossem não-fundamentadas — abstenção
+   correta não é fabricação, então `checar_abstencao_honesta` (camada 0,
+   abaixo) intercepta esse padrão antes de chamar o juiz.
+
+0. `checar_abstencao_honesta` — roda só depois do hard gate (camada 1) já
+   ter aprovado (sem isso, uma abstenção poderia mascarar uma fabricação de
+   entidade escondida no mesmo texto). Se a resposta já é, lexicalmente, uma
+   admissão de falta de evidência, não há o que o juiz por LLM possa
+   contribuir além de arriscar um falso negativo — decide sozinha (hard
+   pass), sem gastar uma chamada extra ao LLM.
 
 Falha fechada por escolha deliberada em toda a cadeia: qualquer veredito
 ambíguo do juiz (não começa com "SIM" inequívoco) é tratado como não
@@ -113,6 +124,11 @@ _CONECTIVOS_E_PRONOMES_COMUNS = {
     "algum", "alguma", "alguns", "algumas", "nenhum", "nenhuma",
     "outro", "outra", "outros", "outras", "mesmo", "mesma", "mesmos", "mesmas",
     "tal", "tais", "cujo", "cuja", "cujos", "cujas",
+    # Pronomes possessivos — faltavam (achado da revisão de baterias de
+    # 2026-08-21: "Seu habitat", "Sua categoria" retidos como falso
+    # positivo por começarem item de lista com um possessivo, não um nome).
+    "seu", "sua", "seus", "suas", "nosso", "nossa", "nossos", "nossas",
+    "meu", "minha", "meus", "minhas", "teu", "tua", "teus", "tuas",
 }
 # Palavra capitalizada no meio de uma cláusula (não a primeira da cláusula).
 _PALAVRA_CAPITALIZADA = re.compile(r"^[A-ZÀ-Ý][a-zà-ÿ]{2,}$")
@@ -122,6 +138,44 @@ _PALAVRA_CAPITALIZADA = re.compile(r"^[A-ZÀ-Ý][a-zà-ÿ]{2,}$")
 # adjacentes, quando na verdade estão em cláusulas diferentes.
 _QUEBRA_PONTUACAO = re.compile(r"[^\sA-Za-zÀ-ÿ]+")
 _PADRAO_MARCADOR_LISTA = re.compile(r"^\s*(?:\d+[.)]|[-•*])\s*")
+
+# Frases que o modelo usa de fato, neste corpus, para admitir falta de
+# evidência (mesma família de sinalização usada em
+# scripts/teste_perguntas_dominio.py:PALAVRAS_INSUFICIENCIA, mas aqui vira
+# critério de decisão, não só heurística de leitura). Abstenção honesta não
+# é fabricação — mesmo mencionando termos "sem apoio", a resposta não está
+# afirmando nada que não esteja nos trechos.
+#
+# Regex em vez de lista de substrings literais: a revisão das baterias de
+# 2026-08-21 (diagnosticos/baterias/*.md, casos F3/H2) achou, com o texto
+# original recuperado do log do servidor, duas abstenções honestas reais que
+# a lista literal original não pegava — "não contém informaçÕES" (plural,
+# a lista só tinha o singular) e "não contém NENHUMA informação" (palavra
+# inserida) — e foram incorretamente rejeitadas pelo juiz por LLM por causa
+# disso. O padrão flexível abaixo cobre singular/plural e a inserção de
+# "nenhum(a)" sem precisar enumerar cada variante à mão. Não cobre resposta
+# em outro idioma (achado F2 na mesma revisão: o modelo respondeu em inglês)
+# — isso é um problema diferente (idioma da geração, não fraseio), fora do
+# escopo desta checagem lexical em português.
+_PADRAO_ABSTENCAO = re.compile(
+    r"n[ãa]o\s+h[áa]\s+evid[êe]ncia"
+    r"|n[ãa]o\s+encontrei"
+    r"|n[ãa]o\s+h[áa]\s+informa[çc][ãa]o\s+suficiente"
+    r"|n[ãa]o\s+foi\s+poss[íi]vel\s+encontrar"
+    r"|n[ãa]o\s+consta\b"
+    r"|n[ãa]o\s+tenho\s+informa[çc][õo]es"
+    r"|base\s+de\s+conhecimento\s+n[ãa]o"
+    r"|n[ãa]o\s+h[áa]\s+dados\s+suficientes"
+    r"|n[ãa]o\s+cont[êeé]m\s+(?:nenhum[ao]\s+)?(?:informa[çc][ãa]o|informa[çc][õo]es|refer[êe]ncia)"
+    r"|n[ãa]o\s+fornece(?:m)?\s+informa[çc][õo]es"
+)
+
+
+def checar_abstencao_honesta(resposta: str) -> bool:
+    """Hard pass: a resposta já admite, em português claro, que os trechos
+    não bastam pra responder. Ver docstring do módulo (camada 0) para o
+    motivo de isso decidir sozinho em vez de ir pro juiz por LLM."""
+    return _PADRAO_ABSTENCAO.search(resposta.lower()) is not None
 
 
 def _texto_disponivel(chunks: list[ChunkRecuperado], pergunta: str) -> str:
@@ -305,6 +359,9 @@ async def verificar_groundedness(
             "precisão — seguido de parênteses ou liderando item de lista — "
             "sem apoio em nenhum trecho nem na pergunta): " + "; ".join(sem_apoio)
         )
+
+    if checar_abstencao_honesta(resposta):
+        return True, None
 
     _, termos_suspeitos = checar_ancoras_meio_frase(resposta, chunks, pergunta)
     return await verificar_com_llm(llm, pergunta, resposta, chunks, termos_suspeitos)

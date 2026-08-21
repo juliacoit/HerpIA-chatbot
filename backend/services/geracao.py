@@ -12,10 +12,35 @@ depois da geração (ver docstring daquele módulo para o motivo de precisar
 das duas camadas de checagem).
 """
 
+import re
+
 from backend.config import Settings
 from backend.schemas import ChunkRecuperado, Citacao, PerguntarResponse
 from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness
 from backend.services.llm import LLMClient
+
+# SEI nunca está indexado (ver CLAUDE.md, "Fontes de dados" — acesso restrito,
+# só documentos previamente exportados/autorizados entram na base), então
+# nenhum chunk tem fonte == "sei" hoje. Perguntas que nomeiam SEI explicitamente
+# ainda recuperam chunks de outras fontes (pans, salve...) por similaridade
+# semântica frouxa, e o achado G1 (diagnosticos/teste-perguntas-dominio.md)
+# mostrou o LLM especulando sobre "o processo SEI mais recente" a partir
+# desses chunks não relacionados — reforço de prompt sozinho não elimina isso
+# de forma confiável (falhou em 3 de 3 reexecuções). Checagem estrutural:
+# comparar o fonte dos chunks recuperados contra o tipo de documento nomeado
+# na pergunta pega esse padrão de forma determinística, sem depender do juízo
+# do LLM de 3B. Só cobre SEI (único caso hoje com fonte inteira ausente do
+# corpus) — não generaliza para "documento nomeado que não existe dentro de
+# uma fonte já indexada" (padrão do achado F1), que exigiria um catálogo de
+# documentos indexados pra comparar contra, não implementado.
+_PADRAO_MENCAO_SEI = re.compile(r"\bSEI\b")
+
+
+def _pergunta_pede_sei_nao_indexado(pergunta: str, chunks: list[ChunkRecuperado]) -> bool:
+    return bool(_PADRAO_MENCAO_SEI.search(pergunta)) and not any(
+        c.fonte == "sei" for c in chunks
+    )
+
 
 PROMPT_SISTEMA = (
     "Você é um assistente do RAN/ICMBio especializado em répteis e anfíbios "
@@ -97,6 +122,25 @@ async def gerar_resposta(
             citacoes=[],
             evidencia_suficiente=False,
             resposta_fundamentada=False,
+        )
+
+    if _pergunta_pede_sei_nao_indexado(pergunta, chunks):
+        return PerguntarResponse(
+            pergunta=pergunta,
+            resposta=(
+                "A base de conhecimento ainda não tem documentos do SEI "
+                "indexados (fonte de acesso restrito, pendente de exportação "
+                "e autorização — ver CLAUDE.md). Não é possível responder "
+                "com base em processos, notas técnicas ou outros documentos "
+                "do SEI."
+            ),
+            citacoes=[],
+            evidencia_suficiente=False,
+            resposta_fundamentada=False,
+            justificativa_groundedness=(
+                "Verificação estrutural: a pergunta menciona SEI, mas nenhum "
+                "chunk recuperado é da fonte 'sei' (ainda não indexada)."
+            ),
         )
 
     prompt = montar_prompt(pergunta, chunks)

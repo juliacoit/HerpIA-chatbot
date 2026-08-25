@@ -130,6 +130,27 @@ _CONECTIVOS_E_PRONOMES_COMUNS = {
     "seu", "sua", "seus", "suas", "nosso", "nossa", "nossos", "nossas",
     "meu", "minha", "meus", "minhas", "teu", "tua", "teus", "tuas",
 }
+# Verbo no infinitivo liderando item de lista de ação — achado da revisão da
+# bateria `2026-08-21_16h55` (caso A2): documentos institucionais (PANs)
+# listam ações no infinitivo ("Estabelecer estratégias...", "Realizar
+# diagnóstico...", "Implementar protocolo..."), padrão estruturalmente
+# idêntico ao de "Nome epíteto" liderando item de lista que
+# `_PADRAO_ITEM_LISTA_ENTIDADE` foi desenhado pra pegar — mas não é uma
+# entidade fabricada, é uma frase de ação comum em texto burocrático.
+# `_tem_suporte` exige a frase de duas palavras inteira e contígua no texto
+# disponível, então mesmo com as duas palavras presentes separadamente nos
+# trechos (vocabulário comum de PAN), a combinação exata pode não bater —
+# falso positivo mesmo sem fabricação nenhuma.
+#
+# Checagem morfológica (terminação -ar/-er/-ir na primeira palavra) em vez
+# de lista fixa de verbos: cobre a classe gramatical inteira em vez de só os
+# casos pontuais já encontrados, do mesmo jeito que os pronomes possessivos
+# tiveram que ser corrigidos um a um antes. Risco aceito: pega também
+# substantivos/adjetivos comuns com a mesma terminação ("Regular",
+# "Familiar", "Celular") — tradeoff já aceito em outras camadas deste
+# módulo (ver `checar_ancoras_meio_frase`) porque, neste domínio, o custo de
+# reter uma resposta boa é menor que o de mostrar uma fabricação (CLAUDE.md).
+_PADRAO_VERBO_INFINITIVO = re.compile(r"^[a-zà-ÿ]{3,}(?:ar|er|ir)$")
 # Palavra capitalizada no meio de uma cláusula (não a primeira da cláusula).
 _PALAVRA_CAPITALIZADA = re.compile(r"^[A-ZÀ-Ý][a-zà-ÿ]{2,}$")
 # Quebra em qualquer pontuação (vírgula, parênteses, aspas...) — só espaço
@@ -202,10 +223,14 @@ def _tem_suporte(candidato: str, texto_disponivel: str) -> bool:
 def _eh_provavel_entidade(candidato: str) -> bool:
     """Descarta candidatos do padrão binomial ("Palavra1 palavra2") cuja
     segunda palavra (ou qualquer palavra do candidato) é um conectivo,
-    artigo, pronome ou forma verbal comum — sinal de que é o início de uma
-    frase qualquer, não um nome de espécie/documento."""
+    artigo, pronome ou forma verbal comum, ou cuja primeira palavra é um
+    verbo no infinitivo (item de lista de ação, não nome de entidade) —
+    sinal de que é o início de uma frase qualquer, não um nome de
+    espécie/documento."""
     palavras = candidato.lower().split()
-    return not any(p in _CONECTIVOS_E_PRONOMES_COMUNS for p in palavras)
+    if any(p in _CONECTIVOS_E_PRONOMES_COMUNS for p in palavras):
+        return False
+    return _PADRAO_VERBO_INFINITIVO.match(palavras[0]) is None
 
 
 def checar_ancoras_estruturais(

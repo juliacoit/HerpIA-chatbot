@@ -11,3 +11,4 @@ Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente p
 | 2026-08-21T15:32:21 | [2026-08-21_15h32_qwen2.5-3b-instruct.md](2026-08-21_15h32_qwen2.5-3b-instruct.md) | `6fe1e16`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
 | 2026-08-21T15:50:33 | [2026-08-21_15h50_qwen2.5-3b-instruct.md](2026-08-21_15h50_qwen2.5-3b-instruct.md) | `6fe1e16`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 9 |
 | 2026-08-21T16:55:42 | [2026-08-21_16h55_qwen2.5-3b-instruct.md](2026-08-21_16h55_qwen2.5-3b-instruct.md) | `6fe1e16`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 4 |
+| 2026-08-25T15:45:41 | [2026-08-25_15h45_qwen2.5-3b-instruct.md](2026-08-25_15h45_qwen2.5-3b-instruct.md) | `886e28c`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |

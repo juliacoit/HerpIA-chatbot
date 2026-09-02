@@ -129,6 +129,14 @@ _CONECTIVOS_E_PRONOMES_COMUNS = {
     # positivo por começarem item de lista com um possessivo, não um nome).
     "seu", "sua", "seus", "suas", "nosso", "nossa", "nossos", "nossas",
     "meu", "minha", "meus", "minhas", "teu", "tua", "teus", "tuas",
+    # Conectivos/advérbios de transição e verbo "existir" — faltavam (achado
+    # da bateria `2026-09-02_16h51`, rodada de reteste do fix dos
+    # substantivos-gatilho abaixo): "Além disso" (item de lista começando
+    # com transição textual) e "Existem indicações" (verbo conjugado de
+    # "existir" na 3ª pessoa do plural — mesma função de "há", já coberto,
+    # mas "existir" não estava na lista) retidos por engano, mesma
+    # assinatura de falso positivo institucional/genérico do achado A2.
+    "além", "disso", "como", "existe", "existem", "existia", "existiam",
 }
 # Verbo no infinitivo liderando item de lista de ação — achado da revisão da
 # bateria `2026-08-21_16h55` (caso A2): documentos institucionais (PANs)
@@ -151,6 +159,43 @@ _CONECTIVOS_E_PRONOMES_COMUNS = {
 # módulo (ver `checar_ancoras_meio_frase`) porque, neste domínio, o custo de
 # reter uma resposta boa é menor que o de mostrar uma fabricação (CLAUDE.md).
 _PADRAO_VERBO_INFINITIVO = re.compile(r"^[a-zà-ÿ]{3,}(?:ar|er|ir)$")
+# Substantivos comuns que abrem uma frase institucional/acadêmica genérica —
+# achado da revisão da bateria `2026-08-25_15h45` (casos C3, F1, J1):
+# "Evidências indicam" (substantivo + verbo conjugado na 3ª pessoa do
+# plural, terminação "-am"/"-em", não infinitivo), "Estudos específicos"/
+# "Estudos recentes" (substantivo + adjetivo), "Mudança climática", "Práticas
+# pesqueiras" — mesma assinatura do achado A2 (frase comum de escrita
+# institucional tratada como nome de entidade só por liderar um item de
+# lista ou vir seguida de parênteses), mas a segunda palavra não é mais um
+# verbo no infinitivo, então `_PADRAO_VERBO_INFINITIVO` não cobre.
+#
+# Diferente do infinitivo (uma classe gramatical fechada, checável por
+# sufixo), verbo conjugado tem dezenas de terminações possíveis por
+# tempo/pessoa e adjetivo não tem terminação que o distinga de substantivo
+# em português — não há regra morfológica barata equivalente. Lista de
+# gatilhos fixa em vez de regra morfológica, do mesmo jeito que já foi
+# feito para conectivos/pronomes (`_CONECTIVOS_E_PRONOMES_COMUNS`), em vez de
+# tentar achar uma regra gramatical geral. Checa só a PRIMEIRA palavra do
+# candidato (como o infinitivo) porque em todos os casos catalogados até
+# agora é o substantivo genérico que abre a frase, não a segunda palavra —
+# nenhum nome de espécie/documento real no corpus começa com estas
+# palavras (gêneros são nomes próprios em latim; documentos começam com
+# "PAN", que não bate no padrão por ser todo maiúsculo).
+_SUBSTANTIVOS_GATILHO_COMUNS = {
+    "estudo", "estudos", "evidência", "evidências",
+    "dado", "dados", "resultado", "resultados",
+    "informação", "informações", "análise", "análises",
+    "registro", "registros", "levantamento", "levantamentos",
+    "pesquisa", "pesquisas", "relatório", "relatórios",
+    "observação", "observações", "medida", "medidas",
+    "avaliação", "avaliações", "investigação", "investigações",
+    "trabalho", "trabalhos", "indicador", "indicadores",
+    "estratégia", "estratégias", "diretriz", "diretrizes",
+    "norma", "normas", "política", "políticas",
+    "prática", "práticas", "mudança", "mudanças",
+    "área", "áreas", "categoria", "categorias",
+    "população", "populações", "espécie", "espécies",
+}
 # Palavra capitalizada no meio de uma cláusula (não a primeira da cláusula).
 _PALAVRA_CAPITALIZADA = re.compile(r"^[A-ZÀ-Ý][a-zà-ÿ]{2,}$")
 # Quebra em qualquer pontuação (vírgula, parênteses, aspas...) — só espaço
@@ -224,13 +269,15 @@ def _eh_provavel_entidade(candidato: str) -> bool:
     """Descarta candidatos do padrão binomial ("Palavra1 palavra2") cuja
     segunda palavra (ou qualquer palavra do candidato) é um conectivo,
     artigo, pronome ou forma verbal comum, ou cuja primeira palavra é um
-    verbo no infinitivo (item de lista de ação, não nome de entidade) —
-    sinal de que é o início de uma frase qualquer, não um nome de
-    espécie/documento."""
+    verbo no infinitivo ou um substantivo-gatilho comum (item de lista de
+    ação ou frase institucional genérica, não nome de entidade) — sinal de
+    que é o início de uma frase qualquer, não um nome de espécie/documento."""
     palavras = candidato.lower().split()
     if any(p in _CONECTIVOS_E_PRONOMES_COMUNS for p in palavras):
         return False
-    return _PADRAO_VERBO_INFINITIVO.match(palavras[0]) is None
+    if _PADRAO_VERBO_INFINITIVO.match(palavras[0]) is not None:
+        return False
+    return palavras[0] not in _SUBSTANTIVOS_GATILHO_COMUNS
 
 
 def checar_ancoras_estruturais(

@@ -3,6 +3,7 @@ beautifulsoup4
 lxml
 python-dotenv
 psycopg[binary]
+psycopg_pool  # pool de conexões do backend FastAPI (Fase 6 — logging/feedback, ver backend/db.py)
 pymupdf
 pytesseract  # OCR para PDFs escaneados — requer: sudo apt install tesseract-ocr tesseract-ocr-por
 bs4

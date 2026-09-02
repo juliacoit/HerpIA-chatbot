@@ -18,6 +18,8 @@ class Settings(BaseSettings):
 
     app_env: str = "development"
 
+    database_url: str = "postgresql://ran_user:change_me@localhost:5432/ran_chatbot"
+
     qdrant_url: str = "http://localhost:6333"
     qdrant_local_path: str | None = None
     qdrant_collection: str = "ran_herpetofauna"

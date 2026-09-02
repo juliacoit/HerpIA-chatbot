@@ -1,5 +1,7 @@
 """Modelos Pydantic compartilhados entre os routers do backend."""
 
+from typing import Literal
+
 from pydantic import BaseModel, Field
 
 
@@ -45,6 +47,15 @@ class Citacao(BaseModel):
 
 
 class PerguntarResponse(BaseModel):
+    id: int | None = Field(
+        default=None,
+        description=(
+            "ID da interação registrada no PostgreSQL (tabela `interacoes`), "
+            "para enviar de volta em POST /feedback. None quando o "
+            "PostgreSQL está indisponível nesta sessão (ver backend/db.py) "
+            "— nesse caso não é possível dar feedback desta resposta."
+        ),
+    )
     pergunta: str
     resposta: str
     citacoes: list[Citacao]
@@ -62,3 +73,13 @@ class PerguntarResponse(BaseModel):
         default=None,
         description="Motivo da retenção quando resposta_fundamentada é False.",
     )
+
+
+class FeedbackRequest(BaseModel):
+    interacao_id: int = Field(description="Valor de `id` recebido em PerguntarResponse.")
+    avaliacao: Literal[-1, 1] = Field(description="1 = positivo (thumbs up), -1 = negativo (thumbs down)")
+    comentario: str | None = Field(default=None, max_length=2000)
+
+
+class FeedbackResponse(BaseModel):
+    ok: bool = True

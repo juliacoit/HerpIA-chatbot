@@ -15,7 +15,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
-[Fase 6] Backend RAG (FastAPI)    █████░░░░░  50% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11, ver docs/processos/backend_fastapi.md); faltam logging/feedback (PostgreSQL), busca híbrida e autenticação
+[Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
 [Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
@@ -287,11 +287,12 @@ e seção "Solução Escolhida (revisada)" em
   - [x] **Validado de ponta a ponta** (2026-08-11) — Ollama instalado sem root em `~/.local`
     (ver `scripts/infra/subir_ollama.sh`, ADR 0006) e modelo `qwen2.5:3b-instruct` baixado;
     `/perguntar` testado contra a coleção real (59.085 pontos), resposta e citações corretas
-  - [ ] Testar com uma amostra maior de perguntas reais do domínio (só uma pergunta de fumaça validada até agora)
+  - [x] Testar com uma amostra maior de perguntas reais do domínio — em andamento via `scripts/teste_perguntas_dominio.py` e `diagnosticos/baterias/` (8 execuções entre 2026-08-19 e 2026-08-25, ver `diagnosticos/teste-perguntas-dominio.md`)
 - [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
-- [ ] **Configurar logging e feedback**
-  - Registrar perguntas, chunks recuperados e respostas no PostgreSQL
-  - Permitir feedback do usuário (thumbs up/down) por resposta
+- [x] **Configurar logging e feedback** (2026-09-02, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md#logging-e-feedback-postgresql))
+  - [x] Registrar perguntas, chunks recuperados e respostas no PostgreSQL — `backend/db.py` + `backend/services/logging_db.py`, tabelas `interacoes`/`feedback` criadas automaticamente no startup
+  - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
+  - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
 - [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
 
 ---

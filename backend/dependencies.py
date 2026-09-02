@@ -6,6 +6,7 @@ a cada requisição — carregar o BGE-M3 por requisição inviabilizaria a lat�
 """
 
 from fastapi import Request
+from psycopg_pool import ConnectionPool
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
@@ -22,3 +23,10 @@ def obter_modelo_embedding(request: Request) -> SentenceTransformer:
 
 def obter_llm(request: Request) -> LLMClient:
     return request.app.state.llm_client
+
+
+def obter_db_pool(request: Request) -> ConnectionPool | None:
+    """None quando o PostgreSQL não estava acessível no startup — ver
+    backend/db.py. Quem usa (routers/perguntar.py, routers/feedback.py)
+    trata esse caso sem quebrar a requisição."""
+    return request.app.state.db_pool

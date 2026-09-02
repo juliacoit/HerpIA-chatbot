@@ -27,15 +27,20 @@ do estado atual até o protótipo funcional validado com usuários.
 ### 1.1 Programa Monitora
 - [x] Script de coleta de metadados (`scripts/coleta/coleta_monitora.py`)
 - [x] Script de download de documentos (`scripts/coleta/download_documentos_monitora.py`)
-- [ ] **Executar download completo** de todos os documentos listados nos metadados
-  - Saída esperada: `01_fontes_web/monitora/documentos/`
-  - Verificar relatório de download (`relatorio_download.json`) após execução
+- [x] **Download completo executado** (2026-08-11, reexecutado 2026-09-02 sem regressão) — 127/128
+  arquivos baixados com sucesso; 1 falha residual (link morto em `researchgate.net`, fora do
+  controle do ICMBio). Saída: `01_fontes_web/monitora/<categoria>/documentos/`;
+  relatório em `relatorio_download.json`
 
 ### 1.2 PANs (Planos de Ação Nacional)
 - [x] Script de coleta de metadados (`scripts/coleta/coleta_pans.py`)
 - [x] Script de download de documentos (`scripts/coleta/download_documentos_pans.py`)
-- [ ] **Executar download completo** de todos os documentos listados nos metadados
-  - Saída esperada: `01_fontes_web/pans/documentos/`
+- [x] **Download completo executado** (2026-08-11, reexecutado 2026-09-02 sem regressão) —
+  1021/1038 arquivos baixados com sucesso; 17 falhas residuais, todas em PANs sem relação com
+  herpetofauna (corais, ariranha, peixe-boi, quelônios, etc.) — 14 links mortos (404) em sites
+  externos ao ICMBio (researchgate, repositorios de universidades, ibama.gov.br) e 3 erros de
+  conexão intermitentes; nenhuma falha nos PANs de herpetofauna. Saída:
+  `01_fontes_web/pans/<slug>/documentos/`; relatório em `relatorio_download.json`
 
 ### 1.3 SALVE
 - [x] Script de coleta implementado (`scripts/coleta/coleta_salve.py`)

@@ -21,8 +21,10 @@ backend/
 │   └── feedback.py         # POST /feedback — thumbs up/down por interação registrada
 └── services/
     ├── retrieval.py        # embeda a pergunta (BGE-M3) e consulta o Qdrant
+    ├── roteamento.py         # prioriza fonte (ex.: SALVE) p/ perguntas "lista de espécies por bioma/táxon", ver diagnosticos/retrieval-cerrado-anfibios.md
     ├── llm.py               # LLMClient (interface, ADR 0006) + OllamaLLMClient
     ├── geracao.py            # monta o prompt com os chunks e formata a resposta com citações
+    ├── groundedness.py        # verificação pós-geração (hard gate lexical + juiz por LLM) — adianta trabalho da Fase 8, ver seção abaixo
     └── logging_db.py          # grava interações/feedback no PostgreSQL (via backend/db.py)
 ```
 
@@ -68,13 +70,20 @@ Retrieval + geração: monta um prompt com os chunks recuperados, chama o LLM
 configurado (`LLMClient`, ADR 0006) e devolve a resposta com as citações
 correspondentes (deduplicadas por documento/seção/página).
 
+Internamente usa `buscar_chunks_priorizados` (`backend/services/roteamento.py`)
+em vez de `buscar_chunks` diretamente — ver "Roteamento por tipo de
+pergunta" abaixo.
+
 Mesmo request de `/buscar`. Response:
 ```json
 {
+  "id": 1,
   "pergunta": "...",
   "resposta": "...",
   "citacoes": [{"fonte": "...", "documento": "...", "secao": "...", "pagina_inicio": null, "url_origem": "..."}],
-  "evidencia_suficiente": true
+  "evidencia_suficiente": true,
+  "resposta_fundamentada": true,
+  "justificativa_groundedness": null
 }
 ```
 
@@ -82,9 +91,10 @@ Se a busca não retornar nenhum chunk, a resposta é fixa ("Não há evidência
 suficiente...", `evidencia_suficiente: false`) e o LLM **não** é chamado —
 evita gastar uma chamada de geração numa pergunta sem base para responder.
 
-`evidencia_suficiente` hoje só reflete se algum chunk foi recuperado, não se
-a resposta do LLM de fato se apoiou neles — checar isso de forma mais
-confiável é trabalho da Fase 8 (validação).
+`evidencia_suficiente` só reflete se algum chunk foi recuperado, não se a
+resposta do LLM de fato se apoiou neles — essa checagem é feita à parte por
+`resposta_fundamentada`/`justificativa_groundedness`, ver "Verificação de
+groundedness" abaixo.
 
 Se o Ollama não estiver rodando, o endpoint responde `503` com uma mensagem
 explicando como subir o serviço (em vez de vazar um erro genérico de conexão).
@@ -92,6 +102,48 @@ explicando como subir o serviço (em vez de vazar um erro genérico de conexão)
 Depois de gerar a resposta, registra a interação no PostgreSQL (ver seção
 "Logging e feedback" abaixo) e devolve o `id` gravado no campo `id` da
 resposta — `null` quando o PostgreSQL está indisponível nesta sessão.
+
+### Roteamento por tipo de pergunta
+
+`backend/services/roteamento.py` prioriza a fonte SALVE para perguntas do
+tipo "lista de espécies por bioma/táxon" (ex.: "quais anfíbios ocorrem no
+Cerrado?"), detectadas por uma heurística de palavra-chave — **não** é uma
+classificação de intenção confiável, é um atalho barato para um padrão de
+pergunta específico já mapeado como problemático
+(`diagnosticos/retrieval-cerrado-anfibios.md`, caso 4). Sem esse filtro, a
+busca pura é dominada por parágrafos genéricos sobre o bioma vindos de PANs
+de táxons não relacionados, enquanto as fichas de espécie relevantes do
+SALVE ficam abaixo do corte. Só o `/perguntar` usa essa priorização — o
+`/buscar` continua expondo a busca "crua" (`buscar_chunks`), útil justamente
+para depurar esse tipo de problema.
+
+### Verificação de groundedness
+
+`backend/services/groundedness.py` roda depois da geração, antes de devolver
+a resposta em `/perguntar`, para pegar alucinações que `evidencia_suficiente`
+não pega (chunks foram recuperados, mas a resposta do LLM extrapolou o que
+eles diziam — ver `diagnosticos/teste-perguntas-dominio.md`, achado 1). Três
+camadas, cada uma com um papel diferente porque nenhuma sozinha cobre todos
+os casos testados:
+
+1. **Hard gate lexical** (`checar_ancoras_parenteses`) — sem chamada a LLM,
+   decide sozinha. Extrai nomes seguidos de parênteses (padrão de citação
+   científica do corpus, "Genero espécie (Autor, Ano)") e confere se aparecem
+   nos chunks/pergunta; se não aparecerem, é fabricação com alta confiança.
+   É hard gate porque o juiz por LLM (camada 3), mesmo avisado do termo
+   suspeito, aprovou a fabricação em 3 de 3 execuções de teste.
+2. Checagem lexical complementar — cobre substantivo+adjetivo/verbo
+   conjugado e conectivos faltantes (exclui verbo no infinitivo do hard
+   gate, ver histórico de commits).
+3. **Juiz por LLM** — chamada extra ao LLM configurado para avaliar se a
+   resposta se sustenta nos chunks recuperados; mais fiel, mas ~dobra a
+   latência de `/perguntar`.
+
+Quando a resposta não passa na checagem, é substituída por uma mensagem de
+retenção (`resposta_fundamentada: false` + `justificativa_groundedness` com
+o motivo). Controlado por `GROUNDEDNESS_VERIFICAR` no `.env` (`true` por
+padrão) — desativar só para iteração rápida em desenvolvimento, nunca em
+produção.
 
 ### `POST /feedback`
 
@@ -163,6 +215,13 @@ integração Docker Desktop ↔ WSL (ver etapa 1 abaixo).
    nada hoje; só registrar caso a indexação real seja migrada para o
    container Docker no futuro (Fase 5.2 do roadmap).
 
+**Retestado em 2026-09-04** (subida completa do zero, ver `SETUP_PROJETO.md`):
+Ollama e backend subiram normalmente (`/saude` e `/buscar` responderam
+corretamente contra a coleção real de 59.085 pontos). PostgreSQL indisponível
+nesta sessão (`docker: command not found` no WSL — integração Docker Desktop
+↔ WSL desligada de novo) — degradação graciosa funcionou como esperado,
+`/buscar`/`/perguntar` seguiram operando normalmente sem logging.
+
 ## Filtro de acesso
 
 O roadmap da Fase 6 pede para "verificar que apenas chunks de documentos
@@ -186,19 +245,20 @@ Reaproveita as variáveis já existentes no `.env` (nenhuma variável nova):
 
 ## Rodando localmente
 
+Passo a passo completo (Ollama, backend, PostgreSQL opcional, troubleshooting)
+em [`SETUP_PROJETO.md`](../../SETUP_PROJETO.md). Resumo:
+
 ```bash
 source venv/bin/activate
 pip install -r requirements.txt   # inclui fastapi, uvicorn, pydantic-settings, httpx
 
+scripts/infra/subir_ollama.sh --pull   # precisa estar de pé para /perguntar
 uvicorn backend.main:app --reload
 # docs interativas (Swagger): http://localhost:8000/docs
 ```
 
 `/buscar` funciona sem nenhuma dependência extra (usa o Qdrant já indexado).
-`/perguntar` precisa do Ollama rodando com o modelo baixado:
-```bash
-scripts/infra/subir_ollama.sh --pull
-```
+`/perguntar` precisa do Ollama rodando com o modelo baixado.
 
 O Ollama foi instalado (2026-08-11) sem root — tarball oficial extraído em
 `~/.local` em vez do instalador padrão, porque a sessão não tinha sudo sem

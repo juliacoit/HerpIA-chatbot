@@ -26,8 +26,8 @@ if "historico" not in st.session_state:
     st.session_state.historico = []
 
 
-def _renderizar_citacao(citacao: dict) -> None:
-    partes = [f"**[{citacao['fonte']}]** {citacao['documento']}"]
+def _titulo_citacao(citacao: dict) -> str:
+    partes = [f"[{citacao['fonte']}] {citacao['documento']}"]
     if citacao.get("secao"):
         partes.append(f"— {citacao['secao']}")
     if citacao.get("pagina_inicio"):
@@ -36,10 +36,21 @@ def _renderizar_citacao(citacao: dict) -> None:
         if fim and fim != citacao["pagina_inicio"]:
             pagina += f"-{fim}"
         partes.append(f", p. {pagina}")
-    linha = " ".join(partes)
-    if citacao.get("url_origem"):
-        linha += f"  \n{citacao['url_origem']}"
-    st.markdown(linha)
+    return " ".join(partes)
+
+
+def _renderizar_citacao(citacao: dict) -> None:
+    # Um expander por citação (em vez de uma lista dentro de um expander só)
+    # porque o Streamlit não permite expander aninhado — e assim cada trecho
+    # recuperado fica colapsado por padrão, sem poluir a resposta.
+    with st.expander(_titulo_citacao(citacao), expanded=False):
+        if citacao.get("url_origem"):
+            st.markdown(citacao["url_origem"])
+        texto = citacao.get("texto")
+        if texto:
+            st.text(texto)
+        else:
+            st.caption("Texto do trecho não disponível.")
 
 
 def _registrar_feedback(item: dict, avaliacao: int) -> None:
@@ -63,9 +74,9 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
 
     citacoes = item.get("citacoes") or []
     if citacoes:
-        with st.expander(f"Fontes citadas ({len(citacoes)})"):
-            for citacao in citacoes:
-                _renderizar_citacao(citacao)
+        st.caption(f"Fontes citadas ({len(citacoes)}) — clique para ver o trecho recuperado:")
+        for citacao in citacoes:
+            _renderizar_citacao(citacao)
 
     interacao_id = item.get("id")
     feedback_enviado = item.get("feedback_enviado")

@@ -80,12 +80,22 @@ Mesmo request de `/buscar`. Response:
   "id": 1,
   "pergunta": "...",
   "resposta": "...",
-  "citacoes": [{"fonte": "...", "documento": "...", "secao": "...", "pagina_inicio": null, "url_origem": "..."}],
+  "citacoes": [{"fonte": "...", "documento": "...", "secao": "...", "pagina_inicio": null, "url_origem": "...", "texto": "..."}],
   "evidencia_suficiente": true,
   "resposta_fundamentada": true,
   "justificativa_groundedness": null
 }
 ```
+
+`citacoes[].texto` carrega o texto do chunk que originou aquela citação (o
+mesmo trecho que foi para o prompt do LLM em `montar_citacoes`,
+`backend/services/geracao.py`) — não é o documento completo, só o chunk já
+recuperado e filtrado, então não fere a regra de nunca enviar documentos
+inteiros a uma API externa (CLAUDE.md). Usado pela interface (`interface/`,
+Fase 7) para deixar cada citação auditável sem precisar abrir o documento
+original. Quando a dedupe de `montar_citacoes` (por fonte/documento/página)
+junta mais de um chunk numa única citação, `texto` é o do primeiro chunk
+daquele grupo, não uma concatenação de todos.
 
 Se a busca não retornar nenhum chunk, a resposta é fixa ("Não há evidência
 suficiente...", `evidencia_suficiente: false`) e o LLM **não** é chamado —

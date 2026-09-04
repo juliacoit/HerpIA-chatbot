@@ -107,6 +107,7 @@ def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
                 pagina_inicio=c.pagina_inicio,
                 pagina_fim=c.pagina_fim,
                 url_origem=c.url_origem,
+                texto=c.texto,
             )
         )
     return citacoes

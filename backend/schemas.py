@@ -44,6 +44,16 @@ class Citacao(BaseModel):
     pagina_inicio: int | None = None
     pagina_fim: int | None = None
     url_origem: str | None = None
+    texto: str | None = Field(
+        default=None,
+        description=(
+            "Texto do chunk recuperado que originou esta citação (o mesmo "
+            "trecho enviado ao LLM em backend/services/geracao.py, não o "
+            "documento completo — ver CLAUDE.md, regras sobre dados "
+            "sensíveis). Permite ao usuário conferir a fonte exata sem "
+            "precisar abrir o documento original."
+        ),
+    )
 
 
 class PerguntarResponse(BaseModel):

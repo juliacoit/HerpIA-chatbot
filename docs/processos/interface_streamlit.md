@@ -45,9 +45,12 @@ Abre em `http://localhost:8501`. Por padrão aponta para o backend em
     do groundedness (`backend/services/groundedness.py`) e, se houver,
     `justificativa_groundedness` como legenda.
   - Caso normal → resposta exibida direto.
-- **Citações** em um `st.expander`, uma linha por citação: fonte, documento,
-  seção (quando houver), página (quando houver) e URL de origem — os mesmos
-  campos de `Citacao`, sem reformatação além de concatenação simples.
+- **Citações**, um `st.expander` colapsado por citação (título: fonte,
+  documento, seção, página), com a URL de origem e o **texto do chunk
+  recuperado** (`Citacao.texto`, ver `backend_fastapi.md`) dentro — permite
+  conferir a fonte exata sem sair da interface. Um expander por citação em
+  vez de uma lista dentro de um único expander porque o Streamlit não
+  permite expander aninhado.
 - **Feedback por resposta** (`POST /feedback`): dois botões, "Útil"/"Não
   útil". Desabilitado (mensagem explicando o motivo) quando `id` da resposta
   é `null` — acontece quando o PostgreSQL está indisponível na sessão do

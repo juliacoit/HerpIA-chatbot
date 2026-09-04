@@ -125,3 +125,105 @@ administrativa) — registrar como mais uma variante a cobrir numa futura
 rodada de ajuste de `_SUBSTANTIVOS_GATILHO_COMUNS`/`_CONECTIVOS_E_PRONOMES_COMUNS`
 (`backend/services/groundedness.py`), sem prioridade isolada — mesmo padrão
 de "cada bateria expõe uma variação nova" já documentado.
+
+---
+
+## Correção estrutural implementada (mesmo dia, depois de discutir com a Júlia)
+
+A conclusão acima recomendava a correção estrutural (bioma como filtro de
+payload) em vez de insistir em prompt — decidido com a Júlia (ela também
+descartou busca híbrida como fix para este achado especificamente: os
+chunks certos já estavam sendo recuperados, o problema era pós-retrieval,
+então busca híbrida — que ataca recall — não tocaria nele) e implementado na
+sequência.
+
+### O que já existia (achado, não construído do zero)
+
+`scripts/processamento/gerar_chunks.py:chunkar_ficha_salve` **já gravava**
+`bioma` e `categoria_risco` no payload de cada chunk SALVE desde sempre —
+só não eram usados como filtro em lugar nenhum. Confirmado direto no Qdrant
+(`client.scroll` com filtro por `fonte=salve`, backend parado para liberar o
+lock do modo embutido): os ~20 mil chunks já indexados em 2026-08-10 tinham
+`bioma` como **string** (`"Amazônia, Cerrado, Pantanal"`) e `categoria_risco`
+como código limpo (`"LC"`, `"CR"`...). O código já pronto, mas no formato
+errado para filtro: `MatchAny(["Pantanal"])` do Qdrant precisa que o campo
+seja uma **lista**, porque a semântica é "algum elemento do array bate" —
+contra a string inteira, nunca bateria.
+
+### Implementação
+
+1. **`gerar_chunks.py`**: nova função `normalizar_biomas` (`"A, B, C"` →
+   `["A", "B", "C"]`), usada no payload do chunk SALVE (o cabeçalho de texto
+   enviado ao LLM continua com a string original, só o payload muda).
+2. **`scripts/indexacao/migrar_payload_bioma.py`** (novo): migração pontual
+   só de payload nos ~20 mil pontos SALVE já indexados — `client.set_payload`
+   por ponto, sem reencodar (o texto do chunk, e portanto o vetor, não
+   mudou). Rodado com `--dry-run` primeiro (confirmou 20.069/20.069 a
+   migrar, 0 já no formato novo), depois de verdade (~85s).
+3. **`backend/services/retrieval.py:buscar_chunks`**: dois parâmetros novos,
+   `bioma`/`categoria_risco` (`list[str] | None`), cada um vira mais um
+   `FieldCondition(..., match=MatchAny(...))` — mesmo padrão do filtro de
+   `nivel_sensibilidade` que já existia.
+4. **`backend/services/roteamento.py`**: `detectar_biomas` (vocabulário
+   fechado de 8 biomas, conferido contra os valores reais indexados) e
+   `detectar_categorias_risco` (8 códigos SALVE — código isolado maiúsculo
+   ou nome por extenso em português) — heurística de palavra-chave, mesmo
+   espírito de `detectar_fonte_prioritaria`. Só entram em ação quando a
+   fonte prioritária já é SALVE (única fonte com esses campos no payload) —
+   nunca aplicado à busca geral sem filtro de fonte, para não excluir
+   monitora/pans por engano.
+
+### Validação
+
+**Retrieval isolado (`/perguntar`, olhando só `citacoes`, 3 execuções da
+pergunta do achado 1/2):** todas as 3 vezes, os 5 chunks recuperados eram
+genuinamente do Pantanal (`Bioma:` contém "Pantanal" nos 5) — **zero
+inclusão de espécie de bioma errado**, contra o padrão anterior (quase toda
+execução incluía `Leptodactylus notoaktites`, só Mata Atlântica). A omissão
+(achado 2) melhorou mas não sumiu por completo: 4 das 5 espécies aparecem no
+texto final nas 3 execuções (antes eram 2-4 de 5, e com pelo menos uma
+errada nelas).
+
+**Bateria completa** (`scripts/teste_perguntas_dominio.py --top-k 8`, 21
+casos, ver `diagnosticos/baterias/2026-09-04_16h22_qwen2.5-3b-instruct.md`):
+6 casos não fundamentados (C2, C3, E1, F2, F3, H2) — **nenhum relacionado a
+este fix**. C2 (a própria pergunta do Pantanal, com `top_k=8` desta vez) e
+C3 (jacarés ameaçados) tiveram as citações conferidas manualmente: **100%
+das espécies citadas em C2 e C3 são genuinamente do bioma/grupo certo** — a
+retenção de ambas foi por uma variante nova do falso positivo lexical do
+hard gate (`groundedness.py`), já catalogado como classe de problema
+separada (ver achado "Nacionais"/"Atlântico" acima), não uma fabricação real
+nem um efeito colateral do filtro de bioma. F2/F3/H2 são retenções
+corretas/esperadas (fora de domínio, dado sensível, página não encontrada).
+
+**Limitação que o fix não cobre (por design, não é regressão)**: I1
+("bicho de couro que vive na água e na terra... no cerrado") continua sem
+melhorar — a pergunta não usa nenhum termo taxonômico da lista de
+`detectar_fonte_prioritaria` (não é "réptil"/"anfíbio"/etc.), então a
+heurística de roteamento nunca dispara, o filtro de bioma nunca é
+alcançado, e a busca cai na busca geral sem filtro (mesmos chunks
+irrelevantes de sempre — cobra, jacaré, PAN de manguezal). Esse caso testa
+justamente a robustez da busca semântica pura a fraseio leigo — é uma
+limitação diferente (fora do escopo deste achado), já é o propósito
+declarado do caso I1 na bateria.
+
+### Conclusão final
+
+Ao contrário do fix de prompt (achado misto, não confiável), o fix
+estrutural **eliminou a inclusão de espécie de bioma errado** nos casos
+testados (achado 1) e reduziu a omissão (achado 2) sem introduzir nenhum
+efeito colateral detectável na bateria completa. Corrige a causa raiz (LLM
+decidindo bioma por inferência de texto livre) em vez de tentar convencer o
+modelo a fazer isso melhor — confirma a limitação já conhecida do modelo
+local de 3B para instrução composta, e por que filtro determinístico no
+retrieval bate reforço de prompt sempre que o critério de filtro já existe
+como metadado estruturado. Deixa `PROMPT_SISTEMA` com a instrução de
+"revisar todos os trechos"/"usar o campo Bioma literalmente" mantida (não
+faz mal, ainda ajuda com a omissão residual), mas o mecanismo que resolve de
+verdade é o filtro, não o prompt.
+
+**Generalização possível, não feita agora**: o mesmo padrão (metadado já
+existente no payload, sem filtro) pode se aplicar a outros campos das
+fichas SALVE ainda não explorados como filtro — não investigado nesta
+sessão, próxima vez que aparecer um achado parecido vale conferir o payload
+antes de assumir que precisa extrair algo novo.

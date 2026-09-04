@@ -153,6 +153,19 @@ def agrupar_em_chunks(
 # SALVE
 # --------------------------------------------------------------------------
 
+def normalizar_biomas(bioma_bruto: str | None) -> list[str]:
+    """"Amazônia, Cerrado, Pantanal" -> ["Amazônia", "Cerrado", "Pantanal"].
+
+    Lista (não string) porque vira filtro de payload no Qdrant
+    (backend/services/retrieval.py, FieldCondition com MatchAny) — Qdrant
+    casa "algum elemento da lista é igual a X", que é exatamente o que uma
+    pergunta por bioma precisa; contra a string original ("Amazônia, Cerrado,
+    Pantanal") um MatchAny nunca bateria, porque nenhum bioma sozinho é
+    igual à string inteira.
+    """
+    return [b.strip() for b in (bioma_bruto or "").split(",") if b.strip()]
+
+
 def chunkar_ficha_salve(dados: dict, caminho_relativo: str) -> list[dict]:
     cabecalho = (
         f"Espécie: {dados.get('nome_cientifico', '')}"
@@ -182,7 +195,7 @@ def chunkar_ficha_salve(dados: dict, caminho_relativo: str) -> list[dict]:
                 "n_partes": len(agrupados),
                 "nome_comum": dados.get("nome_comum"),
                 "categoria_risco": dados.get("categoria_risco"),
-                "bioma": dados.get("bioma"),
+                "bioma": normalizar_biomas(dados.get("bioma")),
                 "doi": dados.get("doi"),
                 "url_origem": dados.get("url_origem"),
                 "caminho_local": caminho_relativo,

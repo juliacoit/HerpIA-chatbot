@@ -46,12 +46,25 @@ def buscar_chunks(
     pergunta: str,
     top_k: int,
     fontes: list[str] | None = None,
+    bioma: list[str] | None = None,
+    categoria_risco: list[str] | None = None,
 ) -> list[ChunkRecuperado]:
+    """`bioma`/`categoria_risco` só têm efeito sobre chunks que têm esses
+    campos no payload (hoje só fichas SALVE, ver gerar_chunks.py) — um chunk
+    de outra fonte sem o campo nunca bate um MatchAny, então nunca combine
+    esses filtros com uma busca sem `fontes=["salve"]`, ou eles excluiriam
+    monitora/pans inteiros por engano. Quem decide quando aplicar é
+    `backend/services/roteamento.py`, não esta função.
+    """
     vetor = modelo.encode([pergunta], normalize_embeddings=True)[0]
 
     condicoes = list(FILTRO_ACESSO)
     if fontes:
         condicoes.append(FieldCondition(key="fonte", match=MatchAny(any=fontes)))
+    if bioma:
+        condicoes.append(FieldCondition(key="bioma", match=MatchAny(any=bioma)))
+    if categoria_risco:
+        condicoes.append(FieldCondition(key="categoria_risco", match=MatchAny(any=categoria_risco)))
 
     resultados = client.query_points(
         collection_name=settings.qdrant_collection,

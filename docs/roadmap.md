@@ -294,17 +294,19 @@ e seção "Solução Escolhida (revisada)" em
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
   - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
 - [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
-- [ ] **Filtro de bioma como metadado estruturado no Qdrant**, em vez de o
-  LLM inferir bioma do texto corrido — achado de
+- [x] **Filtro de bioma/categoria de risco como metadado estruturado no
+  Qdrant**, em vez de o LLM inferir do texto corrido — achado e correção em
   [`diagnosticos/agregacao-biomas-fichas-salve.md`](../diagnosticos/agregacao-biomas-fichas-salve.md)
-  (2026-09-04): perguntas de "espécies por bioma X" às vezes incluem espécie
-  de bioma errado e/ou omitem a evidência mais forte, mesmo com o campo
-  `Bioma:` já presente no cabeçalho de cada ficha SALVE — fix de prompt
-  tentado, efeito misto/inconsistente (modelo local de 3B). Extrair `Bioma:`
-  como metadado estruturado na indexação (`scripts/processamento/gerar_chunks.py`)
-  e aplicar como filtro de payload no Qdrant
-  (`backend/services/retrieval.py`), do mesmo jeito que já existe para
-  `nivel_sensibilidade`, tira a decisão do LLM
+  (2026-09-04). Fix de prompt tentado primeiro, efeito misto/inconsistente
+  (modelo local de 3B); fix estrutural implementado na sequência —
+  `gerar_chunks.py` já gravava `bioma`/`categoria_risco` no payload SALVE,
+  só faltava normalizar `bioma` de string para lista (`normalizar_biomas`) e
+  filtrar (`backend/services/retrieval.py` + `roteamento.py`, mesmo padrão
+  de `nivel_sensibilidade`); migração de payload dos ~20 mil chunks já
+  indexados em `scripts/indexacao/migrar_payload_bioma.py` (sem reencodar).
+  Validado com 3 execuções isoladas (zero inclusão de espécie de bioma
+  errado, contra quase toda execução antes do fix) e a bateria completa de
+  21 perguntas (nenhuma das 6 retenções da bateria relacionada a este fix)
 
 ---
 

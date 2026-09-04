@@ -294,19 +294,22 @@ e seção "Solução Escolhida (revisada)" em
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
   - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
 - [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
-- [x] **Filtro de bioma/categoria de risco como metadado estruturado no
-  Qdrant**, em vez de o LLM inferir do texto corrido — achado e correção em
+- [x] **Filtro de metadado estruturado de ficha SALVE como filtro de payload
+  no Qdrant** (bioma, categoria de risco, grupo Anfíbios/Répteis, estados),
+  em vez de o LLM inferir do texto corrido — achado e correção em
   [`diagnosticos/agregacao-biomas-fichas-salve.md`](../diagnosticos/agregacao-biomas-fichas-salve.md)
   (2026-09-04). Fix de prompt tentado primeiro, efeito misto/inconsistente
-  (modelo local de 3B); fix estrutural implementado na sequência —
-  `gerar_chunks.py` já gravava `bioma`/`categoria_risco` no payload SALVE,
-  só faltava normalizar `bioma` de string para lista (`normalizar_biomas`) e
-  filtrar (`backend/services/retrieval.py` + `roteamento.py`, mesmo padrão
-  de `nivel_sensibilidade`); migração de payload dos ~20 mil chunks já
-  indexados em `scripts/indexacao/migrar_payload_bioma.py` (sem reencodar).
-  Validado com 3 execuções isoladas (zero inclusão de espécie de bioma
-  errado, contra quase toda execução antes do fix) e a bateria completa de
-  21 perguntas (nenhuma das 6 retenções da bateria relacionada a este fix)
+  (modelo local de 3B); fix estrutural implementado na sequência e depois
+  generalizado de bioma/categoria_risco (só precisavam de correção de
+  formato) para grupo/estados (campos novos, mesmo mecanismo) — mecanismo
+  genérico: `buscar_chunks(..., filtros_metadados: dict[str, list[str]])`
+  em vez de um parâmetro nomeado por campo, `detectar_filtros_salve` agrega
+  os quatro detectores, `scripts/indexacao/sincronizar_payload_salve.py`
+  sincroniza qualquer subconjunto de campos do payload já indexado a partir
+  do `chunks.jsonl` sem reencodar. Validado com detecção isolada, uma
+  pergunta ponta a ponta por campo novo, e duas baterias completas de 21
+  perguntas sem regressão — achado bônus: corrigiu de carona uma confusão
+  taxonômica antiga e não relacionada (`teste-perguntas-dominio.md`, achado 4)
 
 ---
 

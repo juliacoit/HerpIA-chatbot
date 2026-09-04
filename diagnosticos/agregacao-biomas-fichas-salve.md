@@ -227,3 +227,119 @@ existente no payload, sem filtro) pode se aplicar a outros campos das
 fichas SALVE ainda não explorados como filtro — não investigado nesta
 sessão, próxima vez que aparecer um achado parecido vale conferir o payload
 antes de assumir que precisa extrair algo novo.
+
+---
+
+## Generalização para grupo/estados (mesmo dia, a pedido da Júlia)
+
+Em vez de esperar o próximo achado parecido para generalizar, a Júlia pediu
+para generalizar já — checar se o mesmo padrão (metadado sem filtro) valia
+para outros campos das fichas SALVE.
+
+### Campos novos encontrados
+
+Além de `bioma`/`categoria_risco`, as fichas de origem
+(`07_processados/textos_extraidos/salve/*.json`) têm dois campos
+estruturados que **não** estavam no chunk nem no payload — precisaram ser
+adicionados, não só normalizados:
+
+- **`grupo`**: `"Anfíbios"` ou `"Répteis"` — vocabulário fechado de 2
+  valores, conferido nas 2086 fichas (`collections.Counter`, sem surpresa).
+- **`estados`**: string separada por vírgula, mesmo formato que `bioma`
+  tinha antes do fix (27 valores possíveis — os 26 estados + DF, conferido
+  contra os dados reais).
+
+### Implementação
+
+1. **`gerar_chunks.py`**: `normalizar_biomas` renomeada para
+   `normalizar_lista_csv` (função já era genérica, só o nome não refletia
+   isso) e reaproveitada para `estados`; `grupo` adicionado ao payload do
+   chunk (string única, mesmo padrão de `categoria_risco` — não precisa de
+   lista). Cabeçalho do chunk (o texto que vai pro prompt do LLM) ganhou as
+   linhas `Grupo:` e `Estados:`, mesmo padrão de `Bioma:`/`Categoria de
+   risco:` já existentes.
+2. **`backend/services/retrieval.py`**: em vez de crescer `buscar_chunks`
+   com mais dois parâmetros nomeados (`grupo`, `estados`, depois de já ter
+   `bioma`, `categoria_risco` — ficaria repetitivo a cada campo novo),
+   `bioma`/`categoria_risco` foram substituídos por um único parâmetro
+   genérico `filtros_metadados: dict[str, list[str]] | None`, cada chave
+   virando um `FieldCondition` — extensível a qualquer campo futuro sem
+   tocar nesta função de novo.
+3. **`backend/services/roteamento.py`**: `detectar_grupo` reaproveita o
+   MESMO subconjunto de palavras já validado em `_PADRAO_TAXON_HERPETOFAUNA`
+   (anfíbios/anuros vs. répteis/serpentes/lagartos/quelônios/jacarés) — não
+   toca no padrão existente (testado e ajustado ao longo de várias
+   baterias), só separa em dois grupos as palavras que já disparavam a
+   priorização. `detectar_estados` reaproveita o mesmo mecanismo de
+   `detectar_biomas`, generalizado num helper `_buscar_por_dicionario` —
+   que também corrigiu um bug real da primeira versão de `detectar_biomas`
+   no processo: casamento por substring solto (`chave in pergunta_lower`)
+   em vez de `\b...\b`, que deixaria nomes de estado curtos casarem dentro
+   de outra palavra por acaso (ex.: "reparável" contém "pará" como
+   substring). `detectar_filtros_salve` agrega os quatro detectores num só
+   dict, para não espalhar a lista de campos pelo código que chama.
+4. **Migração do payload já indexado**: `scripts/indexacao/migrar_payload_bioma.py`
+   (script pontual, só bioma) foi substituído por
+   `scripts/indexacao/sincronizar_payload_salve.py` — genérico, calcula o
+   ID do ponto direto do `chunk_id` (mesmo `uuid5`/namespace de
+   `indexar_chunks.py`) em vez de escanear o Qdrant primeiro, e sincroniza
+   qualquer subconjunto de `CAMPOS_METADADOS` a partir do `chunks.jsonl` —
+   reduz o próximo campo novo a "adicionar o nome na lista e rodar o
+   script", sem escrever migração nova. Rodado (dry-run depois de verdade)
+   sobre os ~20 mil chunks SALVE, 0 erros — sincronizou `bioma` (mesmo
+   valor de antes, idempotente), `categoria_risco` (sem mudança de
+   formato), `grupo` e `estados` (novos).
+
+**Limitação aceita conscientemente**: o cabeçalho do chunk (texto enviado
+ao LLM) só ganha as linhas `Grupo:`/`Estados:` na *próxima reindexação
+completa* — a sincronização foi só de payload/metadado (`set_payload`, sem
+reencodar), então o campo `texto` dos chunks já indexados continua no
+formato antigo. Isso não afeta a correção do filtro (que opera sobre
+payload, antes do LLM ver qualquer texto), só a transparência de citação
+(o usuário não vê ainda a linha "Estados:" dentro do trecho expandido na
+interface). Foi verificado: os filtros `grupo`/`estados` funcionam
+corretamente mesmo com o `texto` desatualizado.
+
+### Validação
+
+Detecção isolada (sem LLM) confirmada para combinações de bioma + categoria
++ grupo + estados numa mesma pergunta (ex.: "Quais anfíbios classificados
+como Vulnerável (VU) existem no Cerrado?" → `{bioma: [Cerrado],
+categoria_risco: [VU], grupo: [Anfíbios]}`).
+
+Ponta a ponta via `/perguntar`: "Quais répteis ocorrem em Minas Gerais?"
+retornou 5 fichas — todas de répteis (cágado, duas serpentes, lagarto,
+anfisbenídeo — zero anfíbio), e as referências bibliográficas de todas
+citam a revisão da lista de fauna ameaçada de Minas Gerais (evidência
+indireta forte de que o filtro de `estados` também funcionou, já que o
+cabeçalho ainda não expõe a linha `Estados:` para checagem direta — ver
+limitação acima).
+
+**Bateria completa retestada** (`scripts/teste_perguntas_dominio.py --top-k 8`,
+ver `diagnosticos/baterias/2026-09-04_16h39_qwen2.5-3b-instruct.md`): sem
+regressão — os 6 casos não fundamentados desta rodada (B3, C3, F2, G1, H1,
+I1) são todos falso positivo lexical já catalogado do hard gate ou
+retenção correta/esperada, nenhum causado pelos filtros novos.
+
+**Achado bônus**: C1 ("Lista de espécies de répteis ameaçados na Mata
+Atlântica") voltou com 4 espécies, todas répteis — zero anfíbio misturado.
+`teste-perguntas-dominio.md` (achado 4, catalogado bem antes desta sessão)
+registrou exatamente essa pergunta como exemplo de "confusão taxonômica
+recorrente do modelo qwen2.5:3b", na época atribuída a erro de síntese do
+LLM. Com `grupo` restringindo o retrieval a só répteis antes da geração, o
+modelo não tem mais chunk de anfíbio disponível pra confundir — o mesmo
+mecanismo do fix de bioma parece ter corrigido de carona um achado antigo e
+não relacionado ao Pantanal.
+
+### Conclusão
+
+O padrão generaliza bem: dos quatro campos, dois (`bioma`,
+`categoria_risco`) só precisaram de correção de formato, dois (`grupo`,
+`estados`) precisaram ser adicionados — mas o mecanismo de filtro
+(`filtros_metadados` genérico) e de detecção (`_buscar_por_dicionario`
+genérico) é o mesmo para os quatro, e a extensão para os dois campos novos
+não exigiu tocar em `buscar_chunks_priorizados` além de trocar dois
+parâmetros nomeados por um dict. Não há mais nenhum campo evidente nas
+fichas SALVE (`nome_comum`, `doi`, `url_origem`, `data_coleta`, `slug`,
+`id_ficha`, nomes) que se beneficie do mesmo tratamento — são identificadores
+ou texto livre, não categorias fechadas.

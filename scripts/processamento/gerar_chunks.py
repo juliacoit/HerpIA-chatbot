@@ -153,25 +153,28 @@ def agrupar_em_chunks(
 # SALVE
 # --------------------------------------------------------------------------
 
-def normalizar_biomas(bioma_bruto: str | None) -> list[str]:
+def normalizar_lista_csv(valor_bruto: str | None) -> list[str]:
     """"Amazônia, Cerrado, Pantanal" -> ["Amazônia", "Cerrado", "Pantanal"].
 
-    Lista (não string) porque vira filtro de payload no Qdrant
-    (backend/services/retrieval.py, FieldCondition com MatchAny) — Qdrant
-    casa "algum elemento da lista é igual a X", que é exatamente o que uma
-    pergunta por bioma precisa; contra a string original ("Amazônia, Cerrado,
-    Pantanal") um MatchAny nunca bateria, porque nenhum bioma sozinho é
-    igual à string inteira.
+    Usado para todo campo de ficha SALVE que vem como string separada por
+    vírgula mas precisa virar filtro de payload no Qdrant
+    (backend/services/retrieval.py, FieldCondition com MatchAny) — hoje
+    `bioma` e `estados`. Lista, não string, porque o MatchAny do Qdrant casa
+    "algum elemento da lista é igual a X"; contra a string original
+    ("Amazônia, Cerrado, Pantanal") nunca bateria, porque nenhum valor
+    sozinho é igual à string inteira.
     """
-    return [b.strip() for b in (bioma_bruto or "").split(",") if b.strip()]
+    return [v.strip() for v in (valor_bruto or "").split(",") if v.strip()]
 
 
 def chunkar_ficha_salve(dados: dict, caminho_relativo: str) -> list[dict]:
     cabecalho = (
         f"Espécie: {dados.get('nome_cientifico', '')}"
         + (f" ({dados.get('nome_comum')})" if dados.get("nome_comum") else "")
+        + f"\nGrupo: {dados.get('grupo', '')}"
         + f"\nCategoria de risco: {dados.get('categoria_risco_completa', '')}"
         + f"\nBioma: {dados.get('bioma', '')}"
+        + f"\nEstados: {dados.get('estados', '')}"
         + f"\nDOI: {dados.get('doi', '')}"
     )
 
@@ -194,8 +197,10 @@ def chunkar_ficha_salve(dados: dict, caminho_relativo: str) -> list[dict]:
                 "parte": parte,
                 "n_partes": len(agrupados),
                 "nome_comum": dados.get("nome_comum"),
+                "grupo": dados.get("grupo"),
                 "categoria_risco": dados.get("categoria_risco"),
-                "bioma": normalizar_biomas(dados.get("bioma")),
+                "bioma": normalizar_lista_csv(dados.get("bioma")),
+                "estados": normalizar_lista_csv(dados.get("estados")),
                 "doi": dados.get("doi"),
                 "url_origem": dados.get("url_origem"),
                 "caminho_local": caminho_relativo,

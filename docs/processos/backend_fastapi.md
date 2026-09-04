@@ -127,6 +127,17 @@ SALVE ficam abaixo do corte. Só o `/perguntar` usa essa priorização — o
 `/buscar` continua expondo a busca "crua" (`buscar_chunks`), útil justamente
 para depurar esse tipo de problema.
 
+Quando a fonte prioritária é SALVE, `detectar_filtros_salve` também tenta
+extrair metadado estruturado da própria pergunta — bioma, categoria de
+risco (CR/EN/VU/...), grupo (Anfíbios/Répteis) e estado — e passa como
+`filtros_metadados` para `buscar_chunks`, virando filtro de payload
+determinístico no Qdrant (ver `diagnosticos/agregacao-biomas-fichas-salve.md`).
+Existe porque o LLM, sozinho, não decidia de forma confiável se uma ficha
+cobria o bioma/categoria perguntado — incluía espécie fora do critério ou
+omitia a evidência mais forte, mesmo com o campo certo já no texto do
+chunk. Só tem efeito em chunks SALVE (única fonte com esses campos no
+payload).
+
 ### Verificação de groundedness
 
 `backend/services/groundedness.py` roda depois da geração, antes de devolver

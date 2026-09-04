@@ -46,14 +46,19 @@ def buscar_chunks(
     pergunta: str,
     top_k: int,
     fontes: list[str] | None = None,
-    bioma: list[str] | None = None,
-    categoria_risco: list[str] | None = None,
+    filtros_metadados: dict[str, list[str]] | None = None,
 ) -> list[ChunkRecuperado]:
-    """`bioma`/`categoria_risco` só têm efeito sobre chunks que têm esses
-    campos no payload (hoje só fichas SALVE, ver gerar_chunks.py) — um chunk
-    de outra fonte sem o campo nunca bate um MatchAny, então nunca combine
-    esses filtros com uma busca sem `fontes=["salve"]`, ou eles excluiriam
-    monitora/pans inteiros por engano. Quem decide quando aplicar é
+    """`filtros_metadados` é genérico — `{"bioma": [...]}`,
+    `{"categoria_risco": [...]}`, `{"grupo": [...]}`, `{"estados": [...]}`,
+    qualquer combinação — cada chave vira um `FieldCondition` com `MatchAny`
+    (bate se QUALQUER elemento do valor do campo, quando o payload guarda
+    lista, ou o próprio valor, quando é string única, estiver na lista
+    passada). Só tem efeito sobre chunks que têm o campo no payload — hoje só
+    fichas SALVE têm bioma/categoria_risco/grupo/estados (ver
+    `scripts/processamento/gerar_chunks.py:chunkar_ficha_salve`); um chunk de
+    outra fonte sem o campo nunca bate, então nunca combine esses filtros com
+    uma busca sem `fontes=["salve"]`, ou eles excluiriam monitora/pans
+    inteiros por engano. Quem decide quando aplicar é
     `backend/services/roteamento.py`, não esta função.
     """
     vetor = modelo.encode([pergunta], normalize_embeddings=True)[0]
@@ -61,10 +66,9 @@ def buscar_chunks(
     condicoes = list(FILTRO_ACESSO)
     if fontes:
         condicoes.append(FieldCondition(key="fonte", match=MatchAny(any=fontes)))
-    if bioma:
-        condicoes.append(FieldCondition(key="bioma", match=MatchAny(any=bioma)))
-    if categoria_risco:
-        condicoes.append(FieldCondition(key="categoria_risco", match=MatchAny(any=categoria_risco)))
+    for campo, valores in (filtros_metadados or {}).items():
+        if valores:
+            condicoes.append(FieldCondition(key=campo, match=MatchAny(any=valores)))
 
     resultados = client.query_points(
         collection_name=settings.qdrant_collection,

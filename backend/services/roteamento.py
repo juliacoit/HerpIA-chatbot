@@ -1,6 +1,6 @@
-"""Priorização heurística de fonte (e, quando aplicável, de bioma/categoria
-de risco) para perguntas de "lista de espécies por bioma/táxon" — ex.:
-"quais anfíbios ocorrem no Cerrado?".
+"""Priorização heurística de fonte (e, quando aplicável, de metadado
+estruturado de ficha SALVE) para perguntas de "lista de espécies por
+bioma/táxon" — ex.: "quais anfíbios ocorrem no Cerrado?".
 
 Contexto (ver diagnosticos/retrieval-cerrado-anfibios.md, caso 4): sem filtro
 de fonte, esse tipo de pergunta é dominado por parágrafos genéricos sobre o
@@ -9,17 +9,19 @@ realmente relevante — fichas de espécie do SALVE — fica abaixo do corte.
 Isolar `fontes=["salve"]` já reproduz boa precisão para esse padrão de
 pergunta (caso 4 do relatório).
 
-Bioma/categoria de risco (ver diagnosticos/agregacao-biomas-fichas-salve.md):
+Metadado estruturado da ficha SALVE — bioma, categoria de risco, grupo
+(Anfíbios/Répteis), estados (ver diagnosticos/agregacao-biomas-fichas-salve.md):
 mesmo priorizando SALVE, o LLM ainda tinha que inferir do texto corrido se
-uma ficha cobria o bioma/categoria perguntado — e errava em ambas as
-direções (incluía espécie de bioma errado, omitia a evidência mais forte).
-Como toda ficha SALVE já carrega `bioma`/`categoria_risco` como metadado
-estruturado (`gerar_chunks.py`), dá para filtrar de forma determinística no
-Qdrant em vez de depender do LLM — tira a decisão da geração, mesmo
-princípio da priorização de fonte acima. Só se aplica quando a fonte
-prioritária já é SALVE (a única fonte com esses campos); nunca combinado com
-uma busca sem filtro de fonte, ou excluiria monitora/pans inteiros (ver
-docstring de `buscar_chunks`).
+uma ficha cobria o critério perguntado — e errava em ambas as direções
+(incluía espécie fora do critério, omitia a evidência mais forte). Como toda
+ficha SALVE já carrega esses campos como metadado estruturado
+(`gerar_chunks.py`), dá para filtrar de forma determinística no Qdrant em
+vez de depender do LLM — tira a decisão da geração, mesmo princípio da
+priorização de fonte acima. `detectar_filtros_salve` agrega os quatro
+detectores; cada um só entra no filtro se achar algo na pergunta. Só se
+aplica quando a fonte prioritária já é SALVE (a única fonte com esses
+campos); nunca combinado com uma busca sem filtro de fonte, ou excluiria
+monitora/pans inteiros (ver docstring de `buscar_chunks`).
 
 Este módulo não altera `buscar_chunks` (backend/services/retrieval.py) nem o
 endpoint de depuração `/buscar` (backend/routers/busca.py) — só o endpoint
@@ -61,11 +63,32 @@ _PADRAO_OCORRENCIA = re.compile(
 
 FONTE_PRIORITARIA_PADRAO = "salve"
 
+
+def _buscar_por_dicionario(pergunta: str, dicionario: dict[str, str]) -> list[str] | None:
+    """Helper genérico para os campos "vocabulário fechado, valor de payload
+    já normalizado" das fichas SALVE (bioma, estados — mesmo padrão vale
+    para o próximo campo que precisar disso). `dicionario` mapeia alias em
+    minúsculas (com e sem acento, quando plausível) -> valor exatamente como
+    aparece no payload (o que o filtro precisa bater).
+
+    Casamento por `\\b...\\b`, não substring solto: chaves curtas (ex.: um
+    nome de estado) podem aparecer dentro de outra palavra por acaso
+    ("reparável" contém "pará") — ver diagnosticos/agregacao-biomas-fichas-salve.md
+    para o histórico de por que esse cuidado importa aqui.
+    """
+    pergunta_lower = pergunta.lower()
+    encontrados = {
+        canonico
+        for alias, canonico in dicionario.items()
+        if re.search(rf"\b{re.escape(alias)}\b", pergunta_lower)
+    }
+    return sorted(encontrados) or None
+
+
 # Vocabulário fechado (8 valores) — o mesmo usado em `bioma` nas fichas SALVE
-# (ver `scripts/processamento/gerar_chunks.py:normalizar_biomas`), conferido
-# contra os dados reais indexados. Não cobre "Desconhecido" (não é um bioma
-# perguntável). Chave em minúsculas/sem forma alternativa comum -> valor
-# exatamente como aparece no payload (o que o filtro precisa bater).
+# (ver `scripts/processamento/gerar_chunks.py:normalizar_lista_csv`),
+# conferido contra os dados reais indexados. Não cobre "Desconhecido" (não é
+# um bioma perguntável).
 _BIOMAS_CONHECIDOS = {
     "amazônia": "Amazônia", "amazonia": "Amazônia",
     "caatinga": "Caatinga",
@@ -93,16 +116,92 @@ _PADROES_CATEGORIA_RISCO = {
     "NA": re.compile(r"\bNA\b|(?i:n[ãa]o\s+avaliad[ao]s?)"),
 }
 
+# Mesmo subconjunto de palavras já validado em `_PADRAO_TAXON_HERPETOFAUNA`
+# (não adiciona vocabulário novo nem toca naquele padrão — ele já decide
+# quando priorizar SALVE, testado e ajustado ao longo de várias baterias;
+# aqui só refina, entre os casos que já disparam a priorização, qual grupo
+# taxonômico foi pedido). "Herpetofauna" fica de fora de propósito — cobre
+# os dois grupos, não deve virar filtro.
+_TERMOS_ANFIBIOS = re.compile(r"\b(anf[íi]bios?|anuros?)\b", re.IGNORECASE)
+_TERMOS_REPTEIS = re.compile(
+    r"\b(r[ée]pteis?|serpentes?|lagartos?|quel[ôo]nios?|jacar[ée]s?)\b", re.IGNORECASE
+)
+
+# 26 estados + DF. Sem alias sem acento para "Pará" — "para" é preposição
+# comum demais, geraria falso positivo constante. "Acre" tem risco residual
+# documentado (também é uma palavra comum, "sabor acre") — aceito, mesmo
+# padrão de imprecisão tolerada já usado nos outros vocabulários fechados
+# deste módulo (ver `criticamente em perigo` casando CR e EN).
+_ESTADOS_CONHECIDOS = {
+    "acre": "Acre",
+    "alagoas": "Alagoas",
+    "amapá": "Amapá", "amapa": "Amapá",
+    "amazonas": "Amazonas",
+    "bahia": "Bahia",
+    "ceará": "Ceará", "ceara": "Ceará",
+    "distrito federal": "Distrito Federal",
+    "espírito santo": "Espírito Santo", "espirito santo": "Espírito Santo",
+    "goiás": "Goiás", "goias": "Goiás",
+    "maranhão": "Maranhão", "maranhao": "Maranhão",
+    "mato grosso do sul": "Mato Grosso do Sul",
+    "mato grosso": "Mato Grosso",
+    "minas gerais": "Minas Gerais",
+    "pará": "Pará",
+    "paraíba": "Paraíba", "paraiba": "Paraíba",
+    "paraná": "Paraná", "parana": "Paraná",
+    "pernambuco": "Pernambuco",
+    "piauí": "Piauí", "piaui": "Piauí",
+    "rio de janeiro": "Rio de Janeiro",
+    "rio grande do norte": "Rio Grande do Norte",
+    "rio grande do sul": "Rio Grande do Sul",
+    "rondônia": "Rondônia", "rondonia": "Rondônia",
+    "roraima": "Roraima",
+    "santa catarina": "Santa Catarina",
+    "são paulo": "São Paulo", "sao paulo": "São Paulo",
+    "sergipe": "Sergipe",
+    "tocantins": "Tocantins",
+}
+
 
 def detectar_biomas(pergunta: str) -> list[str] | None:
-    pergunta_lower = pergunta.lower()
-    encontrados = {v for k, v in _BIOMAS_CONHECIDOS.items() if k in pergunta_lower}
-    return sorted(encontrados) or None
+    return _buscar_por_dicionario(pergunta, _BIOMAS_CONHECIDOS)
+
+
+def detectar_estados(pergunta: str) -> list[str] | None:
+    return _buscar_por_dicionario(pergunta, _ESTADOS_CONHECIDOS)
 
 
 def detectar_categorias_risco(pergunta: str) -> list[str] | None:
     encontradas = [codigo for codigo, padrao in _PADROES_CATEGORIA_RISCO.items() if padrao.search(pergunta)]
     return encontradas or None
+
+
+def detectar_grupo(pergunta: str) -> list[str] | None:
+    grupos = []
+    if _TERMOS_ANFIBIOS.search(pergunta):
+        grupos.append("Anfíbios")
+    if _TERMOS_REPTEIS.search(pergunta):
+        grupos.append("Répteis")
+    return grupos or None
+
+
+def detectar_filtros_salve(pergunta: str) -> dict[str, list[str]]:
+    """Agrega todos os detectores de metadado estruturado de fichas SALVE
+    num único dict pronto para `buscar_chunks(..., filtros_metadados=...)`.
+    Cada chave só entra se o detector achou algo — um dict vazio é o valor
+    correto quando nada foi detectado (equivalente a "sem filtro").
+    """
+    filtros: dict[str, list[str]] = {}
+    for campo, detector in (
+        ("bioma", detectar_biomas),
+        ("categoria_risco", detectar_categorias_risco),
+        ("grupo", detectar_grupo),
+        ("estados", detectar_estados),
+    ):
+        valores = detector(pergunta)
+        if valores:
+            filtros[campo] = valores
+    return filtros
 
 
 def detectar_fonte_prioritaria(pergunta: str) -> str | None:
@@ -149,17 +248,14 @@ def buscar_chunks_priorizados(
     if not fonte_prioritaria:
         return buscar_chunks(client, modelo, settings, pergunta, top_k, None)
 
-    # bioma/categoria_risco só existem no payload de fichas SALVE — só faz
-    # sentido aplicar esse filtro extra quando a fonte prioritária já é
-    # SALVE (ver docstring do módulo e de buscar_chunks).
-    biomas = categorias = None
-    if fonte_prioritaria == "salve":
-        biomas = detectar_biomas(pergunta)
-        categorias = detectar_categorias_risco(pergunta)
+    # bioma/categoria_risco/grupo/estados só existem no payload de fichas
+    # SALVE — só faz sentido aplicar esse filtro extra quando a fonte
+    # prioritária já é SALVE (ver docstring do módulo e de buscar_chunks).
+    filtros_metadados = detectar_filtros_salve(pergunta) if fonte_prioritaria == "salve" else None
 
     prioritarios = buscar_chunks(
         client, modelo, settings, pergunta, top_k, [fonte_prioritaria],
-        bioma=biomas, categoria_risco=categorias,
+        filtros_metadados=filtros_metadados,
     )
 
     faltam = top_k - len(prioritarios)

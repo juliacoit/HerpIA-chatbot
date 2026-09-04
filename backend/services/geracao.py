@@ -73,7 +73,20 @@ PROMPT_SISTEMA = (
     "informações desses trechos, citando cada um deles — não exija um "
     "trecho único e completo antes de responder. Isso é diferente de "
     "especular: síntese combina o que os trechos realmente dizem, "
-    "especulação inventa o que eles provavelmente diriam."
+    "especulação inventa o que eles provavelmente diriam. "
+    "Revise TODOS os trechos fornecidos antes de responder, não só os "
+    "primeiros — um trecho mais adiante na lista pode conter a evidência "
+    "mais direta (ex.: uma seção 'População' descrevendo ocorrência real "
+    "numa área específica é mais confiável que uma lista de referências "
+    "bibliográficas). Quando a pergunta pedir espécies de um bioma "
+    "específico e os trechos forem fichas de espécie no formato 'Espécie: "
+    "... Bioma: ...', o campo 'Bioma:' é a fonte confiável para decidir se "
+    "a espécie ocorre ali — use exatamente essa lista, não infira do resto "
+    "do texto. Inclua só espécies cujo campo 'Bioma:' contenha o bioma "
+    "perguntado, mesmo que outra parte do trecho (ex.: uma referência "
+    "bibliográfica) mencione esse bioma em outro contexto; e não inclua "
+    "uma espécie de bioma diferente só porque ela apareceu entre os "
+    "trechos recuperados."
 )
 
 

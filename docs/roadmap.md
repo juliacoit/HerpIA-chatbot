@@ -294,6 +294,17 @@ e seção "Solução Escolhida (revisada)" em
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
   - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
 - [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
+- [ ] **Filtro de bioma como metadado estruturado no Qdrant**, em vez de o
+  LLM inferir bioma do texto corrido — achado de
+  [`diagnosticos/agregacao-biomas-fichas-salve.md`](../diagnosticos/agregacao-biomas-fichas-salve.md)
+  (2026-09-04): perguntas de "espécies por bioma X" às vezes incluem espécie
+  de bioma errado e/ou omitem a evidência mais forte, mesmo com o campo
+  `Bioma:` já presente no cabeçalho de cada ficha SALVE — fix de prompt
+  tentado, efeito misto/inconsistente (modelo local de 3B). Extrair `Bioma:`
+  como metadado estruturado na indexação (`scripts/processamento/gerar_chunks.py`)
+  e aplicar como filtro de payload no Qdrant
+  (`backend/services/retrieval.py`), do mesmo jeito que já existe para
+  `nivel_sensibilidade`, tira a decisão do LLM
 
 ---
 

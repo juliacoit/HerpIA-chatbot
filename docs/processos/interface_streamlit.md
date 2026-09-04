@@ -73,9 +73,13 @@ instalar, sem sudo interativo disponível neste ambiente.
 
 Observação de qualidade (não é bug da interface): na resposta sobre anuros
 do Pantanal, o texto final só menciona 3 das 5 espécies presentes nas
-citações — mesma classe de sub-filtragem/agregação incompleta já
-catalogada em `diagnosticos/teste-perguntas-dominio.md` (achado B2/limitação
-do modelo local qwen2.5:3b), não uma regressão nova.
+citações — investigado a fundo em
+[`diagnosticos/agregacao-biomas-fichas-salve.md`](../../diagnosticos/agregacao-biomas-fichas-salve.md)
+graças ao campo `Citacao.texto` (achado real: o modelo às vezes inclui
+espécie de bioma errado e/ou omite a evidência mais forte, não segue de
+forma confiável o campo estruturado `Bioma:` do cabeçalho da ficha SALVE —
+fix de prompt tentado, efeito misto, solução estrutural recomendada é
+filtro de payload no Qdrant em vez de depender do LLM).
 
 ## O que falta (próximas sessões)
 

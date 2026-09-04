@@ -59,13 +59,26 @@ Abre em `http://localhost:8501`. Por padrão aponta para o backend em
 - **Indicador de saúde do backend** na sidebar (`GET /saude`), com mensagem
   de onde olhar (`SETUP_PROJETO.md`) se estiver fora do ar.
 
+## Testado
+
+**2026-09-04, manualmente pela Júlia** em http://localhost:8501, contra o
+backend real (59.085 pontos indexados): três perguntas — jararaca-ilhoa
+(CR, citações PANs+SALVE corretas), anuros do Pantanal (roteamento
+heurístico para SALVE funcionou, ver `backend/services/roteamento.py`) e
+uma pergunta sobre SEI (recusada corretamente, fonte não indexada). Fluxo
+completo confirmado: pergunta → resposta com citações → expander por
+citação com o texto do chunk. Não pôde ser testado por Claude Code nesta
+sessão — Playwright exige o canal "chrome", que precisa de `apt`/root para
+instalar, sem sudo interativo disponível neste ambiente.
+
+Observação de qualidade (não é bug da interface): na resposta sobre anuros
+do Pantanal, o texto final só menciona 3 das 5 espécies presentes nas
+citações — mesma classe de sub-filtragem/agregação incompleta já
+catalogada em `diagnosticos/teste-perguntas-dominio.md` (achado B2/limitação
+do modelo local qwen2.5:3b), não uma regressão nova.
+
 ## O que falta (próximas sessões)
 
-- [ ] Testar o fluxo completo num navegador de verdade (bloqueado nesta
-  sessão — Playwright sem Chromium instalável neste ambiente, sem sudo
-  interativo; validado via chamada direta a `interface/cliente_api.py`
-  contra o backend real e via `streamlit run` + checagem HTTP do processo,
-  ver histórico de commits)
 - [ ] Persistir a conversa entre recarregamentos de página (hoje é só
   `st.session_state`, perdido a cada refresh) — não é claro se vale a pena
   para um protótipo de validação com usuários, avaliar com a equipe do RAN

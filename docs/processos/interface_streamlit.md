@@ -9,13 +9,55 @@ projeto — até aqui só existia o Swagger (`/docs`).
 ```
 interface/
 ├── app.py           # UI Streamlit (chat, filtros, exibição de citações e feedback)
-└── cliente_api.py    # chamadas HTTP ao backend (POST /perguntar, POST /feedback, GET /saude)
+├── cliente_api.py    # chamadas HTTP ao backend (POST /perguntar, POST /feedback, GET /saude)
+└── tema.py           # identidade visual (CSS + selo/wordmark), ver seção "Identidade visual"
 ```
 
 Mesma separação de responsabilidades do resto do projeto: `cliente_api.py`
 isola a comunicação de rede (erros de conexão viram `ErroAPI` com mensagem já
-pronta para exibição), `app.py` só cuida de UI e estado da sessão
-(`st.session_state.historico`).
+pronta para exibição), `tema.py` isola a marca, `app.py` só cuida de UI e
+estado da sessão (`st.session_state.historico`).
+
+## Identidade visual
+
+`interface/tema.py` porta o guia de identidade visual do HerpIA (artifact
+"HerpIA — Guia de Identidade Visual") para dentro das restrições do
+Streamlit — não recria o guia inteiro, só o que dá para fazer com CSS/HTML
+seguro:
+
+- **`.streamlit/config.toml`**: tema nativo do Streamlit (fundo, cor
+  primária, texto) com os mesmos hex do guia — cobre botões, sliders e
+  fundo padrão sem precisar de CSS.
+- **`tema.aplicar_estilo()`**: injeta as três fontes do guia (Newsreader
+  para títulos, IBM Plex Sans para corpo, IBM Plex Mono para dado/código) via
+  Google Fonts, mirando seletores estáveis do Streamlit (`.stApp`,
+  `[data-testid="stExpander"]` etc.) — se algum seletor não bater numa
+  versão futura do Streamlit, o pior caso é a fonte não trocar, não quebra
+  layout.
+- **`tema.cabecalho()`/`tema.marca_sidebar()`**: substituem `st.title` e dão
+  um bloco de marca na sidebar (selo + wordmark "Herp**IA**", verde-escuro
+  institucional) — blocos de HTML **estáticos**, nunca interpolam texto do
+  backend/LLM (ver docstring do módulo para o motivo: `unsafe_allow_html`
+  só é seguro enquanto os campos dinâmicos — resposta, citação, pergunta —
+  continuarem passando por `st.write`/`st.markdown` sem essa flag).
+
+**Deliberadamente não portado**: o "indicador de confiança" de 3 níveis
+(alta/moderada/baixa) que o guia mostra como componente — o backend só
+calcula `resposta_fundamentada` booleano (`backend/schemas.py`), então um
+componente de 3 níveis na interface estaria afirmando uma granularidade que
+o sistema não tem. Os dois estados reais (`evidencia_suficiente`/
+`resposta_fundamentada`) continuam em `st.info`/`st.warning` — não
+recolorados para bater exatamente com o guia, porque isso exigiria mirar
+seletores internos do Streamlit não documentados/instáveis para ganho
+visual pequeno.
+
+**Testado sem navegador** (mesma limitação de Chrome/sudo já documentada
+abaixo) via `streamlit.testing.v1.AppTest` — roda o script inteiro
+headless e captura exceções reais de execução, diferente de só checar
+HTTP 200: `at.run()` (carga inicial), `at.chat_input[0].set_value(...).run()`
+(pergunta real contra o backend, checando `chat_message`/`expander`
+gerados) e clique no botão "Útil" (fluxo de feedback) — as três vezes sem
+exceção.
 
 ## Rodando localmente
 

@@ -9,14 +9,15 @@ Rodar:
 """
 
 import streamlit as st
+import tema
 from cliente_api import ErroAPI, enviar_feedback, perguntar, verificar_saude
 
 FONTES_DISPONIVEIS = ["monitora", "pans", "salve"]
 
-st.set_page_config(page_title="HerpIA — RAN/ICMBio", layout="centered")
+st.set_page_config(page_title="HerpIA — RAN/ICMBio", page_icon="🦎", layout="centered")
+tema.aplicar_estilo()
 
-st.title("HerpIA")
-st.caption(
+tema.cabecalho(
     "Assistente para consulta de informações sobre a herpetofauna brasileira "
     "— RAN/ICMBio. Respostas baseadas exclusivamente na base de conhecimento "
     "indexada (Monitora, PANs, SALVE), sempre com citação de fonte."
@@ -96,6 +97,7 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
 
 
 with st.sidebar:
+    tema.marca_sidebar()
     st.subheader("Filtros")
     fontes_selecionadas = st.multiselect(
         "Restringir a fontes",

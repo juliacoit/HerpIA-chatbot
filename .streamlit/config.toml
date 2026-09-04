@@ -1,0 +1,10 @@
+# Paleta do guia de identidade visual do HerpIA (ver diagnosticos/ ou o
+# artifact do guia — os hex aqui são os mesmos, não reinventar).
+# Cobre o que o tema nativo do Streamlit consegue mexer (fundo, botões,
+# controles); tipografia e o resto ficam em interface/tema.py (CSS injetado).
+[theme]
+primaryColor = "#1F4A3D"
+backgroundColor = "#F1EDE1"
+secondaryBackgroundColor = "#E8E1CC"
+textColor = "#23292A"
+font = "sans serif"

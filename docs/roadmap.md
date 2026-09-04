@@ -16,7 +16,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
-[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k; falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md)
+[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade visual do guia (interface/tema.py) aplicada; falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md)
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
 

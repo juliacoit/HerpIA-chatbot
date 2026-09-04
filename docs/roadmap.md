@@ -16,7 +16,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
-[Fase 7] Interface (Streamlit)    ░░░░░░░░░░   0%
+[Fase 7] Interface (Streamlit)    ███████░░░  70% — protótipo de chat implementado (interface/, 2026-09-04): pergunta, resposta com citações, feedback, filtros de fonte/top_k; falta testar num navegador de verdade (bloqueado nesta sessão, ver docs/processos/interface_streamlit.md)
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
 
@@ -301,13 +301,21 @@ e seção "Solução Escolhida (revisada)" em
 
 > **Dependência:** backend FastAPI funcional (Fase 6)
 
-- [ ] **Criar protótipo de chat em Streamlit** (`interface/app.py`)
-  - Campo de pergunta
-  - Exibição da resposta com citações de fonte
-  - Botão de feedback por resposta
-- [ ] **Exibir fontes de forma clara**
-  - Nome do documento, seção, página (quando aplicável), link/DOI
-- [ ] Testar fluxo completo localmente: pergunta → busca → resposta → citação
+- [x] **Criar protótipo de chat em Streamlit** (`interface/app.py` + `interface/cliente_api.py`, 2026-09-04, ver [`docs/processos/interface_streamlit.md`](processos/interface_streamlit.md))
+  - [x] Campo de pergunta (`st.chat_input`, histórico em `st.session_state`)
+  - [x] Exibição da resposta com citações de fonte, diferenciando `evidencia_suficiente`/`resposta_fundamentada`
+  - [x] Botão de feedback por resposta (útil/não útil, `POST /feedback`) — desabilitado com explicação quando `id` é `null` (PostgreSQL indisponível)
+- [x] **Exibir fontes de forma clara**
+  - Nome do documento, seção, página (quando aplicável), link — um `st.expander` por resposta, um `Citacao` por linha
+- [ ] **Testar fluxo completo num navegador de verdade** — bloqueado nesta
+  sessão (Playwright exige o canal "chrome", que precisa de `apt`/root para
+  instalar; sem sudo interativo disponível). Validado por outros meios:
+  `streamlit run interface/app.py` sobe sem exceções (HTTP 200) e
+  `interface/cliente_api.py` foi testado diretamente contra o backend real
+  (`/perguntar` e `/feedback`, incluindo o caminho de erro 503 com
+  PostgreSQL indisponível) — mas falta a confirmação visual/interativa num
+  navegador. Pendência para a próxima sessão ou para a Júlia confirmar
+  manualmente abrindo http://localhost:8501.
 
 ---
 

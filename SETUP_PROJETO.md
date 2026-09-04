@@ -86,7 +86,19 @@ dentro do WSL.
 As portas do compose ficam restritas a `127.0.0.1` — não altere isso sem
 revisar as implicações de segurança (ver `docker-compose.yml`).
 
-## 5. Testar rapidamente
+## 5. Subir a interface (Streamlit, Fase 7)
+
+Com o backend já no ar (passo 3):
+
+```bash
+streamlit run interface/app.py
+```
+
+Abre em http://localhost:8501. Aponta para `http://localhost:8000` por
+padrão; para mudar, defina `BACKEND_API_URL` no `.env`. Detalhes da UI
+(filtros, exibição de citações, feedback): `docs/processos/interface_streamlit.md`.
+
+## 6. Testar rapidamente
 
 ```bash
 curl -s -X POST http://localhost:8000/buscar \
@@ -103,7 +115,8 @@ curl -s -X POST http://localhost:8000/perguntar \
 ```bash
 source venv/bin/activate
 scripts/infra/subir_ollama.sh --pull
-uvicorn backend.main:app --reload
+uvicorn backend.main:app --reload &
+streamlit run interface/app.py
 # opcional, só para logging/feedback:
 docker compose up -d
 ```
@@ -116,8 +129,5 @@ docker compose up -d
 | Log mostra `PostgreSQL indisponível` | Docker Desktop sem integração WSL, ou containers parados | Ver seção 4 (opcional — resto da API funciona sem isso) |
 | `docker: command not found` no WSL | Integração WSL do Docker Desktop desligada | Docker Desktop → Settings → Resources → WSL Integration |
 | Startup lento (~20-30s) | Carregamento do modelo BGE-M3 + primeira resposta do Ollama | Normal na primeira chamada; próximas ficam rápidas (~8s) |
-| Não há interface web ainda | Streamlit (Fase 7 do roadmap) ainda não implementado | Usar `/docs` (Swagger) ou `curl` por enquanto |
-
-Não há interface Streamlit implementada ainda (ver `docs/roadmap.md`) — a
-forma atual de interagir com o sistema é via API (`/docs` ou `curl`/HTTP
-client).
+| Interface mostra "Backend não respondeu" | Backend (uvicorn) não está rodando, ou está em outro endereço | Confirmar passo 3; se for outro endereço, definir `BACKEND_API_URL` |
+| Botões "Útil"/"Não útil" não aparecem | PostgreSQL indisponível nesta sessão do backend (`id: null`) | Ver seção 4 — feedback depende de logging ativo |

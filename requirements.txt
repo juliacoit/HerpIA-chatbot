@@ -13,4 +13,5 @@ qdrant-client
 fastapi  # backend RAG (Fase 6 — ver backend/ e docs/processos/backend_fastapi.md)
 uvicorn[standard]
 pydantic-settings
-httpx  # chamadas HTTP ao Ollama (ADR 0006)
+httpx  # chamadas HTTP ao Ollama (ADR 0006) e ao backend (interface/, Fase 7)
+streamlit  # interface de chat (Fase 7 — ver interface/ e docs/processos/interface_streamlit.md)

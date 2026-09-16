@@ -20,6 +20,15 @@ estado da sessão (`st.session_state.historico`).
 
 ## Identidade visual
 
+> **Atualização, ainda 2026-09-16 (mais tarde no mesmo dia):** a paleta
+> teal/areia descrita nesta seção foi, por sua vez, **substituída pela
+> identidade oficial do RAN/ICMBio** assim que o logo e o Manual de
+> Identidade Visual ficaram disponíveis. Ver a subseção "Identidade oficial
+> do RAN" mais abaixo — ela é a atual. O histórico teal/areia abaixo fica
+> registrado porque explica a arquitetura de `tema.py` (que não mudou) e o
+> raciocínio por trás de decisões de forma/estado que sobreviveram à troca
+> de cor.
+
 **2026-09-16**: a paleta forest/amber/cream do guia de identidade visual
 original (artifact "HerpIA — Guia de Identidade Visual") foi **descontinuada**
 e substituída por um design system novo — teal institucional + neutros
@@ -111,6 +120,81 @@ registradas aqui para não repetir a investigação:
   reiniciado) — só `app.py` (o script principal) parece sempre reexecutar
   fresco. **Depois de editar `tema.py`, reinicie o `streamlit run`** em
   vez de confiar no watcher para ver a mudança.
+
+### Identidade oficial do RAN (substitui a paleta teal/areia)
+
+**2026-09-16, mais tarde no mesmo dia**: a Júlia forneceu dois materiais
+oficiais que não existiam antes — o logo do RAN (`ranlogo.png`/`.svg`) e o
+Manual de Identidade Visual do ICMBio (PDF) — e pediu para gerar e aplicar
+um design system a partir deles. O resultado é o pacote em
+`design-system/` (raiz do repo; ver `docs/processos/design_system.md` para
+o que é essa pasta, sua proveniência e o que foi curado ao trazê-la para o
+repositório). A paleta teal/areia documentada acima era uma proposta
+autorada **sem nenhum material oficial disponível** — foi sempre provisória
+por esse motivo, não uma escolha definitiva revertida por capricho.
+
+**O que mudou em `interface/tema.py`:**
+
+- **Cor**: teal institucional → **verde RAN `#4B7936`** (ação/marca) e
+  **azul RAN `#2F7FB7`** (acento/link/fonte Monitora), medidos no próprio
+  arquivo do logo; estados de resposta e cores por fonte agora usam os
+  institucionais do Manual do ICMBio (`#006633`, `#339966`, `#669933`,
+  `#CCCC33`/`#6E6E1A`, p. 15) e os cinzas do manual (p. 16) como neutros.
+  `clay` (erro/sem evidência) é o único tom mantido fora do manual — o
+  manual de 2009 não define uma cor de erro. Ver `CORES`/`CORES_FONTE`/
+  `CORES_ESTADO` em `interface/tema.py` e
+  `design-system/tokens/colors.css` (fonte de verdade dos hex).
+- **Tipografia**: Spectral → **Archivo** (Google Fonts) nos títulos e na
+  marca — substituta da DIN Alternate institucional (manual, p. 14), que é
+  licenciada e não está disponível para distribuir. Source Sans 3 (corpo)
+  e IBM Plex Mono (dados) não mudaram.
+- **Marca**: o wordmark tipográfico "HerpIA" sem símbolo (decisão da
+  revisão anterior, quando não havia logo) foi substituído pela
+  **assinatura oficial do RAN** (`interface/assets/ran-logo.png`, cópia de
+  `design-system/assets/ran-logo.png`) em `tema.cabecalho()`/
+  `tema.marca_sidebar()`, ao lado do nome do produto "HerpIA" (agora em
+  Archivo). O logo é embutido como *data URI* base64 (`tema._logo_html()`)
+  porque o HTML de `st.html()`/`st.markdown(unsafe_allow_html=True)` é
+  servido para o navegador, não para o processo Python — um `<img
+  src="caminho/local">` não resolveria. Regras do manual portadas:
+  moldura branca atrás do logo (a faixa institucional é verde e o "RAN" do
+  logo também é verde — sem moldura, o texto sumiria por falta de
+  contraste) e um padding de reserva ao redor da marca. **Não confirmado
+  nesta sessão**: a "redução mínima" exata do manual (p. 13) — não havia
+  ferramenta de renderização de PDF por página disponível no ambiente
+  (`pdftoppm`/`poppler-utils` ausentes, sem sudo interativo para instalar).
+  As alturas escolhidas (96px no cabeçalho, 56px na sidebar) são uma
+  estimativa conservadora para manter "ICMBio-MMA" legível; reconferir
+  contra o PDF (`design-system/assets/icmbio-manual-identidade-visual.pdf`,
+  p. 13) se precisão institucional exata for necessária.
+- **O que não mudou**: pill nos controles, cards em 14px, escala de
+  espaçamento, sombras, foco, movimento, a arquitetura de `tema.py` (HTML
+  estático autoral, `st.html()` para o CSS global), e a técnica do chip de
+  citação via `:color[...]` do Markdown do Streamlit.
+
+**2026-09-16, terceira rodada — porte estrutural (não só cor)**: a
+aplicação acima só trocou paleta/tipografia/forma, mantendo o layout
+antigo (faixa colorida no cabeçalho principal, `st.info`/`st.warning` como
+faixa de estado, citações em `st.expander`). Comparado contra o HTML
+standalone exportado do protótipo de referência (fora do repositório,
+gerado junto com `design-system/`) e contra
+`design-system/ui_kits/herpia-assistente/`, ficou claro que a composição
+também divergia, não só a cor — layout, ícones (Lucide, deliberadamente
+não portados na rodada anterior) e a estrutura de citação/feedback foram
+refeitos para bater com a referência. Detalhe completo (o que mudou,
+`tema.faixa_estado()`/`tema.chip_fonte()` novos, os ícones SVG portados à
+mão, o que continua deliberadamente não portado — navegação por telas,
+avatar customizado, "copiar resposta") em
+[`design_system.md`](design_system.md#o-que-foi-portado-para-interface).
+
+**Testado no navegador** (mesmo método: Chromium do Playwright avulso, CLI
+headless) em duas rodadas — a segunda confirmou visualmente o resultado
+final: sidebar com logo sem faixa colorida, checkboxes de fonte com chip
+colorido, cabeçalho de tela simples, e os três estados de resposta como
+cartão compacto com ícone (inclusive o estado "fundamentada", que a rodada
+anterior não mostrava) com citações em cartão numerado, via uma página de
+verificação visual descartável que reusa as mesmas funções de
+`tema.py`/`app.py` (não commitada).
 
 ## Rodando localmente
 

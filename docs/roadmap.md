@@ -16,7 +16,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
-[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, design system teal/areia aplicado (interface/tema.py, 2026-09-16, substitui a paleta forest/amber/cream anterior); falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md)
+[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade oficial do RAN/ICMBio aplicada e layout reestruturado para bater com o protótipo de referência (interface/tema.py + app.py + design-system/, 2026-09-16 — cor/tipografia/marca oficiais, depois composição: cabeçalho de tela simples, faixa de estado com ícone, citações em cartão, checkboxes de fonte, diálogo de comentário no feedback negativo); falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md e docs/processos/design_system.md)
 [Fase 8] Validação com usuários   ░░░░░░░░░░   0%
 ```
 
@@ -339,6 +339,35 @@ e seção "Solução Escolhida (revisada)" em
   (`clay`/`amber`/`moss`, ver `docs/processos/interface_streamlit.md`); selo
   removido (design system é tipográfico, não define símbolo); chip de fonte
   fixo por cor nas citações (`tema.CORES_FONTE`)
+- [x] **Aplicar a identidade oficial do RAN/ICMBio** (`interface/tema.py`,
+  `.streamlit/config.toml`, `design-system/` na raiz do repo, 2026-09-16) —
+  a Júlia forneceu o logo do RAN e o Manual de Identidade Visual do
+  ICMBio; substitui a paleta teal/areia autorada (provisória, sem material
+  oficial) por verde RAN `#4B7936` + azul RAN `#2F7FB7` + institucionais
+  do ICMBio, tipografia Archivo (substituta da DIN Alternate licenciada) e
+  a assinatura oficial do RAN no cabeçalho/sidebar em vez do wordmark
+  tipográfico. Design system completo (tokens, componentes de referência,
+  telas) vendorizado e curado em `design-system/`, documentado em
+  `docs/processos/design_system.md` (proveniência, inconsistências
+  conhecidas do pacote recebido, o que não foi portado e por quê)
+- [x] **Reestruturar o layout para bater com o protótipo de referência**
+  (`interface/app.py` + `interface/tema.py`, 2026-09-16) — a aplicação
+  anterior só tinha trocado cor/tipografia, mantendo a composição antiga;
+  comparado contra o HTML standalone do protótipo (Claude Design) e contra
+  `design-system/ui_kits/herpia-assistente/`, a Júlia pediu para também
+  bater a composição: marca só na sidebar (sem faixa colorida no
+  cabeçalho principal), `tema.faixa_estado()` (ícone + rótulo, porta
+  `EvidenceBanner.jsx`) abaixo da resposta em vez de `st.info`/`st.warning`
+  substituindo o texto, citações em cartão numerado com chip de fonte com
+  ícone (`tema.chip_fonte()`, porta `CitationCard.jsx`/`SourceChip.jsx`,
+  ícones Lucide portados à mão como SVG inline), filtro de fontes como
+  checkboxes com chip colorido (SEI desabilitado), e diálogo de comentário
+  opcional no feedback negativo (`st.dialog`) — descobriu-se no processo
+  que `POST /feedback` já aceitava `comentario` e a interface nunca
+  expunha isso. Texto do chunk recuperado (`citacao.texto`) mantido —
+  funcionalidade real do produto ausente no componente de referência —
+  dentro de um expander aninhado só para o trecho, não para o cartão
+  inteiro. Detalhe completo em `docs/processos/design_system.md`
 
 ---
 

@@ -1,0 +1,16 @@
+:root{
+  --font-display:"Archivo","DIN Alternate","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,"SF Mono",monospace;
+
+  --text-display-size:40px;--text-display-lh:1.15;--text-display-weight:600;--text-display-ls:-0.015em;
+  --text-h1-size:30px;--text-h1-lh:1.2;--text-h1-weight:600;
+  --text-h2-size:23px;--text-h2-lh:1.3;--text-h2-weight:600;
+  --text-h3-size:18px;--text-h3-lh:1.35;--text-h3-weight:600;
+  --text-body-size:16px;--text-body-lh:1.6;--text-body-weight:400;
+  --text-answer-size:17px;--text-answer-lh:1.65;
+  --text-small-size:14px;--text-small-lh:1.5;
+  --text-caption-size:12.5px;--text-caption-lh:1.45;
+  --text-label-size:11.5px;--text-label-lh:1.2;--text-label-ls:0.08em;
+  --text-mono-size:13px;--text-mono-lh:1.55;
+}

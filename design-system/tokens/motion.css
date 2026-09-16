@@ -1,0 +1,15 @@
+:root{
+  --ease-standard:cubic-bezier(0.2,0,0.2,1); /* @kind other */
+  --ease-out:cubic-bezier(0.16,1,0.3,1); /* @kind other */
+  --duration-instant:80ms; /* @kind other */
+  --duration-fast:140ms; /* @kind other */
+  --duration-medium:220ms; /* @kind other */
+  --duration-slow:360ms; /* @kind other */
+  --transition-control:background-color var(--duration-fast) var(--ease-standard),border-color var(--duration-fast) var(--ease-standard),color var(--duration-fast) var(--ease-standard),box-shadow var(--duration-fast) var(--ease-standard); /* @kind other */
+}
+@media (prefers-reduced-motion:reduce){:root{
+  --duration-instant:0ms; /* @kind other */
+  --duration-fast:0ms; /* @kind other */
+  --duration-medium:0ms; /* @kind other */
+  --duration-slow:0ms; /* @kind other */
+}}

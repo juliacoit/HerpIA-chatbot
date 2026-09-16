@@ -1,0 +1,68 @@
+/* Paleta derivada da identidade oficial:
+   — Logo do RAN (assets/ran-logo.svg): verde #4B7936 e azul #2F7FB7 (medidos no arquivo).
+   — Manual de Identidade Visual do ICMBio (assets/icmbio-manual-identidade-visual.pdf, p. 15–16):
+     institucionais #006633, #339966, #669933, #CCCC33 e cinzas #000/#666/#999/#CCC.
+   Mantido do sistema anterior apenas o que o manual não cobre (o manual é de 2009 e não
+   trata de interface digital): tons de erro/clay e a estrutura de aliases semânticos. */
+:root{
+  /* RAN — marca do centro */
+  --ran-verde-900:#2E4C22;--ran-verde-800:#3C612B;--ran-verde:#4B7936;--ran-verde-400:#83A671;
+  --ran-verde-200:#C7DBBC;--ran-verde-100:#E6EEE1;--ran-verde-50:#F2F7EF;
+  --ran-azul-900:#1B4E71;--ran-azul-800:#256793;--ran-azul:#2F7FB7;--ran-azul-400:#7FB2D6;
+  --ran-azul-200:#BCD8EC;--ran-azul-100:#E4EFF7;
+
+  /* ICMBio — cores institucionais (não alterar: manual, "uso incorreto") */
+  --icmbio-verde-escuro:#006633;--icmbio-verde:#339966;--icmbio-verde-claro:#669933;--icmbio-amarelo:#CCCC33;
+  --icmbio-amarelo-escuro:#6E6E1A;
+
+  /* Neutros — tons de cinza do manual (p. 16) */
+  --preto:#000000;--cinza-80:#666666;--cinza-60:#999999;--cinza-30:#CCCCCC;
+  --cinza-15:#E6E6E4;--cinza-8:#F0F1EE;--cinza-4:#F6F7F4;--white:#FFFFFF;--ink:#23292A;
+
+  /* Erro/negativo — o manual não define vermelho; mantido do sistema de produto */
+  --clay-700:#8C3A2B;--clay-500:#B85541;--clay-100:#F6E0DA;
+
+  /* Aliases semânticos */
+  --text-title:var(--ran-verde-900);--text-body:var(--ink);--text-muted:var(--cinza-80);
+  --text-subtle:var(--cinza-60);--text-inverse:var(--white);--text-link:var(--ran-azul-800);
+  --text-link-hover:var(--ran-azul-900);
+
+  --surface-page:var(--cinza-4);--surface-card:var(--white);--surface-sunken:var(--cinza-8);
+  --surface-tinted:var(--ran-verde-100);--surface-inverse:var(--icmbio-verde-escuro);
+
+  --border-hairline:var(--cinza-15);--border-strong:var(--cinza-30);--border-focus:var(--ran-verde-800);
+
+  --action-primary:var(--ran-verde);--action-primary-hover:var(--ran-verde-800);
+  --action-primary-active:var(--ran-verde-900);--action-primary-text:var(--white);
+  --action-secondary-bg:var(--white);--action-secondary-border:var(--cinza-30);
+  --action-secondary-hover:var(--cinza-8);--action-disabled-bg:var(--cinza-15);
+  --action-disabled-text:var(--cinza-60);
+
+  /* Cores por fonte de dados — todas tiradas da identidade oficial */
+  --fonte-monitora:var(--ran-azul);--fonte-pans:var(--icmbio-verde-escuro);
+  --fonte-salve:var(--icmbio-verde-claro);--fonte-sei:var(--cinza-80);
+  --fonte-publicacoes:var(--icmbio-amarelo-escuro);
+
+  /* Estados de resposta do RAG */
+  --state-fundamentada-fg:var(--icmbio-verde-escuro);--state-fundamentada-bg:#E1EFE6;
+  --state-retida-fg:var(--icmbio-amarelo-escuro);--state-retida-bg:#F6F6DE;
+  --state-sem-evidencia-fg:var(--clay-700);--state-sem-evidencia-bg:var(--clay-100);
+  --state-info-fg:var(--ran-azul-900);--state-info-bg:var(--ran-azul-100);
+
+  --focus-ring:0 0 0 3px var(--ran-verde-200);
+
+  /* Área de reserva da marca (manual, p. 11): altura do "I" maiúsculo em volta da assinatura */
+  --marca-reserva:0.9em;--marca-min-largura:120px;
+
+  /* Compatibilidade: nomes antigos do sistema teal, remapeados para a identidade oficial */
+  --teal-950:var(--ran-verde-900);--teal-900:var(--ran-verde-900);--teal-800:var(--ran-verde);
+  --teal-700:var(--ran-verde-800);--teal-600:var(--ran-verde-800);--teal-400:var(--ran-verde-400);
+  --teal-200:var(--ran-verde-200);--teal-100:var(--ran-verde-100);--teal-50:var(--ran-verde-50);
+  --sand-950:var(--ink);--sand-900:var(--ink);--sand-800:var(--cinza-80);--sand-600:var(--cinza-80);
+  --sand-400:var(--cinza-60);--sand-300:var(--cinza-30);--sand-200:var(--cinza-15);
+  --sand-100:var(--cinza-8);--sand-50:var(--cinza-4);
+  --moss-700:var(--icmbio-verde-escuro);--moss-500:var(--icmbio-verde);--moss-100:#E1EFE6;
+  --amber-700:var(--icmbio-amarelo-escuro);--amber-500:var(--icmbio-amarelo);--amber-100:#F6F6DE;
+  --sky-700:var(--ran-azul-900);--sky-500:var(--ran-azul);--sky-100:var(--ran-azul-100);
+  --overlay-scrim-color:rgba(46,76,34,0.42);
+}

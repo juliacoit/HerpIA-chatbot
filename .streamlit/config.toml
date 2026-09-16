@@ -1,10 +1,11 @@
-# Paleta do design system do HerpIA (teal/areia — ver interface/tema.py,
-# CORES, a fonte de verdade dos hex; não reinventar). Cobre o que o tema
-# nativo do Streamlit consegue mexer (fundo, botões, controles);
-# tipografia e o resto ficam em interface/tema.py (CSS injetado).
+# Paleta oficial do RAN/ICMBio (ver interface/tema.py, CORES, e
+# design-system/tokens/colors.css — a fonte de verdade dos hex; não
+# reinventar). Cobre o que o tema nativo do Streamlit consegue mexer
+# (fundo, botões, controles); tipografia e o resto ficam em
+# interface/tema.py (CSS injetado).
 [theme]
-primaryColor = "#0F4C5C"
-backgroundColor = "#F8F6F2"
+primaryColor = "#4B7936"
+backgroundColor = "#F6F7F4"
 secondaryBackgroundColor = "#FFFFFF"
-textColor = "#2B2825"
+textColor = "#23292A"
 font = "sans serif"

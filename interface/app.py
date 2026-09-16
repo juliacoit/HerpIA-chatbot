@@ -14,6 +14,14 @@ from cliente_api import ErroAPI, enviar_feedback, perguntar, verificar_saude
 
 FONTES_DISPONIVEIS = ["monitora", "pans", "salve"]
 
+_ROTULO_FONTE = {
+    "monitora": "MONITORA",
+    "pans": "PANS",
+    "salve": "SALVE",
+    "sei": "SEI",
+    "publicacoes": "PUBLICAÇÕES",
+}
+
 st.set_page_config(page_title="HerpIA — RAN/ICMBio", page_icon="🦎", layout="centered")
 tema.aplicar_estilo()
 
@@ -27,8 +35,23 @@ if "historico" not in st.session_state:
     st.session_state.historico = []
 
 
+def _chip_fonte(fonte: str) -> str:
+    # Cor fixa por fonte de dados (tema.CORES_FONTE) como prefixo colorido
+    # do título da citação, para identificar a origem à primeira vista.
+    # st.expander só aceita um subconjunto de Markdown (não
+    # unsafe_allow_html), então usa a sintaxe nativa de cor custom do
+    # Streamlit (":color[...]{foreground=...}") em vez de HTML — sem
+    # interpolar HTML do backend, mantendo a invariante de segurança
+    # documentada em tema.py.
+    cor = tema.CORES_FONTE.get(fonte)
+    rotulo = _ROTULO_FONTE.get(fonte, fonte.upper())
+    if not cor:
+        return f"[{rotulo}]"
+    return f'**:color[{rotulo}]{{foreground="{cor}"}}**'
+
+
 def _titulo_citacao(citacao: dict) -> str:
-    partes = [f"[{citacao['fonte']}] {citacao['documento']}"]
+    partes = [f"{_chip_fonte(citacao['fonte'])} {citacao['documento']}"]
     if citacao.get("secao"):
         partes.append(f"— {citacao['secao']}")
     if citacao.get("pagina_inicio"):

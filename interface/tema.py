@@ -17,6 +17,8 @@ continuar valendo (texto de resposta, citação e pergunta do usuário
 continuam passando por `st.write`/`st.markdown` sem essa flag, em app.py).
 """
 
+import textwrap
+
 import streamlit as st
 
 # Mesmos hex do guia de identidade — fonte de verdade dos tokens de marca.
@@ -55,7 +57,7 @@ _SELO_SVG = """
 
 
 def _selo(tamanho: int, cor: str) -> str:
-    return _SELO_SVG.format(tamanho=tamanho, cor=cor)
+    return _SELO_SVG.format(tamanho=tamanho, cor=cor).strip()
 
 
 def aplicar_estilo() -> None:
@@ -65,28 +67,30 @@ def aplicar_estilo() -> None:
     o pior caso é a fonte não trocar, não quebra layout.
     """
     st.markdown(
-        f"""
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="{_FONTES}" rel="stylesheet">
-        <style>
-          .stApp {{ font-family: 'IBM Plex Sans', sans-serif; }}
-          h1, h2, h3, h4,
-          [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {{
-            font-family: 'Newsreader', Georgia, serif !important;
-            font-weight: 500 !important;
-          }}
-          code, pre,
-          [data-testid="stExpander"] summary,
-          [data-testid="stChatInput"] textarea {{
-            font-family: 'IBM Plex Mono', monospace !important;
-          }}
-          a {{ color: {CORES["teal"]}; }}
-          [data-testid="stExpander"] {{
-            border-color: {CORES["border"]} !important;
-          }}
-        </style>
-        """,
+        textwrap.dedent(
+            f"""
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="{_FONTES}" rel="stylesheet">
+            <style>
+              .stApp {{ font-family: 'IBM Plex Sans', sans-serif; }}
+              h1, h2, h3, h4,
+              [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {{
+                font-family: 'Newsreader', Georgia, serif !important;
+                font-weight: 500 !important;
+              }}
+              code, pre,
+              [data-testid="stExpander"] summary,
+              [data-testid="stChatInput"] textarea {{
+                font-family: 'IBM Plex Mono', monospace !important;
+              }}
+              a {{ color: {CORES["teal"]}; }}
+              [data-testid="stExpander"] {{
+                border-color: {CORES["border"]} !important;
+              }}
+            </style>
+            """
+        ),
         unsafe_allow_html=True,
     )
 
@@ -96,22 +100,37 @@ def cabecalho(tagline: str) -> None:
     wordmark e a mesma frase de propósito já usada no resto do projeto
     (README.md/CLAUDE.md), não um slogan novo.
     """
-    st.markdown(
-        f"""
-        <div style="background:{CORES['forest_dark']}; color:{CORES['cream']};
+    # Dedenta o esqueleto ANTES de inserir o selo (SVG multilinha, sem
+    # indentação própria) — dedentar depois da interpolação não funciona:
+    # as linhas do SVG (indentação 0) reduziriam a zero a indentação comum
+    # calculada pelo textwrap.dedent, deixando as linhas do <div> externo
+    # com espaços de sobra (>=4), o que o Markdown do Streamlit interpreta
+    # como bloco de código em vez de HTML cru.
+    template = textwrap.dedent(
+        """
+        <div style="background:{forest_dark}; color:{cream};
                     padding:30px 32px; border-radius:4px; margin-bottom:1.6rem;
                     display:flex; align-items:center; gap:20px;">
-          {_selo(56, CORES['cream'])}
+          {selo}
           <div>
             <div style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; line-height:1.1;">
-              Herp<span style="color:{CORES['teal']}">IA</span>
+              Herp<span style="color:{teal}">IA</span>
             </div>
             <p style="margin:8px 0 0; font-size:14.5px; max-width:56ch; color:rgba(237,230,211,0.85);">
               {tagline}
             </p>
           </div>
         </div>
-        """,
+        """
+    )
+    st.markdown(
+        template.format(
+            forest_dark=CORES["forest_dark"],
+            cream=CORES["cream"],
+            teal=CORES["teal"],
+            selo=_selo(56, CORES["cream"]),
+            tagline=tagline,
+        ),
         unsafe_allow_html=True,
     )
 
@@ -120,16 +139,25 @@ def marca_sidebar() -> None:
     """Bloco de marca no topo da sidebar — contido (não recolore a
     sidebar inteira, só este card), então os widgets abaixo continuam com
     o contraste padrão do tema claro do Streamlit."""
-    st.markdown(
-        f"""
-        <div style="background:{CORES['forest_dark']}; color:{CORES['cream']};
+    # Ver comentário em cabecalho() sobre a ordem dedent → interpolação.
+    template = textwrap.dedent(
+        """
+        <div style="background:{forest_dark}; color:{cream};
                     padding:14px 16px; border-radius:4px; margin-bottom:1rem;
                     display:flex; align-items:center; gap:10px;">
-          {_selo(30, CORES['cream'])}
+          {selo}
           <span style="font-family:'Newsreader',serif; font-size:17px;">
-            Herp<span style="color:{CORES['teal']}">IA</span>
+            Herp<span style="color:{teal}">IA</span>
           </span>
         </div>
-        """,
+        """
+    )
+    st.markdown(
+        template.format(
+            forest_dark=CORES["forest_dark"],
+            cream=CORES["cream"],
+            teal=CORES["teal"],
+            selo=_selo(30, CORES["cream"]),
+        ),
         unsafe_allow_html=True,
     )

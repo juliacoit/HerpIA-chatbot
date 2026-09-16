@@ -40,7 +40,7 @@ from backend.services.retrieval import buscar_chunks
 # Heurística de palavra-chave — NÃO é uma classificação confiável de intenção.
 # Pode errar em perguntas ambíguas (ver "Opções para decisão", item 4, no
 # relatório de diagnóstico). Detecta perguntas do tipo "quais/lista de
-# espécies/anfíbios/répteis ... ocorrem/existem em <lugar>".
+# espécies/anfíbios/répteis ... ocorrem/existem/são encontrados em <lugar>".
 #
 # "quais/lista de" sozinho é permissivo demais: casa com perguntas como
 # "Quais UCs foram citadas ... no PAN Herpetofauna do Espinhaço?" ou "Quais
@@ -58,7 +58,8 @@ _PADRAO_TAXON_HERPETOFAUNA = re.compile(
     re.IGNORECASE,
 )
 _PADRAO_OCORRENCIA = re.compile(
-    r"\b(ocorrem?|existem?|h[áa]|ameaçad[ao]s?)\b", re.IGNORECASE
+    r"\b(ocorrem?|existem?|h[áa]|ameaçad[ao]s?|encontr(?:ados?|adas?|am|a-se))\b",
+    re.IGNORECASE,
 )
 
 FONTE_PRIORITARIA_PADRAO = "salve"

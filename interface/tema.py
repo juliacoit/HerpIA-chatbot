@@ -35,6 +35,7 @@ app.py).
 import base64
 import textwrap
 from pathlib import Path
+from urllib.parse import quote
 
 import streamlit as st
 
@@ -227,6 +228,16 @@ _ICONES = {
         '<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 '
         '4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>'
     ),
+    "thumbs-up": (
+        '<path d="M7 10v12"/>'
+        '<path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8'
+        'a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/>'
+    ),
+    "thumbs-down": (
+        '<path d="M17 14V2"/>'
+        '<path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0'
+        ' 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/>'
+    ),
 }
 
 
@@ -238,6 +249,21 @@ def _icone(nome: str, tamanho: int = 16, cor: str = "currentColor") -> str:
         f'stroke-linecap="round" stroke-linejoin="round" '
         f'style="flex:none;display:inline-block;vertical-align:middle">{caminhos}</svg>'
     )
+
+
+def _icone_data_uri(nome: str, cor: str, tamanho: int = 16) -> str:
+    """Mesmo ícone de `_icone()`, embutido como data URI para uso em
+    `background-image` no CSS. Existe porque o Streamlit 1.63 remove data URI
+    de imagem no Markdown (o transformador de URL do react-markdown só aceita
+    `https?|ircs?|mailto|xmpp`) e porque o HTML injetado deste módulo não pode
+    interpolar texto vindo do backend — então, onde o elemento carrega dado do
+    backend (o `href` de uma citação) ou é gerado pelo Streamlit (um botão), o
+    ícone entra pela folha de estilo, que é 100% autoral.
+
+    A cor é fixada no arquivo: `currentColor` não resolve dentro de
+    `background-image`.
+    """
+    return "data:image/svg+xml," + quote(_icone(nome, tamanho, cor), safe="")
 
 
 # Nome de exibição + ícone por fonte de dados (design-system/components/rag/SourceChip.jsx).
@@ -345,9 +371,19 @@ def aplicar_estilo() -> None:
               [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {{
                 font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif !important;
                 font-weight: 600 !important;
-                letter-spacing: -0.015em;
+                letter-spacing: -0.01em;
                 color: {CORES["text_title"]} !important;
               }}
+
+              /* Degraus de design-system/tokens/typography.css. O h1 fica no
+                 degrau --text-h2-size (23px/1.3) porque é o que o TopBar de
+                 design-system/ui_kits/herpia-assistente/AppShell.jsx faz: o
+                 título de tela é h1 semântico renderizado no tamanho de h2.
+                 h4 não tem degrau no design system — fica só com família,
+                 peso e cor, sem tamanho imposto. */
+              h1 {{ font-size: 23px !important; line-height: 1.3 !important; }}
+              h2 {{ font-size: 23px !important; line-height: 1.3 !important; }}
+              h3 {{ font-size: 18px !important; line-height: 1.35 !important; }}
 
               code, pre,
               [data-testid="stExpander"] summary,
@@ -415,6 +451,69 @@ def aplicar_estilo() -> None:
                 color: {CORES_ESTADO["sem_evidencia"]["fg"]} !important;
               }}
               [data-testid="stAlertContainer"] svg {{ fill: currentColor !important; }}
+
+              /* Ícone do link "Abrir fonte" na citação — CitationCard.jsx
+                 usa o Icon "external-link" (size sm) dentro da âncora.
+                 ATENÇÃO: nunca escrever sinal de menor/maior aqui dentro. O
+                 conteúdo deste bloco de estilo passa pelo parser HTML do
+                 Streamlit, que interpreta qualquer coisa parecida com uma tag
+                 (mesmo em comentário CSS) e descarta o bloco inteiro — o
+                 efeito é a folha de estilo sumir sem nenhum erro visível.
+                 Aqui vai por CSS, não por HTML: o href é a url_origem vinda do
+                 backend, e este módulo nunca interpola texto do backend em HTML
+                 injetado. Substitui a seta unicode "↗", proibida por
+                 design-system/readme.md (Iconografia: "Caracteres unicode como
+                 ícone: nunca"). */
+              [class*="st-key-citacao-link-"] a::before {{
+                content: "";
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                margin-right: 5px;
+                vertical-align: -2px;
+                background-image: url("{_icone_data_uri("external-link", CORES["text_link"], 14)}");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 14px 14px;
+              }}
+
+              /* Feedback: par de botões circulares de 30px com polegar
+                 (design-system/components/rag/FeedbackButtons.jsx). O rótulo
+                 continua no DOM como nome acessível do botão — só sai da vista.
+                 O estado "ativo" do componente de origem não tem equivalente
+                 aqui: depois de enviado, app.py troca os botões por um aviso. */
+              [class*="st-key-util-"] button,
+              [class*="st-key-nao_util-"] button {{
+                width: 30px !important;
+                min-width: 30px !important;
+                height: 30px !important;
+                padding: 0 !important;
+                background-color: transparent !important;
+                border: 1px solid {CORES["border_hairline"]} !important;
+                background-repeat: no-repeat !important;
+                background-position: center !important;
+                background-size: 16px 16px !important;
+              }}
+              [class*="st-key-util-"] button {{
+                background-image: url("{_icone_data_uri("thumbs-up", CORES["text_muted"])}") !important;
+              }}
+              [class*="st-key-nao_util-"] button {{
+                background-image: url("{_icone_data_uri("thumbs-down", CORES["text_muted"])}") !important;
+              }}
+              [class*="st-key-util-"] button:hover,
+              [class*="st-key-nao_util-"] button:hover {{
+                background-color: {CORES["surface_sunken"]} !important;
+                border-color: {CORES["border_strong"]} !important;
+              }}
+              [class*="st-key-util-"] button p,
+              [class*="st-key-nao_util-"] button p {{
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+                clip-path: inset(50%);
+                white-space: nowrap;
+              }}
 
               @media (prefers-reduced-motion: reduce) {{
                 * {{ transition: none !important; animation: none !important; }}

@@ -38,7 +38,7 @@ def _pagina_str(citacao: dict) -> str | None:
     return f"p. {inicio}"
 
 
-def _renderizar_citacao(citacao: dict, indice: int) -> None:
+def _renderizar_citacao(citacao: dict, indice: int, chave: str) -> None:
     # Cartão numerado (design-system/components/rag/CitationCard.jsx) em vez
     # de expander: metadado (chip de fonte, página) sempre visível, título
     # em negrito, link "Abrir fonte". O texto do chunk (citacao["texto"])
@@ -70,7 +70,13 @@ def _renderizar_citacao(citacao: dict, indice: int) -> None:
             if citacao.get("secao"):
                 st.caption(citacao["secao"])
             if citacao.get("url_origem"):
-                st.markdown(f"[↗ Abrir fonte]({citacao['url_origem']})")
+                # Sem a seta "↗": design-system/readme.md (Iconografia) proíbe
+                # caractere unicode como ícone. O external-link do
+                # CitationCard.jsx entra pelo CSS de tema.aplicar_estilo(), que
+                # mira esta chave — o href vem do backend e não pode ser
+                # interpolado em HTML injetado.
+                with st.container(key=f"citacao-link-{chave}"):
+                    st.markdown(f"[Abrir fonte]({citacao['url_origem']})")
             texto = citacao.get("texto")
             if texto:
                 with st.expander("Ver trecho recuperado"):
@@ -126,7 +132,7 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
     if citacoes:
         st.caption(f"Citações ({len(citacoes)})")
         for i, citacao in enumerate(citacoes, start=1):
-            _renderizar_citacao(citacao, i)
+            _renderizar_citacao(citacao, i, chave=f"{idx}-{i}")
 
     interacao_id = item.get("id")
     feedback_enviado = item.get("feedback_enviado")
@@ -136,14 +142,18 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
         rotulo = "positivo" if feedback_enviado == 1 else "negativo"
         st.caption(f"Feedback enviado: {rotulo}. Obrigado!")
     else:
-        col_legenda, col_util, col_nao_util, _ = st.columns([3, 1, 1, 3])
-        col_legenda.caption("Esta resposta foi útil?")
-        if col_util.button("Útil", key=f"util-{idx}"):
-            _registrar_feedback(item, 1)
-            st.toast("Feedback registrado. Obrigado.")
-            st.rerun()
-        if col_nao_util.button("Não útil", key=f"nao_util-{idx}"):
-            _dialogo_feedback_negativo(item)
+        # Par de botões circulares com polegar, lado a lado com o rótulo
+        # (design-system/components/rag/FeedbackButtons.jsx). O ícone e o
+        # formato vêm do CSS em tema.aplicar_estilo(), que mira as chaves
+        # destes botões; o rótulo textual continua sendo o nome acessível.
+        with st.container(horizontal=True, vertical_alignment="center"):
+            st.caption("Esta resposta foi útil?", width="content")
+            if st.button("Útil", key=f"util-{idx}", help="Resposta útil"):
+                _registrar_feedback(item, 1)
+                st.toast("Feedback registrado. Obrigado.")
+                st.rerun()
+            if st.button("Não útil", key=f"nao_util-{idx}", help="Resposta não útil"):
+                _dialogo_feedback_negativo(item)
 
 
 with st.sidebar:

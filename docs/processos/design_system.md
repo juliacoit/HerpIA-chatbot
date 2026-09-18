@@ -143,6 +143,61 @@ rodada:
   capacidade do backend não exposta na UI. `st.toast()` confirma o envio
   (útil direto, ou depois de enviar o comentário).
 
+**2026-09-18, terceira rodada — três divergências pontuais.** Diagnóstico
+somente leitura comparando `interface/` contra `design-system/readme.md`, os
+tokens e os componentes de referência apontou cinco divergências; três foram
+corrigidas nesta rodada (as outras duas — tokens triplicados sem verificação e
+`st.chat_message` no padrão do Streamlit — seguem abertas, ver "Pendências"):
+
+- **Seta unicode trocada pelo ícone `external-link`** no link "Abrir fonte" da
+  citação. `readme.md` (Iconografia) é literal: "Caracteres unicode como ícone:
+  nunca". O ícone entra por **CSS** (`::before` com `background-image` em data
+  URI, via `tema._icone_data_uri()`), não por HTML injetado: o `href` é a
+  `url_origem` vinda do backend, e a invariante deste módulo proíbe interpolar
+  texto do backend em HTML. Escopo pela chave do `st.container` da citação.
+  Descoberta pelo caminho: no Streamlit 1.63 o transformador de URL do Markdown
+  aceita só `https?|ircs?|mailto|xmpp`, então data URI em imagem Markdown é
+  descartado — por isso a rota do CSS, e não a da imagem embutida.
+- **Degraus tipográficos aplicados.** O bloco `h1..h4` definia família, peso e
+  cor, mas nenhum `font-size` — nenhum degrau de `tokens/typography.css`
+  chegava à página, e o título de tela saía nos ~44px padrão do Streamlit.
+  Agora `h1`/`h2` em 23px/1.3 e `h3` em 18px/1.35, com o tracking corrigido de
+  `-0.015em` (valor de `--text-display-ls`) para `-0.01em`, que é o que o
+  `readme.md` pede para títulos. O `h1` ficou no degrau `--text-h2-size` porque
+  é o que o `TopBar` do `AppShell.jsx` faz: título de tela é h1 semântico
+  renderizado no tamanho de h2 — assim `st.title()` foi preservado.
+- **Botões de feedback no padrão do `FeedbackButtons.jsx`.** `thumbs-up` e
+  `thumbs-down` acrescentados a `tema._ICONES` (agora 11); os botões saíram do
+  `st.columns` para um `st.container(horizontal=True)` e ganharam 30px,
+  formato pill, borda hairline e hover em `--surface-sunken`. O ícone vai por
+  CSS porque `st.button(icon=…)` só aceita emoji (proibido pelo design system)
+  ou Material Symbols (outro conjunto, não o Lucide do DS). O rótulo textual
+  continua no DOM como nome acessível, escondido com `clip-path: inset(50%)`.
+
+**Armadilha descoberta nesta rodada — nunca escrever `<` ou `>` dentro do CSS
+de `aplicar_estilo()`, nem em comentário.** O conteúdo do bloco de estilo passa
+pelo parser/sanitizador HTML do Streamlit, que interpreta qualquer sequência
+parecida com uma tag e **descarta o bloco de estilo inteiro**, sem erro no
+console nem no log — o efeito é a folha de estilo simplesmente sumir e a
+interface voltar ao visual padrão do Streamlit. Aconteceu duas vezes seguidas
+nesta rodada: um comentário citando `Icon name="external-link"` entre sinais de
+menor/maior, e depois um comentário que citava a própria tag `style`. Há um
+aviso explícito no comentário da regra do ícone em `tema.py`.
+
+**Como verificar visualmente sem o backend e sem Playwright.** O roadmap
+(Fase 7) registra que o Playwright do ambiente exige o canal "chrome", que
+precisa de `apt`/root. O Chromium embutido do Playwright
+(`~/.cache/ms-playwright/chromium-*/chrome-linux64/chrome`) funciona sem isso,
+dirigido por CDP com a lib `websockets` (já instalada como dependência do
+Streamlit): subir o Chromium com `--remote-debugging-port`, criar a aba com
+`PUT /json/new`, navegar, digitar via `Runtime.evaluate` e capturar com
+`Page.captureScreenshot`. Para exercitar citações e feedback sem Ollama,
+PostgreSQL e Qdrant, um stub de backend com dados fixos (stdlib `http.server`,
+respondendo `/saude`, `/perguntar`, `/feedback`) basta. Nota importante: o
+`AppTest` do Streamlit **não** pega o problema do sanitizador acima — ele
+valida o que o servidor envia, não o que o navegador aceita; só a medição no
+DOM pega.
+
 **Deliberadamente não portado** (mesmo depois desta rodada):
 
 - **Componentes React** (`design-system/components/`) e **telas**

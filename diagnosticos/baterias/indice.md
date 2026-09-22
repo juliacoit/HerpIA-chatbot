@@ -16,3 +16,6 @@ Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente p
 | 2026-09-02T17:16:12 | [2026-09-02_17h16_qwen2.5-3b-instruct.md](2026-09-02_17h16_qwen2.5-3b-instruct.md) | `4c8d1ec` | `qwen2.5:3b-instruct` | True | 8 | 0 | 4 |
 | 2026-09-04T16:22:19 | [2026-09-04_16h22_qwen2.5-3b-instruct.md](2026-09-04_16h22_qwen2.5-3b-instruct.md) | `e66b20b`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
 | 2026-09-04T16:39:03 | [2026-09-04_16h39_qwen2.5-3b-instruct.md](2026-09-04_16h39_qwen2.5-3b-instruct.md) | `7cf62e8`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 6 |
+| 2026-09-18T15:46:32 | [2026-09-18_15h46_qwen2.5-3b-instruct.md](2026-09-18_15h46_qwen2.5-3b-instruct.md) | `1b0b8c2` | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
+| 2026-09-18T15:50:10 | [2026-09-18_15h50_qwen2.5-3b-instruct.md](2026-09-18_15h50_qwen2.5-3b-instruct.md) | `1b0b8c2`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
+| 2026-09-18T15:53:30 | [2026-09-18_15h53_qwen2.5-3b-instruct.md](2026-09-18_15h53_qwen2.5-3b-instruct.md) | `1b0b8c2`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 9 |

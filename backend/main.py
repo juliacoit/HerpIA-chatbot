@@ -13,9 +13,9 @@ Docs interativas: http://localhost:8000/docs
 
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 
-from backend.config import obter_settings
+from backend.config import Settings, obter_settings
 from backend.db import abrir_pool, fechar_pool
 from backend.routers import busca, feedback, perguntar
 from backend.services.llm import criar_llm_client
@@ -53,5 +53,20 @@ app.include_router(feedback.router)
 
 
 @app.get("/saude", tags=["saude"])
-async def saude() -> dict:
-    return {"status": "ok"}
+async def saude(settings: Settings = Depends(obter_settings)) -> dict:
+    # Configuração do LLM em vigor no processo do backend (não no de quem
+    # chama) — usada pela bateria para registrar o que de fato rodou.
+    return {
+        "status": "ok",
+        "llm": {
+            "provider": settings.llm_provider,
+            "modelo": settings.llm_model,
+            "num_ctx": settings.llm_num_ctx,
+            "temperature": settings.llm_temperature,
+            "seed": settings.llm_seed,
+            "think": settings.llm_think,
+            "timeout": settings.llm_timeout,
+            "groundedness_verificar": settings.groundedness_verificar,
+            "top_k_padrao": settings.top_k_padrao,
+        },
+    }

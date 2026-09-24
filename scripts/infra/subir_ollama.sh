@@ -8,11 +8,23 @@
 #
 # Uso:
 #   scripts/infra/subir_ollama.sh
-#   scripts/infra/subir_ollama.sh --pull   # também garante que o modelo do ADR 0006 está baixado
+#   scripts/infra/subir_ollama.sh --pull   # também garante que o modelo de LLM_MODEL está baixado
+#   LLM_MODEL=qwen3.5:4b scripts/infra/subir_ollama.sh --pull
+#
+# O modelo vem de LLM_MODEL (variável de ambiente > linha LLM_MODEL= do .env),
+# com qwen2.5:3b-instruct (ADR 0006) como fallback. O log é acumulado (>>),
+# não sobrescrito a cada reinício.
 
 set -uo pipefail
 
-MODELO="qwen2.5:3b-instruct"
+# Lê só a linha LLM_MODEL= do .env (sem `source`, para não carregar senhas no
+# shell). `|| true`: a linha pode não existir, e isso não é erro.
+RAIZ="$(cd "$(dirname "$0")/../.." && pwd)"
+if [ -z "${LLM_MODEL:-}" ] && [ -f "$RAIZ/.env" ]; then
+    LLM_MODEL="$(grep -E '^[[:space:]]*LLM_MODEL=' "$RAIZ/.env" | tail -n 1 \
+        | cut -d= -f2- | sed -e 's/[[:space:]]#.*$//' -e 's/^#.*$//' | tr -d "\"' \t\r" || true)"
+fi
+MODELO="${LLM_MODEL:-qwen2.5:3b-instruct}"
 LOG_DIR="$HOME/.ollama/logs"
 mkdir -p "$LOG_DIR"
 
@@ -27,7 +39,7 @@ if curl -s -o /dev/null http://localhost:11434/api/version; then
     echo "Ollama já está rodando (http://localhost:11434)."
 else
     echo "Subindo o Ollama em background..."
-    nohup ollama serve > "$LOG_DIR/serve.log" 2>&1 &
+    nohup ollama serve >> "$LOG_DIR/serve.log" 2>&1 &
     disown
     for _ in $(seq 1 30); do
         curl -s -o /dev/null http://localhost:11434/api/version && break

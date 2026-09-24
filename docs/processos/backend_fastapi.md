@@ -254,13 +254,15 @@ camada de defesa, não a única.
 
 ## Configuração
 
-Reaproveita as variáveis já existentes no `.env` (nenhuma variável nova):
+Reaproveita as variáveis já existentes no `.env`, mais os parâmetros
+opcionais do LLM (todos com default, nenhum obrigatório):
 
 | Variável | Uso |
 |---|---|
 | `QDRANT_URL` / `QDRANT_LOCAL_PATH` | mesmo comportamento do `indexar_chunks.py` — local tem prioridade |
 | `QDRANT_COLLECTION` | coleção consultada |
 | `LLM_PROVIDER`, `OLLAMA_URL`, `LLM_MODEL` | ADR 0006 — hoje só `ollama` está implementado |
+| `LLM_NUM_CTX` (8192), `LLM_TEMPERATURE`, `LLM_SEED`, `LLM_THINK`, `LLM_TIMEOUT` (120) | parâmetros enviados ao Ollama; sem valor = campo não enviado. `LLM_THINK` aceita `true`/`false` ou `low`/`medium`/`high`. Config em vigor visível em `GET /saude`; uso de tokens por chamada no header `X-LLM-Uso` de `/perguntar` |
 | `OPENAI_API_KEY` | reservado para quando `LLM_PROVIDER=openai` for implementado |
 | `DATABASE_URL` | string de conexão do PostgreSQL (logging/feedback, `backend/db.py`) — se ausente/inacessível, logging e feedback ficam desativados sem derrubar o resto da API |
 

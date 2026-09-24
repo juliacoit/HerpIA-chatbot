@@ -38,6 +38,7 @@ Saída:
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 import time
@@ -50,6 +51,8 @@ import httpx
 RAIZ = Path(__file__).resolve().parents[1]
 DIR_BATERIAS = RAIZ / "diagnosticos" / "baterias"
 ARQUIVO_INDICE = DIR_BATERIAS / "indice.md"
+# Mesmo limiar do alerta do backend (backend/services/llm.py).
+LIMIAR_ALERTA_CONTEXTO = 0.85
 
 sys.path.insert(0, str(RAIZ))
 
@@ -423,19 +426,38 @@ class ResultadoCaso:
     justificativa_groundedness: str | None = None
     tempo_s: float = 0.0
     erro: str | None = None
+    # Uma entrada por chamada ao LLM (geração e, se ligado, juiz), lida do
+    # header X-LLM-Uso: prompt_eval_count, eval_count, num_ctx.
+    uso_llm: list[dict] = field(default_factory=list)
+
+    @property
+    def prompt_tokens_max(self) -> int | None:
+        valores = [u["prompt_eval_count"] for u in self.uso_llm if u.get("prompt_eval_count")]
+        return max(valores) if valores else None
+
+    def acima_do_limiar(self) -> bool:
+        return any(
+            u.get("num_ctx") and u.get("prompt_eval_count")
+            and u["prompt_eval_count"] > LIMIAR_ALERTA_CONTEXTO * u["num_ctx"]
+            for u in self.uso_llm
+        )
 
 
-def rodar_caso(client: httpx.Client, caso: dict, top_k: int, repeticao: int) -> ResultadoCaso:
+def rodar_caso(client: httpx.Client, caso: dict, top_k: int, repeticao: int, timeout: float) -> ResultadoCaso:
     resultado = ResultadoCaso(caso=caso, repeticao=repeticao)
     inicio = time.monotonic()
     try:
         resp = client.post(
             "/perguntar",
             json={"pergunta": caso["pergunta"], "top_k": top_k},
-            timeout=180.0,
+            timeout=timeout,
         )
         resultado.tempo_s = time.monotonic() - inicio
         resultado.status_http = resp.status_code
+        try:
+            resultado.uso_llm = json.loads(resp.headers.get("X-LLM-Uso", "[]"))
+        except json.JSONDecodeError:
+            resultado.uso_llm = []
         if resp.status_code != 200:
             resultado.erro = resp.text[:500]
             return resultado
@@ -476,6 +498,11 @@ def obter_metadados_execucao(url_base: str, top_k: int, repeticoes: int, n_pergu
         config_backend = {
             "llm_provider": s.llm_provider,
             "llm_model": s.llm_model,
+            "llm_num_ctx": s.llm_num_ctx,
+            "llm_temperature": s.llm_temperature,
+            "llm_seed": s.llm_seed,
+            "llm_think": s.llm_think,
+            "llm_timeout": s.llm_timeout,
             "ollama_url": s.ollama_url,
             "qdrant_collection": s.qdrant_collection,
             "qdrant_local_path": s.qdrant_local_path,
@@ -485,6 +512,27 @@ def obter_metadados_execucao(url_base: str, top_k: int, repeticoes: int, n_pergu
         }
     except Exception as exc:
         config_backend = {"erro_ao_ler_config": str(exc)}
+
+    # A config de LLM que vale é a do processo do backend, não a deste script
+    # (as variáveis de ambiente podem ter sido passadas só ao uvicorn). As
+    # settings locais ficam só como fallback, marcadas como tal.
+    config_backend["origem_config_llm"] = "lida localmente (GET /saude falhou)"
+    try:
+        llm = httpx.get(f"{url_base}/saude", timeout=10.0).json()["llm"]
+        config_backend.update({
+            "llm_provider": llm["provider"],
+            "llm_model": llm["modelo"],
+            "llm_num_ctx": llm["num_ctx"],
+            "llm_temperature": llm["temperature"],
+            "llm_seed": llm["seed"],
+            "llm_think": llm["think"],
+            "llm_timeout": llm["timeout"],
+            "groundedness_verificar": llm["groundedness_verificar"],
+            "top_k_padrao": llm["top_k_padrao"],
+            "origem_config_llm": "backend (GET /saude)",
+        })
+    except (httpx.HTTPError, KeyError, ValueError):
+        pass
 
     return {
         "timestamp_iso": agora.isoformat(timespec="seconds"),
@@ -515,6 +563,10 @@ def gerar_relatorio(
         f"- **Commit git**: `{meta['git_commit']}`"
         + (" (árvore de trabalho com alterações não commitadas)" if meta["git_sujo"] else ""),
         f"- **Modelo LLM**: `{meta.get('llm_model', '?')}` (provider: `{meta.get('llm_provider', '?')}`)",
+        f"- **Parâmetros do LLM**: num_ctx=`{meta.get('llm_num_ctx', '?')}`, "
+        f"temperature=`{meta.get('llm_temperature', '?')}`, seed=`{meta.get('llm_seed', '?')}`, "
+        f"think=`{meta.get('llm_think', '?')}`, timeout=`{meta.get('llm_timeout', '?')}`s "
+        f"(None = não enviado ao Ollama; config {meta.get('origem_config_llm', '?')})",
         f"- **Groundedness (verificação pós-geração)**: `{meta.get('groundedness_verificar', '?')}`",
         f"- **Qdrant**: collection `{meta.get('qdrant_collection', '?')}`"
         + (
@@ -557,8 +609,8 @@ def gerar_relatorio(
         "",
         "## Resumo por caso",
         "",
-        "| id | exec. | categoria | esperado | evidência suficiente | fundamentada (groundedness) | fontes citadas | fontes esperadas citadas | parece reconhecer insuficiência* | tempo (s) | avaliação |",
-        "|----|-------|-----------|----------|------------------------|------------------------------|-----------------|--------------------------|-----------------------------------|-----------|-----------|",
+        "| id | exec. | categoria | esperado | evidência suficiente | fundamentada (groundedness) | fontes citadas | fontes esperadas citadas | parece reconhecer insuficiência* | prompt tokens (máx) | tempo (s) | avaliação |",
+        "|----|-------|-----------|----------|------------------------|------------------------------|-----------------|--------------------------|-----------------------------------|---------------------|-----------|-----------|",
     ]
 
     n_rep = meta["repeticoes"]
@@ -567,7 +619,7 @@ def gerar_relatorio(
         exec_str = f"{r.repeticao}/{n_rep}"
         if r.erro:
             partes.append(
-                f"| {r.caso['id']} | {exec_str} | {r.caso['categoria']} | {esperado} | ERRO | — | — | — | — | {r.tempo_s:.1f} | |"
+                f"| {r.caso['id']} | {exec_str} | {r.caso['categoria']} | {esperado} | ERRO | — | — | — | — | — | {r.tempo_s:.1f} | |"
             )
             continue
         fontes = {c.get("fonte", "?") for c in r.citacoes}
@@ -577,10 +629,39 @@ def gerar_relatorio(
         else:
             fontes_ok = "—"
         sinalizador = "sim" if parece_reconhecer_insuficiencia(r.resposta) else "não"
+        tokens = r.prompt_tokens_max if r.prompt_tokens_max is not None else "—"
+        if r.acima_do_limiar():
+            tokens = f"{tokens} ⚠"
         partes.append(
             f"| {r.caso['id']} | {exec_str} | {r.caso['categoria']} | {esperado} | "
             f"{r.evidencia_suficiente} | {r.resposta_fundamentada} | {fontes_str} | "
-            f"{fontes_ok} | {sinalizador} | {r.tempo_s:.1f} | |"
+            f"{fontes_ok} | {sinalizador} | {tokens} | {r.tempo_s:.1f} | |"
+        )
+
+    partes.append("")
+    partes.append(f"## Casos com prompt acima de {LIMIAR_ALERTA_CONTEXTO:.0%} do num_ctx")
+    partes.append("")
+    partes.append(
+        "O Ollama corta o **início** do prompt (onde estão as instruções) quando ele "
+        "passa do num_ctx, sem erro. Casos listados aqui podem ter rodado com o "
+        "prompt truncado ou perto disso."
+    )
+    partes.append("")
+    acima = [r for r in resultados if r.acima_do_limiar()]
+    sem_uso = [r for r in resultados if not r.erro and not r.uso_llm]
+    if acima:
+        for r in acima:
+            chamadas = ", ".join(
+                f"{u.get('prompt_eval_count')}/{u.get('num_ctx')}" for u in r.uso_llm
+            )
+            partes.append(f"- **{r.caso['id']}** (execução {r.repeticao}/{n_rep}): {chamadas}")
+    else:
+        partes.append("_Nenhum._")
+    if sem_uso:
+        partes.append("")
+        partes.append(
+            f"_{len(sem_uso)} resposta(s) sem header X-LLM-Uso (resposta sem chamada ao "
+            "LLM, como a checagem estrutural do SEI, ou backend anterior a esta mudança)._"
         )
 
     partes.append("")
@@ -607,6 +688,11 @@ def gerar_relatorio(
         if r.justificativa_groundedness:
             partes.append(f"- **justificativa_groundedness**: {r.justificativa_groundedness}")
         partes.append(f"- **Tempo de resposta**: {r.tempo_s:.1f}s")
+        for i, u in enumerate(r.uso_llm, start=1):
+            partes.append(
+                f"- **Chamada ao LLM {i}**: prompt_eval_count={u.get('prompt_eval_count')}"
+                f"/{u.get('num_ctx')}, eval_count={u.get('eval_count')}"
+            )
         partes.append("")
         partes.append("**Resposta:**")
         partes.append("")
@@ -677,6 +763,10 @@ def main() -> None:
         help="quantas vezes cada pergunta roda (padrão 3 — o modelo não é determinístico)",
     )
     parser.add_argument(
+        "--timeout", type=float, default=180.0,
+        help="timeout por pergunta, em segundos (padrão 180; aumente para modelos que rodam na CPU)",
+    )
+    parser.add_argument(
         "--categorias", default="",
         help="letras das categorias a rodar, separadas por vírgula (ex.: G,L); vazio = todas",
     )
@@ -700,7 +790,7 @@ def main() -> None:
             for caso in casos:
                 n = len(resultados) + 1
                 print(f"[{n}/{total}] {caso['id']} (exec. {repeticao}): {caso['pergunta']!r}")
-                resultado = rodar_caso(client, caso, args.top_k, repeticao)
+                resultado = rodar_caso(client, caso, args.top_k, repeticao, args.timeout)
                 if resultado.erro:
                     print(f"    ERRO: {resultado.erro}")
                 else:

@@ -1,9 +1,10 @@
 """Endpoint principal do RAG: busca + geração de resposta com citações."""
 
+import json
 import time
 
 import httpx
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Response
 from psycopg_pool import ConnectionPool
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
@@ -12,7 +13,7 @@ from backend.config import Settings, obter_settings
 from backend.dependencies import obter_db_pool, obter_llm, obter_modelo_embedding, obter_qdrant
 from backend.schemas import PerguntarRequest, PerguntarResponse
 from backend.services.geracao import gerar_resposta
-from backend.services.llm import LLMClient
+from backend.services.llm import LLMClient, registrar_uso_llm
 from backend.services.logging_db import registrar_interacao
 from backend.services.roteamento import buscar_chunks_priorizados
 
@@ -22,6 +23,7 @@ router = APIRouter(prefix="/perguntar", tags=["perguntar"])
 @router.post("", response_model=PerguntarResponse)
 async def perguntar(
     body: PerguntarRequest,
+    response: Response,
     client: QdrantClient = Depends(obter_qdrant),
     modelo: SentenceTransformer = Depends(obter_modelo_embedding),
     llm: LLMClient = Depends(obter_llm),
@@ -32,7 +34,8 @@ async def perguntar(
 
     inicio = time.perf_counter()
     try:
-        resultado = await gerar_resposta(llm, body.pergunta, chunks, settings)
+        with registrar_uso_llm() as uso_llm:
+            resultado = await gerar_resposta(llm, body.pergunta, chunks, settings)
     except httpx.HTTPError as exc:
         raise HTTPException(
             status_code=503,
@@ -43,6 +46,9 @@ async def perguntar(
             ),
         ) from exc
     tempo_resposta_ms = int((time.perf_counter() - inicio) * 1000)
+    # Uso de tokens por chamada ao LLM (geração e, se ligado, juiz), para a
+    # bateria detectar prompts perto do limite de contexto sem mudar o schema.
+    response.headers["X-LLM-Uso"] = json.dumps(uso_llm)
 
     resultado.id = registrar_interacao(
         db_pool,

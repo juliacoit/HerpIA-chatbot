@@ -2,8 +2,8 @@
 
 Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente por último. Cada linha aponta para o arquivo completo daquela execução, com todas as respostas e citações. Não editar à mão — é gerado por append.
 
-| timestamp | arquivo | commit | modelo | groundedness | top_k | erros | não fundamentadas |
-|---|---|---|---|---|---|---|---|
+| timestamp | arquivo | commit | modelo | groundedness | top_k | erros | não fundamentadas | perguntas | repetições |
+|---|---|---|---|---|---|---|---|---|---|
 | 2026-08-19T16:02:53 | [2026-08-19_16h02_qwen2.5-3b-instruct.md](2026-08-19_16h02_qwen2.5-3b-instruct.md) | `6581c77`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 6 |
 | 2026-08-19T16:32:04 | [2026-08-19_16h32_qwen2.5-3b-instruct.md](2026-08-19_16h32_qwen2.5-3b-instruct.md) | `6581c77`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 6 |
 | 2026-08-19T16:38:55 | [2026-08-19_16h38_qwen2.5-3b-instruct.md](2026-08-19_16h38_qwen2.5-3b-instruct.md) | `6581c77`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 6 |
@@ -19,3 +19,4 @@ Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente p
 | 2026-09-18T15:46:32 | [2026-09-18_15h46_qwen2.5-3b-instruct.md](2026-09-18_15h46_qwen2.5-3b-instruct.md) | `1b0b8c2` | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
 | 2026-09-18T15:50:10 | [2026-09-18_15h50_qwen2.5-3b-instruct.md](2026-09-18_15h50_qwen2.5-3b-instruct.md) | `1b0b8c2`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 7 |
 | 2026-09-18T15:53:30 | [2026-09-18_15h53_qwen2.5-3b-instruct.md](2026-09-18_15h53_qwen2.5-3b-instruct.md) | `1b0b8c2`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 9 |
+| 2026-09-22T16:18:31 | [2026-09-22_16h18_qwen2.5-3b-instruct.md](2026-09-22_16h18_qwen2.5-3b-instruct.md) | `b6504f4`* | `qwen2.5:3b-instruct` | True | 8 | 0 | 36 | 36 | 3 |

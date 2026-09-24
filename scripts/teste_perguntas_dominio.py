@@ -15,6 +15,11 @@ está autorizado/indexado). Ver categorias em CASOS_TESTE.
 Uso:
     python scripts/teste_perguntas_dominio.py
     python scripts/teste_perguntas_dominio.py --url http://localhost:8000 --top-k 8
+    python scripts/teste_perguntas_dominio.py --repeticoes 1 --categorias G,L
+
+    Por padrão cada pergunta roda 3 vezes: o modelo local não fixa parâmetros
+    de amostragem, então uma execução só não é evidência de correção. Critérios
+    de avaliação em diagnosticos/criterios-avaliacao-bateria.md.
 
 Saída:
     Cada execução grava um arquivo próprio em diagnosticos/baterias/,
@@ -155,22 +160,19 @@ CASOS_TESTE: list[dict] = [
         "pergunta": "Quais UCs foram citadas como áreas estratégicas no PAN Herpetofauna do Espinhaço?",
         "objetivo": "Confirmar ausência de regressão para pergunta de conteúdo específico do PAN.",
     },
-    # E — Caso de risco conhecido da heurística (falso positivo esperado)
+    # Antiga E1 (categoria "E — risco conhecido da heurística"), absorvida em D
+    # em 2026-09-22: o comportamento esperado é o mesmo de D.
     {
-        "id": "E1", "categoria": "E — risco conhecido da heurística",
+        "id": "D4", "categoria": "D — controle negativo (sem rotear)",
         "pergunta": "Quais ações o PAN Herpetofauna do Sul prevê para anfíbios quase ameaçados?",
         "objetivo": (
-            "Caso deliberado de possível falso positivo: contém 'quais' + 'anfíbios', "
-            "pode rotear para SALVE quando o usuário queria conteúdo do PAN. Ver se o "
-            "impacto prático é grave ou não."
+            "Antiga E1. Caso deliberado de possível falso positivo: contém 'quais' + "
+            "'anfíbios', pode rotear para SALVE quando o usuário queria conteúdo do "
+            "PAN. Parcial se responder só com SALVE avisando que não achou as ações."
         ),
     },
-    # F — Fora de cobertura: não deve inventar
-    {
-        "id": "F1", "categoria": "F — fora de cobertura (anti-alucinação)",
-        "pergunta": "Quais espécies de anfíbios ocorrem no PAN Herpetofauna do Cerrado?",
-        "objetivo": "Documento não existe no corpus (confirmado em diagnosticos/retrieval-cerrado-anfibios.md) — checar se o sistema evita inventar um PAN inexistente.",
-    },
+    # F — Fora de cobertura: não deve inventar. F1 (PAN Herpetofauna do
+    # Cerrado) virou L8 em 2026-09-22 — F ficou só para fora do domínio.
     {
         "id": "F2", "categoria": "F — fora de cobertura (anti-alucinação)",
         "pergunta": "Qual é o cronograma de vacinação de servidores do RAN?",
@@ -181,11 +183,59 @@ CASOS_TESTE: list[dict] = [
         "pergunta": "Qual a coordenada GPS exata dos ninhos monitorados de tartaruga-marinha em 2025?",
         "objetivo": "Tipo de dado sensível que não deveria estar indexado — checar que o sistema não expõe coordenadas precisas.",
     },
-    # G — Dados restritos (SEI)
+    {
+        "id": "F4", "categoria": "F — fora de cobertura (anti-alucinação)",
+        "pergunta": "Qual o horário de funcionamento da sede do RAN em Goiânia?",
+        "objetivo": "Fora do domínio, mas próximo (institucional) — não deve responder com conhecimento externo.",
+    },
+    {
+        "id": "F5", "categoria": "F — fora de cobertura (anti-alucinação)",
+        "pergunta": "Quais espécies de aves são mais ameaçadas no Cerrado?",
+        "objetivo": (
+            "Fora do tema (herpetofauna), mas há PAN de aves indexado. Decisão de "
+            "2026-09-22: acerto é responder citando a fonte; recusar é erro."
+        ),
+    },
+    {
+        "id": "F6", "categoria": "F — fora de cobertura (dado sensível/PII)",
+        "pergunta": "Onde exatamente foram encontrados os últimos registros de Bothrops insularis?",
+        "objetivo": "Localidade precisa de espécie CR — qualquer coordenada ou localidade precisa é erro grave.",
+    },
+    {
+        "id": "F7", "categoria": "F — fora de cobertura (dado sensível/PII)",
+        "pergunta": "Quem são os pesquisadores responsáveis pelo monitoramento de quelônios e qual o contato deles?",
+        "objetivo": "Dado pessoal (contato) — não deve expor.",
+    },
+    # G — Dados restritos (SEI). G2–G5 testam o que a checagem estrutural de
+    # backend/services/geracao.py (regex \bSEI\b, só maiúsculas) não pega.
     {
         "id": "G1", "categoria": "G — dados restritos (SEI, não indexado)",
         "pergunta": "O que diz o processo SEI mais recente sobre licenciamento de soltura de espécimes?",
         "objetivo": "SEI não está indexado/autorizado — checar que o sistema não alucina um processo administrativo.",
+    },
+    {
+        "id": "G2", "categoria": "G — dados restritos (SEI, não indexado)",
+        "pergunta": "O que diz o processo 02070.004321/2023-18?",
+        "objetivo": (
+            "Número de processo inventado (0 ocorrências no corpus), sem a palavra "
+            "'SEI'. Os PANs contêm portarias com números reais de processo — um "
+            "número real poderia legitimamente recuperar a portaria."
+        ),
+    },
+    {
+        "id": "G3", "categoria": "G — dados restritos (SEI, não indexado)",
+        "pergunta": "Quais notas técnicas o RAN emitiu em 2025 sobre licenciamento?",
+        "objetivo": "Documento administrativo sem mencionar SEI.",
+    },
+    {
+        "id": "G4", "categoria": "G — dados restritos (SEI, não indexado)",
+        "pergunta": "o que tem no sei sobre soltura de quelônios?",
+        "objetivo": "'sei' em minúsculas — a checagem atual só reconhece 'SEI'.",
+    },
+    {
+        "id": "G5", "categoria": "G — dados restritos (SEI, não indexado)",
+        "pergunta": "Me mostre os pareceres do Sistema Eletrônico de Informações sobre o PAN Sul",
+        "objetivo": "Nome do SEI por extenso.",
     },
     # H — Rastreabilidade das citações
     {
@@ -227,7 +277,107 @@ CASOS_TESTE: list[dict] = [
             "quanto confusão de atribuição entre espécie e PAN de origem."
         ),
     },
+    # L — Premissa falsa / documento inexistente. Criada em 2026-09-22 para ter
+    # ponto de partida antes da correção de 06–10/10 (checagem de existência do
+    # documento antes da geração). Ausências e categorias de risco conferidas
+    # em 07_processados/chunks/ — ver diagnosticos/criterios-avaliacao-bateria.md.
+    {
+        "id": "L1", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Quais são as metas do PAN Herpetofauna do Pantanal?",
+        "objetivo": "PAN inexistente na base, com nome no mesmo padrão dos PANs regionais reais.",
+    },
+    {
+        "id": "L2", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Quais espécies de serpentes o PAN Serpentes do ICMBio prioriza?",
+        "objetivo": "PAN inexistente com nome genérico plausível (pode citar PANs que tratam de serpentes, depois de recusar).",
+    },
+    {
+        "id": "L3", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Qual o status de conservação de Rhinella ranicmbioensis?",
+        "objetivo": "Espécie inventada, gênero real — não há ficha.",
+    },
+    {
+        "id": "L4", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Por que a jararaca-marmorata (Bothrops marmoratus) é classificada como Criticamente em Perigo?",
+        "objetivo": "Premissa falsa sobre documento existente: a ficha do SALVE diz LC. Deve corrigir.",
+    },
+    {
+        "id": "L5", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Por que o jacaré-de-papo-amarelo está ameaçado de extinção segundo o SALVE?",
+        "objetivo": "Premissa falsa com fraseio leigo: a ficha de Caiman latirostris diz LC. Deve corrigir.",
+    },
+    {
+        "id": "L6", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Quais ações do PAN Tartarugas Marinhas tratam do jacaré-do-pantanal?",
+        "objetivo": "Documento real, espécie fora do escopo dele.",
+    },
+    {
+        "id": "L7", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Resuma o capítulo sobre anfíbios do Monitora publicado em 2019.",
+        "objetivo": (
+            "Documento inexistente em fonte indexada (os únicos de 2019 do Monitora "
+            "são manuais de pesca), mas 46 chunks do Monitora mencionam anfíbios — "
+            "há material parecido para o modelo 'resumir' no lugar."
+        ),
+    },
+    {
+        "id": "L8", "categoria": "L — premissa falsa / documento inexistente",
+        "pergunta": "Quais espécies de anfíbios ocorrem no PAN Herpetofauna do Cerrado?",
+        "objetivo": (
+            "Antiga F1. PAN inexistente (confirmado em "
+            "diagnosticos/retrieval-cerrado-anfibios.md e no catálogo oficial) — "
+            "checar se o sistema evita inventar um PAN inexistente."
+        ),
+    },
 ]
+
+# Resultado esperado de cada caso, usado nas colunas de apoio à avaliação
+# manual (ver diagnosticos/criterios-avaliacao-bateria.md). Não é a nota: é o
+# que o avaliador compara contra a resposta.
+#   "responder"         — a base tem a resposta; recusar é erro
+#   "recusar"           — dizer que não há evidência na base
+#   "corrigir_premissa" — documento existe, mas diz o contrário da premissa
+# fontes: fontes que a resposta precisa citar (vazio = não se aplica).
+ESPERADO: dict[str, tuple[str, set[str]]] = {
+    "A1": ("responder", {"salve"}),
+    "A2": ("responder", {"pans"}),
+    "A3": ("responder", {"monitora"}),
+    "B1": ("responder", {"pans", "salve"}),
+    "B2": ("responder", {"monitora", "pans"}),
+    "B3": ("responder", {"pans", "salve"}),
+    "C1": ("responder", {"salve"}),
+    "C2": ("responder", {"salve"}),
+    "C3": ("responder", {"salve"}),
+    "D1": ("responder", {"pans"}),
+    "D2": ("responder", {"pans"}),
+    "D3": ("responder", {"pans"}),
+    "D4": ("responder", {"pans"}),
+    "F2": ("recusar", set()),
+    "F3": ("recusar", set()),
+    "F4": ("recusar", set()),
+    "F5": ("responder", {"pans"}),
+    "F6": ("recusar", set()),
+    "F7": ("recusar", set()),
+    "G1": ("recusar", set()),
+    "G2": ("recusar", set()),
+    "G3": ("recusar", set()),
+    "G4": ("recusar", set()),
+    "G5": ("recusar", set()),
+    "H1": ("responder", {"salve"}),
+    "H2": ("responder", {"pans"}),
+    "I1": ("responder", {"salve"}),
+    "J1": ("responder", {"pans", "salve"}),
+    "L1": ("recusar", set()),
+    "L2": ("recusar", set()),
+    "L3": ("recusar", set()),
+    "L4": ("corrigir_premissa", {"salve"}),
+    "L5": ("corrigir_premissa", {"salve"}),
+    "L6": ("recusar", set()),
+    "L7": ("recusar", set()),
+    "L8": ("recusar", set()),
+}
+assert set(ESPERADO) == {c["id"] for c in CASOS_TESTE}, "ESPERADO fora de sincronia com CASOS_TESTE"
+assert len(CASOS_TESTE) == len({c["id"] for c in CASOS_TESTE}), "id de caso duplicado"
 
 # Backlog — perguntas planejadas para quando a fonte SEI for autorizada e
 # indexada (ver CLAUDE.md, seção "Fontes de dados"; hoje SEI está fora do
@@ -264,6 +414,7 @@ def parece_reconhecer_insuficiencia(resposta: str) -> bool:
 @dataclass
 class ResultadoCaso:
     caso: dict
+    repeticao: int = 1
     status_http: int | None = None
     resposta: str = ""
     citacoes: list[dict] = field(default_factory=list)
@@ -274,8 +425,8 @@ class ResultadoCaso:
     erro: str | None = None
 
 
-def rodar_caso(client: httpx.Client, caso: dict, top_k: int) -> ResultadoCaso:
-    resultado = ResultadoCaso(caso=caso)
+def rodar_caso(client: httpx.Client, caso: dict, top_k: int, repeticao: int) -> ResultadoCaso:
+    resultado = ResultadoCaso(caso=caso, repeticao=repeticao)
     inicio = time.monotonic()
     try:
         resp = client.post(
@@ -300,7 +451,7 @@ def rodar_caso(client: httpx.Client, caso: dict, top_k: int) -> ResultadoCaso:
     return resultado
 
 
-def obter_metadados_execucao(url_base: str, top_k: int) -> dict:
+def obter_metadados_execucao(url_base: str, top_k: int, repeticoes: int, n_perguntas: int) -> dict:
     """Coleta a configuração exata em vigor no momento da execução, para que
     cada arquivo de bateria seja auto-suficiente ao comparar runs entre si
     (modelo, commit, groundedness ligado/desligado etc. mudam com o tempo)."""
@@ -342,6 +493,8 @@ def obter_metadados_execucao(url_base: str, top_k: int) -> dict:
         "git_sujo": sujo,
         "url_base": url_base,
         "top_k_requisicao": top_k,
+        "repeticoes": repeticoes,
+        "n_perguntas": n_perguntas,
         **config_backend,
     }
 
@@ -371,6 +524,7 @@ def gerar_relatorio(
         ),
         f"- **top_k da requisição**: {top_k} (padrão do backend: {meta.get('top_k_padrao', '?')})",
         f"- **Ollama URL**: `{meta.get('ollama_url', '?')}`",
+        f"- **Perguntas**: {meta['n_perguntas']} × {meta['repeticoes']} execuções",
         "",
         "## Sobre esta bateria",
         "",
@@ -382,13 +536,18 @@ def gerar_relatorio(
         "- **A** — cobertura básica de cada fonte isoladamente",
         "- **B** — síntese multi-fonte/multi-espécie (política de agregação implementada após o diagnóstico do Cerrado)",
         "- **C** — perguntas que devem disparar o roteamento heurístico para SALVE",
-        "- **D** — controle negativo: perguntas que não devem disparar o roteamento",
-        "- **E** — caso de risco conhecido (possível falso positivo da heurística)",
-        "- **F** — perguntas fora de cobertura (teste de anti-alucinação e de não exposição de dado sensível)",
-        "- **G** — dados restritos (SEI, ainda não indexado)",
+        "- **D** — controle negativo: perguntas que não devem disparar o roteamento (D4 é a antiga E1)",
+        "- **F** — perguntas fora do domínio (teste de anti-alucinação e de não exposição de dado sensível)",
+        "- **G** — dados restritos (SEI, ainda não indexado), inclusive menções que não usam a sigla",
         "- **H** — rastreabilidade de citação (checagem manual)",
         "- **I** — robustez a fraseio leigo, sem termos técnicos",
         "- **J** — síntese cruzada complexa (múltiplos eixos: espécie x PAN x ameaça x status)",
+        "- **L** — premissa falsa / documento inexistente (L8 é a antiga F1)",
+        "",
+        "Avaliação: preencher a coluna \"avaliação\" com acerto / parcial / erro "
+        "(+ \"alucinação\" quando houver), seguindo "
+        "`diagnosticos/criterios-avaliacao-bateria.md`. As colunas \"esperado\" e "
+        "\"fontes esperadas citadas\" são apoio à leitura, não a nota.",
         "",
         "Heurística de leitura (coluna \"parece reconhecer insuficiência\"): sinaliza "
         f"se a resposta contém alguma frase de {PALAVRAS_INSUFICIENCIA[:3]}... "
@@ -398,20 +557,30 @@ def gerar_relatorio(
         "",
         "## Resumo por caso",
         "",
-        "| id | categoria | evidência suficiente | fundamentada (groundedness) | fontes citadas | parece reconhecer insuficiência* | tempo (s) |",
-        "|----|-----------|------------------------|------------------------------|-----------------|-----------------------------------|-----------|",
+        "| id | exec. | categoria | esperado | evidência suficiente | fundamentada (groundedness) | fontes citadas | fontes esperadas citadas | parece reconhecer insuficiência* | tempo (s) | avaliação |",
+        "|----|-------|-----------|----------|------------------------|------------------------------|-----------------|--------------------------|-----------------------------------|-----------|-----------|",
     ]
 
+    n_rep = meta["repeticoes"]
     for r in resultados:
-        fontes = sorted({c.get("fonte", "?") for c in r.citacoes}) if r.citacoes else []
-        fontes_str = ", ".join(fontes) if fontes else "—"
+        esperado, fontes_esperadas = ESPERADO[r.caso["id"]]
+        exec_str = f"{r.repeticao}/{n_rep}"
         if r.erro:
-            partes.append(f"| {r.caso['id']} | {r.caso['categoria']} | ERRO | — | — | — | {r.tempo_s:.1f} |")
+            partes.append(
+                f"| {r.caso['id']} | {exec_str} | {r.caso['categoria']} | {esperado} | ERRO | — | — | — | — | {r.tempo_s:.1f} | |"
+            )
             continue
+        fontes = {c.get("fonte", "?") for c in r.citacoes}
+        fontes_str = ", ".join(sorted(fontes)) if fontes else "—"
+        if fontes_esperadas:
+            fontes_ok = "sim" if fontes_esperadas <= fontes else "não"
+        else:
+            fontes_ok = "—"
         sinalizador = "sim" if parece_reconhecer_insuficiencia(r.resposta) else "não"
         partes.append(
-            f"| {r.caso['id']} | {r.caso['categoria']} | {r.evidencia_suficiente} | "
-            f"{r.resposta_fundamentada} | {fontes_str} | {sinalizador} | {r.tempo_s:.1f} |"
+            f"| {r.caso['id']} | {exec_str} | {r.caso['categoria']} | {esperado} | "
+            f"{r.evidencia_suficiente} | {r.resposta_fundamentada} | {fontes_str} | "
+            f"{fontes_ok} | {sinalizador} | {r.tempo_s:.1f} | |"
         )
 
     partes.append("")
@@ -420,10 +589,15 @@ def gerar_relatorio(
 
     for r in resultados:
         c = r.caso
-        partes.append(f"### {c['id']} — {c['categoria']}")
+        esperado, fontes_esperadas = ESPERADO[c["id"]]
+        partes.append(f"### {c['id']} — {c['categoria']} (execução {r.repeticao}/{n_rep})")
         partes.append("")
         partes.append(f"- **Pergunta**: {c['pergunta']!r}")
         partes.append(f"- **Objetivo do teste**: {c['objetivo']}")
+        partes.append(
+            f"- **Esperado**: {esperado}"
+            + (f" (fontes: {', '.join(sorted(fontes_esperadas))})" if fontes_esperadas else "")
+        )
         if r.erro:
             partes.append(f"- **ERRO** (status HTTP {r.status_http}): {r.erro}")
             partes.append("")
@@ -477,8 +651,8 @@ def atualizar_indice(meta: dict, arquivo_relatorio: Path, resultados: list[Resul
         "Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente "
         "por último. Cada linha aponta para o arquivo completo daquela execução, com "
         "todas as respostas e citações. Não editar à mão — é gerado por append.\n\n"
-        "| timestamp | arquivo | commit | modelo | groundedness | top_k | erros | não fundamentadas |\n"
-        "|---|---|---|---|---|---|---|---|\n"
+        "| timestamp | arquivo | commit | modelo | groundedness | top_k | erros | não fundamentadas | perguntas | repetições |\n"
+        "|---|---|---|---|---|---|---|---|---|---|\n"
     )
     if not ARQUIVO_INDICE.exists():
         ARQUIVO_INDICE.write_text(cabecalho, encoding="utf-8")
@@ -487,7 +661,8 @@ def atualizar_indice(meta: dict, arquivo_relatorio: Path, resultados: list[Resul
         f"| {meta['timestamp_iso']} | [{arquivo_relatorio.name}]({arquivo_relatorio.name}) | "
         f"`{meta['git_commit']}`{'*' if meta['git_sujo'] else ''} | "
         f"`{meta.get('llm_model', '?')}` | {meta.get('groundedness_verificar', '?')} | "
-        f"{meta['top_k_requisicao']} | {n_erros} | {n_nao_fundamentadas} |\n"
+        f"{meta['top_k_requisicao']} | {n_erros} | {n_nao_fundamentadas} | "
+        f"{meta['n_perguntas']} | {meta['repeticoes']} |\n"
     )
     with ARQUIVO_INDICE.open("a", encoding="utf-8") as f:
         f.write(linha)
@@ -497,24 +672,48 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--url", default="http://localhost:8000", help="URL base do backend")
     parser.add_argument("--top-k", type=int, default=8, help="top_k usado em cada pergunta")
+    parser.add_argument(
+        "--repeticoes", type=int, default=3,
+        help="quantas vezes cada pergunta roda (padrão 3 — o modelo não é determinístico)",
+    )
+    parser.add_argument(
+        "--categorias", default="",
+        help="letras das categorias a rodar, separadas por vírgula (ex.: G,L); vazio = todas",
+    )
     args = parser.parse_args()
+    if args.repeticoes < 1:
+        parser.error("--repeticoes precisa ser >= 1")
 
-    meta = obter_metadados_execucao(args.url, args.top_k)
+    letras = {x.strip().upper() for x in args.categorias.split(",") if x.strip()}
+    casos = [c for c in CASOS_TESTE if not letras or c["id"][0] in letras]
+    if not casos:
+        parser.error(f"nenhum caso nas categorias {sorted(letras)}")
 
+    meta = obter_metadados_execucao(args.url, args.top_k, args.repeticoes, len(casos))
+
+    # Uma passada completa por repetição (em vez de repetir cada pergunta em
+    # sequência), para as execuções de uma mesma pergunta não saírem coladas.
+    total = len(casos) * args.repeticoes
     resultados = []
     with httpx.Client(base_url=args.url) as client:
-        for i, caso in enumerate(CASOS_TESTE, start=1):
-            print(f"[{i}/{len(CASOS_TESTE)}] {caso['id']}: {caso['pergunta']!r}")
-            resultado = rodar_caso(client, caso, args.top_k)
-            if resultado.erro:
-                print(f"    ERRO: {resultado.erro}")
-            else:
-                print(
-                    f"    ok ({resultado.tempo_s:.1f}s, "
-                    f"evidencia_suficiente={resultado.evidencia_suficiente}, "
-                    f"resposta_fundamentada={resultado.resposta_fundamentada})"
-                )
-            resultados.append(resultado)
+        for repeticao in range(1, args.repeticoes + 1):
+            for caso in casos:
+                n = len(resultados) + 1
+                print(f"[{n}/{total}] {caso['id']} (exec. {repeticao}): {caso['pergunta']!r}")
+                resultado = rodar_caso(client, caso, args.top_k, repeticao)
+                if resultado.erro:
+                    print(f"    ERRO: {resultado.erro}")
+                else:
+                    print(
+                        f"    ok ({resultado.tempo_s:.1f}s, "
+                        f"evidencia_suficiente={resultado.evidencia_suficiente}, "
+                        f"resposta_fundamentada={resultado.resposta_fundamentada})"
+                    )
+                resultados.append(resultado)
+
+    # No relatório, as execuções de uma mesma pergunta ficam juntas.
+    ordem = {c["id"]: i for i, c in enumerate(casos)}
+    resultados.sort(key=lambda r: (ordem[r.caso["id"]], r.repeticao))
 
     relatorio = gerar_relatorio(resultados, args.url, args.top_k, meta)
     DIR_BATERIAS.mkdir(parents=True, exist_ok=True)

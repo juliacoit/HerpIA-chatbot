@@ -4,9 +4,10 @@ _Rodada executada em 2026-09-25 (branch `experimento/comparacao-geradores`, comm
 Compara **só a geração** (`GROUNDEDNESS_VERIFICAR=false`); o juiz de groundedness fica para uma
 rodada separada e offline._
 
-> **Toda classificação de alucinação, especulação, abstenção e premissa neste documento é
-> preliminar e está a revisar pela Júlia.** Foi feita pelo Claude lendo as 540 respostas contra os
-> trechos efetivamente recuperados (ver "Método de classificação"). A decisão sai da leitura humana.
+> **As classificações de alucinação, especulação, abstenção e premissa (tabelas das seções 2 e 3,
+> rótulos da seção 4 e Anexo A) foram revisadas pela Júlia em 2026-09-30.** Foram feitas pelo Claude
+> lendo as 540 respostas contra os trechos efetivamente recuperados (ver "Método de classificação")
+> e conferidas célula a célula na revisão humana.
 > Este documento descreve diferenças observadas; não indica qual modelo escolher.
 
 > **Reclassificação de 2026-09-25 (F6).** Pela decisão 7 de
@@ -85,8 +86,8 @@ Latências por caso, das 108 respostas de cada bateria (sem o aquecimento). Colu
 contam **casos** (de 36) em que o rótulo aparece em pelo menos uma das 3 execuções; entre parênteses,
 o número de **respostas** (de 108). "Abstenção correta" = abstém em caso cujo esperado é recusar;
 "abstenção indevida" = abstém em caso cujo esperado é responder ou corrigir a premissa (em vários
-desses casos a busca não trouxe o trecho necessário — ver seção 5). **Tudo preliminar, a revisar
-pela Júlia.**
+desses casos a busca não trouxe o trecho necessário — ver seção 5). **Revisado pela Júlia em
+2026-09-30.**
 
 | Modelo | Latência média (s) | Mediana (s) | Máxima (s) | Maior prompt (tokens) | Casos > 85% do contexto | Respostas idênticas nas 3 exec. | Casos com alucinação (respostas) | Especulação (casos) | Abstenção correta (casos) | Abstenção indevida (casos) | Premissa falsa não corrigida (casos) | ok (casos 3/3) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -131,7 +132,7 @@ pergunta: dado, nome, sigla, documento), **especula** (conclusão ou interpreta�
 fato sem apoio nos trechos), **abstém** (diz que não há evidência; certo nos casos "recusar", erro
 nos casos "responder"), **outro** (atribuição errada, contradição, resposta a outra pergunta,
 vazamento de raciocínio). ⚑ = premissa falsa não corrigida. Justificativa de cada célula no Anexo A.
-**Preliminar, a revisar pela Júlia.**
+**Revisado pela Júlia em 2026-09-30.**
 
 | Caso | Esperado | `qwen2.5:3b-instruct` | `granite4.2:3b` | `qwen3.5:4b` | `qwen3.5:9b` | `gpt-oss:20b` |
 |---|---|---|---|---|---|---|
@@ -173,7 +174,7 @@ vazamento de raciocínio). ⚑ = premissa falsa não corrigida. Justificativa de
 | L8 | recusar | outro 3/3 ⚑ | abstém 3/3 | abstém 3/3 | abstém 3/3 | alucina 3/3 ⚑ |
 ## 4. Texto bruto dos casos-chave
 
-Respostas completas de A1, B1, B3, C3, D3, D4, F2, G1, H2, I1 e L8 (E1 e F1 viraram D4 e L8 em 2026-09-22), uma seção por modelo, na mesma ordem em todos os casos. Execuções com texto idêntico aparecem agrupadas. O rótulo ao lado do modelo é preliminar.
+Respostas completas de A1, B1, B3, C3, D3, D4, F2, G1, H2, I1 e L8 (E1 e F1 viraram D4 e L8 em 2026-09-22), uma seção por modelo, na mesma ordem em todos os casos. Execuções com texto idêntico aparecem agrupadas. O rótulo ao lado do modelo foi revisado pela Júlia em 2026-09-30.
 
 ### A1 — Qual o status de conservação da jararaca-do-Vale (Bothrops marmoratus)?
 
@@ -935,7 +936,7 @@ recusa). Nenhum modelo inventou localização mais precisa que a ficha.
 
 ## 6. Limitações e incidentes
 
-- **Classificação preliminar, de um leitor só (Claude).** Alucinação foi julgada contra o texto dos
+- **Classificação feita pelo Claude e revisada pela Júlia (2026-09-30).** Alucinação foi julgada contra o texto dos
   trechos recuperados (reconstruídos offline com a mesma busca, `top_k=8`: os documentos batem com
   as citações de todas as 540 respostas), não contra o PDF original. H2 não foi conferido no PDF.
   O rótulo "ok" junta acerto e parcial (ex.: A2 do qwen2.5, C2 do gpt-oss); a nota por célula
@@ -957,7 +958,7 @@ recusa). Nenhum modelo inventou localização mais precisa que a ficha.
 - As duas execuções de 1 repetição (10h52 e 10h53) ficam no `indice.md` (gerado por append, não
   editado à mão) e estão marcadas como superadas na seção 1.
 
-## Anexo A — justificativa por célula (preliminar, a revisar pela Júlia)
+## Anexo A — justificativa por célula (revisado pela Júlia em 2026-09-30)
 
 
 | Caso | Modelo | Rótulo | Por quê |

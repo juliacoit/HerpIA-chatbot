@@ -150,7 +150,7 @@ ssh -N -L 5432:localhost:5432 -L 6333:localhost:6333 usuario@IP_DO_SERVIDOR
 
 ## Observações para sessões futuras do Claude Code
 
-- Coleta, extração de texto e chunking de Monitora, PANs e SALVE já estão completos (59.080 chunks em `07_processados/chunks/`). Catalogação do SEI concluída (exportação/avaliação ainda pendentes de decisão da equipe do RAN). Classificação de sensibilidade individual formal, embeddings, backend e interface ainda não foram implementados. Ver [`docs/roadmap.md`](docs/roadmap.md) para o status atualizado por fase.
+- Coleta, extração de texto e chunking de Monitora, PANs e SALVE já estão completos (59.085 chunks em `07_processados/chunks/`). Catalogação do SEI concluída (exportação/avaliação ainda pendentes de decisão da equipe do RAN). Embeddings (BGE-M3, indexados no Qdrant), backend FastAPI (geração com LLM local via Ollama, verificação de groundedness, feedback em PostgreSQL) e protótipo de interface em Streamlit já estão implementados. Ainda pendentes: classificação de sensibilidade individual formal, busca híbrida, autenticação e validação com usuários. Ver [`docs/roadmap.md`](docs/roadmap.md) para o status atualizado por fase.
 - O foco atual é implementar o protótipo RAG localmente. Não sugerir nem iniciar migração para servidor dedicado antes da validação do protótipo.
 - Nunca mover, apagar ou sobrescrever documentos, PDFs ou planilhas sem autorização explícita do usuário.
 - Nunca expor, copiar ou resumir o conteúdo de documentos sensíveis ou pendentes de avaliação.

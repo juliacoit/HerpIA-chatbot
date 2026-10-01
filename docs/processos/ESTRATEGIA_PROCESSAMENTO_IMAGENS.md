@@ -135,7 +135,7 @@ PDF
 
 ### Cenário: Reindexação Completa
 
-Base atual: **59.080 chunks** (Monitora, PANs, SALVE)
+Base atual: **59.085 chunks** (Monitora, PANs, SALVE)
 
 **Estimativa de imagens**:
 - PDFs com imagens: ~200-300 documentos

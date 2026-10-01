@@ -13,7 +13,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações organizadas (312 arquivos, catálogo inicial); SEI catalogado
 [Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086); piloto de processamento de imagens implementado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
-[Fase 4] Chunking                 ████████░░  80% — 59.080 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
+[Fase 4] Chunking                 ████████░░  80% — 59.085 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
 [Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade oficial do RAN/ICMBio aplicada e layout reestruturado para bater com o protótipo de referência (interface/tema.py + app.py + design-system/, 2026-09-16 — cor/tipografia/marca oficiais, depois composição: cabeçalho de tela simples, faixa de estado com ícone, citações em cartão, checkboxes de fonte, diálogo de comentário no feedback negativo); falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md e docs/processos/design_system.md)
@@ -203,7 +203,7 @@ e seção "Solução Escolhida (revisada)" em
 
 ### 4.2 PDFs do Monitora e dos PANs
 - [x] Janela deslizante com overlap sobre o texto por página; cada chunk registra `pagina_inicio`/`pagina_fim`, fonte, nome do documento, URL/caminho local e data de extração
-- [x] Executado: 109 documentos do Monitora → 7.220 chunks; 706 documentos dos PANs → 31.791 chunks
+- [x] Executado: 109 documentos do Monitora → 7.220 chunks; 706 documentos dos PANs → 31.796 chunks
   - 1 documento do catálogo de PANs (`pan-quelonios-portaria-gat.json`) tem texto extraído mas **não** está em `03_documentos_autorizados/` — corretamente excluído do chunking
 
 ### 4.3 SEI

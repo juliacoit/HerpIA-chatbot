@@ -12,7 +12,7 @@ Superfícies do produto hoje:
 | --- | --- |
 | API FastAPI (`/buscar`, `/perguntar`, `/feedback`, `/saude`) | Implementada (esqueleto da Fase 6) |
 | Interface do assistente (protótipo Streamlit previsto) | **Não implementada** — Fase 8 do roadmap |
-| Pipelines de coleta/extração/chunking | Concluídos para Monitora, PANs e SALVE (59.080 trechos) |
+| Pipelines de coleta/extração/chunking | Concluídos para Monitora, PANs e SALVE (59.085 trechos) |
 
 Cinco fontes de dados, que aparecem como entidade visual de primeira classe neste sistema: **Monitora**, **PANs**, **SALVE**, **SEI** (acesso restrito, ainda não indexado) e **Publicações científicas do RAN**.
 
@@ -58,7 +58,7 @@ Extraídos da linguagem real do projeto (`CLAUDE.md`, `backend/services/geracao.
 - **Erros nomeiam causa e ação:** *“LLM local (Ollama) indisponível: … rode 'ollama serve' e baixe o modelo com 'ollama pull …'.”*; *“PostgreSQL indisponível nesta sessão — feedback não pode ser registrado agora.”*; *“Interação 1832 não encontrada.”*
 - **Fontes restritas são explicitadas:** *“A base de conhecimento ainda não tem documentos do SEI indexados (fonte de acesso restrito, pendente de exportação e autorização).”*
 - **Caixa:** frase capitalizada (sentence case) em títulos, rótulos e botões — *“Buscar na base”*, *“Enviar feedback”*. Caixa alta só em rótulos de seção de 11,5px com tracking. Siglas mantêm a grafia oficial: RAN, ICMBio, SALVE, PANs, SEI, Monitora.
-- **Números:** formato brasileiro — 59.080 trechos, score 0,6214, p. 44–46.
+- **Números:** formato brasileiro — 59.085 trechos, score 0,6214, p. 44–46.
 - **Emoji: nunca.** Nem em UI, nem em documentação, nem em mensagens de erro. O repositório não usa nenhum.
 - **Rótulos de botão** são verbo + objeto curto: “Perguntar”, “Buscar”, “Copiar resposta”, “Enviar feedback”, “Filtrar fontes”.
 - **Vibe:** caderno de campo de um órgão de pesquisa — preciso, rastreável, sem ornamento. Cada afirmação tem uma fonte ao lado.

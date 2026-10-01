@@ -5,7 +5,7 @@ const { Card, Tabs, Tooltip, Toast, Badge, Button } = NS;
 function Demo(){const [t,setT]=React.useState('resp');return (<div style={{display:'flex',flexDirection:'column',gap:14}}>
 <Tabs value={t} onChange={setT} tabs={[{value:'resp',label:'Resposta',icon:'message-square'},{value:'trechos',label:'Trechos',count:5},{value:'fund',label:'Fundamentação'}]}/>
 <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:14}}>
-<Card title="Fontes indexadas" meta="59.080 trechos"><p style={{margin:0,fontSize:14,lineHeight:1.6,color:'var(--text-muted)'}}>Monitora, PANs e SALVE com coleta, extração e chunking concluídos.</p></Card>
+<Card title="Fontes indexadas" meta="59.085 trechos"><p style={{margin:0,fontSize:14,lineHeight:1.6,color:'var(--text-muted)'}}>Monitora, PANs e SALVE com coleta, extração e chunking concluídos.</p></Card>
 <Card tone="tinted" title="SEI"><p style={{margin:0,fontSize:14,lineHeight:1.6,color:'var(--text-muted)'}}>Fonte de acesso restrito — pendente de exportação e autorização.</p></Card>
 </div>
 <div className="row" style={{alignItems:'center'}}><Toast tone="erro">LLM local (Ollama) indisponível — rode <code style={{fontFamily:'var(--font-mono)'}}>ollama serve</code>.</Toast>

@@ -6,7 +6,7 @@ Projeto de chatbot interno baseado em RAG para facilitar a consulta a informaç�
 
 ## Status do projeto
 
-Em desenvolvimento. Coleta, extração de texto e chunking concluídos para Monitora, PANs e SALVE (**59.080 trechos**, indexados no Qdrant com embeddings BGE-M3). O backend FastAPI responde de ponta a ponta (`/buscar`, `/perguntar`, `/feedback`, `/saude`), com geração via LLM local (Ollama) e registro de feedback em PostgreSQL. O protótipo de interface em Streamlit está funcional, com a identidade oficial do RAN/ICMBio aplicada.
+Em desenvolvimento. Coleta, extração de texto e chunking concluídos para Monitora, PANs e SALVE (**59.085 trechos**, indexados no Qdrant com embeddings BGE-M3). O backend FastAPI responde de ponta a ponta (`/buscar`, `/perguntar`, `/feedback`, `/saude`), com geração via LLM local (Ollama) e registro de feedback em PostgreSQL. O protótipo de interface em Streamlit está funcional, com a identidade oficial do RAN/ICMBio aplicada.
 
 Pendentes: classificação de sensibilidade individual formal, exportação do SEI (depende de autorização da equipe do RAN), busca híbrida, autenticação e validação com usuários. Status detalhado por fase em [`docs/roadmap.md`](./docs/roadmap.md). Prazo previsto de até um ano para conclusão.
 

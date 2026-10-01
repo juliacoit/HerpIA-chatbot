@@ -130,7 +130,7 @@ rodada:
   de `st.multiselect`, com a fonte SEI desabilitada e uma legenda "Não
   indexado — acesso restrito" — porta o padrão
   `Checkbox`+`SourceChip`+fonte desabilitada do `AppShell.jsx`.
-  Estatística fixa no rodapé da sidebar ("59.080 trechos indexados",
+  Estatística fixa no rodapé da sidebar ("59.085 trechos indexados",
   "Base atualizada semestralmente") — mesmo número já citado em
   `CLAUDE.md`/outros docs; não há endpoint que devolva essa contagem ao
   vivo, então não é uma chamada de API nova, é o mesmo texto estático de

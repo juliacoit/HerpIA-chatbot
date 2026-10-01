@@ -26,7 +26,7 @@ function Sidebar({ tela, onTela, fontes, onFonte }) {
         <Checkbox disabled label={<SourceChip fonte="sei" size="sm" />} description="Não indexado — acesso restrito" />
       </div>
       <div style={{ marginTop: "auto", display: "flex", flexDirection: "column", gap: 8 }}>
-        <Badge tone="info" icon="database">59.080 trechos indexados</Badge>
+        <Badge tone="info" icon="database">59.085 trechos indexados</Badge>
         <span style={{ fontSize: 12.5, color: "var(--text-subtle)" }}>Base atualizada semestralmente</span>
       </div>
     </aside>

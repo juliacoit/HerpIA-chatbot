@@ -11,11 +11,15 @@ Este módulo tem três camadas, com papéis diferentes — a divisão não é
 arbitrária, é resultado de testar cada peça isoladamente contra casos reais
 (ver histórico de commits) e descobrir que nem toda checagem serve pra tudo:
 
-1. `checar_ancoras_parenteses` — heurística barata, sem chamada a LLM, e
+1. `checar_ancoras_estruturais` — heurística barata, sem chamada a LLM, e
    **decide sozinha (hard gate)**. Extrai nomes imediatamente seguidos de
    parênteses (padrão "Genero espécie (Autor, Ano)", o formato consistente
-   de citação científica neste corpus) e confere se aparecem nos trechos ou
-   na pergunta. Alta precisão nesse domínio — praticamente só dispara em
+   de citação científica neste corpus) ou liderando um item de lista
+   ("1. Genero espécie - ...") e confere se aparecem nos trechos ou na
+   pergunta. Candidatos que são só início de frase comum (conectivos,
+   pronomes, verbo no infinitivo, substantivo-gatilho genérico) são
+   descartados antes por `_eh_provavel_entidade`. Alta precisão nesse
+   domínio — praticamente só dispara em
    nomes de espécie/citação, então um nome que não aparece em lugar nenhum
    é fabricação com bastante confiança (o padrão exato do achado I1, o
    inseto "Arapapás" inventado). Motivo de ser hard gate: testado

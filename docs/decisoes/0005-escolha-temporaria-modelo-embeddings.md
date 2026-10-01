@@ -7,7 +7,7 @@
 ## Contexto
 
 A Fase 5 do [`docs/roadmap.md`](../roadmap.md) depende de escolher um modelo de
-embeddings antes de indexar os 59.080 chunks já gerados na Fase 4 (Monitora,
+embeddings antes de indexar os 59.085 chunks já gerados na Fase 4 (Monitora,
 PANs, SALVE). O documento de apoio
 [`docs/processos/escolha_modelo_embeddings.md`](../processos/escolha_modelo_embeddings.md)
 levanta três opções: (A) `text-embedding-3-small` da OpenAI, (B)
@@ -67,7 +67,7 @@ reduzem o risco de erro nesta fase exploratória.
 - [ ] Implementar `scripts/indexacao/indexar_chunks.py` usando BGE-M3
   (`sentence-transformers` ou `FlagEmbedding`)
 - [ ] Subir/validar o Qdrant (Fase 5.2)
-- [ ] Indexar os 59.080 chunks existentes com BGE-M3
+- [ ] Indexar os 59.085 chunks existentes com BGE-M3
 - [ ] Rodar buscas de teste e avaliar qualidade manualmente (amostra de
   perguntas reais do domínio)
 - [ ] Levar o resultado do teste + a necessidade (ou não) de orçamento para

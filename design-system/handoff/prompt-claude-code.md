@@ -126,7 +126,7 @@ Feedback: mantenha os botões "Útil" / "Não útil" e as mensagens atuais; esti
 - Português do Brasil, tom técnico e sóbrio, frases declarativas curtas, sentence case em títulos e botões.
 - Sistema fala de si em 3ª pessoa ("O HerpIA responde apenas com base nos documentos indexados"); nunca "eu"/"nós".
 - Honestidade sobre limites é regra: manter as mensagens literais de falta de evidência e de SEI não indexado, sem hedge.
-- Números em formato brasileiro: 59.080 trechos, score 0,6214, p. 44–46.
+- Números em formato brasileiro: 59.085 trechos, score 0,6214, p. 44–46.
 - Siglas com grafia oficial: RAN, ICMBio, SALVE, PANs, SEI, Monitora.
 - **Sem emoji na interface.** Se mantiver o `page_icon="🦎"` do `st.set_page_config`, é a única exceção tolerada (favicon) — me avise ao decidir.
 

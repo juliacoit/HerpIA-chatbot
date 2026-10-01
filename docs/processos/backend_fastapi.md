@@ -24,7 +24,7 @@ backend/
     ├── roteamento.py         # prioriza fonte (ex.: SALVE) p/ perguntas "lista de espécies por bioma/táxon", ver diagnosticos/retrieval-cerrado-anfibios.md
     ├── llm.py               # LLMClient (interface, ADR 0006) + OllamaLLMClient
     ├── geracao.py            # monta o prompt com os chunks e formata a resposta com citações
-    ├── groundedness.py        # verificação pós-geração (hard gate lexical + juiz por LLM) — adianta trabalho da Fase 8, ver seção abaixo
+    ├── groundedness.py        # verificação pós-geração (hard gate lexical, abstenção honesta, pista de meio de frase, juiz por LLM) — adianta trabalho da Fase 8, ver seção abaixo
     └── logging_db.py          # grava interações/feedback no PostgreSQL (via backend/db.py)
 ```
 
@@ -127,6 +127,14 @@ SALVE ficam abaixo do corte. Só o `/perguntar` usa essa priorização — o
 `/buscar` continua expondo a busca "crua" (`buscar_chunks`), útil justamente
 para depurar esse tipo de problema.
 
+A heurística já teve seu próprio falso positivo (D3/A2 em
+`diagnosticos/teste-perguntas-dominio.md`): "quais"/"lista de" sozinho
+casava com perguntas como "Quais são os objetivos do PAN Herpetofauna do
+Espinhaço?". Resolvido exigindo que a palavra-gatilho esteja a até 4
+palavras de "espécies" (`_PADRAO_PEDIDO_LISTA`). Isso é independente do
+hard gate de groundedness (seção seguinte), que tem seus próprios filtros
+de falso positivo.
+
 Quando a fonte prioritária é SALVE, `detectar_filtros_salve` também tenta
 extrair metadado estruturado da própria pergunta — bioma, categoria de
 risco (CR/EN/VU/...), grupo (Anfíbios/Répteis) e estado — e passa como
@@ -143,22 +151,41 @@ payload).
 `backend/services/groundedness.py` roda depois da geração, antes de devolver
 a resposta em `/perguntar`, para pegar alucinações que `evidencia_suficiente`
 não pega (chunks foram recuperados, mas a resposta do LLM extrapolou o que
-eles diziam — ver `diagnosticos/teste-perguntas-dominio.md`, achado 1). Três
+eles diziam — ver `diagnosticos/teste-perguntas-dominio.md`, achado 1). Quatro
 camadas, cada uma com um papel diferente porque nenhuma sozinha cobre todos
-os casos testados:
+os casos testados. A docstring do módulo é a referência detalhada; ordem de
+execução em `verificar_groundedness`:
 
-1. **Hard gate lexical** (`checar_ancoras_parenteses`) — sem chamada a LLM,
-   decide sozinha. Extrai nomes seguidos de parênteses (padrão de citação
-   científica do corpus, "Genero espécie (Autor, Ano)") e confere se aparecem
-   nos chunks/pergunta; se não aparecerem, é fabricação com alta confiança.
+1. **Hard gate lexical** (`checar_ancoras_estruturais`) — sem chamada a LLM,
+   decide sozinha. Extrai nomes em duas posições estruturais de alta
+   precisão — seguidos de parênteses ("Genero espécie (Autor, Ano)", padrão
+   de citação científica do corpus) ou liderando um item de lista
+   ("1. Genero espécie - ...") — e confere se aparecem nos chunks/pergunta;
+   se não aparecerem, é fabricação com alta confiança. Antes da checagem,
+   `_eh_provavel_entidade` descarta candidatos que são só início de frase
+   comum: conectivos/pronomes/formas verbais em qualquer posição, e primeira
+   palavra que seja verbo no infinitivo ("Estabelecer estratégias") ou
+   substantivo-gatilho genérico ("Estudos recentes", "Evidências indicam").
    É hard gate porque o juiz por LLM (camada 3), mesmo avisado do termo
    suspeito, aprovou a fabricação em 3 de 3 execuções de teste.
-2. Checagem lexical complementar — cobre substantivo+adjetivo/verbo
-   conjugado e conectivos faltantes (exclui verbo no infinitivo do hard
-   gate, ver histórico de commits).
-3. **Juiz por LLM** — chamada extra ao LLM configurado para avaliar se a
-   resposta se sustenta nos chunks recuperados; mais fiel, mas ~dobra a
-   latência de `/perguntar`.
+2. **Abstenção honesta** (`checar_abstencao_honesta`, "camada 0" na
+   docstring) — só roda se o hard gate aprovou. Se a resposta já admite
+   falta de evidência ("os trechos não contêm informação sobre X"), aprova
+   direto (hard pass), sem chamar o juiz — que costumava rejeitar abstenções
+   corretas como não fundamentadas.
+3. **Pista de meio de frase** (`checar_ancoras_meio_frase`, camada 2) —
+   palavras capitalizadas no meio de uma cláusula sem apoio nos chunks.
+   **Não decide sozinha**: a taxa de falso positivo é alta demais neste
+   domínio (termos institucionais capitalizados, como "Parques Nacionais"),
+   então os termos só são repassados ao juiz como pista.
+4. **Juiz por LLM** (`verificar_com_llm`, camada 3) — chamada extra ao LLM
+   configurado para avaliar se a resposta se sustenta nos chunks
+   recuperados, recebendo a pista da camada 2. Único jeito de pegar
+   atribuição ao documento errado (vocabulário presente nos trechos), mas
+   fraco e inconsistente com modelo local; ~dobra a latência de `/perguntar`.
+
+Não confundir com o falso positivo do roteamento (D3, seção anterior): são
+heurísticas independentes, em módulos diferentes.
 
 Quando a resposta não passa na checagem, é substituída por uma mensagem de
 retenção (`resposta_fundamentada: false` + `justificativa_groundedness` com

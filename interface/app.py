@@ -19,7 +19,7 @@ import tema
 from cliente_api import ErroAPI, enviar_feedback, perguntar, verificar_saude
 
 FONTES_DISPONIVEIS = ["monitora", "pans", "salve"]
-TRECHOS_INDEXADOS = "59.080"  # mesmo número citado em CLAUDE.md/docs — atualizar junto se mudar
+TRECHOS_INDEXADOS = "59.085"  # mesmo número citado em CLAUDE.md/docs — atualizar junto se mudar
 
 st.set_page_config(page_title="HerpIA — RAN/ICMBio", page_icon="🦎", layout="centered")
 tema.aplicar_estilo()

@@ -288,6 +288,10 @@ e seção "Solução Escolhida (revisada)" em
     (ver `scripts/infra/subir_ollama.sh`, ADR 0006) e modelo `qwen2.5:3b-instruct` baixado;
     `/perguntar` testado contra a coleção real (59.085 pontos), resposta e citações corretas
   - [x] Testar com uma amostra maior de perguntas reais do domínio — em andamento via `scripts/teste_perguntas_dominio.py` e `diagnosticos/baterias/` (8 execuções entre 2026-08-19 e 2026-08-25, ver `diagnosticos/teste-perguntas-dominio.md`)
+- [ ] **Experimento de concisão das respostas** — hipótese de que respostas longas favorecem
+  alucinação; testar instrução de concisão e/ou teto de `LLM_NUM_PREDICT` contra a linha de base
+  da rodada 1. Rodar só depois da rodada 2 (juízes). Ver
+  [`diagnosticos/hipotese-concisao-respostas.md`](../diagnosticos/hipotese-concisao-respostas.md)
 - [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
 - [x] **Configurar logging e feedback** (2026-09-02, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md#logging-e-feedback-postgresql))
   - [x] Registrar perguntas, chunks recuperados e respostas no PostgreSQL — `backend/db.py` + `backend/services/logging_db.py`, tabelas `interacoes`/`feedback` criadas automaticamente no startup

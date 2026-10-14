@@ -10,8 +10,11 @@ Juízes:
     J2  granite4.1-guardian:8b, critério pré-definido "groundedness", sem thinking
     J3  granite4.1-guardian:8b, critério próprio (BYOC), sem thinking
     J4  bespoke-minicheck, uma chamada por frase da resposta
-    J5  qwen3.5:9b, verificar_com_llm atual (think=false, como na rodada 1)
     J6  gpt-oss:20b, verificar_com_llm atual (think="low", como na rodada 1)
+
+O J5 (qwen3.5:9b, think=false) reteve os 53 itens e saiu da comparação em
+2026-10-09; continua definido para reproduzir resultados_J5*.jsonl, mas fora
+da lista padrão de --juizes.
 
 J1, J5 e J6 importam e chamam backend.services.groundedness.verificar_com_llm,
 com os termos suspeitos da camada 2 (checar_ancoras_meio_frase), sem copiar
@@ -51,8 +54,9 @@ sys.path.insert(0, str(RAIZ))
 from backend.config import Settings  # noqa: E402
 from backend.schemas import ChunkRecuperado  # noqa: E402
 from backend.services.groundedness import (  # noqa: E402
-    checar_abstencao_honesta,
     checar_ancoras_meio_frase,
+    dividir_frases,
+    motivo_sem_afirmacao,
     verificar_com_llm,
 )
 from backend.services.llm import OllamaLLMClient, registrar_uso_llm  # noqa: E402
@@ -258,84 +262,20 @@ class JuizGuardian:
 # embutido no modelo (digest 016aea4b585f) pede "Yes" ou "No". O README do
 # modelo pede que respostas com várias frases sejam divididas em frases antes.
 
-# Abreviações que terminam em ponto sem encerrar a frase.
-_ABREVIACOES = [
-    "sp", "spp", "ssp", "subsp", "aff", "cf", "var", "al", "fig", "figs", "tab", "ex", "p", "pp",
-    "n", "nº", "no", "art", "arts", "inc", "dr", "dra", "prof", "sr", "sra", "etc", "obs", "vol",
-    "ed", "cap", "km", "aprox", "ca", "i.e", "e.g", "op", "cit",
-]
-_FIM_ABREVIACAO = re.compile(r"\b(?:" + "|".join(re.escape(a) for a in _ABREVIACOES) + r")\.$", re.IGNORECASE)
-_FIM_INICIAL = re.compile(r"(?:^|\s)[A-ZÀ-Ý]\.$")  # "B. germanoi", "M. Martins"
-# Quebra depois de . ! ? (e aspas/parênteses de fechamento) seguidos de espaço e
-# de início de frase (maiúscula, dígito, marcador). "34,8 km", "1.000" e
-# "2.3" não quebram porque não há espaço depois do ponto.
-_FIM_FRASE = re.compile(r"(?<=[.!?])[\"”')\]]*\s+(?=[\"“(\[]?[A-ZÀ-Ý0-9*•\-])")
-_MARCADOR_LINHA = re.compile(r"^\s*(?:#+\s*|>\s*|\d+[.)]\s+|[-•*]\s+)+")
-
-
-def dividir_frases(resposta: str) -> list[str]:
-    frases = []
-    for linha in resposta.splitlines():
-        linha = _MARCADOR_LINHA.sub("", linha).strip()
-        if not linha:
-            continue
-        inicio = 0
-        for m in _FIM_FRASE.finditer(linha):
-            antes = linha[inicio : m.start()].rstrip()
-            if _FIM_ABREVIACAO.search(antes) or _FIM_INICIAL.search(antes):
-                continue
-            frases.append(linha[inicio : m.start()].strip())
-            inicio = m.end()
-        frases.append(linha[inicio:].strip())
-    return [f for f in frases if f]
-
-
-# Padrões de frase pulada (não vão ao MiniCheck). A ordem só importa para o
-# motivo registrado.
-_SEM_CONTEUDO = re.compile(r"^[\W_]*$")  # separadores de tabela, "[...]"
-_SO_CITACAO = re.compile(
-    r"^(?:cita[çc][õo]es|fontes?|refer[êe]ncias?)\s*:?$"
-    r"|^[\[(]?\s*(?:trechos?|fonte)\s*[\d,\se–-]*[\])]?\.?$",
-    re.IGNORECASE,
-)
-# Complementa checar_abstencao_honesta (groundedness.py), que no nível de
-# frase deixa passar "Não há informações nos trechos", "não é possível
-# responder" etc. Fica só aqui: groundedness.py não muda nesta rodada.
-_ABSTENCAO_EXTRA = re.compile(
-    r"n[ãa]o\s+h[áa]\s+(?:nenhuma\s+)?(?:informa[çc](?:[ãa]o|[õo]es)|men[çc][ãa]o|registros?|dados)"
-    r"|n[ãa]o\s+[ée]\s+poss[íi]vel\s+(?:responder|determinar|afirmar|inferir|identificar|informar|precisar|confirmar|descrever)"
-    r"|[ée]\s+imposs[íi]vel\s+(?:responder|determinar|afirmar|inferir|identificar)"
-    r"|n[ãa]o\s+(?:est[ãa]o?|s[ãa]o)\s+(?:presentes?|dispon[íi]ve(?:l|is)|explicitamente)"
-    r"|n[ãa]o\s+(?:posso|consigo)\s+(?:responder|afirmar|informar|determinar)",
-    re.IGNORECASE,
-)
-# Frase cujo sujeito são os próprios trechos, com negação ("os trechos não
-# mencionam X"): afirmação sobre o que falta no documento, que o MiniCheck
-# não tem como verificar.
-_SUJEITO_TRECHOS = re.compile(
-    r"\b(?:trechos?|documentos?\s+(?:fornecidos|recuperados|apresentados)|textos?\s+fornecidos"
-    r"|material\s+(?:de\s+entrada|fornecido)|contexto\s+fornecido|base\s+de\s+conhecimento)\b",
-    re.IGNORECASE,
-)
-_NEGACAO = re.compile(r"\b(?:n[ãa]o|nenhum[ao]?|nem|aus[êe]ncia|falta)\b", re.IGNORECASE)
-_CABECALHO = re.compile(r":\s*\**\s*$")  # "Os motivos são:", "**Sobre as ameaças:**"
+# A divisão em frases e os padrões de frase pulada vivem em groundedness.py
+# (dividir_frases, motivo_sem_afirmacao), que os usa na camada 0.
 
 
 def motivo_pular(frase: str, regra: str = "v3") -> str | None:
-    limpa = frase.strip("* ")
-    if _SEM_CONTEUDO.match(frase):
-        return "sem_conteudo"
-    if _SO_CITACAO.match(limpa):
-        return "citacao"
-    if _CABECALHO.search(frase) and len(frase.split()) <= 8:
-        return "cabecalho"
-    if checar_abstencao_honesta(frase):
-        return "abstencao"
-    if regra in ("v2", "v3") and _ABSTENCAO_EXTRA.search(frase):
-        return "abstencao_extra"
-    if regra == "v3" and _SUJEITO_TRECHOS.search(frase) and _NEGACAO.search(frase):
-        return "negacao_sobre_trechos"
-    return None
+    """Motivo para a frase não ir ao MiniCheck. A regra v3 é a de produção
+    (groundedness.motivo_sem_afirmacao); v2 não pula negação sobre os trechos
+    e v1 também não pula a abstenção "extra"."""
+    motivo = motivo_sem_afirmacao(frase)
+    if motivo == "negacao_sobre_trechos" and regra != "v3":
+        return None
+    if motivo == "abstencao_extra" and regra == "v1":
+        return None
+    return motivo
 
 
 class JuizMiniCheck:
@@ -424,10 +364,10 @@ def criar_juizes(settings: Settings, regra_pular: str) -> dict[str, Juiz]:
     }
 
 
-def carregar_conjunto(ids: list[str] | None) -> list[dict]:
+def carregar_conjunto(ids: list[str] | None, caminho: Path = CONJUNTO) -> list[dict]:
     # split("\n"), não splitlines(): o texto de alguns trechos tem separadores
     # Unicode (ex.: \x1c,  ) que splitlines() trataria como fim de linha.
-    linhas = CONJUNTO.read_text(encoding="utf-8").split("\n")
+    linhas = caminho.read_text(encoding="utf-8").split("\n")
     itens = [json.loads(linha) for linha in linhas if linha.strip()]
     if ids:
         por_id = {i["id"]: i for i in itens}
@@ -517,7 +457,8 @@ def _imprimir(r: dict, detalhado: bool) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--juizes", default="J1,J2,J3,J4,J5,J6", help="lista separada por vírgula")
+    parser.add_argument("--juizes", default="J1,J2,J3,J4,J6", help="lista separada por vírgula")
+    parser.add_argument("--conjunto", type=Path, default=CONJUNTO, help="arquivo .jsonl com os itens a julgar")
     parser.add_argument("--itens", help="ids do conjunto, separados por vírgula (padrão: todos)")
     parser.add_argument("--repeticoes", type=int, default=1)
     parser.add_argument("--gravar", action="store_true", help="grava diagnosticos/juizes/resultados_<juiz>.jsonl")
@@ -535,7 +476,7 @@ def main() -> None:
     todos = criar_juizes(settings, args.regra_pular)
     nomes = [n.strip() for n in args.juizes.split(",")]
     juizes = [todos[n] for n in nomes]
-    itens = carregar_conjunto(args.itens.split(",") if args.itens else None)
+    itens = carregar_conjunto(args.itens.split(",") if args.itens else None, args.conjunto)
     sufixo = f"_{args.sufixo}" if args.sufixo else ""
     asyncio.run(rodar(juizes, itens, args.repeticoes, args.gravar, not args.sem_aquecimento, args.retomar, sufixo))
 

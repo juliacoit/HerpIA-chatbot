@@ -58,3 +58,44 @@ mesmos trechos (retrieval determinístico).
   percebe que a recusa contradiz os trechos?), não como métrica.
 - As métricas principais comparam o veredito binário de cada juiz com
   `nao_fundamentada` vs. (`fundamentada` + `abstencao_honesta`).
+
+## Ampliação proposta (2026-10-09, aguardando confirmação)
+
+`candidatos_ampliacao.jsonl` traz 101 respostas da rodada 1 que ainda não estavam no conjunto, no
+mesmo formato, com `rotulo_status: "proposto"`. `candidatos_ampliacao_revisao.md` é a mesma lista em
+formato de leitura, com espaço para confirmar ou trocar cada rótulo. **Não são gabarito** até a Júlia
+confirmar; depois de confirmados, entram em `conjunto_rotulado.jsonl`.
+
+| Rótulo proposto | Candidatos | No conjunto hoje | Total se todos forem confirmados |
+|---|---|---|---|
+| `fundamentada` | 37 | 13 | 50 |
+| `abstencao_honesta` | 60 | 10 | 70 |
+| `abstencao_indevida` | 4 | 2 | 6 |
+| `nao_fundamentada` | 0 | 28 | 28 |
+
+**A ampliação não acrescenta nenhuma resposta não fundamentada.** Todas as células "alucina" e
+"especula" da rodada 1 já estavam no conjunto. Ela melhora só a medida de retenção indevida (respostas
+boas e abstenções honestas retidas por engano); para medir melhor a detecção é preciso gerar respostas
+novas, com perguntas novas por categoria.
+
+### Como os candidatos foram montados
+
+- Universo: as 180 células caso × modelo da rodada 1 (36 casos, 5 geradores), execução 1, menos as
+  48 células que já tinham item no conjunto.
+- Rótulo proposto pelo mapeamento aprovado em 2026-10-02, aplicado ao rótulo do Anexo A da rodada 1
+  (revisado pela Júlia em 2026-09-30):
+  - `ok 3/3` → `fundamentada`;
+  - `abstém 3/3` em caso cujo esperado é recusar → `abstencao_honesta`;
+  - `abstém 3/3` em B3, D4 e H2 → `abstencao_honesta` (mesmos trechos de itens já confirmados assim);
+  - `abstém 3/3` em B2 e D3 → `abstencao_indevida` (mesmos trechos dos dois itens já confirmados assim).
+- Ficaram fora 31 células:
+  - 14 com rótulo "outro" ou misto (mesmo critério da decisão 4 de 2026-10-02);
+  - 6 abstenções em B1 e F6 (ambíguas, decisão 3 de 2026-10-02);
+  - 6 abstenções em casos de esperado "responder" sem item confirmado que sirva de referência (F5,
+    I1, J1): falta decidir se os trechos têm ou não a informação;
+  - 5 respostas do G1, que são a mensagem fixa do backend para perguntas sobre o SEI, sem LLM.
+- Trechos: reconstruídos com `buscar_chunks_priorizados` (`top_k=8`). Nos 33 casos da rodada 1 que já
+  tinham trechos no conjunto, a reconstrução de 2026-10-09 saiu idêntica; G5 e L7 são casos novos.
+- O campo `observacao` traz o rótulo e a justificativa do Anexo A. Em 6 itens há um aviso `CONFERIR`,
+  com o que a camada 1 de `groundedness.py` ou uma busca por siglas expandidas apontou; é pista para
+  a leitura, não rótulo.

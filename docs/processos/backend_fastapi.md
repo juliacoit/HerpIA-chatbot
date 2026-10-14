@@ -168,11 +168,15 @@ execução em `verificar_groundedness`:
    substantivo-gatilho genérico ("Estudos recentes", "Evidências indicam").
    É hard gate porque o juiz por LLM (camada 3), mesmo avisado do termo
    suspeito, aprovou a fabricação em 3 de 3 execuções de teste.
-2. **Abstenção honesta** (`checar_abstencao_honesta`, "camada 0" na
-   docstring) — só roda se o hard gate aprovou. Se a resposta já admite
-   falta de evidência ("os trechos não contêm informação sobre X"), aprova
-   direto (hard pass), sem chamar o juiz — que costumava rejeitar abstenções
-   corretas como não fundamentadas.
+2. **Abstenção pura** (`checar_abstencao_pura`, "camada 0" na docstring) —
+   só roda se o hard gate aprovou. Se a resposta admite falta de evidência
+   ("os trechos não contêm informação sobre X") **e não afirma mais nada**
+   (todas as frases são de abstenção, negação sobre os trechos ou
+   cabeçalho), aprova direto (hard pass), sem chamar o juiz — que costumava
+   rejeitar abstenções corretas como não fundamentadas. Até 2026-10-09
+   bastava uma frase de abstenção em qualquer ponto; respostas com conteúdo
+   próprio agora vão ao juiz (ver `diagnosticos/comparacao-juizes-rodada2.md`,
+   seção 8).
 3. **Pista de meio de frase** (`checar_ancoras_meio_frase`, camada 2) —
    palavras capitalizadas no meio de uma cláusula sem apoio nos chunks.
    **Não decide sozinha**: a taxa de falso positivo é alta demais neste
@@ -183,9 +187,16 @@ execução em `verificar_groundedness`:
    recuperados, recebendo a pista da camada 2. Único jeito de pegar
    atribuição ao documento errado (vocabulário presente nos trechos), mas
    fraco e inconsistente com modelo local; ~dobra a latência de `/perguntar`.
+   Só conta como aprovação um `SIM` sozinho na primeira linha; qualquer
+   outra saída (inclusive `SIM ou NÃO`) retém a resposta.
 
 Não confundir com o falso positivo do roteamento (D3, seção anterior): são
 heurísticas independentes, em módulos diferentes.
+
+Se o prompt (da geração ou do juiz) não cabe em `LLM_NUM_CTX`, o Ollama é
+chamado com `truncate: false` e devolve erro em vez de cortar o texto: na
+geração, `/perguntar` responde que os trechos são longos demais; no juiz, a
+resposta é retida com a justificativa "Verificação não realizada".
 
 Quando a resposta não passa na checagem, é substituída por uma mensagem de
 retenção (`resposta_fundamentada: false` + `justificativa_groundedness` com

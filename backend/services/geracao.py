@@ -17,7 +17,7 @@ import re
 from backend.config import Settings
 from backend.schemas import ChunkRecuperado, Citacao, PerguntarResponse
 from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness
-from backend.services.llm import LLMClient
+from backend.services.llm import ContextoExcedidoError, LLMClient
 
 # SEI nunca está indexado (ver CLAUDE.md, "Fontes de dados" — acesso restrito,
 # só documentos previamente exportados/autorizados entram na base), então
@@ -158,7 +158,24 @@ async def gerar_resposta(
         )
 
     prompt = montar_prompt(pergunta, chunks)
-    resposta = await llm.generate(prompt)
+    try:
+        resposta = await llm.generate(prompt)
+    except ContextoExcedidoError as exc:
+        # Antes o Ollama cortava o início do prompt (instruções e primeiros
+        # trechos) e o modelo respondia mesmo assim.
+        return PerguntarResponse(
+            pergunta=pergunta,
+            resposta=(
+                "Não foi possível gerar a resposta: os trechos recuperados "
+                "para esta pergunta são longos demais para o modelo de "
+                "linguagem. Tente uma pergunta mais específica ou consulte "
+                "diretamente as fontes citadas abaixo."
+            ),
+            citacoes=montar_citacoes(chunks),
+            evidencia_suficiente=True,
+            resposta_fundamentada=False,
+            justificativa_groundedness=f"Resposta não gerada: {exc}.",
+        )
 
     fundamentada = True
     justificativa = None

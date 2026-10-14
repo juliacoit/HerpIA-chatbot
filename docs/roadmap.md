@@ -162,6 +162,8 @@ e seção "Solução Escolhida (revisada)" em
   - Armazenar descrições em `07_processados/imagens_descritas/`
   - Indexar descrições no Qdrant junto com chunks de texto
   - Metadados: referência cruzada texto ↔ imagem
+  - Fazer junto com a busca híbrida (Fase 6): as descrições viram trechos novos e a busca
+    híbrida recria a coleção, então as duas mudanças cabem em uma única reindexação
 
 ### 2.4 Publicações científicas (PDF → texto)
 - [ ] Reutilizar o mesmo script de extração de PDFs (Fase 2.2)
@@ -292,7 +294,24 @@ e seção "Solução Escolhida (revisada)" em
   alucinação; testar instrução de concisão e/ou teto de `LLM_NUM_PREDICT` contra a linha de base
   da rodada 1. Rodar só depois da rodada 2 (juízes). Ver
   [`diagnosticos/hipotese-concisao-respostas.md`](../diagnosticos/hipotese-concisao-respostas.md)
-- [ ] **Implementar busca híbrida** (semântica + palavras-chave) se a busca pura por embeddings for insuficiente
+- [ ] **Implementar busca híbrida** (semântica + palavras-chave) — ideia registrada em
+  2026-10-07 para implementar mais tarde, **na mesma leva da integração do processamento de
+  imagens (Fase 2.3)**: as duas exigem reindexar a base, então vale fazer uma reindexação só
+  - **Hoje:** a busca é só semântica (vetor denso BGE-M3, cosseno, `backend/services/retrieval.py`),
+    com filtros de acesso, fonte e metadados SALVE. É fraca para termos exatos (nome
+    científico, número de portaria ou processo, sigla, nome de UC); o roteamento por
+    palavra-chave para o SALVE (`roteamento.py`) é um remendo para um caso desse tipo
+  - **Plano:** cada trecho ganha um segundo vetor, esparso (palavras e pesos); na consulta o
+    Qdrant faz as duas buscas com os mesmos filtros e funde as listas (RRF)
+  - **Vetor esparso:** preferência pelo do próprio BGE-M3 (multilíngue, mesma passada do denso,
+    exige a biblioteca FlagEmbedding); alternativa: BM25 no Qdrant (mais leve, mas depende de
+    tratamento para português)
+  - **O que muda:** recriar a coleção com dois vetores por ponto; `scripts/indexacao/indexar_chunks.py`
+    gera também o esparso e reindexa tudo; `retrieval.py` passa a consultar com as duas buscas
+    e a fusão. Roteamento, geração e groundedness não mudam
+  - **Como medir:** `scripts/diagnostico_retrieval.py` e a bateria de perguntas, antes e depois
+  - **A confirmar na implementação:** API atual do Qdrant e do BGE-M3 para vetores esparsos
+    (o plano foi escrito sem consultar a documentação)
 - [x] **Configurar logging e feedback** (2026-09-02, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md#logging-e-feedback-postgresql))
   - [x] Registrar perguntas, chunks recuperados e respostas no PostgreSQL — `backend/db.py` + `backend/services/logging_db.py`, tabelas `interacoes`/`feedback` criadas automaticamente no startup
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`

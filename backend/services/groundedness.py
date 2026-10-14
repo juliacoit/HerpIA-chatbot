@@ -51,16 +51,24 @@ arbitrária, é resultado de testar cada peça isoladamente contra casos reais
    correta não é fabricação, então `checar_abstencao_honesta` (camada 0,
    abaixo) intercepta esse padrão antes de chamar o juiz.
 
-0. `checar_abstencao_honesta` — roda só depois do hard gate (camada 1) já
+0. `checar_abstencao_pura` — roda só depois do hard gate (camada 1) já
    ter aprovado (sem isso, uma abstenção poderia mascarar uma fabricação de
-   entidade escondida no mesmo texto). Se a resposta já é, lexicalmente, uma
-   admissão de falta de evidência, não há o que o juiz por LLM possa
+   entidade escondida no mesmo texto). Se a resposta é, lexicalmente, só
+   uma admissão de falta de evidência, não há o que o juiz por LLM possa
    contribuir além de arriscar um falso negativo — decide sozinha (hard
-   pass), sem gastar uma chamada extra ao LLM.
+   pass), sem gastar uma chamada extra ao LLM. "Só" é literal: toda frase
+   precisa ser de abstenção. Até 2026-10-09 bastava uma frase de abstenção
+   em qualquer ponto (`checar_abstencao_honesta` sobre a resposta inteira),
+   e a rodada 2 de juízes (seção 4) mostrou respostas com conteúdo próprio
+   aprovadas sem passar por juiz nenhum; agora essas vão para a camada 3.
+   Limite conhecido: um dado inventado dentro da própria frase de abstenção
+   ("não há evidência sobre o RAN (Recurso Ambiental)") continua passando,
+   e uma abstenção indevida (os trechos tinham a informação) também.
 
 Falha fechada por escolha deliberada em toda a cadeia: qualquer veredito
-ambíguo do juiz (não começa com "SIM" inequívoco) é tratado como não
-fundamentado, e qualquer termo sem apoio na camada 1 já basta pra reter.
+ambíguo do juiz (a primeira linha não é só "SIM") é tratado como não
+fundamentado, um prompt do juiz que não cabe no contexto também, e qualquer
+termo sem apoio na camada 1 já basta pra reter.
 Para este projeto, o custo de reter uma resposta boa é menor que o custo de
 mostrar uma resposta inventada (ver CLAUDE.md, "Regras para respostas do
 chatbot") — mas isso não torna a checagem infalível, só estritamente melhor
@@ -71,7 +79,7 @@ documentadas.
 import re
 
 from backend.schemas import ChunkRecuperado
-from backend.services.llm import LLMClient
+from backend.services.llm import ContextoExcedidoError, LLMClient
 
 MENSAGEM_NAO_FUNDAMENTADA = (
     "Não foi possível confirmar que a resposta gerada está totalmente "
@@ -242,10 +250,100 @@ _PADRAO_ABSTENCAO = re.compile(
 
 
 def checar_abstencao_honesta(resposta: str) -> bool:
-    """Hard pass: a resposta já admite, em português claro, que os trechos
-    não bastam pra responder. Ver docstring do módulo (camada 0) para o
-    motivo de isso decidir sozinho em vez de ir pro juiz por LLM."""
+    """O texto admite, em português claro, que os trechos não bastam pra
+    responder. Não decide sozinha: ver `checar_abstencao_pura`."""
     return _PADRAO_ABSTENCAO.search(resposta.lower()) is not None
+
+
+# Divisão da resposta em frases, para a camada 0 exigir que todas sejam de
+# abstenção. Veio de scripts/avaliar_juizes.py (rodada 2), que usa a mesma
+# divisão para o juiz por frase.
+# Abreviações que terminam em ponto sem encerrar a frase.
+_ABREVIACOES = [
+    "sp", "spp", "ssp", "subsp", "aff", "cf", "var", "al", "fig", "figs", "tab", "ex", "p", "pp",
+    "n", "nº", "no", "art", "arts", "inc", "dr", "dra", "prof", "sr", "sra", "etc", "obs", "vol",
+    "ed", "cap", "km", "aprox", "ca", "i.e", "e.g", "op", "cit",
+]
+_FIM_ABREVIACAO = re.compile(r"\b(?:" + "|".join(re.escape(a) for a in _ABREVIACOES) + r")\.$", re.IGNORECASE)
+_FIM_INICIAL = re.compile(r"(?:^|\s)[A-ZÀ-Ý]\.$")  # "B. germanoi", "M. Martins"
+# Quebra depois de . ! ? (e aspas/parênteses de fechamento) seguidos de espaço e
+# de início de frase (maiúscula, dígito, marcador). "34,8 km", "1.000" e
+# "2.3" não quebram porque não há espaço depois do ponto.
+_FIM_FRASE = re.compile(r"(?<=[.!?])[\"”')\]]*\s+(?=[\"“(\[]?[A-ZÀ-Ý0-9*•\-])")
+_MARCADOR_LINHA = re.compile(r"^\s*(?:#+\s*|>\s*|\d+[.)]\s+|[-•*]\s+)+")
+
+
+def dividir_frases(resposta: str) -> list[str]:
+    frases = []
+    for linha in resposta.splitlines():
+        linha = _MARCADOR_LINHA.sub("", linha).strip()
+        if not linha:
+            continue
+        inicio = 0
+        for m in _FIM_FRASE.finditer(linha):
+            antes = linha[inicio : m.start()].rstrip()
+            if _FIM_ABREVIACAO.search(antes) or _FIM_INICIAL.search(antes):
+                continue
+            frases.append(linha[inicio : m.start()].strip())
+            inicio = m.end()
+        frases.append(linha[inicio:].strip())
+    return [f for f in frases if f]
+
+
+# Frases que não afirmam nada verificável nos trechos. A ordem só importa
+# para o motivo devolvido.
+_SEM_CONTEUDO = re.compile(r"^[\W_]*$")  # separadores de tabela, "[...]"
+_SO_CITACAO = re.compile(
+    r"^(?:cita[çc][õo]es|fontes?|refer[êe]ncias?)\s*:?$"
+    r"|^[\[(]?\s*(?:trechos?|fonte)\s*[\d,\se–-]*[\])]?\.?$",
+    re.IGNORECASE,
+)
+_CABECALHO = re.compile(r":\s*\**\s*$")  # "Os motivos são:", "**Sobre as ameaças:**"
+# Complementa _PADRAO_ABSTENCAO, que no nível de frase deixa passar "Não há
+# informações nos trechos", "não é possível responder" etc.
+_ABSTENCAO_EXTRA = re.compile(
+    r"n[ãa]o\s+h[áa]\s+(?:nenhuma\s+)?(?:informa[çc](?:[ãa]o|[õo]es)|men[çc][ãa]o|registros?|dados)"
+    r"|n[ãa]o\s+[ée]\s+poss[íi]vel\s+(?:responder|determinar|afirmar|inferir|identificar|informar|precisar|confirmar|descrever)"
+    r"|[ée]\s+imposs[íi]vel\s+(?:responder|determinar|afirmar|inferir|identificar)"
+    r"|n[ãa]o\s+(?:est[ãa]o?|s[ãa]o)\s+(?:presentes?|dispon[íi]ve(?:l|is)|explicitamente)"
+    r"|n[ãa]o\s+(?:posso|consigo)\s+(?:responder|afirmar|informar|determinar)",
+    re.IGNORECASE,
+)
+# Frase cujo sujeito são os próprios trechos, com negação ("os trechos não
+# mencionam X"): afirmação sobre o que falta nos trechos.
+_SUJEITO_TRECHOS = re.compile(
+    r"\b(?:trechos?|documentos?\s+(?:fornecidos|recuperados|apresentados)|textos?\s+fornecidos"
+    r"|material\s+(?:de\s+entrada|fornecido)|contexto\s+fornecido|base\s+de\s+conhecimento)\b",
+    re.IGNORECASE,
+)
+_NEGACAO = re.compile(r"\b(?:n[ãa]o|nenhum[ao]?|nem|aus[êe]ncia|falta)\b", re.IGNORECASE)
+
+
+def motivo_sem_afirmacao(frase: str) -> str | None:
+    """Por que a frase não afirma nada verificável nos trechos (abstenção,
+    negação sobre os trechos, cabeçalho, só citação...), ou None se afirma."""
+    limpa = frase.strip("* ")
+    if _SEM_CONTEUDO.match(frase):
+        return "sem_conteudo"
+    if _SO_CITACAO.match(limpa):
+        return "citacao"
+    if _CABECALHO.search(frase) and len(frase.split()) <= 8:
+        return "cabecalho"
+    if checar_abstencao_honesta(frase):
+        return "abstencao"
+    if _ABSTENCAO_EXTRA.search(frase):
+        return "abstencao_extra"
+    if _SUJEITO_TRECHOS.search(frase) and _NEGACAO.search(frase):
+        return "negacao_sobre_trechos"
+    return None
+
+
+def checar_abstencao_pura(resposta: str) -> bool:
+    """Hard pass: a resposta admite que os trechos não bastam e não afirma
+    mais nada. Ver docstring do módulo (camada 0)."""
+    return checar_abstencao_honesta(resposta) and all(
+        motivo_sem_afirmacao(frase) for frase in dividir_frases(resposta)
+    )
 
 
 def _texto_disponivel(chunks: list[ChunkRecuperado], pergunta: str) -> str:
@@ -377,6 +475,12 @@ _PROMPT_JUIZ = (
 )
 
 
+# Primeira linha do veredito: só "SIM", com pontuação ou marcação em volta
+# ("SIM.", "**SIM**"). `startswith("SIM")` aceitava "SIM ou NÃO", que o juiz
+# devolve quando copia o formato em vez de julgar (rodada 2, seção 5.1).
+_PADRAO_VEREDITO_SIM = re.compile(r"^\W*SIM\W*$")
+
+
 async def verificar_com_llm(
     llm: LLMClient,
     pergunta: str,
@@ -387,7 +491,9 @@ async def verificar_com_llm(
     """Pede ao LLM para julgar a própria geração contra os trechos.
 
     Falha fechada: qualquer coisa que não seja um "SIM" inequívoco na
-    primeira linha do veredito é tratada como não fundamentada.
+    primeira linha do veredito é tratada como não fundamentada, e um prompt
+    que não cabe no contexto do modelo também (sem julgamento não há
+    aprovação).
     """
     trechos = "\n\n".join(
         f"[Trecho {i + 1} — fonte: {c.fonte}, documento: {c.documento}]\n{c.texto}"
@@ -407,11 +513,14 @@ async def verificar_com_llm(
     prompt = _PROMPT_JUIZ.format(
         trechos=trechos, pergunta=pergunta, resposta=resposta, aviso_lexico=aviso_lexico
     )
-    veredito = await llm.generate(prompt)
+    try:
+        veredito = await llm.generate(prompt)
+    except ContextoExcedidoError as exc:
+        return False, f"Verificação não realizada: {exc}."
 
     linhas = veredito.strip().splitlines()
     primeira_linha = linhas[0].strip().upper() if linhas else ""
-    fundamentada = primeira_linha.startswith("SIM")
+    fundamentada = _PADRAO_VEREDITO_SIM.match(primeira_linha) is not None
 
     justificativa = veredito.strip()
     if "Justificativa:" in veredito:
@@ -423,10 +532,10 @@ async def verificar_com_llm(
 async def verificar_groundedness(
     llm: LLMClient, pergunta: str, resposta: str, chunks: list[ChunkRecuperado]
 ) -> tuple[bool, str | None]:
-    """Roda as três camadas na ordem certa: primeiro o hard gate barato
-    (nomes em posição estrutural de alta precisão), que já decide se
-    falhar; senão, junta a pista da camada 2 (meio de frase) e deixa o
-    veredito final com o juiz por LLM.
+    """Roda as camadas na ordem certa: primeiro o hard gate barato (nomes
+    em posição estrutural de alta precisão), que já decide se falhar;
+    depois a abstenção pura, que já decide se passar; senão, junta a pista
+    da camada 2 (meio de frase) e deixa o veredito final com o juiz por LLM.
     """
     ancorada, sem_apoio = checar_ancoras_estruturais(resposta, chunks, pergunta)
     if not ancorada:
@@ -436,7 +545,7 @@ async def verificar_groundedness(
             "sem apoio em nenhum trecho nem na pergunta): " + "; ".join(sem_apoio)
         )
 
-    if checar_abstencao_honesta(resposta):
+    if checar_abstencao_pura(resposta):
         return True, None
 
     _, termos_suspeitos = checar_ancoras_meio_frase(resposta, chunks, pergunta)

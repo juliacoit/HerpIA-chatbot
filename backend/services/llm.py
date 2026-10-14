@@ -22,6 +22,14 @@ _uso_llm: ContextVar[list[dict] | None] = ContextVar("uso_llm", default=None)
 LIMIAR_ALERTA_CONTEXTO = 0.85
 
 
+class ContextoExcedidoError(Exception):
+    """O prompt não cabe no contexto do modelo (num_ctx).
+
+    Sem isso o Ollama corta o prompt em silêncio e o modelo responde sobre
+    um texto incompleto (rodada 2 de juízes, seção 5.1: o juiz devolveu o
+    próprio formato, "SIM ou NÃO", em vez de julgar)."""
+
+
 @contextmanager
 def registrar_uso_llm():
     """Coleta o uso de tokens de cada generate() feito dentro do bloco, na
@@ -58,13 +66,20 @@ class OllamaLLMClient(LLMClient):
         self._timeout = timeout
 
     async def generate(self, prompt: str) -> str:
-        payload = {"model": self._modelo, "prompt": prompt, "stream": False}
+        # truncate=False: prompt maior que num_ctx volta como erro 400 em vez
+        # de ser cortado (conferido no Ollama 0.32.9).
+        payload = {"model": self._modelo, "prompt": prompt, "stream": False, "truncate": False}
         if self._opcoes:
             payload["options"] = self._opcoes
         if self._think is not None:
             payload["think"] = self._think
         async with httpx.AsyncClient(timeout=self._timeout) as client:
             resposta = await client.post(f"{self._base_url}/api/generate", json=payload)
+            if resposta.status_code == 400 and "exceed_context_size" in resposta.text:
+                print(f"[llm] {self._modelo}: prompt não cabe no contexto — {resposta.text}")
+                raise ContextoExcedidoError(
+                    f"o prompt não cabe no contexto do modelo (num_ctx={self._opcoes.get('num_ctx')})"
+                )
             resposta.raise_for_status()
             corpo = resposta.json()
         self._registrar_uso(corpo)
@@ -72,7 +87,7 @@ class OllamaLLMClient(LLMClient):
 
     def _registrar_uso(self, corpo: dict) -> None:
         """Loga prompt_eval_count/eval_count para detectar prompts perto do
-        limite de contexto (o Ollama corta o início do prompt em silêncio)."""
+        limite de contexto (acima dele, generate() levanta ContextoExcedidoError)."""
         num_ctx = self._opcoes.get("num_ctx")
         uso = {
             "prompt_eval_count": corpo.get("prompt_eval_count"),

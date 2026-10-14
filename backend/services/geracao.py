@@ -15,8 +15,16 @@ das duas camadas de checagem).
 import re
 
 from backend.config import Settings
-from backend.schemas import ChunkRecuperado, Citacao, PerguntarResponse
-from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness
+from backend.schemas import (
+    ChunkRecuperado,
+    Citacao,
+    ContextoAvaliacao,
+    DadosAvaliacao,
+    OrigemRetencao,
+    PerguntarResponse,
+    TipoSaida,
+)
+from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness_detalhado
 from backend.services.llm import ContextoExcedidoError, LLMClient
 
 # SEI nunca está indexado (ver CLAUDE.md, "Fontes de dados" — acesso restrito,
@@ -126,9 +134,44 @@ def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
     return citacoes
 
 
+def _dados_avaliacao(
+    tipo_saida: TipoSaida,
+    chunks_no_prompt: list[ChunkRecuperado],
+    resposta_original: str | None = None,
+    origem_retencao: OrigemRetencao | None = None,
+) -> DadosAvaliacao:
+    # texto = chunk.texto exatamente como entra em montar_prompt (sem o
+    # cabeçalho do trecho), para os contextos da avaliação serem o que o LLM leu.
+    return DadosAvaliacao(
+        tipo_saida=tipo_saida,
+        origem_retencao=origem_retencao,
+        contextos=[
+            ContextoAvaliacao(
+                fonte=c.fonte,
+                documento=c.documento,
+                secao=c.secao,
+                pagina_inicio=c.pagina_inicio,
+                pagina_fim=c.pagina_fim,
+                score=c.score,
+                nivel_sensibilidade=c.nivel_sensibilidade,
+                texto=c.texto,
+            )
+            for c in chunks_no_prompt
+        ],
+        resposta_original=resposta_original,
+    )
+
+
 async def gerar_resposta(
-    llm: LLMClient, pergunta: str, chunks: list[ChunkRecuperado], settings: Settings
+    llm: LLMClient,
+    pergunta: str,
+    chunks: list[ChunkRecuperado],
+    settings: Settings,
+    incluir_avaliacao: bool = False,
 ) -> PerguntarResponse:
+    """`incluir_avaliacao` preenche `avaliacao` em todos os caminhos de
+    retorno (modo de avaliação offline, ver backend/routers/perguntar.py).
+    Sem ele, a resposta é a mesma de sempre, com `avaliacao=None`."""
     if not chunks:
         return PerguntarResponse(
             pergunta=pergunta,
@@ -136,6 +179,7 @@ async def gerar_resposta(
             citacoes=[],
             evidencia_suficiente=False,
             resposta_fundamentada=False,
+            avaliacao=_dados_avaliacao("sem_chunks", []) if incluir_avaliacao else None,
         )
 
     if _pergunta_pede_sei_nao_indexado(pergunta, chunks):
@@ -155,6 +199,8 @@ async def gerar_resposta(
                 "Verificação estrutural: a pergunta menciona SEI, mas nenhum "
                 "chunk recuperado é da fonte 'sei' (ainda não indexada)."
             ),
+            # Os chunks foram recuperados, mas não chegaram a ir para um prompt.
+            avaliacao=_dados_avaliacao("sei_nao_indexado", []) if incluir_avaliacao else None,
         )
 
     prompt = montar_prompt(pergunta, chunks)
@@ -175,15 +221,30 @@ async def gerar_resposta(
             evidencia_suficiente=True,
             resposta_fundamentada=False,
             justificativa_groundedness=f"Resposta não gerada: {exc}.",
+            avaliacao=_dados_avaliacao("contexto_excedido", chunks) if incluir_avaliacao else None,
         )
 
     fundamentada = True
     justificativa = None
+    origem = None
+    resposta_original = None
     if settings.groundedness_verificar:
-        fundamentada, justificativa = await verificar_groundedness(llm, pergunta, resposta, chunks)
+        fundamentada, justificativa, origem = await verificar_groundedness_detalhado(
+            llm, pergunta, resposta, chunks
+        )
         if not fundamentada:
             print(f"[groundedness] resposta retida — {justificativa}\nResposta original: {resposta}")
+            resposta_original = resposta
             resposta = MENSAGEM_NAO_FUNDAMENTADA
+
+    avaliacao = None
+    if incluir_avaliacao:
+        if not fundamentada:
+            avaliacao = _dados_avaliacao("retida_groundedness", chunks, resposta_original, origem)
+        elif origem == "abstencao":
+            avaliacao = _dados_avaliacao("abstencao", chunks)
+        else:
+            avaliacao = _dados_avaliacao("gerada", chunks)
 
     return PerguntarResponse(
         pergunta=pergunta,
@@ -192,4 +253,5 @@ async def gerar_resposta(
         evidencia_suficiente=True,
         resposta_fundamentada=fundamentada,
         justificativa_groundedness=justificativa if not fundamentada else None,
+        avaliacao=avaliacao,
     )

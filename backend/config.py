@@ -44,6 +44,12 @@ class Settings(BaseSettings):
 
     groundedness_verificar: bool = True
 
+    # Libera `incluir_contextos` em /perguntar para a avaliação offline
+    # (avaliacao/rodar_ragas.py). Só true no .env do PC de desenvolvimento: a
+    # resposta passa a trazer `resposta_original`, que pode ser uma resposta
+    # retida por não ser fundamentada e nunca deve chegar a um usuário real.
+    permitir_modo_avaliacao: bool = False
+
     @field_validator("llm_think", mode="before")
     @classmethod
     def _normalizar_think(cls, valor):

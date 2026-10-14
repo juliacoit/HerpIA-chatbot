@@ -1,0 +1,4 @@
+# Dependências de desenvolvimento e teste — fora da imagem de produção.
+# Incluído por requirements-avaliacao.txt (avaliação offline com RAGAS).
+pytest
+pytest-asyncio

@@ -34,7 +34,15 @@ class BuscaResponse(BaseModel):
 
 
 class PerguntarRequest(BuscaRequest):
-    pass
+    incluir_contextos: bool = Field(
+        default=False,
+        description=(
+            "Modo de avaliação offline (avaliacao/rodar_ragas.py): devolve em "
+            "`avaliacao` os trechos enviados ao prompt e, se houve retenção, a "
+            "resposta original. Só aceito com PERMITIR_MODO_AVALIACAO=true "
+            "(403 caso contrário); a interação não é registrada no PostgreSQL."
+        ),
+    )
 
 
 class Citacao(BaseModel):
@@ -53,6 +61,53 @@ class Citacao(BaseModel):
             "sensíveis). Permite ao usuário conferir a fonte exata sem "
             "precisar abrir o documento original."
         ),
+    )
+
+
+class ContextoAvaliacao(BaseModel):
+    fonte: str
+    documento: str
+    secao: str | None = None
+    pagina_inicio: int | None = None
+    pagina_fim: int | None = None
+    score: float
+    nivel_sensibilidade: str | None = None
+    texto: str = Field(
+        description=(
+            "Exatamente o `chunk.texto` enviado ao prompt de geração, sem o "
+            "cabeçalho '[Trecho i — fonte, documento]' que montar_prompt põe antes."
+        )
+    )
+
+
+TipoSaida = Literal[
+    "gerada",               # texto do LLM aprovado pelo juiz (ou groundedness desligado)
+    "abstencao",            # abstenção pura, aprovada pela camada 0 sem chamar o juiz
+    "retida_groundedness",  # texto do LLM substituído por MENSAGEM_NAO_FUNDAMENTADA
+    "sem_chunks",
+    "sei_nao_indexado",
+    "contexto_excedido",
+]
+
+OrigemRetencao = Literal[
+    "lexical",             # camada 1 (hard gate), sem chamada ao LLM
+    "juiz_llm",            # veredito diferente de "SIM"
+    "juiz_nao_realizado",  # prompt do juiz não coube no contexto: retida sem julgamento
+]
+
+
+class DadosAvaliacao(BaseModel):
+    """Só preenchido no modo de avaliação. `resposta_original` pode conter uma
+    resposta retida por não ser fundamentada — nunca deve chegar a um usuário
+    real, por isso a trava PERMITIR_MODO_AVALIACAO."""
+
+    tipo_saida: TipoSaida
+    origem_retencao: OrigemRetencao | None = None
+    contextos: list[ContextoAvaliacao] = Field(
+        description="Chunks enviados ao prompt de geração, na mesma ordem; vazio quando não houve prompt."
+    )
+    resposta_original: str | None = Field(
+        default=None, description="Resposta do LLM antes de uma retenção por groundedness."
     )
 
 
@@ -82,6 +137,10 @@ class PerguntarResponse(BaseModel):
     justificativa_groundedness: str | None = Field(
         default=None,
         description="Motivo da retenção quando resposta_fundamentada é False.",
+    )
+    avaliacao: DadosAvaliacao | None = Field(
+        default=None,
+        description="Só no modo de avaliação (incluir_contextos=true); None nas requisições normais.",
     )
 
 

@@ -30,12 +30,17 @@ async def perguntar(
     settings: Settings = Depends(obter_settings),
     db_pool: ConnectionPool | None = Depends(obter_db_pool),
 ) -> PerguntarResponse:
+    if body.incluir_contextos and not settings.permitir_modo_avaliacao:
+        raise HTTPException(status_code=403, detail="Modo de avaliação desabilitado neste ambiente.")
+
     chunks = buscar_chunks_priorizados(client, modelo, settings, body.pergunta, body.top_k, body.fontes)
 
     inicio = time.perf_counter()
     try:
         with registrar_uso_llm() as uso_llm:
-            resultado = await gerar_resposta(llm, body.pergunta, chunks, settings)
+            resultado = await gerar_resposta(
+                llm, body.pergunta, chunks, settings, incluir_avaliacao=body.incluir_contextos
+            )
     except httpx.HTTPError as exc:
         raise HTTPException(
             status_code=503,
@@ -49,6 +54,11 @@ async def perguntar(
     # Uso de tokens por chamada ao LLM (geração e, se ligado, juiz), para a
     # bateria detectar prompts perto do limite de contexto sem mudar o schema.
     response.headers["X-LLM-Uso"] = json.dumps(uso_llm)
+
+    # Requisições de avaliação não entram na tabela `interacoes` (não são uso
+    # real e trazem respostas retidas): `id` fica None, sem feedback possível.
+    if body.incluir_contextos:
+        return resultado
 
     resultado.id = registrar_interacao(
         db_pool,

@@ -113,6 +113,21 @@ Depois de gerar a resposta, registra a interação no PostgreSQL (ver seção
 "Logging e feedback" abaixo) e devolve o `id` gravado no campo `id` da
 resposta — `null` quando o PostgreSQL está indisponível nesta sessão.
 
+**Modo de avaliação** (`incluir_contextos: true`, [ADR 0007](../decisoes/0007-avaliacao-offline-ragas-juiz-claude.md)):
+só para a avaliação offline com RAGAS. Com `PERMITIR_MODO_AVALIACAO=false` (o
+padrão), responde `403` antes de buscar qualquer coisa. Com a trava ligada,
+`avaliacao` traz:
+- `tipo_saida`: `gerada`, `abstencao`, `retida_groundedness`, `sem_chunks`,
+  `sei_nao_indexado` ou `contexto_excedido`;
+- `origem_retencao`: `lexical`, `juiz_llm` ou `juiz_nao_realizado`;
+- `contextos`: os chunks enviados ao prompt, com o `chunk.texto` exato; vazio
+  quando não houve prompt;
+- `resposta_original`: a resposta antes de uma retenção.
+
+A interação não é gravada no PostgreSQL (`id` = `null`). Sem
+`incluir_contextos`, `avaliacao` é sempre `null`, e a interface Streamlit
+ignora o campo.
+
 ### Roteamento por tipo de pergunta
 
 `backend/services/roteamento.py` prioriza a fonte SALVE para perguntas do
@@ -301,6 +316,7 @@ opcionais do LLM (todos com default, nenhum obrigatório):
 | `QDRANT_COLLECTION` | coleção consultada |
 | `LLM_PROVIDER`, `OLLAMA_URL`, `LLM_MODEL` | ADR 0006 — hoje só `ollama` está implementado |
 | `LLM_NUM_CTX` (8192), `LLM_TEMPERATURE`, `LLM_SEED`, `LLM_THINK`, `LLM_TIMEOUT` (120) | parâmetros enviados ao Ollama; sem valor = campo não enviado. `LLM_THINK` aceita `true`/`false` ou `low`/`medium`/`high`. Config em vigor visível em `GET /saude`; uso de tokens por chamada no header `X-LLM-Uso` de `/perguntar` |
+| `PERMITIR_MODO_AVALIACAO` (false) | libera `incluir_contextos` em `/perguntar` (avaliação offline, ADR 0007); `true` só no PC de desenvolvimento |
 | `OPENAI_API_KEY` | reservado para quando `LLM_PROVIDER=openai` for implementado |
 | `DATABASE_URL` | string de conexão do PostgreSQL (logging/feedback, `backend/db.py`) — se ausente/inacessível, logging e feedback ficam desativados sem derrubar o resto da API |
 

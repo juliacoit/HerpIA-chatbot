@@ -77,8 +77,9 @@ documentadas.
 """
 
 import re
+from typing import Literal
 
-from backend.schemas import ChunkRecuperado
+from backend.schemas import ChunkRecuperado, OrigemRetencao
 from backend.services.llm import ContextoExcedidoError, LLMClient
 
 MENSAGEM_NAO_FUNDAMENTADA = (
@@ -481,6 +482,9 @@ _PROMPT_JUIZ = (
 _PADRAO_VEREDITO_SIM = re.compile(r"^\W*SIM\W*$")
 
 
+_PREFIXO_NAO_REALIZADA = "Verificação não realizada"
+
+
 async def verificar_com_llm(
     llm: LLMClient,
     pergunta: str,
@@ -516,7 +520,7 @@ async def verificar_com_llm(
     try:
         veredito = await llm.generate(prompt)
     except ContextoExcedidoError as exc:
-        return False, f"Verificação não realizada: {exc}."
+        return False, f"{_PREFIXO_NAO_REALIZADA}: {exc}."
 
     linhas = veredito.strip().splitlines()
     primeira_linha = linhas[0].strip().upper() if linhas else ""
@@ -537,16 +541,32 @@ async def verificar_groundedness(
     depois a abstenção pura, que já decide se passar; senão, junta a pista
     da camada 2 (meio de frase) e deixa o veredito final com o juiz por LLM.
     """
+    fundamentada, justificativa, _ = await verificar_groundedness_detalhado(llm, pergunta, resposta, chunks)
+    return fundamentada, justificativa
+
+
+async def verificar_groundedness_detalhado(
+    llm: LLMClient, pergunta: str, resposta: str, chunks: list[ChunkRecuperado]
+) -> tuple[bool, str | None, OrigemRetencao | Literal["abstencao"] | None]:
+    """Igual a `verificar_groundedness`, mais a camada que decidiu: a origem
+    da retenção (`lexical`, `juiz_llm`, `juiz_nao_realizado`), `"abstencao"`
+    quando a camada 0 aprovou sem juiz, ou None quando o juiz aprovou. Usado
+    pelo modo de avaliação (`gerar_resposta(..., incluir_avaliacao=True)`)."""
     ancorada, sem_apoio = checar_ancoras_estruturais(resposta, chunks, pergunta)
     if not ancorada:
         return False, (
             "Verificação lexical (nome em posição estrutural de alta "
             "precisão — seguido de parênteses ou liderando item de lista — "
             "sem apoio em nenhum trecho nem na pergunta): " + "; ".join(sem_apoio)
-        )
+        ), "lexical"
 
     if checar_abstencao_pura(resposta):
-        return True, None
+        return True, None, "abstencao"
 
     _, termos_suspeitos = checar_ancoras_meio_frase(resposta, chunks, pergunta)
-    return await verificar_com_llm(llm, pergunta, resposta, chunks, termos_suspeitos)
+    fundamentada, justificativa = await verificar_com_llm(llm, pergunta, resposta, chunks, termos_suspeitos)
+    if fundamentada:
+        return True, justificativa, None
+    if justificativa.startswith(_PREFIXO_NAO_REALIZADA):
+        return False, justificativa, "juiz_nao_realizado"
+    return False, justificativa, "juiz_llm"

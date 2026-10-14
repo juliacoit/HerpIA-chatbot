@@ -84,7 +84,7 @@ Tecnologias em uso:
 
 | Camada | Tecnologia |
 |---|---|
-| Linguagem | Python |
+| Linguagem | Python 3.14 (versão fixada em [`.python-version`](./.python-version); o venv usa o `python3.14` do sistema) |
 | Extração de PDFs | PyMuPDF, com Tesseract OCR para PDFs escaneados |
 | Embeddings | `BAAI/bge-m3` via sentence-transformers (1024 dimensões, distância cosseno), escolha temporária — [ADR 0005](./docs/decisoes/0005-escolha-temporaria-modelo-embeddings.md) |
 | Banco vetorial | Qdrant (servidor via Docker ou modo embutido em disco) |

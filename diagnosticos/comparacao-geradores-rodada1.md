@@ -35,7 +35,7 @@ rodada separada e offline._
 | Qdrant | modo embutido (`QDRANT_LOCAL_PATH`), como antes |
 | Ollama | 0.32.9 (instalação em `~/.local`), log em `~/.ollama/logs/serve.log` |
 | Máquina | notebook i7-12650H (16 threads), 25 GB de RAM no WSL2, GPU RTX 2050 **4 GB** |
-| Python do venv | **3.14.4** (a documentação do projeto diz 3.11; o venv não foi alterado) |
+| Python do venv | **3.14.4** (versão do projeto, formalizada em `.python-version` em 2026-10-14; a menção anterior a "3.11 na documentação" não tinha fonte no repositório) |
 | BGE-M3 | na GPU, no processo do uvicorn, ocupando **~1,5 GB** (3.812 MiB com o backend de pé × 2.306 MiB sem ele; o `nvidia-smi` do WSL não informa memória por processo) |
 | Aquecimento | uma pergunta fora da bateria ("status de conservação da jararaca-ilhoa", `top_k=8`) antes de cada bateria; não entra nas latências |
 | Truncamento | `truncated = 0` em todas as 621 chamadas registradas no `serve.log` ao longo da rodada |

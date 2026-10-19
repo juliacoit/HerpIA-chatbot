@@ -1,6 +1,6 @@
 # 0007. Avaliação offline com RAGAS e juiz Claude via API da Anthropic
 
-- **Status:** Proposta (rascunho de 2026-10-14; aceitar depois da primeira execução paga autorizada)
+- **Status:** Aceita em 2026-10-19, depois da primeira execução paga autorizada (smoke test: uma Faithfulness no caso C1, nota 0,91, sem erro; ver `diagnosticos/ragas/2026-10-19_15h04_claude-sonnet-5-5.md`). Rascunho de 2026-10-14.
 - **Data:** 2026-10-14
 - **Responsável(eis):** Julia Coite
 
@@ -63,7 +63,9 @@ Alternativas consideradas:
    - telemetria do ragas desligada (`RAGAS_DO_NOT_TRACK=true`).
 6. **Dependências isoladas:** `requirements-avaliacao.txt` (ragas,
    instructor, anthropic) inclui `requirements-dev.txt` (pytest) e fica fora
-   da imagem de produção.
+   da imagem de produção. A instalação real exigiu fixar também
+   `langchain-community==0.4.1` (a 0.4.2 quebra o `import ragas`) e instalar
+   `python3.14-dev` (o `scikit-network` compila a partir do código-fonte).
 7. **Gabaritos (`reference`) só da equipe técnica do RAN.** Enquanto não
    houver gabarito validado, o caso usa `PENDENTE_VALIDACAO_RAN` e pula as
    métricas que dependem de referência (`ContextPrecisionWithReference`,
@@ -86,7 +88,10 @@ Alternativas consideradas:
   `tool_choice={"type": "auto"}` (o `tool_choice` forçado do instructor dá
   400) e a remoção de `temperature`/`top_p`. Ver `diagnosticos/ragas_fase0.md`,
   seção 8.2. Uma atualização de ragas ou instructor pode quebrar esses
-  contornos; conferir a cada atualização.
+  contornos; conferir a cada atualização com `tests/test_juiz_ragas.py`, que
+  confere o payload sem rede.
+- O custo de cada execução fica registrado no relatório: tokens lidos do
+  `usage` das respostas da API e custo estimado, por caso e no total.
 - A avaliação roda com o `top_k` do frontend (5) e por isso não é
   diretamente comparável às baterias anteriores, que usaram `top_k=8`.
 - Reavaliar a CVE quando sair uma versão do ragas posterior à 0.4.3.

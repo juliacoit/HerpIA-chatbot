@@ -7,6 +7,7 @@ O juiz é substituído por métricas falsas que só registram os argumentos, e o
 import asyncio
 import json
 import os
+import subprocess
 import sys
 from types import SimpleNamespace
 
@@ -226,9 +227,11 @@ def test_ajuste_do_juiz_remove_amostragem():
 def test_telemetria_desligada_e_sem_metricas_multimodais():
     assert os.environ["RAGAS_DO_NOT_TRACK"] == "true"
     assert set(METRICAS) == {"faithfulness", "answer_relevancy", "context_precision_with_reference", "context_recall"}
-    # Importar o script não carrega ragas nem anthropic: o dry-run não depende deles.
-    assert "ragas" not in sys.modules
-    assert "anthropic" not in sys.modules
+    # Importar o script não carrega ragas nem anthropic: o dry-run não depende
+    # deles. Num processo novo, porque outro teste pode já tê-los importado.
+    codigo = "import sys, avaliacao.rodar_ragas; print('ragas' in sys.modules, 'anthropic' in sys.modules)"
+    saida = subprocess.run([sys.executable, "-c", codigo], cwd=rodar_ragas.RAIZ, capture_output=True, text=True)
+    assert saida.stdout.split() == ["False", "False"], saida.stderr
 
 
 def test_agregacao_por_categoria_ignora_nan_e_erro():

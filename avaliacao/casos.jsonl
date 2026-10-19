@@ -1,0 +1,36 @@
+{"id": "A1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "A2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "A3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "monitora", "rota_esperada": "nenhuma"}
+{"id": "B1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "B2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "B3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "C1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve", "rota_esperada": "salve"}
+{"id": "C2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve", "rota_esperada": "salve"}
+{"id": "C3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve", "rota_esperada": "salve"}
+{"id": "D1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "D2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "D3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "D4", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma", "falha_conhecida": "Falso positivo do gate do SALVE: 'Herpetofauna' (nome do PAN) + 'ameaçados' disparam o roteamento, mas a pergunta é sobre o conteúdo do PAN Herpetofauna do Sul (bateria, objetivo do D4)."}
+{"id": "F2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "F3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "F4", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "F5", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "F6", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "F7", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "G1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "G2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "G3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "G4", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "G5", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "H1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "H2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "pans", "rota_esperada": "nenhuma"}
+{"id": "I1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "J1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "L1", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "L2", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null, "rota_esperada": "nenhuma", "falha_conhecida": "Falso positivo do gate do SALVE, mesmo padrão do D4: nome de PAN + 'quais espécies de serpentes' disparam o roteamento, mas a pergunta é sobre um PAN (inexistente)."}
+{"id": "L3", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "L4", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "L5", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": "salve"}
+{"id": "L6", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "L7", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null}
+{"id": "L8", "reference": "PENDENTE_VALIDACAO_RAN", "fonte_esperada": null, "rota_esperada": "nenhuma", "falha_conhecida": "Falso positivo do gate do SALVE, mesmo padrão do D4: nome de PAN + 'quais espécies de anfíbios' disparam o roteamento, mas a pergunta é sobre um PAN (inexistente)."}

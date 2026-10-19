@@ -1,0 +1,2698 @@
+{
+  "metadados": {
+    "timestamp_iso": "2026-10-19T14:34:21",
+    "dry_run": true,
+    "juiz": "claude-sonnet-5-5",
+    "esforco_juiz": "low",
+    "max_tokens_juiz": 8192,
+    "embeddings_answer_relevancy": "BAAI/bge-m3",
+    "metricas": [
+      "faithfulness",
+      "answer_relevancy",
+      "context_precision_with_reference",
+      "context_recall"
+    ],
+    "top_k": 5,
+    "n_casos": 36,
+    "versao_ragas": "não instalado",
+    "versao_instructor": "não instalado",
+    "versao_anthropic": "não instalado",
+    "git_commit": "09dea2d",
+    "git_sujo": true,
+    "url_base": "http://localhost:8000",
+    "backend_llm_modelo": "qwen2.5:3b-instruct",
+    "backend_groundedness_verificar": true
+  },
+  "por_categoria": {
+    "A": {
+      "casos": 3,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "B": {
+      "casos": 3,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "C": {
+      "casos": 3,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "D": {
+      "casos": 4,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "F": {
+      "casos": 6,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "G": {
+      "casos": 5,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "H": {
+      "casos": 2,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "I": {
+      "casos": 1,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "J": {
+      "casos": 1,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    },
+    "L": {
+      "casos": 8,
+      "avaliados": 0,
+      "faithfulness": null,
+      "n_faithfulness": 0,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    }
+  },
+  "casos": [
+    {
+      "id": "A1",
+      "categoria": "A",
+      "user_input": "Qual o status de conservação da jararaca-do-Vale (Bothrops marmoratus)?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O status de conservação da Jararaca-do-Vale (Bothrops marmoratus) é Menos Preocupante (LC), conforme constatado em várias fontes, incluindo o documento Bothrops marmoratus Silva & Rodrigues, 2008. A espécie é endêmica do Brasil e apresenta ampla distribuição no Cerrado, com registros nos estados de Tocantins, Minas Gerais, Goiás e no Distrito Federal. Não há ameaças conhecidas que possam colocar a espécie em risco de extinção em curto prazo, levando à sua classificação como Menos Preocupante (LC).",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6447213444495656,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.6209989683008363,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6191387261702563,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops germanoi Barbo, Booker, Duarte, Chaluppe, Portes-Junior, Franco & Grazziotin, 2022",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6184376426978233,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.6138817916488306,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 6982,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "A2",
+      "categoria": "A",
+      "user_input": "Quais são os objetivos do PAN Herpetofauna do Espinhaço?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O PAN Herpetofauna do Espinhaço tem como objetivo geral implementar medidas que favoreçam a conservação das espécies contempladas no PAN e de seus habitats, em um período de cinco anos. Esses objetivos específicos incluem:\n\nI – Incrementar pesquisas que gerem conhecimento taxonômico, genético e biológico sobre as espécies-foco do PAN, em cinco anos;\n\nII – Promover o ordenamento territorial das Unidades de Conservação (UC) inseridas na área de abrangência do PAN, em cinco anos;\n\nIII – Contribuir para a efetivação dos objetivos das Unidades de Conservação (UC) da área de abrangência do PAN, ampliando a atuação dessas na conservação das espécies contempladas, em cinco anos;\n\nIV – Apoiar a gestão participativa das Unidades de Conservação (UC) e ampliar a participação em órgãos colegiados, em cinco anos;\n\nV – Diminuir a perda de hábitat em decorrência de incêndios na área de abrangência do PAN, em cinco anos;\n\nVI – Fortalecer as políticas públicas relacionadas ao uso e ocupação do solo e dos recursos hídricos que afetam as áreas de ocorrência das espécies contempladas no PAN, em cinco anos;\n\nVII – Estabelecer e implementar estratégias de melhoria da qualidade e conectividade de hábitat nas áreas protegidas e prioritárias para conservação das espécies contempladas no PAN, em cinco anos;\n\nVIII – Promover a cooperação permanente entre os gestores de unidades de conservação e demais parceiros para estimular ações integradas, que visem à solução de ameaças e conflitos entre conservação das espécies contempladas e extração e/ou uso dos recursos naturais, em cinco anos;\n\nIX – Desenvolver práticas de educação para sustentabilidade que amparem diferentes dimensões de desenvolvimento local.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.7405235450080982,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.7403810526872356,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-herpetofauna-do-espinhaco-acao-6-3-modelagem-e-mapeamento-conectividade.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 8,
+          "score": 0.7125627927501241,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-espinhaco-sumario.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 4,
+          "score": 0.7067420523109689,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2022-pan-herpetofauna-do-espinhaco-areas-estrategicas.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.7051070088374849,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 12849,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "A3",
+      "categoria": "A",
+      "user_input": "O que é o Programa Monitora do ICMBio e como funciona a amostragem de formas de vida da vegetação?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O Programa Nacional de Monitoramento da Biodiversidade (Programa Monitora) do Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) é um programa institucional de longa duração, voltado ao monitoramento do estado da biodiversidade e dos serviços ecossistêmicos associados nas unidades de conservação federais. Este Programa foi institucionalizado em 2017 e reformulado em 2022, conforme Instrução Normativa ICMBio nº 02 de 2022.\n\nO Programa Monitora é coordenado pela Coordenação de Monitoramento da Biodiversidade (COMOB) e conta com o envolvimento dos Centros Nacionais de Pesquisa e Conservação (CNPCs), bem como das equipes de gestão das Unidades de Conservação (UCs). Além disso, envolve diversos parceiros, incluindo comunidades que ocupam as UCs e seu entorno, instituições de pesquisa e ensino superior distribuídas pelo país, e organizações da sociedade civil.\n\nO Programa Monitora tem como objetivo gerar informação para subsidiar os instrumentos de gestão das unidades de conservação e as políticas públicas para a conservação das espécies. Ele foi estruturado de forma participativa desde 2010, com destaque para o envolvimento social.\n\nA participação social é a base de todo o processo, com ênfase no envolvimento de comunidades locais. O monitoramento participativo e de base comunitária contribui para o sucesso dos programas de monitoramento da biodiversidade, especialmente para alguns alvos de conservação como os peixes (alvo da pesca) e o caranguejo-uçá (alvo do componente Manguezal).\n\nO Programa Monitora caracteriza-se por ser de base comunitária, com estrutura modular e viés participativo. Isso leva à construção de uma estrutura estratégica para enfrentar os desafios da perda de biodiversidade e do uso sustentável dos recursos naturais.\n\nAtualmente, o Programa Monitora está dividido em três subprojetos: Terrestre, Aquático Continental e Marinho e Costeiros. Cada um desses subprojetos possui seus respectivos componentes, alvos e indicadores de monitoramento. O programa é essencial não só para a geração de dados, conforme visto no artigo de introdução deste livro, mas também para diversos processos de gestão.\n\nO Programa Monitora funciona com a implementação de técnicas acessíveis e o engajamento de diferentes setores, visando garantir o sucesso do programa. Ele é coordenado pela Coordenação de Monitoramento da Biodiversidade (COMOB) e desenvolveu sistemas como SISMonitora1, Sisbio2, Portal da Biodiversidade3, SINTAX4, SISBia5, SALVE6, SAMGe7, ARA8, BDC Tamar9 e a Rede de Conhecimentos sobre Monitoramento da Biodiversidade para Conservação dos Ambientes Marinhos e Costeiros.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "Tofolietal2023MPBST2contribuiesparaconservaodasreasprotegidasdaAmaznia_compressed1.pdf",
+          "secao": "livros",
+          "pagina_inicio": 21,
+          "score": 0.7286174789436786,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "relatorio8.pdf",
+          "secao": "relatorios",
+          "pagina_inicio": 3,
+          "score": 0.7186179774066643,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "monitoramentodabiodiversidadeparaconservacaodosambientesmarinhosecosteiros1.pdf",
+          "secao": "livros",
+          "pagina_inicio": 32,
+          "score": 0.7130919415763182,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "monitoramentodabiodiversidadeparaconservacaodosambientesmarinhosecosteiros1.pdf",
+          "secao": "livros",
+          "pagina_inicio": 17,
+          "score": 0.7101557849753289,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Tofolietal2023MPBST2contribuiesparaconservaodasreasprotegidasdaAmaznia_compressed1.pdf",
+          "secao": "livros",
+          "pagina_inicio": 38,
+          "score": 0.7069683785450078,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 14421,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "B1",
+      "categoria": "B",
+      "user_input": "Quais ações de conservação o PAN Herpetofauna do Sul prevê para as espécies avaliadas em risco crítico (CR) segundo o SALVE?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O PAN Herpetofauna do Sul prevê ações de conservação para 21 espécies de répteis e anfíbios ameaçados de extinção, das quais 25 estão classificadas na categoria CR (Criticamente Ameaçada) segundo o SALVE. Entre essas espécies, as que são classificadas como Criticamente Ameaçadas são:\n\n- Boana curupi\n- Boana semiguttata\n- Brachycephalus pernix \n- Cycloramphus diringshofeni\n- Ischnocnema manezinho  \n- Melanophryniscus admirabilis\n- Melanophryniscus cambaraensis\n- Melanophryniscus dorsalis\n- Melanophryniscus macrogranulosus\n- Thoropa saxatilis\n\nPortanto, o PAN Herpetofauna do Sul estabelece ações de conservação para todas essas 25 espécies avaliadas em risco crítico, conforme especificado no §1º e §3º da Portaria mencionada.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 1,
+          "score": 0.6850865878052523,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-campos-sulinos-portaria.pdf",
+          "secao": "pan-aves-dos-campos-sulinos",
+          "pagina_inicio": 1,
+          "score": 0.6531665546743135,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20240924_pan_herpetofauna_sudeste_portaria.pdf",
+          "secao": "pan-herpetofauna-do-sudeste",
+          "pagina_inicio": 1,
+          "score": 0.647550138030451,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-sumario.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 2,
+          "score": 0.6467560183261234,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-alto-parana-portaria-aprovacao.pdf",
+          "secao": "pan-alto-parana",
+          "pagina_inicio": 1,
+          "score": 0.6410891659347403,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 10120,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "B2",
+      "categoria": "B",
+      "user_input": "Como os protocolos do Programa Monitora se relacionam com as espécies de quelônios cobertas pelo PAN Quelônios?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "retida_groundedness",
+      "origem_retencao": "lexical",
+      "resposta_fundamentada": false,
+      "texto_avaliado": "Os protocolos do Programa Monitora estão relacionados aos quelônios amazônicos, que são uma das espécies abordadas pelo Projeto Amazônia e Pantanal (PAN Quelônios). A participação do Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios - RAN no Programa Monitora indica o envolvimento deste centro especializado em conservação de quelônios de água doce nessa iniciativa. O RAN atua diretamente na construção e revisão de relatórios técnicos, bem como promove análises, consultas e emite pareceres relacionados ao protocolo do alvo complementar Quelônios Amazônicos do Programa Monitora.\n\nO desenvolvimento desses protocolos de monitoramento demonstra a necessidade de abordar as populações das espécies-alvo, incluindo quelônios amazônicos. A implementação dos protocolos em unidades de conservação (UCs) como a Resex do Rio Unini e o Parque Nacional da Serra do Jaú (Parma Jaú), sugere que os quelônios são espécies ameaçadas que necessitam de monitoramento rigoroso.\n\nAlém disso, o Programa Monitora busca uma abrangência mais ampla no monitoramento comparado às práticas tradicionais restritas à estação reprodutiva, explorando métodos como captura e recaptura para estimativas confiáveis da população. Este enfoque amplo de monitoramento participativo ilustra o compromisso do RAN e outros envolvidos no PAN Quelônios em garantir uma cobertura sólida dessas populações, especialmente aquelas ameaçadas como os quelônios.\n\nPortanto, os protocolos do Programa Monitora estão diretamente relacionados às espécies de quelônios abordadas pelo PAN Quelônios, demonstrando um foco em monitoramento e conservação destas espécies no bioma Amazônica.",
+      "origem_texto": "resposta_original",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 53,
+          "score": 0.692720107583478,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 53,
+          "score": 0.6872602527154014,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 23,
+          "score": 0.6833566015347599,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 20,
+          "score": 0.6738385530926793,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 51,
+          "score": 0.6664433486009993,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 12616,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "B3",
+      "categoria": "B",
+      "user_input": "Das espécies de quelônios classificadas como Vulnerável ou pior no SALVE, quais estão cobertas por algum PAN coordenado pelo RAN?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência em nenhum dos trechos recuperados sobre o Plano de Ação Nacional (PAN) para a Conservação dos Quelônios Amazônicos ou sobre espécies classificadas na Lista Nacional de Espécies Ameaçadas de Extinção (SALVE) que estejam cobertas por esse PAN. Os trechos fornecidos abordam principalmente o Plano de Ação Nacional para a Conservação do Patrimônio Espeleológico Brasileiro (PAN Cavernas do Brasil) e os Planos de Ação Nacional para a Conservação dos Tubarões, mas não contêm informações específicas sobre espécies de quelônios classificadas na SALVE.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-cavernas-do-brasil-sumario.pdf",
+          "secao": "pan-cavernas-do-brasil",
+          "pagina_inicio": 3,
+          "score": 0.6134015250877343,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-quelonios-matriz-planejamento-site.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 1,
+          "score": 0.601048977141959,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20250525-pan-tubaroes-portaria-aprovacao.pdf",
+          "secao": "pan-tubaroes",
+          "pagina_inicio": 1,
+          "score": 0.6003409973283608,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-cavernas-do-brasil-sumario.pdf",
+          "secao": "pan-cavernas-do-brasil",
+          "pagina_inicio": 2,
+          "score": 0.5955352100619109,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20250525-pan-tubaroes-portaria-aprovacao.pdf",
+          "secao": "pan-tubaroes",
+          "pagina_inicio": 1,
+          "score": 0.5935405611563808,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 10775,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "C1",
+      "categoria": "C",
+      "user_input": "Lista de espécies de répteis ameaçados na Mata Atlântica",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Baseado nos trechos fornecidos, aqui está uma lista de espécies de répteis e anfíbios que são consideradas ameaçados (em perigo - EN) no Bioma Mata Atlântico:\n\n1. Trachylepis atlantica (Schmidt, 1945)\n2. Amphisbaena bahiana Vanzolini, 1964\n\nEstas espécies são mencionadas diretamente em seus trechos como estando na categoria de risco \"Em Perigo (EN)\" e ocorrendo no bioma Mata Atlântico.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Placosoma glabellum (Peters, 1870)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.5883072107342238,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Trachylepis atlantica (Schmidt, 1945)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.581213600873293,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Amphisbaena bahiana Vanzolini, 1964",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5800485969351525,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Erythrolamprus atraventer (Dixon & Thomas, 1985)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.577319621306456,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Trachylepis atlantica (Schmidt, 1945)",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.5753328578505672,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 3277,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "C2",
+      "categoria": "C",
+      "user_input": "Quais espécies de anuros existem no Pantanal?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O bioma Pantanal está presente nas seguintes espécies de anuros mencionadas nos trechos:\n\n1. **Pseudis paradoxa (Linnaeus, 1758)**\n2. **Physalaemus biligonigerus (Cope, 1861)**\n3. **Pseudopaludicola motorzinho Pansonato, Veiga-Menoncello, Mudrek, Jansen, Recco-Pimentel, Martins & Strüssmann, 2016**\n\nEstas espécies ocorrem no Pantanal de acordo com suas fichas de espécie.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Pseudis paradoxa (Linnaeus, 1758)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5880606946172597,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Physalaemus biligonigerus (Cope, 1861)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5870431822880559,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Pseudopaludicola motorzinho Pansonato, Veiga-Menoncello, Mudrek, Jansen, Recco-Pimentel, Martins & Strüssmann, 2016",
+          "secao": "populacao",
+          "pagina_inicio": null,
+          "score": 0.5765591259898477,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Physalaemus albonotatus (Steindachner, 1864)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5720803327017343,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Rhinella diptycha (Cope, 1862)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5711980839092711,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 6344,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "C3",
+      "categoria": "C",
+      "user_input": "Há jacarés ameaçados de extinção no Brasil?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "retida_groundedness",
+      "origem_retencao": "juiz_llm",
+      "resposta_fundamentada": false,
+      "texto_avaliado": "Há espécies de jacarés ameaçadas de extinção no Brasil, como P. trigonatus (jacaré-coroa) e C. yacare (Jacaré-de-lunetos), que foram mencionadas nos trechos recuperados. No entanto, não há evidências específicas ou categorias de ameaça de extinção para essas espécies no contexto dos trechos fornecidos.\n\nÉ importante notar que a categoria de risco para P. trigonatus é \"Menos Preocupante\" (LC) e para C. yacare é também \"Menos Preocupante\" (LC), indicando que não há evidências suficientes para classificá-las como ameaçadas ou ameaçadas de extinção.\n\nPortanto, a resposta baseada apenas nos trechos fornecidos é que não há indicações específicas de que existam espécies de jacarés no Brasil ameaçados de extinção.",
+      "origem_texto": "resposta_original",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Paleosuchus trigonatus (Schneider, 1801)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6376751093917357,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Melanosuchus niger (Spix, 1825)",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.6334947020836867,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman yacare (Daudin, 1802)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6248884118270013,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Paleosuchus palpebrosus (Cuvier, 1807)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.6244941285034319,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman crocodilus (Linnaeus, 1758)",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.6242368398293563,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 11343,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "D1",
+      "categoria": "D",
+      "user_input": "Quando foi aprovado o PAN Herpetofauna do Sul?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O PAN Herpetofauna do Sul foi aprovado em 23 de julho de 2019, conforme mencionado no Trecho 5 — fonte: pans, documento: pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 2,
+          "score": 0.6668975116483784,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-sumario.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 5,
+          "score": 0.6611006537660062,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-portaria-aprovacao.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 2,
+          "score": 0.6587941431061104,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 2,
+          "score": 0.6532786126603736,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-portaria-de-aprovacao-e-gat.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 1,
+          "score": 0.6514971155062496,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 10219,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "D2",
+      "categoria": "D",
+      "user_input": "Quem coordena o PAN Tartarugas Marinhas?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O coordenador do PAN Tartarugas Marinhas é João Carlos Alciati Thomé, vinculado ao Centro Nacional de Pesquisa e Conservação de Tartarugas Marinhas e da Biodiversidade Marinha do Leste - Tamar. Este papel está definido em artigo 3º da Portaria específica para o PAN Tartarugas Marinhas.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-sumario.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 8,
+          "score": 0.670434170456871,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-livro.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 40,
+          "score": 0.6608747958319755,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20240522-pan-tartarugas-portaria.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 2,
+          "score": 0.6561494339150673,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-portaria-aprovacao.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 2,
+          "score": 0.6484881954568549,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-portaria-aprovacao-retificada.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 1,
+          "score": 0.6468741167631984,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8750,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "D3",
+      "categoria": "D",
+      "user_input": "Quais UCs foram citadas como áreas estratégicas no PAN Herpetofauna do Espinhaço?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O PAN Herpetofauna do Espinhaço Mineiro abrange as seguintes Unidades de Conservação (UC):\n\n1. Área de Proteção Ambiental Estadual Seminário Menor de Mariana\n2. Área de Proteção Ambiental Municipal Aliança \n3. Área de Proteção Ambiental Municipal Carvão de Pedra  \n4. Área de Proteção Ambiental Municipal da Serra Talhada  \n5. Área de Proteção Ambiental Municipal Piranga\n\nEstas UCs foram mencionadas nas fichas das Áreas Estratégicas para o PAN Herpetofauna do Espinhaço Mineiro, que descrevem as áreas estratégicas para a implementação do Plano de Ação Nacional (PAN) no bioma Serra do Espinhaço em Minas Gerais.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "2022-pan-herpetofauna-do-espinhaco-areas-estrategicas.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.6604723540855774,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2022-pan-herpetofauna-do-espinhaco-areas-estrategicas.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 21,
+          "score": 0.6462739353613829,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.6354216982090435,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-herpetofauna-do-espinhaco-acao-6-3-modelagem-e-mapeamento-conectividade.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 112,
+          "score": 0.6350078328266446,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-herpetofauna-do-espinhaco-acao-6-3-modelagem-e-mapeamento-conectividade.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 8,
+          "score": 0.6340322755466588,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9984,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "D4",
+      "categoria": "D",
+      "user_input": "Quais ações o PAN Herpetofauna do Sul prevê para anfíbios quase ameaçados?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Os documentos recuperados não fornecem informações específicas sobre ações do Plano de Ação Nacional (PAN) Herpetofauna do Sul, apenas da Mata Atlântica nordestina. Portanto, não há evidência suficiente para responder à pergunta sobre ações previstas para anfíbios quase ameaçados no Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada do Nordeste - PAN Herpetofauna do Nordeste.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Phyllodytes gyrinaethes Peixoto, Caramaschi & Freire, 2003",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5773269843165697,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Physalaemus caete Pombal & Madureira, 1997",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5713160492521316,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Nyctimantis arapapa (Pimenta, Napoli & Haddad, 2009)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5693406383265742,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Nyctimantis arapapa (Pimenta, Napoli & Haddad, 2009)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5425336570444548,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Dendropsophus studerae (Carvalho-e-Silva, Carvalho-e-Silva & Izecksohn, 2003)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.542077281446805,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "falha_conhecida",
+        "efeito": "falha_conhecida",
+        "fracao_fonte_esperada": 0.0,
+        "falha_conhecida_passou": false,
+        "status": "falha_conhecida"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9904,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F2",
+      "categoria": "F",
+      "user_input": "Qual é o cronograma de vacinação de servidores do RAN?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "retida_groundedness",
+      "origem_retencao": "juiz_llm",
+      "resposta_fundamentada": false,
+      "texto_avaliado": "Não há evidência no conteúdo fornecido sobre um cronograma de vacinação de servidores do RAN. Todas as informações disponíveis são relacionadas a atividades de monitoramento e conservação de répteis e anfíbios, bem como a implementação de planos de ação nacional para a conservação desses grupos da faunística, não mencionam nada sobre um cronograma de vacinação.",
+      "origem_texto": "resposta_original",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 53,
+          "score": 0.5035970862927766,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-soldadinho-do-araripe-portaria-aprovacao-1.pdf",
+          "secao": "pan-soldadinho-do-araripe",
+          "pagina_inicio": 1,
+          "score": 0.4899151691976199,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2017-pan-quelonios-manual.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 14,
+          "score": 0.4879234259889536,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-cavernas-do-brasil-portaria-aprovacao.pdf",
+          "secao": "pan-cavernas-do-brasil",
+          "pagina_inicio": 3,
+          "score": 0.4846338697537962,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-insular-livro.pdf",
+          "secao": "pan-herpetofauna-insular",
+          "pagina_inicio": 100,
+          "score": 0.4797352046669594,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 7481,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F3",
+      "categoria": "F",
+      "user_input": "Qual a coordenada GPS exata dos ninhos monitorados de tartaruga-marinha em 2025?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência sobre ninhos de tartarugas marinhas monitorados em 2025 no documento fornecido. Os trechos disponíveis são relacionados a dados e relatórios de monitoramento das tartarugas marinhas entre os anos de 2010 e 2023, não mencionando nenhum evento ou monitoramento em 2025.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-relatorio-pmp-bp-2023.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 193,
+          "score": 0.6175501468129946,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-sumario.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 7,
+          "score": 0.6164044458709046,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-relatorio-pmp-bp-2023.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 188,
+          "score": 0.6152799929761537,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-relatorio-pmp-bp-2022-1.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 230,
+          "score": 0.6110866822944565,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-relatorio-pmp-bp-2022.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 230,
+          "score": 0.6110866822944565,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9938,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F4",
+      "categoria": "F",
+      "user_input": "Qual o horário de funcionamento da sede do RAN em Goiânia?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência sobre o horário de funcionamento da sede do RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios) em Goiânia. Os trechos fornecidos não contêm informações específicas sobre os horários de funcionamento desta instituição.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-sauim-de-coleira-livro.pdf",
+          "secao": "pan-sauim-de-coleira",
+          "pagina_inicio": 102,
+          "score": 0.5442085158903631,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-cerpam-portaria-aprovacao.pdf",
+          "secao": "pan-cerpam",
+          "pagina_inicio": 1,
+          "score": 0.48435708044665127,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-da-caatinga-livro.pdf",
+          "secao": "pan-aves-da-caatinga",
+          "pagina_inicio": 36,
+          "score": 0.4809058713178761,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-nordeste-livro.pdf",
+          "secao": "pan-herpetofauna-do-nordeste",
+          "pagina_inicio": 232,
+          "score": 0.47735890461789815,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-pequenos-cetaceos-livro.pdf",
+          "secao": "pan-pequenos-cetaceos",
+          "pagina_inicio": 130,
+          "score": 0.4758821394585471,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9765,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F5",
+      "categoria": "F",
+      "user_input": "Quais espécies de aves são mais ameaçadas no Cerrado?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "As espécies de aves mais ameaçadas no Cerrado são as seguintes, conforme lista:\n\n1. Alectrurus tricolor (Galito)\n2. Celeus obrieni (Pica-pau-do-parnaíba)\n3. Cercomacra ferdinandi (Chororó-de-goiás)\n4. Columbina cyanopis (Rolinha-do-planalto)\n5. Conothraupis mesoleuca (Tiê-bicudo)\n6. Coryphaspiza melanotis (Tico-tico-do-mato)\n7. Geositta poeciloptera* (Geobates poecilopterus) - classificada como Vulnerável\n8. Harpia harpyja (Gavião-real)\n9. Hydropsalis candicans (Caprimulgus candicans) - classificado como Vulnerável\n\nTotalizando 13 espécies de aves ameaçadas no Cerrado, conforme listas globais e nacionais de espécies ameaçadas de extinção.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-do-cerrado-pantanal-sumario.pdf",
+          "secao": "pan-aves-do-cerrado-e-pantanal",
+          "pagina_inicio": 2,
+          "score": 0.7030364887911015,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-do-cerrado-pantanal-sumario.pdf",
+          "secao": "pan-aves-do-cerrado-e-pantanal",
+          "pagina_inicio": 2,
+          "score": 0.6803932920278627,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-do-cerrado-pantanal-sumario.pdf",
+          "secao": "pan-aves-do-cerrado-e-pantanal",
+          "pagina_inicio": 1,
+          "score": 0.6537151157794965,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-de-rapina-livro.pdf",
+          "secao": "pan-aves-de-rapina",
+          "pagina_inicio": 50,
+          "score": 0.6383195739050279,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-do-cerrado-pantanal-sumario.pdf",
+          "secao": "pan-aves-do-cerrado-e-pantanal",
+          "pagina_inicio": 3,
+          "score": 0.6366945454066978,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9859,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F6",
+      "categoria": "F",
+      "user_input": "Onde exatamente foram encontrados os últimos registros de Bothrops insularis?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Os únicos registros de ocorrência documentados para Bothrops insularis (jararaca-ilhôa) são da Ilha da Queimada Grande, que faz parte do Área de Relevante Interesse Ecológico Ilha Queimada Grande e Queimada Pequena. A ilha está localizada a 34,8 km do litoral sul do estado de São Paulo, próximo aos municípios de Itanhaém e Peruíbe.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "distribuicao",
+          "pagina_inicio": null,
+          "score": 0.6187465450424818,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "populacao",
+          "pagina_inicio": null,
+          "score": 0.6126090876171537,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.6083067649036245,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6017052320422707,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.5927564418918527,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8156,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "F7",
+      "categoria": "F",
+      "user_input": "Quem são os pesquisadores responsáveis pelo monitoramento de quelônios e qual o contato deles?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Os pesquisadores responsáveis pelo monitoramento de quelônios no bioma Amazônia são dos programas RAN (Centro Nacional de Pesquisa e Conservação de Répteis e Anfíbios) e ICMBio. No entanto, os detalhes específicos sobre os contactos desses pesquisadores não estão descritos nos trechos fornecidos.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "livro_monitoramento_participativo_da_biodiversidade.pdf",
+          "secao": "livros",
+          "pagina_inicio": 130,
+          "score": 0.5891901457008929,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 25,
+          "score": 0.5853082926829285,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 11,
+          "score": 0.5808734036670236,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "IPE_MPB___Livro_Encontro_Saberes___versao_final_compressed.pdf",
+          "secao": "encontro-dos-saberes",
+          "pagina_inicio": 71,
+          "score": 0.5807451730877646,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "IPE_MPB___Livro_Encontro_Saberes___versao_final_compressed.pdf",
+          "secao": "livros",
+          "pagina_inicio": 71,
+          "score": 0.5807451730877646,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 10323,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "G1",
+      "categoria": "G",
+      "user_input": "O que diz o processo SEI mais recente sobre licenciamento de soltura de espécimes?",
+      "tem_referencia": false,
+      "status": "sem_texto_llm",
+      "erro_coleta": null,
+      "tipo_saida": "sei_nao_indexado",
+      "origem_retencao": null,
+      "resposta_fundamentada": false,
+      "texto_avaliado": null,
+      "origem_texto": null,
+      "contextos": [],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [],
+      "chamadas_estimadas": 0,
+      "caracteres_enviados": 0,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "G2",
+      "categoria": "G",
+      "user_input": "O que diz o processo 02070.004321/2023-18?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Os trechos recuperados não fornecem informações sobre nenhum processo específico mencionado na pergunta, nem citam esse número exato em nenhuma das fontes. Portanto, de acordo com as informações disponíveis, não há evidência ou detalhes sobre o processo 02070.004321/2023-18.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-da-caatinga-livro.pdf",
+          "secao": "pan-aves-da-caatinga",
+          "pagina_inicio": 133,
+          "score": 0.5180402966721336,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-da-caatinga-livro.pdf",
+          "secao": "pan-aves-da-caatinga",
+          "pagina_inicio": 133,
+          "score": 0.5156469902310912,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-da-caatinga-livro.pdf",
+          "secao": "pan-aves-da-caatinga",
+          "pagina_inicio": 36,
+          "score": 0.5110319070760083,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "D11193.pdf",
+          "secao": "legislacao",
+          "pagina_inicio": 4,
+          "score": 0.5044077798063701,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-relatorio-pmp-bp-2023.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 428,
+          "score": 0.5036124776013978,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 11210,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "G3",
+      "categoria": "G",
+      "user_input": "Quais notas técnicas o RAN emitiu em 2025 sobre licenciamento?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência dos documentos técnico-científicos (Notas Técnicas) emitidos pelo RAN em 2025. Todos os trechos recuperados fornecem informações relacionadas a notas técnicas ou políticas de licenciamento e planejamento ambiental que mencionam o RAN, mas não especificam quais Notas Técnicas foram emitidas no ano de 2025 sobre esse assunto específico.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-mamac-livro-2.pdf",
+          "secao": "pan-mamiferos-da-mata-atlantica-central",
+          "pagina_inicio": 61,
+          "score": 0.5327096119719822,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-nordeste-livro.pdf",
+          "secao": "pan-herpetofauna-do-nordeste",
+          "pagina_inicio": 199,
+          "score": 0.5115300544434375,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-mamac-livro-2.pdf",
+          "secao": "pan-mamiferos-da-mata-atlantica-central",
+          "pagina_inicio": 49,
+          "score": 0.49559079379796667,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-mamac-matriz-planejamento-site.pdf",
+          "secao": "pan-mamiferos-da-mata-atlantica-central",
+          "pagina_inicio": 14,
+          "score": 0.49498210855385955,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2013-pan-herpetofauna-do-sul-matriz-planejamento-site.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 15,
+          "score": 0.4918164522671198,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9725,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "G4",
+      "categoria": "G",
+      "user_input": "o que tem no sei sobre soltura de quelônios?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O Programa Monitora, através de seu roteiro metodológico de monitoramento dos quelônios aquáticos amazônicos (Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf), abordou o tema da soltura de quelônios, destacando a importância do diálogo entre saberes tradicionais e técnicos-científicos para sustentar o Programa Monitora em longo prazo. \n\nNo entanto, o trecho menciona apenas aspectos teóricos ou conceituais sobre a soltura, como a necessidade de promover valorização do trabalho, sensibilização e educação ambiental. Não há detalhes específicos ou experiências concretas com solturas de quelônios em UCs (Unidades de Conservação).\n\nUm documento específico chamado 2017-pan-quelonios-manual.pdf abordou o processo de nascimento, que menciona que após a desova, os fi lhotinhos precisam ser verificados e monitorados até sua saída dos ninhos. Este documento também discute o risco de morte ou má formação dos filhotes durante transferências de ninhos e sugere medidas para minimizar esses problemas.\n\nO 2020-pan-aves-da-mata-atlantica-relatorio-workshop-galliformes-tinamiformes.pdf, no entanto, foca mais em aspectos legais e práticas relacionados à destinação de fauna, incluindo preocupações com solturas inadequadas sem monitoramento adequado ou localização de ninhos ou habitats de desova.\n\nPortanto, embora existam discussões sobre a importância da solução e os possíveis problemas associados, não há informações concretas sobre práticas de soltura ou resultados específicos desses programas em UCs.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 61,
+          "score": 0.55331272472386,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2017-pan-quelonios-manual.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 126,
+          "score": 0.5219130941931808,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2017-pan-quelonios-manual.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 54,
+          "score": 0.4840165555202637,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2020-pan-aves-da-mata-atlantica-relatorio-workshop-galliformes-tinamiformes.pdf",
+          "secao": "pan-aves-da-mata-atlantica",
+          "pagina_inicio": 78,
+          "score": 0.48023228662848805,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "Bernanrdesetal2023RoteiroMetodologicoQuelonios.pdf",
+          "secao": "materiais-de-apoio",
+          "pagina_inicio": 25,
+          "score": 0.47915750938214485,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 12090,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "G5",
+      "categoria": "G",
+      "user_input": "Me mostre os pareceres do Sistema Eletrônico de Informações sobre o PAN Sul",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência dos pareceres do Sistema Eletrônico de Informações sobre o PAN Sul na base de dados dos trechos recuperados.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "2013-pan-herpetofauna-do-sul-matriz-planejamento-site.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 16,
+          "score": 0.5982937408200986,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-paraiba-do-sul-livro.pdf",
+          "secao": "pan-paraiba-do-sul",
+          "pagina_inicio": 15,
+          "score": 0.5796285323814224,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2019-pan-lagoas-do-sul-boletim-03.pdf",
+          "secao": "pan-lagoas-do-sul",
+          "pagina_inicio": 7,
+          "score": 0.5784469516900204,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2018-pan-tubaroes-boletim-3.pdf",
+          "secao": "pan-tubaroes",
+          "pagina_inicio": 4,
+          "score": 0.5679883369242356,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2012-pan-sauim-de-coleira-boletim-01.pdf",
+          "secao": "pan-sauim-de-coleira",
+          "pagina_inicio": 4,
+          "score": 0.5675281453547083,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 6668,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "H1",
+      "categoria": "H",
+      "user_input": "Qual o DOI da ficha SALVE de Stenocercus quinarius?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O DOI da ficha SALVE de Stenocercus quinarius é 10.37002/salve.ficha.35759.2.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Stenocercus quinarius Nogueira & Rodrigues, 2006",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.5732186804512516,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Stenocercus quinarius Nogueira & Rodrigues, 2006",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5590225177214314,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Stenocercus quinarius Nogueira & Rodrigues, 2006",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.5495025573219283,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Stenocercus quinarius Nogueira & Rodrigues, 2006",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.5445968758346464,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Stenocercus quinarius Nogueira & Rodrigues, 2006",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5409056854047337,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 6394,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "H2",
+      "categoria": "H",
+      "user_input": "Em que página do PAN Herpetofauna do Sul está descrita a área de Campos-de-Cima-da-Serra?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência no conjunto de trechos recuperados para encontrar uma descrição específica da área de Campos-de-Cima-da-Serra em um documento chamado PAN Herpetofauna do Sul. Todos os trechos fornecidos têm informações relacionadas à herpetofauna, principalmente o Pan-herpetofauna-do-espinhaco-ação-6-3-modelagem-e-mapeamento-conectividade.pdf que menciona Campos-de-Cima-da-Serra em seu contexto geográfico. No entanto, não há menção a uma página específica nesses trechos.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Boana cipoensis (Lutz, 1968)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5652004294282396,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "PMIFParnadoItatiaia_compressed.pdf",
+          "secao": "pan-pequenos-mamiferos-areas-florestais",
+          "pagina_inicio": 52,
+          "score": 0.5586232479175184,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "Proposta-Final.pdf",
+          "secao": "pan-pequenos-mamiferos-areas-florestais",
+          "pagina_inicio": 110,
+          "score": 0.551548449871526,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-aves-dos-campos-sulinos-livro.pdf",
+          "secao": "pan-aves-dos-campos-sulinos",
+          "pagina_inicio": 24,
+          "score": 0.5508584577159791,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-herpetofauna-do-espinhaco-acao-6-3-modelagem-e-mapeamento-conectividade.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 66,
+          "score": 0.5506410754510154,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 0.8,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8848,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "I1",
+      "categoria": "I",
+      "user_input": "bicho de couro que vive na água e na terra, quais existem no cerrado",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência direta dos trechos recuperados para identificar espécies de bichos de couro (crustáceos aquáticos) que vivam tanto em terra quanto na água, em bioma específico como Cerrado. O único documento relacionado à fauna no trecho fornecido é sobre a réptil Hydrodynastes bicinctus, não mencionando nenhum bichos de couro. Portanto, não podemos concluir quais seriam as espécies de bichos de couro que vivem tanto em terra quanto na água no bioma Cerrado com base nos dados disponíveis.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Hydrodynastes bicinctus (Herrmann, 1804)",
+          "secao": "historia_natural",
+          "pagina_inicio": null,
+          "score": 0.5212832578225574,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Paleosuchus palpebrosus (Cuvier, 1807)",
+          "secao": "historia_natural",
+          "pagina_inicio": null,
+          "score": 0.516603588365423,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-manguezal-portaria-aprovacao-e-gat.pdf",
+          "secao": "pan-manguezal",
+          "pagina_inicio": 5,
+          "score": 0.5165615928767039,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-peixe-boi-marinho-estudo-tecnico-criacao-arie-tartarugas.pdf",
+          "secao": "pan-peixe-boi-marinho",
+          "pagina_inicio": 102,
+          "score": 0.5159810880812971,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Hydrodynastes bicinctus (Herrmann, 1804)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5153596860814543,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 0.6,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8014,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "J1",
+      "categoria": "J",
+      "user_input": "Quais as principais ameaças ambientais e o status de conservação de cada uma das espécies de quelônios protegidas em cada um dos PANs coordenados pelo RAN?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "retida_groundedness",
+      "origem_retencao": "lexical",
+      "resposta_fundamentada": false,
+      "texto_avaliado": "Os Planos de Ação Nacional (PANS) coordenados pelo RAN/ICMBio abordam principalmente as ameaças ambientais aos quelônios da Amazônia e no Nordeste. Embora os trechos fornecidos não ofereçam informações específicas sobre a classificação taxonômica ou status de conservação de cada espécie, eles destacam algumas principais ameaças:\n\n1. **Específicas para o PAN dos Quelônios Amazônicos:**\n   - **Exploração ilegal:** Há declínio populacional significativo de espécies de quelônios na área de grande ocorrência, notadamente da tartaruga-da-amazônia.\n   - **Desmatamento:** A presença do desmatamento nas margens de lagos e rios afeta as populações desses animais.\n\n2. **Sobre a Herpetofauna do Nordeste:**\n   - A criação e comercialização de espécies quelônios amazônicos tem sido um foco.\n   - **Desmatamento:** Também é mencionado como uma ameaça para os anfíbios e répteis da região nordeste.\n\nEm relação ao status de conservação, enquanto não há informações específicas detalhadas sobre cada espécie protegida em cada PAN:\n\n- Para o PAN dos Quelônios Amazônicos: Há evidências de declínio populacional significativo.\n  \n- Para a Herpetofauna do Nordeste: A proposta é promover redução das ameaças e ampliação do conhecimento sobre os animais da região.\n\nNão há informações suficientes para listar e detalhar o status de conservação específico de cada espécie em cada PAN. Estas conclusões são baseadas nas ameaças descritas nos trechos, mas não permitem categorizar ou avaliar individualmente a situação de cada espécie referente ao PANS mencionados.",
+      "origem_texto": "resposta_original",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-quelonios-sumario.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 7,
+          "score": 0.6662367884994421,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2017-pan-quelonios-manual.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 14,
+          "score": 0.6638215063221652,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-quelonios-sumario.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 6,
+          "score": 0.6611605471823782,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-quelonios-matriz-planejamento-site.pdf",
+          "secao": "pan-quelonios",
+          "pagina_inicio": 1,
+          "score": 0.6573769070388282,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "2024-pan-herpetofauna-do-nordeste-acao-1-2-criacao-corredores-ecologicos.pdf",
+          "secao": "pan-peixes-e-eglas-da-ma",
+          "pagina_inicio": 4,
+          "score": 0.6508261811256508,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 12646,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L1",
+      "categoria": "L",
+      "user_input": "Quais são as metas do PAN Herpetofauna do Pantanal?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidências específicas sobre as metas do PAN Herpetofauna do Pantanal nos trechos recuperados. Os trechos fornecidos contêm informações específicas para os Pan's Herpetofauna da Mata Atlântica Nordeste e Sudeste, bem como detalhes gerais sobre o CERPAN (Plano de Ação Nacional Para a Conservação Ictiofauna, Anfíbios e Reptil do Cerrado e Pantanal) e os Pan's Herpetofaunas da Mata Atlântica Nordeste e Serra do Espinhaco.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-espinhaco-portaria-aprovacao.pdf",
+          "secao": "pan-herpetofauna-do-espinhaco",
+          "pagina_inicio": 2,
+          "score": 0.6682350023226167,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sul-sumario.pdf",
+          "secao": "pan-herpetofauna-do-sul",
+          "pagina_inicio": 7,
+          "score": 0.659374921461902,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-cerpan-sumario.pdf",
+          "secao": "pan-cerpam",
+          "pagina_inicio": 7,
+          "score": 0.6553310130082142,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-nordeste-livro.pdf",
+          "secao": "pan-herpetofauna-do-nordeste",
+          "pagina_inicio": 195,
+          "score": 0.6521029341864016,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-herpetofauna-do-sudeste-sumario.pdf",
+          "secao": "pan-herpetofauna-do-sudeste",
+          "pagina_inicio": 6,
+          "score": 0.6502533591173427,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 10143,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L2",
+      "categoria": "L",
+      "user_input": "Quais espécies de serpentes o PAN Serpentes do ICMBio prioriza?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "O Plano de Ação Nacional para Conservação dos Répteis (PAN Serpentes) do ICMBio não menciona especificamente quais espécies de répteis são prioritárias. O documento descreve o objetivo geral do PAN Serpentes, que é aperfeiçoar as estratégias de conservação para os répteis e promover ações para sua recuperação e uso sustentável. No entanto, ele menciona algumas espécies-alvo como Podocnemis unifilis, P. expansa e P. sextuberculata , mas também inclui outras espécies que ocorrem na região, sem especificar prioridades.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Imantodes cenchoa (Linnaeus, 1758)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5510290078508034,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Imantodes cenchoa (Linnaeus, 1758)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.549594743973237,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Xenodon merremii (Wagler in Spix, 1824)",
+          "secao": "populacao",
+          "pagina_inicio": null,
+          "score": 0.5462456045877957,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Podocnemis erythrocephala (Spix, 1824)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5340540006503427,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Iguana iguana (Linnaeus, 1758)",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.5324762906327731,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "falha_conhecida",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "falha_conhecida"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9833,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L3",
+      "categoria": "L",
+      "user_input": "Qual o status de conservação de Rhinella ranicmbioensis?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência sobre o documento ou ficha específica de \"Rhinella ranicmbioensis\".",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Rhinella rubescens (Lutz, 1925)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6295847207864714,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Rhinella rubescens (Lutz, 1925)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6154384302910105,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Rhinella rubescens (Lutz, 1925)",
+          "secao": "visao_geral",
+          "pagina_inicio": null,
+          "score": 0.6148097192287568,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Rhinella hoogmoedi Caramaschi & Pombal, 2006",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6110760468545138,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Rhinella marina (Linnaeus, 1758)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.608964778308281,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 5636,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L4",
+      "categoria": "L",
+      "user_input": "Por que a jararaca-marmorata (Bothrops marmoratus) é classificada como Criticamente em Perigo?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "A Jararaca-Marmorata (Bothrops marmoratus) não foi classificada como Criticamente em Perigo de acordo com os trechos fornecidos. Em todos os trechos sobre Bothrops marmoratus, a categoria de risco é descrita como \"Menos Preocupante (LC)\" para o Brasil tanto no \"Histórico de avaliação de risco\" quanto nas seções do \"Bioma\". Portanto, não há evidência nos dados fornecidos para afirmar que Bothrops marmoratus seja classificado como Criticamente em Perigo.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6731164840858508,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6699846382007676,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops insularis (Amaral, 1922)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6680616082515438,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.6631267050653815,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Bothrops marmoratus Silva & Rodrigues, 2008",
+          "secao": "pesquisa",
+          "pagina_inicio": null,
+          "score": 0.6546478876072979,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 5794,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L5",
+      "categoria": "L",
+      "user_input": "Por que o jacaré-de-papo-amarelo está ameaçado de extinção segundo o SALVE?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "retida_groundedness",
+      "origem_retencao": "lexical",
+      "resposta_fundamentada": false,
+      "texto_avaliado": "O jacaré-de-papo-amarelo (Caiman latirostris) é ameaçado devido às seguintes principais causas:\n\n1. A destruição e perda de habitat:\n   - A maioria das suas subpopulações está em áreas que foram profundamente alteradas, principalmente no nordeste do Brasil, sudeste e sul.\n   - Atividades como drenagem de corpos d'água, desmatamento, redução de habitat, poluição e expansão urbana têm afetado negativamente o habitat da espécie.\n\n2. Caça predatória para o comércio ilegal:\n   - A caça é um problema em várias regiões do país.\n   - Pequenos grupos matam jacarés principalmente para evitar que eles danifiquem suas redes ao pescarem peixes.\n   - Nos parques municipais de Jacarepaguá, Rio de Janeiro, os animais são frequentemente mortos por pessoas incentivadas a fazer isso pelos rumores negativos sobre o animal.\n\n3. Pressão de caça:\n   - A região do rio São Francisco apresenta elevada pressão de caça.\n   - A população da espécie é considerada relativamente abundante naquela bacia, mas os indivíduos observados em contagens noturnas foram inferiores aos registrados em outras regiões.\n\n4. Pressionada por atividades socioeconômicas:\n   - Suas subpopulações naturalmente mais vulneráveis estão localizadas nas áreas com maior pressão socioeconômica do país, como o nordeste, sudeste e sul.\n\nReferências dos trechos de dados sobre os quais foram baseados as informações acima incluem:\n\n- Almeida-Gomes et al., 2014\n- Assis et al., 2007\n- Filogônio et al., 2010\n- Freitas-Filho et al., 2009",
+      "origem_texto": "resposta_original",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Caiman latirostris (Daudin, 1802)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.6469332259397328,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman latirostris (Daudin, 1802)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.6094453410109371,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman latirostris (Daudin, 1802)",
+          "secao": "populacao",
+          "pagina_inicio": null,
+          "score": 0.5876263965481698,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman latirostris (Daudin, 1802)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5755885091793762,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Caiman latirostris (Daudin, 1802)",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.5684253172248986,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "nao_checada",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 13290,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L6",
+      "categoria": "L",
+      "user_input": "Quais ações do PAN Tartarugas Marinhas tratam do jacaré-do-pantanal?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência sobre as ações específicas relacionadas ao Jacaré-do-Pantanal no documento recuperado. Todos os trechos mencionados abordam o Plano de Ação Nacional (PAN) para conservação das Tartarugas Marinhas, mas não contêm informações sobre ações relacionadas à espécie do Jacaré-do-Pantanal.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-sumario.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 8,
+          "score": 0.670906840941571,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20241127-pan-tartarugas-sumario.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 6,
+          "score": 0.6459227099119995,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "20241127-pan-tartarugas-sumario.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 5,
+          "score": 0.6416733436081663,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-portaria-aprovacao.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 1,
+          "score": 0.6406050992327026,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "pans",
+          "documento": "pan-tartarugas-livro.pdf",
+          "secao": "pan-tartarugas-marinhas",
+          "pagina_inicio": 60,
+          "score": 0.6405077848898764,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 9999,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L7",
+      "categoria": "L",
+      "user_input": "Resuma o capítulo sobre anfíbios do Monitora publicado em 2019.",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "abstencao",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Não há evidência no conjunto de trechos recuperados que mencione um capítulo específico sobre anfíbios do documento \"Monitora\" publicado em 2019. Portanto, não é possível fornecer uma resposta com base nesses trechos.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "monitora",
+          "documento": "relatorio8.pdf",
+          "secao": "relatorios",
+          "pagina_inicio": 30,
+          "score": 0.605639570317865,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "RelatorioFlorestal20142022.pdf",
+          "secao": "relatorios",
+          "pagina_inicio": 107,
+          "score": 0.602962695281309,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "ApendicesRelatorioFlorestal.pdf",
+          "secao": "relatorios",
+          "pagina_inicio": 10,
+          "score": 0.6008411172063443,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "livro_monitoramento_participativo_da_biodiversidade.pdf",
+          "secao": "livros",
+          "pagina_inicio": 27,
+          "score": 0.5973857368893004,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "monitora",
+          "documento": "IPE_MPB___Livro_Encontro_Saberes___versao_final_compressed.pdf",
+          "secao": "livros",
+          "pagina_inicio": 138,
+          "score": 0.5959471987746223,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "nenhuma",
+        "decisao": "nao_checada",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "nao_checada"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8904,
+      "notas": {},
+      "erros_metricas": {}
+    },
+    {
+      "id": "L8",
+      "categoria": "L",
+      "user_input": "Quais espécies de anfíbios ocorrem no PAN Herpetofauna do Cerrado?",
+      "tem_referencia": false,
+      "status": "planejado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "As especies de anfíbios que ocorrem no PAN Herpetofauna do Cerrado são:\n\n- Proceratophrys goyana (Andrade, Santos, Rocha, Pombal & Vaz-Silva, 2018) - categorizada como Menos Preocupante (LC)\n- Dendropsophus microcephalus (Cope, 1886) - categorizado como Menos Preocupante (LC)\n- Leptodactylus troglodytes Lutz, 1926 - categorizado como Menos Preocupante (LC)\n\nTodos esses registros estão associados ao bioma do Cerrado, conforme descrito nos documentos fornecidos.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Dendropsophus microcephalus (Cope, 1886)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5916741105077992,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Leptodactylus troglodytes Lutz, 1926",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5667003884093502,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Scinax goya (Andrade, Santos, Rocha, Pombal & Vaz-Silva, 2018)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5624714943897888,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Proceratophrys goyana (Miranda-Ribeiro, 1937)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5577658792942886,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Dendropsophus cruzi (Pombal & Bastos, 1998)",
+          "secao": "referencias",
+          "pagina_inicio": null,
+          "score": 0.5529727743130317,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "falha_conhecida",
+        "efeito": "nao_checada",
+        "fracao_fonte_esperada": null,
+        "falha_conhecida_passou": false,
+        "status": "falha_conhecida"
+      },
+      "metricas_planejadas": [
+        "faithfulness",
+        "answer_relevancy"
+      ],
+      "chamadas_estimadas": 5,
+      "caracteres_enviados": 8516,
+      "notas": {},
+      "erros_metricas": {}
+    }
+  ]
+}

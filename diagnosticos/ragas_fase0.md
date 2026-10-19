@@ -401,6 +401,15 @@ nem pyenv/uv. Todas as dependências atuais rodam em 3.14.4. Um
 resolveu **só com wheels prontos para 3.14**, sem compilar nada. Os requisitos
 mínimos também são compatíveis: anthropic ≥3.10, instructor ≥3.9, ragas ≥3.9.
 
+> **Correção (2026-10-19, instalação real):** o dry-run acima só resolveu
+> porque o pip recuou para o `scikit-network` 0.12.1 (2019), o único com
+> wheel puro. A versão atual (0.33.5) não tem wheel para 3.14 e compila a
+> partir do código-fonte, o que exige `sudo apt install python3.14-dev`. O
+> ragas só usa esse pacote na geração de testset (`ragas/testset/graph.py`).
+> A instalação real também mostrou que o `import ragas` quebra com
+> `langchain-community` 0.4.2 (removeu `chat_models.vertexai`), por isso
+> `requirements-avaliacao.txt` fixa a 0.4.1.
+
 **Sugestão (a decidir):** formalizar "Python 3.14" (`.python-version` +
 README) e corrigir a frase do relatório da rodada 1. Isso deveria valer
 também para o PC servidor, quando o backend for para lá.

@@ -7,3 +7,4 @@
 ragas==0.4.3          # CVE-2026-6587 sem correção; ver ADR 0007 (nunca usar métricas multimodais)
 instructor==1.17.0    # sem o extra [anthropic], que fixa anthropic==0.93 e conflita com o SDK 1.x
 anthropic==1.14.0
+langchain-community==0.4.1  # ragas 0.4.3 importa chat_models.vertexai, removido na 0.4.2

@@ -55,6 +55,42 @@ Os casos multifonte (B, J) ficam sem checagem, porque `fonte_esperada` aceita
 uma fonte só. Os demais casos de recusa (F2–F4, F7, G, L1, L3, L6, L7) também
 ficam sem `fonte_esperada` nem `rota_esperada`.
 
+## `rodar_ragas.py`
+
+```bash
+pip install -r requirements-avaliacao.txt   # ragas, instructor e anthropic fixados
+python avaliacao/rodar_ragas.py --dry-run   # sem custo: coleta, rota, bloqueios e plano
+python avaliacao/rodar_ragas.py --casos A1 --metricas faithfulness   # smoke test pago
+```
+
+- O backend precisa estar rodando com `PERMITIR_MODO_AVALIACAO=true`. Sem
+  isso, `/perguntar` responde 403 e o script para.
+- **Primeiro coleta todos os casos**, que é a parte sem custo. Só depois mostra
+  o plano (casos a avaliar e chamadas estimadas ao juiz) e pede confirmação
+  antes de qualquer chamada paga. `--sim` pula a confirmação.
+- **Bloqueio por sensibilidade, falhando fechado:** o caso é pulado
+  (`bloqueado_sensibilidade`) se algum contexto tiver `nivel_sensibilidade`
+  diferente de `"autorizado"`, inclusive `None` ou campo ausente. Nesse caso,
+  nada dele vai à API.
+- **Texto avaliado:**
+  - `resposta`, nas saídas `gerada` e `abstencao`;
+  - `resposta_original`, na `retida_groundedness`, para comparar o juiz
+    interno com o RAGAS;
+  - as saídas sem texto do LLM (`sem_chunks`, `sei_nao_indexado`,
+    `contexto_excedido`) ficam como `sem_texto_llm`.
+- **Métricas:**
+  - Faithfulness e AnswerRelevancy sempre. A AnswerRelevancy usa o BGE-M3
+    local para os embeddings;
+  - ContextPrecisionWithReference e ContextRecall só com gabarito do RAN;
+  - nunca as multimodais (CVE-2026-6587).
+- **Juiz:** `claude-sonnet-5-5` por padrão (`--juiz`), com `--esforco low`
+  por padrão. Os contornos da seção 8.2 do diagnóstico estão em
+  `criar_metricas`.
+- **Credencial:** vem do ambiente (`ANTHROPIC_API_KEY` ou `ant auth login`),
+  nunca do repositório.
+- **Saída:** `diagnosticos/ragas/<data>_<juiz>[_dry-run].{md,json}`. O JSON
+  guarda os metadados dos contextos, mas não o texto deles.
+
 ## Para a equipe do RAN preencher os gabaritos
 
 Trocar `PENDENTE_VALIDACAO_RAN` pelo texto da resposta correta, com base nas

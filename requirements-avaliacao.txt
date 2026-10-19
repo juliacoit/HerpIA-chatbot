@@ -1,0 +1,9 @@
+# Avaliação offline com RAGAS (ADR 0007) — só no PC de desenvolvimento,
+# fora da imagem de produção. Ver diagnosticos/ragas_fase0.md, seção 8.3.
+# requirements.txt entra porque o script importa backend.services.roteamento
+# (checagem de rota) e usa httpx/sentence-transformers.
+-r requirements.txt
+-r requirements-dev.txt
+ragas==0.4.3          # CVE-2026-6587 sem correção; ver ADR 0007 (nunca usar métricas multimodais)
+instructor==1.17.0    # sem o extra [anthropic], que fixa anthropic==0.93 e conflita com o SDK 1.x
+anthropic==1.14.0

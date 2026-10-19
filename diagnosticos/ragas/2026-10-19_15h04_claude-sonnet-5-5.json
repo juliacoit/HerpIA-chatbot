@@ -1,0 +1,112 @@
+{
+  "metadados": {
+    "timestamp_iso": "2026-10-19T15:04:21",
+    "dry_run": false,
+    "juiz": "claude-sonnet-5-5",
+    "esforco_juiz": "low",
+    "max_tokens_juiz": 8192,
+    "embeddings_answer_relevancy": "BAAI/bge-m3",
+    "metricas": [
+      "faithfulness"
+    ],
+    "top_k": 5,
+    "n_casos": 1,
+    "versao_ragas": "0.4.3",
+    "versao_instructor": "1.17.0",
+    "versao_anthropic": "1.14.0",
+    "git_commit": "1b3186f",
+    "git_sujo": false,
+    "url_base": "http://localhost:8000",
+    "backend_llm_modelo": "qwen2.5:3b-instruct",
+    "backend_groundedness_verificar": true
+  },
+  "por_categoria": {
+    "C": {
+      "casos": 1,
+      "avaliados": 1,
+      "faithfulness": 0.9090909090909091,
+      "n_faithfulness": 1,
+      "answer_relevancy": null,
+      "n_answer_relevancy": 0,
+      "context_precision_with_reference": null,
+      "n_context_precision_with_reference": 0,
+      "context_recall": null,
+      "n_context_recall": 0
+    }
+  },
+  "casos": [
+    {
+      "id": "C1",
+      "categoria": "C",
+      "user_input": "Lista de espécies de répteis ameaçados na Mata Atlântica",
+      "tem_referencia": false,
+      "status": "avaliado",
+      "erro_coleta": null,
+      "tipo_saida": "gerada",
+      "origem_retencao": null,
+      "resposta_fundamentada": true,
+      "texto_avaliado": "Na Mata Atlântica, existem duas espécies de répteis que estão em risco de extinção (Categoria de Risco: Em Perigo - EN):\n\n1. Trachylepis atlantica (Schmidt, 1945)\n   - Ameaças relevantes incluem desenvolvimento residencial e comercial, mudanças e extremos climáticos, atividades humanas, poluição e espécies invasoras/predadoras.\n\n2. Amphisbaena bahiana Vanzolini, 1964\n   - Esta espécie ocorre na área de abrangência do Plano de Ação Nacional para Conservação da Herpetofauna Ameaçada da Mata Atlântica nordestina (ICMBio, 2019), mas não há uso conhedido dela.",
+      "origem_texto": "resposta",
+      "contextos": [
+        {
+          "fonte": "salve",
+          "documento": "Placosoma glabellum (Peters, 1870)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.5883072107342238,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Trachylepis atlantica (Schmidt, 1945)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.581213600873293,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Amphisbaena bahiana Vanzolini, 1964",
+          "secao": "conservacao",
+          "pagina_inicio": null,
+          "score": 0.5800485969351525,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Erythrolamprus atraventer (Dixon & Thomas, 1985)",
+          "secao": "ameacas",
+          "pagina_inicio": null,
+          "score": 0.577319621306456,
+          "nivel_sensibilidade": "autorizado"
+        },
+        {
+          "fonte": "salve",
+          "documento": "Trachylepis atlantica (Schmidt, 1945)",
+          "secao": "uso",
+          "pagina_inicio": null,
+          "score": 0.5753328578505672,
+          "nivel_sensibilidade": "autorizado"
+        }
+      ],
+      "niveis_bloqueados": [],
+      "rota": {
+        "rota_obtida": "salve",
+        "decisao": "ok",
+        "efeito": "ok",
+        "fracao_fonte_esperada": 1.0,
+        "falha_conhecida_passou": false,
+        "status": "ok"
+      },
+      "metricas_planejadas": [
+        "faithfulness"
+      ],
+      "chamadas_estimadas": 2,
+      "caracteres_enviados": 3006,
+      "notas": {
+        "faithfulness": 0.9090909090909091
+      },
+      "erros_metricas": {}
+    }
+  ]
+}

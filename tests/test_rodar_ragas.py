@@ -18,11 +18,15 @@ from avaliacao import rodar_ragas
 from avaliacao.rodar_ragas import (
     METRICAS,
     ModoAvaliacaoDesabilitado,
+    UsoJuiz,
     agregar_por_categoria,
     ajustar_args_juiz,
     avaliar_caso,
+    avaliar_todos,
     coletar,
+    custo_estimado,
     gerar_relatorio,
+    obter_chave_anthropic,
 )
 
 
@@ -260,3 +264,68 @@ def test_relatorio_traz_metadados_e_todos_os_casos():
     assert "DRY-RUN" in md
     for trecho in ("claude-sonnet-5-5", "0.4.3", "`5`", "abc1234", "| A1 |", "| C1 |", "bloqueado_sensibilidade"):
         assert trecho in md
+
+
+# --- credencial -------------------------------------------------------------
+# Valores fictícios: nenhum teste lê o .env real do projeto.
+
+def test_chave_do_ambiente_tem_precedencia(monkeypatch, tmp_path):
+    env = tmp_path / ".env"
+    env.write_text("ANTHROPIC_API_KEY=do-arquivo\n", encoding="utf-8")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "do-ambiente")
+    assert obter_chave_anthropic(env) == "do-ambiente"
+
+
+def test_chave_do_env_carrega_so_essa_variavel(monkeypatch, tmp_path):
+    env = tmp_path / ".env"
+    env.write_text("ANTHROPIC_API_KEY=do-arquivo\nOUTRA_VARIAVEL_TESTE=x\n", encoding="utf-8")
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("OUTRA_VARIAVEL_TESTE", raising=False)
+    assert obter_chave_anthropic(env) == "do-arquivo"
+    assert "ANTHROPIC_API_KEY" not in os.environ
+    assert "OUTRA_VARIAVEL_TESTE" not in os.environ
+
+
+def test_sem_chave_devolve_none(monkeypatch, tmp_path):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    assert obter_chave_anthropic(tmp_path / "inexistente.env") is None
+    vazio = tmp_path / ".env"
+    vazio.write_text("PERMITIR_MODO_AVALIACAO=false\n", encoding="utf-8")
+    assert obter_chave_anthropic(vazio) is None
+
+
+# --- uso de tokens -----------------------------------------------------------
+
+def test_uso_por_caso_e_custo():
+    uso = UsoJuiz()
+
+    class MetricaQueGasta(MetricaFalsa):
+        async def ascore(self, **kwargs):
+            uso.somar({"input_tokens": 1000, "output_tokens": 100})
+            return await super().ascore(**kwargs)
+
+    metricas = {m: MetricaQueGasta() for m in METRICAS}
+    casos = [_caso("A1"), _caso("A2"), _caso("C1")]
+    coletas = [_corpo(), _corpo(contextos=[_contexto(nivel=None)]), "ConnectError: backend fora"]
+    resultados = _rodar(avaliar_todos(casos, coletas, metricas, METRICAS, uso))
+
+    # A1: faithfulness + relevância (sem gabarito) = 2 chamadas de ascore.
+    assert resultados[0].uso_juiz["input_tokens"] == 2000
+    assert resultados[1].status == "bloqueado_sensibilidade" and resultados[1].uso_juiz is None
+    assert resultados[2].status == "erro_coleta" and resultados[2].uso_juiz is None
+    assert (uso.requisicoes, uso.input_tokens, uso.output_tokens) == (2, 2000, 200)
+    assert custo_estimado(uso, "claude-sonnet-5-5") == pytest.approx((2000 * 2 + 200 * 10) / 1_000_000)
+    assert custo_estimado(uso, "modelo-desconhecido") is None
+
+
+def test_relatorio_mostra_tokens_e_custo():
+    r = _rodar(avaliar_caso(_caso("A1"), _corpo(), _metricas()))
+    r.uso_juiz = {"input_tokens": 1234, "output_tokens": 56}
+    meta = {"timestamp_iso": "2026-10-19T10:00:00", "dry_run": False, "juiz": "claude-sonnet-5-5",
+            "uso_juiz": rodar_ragas.asdict(UsoJuiz(requisicoes=2, input_tokens=1234, output_tokens=56)),
+            "custo_estimado_usd": 0.0030}
+    md = gerar_relatorio([r], meta)
+    assert "1234/56" in md
+    assert "1.234 tokens de entrada, 56 de saída" in md
+    assert "(pergunta, resposta, trechos, gabarito)" in md
+    assert "US$ 0.0030" in md

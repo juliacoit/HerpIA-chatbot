@@ -86,10 +86,14 @@ python avaliacao/rodar_ragas.py --casos A1 --metricas faithfulness   # smoke tes
 - **Juiz:** `claude-sonnet-5-5` por padrão (`--juiz`), com `--esforco low`
   por padrão. Os contornos da seção 8.2 do diagnóstico estão em
   `criar_metricas`.
-- **Credencial:** vem do ambiente (`ANTHROPIC_API_KEY` ou `ant auth login`),
-  nunca do repositório.
+- **Credencial:** `ANTHROPIC_API_KEY` do ambiente. Se ela não estiver
+  definida, o script lê só essa variável do `.env` local, que fica fora do
+  versionamento. Nunca do repositório.
 - **Saída:** `diagnosticos/ragas/<data>_<juiz>[_dry-run].{md,json}`. O JSON
   guarda os metadados dos contextos, mas não o texto deles.
+- **Uso do juiz:** os tokens são lidos do `usage` de cada resposta da API,
+  por caso e no total, com custo estimado pelos preços em `PRECOS_POR_MTOK`.
+  A saída inclui o pensamento. A fatura do Console é a fonte oficial.
 
 ## Para a equipe do RAN preencher os gabaritos
 

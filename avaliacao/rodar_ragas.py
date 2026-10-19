@@ -30,12 +30,13 @@ Uso:
 
     Sem --dry-run há custo: o script mostra o plano (casos e chamadas
     estimadas ao juiz) e pede confirmação, a menos que receba --sim. A
-    credencial da Anthropic vem do ambiente (ANTHROPIC_API_KEY ou perfil do
-    `ant auth login`), nunca do repositório.
+    credencial vem de ANTHROPIC_API_KEY no ambiente ou, se ausente, só dessa
+    variável no .env local (fora do versionamento); nunca do repositório.
 
 Saída: um .md e um .json em diagnosticos/ragas/, nomeados com data/hora e
-juiz, com metadados (juiz, versões, top_k, commit) e notas por caso e por
-categoria.
+juiz, com metadados (juiz, versões, top_k, commit), notas por caso e por
+categoria e os tokens gastos pelo juiz (lidos do `usage` de cada resposta da
+API, por caso e no total, com o custo estimado).
 """
 
 import os
@@ -71,6 +72,14 @@ MAX_TOKENS_JUIZ = 8192    # o pensamento adaptativo consome max_tokens; o padrã
 STRICTNESS_RELEVANCIA = 3  # padrão do AnswerRelevancy: perguntas geradas por chamada
 MODELO_EMBEDDING = "BAAI/bge-m3"  # o mesmo do backend (backend/services/retrieval.py), local
 NIVEL_PERMITIDO = "autorizado"
+ARQUIVO_ENV = RAIZ / ".env"
+# US$ por milhão de tokens (entrada, saída), referência da Claude API de
+# 2026-10-06; o Haiku vale para prompts de até 100k tokens. Só estimativa:
+# a fatura do Console é a fonte oficial. A saída inclui o pensamento.
+PRECOS_POR_MTOK = {
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-haiku-5-5": (0.10, 0.50),
+}
 
 # Só estas quatro. Nunca acrescentar MultiModalFaithfulness/MultiModalRelevance.
 METRICAS_SEM_REFERENCIA = ("faithfulness", "answer_relevancy")
@@ -82,6 +91,35 @@ TIPOS_SEM_TEXTO_DO_LLM = {"sem_chunks", "sei_nao_indexado", "contexto_excedido"}
 
 class ModoAvaliacaoDesabilitado(RuntimeError):
     """O backend respondeu 403: PERMITIR_MODO_AVALIACAO não está ligado."""
+
+
+@dataclass
+class UsoJuiz:
+    """Tokens gastos pelo juiz, somados do `usage` de cada resposta da API."""
+
+    requisicoes: int = 0       # respostas 200 de /v1/messages (inclui retries do instructor)
+    respostas_erro: int = 0    # respostas não 200 (não cobradas, mas indicam problema)
+    input_tokens: int = 0
+    output_tokens: int = 0
+    cache_read_input_tokens: int = 0
+    cache_creation_input_tokens: int = 0
+
+    def somar(self, usage: dict) -> None:
+        self.requisicoes += 1
+        for campo in ("input_tokens", "output_tokens", "cache_read_input_tokens", "cache_creation_input_tokens"):
+            setattr(self, campo, getattr(self, campo) + (usage.get(campo) or 0))
+
+    def desde(self, antes: "UsoJuiz") -> "UsoJuiz":
+        return UsoJuiz(**{k: v - getattr(antes, k) for k, v in asdict(self).items()})
+
+
+def custo_estimado(uso: UsoJuiz, modelo: str) -> float | None:
+    """Em US$, só entrada e saída (o juiz não usa cache). None se o modelo
+    não estiver em PRECOS_POR_MTOK."""
+    if modelo not in PRECOS_POR_MTOK:
+        return None
+    entrada, saida = PRECOS_POR_MTOK[modelo]
+    return (uso.input_tokens * entrada + uso.output_tokens * saida) / 1_000_000
 
 
 @dataclass
@@ -107,6 +145,7 @@ class ResultadoCaso:
     caracteres_enviados: int = 0
     notas: dict[str, float | None] = field(default_factory=dict)
     erros_metricas: dict[str, str] = field(default_factory=dict)
+    uso_juiz: dict | None = None   # UsoJuiz do caso; None no dry-run
 
 
 # ---------------------------------------------------------------------------
@@ -254,10 +293,31 @@ def ajustar_args_juiz(model_args: dict) -> dict:
     return {k: v for k, v in model_args.items() if k not in ("temperature", "top_p")}
 
 
-def criar_metricas(modelo: str, esforco: str, selecionadas: tuple[str, ...]) -> dict:
+def obter_chave_anthropic(arquivo_env: Path = ARQUIVO_ENV) -> str | None:
+    """ANTHROPIC_API_KEY do ambiente ou, se ausente, só essa variável do
+    .env local. Nenhuma outra variável do .env é carregada. None deixa o SDK
+    resolver a credencial por conta própria (ex.: perfil do `ant auth login`)."""
+    chave = os.environ.get("ANTHROPIC_API_KEY")
+    if chave:
+        return chave
+    if not arquivo_env.is_file():
+        return None
+    from dotenv import dotenv_values
+
+    return dotenv_values(arquivo_env).get("ANTHROPIC_API_KEY") or None
+
+
+def criar_metricas(
+    modelo: str,
+    esforco: str,
+    selecionadas: tuple[str, ...],
+    uso: UsoJuiz | None = None,
+    api_key: str | None = None,
+) -> dict:
     """Monta as métricas do ragas com o juiz Claude. Imports locais: o
-    dry-run e os testes não dependem de ragas/anthropic instalados."""
-    from anthropic import AsyncAnthropic
+    dry-run e os testes não dependem de ragas/anthropic instalados. Com
+    `uso`, soma os tokens de cada resposta da API, sem chamada extra."""
+    from anthropic import AsyncAnthropic, DefaultAsyncHttpxClient
     from ragas.llms import llm_factory
     from ragas.metrics.collections import (
         AnswerRelevancy,
@@ -266,10 +326,23 @@ def criar_metricas(modelo: str, esforco: str, selecionadas: tuple[str, ...]) -> 
         Faithfulness,
     )
 
+    async def registrar_uso(response) -> None:
+        if uso is None or not response.request.url.path.endswith("/messages"):
+            return
+        if response.status_code != 200:
+            uso.respostas_erro += 1
+            return
+        await response.aread()  # o corpo fica em cache; o SDK o lê depois normalmente
+        uso.somar(response.json().get("usage") or {})
+
+    cliente = AsyncAnthropic(
+        api_key=api_key,
+        http_client=DefaultAsyncHttpxClient(event_hooks={"response": [registrar_uso]}),
+    )
     llm = llm_factory(
         modelo,
         provider="anthropic",  # o padrão "openai" trataria o cliente como OpenAI
-        client=AsyncAnthropic(),
+        client=cliente,
         # Forçar a ferramenta (o padrão do instructor) dá 400 nesses modelos.
         # Sem disable_parallel_tool_use, duas chamadas da ferramenta fariam o
         # parser do instructor rejeitar a resposta (exige exatamente uma).
@@ -364,6 +437,10 @@ def _fmt(v: float | None) -> str:
     return "—" if v is None else f"{v:.2f}"
 
 
+def _milhar(n: int) -> str:
+    return f"{n:,}".replace(",", ".")
+
+
 ABREV = {
     "faithfulness": "Faith.",
     "answer_relevancy": "Relev.",
@@ -383,7 +460,16 @@ def gerar_relatorio(resultados: list[ResultadoCaso], meta: dict) -> str:
     partes += ["", "## Resumo", ""]
     partes += [f"- {status}: {n}" for status, n in sorted(contagem.items())]
     partes.append(f"- chamadas ao juiz estimadas (sem retries): {sum(r.chamadas_estimadas for r in resultados)}")
-    partes.append(f"- caracteres que seriam enviados à API: {sum(r.caracteres_enviados for r in resultados):,}".replace(",", "."))
+    partes.append("- caracteres de entrada das métricas (pergunta, resposta, trechos, gabarito): "
+                  f"{_milhar(sum(r.caracteres_enviados for r in resultados))}")
+    uso = meta.get("uso_juiz")
+    if uso:
+        partes.append(f"- juiz: {uso['requisicoes']} requisição(ões), {_milhar(uso['input_tokens'])} tokens de entrada, "
+                      f"{_milhar(uso['output_tokens'])} de saída (inclui pensamento)"
+                      + (f", respostas com erro: {uso['respostas_erro']}" if uso["respostas_erro"] else ""))
+        if meta.get("custo_estimado_usd") is not None:
+            partes.append(f"- custo estimado: US$ {meta['custo_estimado_usd']:.4f} (preços em `PRECOS_POR_MTOK`; "
+                          "a fatura do Console é a fonte oficial)")
     rotas: dict[str, int] = {}
     for r in resultados:
         if r.rota:
@@ -400,15 +486,17 @@ def gerar_relatorio(resultados: list[ResultadoCaso], meta: dict) -> str:
         partes.append(f"| {cat} | {linha['casos']} | {linha['avaliados']} | " + " | ".join(celulas) + " |")
 
     partes += ["", "## Por caso", "",
-               "| Caso | Status | Saída | Retenção | Rota | Contextos | Chamadas | " + " | ".join(ABREV[m] for m in METRICAS) + " |",
-               "|---|---|---|---|---|---|---:|" + "---:|" * len(METRICAS)]
+               "| Caso | Status | Saída | Retenção | Rota | Contextos | Chamadas | Tokens (ent./saída) | "
+               + " | ".join(ABREV[m] for m in METRICAS) + " |",
+               "|---|---|---|---|---|---|---:|---:|" + "---:|" * len(METRICAS)]
     for r in resultados:
         fontes = ",".join(c["fonte"] or "?" for c in r.contextos) or "—"
         rota = r.rota["status"] if r.rota else "—"
+        tokens = f"{r.uso_juiz['input_tokens']}/{r.uso_juiz['output_tokens']}" if r.uso_juiz else "—"
         notas = [_fmt(r.notas.get(m)) if m in r.notas else ("erro" if m in r.erros_metricas else "—") for m in METRICAS]
         partes.append(
             f"| {r.id} | {r.status} | {r.tipo_saida or '—'} | {r.origem_retencao or '—'} | {rota} | "
-            f"{fontes} | {r.chamadas_estimadas} | " + " | ".join(notas) + " |"
+            f"{fontes} | {r.chamadas_estimadas} | {tokens} | " + " | ".join(notas) + " |"
         )
 
     problemas = [r for r in resultados if r.erro_coleta or r.erros_metricas or r.niveis_bloqueados]
@@ -455,7 +543,11 @@ async def coletar_todos(args: argparse.Namespace, casos: list[dict]) -> list[dic
 
 
 async def avaliar_todos(
-    casos: list[dict], coletas: list[dict | str], metricas: dict | None, selecionadas: tuple[str, ...]
+    casos: list[dict],
+    coletas: list[dict | str],
+    metricas: dict | None,
+    selecionadas: tuple[str, ...],
+    uso: UsoJuiz | None = None,
 ) -> list[ResultadoCaso]:
     resultados = []
     for caso, coleta in zip(casos, coletas):
@@ -465,11 +557,15 @@ async def avaliar_todos(
                 tem_referencia=caso["tem_referencia"], erro_coleta=coleta,
             ))
             continue
+        antes = UsoJuiz(**asdict(uso)) if uso else None
         r = await avaliar_caso(caso, coleta, metricas, selecionadas)
+        if uso and r.status == "avaliado":
+            r.uso_juiz = asdict(uso.desde(antes))
         resultados.append(r)
         notas = ", ".join(f"{ABREV[m]}={_fmt(v)}" for m, v in r.notas.items())
+        tokens = f" | tokens={r.uso_juiz['input_tokens']}/{r.uso_juiz['output_tokens']}" if r.uso_juiz else ""
         print(f"{r.id}: {r.status} | saída={r.tipo_saida} | rota={r.rota['status'] if r.rota else '—'}"
-              f" | chamadas={r.chamadas_estimadas}" + (f" | {notas}" if notas else ""))
+              f" | chamadas={r.chamadas_estimadas}" + (f" | {notas}" if notas else "") + tokens)
     return resultados
 
 
@@ -533,8 +629,14 @@ def main(argv: list[str] | None = None) -> int:
         if not args.sim and input("Confirmar? [s/N] ").strip().lower() != "s":
             print("Cancelado: nenhuma chamada paga foi feita.")
             return 1
-        metricas = criar_metricas(args.juiz, args.esforco, args.metricas)
-        resultados = asyncio.run(avaliar_todos(casos, coletas, metricas, args.metricas))
+        uso = UsoJuiz()
+        metricas = criar_metricas(args.juiz, args.esforco, args.metricas, uso=uso, api_key=obter_chave_anthropic())
+        resultados = asyncio.run(avaliar_todos(casos, coletas, metricas, args.metricas, uso))
+        meta["uso_juiz"] = asdict(uso)
+        custo = custo_estimado(uso, args.juiz)
+        meta["custo_estimado_usd"] = None if custo is None else round(custo, 4)
+        print(f"\nJuiz: {uso.requisicoes} requisição(ões), {uso.input_tokens} tokens de entrada, "
+              f"{uso.output_tokens} de saída" + (f", ~US$ {custo:.4f}" if custo is not None else ""))
 
     md, js = gravar(resultados, meta, args.saida)
     print(f"\nRelatório: {md.relative_to(RAIZ) if md.is_relative_to(RAIZ) else md}")

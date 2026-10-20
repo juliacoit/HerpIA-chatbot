@@ -243,6 +243,36 @@ RAN de 26/10).** Mudança de conteúdo exibido, não de tokens:
   trechos ficou colado (na retida, a legenda do motivo separa os dois).
   Ajuste fino de espaçamento fica para a próxima rodada visual.
 
+### Tela de acesso (2026-10-07)
+
+Porte de `design-system/ui_kits/herpia-assistente/LoginScreen.jsx` para `interface/acesso.py`
+e `tema.marca_acesso()`:
+
+- **Portado:** assinatura do RAN a 150px sem reserva, parágrafo de acesso restrito (15px,
+  `--text-muted`, 42ch), cartão do formulário (branco, hairline, raio 14px, sombra de card),
+  campos pill com anel de foco, botão primário "Entrar" de largura total, copy do kit
+  ("Usuário institucional", "Senha", "Entrar").
+- **Acrescentado (não existe no kit):** "Primeiro acesso" com código de convite, alternado
+  por um controle segmentado; aviso de que perguntas e avaliações ficam registradas; texto
+  de senha esquecida; bloco "Sessão" e botão "Sair" na barra lateral.
+- **Não portado:** os ícones dentro dos campos e do botão (`user`, `lock`, `log-in`) — o
+  `st.text_input` só aceita ícones Material, não Lucide; e o `Toast` "tela ilustrativa",
+  que deixou de valer.
+- **Conferido no navegador em 2026-10-09** (Chromium via Playwright, 1280×900 e 390×844, contra
+  um backend mínimo de teste com `AUTH_EXIGIR=tudo`; estados: entrar, foco, erro de login,
+  primeiro acesso, sessão aberta). Os seletores `stForm` e `stTextInputRootElement` aplicam: cartão
+  branco com hairline, raio 14px e sombra de card; campos pill de 40px com anel de foco de 3px;
+  botão primário `#4B7936` de largura total; alerta de erro nas cores de perigo. Sem rolagem
+  horizontal no celular. Dois desvios do kit foram corrigidos:
+  - a assinatura do RAN aparecia centralizada, desalinhada do parágrafo (a coluna flex esticava a
+    imagem); agora fica à esquerda, como no kit (`align-items:flex-start` em `tema.marca_acesso`);
+  - a coluna tinha 704px; agora tem os 420px do kit (regra `:has(.herpia-acesso)` no CSS global,
+    que só vale quando a tela de acesso está na página).
+- **Diferenças que permanecem:** a tela não é centralizada na vertical (o kit centraliza; o
+  Streamlit ancora no topo); os campos não têm ícones (ver "Não portado"); a barra do Streamlit
+  ("Deploy" e menu) aparece no canto, como no resto da aplicação. O `login.card.html` do kit não
+  renderiza fora da ferramenta geradora, então a comparação foi com o `LoginScreen.jsx`.
+
 ## Limitação conhecida: "redução mínima" do logo não verificada
 
 `design-system/components/brand/Logo.jsx` referencia a "redução mínima"

@@ -3,8 +3,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from psycopg_pool import ConnectionPool
 
-from backend.dependencies import obter_db_pool
+from backend.dependencies import exigir_usuario_para, obter_db_pool
 from backend.schemas import FeedbackRequest, FeedbackResponse
+from backend.services.auth import UsuarioAutenticado
 from backend.services.logging_db import registrar_feedback
 
 router = APIRouter(prefix="/feedback", tags=["feedback"])
@@ -12,7 +13,9 @@ router = APIRouter(prefix="/feedback", tags=["feedback"])
 
 @router.post("", response_model=FeedbackResponse)
 async def feedback(
-    body: FeedbackRequest, pool: ConnectionPool | None = Depends(obter_db_pool)
+    body: FeedbackRequest,
+    pool: ConnectionPool | None = Depends(obter_db_pool),
+    usuario: UsuarioAutenticado | None = Depends(exigir_usuario_para("feedback")),
 ) -> FeedbackResponse:
     if pool is None:
         raise HTTPException(
@@ -24,6 +27,7 @@ async def feedback(
         interacao_id=body.interacao_id,
         avaliacao=body.avaliacao,
         comentario=body.comentario,
+        usuario_id=usuario.id if usuario else None,
     )
     if not encontrada:
         raise HTTPException(status_code=404, detail=f"Interação {body.interacao_id} não encontrada.")

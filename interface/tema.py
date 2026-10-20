@@ -430,6 +430,46 @@ def aplicar_estilo() -> None:
                 border-radius: 999px !important;
               }}
 
+              /* Tela de acesso (interface/acesso.py, porta LoginScreen.jsx):
+                 o formulário é o cartão (branco, hairline, raio 14px, sombra
+                 baixa); campos de texto são pill como os demais controles; o
+                 botão primário escurece no hover, sem mudar opacidade. */
+              /* Coluna de 420px do kit (mais os 16px de respiro lateral do
+                 bloco do Streamlit), só quando a tela de acesso está na página. */
+              [data-testid="stMainBlockContainer"]:has(.herpia-acesso) {{
+                max-width: 452px;
+              }}
+              [data-testid="stForm"] {{
+                background: {CORES["surface_card"]};
+                border: 1px solid {CORES["border_hairline"]} !important;
+                border-radius: 14px !important;
+                padding: 24px !important;
+                box-shadow: 0 1px 2px rgba(27,25,23,.04), 0 1px 10px rgba(27,25,23,.04);
+              }}
+              [data-testid="stTextInputRootElement"] {{
+                border-radius: 999px !important;
+                border-color: {CORES["border_strong"]} !important;
+                background: {CORES["surface_card"]} !important;
+                overflow: hidden;
+              }}
+              [data-testid="stTextInputRootElement"] input {{
+                background: {CORES["surface_card"]} !important;
+                padding-left: 16px !important;
+              }}
+              [data-testid="stTextInputRootElement"]:focus-within {{
+                border-color: {CORES["border_focus"]} !important;
+                box-shadow: 0 0 0 3px {CORES["ran_verde_200"]} !important;
+              }}
+              [data-testid^="stBaseButton-primary"] {{
+                background: {CORES["action_primary"]} !important;
+                border-color: {CORES["action_primary"]} !important;
+                color: {CORES["white"]} !important;
+              }}
+              [data-testid^="stBaseButton-primary"]:hover {{
+                background: {CORES["action_primary_hover"]} !important;
+                border-color: {CORES["action_primary_hover"]} !important;
+              }}
+
               /* Foco: nunca remover — anel verde RAN, sem exceção */
               [data-testid^="stBaseButton"]:focus-visible,
               [data-testid="stChatInputTextArea"]:focus-visible,
@@ -555,6 +595,37 @@ def marca_sidebar() -> None:
             logo=_logo_html(56, moldura=False, reserva=False),
             cor_texto=CORES["text_title"],
             verde_acao=CORES["action_primary"],
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def marca_acesso() -> None:
+    """Topo da tela de acesso (`interface/acesso.py`): assinatura oficial do
+    RAN e o aviso de acesso restrito.
+
+    Porta o bloco superior de
+    `design-system/ui_kits/herpia-assistente/LoginScreen.jsx`
+    (`<Logo altura={150} reserva={false} />` + parágrafo de 15px em
+    `--text-muted`, medida de 42ch). Sem moldura: o fundo da página
+    (`--surface-page`) contrasta com a marca. HTML 100% autoral, sem texto
+    vindo do backend.
+    """
+    template = textwrap.dedent(
+        """
+        <div class="herpia-acesso" style="display:flex; flex-direction:column; align-items:flex-start; gap:10px; margin-bottom:1.2rem;">
+          {logo}
+          <p style="margin:0; font-size:15px; line-height:1.6; color:{cor_texto}; max-width:42ch;">
+            Assistente interno para consulta de informações sobre a herpetofauna brasileira.
+            Acesso restrito a técnicos, gestores e pesquisadores vinculados ao RAN.
+          </p>
+        </div>
+        """
+    )
+    st.markdown(
+        template.format(
+            logo=_logo_html(150, moldura=False, reserva=False),
+            cor_texto=CORES["text_muted"],
         ),
         unsafe_allow_html=True,
     )

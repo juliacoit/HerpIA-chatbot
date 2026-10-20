@@ -17,6 +17,12 @@ Uso:
     python scripts/teste_perguntas_dominio.py --url http://localhost:8000 --top-k 8
     python scripts/teste_perguntas_dominio.py --repeticoes 1 --categorias G,L
 
+    Com o login ligado no backend (AUTH_EXIGIR=tudo, ver
+    docs/processos/autenticacao.md), a bateria precisa de uma conta: defina
+    HERPIA_USUARIO e HERPIA_SENHA no ambiente (nunca na linha de comando nem
+    no código). Use uma conta própria para a bateria, para as perguntas de
+    teste não ficarem registradas no nome de uma pessoa.
+
     Por padrão cada pergunta roda 3 vezes: o modelo local não fixa parâmetros
     de amostragem, então uma execução só não é evidência de correção. Critérios
     de avaliação em diagnosticos/criterios-avaliacao-bateria.md.
@@ -39,6 +45,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -758,6 +765,30 @@ def atualizar_indice(meta: dict, arquivo_relatorio: Path, resultados: list[Resul
         f.write(linha)
 
 
+def autenticar_cliente(client: httpx.Client) -> None:
+    """Abre uma sessão no backend quando HERPIA_USUARIO/HERPIA_SENHA estão
+    definidos e passa a enviá-la em todas as requisições. Encerra com uma
+    mensagem clara se o backend exige login e não há credenciais."""
+    usuario = os.environ.get("HERPIA_USUARIO")
+    senha = os.environ.get("HERPIA_SENHA")
+    if not (usuario and senha):
+        try:
+            exigir = client.get("/saude", timeout=10.0).json().get("auth", {}).get("exigir", "nada")
+        except (httpx.HTTPError, ValueError):
+            return  # backend fora do ar: o erro aparece na primeira pergunta
+        if exigir == "tudo":
+            raise SystemExit(
+                "O backend exige login (AUTH_EXIGIR=tudo). Defina HERPIA_USUARIO e HERPIA_SENHA "
+                "no ambiente — ver docs/processos/autenticacao.md."
+            )
+        return
+    resposta = client.post("/auth/login", json={"usuario": usuario, "senha": senha}, timeout=30.0)
+    if resposta.status_code != 200:
+        raise SystemExit(f"Login da bateria recusado ({resposta.status_code}): {resposta.text}")
+    client.headers["Authorization"] = f"Bearer {resposta.json()['token']}"
+    print(f"Sessão aberta como {usuario}.")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--url", default="http://localhost:8000", help="URL base do backend")
@@ -790,6 +821,7 @@ def main() -> None:
     total = len(casos) * args.repeticoes
     resultados = []
     with httpx.Client(base_url=args.url) as client:
+        autenticar_cliente(client)
         for repeticao in range(1, args.repeticoes + 1):
             for caso in casos:
                 n = len(resultados) + 1

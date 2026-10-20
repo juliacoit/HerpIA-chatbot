@@ -17,7 +17,7 @@ from fastapi import Depends, FastAPI
 
 from backend.config import Settings, obter_settings
 from backend.db import abrir_pool, fechar_pool
-from backend.routers import busca, feedback, perguntar
+from backend.routers import auth, busca, feedback, perguntar
 from backend.services.llm import criar_llm_client
 from backend.services.retrieval import MODELO_EMBEDDING, carregar_modelo_embedding, conectar_qdrant
 
@@ -47,6 +47,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.include_router(auth.router)
 app.include_router(busca.router)
 app.include_router(perguntar.router)
 app.include_router(feedback.router)
@@ -69,4 +70,6 @@ async def saude(settings: Settings = Depends(obter_settings)) -> dict:
             "groundedness_verificar": settings.groundedness_verificar,
             "top_k_padrao": settings.top_k_padrao,
         },
+        # A interface lê isto para saber se mostra a tela de login.
+        "auth": {"exigir": settings.auth_exigir},
     }

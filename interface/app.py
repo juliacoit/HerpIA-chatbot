@@ -14,10 +14,11 @@ Rodar:
     streamlit run interface/app.py
 """
 
+import acesso
 import apresentacao
 import streamlit as st
 import tema
-from cliente_api import ErroAPI, enviar_feedback, perguntar, verificar_saude
+from cliente_api import ErroAPI, ErroSessao, enviar_feedback, estado_backend, perguntar, sair
 
 FONTES_DISPONIVEIS = ["monitora", "pans", "salve"]
 TRECHOS_INDEXADOS = "59.085"  # mesmo número citado em CLAUDE.md/docs — atualizar junto se mudar
@@ -27,6 +28,26 @@ tema.aplicar_estilo()
 
 if "historico" not in st.session_state:
     st.session_state.historico = []
+
+# Autenticação (docs/processos/autenticacao.md). O backend diz, em /saude, o
+# que exige sessão (AUTH_EXIGIR): "tudo" bloqueia a consulta inteira atrás do
+# login; "feedback" deixa consultar e pede login só para avaliar; "nada" é o
+# comportamento anterior, sem tela de acesso. Com o backend fora do ar não dá
+# para saber — a tela segue como antes e a sidebar avisa que ele não respondeu.
+ESTADO_BACKEND = estado_backend()
+MODO_AUTH = ESTADO_BACKEND["auth_exigir"] if ESTADO_BACKEND else "nada"
+
+if (MODO_AUTH == "tudo" and acesso.sessao_atual() is None) or (
+    MODO_AUTH != "nada" and st.session_state.get("mostrar_acesso")
+):
+    acesso.renderizar(pode_voltar=MODO_AUTH == "feedback")
+    st.stop()
+
+
+def _sessao_expirou(exc: ErroSessao) -> None:
+    acesso.encerrar_sessao_local(aviso=str(exc))
+    st.session_state.mostrar_acesso = True
+    st.rerun()
 
 
 def _renderizar_documento(grupo: dict, indice: int, chave: str) -> None:
@@ -110,8 +131,10 @@ def _dialogo_feedback_negativo(item: dict) -> None:
 
 def _registrar_feedback(item: dict, avaliacao: int, comentario: str | None = None) -> None:
     try:
-        enviar_feedback(item["id"], avaliacao, comentario)
+        enviar_feedback(item["id"], avaliacao, comentario, token=acesso.token_atual())
         item["feedback_enviado"] = avaliacao
+    except ErroSessao as exc:
+        _sessao_expirou(exc)
     except ErroAPI as exc:
         st.error(str(exc))
 
@@ -140,6 +163,8 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
     elif feedback_enviado is not None:
         rotulo = "positivo" if feedback_enviado == 1 else "negativo"
         st.caption(f"Feedback enviado: {rotulo}. Obrigado!")
+    elif MODO_AUTH == "feedback" and acesso.sessao_atual() is None:
+        st.caption("Para avaliar esta resposta, entre com o usuário institucional (botão Entrar, na barra lateral).")
     else:
         # Par de botões circulares com polegar, lado a lado com o rótulo
         # (design-system/components/rag/FeedbackButtons.jsx). O ícone e o
@@ -181,7 +206,28 @@ with st.sidebar:
 
     top_k = st.slider("Trechos recuperados (top_k)", min_value=1, max_value=20, value=5)
     st.divider()
-    if verificar_saude():
+    sessao = acesso.sessao_atual()
+    if sessao is not None:
+        st.markdown(
+            f'<span style="font-size:11.5px; font-weight:600; letter-spacing:0.08em;'
+            f' text-transform:uppercase; color:{tema.CORES["text_subtle"]};">Sessão</span>',
+            unsafe_allow_html=True,
+        )
+        # Nome e usuário vêm do backend: st.text, nunca HTML interpolado.
+        st.text(sessao["nome"])
+        st.caption(sessao["usuario"])
+        if st.button("Sair"):
+            sair(sessao["token"])
+            acesso.encerrar_sessao_local()
+            st.rerun()
+        st.divider()
+    elif MODO_AUTH == "feedback":
+        st.caption("Consulta liberada sem login. Para avaliar respostas, é preciso entrar.")
+        if st.button("Entrar"):
+            st.session_state.mostrar_acesso = True
+            st.rerun()
+        st.divider()
+    if ESTADO_BACKEND is not None:
         st.success("Backend conectado")
     else:
         st.error("Backend não respondeu — ver SETUP_PROJETO.md")
@@ -213,7 +259,14 @@ if pergunta_atual:
     with st.chat_message("assistant"):
         with st.spinner("Consultando a base de conhecimento..."):
             try:
-                resultado = perguntar(pergunta_atual, top_k=top_k, fontes=fontes_selecionadas or None)
+                resultado = perguntar(
+                    pergunta_atual,
+                    top_k=top_k,
+                    fontes=fontes_selecionadas or None,
+                    token=acesso.token_atual(),
+                )
+            except ErroSessao as exc:
+                _sessao_expirou(exc)
             except ErroAPI as exc:
                 st.error(str(exc))
                 resultado = None

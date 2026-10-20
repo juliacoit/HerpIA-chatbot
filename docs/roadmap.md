@@ -339,7 +339,15 @@ e seção "Solução Escolhida (revisada)" em
   - [x] Registrar perguntas, chunks recuperados e respostas no PostgreSQL — `backend/db.py` + `backend/services/logging_db.py`, tabelas `interacoes`/`feedback` criadas automaticamente no startup
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
   - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
-- [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
+- [ ] **Autenticação/autorização de usuários** — implementada e testada em banco de teste
+  (2026-10-07), **desligada por padrão** (`AUTH_EXIGIR=nada`): contas locais por convite,
+  senha com hash, sessão por token, perguntas e feedback associados ao usuário, tela de
+  acesso na interface. Escopo definido pela equipe do RAN (2026-10-07): login para todo o
+  sistema, avaliações identificadas, quatro participantes, sem SSO do ICMBio (a equipe quer
+  independência do instituto). Tela conferida no navegador (2026-10-09) e bateria com login
+  (`HERPIA_USUARIO`/`HERPIA_SENHA`). Falta ligar (`AUTH_EXIGIR=tudo` no `.env`), criar as
+  contas, dar login ao `avaliacao/rodar_ragas.py` e testar contra o backend completo com o
+  banco real — ver [`docs/processos/autenticacao.md`](processos/autenticacao.md)
 - [x] **Filtro de metadado estruturado de ficha SALVE como filtro de payload
   no Qdrant** (bioma, categoria de risco, grupo Anfíbios/Répteis, estados),
   em vez de o LLM inferir do texto corrido — achado e correção em

@@ -1,5 +1,6 @@
 """Modelos Pydantic compartilhados entre os routers do backend."""
 
+from datetime import datetime
 from typing import Literal
 
 from pydantic import BaseModel, Field, PrivateAttr
@@ -177,3 +178,29 @@ class FeedbackRequest(BaseModel):
 
 class FeedbackResponse(BaseModel):
     ok: bool = True
+
+
+class OkResponse(BaseModel):
+    ok: bool = True
+
+
+class LoginRequest(BaseModel):
+    usuario: str = Field(min_length=1, max_length=200)
+    senha: str = Field(min_length=1, max_length=500)
+
+
+class PrimeiroAcessoRequest(BaseModel):
+    usuario: str = Field(min_length=1, max_length=200)
+    codigo_convite: str = Field(min_length=1, max_length=200)
+    senha: str = Field(min_length=1, max_length=500, description="Senha escolhida pelo usuário.")
+
+
+class UsuarioResponse(BaseModel):
+    usuario: str
+    nome: str
+
+
+class LoginResponse(BaseModel):
+    token: str = Field(description="Enviar em `Authorization: Bearer <token>` nas próximas requisições.")
+    expira_em: datetime
+    usuario: UsuarioResponse

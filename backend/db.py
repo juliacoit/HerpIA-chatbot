@@ -59,6 +59,35 @@ CREATE TABLE IF NOT EXISTS feedback (
     comentario TEXT,
     criado_em TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+-- Autenticação (backend/services/auth.py). senha_hash NULL = conta ainda sem
+-- senha, aguardando o primeiro acesso com o código de convite. Nem a senha,
+-- nem o convite, nem o token de sessão são gravados em claro.
+CREATE TABLE IF NOT EXISTS usuarios (
+    id BIGSERIAL PRIMARY KEY,
+    usuario TEXT NOT NULL UNIQUE,
+    nome TEXT NOT NULL,
+    senha_hash TEXT,
+    ativo BOOLEAN NOT NULL DEFAULT TRUE,
+    convite_hash TEXT,
+    convite_expira_em TIMESTAMPTZ,
+    tentativas_falhas INTEGER NOT NULL DEFAULT 0,
+    bloqueado_ate TIMESTAMPTZ,
+    criado_em TIMESTAMPTZ NOT NULL DEFAULT now(),
+    ultimo_login_em TIMESTAMPTZ
+);
+
+CREATE TABLE IF NOT EXISTS sessoes (
+    token_hash TEXT PRIMARY KEY,
+    usuario_id BIGINT NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,
+    criado_em TIMESTAMPTZ NOT NULL DEFAULT now(),
+    expira_em TIMESTAMPTZ NOT NULL
+);
+
+-- Quem perguntou e quem avaliou. NULL = anônimo (registros anteriores ao
+-- login, ou AUTH_EXIGIR que não cobre o endpoint).
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS usuario_id BIGINT REFERENCES usuarios(id) ON DELETE SET NULL;
+ALTER TABLE feedback ADD COLUMN IF NOT EXISTS usuario_id BIGINT REFERENCES usuarios(id) ON DELETE SET NULL;
 """
 
 
@@ -71,7 +100,7 @@ def abrir_pool(settings: Settings) -> ConnectionPool | None:
         with pool.connection() as conn:
             conn.execute(_SCHEMA)
             conn.commit()
-        log.info("PostgreSQL conectado — schema de interações/feedback verificado.")
+        log.info("PostgreSQL conectado — schema de interações/feedback/usuários verificado.")
         return pool
     except Exception as exc:  # psycopg_pool.PoolTimeout, psycopg.OperationalError etc.
         log.warning(

@@ -10,6 +10,8 @@ comparação de geradores (diagnosticos/comparacao-geradores-rodada1.md).
 from functools import lru_cache
 from pathlib import Path
 
+from typing import Literal
+
 from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -49,6 +51,15 @@ class Settings(BaseSettings):
     # resposta passa a trazer `resposta_original`, que pode ser uma resposta
     # retida por não ser fundamentada e nunca deve chegar a um usuário real.
     permitir_modo_avaliacao: bool = False
+
+    # Autenticação (backend/services/auth.py, docs/processos/autenticacao.md).
+    # "nada": API aberta, como antes (padrão — não quebra a bateria nem os
+    # scripts); "feedback": só POST /feedback exige sessão; "tudo": /buscar,
+    # /perguntar e /feedback exigem sessão. Mesmo em "nada", uma sessão
+    # válida enviada na requisição fica associada à interação e ao feedback.
+    auth_exigir: Literal["nada", "feedback", "tudo"] = "nada"
+    auth_sessao_horas: int = 12
+    auth_convite_dias: int = 7
 
     @field_validator("llm_think", mode="before")
     @classmethod

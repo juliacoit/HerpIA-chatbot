@@ -380,5 +380,5 @@ primeira chamada, por causa do load inicial do modelo).
 - [x] Logging de perguntas/chunks recuperados/respostas no PostgreSQL — implementado (`backend/db.py`, `backend/services/logging_db.py`) e validado de ponta a ponta contra o PostgreSQL real (2026-09-02, ver "Logging e feedback" acima)
 - [x] Feedback do usuário (thumbs up/down) por resposta — implementado (`POST /feedback`) e validado do mesmo jeito
 - [ ] Busca híbrida (semântica + palavras-chave), se a busca pura for insuficiente
-- [ ] Autenticação/autorização de usuários (hoje a API não tem nenhuma)
+- [ ] Autenticação/autorização de usuários — implementada, desligada por padrão; ver [`autenticacao.md`](autenticacao.md)
 - [ ] `OpenAILLMClient`, se a equipe do RAN confirmar orçamento (ADR 0006)

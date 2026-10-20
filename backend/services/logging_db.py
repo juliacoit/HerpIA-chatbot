@@ -72,6 +72,7 @@ def registrar_interacao(
     resposta_original: str | None = None,
     llm_temperatura: float | None = None,
     llm_seed: int | None = None,
+    usuario_id: int | None = None,
 ) -> int | None:
     if pool is None:
         return None
@@ -98,9 +99,9 @@ def registrar_interacao(
                     justificativa_groundedness, citacoes, chunks_recuperados,
                     modelo_llm, tempo_resposta_ms,
                     chunk_ids, rota, tipo_saida, origem_retencao,
-                    resposta_original, llm_temperatura, llm_seed
+                    resposta_original, llm_temperatura, llm_seed, usuario_id
                 ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                          %s, %s, %s, %s, %s, %s, %s)
+                          %s, %s, %s, %s, %s, %s, %s, %s)
                 RETURNING id
                 """,
                 (
@@ -125,6 +126,7 @@ def registrar_interacao(
                     resposta_original if not resposta_fundamentada else None,
                     llm_temperatura,
                     llm_seed,
+                    usuario_id,
                 ),
             )
             interacao_id = cur.fetchone()[0]
@@ -136,18 +138,30 @@ def registrar_interacao(
 
 
 def registrar_feedback(
-    pool: ConnectionPool, *, interacao_id: int, avaliacao: int, comentario: str | None
+    pool: ConnectionPool,
+    *,
+    interacao_id: int,
+    avaliacao: int,
+    comentario: str | None,
+    usuario_id: int | None = None,
 ) -> bool:
-    """Devolve False se `interacao_id` não existir. Assume pool != None —
-    quem chama (backend/routers/feedback.py) já trata o caso de pool
-    indisponível antes de chegar aqui."""
+    """Devolve False se `interacao_id` não existir — ou se a interação for de
+    outro usuário: os ids são sequenciais, então sem essa checagem qualquer
+    pessoa avaliaria a resposta de outra. Interações anônimas (sem
+    usuario_id) continuam avaliáveis por qualquer um, como antes do login.
+    Assume pool != None — quem chama (backend/routers/feedback.py) já trata
+    o caso de pool indisponível antes de chegar aqui."""
     with pool.connection() as conn:
-        existe = conn.execute("SELECT 1 FROM interacoes WHERE id = %s", (interacao_id,)).fetchone()
-        if existe is None:
+        interacao = conn.execute(
+            "SELECT usuario_id FROM interacoes WHERE id = %s", (interacao_id,)
+        ).fetchone()
+        if interacao is None:
+            return False
+        if interacao[0] is not None and interacao[0] != usuario_id:
             return False
         conn.execute(
-            "INSERT INTO feedback (interacao_id, avaliacao, comentario) VALUES (%s, %s, %s)",
-            (interacao_id, avaliacao, comentario),
+            "INSERT INTO feedback (interacao_id, avaliacao, comentario, usuario_id) VALUES (%s, %s, %s, %s)",
+            (interacao_id, avaliacao, comentario, usuario_id),
         )
         conn.commit()
         return True

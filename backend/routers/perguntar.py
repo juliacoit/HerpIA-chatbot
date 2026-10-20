@@ -10,8 +10,15 @@ from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
 from backend.config import Settings, obter_settings
-from backend.dependencies import obter_db_pool, obter_llm, obter_modelo_embedding, obter_qdrant
+from backend.dependencies import (
+    exigir_usuario_para,
+    obter_db_pool,
+    obter_llm,
+    obter_modelo_embedding,
+    obter_qdrant,
+)
 from backend.schemas import PerguntarRequest, PerguntarResponse
+from backend.services.auth import UsuarioAutenticado
 from backend.services.geracao import gerar_resposta
 from backend.services.llm import LLMClient, registrar_uso_llm
 from backend.services.logging_db import descrever_rota, registrar_interacao
@@ -29,6 +36,7 @@ async def perguntar(
     llm: LLMClient = Depends(obter_llm),
     settings: Settings = Depends(obter_settings),
     db_pool: ConnectionPool | None = Depends(obter_db_pool),
+    usuario: UsuarioAutenticado | None = Depends(exigir_usuario_para("consulta")),
 ) -> PerguntarResponse:
     if body.incluir_contextos and not settings.permitir_modo_avaliacao:
         raise HTTPException(status_code=403, detail="Modo de avaliação desabilitado neste ambiente.")
@@ -79,5 +87,6 @@ async def perguntar(
         resposta_original=resultado._resposta_original,
         llm_temperatura=settings.llm_temperature,
         llm_seed=settings.llm_seed,
+        usuario_id=usuario.id if usuario else None,
     )
     return resultado

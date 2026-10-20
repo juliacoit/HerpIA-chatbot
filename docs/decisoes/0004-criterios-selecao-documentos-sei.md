@@ -1,7 +1,7 @@
 # 0004. Critérios de seleção de documentos do SEI/ICMBio para indexação
 
 - **Status:** Decisão parcial tomada — triagem por blocos internos implementada; autorização de exportação pendente
-- **Data:** 2026-06-26 (atualizado 2026-06-30)
+- **Data:** 2026-06-26 (atualizado 2026-06-30 e 2026-10-20)
 - **Responsável(eis):** Julia Coite
 
 ## Contexto
@@ -79,9 +79,79 @@ Ver detalhamento técnico em [`docs/processos/coleta_sei_detalhado.md`](coleta_s
 - [x] Implementar `listar_blocos_sei.py` e catalogar os 43 blocos
 - [x] Implementar `listar_documentos_sei.py` para os 16 blocos prioritários
 - [x] Analisar `documentos_por_processo.json` — triagem automática gerou lista de 173 processos candidatos em `processos_para_exportacao.json` (v2 após correção de falsos positivos em 2026-07-13; ver [`docs/processos/selecao_processos_sei.md`](../processos/selecao_processos_sei.md))
-- [ ] Validar com a Flávia (RAN) quais processos têm autorização de exportação
+- [ ] Validar com a coordenação do RAN quais processos têm autorização de exportação
 - [ ] Definir critério de sensibilidade específico para processos com localização de espécies
 - [ ] Realizar primeira exportação piloto e mover para `04_documentos_pendentes_avaliacao/sei/`
+
+## Atualização 2026-10-20
+
+Orientação da coordenação do RAN, em troca de mensagens com a Júlia. Não
+muda o status nem a decisão acima: **confirma** os blocos internos como
+critério.
+
+### Situação
+
+- O SEI continua **não indexado**.
+- A Júlia tem acesso próprio ao SEI.
+- Há uma planilha de processos relevantes aguardando preenchimento pelo ponto
+  focal do Monitora.
+
+### Revisão dos blocos internos
+
+- Segundo a coordenação, os blocos **passaram por revisão recente**: foram
+  reagrupados e subdivididos por tema. Exemplos de títulos novos:
+  "Autorização/licenciamento ambiental" e "Consulta sobre implementação de
+  ações de PAN".
+- São cerca de 30 blocos, e uns 20 são altamente relevantes. Esses números
+  diferem do catálogo atual (43 blocos, 16 prioritários), gerado em
+  2026-06-30, antes da revisão.
+- **O catálogo (`blocos_internos.json`) provavelmente precisa ser
+  regenerado.** Isso exige login no SEI e só a Júlia pode autorizar.
+
+### Tipos de documento
+
+Complementa a exclusão de processos administrativos (seção "O que NÃO será
+indexado"), agora no nível do documento:
+
+- **Manter:** notas técnicas, pareceres, relatórios e relatórios finais,
+  projetos, avaliações de projetos e orientações técnicas, ou seja,
+  documentos com trabalho analítico ou técnico especializado.
+- **Excluir:** despachos simples e anexos sem relevância.
+
+### Próximos passos propostos
+
+1. Sessão presencial com a coordenação para filtrar os blocos relevantes,
+   validando a triagem que já existe (173 processos candidatos, ver
+   [`selecao_processos_sei.md`](../processos/selecao_processos_sei.md)).
+2. Se os blocos mudaram, atualizar o catálogo e contar os documentos técnicos
+   e o nível de acesso por bloco.
+3. Definir os critérios com a equipe.
+4. Piloto com 1 ou 2 blocos.
+5. Ampliação.
+
+### Decisões em aberto
+
+- **Acesso:** indexar só documentos de acesso público, ou também os
+  restritos, com controle de acesso por usuário? Sem esse controle, qualquer
+  usuário do HerpIA pode receber trechos de um documento restrito.
+- **Dados pessoais:** como tratá-los, por exemplo com anonimização, como no
+  pipeline atual.
+- **Sensibilidade e avaliação:** qual valor de `nivel_sensibilidade` os
+  chunks do SEI recebem, e se vão ou não ao juiz externo do RAGAS. Pelo
+  [ADR 0007](0007-avaliacao-offline-ragas-juiz-claude.md), só `autorizado` vai
+  à API.
+
+### Objetivo futuro (fase separada)
+
+A coordenação quer que o HerpIA ajude a gerar documentos técnicos quase
+finalizados, no formato do SEI. Isso é **outro produto**:
+
+- exige modelos de documento, contexto maior e um LLM mais forte que o 3B
+  atual ([ADR 0006](0006-escolha-temporaria-llm-geracao.md));
+- tudo precisa sair como **rascunho para revisão humana**.
+
+Fica como fase posterior. Precisa de ADR próprio antes de qualquer
+implementação.
 
 ## Consequências
 

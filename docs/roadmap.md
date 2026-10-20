@@ -3,7 +3,7 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-07-21
+**Atualizado em:** 2026-10-20
 
 ---
 
@@ -68,6 +68,8 @@ do estado atual até o protótipo funcional validado com usuários.
   baixo risco), 7 anais completos do Congresso Brasileiro de Herpetologia 2004–2015
   (conteúdo majoritariamente de terceiros, **não** apenas do RAN — ver observação de
   sensibilidade abaixo) e 1 artigo mais novo que a última atualização da planilha
+- [x] **Base analisada** (registrado em 2026-10-20) — para seguir, há uma planilha pendente de
+  preenchimento
 - [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
 - [ ] Avaliar sensibilidade/copyright de cada publicação antes de mover para
   `03_documentos_autorizados/` — atenção especial aos anais de congresso (copyright de
@@ -85,7 +87,10 @@ do estado atual até o protótipo funcional validado com usuários.
 - [x] **Classificação de relevância** dos 464 processos nos blocos prioritários: ~194 técnicos, ~75 admin, ~195 a avaliar
 - [x] **Script de catalogação de documentos** por processo (`scripts/coleta/listar_documentos_sei.py`) — extrai títulos de documentos dentro de cada processo sem ler seu conteúdo
 - [x] **16 blocos prioritários definidos** (PANs, Monitora, avaliação de risco, quelônios, crocodilianos, guias, etc.)
-- [ ] **Executar catalogação completa** dos 16 blocos prioritários (~290 processos, ~20–30 min)
+- [x] **Catalogação completa executada** dos 16 blocos prioritários — 417 processos e 28.100
+  documentos, o catálogo usado na seleção de processos (ver
+  [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md)). Para
+  reexecutar (~20–30 min):
   ```bash
   source venv/bin/activate && set -a && source .env && set +a
   python scripts/coleta/listar_documentos_sei.py
@@ -95,6 +100,15 @@ do estado atual até o protótipo funcional validado com usuários.
   - Saída: `01_fontes_web/sei/documentos_por_processo.json`
 - [x] **Analisar catálogo** — triagem automática gerou lista de 173 processos candidatos (`processos_para_exportacao.json`, v2 após correção de falsos positivos em 2026-07-13; ver [`docs/processos/selecao_processos_sei.md`](processos/selecao_processos_sei.md))
 - [x] **Documentar os 244 processos descartados**, com o motivo do descarte (`01_fontes_web/sei/processos_descartados.json`/`.csv`) — nenhum processo é removido do catálogo, apenas fica fora da lista de exportação
+- [ ] **Sessão de filtragem dos blocos internos com a coordenação** — presencial, validando a
+  triagem dos 173 candidatos. Orientação de 2026-10-20: os blocos foram reagrupados e
+  subdivididos por tema (~30 blocos, ~20 altamente relevantes); manter notas técnicas,
+  pareceres, relatórios, projetos e orientações técnicas, excluir despachos simples e anexos
+  sem relevância. Ver "Atualização 2026-10-20" no
+  [ADR 0004](decisoes/0004-criterios-selecao-documentos-sei.md)
+- [ ] **Regenerar catálogo de blocos após a revisão feita pela equipe** (requer autorização da
+  Júlia) — o `blocos_internos.json` atual (43 blocos, 16 prioritários) é de 2026-06-30,
+  anterior à revisão
 - [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
@@ -290,6 +304,11 @@ e seção "Solução Escolhida (revisada)" em
     (ver `scripts/infra/subir_ollama.sh`, ADR 0006) e modelo `qwen2.5:3b-instruct` baixado;
     `/perguntar` testado contra a coleção real (59.085 pontos), resposta e citações corretas
   - [x] Testar com uma amostra maior de perguntas reais do domínio — em andamento via `scripts/teste_perguntas_dominio.py` e `diagnosticos/baterias/` (8 execuções entre 2026-08-19 e 2026-08-25, ver `diagnosticos/teste-perguntas-dominio.md`)
+- [ ] **Avaliação offline com RAGAS** ([ADR 0007](decisoes/0007-avaliacao-offline-ragas-juiz-claude.md),
+  `avaliacao/`) — implementada; primeira bateria paga em 2026-10-19 (36 casos). Os
+  **gabaritos estão em coleta com a equipe do RAN, com prazo no início de novembro de 2026**;
+  até lá, `ContextPrecisionWithReference` e `ContextRecall` são puladas. Ver
+  [`docs/processos/coleta_gabaritos_ran.md`](processos/coleta_gabaritos_ran.md)
 - [ ] **Experimento de concisão das respostas** — hipótese de que respostas longas favorecem
   alucinação; testar instrução de concisão e/ou teto de `LLM_NUM_PREDICT` contra a linha de base
   da rodada 1. Rodar só depois da rodada 2 (juízes). Ver
@@ -417,6 +436,8 @@ e seção "Solução Escolhida (revisada)" em
 | Modelo de LLM para geração em produção (API paga vs. local) — LLM local via Ollama já escolhido temporariamente para a Fase 6 ([ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)); decisão final depende de orçamento para API, mesmo padrão do ADR 0005 | Custo, qualidade, privacidade dos dados | Antes de ir a produção (Fase 8) |
 | Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
+| SEI: indexar só documentos públicos ou também restritos com controle de acesso — sem controle por usuário, qualquer usuário do HerpIA pode receber trechos de um documento restrito; ligado ao `nivel_sensibilidade` dos chunks e ao envio ao juiz do RAGAS ([ADR 0004](decisoes/0004-criterios-selecao-documentos-sei.md), atualização 2026-10-20) | Conformidade, segurança, escopo | Antes do piloto do SEI (Fase 1.5) |
+| Geração de rascunhos de documentos no formato do SEI (fase futura, requer ADR) — outro produto: modelos de documento, contexto maior, LLM mais forte que o 3B atual, saída sempre como rascunho para revisão humana | Escopo do produto, custo, qualidade | Após a validação do protótipo (Fase 8) |
 | Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
 
 ---

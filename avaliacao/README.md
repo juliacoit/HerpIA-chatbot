@@ -95,6 +95,22 @@ python avaliacao/rodar_ragas.py --casos A1 --metricas faithfulness   # smoke tes
   por caso e no total, com custo estimado pelos preços em `PRECOS_POR_MTOK`.
   A saída inclui o pensamento. A fatura do Console é a fonte oficial.
 
+## Status dos gabaritos
+
+Em coleta desde 2026-10-19, com retorno previsto para o **início de novembro
+de 2026**:
+
+1. A coordenação do RAN encaminha o pedido aos pontos focais (SALVE, PANs,
+   Monitora).
+2. Os pontos focais devolvem os gabaritos (21 casos) e os vereditos dos 9
+   casos de discordância entre juízes.
+3. Uma reunião presencial de validação revisa tudo em conjunto.
+4. Só então os gabaritos entram no campo `reference`.
+
+Os 15 casos de recusa não precisam de gabarito. Divisão por área, prioridades
+e método (avaliação cega) em
+[`docs/processos/coleta_gabaritos_ran.md`](../docs/processos/coleta_gabaritos_ran.md).
+
 ## Para a equipe do RAN preencher os gabaritos
 
 Trocar `PENDENTE_VALIDACAO_RAN` pelo texto da resposta correta, com base nas

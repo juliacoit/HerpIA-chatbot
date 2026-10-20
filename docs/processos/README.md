@@ -18,10 +18,11 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [**Coleta do Programa Monitora**](coleta_monitora_detalhado.md) | Fontes de dados → Extração | ✅ Em produção |
 | [**Coleta do SALVE**](coleta_salve_detalhado.md) | Fontes de dados → Extração | 🔶 Em execução (coleta completa rodando) |
 | [**Coleta do SEI/ICMBio**](coleta_sei_detalhado.md) | Fontes de dados → Extração | ✅ Catalogação em produção (exportação manual) |
-| [**Seleção de processos do SEI para exportação**](selecao_processos_sei.md) | Fontes de dados → Extração | 🔶 Triagem automática concluída (197 de 417; 220 descartados documentados); autorização pendente |
+| [**Seleção de processos do SEI para exportação**](selecao_processos_sei.md) | Fontes de dados → Extração | 🔶 Triagem automática concluída (v2, 2026-07-13: 173 de 417 candidatos; 244 descartados documentados); autorização pendente |
 | [**Extração de texto de PDFs (Monitora e PANs)**](extracao_pdfs.md) | Extração e limpeza | ✅ Em produção |
 | [**Extração de texto das fichas SALVE**](extracao_texto_salve.md) | Extração e limpeza | ✅ Em produção |
 | [**Catalogação das publicações científicas do RAN**](catalogacao_publicacoes.md) | Fontes de dados → Extração | 🔶 Catálogo revisado (284/312 resolvidos automaticamente + 18 revisados manualmente); avaliação de sensibilidade pendente |
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |
 | [**Chunking dos documentos autorizados**](chunking.md) | Chunking | ✅ Em produção (Monitora/PANs/SALVE); 🔶 SEI e publicações pendentes |
 | [Geração de embeddings](embeddings.md) | Embeddings → Banco vetorial | A definir |
+| [Coleta de gabaritos da avaliação RAGAS](coleta_gabaritos_ran.md) | Avaliação | 🔶 Em desenvolvimento (retorno do RAN previsto para o início de novembro de 2026) |

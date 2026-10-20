@@ -68,8 +68,12 @@ do estado atual até o protótipo funcional validado com usuários.
   baixo risco), 7 anais completos do Congresso Brasileiro de Herpetologia 2004–2015
   (conteúdo majoritariamente de terceiros, **não** apenas do RAN — ver observação de
   sensibilidade abaixo) e 1 artigo mais novo que a última atualização da planilha
-- [x] **Base analisada** (registrado em 2026-10-20) — para seguir, há uma planilha pendente de
-  preenchimento
+- [x] **Base analisada** (registrado em 2026-10-20) — para seguir, falta preencher a planilha de
+  triagem de copyright (`06_inventario/triagem_copyright_publicacoes.xlsx`, com cópia
+  compartilhada no Google Drive; ver
+  [`triagem_pendente_sensibilidade_copyright.md`](processos/triagem_pendente_sensibilidade_copyright.md)).
+  Na cópia local, as 58 publicações de risco BAIXO estão marcadas `autorizado` (2026-07-14); as
+  7 de risco ALTO e as 242 de risco MÉDIO seguem sem decisão
 - [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
 - [ ] Avaliar sensibilidade/copyright de cada publicação antes de mover para
   `03_documentos_autorizados/` — atenção especial aos anais de congresso (copyright de

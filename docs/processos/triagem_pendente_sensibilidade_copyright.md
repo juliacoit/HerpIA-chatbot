@@ -1,7 +1,7 @@
 # Triagens pendentes de revisão — sensibilidade (Monitora/PANs) e copyright (publicações)
 
-- **Status:** Triagem automática concluída; revisão humana pendente (0 decisões registradas)
-- **Última atualização:** 2026-07-13
+- **Status:** Triagem automática concluída; revisão humana pendente (Planilha 1: 0 decisões; Planilha 2: 58 de 312)
+- **Última atualização:** 2026-10-20
 - **Responsável(eis):** Equipe do RAN/ICMBio (decisão humana — não automatizável)
 
 ## O problema
@@ -73,8 +73,10 @@ palavras de restrição — com trechos de exemplo em `trechos_exemplo` (`[p.X |
 
 ### Colunas de decisão (a preencher pela equipe do RAN)
 
-Mesmo padrão da planilha 1: `decisao`, `revisado_por`, `data_revisao`, `observacoes` —
-todas as 312 linhas vazias hoje.
+Mesmo padrão da planilha 1: `decisao`, `revisado_por`, `data_revisao`, `observacoes`.
+Na cópia local (conferido em 2026-10-20), as 58 publicações de risco BAIXO estão marcadas
+`autorizado` (revisão de 2026-07-14). As 7 de risco ALTO e as 242 de risco MÉDIO seguem sem
+decisão. Há uma cópia compartilhada no Google Drive.
 
 ## O que falta (nas duas planilhas)
 
@@ -89,7 +91,7 @@ Só depois desse fluxo os documentos correspondentes devem seguir para a Fase 4
 
 ## Outras avaliações pendentes fora dessas duas planilhas
 
-- **SEI:** 197 processos já pré-selecionados automaticamente, mas a autorização de
+- **SEI:** 173 processos já pré-selecionados automaticamente (v2, 2026-07-13), mas a autorização de
   exportação ainda depende de decisão da equipe do RAN — ver
   [`selecao_processos_sei.md`](selecao_processos_sei.md). Depois da exportação, cada
   documento ainda precisa de avaliação de sensibilidade individual.

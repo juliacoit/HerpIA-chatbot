@@ -1,0 +1,375 @@
+# Proposta de casos de teste — sessão supervisionada com a equipe do RAN (26/10/2026)
+#
+# APENAS PROPOSTA: não integrar à suíte (scripts/teste_perguntas_dominio.py,
+# avaliacao/casos.jsonl) nem ao RAGAS sem aprovação. Diagnóstico completo em
+# diagnosticos/2026-11-04_sessao_supervisionada_ran.md.
+#
+# IDs seguem o padrão já usado nos diagnósticos (letra da categoria + número),
+# continuando a numeração existente (A1–A3, B1–B3, F2–F7, H1–H2...). Categorias
+# novas propostas:
+#   M — vocabulário: nome popular, sinônimo taxonômico, termo alternativo
+#   N — estrutura do documento: fronteira de chunk, tabela achatada, boilerplate
+#   O — escopo temático (fora da herpetofauna; depende de decisão da equipe)
+#   P — pergunta agregada sobre metadados (contagem/ranking)
+#
+# `comportamento_esperado` descreve o que o sistema deve fazer, incluindo o
+# estado esperado na interface. Os fatos citados vêm do texto indexado das
+# fichas/documentos, não de conhecimento externo, mas o gabarito final
+# (`reference` no RAGAS) continua PENDENTE_VALIDACAO_RAN, como no resto do
+# projeto. `fontes_esperadas` usa o nome do documento como está no payload,
+# com a seção (SALVE) ou página (PDF).
+
+casos:
+
+  # ---------------------------------------------------------------- M — vocabulário
+  - id: M1
+    interacao: 786
+    pergunta: "Quando foi a última avaliação do risco de extinção da Tracajá"
+    comportamento_esperado: >
+      Recuperar a ficha SALVE de Podocnemis unifilis (nome comum "Tracajá") e
+      responder com o que ela diz: categoria atual Menos Preocupante (LC) e,
+      no histórico, "Nacional Brasil 2018: Quase Ameaçada (NT)" e "Nacional
+      Brasil 2012: NT". Não apresentar NT/2014 (PAN Quelônios 2017, citação
+      ICMBio 2014) como avaliação mais recente. Estado: Fundamentada. Citações
+      exibidas devem conter o Histórico.
+    fontes_esperadas:
+      - "salve | Podocnemis unifilis Troschel, 1848 | conservacao (Histórico de avaliação de risco)"
+      - "salve | Podocnemis unifilis Troschel, 1848 | visao_geral (categoria atual)"
+    comentario_equipe: >
+      É prudente confirmar a atualização da informação no banco de dados, por
+      conta da data da avaliação que consta na resposta (não tem de onde tirar
+      o 2014). No entanto a estrutura e qualidade da resposta foi considerada
+      pertinente.
+    causa_raiz: >
+      H3 — nome popular não traz a ficha (1º chunk de P. unifilis na posição
+      18). Geração atribuiu a Bernardes et al. o ano "2014" do trecho do PAN.
+
+  - id: M2
+    interacao: 786
+    variacao_de: M1
+    pergunta: "Quando foi a última avaliação do risco de extinção do tracajá (Podocnemis unifilis)?"
+    comportamento_esperado: "Igual a M1. Controle: hoje o chunk com o Histórico já é o 1º colocado."
+    fontes_esperadas:
+      - "salve | Podocnemis unifilis Troschel, 1848 | conservacao (Histórico de avaliação de risco)"
+    comentario_equipe: null
+    causa_raiz: "Controle positivo de H3 (nome científico presente)."
+
+  - id: M3
+    interacao: 786
+    variacao_de: M1
+    pergunta: "Qual a categoria de risco do tracajá?"
+    comportamento_esperado: >
+      Igual a M1 (LC atual). Testa o nome popular sozinho, em minúsculas, numa
+      pergunta curta.
+    fontes_esperadas:
+      - "salve | Podocnemis unifilis Troschel, 1848 | visao_geral ou conservacao"
+    comentario_equipe: null
+    causa_raiz: "H3 — expansão de nome popular."
+
+  - id: M4
+    interacao: 796
+    pergunta: "em quais municipios e unidades de conservação ocorre a espécie bufo schneider"
+    comportamento_esperado: >
+      Reconhecer "Bufo schneider(i)" como sinônimo de Rhinella diptycha (a
+      seção Taxonomia da ficha lista "Bufo schneideri" e "Rhinella schneideri"
+      em Sinonímias), dizer isso ao usuário e listar as UCs com registro da
+      seção Conservação. Dizer que a ficha não lista municípios. Estado:
+      Fundamentada, com citação da Taxonomia (sinonímia) e da Conservação (UCs).
+    fontes_esperadas:
+      - "salve | Rhinella diptycha (Cope, 1862) | taxonomia (Sinonímias)"
+      - "salve | Rhinella diptycha (Cope, 1862) | conservacao (Unidades de conservação com registro)"
+    comentario_equipe: "Usamos uma denominação antiga."
+    causa_raiz: >
+      H3 — sinônimo só no texto da seção Taxonomia; sem tabela de sinonímia;
+      ficha na posição 364. H6 — recusa rotulada "Fundamentada".
+
+  - id: M5
+    interacao: 796
+    variacao_de: M4
+    pergunta: "em quais municipios e unidades de conservação ocorre a espécie Bufo schneideri"
+    comportamento_esperado: "Igual a M4 (grafia correta do sinônimo)."
+    fontes_esperadas:
+      - "salve | Rhinella diptycha (Cope, 1862) | taxonomia + conservacao"
+    comentario_equipe: null
+    causa_raiz: "H3 — hoje na posição 393."
+
+  - id: M6
+    interacao: 796
+    variacao_de: M4
+    pergunta: "em quais municipios e unidades de conservação ocorre a espécie Rhinella schneideri"
+    comportamento_esperado: "Igual a M4 (sinônimo mais recente, mesmo gênero)."
+    fontes_esperadas:
+      - "salve | Rhinella diptycha (Cope, 1862) | taxonomia + conservacao"
+    comentario_equipe: null
+    causa_raiz: "H3 — hoje na posição 18."
+
+  - id: M7
+    interacao: 799
+    pergunta: "existe um protocolo de monitoramento bioacústico no âmbito do programa monitora?"
+    comportamento_esperado: >
+      Responder que sim: o Programa Monitora tem o alvo complementar "Paisagem
+      Sonora", com "Protocolo avançado de monitoramento do alvo complementar
+      paisagem acústica do componente Campestre e Savânico", centro CEMAVE, em
+      fase de testes para validação (março/2024). Estado: Fundamentada.
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+    comentario_equipe: "Acertou, realmente o nome do protocolo é outro."
+    causa_raiz: >
+      H5 + H4 — único chunk com "Paisagem Sonora" é a tabela achatada (posição
+      873); vocabulário diferente. H6 — recusa rotulada "Fundamentada".
+
+  - id: M8
+    interacao: 799
+    variacao_de: M7
+    pergunta: "existe um protocolo de monitoramento de paisagem sonora no âmbito do programa monitora?"
+    comportamento_esperado: "Igual a M7, com o termo exato do documento."
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+    comentario_equipe: null
+    causa_raiz: "H4 — mesmo com o termo exato o chunk fica na posição 748 (embedding diluído)."
+
+  - id: M9
+    interacao: 799
+    variacao_de: M7
+    pergunta: "existe um protocolo de monitoramento de paisagem acústica no âmbito do programa monitora?"
+    comportamento_esperado: "Igual a M7."
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+    comentario_equipe: null
+    causa_raiz: "H4/H5 — hoje na posição 937."
+
+  # ------------------------------------------------- B — síntese multi-espécie
+  - id: B4
+    interacao: 787
+    pergunta: "Quando foi, e qual o resultado da avaliação mais recente do estado de conservação ou risco de extinção dos jabutis"
+    comportamento_esperado: >
+      Tratar o plural como mais de uma espécie e responder para as duas
+      Chelonoidis com ficha no SALVE: C. denticulatus — Nacional Brasil 2024,
+      Em Perigo (EN), critério A4cd; C. carbonarius — Nacional Brasil 2024,
+      Vulnerável (VU), critério A4cd. Citações exibidas devem mostrar o
+      Histórico de cada ficha.
+    fontes_esperadas:
+      - "salve | Chelonoidis denticulatus (Linnaeus, 1766) | conservacao (Histórico)"
+      - "salve | Chelonoidis carbonarius (Spix, 1824) | conservacao (Histórico)"
+    comentario_equipe: "Ele não entendeu que o plural significa mais de uma espécie, e puxou os dados apenas de uma."
+    causa_raiz: >
+      H3 — top-5 monopolizado por C. denticulatus (nome comum "Jabuti"); C.
+      carbonarius na posição 12. H1 — Histórico estava em chunks não exibidos
+      (5 chunks → 1 citação).
+
+  - id: B5
+    interacao: 788
+    pergunta: "Quando foi, e qual o resultado da avaliação mais recente do estado de conservação ou risco de extinção das duas espécies de Jabutis que ocorrem no Brasil?"
+    comportamento_esperado: >
+      Igual a B4. Não tratar nomes comuns da mesma espécie ("Jabuti",
+      "Jabuti-açu", "Jabuti-amarelo", "Jabuti-tinga" = C. denticulatus) como
+      espécies diferentes.
+    fontes_esperadas:
+      - "salve | Chelonoidis denticulatus (Linnaeus, 1766) | conservacao (Histórico)"
+      - "salve | Chelonoidis carbonarius (Spix, 1824) | conservacao (Histórico)"
+    comentario_equipe: >
+      Insistimos na pergunta anterior, especificando que são duas espécies, e
+      ele trouxe a primeira e apenas mencionou que existem outras (sem dizer a
+      quantidade exata, 1), mas não disse quais.
+    causa_raiz: "H3 (C. carbonarius na posição 18) + geração (nomes comuns lidos como espécies). H1."
+
+  - id: B6
+    interacao: 789
+    pergunta: "Quais são as duas espécies de jabutis que ocorrem no BRasil"
+    comportamento_esperado: >
+      Chelonoidis denticulatus e Chelonoidis carbonarius, com as fichas SALVE
+      citadas. Controle positivo (acertou na sessão; C. carbonarius entrou na
+      5ª vaga, por pouco).
+    fontes_esperadas:
+      - "salve | Chelonoidis denticulatus (Linnaeus, 1766) | distribuicao"
+      - "salve | Chelonoidis carbonarius (Spix, 1824) | distribuicao"
+    comentario_equipe: "Reformulou, para ver se conseguia trazer o nome das duas espécies, e ele conseguiu."
+    causa_raiz: "— (controle; margem zero em relação ao 6º colocado)."
+
+  - id: B7
+    interacao: 787
+    variacao_de: B4
+    pergunta: "Qual a avaliação de risco mais recente de Chelonoidis denticulatus e de Chelonoidis carbonarius?"
+    comportamento_esperado: "Igual a B4, com os dois nomes científicos explícitos (isola a diversificação do problema de vocabulário)."
+    fontes_esperadas:
+      - "salve | Chelonoidis denticulatus (Linnaeus, 1766) | conservacao (Histórico)"
+      - "salve | Chelonoidis carbonarius (Spix, 1824) | conservacao (Histórico)"
+    comentario_equipe: null
+    causa_raiz: "H3 — diversificação por ficha."
+
+  # ------------------------------------------- A — cobertura básica (SALVE)
+  - id: A4
+    interacao: 790
+    pergunta: "Quando foi a avaliação do risco de extinção mais recente da espécie Chelonoidis carbonarius"
+    comportamento_esperado: >
+      "Nacional Brasil 2024: Vulnerável (VU), critério A4cd", do Histórico da
+      ficha. Não usar a seção Referências (van Dijk et al. 2014, TTWG) como se
+      fosse avaliação. Estado: Fundamentada, com o Histórico visível na citação.
+    fontes_esperadas:
+      - "salve | Chelonoidis carbonarius (Spix, 1824) | conservacao (Histórico de avaliação de risco)"
+    comentario_equipe: "Mesmo problema da tracajá."
+    causa_raiz: >
+      H3 — seção conservacao na posição 8; referencias no top-5. Alucinação
+      ("terceira edição", "Comissão de Taxonomia de Términos"). H2 — juiz
+      aprovou apesar das pistas da camada 2.
+
+  - id: A5
+    interacao: 792
+    pergunta: "Em que localizações (municípios e unidades de conservação) a espécie Pithecopus Rusticus ocorre?"
+    comportamento_esperado: >
+      Conhecida apenas da localidade-tipo, no município de Água Doce (SC), Mata
+      Atlântica; a ficha não lista UCs com registro (os registros no Refúgio de
+      Vida Silvestre dos Campos de Palmas, PR, são citados como equívoco e não
+      foram usados na avaliação). Controle positivo.
+    fontes_esperadas:
+      - "salve | Pithecopus rusticus (Bruschi, Lucas, Garcia & Recco-Pimentel, 2015) | historia_natural, distribuicao, conservacao"
+    comentario_equipe: "Essa resposta foi muito favorável, acertou em tudo."
+    causa_raiz: "— (controle)."
+
+  # --------------------------------------------- H — rastreabilidade de citação
+  - id: H3
+    interacao: 797
+    pergunta: "em quais municipios e unidades de conservação ocorre a espécie Rhinella diptycha, e qual seu status de conservação?"
+    comportamento_esperado: >
+      Menos Preocupante (LC); lista completa de UCs com registro da seção
+      Conservação (federais, estaduais, RPPNs e terras indígenas); dizer que a
+      ficha não lista municípios. Critério extra de rastreabilidade: toda UC
+      citada tem de estar no texto de uma citação EXIBIDA (hoje vem de um chunk
+      que o usuário não vê).
+    fontes_esperadas:
+      - "salve | Rhinella diptycha (Cope, 1862) | conservacao (Unidades de conservação com registro)"
+      - "salve | Rhinella diptycha (Cope, 1862) | visao_geral"
+    comentario_equipe: "Com o nome científico correto, ele acertou, foi uma resposta satisfatória."
+    causa_raiz: "H1 — 5 chunks no prompt, 1 citação exibida; lista de UCs incompleta na resposta."
+
+  # ---------------------------------- N — estrutura do documento (categoria nova)
+  - id: N1
+    interacao: 791
+    pergunta: "Quem é Flávia Regina Queiroz Batista?"
+    comportamento_esperado: >
+      Doutora em Ciências Ambientais, analista ambiental do RAN/ICMBio,
+      coautora do Guia de Lagartos do PARNA Serra da Capivara. Não atribuir a
+      ela "bolsista (GEF Terrestre)", que pertence às bios de outras autoras.
+    fontes_esperadas:
+      - "monitora | Ebook_GuiadecampoPARNASerradaCapivara_Digital_.pdf | p. 4–5"
+    comentario_equipe: >
+      Testamos informações sobre uma servidora, ele acertou o vínculo de
+      analista ambiental, e inventou um que não é associado a ela (bolsista gef
+      terrestre) pois, estava cortado, no topo do trecho recuperado, sem
+      conexão com a pessoa citada.
+    causa_raiz: >
+      H4 — chunk começa com a linha órfã da bio de Carolina Blefari Batista
+      (não de Luciana Signorelli, como dizia a análise preliminar) + geração.
+
+  - id: N2
+    interacao: 798
+    pergunta: "quais são os protocolos de monitoramento de alvos complementares de répteis e anfíbios do programa monitora?"
+    comportamento_esperado: >
+      Listar os alvos complementares de herpetofauna do componente Campestre e
+      Savânico: Anfíbios Anuros (protocolo avançado, RAN) e Lagartos Terrestres
+      (protocolo básico, RAN; dois protocolos em teste), em fase de testes para
+      validação (março/2024). Não preencher com o texto genérico da
+      "Apresentação" dos Roteiros Metodológicos.
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+    comentario_equipe: >
+      A pergunta foi considerada mal elaborada, por isso a resposta foi
+      insatisfatória. Na pergunta seguinte, foi feita uma reformulação.
+    causa_raiz: >
+      H4 — top-5 = 5 cópias quase idênticas do boilerplate "Apresentação";
+      INTRANETEstrutura na posição 7.
+
+  - id: N3
+    interacao: 800
+    pergunta: "Tem algum protocolo de monitoramento sobre lagartos?"
+    comportamento_esperado: >
+      Sim: "Protocolo básico de monitoramento do alvo complementar lagartos
+      terrestres do componente Campestre e Savânico" (RAN), com dois protocolos
+      em teste (lagartos em geral e gênero Liolemus [sic] em dunas), em fase de
+      testes. Não incluir os protocolos de moscas drosofilídeas (CBC).
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+      - "monitora | GuiadeCampoESECRasodaCatarina_.pdf | p. 5 (complementar)"
+    comentario_equipe: >
+      Parcialmente correta, respondeu algo certo (protocolo de lagartos do ran)
+      e respondeu algo errado (protocolo de drosofilídeas cbc). Pra evitar
+      isso, vamos restringir a dados de monitoramento da herpetofauna.
+    causa_raiz: >
+      H4 — tabela achatada pelo get_text(): o rótulo "Moscas Drosofilídeas"
+      (célula mesclada) sai deslocado e os protocolos de drosofilídeas ficam
+      logo após a linha de lagartos.
+
+  - id: N4
+    interacao: 800
+    variacao_de: N3
+    pergunta: "Quais protocolos do Programa Monitora o RAN coordena?"
+    comportamento_esperado: >
+      Anfíbios Anuros (avançado) e Lagartos Terrestres (básico), ambos do
+      componente Campestre e Savânico. Testa a associação linha↔coluna da
+      tabela (centro responsável).
+    fontes_esperadas:
+      - "monitora | INTRANETEstrutura_Alvos_Protocolos_ProgramaMonitora_maro_2024_versaocomCNPCs1.pdf | p. 1"
+    comentario_equipe: null
+    causa_raiz: "H4 — tabela achatada."
+
+  # --------------------------------------- O — escopo temático (categoria nova)
+  - id: O1
+    interacao: 793
+    pergunta: "Descreva estratégias de conservação para a onça pintada"
+    comportamento_esperado: >
+      DEPENDE DE DECISÃO DA EQUIPE. Se a base continuar multi-táxon: responder
+      com o PAN Onça-pintada (como na sessão). Se o escopo for restrito à
+      herpetofauna: informar que a pergunta está fora do escopo do HerpIA
+      (estado Sem evidência), sem citar fontes de outros táxons.
+    fontes_esperadas:
+      - "pans | pan-onca-pintada-livro.pdf | p. 72, 201, 328–329 (se escopo multi-táxon)"
+    comentario_equipe: >
+      Foi para testar o escopo fora do RAN, ele acertou, porém estamos
+      considerando diminuir para apenas herpetofauna.
+    causa_raiz: "H7 — decisão de escopo (PANs de outros táxons ≈ 37% do índice)."
+
+  # ---------------------------------------- F — fora de cobertura / sensível
+  - id: F8
+    interacao: 794
+    pergunta: "qual a estratégia de conservação para o tigre de bengala"
+    comportamento_esperado: >
+      Retida ou Sem evidência (espécie fora da base). Não exibir trechos
+      irrelevantes como "Fontes citadas"; no máximo como "Trechos recuperados
+      (não verificados)", recolhidos.
+    fontes_esperadas: []
+    comentario_equipe: "Testaram uma pergunta que era pra ser retida e não estava na base de dados."
+    causa_raiz: "Retenção correta (camada 1, 'Bengal'). H6 — 5 PANs sem relação exibidos como fontes."
+
+  - id: F9
+    interacao: 801
+    pergunta: "quais as coordenadas geograficas de ocorrencia da espécie bothrops insularis"
+    comportamento_esperado: >
+      Não fornecer coordenadas. Pode informar o que a ficha publica: endêmica
+      da Ilha da Queimada Grande (ARIE Ilhas da Queimada Grande e Queimada
+      Pequena), ~34,8 km do litoral sul de SP, próxima a Itanhaém e Peruíbe;
+      CR. Estado: Sem evidência para a parte "coordenadas". Coordenadas de
+      espécie CR e alvo de tráfico não devem entrar na base sem ADR e
+      classificação da equipe.
+    fontes_esperadas:
+      - "salve | Bothrops insularis (Amaral, 1922) | distribuicao"
+    comentario_equipe: >
+      Para isso, precisamos incluir os dados CSV do SALVE, que possui as
+      coordenadas geográficas (incluir a necessidade de ter coordenadas).
+    causa_raiz: "H7 — coordenadas fora da base por política (regras_pii.py). H6 — recusa rotulada 'Fundamentada'."
+
+  # ------------------------ P — agregação sobre metadados (categoria nova)
+  - id: P1
+    interacao: 795
+    pergunta: "qual a espécie da herpetofauna que possui maior volume de dados ou informações nas suas bases de dados"
+    comportamento_esperado: >
+      DEPENDE DA DEFINIÇÃO DA EQUIPE para "volume de dados". Mínimo aceitável:
+      reconhecer que é uma pergunta agregada e dizer explicitamente que a base
+      não faz contagens (estado Sem evidência), sem resposta genérica baseada
+      em trechos sem relação. Se uma rota de agregação for aprovada: responder
+      pelo critério definido (ex.: tamanho da ficha SALVE em chunks:
+      Podocnemis unifilis = 65, o maior), explicando o critério.
+    fontes_esperadas: []
+    comentario_equipe: >
+      A resposta foi totalmente inadequada. ele não fez o rastreamento e o
+      levantamento, nem sequer qualquer análise.
+    causa_raiz: "H7 — falta rota de agregação e definição de métrica. H6 — recusa rotulada 'Fundamentada'."

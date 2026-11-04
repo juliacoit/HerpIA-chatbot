@@ -220,6 +220,29 @@ DOM pega.
 - **Indicador de confiança de 3 níveis** — já não portado desde a revisão
   anterior (o backend só calcula `resposta_fundamentada` booleano).
 
+**2026-11-04, quarta rodada — citações por documento e estados (pós-sessão
+RAN de 26/10).** Mudança de conteúdo exibido, não de tokens:
+
+- **Um `CitationCard` por documento**, não por chunk (`app.py._renderizar_documento`):
+  número, chip de fonte, título e "Abrir fonte" como antes; dentro, um
+  `st.expander` por seção da ficha SALVE ("Conservação", "Conservação ·
+  parte 2") ou intervalo de páginas do PDF ("p. 14–15"). O rótulo antigo
+  "Ver trecho recuperado" saiu: o nome da seção diz mais.
+- **Legenda de contagem** "Citações: 1 documento, 5 trechos" (sentence
+  case, número por extenso no singular), no lugar de "Citações (N)".
+- **Retida e sem evidência**: os cartões vão para dentro de um `st.expander`
+  recolhido — "Trechos recuperados (não verificados)" na retida,
+  "Trechos recuperados" na sem evidência. Nenhum token novo; a faixa
+  (`EvidenceBanner`) continua a mesma, só muda qual estado é mostrado
+  (abstenção pura agora é `sem_evidencia`).
+- Verificado no navegador (Chromium do Playwright por CDP, método acima)
+  com o backend real: #797 (1 cartão, 5 seções, Conservação com a lista de
+  UCs), #787 (Conservação partes 1, 2 e 4), #801 (sem evidência, trechos
+  recolhidos) e #794 (retida, trechos recolhidos, motivo da retenção).
+- Não portado: o espaço entre a faixa "sem evidência" e o expander de
+  trechos ficou colado (na retida, a legenda do motivo separa os dois).
+  Ajuste fino de espaçamento fica para a próxima rodada visual.
+
 ## Limitação conhecida: "redução mínima" do logo não verificada
 
 `design-system/components/brand/Logo.jsx` referencia a "redução mínima"

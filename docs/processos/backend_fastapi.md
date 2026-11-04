@@ -80,10 +80,12 @@ Mesmo request de `/buscar`. Response:
   "id": 1,
   "pergunta": "...",
   "resposta": "...",
-  "citacoes": [{"fonte": "...", "documento": "...", "secao": "...", "pagina_inicio": null, "url_origem": "...", "texto": "..."}],
+  "citacoes": [{"fonte": "...", "documento": "...", "secao": "...", "parte": 1, "pagina_inicio": null, "url_origem": "...", "texto": "..."}],
   "evidencia_suficiente": true,
   "resposta_fundamentada": true,
-  "justificativa_groundedness": null
+  "justificativa_groundedness": null,
+  "tipo_saida": "gerada",
+  "avaliacao": null
 }
 ```
 
@@ -93,9 +95,21 @@ mesmo trecho que foi para o prompt do LLM em `montar_citacoes`,
 recuperado e filtrado, então não fere a regra de nunca enviar documentos
 inteiros a uma API externa (CLAUDE.md). Usado pela interface (`interface/`,
 Fase 7) para deixar cada citação auditável sem precisar abrir o documento
-original. Quando a dedupe de `montar_citacoes` (por fonte/documento/página)
-junta mais de um chunk numa única citação, `texto` é o do primeiro chunk
-daquele grupo, não uma concatenação de todos.
+original. Desde 2026-11 (H1 do diagnóstico da sessão RAN,
+`diagnosticos/2026-11-04_sessao_supervisionada_ran.md`) a chave de
+agrupamento é: **fichas SALVE** (sem página) — uma citação por seção e
+parte (`secao`, `parte`); **PDFs** — uma citação por intervalo de páginas,
+como antes. Quando chunks diferentes de PDF caem no mesmo intervalo de
+páginas, os textos distintos são concatenados (separador `[…]`), para que
+todo chunk enviado ao LLM esteja coberto por alguma citação. Antes, as
+seções de uma ficha colapsavam numa citação com o texto do primeiro chunk.
+
+`tipo_saida` (desde 2026-11) diz por qual caminho a resposta saiu:
+`gerada`, `abstencao` (abstenção pura aprovada pela camada 0 do
+verificador), `retida_groundedness`, `sem_chunks`, `sei_nao_indexado` ou
+`contexto_excedido`. É o mesmo valor de `avaliacao.tipo_saida`, que antes só
+existia no modo de avaliação; a interface usa `abstencao` para mostrar o
+estado "sem evidência".
 
 Se a busca não retornar nenhum chunk, a resposta é fixa ("Não há evidência
 suficiente...", `evidencia_suficiente: false`) e o LLM **não** é chamado —
@@ -244,10 +258,17 @@ coleção do Qdrant sozinho):
 
 - **`interacoes`** — uma linha por chamada a `/perguntar`: pergunta, `top_k`,
   filtro de fontes, resposta final, `evidencia_suficiente`,
-  `resposta_fundamentada` + justificativa, citações (JSONB), metadados dos
-  chunks recuperados (JSONB — fonte/documento/seção/página/score, **nunca o
-  texto completo do chunk**, que já vive no Qdrant), modelo do LLM e tempo
-  de resposta em ms.
+  `resposta_fundamentada` + justificativa, citações (JSONB, **com** o texto
+  de cada citação exibida), metadados dos chunks recuperados (JSONB —
+  fonte/documento/seção/página/score, sem texto), modelo do LLM e tempo
+  de resposta em ms. Desde 2026-11, colunas para reproduzir a interação
+  sem exportar o índice: `chunk_ids` (chunk_id e score de cada chunk do
+  prompt, em ordem), `rota` (fonte priorizada e filtros SALVE, ou NULL
+  quando o roteamento não roda porque o cliente mandou `fontes`),
+  `tipo_saida`, `origem_retencao`, `resposta_original` (só das retidas;
+  **nunca** volta na resposta da API) e `llm_temperatura`/`llm_seed`
+  efetivos. Migração aditiva no próprio `_SCHEMA` (`ALTER TABLE ... ADD
+  COLUMN IF NOT EXISTS`, colunas anuláveis): linhas antigas ficam com NULL.
 - **`feedback`** — uma linha por avaliação de usuário, referenciando
   `interacoes.id` (`ON DELETE CASCADE`).
 

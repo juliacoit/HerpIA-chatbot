@@ -235,6 +235,19 @@ Abre em `http://localhost:8501`. Por padrão aponta para o backend em
   interface. Um expander por citação em vez de uma lista dentro de um único
   expander porque o Streamlit não
   permite expander aninhado.
+- **Atualização de 2026-11** (diagnóstico da sessão RAN de 26/10, H1 e H6;
+  os dois itens acima descrevem o protótipo original). O estado da faixa vem
+  de `interface/apresentacao.py:estado_resposta` (função pura, testada em
+  `tests/test_apresentacao_interface.py`), com precedência retida > sem
+  evidência > fundamentada; abstenção pura (`tipo_saida == "abstencao"`)
+  passa a ser "sem evidência", e o bloqueio do SEI continua "sem evidência".
+  As citações são agrupadas por documento (`agrupar_citacoes`, na ordem do
+  melhor chunk de cada um): um cartão por ficha ou PDF, com um expander por
+  seção (SALVE) ou intervalo de páginas (PDF). Em respostas retidas, os
+  trechos ficam recolhidos sob "Trechos recuperados (não verificados)"; em
+  respostas sem evidência, sob "Trechos recuperados". Expander aninhado
+  funciona no Streamlit 1.63 (a restrição citada acima era de versões
+  anteriores).
 - **Feedback por resposta** (`POST /feedback`): dois botões, "Útil"/"Não
   útil". Desabilitado (mensagem explicando o motivo) quando `id` da resposta
   é `null` — acontece quando o PostgreSQL está indisponível na sessão do

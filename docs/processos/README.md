@@ -26,3 +26,4 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [**Chunking dos documentos autorizados**](chunking.md) | Chunking | ✅ Em produção (Monitora/PANs/SALVE); 🔶 SEI e publicações pendentes |
 | [Geração de embeddings](embeddings.md) | Embeddings → Banco vetorial | A definir |
 | [Coleta de gabaritos da avaliação RAGAS](coleta_gabaritos_ran.md) | Avaliação | 🔶 Em desenvolvimento (retorno do RAN previsto para o início de novembro de 2026) |
+| [**Sessões supervisionadas com a equipe do RAN**](sessoes_supervisionadas_ran.md) | Validação com usuários | 🔶 Em desenvolvimento (sessão de 26/10 diagnosticada; correções na branch `fix/citacoes-estados-logging`, não integradas; ADRs 0008/0009 propostos) |

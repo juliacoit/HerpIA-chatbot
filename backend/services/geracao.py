@@ -304,4 +304,6 @@ async def gerar_resposta(
         tipo_saida=tipo_saida,
         avaliacao=avaliacao,
     )
+    resultado._origem_retencao = origem_retencao
+    resultado._resposta_original = resposta_original
     return resultado

@@ -14,7 +14,7 @@ from backend.dependencies import obter_db_pool, obter_llm, obter_modelo_embeddin
 from backend.schemas import PerguntarRequest, PerguntarResponse
 from backend.services.geracao import gerar_resposta
 from backend.services.llm import LLMClient, registrar_uso_llm
-from backend.services.logging_db import registrar_interacao
+from backend.services.logging_db import descrever_rota, registrar_interacao
 from backend.services.roteamento import buscar_chunks_priorizados
 
 router = APIRouter(prefix="/perguntar", tags=["perguntar"])
@@ -73,5 +73,11 @@ async def perguntar(
         chunks=chunks,
         modelo_llm=settings.llm_model,
         tempo_resposta_ms=tempo_resposta_ms,
+        rota=descrever_rota(body.pergunta, body.fontes),
+        tipo_saida=resultado.tipo_saida,
+        origem_retencao=resultado._origem_retencao,
+        resposta_original=resultado._resposta_original,
+        llm_temperatura=settings.llm_temperature,
+        llm_seed=settings.llm_seed,
     )
     return resultado

@@ -40,6 +40,18 @@ CREATE TABLE IF NOT EXISTS interacoes (
     tempo_resposta_ms INTEGER
 );
 
+-- Migração aditiva de 2026-11 (diagnosticos/2026-11-04_sessao_supervisionada_ran.md,
+-- prioridade 10): colunas novas, todas anuláveis e sem default, para não
+-- reescrever as linhas antigas (que ficam com NULL). Idempotente, como o
+-- resto deste schema: roda a cada startup.
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS chunk_ids JSONB;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS rota JSONB;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS tipo_saida TEXT;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS origem_retencao TEXT;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS resposta_original TEXT;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS llm_temperatura DOUBLE PRECISION;
+ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS llm_seed INTEGER;
+
 CREATE TABLE IF NOT EXISTS feedback (
     id BIGSERIAL PRIMARY KEY,
     interacao_id BIGINT NOT NULL REFERENCES interacoes(id) ON DELETE CASCADE,

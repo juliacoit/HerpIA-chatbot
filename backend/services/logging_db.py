@@ -1,9 +1,20 @@
 """Logging de perguntas/respostas e feedback no PostgreSQL (Fase 6).
 
-Só grava metadados das citações/chunks recuperados (fonte, documento,
-página, score) — nunca o texto completo dos chunks, que já vive no Qdrant e
-nos documentos de origem; evita duplicar dado (potencialmente sensível, ver
-CLAUDE.md) num segundo lugar sem necessidade.
+O que vai para `interacoes`:
+- `chunks_recuperados`: metadados de cada chunk enviado ao LLM (fonte,
+  documento, seção, página, score), sem o texto;
+- `citacoes`: as citações exibidas ao usuário, **com** o texto de cada uma
+  (o mesmo trecho do chunk que o usuário vê na interface, não o documento
+  completo);
+- desde 2026-11 (diagnosticos/2026-11-04_sessao_supervisionada_ran.md,
+  prioridade 10), o necessário para reproduzir uma interação sem exportar o
+  índice: `chunk_ids` (ordem e score), `rota` do roteamento SALVE,
+  `tipo_saida`/`origem_retencao` (que camada decidiu), `resposta_original`
+  das retidas e a temperatura/seed efetivos do LLM.
+
+`resposta_original` só existe no banco: nunca volta na resposta do
+`/perguntar` (fica em atributo privado de `PerguntarResponse`) nem aparece
+na interface. É texto que a verificação de fundamentação reteve.
 
 Gravar nunca derruba a requisição: se o pool for None (PostgreSQL
 indisponível, ver backend/db.py) ou a escrita falhar, só loga um aviso e
@@ -16,8 +27,29 @@ from psycopg.types.json import Json
 from psycopg_pool import ConnectionPool
 
 from backend.schemas import ChunkRecuperado, Citacao
+from backend.services.roteamento import detectar_filtros_salve, detectar_fonte_prioritaria
 
 log = logging.getLogger(__name__)
+
+
+def descrever_rota(pergunta: str, fontes: list[str] | None) -> dict | None:
+    """O que `roteamento.buscar_chunks_priorizados` decide para esta
+    pergunta, no formato gravado na coluna `rota`.
+
+    None quando o roteamento não roda (o cliente mandou `fontes`). Quando
+    roda: `fonte_prioritaria` (None se a pergunta não casou com o padrão) e
+    os `filtros` de metadado SALVE aplicados à busca prioritária.
+
+    Reproduz as mesmas condições de `buscar_chunks_priorizados` com as
+    mesmas funções puras, em vez de mudar a assinatura daquela função (que
+    está fora do escopo desta mudança). `tests/test_logging_interacoes.py`
+    confere a equivalência contra `buscar_chunks_priorizados`.
+    """
+    if fontes:
+        return None
+    fonte_prioritaria = detectar_fonte_prioritaria(pergunta)
+    filtros = detectar_filtros_salve(pergunta) if fonte_prioritaria == "salve" else {}
+    return {"fonte_prioritaria": fonte_prioritaria, "filtros": filtros}
 
 
 def registrar_interacao(
@@ -34,6 +66,12 @@ def registrar_interacao(
     chunks: list[ChunkRecuperado],
     modelo_llm: str,
     tempo_resposta_ms: int,
+    rota: dict | None = None,
+    tipo_saida: str | None = None,
+    origem_retencao: str | None = None,
+    resposta_original: str | None = None,
+    llm_temperatura: float | None = None,
+    llm_seed: int | None = None,
 ) -> int | None:
     if pool is None:
         return None
@@ -49,6 +87,7 @@ def registrar_interacao(
         }
         for c in chunks
     ]
+    chunk_ids = [{"chunk_id": c.chunk_id, "score": c.score} for c in chunks]
     try:
         with pool.connection() as conn:
             cur = conn.execute(
@@ -57,8 +96,11 @@ def registrar_interacao(
                     pergunta, top_k, fontes_filtro, resposta,
                     evidencia_suficiente, resposta_fundamentada,
                     justificativa_groundedness, citacoes, chunks_recuperados,
-                    modelo_llm, tempo_resposta_ms
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    modelo_llm, tempo_resposta_ms,
+                    chunk_ids, rota, tipo_saida, origem_retencao,
+                    resposta_original, llm_temperatura, llm_seed
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
+                          %s, %s, %s, %s, %s, %s, %s)
                 RETURNING id
                 """,
                 (
@@ -75,6 +117,14 @@ def registrar_interacao(
                     Json(chunks_meta),
                     modelo_llm,
                     tempo_resposta_ms,
+                    Json(chunk_ids),
+                    Json(rota) if rota is not None else None,
+                    tipo_saida,
+                    origem_retencao,
+                    # Só para retidas, mesmo que quem chama mande algo.
+                    resposta_original if not resposta_fundamentada else None,
+                    llm_temperatura,
+                    llm_seed,
                 ),
             )
             interacao_id = cur.fetchone()[0]

@@ -2,7 +2,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, PrivateAttr
 
 
 class ChunkRecuperado(BaseModel):
@@ -161,6 +161,12 @@ class PerguntarResponse(BaseModel):
         default=None,
         description="Só no modo de avaliação (incluir_contextos=true); None nas requisições normais.",
     )
+
+    # Só para o log (backend/services/logging_db.py). Atributos privados do
+    # Pydantic nunca são serializados: a resposta original de uma retida não
+    # pode chegar ao usuário fora do modo de avaliação.
+    _origem_retencao: OrigemRetencao | None = PrivateAttr(default=None)
+    _resposta_original: str | None = PrivateAttr(default=None)
 
 
 class FeedbackRequest(BaseModel):

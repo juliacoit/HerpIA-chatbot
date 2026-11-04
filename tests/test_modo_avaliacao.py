@@ -12,8 +12,7 @@ Requisitos testados:
 import pytest
 
 from backend.config import Settings
-from backend.services.geracao import gerar_resposta, montar_prompt
-from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA
+from backend.services.geracao import MENSAGEM_RETENCAO, gerar_resposta, montar_prompt
 from backend.services.llm import ContextoExcedidoError
 from tests.conftest import LLMFalso
 
@@ -45,7 +44,10 @@ def test_sem_flag_resposta_inalterada(cliente_api):
     r = cliente.post("/perguntar", json={"pergunta": PERGUNTA})
     assert r.status_code == 200
     corpo = r.json()
-    assert set(corpo) == CHAVES_ORIGINAIS | {"avaliacao"}
+    # `tipo_saida` passou a vir sempre (2026-11, estado "sem evidência" na
+    # interface); `avaliacao` continua None fora do modo de avaliação.
+    assert set(corpo) == CHAVES_ORIGINAIS | {"avaliacao", "tipo_saida"}
+    assert corpo["tipo_saida"] == "gerada"
     assert corpo["avaliacao"] is None
     assert corpo["id"] == 42
     assert corpo["resposta"] == RESPOSTA_OK
@@ -99,7 +101,7 @@ def test_modo_avaliacao_preenche_e_nao_registra(cliente_api, chunks):
 def test_modo_avaliacao_retida_traz_resposta_original(cliente_api):
     cliente, estado = cliente_api([RESPOSTA_OK, JUIZ_NAO], permitir_modo_avaliacao=True)
     corpo = cliente.post("/perguntar", json={"pergunta": PERGUNTA, "incluir_contextos": True}).json()
-    assert corpo["resposta"] == MENSAGEM_NAO_FUNDAMENTADA
+    assert corpo["resposta"] == MENSAGEM_RETENCAO
     assert corpo["avaliacao"]["tipo_saida"] == "retida_groundedness"
     assert corpo["avaliacao"]["origem_retencao"] == "juiz_llm"
     assert corpo["avaliacao"]["resposta_original"] == RESPOSTA_OK
@@ -166,7 +168,7 @@ async def test_caminho_abstencao_sem_juiz(chunks):
 @pytest.mark.asyncio
 async def test_caminho_retida_lexical(chunks):
     resultado, llm = await _gerar([RESPOSTA_FABRICADA], chunks)
-    assert resultado.resposta == MENSAGEM_NAO_FUNDAMENTADA
+    assert resultado.resposta == MENSAGEM_RETENCAO
     assert resultado.avaliacao.tipo_saida == "retida_groundedness"
     assert resultado.avaliacao.origem_retencao == "lexical"
     assert resultado.avaliacao.resposta_original == RESPOSTA_FABRICADA

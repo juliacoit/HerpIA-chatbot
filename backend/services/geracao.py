@@ -24,7 +24,7 @@ from backend.schemas import (
     PerguntarResponse,
     TipoSaida,
 )
-from backend.services.groundedness import MENSAGEM_NAO_FUNDAMENTADA, verificar_groundedness_detalhado
+from backend.services.groundedness import verificar_groundedness_detalhado
 from backend.services.llm import ContextoExcedidoError, LLMClient
 
 # SEI nunca está indexado (ver CLAUDE.md, "Fontes de dados" — acesso restrito,
@@ -49,6 +49,26 @@ def _pergunta_pede_sei_nao_indexado(pergunta: str, chunks: list[ChunkRecuperado]
         c.fonte == "sei" for c in chunks
     )
 
+
+# Mensagem exibida no lugar de uma resposta retida pela verificação. Até
+# 2026-11 era `groundedness.MENSAGEM_NAO_FUNDAMENTADA`, que manda o usuário
+# "consultar diretamente as fontes citadas abaixo" — mas abaixo de uma
+# retida só há trechos recuperados, não verificados, muitas vezes sem
+# relação com a pergunta (#794, diagnóstico da sessão RAN de 26/10). O texto
+# fica aqui, e não em groundedness.py, porque quem troca a resposta pela
+# mensagem é este módulo; o verificador não muda.
+MENSAGEM_RETENCAO = (
+    "Não foi possível confirmar que a resposta gerada está totalmente "
+    "apoiada nos trechos recuperados da base de conhecimento, então ela "
+    "foi retida para evitar apresentar uma informação não verificada. "
+    "Tente reformular a pergunta de forma mais específica."
+)
+
+MENSAGEM_CONTEXTO_EXCEDIDO = (
+    "Não foi possível gerar a resposta: os trechos recuperados para esta "
+    "pergunta são longos demais para o modelo de linguagem. Tente uma "
+    "pergunta mais específica."
+)
 
 PROMPT_SISTEMA = (
     "Você é um assistente do RAN/ICMBio especializado em répteis e anfíbios "
@@ -203,6 +223,7 @@ async def gerar_resposta(
             citacoes=[],
             evidencia_suficiente=False,
             resposta_fundamentada=False,
+            tipo_saida="sem_chunks",
             avaliacao=_dados_avaliacao("sem_chunks", []) if incluir_avaliacao else None,
         )
 
@@ -223,6 +244,7 @@ async def gerar_resposta(
                 "Verificação estrutural: a pergunta menciona SEI, mas nenhum "
                 "chunk recuperado é da fonte 'sei' (ainda não indexada)."
             ),
+            tipo_saida="sei_nao_indexado",
             # Os chunks foram recuperados, mas não chegaram a ir para um prompt.
             avaliacao=_dados_avaliacao("sei_nao_indexado", []) if incluir_avaliacao else None,
         )
@@ -235,16 +257,12 @@ async def gerar_resposta(
         # trechos) e o modelo respondia mesmo assim.
         return PerguntarResponse(
             pergunta=pergunta,
-            resposta=(
-                "Não foi possível gerar a resposta: os trechos recuperados "
-                "para esta pergunta são longos demais para o modelo de "
-                "linguagem. Tente uma pergunta mais específica ou consulte "
-                "diretamente as fontes citadas abaixo."
-            ),
+            resposta=MENSAGEM_CONTEXTO_EXCEDIDO,
             citacoes=montar_citacoes(chunks),
             evidencia_suficiente=True,
             resposta_fundamentada=False,
             justificativa_groundedness=f"Resposta não gerada: {exc}.",
+            tipo_saida="contexto_excedido",
             avaliacao=_dados_avaliacao("contexto_excedido", chunks) if incluir_avaliacao else None,
         )
 
@@ -259,23 +277,31 @@ async def gerar_resposta(
         if not fundamentada:
             print(f"[groundedness] resposta retida — {justificativa}\nResposta original: {resposta}")
             resposta_original = resposta
-            resposta = MENSAGEM_NAO_FUNDAMENTADA
+            resposta = MENSAGEM_RETENCAO
+
+    # Mesma regra de antes (que só valia no modo de avaliação), agora
+    # calculada sempre: a interface precisa de `abstencao` para o estado
+    # "sem evidência", e o log grava o caminho de toda interação.
+    if not fundamentada:
+        tipo_saida: TipoSaida = "retida_groundedness"
+    elif origem == "abstencao":
+        tipo_saida = "abstencao"
+    else:
+        tipo_saida = "gerada"
+    origem_retencao = origem if not fundamentada else None
 
     avaliacao = None
     if incluir_avaliacao:
-        if not fundamentada:
-            avaliacao = _dados_avaliacao("retida_groundedness", chunks, resposta_original, origem)
-        elif origem == "abstencao":
-            avaliacao = _dados_avaliacao("abstencao", chunks)
-        else:
-            avaliacao = _dados_avaliacao("gerada", chunks)
+        avaliacao = _dados_avaliacao(tipo_saida, chunks, resposta_original, origem_retencao)
 
-    return PerguntarResponse(
+    resultado = PerguntarResponse(
         pergunta=pergunta,
         resposta=resposta,
         citacoes=montar_citacoes(chunks),
         evidencia_suficiente=True,
         resposta_fundamentada=fundamentada,
         justificativa_groundedness=justificativa if not fundamentada else None,
+        tipo_saida=tipo_saida,
         avaliacao=avaliacao,
     )
+    return resultado

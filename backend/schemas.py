@@ -24,7 +24,6 @@ class ChunkRecuperado(BaseModel):
     parte: int | None = None
 
 
-
 class BuscaRequest(BaseModel):
     pergunta: str = Field(min_length=1, description="Pergunta em linguagem natural")
     top_k: int = Field(default=5, ge=1, le=20)
@@ -95,7 +94,7 @@ class ContextoAvaliacao(BaseModel):
 TipoSaida = Literal[
     "gerada",               # texto do LLM aprovado pelo juiz (ou groundedness desligado)
     "abstencao",            # abstenção pura, aprovada pela camada 0 sem chamar o juiz
-    "retida_groundedness",  # texto do LLM substituído por MENSAGEM_NAO_FUNDAMENTADA
+    "retida_groundedness",  # texto do LLM substituído por geracao.MENSAGEM_RETENCAO
     "sem_chunks",
     "sei_nao_indexado",
     "contexto_excedido",
@@ -149,6 +148,14 @@ class PerguntarResponse(BaseModel):
     justificativa_groundedness: str | None = Field(
         default=None,
         description="Motivo da retenção quando resposta_fundamentada é False.",
+    )
+    tipo_saida: TipoSaida | None = Field(
+        default=None,
+        description=(
+            "Caminho de saída da geração (o mesmo de `avaliacao.tipo_saida`), "
+            "sempre preenchido: a interface usa `abstencao` para mostrar o "
+            "estado 'sem evidência'."
+        ),
     )
     avaliacao: DadosAvaliacao | None = Field(
         default=None,

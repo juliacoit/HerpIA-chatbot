@@ -26,3 +26,4 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [**Chunking dos documentos autorizados**](chunking.md) | Chunking | ✅ Em produção (Monitora/PANs/SALVE); 🔶 SEI e publicações pendentes |
 | [Geração de embeddings](embeddings.md) | Embeddings → Banco vetorial | A definir |
 | [Coleta de gabaritos da avaliação RAGAS](coleta_gabaritos_ran.md) | Avaliação | 🔶 Em desenvolvimento (retorno do RAN previsto para o início de novembro de 2026) |
+| [Experimento: Lumi-4B como gerador](experimento_lumi_4b.md) | Geração (experimento, fora da produção) | 🔶 Em desenvolvimento (Fase 2, aguardando aprovação do Modelfile) |

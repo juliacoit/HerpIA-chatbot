@@ -106,32 +106,56 @@ def montar_prompt(pergunta: str, chunks: list[ChunkRecuperado]) -> str:
     return f"{PROMPT_SISTEMA}\n\nTrechos recuperados:\n{trechos}\n\nPergunta: {pergunta}\n\nResposta:"
 
 
+def _chave_citacao(c: ChunkRecuperado) -> tuple:
+    """Chave de agrupamento de chunks em citações.
+
+    PDFs (Monitora/PANs) são identificados pelas páginas: chunks do mesmo
+    documento com o mesmo intervalo de páginas viram uma citação só (o
+    mesmo PDF indexado em duas categorias, por exemplo). Fichas SALVE não
+    têm página: até 2026-11 a chave era a mesma dos PDFs, e todas as seções
+    de uma ficha colapsavam numa citação com o texto do primeiro chunk —
+    18,9% dos chunks enviados ao LLM nunca apareciam na tela
+    (diagnosticos/2026-11-04_sessao_supervisionada_ran.md, H1). Sem página,
+    a chave passa a ser a seção e a parte da seção.
+    """
+    if c.pagina_inicio is None and c.pagina_fim is None:
+        return (c.fonte, c.documento, "secao", c.secao, c.parte)
+    return (c.fonte, c.documento, "paginas", c.pagina_inicio, c.pagina_fim)
+
+
+SEPARADOR_TRECHOS = "\n\n[…]\n\n"
+
+
 def montar_citacoes(chunks: list[ChunkRecuperado]) -> list[Citacao]:
-    # Dedupe por (fonte, documento, página) — não por seção. `secao` não
-    # aparece na citação exibida ao usuário, então dois chunks do mesmo
-    # documento/página mas de seções diferentes (ex.: "história natural" e
-    # "ameaças" da mesma ficha SALVE) produziam citações visualmente
-    # idênticas e repetidas (ver diagnosticos/teste-perguntas-dominio.md,
-    # achado 5).
-    vistas = set()
-    citacoes = []
+    """Uma citação por chave de `_chave_citacao`, na ordem do primeiro chunk
+    de cada uma (a ordem de relevância do retrieval).
+
+    Garantia de cobertura: toda citação vem de pelo menos um chunk do
+    prompt, e o texto de todo chunk do prompt está no `texto` de alguma
+    citação. Quando dois chunks de PDF diferentes caem na mesma chave
+    (partes vizinhas no mesmo intervalo de páginas), os textos distintos
+    são concatenados com `SEPARADOR_TRECHOS`, em vez de o segundo sumir.
+    """
+    por_chave: dict[tuple, Citacao] = {}
+    textos: dict[tuple, list[str]] = {}
     for c in chunks:
-        chave = (c.fonte, c.documento, c.pagina_inicio, c.pagina_fim)
-        if chave in vistas:
-            continue
-        vistas.add(chave)
-        citacoes.append(
-            Citacao(
+        chave = _chave_citacao(c)
+        if chave not in por_chave:
+            por_chave[chave] = Citacao(
                 fonte=c.fonte,
                 documento=c.documento,
                 secao=c.secao,
+                parte=c.parte if chave[2] == "secao" else None,
                 pagina_inicio=c.pagina_inicio,
                 pagina_fim=c.pagina_fim,
                 url_origem=c.url_origem,
-                texto=c.texto,
             )
-        )
-    return citacoes
+            textos[chave] = []
+        if c.texto and c.texto not in textos[chave]:
+            textos[chave].append(c.texto)
+    for chave, citacao in por_chave.items():
+        citacao.texto = SEPARADOR_TRECHOS.join(textos[chave]) or None
+    return list(por_chave.values())
 
 
 def _dados_avaliacao(

@@ -89,6 +89,8 @@ def buscar_chunks(
             url_origem=r.payload.get("url_origem"),
             caminho_local=r.payload.get("caminho_local"),
             nivel_sensibilidade=r.payload.get("nivel_sensibilidade"),
+            chunk_id=r.payload.get("chunk_id"),
+            parte=r.payload.get("parte"),
         )
         for r in resultados
         if r.payload

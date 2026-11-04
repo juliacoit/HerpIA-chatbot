@@ -35,8 +35,8 @@ class LLMFalso(LLMClient):
 
 
 def criar_chunks() -> list[ChunkRecuperado]:
-    # Duas seções do mesmo documento/página: montar_citacoes deduplica, os
-    # contextos da avaliação não podem deduplicar.
+    # Duas seções da mesma ficha SALVE (sem página): montar_citacoes faz uma
+    # citação por seção; os contextos da avaliação são um por chunk.
     return [
         ChunkRecuperado(
             score=0.81, fonte="salve", documento="Ficha Bothrops marmoratus",

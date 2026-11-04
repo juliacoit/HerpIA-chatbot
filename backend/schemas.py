@@ -18,6 +18,11 @@ class ChunkRecuperado(BaseModel):
     url_origem: str | None = None
     caminho_local: str | None = None
     nivel_sensibilidade: str | None = None
+    # Identificadores do payload, só para rastreabilidade (log e citação por
+    # parte da seção). Não entram no prompt nem na ordenação.
+    chunk_id: str | None = None
+    parte: int | None = None
+
 
 
 class BuscaRequest(BaseModel):
@@ -49,6 +54,13 @@ class Citacao(BaseModel):
     fonte: str
     documento: str
     secao: str | None = None
+    parte: int | None = Field(
+        default=None,
+        description=(
+            "Parte da seção da ficha SALVE (uma seção longa vira vários "
+            "chunks). None para PDFs, que são identificados pelas páginas."
+        ),
+    )
     pagina_inicio: int | None = None
     pagina_fim: int | None = None
     url_origem: str | None = None

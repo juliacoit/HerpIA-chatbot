@@ -88,8 +88,11 @@ def test_modo_avaliacao_preenche_e_nao_registra(cliente_api, chunks):
     for c in contextos:
         assert c["texto"] in estado["llm"].prompts[0]
     assert [c["nivel_sensibilidade"] for c in contextos] == ["autorizado"] * 3
-    # Citações deduplicam (2 chunks da mesma ficha); contextos não.
-    assert len(corpo["citacoes"]) == 2
+    # Desde 2026-11 as citações de ficha SALVE são por seção: as 2 seções
+    # da mesma ficha viram 2 citações (antes colapsavam em 1, H1 do
+    # diagnóstico da sessão RAN). Contextos continuam 1 por chunk.
+    assert len(corpo["citacoes"]) == 3
+    assert [c["secao"] for c in corpo["citacoes"]] == ["Ameaças", "Categoria", None]
     assert "X-LLM-Uso" in r.headers
 
 

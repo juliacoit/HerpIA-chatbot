@@ -14,6 +14,7 @@ Rodar:
     streamlit run interface/app.py
 """
 
+import apresentacao
 import streamlit as st
 import tema
 from cliente_api import ErroAPI, enviar_feedback, perguntar, verificar_saude
@@ -28,24 +29,15 @@ if "historico" not in st.session_state:
     st.session_state.historico = []
 
 
-def _pagina_str(citacao: dict) -> str | None:
-    inicio = citacao.get("pagina_inicio")
-    if not inicio:
-        return None
-    fim = citacao.get("pagina_fim")
-    if fim and fim != inicio:
-        return f"p. {inicio}–{fim}"
-    return f"p. {inicio}"
-
-
-def _renderizar_citacao(citacao: dict, indice: int, chave: str) -> None:
-    # Cartão numerado (design-system/components/rag/CitationCard.jsx) em vez
-    # de expander: metadado (chip de fonte, página) sempre visível, título
-    # em negrito, link "Abrir fonte". O texto do chunk (citacao["texto"])
-    # não faz parte do CitationCard de referência, mas continua exposto
-    # aqui — é o que permite conferir a fonte exata sem sair da interface
-    # (ver docs/processos/interface_streamlit.md) — dentro de um expander
-    # aninhado só para esse trecho, não para o cartão inteiro.
+def _renderizar_documento(grupo: dict, indice: int, chave: str) -> None:
+    # Cartão numerado por documento (design-system/components/rag/CitationCard.jsx):
+    # chip de fonte, título em negrito e link "Abrir fonte" sempre visíveis.
+    # Desde 2026-11 o cartão agrupa todos os trechos do documento enviados ao
+    # LLM — cada seção da ficha SALVE (ou intervalo de páginas do PDF) num
+    # expander próprio. Antes era um cartão por citação, e as seções de uma
+    # ficha colapsavam numa só (diagnóstico da sessão RAN de 26/10, H1).
+    # O texto do chunk não faz parte do CitationCard de referência, mas
+    # continua exposto (ver docs/processos/design_system.md).
     with st.container(border=True):
         col_numero, col_corpo = st.columns([1, 14], gap="small")
         with col_numero:
@@ -58,29 +50,43 @@ def _renderizar_citacao(citacao: dict, indice: int, chave: str) -> None:
                 unsafe_allow_html=True,
             )
         with col_corpo:
-            linha_meta = tema.chip_fonte(citacao["fonte"])
-            pagina = _pagina_str(citacao)
-            if pagina:
-                linha_meta += (
-                    f'<span style="font-family:\'IBM Plex Mono\',monospace; font-size:13px;'
-                    f' color:{tema.CORES["text_muted"]}; margin-left:8px;">{pagina}</span>'
-                )
-            st.markdown(linha_meta, unsafe_allow_html=True)
-            st.markdown(f"**{citacao['documento']}**")
-            if citacao.get("secao"):
-                st.caption(citacao["secao"])
-            if citacao.get("url_origem"):
+            st.markdown(tema.chip_fonte(grupo["fonte"]), unsafe_allow_html=True)
+            st.markdown(f"**{grupo['documento']}**")
+            primeiro = grupo["trechos"][0]
+            if primeiro.get("pagina_inicio") and primeiro.get("secao"):
+                # PDF: a "seção" é a categoria de coleta (ex.: materiais-de-apoio).
+                st.caption(primeiro["secao"])
+            if grupo.get("url_origem"):
                 # Sem a seta "↗": design-system/readme.md (Iconografia) proíbe
                 # caractere unicode como ícone. O external-link do
                 # CitationCard.jsx entra pelo CSS de tema.aplicar_estilo(), que
                 # mira esta chave — o href vem do backend e não pode ser
                 # interpolado em HTML injetado.
                 with st.container(key=f"citacao-link-{chave}"):
-                    st.markdown(f"[Abrir fonte]({citacao['url_origem']})")
-            texto = citacao.get("texto")
-            if texto:
-                with st.expander("Ver trecho recuperado"):
-                    st.text(texto)
+                    st.markdown(f"[Abrir fonte]({grupo['url_origem']})")
+            for rotulo, trecho in zip(apresentacao.rotulos_trechos(grupo), grupo["trechos"]):
+                texto = trecho.get("texto")
+                if texto:
+                    with st.expander(rotulo):
+                        st.text(texto)
+
+
+def _renderizar_citacoes(citacoes: list[dict], estado: str, chave: str) -> None:
+    grupos = apresentacao.agrupar_citacoes(citacoes)
+    if not grupos:
+        return
+    titulo = apresentacao.titulo_trechos(estado)
+    resumo = apresentacao.resumo_citacoes(grupos)
+    if titulo is None:
+        st.caption(f"Citações: {resumo}")
+        for i, grupo in enumerate(grupos, start=1):
+            _renderizar_documento(grupo, i, chave=f"{chave}-{i}")
+        return
+    # Retida ou sem evidência: os trechos não sustentam uma resposta, então
+    # não são "citações" — ficam recolhidos, com título que diz isso.
+    with st.expander(f"{titulo} — {resumo}", expanded=False):
+        for i, grupo in enumerate(grupos, start=1):
+            _renderizar_documento(grupo, i, chave=f"{chave}-{i}")
 
 
 @st.dialog("O que faltou nesta resposta?")
@@ -118,21 +124,14 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
     )
     st.write(item["resposta"])
 
-    if item.get("evidencia_suficiente") is False:
-        tema.faixa_estado("sem_evidencia")
-    elif item.get("resposta_fundamentada") is False:
-        tema.faixa_estado("retida")
+    estado = apresentacao.estado_resposta(item)
+    tema.faixa_estado(estado)
+    if estado == apresentacao.ESTADO_RETIDA:
         justificativa = item.get("justificativa_groundedness")
         if justificativa:
             st.caption(f"Motivo da retenção: {justificativa}")
-    else:
-        tema.faixa_estado("fundamentada")
 
-    citacoes = item.get("citacoes") or []
-    if citacoes:
-        st.caption(f"Citações ({len(citacoes)})")
-        for i, citacao in enumerate(citacoes, start=1):
-            _renderizar_citacao(citacao, i, chave=f"{idx}-{i}")
+    _renderizar_citacoes(item.get("citacoes") or [], estado, chave=str(idx))
 
     interacao_id = item.get("id")
     feedback_enviado = item.get("feedback_enviado")

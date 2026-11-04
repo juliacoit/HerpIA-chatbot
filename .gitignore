@@ -58,3 +58,10 @@ volumes/
 # Logs
 *.log
 logs/
+
+# Pesos de modelos (experimentos com LLM local) — nunca versionar.
+# Os arquivos ficam fora do repositório (ex.: ~/experimentos-llm/); estas
+# regras são só uma proteção a mais.
+*.gguf
+*.safetensors
+modelos/

@@ -19,6 +19,36 @@ Próximos passos: exportar os documentos técnicos dos 173 processos (passo 4 de
 (passo 5). O `status_exportacao` dos 173 processos no JSON já está `"autorizado"`
 (atualizado em 2026-11-06, com o campo `decisao_equipe_ran` no topo do arquivo).
 
+## Piloto de exportação manual (preparado em 2026-11-06)
+
+Antes de exportar os 173 processos, um piloto com 10 mede o tempo real da exportação
+pela interface do SEI e mostra como os arquivos saem (PDF com texto ou imagem). O
+resultado orienta a escolha entre exportar tudo manualmente ou propor um download por
+script, que exigiria um ADR novo (o ADR 0004 proíbe os scripts de ler conteúdo).
+
+- **Script:** `scripts/coleta/montar_piloto_exportacao_sei.py` (só lê o JSON e o CSV; não
+  acessa o SEI).
+- **Saída:** `01_fontes_web/sei/piloto_exportacao_sei.xlsx`, fora do git porque os títulos
+  dos documentos trazem nomes de pessoas. Abas: Instruções, Processos (uma linha por
+  processo, com colunas para quem exportou, minutos gastos, formato e se o PDF tem texto) e
+  Documentos (os 49 documentos técnicos a exportar, com coluna "exportado").
+- **Escolha:** os 10 blocos com mais processos autorizados, um processo por bloco; em cada
+  bloco, o processo com número de documentos técnicos mais perto de um alvo entre 1 e 16
+  (mediana do conjunto: 3; percentil 90: 16). Resultado: processos com 1, 1, 2, 3, 3, 4, 4,
+  5, 10 e 16 documentos técnicos, 49 no total (4,1% dos 1.197).
+- **Destino:** `04_documentos_pendentes_avaliacao/sei/<número do processo com "-" no lugar
+  de "/">/`. As 10 pastas já existem.
+- **Cuidados descritos na planilha:** não enviar os arquivos por serviço externo (ainda não
+  passaram pela avaliação de sensibilidade) e não exportar documentos de acesso restrito,
+  só anotar (decisão em aberto no ADR 0004).
+
+Com a planilha preenchida: estimar o tempo total pelos minutos por documento, extrair o
+texto dos arquivos (`extrair_texto_pdfs.py`), rodar a triagem automática de dados pessoais e
+fazer a avaliação humana de sensibilidade antes de mover para `03_documentos_autorizados/sei/`.
+
+Em 2026-11-06 o `status_exportacao` de `processos_docs.csv` (1.197 linhas) também passou para
+`autorizado`, alinhado ao JSON.
+
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 
 Uma análise manual de `processos_docs.csv` (gerado em 2026-07-03) encontrou dois

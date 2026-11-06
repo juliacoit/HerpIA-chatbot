@@ -73,7 +73,8 @@ palavras de restrição — com trechos de exemplo em `trechos_exemplo` (`[p.X |
 > publicações autorizadas**. Ficaram em branco 9 linhas que são marcadores de
 > lacuna, não documentos: as 5 `N/A` e 4 arquivos "NN - Falta.docx" que a triagem
 > automática tinha classificado como MÉDIO (têm 11–12 caracteres; a observação da
-> linha explica). A cópia do Google Drive ainda não foi alterada.
+> linha explica). A cópia do Google Drive foi substituída pela local em 2026-11-06
+> (conferido: 303 `autorizado`).
 >
 > Premissa da decisão: o acesso fica restrito aos servidores do RAN, o que torna o
 > login um pré-requisito antes de indexar as publicações.

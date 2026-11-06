@@ -1,6 +1,6 @@
 # Triagens pendentes de revisão — sensibilidade (Monitora/PANs) e copyright (publicações)
 
-- **Status:** Planilha 1 (sensibilidade Monitora/PANs): revisão humana pendente, 0 decisões. Planilha 2 (copyright das publicações): **resolvida pela equipe do RAN em 2026-11-06**, 307 de 307 publicações autorizadas
+- **Status:** Planilha 1 (sensibilidade Monitora/PANs): revisão humana pendente, 0 decisões. Planilha 2 (copyright das publicações): **resolvida pela equipe do RAN em 2026-11-06**, 303 publicações autorizadas (as 9 linhas restantes são marcadores de lacuna)
 - **Última atualização:** 2026-11-06
 - **Responsável(eis):** Equipe do RAN/ICMBio (decisão humana — não automatizável)
 
@@ -67,11 +67,13 @@ palavras de restrição — com trechos de exemplo em `trechos_exemplo` (`[p.X |
 > liberou o uso de todas, incluindo os 7 anais do CBH. A classificação de risco
 > abaixo fica como registro histórico.
 >
-> Na cópia local da planilha, as 249 linhas sem decisão (7 ALTO e 242 MÉDIO)
+> Na cópia local da planilha, 245 linhas sem decisão (7 ALTO e 238 MÉDIO)
 > passaram para `decisao = autorizado`, `revisado_por = Equipe do RAN`,
-> `data_revisao = 2026-11-06`. Com as 58 de risco BAIXO já autorizadas, são 307
-> publicações autorizadas. As 5 linhas `N/A` são marcadores de lacuna, não
-> documentos, e ficaram em branco. A cópia do Google Drive não foi alterada.
+> `data_revisao = 2026-11-06`. Com as 58 de risco BAIXO já autorizadas, são **303
+> publicações autorizadas**. Ficaram em branco 9 linhas que são marcadores de
+> lacuna, não documentos: as 5 `N/A` e 4 arquivos "NN - Falta.docx" que a triagem
+> automática tinha classificado como MÉDIO (têm 11–12 caracteres; a observação da
+> linha explica). A cópia do Google Drive ainda não foi alterada.
 >
 > Premissa da decisão: o acesso fica restrito aos servidores do RAN, o que torna o
 > login um pré-requisito antes de indexar as publicações.

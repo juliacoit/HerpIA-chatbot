@@ -77,12 +77,14 @@ do estado atual até o protótipo funcional validado com usuários.
 - [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
 - [x] **Copyright liberado pela equipe do RAN** (2026-11-06): nenhuma restrição, porque o
   HerpIA é de uso interno, exclusivo dos servidores do RAN. A equipe analisou todas
-  manualmente e liberou todas, incluindo os anais do CBH. Planilha local preenchida (307
-  autorizadas; 5 marcadores `N/A` em branco)
+  manualmente e liberou todas, incluindo os anais do CBH. Planilha local preenchida (303
+  autorizadas; 9 marcadores de lacuna em branco)
 - [x] Avaliar cada publicação antes de mover para `03_documentos_autorizados/` — análise
   manual da equipe do RAN concluída em 2026-11-06, todas liberadas
-- [ ] Mover as 249 publicações recém-autorizadas para `03_documentos_autorizados/publicacoes/`
-  (hoje só estão lá as 58 de risco BAIXO) e seguir para extração e chunking
+- [x] Extrair o texto das 303 publicações e colocar os JSON em
+  `03_documentos_autorizados/publicacoes/` (2026-11-06; 0 erros, 3 por OCR)
+- [ ] Chunking, embeddings e indexação das publicações (`gerar_chunks.py` hoje só conhece
+  monitora, pans e salve)
 - [ ] **Decidir como versionar os PDFs**: vários arquivos excedem o limite de tamanho do
   GitHub (um arquivo de 130 MB e outros entre 50–90 MB já bloquearam um `git push`) — decidir
   entre Git LFS, manter os binários fora do git (como já é feito para `01_fontes_web/**/documentos/`,

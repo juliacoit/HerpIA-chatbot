@@ -21,7 +21,7 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [**Seleção de processos do SEI para exportação**](selecao_processos_sei.md) | Fontes de dados → Extração | 🔶 Seleção validada pela equipe do RAN (2026-11-06: 173 mantidos, 244 descartados); exportação manual pendente |
 | [**Extração de texto de PDFs (Monitora e PANs)**](extracao_pdfs.md) | Extração e limpeza | ✅ Em produção |
 | [**Extração de texto das fichas SALVE**](extracao_texto_salve.md) | Extração e limpeza | ✅ Em produção |
-| [**Catalogação das publicações científicas do RAN**](catalogacao_publicacoes.md) | Fontes de dados → Extração | 🔶 Catálogo revisado; todas liberadas pela equipe do RAN (2026-11-06, uso interno); falta mover para `03_documentos_autorizados/` |
+| [**Catalogação das publicações científicas do RAN**](catalogacao_publicacoes.md) | Fontes de dados → Extração | 🔶 Catálogo revisado; todas liberadas pela equipe do RAN (2026-11-06, uso interno); 303 em `03_documentos_autorizados/publicacoes/`; chunking pendente |
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |
 | [**Chunking dos documentos autorizados**](chunking.md) | Chunking | ✅ Em produção (Monitora/PANs/SALVE); 🔶 SEI e publicações pendentes |
 | [Geração de embeddings](embeddings.md) | Embeddings → Banco vetorial | A definir |

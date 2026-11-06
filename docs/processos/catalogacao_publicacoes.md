@@ -1,6 +1,6 @@
 # Catalogação das publicações científicas do RAN
 
-- **Status:** 🔶 Catálogo revisado; todas as publicações liberadas pela equipe do RAN em 2026-11-06 (uso interno, análise manual); falta mover para `03_documentos_autorizados/`
+- **Status:** 🔶 Catálogo revisado; todas as publicações liberadas pela equipe do RAN em 2026-11-06 (uso interno, análise manual); 303 extraídas e em `03_documentos_autorizados/publicacoes/`; chunking pendente
 - **Última atualização:** 2026-11-06
 - **Responsável(eis):** Script `scripts/coleta/catalogar_publicacoes_ran.py`
 
@@ -162,9 +162,20 @@ copiado para este repositório além do que já está registrado aqui.
 copyright para nenhuma publicação, porque o HerpIA é de uso interno, exclusivo dos servidores
 do RAN. A equipe informou que todas foram analisadas manualmente e liberou o uso de todas,
 **incluindo os anais do CBH inteiros**. A recomendação abaixo de indexar só os resumos do RAN
-fica superada. Os riscos descritos abaixo ficam como registro da avaliação preliminar. Os
-arquivos ainda não foram movidos para `03_documentos_autorizados/publicacoes/`, onde hoje só
-estão as 58 de risco BAIXO.
+fica superada. Os riscos descritos abaixo ficam como registro da avaliação preliminar.
+
+Em 2026-11-06, o texto das 303 publicações autorizadas foi extraído com
+`scripts/processamento/extrair_texto_publicacoes.py --ocr` e os JSON copiados para
+`03_documentos_autorizados/publicacoes/` (mesmo padrão das 58 de julho: os PDFs/DOCX
+originais continuam em `02_publicacoes_cientificas_ran/`). Resultado: 303 JSON, 33,3 milhões
+de caracteres, 0 erros, 3 PDFs escaneados lidos por OCR. Os 7 anais do CBH somam cerca de
+7,7 milhões de caracteres. Dez DOCX têm menos de 500 caracteres (ex.: "1 - Silva et al,
+2010_falta matéria.docx"): pelo nome, parecem guardar só a referência, não o texto.
+
+Na mesma execução foi corrigido um erro do script com os arquivos `casado_faixa` (um arquivo
+para vários números da planilha, como "22 a 30 - Lacava e Balestra, 2019.pdf"): o catálogo
+guarda uma lista de metadados para eles. Agora os metadados da faixa são mesclados (valores
+distintos separados por " | ").
 
 **Avaliação preliminar por grupo** (decisão final de sensibilidade/copyright ainda cabe à
 equipe do RAN, conforme [ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md)):

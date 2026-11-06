@@ -93,7 +93,9 @@ Para ligar o login, defina `AUTH_EXIGIR=tudo` (ou `feedback`) no `.env` e reinic
 - **Aparência no navegador:** conferida em 2026-10-09 com Chromium, contra um backend mínimo de teste (sem banco).
 - **Não testado:** o fluxo contra o backend completo com o banco real.
 
-Os testes foram scripts descartáveis, feitos antes de o repositório ganhar a suíte `tests/` (pytest); ainda não há testes de autenticação nela.
+Esses testes foram scripts descartáveis. Desde 2026-11-06 a suíte `tests/` tem `tests/test_autenticacao.py` (18 testes, sem banco): hash de senha, a regra de quem exige sessão em cada modo de `AUTH_EXIGIR` (401, e 503 sem PostgreSQL) e o `usuario_id` no log junto com as colunas da sessão RAN de 26/10.
+
+**Integração (2026-11-06):** a branch foi rebaseada sobre `fix/citacoes-estados-logging`. Conflitos em `perguntar.py` e `logging_db.py` (as duas branches acrescentam colunas ao log: ficaram todas, 19 valores no INSERT), `interface/app.py` (imports) e `design_system.md` (duas seções novas). Backup do estado anterior em `backup/feature-login-pre-rebase-2026-11-06`.
 
 ## Decisões da equipe do RAN (2026-10-07)
 

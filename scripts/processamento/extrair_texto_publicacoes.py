@@ -96,12 +96,41 @@ def carregar_autorizados() -> list[dict]:
     ]
 
 
+def mesclar_metadados_faixa(itens: list[dict]) -> dict:
+    """Junta os metadados de um arquivo que cobre vários números da planilha
+    (status "casado_faixa", ex.: "22 a 30 - Lacava e Balestra, 2019.pdf").
+
+    Campo igual em todos os itens fica como está; campos diferentes viram os
+    valores distintos, na ordem da planilha, separados por " | ".
+    """
+    mesclado = {}
+    for campo in ("autor", "titulo", "ano", "fonte", "doi", "tipologia"):
+        valores = []
+        for item in itens:
+            valor = item.get(campo)
+            if valor not in (None, "") and valor not in valores:
+                valores.append(valor)
+        if not valores:
+            mesclado[campo] = None
+        elif len(valores) == 1:
+            mesclado[campo] = valores[0]
+        else:
+            mesclado[campo] = " | ".join(str(v) for v in valores)
+    return mesclado
+
+
 def carregar_metadados_catalogo() -> dict[str, dict]:
     """Cria dicionário caminho → metadados bibliográficos do catálogo."""
     if not CATALOGO_JSON.exists():
         return {}
     dados = json.loads(CATALOGO_JSON.read_text(encoding="utf-8"))
-    return {a["caminho"]: (a.get("metadados") or {}) for a in dados.get("arquivos", [])}
+    resultado = {}
+    for arquivo in dados.get("arquivos", []):
+        metadados = arquivo.get("metadados") or {}
+        if isinstance(metadados, list):
+            metadados = mesclar_metadados_faixa(metadados)
+        resultado[arquivo["caminho"]] = metadados
+    return resultado
 
 
 def processar_pdf(caminho_pdf: Path, linha_triagem: dict, metadados_catalogo: dict, usar_ocr: bool) -> dict:

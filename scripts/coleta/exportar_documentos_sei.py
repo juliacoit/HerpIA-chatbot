@@ -110,9 +110,21 @@ class ClienteSEI:
     """Sessão no SEI que só aceita requisições às ações de ACOES_PERMITIDAS."""
 
     def __init__(self, login: str, senha: str):
-        self._login, self._senha = login, senha
+        self._login_usuario, self._senha = login, senha
         self.sessao = criar_sessao()
-        self.pagina_atual = fazer_login(self.sessao, login, senha)
+        self.pagina_atual = self._login()
+
+    def _login(self) -> BeautifulSoup:
+        """Login com novas tentativas só em queda de conexão. Login recusado
+        (RuntimeError) não é repetido: tentativas erradas seguidas podem
+        ativar o captcha do SEI ou bloquear a conta."""
+        for espera in (*ESPERAS_REDE, None):
+            try:
+                return fazer_login(self.sessao, self._login_usuario, self._senha)
+            except ERROS_DE_REDE:
+                if espera is None:
+                    raise
+                time.sleep(espera)
 
     def _conferir(self, url: str) -> str:
         acao = acao_da_url(url)
@@ -152,7 +164,7 @@ class ClienteSEI:
             dados["txtPesquisaRapida"] = numero
             resp = self._com_novas_tentativas(lambda: self.sessao.post(url_abs, data=dados, timeout=90))
             if self._sessao_expirou(resp) and tentativa == 1:
-                self.pagina_atual = fazer_login(self.sessao, self._login, self._senha)
+                self.pagina_atual = self._login()
                 continue
             if acao_da_url(resp.url) != "procedimento_trabalhar":
                 raise RuntimeError(f"pesquisa não abriu o processo (ação {acao_da_url(resp.url)!r})")

@@ -68,7 +68,11 @@ PILOTO_XLSX = RAIZ / "01_fontes_web" / "sei" / "piloto_exportacao_sei.xlsx"
 MANIFESTO = RAIZ / "01_fontes_web" / "sei" / "exportacao_sei_manifesto.json"
 DESTINO = RAIZ / "04_documentos_pendentes_avaliacao" / "sei"
 
-ATRASO = 1.5  # segundos entre requisições
+ATRASO = 1.5  # segundos entre requisições (padrão; ajustável com --atraso)
+ESPERAS_REDE = (20, 60)  # segundos antes de cada nova tentativa após queda de conexão
+# Status que não mudam numa nova execução: o documento não é reaberto.
+STATUS_FINAIS = {"baixado", "cancelado_no_sei", "pulado_restrito"}
+ERROS_DE_REDE = (requests.ConnectionError, requests.Timeout, requests.exceptions.ChunkedEncodingError)
 
 # Únicas ações do SEI que o script pode chamar (todas de leitura).
 ACOES_PERMITIDAS = {
@@ -119,12 +123,23 @@ class ClienteSEI:
     def _sessao_expirou(self, resp: requests.Response) -> bool:
         return "login.php" in resp.url
 
+    def _com_novas_tentativas(self, fazer):
+        """Executa a requisição; em queda de conexão ou demora do SEI, espera
+        e tenta de novo (ESPERAS_REDE), sem aumentar o ritmo."""
+        for espera in (*ESPERAS_REDE, None):
+            time.sleep(ATRASO)
+            try:
+                resp = fazer()
+                resp.raise_for_status()
+                return resp
+            except ERROS_DE_REDE:
+                if espera is None:
+                    raise
+                time.sleep(espera)
+
     def get(self, url: str, timeout: int = 60) -> requests.Response:
         url_abs = self._conferir(url)
-        time.sleep(ATRASO)
-        resp = self.sessao.get(url_abs, timeout=timeout)
-        resp.raise_for_status()
-        return resp
+        return self._com_novas_tentativas(lambda: self.sessao.get(url_abs, timeout=timeout))
 
     def abrir_processo(self, numero: str) -> BeautifulSoup:
         """Abre o processo pela pesquisa rápida; refaz o login uma vez se a sessão caiu."""
@@ -135,9 +150,7 @@ class ClienteSEI:
             url_abs = self._conferir(form["action"])
             dados = {i.get("name"): i.get("value", "") for i in form.find_all("input") if i.get("name")}
             dados["txtPesquisaRapida"] = numero
-            time.sleep(ATRASO)
-            resp = self.sessao.post(url_abs, data=dados, timeout=60)
-            resp.raise_for_status()
+            resp = self._com_novas_tentativas(lambda: self.sessao.post(url_abs, data=dados, timeout=90))
             if self._sessao_expirou(resp) and tentativa == 1:
                 self.pagina_atual = fazer_login(self.sessao, self._login, self._senha)
                 continue
@@ -247,6 +260,8 @@ def exportar_processo(cliente: ClienteSEI, numero: str, esperados: list[str], ma
         reg = manifesto["documentos"].get(num_doc)
         if reg and reg["status"] == "baixado" and (RAIZ / reg["arquivo"]).exists():
             resultado["ja_baixado"] += 1
+        elif reg and reg["status"] in STATUS_FINAIS - {"baixado"}:
+            resultado[f"ja_{reg['status']}"] += 1
         else:
             pendentes.append(num_doc)
     if not pendentes:
@@ -295,11 +310,15 @@ def exportar_processo(cliente: ClienteSEI, numero: str, esperados: list[str], ma
 
 
 def main() -> None:
+    global ATRASO
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     grupo = parser.add_mutually_exclusive_group()
     grupo.add_argument("--piloto", action="store_true", help="Só os 10 processos do piloto")
     grupo.add_argument("--processo", action="append", metavar="NUMERO", help="Só este processo (pode repetir)")
+    parser.add_argument("--atraso", type=float, default=ATRASO,
+                        help=f"Segundos entre requisições (padrão {ATRASO}). Aumente se o SEI estiver lento.")
     args = parser.parse_args()
+    ATRASO = max(1.0, args.atraso)
 
     login, senha = os.environ.get("SEI_LOGIN"), os.environ.get("SEI_SENHA")
     if not login or not senha:

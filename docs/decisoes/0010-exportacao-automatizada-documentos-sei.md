@@ -44,7 +44,11 @@ O script `scripts/coleta/exportar_documentos_sei.py` funciona com estas travas:
 - **Restritos e sigilosos ficam de fora.** Um documento cujo nó na árvore mencione
   "restrito" ou "sigiloso" é pulado e registrado. A decisão sobre documentos de acesso
   restrito continua em aberto (ADR 0004). Documentos cancelados no SEI também são pulados.
-- **Ritmo de uso humano.** Pausa de 1,5 s entre requisições e uma sessão por execução.
+- **Ritmo de uso humano.** Pausa de 1,5 s entre requisições (`--atraso` para aumentar) e uma
+  sessão por execução. Em queda de conexão ou demora do SEI, espera 20 s e depois 60 s antes de
+  tentar de novo, sem acelerar. Na exportação completa de 2026-11-06, as demoras ficaram
+  frequentes (um processo a cada seis, no meio da tarde) e a execução foi retomada com
+  `--atraso 3`.
 - **Nada do conteúdo no terminal.** O script imprime só números, contagens, tipos e
   tamanhos. Isso importa porque a saída do terminal pode ser lida por um assistente de IA
   com API externa, e os documentos ainda não passaram pela avaliação de sensibilidade.

@@ -75,11 +75,14 @@ do estado atual até o protótipo funcional validado com usuários.
   Na cópia local, as 58 publicações de risco BAIXO estão marcadas `autorizado` (2026-07-14); as
   7 de risco ALTO e as 242 de risco MÉDIO seguem sem decisão
 - [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
-- [ ] Avaliar sensibilidade/copyright de cada publicação antes de mover para
-  `03_documentos_autorizados/` — atenção especial aos anais de congresso (copyright de
-  terceiros — Sociedade Brasileira de Herpetologia) e aos artigos publicados em revistas
-  externas (copyright da editora); publicações institucionais do próprio RAN (boletins,
-  HerpetoPAN, ICMBio em Foco) têm risco mais baixo
+- [x] **Copyright liberado pela equipe do RAN** (2026-11-06): nenhuma restrição, porque o
+  HerpIA é de uso interno, exclusivo dos servidores do RAN. A equipe analisou todas
+  manualmente e liberou todas, incluindo os anais do CBH. Planilha local preenchida (307
+  autorizadas; 5 marcadores `N/A` em branco)
+- [x] Avaliar cada publicação antes de mover para `03_documentos_autorizados/` — análise
+  manual da equipe do RAN concluída em 2026-11-06, todas liberadas
+- [ ] Mover as 249 publicações recém-autorizadas para `03_documentos_autorizados/publicacoes/`
+  (hoje só estão lá as 58 de risco BAIXO) e seguir para extração e chunking
 - [ ] **Decidir como versionar os PDFs**: vários arquivos excedem o limite de tamanho do
   GitHub (um arquivo de 130 MB e outros entre 50–90 MB já bloquearam um `git push`) — decidir
   entre Git LFS, manter os binários fora do git (como já é feito para `01_fontes_web/**/documentos/`,
@@ -113,7 +116,9 @@ do estado atual até o protótipo funcional validado com usuários.
 - [ ] **Regenerar catálogo de blocos após a revisão feita pela equipe** (requer autorização da
   Júlia) — o `blocos_internos.json` atual (43 blocos, 16 prioritários) é de 2026-06-30,
   anterior à revisão
-- [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
+- [x] **Decidir com a equipe do RAN** quais processos têm autorização para exportação
+  (2026-11-06): os 173 selecionados ficam, os 244 descartados saem. `status_exportacao` no
+  JSON atualizado para `"autorizado"`
 - [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
 

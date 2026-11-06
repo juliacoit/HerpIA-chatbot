@@ -1,7 +1,7 @@
 # Triagens pendentes de revisão — sensibilidade (Monitora/PANs) e copyright (publicações)
 
-- **Status:** Triagem automática concluída; revisão humana pendente (Planilha 1: 0 decisões; Planilha 2: 58 de 312)
-- **Última atualização:** 2026-10-20
+- **Status:** Planilha 1 (sensibilidade Monitora/PANs): revisão humana pendente, 0 decisões. Planilha 2 (copyright das publicações): **resolvida pela equipe do RAN em 2026-11-06**, 307 de 307 publicações autorizadas
+- **Última atualização:** 2026-11-06
 - **Responsável(eis):** Equipe do RAN/ICMBio (decisão humana — não automatizável)
 
 ## O problema
@@ -61,6 +61,21 @@ palavras de restrição — com trechos de exemplo em `trechos_exemplo` (`[p.X |
 
 ## Planilha 2 — Copyright: publicações científicas do RAN
 
+> **Decisão da equipe do RAN (2026-11-06):** não há restrição de copyright para
+> nenhuma das publicações, porque o HerpIA é uma aplicação interna, de uso exclusivo
+> dos servidores do RAN. A equipe informou que todas foram analisadas manualmente e
+> liberou o uso de todas, incluindo os 7 anais do CBH. A classificação de risco
+> abaixo fica como registro histórico.
+>
+> Na cópia local da planilha, as 249 linhas sem decisão (7 ALTO e 242 MÉDIO)
+> passaram para `decisao = autorizado`, `revisado_por = Equipe do RAN`,
+> `data_revisao = 2026-11-06`. Com as 58 de risco BAIXO já autorizadas, são 307
+> publicações autorizadas. As 5 linhas `N/A` são marcadores de lacuna, não
+> documentos, e ficaram em branco. A cópia do Google Drive não foi alterada.
+>
+> Premissa da decisão: o acesso fica restrito aos servidores do RAN, o que torna o
+> login um pré-requisito antes de indexar as publicações.
+
 - **Arquivo:** [`06_inventario/triagem_copyright_publicacoes.xlsx`](../../06_inventario/triagem_copyright_publicacoes.xlsx)
 - **Aba `Triagem`:** 312 publicações, uma por linha
 - **Aba `Resumo`:** contagem por risco
@@ -91,10 +106,10 @@ Só depois desse fluxo os documentos correspondentes devem seguir para a Fase 4
 
 ## Outras avaliações pendentes fora dessas duas planilhas
 
-- **SEI:** 173 processos já pré-selecionados automaticamente (v2, 2026-07-13), mas a autorização de
-  exportação ainda depende de decisão da equipe do RAN — ver
-  [`selecao_processos_sei.md`](selecao_processos_sei.md). Depois da exportação, cada
-  documento ainda precisa de avaliação de sensibilidade individual.
+- **SEI:** a seleção de 173 processos (v2, 2026-07-13) foi validada pela equipe do RAN em
+  2026-11-06, e os 244 descartados ficam fora — ver
+  [`selecao_processos_sei.md`](selecao_processos_sei.md). Falta a exportação manual; depois
+  dela, cada documento ainda precisa de avaliação de sensibilidade individual.
 - **PANs — sensibilidade documento a documento:** pelo menos 1 documento (portaria GAT do
   PAN Quelônios) já foi avaliado individualmente e classificado como sensível, em
   `05_documentos_sensiveis_nao_indexar/pans/pan-quelonios/ciclo-1/`. Essa avaliação é

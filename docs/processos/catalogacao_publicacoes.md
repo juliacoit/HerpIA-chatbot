@@ -1,7 +1,7 @@
 # Catalogação das publicações científicas do RAN
 
-- **Status:** 🔶 Em execução (catálogo inicial gerado; revisão manual e classificação de sensibilidade pendentes)
-- **Última atualização:** 2026-07-07
+- **Status:** 🔶 Catálogo revisado; todas as publicações liberadas pela equipe do RAN em 2026-11-06 (uso interno, análise manual); falta mover para `03_documentos_autorizados/`
+- **Última atualização:** 2026-11-06
 - **Responsável(eis):** Script `scripts/coleta/catalogar_publicacoes_ran.py`
 
 ## Objetivo
@@ -157,6 +157,14 @@ PDFs/DOCX não é lido durante a catalogação em si (apenas o nome do arquivo e
 de duplicatas, o hash MD5 dos bytes — não o texto). A revisão manual dos 18 casos acima abriu
 alguns arquivos pontualmente para identificar sua natureza; nenhum conteúdo de documento foi
 copiado para este repositório além do que já está registrado aqui.
+
+**Decisão de copyright (2026-11-06):** a equipe do RAN concluiu que não há restrição de
+copyright para nenhuma publicação, porque o HerpIA é de uso interno, exclusivo dos servidores
+do RAN. A equipe informou que todas foram analisadas manualmente e liberou o uso de todas,
+**incluindo os anais do CBH inteiros**. A recomendação abaixo de indexar só os resumos do RAN
+fica superada. Os riscos descritos abaixo ficam como registro da avaliação preliminar. Os
+arquivos ainda não foram movidos para `03_documentos_autorizados/publicacoes/`, onde hoje só
+estão as 58 de risco BAIXO.
 
 **Avaliação preliminar por grupo** (decisão final de sensibilidade/copyright ainda cabe à
 equipe do RAN, conforme [ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md)):

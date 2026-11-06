@@ -1,11 +1,23 @@
 # Seleção de processos do SEI para exportação
 
-- **Status:** Lista gerada (173 processos, v2 — ver correção de 2026-07-13); autorização de exportação pendente com a equipe do RAN
-- **Última atualização:** 2026-07-13
+- **Status:** Seleção validada pela equipe do RAN em 2026-11-06 (173 processos mantidos, 244 descartados); exportação manual pendente
+- **Última atualização:** 2026-11-06
 - **Script:** `scripts/classificacao/selecionar_processos_sei.py` (lê o catálogo bruto já coletado, não acessa o SEI de novo)
 - **Arquivo resultante:** `01_fontes_web/sei/processos_para_exportacao.json`
 - **Documentos técnicos por processo (linha a linha):** `01_fontes_web/sei/processos_docs.csv`
 - **Processos descartados (com motivo):** `01_fontes_web/sei/processos_descartados.json` (e `.csv`)
+
+## Decisão da equipe do RAN (2026-11-06)
+
+A equipe analisou a triagem v2 com a Júlia e validou as duas listas: os 244
+descartados ficam fora e os 173 selecionados ficam na lista de exportação. Ver
+"Atualização 2026-11-06" no
+[ADR 0004](../decisoes/0004-criterios-selecao-documentos-sei.md).
+
+Próximos passos: exportar os documentos técnicos dos 173 processos (passo 4 de
+"Como usar" abaixo) e avaliar a sensibilidade de cada documento exportado
+(passo 5). O `status_exportacao` dos 173 processos no JSON já está `"autorizado"`
+(atualizado em 2026-11-06, com o campo `decisao_equipe_ran` no topo do arquivo).
 
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 

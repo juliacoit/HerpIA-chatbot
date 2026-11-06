@@ -1,7 +1,7 @@
 # 0004. Critérios de seleção de documentos do SEI/ICMBio para indexação
 
-- **Status:** Decisão parcial tomada — triagem por blocos internos implementada; autorização de exportação pendente
-- **Data:** 2026-06-26 (atualizado 2026-06-30 e 2026-10-20)
+- **Status:** Seleção validada pela equipe do RAN (2026-11-06) — 173 processos mantidos, 244 descartados; exportação e avaliação de sensibilidade por documento pendentes
+- **Data:** 2026-06-26 (atualizado 2026-06-30, 2026-10-20 e 2026-11-06)
 - **Responsável(eis):** Julia Coite
 
 ## Contexto
@@ -152,6 +152,28 @@ finalizados, no formato do SEI. Isso é **outro produto**:
 
 Fica como fase posterior. Precisa de ADR próprio antes de qualquer
 implementação.
+
+## Atualização 2026-11-06
+
+A equipe do RAN analisou com a Júlia a triagem v2 e **validou o resultado**:
+
+- os **244 processos descartados** (`01_fontes_web/sei/processos_descartados.json`)
+  ficam fora da exportação;
+- os **173 processos selecionados** (`01_fontes_web/sei/processos_para_exportacao.json`)
+  ficam na lista de exportação.
+
+O que a decisão **não** resolve:
+
+- a exportação continua manual, feita por um servidor autorizado;
+- cada documento exportado ainda passa por avaliação de sensibilidade
+  individual (ADR 0002) antes de ir para `03_documentos_autorizados/sei/`;
+- as decisões em aberto acima (acesso, dados pessoais, `nivel_sensibilidade`,
+  juiz externo) seguem em aberto.
+
+Com autorização da Júlia, o `status_exportacao` dos 173 processos em
+`processos_para_exportacao.json` passou de `"pendente"` para `"autorizado"`, e o
+arquivo ganhou o campo `decisao_equipe_ran` com a data e o texto da decisão (o
+arquivo fica fora do git).
 
 ## Consequências
 

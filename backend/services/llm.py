@@ -6,6 +6,8 @@ só uma troca de implementação — o resto do pipeline (retrieval, filtro de
 acesso, formatação de citações) não muda.
 """
 
+import re
+import time
 from abc import ABC, abstractmethod
 from contextlib import contextmanager
 from contextvars import ContextVar
@@ -20,6 +22,33 @@ from backend.config import Settings
 _uso_llm: ContextVar[list[dict] | None] = ContextVar("uso_llm", default=None)
 
 LIMIAR_ALERTA_CONTEXTO = 0.85
+
+_BLOCO_PENSAMENTO = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+_ABERTURA_PENSAMENTO = re.compile(r"<think>", re.IGNORECASE)
+_FECHAMENTO_PENSAMENTO = re.compile(r"</think>", re.IGNORECASE)
+
+
+def remover_blocos_pensamento(texto: str) -> str:
+    """Tira o raciocínio (`<think>…</think>`) que vazar para a resposta.
+
+    Com um PARSER no Modelfile (ex.: lumi-4b, nemotron-3-nano), o Ollama já
+    separa o raciocínio no campo `thinking`. Isto é a defesa para modelos sem
+    parser ou para saídas malformadas. Cobre três casos:
+    - bloco completo: removido;
+    - `</think>` sem abertura (o `<think>` veio do template, dentro do prompt):
+      tudo até o último `</think>` é raciocínio;
+    - `<think>` sem fechamento (o modelo não terminou de pensar): nada a
+      partir dele é resposta. Pode sobrar texto vazio, e quem chama trata.
+    Sem tags, devolve o texto idêntico.
+    """
+    texto = _BLOCO_PENSAMENTO.sub("", texto)
+    fechamentos = list(_FECHAMENTO_PENSAMENTO.finditer(texto))
+    if fechamentos:
+        texto = texto[fechamentos[-1].end():]
+    abertura = _ABERTURA_PENSAMENTO.search(texto)
+    if abertura:
+        texto = texto[: abertura.start()]
+    return texto
 
 
 class ContextoExcedidoError(Exception):
@@ -73,6 +102,7 @@ class OllamaLLMClient(LLMClient):
             payload["options"] = self._opcoes
         if self._think is not None:
             payload["think"] = self._think
+        inicio = time.perf_counter()
         async with httpx.AsyncClient(timeout=self._timeout) as client:
             resposta = await client.post(f"{self._base_url}/api/generate", json=payload)
             if resposta.status_code == 400 and "exceed_context_size" in resposta.text:
@@ -82,24 +112,35 @@ class OllamaLLMClient(LLMClient):
                 )
             resposta.raise_for_status()
             corpo = resposta.json()
-        self._registrar_uso(corpo)
-        return corpo["response"].strip()
+        latencia = time.perf_counter() - inicio
+        bruta = corpo["response"]
+        texto = remover_blocos_pensamento(bruta)
+        self._registrar_uso(corpo, latencia, removeu_pensamento=texto != bruta)
+        return texto.strip()
 
-    def _registrar_uso(self, corpo: dict) -> None:
-        """Loga prompt_eval_count/eval_count para detectar prompts perto do
-        limite de contexto (acima dele, generate() levanta ContextoExcedidoError)."""
+    def _registrar_uso(self, corpo: dict, latencia: float, removeu_pensamento: bool = False) -> None:
+        """Loga modelo, think, latência e tokens. O prompt_eval_count serve para
+        detectar prompts perto do limite de contexto (acima dele, generate()
+        levanta ContextoExcedidoError)."""
         num_ctx = self._opcoes.get("num_ctx")
         uso = {
             "prompt_eval_count": corpo.get("prompt_eval_count"),
             "eval_count": corpo.get("eval_count"),
             "num_ctx": num_ctx,
+            "think": self._think,
+            "latencia_s": round(latencia, 2),
         }
         alerta = ""
         if num_ctx and uso["prompt_eval_count"] and uso["prompt_eval_count"] > LIMIAR_ALERTA_CONTEXTO * num_ctx:
             alerta = f" ⚠ acima de {LIMIAR_ALERTA_CONTEXTO:.0%} do contexto"
+        if removeu_pensamento:
+            alerta += " ⚠ tags <think> removidas da resposta"
+        # Só o tamanho do raciocínio separado pelo PARSER, nunca o conteúdo.
+        pensamento = len(corpo.get("thinking") or "")
         print(
-            f"[llm] {self._modelo}: prompt={uso['prompt_eval_count']}/{num_ctx} "
-            f"saída={uso['eval_count']}{alerta}"
+            f"[llm] {self._modelo} think={self._think}: latência={latencia:.1f}s "
+            f"prompt={uso['prompt_eval_count']}/{num_ctx} saída={uso['eval_count']} "
+            f"pensamento={pensamento} chars{alerta}"
         )
         lista = _uso_llm.get()
         if lista is not None:

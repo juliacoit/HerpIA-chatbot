@@ -118,7 +118,7 @@ só para a avaliação offline com RAGAS. Com `PERMITIR_MODO_AVALIACAO=false` (o
 padrão), responde `403` antes de buscar qualquer coisa. Com a trava ligada,
 `avaliacao` traz:
 - `tipo_saida`: `gerada`, `abstencao`, `retida_groundedness`, `sem_chunks`,
-  `sei_nao_indexado` ou `contexto_excedido`;
+  `sei_nao_indexado`, `contexto_excedido` ou `resposta_vazia`;
 - `origem_retencao`: `lexical`, `juiz_llm` ou `juiz_nao_realizado`;
 - `contextos`: os chunks enviados ao prompt, com o `chunk.texto` exato; vazio
   quando não houve prompt;

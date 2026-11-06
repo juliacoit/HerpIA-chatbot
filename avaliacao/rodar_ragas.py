@@ -17,7 +17,7 @@ Para cada caso de avaliacao/casos.jsonl:
 O texto avaliado é o que o LLM local gerou: `resposta` nas saídas `gerada` e
 `abstencao`, e `resposta_original` na `retida_groundedness`, para permitir
 comparar o juiz interno com o RAGAS. As saídas sem texto do LLM (`sem_chunks`,
-`sei_nao_indexado`, `contexto_excedido`) não são avaliadas.
+`sei_nao_indexado`, `contexto_excedido`, `resposta_vazia`) não são avaliadas.
 
 Só vão à API a pergunta, o texto gerado, os trechos recuperados (nunca
 documentos inteiros) e, quando houver, o gabarito. As métricas multimodais
@@ -86,7 +86,7 @@ METRICAS_SEM_REFERENCIA = ("faithfulness", "answer_relevancy")
 METRICAS_COM_REFERENCIA = ("context_precision_with_reference", "context_recall")
 METRICAS = METRICAS_SEM_REFERENCIA + METRICAS_COM_REFERENCIA
 
-TIPOS_SEM_TEXTO_DO_LLM = {"sem_chunks", "sei_nao_indexado", "contexto_excedido"}
+TIPOS_SEM_TEXTO_DO_LLM = {"sem_chunks", "sei_nao_indexado", "contexto_excedido", "resposta_vazia"}
 
 
 class ModoAvaliacaoDesabilitado(RuntimeError):

@@ -224,6 +224,23 @@ async def gerar_resposta(
             avaliacao=_dados_avaliacao("contexto_excedido", chunks) if incluir_avaliacao else None,
         )
 
+    if not resposta:
+        # Com thinking ligado, o modelo pode gastar a saída toda raciocinando
+        # (ou não fechar o <think>). Não há texto para mostrar nem para o juiz.
+        return PerguntarResponse(
+            pergunta=pergunta,
+            resposta=(
+                "Não foi possível gerar a resposta: o modelo de linguagem não "
+                "produziu texto para esta pergunta. Tente novamente ou consulte "
+                "diretamente as fontes citadas abaixo."
+            ),
+            citacoes=montar_citacoes(chunks),
+            evidencia_suficiente=True,
+            resposta_fundamentada=False,
+            justificativa_groundedness="Resposta não gerada: o modelo devolveu texto vazio.",
+            avaliacao=_dados_avaliacao("resposta_vazia", chunks) if incluir_avaliacao else None,
+        )
+
     fundamentada = True
     justificativa = None
     origem = None

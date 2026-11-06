@@ -154,10 +154,10 @@ def test_retida_avalia_a_resposta_original():
     assert r.origem_retencao == "juiz_llm"
 
 
-@pytest.mark.parametrize("tipo", ["sem_chunks", "sei_nao_indexado", "contexto_excedido"])
+@pytest.mark.parametrize("tipo", ["sem_chunks", "sei_nao_indexado", "contexto_excedido", "resposta_vazia"])
 def test_saidas_sem_texto_do_llm_nao_sao_avaliadas(tipo):
     metricas = _metricas()
-    contextos = [] if tipo != "contexto_excedido" else [_contexto()]
+    contextos = [] if tipo not in ("contexto_excedido", "resposta_vazia") else [_contexto()]
     r = _rodar(avaliar_caso(_caso(), _corpo(tipo=tipo, contextos=contextos), metricas))
     assert r.status == "sem_texto_llm"
     assert all(not m.chamadas for m in metricas.values())

@@ -87,6 +87,7 @@ TipoSaida = Literal[
     "sem_chunks",
     "sei_nao_indexado",
     "contexto_excedido",
+    "resposta_vazia",       # o LLM não produziu texto (ex.: só raciocínio, <think> sem fechamento)
 ]
 
 OrigemRetencao = Literal[

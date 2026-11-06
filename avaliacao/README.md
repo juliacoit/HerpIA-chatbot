@@ -77,7 +77,7 @@ python avaliacao/rodar_ragas.py --casos A1 --metricas faithfulness   # smoke tes
   - `resposta_original`, na `retida_groundedness`, para comparar o juiz
     interno com o RAGAS;
   - as saídas sem texto do LLM (`sem_chunks`, `sei_nao_indexado`,
-    `contexto_excedido`) ficam como `sem_texto_llm`.
+    `contexto_excedido`, `resposta_vazia`) ficam como `sem_texto_llm`.
 - **Métricas:**
   - Faithfulness e AnswerRelevancy sempre. A AnswerRelevancy usa o BGE-M3
     local para os embeddings;

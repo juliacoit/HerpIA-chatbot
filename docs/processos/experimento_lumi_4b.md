@@ -1,6 +1,6 @@
 # Experimento: Lumi-4B como gerador do HerpIA
 
-- **Status:** 🔶 Em desenvolvimento. Fases 0, 1 e 2 concluídas; aguardando aprovação para iniciar a Fase 3 (backend)
+- **Status:** 🔶 Em desenvolvimento. Fases 0, 1 e 2 concluídas; Fase 3 implementada, aguardando aprovação do commit
 - **Última atualização:** 2026-11-06
 - **Responsável(eis):** Júlia (decisões), Claude Code (execução supervisionada)
 
@@ -170,9 +170,33 @@ PARAMETER stop "<|im_end|>"
 
 **Ollama.** O servidor nativo foi subido nesta sessão com `OLLAMA_HOST=127.0.0.1:11434` (log em `~/experimentos-llm/ollama-serve-2026-11-06.log`) e continua só em `127.0.0.1`.
 
+### Fase 3: backend (implementada em 2026-11-06, aguardando aprovação do commit)
+
+A Júlia aprovou o início em 2026-11-06. As mudanças:
+
+- `backend/services/llm.py`:
+  - `remover_blocos_pensamento()` aplicada em `generate()`, antes do `strip()`. Cobre bloco completo (um ou vários), `</think>` sem abertura (fica o que vem depois do último), `<think>` sem fechamento (tudo a partir dele sai, e pode sobrar texto vazio) e tags em qualquer caixa. **Sem tags, o texto sai idêntico.**
+  - A linha de log passou a ser `[llm] <modelo> think=<valor>: latência=… prompt=…/num_ctx saída=… pensamento=N chars`. O tamanho do raciocínio vem do campo `thinking` do PARSER, e só o tamanho é registrado. Quando o filtro remove alguma tag, entra o aviso `⚠ tags <think> removidas da resposta`.
+  - O uso registrado por chamada, que vai no header `X-LLM-Uso` lido pela bateria de domínio, ganhou `think` e `latencia_s`.
+- `backend/services/geracao.py` e `backend/schemas.py`: nova saída `tipo_saida="resposta_vazia"`.
+  - Quando o LLM devolve texto vazio, a resposta vira uma mensagem de "não foi possível gerar", com as citações, `resposta_fundamentada=false` e os contextos na avaliação.
+  - O juiz de groundedness **não** é chamado nesse caso.
+- `avaliacao/rodar_ragas.py`, `avaliacao/README.md` e `docs/processos/backend_fastapi.md`: `resposta_vazia` entra entre as saídas sem texto do LLM, que ficam como `sem_texto_llm` e não são avaliadas.
+- `tests/test_llm_pensamento.py` (novo, 18 testes) e um caso a mais no parametrize de `tests/test_rodar_ragas.py`. **A suíte passou de 70 para 89 testes, todos passando.**
+
+**Verificação com o Ollama real**, chamando o `OllamaLLMClient` direto, sem uvicorn e sem gravar no banco:
+
+| Modelo | `think` | Latência | Saída | `thinking` | Tags na resposta |
+|---|---|---|---|---|---|
+| `lumi-4b` | `false` | 9,2 s | 13 tokens | 0 | não |
+| `lumi-4b` | `true` | 30,4 s | 274 tokens | 1.099 caracteres | não |
+| `qwen2.5:3b-instruct` | não enviado | 8,6 s | 102 tokens | 0 | não |
+
+O caminho de produção (qwen2.5, sem `think`) continua igual: o campo não é enviado e o texto não muda. A pergunta de teste não tinha RAG, então as respostas não servem para julgar qualidade, que fica para a Fase 4.
+
 ## Próximo passo (onde paramos)
 
-🛑 **Aguardando aprovação da Júlia para iniciar a Fase 3** (mudanças no backend descritas abaixo). Há outro 🛑 antes de commitar o diff da Fase 3, e outro antes de qualquer execução paga do RAGAS.
+🛑 **Aguardando a Júlia aprovar o commit do diff da Fase 3.** Depois vem a Fase 4 (baterias C1 a C4). Há outro 🛑 antes de qualquer execução paga do RAGAS.
 
 ### Parâmetros já decididos para a Fase 4
 
@@ -188,15 +212,6 @@ PARAMETER stop "<|im_end|>"
 - **Monitoramento durante cada bateria:** `ollama ps` (incluindo a divisão CPU/GPU), RSS do processo e `nvidia-smi`.
 - Falhas técnicas (timeout, OOM, resposta vazia) ficam separadas das falhas de qualidade.
 - **RAGAS:** o custo estimado é de ~US$ 1,90 por configuração com o juiz Sonnet, e exige confirmação antes de rodar. O bloqueio por `nivel_sensibilidade != "autorizado"` não muda.
-
-### Mudanças planejadas no backend (Fase 3)
-
-- `backend/services/llm.py`:
-  - `remover_blocos_pensamento()` aplicada em `generate()`, cobrindo bloco completo, `<think>` sem fechamento e `</think>` sem abertura. Sem tags, o texto sai idêntico;
-  - linha de log com modelo, `think`, latência e tokens.
-- `backend/services/geracao.py` e `backend/schemas.py`: nova saída `tipo_saida="resposta_vazia"`.
-- `avaliacao/rodar_ragas.py`: incluir `resposta_vazia` entre as saídas sem texto do LLM.
-- `tests/test_llm_pensamento.py` (novo).
 
 ## Frequência de execução
 

@@ -15,7 +15,8 @@ Cada arquivo nesta pasta documenta uma decisão técnica ou de processo relevant
 | [0001](0001-stack-tecnologica-inicial.md) | Stack tecnológica inicial | Aceita (LLM externo parcialmente substituído pelo 0006) |
 | [0002](0002-classificacao-de-sensibilidade-em-pastas.md) | Classificação de sensibilidade por pastas | Aceita |
 | [0003](0003-infraestrutura-prototipo-local-antes-de-servidor-dedicado.md) | Infraestrutura: protótipo local antes de servidor dedicado | Aceita |
-| [0004](0004-criterios-selecao-documentos-sei.md) | Critérios de seleção de documentos do SEI/ICMBio para indexação | Decisão parcial tomada |
+| [0004](0004-criterios-selecao-documentos-sei.md) | Critérios de seleção de documentos do SEI/ICMBio para indexação | Seleção validada (2026-11-06); exceção de exportação no 0010 |
 | [0005](0005-escolha-temporaria-modelo-embeddings.md) | Escolha temporária do modelo de embeddings para testes (BGE-M3) | Decisão parcial tomada |
 | [0006](0006-escolha-temporaria-llm-geracao.md) | Escolha temporária do LLM de geração (local, via Ollama) | Decisão parcial tomada |
 | [0007](0007-avaliacao-offline-ragas-juiz-claude.md) | Avaliação offline com RAGAS e juiz Claude via API da Anthropic | Aceita |
+| [0010](0010-exportacao-automatizada-documentos-sei.md) | Exportação automatizada dos documentos técnicos do SEI | Aceita |

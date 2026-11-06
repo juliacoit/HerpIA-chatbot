@@ -30,8 +30,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-BASE_SIP = "https://sei.icmbio.gov.br/sip/"
-BASE_SEI = "https://sei.icmbio.gov.br/sei/"
+BASE_SIP = "https://icmbio.sei.gov.br/sip/"
+BASE_SEI = "https://icmbio.sei.gov.br/sei/"
 LOGIN_URL = (
     BASE_SIP
     + "login.php?sigla_orgao_sistema=ICMBio&sigla_sistema=SEI&infra_url=L3NlaS8="

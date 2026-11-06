@@ -49,6 +49,17 @@ fazer a avaliação humana de sensibilidade antes de mover para `03_documentos_a
 Em 2026-11-06 o `status_exportacao` de `processos_docs.csv` (1.197 linhas) também passou para
 `autorizado`, alinhado ao JSON.
 
+**Atualização (mesmo dia): exportação automatizada.** Com autorização da Júlia, o piloto
+foi feito por script em vez de à mão ([ADR 0010](../decisoes/0010-exportacao-automatizada-documentos-sei.md)):
+`scripts/coleta/exportar_documentos_sei.py --piloto` baixou 46 dos 49 documentos em cerca de
+7,5 minutos (2 cancelados no SEI, 1 fora da árvore atual). A planilha do piloto continua
+útil para conferência manual por amostragem. Para os 173 processos:
+
+```bash
+set -a && . ./.env && set +a
+python scripts/coleta/exportar_documentos_sei.py    # retomável; o manifesto registra cada documento
+```
+
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 
 Uma análise manual de `processos_docs.csv` (gerado em 2026-07-03) encontrou dois

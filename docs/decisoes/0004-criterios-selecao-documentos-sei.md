@@ -164,7 +164,9 @@ A equipe do RAN analisou com a Júlia a triagem v2 e **validou o resultado**:
 
 O que a decisão **não** resolve:
 
-- a exportação continua manual, feita por um servidor autorizado;
+- ~~a exportação continua manual, feita por um servidor autorizado~~ — substituído no
+  mesmo dia pelo [ADR 0010](0010-exportacao-automatizada-documentos-sei.md): exportação
+  automatizada com a credencial da Júlia, como exceção à regra de não ler conteúdo;
 - cada documento exportado ainda passa por avaliação de sensibilidade
   individual (ADR 0002) antes de ir para `03_documentos_autorizados/sei/`;
 - as decisões em aberto acima (acesso, dados pessoais, `nivel_sensibilidade`,

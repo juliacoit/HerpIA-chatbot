@@ -19,7 +19,7 @@ Facilitar o acesso de técnicos e gestores do RAN/ICMBio a informações ambient
 1. **Programa Monitora do ICMBio** — https://www.gov.br/icmbio/pt-br/assuntos/monitoramento
 2. **PANs (Planos de Ação Nacional para Conservação de Espécies Ameaçadas de Extinção)** — https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan
 3. **SALVE** — https://salve.icmbio.gov.br/#/
-4. **SEI/ICMBio** — https://sei.icmbio.gov.br/sip/login.php?sigla_orgao_sistema=ICMBio&sigla_sistema=SEI&infra_url=L3NlaS8= (acesso restrito a usuários autorizados; usar apenas documentos previamente exportados, autorizados e classificados)
+4. **SEI/ICMBio** — https://icmbio.sei.gov.br/sip/login.php?sigla_orgao_sistema=ICMBio&sigla_sistema=SEI&infra_url=L3NlaS8= (acesso restrito a usuários autorizados; usar apenas documentos previamente exportados, autorizados e classificados)
 5. **Publicações científicas dos pesquisadores vinculados ao RAN** — base local de PDFs (artigos científicos, estudos técnicos, relatórios, capítulos e materiais institucionais)
 
 Ver também `01_fontes_web/urls_fontes.md` para detalhes e observações sobre cada fonte.

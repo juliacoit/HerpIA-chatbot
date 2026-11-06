@@ -37,6 +37,10 @@ if "historico" not in st.session_state:
 ESTADO_BACKEND = estado_backend()
 MODO_AUTH = ESTADO_BACKEND["auth_exigir"] if ESTADO_BACKEND else "nada"
 
+if MODO_AUTH != "nada":
+    acesso.restaurar_sessao()
+acesso.sincronizar_cookie()
+
 if (MODO_AUTH == "tudo" and acesso.sessao_atual() is None) or (
     MODO_AUTH != "nada" and st.session_state.get("mostrar_acesso")
 ):

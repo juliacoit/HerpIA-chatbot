@@ -285,6 +285,6 @@ depois do fix.
 - [ ] Persistir a conversa entre recarregamentos de página (hoje é só
   `st.session_state`, perdido a cada refresh) — não é claro se vale a pena
   para um protótipo de validação com usuários, avaliar com a equipe do RAN
-- [ ] Autenticação de usuário — tela de acesso implementada (`interface/acesso.py`), aparece conforme `AUTH_EXIGIR`; falta conferir no navegador e manter a sessão ao recarregar; ver [`autenticacao.md`](autenticacao.md)
+- [x] Autenticação de usuário — tela de acesso (`interface/acesso.py`) conforme `AUTH_EXIGIR`, conferida no navegador; a sessão sobrevive ao recarregar (cookie `herpia_sessao`, desde 2026-11-06); ver [`autenticacao.md`](autenticacao.md)
 - [ ] Avaliar exibir também `POST /buscar` (retrieval sem geração) como modo
   de depuração para a equipe técnica, se for útil durante a validação

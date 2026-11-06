@@ -89,6 +89,21 @@ def primeiro_acesso(usuario: str, codigo_convite: str, senha: str) -> None:
         raise ErroAPI(_detalhe(resposta, "Não foi possível definir a senha."))
 
 
+def usuario_da_sessao(token: str) -> dict | None:
+    """GET /auth/eu — dados do usuário (`usuario`, `nome`) se a sessão ainda
+    vale; None se o backend a recusou. Levanta ErroAPI se o backend não
+    respondeu, para quem chama não confundir "fora do ar" com "sessão expirada"."""
+    try:
+        resposta = httpx.get(f"{API_BASE_URL}/auth/eu", headers=_cabecalhos(token), timeout=10.0)
+    except httpx.HTTPError as exc:
+        raise ErroAPI("O backend não respondeu ao verificar a sessão.") from exc
+    if resposta.status_code == 401:
+        return None
+    if resposta.status_code != 200:
+        raise ErroAPI(_detalhe(resposta, "Não foi possível verificar a sessão."))
+    return resposta.json()
+
+
 def sair(token: str) -> None:
     """POST /auth/sair — encerra a sessão no backend. Falha de rede não
     impede a saída na interface, que esquece o token de qualquer forma."""

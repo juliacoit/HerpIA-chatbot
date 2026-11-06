@@ -8,17 +8,28 @@ Não há autocadastro nem recuperação de senha por e-mail: as contas e os
 códigos de convite saem de `scripts/infra/gerenciar_usuarios.py` (ver
 docs/processos/autenticacao.md).
 
-A sessão fica em `st.session_state.sessao` (token, usuário e nome). Ela vive
-só enquanto a aba do navegador está aberta: recarregar a página pede o login
-de novo, mesma limitação já documentada para o histórico da conversa.
+A sessão fica em `st.session_state.sessao` (token, usuário e nome) e o token
+também num cookie do navegador (`COOKIE_SESSAO`), para a sessão sobreviver ao
+recarregar a página. O histórico da conversa continua só na memória da aba.
 """
+
+import json
+from datetime import datetime, timezone
 
 import streamlit as st
 import tema
-from cliente_api import ErroAPI, entrar, primeiro_acesso
+from cliente_api import ErroAPI, entrar, primeiro_acesso, usuario_da_sessao
 
 _ABAS = ["Entrar", "Primeiro acesso"]
 TAMANHO_MINIMO_SENHA = 10  # mesmo valor de backend/services/auth.py, só para a dica do campo
+
+# Cookie com o token da sessão. O Streamlit lê cookies (st.context.cookies),
+# mas não os grava: a gravação é um <script> injetado com st.html. Por isso o
+# cookie não pode ser HttpOnly. Mitigações: SameSite=Strict, Secure quando a
+# página está em HTTPS, validade igual à da sessão no backend, e o backend
+# confere o token a cada carga (um token encerrado ou expirado não volta).
+COOKIE_SESSAO = "herpia_sessao"
+_VALIDADE_PADRAO_S = 12 * 3600  # AUTH_SESSAO_HORAS padrão, se a resposta não trouxer expira_em
 
 
 def sessao_atual() -> dict | None:
@@ -36,6 +47,67 @@ def encerrar_sessao_local(aviso: str | None = None) -> None:
     st.session_state.sessao = None
     st.session_state.historico = []
     st.session_state.aviso_acesso = aviso
+    _agendar_cookie(None)
+
+
+def _segundos_ate(expira_em: str | None) -> int:
+    try:
+        fim = datetime.fromisoformat(expira_em)
+    except (TypeError, ValueError):
+        return _VALIDADE_PADRAO_S
+    if fim.tzinfo is None:
+        fim = fim.replace(tzinfo=timezone.utc)
+    return max(0, int((fim - datetime.now(timezone.utc)).total_seconds()))
+
+
+def _agendar_cookie(token: str | None, segundos: int = 0) -> None:
+    """Pede a gravação (token) ou a remoção (None) do cookie na próxima vez
+    que `sincronizar_cookie` rodar — a gravação precisa de um elemento na
+    página, e quem chama esta função costuma dar st.rerun() logo depois."""
+    st.session_state.cookie_pendente = {"token": token, "segundos": segundos}
+
+
+def sincronizar_cookie() -> None:
+    """Grava ou apaga o cookie da sessão, se houver pedido pendente. Chamar
+    uma vez por execução, antes de qualquer st.stop()."""
+    pendente = st.session_state.pop("cookie_pendente", None)
+    if pendente is None:
+        return
+    nome = json.dumps(COOKIE_SESSAO)
+    if pendente["token"] and pendente["segundos"] > 0:
+        valor = json.dumps(pendente["token"])
+        validade = int(pendente["segundos"])
+    else:
+        valor, validade = '""', 0
+    st.html(
+        "<script>(function(){"
+        f"var c={nome}+'='+encodeURIComponent({valor})+'; Max-Age={validade}; Path=/; SameSite=Strict';"
+        "if(location.protocol==='https:'){c+='; Secure';}"
+        "document.cookie=c;})();</script>",
+        unsafe_allow_javascript=True,
+    )
+
+
+def restaurar_sessao() -> None:
+    """Se a aba ainda não tem sessão, tenta a do cookie, uma vez por carga
+    da página. O backend decide se o token ainda vale (/auth/eu): sessão
+    encerrada ou expirada apaga o cookie; backend fora do ar não restaura nem
+    apaga. `st.context.cookies` é o que o navegador mandou ao abrir a página,
+    por isso só é lido uma vez: depois de "Sair" ele ainda traz o token antigo."""
+    if sessao_atual() is not None or st.session_state.get("cookie_verificado"):
+        return
+    st.session_state.cookie_verificado = True
+    token = st.context.cookies.get(COOKIE_SESSAO)
+    if not token:
+        return
+    try:
+        usuario = usuario_da_sessao(token)
+    except ErroAPI:
+        return
+    if usuario is None:
+        _agendar_cookie(None)
+        return
+    st.session_state.sessao = {"token": token, "usuario": usuario["usuario"], "nome": usuario["nome"]}
 
 
 def _abrir_sessao(resposta_login: dict) -> None:
@@ -44,6 +116,7 @@ def _abrir_sessao(resposta_login: dict) -> None:
         "usuario": resposta_login["usuario"]["usuario"],
         "nome": resposta_login["usuario"]["nome"],
     }
+    _agendar_cookie(resposta_login["token"], _segundos_ate(resposta_login.get("expira_em")))
     st.session_state.historico = []
     st.session_state.mostrar_acesso = False
     st.session_state.aviso_acesso = None

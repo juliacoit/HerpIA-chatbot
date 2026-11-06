@@ -67,7 +67,9 @@ Na primeira vez que o backend desta versão subir contra o PostgreSQL real, ele 
 - `interface/app.py`: mostra a tela de acesso conforme o modo; na barra lateral, nome e usuário de quem entrou e o botão "Sair". Sair apaga a conversa da tela.
 - `interface/cliente_api.py`: envia o token e trata a sessão expirada (volta à tela de acesso com aviso).
 
-Limitação: a sessão vive só enquanto a aba está aberta. Recarregar a página pede o login de novo, mesma limitação do histórico da conversa.
+**Sessão ao recarregar (desde 2026-11-06):** no login, a interface grava o token num cookie `herpia_sessao` (`interface/acesso.py`). Ao abrir ou recarregar a página sem sessão na memória, ela lê o cookie (`st.context.cookies`) e confere o token em `GET /auth/eu`, uma vez por carga: sessão válida é restaurada; recusada (encerrada ou expirada) apaga o cookie; backend fora do ar não restaura nem apaga. "Sair" e sessão expirada apagam o cookie. O histórico da conversa continua só na memória da aba: recarregar mantém o login, mas começa uma conversa nova.
+
+Cuidados do cookie: o Streamlit lê cookies, mas não os grava, então a gravação é um `<script>` injetado com `st.html(..., unsafe_allow_javascript=True)`, e o cookie não pode ser `HttpOnly` (um script na página consegue lê-lo). Mitigações: `SameSite=Strict`, `Secure` quando a página está em HTTPS, validade igual à da sessão no backend (`AUTH_SESSAO_HORAS`) e a conferência do token no backend a cada carga. O script injetado só leva o nome do cookie e o token, serializados com `json.dumps`.
 
 ## Como usar
 
@@ -119,6 +121,6 @@ Consequências:
 
 - [ ] Definir `AUTH_EXIGIR=tudo` no `.env` do ambiente de validação e criar as quatro contas.
 - [x] Conferir a tela de acesso no navegador contra o kit do design system (2026-10-09, ver `docs/processos/design_system.md`, "Tela de acesso").
-- [ ] Manter a sessão ao recarregar a página.
+- [x] Manter a sessão ao recarregar a página (2026-11-06). Conferido no navegador (Chromium/Playwright) contra o backend com `AUTH_EXIGIR=tudo` e o PostgreSQL real, 10 de 10: sem cookie abre o login; login grava o cookie (`SameSite=Strict`, ~12 h); recarregar e abrir nova aba continuam logados; sair volta ao login e apaga o cookie; recarregar depois de sair pede login; cookie com token inválido não entra e é apagado. A conta de teste foi apagada depois.
 - [ ] Tela de administração e painel de feedbacks por usuário (hoje, script e consulta direta ao banco).
 - [x] Sessão para a bateria de perguntas: com `HERPIA_USUARIO` e `HERPIA_SENHA` no ambiente, `scripts/teste_perguntas_dominio.py` faz login antes de rodar (não testado contra um backend real com login ligado).

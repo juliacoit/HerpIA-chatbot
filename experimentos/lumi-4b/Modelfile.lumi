@@ -1,0 +1,8 @@
+FROM ./lumi-4b-Q4_K_M.gguf
+TEMPLATE {{ .Prompt }}
+RENDERER nemotron-3-nano
+PARSER nemotron-3-nano
+PARAMETER num_ctx 16384
+PARAMETER temperature 0
+PARAMETER top_p 1
+PARAMETER stop "<|im_end|>"

@@ -1,7 +1,7 @@
 # Experimento: Lumi-4B como gerador do HerpIA
 
-- **Status:** 🔶 Em desenvolvimento. Fases 0 e 1 concluídas; Fase 2 parada aguardando aprovação do Modelfile
-- **Última atualização:** 2026-11-04
+- **Status:** 🔶 Em desenvolvimento. Fases 0, 1 e 2 concluídas; aguardando aprovação para iniciar a Fase 3 (backend)
+- **Última atualização:** 2026-11-06
 - **Responsável(eis):** Júlia (decisões), Claude Code (execução supervisionada)
 
 > Experimento isolado. Nada vai para produção nem para o servidor do RAN. Sem as
@@ -30,8 +30,8 @@ condições em quatro configurações:
 ## Saídas
 
 - `~/experimentos-llm/lumi-4b-Q4_K_M.gguf`, **fora do repositório** (o `.gitignore` cobre `*.gguf`, `*.safetensors` e `modelos/`).
-- `experimentos/lumi-4b/Modelfile.lumi`, ainda não criado (Fase 2).
-- Baterias em `diagnosticos/baterias/`, RAGAS em `diagnosticos/ragas/`, relatório `diagnosticos/AAAA-MM-DD_avaliacao_lumi_4b.md` e rascunho do **ADR 0010** com status "Proposta". Os números 0008 e 0009 já estão em uso na branch `fix/citacoes-estados-logging`.
+- `experimentos/lumi-4b/Modelfile.lumi` (Fase 2, aprovado em 2026-11-06). O `ollama create` é rodado a partir de uma cópia idêntica em `~/experimentos-llm/`, porque o `FROM ./lumi-4b-Q4_K_M.gguf` é relativo à pasta do Modelfile.
+- Baterias em `diagnosticos/baterias/`, RAGAS em `diagnosticos/ragas/`, relatório `diagnosticos/AAAA-MM-DD_avaliacao_lumi_4b.md` e rascunho do **ADR 0011** com status "Proposta". Os números 0008 e 0009 estão em uso na branch `fix/citacoes-estados-logging`, e o 0010 (exportação automatizada do SEI) na `docs/decisao-sei-publicacoes`.
 
 ## Ferramentas
 
@@ -47,13 +47,14 @@ Ficam fora do repositório, em `~/experimentos-llm/`, e **não entram no `requir
 |---|---|
 | Commit no HF | `1c8928e189f0fb1380f5f1dab1b2e0a0fb814c6e` (last_modified 2026-10-28) |
 | `model.safetensors` | 7.947.142.640 bytes · SHA256 `067b6a08844bb7b5161fbd2329299c33bf16ce422e1fbb52e24362f4d56d82cf` (confere com o LFS) |
-| `lumi-4b-f16.gguf` | 7.957.646.944 bytes · SHA256 `f85104aa74930b415f8ccd960bd71d9cb989a10e6b6d6cc72867fa9132a49a00` |
-| `lumi-4b-Q4_K_M.gguf` | 2.837.073.248 bytes (5,70 BPW) · SHA256 `78196f3f6d122192702762c9663ca8b53c8b2f923737cd2f6c6234790f247186` |
-| `nemotron-3-nano:4b` | digest `d94b6dfae26d` |
+| `lumi-4b-f16.gguf` (v2) | 7.957.646.880 bytes · SHA256 `e417b9699c42669f0912f0b4b62cf1aef71bb03f369fa318ffad3b85dc6ed8f2` |
+| `lumi-4b-Q4_K_M.gguf` (v2) | 2.837.073.184 bytes (5,70 BPW) · SHA256 `88c664b5a31d2f41c40f658e57b245db8b6628473f74a1f5e51fd12267b079ba` (igual ao blob do `lumi-4b` no Ollama) |
+| `nemotron-3-nano:4b` | digest `d94b6dfae26d` · blob do modelo `sha256:527db2cf…2970` (Q4_K_M) |
 
-Esses dois `.gguf` devem ser substituídos se a reconversão proposta na Fase 2
-for aprovada (ver "Pendências"). Nesse caso, os hashes desta tabela precisam
-ser atualizados.
+A v2 dos GGUFs (2026-11-06) substituiu a v1 só para corrigir `general.name` e
+`general.finetune` (ver Fase 2). Os 263 tensores são idênticos byte a byte nas
+duas versões, tanto no f16 quanto no Q4_K_M. Os hashes da v1 (`f85104aa…`,
+`78196f3f…`) ficaram em `~/experimentos-llm/procedencia-arquivos-apagados.txt`.
 
 ## Passo a passo (o que foi feito)
 
@@ -79,7 +80,7 @@ ser atualizados.
    - As 17 checagens de metadados e tensores contra o `config.json` passaram: arquitetura `nemotron_h`; camadas M/-/* = 21/17/4; FFN 12544 só nas camadas MLP; KV = 8 só nas camadas de atenção; EOS = 11 (`<|im_end|>`).
 8. Quantização Q4_K_M: 51 dos 263 tensores usaram quantização de reserva, porque o `hidden_size` de 3136 não é múltiplo de 256. Isso explica os 5,70 BPW.
 
-### Fase 2: Modelfile (em andamento)
+### Fase 2: Modelfile (concluída em 2026-11-06)
 
 - O pull do `nemotron-3-nano:4b` funcionou, então o Ollama 0.32.9 aceita `nemotron_h`. **Não é preciso atualizar o Ollama.**
 - O Modelfile do Nemotron **não tem TEMPLATE em Go**: usa `TEMPLATE {{ .Prompt }}` com `RENDERER nemotron-3-nano` e `PARSER nemotron-3-nano`, que são código embutido no Ollama.
@@ -97,7 +98,10 @@ ser atualizados.
   - Isso reforça a hipótese de que o Lumi deriva do Nemotron 3 Nano 4B, mas **não a confirma**.
   - Diferenças: o pré-tokenizador é `pixtral` no Lumi e `default` no Nemotron; o `context_length` é 1.048.576 no Lumi e 262.144 no Nemotron.
 
-Modelfile proposto (aguardando aprovação):
+Em 2026-11-06 a Júlia aprovou as três decisões pendentes: o Modelfile, a
+reconversão e o teste de similaridade de pesos.
+
+**Modelfile aprovado** (`experimentos/lumi-4b/Modelfile.lumi`):
 
 ```
 FROM ./lumi-4b-Q4_K_M.gguf
@@ -110,22 +114,65 @@ PARAMETER top_p 1
 PARAMETER stop "<|im_end|>"
 ```
 
+**Reconversão (v2 dos GGUFs).**
+- Mesmo conversor e mesma pasta `CEIA-Lumi-4B-conv/`, com `--metadata metadata-override-lumi.json`: `general.name = "CEIA Lumi 4B"` e `general.finetune` removido.
+- A comparação v1 × v2 mostrou só essas duas chaves diferentes e **0 de 263 tensores diferentes** (SHA256 de cada tensor), no f16 e no Q4_K_M. A quantização é determinística e de novo usou reserva em 51 tensores.
+- Logs: `~/experimentos-llm/conversao-f16-tf4-conv-v2.log` e `quantizacao-v2.log`.
+
+**`ollama create lumi-4b`.** Levou 18 s. O `ollama show` confirma `nemotron_h`, 4,0B, Q4_K_M, as capacidades `completion`/`tools`/`thinking` e os parâmetros do Modelfile.
+
+**Smoke test** pela `/api/generate`, com o mesmo corpo que o backend envia (`num_ctx` 16384, `temperature` 0, `seed` 42), numa pergunta curta sem RAG:
+
+| `think` | Latência total | Carga | Tokens gerados | tok/s | `thinking` | Tags `<think>` na `response` |
+|---|---|---|---|---|---|---|
+| `false` | 20,9 s | 7,5 s (1ª carga) | 64 | 12,7 | vazio | não |
+| `true` | 20,1 s | 0,2 s | 183 | 9,4 | 422 caracteres | não |
+
+- As duas respostas saíram em português, corretas e dentro do limite de três frases.
+- Com `think=true`, o PARSER separou o raciocínio no campo `thinking`, e a `response` veio limpa. **O raciocínio sai em inglês.** Isso não afeta o HerpIA, que usa só a `response`, mas fica registrado.
+- O filtro de `<think>` planejado para a Fase 3 continua útil como defesa (tag sem fechamento, troca de modelo), mas, com este Modelfile, o Ollama já entrega a resposta separada.
+
+**Paridade do tokenizador.** Comparei o `prompt_eval_count` do Ollama com `apply_chat_template` do HF (transformers 4.57.6, `chat_template.jinja` do Lumi), com `think` desligado e ligado e o modelo descarregado entre chamadas, para não haver cache de prompt. Resultado: **8 de 8 iguais**.
+
+| Prompt | Tokens (HF = Ollama) |
+|---|---|
+| Pergunta curta (smoke) | 48 |
+| `montar_prompt` real com 8 chunks autorizados (Monitora/PANs/SALVE) | 6.017 |
+| `montar_prompt` real com 2 chunks | 2.511 |
+| Bordas: acentos, aspas curvas, emoji, tabela Markdown, tab, espaços múltiplos | 99 |
+
+- A contagem é igual com e sem thinking, porque `<think></think>` e `<think>\n` têm o mesmo número de tokens.
+- O teste de bordas cobre a diferença de pré-tokenizador (`pixtral` × `default`) vista na comparação dos GGUFs: ela não muda a contagem nesses textos.
+
+**Recursos** (RTX 2050 com 4 GB, 25 GiB de RAM, WSL2), com `num_ctx` 16384:
+
+- `ollama ps`: 3,4 GB, **58%/42% CPU/GPU**;
+- `nvidia-smi`: 1.446 MiB usados;
+- RSS do `llama-server`: 2,75 GiB.
+- O prompt RAG de 6 mil tokens cabe com folga no `num_ctx`.
+
+**Similaridade de pesos Lumi × `nemotron-3-nano:4b`.**
+- Cosseno entre o Lumi f16 e o Nemotron Q4_K_M dequantizado, em 20 tensores: `token_embd`, `output`, e Mamba, FFN e normas dos blocos 0, 1, 10, 20, 30 e 41.
+- Dois controles:
+  - **teto:** Lumi f16 × Lumi Q4_K_M, que mede só o ruído de quantização;
+  - **piso:** Lumi × Nemotron em outro bloco com a mesma forma.
+
+| Medida | Mediana | Extremo |
+|---|---|---|
+| Lumi × Nemotron | **0,9959** | mín. 0,9913 |
+| Teto (ruído de quantização) | 0,9994 | mín. 0,9972 |
+| Piso (pesos sem relação) | 0,0002 | máx. 0,87 (só nas normas, que são vetores perto de constantes) |
+
+- Os 169 tensores F32 (normas, `ssm_a`, `ssm_d`, conv1d, `dt.bias`) **não são idênticos** bit a bit. As diferenças são pequenas: o |Δ| máximo por tipo vai de 0,016 a 0,06, e `ssm_a` chega a 0,71 porque guarda −exp(A_log).
+- **Leitura:** os pesos do Lumi estão muito perto dos do Nemotron 3 Nano 4B, a distância fica pouco acima do ruído de quantização e muito longe do piso. Isso é forte evidência de que **o Lumi é um ajuste fino a partir dos pesos do Nemotron 3 Nano 4B**, e não um modelo treinado do zero com a mesma arquitetura.
+- O teste **não distingue** se a origem é a versão pós-treinada (a do Ollama) ou outro checkpoint da mesma família, e **não substitui** a confirmação do CEIA.
+- Scripts usados, fora do repositório, em `~/experimentos-llm/scripts-fase2/`: `comparar_gguf.py`, `smoke_lumi.py`, `paridade_{1,2,3}_*.py`, `similaridade_pesos.py` e `f32_identicos.py`. Os prompts da paridade usam chunks reais e por isso não foram guardados.
+
+**Ollama.** O servidor nativo foi subido nesta sessão com `OLLAMA_HOST=127.0.0.1:11434` (log em `~/experimentos-llm/ollama-serve-2026-11-06.log`) e continua só em `127.0.0.1`.
+
 ## Próximo passo (onde paramos)
 
-🛑 **Aguardando três decisões da Júlia:**
-
-1. Aprovar o Modelfile acima.
-2. Reconverter para corrigir os metadados `general.name = "CEIA Lumi 4B Conv"` e `general.finetune = "conv"`, que vieram do nome da pasta de cópia. São cosméticos, mas enganam sobre a procedência. A reconversão leva cerca de 1 minuto e gera hashes novos.
-3. Rodar, se ela quiser, o teste de similaridade de pesos entre Lumi e Nemotron (cosseno de alguns tensores; num fine-tune fica perto de 1) para a pendência sobre o modelo-base.
-
-**Depois da aprovação:**
-
-1. `ollama create lumi-4b`.
-2. Smoke test com `think` false e true.
-3. Teste de paridade do tokenizador (`prompt_eval_count` do Ollama × contagem do HF).
-4. Registro de RAM, divisão CPU/GPU e latência.
-
-Em seguida, a Fase 3 (backend) e a Fase 4 (avaliação). Há 🛑 antes de commitar o diff da Fase 3 e antes de qualquer execução paga do RAGAS.
+🛑 **Aguardando aprovação da Júlia para iniciar a Fase 3** (mudanças no backend descritas abaixo). Há outro 🛑 antes de commitar o diff da Fase 3, e outro antes de qualquer execução paga do RAGAS.
 
 ### Parâmetros já decididos para a Fase 4
 
@@ -163,4 +210,4 @@ Sob demanda. Experimento único, sem rotina.
 - No RAGAS, só vão à API externa casos cujos contextos estejam todos com `nivel_sensibilidade = "autorizado"`.
 - **Pendências que impedem qualquer recomendação de produção:**
   - o card do Lumi não documenta licença;
-  - o modelo-base não está confirmado. Se o Lumi derivar do Nemotron 3 Nano, a *NVIDIA Open Model License* provavelmente se aplica, incluindo o aviso de atribuição na redistribuição.
+  - o modelo-base não está confirmado oficialmente. O teste de similaridade de 2026-11-06 (cosseno mediano de 0,996 com o `nemotron-3-nano:4b`) indica com força que o Lumi deriva dos pesos do Nemotron 3 Nano 4B. Nesse caso, a *NVIDIA Open Model License Agreement* (a mesma que acompanha o `nemotron-3-nano:4b` no Ollama, versão de 24/10/2025) provavelmente se aplica, incluindo o aviso de atribuição na redistribuição. A licença precisa ser confirmada com o CEIA, e essa avaliação não é jurídica.

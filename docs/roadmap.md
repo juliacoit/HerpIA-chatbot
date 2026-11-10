@@ -13,7 +13,7 @@ do estado atual até o protótipo funcional validado com usuários.
 [Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações organizadas (312 arquivos, catálogo inicial); SEI catalogado
 [Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086); piloto de processamento de imagens implementado
 [Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
-[Fase 4] Chunking                 ████████░░  80% — 59.085 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
+[Fase 4] Chunking                 ████████░░  80% — 59.085 chunks (monitora, PANs, SALVE completos) + 24.794 de publicações (2026-11-10, ainda não indexados); SEI pendente (autorização Fase 1.5)
 [Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
 [Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
 [Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade oficial do RAN/ICMBio aplicada e layout reestruturado para bater com o protótipo de referência (interface/tema.py + app.py + design-system/, 2026-09-16 — cor/tipografia/marca oficiais, depois composição: cabeçalho de tela simples, faixa de estado com ícone, citações em cartão, checkboxes de fonte, diálogo de comentário no feedback negativo); falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md e docs/processos/design_system.md)
@@ -83,8 +83,10 @@ do estado atual até o protótipo funcional validado com usuários.
   manual da equipe do RAN concluída em 2026-11-06, todas liberadas
 - [x] Extrair o texto das 303 publicações e colocar os JSON em
   `03_documentos_autorizados/publicacoes/` (2026-11-06; 0 erros, 3 por OCR)
-- [ ] Chunking, embeddings e indexação das publicações (`gerar_chunks.py` hoje só conhece
-  monitora, pans e salve)
+- [x] Chunking das publicações (`gerar_chunks.py --fonte publicacoes`, 2026-11-10): 303
+  documentos → 24.794 chunks, 0 erros
+- [ ] Embeddings e indexação das publicações — só depois de o login existir (liberadas para
+  uso interno do RAN); `indexar_chunks.py` ainda não conhece a fonte
 - [ ] **Decidir como versionar os PDFs**: vários arquivos excedem o limite de tamanho do
   GitHub (um arquivo de 130 MB e outros entre 50–90 MB já bloquearam um `git push`) — decidir
   entre Git LFS, manter os binários fora do git (como já é feito para `01_fontes_web/**/documentos/`,
@@ -239,8 +241,12 @@ e seção "Solução Escolhida (revisada)" em
 - **A Fase 4 só pode ser considerada concluída depois que o SEI passar por essa etapa.**
 
 ### 4.4 Publicações científicas
-- [ ] Reutilizar ou adaptar `gerar_chunks.py` para publicações científicas quando entrarem em `03_documentos_autorizados/` (Fase 1.4)
-  - Considerar incluir metadados bibliográficos (autores, ano, título, DOI) em cada chunk
+- [x] `gerar_chunks.py --fonte publicacoes` (2026-11-10): 303 documentos → 24.794 chunks em `07_processados/chunks/publicacoes/chunks.jsonl`
+  - Mesma janela por página de Monitora/PANs, com cabeçalho bibliográfico (título, autoria, ano, tipo) no texto de cada chunk e metadados do catálogo no payload (`titulo`, `autor`, `ano`, `fonte_bibliografica`, `doi`, `tipologia`)
+  - Arquivo que reúne várias publicações (11) ou sem título no catálogo (18) é identificado no cabeçalho só pelo nome do arquivo
+  - Cada chunk leva `acesso: "interno"`: a liberação foi para uso interno do RAN, então a indexação espera o login
+  - Redação automática igual à de Monitora/PANs (`regras_pii.py`): 198 documentos com ao menos 1 trecho redigido, quase tudo e-mail de autor (3.891), mais 186 coordenadas e 59 telefones; auditoria em `06_inventario/relatorio_anonimizacao_chunks_publicacoes.json`. A redação de coordenadas segue a regra vigente e depende da decisão do ADR 0009 (proposto)
+  - Seções de referências bibliográficas não são removidas: avaliar se atrapalham a recuperação quando a fonte for indexada
 
 ---
 

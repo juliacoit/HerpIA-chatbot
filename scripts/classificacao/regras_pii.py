@@ -10,13 +10,20 @@ Manter as duas etapas na mesma lista evita que detecção (o que a equipe do
 RAN vê na planilha) e redação automática (o que efetivamente é indexado)
 fiquem dessincronizadas.
 
-Por que só alguns padrões são `redigivel=True`: CPF, e-mail, telefone e
-coordenadas são estruturados — o regex tem alta precisão e substituição
+Por que só alguns padrões são `redigivel=True`: CPF, e-mail e telefone são
+dado pessoal estruturado — o regex tem alta precisão e substituição
 automática é seguro. "Palavra de restrição administrativa", "menção a
 localização de espécie" e "dado pessoal genérico" são padrões semânticos —
 o regex serve só para priorizar a revisão humana; redigir automaticamente
 geraria falsos positivos/negativos demais (ex.: apagar a palavra "CPF" de
 uma frase sobre exigência documental, sem nenhum CPF real presente).
+
+Coordenadas não são mais removidas (ADR 0009, decisão da equipe do RAN de
+2026-11-11): coordenadas públicas são autorizadas no HerpIA. Os padrões
+`coordenada_decimal` e `coordenada_dms` continuam na lista com
+`redigivel=False`, para a triagem seguir sinalizando onde elas aparecem. Os
+chunks gerados antes dessa data ainda trazem `[coordenada removida]` até o
+próximo chunking.
 
 Cada item é uma tupla:
     (chave, regex, severidade, descricao, redigivel, placeholder)
@@ -54,16 +61,16 @@ FLAGS = [
         re.compile(r"-?\d{1,2}[.,]\d{4,8}\s*[,;]\s*-?\d{1,3}[.,]\d{4,8}"),
         "ALTA",
         "Par de coordenadas decimais",
-        True,
-        "[coordenada removida]",
+        False,  # ADR 0009: coordenada pública não é removida
+        None,
     ),
     (
         "coordenada_dms",
         re.compile(r"\d{1,3}\s*°\s*\d{1,2}\s*['′]\s*\d{0,2}(?:[.,]\d+)?\s*[\"″]?\s*[NSEWOnsewo]\b"),
         "ALTA",
         "Coordenada em graus/min/seg",
-        True,
-        "[coordenada removida]",
+        False,  # ADR 0009: coordenada pública não é removida
+        None,
     ),
     (
         "utm",

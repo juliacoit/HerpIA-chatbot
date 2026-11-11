@@ -85,12 +85,14 @@ aproximação de ~4 caracteres por token usada no restante do projeto.
 
 0. **Redação automática de dados pessoais (só Monitora/PANs):** antes de dividir
    cada página em unidades, o texto passa por `redigir_texto()`
-   (`scripts/classificacao/regras_pii.py`), que substitui CPF, e-mail pessoal,
-   telefone e coordenadas (decimal ou graus/min/seg) por um placeholder
-   (ex.: `[e-mail removido]`). Monitora e PANs são fontes públicas, mas o PDF
-   individual pode conter dado pessoal de pesquisador/colaborador ou coordenada
-   de ocorrência de espécie embutidos no meio do texto — isso é tratado por
-   chunk, não como bloqueio do documento inteiro (ver
+   (`scripts/classificacao/regras_pii.py`), que substitui CPF, e-mail pessoal
+   e telefone por um placeholder (ex.: `[e-mail removido]`). **Coordenadas não
+   são mais removidas** desde 2026-11-11: a equipe do RAN autorizou as
+   coordenadas públicas ([ADR 0009](../decisoes/0009-coordenadas-de-ocorrencia.md)).
+   Os padrões de coordenada continuam em `regras_pii.py`, só para a triagem
+   sinalizar. Monitora e PANs são fontes públicas, mas o PDF individual pode
+   conter dado pessoal de pesquisador/colaborador embutido no meio do texto —
+   isso é tratado por chunk, não como bloqueio do documento inteiro (ver
    [`triagem_pendente_sensibilidade_copyright.md`](triagem_pendente_sensibilidade_copyright.md)).
    Só os padrões estruturados (regex de alta precisão) são redigidos
    automaticamente; menções semânticas (localização de espécie, palavra de
@@ -160,6 +162,11 @@ graus/min/seg) substituídos por placeholder. Nenhum CPF nem coordenada decimal 
 encontrado nesta execução. Relatório completo (lista dos documentos afetados e
 contagem por tipo) em [`06_inventario/relatorio_anonimizacao_chunks.json`](../../06_inventario/relatorio_anonimizacao_chunks.json)
 (gerado a cada execução do script — não versionado, mesmo status de `chunks.jsonl`).
+
+Esses números são da última execução, anterior ao ADR 0009. Os chunks atuais
+ainda trazem `[coordenada removida]` (3.174 ocorrências em 30 documentos,
+contando a sobreposição entre chunks). Elas só somem quando o chunking rodar de
+novo, o que depende de aprovação.
 
 ## Pendências
 

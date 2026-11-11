@@ -1,7 +1,7 @@
 # Experimento: Lumi-4B como gerador do HerpIA
 
-- **Status:** 🔶 Em desenvolvimento. Fases 0, 1 e 2 concluídas; Fase 3 implementada, aguardando aprovação do commit
-- **Última atualização:** 2026-11-06
+- **Status:** 🔶 Em desenvolvimento. Fases 0 a 3 concluídas; Fase 4 (baterias) em andamento
+- **Última atualização:** 2026-11-11
 - **Responsável(eis):** Júlia (decisões), Claude Code (execução supervisionada)
 
 > Experimento isolado. Nada vai para produção nem para o servidor do RAN. Sem as
@@ -170,9 +170,9 @@ PARAMETER stop "<|im_end|>"
 
 **Ollama.** O servidor nativo foi subido nesta sessão com `OLLAMA_HOST=127.0.0.1:11434` (log em `~/experimentos-llm/ollama-serve-2026-11-06.log`) e continua só em `127.0.0.1`.
 
-### Fase 3: backend (implementada em 2026-11-06, aguardando aprovação do commit)
+### Fase 3: backend (concluída em 2026-11-06, commit `e8d5e43`)
 
-A Júlia aprovou o início em 2026-11-06. As mudanças:
+A Júlia aprovou o início e o commit em 2026-11-06. As mudanças:
 
 - `backend/services/llm.py`:
   - `remover_blocos_pensamento()` aplicada em `generate()`, antes do `strip()`. Cobre bloco completo (um ou vários), `</think>` sem abertura (fica o que vem depois do último), `<think>` sem fechamento (tudo a partir dele sai, e pode sobrar texto vazio) e tags em qualquer caixa. **Sem tags, o texto sai idêntico.**
@@ -194,9 +194,51 @@ A Júlia aprovou o início em 2026-11-06. As mudanças:
 
 O caminho de produção (qwen2.5, sem `think`) continua igual: o campo não é enviado e o texto não muda. A pergunta de teste não tinha RAG, então as respostas não servem para julgar qualidade, que fica para a Fase 4.
 
+### Fase 4: avaliação (em andamento desde 2026-11-06)
+
+A Júlia aprovou o início em 2026-11-06.
+
+**Como cada bateria roda:** `experimentos/lumi-4b/rodar_bateria.sh <rótulo> <modelo> <think> [extras]`. O script:
+- sobe o uvicorn **deste worktree** em `127.0.0.1:8010`, com os parâmetros do LLM na linha de comando;
+- lê o `.env` principal só para leitura, por `uvicorn --env-file`, que não sobrescreve as variáveis passadas. O `.env` não é alterado;
+- passa `QDRANT_LOCAL_PATH` **absoluto**. Relativo, ele seria resolvido contra a raiz do worktree, onde a base não existe, e o Qdrant embutido criaria uma base vazia;
+- faz o aquecimento da rodada 1 (jararaca-ilhoa, `top_k=8`);
+- grava `ollama ps`, `nvidia-smi` e o RSS a cada 60 s;
+- roda `scripts/teste_perguntas_dominio.py --top-k 8 --timeout 960`;
+- no fim, derruba o uvicorn e descarrega o modelo.
+- Logs em `~/experimentos-llm/fase4-logs/`.
+
+**Teste de infraestrutura** (C3, 1 repetição, categoria H, bateria `2026-11-06_15h38_lumi-4b.md`): ok.
+- O backend confirmou a config pelo `/saude`.
+- Os prompts tiveram de 4,1 a 5,5 mil tokens, o que mostra que a base real foi usada.
+- Com o BGE-M3 na GPU, o uso foi de 3,7 GiB e a divisão do Lumi continuou 58/42.
+- Essa bateria fica **superada**: não entra na comparação.
+
+**Sequência de 06/11 (15:41):** C1 → C2 → C3 → calibração da C4. Só a C1 terminou: o WSL foi desligado às 17:00, com a C2 em 72 de 108 respostas. Uma nova tentativa da C2 em 10/11 (14:45) também foi interrompida pelo desligamento do WSL, às 15:16.
+
+**Sequência de 10/11 (16:45), completa:** C2 → C3 → calibração da C4 (`--repeticoes 1 --categorias A,B,F,J,L`, 21 casos), disparada por `~/experimentos-llm/sequencia_fase4.sh` (fora do repositório; sobe o Ollama se preciso e chama `rodar_bateria.sh` para cada rótulo). Logs em `~/experimentos-llm/fase4-logs/sequencia_20261110_1645.log`.
+
+| Config | Bateria | Latência média | Erros técnicos |
+|---|---|---|---|
+| C1 | `2026-11-06_15h41_qwen2.5-3b-instruct.md` | 10,0 s | 0 |
+| C2 | `2026-11-10_16h46_nemotron-3-nano-4b.md` | 39,9 s | 0 |
+| C3 | `2026-11-10_17h59_lumi-4b.md` | 37,8 s | 0 |
+| C4 (calibração) | `2026-11-10_19h09_lumi-4b.md` | 163,3 s | 1 (F7, tempo limite de 900 s) |
+| C4 | `2026-11-10_20h21_lumi-4b.md` | 138,4 s | 3 (F7 nas 3 execuções, tempo limite de 900 s) |
+
+**Calibração da C4:** nenhum `<think>` aberto, nenhuma `resposta_vazia`; 1 caso com tempo limite (F7) e 1 caso muito lento que terminou (L8, 555 s). Dentro do limite combinado (até 2 casos), então a **C4 completa foi disparada às 20:19 de 10/11**, sem C4b (`sequencia_20261110_2022.log`).
+
+**Classificação e relatório:** `diagnosticos/comparacao-lumi-4b-fase4.md`, com os rótulos da rodada 1 para C1, C2 e C3 e a calibração da C4. Os trechos recuperados de cada caso estão em `~/experimentos-llm/fase4-logs/contextos_bateria.json` (fora do repositório).
+
 ## Próximo passo (onde paramos)
 
-🛑 **Aguardando a Júlia aprovar o commit do diff da Fase 3.** Depois vem a Fase 4 (baterias C1 a C4). Há outro 🛑 antes de qualquer execução paga do RAGAS.
+- **Todas as baterias da Fase 4 terminaram.** A C4 completa (`2026-11-10_20h21_lumi-4b.md`) acabou às 10:45 de 11/11: latência média de 138,4 s, e o F7 estourou o tempo limite de 900 s nas 3 execuções. A máquina ficou suspensa de cerca de 20:45 a 06:22 e a bateria retomou sozinha.
+- O relatório `diagnosticos/comparacao-lumi-4b-fase4.md` já tem as quatro configurações classificadas.
+- A Júlia decide se quer uma C4b (`temperature=1`, `top_p=1`) por causa do F7 e do L8.
+- 🛑 **A Júlia precisa revisar os rótulos** do relatório (seções 2 e 3 e Anexo A), como na rodada 1.
+- 🛑 Aprovar o commit das baterias, do `rodar_bateria.sh`, do relatório e deste documento (nada foi commitado desde `e8d5e43`).
+- 🛑 Antes de qualquer execução paga do RAGAS (cerca de US$ 1,90 por configuração).
+- Depois: Fase 5 (ADR 0011), que depende também da confirmação da licença com o CEIA.
 
 ### Parâmetros já decididos para a Fase 4
 

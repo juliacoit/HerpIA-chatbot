@@ -27,3 +27,9 @@ Uma linha por execução de `scripts/teste_perguntas_dominio.py`, mais recente p
 | 2026-09-25T11:58:50 | [2026-09-25_11h58_qwen3.5-4b.md](2026-09-25_11h58_qwen3.5-4b.md) | `5098a39`* | `qwen3.5:4b` | False | 8 | 0 | 3 | 36 | 3 |
 | 2026-09-25T13:18:49 | [2026-09-25_13h18_qwen3.5-9b.md](2026-09-25_13h18_qwen3.5-9b.md) | `5098a39`* | `qwen3.5:9b` | False | 8 | 0 | 3 | 36 | 3 |
 | 2026-09-25T15:25:41 | [2026-09-25_15h25_gpt-oss-20b.md](2026-09-25_15h25_gpt-oss-20b.md) | `5098a39`* | `gpt-oss:20b` | False | 8 | 0 | 3 | 36 | 3 |
+| 2026-11-06T15:38:47 | [2026-11-06_15h38_lumi-4b.md](2026-11-06_15h38_lumi-4b.md) | `e8d5e43`* | `lumi-4b` | False | 8 | 0 | 0 | 2 | 1 |
+| 2026-11-06T15:41:43 | [2026-11-06_15h41_qwen2.5-3b-instruct.md](2026-11-06_15h41_qwen2.5-3b-instruct.md) | `e8d5e43`* | `qwen2.5:3b-instruct` | False | 8 | 0 | 3 | 36 | 3 |
+| 2026-11-10T16:46:00 | [2026-11-10_16h46_nemotron-3-nano-4b.md](2026-11-10_16h46_nemotron-3-nano-4b.md) | `e8d5e43`* | `nemotron-3-nano:4b` | False | 8 | 0 | 3 | 36 | 3 |
+| 2026-11-10T17:59:17 | [2026-11-10_17h59_lumi-4b.md](2026-11-10_17h59_lumi-4b.md) | `e8d5e43`* | `lumi-4b` | False | 8 | 0 | 3 | 36 | 3 |
+| 2026-11-10T19:09:14 | [2026-11-10_19h09_lumi-4b.md](2026-11-10_19h09_lumi-4b.md) | `e8d5e43`* | `lumi-4b` | False | 8 | 1 | 0 | 21 | 1 |
+| 2026-11-10T20:21:29 | [2026-11-10_20h21_lumi-4b.md](2026-11-10_20h21_lumi-4b.md) | `e8d5e43`* | `lumi-4b` | False | 8 | 3 | 3 | 36 | 3 |

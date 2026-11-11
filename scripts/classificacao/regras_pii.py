@@ -110,14 +110,23 @@ FLAGS = [
 FLAGS_REDIGIVEIS = [f for f in FLAGS if f[4]]
 
 
-def redigir_texto(texto: str) -> tuple[str, dict[str, int]]:
+# Padrões redigíveis que são dado pessoal (os demais redigíveis são coordenadas).
+CHAVES_DADOS_PESSOAIS = frozenset({"cpf", "email", "telefone"})
+
+
+def redigir_texto(texto: str, chaves: frozenset[str] | None = None) -> tuple[str, dict[str, int]]:
     """Substitui ocorrências dos padrões estruturados (redigivel=True) por um
     placeholder. Retorna o texto redigido e a contagem de substituições por
     flag, para alimentar o relatório de auditoria — esses padrões não passam
     por revisão humana linha a linha, só por amostragem.
+
+    `chaves` restringe a redação a alguns padrões (ex.: CHAVES_DADOS_PESSOAIS,
+    para remover dado pessoal e manter coordenadas). Sem ele, redige todos.
     """
     contagens: dict[str, int] = {}
     for chave, regex, _severidade, _descricao, _redigivel, placeholder in FLAGS_REDIGIVEIS:
+        if chaves is not None and chave not in chaves:
+            continue
         texto, n = regex.subn(placeholder, texto)
         if n:
             contagens[chave] = n

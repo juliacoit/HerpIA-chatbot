@@ -14,9 +14,16 @@ data_revisao, observacoes) para a equipe do RAN preencher durante a revisão.
 Uso:
     python scripts/classificacao/triagem_sensibilidade.py
     python scripts/classificacao/triagem_sensibilidade.py --fonte monitora
+    python scripts/classificacao/triagem_sensibilidade.py --fonte sei
 
 Saída:
     06_inventario/triagem_sensibilidade_monitora_pans.xlsx
+    06_inventario/triagem_sensibilidade_sei.xlsx  (só com --fonte sei)
+
+O SEI só entra quando pedido com --fonte sei e vai para uma planilha própria:
+os documentos exportados seguem pendentes de avaliação (ADR 0002 e ADR 0010) e
+a planilha traz trechos do conteúdo deles — ela fica em 06_inventario/, fora do
+git, e não deve ser copiada para fora do projeto.
 """
 
 import argparse
@@ -32,7 +39,10 @@ RAIZ = Path(__file__).resolve().parents[2]
 TEXTOS_DIR = RAIZ / "07_processados" / "textos_extraidos"
 SAIDA = RAIZ / "06_inventario" / "triagem_sensibilidade_monitora_pans.xlsx"
 
-FONTES = ["monitora", "pans"]
+SAIDA_SEI = RAIZ / "06_inventario" / "triagem_sensibilidade_sei.xlsx"
+
+FONTES_PADRAO = ["monitora", "pans"]
+FONTES = FONTES_PADRAO + ["sei"]
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from regras_pii import FLAGS  # noqa: E402  (padrões compartilhados com gerar_chunks.py)
@@ -60,6 +70,9 @@ def analisar_documento(doc: dict) -> list[dict]:
         num_pagina = pag.get("pagina")
         for chave, regex, severidade, descricao, _redigivel, _placeholder in FLAGS:
             for m in regex.finditer(texto):
+                # "[CPF removido]" e afins são marcas da redação, não dado pessoal.
+                if texto[m.end():m.end() + 10] == " removido]":
+                    continue
                 ocorrencias.append(
                     {
                         "flag": chave,
@@ -95,7 +108,7 @@ def resumir_documento(doc: dict, ocorrencias: list[dict]) -> dict:
 
     return {
         "fonte": doc.get("fonte"),
-        "subpasta": doc.get("subdir") or "",
+        "subpasta": doc.get("subdir") or doc.get("processo") or "",
         "arquivo": doc.get("nome_arquivo"),
         "url_origem": doc.get("url_origem") or "",
         "num_paginas": doc.get("num_paginas"),
@@ -200,10 +213,11 @@ def gerar_planilha(linhas: list[dict], saida: Path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--fonte", choices=FONTES, default=None, help="Rodar só para esta fonte (padrão: todas)")
+    parser.add_argument("--fonte", choices=FONTES, default=None, help="Rodar só para esta fonte (padrão: monitora e pans; o SEI só entra com --fonte sei)")
     args = parser.parse_args()
 
-    fontes = [args.fonte] if args.fonte else FONTES
+    fontes = [args.fonte] if args.fonte else FONTES_PADRAO
+    saida = SAIDA_SEI if args.fonte == "sei" else SAIDA
 
     linhas = []
     for doc in coletar_documentos(fontes):
@@ -214,7 +228,7 @@ def main():
         print("Nenhum documento encontrado em 07_processados/textos_extraidos/ — rode a extração antes.")
         return
 
-    gerar_planilha(linhas, SAIDA)
+    gerar_planilha(linhas, saida)
 
     contagem = {"ALTA": 0, "MEDIA": 0, "BAIXA": 0}
     for linha in linhas:
@@ -224,7 +238,7 @@ def main():
     print(f"  ALTA prioridade:  {contagem['ALTA']}")
     print(f"  MÉDIA prioridade: {contagem['MEDIA']}")
     print(f"  BAIXA prioridade: {contagem['BAIXA']}")
-    print(f"\nPlanilha salva em {SAIDA.relative_to(RAIZ)}")
+    print(f"\nPlanilha salva em {saida.relative_to(RAIZ)}")
     print("\nLembrete: este script só sinaliza padrões — a classificação final")
     print("(autorizado/sensível) é decisão humana da equipe do RAN, coluna 'decisao'.")
 

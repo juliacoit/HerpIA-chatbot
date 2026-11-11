@@ -26,6 +26,15 @@ conta como "página" depende do tipo de arquivo:
 Formatos sem extrator (.doc, .7z) ficam registrados no resumo para tratamento
 manual. O resumo vai para 07_processados/metadados/extracao_texto_sei.json.
 
+Dados pessoais estruturados (CPF, RG, e-mail e telefone) são removidos do texto na
+gravação, por decisão da Júlia de 2026-11-11; coordenadas e demais dados sobre
+as espécies ficam. A contagem do que foi removido vai no campo "redacao" de
+cada JSON. Nomes de pessoas e dados pessoais fora desses padrões NÃO são
+removidos — isso continua dependendo da avaliação humana. Os arquivos originais
+em 04_documentos_pendentes_avaliacao/ não são alterados.
+
+    --redigir-existentes  aplica a remoção aos JSONs já gravados, sem extrair de novo
+
 O terminal mostra só o número SEI, o tipo e contagens — nunca nome de arquivo
 interno nem conteúdo.
 
@@ -51,6 +60,9 @@ import fitz  # PyMuPDF
 from bs4 import BeautifulSoup
 
 RAIZ = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(RAIZ / "scripts" / "classificacao"))
+from regras_pii import CHAVES_DADOS_PESSOAIS, redigir_texto  # noqa: E402
+
 MANIFESTO = RAIZ / "01_fontes_web" / "sei" / "exportacao_sei_manifesto.json"
 OUTPUT_DIR = RAIZ / "07_processados" / "textos_extraidos" / "sei"
 RESUMO = RAIZ / "07_processados" / "metadados" / "extracao_texto_sei.json"
@@ -80,6 +92,51 @@ def limpar_texto(texto: str) -> str:
     texto = re.sub(r" ?\n ?", "\n", texto)
     texto = re.sub(r"\n{3,}", "\n\n", texto)
     return texto.strip()
+
+
+# Formas de dado pessoal que as regras compartilhadas (regras_pii.py) não pegam e
+# que apareceram nos documentos do SEI. Ficam aqui, e não lá, para não mudar a
+# redação de Monitora e PANs. O primeiro grupo (o rótulo) é mantido.
+PADROES_EXTRAS_SEI = [
+    ("cpf", re.compile(r"(CPF\D{0,15})(?:\d{3}\.?\d{3}\.?\d{3}\s?[-–/]?\s?\d{2}|\d{11})\b"), "[CPF removido]"),
+    ("rg", re.compile(r"(\bRG\D{0,10})\d[\d.\-]{4,}\d(?:-?[\dXx]\b)?"), "[RG removido]"),
+    ("telefone", re.compile(r"()(?<![\d.,/-])\(?\d{2}\)?\s9?\s?\d{4}-\d{4}\b"), "[telefone removido]"),
+]
+
+
+DADOS_PESSOAIS_REMOVIDOS = sorted(CHAVES_DADOS_PESSOAIS | {c for c, _r, _p in PADROES_EXTRAS_SEI})
+
+
+def redigir_paginas(paginas: list[dict]) -> dict[str, int]:
+    """Remove CPF, RG, e-mail e telefone do texto das páginas (no próprio objeto).
+
+    Devolve a contagem de remoções por padrão. Coordenadas não são tocadas.
+    """
+    total: Counter = Counter()
+    for pagina in paginas:
+        pagina["texto"], contagens = redigir_texto(pagina.get("texto") or "", CHAVES_DADOS_PESSOAIS)
+        total.update(contagens)
+        for chave, regex, placeholder in PADROES_EXTRAS_SEI:
+            pagina["texto"], n = regex.subn(lambda m, p=placeholder: m.group(1) + p, pagina["texto"])
+            if n:
+                total[chave] += n
+    return dict(total)
+
+
+def montar_texto_completo(paginas: list[dict]) -> str:
+    return "\n\n".join(f"[Página {p['pagina']}]\n{p['texto']}" for p in paginas if p["texto"])
+
+
+def redigir_json_existente(caminho: Path) -> dict[str, int]:
+    """Aplica a remoção a um JSON já extraído. Rodar de novo não muda nada."""
+    doc = json.loads(caminho.read_text(encoding="utf-8"))
+    contagens = redigir_paginas(doc["paginas"])
+    anteriores = doc.get("redacao") or {}
+    doc["redacao"] = {k: anteriores.get(k, 0) + contagens.get(k, 0) for k in sorted(set(anteriores) | set(contagens))}
+    doc["dados_pessoais_removidos"] = DADOS_PESSOAIS_REMOVIDOS
+    doc["texto_completo"] = montar_texto_completo(doc["paginas"])
+    caminho.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
+    return contagens
 
 
 def ocr_pixmap(pix) -> str:
@@ -387,9 +444,10 @@ def processar_documento(numero: str, registro: dict, usar_ocr: bool) -> dict:
     except Exception as erro:
         return {**resumo, "status": "erro", "erro": type(erro).__name__}
 
+    redacao = redigir_paginas(paginas)
     paginas_sem_texto = [p["pagina"] for p in paginas if len(p["texto"]) < MIN_CHARS_PAGINA]
     caracteres = sum(len(p["texto"]) for p in paginas)
-    texto_completo = "\n\n".join(f"[Página {p['pagina']}]\n{p['texto']}" for p in paginas if p["texto"])
+    texto_completo = montar_texto_completo(paginas)
 
     saida = {
         "fonte": "sei",
@@ -409,6 +467,8 @@ def processar_documento(numero: str, registro: dict, usar_ocr: bool) -> dict:
         and sum(1 for p in paginas if p.get("metodo") != "texto" or len(p["texto"]) < MIN_CHARS_PAGINA) / len(paginas) >= 0.5,
         "metodo_extracao": "ocr" if info.get("paginas_ocr") else "texto",
         "detalhes_extracao": info,
+        "redacao": redacao,
+        "dados_pessoais_removidos": DADOS_PESSOAIS_REMOVIDOS,
         "data_extracao": date.today().isoformat(),
         "paginas": paginas,
         "texto_completo": texto_completo,
@@ -436,8 +496,23 @@ def main():
     parser.add_argument("--reprocessar", action="store_true", help="Reprocessa documentos que já têm JSON de saída")
     parser.add_argument("--processos", type=int, default=max(1, (os.cpu_count() or 2) // 2),
                         help="Número de processos em paralelo")
+    parser.add_argument("--redigir-existentes", action="store_true",
+                        help="Remove CPF, RG, e-mail e telefone dos JSONs já gravados, sem extrair de novo")
     parser.add_argument("--limite", type=int, default=None, help="Processa só os N primeiros (teste)")
     args = parser.parse_args()
+
+    if args.redigir_existentes:
+        total: Counter = Counter()
+        arquivos = sorted(OUTPUT_DIR.rglob("*.json"))
+        alterados = 0
+        for caminho in arquivos:
+            contagens = redigir_json_existente(caminho)
+            total.update(contagens)
+            alterados += bool(contagens)
+        print(f"{len(arquivos)} JSON(s) verificados; {alterados} com remoções nesta passada.")
+        for chave, n in sorted(total.items()):
+            print(f"  {chave:10} {n}")
+        return
 
     # Cada processo do Tesseract fica com uma thread: o paralelismo é por documento.
     os.environ.setdefault("OMP_THREAD_LIMIT", "1")

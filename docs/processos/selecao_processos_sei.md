@@ -94,7 +94,7 @@ sensibilidade — **não autoriza nem indexa nenhum documento**.
   "página"), Word, PPTX, imagem e ZIP (cada arquivo interno). `.doc` e `.7z` não têm extrator e
   ficam listados no resumo, em `07_processados/metadados/extracao_texto_sei.json`.
 - `sei` não está na lista de fontes do `gerar_chunks.py`: o texto extraído não é fragmentado.
-- A triagem automática de dados pessoais sobre esses textos ainda **não** foi autorizada.
+- A triagem automática sobre esses textos foi autorizada e rodada em seguida (seção abaixo).
 
 Resultado sobre os 1.148 documentos baixados:
 
@@ -110,6 +110,66 @@ Resultado sobre os 1.148 documentos baixados:
 - Dentro dos ZIPs ficaram sem extração 4 ZIPs aninhados, 2 `.doc` e 3 arquivos com erro de leitura.
 - Dois `.xlsx` com nomes definidos inválidos não abrem no openpyxl; o script lê as células
   direto do XML nesses casos (sem o nome das abas).
+
+## Triagem automática de sensibilidade (2026-11-11)
+
+Autorizada pela Júlia em 2026-11-11. Rodada com
+`scripts/classificacao/triagem_sensibilidade.py --fonte sei`, que usa as mesmas regras de
+`regras_pii.py` aplicadas a Monitora e PANs. **O script só sinaliza padrões; a decisão de
+sensibilidade é humana** (coluna `decisao` da planilha).
+
+| Prioridade | Documentos |
+|---|---|
+| ALTA | 287 |
+| MÉDIA | 296 |
+| BAIXA (nenhum padrão encontrado) | 558 |
+
+| Sinal | Documentos | Ocorrências |
+|---|---|---|
+| Telefone | 291 | 1.862 |
+| E-mail pessoal | 183 | 3.615 |
+| Menção a localização de espécie | 157 | 441 |
+| Menção genérica a dado pessoal | 131 | 541 |
+| Possível CPF | 80 | 1.253 |
+| Palavra de restrição administrativa de acesso | 42 | 144 |
+| Coordenada em graus/min/seg | 23 | 447 |
+| Menção a sistema UTM | 15 | 47 |
+| Par de coordenadas decimais | 5 | 1.462 |
+
+- Planilha: `06_inventario/triagem_sensibilidade_sei.xlsx` (fora do git). Ela traz trechos do
+  conteúdo dos documentos e não deve sair do projeto.
+- Foram analisados 1.141 documentos (os 1.130 com texto e os 11 sem texto útil); os 7 sem
+  extrator não entram e precisam de avaliação direta no arquivo.
+- 45 processos têm todos os documentos em prioridade BAIXA. Isso não dispensa a avaliação:
+  as regras não enxergam nomes de pessoas nem sensibilidade de contexto.
+
+## Remoção de dados pessoais dos textos extraídos (2026-11-11)
+
+Decisão da Júlia em 2026-11-11: **excluir os dados pessoais e manter os dados sensíveis sobre as
+espécies** (coordenadas e localizações ficam, em linha com a decisão do RAN de 04/11/2026).
+
+- Aplicada aos JSONs de `07_processados/textos_extraidos/sei/` com
+  `scripts/processamento/extrair_texto_sei.py --redigir-existentes`; novas extrações já gravam o
+  texto sem esses dados. Cada JSON registra a contagem no campo `redacao`.
+- **Os arquivos originais em `04_documentos_pendentes_avaliacao/sei/` não foram alterados** — eles
+  continuam com os dados pessoais.
+
+| Dado removido | Ocorrências |
+|---|---|
+| E-mail | 3.615 |
+| Telefone | 1.995 |
+| CPF | 1.299 |
+| RG | 88 |
+
+- 447 documentos tiveram alguma remoção. Além das regras de `regras_pii.py` (CPF pontuado, e-mail,
+  telefone com DDD entre parênteses), o script do SEI remove CPF sem pontuação e RG quando vêm
+  depois do rótulo, e telefone com DDD sem parênteses.
+- As coordenadas ficaram intactas: 1.462 pares decimais e 447 em graus/min/seg, como antes.
+- **O que não é removido:** nomes de pessoas, endereços, matrículas, assinaturas e qualquer dado
+  pessoal fora desses padrões. Isso continua dependendo da avaliação humana.
+- A planilha de triagem foi gerada de novo sobre o texto já sem os dados pessoais, e os trechos
+  de exemplo deixaram de trazer CPF, e-mail e telefone: 65 ALTA, 244 MÉDIA, 832 BAIXA. O que
+  sobra em ALTA são coordenadas e palavras de restrição administrativa (42 documentos).
 
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 

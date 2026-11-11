@@ -63,6 +63,11 @@ Dentro dos blocos prioritários, os processos foram classificados por tipo:
 - Qualquer processo sem autorização explícita da equipe do RAN
 - Documentos com localização precisa de espécies ameaçadas (risco de biopirataria)
 
+> **Nota (2026-11-11):** o critério de localização precisa foi revisto pelo
+> [ADR 0009](0009-coordenadas-de-ocorrencia.md). A equipe do RAN decidiu que
+> coordenadas públicas são autorizadas e que dados sigilosos não chegam ao SEI.
+> Os demais critérios desta lista continuam valendo.
+
 ## Ferramentas implementadas
 
 | Script | Função |

@@ -19,5 +19,5 @@ Cada arquivo nesta pasta documenta uma decisão técnica ou de processo relevant
 | [0005](0005-escolha-temporaria-modelo-embeddings.md) | Escolha temporária do modelo de embeddings para testes (BGE-M3) | Decisão parcial tomada |
 | [0006](0006-escolha-temporaria-llm-geracao.md) | Escolha temporária do LLM de geração (local, via Ollama) | Decisão parcial tomada |
 | [0007](0007-avaliacao-offline-ragas-juiz-claude.md) | Avaliação offline com RAGAS e juiz Claude via API da Anthropic | Aceita |
-| [0008](0008-escopo-da-base-herpetofauna.md) | Escopo da base consultada: só herpetofauna | Proposta |
-| [0009](0009-coordenadas-de-ocorrencia.md) | Coordenadas exatas de ocorrência no HerpIA | Proposta |
+| [0008](0008-escopo-da-base-herpetofauna.md) | Escopo da base consultada: só herpetofauna | Aceita (com pendências do Monitora) |
+| [0009](0009-coordenadas-de-ocorrencia.md) | Coordenadas exatas de ocorrência no HerpIA | Aceita (revê o critério de localização do 0004) |

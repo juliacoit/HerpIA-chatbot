@@ -173,7 +173,7 @@ projeto:
 
 **`CLAUDE.md`, "Regras sobre dados sensíveis".** A redação proposta em 04/11
 proibia o envio a API externa e o texto embedado, e por isso não serve mais.
-Proposta nova, **ainda não aplicada ao `CLAUDE.md`** (depende de aprovação):
+Redação nova, **aplicada ao `CLAUDE.md` em 2026-11-11**:
 
 ```diff
 -- O projeto manipula dados potencialmente sensíveis (ex.: localizações precisas de espécies ameaçadas, informações administrativas restritas, dados pessoais). Esses dados ainda precisam ser avaliados caso a caso.

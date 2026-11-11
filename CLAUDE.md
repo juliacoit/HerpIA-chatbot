@@ -26,11 +26,12 @@ Ver também `01_fontes_web/urls_fontes.md` para detalhes e observações sobre c
 
 ## Regras sobre dados sensíveis
 
-- O projeto manipula dados potencialmente sensíveis (ex.: localizações precisas de espécies ameaçadas, informações administrativas restritas, dados pessoais). Esses dados ainda precisam ser avaliados caso a caso.
+- O projeto manipula dados potencialmente sensíveis (ex.: informações administrativas restritas, dados pessoais). Esses dados ainda precisam ser avaliados caso a caso.
 - Nenhum documento deve ser indexado na base de conhecimento sem avaliação, autorização e classificação prévias de sensibilidade.
 - Documentos classificados como sensíveis ficam em `05_documentos_sensiveis_nao_indexar/` e **não devem ser indexados nem enviados a nenhuma API externa**.
 - O sistema pode usar API externa de LLM, mas **nunca deve enviar documentos completos** — apenas os trechos (chunks) já recuperados, filtrados e autorizados.
-- Dados pessoais, informações administrativas restritas (ex.: processos SEI) e localizações sensíveis de espécies devem receber tratamento cuidadoso e, quando aplicável, anonimização ou generalização antes de qualquer indexação.
+- Dados pessoais e informações administrativas restritas (ex.: processos SEI) devem receber tratamento cuidadoso e, quando aplicável, anonimização ou generalização antes de qualquer indexação.
+- Coordenadas públicas de ocorrência de espécies são autorizadas (decisão da equipe do RAN, 2026-11-11, ADR 0009): não são removidas do texto, podem ser indexadas, gravadas no log, baixadas pelo usuário e enviadas ao juiz externo da avaliação. O HerpIA não aplica filtro por espécie nem por idade do dado: os dados chegam ao RAN já filtrados, e dado sigiloso não entra na base. O uso do sistema exige login.
 - Como agente, nunca exponha, copie, resuma ou inclua em commits o conteúdo de documentos sensíveis ou pendentes de avaliação. Nunca adicione chaves de API, tokens, senhas ou credenciais ao repositório. Se encontrar arquivos `.env`, chaves ou tokens, não os modifique — apenas confirme que permanecem fora do versionamento (já cobertos pelo `.gitignore`).
 
 ## Arquitetura planejada

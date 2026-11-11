@@ -154,7 +154,11 @@ def extrair_xlsx(dados: bytes) -> tuple[list[dict], dict]:
 
     # Avisos sobre recursos de planilha que o openpyxl ignora (validação etc.).
     warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
-    wb =openpyxl.load_workbook(io.BytesIO(dados), read_only=True, data_only=True)
+    try:
+        wb = openpyxl.load_workbook(io.BytesIO(dados), read_only=True, data_only=True)
+    except ValueError:
+        # Planilhas com nomes definidos inválidos derrubam o openpyxl inteiro.
+        return extrair_xlsx_pelo_xml(dados)
     paginas = []
     try:
         for i, ws in enumerate(wb.worksheets, start=1):
@@ -165,6 +169,43 @@ def extrair_xlsx(dados: bytes) -> tuple[list[dict], dict]:
     finally:
         wb.close()
     return paginas, {}
+
+
+def extrair_xlsx_pelo_xml(dados: bytes) -> tuple[list[dict], dict]:
+    """Reserva para .xlsx que o openpyxl não abre: lê as células direto do XML.
+
+    Sem os nomes das abas e sem formatação de datas — o bastante para a triagem.
+    """
+    with zipfile.ZipFile(io.BytesIO(dados)) as z:
+        nomes = z.namelist()
+        compartilhados = []
+        if "xl/sharedStrings.xml" in nomes:
+            raiz = ElementTree.fromstring(z.read("xl/sharedStrings.xml"))
+            compartilhados = [
+                "".join(t.text or "" for t in si.iter() if _nome_local(t.tag) == "t")
+                for si in raiz if _nome_local(si.tag) == "si"
+            ]
+        abas = sorted(
+            (n for n in nomes if re.fullmatch(r"xl/worksheets/sheet\d+\.xml", n)),
+            key=lambda n: int(re.search(r"(\d+)\.xml$", n).group(1)),
+        )
+        paginas = []
+        for i, nome in enumerate(abas, start=1):
+            linhas = []
+            for linha in ElementTree.fromstring(z.read(nome)).iter():
+                if _nome_local(linha.tag) != "row":
+                    continue
+                celulas = []
+                for c in linha:
+                    valor = next((v.text for v in c if _nome_local(v.tag) == "v"), None)
+                    if c.get("t") == "s" and valor is not None:
+                        valor = compartilhados[int(valor)]
+                    elif c.get("t") == "inlineStr":
+                        valor = "".join(t.text or "" for t in c.iter() if _nome_local(t.tag) == "t")
+                    celulas.append(valor)
+                linhas.append(celulas)
+            paginas.append({"pagina": i, "texto": _linhas_para_texto(linhas), "metodo": "texto_xml"})
+    return paginas, {"leitura_direta_do_xml": True}
 
 
 def extrair_xls(dados: bytes) -> tuple[list[dict], dict]:

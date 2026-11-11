@@ -96,6 +96,21 @@ sensibilidade — **não autoriza nem indexa nenhum documento**.
 - `sei` não está na lista de fontes do `gerar_chunks.py`: o texto extraído não é fragmentado.
 - A triagem automática de dados pessoais sobre esses textos ainda **não** foi autorizada.
 
+Resultado sobre os 1.148 documentos baixados:
+
+| Situação | Documentos |
+|---|---|
+| Texto extraído | 1.130 |
+| Sem texto útil (menos de 50 caracteres) | 11 |
+| Formato sem extrator (6 `.doc`, 1 `.7z`) | 7 |
+
+- 14.614 "páginas" e cerca de 70 milhões de caracteres (146 MB de JSON). O OCR foi usado em
+  1.536 páginas de 176 documentos; nenhum bateu no teto de 400 páginas com OCR.
+- Os 11 sem texto são 8 planilhas, 2 PDFs e 1 HTML — a conferir se estão mesmo vazios.
+- Dentro dos ZIPs ficaram sem extração 4 ZIPs aninhados, 2 `.doc` e 3 arquivos com erro de leitura.
+- Dois `.xlsx` com nomes definidos inválidos não abrem no openpyxl; o script lê as células
+  direto do XML nesses casos (sem o nome das abas).
+
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 
 Uma análise manual de `processos_docs.csv` (gerado em 2026-07-03) encontrou dois

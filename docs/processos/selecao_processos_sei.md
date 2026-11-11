@@ -60,6 +60,42 @@ set -a && . ./.env && set +a
 python scripts/coleta/exportar_documentos_sei.py    # retomável; o manifesto registra cada documento
 ```
 
+**Exportação completa (2026-11-10).** O script rodou para os 173 processos, em quatro sessões
+(06/11 e 10/11; duas foram interrompidas pelo desligamento do WSL e retomadas pelo manifesto).
+Resultado dos 1.197 documentos autorizados:
+
+| Situação | Documentos |
+|---|---|
+| Baixados | 1.148 |
+| Cancelados no próprio SEI (não há arquivo) | 46 |
+| Não encontrados na árvore do processo | 2 |
+| Sem link de download no nó | 1 |
+
+- Os arquivos (2,6 GB) estão em `04_documentos_pendentes_avaliacao/sei/<processo>/` e seguem
+  **pendentes de avaliação de sensibilidade** (ADR 0002). Formatos: 446 PDF, 331 HTML do editor
+  do SEI, 293 planilhas (xlsx/xls/ods/xlsm), 45 Word, 29 ZIP/7z, 1 PPTX e 1 PNG.
+- Os 3 pendentes ficam para conferência manual, um em cada processo: `02071.000047/2018-01`,
+  `02070.020199/2024-70` e `02070.004212/2021-09`.
+- **Correção feita durante a exportação.** O script identificava o documento pelo número SEI
+  entre parênteses no fim do título, mas os documentos internos sem numeração própria trazem o
+  número solto ("Tipo 1234567"), e 123 deles apareciam como "não encontrados". O script passou a
+  ler o número no campo de protocolo do nó da árvore (o 16º argumento de `infraArvoreNo`), que
+  coincidiu com o título nos 595 nós conferidos em 5 processos. Os parênteses ficam como reserva.
+
+## Extração de texto (2026-11-11)
+
+Autorizada pela Júlia em 2026-11-11, só para viabilizar a triagem e a avaliação humana de
+sensibilidade — **não autoriza nem indexa nenhum documento**.
+
+- Script: `scripts/processamento/extrair_texto_sei.py --ocr`. Lê o manifesto da exportação e
+  grava `07_processados/textos_extraidos/sei/<processo>/<número SEI>.json`, no mesmo formato das
+  outras fontes, com `"sensibilidade": "pendente_avaliacao"`.
+- Cobre PDF (com OCR nas páginas sem texto), HTML do editor do SEI, planilhas (uma aba por
+  "página"), Word, PPTX, imagem e ZIP (cada arquivo interno). `.doc` e `.7z` não têm extrator e
+  ficam listados no resumo, em `07_processados/metadados/extracao_texto_sei.json`.
+- `sei` não está na lista de fontes do `gerar_chunks.py`: o texto extraído não é fragmentado.
+- A triagem automática de dados pessoais sobre esses textos ainda **não** foi autorizada.
+
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 
 Uma análise manual de `processos_docs.csv` (gerado em 2026-07-03) encontrou dois

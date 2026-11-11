@@ -8,6 +8,7 @@ pymupdf
 pytesseract  # OCR para PDFs escaneados — requer: sudo apt install tesseract-ocr tesseract-ocr-por
 bs4
 openpyxl
+xlrd  # planilhas .xls antigas do SEI (scripts/processamento/extrair_texto_sei.py)
 sentence-transformers  # embeddings (BGE-M3, Fase 5 — ver docs/decisoes/0005-...)
 qdrant-client
 fastapi  # backend RAG (Fase 6 — ver backend/ e docs/processos/backend_fastapi.md)

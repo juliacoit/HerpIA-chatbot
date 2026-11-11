@@ -196,7 +196,7 @@ e seção "Solução Escolhida (revisada)" em
 
 > Esta fase envolve decisão humana — não pode ser automatizada integralmente.
 
-- [ ] **Revisão manual dos documentos do Monitora:** verificar se há localização precisa de espécies ameaçadas ou dados pessoais
+- [ ] **Revisão manual dos documentos do Monitora:** verificar se há dados pessoais. Localização precisa deixou de ser critério: coordenadas públicas são autorizadas ([ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md), aceito em 2026-11-11)
 - [ ] **Revisão manual dos PDFs dos PANs:** mesmos critérios
 - [x] **Fichas SALVE:** avaliadas — não contêm coordenadas precisas de ocorrência (só estados/biomas/EOO-AOO agregados e mapa-imagem público); fichas são públicas no site do ICMBio, classificadas como autorizadas. Todas as 2086 copiadas para `03_documentos_autorizados/salve/` (2026-07-06)
 - [ ] **Publicações científicas:** verificar copyright e termos de uso de cada publicação
@@ -423,6 +423,21 @@ e seção "Solução Escolhida (revisada)" em
 
 - [ ] **Definir perguntas de teste** com técnicos e gestores do RAN
 - [ ] **Sessão de teste com usuários reais** — observar comportamento, anotar gaps
+  - [x] 1ª sessão supervisionada (2026-10-26) diagnosticada — ver
+    [`docs/processos/sessoes_supervisionadas_ran.md`](processos/sessoes_supervisionadas_ran.md)
+  - [x] **Escopo decidido pela equipe do RAN (2026-11-11)** — só herpetofauna, sem tartarugas
+    marinhas; PANs territoriais classificados por PAN; Monitora por subprograma, componente e
+    alvo ([ADR 0008](decisoes/0008-escopo-da-base-herpetofauna.md), aceito com pendências do
+    Monitora)
+  - [x] **Coordenadas decididas pela equipe do RAN (2026-11-11)** — coordenadas públicas
+    autorizadas, sem restrição por espécie; uso do sistema exige login
+    ([ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md), aceito)
+  - [x] `regras_pii.py` deixou de remover coordenadas (2026-11-11)
+  - [ ] Novo chunking e indexação dos 30 documentos de Monitora e PANs que tinham coordenadas
+    removidas — aguarda aprovação
+  - [ ] Implementar o filtro de escopo e as mensagens de fora de escopo (plano no ADR 0008) —
+    aguarda aprovação
+  - [ ] Registros de ocorrência do SALVE (piloto da exportação, tabela e rota; plano no ADR 0009)
 - [ ] **Avaliar qualidade das respostas:**
   - As citações de fonte estão corretas?
   - O chatbot indica corretamente quando não tem evidência suficiente?
@@ -442,6 +457,7 @@ e seção "Solução Escolhida (revisada)" em
 | Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
 | SEI: indexar só documentos públicos ou também restritos com controle de acesso — sem controle por usuário, qualquer usuário do HerpIA pode receber trechos de um documento restrito; ligado ao `nivel_sensibilidade` dos chunks e ao envio ao juiz do RAGAS ([ADR 0004](decisoes/0004-criterios-selecao-documentos-sei.md), atualização 2026-10-20) | Conformidade, segurança, escopo | Antes do piloto do SEI (Fase 1.5) |
 | Geração de rascunhos de documentos no formato do SEI (fase futura, requer ADR) — outro produto: modelos de documento, contexto maior, LLM mais forte que o 3B atual, saída sempre como rascunho para revisão humana | Escopo do produto, custo, qualidade | Após a validação do protótipo (Fase 8) |
+| Monitora: análise do componente Florestal (fora por enquanto) e lista de exclusões, ainda incompleta — as duas dependem de os servidores do RAN preencherem o [mapa de escopo do Monitora](processos/mapa_escopo_monitora.md) ([ADR 0008](decisoes/0008-escopo-da-base-herpetofauna.md)) | Escopo da base consultada | Antes de gravar o escopo dos documentos do Monitora |
 | Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
 
 ---

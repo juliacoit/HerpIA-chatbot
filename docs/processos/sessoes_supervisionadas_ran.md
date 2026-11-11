@@ -1,7 +1,7 @@
 # Sessões supervisionadas com a equipe do RAN
 
 - **Status:** Em desenvolvimento (1ª sessão diagnosticada; correções da Parte 1 implementadas numa branch ainda não integrada)
-- **Última atualização:** 2026-11-04
+- **Última atualização:** 2026-11-11
 - **Responsável(eis):** Julia Coite
 
 ## Objetivo
@@ -45,7 +45,8 @@ Scripts descartáveis em `diagnosticos/scripts/`, todos só leitura:
 - `prova_geracao_inalterada.py` compara chunks e prompt antes e depois de uma
   mudança.
 - `verificar_insert_rollback.py` testa o INSERT do log sem gravar.
-- `adr_escopo_simulacao.py` simula a classificação de escopo.
+- `adr_escopo_simulacao.py` simula a classificação de escopo da proposta de
+  04/11; `adr_escopo_simulacao_v2.py` simula as regras decididas em 11/11.
 
 Para verificar a interface no navegador, use o Chromium do Playwright por CDP
 (ver `design_system.md`). O Playwright do MCP exige o Chrome do sistema.
@@ -109,14 +110,20 @@ atrás. Não houve merge nem push. Relatório:
 
    O ADR 0008 recomenda decidir a 2 depois de medir com o filtro de escopo.
 
-**Aguardando respostas da equipe** (ver os ADRs):
+**Respostas da equipe (11/11/2026).** Os dois ADRs foram aceitos:
 
-- **ADR 0008:** tartarugas marinhas dos relatórios PMP-BP; documentos
-  institucionais do Monitora; regra por conteúdo ou lista explícita para os
-  PANs territoriais; texto da mensagem de fora de escopo.
-- **ADR 0009:** coordenadas no juiz externo do RAGAS; coordenadas removidas
-  dos PDFs; restrição por espécie; login como pré-requisito; log sem
-  coordenadas; download de CSV.
+- **ADR 0008:** tartarugas marinhas fora; PANs territoriais classificados por
+  PAN; Monitora por subprograma, componente e alvo; três mensagens de fora de
+  escopo. Nada implementado: o plano está no ADR e depende de aprovação.
+- **ADR 0009:** coordenadas públicas autorizadas, sem pendências.
+  `regras_pii.py` deixou de remover coordenadas; o novo chunking e a indexação
+  ainda não foram feitos.
+
+**Aguardando a equipe:**
+
+- **ADR 0008, pendências do Monitora:** a análise do componente Florestal e a
+  lista de exclusões, que está incompleta. As duas dependem de os servidores
+  preencherem o [mapa de escopo do Monitora](mapa_escopo_monitora.md).
 
 **Limitações conhecidas que continuam:**
 
@@ -149,5 +156,7 @@ novas do log, para reproduzir as interações sem exportar o índice.
   do índice fica fora do repositório.
 - `resposta_original` (respostas retidas) só existe no banco e nunca volta na
   API.
-- Coordenadas de ocorrência continuam fora da base até o ADR 0009 ser aceito e
-  implementado.
+- Coordenadas públicas de ocorrência são autorizadas (ADR 0009, aceito em
+  2026-11-11). Os chunks atuais ainda trazem `[coordenada removida]` até o
+  novo chunking, e os registros de ocorrência do SALVE ainda não foram
+  coletados.

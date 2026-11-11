@@ -3,8 +3,8 @@
 Para cada processo com status_exportacao == "autorizado" em
 01_fontes_web/sei/processos_para_exportacao.json, abre o processo pela pesquisa rápida do
 SEI, lê a árvore de documentos e baixa só os documentos listados em
-01_fontes_web/sei/processos_docs.csv, identificados pelo número SEI que aparece entre
-parênteses no título do documento.
+01_fontes_web/sei/processos_docs.csv, identificados pelo número SEI do nó na árvore
+(o mesmo que aparece no título do documento).
 
 Salva em 04_documentos_pendentes_avaliacao/sei/<processo>/<numero_documento>.<ext>,
 onde <processo> é o número do processo com "-" no lugar de "/". Os arquivos ficam
@@ -188,7 +188,7 @@ def ler_arvore(cliente: ClienteSEI, soup_processo: BeautifulSoup) -> str:
 
 
 def nos_documento(js: str) -> dict[str, dict]:
-    """Mapeia número SEI (entre parênteses no título) → nó do documento na árvore.
+    """Mapeia número SEI (campo de protocolo do nó) → nó do documento na árvore.
 
     Para cada nó: índice, ícone, URL de download (propriedade .src) e se algum texto do
     nó menciona acesso restrito ou sigiloso.
@@ -200,10 +200,15 @@ def nos_documento(js: str) -> dict[str, dict]:
             continue
         args = [a or b for a, b in re.findall(r'"((?:[^"\\]|\\.)*)"|(null|true|false|\d+)', corpo)]
         titulo = args[5] if len(args) > 5 else ""
-        numero = re.search(r"\((\d+)\)\s*$", titulo)
+        # O 16º argumento do nó é o número SEI. O título só traz o número entre
+        # parênteses em parte dos documentos: nos internos sem numeração própria ele
+        # vem solto no fim ("Tipo 1234567"). Os parênteses ficam como reserva.
+        protocolo = args[15] if len(args) > 15 and re.fullmatch(r"\d{6,}", args[15]) else None
+        entre_parenteses = re.search(r"\((\d+)\)\s*$", titulo)
+        numero = protocolo or (entre_parenteses.group(1) if entre_parenteses else None)
         icone = next((a.split("/")[-1].split("?")[0] for a in args if re.search(r"\.(svg|png|gif)", a)), "")
         por_indice[indice] = {
-            "numero": numero.group(1) if numero else None,
+            "numero": numero,
             "icone": icone,
             "restrito": bool(TERMOS_RESTRICAO.search(corpo)),
             "src": None,

@@ -40,7 +40,8 @@ O script `scripts/coleta/exportar_documentos_sei.py` funciona com estas travas:
   e-mail, dar ciência); qualquer URL fora da lista é recusada antes da requisição.
 - **Só os documentos autorizados.** Cada processo é aberto pelo número na pesquisa rápida;
   da árvore, só são baixados os documentos de `processos_docs.csv`, identificados pelo
-  número SEI que aparece entre parênteses no título.
+  número SEI do nó na árvore (campo de protocolo; desde 2026-11-10, porque parte dos títulos
+  não traz o número entre parênteses).
 - **Restritos e sigilosos ficam de fora.** Um documento cujo nó na árvore mencione
   "restrito" ou "sigiloso" é pulado e registrado. A decisão sobre documentos de acesso
   restrito continua em aberto (ADR 0004). Documentos cancelados no SEI também são pulados.

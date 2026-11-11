@@ -1,14 +1,16 @@
 # Classificação de sensibilidade
 
 - **Status:** A definir
-- **Última atualização:** 2026-07-02
+- **Última atualização:** 2026-11-11
 - **Responsável(eis):** Equipe do RAN/ICMBio (decisão humana — não automatizável)
 
 ## Objetivo
 
 Avaliar cada documento em `04_documentos_pendentes_avaliacao/` quanto à presença de
-informação sensível (localização precisa de espécies ameaçadas, dados pessoais,
-informação administrativa restrita) e decidir se ele pode ser indexado no RAG.
+informação sensível (dados pessoais, informação administrativa restrita) e decidir
+se ele pode ser indexado no RAG. Localização precisa de espécies deixou de ser
+critério em 2026-11-11: coordenadas públicas são autorizadas
+([ADR 0009](../decisoes/0009-coordenadas-de-ocorrencia.md)), e dado sigiloso é filtrado antes de chegar ao RAN.
 Ver [ADR 0002](../decisoes/0002-classificacao-de-sensibilidade-em-pastas.md) para a
 decisão de usar a estrutura de pastas como mecanismo de controle desse fluxo.
 
@@ -33,10 +35,10 @@ integralmente (ver [`docs/roadmap.md`](../roadmap.md), Fase 3).
 
 Critérios já decididos por fonte (roadmap Fase 3):
 
-1. **Monitora e PANs:** revisão manual dos PDFs verificando localização precisa de
-   espécies ameaçadas ou dados pessoais.
-2. **Fichas SALVE:** avaliar se as coordenadas de distribuição são sensíveis — como as
-   fichas são públicas no site do ICMBio, a tendência é classificá-las como autorizadas.
+1. **Monitora e PANs:** revisão manual dos PDFs verificando dados pessoais. Coordenada
+   pública não é motivo de bloqueio (ADR 0009).
+2. **Fichas SALVE:** públicas no site do ICMBio e classificadas como autorizadas. As
+   coordenadas do SALVE são públicas (ADR 0009).
 3. **SEI:** avaliação individual por processo/documento, condicionada à autorização de
    exportação da equipe do RAN (ver [ADR 0004](../decisoes/0004-criterios-selecao-documentos-sei.md)
    e [`selecao_processos_sei.md`](selecao_processos_sei.md)).

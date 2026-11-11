@@ -8,6 +8,10 @@
 
 O acervo de documentos do RAN (publicações científicas, relatórios, dados de fontes web) pode conter informações sensíveis — por exemplo, localizações precisas de espécies ameaçadas, dados pessoais ou informações administrativas restritas (processos SEI). Esses documentos ainda não foram totalmente avaliados, e o chatbot não deve indexar nem expor conteúdo sensível antes dessa avaliação.
 
+> **Nota (2026-11-11):** "localizações precisas de espécies ameaçadas" deixou de
+> ser exemplo de informação sensível. O [ADR 0009](0009-coordenadas-de-ocorrencia.md)
+> registra que coordenadas públicas são autorizadas. A decisão abaixo não muda.
+
 ## Decisão
 
 Usar a estrutura de pastas como mecanismo explícito de controle de fluxo de avaliação:

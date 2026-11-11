@@ -66,7 +66,7 @@ uma espécie com seu diagnóstico de conservação mais recente.
 ### Observações
 
 - As fichas são públicas no site do ICMBio — conteúdo considerado autorizado para indexação.
-- Coordenadas precisas de ocorrência **não estão nas fichas** (apenas estados e biomas) — sem risco de sensibilidade geográfica.
+- Coordenadas precisas de ocorrência **não estão nas fichas** (apenas estados e biomas). Os registros de ocorrência, com coordenadas, vêm de outra exportação do SALVE (`export=reg`), ainda não coletada. Coordenadas públicas são autorizadas no HerpIA ([ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md)).
 - A seção `referencias` é longa mas menos útil para recuperação direta — pode receber tratamento diferenciado no chunking.
 
 ---
@@ -205,7 +205,7 @@ PANs    →  PAN Herpetofauna do Sudeste: lista oficial das 55 espécies priorit
 
 | Lacuna | Fonte futura |
 |---|---|
-| Localização precisa de espécies (coordenadas) | Não será indexada — dado sensível |
+| Localização precisa de espécies (coordenadas) | Registros de ocorrência do SALVE (`export=reg`) — autorizados pelo [ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md); coleta ainda não feita, começa por um piloto com uma espécie |
 | Dados quantitativos brutos de monitoramento | Monitora/Dados (2 planilhas) — processamento futuro |
 | Documentos administrativos internos | SEI/ICMBio — acesso restrito, apenas exportações autorizadas |
 | Literatura científica dos pesquisadores do RAN | `02_publicacoes_cientificas_ran/` — a organizar |

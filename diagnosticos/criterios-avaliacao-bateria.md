@@ -243,3 +243,10 @@ propósito.
    que a fonte (ex.: coordenadas ausentes dos trechos). F6 passa de "recusar"
    para "responder" (fonte `salve`). Se entrarem na base dados de localização
    não públicos, esta decisão precisa ser revista. Sem ADR por enquanto.
+
+   **Nota (2026-11-11):** o [ADR 0009](../docs/decisoes/0009-coordenadas-de-ocorrencia.md)
+   autoriza coordenadas públicas na base. Esta decisão continua valendo:
+   coordenada que estiver na fonte pode ser informada, citando; inventar
+   coordenada que não está nos trechos continua erro grave. O critério de F3
+   ("dado sensível") depende de gabarito novo da equipe do RAN e não foi
+   alterado aqui (ver ADR 0008, seção 5).

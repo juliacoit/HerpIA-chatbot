@@ -183,23 +183,22 @@ Redação nova, **aplicada ao `CLAUDE.md` em 2026-11-11**:
 +- Coordenadas públicas de ocorrência de espécies são autorizadas (decisão da equipe do RAN, 2026-11-11, ADR 0009): não são removidas do texto, podem ser indexadas, gravadas no log, baixadas pelo usuário e enviadas ao juiz externo da avaliação. O HerpIA não aplica filtro por espécie nem por idade do dado: os dados chegam ao RAN já filtrados, e dado sigiloso não entra na base. O uso do sistema exige login.
 ```
 
-**Outros documentos que ainda dizem o contrário**, a atualizar:
+**Outros documentos que diziam o contrário**, atualizados em 2026-11-11:
 
-- `docs/fontes-de-dados.md:208`: "Localização precisa de espécies
-  (coordenadas) | Não será indexada — dado sensível".
-- `docs/fontes-de-dados.md:69`: "Coordenadas precisas de ocorrência não estão
-  nas fichas". Continua verdade para as fichas; acrescentar que os registros
-  de ocorrência vêm da exportação `export=reg`.
-- `docs/processos/coleta_salve_detalhado.md:173`: trata coordenada como dado
-  que "receberia tratamento mais cauteloso".
-- `docs/processos/classificacao_sensibilidade.md:38` e o item da Fase 3 do
-  roadmap: mandam verificar "localização precisa de espécies ameaçadas".
-- `diagnosticos/criterios-avaliacao-bateria.md`, decisão 7 (2026-09-25): "Se
-  entrarem na base dados de localização não públicos, esta decisão precisa
-  ser revista". Continua válida: o que entra é coordenada pública. Inventar
-  coordenada que não está na fonte continua erro grave.
-- ADR 0002 (linha 9): cita "localizações precisas de espécies ameaçadas" como
-  exemplo de informação sensível.
+- `docs/fontes-de-dados.md`: a lacuna "localização precisa" passa a apontar
+  para os registros de ocorrência do SALVE (`export=reg`).
+- `docs/processos/coleta_salve_detalhado.md`, `extracao_texto_salve.md`,
+  `classificacao_sensibilidade.md`, `triagem_pendente_sensibilidade_copyright.md`
+  e `coleta_gabaritos_ran.md`: localização precisa deixa de ser critério de
+  sensibilidade.
+- ADR 0002 e ADR 0004: nota apontando para este ADR, sem reescrever a decisão.
+- `diagnosticos/criterios-avaliacao-bateria.md`, decisão 7: nota. A decisão
+  continua válida (inventar coordenada que não está na fonte é erro grave).
+
+Não foram alterados: os diagnósticos datados, que registram a situação da
+época, e os textos dos casos de teste (o objetivo de F3 em
+`scripts/teste_perguntas_dominio.py` ainda fala em "dado sensível"), que só
+mudam com gabarito da equipe.
 
 ### 6. Plano de implementação (não implementado)
 

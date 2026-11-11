@@ -130,5 +130,6 @@ Todas as 2086 fichas extraídas foram copiadas para `03_documentos_autorizados/s
 
 As fichas SALVE são documentos públicos do ICMBio, disponíveis abertamente em
 `salve.icmbio.gov.br`. Não contêm coordenadas precisas de ocorrência (apenas
-estados e biomas) — sem risco de sensibilidade geográfica. Conteúdo considerado
-autorizado para indexação.
+estados e biomas). Conteúdo considerado autorizado para indexação. Coordenadas
+públicas, como as dos registros de ocorrência do SALVE, também são autorizadas
+desde 2026-11-11 ([ADR 0009](../decisoes/0009-coordenadas-de-ocorrencia.md)).

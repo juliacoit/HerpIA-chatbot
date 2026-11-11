@@ -82,6 +82,6 @@ ganhar perguntas novas (Pedido 4).
 - As perguntas e os gabaritos tratam de conteúdo das fontes públicas já
   indexadas (SALVE, PANs, Monitora). Nada do SEI entra nesta coleta.
 - Os gabaritos vão para o repositório, que é público. Antes de copiá-los
-  para `casos.jsonl`, conferir que não trazem dados pessoais nem
-  localizações precisas de espécies ameaçadas.
+  para `casos.jsonl`, conferir que não trazem dados pessoais. Coordenadas
+  públicas podem aparecer ([ADR 0009](../decisoes/0009-coordenadas-de-ocorrencia.md)).
 - Neste documento, as pessoas aparecem pelo papel, não pelo nome.

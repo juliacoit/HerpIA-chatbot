@@ -16,6 +16,15 @@ reduzir o volume de análise humana e indicar por onde começar.
 **Nenhuma dessas planilhas decide o que entra na base de conhecimento.** Isso continua
 sendo responsabilidade da equipe do RAN. O papel da triagem é apenas priorizar.
 
+## Atualização 2026-11-11 — coordenadas deixam de ser removidas
+
+A equipe do RAN decidiu que coordenadas públicas são autorizadas
+([ADR 0009](../decisoes/0009-coordenadas-de-ocorrencia.md)). O chunking não as remove mais, e
+coordenada sozinha não é motivo para bloquear um documento. A triagem ainda
+sinaliza coordenadas com prioridade ALTA, porque `regras_pii.py` mantém os padrões
+na lista; na revisão da Planilha 1, essa sinalização serve só de informação. Onde o
+texto abaixo fala em coordenadas redigidas, vale o que está aqui.
+
 ## Atualização 2026-07-13 — redação automática de padrões estruturados
 
 O pipeline de chunking (`scripts/processamento/gerar_chunks.py`) passou a redigir

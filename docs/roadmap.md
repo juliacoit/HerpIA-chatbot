@@ -3,21 +3,21 @@
 Documento de referência para todas as fases, tarefas e processos do projeto,
 do estado atual até o protótipo funcional validado com usuários.
 
-**Atualizado em:** 2026-10-20
+**Atualizado em:** 2026-11-16
 
 ---
 
 ## Status geral
 
 ```
-[Fase 1] Coleta de dados          ████████░░  80% — SALVE completo (2086 fichas); publicações organizadas (312 arquivos, catálogo inicial); SEI catalogado
-[Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs extraídos (816/816); SALVE completo (2086/2086); piloto de processamento de imagens implementado
-[Fase 3] Classificação            ░░░░░░░░░░   0% — sem avaliação individual formal registrada; Monitora/PANs/SALVE já estão em 03_documentos_autorizados/ por serem fontes públicas (ver docs/processos/classificacao_sensibilidade.md, status "A definir")
-[Fase 4] Chunking                 ████████░░  80% — 59.085 chunks (monitora, PANs, SALVE completos); SEI pendente (autorização Fase 1.5)
-[Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); indexação real concluída (59.085/59.085 chunks, monitora+PANs+SALVE, 0 erros, 2026-08-10); comparação com outros modelos e indexação de publicações/SEI pendentes
-[Fase 6] Backend RAG (FastAPI)    ████████░░  80% — esqueleto validado de ponta a ponta (busca + geração com Ollama local, 2026-08-11); logging/feedback em PostgreSQL implementado e validado contra o Postgres real (2026-09-02, ver docs/processos/backend_fastapi.md); faltam busca híbrida e autenticação
-[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade oficial do RAN/ICMBio aplicada e layout reestruturado para bater com o protótipo de referência (interface/tema.py + app.py + design-system/, 2026-09-16 — cor/tipografia/marca oficiais, depois composição: cabeçalho de tela simples, faixa de estado com ícone, citações em cartão, checkboxes de fonte, diálogo de comentário no feedback negativo); falta persistência entre sessões e autenticação (ver docs/processos/interface_streamlit.md e docs/processos/design_system.md)
-[Fase 8] Validação com usuários   ░░░░░░░░░░   0%
+[Fase 1] Coleta de dados          █████████░  90% — Monitora, PANs e SALVE completos; publicações liberadas pelo RAN (303, 2026-11-06); SEI: 173 processos autorizados e 1.148 documentos exportados (2026-11-10), 3 para conferência manual
+[Fase 2] Extração de texto        ██████████  100% — PDFs Monitora/PANs (816/816); SALVE (2086/2086); publicações (303/303, 2026-11-06); SEI (1.130 de 1.148, 2026-11-11); piloto de processamento de imagens implementado
+[Fase 3] Classificação            ████░░░░░░  40% — Monitora/PANs/SALVE autorizados por serem fontes públicas; publicações liberadas pelo RAN (2026-11-06); coordenadas públicas autorizadas (ADR 0009); SEI com triagem automática feita e decisão humana pendente
+[Fase 4] Chunking                 █████████░  90% — 59.069 chunks de Monitora, PANs e SALVE (novo chunking de Monitora/PANs em 2026-11-11, sem remover coordenadas); 24.793 de publicações; 45.880 do SEI preparados fora da pasta de indexação (branch feature/chunking-sei)
+[Fase 5] Embeddings + Qdrant      ████████░░  80% — BGE-M3 (ADR 0005); 59.069 pontos indexados (Monitora, PANs e SALVE; reindexação dos alterados em 2026-11-11); publicações e SEI ainda não indexados; comparação com outros modelos pendente
+[Fase 6] Backend RAG (FastAPI)    █████████░  90% — busca, geração, groundedness, logging e feedback em PostgreSQL; citações por seção, tipo_saida e colunas novas do log (2026-11-04); avaliação RAGAS; autenticação por convite em uso desde 2026-11-16 (branch feature/login); faltam busca híbrida e o filtro de escopo do ADR 0008
+[Fase 7] Interface (Streamlit)    █████████░  90% — protótipo de chat implementado e testado no navegador (interface/, 2026-09-04): pergunta, resposta com citações (com texto do chunk recuperado), feedback, filtros de fonte/top_k, identidade oficial do RAN/ICMBio aplicada e layout reestruturado para bater com o protótipo de referência (interface/tema.py + app.py + design-system/, 2026-09-16 — cor/tipografia/marca oficiais, depois composição: cabeçalho de tela simples, faixa de estado com ícone, citações em cartão, checkboxes de fonte, diálogo de comentário no feedback negativo); tela de acesso e sessão que sobrevive ao recarregar a página na branch feature/login; falta persistência do histórico da conversa (ver docs/processos/interface_streamlit.md e docs/processos/design_system.md)
+[Fase 8] Validação com usuários   ███░░░░░░░  30% — 1ª sessão supervisionada (2026-10-26); escopo e coordenadas decididos pelo RAN (2026-11-11); desde 2026-11-16 a interface está publicada pelo Tailscale Funnel, com login, e as contas dos quatro servidores do RAN foram criadas
 ```
 
 ---
@@ -75,11 +75,19 @@ do estado atual até o protótipo funcional validado com usuários.
   Na cópia local, as 58 publicações de risco BAIXO estão marcadas `autorizado` (2026-07-14); as
   7 de risco ALTO e as 242 de risco MÉDIO seguem sem decisão
 - [ ] Consolidar esse catálogo em `06_inventario/inventario_fontes.xlsx` (planilha geral do projeto)
-- [ ] Avaliar sensibilidade/copyright de cada publicação antes de mover para
-  `03_documentos_autorizados/` — atenção especial aos anais de congresso (copyright de
-  terceiros — Sociedade Brasileira de Herpetologia) e aos artigos publicados em revistas
-  externas (copyright da editora); publicações institucionais do próprio RAN (boletins,
-  HerpetoPAN, ICMBio em Foco) têm risco mais baixo
+- [x] **Copyright liberado pela equipe do RAN** (2026-11-06): nenhuma restrição, porque o
+  HerpIA é de uso interno, exclusivo dos servidores do RAN. A equipe analisou todas
+  manualmente e liberou todas, incluindo os anais do CBH. Planilha local preenchida (303
+  autorizadas; 9 marcadores de lacuna em branco)
+- [x] Avaliar cada publicação antes de mover para `03_documentos_autorizados/` — análise
+  manual da equipe do RAN concluída em 2026-11-06, todas liberadas
+- [x] Extrair o texto das 303 publicações e colocar os JSON em
+  `03_documentos_autorizados/publicacoes/` (2026-11-06; 0 erros, 3 por OCR)
+- [x] Chunking das publicações (`gerar_chunks.py --fonte publicacoes`, 2026-11-10): 303
+  documentos → 24.794 chunks, 0 erros (24.793 depois do novo chunking de 2026-11-11)
+- [ ] Embeddings e indexação das publicações — o login já está em uso (2026-11-16), então o
+  pré-requisito foi atendido; falta `indexar_chunks.py` conhecer a fonte e a Júlia pedir a
+  indexação
 - [ ] **Decidir como versionar os PDFs**: vários arquivos excedem o limite de tamanho do
   GitHub (um arquivo de 130 MB e outros entre 50–90 MB já bloquearam um `git push`) — decidir
   entre Git LFS, manter os binários fora do git (como já é feito para `01_fontes_web/**/documentos/`,
@@ -113,8 +121,22 @@ do estado atual até o protótipo funcional validado com usuários.
 - [ ] **Regenerar catálogo de blocos após a revisão feita pela equipe** (requer autorização da
   Júlia) — o `blocos_internos.json` atual (43 blocos, 16 prioritários) é de 2026-06-30,
   anterior à revisão
-- [ ] **Decidir com a equipe do RAN** quais processos/documentos têm autorização para exportação
-- [ ] Exportar documentos aprovados manualmente e mover para `04_documentos_pendentes_avaliacao/sei/`
+- [x] **Decidir com a equipe do RAN** quais processos têm autorização para exportação
+  (2026-11-06): os 173 selecionados ficam, os 244 descartados saem. `status_exportacao` no
+  JSON atualizado para `"autorizado"`
+- [x] **Exportação automatizada dos documentos técnicos** dos 173 processos (ADR 0010,
+  2026-11-06 a 2026-11-10; branch `docs/decisao-sei-publicacoes`): 1.148 de 1.197 baixados
+  para `04_documentos_pendentes_avaliacao/sei/`; 46 constavam como cancelados no SEI
+- [ ] Conferir manualmente os 3 documentos que não foram baixados (processos
+  02071.000047/2018-01, 02070.020199/2024-70 e 02070.004212/2021-09)
+- [x] **Extração de texto** (2026-11-11): 1.130 de 1.148 documentos
+- [x] **Triagem automática de sensibilidade** e **remoção de dados pessoais** dos textos
+  extraídos (CPF, RG, e-mail, telefone; coordenadas mantidas, 2026-11-11). Depois da remoção:
+  65 documentos de atenção alta, 244 média e 832 baixa
+  (`06_inventario/triagem_sensibilidade_sei.xlsx`, fora do git)
+- [ ] **Decisões da equipe do RAN antes de indexar** (mensagem enviada em 2026-11-16):
+  39 documentos com menção a restrição, nomes de pessoas nos textos e títulos, planilhas
+  (283 documentos, 56% dos chunks) e a avaliação final de sensibilidade
 - [ ] Avaliar sensibilidade individualmente antes de mover para `03_documentos_autorizados/`
 
 > Ver detalhamento completo em [`docs/processos/coleta_sei_detalhado.md`](processos/coleta_sei_detalhado.md)
@@ -184,8 +206,9 @@ e seção "Solução Escolhida (revisada)" em
     híbrida recria a coleção, então as duas mudanças cabem em uma única reindexação
 
 ### 2.4 Publicações científicas (PDF → texto)
-- [ ] Reutilizar o mesmo script de extração de PDFs (Fase 2.2)
-- [ ] Executar sobre `03_documentos_autorizados/` (somente documentos já aprovados)
+- [x] Extração das 303 publicações autorizadas (`extrair_texto_publicacoes.py --ocr`,
+  2026-11-06; 0 erros, 3 por OCR), com os JSON em `03_documentos_autorizados/publicacoes/`
+  (branch `docs/decisao-sei-publicacoes`)
 - [ ] Integrar processamento de imagens (Fase 2.3) para publicações com gráficos/mapas
 
 ---
@@ -199,7 +222,8 @@ e seção "Solução Escolhida (revisada)" em
 - [ ] **Revisão manual dos documentos do Monitora:** verificar se há dados pessoais. Localização precisa deixou de ser critério: coordenadas públicas são autorizadas ([ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md), aceito em 2026-11-11)
 - [ ] **Revisão manual dos PDFs dos PANs:** mesmos critérios
 - [x] **Fichas SALVE:** avaliadas — não contêm coordenadas precisas de ocorrência (só estados/biomas/EOO-AOO agregados e mapa-imagem público); fichas são públicas no site do ICMBio, classificadas como autorizadas. Todas as 2086 copiadas para `03_documentos_autorizados/salve/` (2026-07-06)
-- [ ] **Publicações científicas:** verificar copyright e termos de uso de cada publicação
+- [x] **Publicações científicas:** liberadas pela equipe do RAN em 2026-11-06, depois de análise manual, por o HerpIA ser de uso interno (303 autorizadas)
+- [ ] **SEI:** triagem automática feita (2026-11-11); a decisão por documento é humana e aguarda a equipe do RAN (Fase 1.5)
 - [ ] Mover documentos aprovados: `04_documentos_pendentes_avaliacao/` → `03_documentos_autorizados/`
 - [ ] Mover documentos sensíveis: `04_documentos_pendentes_avaliacao/` → `05_documentos_sensiveis_nao_indexar/`
 - [ ] Atualizar inventário com a classificação de cada documento
@@ -224,16 +248,25 @@ e seção "Solução Escolhida (revisada)" em
 ### 4.2 PDFs do Monitora e dos PANs
 - [x] Janela deslizante com overlap sobre o texto por página; cada chunk registra `pagina_inicio`/`pagina_fim`, fonte, nome do documento, URL/caminho local e data de extração
 - [x] Executado: 109 documentos do Monitora → 7.220 chunks; 706 documentos dos PANs → 31.796 chunks
+- [x] **Novo chunking de Monitora e PANs sem remover coordenadas** (ADR 0009, 2026-11-11): Monitora 7.220 chunks, PANs 31.780; total da base com o SALVE: 59.069
   - 1 documento do catálogo de PANs (`pan-quelonios-portaria-gat.json`) tem texto extraído mas **não** está em `03_documentos_autorizados/` — corretamente excluído do chunking
 
 ### 4.3 SEI
-- [ ] **Pendente** — depende da equipe do RAN autorizar a exportação dos processos candidatos (Fase 1.5) e da avaliação de sensibilidade de cada documento exportado
-- [ ] Depois que os documentos aprovados forem movidos para `03_documentos_autorizados/sei/`: implementar/adaptar extração de texto (Fase 2) e então rodar `gerar_chunks.py --fonte sei` (requer adicionar suporte à fonte "sei" no script)
+- [x] **Chunking preparado, sem indexar** (2026-11-11; `scripts/processamento/gerar_chunks_sei.py`,
+  branch `feature/chunking-sei`): 1.094 documentos → 45.880 chunks (20.230 de texto corrido e
+  25.650 de planilha), em `07_processados/chunks_pendentes/sei/`, fora da pasta que
+  `indexar_chunks.py` lê. Todo chunk leva `nivel_sensibilidade: "pendente_avaliacao"`
+- [ ] Mover os chunks aprovados para `07_processados/chunks/sei/` depois das decisões da
+  equipe do RAN (Fase 1.5)
 - **A Fase 4 só pode ser considerada concluída depois que o SEI passar por essa etapa.**
 
 ### 4.4 Publicações científicas
-- [ ] Reutilizar ou adaptar `gerar_chunks.py` para publicações científicas quando entrarem em `03_documentos_autorizados/` (Fase 1.4)
-  - Considerar incluir metadados bibliográficos (autores, ano, título, DOI) em cada chunk
+- [x] `gerar_chunks.py --fonte publicacoes` (2026-11-10): 303 documentos → 24.794 chunks em `07_processados/chunks/publicacoes/chunks.jsonl`
+  - Mesma janela por página de Monitora/PANs, com cabeçalho bibliográfico (título, autoria, ano, tipo) no texto de cada chunk e metadados do catálogo no payload (`titulo`, `autor`, `ano`, `fonte_bibliografica`, `doi`, `tipologia`)
+  - Arquivo que reúne várias publicações (11) ou sem título no catálogo (18) é identificado no cabeçalho só pelo nome do arquivo
+  - Cada chunk leva `acesso: "interno"`: a liberação foi para uso interno do RAN, então a indexação espera o login
+  - Redação automática igual à de Monitora/PANs (`regras_pii.py`): 198 documentos com ao menos 1 trecho redigido, quase tudo e-mail de autor (3.891), mais 186 coordenadas e 59 telefones; auditoria em `06_inventario/relatorio_anonimizacao_chunks_publicacoes.json`. Com o ADR 0009 aceito (2026-11-11), as coordenadas deixaram de ser redigidas e o chunking foi refeito (24.793 chunks)
+  - Seções de referências bibliográficas não são removidas: avaliar se atrapalham a recuperação quando a fonte for indexada
 
 ---
 
@@ -281,8 +314,9 @@ e seção "Solução Escolhida (revisada)" em
   - Scripts: `indexar_chunks_lite.py` (multilingual-e5), `indexar_chunks.py` (BGE-M3), `teste_openai_embeddings.py` (OpenAI)
 - [x] **Indexação real com BGE-M3 concluída** (2026-08-10) — 59.085/59.085 chunks (monitora 7.220, PANs 31.796, SALVE 20.069), 0 erros, Qdrant embutido (`07_processados/qdrant_local`)
   - Busca de teste validada com perguntas do domínio nas 3 fontes (ex.: status de conservação da jararaca-ilhoa — retornou ficha SALVE + PAN herpetofauna insular corretamente)
+- [x] **Reindexação dos chunks alterados** depois do novo chunking de Monitora e PANs (`scripts/indexacao/reindexar_alterados.py`, 2026-11-11): 803 reencodados, 735 payloads regravados, 17 órfãos apagados; coleção com 59.069 pontos
 - [ ] Testar multilingual-e5-small e OpenAI API em amostra e comparar custo/qualidade com BGE-M3 (comparação ainda não feita — decisão de modelo definitivo pendente)
-- [ ] Indexar publicações e SEI quando essas fontes tiverem chunks gerados (Fase 1.4/1.5, 4.3/4.4)
+- [ ] Indexar publicações e SEI — chunks já gerados; `indexar_chunks.py` ainda só aceita `monitora`, `pans` e `salve`. Publicações: falta o pedido da Júlia. SEI: depende das decisões do RAN (Fase 1.5)
 
 ---
 
@@ -308,10 +342,10 @@ e seção "Solução Escolhida (revisada)" em
     (ver `scripts/infra/subir_ollama.sh`, ADR 0006) e modelo `qwen2.5:3b-instruct` baixado;
     `/perguntar` testado contra a coleção real (59.085 pontos), resposta e citações corretas
   - [x] Testar com uma amostra maior de perguntas reais do domínio — em andamento via `scripts/teste_perguntas_dominio.py` e `diagnosticos/baterias/` (8 execuções entre 2026-08-19 e 2026-08-25, ver `diagnosticos/teste-perguntas-dominio.md`)
-- [ ] **Avaliação offline com RAGAS** ([ADR 0007](decisoes/0007-avaliacao-offline-ragas-juiz-claude.md),
+- [x] **Avaliação offline com RAGAS** ([ADR 0007](decisoes/0007-avaliacao-offline-ragas-juiz-claude.md),
   `avaliacao/`) — implementada; primeira bateria paga em 2026-10-19 (36 casos). Os
   **gabaritos estão em coleta com a equipe do RAN, com prazo no início de novembro de 2026**;
-  até lá, `ContextPrecisionWithReference` e `ContextRecall` são puladas. Ver
+  até lá, `ContextPrecisionWithReference` e `ContextRecall` são puladas (gabaritos ainda não recebidos em 2026-11-16). Ver
   [`docs/processos/coleta_gabaritos_ran.md`](processos/coleta_gabaritos_ran.md)
 - [ ] **Experimento de concisão das respostas** — hipótese de que respostas longas favorecem
   alucinação; testar instrução de concisão e/ou teto de `LLM_NUM_PREDICT` contra a linha de base
@@ -339,7 +373,18 @@ e seção "Solução Escolhida (revisada)" em
   - [x] Registrar perguntas, chunks recuperados e respostas no PostgreSQL — `backend/db.py` + `backend/services/logging_db.py`, tabelas `interacoes`/`feedback` criadas automaticamente no startup
   - [x] Permitir feedback do usuário (thumbs up/down) por resposta — `POST /feedback`
   - [x] **Validado contra um PostgreSQL real** (2026-09-02, containers `ran_postgres`/`ran_qdrant` já existentes neste ambiente, só faltava habilitar a integração Docker Desktop ↔ WSL): tabelas criadas automaticamente no startup; `/perguntar` gravou uma interação real com citações/chunks em JSONB e devolveu o `id`; `/feedback` gravou a avaliação referenciando esse `id`; `interacao_id` inexistente devolveu 404 corretamente
-- [ ] **Autenticação/autorização de usuários** — a API hoje não tem nenhuma
+- [x] **Autenticação/autorização de usuários** (branch `feature/login`, em uso desde
+  2026-11-16 com `AUTH_EXIGIR=tudo`): contas locais por convite, senha com hash, sessão por
+  token que sobrevive ao recarregar a página, perguntas e feedback associados ao usuário,
+  tela de acesso na interface, bloqueio por conta e limite global de tentativas. Escopo
+  definido pela equipe do RAN (2026-10-07): login para todo o sistema, avaliações
+  identificadas, sem SSO do ICMBio. A bateria de perguntas e `avaliacao/rodar_ragas.py`
+  fazem login com `HERPIA_USUARIO`/`HERPIA_SENHA`. Ver `docs/processos/autenticacao.md`
+  nessa branch
+  - [ ] Tela de administração e painel de avaliações por usuário (hoje, script e consulta
+    direta ao banco)
+  - [ ] Integrar a branch `feature/login` (ordem combinada: `feature/avaliacao-ragas` →
+    `main`, depois `fix/citacoes-estados-logging`, depois `feature/login`)
 - [x] **Filtro de metadado estruturado de ficha SALVE como filtro de payload
   no Qdrant** (bioma, categoria de risco, grupo Anfíbios/Répteis, estados),
   em vez de o LLM inferir do texto corrido — achado e correção em
@@ -423,6 +468,12 @@ e seção "Solução Escolhida (revisada)" em
 
 - [ ] **Definir perguntas de teste** com técnicos e gestores do RAN
 - [ ] **Sessão de teste com usuários reais** — observar comportamento, anotar gaps
+  - [x] **Acesso de cada servidor pela própria máquina** (2026-11-16): interface publicada em
+    HTTPS pelo Tailscale Funnel, sem depender da rede interna do RAN; só a interface é
+    exposta e o login é obrigatório. Contas dos quatro servidores criadas, convites válidos
+    até 2026-11-23. Script e documentação na branch `feature/login`
+    (`docs/processos/acesso_externo_funnel.md`)
+  - [ ] Teste de acesso de fora da máquina (rede móvel) e primeiro acesso dos quatro servidores
   - [x] 1ª sessão supervisionada (2026-10-26) diagnosticada — ver
     [`docs/processos/sessoes_supervisionadas_ran.md`](processos/sessoes_supervisionadas_ran.md)
   - [x] **Escopo decidido pela equipe do RAN (2026-11-11)** — só herpetofauna, sem tartarugas
@@ -433,8 +484,8 @@ e seção "Solução Escolhida (revisada)" em
     autorizadas, sem restrição por espécie; uso do sistema exige login
     ([ADR 0009](decisoes/0009-coordenadas-de-ocorrencia.md), aceito)
   - [x] `regras_pii.py` deixou de remover coordenadas (2026-11-11)
-  - [ ] Novo chunking e indexação dos 30 documentos de Monitora e PANs que tinham coordenadas
-    removidas — aguarda aprovação
+  - [x] Novo chunking e reindexação de Monitora e PANs sem remover coordenadas (2026-11-11;
+    59.069 pontos na coleção)
   - [ ] Implementar o filtro de escopo e as mensagens de fora de escopo (plano no ADR 0008) —
     aguarda aprovação
   - [ ] Registros de ocorrência do SALVE (piloto da exportação, tabela e rota; plano no ADR 0009)
@@ -453,9 +504,9 @@ e seção "Solução Escolhida (revisada)" em
 |---|---|---|
 | Modelo de embeddings em produção (OpenAI vs. open-source) — BGE-M3 já em uso temporário para testes ([ADR 0005](decisoes/0005-escolha-temporaria-modelo-embeddings.md)); decisão final depende de orçamento para API — ver [`docs/processos/escolha_modelo_embeddings.md`](processos/escolha_modelo_embeddings.md) | Custo, qualidade, dependência de API | Antes de indexar em produção (Fase 6) |
 | Modelo de LLM para geração em produção (API paga vs. local) — LLM local via Ollama já escolhido temporariamente para a Fase 6 ([ADR 0006](decisoes/0006-escolha-temporaria-llm-geracao.md)); decisão final depende de orçamento para API, mesmo padrão do ADR 0005 | Custo, qualidade, privacidade dos dados | Antes de ir a produção (Fase 8) |
-| Quais publicações científicas incluir no acervo inicial | Escopo da base de conhecimento | Fase 1.4 |
-| Quais documentos do SEI têm autorização de uso | Escopo e conformidade | Fase 1.5 |
 | SEI: indexar só documentos públicos ou também restritos com controle de acesso — sem controle por usuário, qualquer usuário do HerpIA pode receber trechos de um documento restrito; ligado ao `nivel_sensibilidade` dos chunks e ao envio ao juiz do RAGAS ([ADR 0004](decisoes/0004-criterios-selecao-documentos-sei.md), atualização 2026-10-20) | Conformidade, segurança, escopo | Antes do piloto do SEI (Fase 1.5) |
+| SEI: o que fazer com os 39 documentos com menção a restrição, os nomes de pessoas e as planilhas (56% dos chunks) — mensagem enviada à equipe do RAN em 2026-11-16 | Indexação do SEI | Antes de indexar (Fase 1.5) |
+| SEI na base enquanto a interface estiver publicada na internet — o login é a única barreira; a equipe do RAN deve confirmar sabendo disso | Conformidade | Antes de indexar o SEI |
 | Geração de rascunhos de documentos no formato do SEI (fase futura, requer ADR) — outro produto: modelos de documento, contexto maior, LLM mais forte que o 3B atual, saída sempre como rascunho para revisão humana | Escopo do produto, custo, qualidade | Após a validação do protótipo (Fase 8) |
 | Monitora: análise do componente Florestal (fora por enquanto) e lista de exclusões, ainda incompleta — as duas dependem de os servidores do RAN preencherem o [mapa de escopo do Monitora](processos/mapa_escopo_monitora.md) ([ADR 0008](decisoes/0008-escopo-da-base-herpetofauna.md)) | Escopo da base consultada | Antes de gravar o escopo dos documentos do Monitora |
 | Migração para servidor dedicado | Capacidade de processamento e armazenamento | Após validação do protótipo (Fase 8) |
@@ -464,29 +515,31 @@ e seção "Solução Escolhida (revisada)" em
 
 ## Ordem recomendada para as próximas sessões
 
-Indexação real concluída (Fase 5) e esqueleto do backend FastAPI implementado
-(Fase 6, ver [`docs/processos/backend_fastapi.md`](processos/backend_fastapi.md)).
-O que resta não depende da reunião do SEI e pode avançar em paralelo:
+Estado em 2026-11-16: o protótipo está no ar para a validação, com login, e a base indexada
+tem Monitora, PANs e SALVE.
 
-1. **Agora (Fase 6):** Testar `/perguntar` com uma amostra maior de perguntas reais
-   do domínio (Ollama já instalado e validado com uma pergunta de fumaça, 2026-08-11)
+1. **Agora (Fase 8):** acompanhar o primeiro acesso dos quatro servidores do RAN e a
+   validação; testar o acesso de fora pela rede móvel.
 
-2. **Depois (Fase 6):** Logging de perguntas/respostas no PostgreSQL + feedback do usuário
+2. **Aguardando o RAN:** decisões sobre o SEI (documentos com menção a restrição, nomes de
+   pessoas, planilhas, avaliação de sensibilidade), gabaritos da avaliação RAGAS e o
+   [mapa de escopo do Monitora](processos/mapa_escopo_monitora.md).
 
-3. **Em paralelo (Fase 2.3):** Validar piloto de processamento de imagens (100% local — CLIP + Qwen2-VL-2B)
-   - Testar com 5-10 PDFs variados
-   - Verificar qualidade de classificação (CLIP) e descrição (VLM local)
-   - Documentar tempos reais e validação (sem custo de API a medir)
-   - Ver: [`scripts/processamento_imagens/COMECE_AQUI.md`](scripts/processamento_imagens/COMECE_AQUI.md)
+3. **Integração das branches:** `feature/avaliacao-ragas` → `main`, depois
+   `fix/citacoes-estados-logging`, depois `feature/login`; em seguida as branches de
+   documentação e do SEI. Hoje o que está no ar roda a partir de `feature/login`.
 
-4. **Depois:** Integrar processamento de imagens ao pipeline de indexação
-   - Armazenar descrições em `07_processados/imagens_descritas/`
-   - Indexar no Qdrant junto com chunks de texto
+4. **Indexar as publicações** (24.793 chunks prontos): incluir a fonte em
+   `indexar_chunks.py` e indexar quando a Júlia pedir.
 
-5. **Em paralelo:** Organizar e catalogar publicações científicas do RAN (Fase 1.4) + processamento de imagens para as que tiverem
+5. **Implementar o filtro de escopo** e as mensagens de fora de escopo
+   ([ADR 0008](decisoes/0008-escopo-da-base-herpetofauna.md)) — aguarda aprovação.
 
-6. **Em paralelo:** Atualizar `06_inventario/inventario_fontes.xlsx` com o estado atual
+6. **Indexar o SEI** depois das decisões do RAN.
 
-7. **Em paralelo:** Decidir com a equipe do RAN quais processos/documentos do SEI têm autorização para exportação (Fase 1.5)
+7. **Em paralelo:** busca híbrida (Fase 6), experimento de concisão, revisão do relatório do
+   Lumi-4B (branch `experimento/lumi-4b`), validação do piloto de processamento de imagens
+   (Fase 2.3) e atualização de `06_inventario/inventario_fontes.xlsx`.
 
-8. **Depois:** Streamlit (Fase 7) + validação com usuários (Fase 8)
+8. **Depois da validação:** migração para servidor dedicado
+   ([ADR 0003](decisoes/0003-infraestrutura-prototipo-local-antes-de-servidor-dedicado.md)).

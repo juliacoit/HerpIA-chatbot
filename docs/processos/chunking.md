@@ -163,10 +163,10 @@ encontrado nesta execução. Relatório completo (lista dos documentos afetados 
 contagem por tipo) em [`06_inventario/relatorio_anonimizacao_chunks.json`](../../06_inventario/relatorio_anonimizacao_chunks.json)
 (gerado a cada execução do script — não versionado, mesmo status de `chunks.jsonl`).
 
-Esses números são da última execução, anterior ao ADR 0009. Os chunks atuais
-ainda trazem `[coordenada removida]` (3.174 ocorrências em 30 documentos,
-contando a sobreposição entre chunks). Elas só somem quando o chunking rodar de
-novo, o que depende de aprovação.
+Esses números são da execução anterior ao ADR 0009. Em 2026-11-11 o chunking de
+Monitora e PANs foi refeito sem remover coordenadas (Monitora 7.220 chunks, PANs
+31.780) e os chunks alterados foram reindexados com
+`scripts/indexacao/reindexar_alterados.py`; a coleção ficou com 59.069 pontos.
 
 ## Pendências
 

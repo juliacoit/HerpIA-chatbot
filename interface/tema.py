@@ -33,6 +33,7 @@ app.py).
 """
 
 import base64
+import html
 import textwrap
 from pathlib import Path
 from urllib.parse import quote
@@ -293,7 +294,7 @@ def chip_fonte(fonte: str, pequeno: bool = True) -> str:
     cor = CORES_FONTE.get(fonte)
     meta = _FONTE_META.get(fonte, {"label": fonte.upper(), "icon": "file-text"})
     if not cor:
-        return meta["label"]
+        return html.escape(meta["label"])
     altura = 20 if pequeno else 24
     padding_h = 8 if pequeno else 10
     fonte_px = "11.5px" if pequeno else "12.5px"

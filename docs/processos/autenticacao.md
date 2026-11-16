@@ -1,6 +1,6 @@
 # Autenticação de usuários
 
-**Status:** 🔶 Implementado e testado em banco de teste (2026-10-07). Escopo definido pela equipe do RAN (ver "Decisões da equipe do RAN"): login obrigatório para todo o sistema. No código o padrão continua `AUTH_EXIGIR=nada`; para valer a decisão, o `.env` do ambiente de validação precisa de `AUTH_EXIGIR=tudo`. Falta a conferência visual da tela no navegador e criar as contas.
+**Status:** 🔶 Implementado e testado em banco de teste (2026-10-07). Escopo definido pela equipe do RAN (ver "Decisões da equipe do RAN"): login obrigatório para todo o sistema. No código o padrão continua `AUTH_EXIGIR=nada`; para valer a decisão, o `.env` do ambiente de validação precisa de `AUTH_EXIGIR=tudo`. Testado também contra o backend completo com o banco real (2026-11-06). Falta ligar no `.env` e criar as contas.
 
 ## O que é
 
@@ -56,6 +56,7 @@ Na primeira vez que o backend desta versão subir contra o PostgreSQL real, ele 
 - **Token de sessão e código de convite:** aleatórios; o banco guarda só o SHA-256. Quem ler as tabelas não consegue se passar por ninguém.
 - **Falha de login:** a mesma mensagem para usuário inexistente, conta desativada e senha errada, para não revelar quais usuários existem.
 - **Bloqueio:** 5 tentativas erradas seguidas bloqueiam a conta por 15 minutos. Efeito colateral aceito para uso interno: alguém que saiba o usuário de outra pessoa consegue bloqueá-la temporariamente.
+- **Limite global de falhas (2026-11-16):** 20 falhas de login ou de convite por minuto, somando todas as contas; acima disso a API responde 429 sem calcular hash. Feito para a publicação pelo Tailscale Funnel — ver [`acesso_externo_funnel.md`](acesso_externo_funnel.md).
 - **Feedback alheio:** uma interação feita por um usuário logado só pode ser avaliada por ele (os ids são sequenciais; sem isso, qualquer pessoa avaliaria a resposta de outra).
 - **Desativar conta** encerra as sessões abertas na hora.
 - **Transporte:** o token trafega no cabeçalho HTTP. Fora da própria máquina, o acesso precisa passar pelo túnel SSH ou por HTTPS; expor o backend em HTTP na rede deixaria senha e token legíveis.
@@ -86,7 +87,7 @@ python scripts/infra/gerenciar_usuarios.py reativar nome.sobrenome
 python scripts/infra/gerenciar_usuarios.py listar
 ```
 
-Para ligar o login, defina `AUTH_EXIGIR=tudo` (ou `feedback`) no `.env` e reinicie o backend. Com `tudo`, a bateria de perguntas precisa de uma conta própria: crie-a com o script e defina `HERPIA_USUARIO` e `HERPIA_SENHA` no ambiente antes de rodar.
+Para ligar o login, defina `AUTH_EXIGIR=tudo` (ou `feedback`) no `.env` e reinicie o backend. Com `tudo`, a bateria de perguntas (`scripts/teste_perguntas_dominio.py`) e a avaliação RAGAS (`avaliacao/rodar_ragas.py`) precisam de uma conta própria: crie-a com o script e defina `HERPIA_USUARIO` e `HERPIA_SENHA` no ambiente antes de rodar.
 
 ## Como foi testado
 
@@ -124,3 +125,4 @@ Consequências:
 - [x] Manter a sessão ao recarregar a página (2026-11-06). Conferido no navegador (Chromium/Playwright) contra o backend com `AUTH_EXIGIR=tudo` e o PostgreSQL real, 10 de 10: sem cookie abre o login; login grava o cookie (`SameSite=Strict`, ~12 h); recarregar e abrir nova aba continuam logados; sair volta ao login e apaga o cookie; recarregar depois de sair pede login; cookie com token inválido não entra e é apagado. A conta de teste foi apagada depois.
 - [ ] Tela de administração e painel de feedbacks por usuário (hoje, script e consulta direta ao banco).
 - [x] Sessão para a bateria de perguntas: com `HERPIA_USUARIO` e `HERPIA_SENHA` no ambiente, `scripts/teste_perguntas_dominio.py` faz login antes de rodar (não testado contra um backend real com login ligado).
+- [x] Sessão para a avaliação RAGAS (2026-11-16): `avaliacao/rodar_ragas.py` usa as mesmas variáveis e abre a sessão antes da coleta; login recusado ou ausente com `AUTH_EXIGIR=tudo` interrompe antes de qualquer chamada paga. Coberto por `tests/test_rodar_ragas.py` com backend simulado.

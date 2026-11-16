@@ -25,6 +25,7 @@ Cada arquivo nesta pasta documenta um processo ou pipeline operacional do projet
 | [Classificação de sensibilidade](classificacao_sensibilidade.md) | Classificação de sensibilidade | A definir |
 | [**Chunking dos documentos autorizados**](chunking.md) | Chunking | ✅ Em produção (Monitora/PANs/SALVE); 🔶 SEI e publicações pendentes |
 | [**Autenticação de usuários**](autenticacao.md) | Backend e interface | 🔶 Implementado; escopo definido pelo RAN (login para tudo); falta ligar e criar as contas |
+| [**Acesso externo pelo Tailscale Funnel**](acesso_externo_funnel.md) | Infraestrutura | ✅ Publicado em 2026-11-16 (script com travas e reforços de segurança); falta o teste de fora |
 | [Geração de embeddings](embeddings.md) | Embeddings → Banco vetorial | A definir |
 | [Coleta de gabaritos da avaliação RAGAS](coleta_gabaritos_ran.md) | Avaliação | 🔶 Em desenvolvimento (retorno do RAN previsto para o início de novembro de 2026) |
 | [**Sessões supervisionadas com a equipe do RAN**](sessoes_supervisionadas_ran.md) | Validação com usuários | 🔶 Em desenvolvimento (sessão de 26/10 diagnosticada; correções na branch `fix/citacoes-estados-logging`, não integradas; ADRs 0008/0009 propostos) |

@@ -1,3 +1,20 @@
+# Servidor: escuta só em 127.0.0.1. Quem publica a interface para fora é o
+# Tailscale Funnel (scripts/infra/publicar_funnel.sh), nunca o Streamlit
+# direto — o padrão do Streamlit seria escutar em todas as interfaces.
+[server]
+address = "127.0.0.1"
+headless = true
+
+# Sem telemetria de uso para a Streamlit Inc.
+[browser]
+gatherUsageStats = false
+
+# Com a interface publicada, o navegador não recebe traceback nem o menu de
+# desenvolvimento; os erros completos continuam no terminal do servidor.
+[client]
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
 # Paleta oficial do RAN/ICMBio (ver interface/tema.py, CORES, e
 # design-system/tokens/colors.css — a fonte de verdade dos hex; não
 # reinventar). Cobre o que o tema nativo do Streamlit consegue mexer

@@ -22,6 +22,17 @@ from backend.services.auth import UsuarioAutenticado
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
+limite_falhas = auth.LimiteDeFalhas(auth.FALHAS_GLOBAIS_MAXIMO, auth.FALHAS_GLOBAIS_JANELA_SEGUNDOS)
+
+
+def _recusar_se_muitas_falhas() -> None:
+    """Antes de consultar o banco ou calcular qualquer hash."""
+    if limite_falhas.excedido():
+        raise HTTPException(
+            status_code=429,
+            detail="Muitas tentativas sem sucesso no momento. Aguarde um minuto e tente de novo.",
+        )
+
 
 def _exigir_pool(pool: ConnectionPool | None) -> ConnectionPool:
     if pool is None:
@@ -36,9 +47,12 @@ def _exigir_pool(pool: ConnectionPool | None) -> ConnectionPool:
 async def primeiro_acesso(
     body: PrimeiroAcessoRequest, pool: ConnectionPool | None = Depends(obter_db_pool)
 ) -> OkResponse:
+    pool = _exigir_pool(pool)
+    _recusar_se_muitas_falhas()
     try:
-        auth.definir_senha_com_convite(_exigir_pool(pool), body.usuario, body.codigo_convite, body.senha)
+        auth.definir_senha_com_convite(pool, body.usuario, body.codigo_convite, body.senha)
     except auth.ErroAutenticacao as exc:
+        limite_falhas.registrar_falha()
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     return OkResponse()
 
@@ -50,11 +64,13 @@ async def login(
     settings: Settings = Depends(obter_settings),
 ) -> LoginResponse:
     pool = _exigir_pool(pool)
+    _recusar_se_muitas_falhas()
     try:
         usuario = auth.autenticar(pool, body.usuario, body.senha)
     except auth.ContaBloqueada as exc:
         raise HTTPException(status_code=429, detail=str(exc)) from exc
     except auth.ErroAutenticacao as exc:
+        limite_falhas.registrar_falha()
         raise HTTPException(status_code=401, detail=str(exc)) from exc
     token, expira_em = auth.criar_sessao(pool, usuario.id, settings.auth_sessao_horas)
     return LoginResponse(

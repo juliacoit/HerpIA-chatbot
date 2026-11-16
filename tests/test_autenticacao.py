@@ -99,3 +99,58 @@ def test_log_anonimo_grava_usuario_id_nulo():
     pool = PoolFalso()
     _registrar(pool)
     assert _valores(pool)["usuario_id"] is None
+
+
+# --- limite global de falhas ---------------------------------------------------
+
+
+def test_limite_de_falhas_abre_de_novo_quando_a_janela_passa():
+    agora = [0.0]
+    limite = auth.LimiteDeFalhas(maximo=3, janela_segundos=60, relogio=lambda: agora[0])
+    for _ in range(3):
+        assert not limite.excedido()
+        limite.registrar_falha()
+    assert limite.excedido()
+    agora[0] = 59.0
+    assert limite.excedido()
+    agora[0] = 60.0
+    assert not limite.excedido()
+
+
+def test_login_para_de_calcular_hash_depois_de_muitas_falhas(monkeypatch):
+    import asyncio
+
+    from backend.routers import auth as rotas
+    from backend.schemas import LoginRequest
+
+    chamadas = []
+
+    def autenticar_falso(pool, usuario, senha):
+        chamadas.append(usuario)
+        raise auth.ErroAutenticacao("Usuário ou senha inválidos.")
+
+    monkeypatch.setattr(rotas.auth, "autenticar", autenticar_falso)
+    monkeypatch.setattr(rotas, "limite_falhas", auth.LimiteDeFalhas(maximo=2, janela_segundos=60))
+
+    def tentar():
+        corpo = LoginRequest(usuario="ninguem", senha="senha-errada-123")
+        return asyncio.run(rotas.login(corpo, pool=POOL_PRESENTE, settings=Settings()))
+
+    for _ in range(2):
+        with pytest.raises(HTTPException) as exc:
+            tentar()
+        assert exc.value.status_code == 401
+    with pytest.raises(HTTPException) as exc:
+        tentar()
+    assert exc.value.status_code == 429
+    assert len(chamadas) == 2  # a terceira nem chegou à verificação de senha
+
+
+def test_fonte_desconhecida_nao_vira_html():
+    import sys
+    from pathlib import Path
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "interface"))
+    import tema
+
+    assert "<script>" not in tema.chip_fonte("<script>alert(1)</script>")

@@ -25,6 +25,8 @@ import base64
 import hashlib
 import hmac
 import secrets
+import time
+from collections import deque
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 
@@ -33,6 +35,12 @@ from psycopg_pool import ConnectionPool
 TAMANHO_MINIMO_SENHA = 10
 TENTATIVAS_ATE_BLOQUEIO = 5
 MINUTOS_BLOQUEIO = 15
+# Limite global (todas as contas somadas) de falhas de login e de convite.
+# O bloqueio acima é por conta e não cobre tentativas com usuários que não
+# existem, que também custam um scrypt cada; com a interface publicada na
+# internet, isso seria um jeito barato de ocupar a CPU.
+FALHAS_GLOBAIS_MAXIMO = 20
+FALHAS_GLOBAIS_JANELA_SEGUNDOS = 60
 
 # Parâmetros do scrypt (custo de CPU/memória por tentativa de senha). n=2**15
 # com r=8 usa ~32 MB por verificação; por isso o maxmem explícito, acima do
@@ -43,6 +51,26 @@ _SCRYPT_P = 1
 _SCRYPT_MAXMEM = 64 * 1024 * 1024
 _TAMANHO_SAL = 16
 _TAMANHO_HASH = 32
+
+
+class LimiteDeFalhas:
+    """Janela deslizante em memória: vale para um processo do backend (o
+    HerpIA roda com um só) e zera quando ele reinicia."""
+
+    def __init__(self, maximo: int, janela_segundos: float, relogio=time.monotonic):
+        self.maximo = maximo
+        self.janela_segundos = janela_segundos
+        self._relogio = relogio
+        self._falhas: deque[float] = deque()
+
+    def excedido(self) -> bool:
+        limite = self._relogio() - self.janela_segundos
+        while self._falhas and self._falhas[0] <= limite:
+            self._falhas.popleft()
+        return len(self._falhas) >= self.maximo
+
+    def registrar_falha(self) -> None:
+        self._falhas.append(self._relogio())
 
 
 class ErroAutenticacao(Exception):

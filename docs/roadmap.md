@@ -345,9 +345,10 @@ e seção "Solução Escolhida (revisada)" em
   acesso na interface. Escopo definido pela equipe do RAN (2026-10-07): login para todo o
   sistema, avaliações identificadas, quatro participantes, sem SSO do ICMBio (a equipe quer
   independência do instituto). Tela conferida no navegador (2026-10-09) e bateria com login
-  (`HERPIA_USUARIO`/`HERPIA_SENHA`). Falta ligar (`AUTH_EXIGIR=tudo` no `.env`), criar as
-  contas, dar login ao `avaliacao/rodar_ragas.py` e testar contra o backend completo com o
-  banco real — ver [`docs/processos/autenticacao.md`](processos/autenticacao.md)
+  (`HERPIA_USUARIO`/`HERPIA_SENHA`). Testada contra o backend completo com o banco real e com sessão que
+  sobrevive ao recarregar a página (2026-11-06); `avaliacao/rodar_ragas.py` faz login
+  (2026-11-16). Falta ligar (`AUTH_EXIGIR=tudo` no `.env`), criar as quatro contas e definir
+  como os servidores acessam — ver [`docs/processos/autenticacao.md`](processos/autenticacao.md)
 - [x] **Filtro de metadado estruturado de ficha SALVE como filtro de payload
   no Qdrant** (bioma, categoria de risco, grupo Anfíbios/Répteis, estados),
   em vez de o LLM inferir do texto corrido — achado e correção em

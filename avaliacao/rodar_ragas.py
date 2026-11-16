@@ -33,6 +33,10 @@ Uso:
     credencial vem de ANTHROPIC_API_KEY no ambiente ou, se ausente, só dessa
     variável no .env local (fora do versionamento); nunca do repositório.
 
+    Se o backend exige login (AUTH_EXIGIR=tudo), defina HERPIA_USUARIO e
+    HERPIA_SENHA no ambiente (nunca na linha de comando nem no repositório):
+    o script abre uma sessão antes da coleta.
+
 Saída: um .md e um .json em diagnosticos/ragas/, nomeados com data/hora e
 juiz, com metadados (juiz, versões, top_k, commit), notas por caso e por
 categoria e os tokens gastos pelo juiz (lidos do `usage` de cada resposta da
@@ -93,6 +97,10 @@ class ModoAvaliacaoDesabilitado(RuntimeError):
     """O backend respondeu 403: PERMITIR_MODO_AVALIACAO não está ligado."""
 
 
+class LoginRecusado(RuntimeError):
+    """O backend exige login e não há credenciais, ou elas foram recusadas."""
+
+
 @dataclass
 class UsoJuiz:
     """Tokens gastos pelo juiz, somados do `usage` de cada resposta da API."""
@@ -151,6 +159,30 @@ class ResultadoCaso:
 # ---------------------------------------------------------------------------
 # Coleta (backend local, sem custo)
 # ---------------------------------------------------------------------------
+
+async def autenticar_cliente(client: httpx.AsyncClient) -> None:
+    """Abre uma sessão no backend quando HERPIA_USUARIO/HERPIA_SENHA estão
+    definidos e passa a enviá-la em todas as requisições. Sem credenciais,
+    levanta LoginRecusado se o backend exige login para tudo."""
+    usuario = os.environ.get("HERPIA_USUARIO")
+    senha = os.environ.get("HERPIA_SENHA")
+    if not (usuario and senha):
+        try:
+            exigir = (await client.get("/saude", timeout=10.0)).json().get("auth", {}).get("exigir", "nada")
+        except (httpx.HTTPError, ValueError):
+            return  # backend fora do ar: o erro aparece na coleta do primeiro caso
+        if exigir == "tudo":
+            raise LoginRecusado(
+                "o backend exige login (AUTH_EXIGIR=tudo). Defina HERPIA_USUARIO e HERPIA_SENHA "
+                "no ambiente — ver docs/processos/autenticacao.md."
+            )
+        return
+    resposta = await client.post("/auth/login", json={"usuario": usuario, "senha": senha}, timeout=30.0)
+    if resposta.status_code != 200:
+        raise LoginRecusado(f"login recusado ({resposta.status_code}): {resposta.text[:300]}")
+    client.headers["Authorization"] = f"Bearer {resposta.json()['token']}"
+    print(f"Sessão aberta como {usuario}.")
+
 
 async def coletar(client: httpx.AsyncClient, caso: dict, top_k: int, timeout: float) -> dict:
     """Chama /perguntar em modo de avaliação e devolve o corpo da resposta."""
@@ -532,6 +564,7 @@ async def coletar_todos(args: argparse.Namespace, casos: list[dict]) -> list[dic
     corpo da resposta de /perguntar ou o texto do erro de coleta."""
     coletas: list[dict | str] = []
     async with httpx.AsyncClient(base_url=args.url) as client:
+        await autenticar_cliente(client)
         for i, caso in enumerate(casos, start=1):
             print(f"[{i}/{len(casos)}] {caso['id']}: coletando...", flush=True)
             try:
@@ -616,6 +649,9 @@ def main(argv: list[str] | None = None) -> int:
     except ModoAvaliacaoDesabilitado as exc:
         print(f"O backend recusou o modo de avaliação (403): {exc}\n"
               "Suba o backend com PERMITIR_MODO_AVALIACAO=true (só no PC de desenvolvimento).")
+        return 2
+    except LoginRecusado as exc:
+        print(f"Avaliação interrompida antes da coleta: {exc}")
         return 2
 
     # Plano (sem custo): status, bloqueios e chamadas estimadas de cada caso.

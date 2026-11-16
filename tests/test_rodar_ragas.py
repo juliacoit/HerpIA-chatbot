@@ -17,10 +17,12 @@ import pytest
 from avaliacao import rodar_ragas
 from avaliacao.rodar_ragas import (
     METRICAS,
+    LoginRecusado,
     ModoAvaliacaoDesabilitado,
     UsoJuiz,
     agregar_por_categoria,
     ajustar_args_juiz,
+    autenticar_cliente,
     avaliar_caso,
     avaliar_todos,
     coletar,
@@ -215,6 +217,68 @@ def test_coleta_403_interrompe():
 
     with pytest.raises(ModoAvaliacaoDesabilitado):
         _rodar(rodar())
+
+
+# --- login -----------------------------------------------------------------
+
+def _backend_com_login(exigir="tudo", status_login=200):
+    recebidos = []
+
+    def handler(request):
+        recebidos.append(request)
+        if request.url.path == "/saude":
+            return httpx.Response(200, json={"auth": {"exigir": exigir}})
+        if request.url.path == "/auth/login":
+            return httpx.Response(status_login, json={"token": "tok-de-teste"} if status_login == 200 else {"detail": "x"})
+        return httpx.Response(200, json=_corpo())
+
+    return handler, recebidos
+
+
+def _autenticar_e_coletar(handler):
+    async def rodar():
+        async with _cliente(handler) as client:
+            await autenticar_cliente(client)
+            await coletar(client, _caso(), top_k=5, timeout=10)
+
+    _rodar(rodar())
+
+
+def test_login_envia_o_token_nas_perguntas(monkeypatch):
+    monkeypatch.setenv("HERPIA_USUARIO", "bateria")
+    monkeypatch.setenv("HERPIA_SENHA", "senha-de-teste")
+    handler, recebidos = _backend_com_login()
+    _autenticar_e_coletar(handler)
+    assert [r.url.path for r in recebidos] == ["/auth/login", "/perguntar"]
+    assert json.loads(recebidos[0].content) == {"usuario": "bateria", "senha": "senha-de-teste"}
+    assert recebidos[1].headers["Authorization"] == "Bearer tok-de-teste"
+
+
+def test_login_recusado_interrompe_antes_da_coleta(monkeypatch):
+    monkeypatch.setenv("HERPIA_USUARIO", "bateria")
+    monkeypatch.setenv("HERPIA_SENHA", "senha-errada")
+    handler, recebidos = _backend_com_login(status_login=401)
+    with pytest.raises(LoginRecusado):
+        _autenticar_e_coletar(handler)
+    assert "/perguntar" not in [r.url.path for r in recebidos]
+
+
+def test_sem_credenciais_e_backend_exigindo_login_interrompe(monkeypatch):
+    monkeypatch.delenv("HERPIA_USUARIO", raising=False)
+    monkeypatch.delenv("HERPIA_SENHA", raising=False)
+    handler, recebidos = _backend_com_login(exigir="tudo")
+    with pytest.raises(LoginRecusado):
+        _autenticar_e_coletar(handler)
+    assert [r.url.path for r in recebidos] == ["/saude"]
+
+
+@pytest.mark.parametrize("exigir", ["nada", "feedback"])
+def test_sem_credenciais_e_login_nao_exigido_segue_anonimo(monkeypatch, exigir):
+    monkeypatch.delenv("HERPIA_USUARIO", raising=False)
+    monkeypatch.delenv("HERPIA_SENHA", raising=False)
+    handler, recebidos = _backend_com_login(exigir=exigir)
+    _autenticar_e_coletar(handler)
+    assert "Authorization" not in recebidos[-1].headers
 
 
 # --- juiz, agregação e relatório ------------------------------------------

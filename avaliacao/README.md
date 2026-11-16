@@ -65,6 +65,10 @@ python avaliacao/rodar_ragas.py --casos A1 --metricas faithfulness   # smoke tes
 
 - O backend precisa estar rodando com `PERMITIR_MODO_AVALIACAO=true`. Sem
   isso, `/perguntar` responde 403 e o script para.
+- Se o backend exige login (`AUTH_EXIGIR=tudo`), defina `HERPIA_USUARIO` e
+  `HERPIA_SENHA` no ambiente, com uma conta própria da bateria. O script abre a
+  sessão antes da coleta e para, sem custo, se o login for recusado. Ver
+  [`docs/processos/autenticacao.md`](../docs/processos/autenticacao.md).
 - **Primeiro coleta todos os casos**, que é a parte sem custo. Só depois mostra
   o plano (casos a avaliar e chamadas estimadas ao juiz) e pede confirmação
   antes de qualquer chamada paga. `--sim` pula a confirmação.

@@ -7,6 +7,7 @@ Projeto de chatbot interno baseado em RAG (Retrieval-Augmented Generation) para 
 ## Sumário
 
 - [Status do projeto](#status-do-projeto)
+- [Trabalho ainda não integrado](#trabalho-ainda-não-integrado)
 - [Público-alvo](#público-alvo)
 - [Fontes de dados](#fontes-de-dados)
 - [Visão geral do sistema](#visão-geral-do-sistema)
@@ -24,9 +25,32 @@ Projeto de chatbot interno baseado em RAG (Retrieval-Augmented Generation) para 
 
 ## Status do projeto
 
-Em desenvolvimento. Coleta, extração de texto e chunking concluídos para Monitora, PANs e SALVE (**59.085 trechos**, indexados no Qdrant com embeddings BGE-M3). O backend FastAPI responde de ponta a ponta (`/buscar`, `/perguntar`, `/feedback`, `/saude`), com geração via LLM local (Ollama), verificação de groundedness e registro de feedback em PostgreSQL. O protótipo de interface em Streamlit está funcional, com a identidade oficial do RAN/ICMBio aplicada.
+**Atualizado em 2026-11-16.** Protótipo em validação com a equipe do RAN.
 
-Pendentes: classificação de sensibilidade individual formal, exportação do SEI (depende de autorização da equipe do RAN), busca híbrida, autenticação e validação com usuários. Status detalhado por fase em [`docs/roadmap.md`](./docs/roadmap.md). Prazo previsto de até um ano para conclusão; a base de conhecimento será atualizada semestralmente.
+- **Base indexada:** Monitora, PANs e SALVE, com **59.069 trechos** no Qdrant (embeddings BGE-M3).
+- **Consulta:** o backend FastAPI responde de ponta a ponta (`/buscar`, `/perguntar`, `/feedback`, `/saude`), com geração por LLM local (Ollama), verificação de groundedness e registro de interações e feedback em PostgreSQL. A interface em Streamlit segue a identidade oficial do RAN/ICMBio.
+- **Acesso:** login individual por convite, obrigatório para todo o sistema. Desde 2026-11-16 a interface está publicada em HTTPS pelo Tailscale Funnel, para que cada servidor do RAN acesse da própria máquina; backend e bancos continuam acessíveis só na máquina do HerpIA.
+- **Avaliação:** bateria de perguntas de domínio e avaliação offline com RAGAS ([ADR 0007](./docs/decisoes/0007-avaliacao-offline-ragas-juiz-claude.md)).
+- **Decisões do RAN de 2026-11-11:** escopo da base restrito à herpetofauna, sem tartarugas marinhas ([ADR 0008](./docs/decisoes/0008-escopo-da-base-herpetofauna.md), aceito e ainda não implementado), e coordenadas públicas de ocorrência autorizadas ([ADR 0009](./docs/decisoes/0009-coordenadas-de-ocorrencia.md), implementado).
+- **Publicações científicas e SEI:** liberados pela equipe do RAN em 2026-11-06 e já preparados em trechos, mas **ainda não indexados**.
+
+Parte desse trabalho está em branches que ainda não foram integradas a esta; ver [Trabalho ainda não integrado](#trabalho-ainda-não-integrado).
+
+Pendentes: integrar as branches, implementar o filtro de escopo do ADR 0008, indexar as publicações e o SEI (este depende de decisões da equipe do RAN), busca híbrida e concluir a validação com usuários. Status detalhado por fase em [`docs/roadmap.md`](./docs/roadmap.md). Prazo previsto de até um ano para conclusão; a base de conhecimento será atualizada semestralmente.
+
+## Trabalho ainda não integrado
+
+O desenvolvimento recente está distribuído em branches. Esta tabela diz onde está cada parte; os arquivos citados só existem na branch indicada.
+
+| Branch | O que contém | Situação |
+|---|---|---|
+| `feature/login` | Login por convite, sessão que sobrevive ao recarregar a página, limite de tentativas, publicação pelo Tailscale Funnel (`scripts/infra/publicar_funnel.sh`) e login na avaliação RAGAS. Documentado em `docs/processos/autenticacao.md` e `docs/processos/acesso_externo_funnel.md` | **É a versão que está no ar na validação** |
+| `docs/decisao-sei-publicacoes` | Decisão do RAN de 2026-11-06, exportação automatizada do SEI (ADR 0010), extração de texto, triagem de sensibilidade e chunking das publicações | Concluído; nada indexado |
+| `feature/chunking-sei` | Chunking dos documentos do SEI (`scripts/processamento/gerar_chunks_sei.py`), gravado fora da pasta que o indexador lê | Preparado; indexação aguarda decisões do RAN |
+| `experimento/lumi-4b` | Comparação do modelo gerador Lumi-4B com o atual | Relatório em revisão |
+| `design-system/divergencias-interface` | Ajustes da interface ao design system | Em aberto |
+
+Ordem de integração combinada: `feature/avaliacao-ragas` → `main`, depois `fix/citacoes-estados-logging`, depois `feature/login`.
 
 ## Público-alvo
 
@@ -39,10 +63,12 @@ Pendentes: classificação de sensibilidade individual formal, exportação do S
 | Fonte | Conteúdo | Situação na base |
 |---|---|---|
 | Programa Monitora do ICMBio | Relatórios, protocolos e documentos de monitoramento | Indexado (7.220 trechos) |
-| PANs | Planos de Ação Nacional para espécies ameaçadas | Indexado (31.796 trechos) |
+| PANs | Planos de Ação Nacional para espécies ameaçadas | Indexado (31.780 trechos) |
 | SALVE | Fichas de avaliação de risco de répteis e anfíbios | Indexado (20.069 trechos) |
-| Publicações científicas do RAN | Artigos, boletins, teses, capítulos | Catalogadas; aguardam avaliação de sensibilidade e copyright |
-| SEI/ICMBio | Processos e documentos administrativos | Catalogado; exportação depende de autorização do RAN |
+| Publicações científicas do RAN | Artigos, boletins, teses, capítulos e anais | Liberadas pelo RAN para uso interno (2026-11-06); 24.793 trechos gerados, ainda não indexados |
+| SEI/ICMBio | Documentos técnicos de processos administrativos | 173 processos autorizados pelo RAN (2026-11-06); 1.148 documentos exportados e 45.880 trechos preparados, ainda não indexados |
+
+As publicações e o SEI são conteúdo de uso interno: por isso o login é pré-requisito para indexá-los. No SEI ainda faltam decisões da equipe do RAN sobre documentos com menção a restrição, nomes de pessoas e planilhas.
 
 Detalhes e URLs em [`docs/fontes-de-dados.md`](./docs/fontes-de-dados.md) e `01_fontes_web/urls_fontes.md`.
 
@@ -94,7 +120,7 @@ Tecnologias em uso:
 | Interface | Streamlit |
 | Implantação | Docker Compose (PostgreSQL e Qdrant) |
 
-Tudo roda localmente: nem os embeddings nem a geração dependem de API paga.
+A consulta roda inteira localmente: nem os embeddings nem a geração dependem de API paga. A única chamada a API externa é a avaliação offline com RAGAS, que é opcional, pede confirmação antes de gastar e envia só pergunta, resposta e trechos autorizados.
 
 ## Pipeline de ingestão
 
@@ -134,11 +160,11 @@ flowchart TD
 - **SALVE:** um trecho por seção da ficha (taxonomia, distribuição, ameaças etc.), com um cabeçalho de metadados da espécie.
 - **Monitora e PANs:** janela deslizante sobre o texto por página, registrando página inicial e final.
 
-Padrões estruturados de dados pessoais são redigidos durante o chunking (`scripts/classificacao/regras_pii.py`).
+Padrões estruturados de dados pessoais (CPF, RG, e-mail, telefone) são redigidos durante o chunking (`scripts/classificacao/regras_pii.py`). Coordenadas públicas de ocorrência de espécies não são removidas, por decisão da equipe do RAN ([ADR 0009](./docs/decisoes/0009-coordenadas-de-ocorrencia.md)).
 
 **Metadados de cada trecho.** Todo trecho indexado carrega fonte, documento, seção ou página, URL de origem, caminho local, data de coleta e nível de sensibilidade. As fichas SALVE têm ainda bioma, categoria de risco, grupo (anfíbios ou répteis) e estados, usados como filtro na busca.
 
-**Indexação.** É idempotente: o ID de cada ponto no Qdrant deriva do `chunk_id`, então reindexar atualiza em vez de duplicar. `--fonte` indexa uma fonte por vez e `--retomar` continua uma indexação interrompida.
+**Indexação.** É idempotente: o ID de cada ponto no Qdrant deriva do `chunk_id`, então reindexar atualiza em vez de duplicar. `--fonte` indexa uma fonte por vez e `--retomar` continua uma indexação interrompida. Quando o chunking de uma fonte muda, `scripts/indexacao/reindexar_alterados.py` reindexa só os trechos alterados e apaga os que deixaram de existir.
 
 Processos detalhados em [`docs/processos/`](./docs/processos/): [coleta](./docs/processos/coleta_fontes_web.md), [extração de PDFs](./docs/processos/extracao_pdfs.md), [chunking](./docs/processos/chunking.md), [embeddings](./docs/processos/embeddings.md) e [classificação de sensibilidade](./docs/processos/classificacao_sensibilidade.md).
 
@@ -216,6 +242,8 @@ Dois casos são resolvidos antes de chamar o LLM:
 - **Nenhum trecho recuperado:** devolve a mensagem de evidência insuficiente.
 - **Pergunta cita o SEI:** como o SEI ainda não está indexado, devolve um aviso fixo em vez de deixar o modelo especular a partir de trechos de outras fontes.
 
+Se o prompt montado não couber no contexto do modelo, a resposta também é um aviso fixo (`contexto_excedido`), sem chamar o LLM.
+
 ### Verificação de groundedness
 
 Depois da geração, `backend/services/groundedness.py` confere se a resposta se apoia nos trechos. Uma resposta reprovada é substituída por uma mensagem de retenção, e o motivo vai em `justificativa_groundedness`.
@@ -244,10 +272,11 @@ A verificação pode ser desligada com `GROUNDEDNESS_VERIFICAR=false`, o que evi
 | Campo | Significado |
 |---|---|
 | `resposta` | Texto gerado, ou a mensagem de retenção ou de falta de evidência |
-| `citacoes` | Fonte, documento, seção, páginas, URL e o texto do trecho, sem repetir documento e página |
+| `citacoes` | Fonte, documento, seção, páginas, URL e o texto do trecho; nas fichas SALVE, uma citação por seção |
 | `evidencia_suficiente` | Se algum trecho foi recuperado |
 | `resposta_fundamentada` | Se a resposta passou na verificação de groundedness |
 | `justificativa_groundedness` | Motivo da retenção, quando houver |
+| `tipo_saida` | Caminho que produziu a resposta: `gerada`, `abstencao`, `retida_groundedness`, `sem_chunks`, `sei_nao_indexado` ou `contexto_excedido` |
 | `id` | Identificador da interação, usado para enviar feedback |
 
 ## Backend (FastAPI)
@@ -257,11 +286,13 @@ A verificação pode ser desligada com `GROUNDEDNESS_VERIFICAR=false`, o que evi
 | Método e rota | Função |
 |---|---|
 | `POST /buscar` | Busca semântica pura, sem geração; serve para depurar a recuperação |
-| `POST /perguntar` | Fluxo completo de RAG: roteamento, busca, geração, groundedness e log |
+| `POST /perguntar` | Fluxo completo de RAG: roteamento, busca, geração, groundedness e log. Com `incluir_contextos=true` devolve também os trechos e a resposta original, só para a avaliação offline e só se `PERMITIR_MODO_AVALIACAO=true` |
 | `POST /feedback` | Registra avaliação (útil ou não útil) e comentário opcional de uma resposta |
 | `GET /saude` | Estado do serviço e configuração do LLM em vigor |
 
 Documentação interativa em `http://localhost:8000/docs` com o backend no ar.
+
+Na branch `feature/login` existem também as rotas `/auth/primeiro-acesso`, `/auth/login`, `/auth/eu` e `/auth/sair`, e as demais passam a exigir sessão conforme `AUTH_EXIGIR`.
 
 ### Módulos
 
@@ -329,6 +360,13 @@ erDiagram
         jsonb chunks_recuperados
         text modelo_llm
         integer tempo_resposta_ms
+        jsonb chunk_ids
+        jsonb rota
+        text tipo_saida
+        text origem_retencao
+        text resposta_original
+        float llm_temperatura
+        integer llm_seed
     }
     FEEDBACK {
         bigserial id PK
@@ -339,7 +377,9 @@ erDiagram
     }
 ```
 
-O schema é criado automaticamente na inicialização do backend (`backend/db.py`). `avaliacao` vale `1` (útil) ou `-1` (não útil).
+O schema é criado automaticamente na inicialização do backend (`backend/db.py`), e as colunas novas são acrescentadas sem alterar os registros existentes. `avaliacao` vale `1` (útil) ou `-1` (não útil). `resposta_original` guarda o texto do LLM quando a resposta foi retida, para análise; ele nunca é mostrado ao usuário.
+
+A branch `feature/login` acrescenta as tabelas `usuarios` e `sessoes` e a coluna `usuario_id` em `interacoes` e `feedback`.
 
 ### Configuração
 
@@ -357,6 +397,7 @@ As variáveis ficam no `.env` (modelo em [`.env.example`](./.env.example)); o `.
 | `LLM_NUM_CTX` | Tamanho do contexto enviado ao Ollama | `8192` |
 | `LLM_TEMPERATURE`, `LLM_SEED`, `LLM_THINK`, `LLM_TIMEOUT` | Parâmetros opcionais do LLM | padrão do modelo; timeout de 120 s |
 | `GROUNDEDNESS_VERIFICAR` | Liga a verificação pós-geração | `true` |
+| `PERMITIR_MODO_AVALIACAO` | Libera `incluir_contextos` em `/perguntar` para a avaliação offline; manter `false` fora do PC de desenvolvimento | `false` |
 | `BACKEND_API_URL` | Endereço do backend usado pela interface | `http://localhost:8000` |
 
 Mais detalhes em [`docs/processos/backend_fastapi.md`](./docs/processos/backend_fastapi.md).
@@ -365,15 +406,17 @@ Mais detalhes em [`docs/processos/backend_fastapi.md`](./docs/processos/backend_
 
 O protótipo em `interface/` é um chat que consome o backend por HTTP:
 
-- **`app.py`:** tela de consulta, com pergunta em linguagem natural, resposta, faixa de estado (fundamentada, retida ou sem evidência), citações em cartão com o texto do trecho, e feedback com comentário opcional. A barra lateral traz o filtro por fonte e o número de trechos.
+- **`app.py`:** tela de consulta, com pergunta em linguagem natural, resposta, faixa de estado (fundamentada, retida ou sem evidência), citações agrupadas por documento, com o texto de cada trecho, e feedback com comentário opcional. A barra lateral traz o filtro por fonte e o número de trechos.
 - **`cliente_api.py`:** chamadas ao backend (`/perguntar`, `/feedback`, `/saude`), isoladas da lógica de exibição.
 - **`tema.py`:** tokens, CSS e componentes portados do design system.
 
-Ainda faltam persistência do histórico entre sessões e autenticação. Ver [`docs/processos/interface_streamlit.md`](./docs/processos/interface_streamlit.md).
+Ainda falta a persistência do histórico da conversa entre sessões. A tela de acesso (login e primeiro acesso) está na branch `feature/login`. Ver [`docs/processos/interface_streamlit.md`](./docs/processos/interface_streamlit.md).
 
 ## Infraestrutura
 
 O protótipo roda na máquina local de desenvolvimento. O projeto também está preparado para dois computadores em rede local, com o acesso feito por túnel SSH e sem expor serviços na rede.
+
+**Acesso dos usuários na validação.** Desde 2026-11-16 a interface é publicada na internet pelo Tailscale Funnel, em HTTPS, sem depender da rede interna do RAN. Só a interface (porta 8501) é publicada; backend, PostgreSQL, Qdrant e Ollama continuam em `127.0.0.1`, e o login é obrigatório. O script de publicação recusa publicar se o backend não exigir sessão para tudo. Script e documentação estão na branch `feature/login`.
 
 ```mermaid
 flowchart LR
@@ -415,7 +458,7 @@ chatbot-ran-icmbio/
 │   ├── monitora/
 │   ├── pans/
 │   ├── salve/
-│   └── sei/                             # só catálogo; nenhum documento exportado
+│   └── sei/                             # catálogo e seleção dos processos autorizados
 ├── 02_publicacoes_cientificas_ran/      # Publicações dos pesquisadores do RAN
 ├── 03_documentos_autorizados/           # Avaliados e autorizados para indexação
 ├── 04_documentos_pendentes_avaliacao/   # Ainda não avaliados
@@ -436,6 +479,8 @@ chatbot-ran-icmbio/
 │   └── services/                        # retrieval, roteamento, geracao,
 │                                        # groundedness, llm, logging_db
 │
+├── avaliacao/                           # Avaliação offline com RAGAS (casos, checagens de rota, script)
+│
 ├── interface/                           # Protótipo em Streamlit
 │   ├── app.py
 │   ├── cliente_api.py
@@ -452,6 +497,7 @@ chatbot-ran-icmbio/
 │   ├── diagnostico_retrieval.py         # diagnóstico da recuperação
 │   └── teste_perguntas_dominio.py       # bateria de perguntas de domínio
 │
+├── tests/                               # Testes automatizados (pytest)
 ├── diagnosticos/                        # Relatórios de avaliação e baterias de teste
 ├── docs/                                # Roadmap, processos e decisões (ADRs)
 ├── design-system/                       # Design system do HerpIA (somente leitura)
@@ -482,6 +528,8 @@ docker compose up -d                  # opcional: PostgreSQL e Qdrant em modo se
 
 Sem o PostgreSQL, o sistema responde normalmente, mas não registra interações nem feedback.
 
+Testes: `python -m pytest` (não precisam de banco, Qdrant nem LLM).
+
 ## Avaliação e diagnósticos
 
 A pasta [`diagnosticos/`](./diagnosticos/) guarda os relatórios das investigações de qualidade:
@@ -495,16 +543,24 @@ A pasta [`diagnosticos/`](./diagnosticos/) guarda os relatórios das investigaç
 | [`comparacao-geradores-rodada1.md`](./diagnosticos/comparacao-geradores-rodada1.md) | Comparação de modelos geradores locais |
 | [`hipotese-concisao-respostas.md`](./diagnosticos/hipotese-concisao-respostas.md) | Hipótese de que respostas longas favorecem alucinação |
 | [`juizes/`](./diagnosticos/juizes/) | Conjunto rotulado para comparar juízes de groundedness |
+| [`comparacao-juizes-rodada2.md`](./diagnosticos/comparacao-juizes-rodada2.md) | Segunda rodada de comparação de juízes de groundedness |
+| [`ragas_fase0.md`](./diagnosticos/ragas_fase0.md) e [`ragas/`](./diagnosticos/ragas/) | Preparação e resultados da avaliação com RAGAS |
+| [`2026-11-04_sessao_supervisionada_ran.md`](./diagnosticos/2026-11-04_sessao_supervisionada_ran.md) | Diagnóstico da sessão supervisionada com o RAN de 26/10 |
+| [`2026-11-11_decisoes_ran_adr_0008_0009.md`](./diagnosticos/2026-11-11_decisoes_ran_adr_0008_0009.md) | Decisões do RAN de 11/11 sobre escopo e coordenadas |
 
 As execuções da bateria ficam em `diagnosticos/baterias/`. Para rodar uma nova, com o backend no ar: `python scripts/teste_perguntas_dominio.py`.
 
+**Avaliação com RAGAS.** `avaliacao/rodar_ragas.py` mede fidelidade e relevância das respostas com um juiz externo (Claude), sobre os casos de `avaliacao/casos.jsonl`. A coleta é local e sem custo; antes de qualquer chamada paga o script mostra o plano e pede confirmação. Um caso é bloqueado se algum trecho recuperado não estiver marcado como autorizado. Ver [`avaliacao/README.md`](./avaliacao/README.md).
+
 ## Dados sensíveis
 
-Este repositório não deve conter PDFs internos, documentos sensíveis, arquivos do SEI, dados pessoais ou informações ambientais restritas.
+Este repositório não deve conter PDFs internos, documentos sensíveis, arquivos exportados do SEI, dados pessoais ou informações administrativas restritas. Do SEI, só o catálogo, os scripts e a documentação são versionados.
 
 - Nenhum documento é indexado sem avaliação, autorização e classificação de sensibilidade.
-- O que está em `04_documentos_pendentes_avaliacao/` e `05_documentos_sensiveis_nao_indexar/` nunca é processado automaticamente.
+- O que está em `04_documentos_pendentes_avaliacao/` e `05_documentos_sensiveis_nao_indexar/` nunca é processado automaticamente. A exportação e a extração de texto dos documentos do SEI foram uma exceção autorizada e registrada no ADR 0010 (branch `docs/decisao-sei-publicacoes`).
 - O LLM recebe apenas os trechos recuperados e autorizados, nunca documentos completos.
+- Coordenadas públicas de ocorrência de espécies são autorizadas ([ADR 0009](./docs/decisoes/0009-coordenadas-de-ocorrencia.md)): os dados chegam ao RAN já filtrados, e dado sigiloso não entra na base.
+- O uso do sistema exige login.
 - Chaves, senhas e o arquivo `.env` ficam fora do versionamento.
 
 Regras completas em [`CLAUDE.md`](./CLAUDE.md) e no [ADR 0002](./docs/decisoes/0002-classificacao-de-sensibilidade-em-pastas.md).

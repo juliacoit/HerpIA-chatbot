@@ -171,6 +171,37 @@ espécies** (coordenadas e localizações ficam, em linha com a decisão do RAN 
   de exemplo deixaram de trazer CPF, e-mail e telefone: 65 ALTA, 244 MÉDIA, 832 BAIXA. O que
   sobra em ALTA são coordenadas e palavras de restrição administrativa (42 documentos).
 
+## Chunking preparado, sem indexar (2026-11-11)
+
+Pedido pela Júlia em 2026-11-11 como preparação: **os chunks do SEI não estão indexados** e não
+aparecem nas respostas do chatbot. A indexação fica para depois da avaliação humana.
+
+- Script: `scripts/processamento/gerar_chunks_sei.py` (testes em `tests/test_gerar_chunks_sei.py`).
+- Saída: `07_processados/chunks_pendentes/sei/chunks.jsonl` — de propósito fora de
+  `07_processados/chunks/`, onde `indexar_chunks.py` procura. Todo chunk leva
+  `"nivel_sensibilidade": "pendente_avaliacao"`.
+- Texto corrido (PDF, HTML, Word, PPTX, imagem): mesma janela deslizante de Monitora/PANs.
+- Planilhas: chunks por aba, em linhas inteiras, repetindo a linha de cabeçalho das colunas.
+- Cada chunk começa com o processo, o título do documento no SEI e o número SEI, e registra em
+  `sinais_triagem` os padrões encontrados no documento inteiro.
+
+| Item | Quantidade |
+|---|---|
+| Documentos com chunks | 1.094 |
+| Documentos pulados por serem cópia idêntica de outro | 36 |
+| Documentos pulados por não terem texto útil | 11 |
+| Chunks de texto corrido | 20.230 |
+| Chunks de planilha | 25.650 |
+| Documentos sem nenhum sinal de triagem | 798 (23.472 chunks) |
+
+- **Planilhas pesam mais que o texto.** São 283 documentos e 56% dos chunks; as 10 maiores
+  somam 10.814 chunks e as 30 maiores, 16.309. Tabelas de dados brutos costumam ser recuperadas
+  mal pela busca semântica — decidir antes da indexação se entram todas, só as menores ou nenhuma.
+- A base indexada hoje tem cerca de 59 mil chunks; o SEI inteiro quase dobraria esse número.
+- O título do documento vem do catálogo do SEI e pode trazer nome de pessoa, assim como o texto.
+- Para rodar a partir de um worktree, onde as pastas de dados não existem:
+  `--raiz-dados ../chatbot-ran-icmbio`.
+
 ## Correção de 2026-07-13 — falsos positivos no Critério 2
 
 Uma análise manual de `processos_docs.csv` (gerado em 2026-07-03) encontrou dois

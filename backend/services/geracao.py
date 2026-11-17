@@ -24,6 +24,7 @@ from backend.schemas import (
     PerguntarResponse,
     TipoSaida,
 )
+from backend.services.campos_salve import responder_campo_salve
 from backend.services.groundedness import verificar_groundedness_detalhado
 from backend.services.llm import ContextoExcedidoError, LLMClient
 
@@ -247,6 +248,20 @@ async def gerar_resposta(
             tipo_saida="sei_nao_indexado",
             # Os chunks foram recuperados, mas não chegaram a ir para um prompt.
             avaliacao=_dados_avaliacao("sei_nao_indexado", []) if incluir_avaliacao else None,
+        )
+
+    campo = responder_campo_salve(pergunta, chunks) if settings.extracao_campos_salve else None
+    if campo is not None:
+        # Texto transcrito da ficha: não passa pelo LLM nem pela verificação
+        # de fundamentação, e cita só o trecho de onde veio.
+        return PerguntarResponse(
+            pergunta=pergunta,
+            resposta=campo.texto,
+            citacoes=montar_citacoes([campo.chunk]),
+            evidencia_suficiente=True,
+            resposta_fundamentada=True,
+            tipo_saida="extraida_salve",
+            avaliacao=_dados_avaliacao("extraida_salve", [campo.chunk]) if incluir_avaliacao else None,
         )
 
     prompt = montar_prompt(pergunta, chunks)

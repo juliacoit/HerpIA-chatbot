@@ -99,6 +99,7 @@ def buscar_chunks(
             nivel_sensibilidade=r.payload.get("nivel_sensibilidade"),
             chunk_id=r.payload.get("chunk_id"),
             parte=r.payload.get("parte"),
+            n_partes=r.payload.get("n_partes"),
         )
         for r in resultados
         if r.payload

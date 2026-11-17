@@ -53,6 +53,11 @@ class Settings(BaseSettings):
 
     groundedness_verificar: bool = True
 
+    # Responde perguntas sobre a justificativa da avaliação ou o histórico de
+    # avaliação de uma espécie transcrevendo o campo da ficha SALVE, sem LLM
+    # (backend/services/campos_salve.py). false = sempre gerar com o LLM.
+    extracao_campos_salve: bool = True
+
     # Libera `incluir_contextos` em /perguntar para a avaliação offline
     # (avaliacao/rodar_ragas.py). Só true no .env do PC de desenvolvimento: a
     # resposta passa a trazer `resposta_original`, que pode ser uma resposta

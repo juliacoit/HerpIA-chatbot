@@ -106,10 +106,26 @@ seções de uma ficha colapsavam numa citação com o texto do primeiro chunk.
 
 `tipo_saida` (desde 2026-11) diz por qual caminho a resposta saiu:
 `gerada`, `abstencao` (abstenção pura aprovada pela camada 0 do
-verificador), `retida_groundedness`, `sem_chunks`, `sei_nao_indexado` ou
-`contexto_excedido`. É o mesmo valor de `avaliacao.tipo_saida`, que antes só
-existia no modo de avaliação; a interface usa `abstencao` para mostrar o
-estado "sem evidência".
+verificador), `extraida_salve`, `retida_groundedness`, `sem_chunks`,
+`sei_nao_indexado` ou `contexto_excedido`. É o mesmo valor de
+`avaliacao.tipo_saida`, que antes só existia no modo de avaliação; a
+interface usa `abstencao` para mostrar o estado "sem evidência".
+
+**Campos da ficha SALVE sem LLM** (`extraida_salve`, desde 2026-11-17,
+`backend/services/campos_salve.py`): quando a pergunta pede a justificativa
+da avaliação ou o histórico de avaliação de risco de uma espécie, e
+exatamente uma ficha SALVE recuperada tem o nome científico ou um nome comum
+citado na pergunta, a resposta transcreve o campo da ficha, cita só o trecho
+de onde veio e não passa pelo LLM nem pela verificação de fundamentação. Se
+a pergunta cita uma categoria diferente da registrada, a resposta começa com
+uma observação. Em qualquer dúvida, segue o caminho normal.
+`EXTRACAO_CAMPOS_SALVE=false` desliga.
+
+**Seção de referências fora da busca** (desde 2026-11-17,
+`roteamento.secoes_excluidas`): os chunks `secao == "referencias"` das
+fichas SALVE ficam fora do top_k, a menos que a pergunta peça referências,
+bibliografia, estudos, artigos, autores etc. Vale também com `fontes` do
+cliente, e fica registrado em `rota.secoes_excluidas`.
 
 Se a busca não retornar nenhum chunk, a resposta é fixa ("Não há evidência
 suficiente...", `evidencia_suficiente: false`) e o LLM **não** é chamado —
@@ -131,8 +147,8 @@ resposta — `null` quando o PostgreSQL está indisponível nesta sessão.
 só para a avaliação offline com RAGAS. Com `PERMITIR_MODO_AVALIACAO=false` (o
 padrão), responde `403` antes de buscar qualquer coisa. Com a trava ligada,
 `avaliacao` traz:
-- `tipo_saida`: `gerada`, `abstencao`, `retida_groundedness`, `sem_chunks`,
-  `sei_nao_indexado` ou `contexto_excedido`;
+- `tipo_saida`: `gerada`, `abstencao`, `extraida_salve`, `retida_groundedness`,
+  `sem_chunks`, `sei_nao_indexado` ou `contexto_excedido`;
 - `origem_retencao`: `lexical`, `juiz_llm` ou `juiz_nao_realizado`;
 - `contextos`: os chunks enviados ao prompt, com o `chunk.texto` exato; vazio
   quando não houve prompt;

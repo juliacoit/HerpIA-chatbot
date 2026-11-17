@@ -20,9 +20,12 @@ class ChunkRecuperado(BaseModel):
     caminho_local: str | None = None
     nivel_sensibilidade: str | None = None
     # Identificadores do payload, só para rastreabilidade (log e citação por
-    # parte da seção). Não entram no prompt nem na ordenação.
+    # parte da seção). Não entram no prompt nem na ordenação. `n_partes` diz
+    # se o chunk é a última parte da seção (campos_salve.py usa isso para
+    # saber se uma lista termina no chunk).
     chunk_id: str | None = None
     parte: int | None = None
+    n_partes: int | None = None
 
 
 class BuscaRequest(BaseModel):
@@ -95,6 +98,7 @@ class ContextoAvaliacao(BaseModel):
 TipoSaida = Literal[
     "gerada",               # texto do LLM aprovado pelo juiz (ou groundedness desligado)
     "abstencao",            # abstenção pura, aprovada pela camada 0 sem chamar o juiz
+    "extraida_salve",       # campo da ficha SALVE transcrito sem LLM (services/campos_salve.py)
     "retida_groundedness",  # texto do LLM substituído por geracao.MENSAGEM_RETENCAO
     "sem_chunks",
     "sei_nao_indexado",

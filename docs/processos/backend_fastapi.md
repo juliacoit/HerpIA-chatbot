@@ -175,6 +175,21 @@ omitia a evidência mais forte, mesmo com o campo certo já no texto do
 chunk. Só tem efeito em chunks SALVE (única fonte com esses campos no
 payload).
 
+**Espécie citada pelo nome** (desde 2026-11-17,
+`backend/services/especies_salve.py`): no startup, o backend monta um
+catálogo com o nome científico e os nomes comuns de duas ou mais palavras
+de cada ficha SALVE, lido do próprio índice (~6 s em modo local). Se a
+pergunta cita de 1 a 3 fichas do catálogo e não menciona outra fonte (PAN,
+Monitora, SEI, publicação, artigo, relatório), as vagas do top_k vão
+primeiro para os chunks dessas fichas (filtro por `documento`), e o resto é
+completado pela busca geral. Motivo: o BGE-M3 não associa nome comum à
+ficha. "Cágado-amarelo" trazia PANs de peixe-boi; em 10 nomes comuns
+sorteados, a ficha certa vinha no top-5 em 6 sem o catálogo e em 10 com
+ele. Nomes comuns de uma palavra ("sapo") e nomes compartilhados por mais
+de 3 fichas ("cobra-de-duas-cabeças", 57 fichas) não disparam. A decisão
+fica em `rota.especies`. Se o catálogo não carregar, o backend sobe sem
+esse roteamento.
+
 ### Verificação de groundedness
 
 `backend/services/groundedness.py` roda depois da geração, antes de devolver
@@ -197,6 +212,16 @@ execução em `verificar_groundedness`:
    substantivo-gatilho genérico ("Estudos recentes", "Evidências indicam").
    É hard gate porque o juiz por LLM (camada 3), mesmo avisado do termo
    suspeito, aprovou a fabricação em 3 de 3 execuções de teste.
+   Desde 2026-11-17, `checar_referencias_bibliograficas` roda logo em
+   seguida, também como hard gate: em cada linha no formato "Sobrenome, I.
+   ... (ano) Título", as 5 primeiras palavras do título (normalizadas) têm
+   de aparecer nos chunks. Motivo: o modelo inventou título, revista e
+   coautores para "Bérnils et al., 2005", citado só no texto da ficha, e o
+   juiz aprovou. Medição: 0 falsos positivos em 17.425 referências reais
+   das fichas SALVE copiadas fielmente; 551 de 631 títulos trocados entre
+   fichas foram barrados (os 80 restantes têm o começo do título presente
+   na mesma ficha, como "Livro Vermelho da Fauna Brasileira"). Autor
+   institucional ("ICMBio (2018) ...") não é checado.
 2. **Abstenção pura** (`checar_abstencao_pura`, "camada 0" na docstring) —
    só roda se o hard gate aprovou. Se a resposta admite falta de evidência
    ("os trechos não contêm informação sobre X") **e não afirma mais nada**

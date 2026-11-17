@@ -14,6 +14,7 @@ from sentence_transformers import SentenceTransformer
 from backend.config import Settings, obter_settings
 from backend.services import auth
 from backend.services.auth import UsuarioAutenticado
+from backend.services.especies_salve import CatalogoEspecies
 from backend.services.llm import LLMClient
 
 # auto_error=False: a ausência do cabeçalho não é erro por si só — quem decide
@@ -31,6 +32,12 @@ def obter_modelo_embedding(request: Request) -> SentenceTransformer:
 
 def obter_llm(request: Request) -> LLMClient:
     return request.app.state.llm_client
+
+
+def obter_catalogo_especies(request: Request) -> CatalogoEspecies | None:
+    """None se o catálogo não carregou no startup (ou nos testes, que não
+    rodam o lifespan): a busca segue sem o roteamento por espécie."""
+    return getattr(request.app.state, "catalogo_especies", None)
 
 
 def obter_db_pool(request: Request) -> ConnectionPool | None:

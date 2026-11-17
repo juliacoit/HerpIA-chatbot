@@ -47,6 +47,7 @@ def buscar_chunks(
     top_k: int,
     fontes: list[str] | None = None,
     filtros_metadados: dict[str, list[str]] | None = None,
+    excluir_secoes: list[str] | None = None,
 ) -> list[ChunkRecuperado]:
     """`filtros_metadados` é genérico — `{"bioma": [...]}`,
     `{"categoria_risco": [...]}`, `{"grupo": [...]}`, `{"estados": [...]}`,
@@ -60,6 +61,10 @@ def buscar_chunks(
     uma busca sem `fontes=["salve"]`, ou eles excluiriam monitora/pans
     inteiros por engano. Quem decide quando aplicar é
     `backend/services/roteamento.py`, não esta função.
+
+    `excluir_secoes` descarta chunks cujo campo `secao` esteja na lista
+    (`must_not`). Chunk sem o campo `secao` nunca é excluído, então pode ser
+    combinado com qualquer fonte.
     """
     vetor = modelo.encode([pergunta], normalize_embeddings=True)[0]
 
@@ -69,12 +74,15 @@ def buscar_chunks(
     for campo, valores in (filtros_metadados or {}).items():
         if valores:
             condicoes.append(FieldCondition(key=campo, match=MatchAny(any=valores)))
+    exclusoes = (
+        [FieldCondition(key="secao", match=MatchAny(any=excluir_secoes))] if excluir_secoes else None
+    )
 
     resultados = client.query_points(
         collection_name=settings.qdrant_collection,
         query=vetor.tolist(),
         limit=top_k,
-        query_filter=Filter(must=condicoes),
+        query_filter=Filter(must=condicoes, must_not=exclusoes),
     ).points
 
     return [

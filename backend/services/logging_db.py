@@ -27,29 +27,53 @@ from psycopg.types.json import Json
 from psycopg_pool import ConnectionPool
 
 from backend.schemas import ChunkRecuperado, Citacao
-from backend.services.roteamento import detectar_filtros_salve, detectar_fonte_prioritaria
+from backend.services.especies_salve import CatalogoEspecies
+from backend.services.roteamento import (
+    detectar_filtros_salve,
+    detectar_fonte_prioritaria,
+    especies_para_rotear,
+    secoes_excluidas,
+)
 
 log = logging.getLogger(__name__)
 
 
-def descrever_rota(pergunta: str, fontes: list[str] | None) -> dict | None:
+def descrever_rota(
+    pergunta: str, fontes: list[str] | None, catalogo: CatalogoEspecies | None = None
+) -> dict | None:
     """O que `roteamento.buscar_chunks_priorizados` decide para esta
     pergunta, no formato gravado na coluna `rota`.
 
-    None quando o roteamento não roda (o cliente mandou `fontes`). Quando
-    roda: `fonte_prioritaria` (None se a pergunta não casou com o padrão) e
-    os `filtros` de metadado SALVE aplicados à busca prioritária.
+    Quando a pergunta cita espécies do catálogo: `especies`, com
+    `fonte_prioritaria` "salve" e o filtro por `documento` (e
+    `fontes_do_cliente`, se houver). Quando o cliente mandou `fontes`, a
+    priorização não roda: grava só `fontes_do_cliente` e `secoes_excluidas`
+    (até 2026-11-17 era None). Sem `fontes`: `fonte_prioritaria` (None se a
+    pergunta não casou com o padrão), os `filtros` de metadado SALVE
+    aplicados à busca prioritária e `secoes_excluidas` (None quando a
+    pergunta pede bibliografia). Linhas anteriores a 2026-11-17 não têm
+    `secoes_excluidas` nem `especies`.
 
     Reproduz as mesmas condições de `buscar_chunks_priorizados` com as
     mesmas funções puras, em vez de mudar a assinatura daquela função (que
     está fora do escopo desta mudança). `tests/test_logging_interacoes.py`
     confere a equivalência contra `buscar_chunks_priorizados`.
     """
+    excluidas = secoes_excluidas(pergunta)
+    especies = especies_para_rotear(pergunta, fontes, catalogo)
+    if especies:
+        rota = {
+            "especies": especies, "fonte_prioritaria": "salve",
+            "filtros": {"documento": especies}, "secoes_excluidas": excluidas,
+        }
+        if fontes:
+            rota["fontes_do_cliente"] = fontes
+        return rota
     if fontes:
-        return None
+        return {"fontes_do_cliente": fontes, "secoes_excluidas": excluidas}
     fonte_prioritaria = detectar_fonte_prioritaria(pergunta)
     filtros = detectar_filtros_salve(pergunta) if fonte_prioritaria == "salve" else {}
-    return {"fonte_prioritaria": fonte_prioritaria, "filtros": filtros}
+    return {"fonte_prioritaria": fonte_prioritaria, "filtros": filtros, "secoes_excluidas": excluidas}
 
 
 def registrar_interacao(

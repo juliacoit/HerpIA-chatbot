@@ -26,6 +26,9 @@ arbitrária, é resultado de testar cada peça isoladamente contra casos reais
    diretamente contra o juiz por LLM (camada 3) informado desse mesmo
    termo suspeito, o juiz ignorou o aviso e aprovou a fabricação em 3 de 3
    execuções — não dá pra confiar só no juiz pra esse tipo de caso.
+   Desde 2026-11-17, `checar_referencias_bibliograficas` roda logo depois,
+   também como hard gate: título de referência bibliográfica ("Sobrenome,
+   I. (ano) Título") que não aparece nos trechos.
 
 2. `checar_ancoras_meio_frase` — mesma ideia, mas para palavras capitalizadas
    soltas no meio de uma cláusula (não só nome+parênteses). **Não decide
@@ -81,6 +84,7 @@ from typing import Literal
 
 from backend.schemas import ChunkRecuperado, OrigemRetencao
 from backend.services.llm import ContextoExcedidoError, LLMClient
+from backend.services.normalizacao import normalizar
 
 MENSAGEM_NAO_FUNDAMENTADA = (
     "Não foi possível confirmar que a resposta gerada está totalmente "
@@ -413,6 +417,54 @@ def checar_ancoras_estruturais(
     return len(sem_apoio) == 0, sem_apoio
 
 
+# Linha de referência bibliográfica no formato das fichas SALVE: começa com
+# "Sobrenome, I." (até três palavras no sobrenome, depois de um marcador de
+# lista opcional), tem o ano entre parênteses ou seguido de ponto, e o título
+# logo depois. Autor institucional ("ICMBio (2018) ...") não casa: fica sem
+# checagem, em vez de arriscar falso positivo.
+_PADRAO_LINHA_REFERENCIA = re.compile(
+    r"^\s*(?:\d+[.)]|[-•*])?\s*\**"
+    r"[A-ZÀ-Ý][\wÀ-ÿ'’-]+(?:\s[A-Za-zÀ-ÿ][\wÀ-ÿ'’-]+){0,2},\s*(?:[A-ZÀ-Ý]\.\s*-?)+"
+    r".*?(?:\((?:1[6-9]|20)\d\d[a-z]?\)|\b(?:1[6-9]|20)\d\d[a-z]?\.)\s*[.,:]?\s*\**"
+    r"(?P<titulo>.+)$",
+    re.MULTILINE,
+)
+# Palavras do início do título que precisam aparecer, contíguas, nos trechos.
+# Cinco basta para distinguir títulos e tolera o modelo encurtar o resto.
+_PALAVRAS_TITULO = 5
+_MIN_PALAVRAS_TITULO = 3
+
+
+def checar_referencias_bibliograficas(
+    resposta: str, chunks: list[ChunkRecuperado], pergunta: str = ""
+) -> tuple[bool, list[str]]:
+    """Hard gate para referência bibliográfica inventada: em cada linha da
+    resposta no formato "Sobrenome, I. ... (ano) Título", o início do título
+    precisa aparecer em algum trecho (ou na pergunta).
+
+    Motivo (2026-11-17): perguntado pelas referências de Acanthochelys
+    radiolata, o qwen2.5:3b listou "Bérnils, A.C., Silva-Soares, F.M., &
+    Moraes, R.L. (2005) Distribuição da fauna de quelônios no Brasil: uma
+    revisão. Revista Brasileira de Herpetologia, 18(2)". Os trechos só
+    citavam "Bérnils et al., 2005" no meio do texto da seção Distribuição;
+    título, revista e coautores foram inventados, e o juiz por LLM aprovou.
+    A camada 1 não pega isso: "Bérnils" aparece nos trechos.
+
+    A comparação é sobre texto normalizado (sem acento, pontuação, caixa e
+    quebras de linha): o chunker dividiu as referências a cada ponto
+    ("Pinto, H.\\n\\nB.\\n\\nA."), e a normalização junta de novo.
+    """
+    texto_disponivel = f" {normalizar(' '.join(c.texto for c in chunks) + ' ' + pergunta)} "
+    sem_apoio = []
+    for m in _PADRAO_LINHA_REFERENCIA.finditer(resposta):
+        palavras = normalizar(m.group("titulo")).split()[:_PALAVRAS_TITULO]
+        if len(palavras) < _MIN_PALAVRAS_TITULO:
+            continue
+        if f" {' '.join(palavras)} " not in texto_disponivel:
+            sem_apoio.append(m.group(0).strip())
+    return len(sem_apoio) == 0, sem_apoio
+
+
 def _candidatos_meio_frase(fragmento: str) -> set[str]:
     """Palavras capitalizadas no meio de uma cláusula (não a primeira,
     maiúscula só por estar no início da cláusula, não por ser nome próprio).
@@ -564,6 +616,13 @@ async def verificar_groundedness_detalhado(
             "Verificação lexical (nome em posição estrutural de alta "
             "precisão — seguido de parênteses ou liderando item de lista — "
             "sem apoio em nenhum trecho nem na pergunta): " + "; ".join(sem_apoio)
+        ), "lexical"
+
+    referencias_ok, referencias_sem_apoio = checar_referencias_bibliograficas(resposta, chunks, pergunta)
+    if not referencias_ok:
+        return False, (
+            "Verificação lexical de referências bibliográficas (título que não "
+            "aparece em nenhum trecho nem na pergunta): " + "; ".join(referencias_sem_apoio)
         ), "lexical"
 
     if checar_abstencao_pura(resposta):

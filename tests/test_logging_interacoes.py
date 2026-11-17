@@ -150,7 +150,8 @@ def test_endpoint_retida_loga_original_e_nao_expoe(cliente_api):
     assert reg["resposta_original"] == RESPOSTA_FABRICADA
     assert reg["origem_retencao"] == "lexical"
     assert reg["tipo_saida"] == "retida_groundedness"
-    assert reg["rota"] is None  # fontes explícitas: o roteamento não roda
+    # fontes explícitas: a priorização não roda, mas a exclusão de seções sim
+    assert reg["rota"] == {"fontes_do_cliente": ["salve"], "secoes_excluidas": ["referencias"]}
 
 
 def test_endpoint_retida_pelo_juiz(cliente_api):
@@ -172,7 +173,7 @@ def test_endpoint_gerada_e_abstencao(cliente_api):
     r1, r2 = estado["registros"]
     assert (r1["tipo_saida"], r1["origem_retencao"], r1["resposta_original"]) == ("gerada", None, None)
     assert (r2["tipo_saida"], r2["origem_retencao"], r2["resposta_original"]) == ("abstencao", None, None)
-    assert r1["rota"] == {"fonte_prioritaria": None, "filtros": {}}
+    assert r1["rota"] == {"fonte_prioritaria": None, "filtros": {}, "secoes_excluidas": ["referencias"]}
 
 
 def test_endpoint_grava_temperatura_e_seed_efetivos(cliente_api, monkeypatch):
@@ -205,17 +206,24 @@ def _perguntas():
 def test_descrever_rota_equivale_a_buscar_chunks_priorizados(monkeypatch, fontes):
     chamadas = []
 
-    def buscar_falso(client, modelo, settings, pergunta, top_k, fontes, filtros_metadados=None):
+    def buscar_falso(
+        client, modelo, settings, pergunta, top_k, fontes, filtros_metadados=None, excluir_secoes=None
+    ):
         chamadas.append({"fontes": fontes, "filtros": filtros_metadados})
+        excluidas_por_chamada.append(excluir_secoes)
         return []  # força a busca complementar quando há prioridade
 
+    excluidas_por_chamada = []
     monkeypatch.setattr(roteamento, "buscar_chunks", buscar_falso)
     settings = Settings(_env_file=None)
     for pergunta in _perguntas():
         chamadas.clear()
+        excluidas_por_chamada.clear()
         roteamento.buscar_chunks_priorizados(None, None, settings, pergunta, 5, fontes)
         rota = descrever_rota(pergunta, fontes)
-        if rota is None:
+        assert all(e == rota["secoes_excluidas"] for e in excluidas_por_chamada), pergunta
+        if "fontes_do_cliente" in rota:
+            assert rota["fontes_do_cliente"] == fontes
             assert chamadas == [{"fontes": fontes, "filtros": None}], pergunta
         elif rota["fonte_prioritaria"] is None:
             assert chamadas == [{"fontes": None, "filtros": None}], pergunta

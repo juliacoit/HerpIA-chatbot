@@ -35,6 +35,7 @@ from sentence_transformers import SentenceTransformer
 
 from backend.config import Settings
 from backend.schemas import ChunkRecuperado
+from backend.services.especies_salve import CatalogoEspecies
 from backend.services.retrieval import buscar_chunks
 
 # Heurística de palavra-chave — NÃO é uma classificação confiável de intenção.
@@ -219,8 +220,79 @@ def detectar_fonte_prioritaria(pergunta: str) -> str | None:
     return None
 
 
+# Seção "Referências" das fichas SALVE: só a lista bibliográfica, mas cheia do
+# nome da espécie, então disputa as vagas do top_k com o conteúdo da ficha.
+# Na interação 1415 (2026-11-17, justificativa LC de Acanthochelys
+# radiolata), 3 dos 5 trechos eram referências; numa medição com 8 espécies,
+# perguntas pelo slug da ficha trouxeram 10 trechos de referências em 8
+# perguntas, e excluir a seção não tirou o trecho-alvo (Visão geral ou
+# Conservação) do top-5 em nenhum dos 24 casos. Só fichas SALVE têm
+# `secao == "referencias"`; chunks de outras fontes não são afetados.
+SECOES_EXCLUIDAS_PADRAO = ["referencias"]
+
+# Perguntas que pedem a bibliografia mantêm a seção.
+_PADRAO_PEDIDO_REFERENCIAS = re.compile(
+    r"\b(refer[êe]ncias?|bibliogr[áa]fi\w*|literatura|cita[çc](?:[ãa]o|[õo]es)|"
+    r"artigos?|publica[çc](?:[ãa]o|[õo]es)|publicad[oa]s?|estudos?|trabalhos?|"
+    r"autor(?:es|as?)?|autoria|quem\s+(?:descreveu|publicou|estudou))\b",
+    re.IGNORECASE,
+)
+
+
+def secoes_excluidas(pergunta: str) -> list[str] | None:
+    """Seções a excluir da busca: as referências, a menos que a pergunta peça
+    bibliografia, estudos, autores etc."""
+    if _PADRAO_PEDIDO_REFERENCIAS.search(pergunta):
+        return None
+    return list(SECOES_EXCLUIDAS_PADRAO)
+
+
+# Perguntas que citam outra fonte junto com a espécie ("a espécie X está em
+# algum PAN?") não são restritas à ficha SALVE.
+_PADRAO_OUTRA_FONTE = re.compile(
+    r"\b(PANs?|planos?\s+de\s+a[çc][ãa]o|monitora|SEI|publica[çc](?:[ãa]o|[õo]es)|"
+    r"artigos?|boletins?|relat[óo]rios?)\b",
+    re.IGNORECASE,
+)
+
+
+def especies_para_rotear(
+    pergunta: str, fontes: list[str] | None, catalogo: CatalogoEspecies | None
+) -> list[str]:
+    """Fichas SALVE citadas na pergunta (nome científico ou nome comum, ver
+    especies_salve.py) para restringir a busca a elas, ou [] quando não se
+    aplica: sem catálogo, cliente pediu fontes sem SALVE, ou a pergunta cita
+    outra fonte."""
+    if catalogo is None or (fontes and "salve" not in fontes):
+        return []
+    if _PADRAO_OUTRA_FONTE.search(pergunta):
+        return []
+    return catalogo.detectar(pergunta)
+
+
 def _chave_chunk(chunk: ChunkRecuperado) -> tuple:
     return (chunk.fonte, chunk.documento, chunk.secao, chunk.pagina_inicio, chunk.texto)
+
+
+def _completar(prioritarios: list[ChunkRecuperado], buscar_gerais, top_k: int) -> list[ChunkRecuperado]:
+    """Completa as vagas que sobraram do top_k com resultados da busca geral
+    (`buscar_gerais()`, só chamada se faltar vaga), sem repetir chunk."""
+    faltam = top_k - len(prioritarios)
+    if faltam <= 0:
+        return prioritarios
+
+    vistos = {_chave_chunk(c) for c in prioritarios}
+    complementares = []
+    for chunk in buscar_gerais():
+        if len(complementares) >= faltam:
+            break
+        chave = _chave_chunk(chunk)
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        complementares.append(chunk)
+
+    return prioritarios + complementares
 
 
 def buscar_chunks_priorizados(
@@ -230,6 +302,7 @@ def buscar_chunks_priorizados(
     pergunta: str,
     top_k: int,
     fontes: list[str] | None = None,
+    catalogo: CatalogoEspecies | None = None,
 ) -> list[ChunkRecuperado]:
     """Como buscar_chunks, mas quando o cliente não pede uma fonte
     explicitamente e a pergunta casa com o padrão de "lista de espécies por
@@ -241,13 +314,36 @@ def buscar_chunks_priorizados(
     um merge por score simples reproduziria o mesmo viés que motivou este
     módulo, já que os trechos genéricos dos PANs tendem a ter score mais
     alto e ocupariam as vagas de novo.
+
+    Antes disso, se a pergunta cita até 3 espécies do `catalogo` (nome
+    científico ou nome comum), as vagas vão para as fichas SALVE delas (ver
+    `especies_para_rotear`). Vale também com `fontes` do cliente que
+    incluam SALVE; o complemento respeita as `fontes`.
+
+    Em todos os caminhos (inclusive com `fontes` do cliente), a seção de
+    referências fica de fora, a menos que a pergunta peça bibliografia (ver
+    `secoes_excluidas`).
     """
+    excluir = secoes_excluidas(pergunta)
+
+    especies = especies_para_rotear(pergunta, fontes, catalogo)
+    if especies:
+        da_especie = buscar_chunks(
+            client, modelo, settings, pergunta, top_k, ["salve"],
+            filtros_metadados={"documento": especies}, excluir_secoes=excluir,
+        )
+        return _completar(
+            da_especie,
+            lambda: buscar_chunks(client, modelo, settings, pergunta, top_k, fontes or None, excluir_secoes=excluir),
+            top_k,
+        )
+
     if fontes:
-        return buscar_chunks(client, modelo, settings, pergunta, top_k, fontes)
+        return buscar_chunks(client, modelo, settings, pergunta, top_k, fontes, excluir_secoes=excluir)
 
     fonte_prioritaria = detectar_fonte_prioritaria(pergunta)
     if not fonte_prioritaria:
-        return buscar_chunks(client, modelo, settings, pergunta, top_k, None)
+        return buscar_chunks(client, modelo, settings, pergunta, top_k, None, excluir_secoes=excluir)
 
     # bioma/categoria_risco/grupo/estados só existem no payload de fichas
     # SALVE — só faz sentido aplicar esse filtro extra quando a fonte
@@ -256,23 +352,10 @@ def buscar_chunks_priorizados(
 
     prioritarios = buscar_chunks(
         client, modelo, settings, pergunta, top_k, [fonte_prioritaria],
-        filtros_metadados=filtros_metadados,
+        filtros_metadados=filtros_metadados, excluir_secoes=excluir,
     )
-
-    faltam = top_k - len(prioritarios)
-    if faltam <= 0:
-        return prioritarios
-
-    vistos = {_chave_chunk(c) for c in prioritarios}
-    complementares = []
-    gerais = buscar_chunks(client, modelo, settings, pergunta, top_k, None)
-    for chunk in gerais:
-        if len(complementares) >= faltam:
-            break
-        chave = _chave_chunk(chunk)
-        if chave in vistos:
-            continue
-        vistos.add(chave)
-        complementares.append(chunk)
-
-    return prioritarios + complementares
+    return _completar(
+        prioritarios,
+        lambda: buscar_chunks(client, modelo, settings, pergunta, top_k, None, excluir_secoes=excluir),
+        top_k,
+    )

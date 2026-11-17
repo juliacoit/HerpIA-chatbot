@@ -18,6 +18,7 @@ from fastapi import Depends, FastAPI
 from backend.config import Settings, obter_settings
 from backend.db import abrir_pool, fechar_pool
 from backend.routers import auth, busca, feedback, perguntar
+from backend.services.especies_salve import carregar_catalogo
 from backend.services.llm import criar_llm_client
 from backend.services.retrieval import MODELO_EMBEDDING, carregar_modelo_embedding, conectar_qdrant
 
@@ -28,6 +29,8 @@ async def lifespan(app: FastAPI):
     print(f"Carregando modelo de embeddings ({MODELO_EMBEDDING})...")
     app.state.modelo_embedding = carregar_modelo_embedding()
     app.state.qdrant_client = conectar_qdrant(settings)
+    print("Carregando catálogo de nomes das fichas SALVE...")
+    app.state.catalogo_especies = carregar_catalogo(app.state.qdrant_client, settings)
     app.state.llm_client = criar_llm_client(settings)
     app.state.db_pool = abrir_pool(settings)
     yield

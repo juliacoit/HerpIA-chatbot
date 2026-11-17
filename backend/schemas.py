@@ -3,7 +3,7 @@
 from datetime import datetime
 from typing import Literal
 
-from pydantic import BaseModel, Field, PrivateAttr
+from pydantic import BaseModel, Field, PrivateAttr, model_validator
 
 
 class ChunkRecuperado(BaseModel):
@@ -174,10 +174,35 @@ class PerguntarResponse(BaseModel):
     _resposta_original: str | None = PrivateAttr(default=None)
 
 
+# Motivos do feedback negativo. Cada código aponta para um tipo de falha que
+# a avaliação mede em separado (fundamentação, citação, cobertura da busca,
+# recusa indevida, entendimento da pergunta). Os rótulos exibidos ficam em
+# interface/apresentacao.py (MOTIVOS_FEEDBACK), com os mesmos códigos.
+MotivoFeedback = Literal[
+    "informacao_incorreta",
+    "fonte_errada",
+    "incompleta",
+    "nao_respondeu",
+    "nao_entendeu",
+    "outro",
+]
+
+
 class FeedbackRequest(BaseModel):
     interacao_id: int = Field(description="Valor de `id` recebido em PerguntarResponse.")
     avaliacao: Literal[-1, 1] = Field(description="1 = positivo (thumbs up), -1 = negativo (thumbs down)")
     comentario: str | None = Field(default=None, max_length=2000)
+    motivos: list[MotivoFeedback] | None = Field(
+        default=None,
+        max_length=6,
+        description="Motivos do feedback negativo. Só aceito com avaliacao = -1.",
+    )
+
+    @model_validator(mode="after")
+    def _motivos_so_no_negativo(self) -> "FeedbackRequest":
+        if self.motivos and self.avaliacao != -1:
+            raise ValueError("motivos só se aplica a avaliacao = -1")
+        return self
 
 
 class FeedbackResponse(BaseModel):

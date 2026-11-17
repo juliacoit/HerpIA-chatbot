@@ -88,6 +88,13 @@ CREATE TABLE IF NOT EXISTS sessoes (
 -- login, ou AUTH_EXIGIR que não cobre o endpoint).
 ALTER TABLE interacoes ADD COLUMN IF NOT EXISTS usuario_id BIGINT REFERENCES usuarios(id) ON DELETE SET NULL;
 ALTER TABLE feedback ADD COLUMN IF NOT EXISTS usuario_id BIGINT REFERENCES usuarios(id) ON DELETE SET NULL;
+
+-- Motivos marcados no feedback negativo (códigos de MotivoFeedback, em
+-- backend/schemas.py) e data da última edição: um usuário logado tem uma
+-- única avaliação por interação e pode completá-la com comentário depois.
+-- Aditivo e anulável, como as migrações acima.
+ALTER TABLE feedback ADD COLUMN IF NOT EXISTS motivos TEXT[];
+ALTER TABLE feedback ADD COLUMN IF NOT EXISTS atualizado_em TIMESTAMPTZ;
 """
 
 

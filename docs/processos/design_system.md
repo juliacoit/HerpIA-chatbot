@@ -273,6 +273,25 @@ e `tema.marca_acesso()`:
   ("Deploy" e menu) aparece no canto, como no resto da aplicação. O `login.card.html` do kit não
   renderiza fora da ferramenta geradora, então a comparação foi com o `LoginScreen.jsx`.
 
+**2026-11-16, quinta rodada — motivos e comentário no feedback.** Pedido da
+Júlia para os usuários ajudarem nas métricas.
+
+- **Motivos no diálogo do feedback negativo** (`app.py`,
+  `_formulario_feedback`): seis `st.checkbox` (widget já re-skinado), com os
+  rótulos de `apresentacao.MOTIVOS_FEEDBACK`. O `Dialog` de
+  `ConsultaScreen.jsx` só tem o `Textarea`; os motivos são acréscimo da
+  aplicação, sem componente correspondente no pacote.
+- **Comentário em qualquer avaliação.** Depois do envio, o aviso ganha o
+  botão "Adicionar comentário" (ou "Editar comentário"), que abre o mesmo
+  formulário. Só aparece com login: o backend mantém uma avaliação por
+  usuário e interação, e sem usuário o reenvio viraria uma linha duplicada.
+  O polegar positivo continua registrando com um clique.
+- **Não portado:** o estado "ativo" dos polegares continua sem equivalente
+  (ver terceira rodada). O botão de comentário usa `type="tertiary"` nativo,
+  sem CSS próprio em `tema.py`.
+- **Não verificado visualmente:** esta rodada foi conferida só por testes
+  (`tests/test_feedback.py`) e compilação, sem captura de tela.
+
 ## Limitação conhecida: "redução mínima" do logo não verificada
 
 `design-system/components/brand/Logo.jsx` referencia a "redução mínima"

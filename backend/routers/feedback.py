@@ -27,6 +27,7 @@ async def feedback(
         interacao_id=body.interacao_id,
         avaliacao=body.avaliacao,
         comentario=body.comentario,
+        motivos=body.motivos,
         usuario_id=usuario.id if usuario else None,
     )
     if not encontrada:

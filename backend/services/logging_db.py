@@ -168,11 +168,17 @@ def registrar_feedback(
     avaliacao: int,
     comentario: str | None,
     usuario_id: int | None = None,
+    motivos: list[str] | None = None,
 ) -> bool:
     """Devolve False se `interacao_id` não existir — ou se a interação for de
     outro usuário: os ids são sequenciais, então sem essa checagem qualquer
     pessoa avaliaria a resposta de outra. Interações anônimas (sem
     usuario_id) continuam avaliáveis por qualquer um, como antes do login.
+
+    Usuário logado tem uma avaliação por interação: reenviar substitui a
+    anterior (é assim que a interface acrescenta um comentário depois do
+    polegar). Sem login não há como saber de quem é a linha, então cada
+    envio anônimo continua virando uma linha nova.
     Assume pool != None — quem chama (backend/routers/feedback.py) já trata
     o caso de pool indisponível antes de chegar aqui."""
     with pool.connection() as conn:
@@ -183,9 +189,23 @@ def registrar_feedback(
             return False
         if interacao[0] is not None and interacao[0] != usuario_id:
             return False
-        conn.execute(
-            "INSERT INTO feedback (interacao_id, avaliacao, comentario, usuario_id) VALUES (%s, %s, %s, %s)",
-            (interacao_id, avaliacao, comentario, usuario_id),
-        )
+        motivos = sorted(set(motivos)) if motivos else None
+        anterior = None
+        if usuario_id is not None:
+            anterior = conn.execute(
+                "SELECT id FROM feedback WHERE interacao_id = %s AND usuario_id = %s ORDER BY id DESC LIMIT 1",
+                (interacao_id, usuario_id),
+            ).fetchone()
+        if anterior is not None:
+            conn.execute(
+                "UPDATE feedback SET avaliacao = %s, comentario = %s, motivos = %s, atualizado_em = now() WHERE id = %s",
+                (avaliacao, comentario, motivos, anterior[0]),
+            )
+        else:
+            conn.execute(
+                "INSERT INTO feedback (interacao_id, avaliacao, comentario, usuario_id, motivos)"
+                " VALUES (%s, %s, %s, %s, %s)",
+                (interacao_id, avaliacao, comentario, usuario_id, motivos),
+            )
         conn.commit()
         return True

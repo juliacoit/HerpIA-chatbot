@@ -114,33 +114,62 @@ def _renderizar_citacoes(citacoes: list[dict], estado: str, chave: str) -> None:
             _renderizar_documento(grupo, i, chave=f"{chave}-{i}")
 
 
-@st.dialog("O que faltou nesta resposta?")
-def _dialogo_feedback_negativo(item: dict) -> None:
+def _formulario_feedback(item: dict, avaliacao: int) -> None:
+    """Corpo dos dois diálogos de feedback: motivos (só no negativo),
+    comentário livre e os botões. Reabre com o que já foi enviado."""
+    motivos: list[str] = []
+    if avaliacao == -1:
+        st.caption("Motivos (opcional). Indicam o tipo de falha a medir.")
+        marcados = item.get("feedback_motivos") or []
+        for codigo, rotulo in apresentacao.MOTIVOS_FEEDBACK.items():
+            if st.checkbox(rotulo, value=codigo in marcados, key=f"motivo-{item['id']}-{codigo}"):
+                motivos.append(codigo)
     st.caption("O comentário é opcional e fica registrado junto da avaliação.")
     comentario = st.text_area(
         "Comentário",
+        value=item.get("feedback_comentario") or "",
         placeholder="Ex.: a resposta citou o documento errado.",
         max_chars=2000,
         label_visibility="collapsed",
+        key=f"comentario-{item['id']}-{avaliacao}",
     )
     st.caption("Máx. 2000 caracteres")
     col_cancelar, col_enviar = st.columns(2)
     if col_cancelar.button("Cancelar", width="stretch"):
         st.rerun()
     if col_enviar.button("Enviar feedback", type="primary", width="stretch"):
-        _registrar_feedback(item, -1, comentario or None)
-        st.toast("Feedback registrado. Obrigado.")
-        st.rerun()
+        if _registrar_feedback(item, avaliacao, comentario.strip() or None, motivos):
+            st.toast("Feedback registrado. Obrigado.")
+            st.rerun()
 
 
-def _registrar_feedback(item: dict, avaliacao: int, comentario: str | None = None) -> None:
+@st.dialog("O que faltou nesta resposta?")
+def _dialogo_feedback_negativo(item: dict) -> None:
+    _formulario_feedback(item, -1)
+
+
+@st.dialog("Comentário sobre a resposta")
+def _dialogo_comentario(item: dict) -> None:
+    _formulario_feedback(item, item["feedback_enviado"])
+
+
+def _registrar_feedback(
+    item: dict, avaliacao: int, comentario: str | None = None, motivos: list[str] | None = None
+) -> bool:
+    """Envia e guarda no item o que foi enviado. False = não registrou (o
+    erro já foi exibido), para quem chama não confirmar o envio."""
     try:
-        enviar_feedback(item["id"], avaliacao, comentario, token=acesso.token_atual())
-        item["feedback_enviado"] = avaliacao
+        enviar_feedback(item["id"], avaliacao, comentario, token=acesso.token_atual(), motivos=motivos)
     except ErroSessao as exc:
         _sessao_expirou(exc)
+        return False
     except ErroAPI as exc:
         st.error(str(exc))
+        return False
+    item["feedback_enviado"] = avaliacao
+    item["feedback_comentario"] = comentario
+    item["feedback_motivos"] = motivos or []
+    return True
 
 
 def _renderizar_resposta(item: dict, idx: int) -> None:
@@ -165,8 +194,16 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
     if interacao_id is None:
         st.caption("Feedback indisponível nesta sessão (PostgreSQL não conectado).")
     elif feedback_enviado is not None:
-        rotulo = "positivo" if feedback_enviado == 1 else "negativo"
-        st.caption(f"Feedback enviado: {rotulo}. Obrigado!")
+        comentario = item.get("feedback_comentario")
+        with st.container(horizontal=True, vertical_alignment="center"):
+            st.caption(apresentacao.resumo_feedback(feedback_enviado, comentario), width="content")
+            # Completar a avaliação depois do envio só existe com login: o
+            # backend substitui a avaliação do mesmo usuário, e sem usuário
+            # o reenvio viraria uma segunda linha (registrar_feedback).
+            if acesso.sessao_atual() is not None:
+                rotulo = "Editar comentário" if comentario else "Adicionar comentário"
+                if st.button(rotulo, key=f"comentar-{idx}", type="tertiary"):
+                    _dialogo_comentario(item)
     elif MODO_AUTH == "feedback" and acesso.sessao_atual() is None:
         st.caption("Para avaliar esta resposta, entre com o usuário institucional (botão Entrar, na barra lateral).")
     else:
@@ -177,9 +214,9 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
         with st.container(horizontal=True, vertical_alignment="center"):
             st.caption("Esta resposta foi útil?", width="content")
             if st.button("Útil", key=f"util-{idx}", help="Resposta útil"):
-                _registrar_feedback(item, 1)
-                st.toast("Feedback registrado. Obrigado.")
-                st.rerun()
+                if _registrar_feedback(item, 1):
+                    st.toast("Feedback registrado. Obrigado.")
+                    st.rerun()
             if st.button("Não útil", key=f"nao_util-{idx}", help="Resposta não útil"):
                 _dialogo_feedback_negativo(item)
 

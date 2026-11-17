@@ -129,12 +129,19 @@ def perguntar(
 
 
 def enviar_feedback(
-    interacao_id: int, avaliacao: int, comentario: str | None = None, token: str | None = None
+    interacao_id: int,
+    avaliacao: int,
+    comentario: str | None = None,
+    token: str | None = None,
+    motivos: list[str] | None = None,
 ) -> None:
-    """POST /feedback — thumbs up/down (1/-1) para uma interação já registrada."""
+    """POST /feedback — thumbs up/down (1/-1) para uma interação já registrada,
+    com comentário e motivos (só no negativo) opcionais."""
     payload: dict = {"interacao_id": interacao_id, "avaliacao": avaliacao}
     if comentario:
         payload["comentario"] = comentario
+    if motivos:
+        payload["motivos"] = motivos
 
     resposta = _post("/feedback", payload, token)
     if resposta.status_code == 503:

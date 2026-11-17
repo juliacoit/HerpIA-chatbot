@@ -105,3 +105,23 @@ def resumo_citacoes(grupos: list[dict]) -> str:
     docs = "1 documento" if n_docs == 1 else f"{n_docs} documentos"
     trechos = "1 trecho" if n_trechos == 1 else f"{n_trechos} trechos"
     return f"{docs}, {trechos}"
+
+
+# Motivos do feedback negativo: código gravado no banco -> rótulo exibido.
+# Os códigos são os de MotivoFeedback, em backend/schemas.py
+# (tests/test_feedback.py confere que as duas listas não divergem).
+MOTIVOS_FEEDBACK = {
+    "informacao_incorreta": "Informação incorreta",
+    "fonte_errada": "Fonte ou citação errada",
+    "incompleta": "Resposta incompleta",
+    "nao_respondeu": "Não respondeu, e a base tem a informação",
+    "nao_entendeu": "Não entendeu a pergunta",
+    "outro": "Outro motivo",
+}
+
+
+def resumo_feedback(avaliacao: int, comentario: str | None) -> str:
+    """Aviso que substitui os botões depois do envio."""
+    rotulo = "positivo" if avaliacao == 1 else "negativo"
+    complemento = ", com comentário" if comentario else ""
+    return f"Feedback enviado: {rotulo}{complemento}. Obrigado!"

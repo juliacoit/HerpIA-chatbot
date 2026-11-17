@@ -194,10 +194,61 @@ aparecem nas respostas do chatbot. A indexação fica para depois da avaliação
 | Chunks de planilha | 25.650 |
 | Documentos sem nenhum sinal de triagem | 798 (23.472 chunks) |
 
-- **Planilhas pesam mais que o texto.** São 283 documentos e 56% dos chunks; as 10 maiores
-  somam 10.814 chunks e as 30 maiores, 16.309. Tabelas de dados brutos costumam ser recuperadas
-  mal pela busca semântica — decidir antes da indexação se entram todas, só as menores ou nenhuma.
+- **Planilhas pesam mais que o texto.** Ver a seção "Planilhas: por que é uma decisão à
+  parte", abaixo (números atualizados em 2026-11-17).
 - A base indexada hoje tem cerca de 59 mil chunks; o SEI inteiro quase dobraria esse número.
+
+### Só documentos públicos (2026-11-17)
+
+Decisão da equipe do RAN: sigilosos e restritos ficam de fora, e nomes de pessoas podem
+ficar (ADR 0004, atualização de 2026-11-17).
+
+- Os documentos marcados como restritos ou sigilosos na árvore do SEI já não eram exportados.
+- `gerar_chunks_sei.py` passou a deixar de fora os **39 documentos** públicos no SEI cujo
+  texto menciona restrição de acesso (sinal `palavra_restrito`). Eles somavam 7.705 chunks, 16
+  deles eram planilhas, e os números SEI ficam no relatório
+  (`07_processados/metadados/chunks_sei_relatorio.json`, campo `excluidos_por_restricao`).
+- O sinal é por palavra: "reservado" (17 documentos), "confidencial" (12), "sigiloso" (11),
+  "uso interno" (5), "não divulgar" (4), "acesso restrito" (2) e "documento restrito" (1). A
+  palavra pode estar num sentido que não restringe o documento (ex.: "área reservada"); a regra
+  prefere deixar fora a mais.
+
+| Depois da exclusão | Quantidade |
+|---|---|
+| Documentos com chunks | 1.055 |
+| Chunks | 38.175 |
+| Chunks de texto corrido | 17.917 |
+| Chunks de planilha | 20.258 |
+
+### Planilhas: por que é uma decisão à parte
+
+São 267 documentos do SEI que são planilhas (ou têm planilhas dentro de um ZIP). Eles geram
+20.258 chunks, **53% do SEI**. A decisão importa por três motivos:
+
+1. **Poucas planilhas ocupam muito espaço.** A maior sozinha gera 2.084 chunks (10% das
+   planilhas); as 10 maiores somam 42%, e as 30 maiores, 64%. Já as 140 menores (até 20 chunks
+   cada) somam só 1.187 chunks. As grandes são tabelas de dados brutos, com milhares de linhas.
+2. **A busca do HerpIA lê trechos, não a tabela.** Para cada pergunta, o sistema escolhe os
+   5 trechos mais parecidos com a pergunta (padrão de `top_k`). Um trecho de planilha é um pedaço
+   da tabela com o cabeçalho das colunas repetido: 9 linhas na mediana, e metade dos trechos
+   fica entre 3 e 21 linhas. Ele serve para achar uma linha
+   específica ("em que planilha aparece tal espécie"), mas não para responder perguntas que
+   dependem da tabela inteira ("quantos registros houve em 2019", "qual a média"): o modelo nunca
+   vê todas as linhas e não faz contas sobre elas. Uma resposta assim sairia errada, com
+   aparência de certa.
+3. **Linhas de tabela atrapalham a busca dos outros documentos.** Linhas com números, códigos
+   e siglas são pouco parecidas com uma pergunta em linguagem natural, mas, em grande
+   quantidade, aparecem entre os 5 trechos escolhidos e tomam o lugar de relatórios e
+   pareceres que responderiam melhor.
+
+Opções para a equipe do RAN:
+
+| Opção | O que entra | Chunks de planilha |
+|---|---|---|
+| Todas | as 267 planilhas | 20.258 |
+| Só as menores | as 140 com até 20 chunks | 1.187 |
+| Escolhidas pela equipe | as que a equipe indicar (ex.: listas de espécies, cronogramas) | depende |
+| Nenhuma | só os documentos de texto | 0 |
 - O título do documento vem do catálogo do SEI e pode trazer nome de pessoa, assim como o texto.
 - Para rodar a partir de um worktree, onde as pastas de dados não existem:
   `--raiz-dados ../chatbot-ran-icmbio`.

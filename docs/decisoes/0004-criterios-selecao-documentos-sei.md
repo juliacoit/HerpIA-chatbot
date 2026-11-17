@@ -177,6 +177,28 @@ Com autorização da Júlia, o `status_exportacao` dos 173 processos em
 arquivo ganhou o campo `decisao_equipe_ran` com a data e o texto da decisão (o
 arquivo fica fora do git).
 
+## Atualização 2026-11-17
+
+Resposta da equipe do RAN a três das decisões levadas em 16/11:
+
+- **Acesso: só documentos públicos.** Sigilosos e restritos ficam de fora. Os
+  marcados assim na árvore do SEI já não tinham sido exportados (ADR 0010; nenhum
+  dos 1.197 documentos autorizados estava marcado). Ficam de fora também os **39
+  documentos públicos no SEI cujo texto menciona restrição de acesso** (sinal
+  `palavra_restrito` da triagem: sigiloso, confidencial, reservado, uso interno,
+  não divulgar, acesso ou documento restrito). Eles não geram chunks
+  (`scripts/processamento/gerar_chunks_sei.py`). Com isso, a pergunta sobre
+  controle de acesso por usuário deixa de bloquear o SEI.
+- **Dados pessoais: nomes de pessoas podem ficar** nos textos e nos títulos. CPF,
+  RG, e-mail e telefone continuam removidos (2026-11-11).
+- **Planilhas:** a equipe pediu uma explicação mais clara antes de decidir; ela
+  está em [`selecao_processos_sei.md`](../processos/selecao_processos_sei.md),
+  seção "Planilhas: por que é uma decisão à parte".
+
+Continuam em aberto: a decisão sobre as planilhas, a avaliação final de
+sensibilidade por documento (ADR 0002), a inclusão do SEI com a interface publicada
+na internet e o envio de trechos do SEI ao juiz externo do RAGAS.
+
 ## Consequências
 
 - A seleção por blocos internos reduz significativamente o volume a avaliar e aproveita a categorização temática já feita pela equipe do RAN.

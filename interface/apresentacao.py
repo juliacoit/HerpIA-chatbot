@@ -99,6 +99,13 @@ NOMES_SECOES_SALVE = {
 }
 
 
+def nome_categoria(secao: str) -> str:
+    """Categoria de coleta de um PDF, vinda como identificador
+    ("materiais-de-apoio"), escrita para leitura ("Materiais de apoio")."""
+    texto = secao.replace("-", " ").replace("_", " ").strip()
+    return texto[:1].upper() + texto[1:]
+
+
 def resumo_citacoes(grupos: list[dict]) -> str:
     n_docs = len(grupos)
     n_trechos = sum(len(g["trechos"]) for g in grupos)

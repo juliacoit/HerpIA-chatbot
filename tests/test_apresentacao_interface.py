@@ -114,3 +114,9 @@ def test_ordem_dos_documentos_pelo_melhor_chunk():
     assert [g["documento"] for g in grupos] == ["Bernardes.pdf", "Trachycephalus", "Trachemys"]
     assert apresentacao.rotulos_trechos(grupos[0]) == ["p. 14–15", "p. 30"]
     assert apresentacao.resumo_citacoes(grupos) == "3 documentos, 4 trechos"
+
+
+def test_nome_categoria_do_pdf_para_leitura():
+    assert apresentacao.nome_categoria("materiais-de-apoio") == "Materiais de apoio"
+    assert apresentacao.nome_categoria("normativas") == "Normativas"
+    assert apresentacao.nome_categoria("sumario_executivo") == "Sumario executivo"

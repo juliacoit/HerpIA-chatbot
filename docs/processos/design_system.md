@@ -292,6 +292,61 @@ Júlia para os usuários ajudarem nas métricas.
 - **Não verificado visualmente:** esta rodada foi conferida só por testes
   (`tests/test_feedback.py`) e compilação, sem captura de tela.
 
+**2026-11-17, sexta rodada — revisão do chat com a skill de design
+(tasteskill).** A skill foi feita para sites e páginas de apresentação;
+aqui entrou só o que vale para um chat: movimento de hover e pressão, foco,
+tamanho e contraste de texto, rótulos e botões. A identidade do RAN/ICMBio
+(cores, fontes, assinatura) não mudou. Conferida com capturas de tela em
+1440 e 390px, num backend falso (sem gravar no banco), nos três estados de
+resposta, na tela de acesso e no diálogo de feedback.
+
+- **Avatares** (`app.py`, `tema.py`): ícones Material com fundo cinza 15
+  (usuário) e verde RAN (HerpIA), no lugar do vermelho e laranja do
+  Streamlit. A assinatura do RAN não serve de avatar: é vertical, e o manual
+  proíbe cortar ou distorcer a marca. Com avatar próprio, o Streamlit marca
+  os dois como `stChatMessageAvatarCustom`; o CSS distingue pelo
+  `aria-label` da mensagem.
+- **Caixa de pergunta:** Source Sans 3 em 16px (era IBM Plex Mono, que lia
+  como código), um contorno só no foco (o textarea desenhava uma segunda
+  caixa verde), raio de 24px e texto de exemplo curto ("Pergunte sobre
+  répteis e anfíbios do Brasil"), que não corta no celular.
+- **Tela vazia:** linha de abertura em 16px com o número de trechos e as
+  três fontes, mais três perguntas de exemplo (casos A1/C3, A2 e A3 do
+  gabarito) como botões que enviam a pergunta.
+- **Cartão de citação:** os trechos eram expanders com borda e sombra
+  dentro do cartão (caixa dentro de caixa); viraram linhas separadas por
+  filete, e o espaço entre selo, título e link diminuiu. A categoria do PDF
+  aparece para leitura ("Materiais de apoio", `apresentacao.nome_categoria`).
+- **Selo da fonte:** grafia de cada nome (Monitora, PANs, SALVE, SEI,
+  Publicações) em vez de tudo em maiúsculas, e 13px no mínimo (era 11,5px).
+- **Faixa de estado** mais baixa (10px de respiro, ícone de 18px), para
+  não competir com a resposta.
+- **Login para avaliar:** a frase repetida sob cada resposta ("Para avaliar
+  esta resposta, entre… botão Entrar, na barra lateral") virou o botão
+  "Entrar para avaliar".
+- **Barra lateral:** rótulos de grupo em 13px no cinza 80 (as maiúsculas
+  espaçadas no cinza 60 ficavam em 2,8:1); nome de cada fonte na cor do
+  corpo e a cor da fonte na caixa de marcação (o verde-claro do SALVE como
+  texto tinha 3,4:1); "Trechos por resposta" no lugar de "Trechos
+  recuperados (top_k)", com o termo técnico na ajuda; o alerta verde
+  "Backend conectado" virou uma linha com ponto verde (o alerta vermelho
+  continua para a falha); "Limpar conversa" só aparece com conversa.
+- **Movimento:** botões sobem 1px no hover e descem 1px com escala 0,985 na
+  pressão (150/120/90ms, curva sem passar do ponto), só com mouse; links com
+  sublinhado fino que escurece. Com movimento reduzido, nada se desloca.
+- **Foco pelo teclado:** anel de 2px no verde RAN 800, a 2px do controle,
+  sem transição, em botões, links, expanders e caixas de marcação (era uma
+  sombra verde-clara com 1,4:1 sobre o fundo).
+- **Polegares** com 36px (eram 30px) e 44px no celular, o mínimo para toque.
+- **Diálogo de feedback:** o campo de comentário tem rótulo visível.
+- **Não aplicado da skill:** primeira tela de destaque, seções de uma tela,
+  fotografias, animação de entrada e a verificação final automática
+  (`gate.mjs`), que são regras de página de apresentação e reprovariam
+  qualquer chat.
+- **Observação técnica:** o Streamlit não recarrega `tema.py` quando o
+  arquivo muda; depois de editar o CSS, é preciso reiniciar o
+  `streamlit run`.
+
 ## Limitação conhecida: "redução mínima" do logo não verificada
 
 `design-system/components/brand/Logo.jsx` referencia a "redução mínima"

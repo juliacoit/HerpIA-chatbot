@@ -268,18 +268,21 @@ def _icone_data_uri(nome: str, cor: str, tamanho: int = 16) -> str:
 
 
 # Nome de exibição + ícone por fonte de dados (design-system/components/rag/SourceChip.jsx).
+# Grafia de cada nome, não caixa-alta para todos (revisão de 2026-11-17): o
+# SourceChip do design system escrevia MONITORA, PANS e PUBLICAÇÕES em
+# maiúsculas, mas só SALVE e SEI são siglas; "PANs" é o plural de PAN.
 _FONTE_META = {
-    "monitora": {"label": "MONITORA", "icon": "activity"},
-    "pans": {"label": "PANS", "icon": "clipboard-list"},
+    "monitora": {"label": "Monitora", "icon": "activity"},
+    "pans": {"label": "PANs", "icon": "clipboard-list"},
     "salve": {"label": "SALVE", "icon": "leaf"},
     "sei": {"label": "SEI", "icon": "folder-lock"},
-    "publicacoes": {"label": "PUBLICAÇÕES", "icon": "book-open"},
+    "publicacoes": {"label": "Publicações", "icon": "book-open"},
 }
 
 
 def rotulo_fonte(fonte: str) -> str:
-    """Nome de exibição de uma fonte de dados (ex.: "monitora" -> "MONITORA")."""
-    return _FONTE_META.get(fonte, {"label": fonte.upper()})["label"]
+    """Nome de exibição de uma fonte de dados (ex.: "monitora" -> "Monitora")."""
+    return _FONTE_META.get(fonte, {"label": fonte.capitalize()})["label"]
 
 
 def chip_fonte(fonte: str, pequeno: bool = True) -> str:
@@ -292,17 +295,18 @@ def chip_fonte(fonte: str, pequeno: bool = True) -> str:
     mesmo que o valor vier do backend — sem risco de injeção.
     """
     cor = CORES_FONTE.get(fonte)
-    meta = _FONTE_META.get(fonte, {"label": fonte.upper(), "icon": "file-text"})
+    meta = _FONTE_META.get(fonte, {"label": fonte.capitalize(), "icon": "file-text"})
     if not cor:
         return html.escape(meta["label"])
-    altura = 20 if pequeno else 24
+    # 13px no mínimo (antes 11,5px): rótulo lido, não enfeite.
+    altura = 22 if pequeno else 26
     padding_h = 8 if pequeno else 10
-    fonte_px = "11.5px" if pequeno else "12.5px"
+    fonte_px = "13px" if pequeno else "14px"
     return (
         f'<span style="display:inline-flex;align-items:center;gap:5px;height:{altura}px;'
         f'padding:0 {padding_h}px;border-radius:999px;background:{CORES["white"]};'
         f'border:1px solid {cor};color:{cor};font-family:\'Source Sans 3\',sans-serif;'
-        f'font-size:{fonte_px};font-weight:600;letter-spacing:0.01em;white-space:nowrap;">'
+        f'font-size:{fonte_px};font-weight:600;white-space:nowrap;">'
         f'{_icone(meta["icon"], 14, cor)}{meta["label"]}</span>'
     )
 
@@ -326,12 +330,59 @@ def faixa_estado(estado: str) -> None:
     """
     meta = _ESTADO_META[estado]
     cores = CORES_ESTADO[estado]
+    # Faixa compacta (revisão de 2026-11-17): antes tinha 16px de respiro e
+    # ocupava quase a altura de um parágrafo da resposta, que é o conteúdo
+    # principal. Ícone e texto alinhados ao centro, 10px de respiro.
     st.markdown(
-        f'<div style="display:flex;gap:12px;padding:16px;background:{cores["bg"]};border-radius:14px;">'
-        f'<span style="color:{cores["fg"]};flex:none;padding-top:1px;">'
-        f'{_icone(meta["icon"], 20, cores["fg"])}</span>'
-        f'<div style="min-width:0;font-size:14px;font-weight:600;color:{cores["fg"]};">'
+        f'<div style="display:flex;align-items:center;gap:10px;padding:10px 14px;'
+        f'background:{cores["bg"]};border-radius:12px;">'
+        f'<span style="color:{cores["fg"]};flex:none;display:inline-flex;">'
+        f'{_icone(meta["icon"], 18, cores["fg"])}</span>'
+        f'<div style="min-width:0;font-size:14px;line-height:1.4;font-weight:600;color:{cores["fg"]};">'
         f'{meta["titulo"]}</div></div>',
+        unsafe_allow_html=True,
+    )
+
+
+def rotulo_secao(texto: str) -> None:
+    """Rótulo de grupo (sidebar, exemplos): 13px, peso 600, cinza 80 do
+    manual (5,7:1 sobre o branco). Substitui as maiúsculas espaçadas em
+    cinza 60 de antes, que ficavam em 2,8:1. Só recebe texto autoral."""
+    st.markdown(
+        f'<p class="herpia-rotulo" style="margin:0 0 4px; font-size:13px; font-weight:600;'
+        f' color:{CORES["text_muted"]};">{html.escape(texto)}</p>',
+        unsafe_allow_html=True,
+    )
+
+
+def rotulo_autor(texto: str) -> None:
+    """Nome de quem fala, acima da resposta. Menor que antes (18px em
+    Archivo competia com o título da tela); o avatar já marca o autor."""
+    st.markdown(
+        f'<p style="margin:0 0 2px; font-family:\'Archivo\',sans-serif; font-size:14px;'
+        f' font-weight:600; color:{CORES["text_title"]};">{html.escape(texto)}</p>',
+        unsafe_allow_html=True,
+    )
+
+
+def linha_status(texto: str) -> None:
+    """Estado da base na sidebar quando está tudo certo: ponto verde e uma
+    linha de 13px, em vez de um alerta. Só recebe texto autoral."""
+    st.markdown(
+        f'<p style="display:flex; align-items:flex-start; gap:8px; margin:0; font-size:13px;'
+        f' line-height:1.45; color:{CORES["text_muted"]};">'
+        f'<span style="flex:none; width:8px; height:8px; margin-top:5px; border-radius:999px;'
+        f' background:{CORES["icmbio_verde"]};"></span>{html.escape(texto)}</p>',
+        unsafe_allow_html=True,
+    )
+
+
+def paragrafo_lead(texto: str) -> None:
+    """Linha abaixo do título da tela, em 16px (antes era st.caption, 14px
+    em cinza claro, abaixo do mínimo de leitura). Só recebe texto autoral."""
+    st.markdown(
+        f'<p style="margin:-4px 0 8px; font-size:16px; line-height:1.55; max-width:62ch;'
+        f' color:{CORES["text_muted"]};">{html.escape(texto)}</p>',
         unsafe_allow_html=True,
     )
 
@@ -358,8 +409,15 @@ def aplicar_estilo() -> None:
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="{_FONTES}" rel="stylesheet">
             <style>
+              /* Movimento (revisão de 2026-11-17, regras de hover da skill de
+                 design): entra em 150ms, sai em 120ms, pressão em 90ms, uma
+                 curva de saída suave sem passar do ponto. Só transform,
+                 opacidade e cor se movem; nada muda de tamanho. */
               :root {{
-                --herpia-ease: cubic-bezier(0.2,0,0.2,1);
+                --herpia-ease: cubic-bezier(0.2,0.8,0.2,1);
+                --herpia-in: 150ms;
+                --herpia-out: 120ms;
+                --herpia-press: 90ms;
               }}
 
               .stApp {{
@@ -386,14 +444,35 @@ def aplicar_estilo() -> None:
               h2 {{ font-size: 23px !important; line-height: 1.3 !important; }}
               h3 {{ font-size: 18px !important; line-height: 1.35 !important; }}
 
-              code, pre,
-              [data-testid="stExpander"] summary,
-              [data-testid="stChatInput"] textarea {{
+              /* Mono só para código e dados. A caixa de pergunta e os títulos
+                 dos trechos (Visão geral, p. 5-7) eram mono e liam como
+                 código; agora seguem a fonte do corpo. */
+              code, pre {{
                 font-family: 'IBM Plex Mono', monospace !important;
               }}
 
-              a {{ color: {CORES["text_link"]}; transition: color 140ms var(--herpia-ease); }}
-              a:hover {{ color: {CORES["text_link_hover"]}; }}
+              /* Links: sublinhado fino e claro em repouso, que escurece no
+                 hover junto com o texto. */
+              a {{
+                color: {CORES["text_link"]};
+                text-decoration-line: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 3px;
+                text-decoration-color: {CORES["ran_azul_200"]};
+                transition: color var(--herpia-out) var(--herpia-ease),
+                            text-decoration-color var(--herpia-out) var(--herpia-ease);
+              }}
+              a:hover {{
+                color: {CORES["text_link_hover"]};
+                text-decoration-color: currentColor;
+                transition-duration: var(--herpia-in);
+              }}
+
+              /* A borda do expander fica só no contorno de fora; o details de
+                 dentro desenhava uma segunda linha à esquerda. */
+              [data-testid="stExpander"] details {{
+                border: none !important;
+              }}
 
               /* Cards (citações): raio 14px, borda 1px — nunca sombra alta */
               [data-testid="stExpander"] {{
@@ -410,14 +489,40 @@ def aplicar_estilo() -> None:
                 max-width: 68ch;
               }}
 
-              /* Controles são pill (999px) — botões e chat input */
+              /* Controles são pill (999px). Hover: o botão sobe 1px e a cor
+                 dá um passo; pressão: desce 1px abaixo do repouso e encolhe
+                 para 0,985. O movimento só vale para mouse (ponteiro fino);
+                 no toque fica só a mudança de cor. */
               [data-testid^="stBaseButton"] {{
                 border-radius: 999px !important;
-                transition: background-color 140ms var(--herpia-ease),
-                            border-color 140ms var(--herpia-ease),
-                            box-shadow 140ms var(--herpia-ease);
+                transition: background-color var(--herpia-out) var(--herpia-ease),
+                            border-color var(--herpia-out) var(--herpia-ease),
+                            color var(--herpia-out) var(--herpia-ease),
+                            transform var(--herpia-out) var(--herpia-ease);
               }}
-              [data-testid^="stBaseButton"]:active {{ transform: scale(0.985); }}
+              @media (hover: hover) and (pointer: fine) {{
+                [data-testid^="stBaseButton"]:not(:disabled):hover {{
+                  transform: translateY(-1px);
+                  transition-duration: var(--herpia-in);
+                }}
+              }}
+              [data-testid^="stBaseButton"]:not(:disabled):active {{
+                transform: translateY(1px) scale(0.985);
+                transition-duration: var(--herpia-press);
+              }}
+              /* Botão terciário (Entrar para avaliar, Adicionar comentário):
+                 texto em verde RAN, sem caixa. */
+              [data-testid="stBaseButton-tertiary"] {{
+                color: {CORES["ran_verde_800"]} !important;
+                font-weight: 600;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+              }}
+              [data-testid="stBaseButton-tertiary"]:hover {{
+                color: {CORES["ran_verde_900"]} !important;
+                text-decoration: underline;
+                text-underline-offset: 3px;
+              }}
               [data-testid^="stBaseButton-secondary"] {{
                 background: {CORES["surface_card"]} !important;
                 border-color: {CORES["border_strong"]} !important;
@@ -427,8 +532,116 @@ def aplicar_estilo() -> None:
                 background: {CORES["surface_sunken"]} !important;
                 border-color: {CORES["text_muted"]} !important;
               }}
+              /* Caixa de pergunta: fonte do corpo em 16px (no celular, menos
+                 que 16px faz o navegador ampliar a página), um contorno só.
+                 Antes o foco desenhava uma segunda caixa verde dentro da
+                 primeira. Raio de 24px: com duas linhas, o pill deformava. */
               [data-testid="stChatInput"] {{
-                border-radius: 999px !important;
+                border-radius: 24px !important;
+                border: 1px solid {CORES["border_strong"]} !important;
+                background: {CORES["surface_card"]} !important;
+                transition: border-color var(--herpia-out) var(--herpia-ease),
+                            box-shadow var(--herpia-out) var(--herpia-ease);
+              }}
+              [data-testid="stChatInput"]:focus-within {{
+                border-color: {CORES["border_focus"]} !important;
+                box-shadow: 0 0 0 3px {CORES["ran_verde_100"]} !important;
+                transition-duration: var(--herpia-in);
+              }}
+              [data-testid="stChatInputTextArea"] {{
+                font-family: 'Source Sans 3', system-ui, sans-serif !important;
+                font-size: 16px !important;
+                line-height: 1.5 !important;
+                color: {CORES["text_body"]} !important;
+              }}
+              [data-testid="stChatInputTextArea"]:focus,
+              [data-testid="stChatInputTextArea"]:focus-visible {{
+                outline: none !important;
+                box-shadow: none !important;
+                border-color: transparent !important;
+              }}
+              [data-testid="stChatInputTextArea"]::placeholder {{
+                color: {CORES["text_muted"]} !important;
+                opacity: 1;
+              }}
+
+              /* Avatares: usuário em cinza neutro, HerpIA no verde RAN. Os
+                 padrão do Streamlit eram vermelho e laranja. Com avatar
+                 próprio (app.py), o Streamlit marca os dois como
+                 stChatMessageAvatarCustom; quem fala sai do aria-label do
+                 conteúdo da mensagem. */
+              [data-testid="stChatMessage"]:has([aria-label="Chat message from user"]) [data-testid="stChatMessageAvatarCustom"] {{
+                background: {CORES["cinza_15"]} !important;
+                border-color: {CORES["cinza_15"]} !important;
+              }}
+              [data-testid="stChatMessage"]:has([aria-label="Chat message from user"]) [data-testid="stChatMessageAvatarCustom"] span {{
+                color: {CORES["ink"]} !important;
+              }}
+              [data-testid="stChatMessage"]:has([aria-label="Chat message from assistant"]) [data-testid="stChatMessageAvatarCustom"] {{
+                background: {CORES["ran_verde"]} !important;
+                border-color: {CORES["ran_verde"]} !important;
+              }}
+              [data-testid="stChatMessage"]:has([aria-label="Chat message from assistant"]) [data-testid="stChatMessageAvatarCustom"] span {{
+                color: {CORES["white"]} !important;
+              }}
+              /* Pergunta do usuário em superfície afundada, sem competir com a
+                 resposta, que fica no fundo da página. */
+              [data-testid="stChatMessage"]:has([aria-label="Chat message from user"]) {{
+                background: {CORES["surface_sunken"]} !important;
+                border-radius: 14px;
+              }}
+
+              /* Exemplos de pergunta na tela vazia: botões secundários que
+                 quebram linha, alinhados à esquerda. */
+              .st-key-exemplos {{
+                flex-wrap: wrap !important;
+                gap: 8px !important;
+              }}
+              .st-key-exemplos [data-testid^="stBaseButton"] p {{
+                font-size: 15px;
+                text-align: left;
+              }}
+
+              /* Cartão de documento citado: os trechos eram caixas com borda e
+                 sombra dentro da caixa do cartão. Agora são linhas separadas
+                 por um filete, e o cartão tem menos espaço entre as partes. */
+              [class*="st-key-doc-"] [data-testid="stVerticalBlock"] {{
+                gap: 0.5rem !important;
+              }}
+              [class*="st-key-doc-"] [data-testid="stExpander"] details {{
+                border: none !important;
+                border-radius: 0 !important;
+              }}
+              [class*="st-key-doc-"] [data-testid="stExpander"] {{
+                border: none !important;
+                border-top: 1px solid {CORES["border_hairline"]} !important;
+                border-radius: 0 !important;
+                box-shadow: none !important;
+              }}
+              [class*="st-key-doc-"] [data-testid="stExpander"] summary {{
+                padding-left: 0 !important;
+              }}
+              [class*="st-key-doc-"] [data-testid="stCaptionContainer"] {{
+                font-size: 13px;
+              }}
+              [class*="st-key-doc-"] [data-testid="stMarkdownContainer"] p {{
+                margin-bottom: 0 !important;
+              }}
+
+              /* Caixa de marcação de cada fonte na sidebar, na cor da fonte
+                 (CORES_FONTE: informação, não enfeite). O texto do rótulo
+                 fica na cor do corpo, para ter contraste. */
+              .st-key-fonte-monitora label[data-selected="true"] span + div {{
+                background: {CORES_FONTE["monitora"]} !important;
+                border-color: {CORES_FONTE["monitora"]} !important;
+              }}
+              .st-key-fonte-pans label[data-selected="true"] span + div {{
+                background: {CORES_FONTE["pans"]} !important;
+                border-color: {CORES_FONTE["pans"]} !important;
+              }}
+              .st-key-fonte-salve label[data-selected="true"] span + div {{
+                background: {CORES_FONTE["salve"]} !important;
+                border-color: {CORES_FONTE["salve"]} !important;
               }}
 
               /* Tela de acesso (interface/acesso.py, porta LoginScreen.jsx):
@@ -471,13 +684,19 @@ def aplicar_estilo() -> None:
                 border-color: {CORES["action_primary_hover"]} !important;
               }}
 
-              /* Foco: nunca remover — anel verde RAN, sem exceção */
+              /* Foco pelo teclado: nunca remover. Anel de 2px no verde RAN
+                 escuro, a 2px do controle, sem transição (aparece na hora).
+                 Antes era uma sombra verde-clara de 3px, com contraste 1,4:1
+                 sobre o fundo da página. A caixa de pergunta mostra o foco no
+                 contorno dela (regra acima). */
               [data-testid^="stBaseButton"]:focus-visible,
-              [data-testid="stChatInputTextArea"]:focus-visible,
+              [data-testid="stExpander"] summary:focus-visible,
+              [data-testid="stCheckbox"] label[data-focus-visible="true"] span + div,
               a:focus-visible {{
-                outline: none !important;
-                border-color: {CORES["border_focus"]} !important;
-                box-shadow: 0 0 0 3px {CORES["ran_verde_200"]} !important;
+                outline: 2px solid {CORES["border_focus"]} !important;
+                outline-offset: 2px !important;
+                box-shadow: none !important;
+                transition: none !important;
               }}
 
               /* Status do backend na sidebar (st.success/st.error, único uso
@@ -525,9 +744,9 @@ def aplicar_estilo() -> None:
                  aqui: depois de enviado, app.py troca os botões por um aviso. */
               [class*="st-key-util-"] button,
               [class*="st-key-nao_util-"] button {{
-                width: 30px !important;
-                min-width: 30px !important;
-                height: 30px !important;
+                width: 36px !important;
+                min-width: 36px !important;
+                height: 36px !important;
                 padding: 0 !important;
                 background-color: transparent !important;
                 border: 1px solid {CORES["border_hairline"]} !important;
@@ -556,8 +775,24 @@ def aplicar_estilo() -> None:
                 white-space: nowrap;
               }}
 
+              /* No celular, os polegares chegam a 44px, o mínimo para o toque. */
+              @media (max-width: 640px) {{
+                [class*="st-key-util-"] button,
+                [class*="st-key-nao_util-"] button {{
+                  width: 44px !important;
+                  min-width: 44px !important;
+                  height: 44px !important;
+                }}
+              }}
+
+              /* Movimento reduzido: as cores ainda mudam, nada se desloca. */
               @media (prefers-reduced-motion: reduce) {{
-                * {{ transition: none !important; animation: none !important; }}
+                * {{ animation: none !important; }}
+                [data-testid^="stBaseButton"],
+                [data-testid^="stBaseButton"]:hover,
+                [data-testid^="stBaseButton"]:active {{
+                  transform: none !important;
+                }}
               }}
             </style>
             """

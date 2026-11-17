@@ -23,6 +23,21 @@ from cliente_api import ErroAPI, ErroSessao, enviar_feedback, estado_backend, pe
 FONTES_DISPONIVEIS = ["monitora", "pans", "salve"]
 TRECHOS_INDEXADOS = "59.085"  # mesmo número citado em CLAUDE.md/docs — atualizar junto se mudar
 
+# Perguntas de exemplo da tela vazia: casos do gabarito revisado pela equipe
+# do RAN (A1/C3, A2, A3), que a base responde com fonte.
+PERGUNTAS_EXEMPLO = [
+    "Há jacarés ameaçados de extinção no Brasil?",
+    "Quais são os objetivos do PAN Herpetofauna do Espinhaço?",
+    "O que é o Programa Monitora do ICMBio?",
+]
+
+# Avatares do chat: ícones Material, com as cores do RAN pelo CSS de
+# tema.aplicar_estilo() (os padrão do Streamlit são vermelho e laranja). A
+# assinatura do RAN não serve de avatar: é vertical, e o manual do ICMBio
+# proíbe cortar ou distorcer a marca.
+AVATAR_USUARIO = ":material/person:"
+AVATAR_HERPIA = ":material/smart_toy:"
+
 st.set_page_config(page_title="HerpIA — RAN/ICMBio", page_icon="🦎", layout="centered")
 tema.aplicar_estilo()
 
@@ -63,7 +78,9 @@ def _renderizar_documento(grupo: dict, indice: int, chave: str) -> None:
     # ficha colapsavam numa só (diagnóstico da sessão RAN de 26/10, H1).
     # O texto do chunk não faz parte do CitationCard de referência, mas
     # continua exposto (ver docs/processos/design_system.md).
-    with st.container(border=True):
+    # A chave `doc-` deixa o CSS de tema.aplicar_estilo() achatar os
+    # expanders de trecho dentro do cartão (sem caixa dentro de caixa).
+    with st.container(border=True, key=f"doc-{chave}"):
         col_numero, col_corpo = st.columns([1, 14], gap="small")
         with col_numero:
             st.markdown(
@@ -80,7 +97,7 @@ def _renderizar_documento(grupo: dict, indice: int, chave: str) -> None:
             primeiro = grupo["trechos"][0]
             if primeiro.get("pagina_inicio") and primeiro.get("secao"):
                 # PDF: a "seção" é a categoria de coleta (ex.: materiais-de-apoio).
-                st.caption(primeiro["secao"])
+                st.caption(apresentacao.nome_categoria(primeiro["secao"]))
             if grupo.get("url_origem"):
                 # Sem a seta "↗": design-system/readme.md (Iconografia) proíbe
                 # caractere unicode como ícone. O external-link do
@@ -124,16 +141,16 @@ def _formulario_feedback(item: dict, avaliacao: int) -> None:
         for codigo, rotulo in apresentacao.MOTIVOS_FEEDBACK.items():
             if st.checkbox(rotulo, value=codigo in marcados, key=f"motivo-{item['id']}-{codigo}"):
                 motivos.append(codigo)
-    st.caption("O comentário é opcional e fica registrado junto da avaliação.")
+    # Rótulo visível acima do campo (antes ficava oculto, com uma frase
+    # cinza no lugar); o limite de caracteres o próprio campo mostra.
     comentario = st.text_area(
-        "Comentário",
+        "Comentário (opcional)",
         value=item.get("feedback_comentario") or "",
         placeholder="Ex.: a resposta citou o documento errado.",
         max_chars=2000,
-        label_visibility="collapsed",
         key=f"comentario-{item['id']}-{avaliacao}",
     )
-    st.caption("Máx. 2000 caracteres")
+    st.caption("Fica registrado junto da avaliação.")
     col_cancelar, col_enviar = st.columns(2)
     if col_cancelar.button("Cancelar", width="stretch"):
         st.rerun()
@@ -173,11 +190,7 @@ def _registrar_feedback(
 
 
 def _renderizar_resposta(item: dict, idx: int) -> None:
-    st.markdown(
-        f'<div style="font-family:\'Archivo\',sans-serif; font-weight:600; font-size:18px;'
-        f' color:{tema.CORES["text_title"]}; margin-bottom:6px;">HerpIA</div>',
-        unsafe_allow_html=True,
-    )
+    tema.rotulo_autor("HerpIA")
     st.write(item["resposta"])
 
     estado = apresentacao.estado_resposta(item)
@@ -205,7 +218,11 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
                 if st.button(rotulo, key=f"comentar-{idx}", type="tertiary"):
                     _dialogo_comentario(item)
     elif MODO_AUTH == "feedback" and acesso.sessao_atual() is None:
-        st.caption("Para avaliar esta resposta, entre com o usuário institucional (botão Entrar, na barra lateral).")
+        # Antes: uma frase longa repetida sob cada resposta, mandando o
+        # usuário procurar o botão na barra lateral. Agora o próprio botão.
+        if st.button("Entrar para avaliar", key=f"entrar-{idx}", type="tertiary"):
+            st.session_state.mostrar_acesso = True
+            st.rerun()
     else:
         # Par de botões circulares com polegar, lado a lado com o rótulo
         # (design-system/components/rag/FeedbackButtons.jsx). O ícone e o
@@ -224,36 +241,34 @@ def _renderizar_resposta(item: dict, idx: int) -> None:
 with st.sidebar:
     tema.marca_sidebar()
 
-    st.markdown(
-        f'<span style="font-size:11.5px; font-weight:600; letter-spacing:0.08em;'
-        f' text-transform:uppercase; color:{tema.CORES["text_subtle"]};">Fontes da base</span>',
-        unsafe_allow_html=True,
-    )
+    tema.rotulo_secao("Fontes da base")
     fontes_selecionadas = []
+    # O texto do rótulo fica na cor do corpo (o verde-claro do SALVE tinha
+    # contraste 3,4:1 sobre o branco); a cor da fonte vai para a caixa de
+    # marcação, pelo CSS de tema.aplicar_estilo(), que mira estas chaves.
     for fonte in FONTES_DISPONIVEIS:
-        rotulo_chip = tema.rotulo_fonte(fonte)
-        cor_chip = tema.CORES_FONTE.get(fonte)
-        rotulo_md = f':color[{rotulo_chip}]{{foreground="{cor_chip}"}}' if cor_chip else rotulo_chip
-        if st.checkbox(rotulo_md, value=True, key=f"fonte-{fonte}"):
+        if st.checkbox(tema.rotulo_fonte(fonte), value=True, key=f"fonte-{fonte}"):
             fontes_selecionadas.append(fonte)
     st.checkbox(
-        f':color[{tema.rotulo_fonte("sei")}]{{foreground="{tema.CORES_FONTE["sei"]}"}}',
+        tema.rotulo_fonte("sei"),
         value=False,
         disabled=True,
         key="fonte-sei",
-        help="Não indexado — acesso restrito (ver CLAUDE.md).",
+        help="Não indexado: acesso restrito (ver CLAUDE.md).",
     )
-    st.caption("SEI: não indexado — acesso restrito")
+    st.caption("SEI não indexado: acesso restrito")
 
-    top_k = st.slider("Trechos recuperados (top_k)", min_value=1, max_value=20, value=5)
+    top_k = st.slider(
+        "Trechos por resposta",
+        min_value=1,
+        max_value=20,
+        value=5,
+        help="Quantos trechos da base são enviados ao modelo para montar cada resposta (top_k).",
+    )
     st.divider()
     sessao = acesso.sessao_atual()
     if sessao is not None:
-        st.markdown(
-            f'<span style="font-size:11.5px; font-weight:600; letter-spacing:0.08em;'
-            f' text-transform:uppercase; color:{tema.CORES["text_subtle"]};">Sessão</span>',
-            unsafe_allow_html=True,
-        )
+        tema.rotulo_secao("Sessão")
         # Nome e usuário vêm do backend: st.text, nunca HTML interpolado.
         st.text(sessao["nome"])
         st.caption(sessao["usuario"])
@@ -268,36 +283,45 @@ with st.sidebar:
             st.session_state.mostrar_acesso = True
             st.rerun()
         st.divider()
-    if ESTADO_BACKEND is not None:
-        st.success("Backend conectado")
-    else:
-        st.error("Backend não respondeu — ver SETUP_PROJETO.md")
-    st.divider()
-    if st.button("Limpar conversa"):
+    if st.session_state.historico and st.button("Limpar conversa"):
         st.session_state.historico = []
         st.rerun()
-    st.divider()
-    st.caption(f"{TRECHOS_INDEXADOS} trechos indexados")
-    st.caption("Base atualizada semestralmente")
+    # Estado do backend: uma linha discreta quando está tudo certo; o alerta
+    # vermelho fica só para a falha, que é quando o usuário precisa agir.
+    if ESTADO_BACKEND is not None:
+        tema.linha_status(f"Base conectada: {TRECHOS_INDEXADOS} trechos, atualizada a cada semestre")
+    else:
+        st.error("O backend não respondeu. Ver SETUP_PROJETO.md.")
 
 st.title("Consulta")
-st.caption(
-    "Respostas geradas apenas a partir dos trechos recuperados na base de "
-    "conhecimento do RAN/ICMBio (Monitora, PANs, SALVE), sempre com as fontes."
+tema.paragrafo_lead(
+    f"Respostas montadas só com os {TRECHOS_INDEXADOS} trechos do Monitora, dos PANs e "
+    "do SALVE, sempre com a fonte de cada informação."
 )
 
-pergunta_atual = st.chat_input("Pergunte sobre répteis e anfíbios — ex.: quais anfíbios ameaçados ocorrem no Cerrado?")
+pergunta_atual = st.chat_input("Pergunte sobre répteis e anfíbios do Brasil")
+# Um clique num exemplo grava a pergunta e recarrega; ela entra aqui como se
+# tivesse sido digitada.
+pergunta_atual = pergunta_atual or st.session_state.pop("pergunta_exemplo", None)
+
+if not st.session_state.historico and not pergunta_atual:
+    tema.rotulo_secao("Exemplos de pergunta")
+    with st.container(horizontal=True, key="exemplos"):
+        for i, exemplo in enumerate(PERGUNTAS_EXEMPLO):
+            if st.button(exemplo, key=f"exemplo-{i}"):
+                st.session_state.pergunta_exemplo = exemplo
+                st.rerun()
 
 for idx, item in enumerate(st.session_state.historico):
-    with st.chat_message("user"):
+    with st.chat_message("user", avatar=AVATAR_USUARIO):
         st.write(item["pergunta"])
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar=AVATAR_HERPIA):
         _renderizar_resposta(item, idx)
 
 if pergunta_atual:
-    with st.chat_message("user"):
+    with st.chat_message("user", avatar=AVATAR_USUARIO):
         st.write(pergunta_atual)
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar=AVATAR_HERPIA):
         with st.spinner("Consultando a base de conhecimento..."):
             try:
                 resultado = perguntar(

@@ -150,6 +150,12 @@ _CONECTIVOS_E_PRONOMES_COMUNS = {
     # mas "existir" não estava na lista) retidos por engano, mesma
     # assinatura de falso positivo institucional/genérico do achado A2.
     "além", "disso", "como", "existe", "existem", "existia", "existiam",
+    # Advérbio de negação e outras formas de "haver" (só "há" estava aqui) —
+    # achado da interação 1415 (2026-11-17): resposta sobre a justificativa
+    # LC de Acanthochelys radiolata retida porque um item de lista começava
+    # com "3. Não houve evidências suficientes..." e o trecho do SALVE diz
+    # "não há indícios" — "Não houve" foi tratado como nome binomial sem apoio.
+    "não", "houve", "havia", "haverá", "haja", "houvesse",
 }
 # Verbo no infinitivo liderando item de lista de ação — achado da revisão da
 # bateria `2026-08-21_16h55` (caso A2): documentos institucionais (PANs)

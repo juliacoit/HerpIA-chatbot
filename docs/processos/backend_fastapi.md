@@ -336,7 +336,7 @@ opcionais do LLM (todos com default, nenhum obrigatório):
 | `QDRANT_URL` / `QDRANT_LOCAL_PATH` | mesmo comportamento do `indexar_chunks.py` — local tem prioridade |
 | `QDRANT_COLLECTION` | coleção consultada |
 | `LLM_PROVIDER`, `OLLAMA_URL`, `LLM_MODEL` | ADR 0006 — hoje só `ollama` está implementado |
-| `LLM_NUM_CTX` (8192), `LLM_TEMPERATURE`, `LLM_SEED`, `LLM_THINK`, `LLM_TIMEOUT` (120) | parâmetros enviados ao Ollama; sem valor = campo não enviado. `LLM_THINK` aceita `true`/`false` ou `low`/`medium`/`high`. Config em vigor visível em `GET /saude`; uso de tokens por chamada no header `X-LLM-Uso` de `/perguntar` |
+| `LLM_NUM_CTX` (8192), `LLM_TEMPERATURE` (0), `LLM_SEED` (42), `LLM_THINK`, `LLM_TIMEOUT` (120) | parâmetros enviados ao Ollama; temperatura/seed fixos desde 2026-11-17 (antes valia o padrão do Ollama, 0.8); variável vazia = campo não enviado. `LLM_THINK` aceita `true`/`false` ou `low`/`medium`/`high`. Config em vigor visível em `GET /saude`; uso de tokens por chamada no header `X-LLM-Uso` de `/perguntar` |
 | `PERMITIR_MODO_AVALIACAO` (false) | libera `incluir_contextos` em `/perguntar` (avaliação offline, ADR 0007); `true` só no PC de desenvolvimento |
 | `OPENAI_API_KEY` | reservado para quando `LLM_PROVIDER=openai` for implementado |
 | `DATABASE_URL` | string de conexão do PostgreSQL (logging/feedback, `backend/db.py`) — se ausente/inacessível, logging e feedback ficam desativados sem derrubar o resto da API |

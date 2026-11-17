@@ -33,11 +33,18 @@ class Settings(BaseSettings):
     ollama_url: str = "http://localhost:11434"
     llm_model: str = "qwen2.5:3b-instruct"
     # Parâmetros enviados ao Ollama. None = não enviar o campo (vale o padrão
-    # do modelo). num_ctx é o único com default ativo: o padrão do Ollama
-    # (4096) já quase estoura com top_k=5 (3977 tokens medidos).
+    # do modelo). num_ctx: o padrão do Ollama (4096) já quase estoura com
+    # top_k=5 (3977 tokens medidos).
+    # temperature/seed: até 2026-11-17 eram None, e o Ollama usava 0.8 com o
+    # qwen2.5:3b-instruct (o modelo não define temperatura própria). Na
+    # interação 1415, quatro gerações do mesmo prompt deram quatro respostas
+    # diferentes, três com erro. 0 e 42 são a linha de base das comparações
+    # de geradores e de juízes (diagnosticos/comparacao-geradores-rodada1.md,
+    # comparacao-juizes-rodada2.md). LLM_TEMPERATURE/LLM_SEED vazios no
+    # ambiente voltam a não enviar o campo.
     llm_num_ctx: int = 8192
-    llm_temperature: float | None = None
-    llm_seed: int | None = None
+    llm_temperature: float | None = 0.0
+    llm_seed: int | None = 42
     llm_think: bool | str | None = None  # true/false, ou low/medium/high (gpt-oss)
     llm_timeout: float = 120.0
     openai_api_key: str | None = None
@@ -60,6 +67,13 @@ class Settings(BaseSettings):
     auth_exigir: Literal["nada", "feedback", "tudo"] = "nada"
     auth_sessao_horas: int = 12
     auth_convite_dias: int = 7
+
+    @field_validator("llm_temperature", "llm_seed", mode="before")
+    @classmethod
+    def _vazio_nao_envia(cls, valor):
+        if isinstance(valor, str) and valor.strip() == "":
+            return None
+        return valor
 
     @field_validator("llm_think", mode="before")
     @classmethod

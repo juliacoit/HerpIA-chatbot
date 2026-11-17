@@ -11,7 +11,16 @@ indexação possa ser feita por etapas depois da avaliação. Por isso:
 
 Entrada: 07_processados/textos_extraidos/sei/ (extrair_texto_sei.py), já sem
 CPF, RG, e-mail e telefone. Coordenadas e localizações de espécies ficam
-(decisão da Júlia de 2026-11-11). Nomes de pessoas NÃO são removidos.
+(decisão da Júlia de 2026-11-11). Nomes de pessoas NÃO são removidos: a equipe
+do RAN aceitou que fiquem nos textos e nos títulos (decisão de 2026-11-17).
+
+Só documentos públicos (decisão da equipe do RAN de 2026-11-17): sigilosos e
+restritos ficam de fora. Os marcados assim na árvore do SEI já não foram
+exportados (exportar_documentos_sei.py); aqui saem também os documentos públicos
+no SEI cujo texto menciona restrição de acesso (sinal "palavra_restrito" de
+regras_pii.py: sigiloso, confidencial, reservado, uso interno, não divulgar,
+acesso ou documento restrito). Eles não geram chunks e ficam listados, só pelo
+número SEI, no relatório.
 
 Estratégias:
   - Texto corrido (PDF, HTML do SEI, Word, PPTX, imagem): janela deslizante
@@ -63,6 +72,7 @@ FORMATOS_PLANILHA = {"xlsx", "xlsm", "xls", "ods"}
 MIN_CHARS_DOCUMENTO = 50
 LIMITE_CABECALHO_COLUNAS = 600
 LIMITE_TITULO = 200
+SINAL_RESTRICAO = "palavra_restrito"
 
 
 def _abreviar(texto: str, limite: int) -> str:
@@ -173,6 +183,11 @@ def cabecalho(dados: dict, titulo: str | None, tipo_processo: str | None, segmen
     return "\n".join(linhas)
 
 
+def excluido_por_restricao(sinais: list[str]) -> bool:
+    """Documento fora da base por mencionar restrição de acesso no texto."""
+    return SINAL_RESTRICAO in sinais
+
+
 def chunkar_documento_sei(
     dados: dict, caminho_relativo: str, titulo: str | None = None, tipo_processo: str | None = None
 ) -> list[dict]:
@@ -257,6 +272,8 @@ def main():
 
     por_tipo, por_formato, por_sinal = Counter(), Counter(), Counter()
     documentos_sem_sinal = chunks_sem_sinal = total_chunks = 0
+    excluidos_restricao: list[str] = []
+    chunks_excluidos = 0
     saida.parent.mkdir(parents=True, exist_ok=True)
     with saida.open("w", encoding="utf-8") as f_out:
         for arquivo, dados in documentos:
@@ -264,6 +281,11 @@ def main():
             chunks = chunkar_documento_sei(
                 dados, caminho_relativo, titulos.get(dados["numero_sei"]), tipos_processo.get(dados.get("processo"))
             )
+            if chunks and excluido_por_restricao(chunks[0]["sinais_triagem"]):
+                contagem["excluido_restricao"] += 1
+                excluidos_restricao.append(dados["numero_sei"])
+                chunks_excluidos += len(chunks)
+                continue
             contagem["com_chunks" if chunks else "sem_chunks"] += 1
             for indice, chunk in enumerate(chunks):
                 chunk["tambem_em"] = repetidos.get(dados["numero_sei"], [])
@@ -290,6 +312,12 @@ def main():
         "documentos_por_sinal_triagem": dict(por_sinal),
         "documentos_sem_sinal": documentos_sem_sinal,
         "chunks_de_documentos_sem_sinal": chunks_sem_sinal,
+        "excluidos_por_restricao": {
+            "criterio": "texto menciona restrição de acesso (sinal palavra_restrito); decisão do RAN de 2026-11-17",
+            "documentos": len(excluidos_restricao),
+            "chunks_nao_gerados": chunks_excluidos,
+            "numeros_sei": sorted(excluidos_restricao),
+        },
     }
     relatorio_json.parent.mkdir(parents=True, exist_ok=True)
     relatorio_json.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -298,6 +326,7 @@ def main():
     print(f"  documentos: {dict(contagem)}")
     print(f"  chunks por tipo de conteúdo: {dict(por_tipo)}")
     print(f"  documentos sem nenhum sinal de triagem: {documentos_sem_sinal} ({chunks_sem_sinal} chunks)")
+    print(f"  fora por mencionar restrição de acesso: {len(excluidos_restricao)} ({chunks_excluidos} chunks)")
     print(f"  Saída:     {saida}")
     print(f"  Relatório: {relatorio_json}")
 

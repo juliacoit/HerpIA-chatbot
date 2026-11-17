@@ -124,3 +124,19 @@ def test_sinais_do_documento_inteiro_vao_para_todos_os_chunks():
 
     assert len(chunks) > 1
     assert all(c["sinais_triagem"] == ["palavra_restrito"] for c in chunks)
+
+
+def test_documento_que_menciona_restricao_fica_fora():
+    # Decisão do RAN de 2026-11-17: só documentos públicos entram.
+    texto = "Relatório técnico de circulação reservada ao ICMBio, com dados de monitoramento."
+    chunks = chunkar(documento("pdf", [{"pagina": 1, "texto": texto}]))
+    assert "palavra_restrito" in chunks[0]["sinais_triagem"]
+    assert gerar_chunks_sei.excluido_por_restricao(chunks[0]["sinais_triagem"])
+
+
+def test_documento_publico_com_nome_de_pessoa_continua():
+    # Nomes de pessoas podem ficar (decisão do RAN de 2026-11-17).
+    texto = "Relatório de campo elaborado por Maria Silva sobre a ocorrência de anfíbios no Cerrado."
+    chunks = chunkar(documento("pdf", [{"pagina": 1, "texto": texto}]))
+    assert chunks
+    assert not gerar_chunks_sei.excluido_por_restricao(chunks[0]["sinais_triagem"])
